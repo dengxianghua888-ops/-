@@ -14,6 +14,6 @@ automation:
   runner: agent
   provider: 
   current_phase: 5
-  retry_count: 1
+  retry_count: 2
   human_gates:
     phase2_blueprint_review: skipped

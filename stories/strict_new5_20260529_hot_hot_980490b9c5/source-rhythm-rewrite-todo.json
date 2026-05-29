@@ -15,20 +15,20 @@
     "sentence_avg_len": 17.3
   },
   "candidate": {
-    "chars": 8089,
-    "line_count": 482,
-    "avg_line_chars": 16.782,
+    "chars": 8059,
+    "line_count": 465,
+    "avg_line_chars": 17.331,
     "median_line_chars": 15.0,
-    "short_line_rate": 0.6079,
-    "long_line_rate": 0.0207,
-    "quote_line_rate": 0.3859,
+    "short_line_rate": 0.5892,
+    "long_line_rate": 0.0215,
+    "quote_line_rate": 0.4,
     "barrage_line_rate": 0.0,
-    "question_marks_per_k": 8.159,
-    "comma_period_ratio": 0.454,
-    "sentence_avg_len": 10.6
+    "question_marks_per_k": 5.708,
+    "comma_period_ratio": 0.465,
+    "sentence_avg_len": 10.7
   },
   "failures": [
-    "short_line_rate 0.608 over-fragments source rhythm 0.445"
+    "short_line_rate 0.589 over-fragments source rhythm 0.445"
   ],
   "rewrite_instructions": [
     "保持每个 scene 的事件和字数区间不变,只修节奏。",
