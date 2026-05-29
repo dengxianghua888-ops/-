@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B5-B6",
+  "scene_label": "骨髓·胚胎双索取",
+  "location": "礼安王府内堂",
+  "time": "申时一刻起",
+  "pov": "谢长卿",
+  "characters": [
+    "谢长卿",
+    "漱玉郡主",
+    "谢明姝",
+    "萧迟",
+    "太医院判"
+  ],
+  "character_goal": "护住自己的活骨髓与第九胎残躯",
+  "opposition_goal": "漱玉郡主下令熬制九胎合炼血参丸救萧迟",
+  "conflict_action": "谢明姝甩耳光、漱玉强按肩头、九胎冰封标本被尽数取出炼丹",
+  "information_gap": "九胎全是漱玉为萧迟主动堕掉的,主角未知真相",
+  "emotional_debt_delta": "+器官债:骨髓被割、九胎合炼+亲姐'你少二两骨血又死不了'",
+  "payoff_or_hook": "漱玉冷令'把府后冰窖里我替谢长卿怀过又流掉的八胎全给我取出来'",
+  "chapter_end_hook": "炼丹房捣药闷响传来,主角默念'卜骨,带我走'",
+  "paywall_card": true,
+  "target_chars_min": 1100,
+  "target_chars_max": 1450,
+  "must_include": [
+    "谢明姝耳光与'少二两骨血'金句",
+    "九胎冰窖合炼指令",
+    "主角咬漱玉手臂喷血",
+    "卜骨倒数'余下时辰:一刻'"
+  ],
+  "must_not_write_as_exposition": [
+    "禁血腥具象解剖描写",
+    "禁直接出现'流产手术'词汇",
+    "禁系统/数据/计时器现代意象"
+  ]
+}

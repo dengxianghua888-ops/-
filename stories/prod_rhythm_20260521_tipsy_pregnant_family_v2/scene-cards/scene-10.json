@@ -1,0 +1,21 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 730,
+  "target_chars_max": 840,
+  "location": "老戏楼放映墙前",
+  "time": "会议厅对峙后",
+  "pov": "温瓷第一人称",
+  "characters": ["温瓷", "陆砚辞", "陆老爷子", "秦月眠", "追文弹幕"],
+  "character_goal": "温瓷想看清三年前自己捡回陆砚辞的真相。",
+  "opposition_goal": "秦月眠想抢走解释权，把三年前说成陆砚辞追着她回国失败。",
+  "conflict_action": "老爷子播放雨巷监控，秦月眠伸手抢遥控，陆砚辞反手切到第二段视频，证明自己早就等在温瓷必经的巷口。",
+  "information_gap": "温瓷不是替身已释放，但离婚为什么发生还没有打开。",
+  "emotional_debt_delta": "替身债偿还；三年前真爱债释放，同时转入离婚解释债。",
+  "payoff_or_hook": "男主蓄意被捡，推翻白月光误导。",
+  "chapter_end_hook": "文件袋滑出一页纸，标题是孕妇隔离保护方案。",
+  "paywall_card": false,
+  "must_include": ["雨巷监控", "陆砚辞保存温瓷修过的戏服暗纹", "秦月眠抢遥控失败", "弹幕承认原评论区也看错"],
+  "must_not_write_as_exposition": ["不要写长篇回忆", "不要把监控内容讲成旁白说明", "不要让秦月眠洗白", "不要用抽象深情句替代证据"],
+  "rhythm_job": "2段监控切换+1次抢遥控动作+3条弹幕反转+章尾文件标题钩"
+}

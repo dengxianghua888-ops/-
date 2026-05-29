@@ -1,0 +1,37 @@
+{
+  "scene_id": "S12",
+  "beat_id": "B12",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "区人民法院第三法庭",
+  "time": "四个月后上午十点",
+  "pov": "first_person_林承",
+  "characters": ["林承", "张松", "周某(竞品 CEO)", "审判长", "孙律师", "旁听三户店主"],
+  "character_goal": "作为受害人证人陈述,不感情用事,只复述一次决定书原文",
+  "opposition_goal": "张松和周某辩护人主张'误判但非受贿'",
+  "conflict_action": "审判长宣读判决:张松受贿 116 万 + 滥用职权,合并执行有期徒刑十一年;周某行贿罪 7 年;5 名共犯各 3-7 年",
+  "information_gap": "无新信息,完成法律清算",
+  "emotional_debt_delta": "-5 法律偿还",
+  "payoff_or_hook": "法槌落下的'咚'声,与 S07 盖章的'啪'声形成钩前钩后回响",
+  "chapter_end_hook": "法槌落下：受贿罪、滥用职权罪，合并执行有期徒刑十一年。",
+  "paywall_card": false,
+  "must_include": [
+    "判决书具体罪名 2 项 + 刑期 11 年",
+    "周某第一次在法庭物理出现(为前面只闻其名补一个面孔)",
+    "三户店主在旁听席,不发言,只点头",
+    "林承陈述只一句:'我请求法庭以他们写在决定书上的金额为依据'"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林承哭",
+    "不要把判词读成全段",
+    "不要写媒体报道镜头"
+  ],
+  "rhythm_job": {
+    "shape": "陈述 1 句→宣读罪名→法槌→静默",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "三户店主点头 + 孙律师把笔合进笔筒"
+  }
+}

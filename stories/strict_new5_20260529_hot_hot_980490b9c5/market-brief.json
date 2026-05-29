@@ -1,0 +1,109 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": [500, 1200],
+    "tomato_preferred_chars": [500, 800],
+    "chapter_end_rule": "每章末必须有明确钩子：身份牌未翻、证据未公开、反派反扑、皇权/家族规则即将落下其一"
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：重生第一天，女主把庶妹攻略书改造成谋逆证据，直接送到皇帝案头",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "preferred_hook_types": ["H1 开局高压冲突", "H3 信息差/剧本反杀", "H4 身份与权力错位"]
+  },
+  "audience": {
+    "target_readers": "番茄女频短篇读者，偏好古言重生、穿越女翻车、嫡女复仇、皇权打脸、女主掌权爽文的人群",
+    "emotion_needs": [
+      "看伪女主金手指被拆穿",
+      "看偏心父亲和庶妹当众坍塌",
+      "看女主从被关柴房到执掌温家、入主东宫",
+      "看规则反杀：攻略书不是外挂，而是谋逆铁证"
+    ],
+    "topic_taboos": [
+      "女主回头求父爱或原谅温家",
+      "庶妹仅轻微受罚",
+      "太子被洗白成真爱",
+      "女主胜利完全依赖男主救场",
+      "大段朝政说明压过打脸节奏",
+      "现代网络词过密破坏古言语感"
+    ]
+  },
+  "genre_positioning": {
+    "primary_genre": "ancient_sweet",
+    "subgenre": "古言重生复仇 / 穿越女攻略书翻车 / 皇权打脸",
+    "reader_promise": "被庶妹用攻略书害死的嫡女重生后，抢先把攻略书献给皇帝，借皇权拆掉太子与穿越女的上位路，最终自立为后、共治盛世。",
+    "dominant_selling_points": [
+      "开局即掀桌：攻略书变谋逆书",
+      "伪女主光环被皇权和证据碾碎",
+      "嫡女不争宠，直接争规则解释权",
+      "家宅羞辱与朝堂清算双线并进"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula": "重生后我不按剧本走，反手把攻略书献给皇帝",
+        "type": "T1 强情节反转"
+      },
+      {
+        "formula": "庶妹靠攻略书当皇后，我把它改成谋逆书",
+        "type": "T1 道具反杀"
+      },
+      {
+        "formula": "穿越女想母仪天下，我先废了她的男主",
+        "type": "T2 身份错位打脸"
+      },
+      {
+        "formula": "她拿剧本上位，我拿剧本抄家",
+        "type": "T4 对仗短爆款"
+      }
+    ]
+  },
+  "market_constraints": {
+    "must_keep": [
+      "首章必须出现重生、攻略书、献给皇帝、谋逆四个爆点",
+      "前 3000 字完成女主被家族羞辱与太子危险信号双铺垫",
+      "第一个付费级卡点放在圣旨到来或废太子前后",
+      "反派每次炫耀都要转化为后续证据或反噬",
+      "女主胜利逻辑必须是预知信息 + 皇帝猜忌 + 证据闭环，而非单纯开挂"
+    ],
+    "preferred_payoff_pattern": [
+      "攻略书证据化",
+      "太子被废",
+      "庶妹入狱破防",
+      "温父从偏心到跪求",
+      "六皇子承认女主治世价值",
+      "帝后共治盛世"
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.0,
+      "requirements": "每章至少一个新问题：皇帝信不信、太子查到什么、庶妹如何反扑、女主如何借规则升位"
+    },
+    "paywall_points": {
+      "target_score": 9.0,
+      "requirements": "每 2500-3500 字设置一次强卡：圣旨到、废太子、县主册封、天牢对峙、宗人府互撕"
+    },
+    "emotional_release": {
+      "target_score": 9.2,
+      "requirements": "羞辱越具体，反杀越公开；偏心父亲、庶妹、太子必须分别承担身份、自由、权力损失"
+    },
+    "ai_flavor": {
+      "target_score": 0.5,
+      "max_allowed_score": 1.0,
+      "requirements": "少用抽象感慨和万能形容，靠动作、对话、证据、圣旨、账本、牢房场景推进"
+    },
+    "burst_density": {
+      "target_score": 9.0,
+      "requirements": "1000 字内至少一次反转或压迫升级；3000 字内必须出现平台级爆点"
+    }
+  }
+}

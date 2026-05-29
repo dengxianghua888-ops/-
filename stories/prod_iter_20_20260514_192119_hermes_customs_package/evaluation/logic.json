@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "score": 9.0,
+  "evidence": [
+    {"path": "draft-scenes/scene-01.md scene-07.md", "quote": "限量真品级·五十只·总估值30,000,000元 / 徐阳寄存白底鳄鱼皮铂金包五十只，估值30,000,000元", "note": "M1 同电子签同公章双签矛盾结论 — 死环成立"},
+    {"path": "draft-scenes/scene-08.md", "quote": "三千万真品五十只，被人调包了", "note": "M1 闭环报案 — 承认真品=监守自盗，承认假货=鉴定造假"},
+    {"path": "draft-scenes/scene-06.md", "quote": "八百万 / 两千万 / 四百九十八万 / 押金", "note": "三千万资金来源可追溯"},
+    {"path": "draft-scenes/scene-11.md", "quote": "三年，受害卖家四百二十七人，截留金额加你这单四千零八十二万", "note": "升级到公诉级，规避红线"},
+    {"path": "draft-scenes/scene-10.md", "quote": "市场监管局奢侈品打假专案组", "note": "执法主体改为民营+市监，避开海关公权力红线"}
+  ]
+}

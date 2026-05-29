@@ -1,0 +1,4156 @@
+{
+  "stories": [
+    {
+      "story": "stories/prod_batch_01_autopsy_vow",
+      "runs": [
+        {
+          "run_id": "20260508_211638",
+          "path": "stories/prod_batch_01_autopsy_vow/runs/20260508_211638",
+          "status": "unknown",
+          "started_at": "2026-05-08 21:16:38",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-08 21:16:38",
+              "ended": "2026-05-08 21:18:16",
+              "duration": "97s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-08 21:18:16",
+              "ended": "2026-05-08 21:25:30",
+              "duration": "434s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-08 21:25:30",
+              "ended": "2026-05-08 21:29:01",
+              "duration": "210s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-08 21:29:01",
+              "ended": "2026-05-08 21:34:14",
+              "duration": "313s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[15].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[16].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_213448",
+          "path": "stories/prod_batch_01_autopsy_vow/runs/20260508_213448",
+          "status": "unknown",
+          "started_at": "2026-05-08 21:34:48",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-08 21:34:48",
+              "ended": "2026-05-08 21:41:50",
+              "duration": "422s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-04.md length 699 outside scene card range 700-900",
+                "draft-scenes/scene-05.md length 643 outside scene card range 650-850",
+                "draft-scenes/scene-06.md length 634 outside scene card range 700-900",
+                "draft-scenes/scene-08.md length 727 outside scene card range 750-950",
+                "draft-scenes/scene-09.md length 683 outside scene card range 700-900",
+                "draft-scenes/scene-12.md length 710 outside scene card range 750-950",
+                "draft-scenes/scene-13.md length 664 outside scene card range 700-900",
+                "draft-scenes/scene-14.md length 647 outside scene card range 700-900",
+                "draft-scenes/scene-15.md length 657 outside scene card range 700-900",
+                "draft-scenes/scene-16.md length 683 outside scene card range 700-900",
+                "soft_forbidden_words: {'淡淡': 1, '轻轻': 4}"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_214527",
+          "path": "stories/prod_batch_01_autopsy_vow/runs/20260508_214527",
+          "status": "unknown",
+          "started_at": "2026-05-08 21:45:27",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-08 21:45:27",
+              "ended": "2026-05-08 21:50:02",
+              "duration": "275s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_215429",
+          "path": "stories/prod_batch_01_autopsy_vow/runs/20260508_215429",
+          "status": "unknown",
+          "started_at": "2026-05-08 21:54:29",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-08 21:54:29",
+              "ended": "2026-05-08 22:03:09",
+              "duration": "519s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 16",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_220422",
+          "path": "stories/prod_batch_01_autopsy_vow/runs/20260508_220422",
+          "status": "completed",
+          "started_at": "2026-05-08 22:04:22",
+          "ended_at": "2026-05-08 22:05:34",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-08 22:04:22",
+              "ended": "2026-05-08 22:05:34",
+              "duration": "72s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_01_autopsy_vow/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 11913,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            711,
+            677,
+            717,
+            743,
+            655,
+            702,
+            759,
+            785,
+            777,
+            762,
+            798,
+            828,
+            709,
+            705,
+            734,
+            723
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 90,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 9,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 16,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 11913,
+          "sentence_count": 701,
+          "avg_sentence_length": 15.994,
+          "dialogue_ratio": 0.1189,
+          "question_marks": 22,
+          "question_marks_per_k": 1.847,
+          "physical_emotion_hits": {
+            "指尖": 3,
+            "发麻": 1,
+            "喉咙": 1,
+            "指甲": 2,
+            "掌心": 6
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 26.526
+        },
+        "semantic_repetition": {
+          "sentence_count": 491,
+          "unique_sentence_skeletons": 491,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.002
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_02_abyss_profile",
+      "runs": [
+        {
+          "run_id": "20260508_220628",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_220628",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:06:28",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-08 22:06:28",
+              "ended": "2026-05-08 22:07:42",
+              "duration": "74s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-08 22:07:42",
+              "ended": "2026-05-08 22:15:47",
+              "duration": "484s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-08 22:15:47",
+              "ended": "2026-05-08 22:18:16",
+              "duration": "149s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_221900",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_221900",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:19:00",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-08 22:19:00",
+              "ended": "2026-05-08 22:25:08",
+              "duration": "367s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[15].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[16].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_222550",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_222550",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:25:50",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-08 22:25:50",
+              "ended": "2026-05-08 22:33:32",
+              "duration": "462s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-02.md length 812 outside scene card range 650-780",
+                "draft-scenes/scene-09.md length 791 outside scene card range 650-780",
+                "draft-scenes/scene-13.md length 716 outside scene card range 720-880",
+                "draft-scenes/scene-14.md length 849 outside scene card range 860-1040",
+                "draft-scenes/scene-15.md length 769 outside scene card range 820-1000",
+                "draft-scenes/scene-16.md length 574 outside scene card range 650-820",
+                "soft_forbidden_words: {'轻轻': 4}"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_223532",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_223532",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:35:32",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-08 22:35:32",
+              "ended": "2026-05-08 22:38:57",
+              "duration": "205s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_224135",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_224135",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:41:35",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-08 22:41:35",
+              "ended": "2026-05-08 22:50:22",
+              "duration": "526s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "chapter_hooks: coverage 0.9375 below 1.0",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 16",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 0.9375",
+                "quality-report.json self-reports pass but machine metrics fail: chapter_hooks: coverage 0.9375 below 1.0",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_225124",
+          "path": "stories/prod_batch_02_abyss_profile/runs/20260508_225124",
+          "status": "completed",
+          "started_at": "2026-05-08 22:51:24",
+          "ended_at": "2026-05-08 22:52:49",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-08 22:51:24",
+              "ended": "2026-05-08 22:52:49",
+              "duration": "85s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_02_abyss_profile/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 12850,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            720,
+            773,
+            794,
+            804,
+            776,
+            798,
+            767,
+            870,
+            776,
+            817,
+            897,
+            722,
+            779,
+            910,
+            853,
+            677
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 85,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 5,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 8,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 23,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 12850,
+          "sentence_count": 987,
+          "avg_sentence_length": 12.019,
+          "dialogue_ratio": 0.1788,
+          "question_marks": 53,
+          "question_marks_per_k": 4.125,
+          "physical_emotion_hits": {
+            "指尖": 7,
+            "眼眶": 1,
+            "指甲": 1,
+            "掌心": 5
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 27.782
+        },
+        "semantic_repetition": {
+          "sentence_count": 551,
+          "unique_sentence_skeletons": 550,
+          "max_sentence_repeats": 2,
+          "max_sentence_repeat_ratio": 0.0036
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_03_empress_exit",
+      "runs": [
+        {
+          "run_id": "20260508_225315",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_225315",
+          "status": "unknown",
+          "started_at": "2026-05-08 22:53:15",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-08 22:53:15",
+              "ended": "2026-05-08 22:55:02",
+              "duration": "106s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-08 22:55:02",
+              "ended": "2026-05-08 23:03:59",
+              "duration": "536s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_230453",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_230453",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:04:53",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-08 23:04:53",
+              "ended": "2026-05-08 23:08:18",
+              "duration": "205s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_230842",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_230842",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:08:42",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-08 23:08:42",
+              "ended": "2026-05-08 23:14:10",
+              "duration": "327s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[15].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_231447",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_231447",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:14:47",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-08 23:14:47",
+              "ended": "2026-05-08 23:22:26",
+              "duration": "458s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-02.md length 908 outside scene card range 1000-1250",
+                "draft-scenes/scene-03.md length 804 outside scene card range 1000-1250",
+                "draft-scenes/scene-04.md length 846 outside scene card range 1100-1350",
+                "draft-scenes/scene-05.md length 666 outside scene card range 750-900",
+                "draft-scenes/scene-06.md length 645 outside scene card range 750-950",
+                "draft-scenes/scene-07.md length 630 outside scene card range 850-1050",
+                "draft-scenes/scene-08.md length 631 outside scene card range 750-950",
+                "draft-scenes/scene-09.md length 723 outside scene card range 950-1200",
+                "draft-scenes/scene-10.md length 758 outside scene card range 1050-1300",
+                "draft-scenes/scene-11.md length 636 outside scene card range 1050-1300",
+                "draft-scenes/scene-12.md length 695 outside scene card range 1150-1400",
+                "draft-scenes/scene-13.md length 575 outside scene card range 750-900",
+                "draft-scenes/scene-14.md length 534 outside scene card range 700-850",
+                "draft-scenes/scene-15.md length 808 outside scene card range 1150-1450",
+                "target_length: actual 10768 below min 14000",
+                "soft_forbidden_words: {'微微': 1, '淡淡': 1, '轻轻': 5}"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_232658",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_232658",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:26:58",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-08 23:26:58",
+              "ended": "2026-05-08 23:31:42",
+              "duration": "283s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_233328",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_233328",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:33:28",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-08 23:33:28",
+              "ended": "2026-05-08 23:43:48",
+              "duration": "619s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 15",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260508_234436",
+          "path": "stories/prod_batch_03_empress_exit/runs/20260508_234436",
+          "status": "completed",
+          "started_at": "2026-05-08 23:44:36",
+          "ended_at": "2026-05-08 23:46:16",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-08 23:44:36",
+              "ended": "2026-05-08 23:46:16",
+              "duration": "99s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_03_empress_exit/final.md",
+        "target_length": {
+          "min": 14000,
+          "max": 16800,
+          "actual": 14463,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            908,
+            1040,
+            1035,
+            1117,
+            797,
+            752,
+            891,
+            777,
+            973,
+            1090,
+            1063,
+            1181,
+            811,
+            718,
+            1189
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 5,
+          "actual": 16,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 90,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 5,
+            "actual": 8,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 9,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 16,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 14463,
+          "sentence_count": 977,
+          "avg_sentence_length": 13.803,
+          "dialogue_ratio": 0.2215,
+          "question_marks": 39,
+          "question_marks_per_k": 2.697,
+          "physical_emotion_hits": {
+            "指尖": 8,
+            "手心": 2,
+            "眼眶": 1,
+            "指甲": 3,
+            "掌心": 15
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.662
+        },
+        "semantic_repetition": {
+          "sentence_count": 636,
+          "unique_sentence_skeletons": 636,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0016
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_04_blossom_network",
+      "runs": [
+        {
+          "run_id": "20260508_234652",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260508_234652",
+          "status": "unknown",
+          "started_at": "2026-05-08 23:46:52",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-08 23:46:52",
+              "ended": "2026-05-08 23:48:12",
+              "duration": "79s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-08 23:48:12",
+              "ended": "2026-05-08 23:55:45",
+              "duration": "453s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-08 23:55:45",
+              "ended": "2026-05-08 23:58:48",
+              "duration": "182s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-08 23:58:48",
+              "ended": "2026-05-09 00:03:25",
+              "duration": "276s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[15].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[16].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_000404",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260509_000404",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:04:04",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-09 00:04:04",
+              "ended": "2026-05-09 00:10:24",
+              "duration": "380s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-02.md length 596 outside scene card range 650-900",
+                "draft-scenes/scene-04.md length 652 outside scene card range 700-950",
+                "draft-scenes/scene-05.md length 612 outside scene card range 650-900",
+                "draft-scenes/scene-07.md length 601 outside scene card range 650-900",
+                "draft-scenes/scene-08.md length 634 outside scene card range 700-950",
+                "draft-scenes/scene-09.md length 622 outside scene card range 650-900",
+                "draft-scenes/scene-10.md length 609 outside scene card range 650-900",
+                "draft-scenes/scene-11.md length 635 outside scene card range 650-900",
+                "draft-scenes/scene-12.md length 585 outside scene card range 700-950",
+                "draft-scenes/scene-13.md length 626 outside scene card range 650-900",
+                "draft-scenes/scene-15.md length 649 outside scene card range 700-950",
+                "draft-scenes/scene-16.md length 669 outside scene card range 700-950",
+                "target_length: actual 10144 below min 11200",
+                "soft_forbidden_words: {'轻轻': 6}"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_001334",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260509_001334",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:13:34",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-09 00:13:34",
+              "ended": "2026-05-09 00:16:48",
+              "duration": "193s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.soft_forbidden_words.status must be pass or fail",
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_001841",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260509_001841",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:18:41",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-09 00:18:41",
+              "ended": "2026-05-09 00:26:16",
+              "duration": "455s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 11341 != 11427",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 16",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_002706",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260509_002706",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:27:06",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "20260509_002948",
+          "path": "stories/prod_batch_04_blossom_network/runs/20260509_002948",
+          "status": "completed",
+          "started_at": "2026-05-09 00:29:48",
+          "ended_at": "2026-05-09 00:31:17",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-09 00:29:48",
+              "ended": "2026-05-09 00:31:17",
+              "duration": "88s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_04_blossom_network/final.md",
+        "target_length": {
+          "min": 11200,
+          "max": 14400,
+          "actual": 11537,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            659,
+            677,
+            659,
+            749,
+            692,
+            678,
+            681,
+            784,
+            696,
+            684,
+            700,
+            747,
+            695,
+            673,
+            800,
+            853
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 81,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 10,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 14,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 11537,
+          "sentence_count": 1119,
+          "avg_sentence_length": 9.31,
+          "dialogue_ratio": 0.1795,
+          "question_marks": 55,
+          "question_marks_per_k": 4.767,
+          "physical_emotion_hits": {
+            "指尖": 4,
+            "手心": 1,
+            "喉咙": 1,
+            "眼眶": 2,
+            "掌心": 6
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 31.984
+        },
+        "semantic_repetition": {
+          "sentence_count": 381,
+          "unique_sentence_skeletons": 380,
+          "max_sentence_repeats": 2,
+          "max_sentence_repeat_ratio": 0.0052
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_05_allowance_truth",
+      "runs": [
+        {
+          "run_id": "20260509_003137",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_003137",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:31:37",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-09 00:31:37",
+              "ended": "2026-05-09 00:33:37",
+              "duration": "119s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-09 00:33:37",
+              "ended": "2026-05-09 00:38:01",
+              "duration": "264s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string",
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_003837",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_003837",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:38:37",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-09 00:38:37",
+              "ended": "2026-05-09 00:41:19",
+              "duration": "162s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-09 00:41:19",
+              "ended": "2026-05-09 00:45:48",
+              "duration": "268s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[15].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[16].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_004622",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_004622",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:46:22",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-09 00:46:22",
+              "ended": "2026-05-09 00:53:37",
+              "duration": "435s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-02.md length 898 outside scene card range 750-850",
+                "draft-scenes/scene-06.md length 716 outside scene card range 750-850",
+                "draft-scenes/scene-07.md length 676 outside scene card range 700-800",
+                "draft-scenes/scene-09.md length 741 outside scene card range 750-850",
+                "draft-scenes/scene-10.md length 733 outside scene card range 750-850",
+                "draft-scenes/scene-11.md length 643 outside scene card range 700-800",
+                "draft-scenes/scene-14.md length 736 outside scene card range 800-900",
+                "draft-scenes/scene-15.md length 791 outside scene card range 800-900",
+                "draft-scenes/scene-16.md length 710 outside scene card range 800-900"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_005648",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_005648",
+          "status": "unknown",
+          "started_at": "2026-05-09 00:56:48",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-09 00:56:48",
+              "ended": "2026-05-09 01:01:14",
+              "duration": "266s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_010412",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_010412",
+          "status": "unknown",
+          "started_at": "2026-05-09 01:04:12",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-09 01:04:12",
+              "ended": "2026-05-09 01:12:39",
+              "duration": "507s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "chapter_length: ch02 has 1337 chars, expected 500-1200",
+                "chapter_length: ch03 has 1557 chars, expected 500-1200",
+                "chapter_length: ch04 has 1465 chars, expected 500-1200",
+                "chapter_length: ch06 has 1222 chars, expected 500-1200",
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 12823 != 13602",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 12",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0",
+                "quality-report.json self-reports pass but machine metrics fail: chapter_length: ch02 has 1337 chars, expected 500-1200; chapter_length: ch03 has 1557 chars, expected 500-1200; chapter_length: ch04 has 1465 chars, expected 500-1200; chapter_length: ch06 has 1222 chars, expected 500-1200",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260509_011405",
+          "path": "stories/prod_batch_05_allowance_truth/runs/20260509_011405",
+          "status": "completed",
+          "started_at": "2026-05-09 01:14:05",
+          "ended_at": "2026-05-09 01:15:17",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-09 01:14:05",
+              "ended": "2026-05-09 01:15:17",
+              "duration": "72s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_05_allowance_truth/final.md",
+        "target_length": {
+          "min": 12000,
+          "max": 14000,
+          "actual": 13165,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            819,
+            853,
+            756,
+            911,
+            762,
+            767,
+            772,
+            914,
+            762,
+            765,
+            706,
+            878,
+            832,
+            857,
+            880,
+            805
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 91,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 5,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 11,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 36,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 13165,
+          "sentence_count": 922,
+          "avg_sentence_length": 13.279,
+          "dialogue_ratio": 0.2528,
+          "question_marks": 74,
+          "question_marks_per_k": 5.621,
+          "physical_emotion_hits": {
+            "指尖": 4,
+            "发麻": 1,
+            "手心": 2,
+            "喉咙": 2,
+            "指甲": 1,
+            "掌心": 3
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 30.156
+        },
+        "semantic_repetition": {
+          "sentence_count": 562,
+          "unique_sentence_skeletons": 561,
+          "max_sentence_repeats": 2,
+          "max_sentence_repeat_ratio": 0.0036
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_06_moon_spring",
+      "runs": [
+        {
+          "run_id": "20260511_102406",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_102406",
+          "status": "unknown",
+          "started_at": "2026-05-11 10:24:06",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "20260511_102709",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_102709",
+          "status": "unknown",
+          "started_at": "2026-05-11 10:27:09",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 10:27:09",
+              "ended": "2026-05-11 10:29:01",
+              "duration": "112s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-11 10:29:01",
+              "ended": "2026-05-11 10:38:32",
+              "duration": "570s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-11 10:38:32",
+              "ended": "2026-05-11 10:41:04",
+              "duration": "152s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 10:41:04",
+              "ended": "2026-05-11 10:49:17",
+              "duration": "492s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "21 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 10:49:17",
+              "ended": "2026-05-11 10:57:36",
+              "duration": "499s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 618 outside scene card range 750-850",
+                "draft-scenes/scene-02.md length 630 outside scene card range 700-800",
+                "draft-scenes/scene-03.md length 582 outside scene card range 700-800",
+                "draft-scenes/scene-04.md length 733 outside scene card range 800-900",
+                "draft-scenes/scene-05.md length 601 outside scene card range 650-750",
+                "draft-scenes/scene-06.md length 576 outside scene card range 700-850",
+                "draft-scenes/scene-07.md length 584 outside scene card range 700-850",
+                "draft-scenes/scene-08.md length 659 outside scene card range 800-950",
+                "draft-scenes/scene-09.md length 560 outside scene card range 700-850",
+                "draft-scenes/scene-10.md length 594 outside scene card range 700-850",
+                "draft-scenes/scene-11.md length 547 outside scene card range 650-800",
+                "draft-scenes/scene-12.md length 668 outside scene card range 800-950",
+                "draft-scenes/scene-13.md length 572 outside scene card range 700-850",
+                "draft-scenes/scene-14.md length 536 outside scene card range 650-800",
+                "draft-scenes/scene-15.md length 587 outside scene card range 700-850",
+                "draft-scenes/scene-16.md length 621 outside scene card range 800-950",
+                "draft-scenes/scene-17.md length 577 outside scene card range 700-850",
+                "draft-scenes/scene-18.md length 603 outside scene card range 800-950",
+                "draft-scenes/scene-19.md length 611 outside scene card range 850-1000",
+                "draft-scenes/scene-20.md length 523 outside scene card range 700-850",
+                "target_length: actual 11982 below min 15000",
+                "soft_forbidden_words: {'轻轻': 3}"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_105848",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_105848",
+          "status": "unknown",
+          "started_at": "2026-05-11 10:58:48",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 10:58:48",
+              "ended": "2026-05-11 11:06:45",
+              "duration": "476s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 491 outside scene card range 750-850",
+                "draft-scenes/scene-02.md length 530 outside scene card range 700-800",
+                "draft-scenes/scene-03.md length 514 outside scene card range 700-800",
+                "draft-scenes/scene-04.md length 571 outside scene card range 800-900",
+                "draft-scenes/scene-05.md length 466 outside scene card range 650-750",
+                "draft-scenes/scene-06.md length 480 outside scene card range 700-850",
+                "draft-scenes/scene-07.md length 472 outside scene card range 700-850",
+                "draft-scenes/scene-08.md length 518 outside scene card range 800-950",
+                "draft-scenes/scene-09.md length 472 outside scene card range 700-850",
+                "draft-scenes/scene-10.md length 519 outside scene card range 700-850",
+                "draft-scenes/scene-11.md length 492 outside scene card range 650-800",
+                "draft-scenes/scene-12.md length 539 outside scene card range 800-950",
+                "draft-scenes/scene-13.md length 520 outside scene card range 700-850",
+                "draft-scenes/scene-14.md length 470 outside scene card range 650-800",
+                "draft-scenes/scene-15.md length 505 outside scene card range 700-850",
+                "draft-scenes/scene-16.md length 500 outside scene card range 800-950",
+                "draft-scenes/scene-17.md length 502 outside scene card range 700-850",
+                "draft-scenes/scene-18.md length 494 outside scene card range 800-950",
+                "draft-scenes/scene-19.md length 568 outside scene card range 850-1000",
+                "draft-scenes/scene-20.md length 496 outside scene card range 700-850",
+                "target_length: actual 10119 below min 15000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_110756",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_110756",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:07:56",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 11:07:56",
+              "ended": "2026-05-11 11:11:18",
+              "duration": "202s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json critic_scores.emotion must be a number from 0 to 10",
+                "quality-report.json critic_scores.logic must be a number from 0 to 10",
+                "quality-report.json critic_scores.platform must be a number from 0 to 10",
+                "quality-report.json critic_scores.style must be a number from 0 to 10",
+                "missing machine-readable gate block in review.md",
+                "evaluation/platform.json score must be a number from 0 to 10",
+                "evaluation/emotion.json score must be a number from 0 to 10",
+                "evaluation/style.json score must be a number from 0 to 10",
+                "evaluation/logic.json score must be a number from 0 to 10"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_111427",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_111427",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:14:27",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-11 11:14:27",
+              "ended": "2026-05-11 11:28:54",
+              "duration": "866s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 10119 != 10039",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 10",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0",
+                "story.yaml status must be final, submitted, or test_fixture"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_112930",
+          "path": "stories/prod_batch_06_moon_spring/runs/20260511_112930",
+          "status": "completed",
+          "started_at": "2026-05-11 11:29:30",
+          "ended_at": "2026-05-11 11:31:07",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 11:29:30",
+              "ended": "2026-05-11 11:31:07",
+              "duration": "96s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_06_moon_spring/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 13000,
+          "actual": 10217,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 10,
+          "hook_hits": 10,
+          "hook_coverage": 1.0,
+          "lengths": [
+            999,
+            1074,
+            960,
+            980,
+            981,
+            1051,
+            984,
+            994,
+            1016,
+            1054
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 93,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 3,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 7,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 10,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10217,
+          "sentence_count": 600,
+          "avg_sentence_length": 16.028,
+          "dialogue_ratio": 0.1936,
+          "question_marks": 37,
+          "question_marks_per_k": 3.621,
+          "physical_emotion_hits": {
+            "指尖": 5,
+            "发麻": 1,
+            "太阳穴": 1,
+            "喉咙": 1,
+            "指甲": 5,
+            "掌心": 13
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.069
+        },
+        "semantic_repetition": {
+          "sentence_count": 452,
+          "unique_sentence_skeletons": 452,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0022
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_07_fake_princess_friends",
+      "runs": [
+        {
+          "run_id": "20260511_113236",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_113236",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:32:36",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 11:32:36",
+              "ended": "2026-05-11 11:34:21",
+              "duration": "104s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 11:34:21",
+              "ended": "2026-05-11 11:39:52",
+              "duration": "331s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_114052",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_114052",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:40:52",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 11:40:52",
+              "ended": "2026-05-11 11:45:07",
+              "duration": "254s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id",
+                "adaptation-room.json mechanism_preservation must be a non-empty object"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_114552",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_114552",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:45:52",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-11 11:45:52",
+              "ended": "2026-05-11 11:51:22",
+              "duration": "330s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[2].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[3].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[4].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[5].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[6].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[7].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[8].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[9].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[10].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[11].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[12].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[13].forbidden_summary must be a non-empty list",
+                "beat-bible.json beats[14].forbidden_summary must be a non-empty list"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_115200",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_115200",
+          "status": "unknown",
+          "started_at": "2026-05-11 11:52:00",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 11:52:00",
+              "ended": "2026-05-11 11:57:51",
+              "duration": "351s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 608 outside scene card range 820-980",
+                "draft-scenes/scene-02.md length 613 outside scene card range 820-980",
+                "draft-scenes/scene-03.md length 559 outside scene card range 860-1050",
+                "draft-scenes/scene-04.md length 591 outside scene card range 820-980",
+                "draft-scenes/scene-05.md length 574 outside scene card range 860-1050",
+                "draft-scenes/scene-06.md length 589 outside scene card range 860-1050",
+                "draft-scenes/scene-07.md length 541 outside scene card range 860-1050",
+                "draft-scenes/scene-08.md length 581 outside scene card range 860-1050",
+                "draft-scenes/scene-09.md length 605 outside scene card range 900-1100",
+                "draft-scenes/scene-10.md length 617 outside scene card range 950-1150",
+                "draft-scenes/scene-11.md length 537 outside scene card range 860-1050",
+                "draft-scenes/scene-12.md length 562 outside scene card range 900-1100",
+                "draft-scenes/scene-13.md length 550 outside scene card range 860-1050",
+                "draft-scenes/scene-14.md length 567 outside scene card range 950-1200",
+                "target_length: actual 8094 below min 12000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_120838",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_120838",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:08:38",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 12:08:38",
+              "ended": "2026-05-11 12:14:00",
+              "duration": "322s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_121937",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_121937",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:19:37",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-11 12:19:37",
+              "ended": "2026-05-11 12:27:51",
+              "duration": "493s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 10369 != 10387",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 14",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_122838",
+          "path": "stories/prod_batch_07_fake_princess_friends/runs/20260511_122838",
+          "status": "completed",
+          "started_at": "2026-05-11 12:28:38",
+          "ended_at": "2026-05-11 12:30:30",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 12:28:38",
+              "ended": "2026-05-11 12:30:30",
+              "duration": "111s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_07_fake_princess_friends/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 11500,
+          "actual": 10652,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            727,
+            786,
+            785,
+            715,
+            655,
+            890,
+            709,
+            720,
+            769,
+            764,
+            782,
+            756,
+            752,
+            727
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 85,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 11,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 9,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10652,
+          "sentence_count": 591,
+          "avg_sentence_length": 17.024,
+          "dialogue_ratio": 0.2894,
+          "question_marks": 76,
+          "question_marks_per_k": 7.135,
+          "physical_emotion_hits": {
+            "指尖": 4,
+            "发麻": 1,
+            "后背": 1,
+            "喉咙": 1,
+            "指甲": 3,
+            "掌心": 8
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.947
+        },
+        "semantic_repetition": {
+          "sentence_count": 466,
+          "unique_sentence_skeletons": 466,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0021
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_08_hotel_group",
+      "runs": [
+        {
+          "run_id": "20260511_123050",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_123050",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:30:50",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 12:30:50",
+              "ended": "2026-05-11 12:32:47",
+              "duration": "116s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 12:32:47",
+              "ended": "2026-05-11 12:38:50",
+              "duration": "363s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string",
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_123920",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_123920",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:39:20",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 12:39:20",
+              "ended": "2026-05-11 12:42:14",
+              "duration": "173s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_124247",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_124247",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:42:47",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-11 12:42:47",
+              "ended": "2026-05-11 12:48:17",
+              "duration": "329s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json beats[1] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[3] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[5] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[7] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[9] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[11] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[13] missing required keys: chapter_end_hook",
+                "beat-bible.json beats[15] missing required keys: chapter_end_hook",
+                "scene-cards/scene-01.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-03.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-05.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-07.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-09.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-11.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-13.json missing required keys: chapter_end_hook",
+                "scene-cards/scene-15.json missing required keys: chapter_end_hook"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_124847",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_124847",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:48:47",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 12:48:47",
+              "ended": "2026-05-11 12:54:57",
+              "duration": "370s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-08.md length 530 outside scene card range 550-700",
+                "draft-scenes/scene-09.md length 590 outside scene card range 600-750",
+                "draft-scenes/scene-10.md length 572 outside scene card range 600-750",
+                "draft-scenes/scene-12.md length 591 outside scene card range 600-750",
+                "draft-scenes/scene-14.md length 595 outside scene card range 600-750",
+                "draft-scenes/scene-15.md length 553 outside scene card range 600-750",
+                "target_length: actual 9461 below min 10000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_125618",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_125618",
+          "status": "unknown",
+          "started_at": "2026-05-11 12:56:18",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 12:56:18",
+              "ended": "2026-05-11 13:00:05",
+              "duration": "226s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_130620",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_130620",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:06:20",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-11 13:06:20",
+              "ended": "2026-05-11 13:13:58",
+              "duration": "458s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 10303 != 10415",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 16",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_131443",
+          "path": "stories/prod_batch_08_hotel_group/runs/20260511_131443",
+          "status": "completed",
+          "started_at": "2026-05-11 13:14:43",
+          "ended_at": "2026-05-11 13:16:31",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 13:14:43",
+              "ended": "2026-05-11 13:16:31",
+              "duration": "107s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_08_hotel_group/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10529,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            677,
+            613,
+            576,
+            629,
+            566,
+            575,
+            591,
+            727,
+            705,
+            706,
+            598,
+            719,
+            613,
+            745,
+            732,
+            611
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 4,
+            "chars": 113,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 11,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 20,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10529,
+          "sentence_count": 555,
+          "avg_sentence_length": 17.973,
+          "dialogue_ratio": 0.4194,
+          "question_marks": 83,
+          "question_marks_per_k": 7.883,
+          "physical_emotion_hits": {
+            "掌心": 1
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 22.984
+        },
+        "semantic_repetition": {
+          "sentence_count": 421,
+          "unique_sentence_skeletons": 421,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0024
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_09_streamer_exit",
+      "runs": [
+        {
+          "run_id": "20260511_131648",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_131648",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:16:48",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 13:16:48",
+              "ended": "2026-05-11 13:19:19",
+              "duration": "150s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 13:19:19",
+              "ended": "2026-05-11 13:25:01",
+              "duration": "342s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_132552",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_132552",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:25:52",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 13:25:52",
+              "ended": "2026-05-11 13:30:51",
+              "duration": "298s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id",
+                "adaptation-room.json mechanism_preservation must be a non-empty object"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_133120",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_133120",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:31:20",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 13:31:20",
+              "ended": "2026-05-11 13:36:27",
+              "duration": "306s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "16 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 13:36:27",
+              "ended": "2026-05-11 13:45:01",
+              "duration": "513s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 746 outside scene card range 900-1000",
+                "draft-scenes/scene-02.md length 729 outside scene card range 950-1050",
+                "draft-scenes/scene-03.md length 827 outside scene card range 1000-1100",
+                "draft-scenes/scene-04.md length 724 outside scene card range 1000-1100",
+                "draft-scenes/scene-05.md length 707 outside scene card range 950-1050",
+                "draft-scenes/scene-06.md length 689 outside scene card range 1000-1100",
+                "draft-scenes/scene-07.md length 707 outside scene card range 1000-1100",
+                "draft-scenes/scene-08.md length 697 outside scene card range 1050-1150",
+                "draft-scenes/scene-09.md length 695 outside scene card range 1000-1100",
+                "draft-scenes/scene-10.md length 746 outside scene card range 1050-1150",
+                "draft-scenes/scene-11.md length 710 outside scene card range 1000-1100",
+                "draft-scenes/scene-12.md length 734 outside scene card range 1000-1100",
+                "draft-scenes/scene-13.md length 676 outside scene card range 1000-1100",
+                "draft-scenes/scene-14.md length 729 outside scene card range 1000-1100",
+                "draft-scenes/scene-15.md length 761 outside scene card range 1050-1150",
+                "target_length: actual 10877 below min 15000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_134600",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_134600",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:46:00",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 13:46:00",
+              "ended": "2026-05-11 13:49:02",
+              "duration": "182s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "review.md critical_failures does not match quality-report.json",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_135305",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_135305",
+          "status": "unknown",
+          "started_at": "2026-05-11 13:53:05",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-11 13:53:05",
+              "ended": "2026-05-11 14:01:00",
+              "duration": "475s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 10892 != 11366",
+                "quality-report.json machine_metrics.chapters.count does not match machine recompute: 0 != 15",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 0.0 != 1.0"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_140128",
+          "path": "stories/prod_batch_09_streamer_exit/runs/20260511_140128",
+          "status": "completed",
+          "started_at": "2026-05-11 14:01:28",
+          "ended_at": "2026-05-11 14:02:49",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 14:01:28",
+              "ended": "2026-05-11 14:02:49",
+              "duration": "81s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_09_streamer_exit/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 11559,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            758,
+            786,
+            825,
+            746,
+            823,
+            687,
+            705,
+            819,
+            693,
+            742,
+            708,
+            851,
+            672,
+            838,
+            792
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 82,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 9,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 13,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 11559,
+          "sentence_count": 629,
+          "avg_sentence_length": 17.377,
+          "dialogue_ratio": 0.2831,
+          "question_marks": 58,
+          "question_marks_per_k": 5.018,
+          "physical_emotion_hits": {
+            "指甲": 1
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {
+            "微微": 1
+          },
+          "action_density_per_k": 24.743
+        },
+        "semantic_repetition": {
+          "sentence_count": 477,
+          "unique_sentence_skeletons": 477,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0021
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {
+            "微微": 1
+          },
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_10_tang_flower",
+      "runs": [
+        {
+          "run_id": "20260511_140334",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_140334",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:03:34",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "20260511_140426",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_140426",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:04:26",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 14:04:26",
+              "ended": "2026-05-11 14:05:55",
+              "duration": "89s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 14:05:55",
+              "ended": "2026-05-11 14:09:58",
+              "duration": "242s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_141035",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_141035",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:10:35",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 14:10:35",
+              "ended": "2026-05-11 14:14:46",
+              "duration": "251s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_141514",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_141514",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:15:14",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 14:15:14",
+              "ended": "2026-05-11 14:22:52",
+              "duration": "457s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "17 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 14:22:52",
+              "ended": "2026-05-11 14:28:58",
+              "duration": "365s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 606 outside scene card range 750-850",
+                "draft-scenes/scene-02.md length 614 outside scene card range 750-850",
+                "draft-scenes/scene-03.md length 609 outside scene card range 750-850",
+                "draft-scenes/scene-04.md length 630 outside scene card range 750-850",
+                "draft-scenes/scene-05.md length 561 outside scene card range 750-850",
+                "draft-scenes/scene-06.md length 558 outside scene card range 750-850",
+                "draft-scenes/scene-07.md length 579 outside scene card range 750-850",
+                "draft-scenes/scene-08.md length 572 outside scene card range 750-850",
+                "draft-scenes/scene-09.md length 526 outside scene card range 750-850",
+                "draft-scenes/scene-10.md length 527 outside scene card range 750-850",
+                "draft-scenes/scene-11.md length 542 outside scene card range 750-850",
+                "draft-scenes/scene-12.md length 592 outside scene card range 750-850",
+                "draft-scenes/scene-13.md length 551 outside scene card range 750-850",
+                "draft-scenes/scene-14.md length 556 outside scene card range 750-850",
+                "draft-scenes/scene-15.md length 520 outside scene card range 750-850",
+                "draft-scenes/scene-16.md length 581 outside scene card range 750-850",
+                "target_length: actual 9124 below min 10000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_143401",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_143401",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:34:01",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 14:34:01",
+              "ended": "2026-05-11 14:37:01",
+              "duration": "180s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_144415",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_144415",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:44:15",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "20260511_145800",
+          "path": "stories/prod_batch_10_tang_flower/runs/20260511_145800",
+          "status": "completed",
+          "started_at": "2026-05-11 14:58:00",
+          "ended_at": "2026-05-11 14:59:35",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 14:58:00",
+              "ended": "2026-05-11 14:59:35",
+              "duration": "95s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_10_tang_flower/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 10717,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            727,
+            667,
+            665,
+            728,
+            648,
+            657,
+            656,
+            669,
+            618,
+            611,
+            653,
+            716,
+            632,
+            648,
+            620,
+            685
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 12,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 84,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 11,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 23,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10717,
+          "sentence_count": 573,
+          "avg_sentence_length": 17.705,
+          "dialogue_ratio": 0.2282,
+          "question_marks": 34,
+          "question_marks_per_k": 3.173,
+          "physical_emotion_hits": {
+            "指尖": 3,
+            "手心": 1,
+            "后背": 1,
+            "眼眶": 3,
+            "掌心": 7
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 30.699
+        },
+        "semantic_repetition": {
+          "sentence_count": 442,
+          "unique_sentence_skeletons": 442,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0023
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_11_drowning_divorce",
+      "runs": [
+        {
+          "run_id": "20260511_145955",
+          "path": "stories/prod_batch_11_drowning_divorce/runs/20260511_145955",
+          "status": "unknown",
+          "started_at": "2026-05-11 14:59:55",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 14:59:55",
+              "ended": "2026-05-11 15:02:29",
+              "duration": "154s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 15:02:29",
+              "ended": "2026-05-11 15:10:11",
+              "duration": "461s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string",
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_151044",
+          "path": "stories/prod_batch_11_drowning_divorce/runs/20260511_151044",
+          "status": "unknown",
+          "started_at": "2026-05-11 15:10:44",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 15:10:44",
+              "ended": "2026-05-11 15:14:42",
+              "duration": "237s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_151533",
+          "path": "stories/prod_batch_11_drowning_divorce/runs/20260511_151533",
+          "status": "unknown",
+          "started_at": "2026-05-11 15:15:33",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 15:15:33",
+              "ended": "2026-05-11 15:20:55",
+              "duration": "322s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "17 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 15:20:55",
+              "ended": "2026-05-11 15:29:18",
+              "duration": "503s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 665 outside scene card range 900-1100",
+                "draft-scenes/scene-02.md length 822 outside scene card range 900-1100",
+                "draft-scenes/scene-03.md length 805 outside scene card range 900-1100",
+                "draft-scenes/scene-04.md length 715 outside scene card range 900-1100",
+                "draft-scenes/scene-05.md length 661 outside scene card range 900-1100",
+                "draft-scenes/scene-06.md length 699 outside scene card range 900-1100",
+                "draft-scenes/scene-07.md length 676 outside scene card range 900-1100",
+                "draft-scenes/scene-08.md length 716 outside scene card range 900-1100",
+                "draft-scenes/scene-09.md length 701 outside scene card range 900-1100",
+                "draft-scenes/scene-10.md length 736 outside scene card range 900-1100",
+                "draft-scenes/scene-11.md length 731 outside scene card range 900-1100",
+                "draft-scenes/scene-12.md length 665 outside scene card range 900-1100",
+                "draft-scenes/scene-13.md length 702 outside scene card range 900-1100",
+                "draft-scenes/scene-14.md length 667 outside scene card range 900-1100",
+                "draft-scenes/scene-15.md length 711 outside scene card range 900-1100",
+                "draft-scenes/scene-16.md length 719 outside scene card range 900-1100",
+                "draft.md must equal draft-scenes joined in scene_id order",
+                "target_length: actual 11391 below min 14000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_153116",
+          "path": "stories/prod_batch_11_drowning_divorce/runs/20260511_153116",
+          "status": "unknown",
+          "started_at": "2026-05-11 15:31:16",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "completed",
+              "started": "2026-05-11 15:31:16",
+              "ended": "2026-05-11 15:34:47",
+              "duration": "211s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 7,
+              "status": "failed",
+              "started": "2026-05-11 15:34:47",
+              "ended": "2026-05-11 15:43:10",
+              "duration": "503s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality-report.json machine_metrics.target_length.actual does not match machine recompute: 11391 != 12014",
+                "quality-report.json machine_metrics.paywall_cards.required does not match machine recompute: 5 != 4",
+                "quality-report.json machine_metrics.paywall_cards.actual does not match machine recompute: 5 != 10",
+                "quality-report.json machine_metrics.chapters.hook_coverage does not match machine recompute: 16 != 1.0"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_154352",
+          "path": "stories/prod_batch_11_drowning_divorce/runs/20260511_154352",
+          "status": "completed",
+          "started_at": "2026-05-11 15:43:52",
+          "ended_at": "2026-05-11 15:45:48",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 15:43:52",
+              "ended": "2026-05-11 15:45:48",
+              "duration": "116s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_11_drowning_divorce/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 13000,
+          "actual": 12211,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 16,
+          "hook_hits": 16,
+          "hook_coverage": 1.0,
+          "lengths": [
+            695,
+            782,
+            801,
+            709,
+            656,
+            721,
+            690,
+            736,
+            730,
+            940,
+            734,
+            845,
+            739,
+            662,
+            944,
+            714
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 84,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 7,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 12,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 12211,
+          "sentence_count": 665,
+          "avg_sentence_length": 17.362,
+          "dialogue_ratio": 0.195,
+          "question_marks": 61,
+          "question_marks_per_k": 4.995,
+          "physical_emotion_hits": {
+            "指尖": 1,
+            "胸腔": 1,
+            "喉咙": 3,
+            "眼眶": 1,
+            "掌心": 1
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {
+            "轻轻": 1
+          },
+          "action_density_per_k": 22.766
+        },
+        "semantic_repetition": {
+          "sentence_count": 504,
+          "unique_sentence_skeletons": 504,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.002
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {
+            "轻轻": 1
+          },
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_12_top_scorer_report",
+      "runs": [
+        {
+          "run_id": "20260511_154627",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_154627",
+          "status": "unknown",
+          "started_at": "2026-05-11 15:46:27",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 15:46:27",
+              "ended": "2026-05-11 15:48:37",
+              "duration": "130s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "failed",
+              "started": "2026-05-11 15:48:37",
+              "ended": "2026-05-11 15:53:25",
+              "duration": "287s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "story-brief.json hook_type must be a non-empty string",
+                "story-brief.json title_formula must be a non-empty string",
+                "story-brief.json payoff_pattern must be a non-empty string"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_155443",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_155443",
+          "status": "unknown",
+          "started_at": "2026-05-11 15:54:43",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-11 15:54:43",
+              "ended": "2026-05-11 15:58:15",
+              "duration": "211s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 15:58:15",
+              "ended": "2026-05-11 16:03:10",
+              "duration": "295s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "16 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_161316",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_161316",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:13:16",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-11 16:13:16",
+              "ended": "2026-05-11 16:19:50",
+              "duration": "394s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "draft-scenes/scene-01.md length 641 outside scene card range 780-920",
+                "draft-scenes/scene-02.md length 658 outside scene card range 760-900",
+                "draft-scenes/scene-03.md length 664 outside scene card range 760-920",
+                "draft-scenes/scene-04.md length 743 outside scene card range 820-980",
+                "draft-scenes/scene-05.md length 663 outside scene card range 760-920",
+                "draft-scenes/scene-06.md length 650 outside scene card range 760-940",
+                "draft-scenes/scene-07.md length 653 outside scene card range 760-920",
+                "draft-scenes/scene-08.md length 707 outside scene card range 840-1000",
+                "draft-scenes/scene-09.md length 680 outside scene card range 760-920",
+                "draft-scenes/scene-10.md length 688 outside scene card range 760-940",
+                "draft-scenes/scene-11.md length 630 outside scene card range 760-920",
+                "draft-scenes/scene-12.md length 673 outside scene card range 840-1000",
+                "draft-scenes/scene-13.md length 677 outside scene card range 760-940",
+                "draft-scenes/scene-14.md length 627 outside scene card range 760-940",
+                "draft-scenes/scene-15.md length 669 outside scene card range 780-960",
+                "target_length: actual 10023 below min 11000"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_162146",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_162146",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:21:46",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-11 16:21:46",
+              "ended": "2026-05-11 16:24:41",
+              "duration": "175s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_163146",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_163146",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:31:46",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "20260511_163841",
+          "path": "stories/prod_batch_12_top_scorer_report/runs/20260511_163841",
+          "status": "completed",
+          "started_at": "2026-05-11 16:38:41",
+          "ended_at": "2026-05-11 16:40:21",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 16:38:41",
+              "ended": "2026-05-11 16:40:21",
+              "duration": "100s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_12_top_scorer_report/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 10500,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            645,
+            662,
+            668,
+            777,
+            667,
+            654,
+            657,
+            738,
+            684,
+            692,
+            635,
+            706,
+            682,
+            703,
+            797
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 101,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 6,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 26,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10500,
+          "sentence_count": 561,
+          "avg_sentence_length": 17.717,
+          "dialogue_ratio": 0.2936,
+          "question_marks": 33,
+          "question_marks_per_k": 3.143,
+          "physical_emotion_hits": {
+            "指尖": 4,
+            "发麻": 1,
+            "后背": 2,
+            "喉咙": 2,
+            "眼眶": 1,
+            "心脏": 1,
+            "掌心": 3
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.238
+        },
+        "semantic_repetition": {
+          "sentence_count": 434,
+          "unique_sentence_skeletons": 432,
+          "max_sentence_repeats": 3,
+          "max_sentence_repeat_ratio": 0.0069
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_13_customs_package",
+      "runs": [
+        {
+          "run_id": "20260511_164056",
+          "path": "stories/prod_batch_13_customs_package/runs/20260511_164056",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:40:56",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 16:40:56",
+              "ended": "2026-05-11 16:43:13",
+              "duration": "136s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_165015",
+          "path": "stories/prod_batch_13_customs_package/runs/20260511_165015",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:50:15",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 3,
+              "status": "failed",
+              "started": "2026-05-11 16:50:15",
+              "ended": "2026-05-11 16:53:38",
+              "duration": "202s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "adaptation-room.json selected_candidate must match a candidate id"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_165411",
+          "path": "stories/prod_batch_13_customs_package/runs/20260511_165411",
+          "status": "unknown",
+          "started_at": "2026-05-11 16:54:11",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-11 16:54:11",
+              "ended": "2026-05-11 16:59:14",
+              "duration": "302s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "16 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_171733",
+          "path": "stories/prod_batch_13_customs_package/runs/20260511_171733",
+          "status": "unknown",
+          "started_at": "2026-05-11 17:17:33",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "completed",
+              "started": "2026-05-11 17:17:33",
+              "ended": "2026-05-11 17:20:35",
+              "duration": "182s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "20260511_172849",
+          "path": "stories/prod_batch_13_customs_package/runs/20260511_172849",
+          "status": "completed",
+          "started_at": "2026-05-11 17:28:49",
+          "ended_at": "2026-05-11 17:30:40",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-11 17:28:49",
+              "ended": "2026-05-11 17:30:40",
+              "duration": "111s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_13_customs_package/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 10300,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            729,
+            685,
+            701,
+            681,
+            670,
+            644,
+            623,
+            633,
+            648,
+            699,
+            653,
+            745,
+            667,
+            740,
+            660
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 89,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 7,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 14,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10300,
+          "sentence_count": 510,
+          "avg_sentence_length": 19.196,
+          "dialogue_ratio": 0.1946,
+          "question_marks": 30,
+          "question_marks_per_k": 2.913,
+          "physical_emotion_hits": {
+            "后槽牙": 1,
+            "手心": 1,
+            "喉咙": 3
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 25.34
+        },
+        "semantic_repetition": {
+          "sentence_count": 420,
+          "unique_sentence_skeletons": 420,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0024
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_14_spring_ming",
+      "runs": [
+        {
+          "run_id": "20260511_173147",
+          "path": "stories/prod_batch_14_spring_ming/runs/20260511_173147",
+          "status": "unknown",
+          "started_at": "2026-05-11 17:31:47",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-11 17:31:47",
+              "ended": "2026-05-11 17:33:38",
+              "duration": "111s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_14_spring_ming/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 10326,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            711,
+            706,
+            689,
+            732,
+            676,
+            669,
+            661,
+            667,
+            642,
+            656,
+            659,
+            695,
+            680,
+            685,
+            690
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 75,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 8,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 40,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10326,
+          "sentence_count": 539,
+          "avg_sentence_length": 18.158,
+          "dialogue_ratio": 0.0998,
+          "question_marks": 25,
+          "question_marks_per_k": 2.421,
+          "physical_emotion_hits": {
+            "指尖": 2,
+            "后背": 1,
+            "喉咙": 2,
+            "眼眶": 2,
+            "掌心": 3
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 28.859
+        },
+        "semantic_repetition": {
+          "sentence_count": 426,
+          "unique_sentence_skeletons": 412,
+          "max_sentence_repeats": 15,
+          "max_sentence_repeat_ratio": 0.0352
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_batch_15_drug_mom_revenge",
+      "runs": [],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_batch_15_drug_mom_revenge/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 12500,
+          "actual": 10204,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            767,
+            722,
+            703,
+            699,
+            741,
+            708,
+            729,
+            722,
+            729,
+            747,
+            683,
+            702,
+            688,
+            727
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 10,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 103,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 1,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 12,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 45,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10204,
+          "sentence_count": 498,
+          "avg_sentence_length": 19.49,
+          "dialogue_ratio": 0.0821,
+          "question_marks": 25,
+          "question_marks_per_k": 2.45,
+          "physical_emotion_hits": {
+            "指尖": 1,
+            "发麻": 1,
+            "手心": 2
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.204
+        },
+        "semantic_repetition": {
+          "sentence_count": 402,
+          "unique_sentence_skeletons": 376,
+          "max_sentence_repeats": 14,
+          "max_sentence_repeat_ratio": 0.0348
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    }
+  ]
+}

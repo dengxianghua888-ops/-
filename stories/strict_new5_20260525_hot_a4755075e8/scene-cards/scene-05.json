@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 680,
+  "target_chars_max": 780,
+  "location": "文旅招商饭局包间",
+  "time": "两天后晚上",
+  "pov": "沈念歌",
+  "characters": ["沈念歌", "齐衍深", "陆晚月", "甲方代表", "同桌同事"],
+  "character_goal": "拿回白玉拨片，并逼齐衍深在众人面前说清她和陆晚月谁在撒谎。",
+  "opposition_goal": "齐衍深要保合同保面子，陆晚月要借场合彻底压死她。",
+  "conflict_action": "陆晚月故意佩戴白玉拨片出席，齐衍深公开让沈念歌体面退场，陆晚月顺势亮出假怀孕筹码逼站队。",
+  "information_gap": "怀孕是真是假，齐衍深是被蒙还是主动信。",
+  "emotional_debt_delta": "继续负债：男主主动站到伤害那边，不再有误会空间。",
+  "payoff_or_hook": "公开场合站队完成，婚姻关系被正式判死。",
+  "chapter_end_hook": "截断动作：陆晚月把手按在小腹上，桌上瞬间静了一拍。",
+  "paywall_card": false,
+  "must_include": [
+    "白玉拨片出现在第三者身上的具体细节",
+    "齐衍深一句维护陆晚月的话",
+    "至少一个同桌人停筷或移开视线的生活动作",
+    "女主拿回未果，不撒泼"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释合同背景",
+    "不要把整桌人的反应写成名单",
+    "不要让冲突只剩尖叫和骂人"
+  ],
+  "rhythm_job": {
+    "shape": "礼貌表层-旧物刺脸-怀孕翻刀",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白压场，动作切针，留1句旁桌低声吐槽做承接，章尾钩落在怀孕宣称。"
+  }
+}

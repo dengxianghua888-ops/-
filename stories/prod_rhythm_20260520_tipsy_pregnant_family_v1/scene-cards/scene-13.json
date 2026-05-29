@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "修复后的老戏台",
+  "time": "一周后夜晚",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "陆家老爷子",
+    "剧院工作人员",
+    "追文弹幕"
+  ],
+  "character_goal": "陆砚辞想补给温瓷一场正式求婚，偿还草率结婚和离婚的仪式债",
+  "opposition_goal": "温瓷想确认这次不是临时保护，而是余生承诺",
+  "conflict_action": "陆砚辞把温瓷修复好的戏服送上台，从袖口暗纹里取出戒指盒单膝跪下",
+  "information_gap": "仪式债释放，孩子出生和家庭日常尚未落地",
+  "emotional_debt_delta": "仪式债偿还，甜宠安全感封顶",
+  "payoff_or_hook": "求婚与戏服修复结合，回扣女主职业和男主蓄意珍惜",
+  "chapter_end_hook": "温瓷摸着肚子问：“那这一次，宝宝也算见证人吗？”",
+  "paywall_card": false,
+  "must_include": [
+    "修复戏服",
+    "袖口暗纹",
+    "戒指盒",
+    "陆砚辞单膝跪下",
+    "温瓷摸肚子提问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要只写豪华布置",
+    "不要空泛写宠溺",
+    "不要用复婚登记带过求婚"
+  ],
+  "rhythm_job": "1个戏服道具回环+2句求婚对白+章尾用宝宝见证人降温发甜"
+}

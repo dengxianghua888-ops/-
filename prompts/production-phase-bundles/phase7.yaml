@@ -1,0 +1,25 @@
+phase: 7
+key: final_packager
+role: Final Packager
+title: 投稿包与章节化定稿
+system_prompt: prompts/production/final-packager.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/draft.md
+  - story/review.md
+  - story/diff.md
+  - story/quality-report.json
+  - story/evaluation/platform.json
+  - story/evaluation/emotion.json
+  - story/evaluation/style.json
+  - story/evaluation/logic.json
+required_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/*.md
+  - story.yaml
+validators:
+  - validate-production-story:phase7

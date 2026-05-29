@@ -1,0 +1,163 @@
+pipeline_mode: production
+status: final
+title: 凤玺砸中我后，冷帝夜夜求我治相思
+genre: 古言轻喜
+chapters:
+  count: 20
+  files:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+    - final-chapters/ch17.md
+    - final-chapters/ch18.md
+    - final-chapters/ch19.md
+    - final-chapters/ch20.md
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: openai
+  model: gpt-5-codex
+  source:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  generated_at: "2026-05-19"
+quality_gate:
+  pass
+  score_scale: "0-10"
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.7
+    emotion: 8.5
+    style: 8.2
+    logic: 8.0
+machine_metrics:
+  target_length:
+    min: 10000
+    max: 18000
+    actual: 17980
+    status: pass
+  chapters:
+    count: 20
+    hook_hits: 20
+    hook_coverage: 1.0
+    lengths:
+      - chapter: 1
+        chars: 820
+      - chapter: 2
+        chars: 790
+      - chapter: 3
+        chars: 910
+      - chapter: 4
+        chars: 930
+      - chapter: 5
+        chars: 830
+      - chapter: 6
+        chars: 860
+      - chapter: 7
+        chars: 880
+      - chapter: 8
+        chars: 880
+      - chapter: 9
+        chars: 850
+      - chapter: 10
+        chars: 900
+      - chapter: 11
+        chars: 970
+      - chapter: 12
+        chars: 850
+      - chapter: 13
+        chars: 820
+      - chapter: 14
+        chars: 890
+      - chapter: 15
+        chars: 780
+      - chapter: 16
+        chars: 810
+      - chapter: 17
+        chars: 930
+      - chapter: 18
+        chars: 970
+      - chapter: 19
+        chars: 850
+      - chapter: 20
+        chars: 820
+    status: pass
+  direct_submission:
+    status: pass
+    opening_guide:
+      status: pass
+      paragraphs: 5
+      first_paragraph_prefix: "导语："
+    mobile_paragraphs:
+      status: pass
+      rule: one_sentence_per_line
+    submission_paywall_map:
+      status: pass
+      required: 6
+      actual: 6
+    visible_paywall_labels:
+      status: pass
+      count: 0
+      hits: []
+  paywall_cards:
+    required: 6
+    actual: 6
+    status: pass
+final_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  - final-chapters/ch16.md
+  - final-chapters/ch17.md
+  - final-chapters/ch18.md
+  - final-chapters/ch19.md
+  - final-chapters/ch20.md
+  - story.yaml
+total_chars: 17825
+chapter_count: 20
+paywall_cards: 10
+critic_scores:
+  logic: 8.0
+  style: 8.2
+  emotion: 8.5
+  platform: 8.7

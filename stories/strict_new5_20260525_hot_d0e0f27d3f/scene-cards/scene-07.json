@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "副牌直播间后台",
+  "time": "次日夜里",
+  "pov": "沈知微 第一人称",
+  "characters": [
+    "沈知微",
+    "林妍",
+    "副牌员工",
+    "直播观众评论",
+    "裴承屿（电话）"
+  ],
+  "character_goal": "切断副牌继续盗用她设计成果的空间。",
+  "opposition_goal": "林妍和团队要稳住直播，把设计争议压成临场事故。",
+  "conflict_action": "直播连线时屏幕跳出原始设计底稿和最早署名存档，评论区追问戒指与副牌新品来源，林妍当场失措，裴承屿电话遥控删屏失败。",
+  "information_gap": "评论区最顶上一句是：‘沈知微的东西，你们还想占多久？’",
+  "emotional_debt_delta": "四年付出第一次公开被看见，盗用开始反噬。",
+  "payoff_or_hook": "名字和底稿编号一起出现在大屏上。",
+  "chapter_end_hook": "评论区最顶上一句是：‘沈知微的东西，你们还想占多久？’",
+  "paywall_card": false,
+  "must_include": [
+    "原始设计底稿编号",
+    "最少1-2行评论/吐槽",
+    "林妍戴着戒指被追问来源",
+    "裴承屿远程控场失败"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普直播带货机制",
+    "不要连续贴评论清单",
+    "不要用法务术语压节奏"
+  ],
+  "rhythm_job": {
+    "shape": "后台观察-屏幕突跳-评论追问-电话失控，评论只作误导与补刀",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  }
+}

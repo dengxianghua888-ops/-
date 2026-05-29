@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 720,
+  "target_chars_max": 760,
+  "location": "家中护理床旁",
+  "time": "深夜",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "沈母", "念念"],
+  "character_goal": "确认十二万康复押金是否被挪用。",
+  "opposition_goal": "沈母想继续把钱说成治疗开销，逼许清辞顾全沈家。",
+  "conflict_action": "许清辞打开录音，拿康复中心缴费截图试探沈母，逼出“给沈家的孙子用”的漏话。",
+  "information_gap": "婆婆知道第二个家，并参与骗走许清辞的钱。",
+  "emotional_debt_delta": "婆婆共犯债+1，劳动剥削债+1。",
+  "payoff_or_hook": "骗款实证连上安胎费和房租押金。",
+  "chapter_end_hook": "婆婆攥住床栏，低声说：那钱本来就是给沈家的孙子用的。",
+  "paywall_card": false,
+  "must_include": ["康复中心缴费截图", "十二万转账记录", "床栏动作", "录音开启"],
+  "must_not_write_as_exposition": ["不要嘲讽中风", "不要写护理苦劳长篇", "不要让婆婆道歉后被原谅"],
+  "rhythm_job": {
+    "shape": "低声对峙场，以截图、录音、漏话三步推进；强压词最多一个，并用护理动作降压。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "倒水、掖被角、录音红点这些生活动作承接压力。",
+    "dialogue_action_hook_ratio": "对白约38%，动作约42%，呼吸点约15%，章尾钩约5%。"
+  }
+}

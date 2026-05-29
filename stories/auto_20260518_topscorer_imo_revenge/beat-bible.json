@@ -1,0 +1,310 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260518_topscorer_imo_revenge",
+  "title": "成为奥赛金牌后我接到断亲书，开直播举报全家被灭门",
+  "genre": "modern_reversal",
+  "target_length": {
+    "min": 10000,
+    "max": 13500,
+    "sweet_spot": [10500, 12500]
+  },
+  "emotion_curve_shape": "U 型 + 志向反转补偿尾",
+  "u_curve": {
+    "valley_beats": ["B11", "B12"],
+    "compensation_beats": ["B17"]
+  },
+  "mechanisms_used": ["M1", "M3", "M6"],
+  "beats": [
+    {
+      "beat_id": "B1",
+      "beat_label": "Hook 暴击",
+      "scene_location": "梧桐里 3 号别墅一楼客厅",
+      "character_goal": "回家把奥赛金牌报喜送到爸妈手里",
+      "conflict_action": "桌上只摆一封断亲书+未婚夫断信短信连环砸下",
+      "information_gap": "断亲书所言'你只是假千金'真伪未明，读者与主角皆不知",
+      "emotion_debt_balance": "+断亲背叛债·开局",
+      "chapter_end_hook": "门铃响起，醉哥的声音透过对讲机传来",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁直白说'我已识破谎言'",
+        "禁鸡汤词如'释怀''向前看'",
+        "禁古言遗痕词如'夫君''玉笄'"
+      ]
+    },
+    {
+      "beat_id": "B2",
+      "beat_label": "门铃夜来",
+      "scene_location": "梧桐里 3 号别墅入户门玄关",
+      "character_goal": "确认门外是不是真哥哥",
+      "conflict_action": "点开可视门铃→看清画面瞬间捂嘴",
+      "information_gap": "M6 第一击，画面里的脸有微微违和处",
+      "emotion_debt_balance": "+信息差身份债",
+      "chapter_end_hook": "我捂住嘴，拨通了报警电话",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 420,
+      "forbidden_summary": [
+        "禁直接告诉读者'画面有血'",
+        "禁主角解释'我看出他不是哥哥'"
+      ]
+    },
+    {
+      "beat_id": "B3",
+      "beat_label": "拨号举报",
+      "scene_location": "别墅一楼客厅角落",
+      "character_goal": "让警方上门",
+      "conflict_action": "拨 110→冷静报全家四口被灭门→挂线后掂菜刀防身",
+      "information_gap": "尸体在哪？主角的'看到了什么'按下不表",
+      "emotion_debt_balance": "+断亲背叛债·叠加",
+      "chapter_end_hook": "门外撬锁声起",
+      "paywall_card": true,
+      "target_chars_min": 320,
+      "target_chars_max": 480,
+      "forbidden_summary": [
+        "禁血腥具象细节",
+        "禁主角'颤抖着说道'"
+      ]
+    },
+    {
+      "beat_id": "B4",
+      "beat_label": "警察破门",
+      "scene_location": "别墅入户大门",
+      "character_goal": "把'冒牌哥哥'交给警方",
+      "conflict_action": "警察踹门→鲁米诺无血+警犬无异常+假哥哥求情",
+      "information_gap": "M3 身份反差·二，假哥哥的小动作和真哥极像",
+      "emotion_debt_balance": "+公开矮化债·开始",
+      "chapter_end_hook": "'空口无凭。'裴队长冷冷睨我一眼",
+      "paywall_card": false,
+      "target_chars_min": 380,
+      "target_chars_max": 540,
+      "forbidden_summary": [
+        "禁直接说'警察怀疑我'",
+        "禁'似乎''仿佛'"
+      ]
+    },
+    {
+      "beat_id": "B5",
+      "beat_label": "房产证",
+      "scene_location": "客厅沙发前",
+      "character_goal": "辨认假哥哥",
+      "conflict_action": "假哥哥递房产证+主角恍惚",
+      "information_gap": "M3 身份反差·三，房产证只写主角一人名字",
+      "emotion_debt_balance": "+断亲背叛债·加深",
+      "chapter_end_hook": "我握住房产证，指节发白",
+      "paywall_card": false,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁'养育之恩如此风吹云散'式抒情",
+        "禁'心中涌起'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B6",
+      "beat_label": "起誓拦警",
+      "scene_location": "别墅大门口",
+      "character_goal": "留住警方继续查",
+      "conflict_action": "拽住裴队衣袖+赌奥赛金牌前途起誓",
+      "information_gap": "主角还没出王牌",
+      "emotion_debt_balance": "+情绪债铺设峰值",
+      "chapter_end_hook": "'撒谎，是有代价的。'裴队长声音压在喉头",
+      "paywall_card": true,
+      "target_chars_min": 320,
+      "target_chars_max": 480,
+      "forbidden_summary": [
+        "禁主角内心戏过长",
+        "禁'眼中闪过一丝'"
+      ]
+    },
+    {
+      "beat_id": "B7",
+      "beat_label": "假家人到",
+      "scene_location": "别墅一楼客厅",
+      "character_goal": "迎来'最后一面'",
+      "conflict_action": "假爸妈+假未婚夫+真千金白桐桐到场+亲子鉴定单",
+      "information_gap": "M3 身份反差·四，五人合谋的完美阵容",
+      "emotion_debt_balance": "+公开矮化债·峰值",
+      "chapter_end_hook": "亲子鉴定单上'无血缘关系'六个字",
+      "paywall_card": false,
+      "target_chars_min": 360,
+      "target_chars_max": 520,
+      "forbidden_summary": [
+        "禁主角直接哭述",
+        "禁假家人台词长定语"
+      ]
+    },
+    {
+      "beat_id": "B8",
+      "beat_label": "巴掌+绝望",
+      "scene_location": "别墅一楼客厅",
+      "character_goal": "硬扛羞辱",
+      "conflict_action": "假妈一巴掌+假未婚夫'不如婉婉一分一毫'+裴队拷腕",
+      "information_gap": "毫无破绽的'像而非'演技",
+      "emotion_debt_balance": "+情绪债峰值",
+      "chapter_end_hook": "'他们不是我的家人。'我嗓音劈开十八年",
+      "paywall_card": true,
+      "target_chars_min": 380,
+      "target_chars_max": 560,
+      "forbidden_summary": [
+        "禁主角'颤抖着说道'",
+        "禁血腥具象描写"
+      ]
+    },
+    {
+      "beat_id": "B9",
+      "beat_label": "直播自爆",
+      "scene_location": "别墅客厅角落",
+      "character_goal": "用奥赛金牌前途换警方再查一遍",
+      "conflict_action": "支起手机直播+实名举报+假哥哥扑过来拍掉手机",
+      "information_gap": "M1 同规则反转启动：用前途逼司法重启",
+      "emotion_debt_balance": "+情绪债开始释放",
+      "chapter_end_hook": "在线人数飙过 5 万",
+      "paywall_card": false,
+      "target_chars_min": 360,
+      "target_chars_max": 520,
+      "forbidden_summary": [
+        "禁'直播间'词重复 5 次以上",
+        "禁主角内心鸡汤"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "beat_label": "顾教授到",
+      "scene_location": "别墅一楼+客厅",
+      "character_goal": "把字条递到顾教授手里",
+      "conflict_action": "顾敬之教授带专业组到+按夜视模式+读字条",
+      "information_gap": "M6 真相·二：可视门铃夜视画面里满脸喷溅绿点血迹",
+      "emotion_debt_balance": "+情绪债释放·一",
+      "chapter_end_hook": "'请求总部立即增援！现场有四名连环杀人犯！'",
+      "paywall_card": true,
+      "target_chars_min": 360,
+      "target_chars_max": 540,
+      "forbidden_summary": [
+        "禁'顾教授迅速带人扑来'式概括",
+        "禁'似乎'软描写"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "beat_label": "寻墙·异样",
+      "scene_location": "别墅二楼走廊",
+      "character_goal": "找到尸体真正藏处",
+      "conflict_action": "一寸寸摸墙到二楼凸起+心生异样+申请拆迁队",
+      "information_gap": "M6 真相·三：墙体里藏的不是空腔",
+      "emotion_debt_balance": "+情绪债释放·二",
+      "chapter_end_hook": "'不必了。'我嗓音劈开两半",
+      "paywall_card": false,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁直白说'我猜到尸体在哪里'",
+        "禁'仿佛'软描写"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "beat_label": "墙体藏尸",
+      "scene_location": "别墅废墟边缘",
+      "character_goal": "见到家人的真身",
+      "conflict_action": "拆楼 70 小时+尸块拼凑+主角放声大哭",
+      "information_gap": "M6 真相·四：尸体被打碎铸进墙体",
+      "emotion_debt_balance": "情绪债·谷底",
+      "chapter_end_hook": "我蹲在废墟边，嗓子发不出声",
+      "paywall_card": true,
+      "target_chars_min": 380,
+      "target_chars_max": 560,
+      "forbidden_summary": [
+        "禁血腥具象解剖描述",
+        "禁'风吹云散'抒情"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "beat_label": "法医鉴定",
+      "scene_location": "废墟旁警车上",
+      "character_goal": "拿到死因报告并提起诉讼",
+      "conflict_action": "裴队递鉴定书+主角看一眼即决定起诉",
+      "information_gap": "五人手法分工：用毒/用刀/赤手",
+      "emotion_debt_balance": "+情绪债清算启动",
+      "chapter_end_hook": "我请求警方一定要将他们绳之以法",
+      "paywall_card": false,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁'眼眶酸涩'AI 腔",
+        "禁'生命的漠视'式抒情"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "beat_label": "法庭嘲讽",
+      "scene_location": "市中院第三审判庭",
+      "character_goal": "诈出更多证据",
+      "conflict_action": "五人冷笑+假未婚夫'500 万了结'+真千金嘲讽",
+      "information_gap": "对方咬死无直接证据",
+      "emotion_debt_balance": "+情绪债释放·三",
+      "chapter_end_hook": "法官重锤，全场一寸不动",
+      "paywall_card": true,
+      "target_chars_min": 360,
+      "target_chars_max": 520,
+      "forbidden_summary": [
+        "禁'冷艳'AI 腔",
+        "禁'不禁'"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "beat_label": "死刑当庭",
+      "scene_location": "审判庭",
+      "character_goal": "看到一审判决",
+      "conflict_action": "法官宣判五人全部死刑+申请上诉无效",
+      "information_gap": "证据链已闭合",
+      "emotion_debt_balance": "情绪债·释放·四",
+      "chapter_end_hook": "'一审判决，五人全部死刑。'",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 440,
+      "forbidden_summary": [
+        "禁鸡汤式宣判抒情",
+        "禁'宛如命运'"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "beat_label": "真名揭穿",
+      "scene_location": "审判庭外押解通道",
+      "character_goal": "把五人本名公示",
+      "conflict_action": "顾教授念出五人本名+黑客落网+白鸢尾纹身揭出",
+      "information_gap": "M6 真相·五：DNA 替换被反向追踪",
+      "emotion_debt_balance": "情绪债·完全释放",
+      "chapter_end_hook": "我望着假妈手臂内侧的白鸢尾",
+      "paywall_card": true,
+      "target_chars_min": 320,
+      "target_chars_max": 480,
+      "forbidden_summary": [
+        "禁境外组织具体落点",
+        "禁'她终于哭了'套语"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "beat_label": "警校反转",
+      "scene_location": "市公安局门口台阶",
+      "character_goal": "选定下一步路",
+      "conflict_action": "清北抢人加码+主角婉拒+报京市公安大学痕检系",
+      "information_gap": "全网热搜 #高考状元直播破连环杀人悬案#",
+      "emotion_debt_balance": "回甘补偿尾",
+      "chapter_end_hook": "我也要成为一名优秀的警察",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 440,
+      "forbidden_summary": [
+        "禁'正能量''加油'鸡汤词",
+        "禁'走出阴影'套语"
+      ]
+    }
+  ]
+}

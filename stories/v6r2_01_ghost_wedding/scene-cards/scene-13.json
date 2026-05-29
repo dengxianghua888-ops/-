@@ -1,0 +1,90 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄宴会厅舞台上/台下",
+  "time": "紧接上一场",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "许芷悦"],
+  "character_goal": "沈绮云逼迫张锐城当众承认'宣告死亡判决'是基于虚假材料",
+  "opposition_goal": "张锐城试图蒙混（'我错了''我以后改'）；许芷悦追问真相",
+  "conflict_action": "许芷悦质问张锐城→他支支吾吾→沈绮云亮出法院'宣告死亡判决书'复印件→张锐城被逼到墙角→承认'判决是基于我提交的材料……材料不实'",
+  "information_gap": "许芷悦不知道自己的婚姻建立在法院错误判决之上——她法律上不是妻子",
+  "emotional_debt_delta": "新娘和正妻同时成为受害者——双重崩塌",
+  "payoff_or_hook": "宣告死亡判决暴雷完成，为法律三罪锁定铺路",
+  "paywall_card": false,
+  "must_include": [
+    "沈绮云亮出'宣告死亡判决书'复印件",
+    "张锐城被逼承认材料不实",
+    "许芷悦的崩溃开始（'五年……五年！'）",
+    "极简句暴雷效果（'假的。材料是伪造的。'）"
+  ],
+  "must_not_write_as_exposition": [
+    "宣告死亡的法律程序详解",
+    "虚假材料的具体内容"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.8,
+    "comma_period_ratio": 0.4,
+    "sentence_avg_len": 14.5,
+    "dominant_emotion": "暴雷-双重崩塌",
+    "emotion_arc": "新娘追问 → 亮出判决书 → 张锐城承认 → 新娘崩溃开始",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "倒吸冷气——渣男的恶比想象的还深，法律都被他利用了",
+    "required_techniques": [
+      {
+        "technique": "极简回答式暴雷",
+        "instruction": "最大的秘密用最短的句子揭露——张锐城被逼到极限后只能用两三个字承认：'假的。''是我伪造的。'简洁度与信息量的极端反差制造冲击力"
+      },
+      {
+        "technique": "双面耳光对照",
+        "instruction": "许芷悦也打了张锐城一耳光——两个受害者的愤怒汇合。正妻的耳光是冷静的，新娘的耳光是崩溃的——温度对比让两种痛苦并置"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "极短判断句+补充说明",
+        "example": "假的。结婚证是伪造的。",
+        "instruction": "让张锐城用最短的句子承认最大的罪——'假的。材料是伪造的。'两个字比长篇解释更有爆炸力"
+      },
+      {
+        "structure": "否定对方表面忏悔+揭露本质",
+        "example": "你说不出来，因为你根本没觉得自己错了。你只是——被发现了。",
+        "instruction": "拆穿'道歉'的虚伪——他不是因为做错了后悔，是因为被发现了慌张。用破折号制造停顿强调"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "'你跟我说，咱们的结婚证——是真的还是假的？'全场寂静。他闭了闭眼。'假的。结婚证是伪造的。我……我和绮云的结婚证才是真的。'啪——许芷悦的耳光扇过去。'五年，整整五年！'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["你说", "我倒要看看"],
+      "句式": "冷静追问+等待对方自爆",
+      "单句上限": 16,
+      "禁止": "替对方回答"
+    },
+    "张锐城": {
+      "口癖": ["我错了", "对不起"],
+      "句式": "极短、支吾、无法正面回应",
+      "单句上限": 10,
+      "禁止": "理直气壮"
+    },
+    "许芷悦": {
+      "口癖": ["五年", "怎么可能"],
+      "句式": "崩溃质问+重复关键词",
+      "单句上限": 15,
+      "禁止": "理性分析"
+    }
+  }
+}

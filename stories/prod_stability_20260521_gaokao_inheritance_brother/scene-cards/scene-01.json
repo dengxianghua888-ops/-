@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "殡仪馆外停车场",
+  "time": "高考出分当天傍晚，姥爷下葬后十分钟内",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "秦律师", "母亲", "父亲"],
+  "character_goal": "当场确认遗嘱规则和第四次死局触发条件",
+  "opposition_goal": "母亲想先把我带走，秦律师只想按程序念完遗嘱",
+  "conflict_action": "我拦住车门不让他们离开，逼秦律师逐条说出遗嘱和前三世死亡结果",
+  "information_gap": "为什么独生女还要和弟弟比高考分，且找不到人会死人",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "遗嘱不只是分钱，而像一场倒计时处刑令",
+  "chapter_end_hook": "秦律师低声说：'七天内找不到你弟弟，你们一家还会死第四次。'",
+  "paywall_card": false,
+  "must_include": [
+    "前300字内同时交代遗产规则异常、弟弟不存在、前三世死亡样本",
+    "主角明确说出自己是独生女",
+    "秦律师被逼到不得不承认自己见过前三世残局"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述完整遗嘱条文",
+    "不要长写葬礼流程",
+    "不要把前三世死亡写成法医报告摘要"
+  ],
+  "rhythm_job": {
+    "shape": "规则砸脸 35% + 追问对撞 45% + 身体反应 10% + 章尾倒计时钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 7,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "插入一次主角摸到车门把手发凉的生活动作，承接强压信息"
+  }
+}

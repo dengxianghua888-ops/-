@@ -1,0 +1,135 @@
+{
+  "story_slug": "prod_stability_20260521_live_streamer_age_revenge",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M2", "M3", "M6"],
+  "target_length": 10007,
+  "final_length": 10007,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "chapter_01",
+      "hook": "庆功宴当众否认关系后，女主直接删除男主主演名单。",
+      "reusable_fact": "开局羞辱要落到可执行权限动作，情绪账立刻转成资源账。"
+    },
+    {
+      "chapter": 2,
+      "scene_id": "chapter_02",
+      "hook": "女主十分钟内撤海报、换热榜、停开屏，证明她掌握推荐位。",
+      "reusable_fact": "娱乐圈反杀的第一波爽点适合用后台刷新、排期替换、站内资源撤换来显权。"
+    },
+    {
+      "chapter": 4,
+      "scene_id": "chapter_04",
+      "hook": "男主方买惨带节奏，女主不吵架，转向授权节点和法务凭证。",
+      "reusable_fact": "面对舆论污名时，主角先存证再调合同，能形成专业压制感。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "chapter_07",
+      "hook": "女主放任假联名海报发出，主动让热度做高。",
+      "reusable_fact": "反派自爆型桥段要让主角明确留档，越高调越方便后续追责。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "chapter_08",
+      "hook": "首映夜大屏揭晓正式男主是周既白，假海报当场失效。",
+      "reusable_fact": "公开场合揭屏比口头澄清更有短剧视觉爽点，适合做中后段大反转。"
+    },
+    {
+      "chapter": 10,
+      "scene_id": "chapter_10",
+      "hook": "老宅争夺中，父亲当众承认老宅和股份都不在他名下。",
+      "reusable_fact": "家产线反杀需要产权、信托、股权三件套，避免只靠嘴仗。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "chapter_13",
+      "hook": "法院判决、平台公告、品牌解约连续落下，男主事业线熄火。",
+      "reusable_fact": "结算章用判决加蓝V公告连发，能把娱乐圈舆论反转落到现实惩罚。"
+    },
+    {
+      "chapter": 14,
+      "scene_id": "chapter_14",
+      "hook": "周既白递出长期合作约，把主导权、拍板权、分成比例写清楚。",
+      "reusable_fact": "新男主的感情回报不靠告白，靠尊重女主专业权力和合同权益。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 3,
+      "scene_id": "chapter_03",
+      "card": "周既白临时救火后问是临时换人还是彻底换人，女主回答彻底。",
+      "function": "完成替代男主的第一层爽点，诱导继续看顾淮川失势。"
+    },
+    {
+      "chapter": 5,
+      "scene_id": "chapter_05",
+      "card": "林薇薇包里滑出老宅新配钥匙，暴露家产线入侵。",
+      "function": "从事业线扩展到家产线，提高后续冲突筹码。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "chapter_07",
+      "card": "顾淮川和林薇薇发布未备案联名海报，女主只说让它再飞一会儿。",
+      "function": "制造反派自爆悬念，强钩首映夜揭屏。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "chapter_08",
+      "card": "首映夜正式男主揭晓为周既白，顾淮川假海报被品牌当场否认。",
+      "function": "中段公开处刑爽点，完成事业线反转。"
+    },
+    {
+      "chapter": 10,
+      "scene_id": "chapter_10",
+      "card": "父亲承认老宅是女主母亲婚前信托购入，公司股份也不在他名下。",
+      "function": "家产线身份反差爆发，带出下一章权限冻结。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "chapter_11",
+      "card": "女主当场冻结林薇薇项目权限、门禁和品牌白名单。",
+      "function": "把身份揭露转成即时执行惩罚。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "chapter_12",
+      "card": "顾淮川庭前求和，律师递上证据目录和应诉补充回执。",
+      "function": "让读者期待法院线最终结算。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "chapter_13",
+      "card": "判决、平台限制推荐、品牌解约连续到来，顾淮川需置顶道歉七天。",
+      "function": "完成反派公开败落，承接终章新合作关系。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "entertainment_industry",
+    "short_drama_platform",
+    "female_producer",
+    "ungrateful_male_star",
+    "resource_withdrawal",
+    "replacement_male_lead",
+    "brand_authorization",
+    "fake_poster_trap",
+    "legal_evidence_chain",
+    "platform_announcement",
+    "family_property_trust",
+    "contractual_respect_romance",
+    "M2_identity_contrast",
+    "M3_causal_irony",
+    "M6_layered_reversal"
+  ],
+  "manual_revision_delta": []
+}

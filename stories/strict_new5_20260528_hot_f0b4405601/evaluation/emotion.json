@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "debt": "妻子羞辱债",
+      "accumulation": "scene-01 林知夏说沈砚没本事、赘婿、免费护工。",
+      "repayment": "scene-09 她当众得知沈砚是沈工且全款签约样板间；scene-12 求复合失败。"
+    },
+    {
+      "debt": "家庭暴力债",
+      "accumulation": "scene-04 岳父掌掴沈砚，林家用“一家人别报警”压他。",
+      "repayment": "scene-10 沈砚提交验伤、监控和证人说明，明确“不和解”。"
+    },
+    {
+      "debt": "儿子背刺债",
+      "accumulation": "scene-02 到 scene-03 林承安选择小舅、划掉沈砚名字。",
+      "repayment": "scene-12 和 scene-14 林承安求抱、求同住均被沈砚按法律边界拒绝。"
+    },
+    {
+      "debt": "矛盾瞬间",
+      "accumulation": "scene-12 林知夏跪地求复合。",
+      "repayment": "她看到沈砚转账五万后“眼泪一下停了”，反应与忏悔预期相反，暴露利益动机。"
+    }
+  ],
+  "notes": [
+    "儿子线可再补一个短动作，增强从崇拜小舅到求父亲的心理落差。"
+  ]
+}

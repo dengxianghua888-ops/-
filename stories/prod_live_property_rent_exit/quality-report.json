@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10011,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_coverage": 1.0,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 8,
+      "status": "pass"
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_sentence_length": 13.897,
+      "dialogue_ratio": 0.3586,
+      "action_density_per_k": 30.666
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    }
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.0,
+    "style": 8.1,
+    "logic": 8.0
+  },
+  "evidence": [
+    "开篇续租谈判中同时出现涨租、断水和全家撤场钩子。",
+    "第7-9章通过押金单、断水记录、私人账户协议完成证据链升级。",
+    "第10-14章完成董事会问责、公开道歉、老商户选择权和新场地长期胜利。"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 740,
+  "target_chars_max": 880,
+  "location": "康复门诊治疗室",
+  "time": "次日上午",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲",
+    "下一位病人"
+  ],
+  "character_goal": "林照晚要完成最后告别，继续自己的诊疗工作",
+  "opposition_goal": "许承洲要用求婚戒指、转账和退回旧物请求重新开始",
+  "conflict_action": "许承洲把求婚戒指和转账记录推到治疗床边，林照晚退回旧航图袖扣，按下叫号器请下一位病人进来",
+  "information_gap": "男主是否终于明白她不会再接受迟来的爱",
+  "emotional_debt_delta": "-4 尊严归位，不复合离场完成",
+  "payoff_or_hook": "因果回旋落地：你现在能给的，都是我已经不要的",
+  "chapter_end_hook": "我把袖扣放回他掌心，转身叫了下一位病人。",
+  "paywall_card": false,
+  "must_include": [
+    "旧航图袖扣",
+    "求婚戒指",
+    "转账退回截图",
+    "叫号器",
+    "女主继续接诊"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写大段人生感悟",
+    "不要留复合可能",
+    "不要让男主补偿解决结局"
+  ],
+  "rhythm_job": {
+    "shape": "收束场，短对白定音，动作完成拒绝，章尾用叫号和转身关门",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "用叫号声、治疗巾铺平、病人敲门承接",
+    "dialogue_action_comment_ratio": "对白约34%，动作约50%，呼吸点约16%，章尾钩1句"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "S14",
+  "beat_id": "B14",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "工业园老工坊改造的'小微商户合规咨询站'",
+  "time": "宣判后第二十天傍晚",
+  "pov": "first_person_林承",
+  "characters": ["林承", "陈悦", "团团", "孙律师", "新员工小李(原稽查所小李,辞职后)"],
+  "character_goal": "把工坊重新开门,前店做手工皂,后店挂'咨询站'牌子",
+  "opposition_goal": "陈悦没有谈复婚,只问能不能把团团留在这里写作业",
+  "conflict_action": "陈悦推开门把团团的小书包放在长凳上,团团跑过来抱住林承膝盖,把头埋进颈窝",
+  "information_gap": "陈悦最终是否复婚——不揭示,留白",
+  "emotional_debt_delta": "-2 余味偿还",
+  "payoff_or_hook": "团团一句童言:'爸爸不走了'",
+  "chapter_end_hook": "团团把头埋进我的颈窝：'爸爸不走了。'",
+  "paywall_card": false,
+  "must_include": [
+    "工坊三件具体物件:皂模/PH 试纸盒/'咨询站'木牌",
+    "陈悦不表态复婚,只一句'团团想来'",
+    "小李辞职后来咨询站做志愿者,提一句'我也欠张姨们一句对不起'",
+    "团团的台词只一句,不超过 6 字"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写陈悦表态复婚",
+    "不要让团团读大段台词",
+    "不要描述团团长相超过 1 句"
+  ],
+  "rhythm_job": {
+    "shape": "推门→书包放下→孩子扑过来→童声→留白",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "low_pressure_buffer": "傍晚光斜在皂模 + 陈悦不抬头看林承"
+  }
+}

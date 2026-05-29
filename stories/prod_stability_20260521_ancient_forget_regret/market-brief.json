@@ -1,0 +1,115 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "recommended_chars_per_chapter": 650,
+    "end_hook_required": true,
+    "chapter_count_estimate": {
+      "min": 12,
+      "max": 20
+    }
+  },
+  "hook_policy": {
+    "strong_hook_within_first_300_chars": true,
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_cliff_interval_chars": [2500, 3500],
+    "first_chapter_hook_strength_min": 9,
+    "micro_conflict_interval_chars": 500,
+    "major_turn_interval_chars": 1000
+  },
+  "audience": {
+    "primary_readers": [
+      "番茄女频古言虐恋读者",
+      "偏好公主落难、身份反转、追妻火葬场的读者",
+      "偏好强情绪、高惩罚感、男主后悔但追不回的读者"
+    ],
+    "emotional_needs": [
+      "前期替女主憋屈，后期看渣男认错失控",
+      "需要身份揭晓带来的尊严回收与场面压制",
+      "需要失子之痛、错付之痛形成强虐点，再由不回头完成情绪清算",
+      "需要父皇与家国庇护提供安全回收，避免纯苦无补偿",
+      "需要结局明确传达：男主失去一切也换不回女主"
+    ],
+    "topic_boundaries": [
+      "避免双向误会式洗白，男主不能被包装成无辜",
+      "避免女主轻易原谅、复合、心软回头",
+      "避免后期节奏松散成种田日常，必须持续保留旧债追偿感",
+      "避免宫斗权谋喧宾夺主，主轴必须是情伤清算与身份反杀",
+      "避免过度堆砌诗化空话和古言套话，情绪表达要直给、带动作后果",
+      "避免把失子与流产写成轻飘背景板，必须作为核心不可逆创伤"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "candidate_formulas": [
+      {
+        "id": "T3",
+        "formula": "高虐真相 + 悔疯结果",
+        "fit_reason": "适合突出隐瞒身份、失子、追悔莫及，直接服务古言BE点击预期",
+        "examples": [
+          "我流产那日，世子娶了太师嫡女",
+          "得知我是公主后，世子悔疯了",
+          "孩子被他亲手害死后，他才知我是公主"
+        ]
+      },
+      {
+        "id": "ancient_couplet",
+        "formula": "古风意象对句 + 断情诀别",
+        "fit_reason": "适合保留古言审美，同时承接决绝离场气质",
+        "examples": [
+          "凤冠错付君心薄，春山别后不相逢",
+          "旧院成灰情已尽，东风吹梦不吹人",
+          "灯尽长安缘已断，梦回旧院恨难平"
+        ]
+      },
+      {
+        "id": "T1",
+        "formula": "强冲突事件 + 反转身份/下场",
+        "fit_reason": "适合番茄短故事点击逻辑，前三秒就把流产、成婚、公主身份砸出来",
+        "examples": [
+          "世子大婚那天，我穿着公主冠服进了门",
+          "他逼我流产给嫡妻让路，却不知我是公主",
+          "被逼做外室那晚，我点亮了公主天灯"
+        ]
+      }
+    ],
+    "recommended_direction": "T1与T3混合，标题先砸事件冲突，再补身份反转或悔疯结果"
+  },
+  "success_metrics": {
+    "completion_desire_score_target": 8.9,
+    "paywall_conversion_score_target": 8.6,
+    "emotional_release_score_target": 9.2,
+    "anti_ai_flavor_score_target": 9.0,
+    "highlight_density_score_target": 8.8
+  },
+  "market_constraints": {
+    "recommended_genre": "ancient_BE",
+    "core_reader_promise": "看隐瞒公主身份的女主，在失子、被弃、被辱后，于婚礼现场完成身份反杀，让渣男用余生偿还却永远追不回。",
+    "dominant_pleasure_points": [
+      "隐藏身份在最公开场合炸开",
+      "男主自毁前程式追悔",
+      "嫡妻与男主双双塌房",
+      "父皇出手带来的权力碾压",
+      "结尾不复合，女主收回人生主动权"
+    ],
+    "paywall_card_recommendations": [
+      "约3000字：男主下药害流产，女主亮明公主身份却被当作撒谎",
+      "约6500字：婚礼现场公主仪仗入府，男主当众认出女主",
+      "约9500字：女主回宫，父皇震怒，男主被削位后开始疯魔追妻",
+      "约12500字：林楚楚自曝怀的不是男主的孩子，男主认知彻底崩塌",
+      "约15500字：男主边关归来求留身边，女主彻底切断旧情"
+    ],
+    "tone_requirements": [
+      "前段狠虐快推，中段公开反杀，后段余波追偿",
+      "台词要能截屏传播，尤其是女主不回头的决绝句",
+      "每章至少一个可传播信息点：下药、红花、天灯、婚礼揭身份、父皇护女、跪宫门、边关归来被拒"
+    ]
+  }
+}

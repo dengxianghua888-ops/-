@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "evidence": [
+    "机器层硬指标 字数 11482 / 章节 15 / 钩子覆盖 1.0",
+    "付费卡点 10 远超 4 卡硬性下限",
+    "源文重叠 8 字 / 重复片段 28 字 / 软违禁 1 次",
+    "M1死环 + M3回旋 + U型情绪曲线 + 群体翻盘 + 福报升华 全部保留"
+  ],
+  "critic_scores": {
+    "platform": 8.7,
+    "emotion": 8.9,
+    "style": 8.6,
+    "logic": 8.8
+  },
+  "machine_metrics": {
+    "text_path": "stories/prod_iter_19_collision_repair/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 14000,
+      "actual": 11482,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        717,
+        750,
+        704,
+        786,
+        720,
+        778,
+        792,
+        818,
+        752,
+        764,
+        800,
+        754,
+        790,
+        733,
+        699
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 99,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 28,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11482,
+      "sentence_count": 892,
+      "avg_sentence_length": 11.872,
+      "dialogue_ratio": 0.0,
+      "question_marks": 11,
+      "question_marks_per_k": 0.958,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "手心": 3,
+        "后背": 4,
+        "喉咙": 3,
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 1
+      },
+      "action_density_per_k": 42.24
+    },
+    "semantic_repetition": {
+      "sentence_count": 508,
+      "unique_sentence_skeletons": 501,
+      "max_sentence_repeats": 4,
+      "max_sentence_repeat_ratio": 0.0079
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

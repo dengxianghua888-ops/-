@@ -1,0 +1,106 @@
+{
+  "story_slug": "strict_new5_20260529_hot_hot_e089ed3ad9",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M1: 死环反杀", "M3: 因果回旋反讽", "M5: 温度反转曲线", "M6: 多层递进反转"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 11457,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.2,
+    "style": 7.1,
+    "logic": 7.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "慈善直播后台当众爆出父亲三年前已死，打断沈岚的公益人设。",
+      "reuse_fact": "公益直播/公开镜头适合作为家庭伦理反转开场，能把私德亏欠立刻推成舆论风险。"
+    },
+    {
+      "chapter": 5,
+      "hook": "医疗预存账户余额打印为0.00，五十万次日整笔转出。",
+      "reuse_fact": "医疗+金流双证据能把亲情争执固化为可追责事件。"
+    },
+    {
+      "chapter": 8,
+      "hook": "免提电话中秦砚舟承认转走五十万并撤排期。",
+      "reuse_fact": "反派自爆必须绑定具体流水编号、账户尾号和录音动作，可信度高于单纯口头承认。"
+    },
+    {
+      "chapter": 11,
+      "hook": "发布会后秦砚舟持刀抢证据，沈岚挡刀，证据袋仍被林望优先封存。",
+      "reuse_fact": "肢体冲突可以服务证据链升级，主角优先保护案卷而非情绪宣泄，能保持现代法治爽感。"
+    },
+    {
+      "chapter": 15,
+      "hook": "墓园收到沈岚道歉录音，林望没有播放，基金第一笔救助单压在白花下。",
+      "reuse_fact": "拒绝和解比听完道歉更有余味，适合家庭伦理结尾留白。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 5,
+      "card": "账户余额0.00，五十万医疗预存款被整笔转出。",
+      "function": "从母子冲突升级为金流案件。"
+    },
+    {
+      "chapter": 6,
+      "card": "出租屋遗像、死亡证明、火化回执和太平间签字单同时落地。",
+      "function": "彻底坐实父亲已死，击穿沈岚的自欺。"
+    },
+    {
+      "chapter": 8,
+      "card": "秦砚舟免提自爆转走五十万、伪造绝症、撤掉手术排期。",
+      "function": "完成幕后黑手揭露。"
+    },
+    {
+      "chapter": 10,
+      "card": "发布会大屏公开流水、伪造诊断和收款账户实名。",
+      "function": "把私下证据转成公开审判场。"
+    },
+    {
+      "chapter": 11,
+      "card": "秦砚舟持刀抢录音笔，沈岚挡刀。",
+      "function": "把灭证行为转成更高强度的刑事风险。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "把门彻底关死了",
+      "chapter": 7,
+      "reason": "替读者总结人物关系终局，削弱现场动作的余味。"
+    },
+    {
+      "candidate": "最后一层脸面",
+      "chapter": 9,
+      "reason": "抽象评述感偏强，容易显得作者代判。"
+    },
+    {
+      "candidate": "替父亲回答",
+      "chapter": 15,
+      "reason": "概念化收束，可用不播放录音的动作本身承担含义。"
+    }
+  ],
+  "retrieval_tags": [
+    "family_ethics",
+    "medical_account",
+    "empty_balance_reversal",
+    "mother_neglect",
+    "dead_father_truth",
+    "hospital_evidence_chain",
+    "charity_livestream_hook",
+    "paywall_balance_zero",
+    "speakerphone_confession",
+    "public_press_conference_exposure",
+    "refuse_private_settlement",
+    "debt_clearing_not_reconciliation",
+    "aid_fund_ending",
+    "no-forgiveness-ending"
+  ],
+  "manual_revision_delta": []
+}

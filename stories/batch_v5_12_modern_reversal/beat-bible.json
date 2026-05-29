@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_552c804eb2",
+  "title": "他当着全公司的面撕碎我的画，却不知道画里藏着他的命",
+  "genre": "modern_reversal",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "为爱隐退的女人被丈夫和绿茶直播凌虐，旧部救回后用真实身份清算",
+    "new_setting": "为爱放弃事业的女画家被丈夫和助理当众羞辱，揭开她才是丈夫公司核心IP的真相后彻底清算",
+    "character_map": {
+      "柳淼→沈画": "女主，隐退画家，丈夫公司核心IP的真正创作者",
+      "付深时→周砚": "男主/反派，丈夫，靠妻子画作起家却嫌弃妻子",
+      "宋芊芊→姜柔": "绿茶助理，伪装成天才画师，实为抄袭者",
+      "小影→陆深": "女主旧部/合伙人，画廊掌门人，揭露真相的执行者"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "公司年会当众撕画", "min_impacts": 4, "must_include": ["丈夫当众撕碎女主画作", "助理嘲讽女主是废物", "女主被赶出年会"]},
+    {"beat_id": "B2", "title": "办公室围猎与羞辱升级", "min_impacts": 3, "must_include": ["丈夫让女主给助理端咖啡", "助理穿女主设计的衣服炫耀", "同事集体孤立"]},
+    {"beat_id": "B3", "title": "画室被毁与触底", "min_impacts": 4, "must_include": ["丈夫砸毁女主私人画室", "十年画稿被烧", "女主尊严触底"]},
+    {"beat_id": "B4", "title": "旧部降临揭底", "min_impacts": 4, "must_include": ["画廊掌门人出现", "揭露公司所有核心设计出自女主", "丈夫脸色惨白"]},
+    {"beat_id": "B5", "title": "软饭男跪地求饶", "min_impacts": 3, "must_include": ["丈夫跪求不要撤版权", "把责任推给助理", "助理被甩耳光"]},
+    {"beat_id": "B6", "title": "女主切割拒绝", "min_impacts": 3, "must_include": ["女主说你让我恶心", "拒绝和解", "带走所有版权"]},
+    {"beat_id": "B7", "title": "商业清算与舆论反噬", "min_impacts": 3, "must_include": ["公司产品全线下架", "抄袭丑闻全网曝光", "股价崩盘"]},
+    {"beat_id": "B8", "title": "法律收网", "min_impacts": 3, "must_include": ["侵权诉讼", "丈夫被冻结资产", "助理被开除"]},
+    {"beat_id": "B9", "title": "重建与新生", "min_impacts": 2, "must_include": ["女主开个人画展", "作品拍出天价"]},
+    {"beat_id": "B10", "title": "光明结尾", "min_impacts": 3, "must_include": ["丈夫破产", "女主站在阳光里", "不原谅不回头"]}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 680,
+  "target_chars_max": 800,
+  "location": "封控后的书房与断亲书鉴定台",
+  "time": "遗骸发现当晚",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "顾教授",
+    "裴队"
+  ],
+  "character_goal": "沈棠要弄明白父母为什么留下那封最狠的断亲书。",
+  "opposition_goal": "断亲书表面文字仍在伤害她，让她误以为家人临死前也不要她。",
+  "conflict_action": "沈棠把断亲书交给顾教授做压痕观察，再按母亲教过的家庭暗号逐句重读异常措辞。",
+  "information_gap": "父母是否在被迫状态下藏下保护信息。",
+  "emotional_debt_delta": "亲情抛弃债反转为父母拼死保护债，情绪痛点回收。",
+  "payoff_or_hook": "压痕显出父母留下的最后保护信号。",
+  "chapter_end_hook": "纸背的压痕慢慢浮出来：棠棠，别回家。",
+  "paywall_card": false,
+  "must_include": [
+    "断亲书背面压痕",
+    "家庭暗号",
+    "异常措辞回收",
+    "父母保护意图",
+    "沈棠压住崩溃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要突然洗白断亲书",
+    "不要大段抒情",
+    "不要把反转写成毫无铺垫的遗言"
+  ]
+}

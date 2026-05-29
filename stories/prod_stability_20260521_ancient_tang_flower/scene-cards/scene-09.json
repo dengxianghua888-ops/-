@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "旧河灯处与书房海路图前",
+  "time": "七日后",
+  "pov": "霍池渊",
+  "characters": [
+    "霍池渊",
+    "霍承舟",
+    "水殓婆",
+    "管家"
+  ],
+  "character_goal": "从已经断裂的父子关系里抽出可用线索，去追一个也许还活着的人。",
+  "opposition_goal": "霍承舟想靠哭和认错求得父亲带他一起赎罪，水殓婆则不愿轻易泄露旧契去向。",
+  "conflict_action": "霍承舟在河灯处哭着求原谅，霍池渊第一次冷声点破‘是你先选了别人’；随后他逼问水殓婆，从旧账里撬出南洋商埠线索。",
+  "information_gap": "南洋线索是真的吗，还是水殓档留下的又一道烟幕？",
+  "emotional_debt_delta": "+1 父子共痛出现，但依旧只是在承受后果",
+  "payoff_or_hook": "他终于有了一个方向，却已经失去让她回头的资格。",
+  "chapter_end_hook": "南洋商埠四个字，被他攥得满是血印。",
+  "paywall_card": false,
+  "must_include": [
+    "水殓婆提供线索时要保留民间灰色感",
+    "霍池渊第一次对儿子冷下来要短而狠"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇航路地图说明",
+    "不要让水殓婆解释完整行业流程"
+  ],
+  "rhythm_job": {
+    "shape": "父子裂口30%+追线索35%+方向落定20%+章尾握字15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.47,
+    "action_ratio_target": 0.31,
+    "hook_drop": "以地点名词做追亡钩，不用大哭收尾",
+    "low_pressure_bridge": "点灯、翻账、摊海图这些生活动作承接"
+  }
+}

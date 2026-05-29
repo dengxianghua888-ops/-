@@ -1,0 +1,28 @@
+slug: v4_test_scholarship_audit
+source_title: 成为高考状元却接到断亲书后，我举报全家被灭门
+output_title: 助学金到账前，我举报了整本账
+target_platform: tomato
+genre: modern_reversal
+status: final
+current_phase: 5
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+metrics:
+  final_word_count: 702
+  title_chars: 17
+  hook_score: 9
+  tomato_fit_score: 8.6
+  forbidden_hits: {}
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+automation:
+  last_run_id: v4_test_manual_creation
+  runner: codex
+  provider: codex
+  current_phase: 5
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

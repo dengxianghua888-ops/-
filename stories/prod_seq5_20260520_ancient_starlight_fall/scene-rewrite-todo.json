@@ -1,0 +1,112 @@
+{
+  "todos": [
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 842,
+      "min": 720,
+      "max": 840,
+      "delta": 2,
+      "direction": "trim"
+    }
+  ],
+  "summary": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 765,
+      "min": 650,
+      "max": 780
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 768,
+      "min": 700,
+      "max": 820
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 697,
+      "min": 660,
+      "max": 780
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 799,
+      "min": 740,
+      "max": 880
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 739,
+      "min": 700,
+      "max": 820
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 789,
+      "min": 720,
+      "max": 840
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 739,
+      "min": 700,
+      "max": 820
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 837,
+      "min": 780,
+      "max": 920
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 721,
+      "min": 720,
+      "max": 840
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 810,
+      "min": 720,
+      "max": 840
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 820,
+      "min": 700,
+      "max": 820
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 913,
+      "min": 780,
+      "max": 920
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 763,
+      "min": 740,
+      "max": 880
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 724,
+      "min": 720,
+      "max": 860
+    },
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 842,
+      "min": 720,
+      "max": 840,
+      "delta": 2,
+      "direction": "trim"
+    },
+    {
+      "scene_id": "scene-16",
+      "actual_chars": 758,
+      "min": 740,
+      "max": 880
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+title: 协议解约后，顶级梨园来接我前夫
+status: final
+pipeline_mode: production
+genre: urban_sweet_ceo
+automation:
+  runner: deterministic-packager
+  provider: local
+slug: prod_rhythm_20260521_tipsy_pregnant_family_v3
+final_packaging:
+  title: 协议解约后，顶级梨园来接我前夫
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 15
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  packager: scripts/package_from_draft_scenes.py

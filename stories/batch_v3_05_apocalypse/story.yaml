@@ -1,0 +1,34 @@
+slug: batch_v3_05_apocalypse
+source_slug: hot_df9671752a
+title: 她们说我是废物
+genre: apocalypse_heroine
+pipeline_mode: production
+status: drafting
+run_date: "2026-05-26"
+optimization: v3_style_fidelity
+mechanisms:
+  - M3_causal_boomerang
+  - M6_multi_layer_escalation
+  - M7_dimensional_strike
+  - M8_moral_ambiguity
+hooks:
+  - H4_revelation_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 丧尸末世基地+女教官以平等之名毁封印+丧尸女王觉醒
+  new_setting: 异兽末世堡垒+新安全官以公平之名毁女主净化场+异兽母巢觉醒
+  identity_hide: 女主是异兽病毒零号宿主，净化场是她的情绪稳定器，堡垒安全全靠她
+  betrayal_layers:
+    - 安全官砸毁女主的音乐盒（净化媒介）
+    - 安全官剪掉女主长发（洁净标志）逼穿污染防护残衣
+    - 安全官踩断老厨师手指并逐出堡垒
+    - 安全官将女主绑在信号塔当诱饵献祭
+  reversal_trigger: 队长归来揭露真相——宠她不是偏爱，是压制灾厄
+  boomerang: "不养闲人/弱肉强食"——安全官的规则被异兽军团原样回敬
+  temperature_structure:
+    warm_memory: 无（本文无温情回忆线，全程冷硬推进）
+    cold_reality: 女主被逐步剥夺一切净化媒介
+    freeze_point: 被绑信号塔献祭，群众沉默帮凶
+  core_rule: "你亲手放出了这个世界上最强的怪物。"

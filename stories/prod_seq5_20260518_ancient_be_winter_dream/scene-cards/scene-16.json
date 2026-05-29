@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 700,
+  "target_chars_max": 880,
+  "location": "星门裂隙与系统结算空间",
+  "time": "旧世界权限关闭后",
+  "pov": "第一人称，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "归零系统"
+  ],
+  "character_goal": "纪寒舟选择接收新星域补偿，彻底离开旧世界。",
+  "opposition_goal": "旧世界残留数据试图提交忏悔和召回请求。",
+  "conflict_action": "归零系统列出九枚胚囊、承孕腺、亲情、婚姻四项债务，逐项标记已清算，并弹出新身体修复选项。",
+  "information_gap": "新世界身份即将开启，但具体亲人还未登场。",
+  "emotional_debt_delta": "从清算转入补偿，身体债获得系统级偿还。",
+  "payoff_or_hook": "付费卡点：新生补偿即将落地，旧世界召回被挡在门外。",
+  "chapter_end_hook": "纪寒舟听见新系统问他：是否接收新星域身体修复与亲缘绑定。",
+  "paywall_card": true,
+  "must_include": [
+    "四项债务结算",
+    "身体修复选项",
+    "旧世界召回请求被拒",
+    "纪寒舟选择不回头"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成抽象释怀",
+    "不要让旧世界伤害原地痊愈后回去",
+    "不要让主角犹豫原谅"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 617,
+  "target_chars_max": 817,
+  "location": "茶厂办公室、银行窗口、监管仓收费窗口",
+  "time": "当日下午到傍晚",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "林照姐姐",
+    "银行客户经理",
+    "赵启明",
+    "收费窗口文员"
+  ],
+  "character_goal": "林照凑齐八百万，先解除平台冻结并拿到正式收费凭证。",
+  "opposition_goal": "赵启明要林照尽快付款，不留下完整书面责任。",
+  "conflict_action": "林照抵押设备、挪订单预付款、借姐姐房本，分三笔把八百万转到赵启明指定代缴账户。",
+  "information_gap": "林照为什么忍痛缴费，他真正要锁定哪份证据。",
+  "emotional_debt_delta": "生存债加重到高点，工厂现金流和亲人信任被压进转账流水。",
+  "payoff_or_hook": "林照付钱后反而要求补齐货名、数量、估值和收费依据。",
+  "chapter_end_hook": "八百万到账后，林照没有提货，只把空白确认单推回去：货名、数量、估值、收费依据，一个字都不能少。",
+  "paywall_card": true,
+  "must_include": [
+    "设备抵押",
+    "姐姐递房本",
+    "代缴账户",
+    "八百万转账凭条",
+    "林照保存流水截图"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成亲情哭诉",
+    "不要让借钱过程超过场景主线",
+    "不要遗漏代缴账户不是平台总账的细节"
+  ]
+}

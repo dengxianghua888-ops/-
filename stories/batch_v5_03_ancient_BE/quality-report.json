@@ -1,0 +1,31 @@
+{
+  "story_slug": "batch_v5_03_ancient_BE",
+  "title": "玻璃房子",
+  "source_slug": "hot_012a1f1f65",
+  "genre": "ancient_BE",
+  "pipeline_version": "v5",
+  "generated_at": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10003,
+    "target_range": [10000, 14000],
+    "nonspace_pass": true,
+    "rhythm_fit": {
+      "status": "pass",
+      "avg_line_chars": 20.085,
+      "short_line_rate": 0.3535,
+      "long_line_rate": 0.0162,
+      "quote_line_rate": 0.2303
+    },
+    "structure": {
+      "gate_status": "pass",
+      "impact_density": 6.6,
+      "impact_density_floor": 3.4,
+      "watermark_violations": 1,
+      "total_impacts": 66
+    },
+    "source_overlap_pct": 0,
+    "meta_leak": 0,
+    "ai_forbidden_words": 0
+  },
+  "overall_pass": true
+}

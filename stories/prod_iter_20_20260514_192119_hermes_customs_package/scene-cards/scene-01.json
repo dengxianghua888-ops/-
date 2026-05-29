@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B1",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "真鉴堂华南鉴定中心仓·一楼鉴定大厅·寄售柜台",
+  "time": "工作日上午十点二十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "前台鉴定员", "AI鉴定屏幕"],
+  "character_goal": "把母亲压箱底的限量铂金包寄拍换医药费",
+  "opposition_goal": "AI双盲鉴定系统给出权威结论",
+  "conflict_action": "徐阳把铂金包递进柜台→前台扫码上传→AI红屏弹窗跳出'三千万真品级铂金包·五十只·待入库销毁'→徐阳愣住、低头看自己手里就一只破包",
+  "information_gap": "为何系统会判定为'真品五十只'而不是'假货一只'——这一异常是M1反咬的关键",
+  "emotional_debt_delta": "+1 制度性羞辱·初始击",
+  "payoff_or_hook": "三千万的鉴定单砸在玻璃柜台上，墨迹未干",
+  "chapter_end_hook": "三千万的鉴定单砸下来，我足足愣了半分钟",
+  "paywall_card": false,
+  "must_include": ["AI红屏弹窗具体字段", "包的物理细节（牛皮、无LOGO、磨损角）", "周围鉴定大厅的环境声", "三千万的具体数字"],
+  "must_not_write_as_exposition": ["主角内心OS交代背景", "插叙母亲住院前情", "解释AI鉴定原理", "形容词堆砌'惊愕万分'"]
+}

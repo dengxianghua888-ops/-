@@ -1,0 +1,50 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 720,
+  "target_chars_max": 820,
+  "location": "医院旁伦理基金会会议室",
+  "time": "同日上午",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "许知微",
+    "基金会秘书"
+  ],
+  "character_goal": "沈听澜要确认陌生短信来源，许知微要脱离白月光标签。",
+  "opposition_goal": "江砚舟的旧叙事仍把许知微摆在沈听澜对面。",
+  "conflict_action": "许知微把病史营销合约推到桌上，亲手划掉江砚舟写下的人设词。",
+  "information_gap": "许知微知道另一条时间线，但先只交出被利用的现实证据。",
+  "emotional_debt_delta": {
+    "added": [
+      "女性互相投射债"
+    ],
+    "paid": [
+      "许知微停止雌竞",
+      "沈听澜接下证据"
+    ]
+  },
+  "payoff_or_hook": "白月光从争宠对象变成镜子。",
+  "chapter_end_hook": "截断句：许知微按住合约最后一页，低声说，我死过一次。",
+  "paywall_card": false,
+  "must_include": [
+    "许知微划掉“临床奇迹”四个字",
+    "沈听澜没有安慰，只递笔",
+    "不写真实病情细节"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写治疗流程",
+    "不要用疾病制造猎奇",
+    "不要让许知微长篇忏悔"
+  ],
+  "rhythm_job": {
+    "shape": "证据交换，女性对视，短句真相钩",
+    "dialogue_action_breathing_ratio": "对白约45%，动作约40%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用递笔和咖啡杯热气承接真相压力",
+    "chapter_tail_action": "许知微按住合约最后一页"
+  }
+}

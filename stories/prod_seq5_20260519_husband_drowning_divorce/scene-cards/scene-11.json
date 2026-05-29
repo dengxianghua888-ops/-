@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 760,
+  "target_chars_max": 950,
+  "location": "沈明姝直播间与海外爆料账号",
+  "time": "沈知晚学历反转后当晚",
+  "pov": "第三人称穿插沈知晚动作",
+  "characters": ["沈明姝", "沈知晚", "海外同学", "网友", "律师"],
+  "character_goal": "沈知晚让沈明姝为霸凌和冒名行为承担公开后果。",
+  "opposition_goal": "沈明姝想用直播哭诉把焦点拉回姐妹争宠。",
+  "conflict_action": "沈明姝开直播哭诉被逼到退圈，海外同学发布霸凌视频和冒名邮件，沈知晚的律师同步保存证据并发声明。",
+  "information_gap": "代言数据造假和税务线索仍在后面。",
+  "emotional_debt_delta": "沈明姝柔弱人设崩第一层。",
+  "payoff_or_hook": "哭诉直播被旧视频反向打脸。",
+  "chapter_end_hook": "沈明姝开直播哭诉，弹幕却刷出海外霸凌视频的第一帧。",
+  "paywall_card": false,
+  "must_include": [
+    "直播哭诉",
+    "海外霸凌视频",
+    "项目冒名邮件",
+    "律师保存证据",
+    "沈明姝表情失控"
+  ],
+  "must_not_write_as_exposition": [
+    "不要使用身材羞辱或性羞辱",
+    "不要写无证据黑料",
+    "不要让沈明姝突然悔改洗白"
+  ]
+}

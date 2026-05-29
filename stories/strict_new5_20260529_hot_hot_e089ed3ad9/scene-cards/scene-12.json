@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 720,
+  "target_chars_max": 870,
+  "location": "手术室外",
+  "time": "当晚",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚助理",
+    "律师",
+    "警员",
+    "急救医生"
+  ],
+  "character_goal": "林望完成证据移交，并把沈岚的遗嘱补偿转为父亲名义基金。",
+  "opposition_goal": "律师和助理希望林望以亲属身份接收沈岚最后安排。",
+  "conflict_action": "林望把股份转让书放进证物袋，要求补偿款不得进入私人账户。",
+  "information_gap": "旁人以为挡刀会改变林望态度，林望仍坚持偿债不是原谅。",
+  "emotional_debt_delta": "迟来补偿被定性为债务清偿，高潮情绪降温。",
+  "payoff_or_hook": "母亲补偿无效，基金方向确立。",
+  "chapter_end_hook": "手术室红灯没灭，林望在文件上写下：林正年急症救助基金。",
+  "paywall_card": false,
+  "must_include": [
+    "手术室红灯",
+    "股份转让书",
+    "证物袋",
+    "基金名称手写"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写亲友劝和",
+    "不要详述遗嘱法律条款",
+    "不要把林望写成被挡刀感化"
+  ],
+  "rhythm_job": {
+    "shape": "低温收束，对白少，文件动作和短判词主导",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用手术灯、纸页翻动、签字停顿承接"
+  }
+}

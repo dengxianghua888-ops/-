@@ -1,0 +1,76 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "拾翠阁画坊后院·小轩窗下",
+  "time": "黄昏，夕光照进磨墨台",
+  "pov": "阿昭（昭阳长公主）",
+  "characters": ["阿昭", "沈砚卿"],
+  "character_goal": "阿昭想在沈砚卿搁笔休息时告知怀孕喜讯",
+  "opposition_goal": "沈砚卿要宣布三日后迎娶裴若霜，同时安抚阿昭接受侧室身份",
+  "conflict_action": "沈砚卿在阿昭说出有孕的同一刻开口宣布另娶，双方同时抛出重磅信息形成对冲",
+  "information_gap": "读者已知阿昭是昭阳长公主（开篇hook已建立），沈砚卿不知——形成持续悬念张力",
+  "emotional_debt_delta": "+1：另娶背叛（在怀孕最脆弱时刻投下炸弹）",
+  "payoff_or_hook": "阿昭反问'若我说，我也配得上沈家门楣呢'——悬念半揭",
+  "chapter_end_hook": "若我说，我也配得上沈家门楣呢？——暗示身份不简单，读者好奇她的底牌",
+  "paywall_card": false,
+  "must_include": [
+    "阿昭隐瞒身份三年的事实在首段交代",
+    "怀孕与另娶信息在同一个对话回合内对冲",
+    "沈砚卿以'画坊学徒'定位阿昭的台词",
+    "阿昭的反问暗示必须放在本章最后一句"
+  ],
+  "must_not_write_as_exposition": [
+    "三年相处经过不得用叙述性回忆展开",
+    "公主身份不得在本章明确揭露给沈砚卿",
+    "情绪不得用'她很伤心'类直接心理描写"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 21.4,
+    "comma_period_ratio": 0.62,
+    "sentence_avg_len": 18.8,
+    "dominant_emotion": "震惊-恳求",
+    "emotion_arc": "平静 → 震惊 → 不信 → 恳求",
+    "emotion_intensity": 7.0,
+    "reader_feeling_target": "替女主愤怒，同时好奇她隐藏的身份是什么",
+    "required_techniques": [
+      {
+        "technique": "对称隐瞒设计",
+        "instruction": "开头即建立'我隐瞒身份在画坊做了三年学徒'，随后沈砚卿也揭露自己是沈家嫡族长——双方都有秘密，但她的更大"
+      },
+      {
+        "technique": "怀孕时刻的残忍对冲",
+        "instruction": "让'得知有孕'和'宣布另娶'在同一段对话中发生，不隔段、不插叙。用逗号连接两个信息，让读者感受到时间差为零的残忍"
+      },
+      {
+        "technique": "悬念尾句暗示",
+        "instruction": "本章最后一句必须是阿昭的反问式暗示，不直说身份，只给一个方向——让读者带着'她到底是谁'的好奇冲入下一章"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "假设句式（若我说…呢）+ 关键信息藏在假设里",
+        "example": "若我说，我也可以与你门第相当呢？",
+        "instruction": "用假设反问包裹身份暗示，语气平静但信息量炸裂。改写时保持'若我说/如果我告诉你'的前置假设结构"
+      },
+      {
+        "structure": "排除句式（除了X，可以给你Y）——看似慷慨实则剥夺核心",
+        "example": "除了名分我可以给你和孩子一切",
+        "instruction": "沈砚卿的施舍逻辑台词：表面大方给一切，唯独排除最关键的东西（名分/正妻位），让读者本能愤怒"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "突变式",
+    "source_excerpt": "我隐瞒身份和陆北辰做起了平凡夫妻。得知有孕那天，他突然开口：'我其实是定北侯世子，我和太师府嫡女三日后便要成婚了。'……除了名分我可以给你和孩子一切……若我说，我也可以与你门第相当呢？"
+  }
+}

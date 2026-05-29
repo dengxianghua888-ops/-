@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海崖别院内室",
+  "time": "夜，暴雨将至",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "顾照雪",
+    "随从阿七"
+  ],
+  "character_goal": "确认夫君断腿和顾照雪流产的当场真相，并立刻摇来镇海王夫妇",
+  "opposition_goal": "顾临渊想先压住局面，避免她一怒之下直接杀穿全港",
+  "conflict_action": "沈灼宁给顾临渊止血时逼问阿七细节，听到断潮散后当场放出海东青急令",
+  "information_gap": "都督府为什么敢同时对顾临渊和顾照雪下手，背后是不是还有更高授意",
+  "emotional_debt_delta": "护夫债+3，护妹债+3，娘家护短兑现预告+2",
+  "payoff_or_hook": "首屏兑现‘断腿+流产+摇疯批爹娘’三连承诺",
+  "chapter_end_hook": "海东青撞开窗纸飞出去，沈灼宁低声：\"今夜我不忍了。\"",
+  "paywall_card": false,
+  "must_include": [
+    "顾临渊断腿见血但仍想安抚她",
+    "顾照雪伤胎后的虚弱一句话",
+    "沈灼宁亲手放出海东青急令",
+    "一句极端标签式自我或娘家气场开场"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释夫妻三年婚后日常",
+    "不要展开海疆制度背景",
+    "不要回顾都督府恩怨全史"
+  ],
+  "rhythm_job": {
+    "shape": "10行内切入伤情，随后对白对冲，最后用放鹰动作截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

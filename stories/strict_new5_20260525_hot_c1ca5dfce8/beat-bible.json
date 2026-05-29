@@ -1,0 +1,380 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000],
+    "planned_total_target_chars": 10520
+  },
+  "title": "新帝买通太史污我祸国，我被玄甲军接走后他悔疯了",
+  "genre": "古言虐爽 / 追妻火葬场 / 身份反杀",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "前史保留新帝曾救我、许我后位的温情，再用他亲手买通太史、送我入罪乐署、口称爱我却继续行刑形成迟来深情作废感"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "册后定罪 -> 偷听做局真相 -> 假喜脉栽赃 -> 雨跪拖街 -> 婚礼压脸 -> 西川玄甲逼宫接人 -> 假孕奸情回炸 -> 追人误国失命"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "先把我钉死在罪籍乐伎、祸国失仪、任人点伎的低位，再由安宁郡主与将军夫人的制度规格公开抬升"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 700,
+      "scene_range": ["scene-01"],
+      "ending_hook": "他抱着我说保命，下一句却是：打入罪乐署，三年。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 680,
+      "scene_range": ["scene-02"],
+      "ending_hook": "掌事嬷嬷把舞衣丢到我脸上：陛下既舍得，你又算什么？"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 720,
+      "scene_range": ["scene-03"],
+      "ending_hook": "隔着珠帘，我竟又听见了他的声音。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 740,
+      "scene_range": ["scene-04"],
+      "ending_hook": "我捏碎鸾尾簪上的暗格，把求援雁书塞了进去。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 680,
+      "scene_range": ["scene-05"],
+      "ending_hook": "他当着满殿人，反手给了我一巴掌。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 700,
+      "scene_range": ["scene-06"],
+      "ending_hook": "锁链拖过丹墀时，有人低声道：她怕是活不到明日。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 720,
+      "scene_range": ["scene-07"],
+      "ending_hook": "水牢缝隙里塞进一枚旧义印，背面只有四个字：西川已至。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 740,
+      "scene_range": ["scene-08"],
+      "ending_hook": "凤乐正响，宫门外却传来甲胄震地的声音。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 680,
+      "scene_range": ["scene-09"],
+      "ending_hook": "谢珩抬手指向我：本帅来迎将军夫人。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 700,
+      "scene_range": ["scene-10"],
+      "ending_hook": "王府义册展开那一瞬，百官齐齐跪了下去。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 720,
+      "scene_range": ["scene-11"],
+      "ending_hook": "谢珩替我理好袖口，只问一句：这门婚，你愿不愿意？"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 740,
+      "scene_range": ["scene-12"],
+      "ending_hook": "探子把血帕和脉案一并呈上：裴含霜从未有孕。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 680,
+      "scene_range": ["scene-13"],
+      "ending_hook": "喜轿前，他竟在满街红绸里跪了下来。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 700,
+      "scene_range": ["scene-14"],
+      "ending_hook": "城头急报传来：西陲三镇尽失，新帝吐血昏厥。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 720,
+      "scene_range": ["scene-15"],
+      "ending_hook": "我抚上小腹时，窗外传来旧朝覆灭的最后一声钟。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 700,
+      "scene_location": "奉天殿册后礼",
+      "character_goal": "保住册后名分，也保住我与新帝的旧情承诺",
+      "conflict_action": "太史当殿奏报凤钟三裂，新帝先抱住我说会护我，再亲口下旨将我打入罪乐署",
+      "information_gap": "他到底是被局势裹挟，还是从一开始就参与了这场定罪？",
+      "emotion_debt_balance": {
+        "debt_added": 3,
+        "payoff_released": 0,
+        "net": 3
+      },
+      "chapter_end_hook": "他抱着我说保命，下一句却是：打入罪乐署，三年。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用朝会摘要写法", "不能把定罪写成含混误会", "不能洗白新帝为无奈"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 680,
+      "scene_location": "教坊司罪乐署前院",
+      "character_goal": "熬过初次规训，守住最后一点体面",
+      "conflict_action": "掌事嬷嬷当众剪碎册后礼服，逼我换上罪籍舞衣、学跪学笑、挂牌入册",
+      "information_gap": "新帝是否真的会在三年后接我出去，还是这就是彻底弃我？",
+      "emotion_debt_balance": {
+        "debt_added": 2,
+        "payoff_released": 0,
+        "net": 2
+      },
+      "chapter_end_hook": "掌事嬷嬷把舞衣丢到我脸上：陛下既舍得，你又算什么？",
+      "paywall_card": false,
+      "forbidden_summary": ["不要流水账写规训流程", "不要概述三年时光", "不能省掉公开羞辱动作"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 720,
+      "scene_location": "宫宴偏殿与珠帘后",
+      "character_goal": "在被点名献舞时避开旧人目光，不让自己再失态",
+      "conflict_action": "我被官宴点伎，当众起舞，裴含霜故意要我近前斟酒，新帝隔帘旁观却不出声",
+      "information_gap": "他看见我受辱后仍无动作，是因为冷了心，还是另有更狠的安排？",
+      "emotion_debt_balance": {
+        "debt_added": 2,
+        "payoff_released": 0,
+        "net": 2
+      },
+      "chapter_end_hook": "隔着珠帘，我竟又听见了他的声音。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把献舞写成抒情表演", "不要长篇回忆旧情", "不要用一句话带过百官议论"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 740,
+      "scene_location": "偏殿暖阁外廊",
+      "character_goal": "确认他是否还值得我等，若不值得就为自己求生",
+      "conflict_action": "我躲在屏风外偷听到新帝承认买通太史、借我压旧案稳外戚，随后当夜拆开鸾尾簪暗格发雁书求援",
+      "information_gap": "西川还认不认当年的义册，我若求援会不会只换来第二次抛弃？",
+      "emotion_debt_balance": {
+        "debt_added": 3,
+        "payoff_released": 1,
+        "net": 2
+      },
+      "chapter_end_hook": "我捏碎鸾尾簪上的暗格，把求援雁书塞了进去。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能把真相改成误听", "不要解释政治局太久", "不能让女主偷听后还抱幻想"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 680,
+      "scene_location": "长春宫内殿",
+      "character_goal": "保住自己，不背下裴含霜假喜脉的污名",
+      "conflict_action": "裴含霜拿伪造脉案哭诉被我冲撞见红，我当场指出血帕有旧药味，新帝却先护着她并掌掴我",
+      "information_gap": "他明知是假，为什么仍要借她的局继续踩我？",
+      "emotion_debt_balance": {
+        "debt_added": 2,
+        "payoff_released": 0,
+        "net": 2
+      },
+      "chapter_end_hook": "他当着满殿人，反手给了我一巴掌。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要复述脉案细节", "不要把冲突写成口头争辩", "不能弱化掌掴的公开性"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 700,
+      "scene_location": "丹阶与宫门长街",
+      "character_goal": "撑过雨跪示众，不在众目睽睽下认错求饶",
+      "conflict_action": "裴含霜借机命我雨跪丹阶，新帝默许内侍上锁链，把我拖过长街去向罪乐署示众",
+      "information_gap": "他究竟还会把我压到什么地步，我发出的雁书是否已经有人接到？",
+      "emotion_debt_balance": {
+        "debt_added": 3,
+        "payoff_released": 0,
+        "net": 3
+      },
+      "chapter_end_hook": "锁链拖过丹墀时，有人低声道：她怕是活不到明日。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写旁观者反应清单", "不要长段描述雨势", "不要把拖街写成跳切一句"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 720,
+      "scene_location": "罪乐署水牢",
+      "character_goal": "活下去，并确认自己不是彻底无援",
+      "conflict_action": "我被压入水牢后撕开伤口里的血布止血，夜里有人从栅缝塞进义印与药丸，带来西川已动身的消息",
+      "information_gap": "来的人是谢珩的人，还是新帝又一场试探？",
+      "emotion_debt_balance": {
+        "debt_added": 1,
+        "payoff_released": 1,
+        "net": 0
+      },
+      "chapter_end_hook": "水牢缝隙里塞进一枚旧义印，背面只有四个字：西川已至。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写长篇受刑回顾", "不要解释义册来历过多", "不能把救援写成万能降临"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 740,
+      "scene_location": "帝后再立大典外廷",
+      "character_goal": "撑完最后一次压脸，不在他们大婚礼上失控崩塌",
+      "conflict_action": "裴含霜命我穿罪舞衣在新后入主中宫礼上献舞，新帝看着我跪在红毯边，仍亲手替她戴上凤冠",
+      "information_gap": "西川的援手会不会晚一步，让我连最后一点脸面都保不住？",
+      "emotion_debt_balance": {
+        "debt_added": 3,
+        "payoff_released": 0,
+        "net": 3
+      },
+      "chapter_end_hook": "凤乐正响，宫门外却传来甲胄震地的声音。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要用婚礼流程说明代替现场碾压", "不要把献舞写成回忆式", "不能缺少新帝亲手加冕动作"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 680,
+      "scene_location": "宫门与奉天广场",
+      "character_goal": "抓住翻盘窗口，先离开这座宫城",
+      "conflict_action": "谢珩率玄甲军入京，勒马宫门，当众索人，逼新帝把我从礼台下交出来",
+      "information_gap": "他为何敢以将军夫人之名要我，西川到底掌握了什么底牌？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 3,
+        "net": -3
+      },
+      "chapter_end_hook": "谢珩抬手指向我：本帅来迎将军夫人。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写军阵百科", "不要把对峙写成纯嘴炮", "不能跳过众臣见证反应"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 700,
+      "scene_location": "奉天殿前廷",
+      "character_goal": "切断旧情，当众拿回名分与身份",
+      "conflict_action": "西川使臣展开义册与先帝印信，谢珩扶我起身，新帝伸手拦人，我当场退开并否认与他的一切夫妻名分",
+      "information_gap": "他失去我后会不会就此罢手，还是还要追来毁掉我仅剩的归路？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 3,
+        "net": -3
+      },
+      "chapter_end_hook": "王府义册展开那一瞬，百官齐齐跪了下去。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要连篇解释义女制度", "不要把拒绝写成内心独白", "不能弱化公开打脸效果"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 720,
+      "scene_location": "西川王府与安宁郡主受册厅",
+      "character_goal": "在被接住后重新决定自己的人生，不让自己只成为被救的人",
+      "conflict_action": "王妃亲自为我去罪籍名册，谢珩不替我做主，只在受册后问我愿不愿按郡主仪制出嫁",
+      "information_gap": "我若答应这门婚，是不是终于能把余生从旧痛里拔出来？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 2,
+        "net": -2
+      },
+      "chapter_end_hook": "谢珩替我理好袖口，只问一句：这门婚，你愿不愿意？",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成疗伤散文", "不要流水账写受册礼制", "不能让谢珩越俎代庖替女主决定"]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 740,
+      "scene_location": "西川婚前别院与京中回炸线",
+      "character_goal": "在备婚时确认旧朝反噬已经开始，不再给旧人任何回头路",
+      "conflict_action": "京中探子送来血帕、脉案和裴含霜与太医私通的口供，同时坐实太史受贿与新帝知情默许",
+      "information_gap": "真相全部炸开后，新帝会来求我回去，还是直接疯到掀翻礼制和边防？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 2,
+        "net": -2
+      },
+      "chapter_end_hook": "探子把血帕和脉案一并呈上：裴含霜从未有孕。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要用案卷摘要堆信息", "不要只清算女配不清算新帝", "不能让女主因为真相而心软"]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 680,
+      "scene_location": "郡主大婚长街",
+      "character_goal": "顺利上轿，彻底跨出旧朝的门槛",
+      "conflict_action": "新帝带伤闯到喜轿前拦婚下跪求我回头，谢珩压住亲卫不让他们先动，我亲口判他迟来的深情作废",
+      "information_gap": "他被拒绝后会做出怎样的最后失控，会不会连社稷也一起拖下水？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 3,
+        "net": -3
+      },
+      "chapter_end_hook": "喜轿前，他竟在满街红绸里跪了下来。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把拦婚写成重复哭诉", "不要让女主多轮解释旧账", "不能给新帝体面退场"]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 700,
+      "scene_location": "婚礼外城与宫中急报线",
+      "character_goal": "不让旧朝崩盘再拖住我的婚礼与新生",
+      "conflict_action": "急报传来西陲三镇尽失、裴家倒台、太史认罪，新帝强撑追轿吐血，最终被禁军与臣子强行带走",
+      "information_gap": "他会死在权位崩塌里，还是活着看我彻底成为别人的妻？",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 2,
+        "net": -2
+      },
+      "chapter_end_hook": "城头急报传来：西陲三镇尽失，新帝吐血昏厥。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要长篇讲战局", "不要写成纯新闻播报", "不能稀释新帝失国与失爱的同步性"]
+    },
+    {
+      "beat_id": "beat-15",
+      "target_chars": 720,
+      "scene_location": "西川王府新婚后苑",
+      "character_goal": "确认自己已真正进入新秩序，也让旧伤彻底作废",
+      "conflict_action": "我在新婚日常里被珍重对待，得知有孕，又从京中最后一封信里知道新帝失位身死，随后亲手将旧簪投入火盆",
+      "information_gap": "无",
+      "emotion_debt_balance": {
+        "debt_added": 0,
+        "payoff_released": 4,
+        "net": -4
+      },
+      "chapter_end_hook": "我抚上小腹时，窗外传来旧朝覆灭的最后一声钟。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成幸福总结陈词", "不要让旧男主死讯喧宾夺主", "不能缺少具体作废动作"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 15,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage_min": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [14, 18],
+    "short_line_rate_lte_16_min": 0.62,
+    "short_line_rate_lte_16_max": 0.74,
+    "direct_dialogue_line_rate_min": 0.38,
+    "direct_dialogue_line_rate_max": 0.48,
+    "barrage_line_rate_min": 0.04,
+    "barrage_line_rate_max": 0.08,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

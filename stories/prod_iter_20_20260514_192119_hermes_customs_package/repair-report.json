@@ -1,0 +1,147 @@
+{
+  "phase": 7,
+  "mode": "production",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "mobile_paragraphs",
+      "status": "ok",
+      "fixed_files": [
+        {
+          "path": "draft.md",
+          "fixed_paragraphs": 203
+        },
+        {
+          "path": "final.md",
+          "fixed_paragraphs": 203
+        },
+        {
+          "path": "draft-scenes/scene-01.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "draft-scenes/scene-03.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "draft-scenes/scene-04.md",
+          "fixed_paragraphs": 12
+        },
+        {
+          "path": "draft-scenes/scene-05.md",
+          "fixed_paragraphs": 18
+        },
+        {
+          "path": "draft-scenes/scene-06.md",
+          "fixed_paragraphs": 15
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "fixed_paragraphs": 11
+        },
+        {
+          "path": "draft-scenes/scene-08.md",
+          "fixed_paragraphs": 16
+        },
+        {
+          "path": "draft-scenes/scene-09.md",
+          "fixed_paragraphs": 18
+        },
+        {
+          "path": "draft-scenes/scene-10.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "draft-scenes/scene-11.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "fixed_paragraphs": 19
+        },
+        {
+          "path": "draft-scenes/scene-13.md",
+          "fixed_paragraphs": 16
+        },
+        {
+          "path": "draft-scenes/scene-14.md",
+          "fixed_paragraphs": 18
+        },
+        {
+          "path": "final-chapters/ch01.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "final-chapters/ch02.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "final-chapters/ch03.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "final-chapters/ch04.md",
+          "fixed_paragraphs": 12
+        },
+        {
+          "path": "final-chapters/ch05.md",
+          "fixed_paragraphs": 18
+        },
+        {
+          "path": "final-chapters/ch06.md",
+          "fixed_paragraphs": 15
+        },
+        {
+          "path": "final-chapters/ch07.md",
+          "fixed_paragraphs": 11
+        },
+        {
+          "path": "final-chapters/ch08.md",
+          "fixed_paragraphs": 16
+        },
+        {
+          "path": "final-chapters/ch09.md",
+          "fixed_paragraphs": 18
+        },
+        {
+          "path": "final-chapters/ch10.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "final-chapters/ch11.md",
+          "fixed_paragraphs": 13
+        },
+        {
+          "path": "final-chapters/ch12.md",
+          "fixed_paragraphs": 19
+        },
+        {
+          "path": "final-chapters/ch13.md",
+          "fixed_paragraphs": 16
+        },
+        {
+          "path": "final-chapters/ch14.md",
+          "fixed_paragraphs": 18
+        }
+      ],
+      "manual_review": []
+    },
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": []
+    },
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

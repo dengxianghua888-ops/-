@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "hard_checks": {
+    "required_artifacts": "pass",
+    "review_gate_block": "pass",
+    "title_length": {"status": "pass", "chars": 17},
+    "forbidden_words": {"status": "pass", "hits": {}},
+    "soft_forbidden_words": {"status": "pass", "hits": {}}
+  },
+  "similarity": {
+    "status": "pass",
+    "max_continuous_overlap_chars": 0,
+    "notes": ["synthetic smoke source"]
+  },
+  "style_metrics": {
+    "status": "pass",
+    "avg_sentence_length": 18,
+    "dialogue_ratio": 0.36,
+    "question_marks_per_k": 1.2,
+    "physical_emotion_hits": {"手心": 1}
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {"mechanism": "M1", "check": "二选一死环成立", "status": "pass", "evidence": "违规/示范二选一"},
+      {"mechanism": "M3", "check": "前因后果回旋", "status": "pass", "evidence": "按章走前后镜像"}
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {"contract_item": "按章走回旋", "status": "pass", "evidence": "录音公开播放"},
+      {"contract_item": "正式凭证反杀", "status": "pass", "evidence": "罚单进入听证会"}
+    ]
+  },
+  "tomato_fit": {
+    "status": "pass",
+    "first_chapter_hook_score": 8,
+    "paywall_card_count": 0,
+    "chapter_hook_coverage": 1
+  }
+}
+

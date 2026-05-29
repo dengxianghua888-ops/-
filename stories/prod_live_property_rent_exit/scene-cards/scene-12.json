@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-03",
+  "target_chars_min": 690,
+  "target_chars_max": 730,
+  "location": "云桥广场物业办公室",
+  "time": "第12章对应场景",
+  "pov": "first_person",
+  "characters": [
+    "许知夏",
+    "蒋坤",
+    "老商户",
+    "家人"
+  ],
+  "character_goal": "保住迁移主动权并推进证据公开",
+  "opposition_goal": "把撤场包装成主角违约或赌气",
+  "conflict_action": "对方用涨租、断水、抹黑或求和施压",
+  "information_gap": "主角拒绝廉价回租",
+  "emotional_debt_delta": "老租户被羞辱和牵连的情绪债继续累计或偿还",
+  "payoff_or_hook": "主角拒绝廉价回租",
+  "chapter_end_hook": "主角拒绝廉价回租",
+  "paywall_card": true,
+  "must_include": [
+    "合同",
+    "客流",
+    "证据"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用旁白概括经营胜利",
+    "不要让董事长一句话解决冲突"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_4dbdc4d9d8",
+  "title": "他抱着我的尸骨跪了七天",
+  "genre": "ancient_BE",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "神医夫君为表妹抛下难产妻子，妻子脱离世界后夫君悔疯殉死",
+    "new_setting": "将军夫君为义妹抛下中毒垂危的妻子，妻子饮鸩自尽后将军发现真相悔疯殉死",
+    "character_map": {
+      "沈晚→谢蘅": "女主，被将军夫君反复抛弃，最终饮鸩决绝离去",
+      "顾长渊→裴衍": "将军夫君，每次关键时刻选择义妹，真相大白后悔疯殉死",
+      "柳鸢→宋婉": "义妹，以救命恩人之女身份寄居，暗害女主两个孩子",
+      "春杏→碧桃": "女主贴身婢女，被义妹收买反水"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "中毒垂危，夫君弃我", "min_impacts": 3, "must_include": ["女主中毒命悬一线", "裴衍为宋婉离开", "回忆上次抛弃导致儿子死亡"]},
+    {"beat_id": "B2", "title": "醒来丧女", "min_impacts": 3, "must_include": ["女主醒来得知女儿已死", "裴衍迟归安慰", "女主心死"]},
+    {"beat_id": "B3", "title": "义妹怀孕挑衅", "min_impacts": 4, "must_include": ["宋婉上门宣布怀孕", "揭开私情时间是儿子忌日", "女主崩溃"]},
+    {"beat_id": "B4", "title": "再次选她", "min_impacts": 3, "must_include": ["宋婉装晕", "裴衍再次抱走宋婉", "女主彻底寒心"]},
+    {"beat_id": "B5", "title": "女儿被杀真相", "min_impacts": 4, "must_include": ["宋婉承认捂死女儿", "承认毒杀儿子", "女主失控"]},
+    {"beat_id": "B6", "title": "栽赃与掌掴", "min_impacts": 4, "must_include": ["碧桃端毒药栽赃", "裴衍信义妹", "掌掴女主", "女主饮鸩自尽"]},
+    {"beat_id": "B7", "title": "真相门外响起", "min_impacts": 3, "must_include": ["裴衍偶然听见宋婉与碧桃对话", "全部罪行暴露"]},
+    {"beat_id": "B8", "title": "因果回旋审判", "min_impacts": 4, "must_include": ["宋婉反咬裴衍", "你的选择杀了她", "裴衍崩溃"]},
+    {"beat_id": "B9", "title": "夫人已死", "min_impacts": 3, "must_include": ["裴衍赶回发现妻子已死", "杀宋婉"]},
+    {"beat_id": "B10", "title": "抱尸七日殉死，女主放下", "min_impacts": 3, "must_include": ["抱尸不放", "服毒殉死", "女主不原谅不回头"]}
+  ]
+}

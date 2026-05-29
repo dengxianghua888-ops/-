@@ -1,0 +1,467 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_target": 10640,
+    "planned_range_sum": {
+      "min": 10200,
+      "max": 11220
+    }
+  },
+  "title": "古镇婚礼上，我才知道自己死了很多年",
+  "genre": "家庭伦理 / 婚姻背叛反杀 / 法律清算",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "carrier": "直播婚礼回放、假登记证明、婚内财产流水、宾客证词"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "丈夫先公开宣告妻儿已死，女主再借直播镜头公开回魂"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "古镇婚礼排场、商铺收益、金器改口礼，对照女主当年寒酸婚礼和婚后吃苦"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "被写死→婚礼潜入→婆家共谋→儿子也被写死→假证→财产追回→司法闭环"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-01",
+        "end": "scene-01"
+      },
+      "chapter_end_hook": "她抬头看见古镇大屏上的新郎，竟是她失联多日的丈夫周瑞阳。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-02",
+        "end": "scene-02"
+      },
+      "chapter_end_hook": "后台通行证拿到手时，她听见伴郎笑着说：周总丧妻带娃那段总算翻篇了。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-03",
+        "end": "scene-03"
+      },
+      "chapter_end_hook": "婆婆一句“连那个小杂种都没了”，把她儿子也一并埋进了谎话里。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 820,
+      "scene_range": {
+        "start": "scene-04",
+        "end": "scene-04"
+      },
+      "chapter_end_hook": "她抢过话筒，只说了一句：周瑞阳，结婚这么大的事，怎么不告诉我这个老婆？"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-05",
+        "end": "scene-05"
+      },
+      "chapter_end_hook": "新娘甩出的“登记证明”上，女方签名不是沈月然，而是林晚晴。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-06",
+        "end": "scene-06"
+      },
+      "chapter_end_hook": "她把儿子的出生证明举到镜头前，问周瑞阳：死人能生下这个孩子吗？"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 780,
+      "scene_range": {
+        "start": "scene-07",
+        "end": "scene-07"
+      },
+      "chapter_end_hook": "她翻出商铺收益转账截图，发现新娘手上的金锁，也是她婚内的钱买的。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-08",
+        "end": "scene-08"
+      },
+      "chapter_end_hook": "律师当众问周瑞阳：你现在是承认重婚，还是承认伪造证明？"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-09",
+        "end": "scene-09"
+      },
+      "chapter_end_hook": "周瑞阳低声求她回家，她却把孩子的疫苗本拍在他胸口。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 740,
+      "scene_range": {
+        "start": "scene-10",
+        "end": "scene-10"
+      },
+      "chapter_end_hook": "录音里，婆婆亲口承认：白送的媳妇，不要白不要。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 760,
+      "scene_range": {
+        "start": "scene-11",
+        "end": "scene-11"
+      },
+      "chapter_end_hook": "沈月然把商户群聊天记录递出去时，周瑞阳终于知道自己孤立了。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 820,
+      "scene_range": {
+        "start": "scene-12",
+        "end": "scene-12"
+      },
+      "chapter_end_hook": "庭上最后一份证据落下后，法官问他：你要继续说你太太死了吗？"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 700,
+      "scene_range": {
+        "start": "scene-13",
+        "end": "scene-13"
+      },
+      "chapter_end_hook": "追回款到账那天，邱淑芬把那只古法金镯连盒子一起送了回来。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 700,
+      "scene_range": {
+        "start": "scene-14",
+        "end": "scene-14"
+      },
+      "chapter_end_hook": "儿子把风铃挂上阳台，说：妈妈，我们家这次不会再丢了吗？"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "古镇街口与开街主路",
+      "character_goal": "林晚晴要确认自己是不是被丈夫公开宣告死亡，并立刻追到婚礼现场。",
+      "conflict_action": "她拦住周瑞阳的朋友套话，随后扛着花篮硬闯古镇开街人流。",
+      "information_gap": "丈夫到底把她说成了什么人，婚礼规模有多公开，孩子有没有也被一起抹掉。",
+      "emotion_debt_balance": {
+        "debt_added": "活人听见自己成了亡妻。",
+        "debt_collected": "女主当场追人，不给情绪发酵成哭诉。"
+      },
+      "chapter_end_hook": "大屏上出现周瑞阳和新娘的婚礼形象片。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要长段解释古镇活动背景",
+        "不能把山洪写成灾难奇观"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "古镇开街后台入口与花艺堆场",
+      "character_goal": "林晚晴要混进后台，拿到第一手婚礼证据。",
+      "conflict_action": "她冒充补送花艺的供应员，和安保、婚庆助理正面周旋。",
+      "information_gap": "周瑞阳对外的身份包装是什么，婚礼是否有直播和集体婚礼加持。",
+      "emotion_debt_balance": {
+        "debt_added": "丈夫把丧妻人设当成婚礼包装。",
+        "debt_collected": "女主靠职业经验和冷静应变闯进后台。"
+      },
+      "chapter_end_hook": "伴郎一句“丧妻带娃总算翻篇”，证实谎言不是口误。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述婚庆流程",
+        "不要写成潜伏教程",
+        "不能让女主长篇回忆婚史"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "亲友席后侧与礼账台附近",
+      "character_goal": "林晚晴要确认婆家是否共谋，并抓到双标账。",
+      "conflict_action": "她躲在布景后偷拍视频，听公婆炫耀商铺收益、金器改口礼和“白送媳妇”旧账。",
+      "information_gap": "婆家知道多少，儿子是否也被写死，偏爱差距具体落在哪些钱和物上。",
+      "emotion_debt_balance": {
+        "debt_added": "婆家不只是知情，还把她不要彩礼当廉价笑柄。",
+        "debt_collected": "双标证据先落到台词和礼单，不只靠骂。"
+      },
+      "chapter_end_hook": "邱淑芬顺口埋掉了她儿子的存在。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要列长串宾客反应",
+        "不要抽象感叹偏爱",
+        "不要写成旁白总结清单"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 780,
+      "target_chars_max": 860,
+      "scene_location": "古镇开街集体婚礼主舞台",
+      "character_goal": "林晚晴要在最公开的镜头里夺回身份叙事权。",
+      "conflict_action": "她趁主持人串场抢过话筒，当众叫出周瑞阳的名字和自己的妻子身份。",
+      "information_gap": "周瑞阳会先否认、先装不认识，还是先压她离场；围观会站哪边。",
+      "emotion_debt_balance": {
+        "debt_added": "丈夫享受万人祝福时，她被当成闹场疯女人。",
+        "debt_collected": "女主在直播镜头里完成第一次公开回魂。"
+      },
+      "chapter_end_hook": "全场安静后，周瑞阳的脸第一次彻底白了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把抢麦写成纯撒泼",
+        "不要用空口控诉替代身份砸脸句",
+        "不要堆主持人口播"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "主舞台前排与直播机位旁",
+      "character_goal": "林晚晴要把对方的“合法婚姻”外壳当场拆掉。",
+      "conflict_action": "沈月然甩出已登记证明压人，林晚晴直接指认签名和证件信息不对。",
+      "information_gap": "这套证明是谁做的，周瑞阳是在重婚还是伪造证明，沈月然知道多少。",
+      "emotion_debt_balance": {
+        "debt_added": "第三者站在合法妻子高位羞辱原配。",
+        "debt_collected": "女主用一眼识别的证件破绽反打她的优越感。"
+      },
+      "chapter_end_hook": "镜头推近时，所有人都看见了那张证明上的名字错位。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要科普证件样式",
+        "不要连续解释法律条文",
+        "不要让女主一口气说完全部真相"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "舞台台阶与亲友围拢区",
+      "character_goal": "林晚晴要把“她还活着”升级为“孩子也还活着”。",
+      "conflict_action": "公婆扑上来骂她冒充，林晚晴掏出结婚证、孩子出生证明和旧合照连砸三样证据。",
+      "information_gap": "周瑞阳会不会继续否认亲子关系，沈月然听到孩子后会不会动摇。",
+      "emotion_debt_balance": {
+        "debt_added": "孩子被亲生父亲一并写死。",
+        "debt_collected": "母子存在被女主亲手从谎言里拽回来。"
+      },
+      "chapter_end_hook": "她举着出生证明问：周瑞阳，死人怎么给你生的儿子？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成长篇母爱抒情",
+        "不要复述生育经历",
+        "不要让围观者替女主发言太多"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 750,
+      "target_chars_max": 830,
+      "scene_location": "礼账台、礼盒区与新娘休息位之间",
+      "character_goal": "林晚晴要把偏爱和背叛落到具体财产上。",
+      "conflict_action": "她翻出自己存着的转账截图，对照礼单和商铺收益话术，当众点出金锁、商铺租金和民宿分红的来源。",
+      "information_gap": "还有多少婚内钱被转走，沈月然手里哪些东西是用共同财产堆出来的。",
+      "emotion_debt_balance": {
+        "debt_added": "他把会爱人的钱和排场，全给了别人。",
+        "debt_collected": "偏爱不再抽象，直接变成可追的流水和礼物。"
+      },
+      "chapter_end_hook": "沈月然下意识摘下金锁时，才发现自己戴着的是别人的婚内钱。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写成流水账报表",
+        "不要抽象感慨他不爱我",
+        "不要堆砌奢华场景描写"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "直播控制台旁与景区办公室门口",
+      "character_goal": "林晚晴要把婚礼翻车接到后续可执行的法律路径上。",
+      "conflict_action": "她让早已联系好的苏律师进场，现场申请保全直播回放、假证明影像和转账证据。",
+      "information_gap": "周瑞阳会选哪条说法自保，假证明链条能不能追到他本人。",
+      "emotion_debt_balance": {
+        "debt_added": "周瑞阳还想靠嘴硬把事故压成家庭纠纷。",
+        "debt_collected": "女主把闹场瞬间变成取证现场。"
+      },
+      "chapter_end_hook": "苏律师问出的那句二选一，让周瑞阳第一次无路可绕。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写法律科普长文",
+        "不要跳过证据保全动作",
+        "不要让律师抢走女主主导权"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "古镇侧巷与临时停车场",
+      "character_goal": "林晚晴要彻底掐灭周瑞阳“回归家庭”的退路。",
+      "conflict_action": "周瑞阳把她堵到侧巷低声求和，林晚晴直接把孩子疫苗本和托费单拍到他身上。",
+      "information_gap": "他是真怕坐实罪责，还是还想继续两头占；他对孩子究竟冷到什么程度。",
+      "emotion_debt_balance": {
+        "debt_added": "事发后他第一反应不是认错，而是想把她继续收回去消灾。",
+        "debt_collected": "女主用孩子这些年的现实账，斩断旧婚姻的最后情感残线。"
+      },
+      "chapter_end_hook": "她说完“你连儿子打的针都不知道”，周瑞阳一句话也接不上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成旧情拉扯戏",
+        "不要让女主心软回忆甜蜜",
+        "不要连续解释育儿时间线"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 710,
+      "target_chars_max": 790,
+      "scene_location": "亲友群散场口与投资人休息厅外",
+      "character_goal": "林晚晴要把婆家的共谋证据从私下骂人升级为可传播硬伤。",
+      "conflict_action": "她当众播放婆婆早年辱骂和算计彩礼的录音，顺带点破公公参与挪用礼金和站队。",
+      "information_gap": "投资人和亲友听完后会不会撤开，婆家还有没有别的抵赖口径。",
+      "emotion_debt_balance": {
+        "debt_added": "公婆靠女主吃苦起家，却把她定义成白送的丧门星。",
+        "debt_collected": "他们的体面第一次在自己亲友面前碎开。"
+      },
+      "chapter_end_hook": "邱淑芬的录音放完后，刚才还叫她亲家的那桌人全往后退了半步。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成长篇群嘲",
+        "不要把公婆骂战拉成回合制吵架",
+        "不要复述录音全文"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 730,
+      "target_chars_max": 810,
+      "scene_location": "律师事务所与商户群截图取证阶段",
+      "character_goal": "林晚晴要补齐财产追回和伪证线的外围证据。",
+      "conflict_action": "沈月然从受害者自保出发交出商户群聊天、假证明来源截图和转账提醒，林晚晴同步提起离婚与赠与追回。",
+      "information_gap": "沈月然会不会彻底倒戈，外部证据能否把周瑞阳和假证明链条锁死。",
+      "emotion_debt_balance": {
+        "debt_added": "第三者曾站在她头上享受红利。",
+        "debt_collected": "第三者跌成证人，但不洗白，她只是开始止损。"
+      },
+      "chapter_end_hook": "商户群里那句“证先做出来给女方家安心”，把假证链条钉实了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把证据写成罗列清单",
+        "不要替第三者做无罪辩护",
+        "不要省略女主主动起诉动作"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 780,
+      "target_chars_max": 860,
+      "scene_location": "法院庭审现场",
+      "character_goal": "林晚晴要让周瑞阳在制度层面无论怎么选都掉进后果里。",
+      "conflict_action": "周瑞阳试图把婚礼说成活动作秀，苏律师依次砸下直播回放、婚内转账、商户注册材料和假证明聊天链。",
+      "information_gap": "法官最终如何定性，周瑞阳会不会继续把她说成失联亡人。",
+      "emotion_debt_balance": {
+        "debt_added": "他还想靠文字游戏把多年作恶抹平。",
+        "debt_collected": "证据死环真正闭合，情绪爽转成结果爽。"
+      },
+      "chapter_end_hook": "法官那句反问，把他多年编的死亡叙事原样塞回了他嘴里。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写成判决书摘抄",
+        "不要长篇科普重婚构成",
+        "不要让庭审只有律师说话"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 670,
+      "target_chars_max": 750,
+      "scene_location": "判后执行节点与旧宅门口",
+      "character_goal": "林晚晴要看见钱和物真正回流，不让清算停在口头。",
+      "conflict_action": "她盯着执行回款到账，又上门收回被赠出的金器和礼盒清单。",
+      "information_gap": "公婆会不会继续拖欠，周瑞阳剩下的体面还能撑多久。",
+      "emotion_debt_balance": {
+        "debt_added": "她这些年被拿走的不只是感情，还有实打实的资产。",
+        "debt_collected": "追回款、退回金器、名下财产切割同步落地。"
+      },
+      "chapter_end_hook": "那只古法金镯被送回来时，邱淑芬连抬眼都不敢。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要一句话带过执行结果",
+        "不要写成爽文神判外挂",
+        "不要反复辱骂替代结果展示"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 670,
+      "target_chars_max": 750,
+      "scene_location": "新城区小两居阳台",
+      "character_goal": "林晚晴要把故事真正收在母子新生，而不是渣男后悔。",
+      "conflict_action": "她和周一诺一起种下小树、挂上风铃，回答孩子关于“家还会不会丢”的问题。",
+      "information_gap": "孩子的安全感如何落地，女主如何从被写死的人重新拿回生活叙事权。",
+      "emotion_debt_balance": {
+        "debt_added": "孩子曾被父亲从世界里删掉。",
+        "debt_collected": "新家、新树、风铃把母子的未来重新命名。"
+      },
+      "chapter_end_hook": "结尾句落在：以后，我们的家，我们自己养大。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写释怀鸡汤",
+        "不要回头关心渣男近况",
+        "不要把新生活写成抽象愿景"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      16,
+      22
+    ],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.58,
+    "direct_dialogue_line_rate_min": 0.32,
+    "direct_dialogue_line_rate_max": 0.48,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 6.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

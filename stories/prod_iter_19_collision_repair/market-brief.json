@@ -1,0 +1,92 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 14000,
+    "sweet_spot": [11000, 13000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 750,
+    "recommended_chapter_count": {"min": 14, "max": 20},
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_coverage_target": 1.0
+  },
+  "hook_policy": {
+    "front_300_chars": "倒叙冲突式 H1：把'交完30万、转身报警车被掉包'的死环结果先放出来，再回到屈辱起点",
+    "micro_hook_every_chars": 1000,
+    "paywall_card_every_chars": 3000,
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄现代反转/反贪爽文核心用户",
+      "30-45 岁实体小老板、个体司机、被'科技执法/系统判定'坑过的男性读者",
+      "女性家庭账户管理者，对'被强行套路掏家底'高度共情"
+    ],
+    "emotion_needs": [
+      "压迫感：基层公权力借'系统/AI'敲诈普通人",
+      "翻盘爽：用对方盖章的文书反向锁死对方",
+      "被冤枉的清白被官方背书后反噬施害者"
+    ],
+    "forbidden_topics": [
+      "不黑化警察、海关、公检法系统整体，只锁定外包检测公司、个别蛀虫",
+      "不出现真实在职官员姓名、真实机构招牌",
+      "不写血腥暴力、性描写、自杀细节",
+      "不写主角以暴制暴、自首式复仇",
+      "不出现境外政治、宗教、种族议题"
+    ]
+  },
+  "title_strategy": {
+    "primary_formula": "T1 因果反转式",
+    "candidates": [
+      {
+        "title": "汽修厂说我的货车是报废车，那就按报废车赔吧",
+        "formula": "T1",
+        "char_count": 22,
+        "hook_strength": 9,
+        "rationale": "完全沿用爆款源作'X说我Y是Z，那就按Z赔吧'的句式记忆点，把场景从海关迁到汽修，受众基数更大"
+      },
+      {
+        "title": "4S店把我十万的货车判成报废，我交完30万安全税让他坐了牢",
+        "formula": "T4 数字+反转",
+        "char_count": 28,
+        "hook_strength": 8,
+        "rationale": "数字对冲（十万车/30万税）制造算术冲突；后半句剧透爽点，适合中部章节封面"
+      },
+      {
+        "title": "他们说系统判定就这个数，我说系统判定的就这个价",
+        "formula": "T5 对仗回旋式",
+        "char_count": 22,
+        "hook_strength": 7,
+        "rationale": "M3 回旋金句直接做标题，适合做番茄首发副标或推送钩"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_intent": 90,
+    "paywall_pass_rate": 88,
+    "emotion_release_score": 92,
+    "ai_flavor_score": 0,
+    "viral_density": 85,
+    "review_score_target": 4.6
+  },
+  "market_positioning": {
+    "comparable_titles": [
+      "海关说我的破包是爱马仕",
+      "成为高考状元却接到断亲书",
+      "老公给我妈下药后我杀疯了"
+    ],
+    "differentiation": "从奢侈品/家庭场景搬到男性向货运/个体经济，覆盖货运司机、汽修客户、跑物流的小老板等被'第三方检测+系统'坑过的群体；保留 M1 死环 + M3 回旋两条爆款脊柱。",
+    "platform_fit_notes": "番茄短故事推荐位偏爱：男主清醒反贪、官方公章作为爽点武器、群体受害者集体翻盘——本选题三条都吃。"
+  },
+  "production_constraints": {
+    "max_source_overlap_chars": 120,
+    "soul_contract_required": true,
+    "preferred_mechanisms": ["M1", "M3"],
+    "preferred_hooks": ["H1", "H4"],
+    "genre": "modern_reversal"
+  }
+}

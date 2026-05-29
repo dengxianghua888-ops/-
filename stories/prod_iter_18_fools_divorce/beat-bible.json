@@ -1,0 +1,298 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10550
+  },
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "scene_location": "游艇包厢",
+      "target_chars": 680,
+      "target_chars_min": 680,
+      "target_chars_max": 680,
+      "character_goal": "当众提出离婚",
+      "conflict_action": "结婚第六年的纪念日，顾砚臣在游艇上摘下我的婚戒。  海风吹得我膝上的薄毯略显发冷，他",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "纪念日羞辱债",
+      "chapter_end_hook": "我把戒指放在协议上，听见自己心里最后一声回响沉进海里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "scene_location": "船舱屏幕前",
+      "target_chars": 709,
+      "target_chars_min": 709,
+      "target_chars_max": 709,
+      "character_goal": "公开备用手机证据",
+      "conflict_action": "船舱门关上后，顾砚臣的朋友还在替他打圆场。  他们说纪念日嘛，男人放纵一次不算什么。",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "证据债",
+      "chapter_end_hook": "证据已经进了律师邮箱，也进了顾氏董事会的加密群。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "scene_location": "民政局",
+      "target_chars": 680,
+      "target_chars_min": 680,
+      "target_chars_max": 680,
+      "character_goal": "启动诉讼离婚",
+      "conflict_action": "下午三点，我准时到了民政局。  顾砚臣没有来。  他的电话在第四次拨通后接了，背景音",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "失约债",
+      "chapter_end_hook": "“追加证据。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "scene_location": "顾宅客厅",
+      "target_chars": 645,
+      "target_chars_min": 645,
+      "target_chars_max": 645,
+      "character_goal": "触发信托撤保",
+      "conflict_action": "顾砚臣深夜回家时，外套上带着医院消毒水味和宋晚棠惯用的白茶香。  他把一束玫瑰放到我",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "信托债",
+      "chapter_end_hook": "“放心，我会按法律动。”",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "scene_location": "顾氏董事会",
+      "target_chars": 687,
+      "target_chars_min": 687,
+      "target_chars_max": 687,
+      "character_goal": "冻结股权和转账证据",
+      "conflict_action": "第二天九点，顾氏董事会临时召开。  顾砚臣大概以为我会像从前一样坐在家里等他发落，所",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "董事会债",
+      "chapter_end_hook": "我转动轮椅离席，听见身后杯子碎裂的声音。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "scene_location": "医院直播间",
+      "target_chars": 669,
+      "target_chars_min": 669,
+      "target_chars_max": 669,
+      "character_goal": "反击直播洗白",
+      "conflict_action": "宋晚棠不肯坐以待毙。  当晚她开了直播，脸色苍白地坐在医院病床上，说自己只是被有钱太",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "直播债",
+      "chapter_end_hook": "我等了六年的真相，原来不需要他的允许才算真相。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "scene_location": "新住处门口",
+      "target_chars": 642,
+      "target_chars_min": 642,
+      "target_chars_max": 642,
+      "character_goal": "拒绝迟来的弥补",
+      "conflict_action": "警方重新立案后，顾砚臣第一次主动来到我的新住处。  我没有让他进门，只让护工把门链扣",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "迟来道歉债",
+      "chapter_end_hook": "“你能还我孩子吗。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "scene_location": "法院",
+      "target_chars": 653,
+      "target_chars_min": 653,
+      "target_chars_max": 653,
+      "character_goal": "庭审确认真相",
+      "conflict_action": "开庭那天，宋晚棠没有了直播里的柔弱。  她穿着宽大的孕妇裙，坐在被告席上，一口咬定所",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "庭审债",
+      "chapter_end_hook": "那里没有知觉，却在这一刻像终于从旧雨里挪出来一点。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "scene_location": "公寓楼上",
+      "target_chars": 637,
+      "target_chars_min": 637,
+      "target_chars_max": 637,
+      "character_goal": "切断骚扰和旧情",
+      "conflict_action": "一审结束后，网上舆论彻底翻转。  从前骂我恶毒的人开始替我委屈，仿佛换一张脸就能抹掉",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "雨跪债",
+      "chapter_end_hook": "我拉上窗帘，给康复中心预约了新的训练时间。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "scene_location": "金工坊",
+      "target_chars": 622,
+      "target_chars_min": 622,
+      "target_chars_max": 622,
+      "character_goal": "熔掉婚戒",
+      "conflict_action": "离婚判决下来那天，天气很好。  法院支持我解除婚姻关系，也支持信托撤保和大部分财产返",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "婚戒债",
+      "chapter_end_hook": "我看着金属在火里失去圆环的形状，第一次觉得呼吸顺了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "scene_location": "康复中心",
+      "target_chars": 650,
+      "target_chars_min": 650,
+      "target_chars_max": 650,
+      "character_goal": "转向公益修复",
+      "conflict_action": "宋晚棠一审宣判时，康复中心正在试运行我的公益项目。  第一批受助者里有车祸幸存者，也",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "公益债",
+      "chapter_end_hook": "原来人真的可以把疼痛留在原地，然后往前挪一点。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "scene_location": "山洪纪念馆",
+      "target_chars": 631,
+      "target_chars_min": 631,
+      "target_chars_max": 631,
+      "character_goal": "完成情绪解绑",
+      "conflict_action": "山洪纪念馆重新开放那天，顾砚臣也去了。  我在展墙前看见他的背影，他瘦了许多，像一棵",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "旧爱债",
+      "chapter_end_hook": "我转动轮椅离开展厅，没有再回头看那张合照。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "scene_location": "康复中心办公室",
+      "target_chars": 653,
+      "target_chars_min": 653,
+      "target_chars_max": 653,
+      "character_goal": "保存证据不保存旧爱",
+      "conflict_action": "又到结婚纪念日那天，我收到一封没有署名的信。  信封里没有求复合，也没有解释，只有一",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "档案债",
+      "chapter_end_hook": "窗外阳光落在扶栏上，那枚由婚戒熔成的铆钉亮了一下。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "scene_location": "公益项目大厅",
+      "target_chars": 658,
+      "target_chars_min": 658,
+      "target_chars_max": 658,
+      "character_goal": "拒绝买名声的捐赠",
+      "conflict_action": "公益项目上线三个月后，顾砚臣又通过律师送来一份捐赠协议。  金额很大，足够康复中心新",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "匿名捐赠债",
+      "chapter_end_hook": "那晚我睡得很好，没有梦见雨，也没有梦见顾砚臣。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-15",
+      "scene_location": "顾氏重组会",
+      "target_chars": 686,
+      "target_chars_min": 686,
+      "target_chars_max": 686,
+      "character_goal": "把前夫移出未来",
+      "conflict_action": "顾氏重组大会上，顾砚臣正式辞去董事长职务。  他在公开声明里承认婚内伤害和事故后的包",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "未来债",
+      "chapter_end_hook": "从此每一份计划书、每一次训练、每一条路，都不再需要他的名字作注。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-16",
+      "scene_location": "康复中心阳台",
+      "target_chars": 648,
+      "target_chars_min": 648,
+      "target_chars_max": 648,
+      "character_goal": "彻底重启人生",
+      "conflict_action": "新一年的纪念日，我没有收到信。  这很好。  我清晨去了康复中心，陪第一批受助者完成",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "自我债",
+      "chapter_end_hook": "第十二步落下时，我听见自己笑了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 6,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "学校纪检会议室",
+  "time": "诬告后第三天，审计组到校",
+  "pov": "苏念",
+  "characters": ["苏念", "顾瑶", "叶东辰", "马家栋", "秦岚", "教务主任"],
+  "character_goal": "苏念试图自证清白——她确实是真正的贫困生",
+  "opposition_goal": "顾瑶+叶东辰+马家栋三人联合做伪证，审计员秦岚配合定罪",
+  "conflict_action": "马家栋先出证'亲眼看到苏念在商场买两千块外套'→叶东辰鞠躬做伪证'她请我吃饭的转账记录'→顾瑶配合哭泣'她欺骗了我们所有人'",
+  "information_gap": "读者知道所有证据都是伪造的，但会议室里没有人相信苏念",
+  "emotional_debt_delta": "递进式围攻让窒息感层层加码——每一个新的伪证人都是一重背叛",
+  "payoff_or_hook": "秦岚带着公文包和录音笔冲进来，局面从'校内审查'升级为'公共事件'",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "马家栋的虚假证词（具体消费场景）",
+    "叶东辰的鞠躬表演+伪证台词",
+    "顾瑶的哭泣配合",
+    "苏念'没有监控'的绝望顿悟",
+    "秦岚带审计组闯入的升级"
+  ],
+  "must_not_write_as_exposition": [
+    "审计流程的制度解释",
+    "苏念内心的恐惧分析",
+    "三人串供的过程（直接呈现结果）"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "窒息-愤怒",
+    "emotion_arc": "紧张 → 被围攻 → 绝望认知 → 愤怒积累",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "被四面围攻的窒息感，对三人联合做伪证的愤怒达到顶点",
+    "required_techniques": [
+      {
+        "technique": "递进式围攻",
+        "instruction": "每一层新攻击者加入都让读者更窒息——马家栋→叶东辰→顾瑶→秦岚，四面楚歌的体感"
+      },
+      {
+        "technique": "伪证的表演感",
+        "instruction": "叶东辰鞠躬'对不起各位领导'——施害者表演'愧疚认错'比直接攻击更恶心，因为他在利用道德姿态"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "动作停顿+认知落差揭示",
+        "example": "我猛地顿住，我忘了，三十年前的考场上还没有监控摄像头。",
+        "instruction": "苏念意识到这个时代的在线系统没有操作录像回放功能——最好的辩护工具不存在"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "递进式",
+    "source_excerpt": "陈越指证→钟然做伪证→宋攸宁配合→记者冲入。钟然鞠了一躬……「对不起各位领导，我因为私心……我已经严肃认识到了自己的错误。」我猛地顿住，我忘了，三十年前的考场上还没有监控摄像头。"
+  }
+}

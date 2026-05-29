@@ -1,0 +1,53 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 860,
+  "target_chars_max": 1060,
+  "location": "澜舟科技楼下媒体区",
+  "time": "董事会后半小时",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "许知微",
+    "陆承川",
+    "记者"
+  ],
+  "character_goal": "沈听澜要反制江砚舟把她塑造成吃醋前未婚妻的舆论话术。",
+  "opposition_goal": "江砚舟要借媒体把问题重新拉回情感纠纷。",
+  "conflict_action": "江砚舟开媒体说明会，沈听澜和许知微并肩提交伦理投诉回执，陆承川确认文件已进入程序。",
+  "information_gap": "记者不知道投诉附件里包含冷柜采购单和病史营销脚本。",
+  "emotional_debt_delta": {
+    "added": [
+      "舆论污名债"
+    ],
+    "paid": [
+      "两女公开同框",
+      "伦理投诉落地"
+    ]
+  },
+  "payoff_or_hook": "江砚舟的情感话术被程序回执压回公司风险。",
+  "chapter_end_hook": "截断句：调查组电话打到助理手机上，十五分钟后，我们进场。",
+  "paywall_card": false,
+  "must_include": [
+    "少量直播评论或媒体弹幕",
+    "伦理投诉回执",
+    "冷柜采购单只露文件名",
+    "陆承川只确认程序，不替她们解释"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写记者连珠问题",
+    "不要科普伦理调查",
+    "不要让江砚舟当众悔过"
+  ],
+  "rhythm_job": {
+    "shape": "媒体误导，回执压场，调查电话钩子",
+    "dialogue_action_breathing_ratio": "对白约45%，动作约40%，评论约3%，呼吸点约12%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用直播评论的误读和沈听澜递回执的证据动作承接舆论压力",
+    "chapter_tail_action": "助理手机外放调查组通知"
+  }
+}

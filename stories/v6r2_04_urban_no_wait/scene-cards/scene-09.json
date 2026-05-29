@@ -1,0 +1,97 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "target_chars_min": 520,
+  "target_chars_max": 620,
+  "location": "沈氏资本LP年会大厅（宴席）",
+  "time": "紧接scene-08",
+  "pov": "苏念 + 陆衍反应",
+  "characters": ["苏念", "陆衍", "沈砚", "沈母"],
+  "character_goal": "沈砚用'不提了'三个字轻描淡写碾压陆衍的所有挣扎",
+  "opposition_goal": "陆衍继续嘴硬试图翻盘",
+  "conflict_action": "陆衍嘴硬→沈砚递咖啡说'不提了'→陆衍当众崩溃哭泣→三十岁男人在百位投资人面前哭的画面",
+  "information_gap": "在场投资人都知道了，陆衍的商业信誉正在实时崩塌",
+  "emotional_debt_delta": "陆衍的社会面子彻底归零",
+  "payoff_or_hook": "'不提了'三个字=你不配被计较",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "沈砚给苏念递手冲咖啡的日常动作",
+    "'不提了'三个字的极致轻描淡写",
+    "陆衍的眼泪砸在桌面上的具体细节",
+    "三十岁男人在百位投资人面前哭的社死画面"
+  ],
+  "must_not_write_as_exposition": [
+    "在场投资人的具体反应",
+    "陆衍公司的融资状况"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压——对话交锋不喘息",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.5,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 14.8,
+    "dominant_emotion": "审判碾压-酣畅痛快",
+    "emotion_arc": "嘴硬 → 被轻描淡写碾压 → 崩溃哭泣",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "看着渣男在LP年会众人面前崩塌的极致快感，被沈砚的淡定暖到",
+    "required_techniques": [
+      {
+        "technique": "轻描淡写的降维碾压",
+        "instruction": "'不提了'三个字的杀伤力远大于控诉——因为不提=不屑=你不配被计较"
+      },
+      {
+        "technique": "细节降格",
+        "instruction": "'眼泪砸在桌面上，溅起小小的水渍。三十岁的男人，当着百位投资人哭成这样'——具体细节让画面极度真实且可笑"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "[极短句]+[物理化比喻] = 轻巧动作+重磅伤害",
+        "example": "不提了。三个字，轻飘飘的，却像一把刀扎进陆衍心口。",
+        "instruction": "越轻描淡写越有杀伤力——暗示'你已经不值得我愤怒'"
+      },
+      {
+        "structure": "[年龄]+[场合]+[行为]+[评价] = 社死级画面",
+        "example": "三十岁的男人，当着百位投资人的面哭成这样，场面说不出的难看。",
+        "instruction": "年龄+场合让'哭'这个行为变成极致丢人"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "轻描淡写式——用最少的字数完成最大的伤害",
+    "source_excerpt": "陆衍站起来：'哥，你这是什么意思？她明明——'\n沈砚没看他。\n给苏念面前的杯子续了一杯手冲咖啡。\n'爸，妈，事情已经过去了。念念现在是我妻子，以前的事，不提了。'\n不提了。\n三个字。\n陆衍的眼泪掉下来了。\n砸在桌面上，溅起小小的水渍。\n三十岁的男人，当着百位投资人哭成这样。\n场面说不出的难看。"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": [],
+      "句式": "沉默或极简回应",
+      "单句上限": 12,
+      "禁止": "控诉、得意"
+    },
+    "陆衍": {
+      "口癖": [],
+      "句式": "从嘴硬到哽咽到说不出话",
+      "单句上限": 18,
+      "禁止": ""
+    },
+    "沈砚": {
+      "口癖": ["不提了"],
+      "句式": "极短、对陆衍不正眼看",
+      "单句上限": 9,
+      "禁止": "长句解释"
+    },
+    "沈母": {
+      "口癖": ["你这孩子"],
+      "句式": "追问式命令",
+      "单句上限": 11,
+      "禁止": ""
+    }
+  }
+}

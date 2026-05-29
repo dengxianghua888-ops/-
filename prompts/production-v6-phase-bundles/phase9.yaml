@@ -1,0 +1,18 @@
+phase: 9
+key: feedback_learning
+role: Feedback Learning
+title: 复盘沉淀与检索资产
+system_prompt: prompts/production/feedback-learning.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/final.md
+  - story/quality-report.json
+  - story/review.md
+  - story/craft-notes.md
+  - context/mechanism-playbook.json
+  - context/forbidden-words-learned.json
+required_outputs:
+  - feedback-learning.json
+validators:
+  - validate-production-story:phase9

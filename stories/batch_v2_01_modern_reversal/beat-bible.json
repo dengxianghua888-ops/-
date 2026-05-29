@@ -1,0 +1,104 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 12000},
+  "title": "镜厅",
+  "genre": "modern_reversal",
+  "mechanisms": ["M2_identity_explosion", "M3_causal_boomerang", "M5_multi_layer_betrayal", "M6_progressive_escalation"],
+  "opening_structure": "conflict_first",
+  "climax_budget_note": "B7-B8-B9 are climax, get 35-40% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "镜厅请帖",
+      "budget_role": "opening", "budget_pct": "8%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["女主收到丈夫订婚宴请帖", "地点是自家酒店镜厅", "女主身穿保洁制服"]
+    },
+    {
+      "beat_id": "B2", "title": "婆婆下马威",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["婆婆在宴会前厅拦住女主", "当众骂穷", "逼女主换下制服滚回家"]
+    },
+    {
+      "beat_id": "B3", "title": "小三登场",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 600, "target_chars_max": 800,
+      "is_climax_beat": false,
+      "must_include": ["沈颖穿白纱挽着丈夫出场", "丈夫介绍'未来的贺太太'", "女主站在人群后面看着"]
+    },
+    {
+      "beat_id": "B4", "title": "女儿叫妈",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["三岁女儿被带出来", "女儿喊沈颖'妈妈'", "女主手指甲掐进掌心"]
+    },
+    {
+      "beat_id": "B5", "title": "红酒泼面",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["婆婆逼女主跪下给小三道歉", "女主不跪", "沈颖泼红酒到女主脸上", "围观者起哄"]
+    },
+    {
+      "beat_id": "B6", "title": "掰断指",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["丈夫把女主拖到后厨", "掰她无名指上的婚戒", "当着女儿面动手", "女主一声不吭"]
+    },
+    {
+      "beat_id": "B7", "title": "灯灭",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1000, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["镜厅灯光全灭", "女主打电话：'妈，他在你的酒店办订婚宴'", "灯亮时女主母亲站在主台", "董事长身份揭穿"]
+    },
+    {
+      "beat_id": "B8", "title": "身份反转",
+      "budget_role": "climax", "budget_pct": "14%",
+      "target_chars_min": 1200, "target_chars_max": 1500,
+      "is_climax_beat": true,
+      "must_include": ["母亲宣布取消宴会", "丈夫公司最大客户是晨光酒店", "M3因果回旋：选了她的酒店=自取灭亡", "婆婆腿软", "丈夫求饶"]
+    },
+    {
+      "beat_id": "B9", "title": "清算",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1000, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["女主宣布离婚+女儿归我", "丈夫公司订单全撤", "沈颖被揭穿是为钱接近", "小三和丈夫互撕"]
+    },
+    {
+      "beat_id": "B10", "title": "女儿回来",
+      "budget_role": "closure", "budget_pct": "7%",
+      "target_chars_min": 600, "target_chars_max": 800,
+      "is_climax_beat": false,
+      "must_include": ["女儿跑回来抱女主腿", "喊'妈妈'", "女主抱起女儿走出镜厅"]
+    },
+    {
+      "beat_id": "B11", "title": "镜中人",
+      "budget_role": "closure", "budget_pct": "5%",
+      "target_chars_min": 400, "target_chars_max": 600,
+      "is_climax_beat": false,
+      "must_include": ["女主路过镜厅走廊镜子", "镜中倒影：保洁制服上的红酒渍", "她没擦", "那是她最后一次穿这身衣服"]
+    },
+    {
+      "beat_id": "B12", "title": "新名片",
+      "budget_role": "closure", "budget_pct": "3%",
+      "target_chars_min": 300, "target_chars_max": 450,
+      "is_climax_beat": false,
+      "must_include": ["一个月后女主接手酒店", "名片：晨光酒店集团 总裁 陆晚", "前夫破产消息一笔带过"]
+    }
+  ],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [14, 20],
+    "long_line_rate_max": 0.15,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 8.0
+  }
+}

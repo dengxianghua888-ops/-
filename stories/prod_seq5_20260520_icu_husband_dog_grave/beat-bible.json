@@ -1,0 +1,458 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_min": 12200,
+    "planned_max": 14350,
+    "planned_target": 13270
+  },
+  "title": "老伴矿难等截肢，儿子拿三十万给冠军鸽办灵堂",
+  "genre": "家庭伦理复仇 / 老年女性觉醒 / 愚孝反杀",
+  "mechanisms": {
+    "M3": "因果回旋反讽：儿子用父亲的死算八十万，后文母亲三次用同一句价值算法回敬他的债务、残腿和判决。",
+    "M1": "证据债务死环：民间担保贷、婚房出资确认书、鸽舍股权代持协议、录音和转账流水共同锁死儿子与岳家。",
+    "M6": "多层递进反转：救命钱挪用、赔偿金诱饵、担保贷自缚、婚房收回、鸽舍查封、亲子鉴定、刑责终局逐级升级。"
+  },
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "医生把放弃抢救书推到我面前，我手机里却弹出冠军鸽灵堂照片。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 900,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "儿子说父亲死了能赔八十万，下一秒医院电话通知老伴没撑住。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "儿子把赔偿金委托书塞到我面前，我按下了手机录音键。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 820,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "矿上经办人告诉我，儿子昨天拿着伪造委托书来过。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 880,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "儿媳把手放在肚子上逼我交钱，我转身拨通律师电话。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 820,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "我发给儿子一句话：赔偿金下周才能动。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 930,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "儿子在鸽舍办公室签下担保贷，合同上写着逾期查封鸽舍。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 880,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "我把婚房出资确认书放到律师桌上。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 870,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "儿媳搬出孩子当挡箭牌，我只问她敢不敢做亲子鉴定。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 930,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "鉴定中心短信弹出来：排除亲生关系。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 820,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "儿子看完鸽棚监控，冲向那座冠军鸽灵堂。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 880,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "他砸开恒温骨灰柜，发现三十万买来的东西连三千都不值。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 980,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "警察问我要不要谅解，我说不。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 880,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "矿工公墓打来电话，说老伴的位置排到了。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 930,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "我把养老社区门卡放进口袋，再没有回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "矿区医院急诊清创室外",
+      "character_goal": "母亲凑齐三十万截肢清创费，逼儿子立刻转钱救父亲。",
+      "conflict_action": "母亲连续拨打儿子电话、拦住护士拖延催费、打开儿媳朋友圈核对三十万去向。",
+      "information_gap": "读者先知道钱没到医院，但直到朋友圈照片才确认钱被用于冠军鸽灵堂。",
+      "emotion_debt_balance": {
+        "opened": "丈夫濒死，救命钱被挪用。",
+        "paid": "无。",
+        "remaining": "伤夫债、宠物凌驾亲人债全部压起。"
+      },
+      "chapter_end_hook": "医生把放弃抢救书推到我面前，我手机里却弹出冠军鸽灵堂照片。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写成单纯回忆",
+        "不能让母亲一开场就冷静无痛",
+        "不能把赛鸽写成反派"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 850,
+      "target_chars_max": 950,
+      "scene_location": "岳家鸽舍冠军鸽灵堂",
+      "character_goal": "母亲闯进鸽舍要回救命钱并让儿子去医院签手术单。",
+      "conflict_action": "母亲撕下灵堂红绸、抓住儿子衣领质问发票，儿子挡在恒温骨灰柜前拒绝转钱。",
+      "information_gap": "儿子是否真的不知道父亲命危先不揭穿，直到他说出八十万赔偿金算法。",
+      "emotion_debt_balance": {
+        "opened": "亲爹无钱救命，冠军鸽有恒温骨灰柜。",
+        "paid": "无。",
+        "remaining": "儿子把父亲死亡当赔偿买卖的主债成立。"
+      },
+      "chapter_end_hook": "儿子说父亲死了能赔八十万，下一秒医院电话通知老伴没撑住。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能弱化儿子原话的狠毒",
+        "不能写行业术语堆砌",
+        "不能让母亲当场原谅",
+        "不能把冲突写成解释赛鸽文化"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 850,
+      "target_chars_max": 1000,
+      "scene_location": "殡仪馆暂存间与医院收费窗口",
+      "character_goal": "母亲给老伴办最低限度后事，同时保住死亡证明和赔偿资格材料。",
+      "conflict_action": "儿子抢死亡证明，儿媳递赔偿金委托书，母亲把廉价骨灰盒抱紧并按下录音键。",
+      "information_gap": "母亲没有当场翻脸，她录下的内容后续会成为证据。",
+      "emotion_debt_balance": {
+        "opened": "父亲无墓地、无体面安葬，儿子第一时间抢赔偿金。",
+        "paid": "母亲开始转向证据清算。",
+        "remaining": "八十万矿难赔偿金争夺债。"
+      },
+      "chapter_end_hook": "儿子把赔偿金委托书塞到我面前，我按下了手机录音键。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用长段哭诉",
+        "不能让母亲签委托",
+        "不能省略骨灰盒和委托书实物",
+        "不能让付费点只停在口头争吵"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 750,
+      "target_chars_max": 900,
+      "scene_location": "矿务公司赔偿办公室",
+      "character_goal": "母亲亲自确认赔偿金领取流程，阻止儿子冒领。",
+      "conflict_action": "母亲递交结婚证、病历和死亡证明，经办人调出儿子昨日提交的委托材料。",
+      "information_gap": "儿子伪造委托书的后果暂不立刻爆发，先让母亲拿到主动权。",
+      "emotion_debt_balance": {
+        "opened": "儿子不仅盼赔偿，还试图绕过母亲吞钱。",
+        "paid": "母亲确认八十万只能进自己账户。",
+        "remaining": "伪造材料和侵占意图待清算。"
+      },
+      "chapter_end_hook": "矿上经办人告诉我，儿子昨天拿着伪造委托书来过。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成政策说明文",
+        "不能让经办人替母亲复仇",
+        "不能出现错误法律绝对化",
+        "不能省略伪造委托书"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "母亲老房客厅",
+      "character_goal": "母亲守住赔偿金消息，摸清儿子和岳家的真实胃口。",
+      "conflict_action": "岳家摊开学区房户型图和鸽舍扩建设计图，儿媳用怀孕威胁，儿子摔打老伴旧茶杯逼母亲交卡。",
+      "information_gap": "母亲没有公开婚房和鸽舍出资证据，让反派继续加码。",
+      "emotion_debt_balance": {
+        "opened": "岳家吸血债、香火勒索债。",
+        "paid": "母亲明确不交银行卡。",
+        "remaining": "婚房、鸽舍、孩子三条线待反杀。"
+      },
+      "chapter_end_hook": "儿媳把手放在肚子上逼我交钱，我转身拨通律师电话。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成婆媳日常拌嘴",
+        "不能污名化女性群体",
+        "不能让母亲被打后还心软",
+        "不能只写抽象威胁"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 750,
+      "target_chars_max": 900,
+      "scene_location": "银行贵宾室与律师事务所",
+      "character_goal": "母亲把赔偿金、丧葬费、养老安排和证据链分开处理。",
+      "conflict_action": "母亲办理赔偿金账户限制、调取首付和装修流水、翻出鸽舍股权代持协议并拍照存档。",
+      "information_gap": "读者知道母亲有证据，但具体怎么锁死儿子留到后文。",
+      "emotion_debt_balance": {
+        "opened": "老伴留下的钱可能被再次抢走。",
+        "paid": "母亲先把钱用于丧葬、还医院欠费和养老社区意向金。",
+        "remaining": "儿子为抢钱会被诱入债务。"
+      },
+      "chapter_end_hook": "我发给儿子一句话：赔偿金下周才能动。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成理财科普",
+        "不能让母亲非法放贷",
+        "不能省略转账流水和代持协议",
+        "不能把复仇写成玄学开挂"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 850,
+      "target_chars_max": 1000,
+      "scene_location": "岳家鸽舍办公室",
+      "character_goal": "儿子为了提前套钱扩建鸽舍，证明自己能调动八十万赔偿金。",
+      "conflict_action": "债主摊开民间担保贷合同，岳父按住儿子的手盖章，儿子自拍视频向母亲催款并签字。",
+      "information_gap": "母亲没有参与放贷，只让儿子误以为赔偿金即将到账可还债。",
+      "emotion_debt_balance": {
+        "opened": "儿子把父亲命钱当融资筹码。",
+        "paid": "儿子自愿签下第一道债务锁。",
+        "remaining": "逾期查封鸽舍、婚房无法变现的后果。"
+      },
+      "chapter_end_hook": "儿子在鸽舍办公室签下担保贷，合同上写着逾期查封鸽舍。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能美化高利贷",
+        "不能让主角雇人催收",
+        "不能省略合同条款",
+        "不能把签约写成一句带过"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "老房楼下与电话录音界面",
+      "character_goal": "儿子逾期前逼母亲转钱，母亲首次用原话回旋拒绝。",
+      "conflict_action": "儿子跪在楼道拍门，母亲隔着门播放他当初说父亲拖着受罪的录音并报警备案。",
+      "information_gap": "母亲提到婚房证据，但不立刻展示全部文件。",
+      "emotion_debt_balance": {
+        "opened": "亲情勒索升级为债务勒索。",
+        "paid": "第一次回旋儿子原话，母亲不再替他兜底。",
+        "remaining": "婚房产权反杀即将开始。"
+      },
+      "chapter_end_hook": "我把婚房出资确认书放到律师桌上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让母亲开门心软",
+        "不能写成单纯爽骂",
+        "不能省略报警备案",
+        "不能让儿子悔悟变好"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "不动产调解室",
+      "character_goal": "母亲阻止儿子卖房还债，启动婚房出资追偿。",
+      "conflict_action": "母亲把首付流水、装修转账和出资确认书摆上桌，律师要求冻结房产处分，儿媳当场撕材料被保安拦下。",
+      "information_gap": "孩子身份线被儿媳主动推到台前，但证据暂不揭。",
+      "emotion_debt_balance": {
+        "opened": "儿子想拿母亲出的钱救自己的债。",
+        "paid": "婚房变现通道被堵死。",
+        "remaining": "香火牌和儿媳骗局待清算。"
+      },
+      "chapter_end_hook": "儿媳搬出孩子当挡箭牌，我只问她敢不敢做亲子鉴定。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成法律课堂",
+        "不能让房产轻易无依据改名",
+        "不能删除出资确认书",
+        "不能把儿媳罪责扩大成性别攻击"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 850,
+      "target_chars_max": 1000,
+      "scene_location": "鸽舍查封现场与鉴定中心短信",
+      "character_goal": "母亲看着岳家鸽舍因儿子逾期被查封，同时等亲子鉴定结果。",
+      "conflict_action": "债主贴封条搬走计时器和鸽笼，岳父扯住儿子要钱，母亲在人群外收到鉴定中心短信。",
+      "information_gap": "短信只露出结论，不立刻公开监控视频细节。",
+      "emotion_debt_balance": {
+        "opened": "岳家吸血债反噬。",
+        "paid": "鸽舍扩建梦破产。",
+        "remaining": "孩子不是儿子的真相和监控证据待爆。"
+      },
+      "chapter_end_hook": "鉴定中心短信弹出来：排除亲生关系。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成催收爽文主线",
+        "不能让母亲参与暴力查封",
+        "不能省略鸽舍实物被封",
+        "不能提前讲完整监控真相"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 750,
+      "target_chars_max": 900,
+      "scene_location": "街道调解室",
+      "character_goal": "母亲公开击碎香火勒索，让儿子和儿媳互相撕咬。",
+      "conflict_action": "母亲递出亲子鉴定报告，播放鸽棚监控截图，儿子抢手机砸向儿媳，调解员叫保安。",
+      "information_gap": "儿子失控后会先冲向灵堂而不是直接认错。",
+      "emotion_debt_balance": {
+        "opened": "儿媳用孩子骗钱，岳家合谋压榨。",
+        "paid": "香火牌彻底崩塌。",
+        "remaining": "冠军鸽灵堂的三十万价值要被反向摧毁。"
+      },
+      "chapter_end_hook": "儿子看完鸽棚监控，冲向那座冠军鸽灵堂。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成女性羞辱戏",
+        "不能省略鉴定报告",
+        "不能让儿子立刻悔改",
+        "不能让母亲动手打人"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "冠军鸽灵堂",
+      "character_goal": "儿子想从冠军鸽纪念物里找可变卖的东西补债。",
+      "conflict_action": "儿子抡起铁锤砸开恒温骨灰柜、撬下镀金证书框、把骨灰盅摔在桌上找发票。",
+      "information_gap": "所谓三十万灵堂大多是面子包装，真正的钱已被岳家消耗。",
+      "emotion_debt_balance": {
+        "opened": "冠军鸽享受高规格待遇的荒唐债。",
+        "paid": "儿子亲手毁掉自己当初守护的面子工程。",
+        "remaining": "他会把怒火转向岳家并触发刑责。"
+      },
+      "chapter_end_hook": "他砸开恒温骨灰柜，发现三十万买来的东西连三千都不值。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能渲染动物恶意",
+        "不能把骨灰当低俗笑点",
+        "不能省略发票和证书框",
+        "不能让母亲亲自破坏灵堂"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 900,
+      "target_chars_max": 1050,
+      "scene_location": "鸽舍院门与派出所询问室",
+      "character_goal": "儿子向岳家讨钱失败后失控，母亲把证据交给警方并拒绝谅解。",
+      "conflict_action": "儿子持铁锹砸鸽舍门、打伤阻拦他的岳父，警察铐住他时母亲递交录音、委托书复印件和转账材料。",
+      "information_gap": "儿子的刑责与债务后果留到下一章判决。",
+      "emotion_debt_balance": {
+        "opened": "反派互咬造成刑责。",
+        "paid": "母亲第二次拒绝替儿子收拾残局。",
+        "remaining": "判决和最终断亲。"
+      },
+      "chapter_end_hook": "警察问我要不要谅解，我说不。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让主角组织暴力",
+        "不能写成私刑复仇",
+        "不能替儿子求情",
+        "不能省略警方和证据交接"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "法院走廊与医院骨科病房电话",
+      "character_goal": "母亲完成判决后的财产切割，并第三次回旋儿子的价值算法。",
+      "conflict_action": "法院宣读儿子赔偿、刑责和债务承担结果，儿子打电话求母亲出骨科医药费，母亲用他当初的话冷拒。",
+      "information_gap": "母亲还未告诉读者她把老伴安葬在哪里。",
+      "emotion_debt_balance": {
+        "opened": "儿子落到保命钱困局。",
+        "paid": "第三次回旋父亲死亡算法，债务闭合。",
+        "remaining": "父亲无墓地的尊严债待最终偿还。"
+      },
+      "chapter_end_hook": "矿工公墓打来电话，说老伴的位置排到了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让母亲替儿子交医药费",
+        "不能夸大法律结论",
+        "不能让儿子洗白",
+        "不能忘记老伴安葬线"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 850,
+      "target_chars_max": 1000,
+      "scene_location": "矿工公墓与养老社区",
+      "character_goal": "母亲体面安葬老伴，确认自己的养老和财产去向。",
+      "conflict_action": "母亲把老伴骨灰盒放入矿工公墓，签下退役工伤矿工救助基金和流浪动物救助点捐赠单，搬进养老社区。",
+      "information_gap": "无新悬念，转为终局余味。",
+      "emotion_debt_balance": {
+        "opened": "无。",
+        "paid": "父亲尊严债、母亲晚年债、宠物反讽债全部偿还。",
+        "remaining": "反派无翻身可能。"
+      },
+      "chapter_end_hook": "我把养老社区门卡放进口袋，再没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能和解",
+        "不能让母亲自我牺牲",
+        "不能用毕竟一家人收束",
+        "不能把捐赠写成圣母原谅"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "max_total_chars": 18000,
+    "min_chapters": 13,
+    "planned_chapters": 15,
+    "min_paywall_cards": 4,
+    "planned_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "first_300_chars_requirement": "必须出现矿区医院催费、三十万救命钱缺口、儿媳朋友圈冠军鸽灵堂三要素。",
+    "micro_hook_interval_chars": "800-1200",
+    "forbidden_summary_rule": "beats[*].forbidden_summary 必须保持非空数组。",
+    "action_floor": "每个场景必须有可见动作、实物证据或当场冲突，禁止只写解释、回忆或铺垫。"
+  }
+}

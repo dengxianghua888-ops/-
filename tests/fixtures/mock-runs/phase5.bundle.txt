@@ -1,0 +1,62 @@
+<<<FILE: final.md>>>
+# 一张罚单让我反杀了示范街区
+
+罚单贴在门上时，我的手心全是汗。管理员把扩音器举到我脸前：“不服，就按示范街区规定申诉。”
+
+我点头，把他刚说的话录了下来。
+
+三天后，评审组到场。他递上同一份规定。我翻到最后一页，那里写着，所有处罚必须同步公开执法录像。
+
+我抬头问：“你的录像呢？”
+<<<END FILE>>>
+<<<FILE: craft-notes.md>>>
+# Craft Notes
+
+- 神髓保真成功点: 用同一规则回旋清算。
+- 机制漂移风险: 篇幅过短时情绪债累积不足。
+- 可复用资产: 公共规则、示范评审、执法录像。
+<<<END FILE>>>
+<<<FILE: tomato-submission.md>>>
+# 番茄投稿包
+
+标题: 一张罚单让我反杀了示范街区
+
+简介: 小店被示范街区罚到停业，我按他们亲口说出的规定申诉，最后让他们交出自己缺失的执法录像。
+<<<END FILE>>>
+<<<FILE: final-chapters/_chapters-map.md>>>
+# Chapters Map
+
+| 章节 | 字数 | 钩子 |
+|---|---:|---|
+| 1 | 180 | 录像在哪里 |
+<<<END FILE>>>
+<<<FILE: story.yaml>>>
+slug: {{STORY_SLUG}}
+source_title: 烟花罚单
+output_title: 一张罚单让我反杀了示范街区
+target_platform: tomato
+genre: modern_reversal
+status: final
+current_phase: 5
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+metrics:
+  final_word_count: 180
+  title_chars: 15
+  hook_score: 8
+  tomato_fit_score: 8.5
+  forbidden_hits: {}
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+automation:
+  last_run_id: ""
+  runner: mock
+  provider: mock
+  current_phase: 5
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped
+<<<END FILE>>>

@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 450,
+  "target_chars_max": 610,
+  "location": "南洋女医研究院",
+  "time": "三年后，春日课堂",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "温砚清",
+    "女医学生",
+    "小病童"
+  ],
+  "character_goal": "失忆后的沈照棠要完成药学讲稿，守住新身份。",
+  "opposition_goal": "温砚清要把旧商报和并蒂药囊藏好，避免她被过去拉回。",
+  "conflict_action": "沈照棠在课堂辨药，小病童把小药杵碰落，温砚清急忙合上藏有旧商报的抽屉，沈照棠扶住讲台，头痛到跪下。",
+  "information_gap": "温砚清救她的经过和隐瞒动机暂不全揭。",
+  "emotional_debt_delta": {
+    "added": [
+      "温砚清隐瞒旧事的新债"
+    ],
+    "paid": [
+      "沈照棠活着的新生反转兑现"
+    ],
+    "balance_after": "女主进入新空间，但记忆裂口出现。"
+  },
+  "payoff_or_hook": "小药杵声触发阿砚记忆碎片。",
+  "chapter_end_hook": "南洋女医研究院里，沈照棠听见小药杵落地，头痛到跪下。",
+  "paywall_card": false,
+  "must_include": [
+    "南洋课堂",
+    "女医学生",
+    "小药杵落地",
+    "温砚清合抽屉",
+    "旧商报一角"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把南洋段写成甜宠归宿。",
+    "不要一次恢复记忆。",
+    "不要让温砚清显得毫无私心。"
+  ],
+  "target_chars": 470,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

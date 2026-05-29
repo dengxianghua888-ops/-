@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 690,
+  "target_chars_max": 750,
+  "location": "除污间冷雾消杀舱",
+  "time": "午前",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "秦岚", "消杀员", "配给队员"],
+  "character_goal": "沈梨雾想离开冷雾舱，避免洁净边界被破坏",
+  "opposition_goal": "秦岚要让所有人看她也能被普通流程处理",
+  "conflict_action": "秦岚刷卡打开冷雾舱，把沈梨雾推入消杀白雾",
+  "information_gap": "洁净不是享受，是维持甜雾场稳定的边界",
+  "emotional_debt_delta": "+1 洁净羞辱债",
+  "payoff_or_hook": "冷雾喷头从白灯跳成红灯",
+  "chapter_end_hook": "舱门合上，冷雾灯亮成红色。",
+  "paywall_card": true,
+  "must_include": ["沈梨雾咳嗽", "秦岚说让她见现实", "红灯切换"],
+  "must_not_write_as_exposition": ["不要复述协议条款", "不要连续解释时间线", "不要把冷雾写成普通洗澡"],
+  "rhythm_job": {
+    "shape": "短句恐慌，设备动作，红灯钩子",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "雾里只听见她轻轻敲门，没有大喊"
+  }
+}

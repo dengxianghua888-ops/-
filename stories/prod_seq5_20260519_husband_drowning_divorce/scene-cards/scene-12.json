@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "沈家老宅、公开视频证词、律师办公室",
+  "time": "沈明姝黑料发酵后三天",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "老保姆", "沈父", "沈母", "律师", "旧员工"],
+  "character_goal": "沈知晚把沈家偏心和替嫁交易做成完整证据链。",
+  "opposition_goal": "沈家想把替嫁说成家庭误会，要求私下和解。",
+  "conflict_action": "老保姆录视频说出杂物间和休学替嫁；旧员工交出逃婚录音；沈知晚把群聊、录音、证词交给律师公开。",
+  "information_gap": "沈家商业后果尚未完全爆发。",
+  "emotional_debt_delta": "替嫁剥夺债和原生家庭偏心债大额清算。",
+  "payoff_or_hook": "替嫁不是误会，是沈家全员选择。",
+  "chapter_end_hook": "保姆证词和沈家群聊同时曝光，替嫁不是误会，是沈家全员签字的交易。",
+  "paywall_card": true,
+  "must_include": [
+    "保姆证词",
+    "杂物间",
+    "休学档案",
+    "沈明姝逃婚录音",
+    "沈家群聊全员签字同意替嫁"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让沈家用亲情洗白",
+    "不要让沈知晚回忆式哭诉整章",
+    "不要模糊替嫁责任"
+  ]
+}

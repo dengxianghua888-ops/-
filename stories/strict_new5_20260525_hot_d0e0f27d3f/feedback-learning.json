@@ -1,0 +1,170 @@
+{
+  "story_slug": "licensed-day-became-ex-sister-in-law",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "evidence": [
+        {
+          "chapter": 1,
+          "scene_id": "ch01_civil_affairs_grab",
+          "fact": "女主当场挽住前任兄长提出领证,把'被换位的新娘'瞬间切成'前任大嫂'。"
+        },
+        {
+          "chapter": 11,
+          "scene_id": "ch11_board_appointment",
+          "fact": "身份进一步从被夺稿前女友切到主品牌设计总监,形成二次归位。"
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "evidence": [
+        {
+          "chapter": 2,
+          "scene_id": "ch02_window_counterattack",
+          "fact": "男方原话'反正你们是亲兄弟,我和谁领证不都一样'被女主原句回敬。"
+        },
+        {
+          "chapter": 13,
+          "scene_id": "ch13_new_year_tea",
+          "fact": "前文多次铺垫'大嫂'称呼,尾段逼前任亲口改口完成回旋。"
+        }
+      ]
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "evidence": [
+        {
+          "chapter": 1,
+          "scene_id": "ch01_civil_affairs_grab",
+          "fact": "第一层反转是领证对象瞬换。"
+        },
+        {
+          "chapter": 6,
+          "scene_id": "ch06_wedding_takeover",
+          "fact": "第二层反转是婚礼主场被当众接管,主婚戒与署名回归女主。"
+        },
+        {
+          "chapter": 8,
+          "scene_id": "ch08_finance_deadline",
+          "fact": "第三层反转是情感羞辱转成金流追债与法务倒计时。"
+        },
+        {
+          "chapter": 13,
+          "scene_id": "ch13_new_year_tea",
+          "fact": "第四层反转是家宴场景完成称呼与家族秩序归位。"
+        }
+      ]
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "actual": 10636
+  },
+  "final_length": 10636,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "ch01_civil_affairs_grab",
+      "hook": "领证现场被前任抢户口本给小三上位,女主当场改嫁哥哥。",
+      "reusable_fact": "证件窗口+第三者怀孕单+一句反骨求婚,适合首章爆点。"
+    },
+    {
+      "chapter": 4,
+      "scene_id": "ch04_family_table_proof",
+      "hook": "假结婚截图对上真钢印红证,家宴桌面直接验明身份。",
+      "reusable_fact": "截图假证对撞实物钢印,适合家族公开打脸。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "ch06_wedding_takeover",
+      "hook": "婚礼现场被男主公开接走,主婚戒与主设计署名一起归位。",
+      "reusable_fact": "媒体机位在场时宣布'来接我太太',能同时收情绪与舆论场。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "ch07_livestream_draft_exposure",
+      "hook": "直播卖货时大屏跳出原始设计稿和电子存档编号,实时翻车。",
+      "reusable_fact": "直播场景最适合投放不可篡改的底稿编号。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch08_finance_deadline",
+      "hook": "垫付款流水摊牌,三天不还就走法务。",
+      "reusable_fact": "情感线转财务追偿,能把爽点从打脸切到实质性制裁。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "ch13_new_year_tea",
+      "hook": "除夕家宴当众逼前任敬茶改口叫大嫂。",
+      "reusable_fact": "高密度亲属见证场能完成最终称呼羞辱和秩序封口。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 1,
+      "scene_id": "ch01_civil_affairs_grab",
+      "card_type": "instant_replacement_marriage",
+      "reason": "标题承诺在首章直接兑现。"
+    },
+    {
+      "chapter": 4,
+      "scene_id": "ch04_family_table_proof",
+      "card_type": "true_false_certificate_faceoff",
+      "reason": "真证压假截图,适合首轮付费后回报。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "ch06_wedding_takeover",
+      "card_type": "public_wedding_takeover",
+      "reason": "主婚戒归位+媒体围观,爆点密度高。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "ch07_livestream_draft_exposure",
+      "card_type": "live_exposure_of_stolen_design",
+      "reason": "证据上屏且评论区同步爆炸,具强留存性。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch08_finance_deadline",
+      "card_type": "money_claim_deadline",
+      "reason": "187万垫付款+三天倒计时,把矛盾升级为现实代价。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "ch13_new_year_tea",
+      "card_type": "forced_title_submission",
+      "reason": "家宴敬茶与改口是终局羞辱卡。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代",
+    "追妻火葬场",
+    "领证反杀",
+    "婚礼抢场",
+    "前任变大嫂",
+    "真假结婚证",
+    "设计稿维权",
+    "直播翻车",
+    "垫付款追债",
+    "家宴改口",
+    "强情绪短章",
+    "多层递进反转"
+  ],
+  "manual_revision_delta": []
+}

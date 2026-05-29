@@ -1,0 +1,761 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [1, 22],
+      "char_count": 580,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 16.8,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 0,
+        "direct_dialogue_rate": 0.27,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.92,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "震惊-觉醒",
+        "emotion_arc": "期待 → 震惊 → 冰冷清醒 → 决意",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "被信息量轰炸到窒息，同时迫切想知道女主会怎么做"
+      },
+      "highlights": {
+        "peak_moment": "地震瞬间钟然扑向闺蜜而非妻子，紧接着重生回到18岁志愿表旁",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "20年婚姻是骗局+两个孩子不是试管是私生子+改过高考志愿",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "看到十八岁的钟然，胳膊下压着高考志愿表"
+      },
+      "techniques": [
+        {
+          "technique": "信息压缩弹",
+          "example": "宁宁的两个孩子不是试管，是我的。婚礼还继不继续随你。",
+          "effect": "两句话内塞进三个爆点（私生子+出轨+冷漠），读者来不及消化就被下一击命中"
+        },
+        {
+          "technique": "身体本能反差",
+          "example": "钟然下意识扑向闺蜜，用身体护住她。天花板上的吊灯松动，砸到了我头上。",
+          "effect": "生死关头的本能选择比千言万语更残忍——身体不会说谎"
+        },
+        {
+          "technique": "物件锚定悬念",
+          "example": "看到了十八岁的钟然。胳膊下压着高考志愿表。",
+          "effect": "用一个具体物件（志愿表）把所有悬念凝缩成一个画面，读者的注意力被钉死"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "宁宁的两个孩子不是试管，是我的。",
+          "structure": "否定常识+揭露真相，一句话颠覆",
+          "why_it_works": "用最平淡的语气说最炸裂的内容，冷静本身就是暴力"
+        },
+        {
+          "text": "婚礼还继不继续随你。",
+          "structure": "施害者的冷漠宣判式短句",
+          "why_it_works": "不是商量而是通知，傲慢到极致反而让读者的愤怒充分被激发"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠信息密度维持张力——每2句一个新信息点，读者无暇分神",
+      "chapter_end_hook": {
+        "text": "看到了十八岁的钟然。胳膊下压着高考志愿表。……",
+        "hook_type": "cliff_action",
+        "hook_technique": "用省略号+物件特写制造时空跳跃的眩晕感，读者必须翻页确认",
+        "suspense_mechanism": "她会怎么处理这张决定命运的志愿表？"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [23, 50],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.4,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 5.1,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.60,
+        "impact_density": 0.72,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "冷清醒-嘲讽",
+        "emotion_arc": "冷静审视 → 识破表演 → 嘲讽回忆 → 决绝行动",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "跟着女主一起'看穿了'的优越感和爽感"
+      },
+      "highlights": {
+        "peak_moment": "女主用'内衣扣没扣好'这个细节精准打脸",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "一个细节证据就让两人的伪装全部崩塌",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "宋攸宁下意识伸手往后摸——证实了指控"
+      },
+      "techniques": [
+        {
+          "technique": "上帝视角回忆对比",
+          "example": "上辈子我就是对宋攸宁太好了。心疼她父母早亡...没给她施展茶艺的机会。",
+          "effect": "用重生后的全知视角重新解读旧事，读者获得'原来如此'的认知快感"
+        },
+        {
+          "technique": "细节炸弹",
+          "example": "下次爽完记得把女孩子的内衣扣好。——宋攸宁下意识伸手往后摸",
+          "effect": "不是控诉而是摆证据，对方的本能反应代替了一切辩解——比'我知道你们偷情'强十倍"
+        },
+        {
+          "technique": "反话解码",
+          "example": "原来说的是反话。讨厌其实是喜欢。",
+          "effect": "两句短句颠覆读者对前文所有互动的理解，产生'细思恐极'的后怕感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "下次爽完记得把女孩子的内衣扣好。",
+          "structure": "冷静陈述+隐含讽刺的细节指控",
+          "why_it_works": "不愤怒不哭喊，用最日常的语气说最致命的话——冷静本身就是降维打击"
+        },
+        {
+          "text": "原来小丑一直是我。",
+          "structure": "自我认知翻转的单句成段",
+          "why_it_works": "读者代入感极强——谁没有过'发现自己被蒙在鼓里'的时刻"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠信息差维持张力——女主知道的比场上所有人都多，读者享受这种不对称",
+      "chapter_end_hook": {
+        "text": "宋攸宁突然犯恶心，冲进卫生间吐。我脑子嗡地一声，看向钟然。",
+        "hook_type": "revelation_half",
+        "hook_technique": "呕吐这个身体信号暗示怀孕，但不明说——让读者自己推理",
+        "suspense_mechanism": "宋攸宁是不是怀孕了？钟然知道吗？这会怎么改变局面？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [51, 78],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 16.2,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 2.4,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.88,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "恶心-痛快",
+        "emotion_arc": "恶心（宋攸宁炫耀）→ 愤怒（打耳光）→ 愤怒（钟然护宋）→ 痛快（踢裆）",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "先被恶心到想吐，再被物理反击爽到"
+      },
+      "highlights": {
+        "peak_moment": "女主抬脚朝钟然下面踢上去",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "宋攸宁从白莲花瞬间切换到赤裸裸的炫耀羞辱",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "宋攸宁听到脚步声立刻跪下演戏——人格切换之快让人脊背发凉"
+      },
+      "techniques": [
+        {
+          "technique": "面具撕裂对比",
+          "example": "前一秒：'我帮你试过了，钟然很厉害。' 听到脚步声：干脆地跪了下去。眼泪瞬间流出来，梨花带雨。",
+          "effect": "极端人格反差——前一秒的恶毒和后一秒的楚楚可怜形成人格分裂式冲击"
+        },
+        {
+          "technique": "物理化反击",
+          "example": "抬脚朝他下面踢了上去。他马上痛得弯下腰。'这样打够劲吗？'",
+          "effect": "在大量语言交锋后突然来一个物理动作，释放读者积累的愤怒——比骂人爽十倍"
+        },
+        {
+          "technique": "冷句收尾",
+          "example": "我冷笑，'你应该买的是验孕棒。'但他没听到。",
+          "effect": "'但他没听到'四个字制造信息不对称的讽刺感——你还在自欺欺人"
+        },
+        {
+          "technique": "跪姿转换",
+          "example": "宋攸宁干脆地跪了下去——'颜颜对不起，是我勾引钟然……'",
+          "effect": "跪是示弱的极致姿态，但用来演戏时变成最恶心的操控工具"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我帮你试过了，钟然很厉害。",
+          "structure": "表面体贴的语气+实质羞辱的内容",
+          "why_it_works": "用闺蜜之间的悄悄话语气说出最恶毒的内容——亲密本身变成武器"
+        },
+        {
+          "text": "厉害你就自己留着用吧。",
+          "structure": "对方炫耀词+反向回敬",
+          "why_it_works": "不接招不生气，用对方的词堵回去——证明女主精神上已经碾压"
+        },
+        {
+          "text": "这样打够劲吗？",
+          "structure": "物理动作后的挑衅式反问",
+          "why_it_works": "踢完还问够不够劲——彻底的支配感，读者爽感直接拉满"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "靠对话冲突节奏——每2-3句对话就有一次情绪翻转",
+      "chapter_end_hook": {
+        "text": "我摔门走了。一刻不停地跑回家...看到爸妈一边收拾行李一边聊天。我彻底绷不住了，眼泪瞬间决堤。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "从暴力对峙切到温暖家庭的极端反差——坚强外壳在父母面前碎裂",
+        "suspense_mechanism": "她会告诉父母真相吗？她怎么保住这个家？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [79, 110],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 17.5,
+        "comma_period_ratio": 0.62,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.30,
+        "short_line_rate_lte16": 0.52,
+        "impact_density": 0.68,
+        "sentence_avg_len": 18.2
+      },
+      "emotion": {
+        "dominant_emotion": "恐惧-守护",
+        "emotion_arc": "温暖（父母在）→ 恐惧（回忆上辈子）→ 悲痛 → 坚定守护",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "心疼到窒息，同时强烈希望'这辈子一定要保住他们'"
+      },
+      "highlights": {
+        "peak_moment": "上辈子父亲脑溢血倒在路边灌木丛里的回忆",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "读者知道上辈子双亲皆亡的惨剧，现在看到他们活着的每一秒都是煎熬",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "我妈悲痛欲绝，扇了我一耳光——上辈子的妈妈把女儿的失败归咎于情爱"
+      },
+      "techniques": [
+        {
+          "technique": "时间线对比悲剧",
+          "example": "一夕之间，我失去了两个最重要的家人。当时我感觉灵魂在身体里晃荡，比此刻的重生穿越更不真实。",
+          "effect": "用'比重生更不真实'来形容失去父母——说明那个创伤比穿越本身更超现实"
+        },
+        {
+          "technique": "细节种因果",
+          "example": "我爸犯愁上火，半夜睡不着自己出去喝酒。突发脑溢血倒在路边灌木丛里，天亮了才被保洁大叔发现。",
+          "effect": "每个细节都是因果链的一环——犯愁→喝酒→路边→天亮才发现，读者看到整个悲剧的不可挽回"
+        },
+        {
+          "technique": "高烧中的执念",
+          "example": "我烧到41度，还一边哭一边说胡话...'志愿表……''我要上A大……'",
+          "effect": "发烧说胡话时还在执念志愿表——说明这件事对她的重要程度已经刻入潜意识"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你有什么脸哭？要不是你满脑子只想着情情爱爱，不把心思放在学习上，你爸怎么会死？",
+          "structure": "亲人在极痛中说出最伤人的话",
+          "why_it_works": "最爱你的人用最狠的话刺你——读者知道这是痛苦的投射，但仍然被击中"
+        },
+        {
+          "text": "一夕之间，我失去了两个最重要的家人。",
+          "structure": "时间词+极端损失的平静陈述",
+          "why_it_works": "越平静越惨——如果她声嘶力竭反而没这么痛"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "靠情绪渲染维持张力——回忆的惨烈让当下的每一刻都充满紧迫感",
+      "chapter_end_hook": {
+        "text": "钟然追上来，扒住车门。'颜颜...宁宁有抑郁症，不能受刺激。我怕她做傻事。'",
+        "hook_type": "silent_threat",
+        "hook_technique": "钟然用道德绑架施压——读者愤怒但也好奇宋攸宁会不会真的出事",
+        "suspense_mechanism": "宋攸宁会利用'自杀'来操控局面吗？女主会被道德绑架吗？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [111, 140],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 7.7,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.82,
+        "sentence_avg_len": 13.5
+      },
+      "emotion": {
+        "dominant_emotion": "荒谬-坚定",
+        "emotion_arc": "被攻击 → 荒谬感 → 冷静拒绝 → 母亲护犊",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "对钟然的道德绑架愤怒到发笑，被母亲那句'谁年轻没遇过人渣'暖到"
+      },
+      "highlights": {
+        "peak_moment": "钟然恶狠狠质问'你不是最善良吗'——把善良当作武器反过来攻击女主",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "施害者用受害者的'善良'来道德绑架——极致的因果倒错",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "荒谬到极点只会让人想笑——女主的反应代替读者出了一口气"
+      },
+      "techniques": [
+        {
+          "technique": "道德反弹",
+          "example": "'孟开颜！你不是最善良吗？...怎么这么狠心逼她去死？'——荒谬到极点只会让人想笑。",
+          "effect": "施害者试图用道德绑架但失败了——因为女主已经不在他的话语体系里了"
+        },
+        {
+          "technique": "母亲一句话破局",
+          "example": "我妈买完东西回来，厉喝了一声。'钟然你干什么！上门来欺负我女儿！'",
+          "effect": "在长段对峙后突然出现第三方力量——打破二人世界的窒息感"
+        },
+        {
+          "technique": "上辈子解码当下",
+          "example": "他上辈子说宋攸宁'矫情'...我让钟然写了一万字的道歉信，才消了气。原来小丑一直是我。",
+          "effect": "用重生记忆反复解码——每个旧细节都变成新的讽刺"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "乖乖，不难过，谁年轻时候没遇到过两个人渣。",
+          "structure": "日常安慰语气+精准判断（人渣）",
+          "why_it_works": "妈妈不知道全部真相但直觉正确——母亲的智慧和温暖在一句话内全部释放"
+        },
+        {
+          "text": "我没做错任何事，除了眼瞎看错了你们。",
+          "structure": "先否定指控+再反向定性",
+          "why_it_works": "不辩解、不解释、不求理解——直接定性'是你们有问题不是我有问题'"
+        }
+      ],
+      "narrative_mode": "dialogue_driven",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话节奏维持——每句对话都是一次攻防",
+      "chapter_end_hook": {
+        "text": "两天后，我出院回家。刚坐下，班主任的电话就打了过来。说有人举报我在高考考场上作弊。",
+        "hook_type": "cliff_action",
+        "hook_technique": "刚喘一口气立刻砸下新危机——不给读者和女主任何休息时间",
+        "suspense_mechanism": "被诬告作弊！这比改志愿更致命——女主怎么破？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [141, 178],
+      "char_count": 1050,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 16.5,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 6.7,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.90,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "窒息-愤怒",
+        "emotion_arc": "紧张 → 被围攻 → 心脏疼 → 绝望 → 愤怒爆发",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "被四面围攻的窒息感，对钟然宋攸宁联合做伪证的愤怒到达顶点"
+      },
+      "highlights": {
+        "peak_moment": "钟然鞠躬后冷静地做伪证，一句一句把女主钉死",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "曾经的恋人站在对立面，用假证据系统性地毁灭你",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "记者冲进来时的绝望升级——公共舆论也变成武器"
+      },
+      "techniques": [
+        {
+          "technique": "递进式围攻",
+          "example": "陈越指证 → 钟然做伪证 → 宋攸宁配合 → 记者冲入 → 领导定性",
+          "effect": "每一层新的攻击者加入都让读者更窒息——四面楚歌的体感"
+        },
+        {
+          "technique": "伪证的表演感",
+          "example": "钟然鞠了一躬...'对不起各位领导，我因为私心...我已经严肃认识到了自己的错误。'",
+          "effect": "施害者表演'愧疚认错'的样子——比直接攻击更恶心，因为他在利用道德姿态"
+        },
+        {
+          "technique": "问句连击",
+          "example": "记者：'为什么要铤而走险？''是不是抱着侥幸心理？''你不觉得是给你父亲脸上抹黑吗？'",
+          "effect": "连续三个预设有罪的问题——不是采访而是审判，读者的愤怒被精准引导"
+        },
+        {
+          "technique": "父亲的热血",
+          "example": "我爸忍无可忍，把记者推开...'我女儿没有作弊！她的品性我最了解！'",
+          "effect": "在所有人都不信女主时，父亲无条件站在她身边——这个信任本身就是催泪弹"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "她的品性我最了解，她的成绩也不需要作弊！",
+          "structure": "两个并列短句，先品性后能力，双重否定指控",
+          "why_it_works": "父亲的信任没有犹豫没有'但是'——无条件的爱在压力下最闪耀"
+        },
+        {
+          "text": "我猛地顿住，我忘了，三十年前的考场上还没有监控摄像头。",
+          "structure": "动作停顿+认知落差揭示",
+          "why_it_works": "读者和女主一起意识到时代局限——最好的辩护工具在这个时空不存在"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度维持——每50字一个新打击，读者来不及喘息",
+      "chapter_end_hook": {
+        "text": "我爸脸和脖子通红，手突然剧烈颤抖起来，下一秒人直挺挺地倒了下去。'爸！'",
+        "hook_type": "cliff_action",
+        "hook_technique": "最恐惧的事正在发生——上辈子的悲剧轨迹正在重叠",
+        "suspense_mechanism": "爸爸会像上辈子一样死去吗？命运能被改变吗？"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [179, 215],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.2,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.28,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.85,
+        "sentence_avg_len": 13.8
+      },
+      "emotion": {
+        "dominant_emotion": "绝望-反击",
+        "emotion_arc": "绝望谷底 → 冰冷清醒 → 精准反击 → 孤独等待",
+        "emotion_intensity": 10,
+        "reader_feeling_target": "在最绝望处看到女主的冰冷行动力，被震撼到起鸡皮疙瘩"
+      },
+      "highlights": {
+        "peak_moment": "女主在父母双双倒下的绝望中冷静揭穿女记者是'小三'",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "绝望谷底和精准反击同时发生——她越痛越冷",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "强忍心痛和颤抖，拨通了一个陌生号码"
+      },
+      "techniques": [
+        {
+          "technique": "绝望中的冷静反差",
+          "example": "我一个人站在抢救室外...强忍心痛和颤抖，拨通了一个陌生号码。'赵省长您好...'",
+          "effect": "越是崩溃的处境越冷静行动——这种反差比'崩溃哭泣'震撼一万倍"
+        },
+        {
+          "technique": "疯女人式打脸",
+          "example": "'这样够精彩吗？'我又薅着宋攸宁的头发...'这样够狗血吗？''还想拍什么，你们说，我演给你们看。'",
+          "effect": "用'我演给你们看'的方式反将一军——把围观者的猎奇心理反打回去"
+        },
+        {
+          "technique": "三连定性",
+          "example": "'小三，情妇，二奶，你喜欢哪个称呼？'",
+          "effect": "三个同义词递进——不是骂人而是冷静分类，比愤怒更有杀伤力"
+        },
+        {
+          "technique": "上辈子信息武器化",
+          "example": "上一世，这个女人后来给钟然生了个弟弟。我还抱过那个孩子。",
+          "effect": "只有重生者才知道的未来信息变成当下的武器——这是重生文的核心爽感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "小三，情妇，二奶，你喜欢哪个称呼？",
+          "structure": "并列贬义词+礼貌式反问",
+          "why_it_works": "用'你喜欢哪个'的礼貌语气说最侮辱的内容——冷静就是暴力"
+        },
+        {
+          "text": "还想拍什么，你们说，我演给你们看。",
+          "structure": "反将一军式宣言",
+          "why_it_works": "从猎物变成表演者——主客关系在一句话内翻转"
+        },
+        {
+          "text": "赵省长您好，我是林丛芳的女儿，有事想麻烦您帮忙。",
+          "structure": "极正式称呼+极简求助",
+          "why_it_works": "在最崩溃时用最得体的语气——这个反差体现的是'骨子里的教养和行动力'"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠情绪对比维持——绝望和反击交替出现，像心电图的剧烈波动",
+      "chapter_end_hook": {
+        "text": "我不知道自己还能做什么，跪了下去，祈求神明把爸妈还给我。",
+        "hook_type": "question_bomb",
+        "hook_technique": "全篇最坚强的女主跪下了——这个姿态本身就是最大的悬念",
+        "suspense_mechanism": "父母能救回来吗？赵省长会来吗？"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [216, 255],
+      "char_count": 920,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 3.3,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.65,
+        "sentence_avg_len": 16.5
+      },
+      "emotion": {
+        "dominant_emotion": "释放-温暖",
+        "emotion_arc": "等待焦虑 → 获救释放 → 身世揭晓 → 温暖感恩",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "积压的恐惧在'手术成功'时一次性释放，眼泪止不住"
+      },
+      "highlights": {
+        "peak_moment": "手术成功+赵明铮身世揭晓",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "赵明铮是妈妈的前男友/女主的生父——但女主选择只叫'赵叔叔'",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "上辈子他临终时告诉我真相——我说了一句'赵叔叔走好'"
+      },
+      "techniques": [
+        {
+          "technique": "释放式短句",
+          "example": "'手术很成功。'我笑了，又哭了。太好了，爸妈都没事了。",
+          "effect": "在长段高压后用最简单的句子释放——越简单越有力"
+        },
+        {
+          "technique": "身世信息的克制处理",
+          "example": "上辈子...他临终时告诉我的。我觉得很荒唐。最后我说了一句：'赵叔叔走好。'",
+          "effect": "拒绝认亲的克制——不是不懂感恩而是对养父的忠诚，这个选择让女主更立体"
+        },
+        {
+          "technique": "感恩三连举杯",
+          "example": "'谢谢妈妈...谢谢爸爸...谢谢赵叔叔...'",
+          "effect": "三段式感谢——情绪从感恩到坚定到温暖，读者被她的成熟打动"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "上一世，我签的是我妈的死亡通知单和遗体火化同意书。",
+          "structure": "时间线对比+极端对照物",
+          "why_it_works": "同一个动作（签字）在两个时空的天壤之别——用最具体的对照物传递最大的庆幸"
+        },
+        {
+          "text": "你很勇敢。",
+          "structure": "他人评价式两字金句",
+          "why_it_works": "从权力人物口中说出的认可——女主不需要被同情，她需要被承认"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "前快后慢",
+      "pacing_note": "靠情绪释放维持吸引力——读者在这里流泪和喘息",
+      "chapter_end_hook": {
+        "text": "他们眼眶都微微泛红。'好孩子。'",
+        "hook_type": "contrast_shock",
+        "hook_technique": "温暖收束——但读者知道外面还有未解决的敌人（宋攸宁/诬告案）",
+        "suspense_mechanism": "诬告案怎么处理？宋攸宁还会纠缠吗？"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [256, 300],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.45,
+        "question_mark_density_per_1k": 4.7,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.78,
+        "sentence_avg_len": 14.2
+      },
+      "emotion": {
+        "dominant_emotion": "痛快-警惕",
+        "emotion_arc": "痛快（判刑）→ 唏嘘 → 警惕（宋攸宁纠缠）→ 坚定",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "终于看到法律制裁的痛快，但对宋攸宁的阴魂不散感到不安"
+      },
+      "highlights": {
+        "peak_moment": "钟然被判两年+宋攸宁像幽灵一样跟踪女主",
+        "peak_type": "power_shift",
+        "emotional_bomb": "宋攸宁穿和女主一模一样的衣服跟踪——从伤害升级为恐怖",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "甚至穿和我一模一样的衣服——这个细节让人脊背发凉"
+      },
+      "techniques": [
+        {
+          "technique": "恐怖化跟踪描写",
+          "example": "我上课，她坐我旁边。我吃饭，她也跟我买一样的菜。甚至穿和我一模一样的衣服。",
+          "effect": "三段递进的跟踪行为——从正常→诡异→恐怖，宋攸宁从渣女变成了惊悚片角色"
+        },
+        {
+          "technique": "金句回旋",
+          "example": "'我爸妈只生我一个，我上哪儿来的姐妹？'",
+          "effect": "对宋攸宁'好姐妹'说辞的精准回击——用最简单的事实否定整段关系"
+        },
+        {
+          "technique": "精神崩溃的独白暴露",
+          "example": "'为什么会变成现在这样？不对，这一切都错了！'她精神濒临崩溃。",
+          "effect": "施害者终于崩溃——但不是因为悔恨而是因为'计划失败'，暴露了她的本性"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我爸妈只生我一个，我上哪儿来的姐妹？",
+          "structure": "常识反问+关系否定",
+          "why_it_works": "用最朴素的事实（独生女）彻底否定对方自封的'姐妹'身份——轻飘飘但致命"
+        },
+        {
+          "text": "纸是包不住火的，这是你们的报应。",
+          "structure": "俗语+定性判决",
+          "why_it_works": "不解释、不讨论——直接用终审判决的语气关上大门"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "靠事件切换维持——清算→新威胁→再清算，节奏交替",
+      "chapter_end_hook": {
+        "text": "从学校实验楼跳了下来。但没有死，脖子以下完全瘫痪。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "自杀未遂比死亡更残忍——'但没有死'三个字比'死了'更让人发凉",
+        "suspense_mechanism": "她瘫痪后会怎样？钟然出狱后会怎样？"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "source_line_range": [301, 345],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 0.38,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.75,
+        "sentence_avg_len": 13.2
+      },
+      "emotion": {
+        "dominant_emotion": "冷淡-唏嘘",
+        "emotion_arc": "冷淡面对 → 被触动 → 回归冷静 → 微微唏嘘",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "对钟然的忏悔感到复杂——活该但也有一点唏嘘"
+      },
+      "highlights": {
+        "peak_moment": "钟然说'我都想起来了'——揭示他也重生了",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "两个人都记得上辈子的一切——但这个共同记忆不再是连接而是隔阂",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "你想念的是那个愚钝无知的女人。我不是她。"
+      },
+      "techniques": [
+        {
+          "technique": "身份坍塌描写",
+          "example": "他身形佝偻，眼神无光，完全不像个二十岁的年轻人。",
+          "effect": "用外貌写内在——一年牢狱把天之骄子变成了行尸走肉"
+        },
+        {
+          "technique": "冷句封杀",
+          "example": "'你想念的是那个愚钝无知，被你蒙在鼓里骗了半辈子，傻傻地爱着你的那个女人。我不是她。'",
+          "effect": "不是骂他而是否定他想念的对象——'那个女人已经死了'比'我恨你'残忍十倍"
+        },
+        {
+          "technique": "日常化降格",
+          "example": "他给我多放了半勺卤子。'同学拿好，小心别撒了。'曾经的天之骄子，变成了打饭师傅。",
+          "effect": "用最日常的打饭场景写天堂到地狱——反差不需要形容词，场景本身就是判决"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你想念的是那个愚钝无知，被你蒙在鼓里骗了半辈子，傻傻地爱着你的那个女人。我不是她。",
+          "structure": "定义对方的想念对象+否定自我等同",
+          "why_it_works": "精准击中了钟然的自我欺骗——他不是想念她而是想念那个无条件爱他的工具人"
+        },
+        {
+          "text": "曾经的天之骄子，变成了打饭师傅。",
+          "structure": "过去身份+现在身份的极端并列",
+          "why_it_works": "不评价不感慨——两个标签的并列本身就是完整的故事"
+        },
+        {
+          "text": "那是他对我说的最后一句话。",
+          "structure": "终结式陈述",
+          "why_it_works": "用最平静的口吻宣布一段关系的永久终结——没有仪式感本身就是最大的仪式感"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "靠情绪层次维持——钟然的每次出现都在M5温度曲线上再降一个台阶",
+      "chapter_end_hook": {
+        "text": "他消失了半年后，我回家过年，听到了他的消息。他为了救一个溺水的孩子，自己昏迷不醒。",
+        "hook_type": "revelation_half",
+        "hook_technique": "突然的命运转折——不是被惩罚而是自我救赎式的消亡",
+        "suspense_mechanism": "钟然会死吗？那个孩子为什么也叫妍妍？女主会有什么反应？"
+      }
+    },
+    {
+      "chapter_id": 11,
+      "source_line_range": [346, 380],
+      "char_count": 520,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.2,
+        "comma_period_ratio": 0.35,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.25,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.60,
+        "sentence_avg_len": 12.8
+      },
+      "emotion": {
+        "dominant_emotion": "平静-轻盈",
+        "emotion_arc": "唏嘘 → 接受 → 释然 → 轻盈幸福",
+        "emotion_intensity": 6.5,
+        "reader_feeling_target": "复杂的感慨后被结尾的温暖和轻盈打动——这就够了"
+      },
+      "highlights": {
+        "peak_moment": "女主和父母走在香榭大街，觉得'幸福而轻盈'",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "全篇最平静的画面——但承载了上辈子所有失去的重量",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "世界荒诞灿烂，我只想抓住最爱的人"
+      },
+      "techniques": [
+        {
+          "technique": "命运呼应",
+          "example": "'听说那个孩子的名字，也叫妍妍。'",
+          "effect": "名字的巧合暗示钟然的救赎动机——他在用命偿还对'妍妍'的亏欠"
+        },
+        {
+          "technique": "一句话收束全篇",
+          "example": "世界荒诞灿烂，我只想抓住最爱的人。",
+          "effect": "不总结不议论——用一个态度收束所有复杂性"
+        },
+        {
+          "technique": "童年画面回溯",
+          "example": "好像能像小时候一样，被爸妈拎着胳膊飞起来。",
+          "effect": "用童年最幸福的画面收尾——所有的战斗都是为了回到这个最简单的快乐"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "世界荒诞灿烂，我只想抓住最爱的人。",
+          "structure": "抽象判断+具体选择",
+          "why_it_works": "承认世界荒诞但不沉溺——选择抓住而不是逃离，这是真正的强大"
+        },
+        {
+          "text": "他多出来的这条命，换一个孩子，也算是死得其所。",
+          "structure": "冷静的价值计算式判断",
+          "why_it_works": "不原谅也不诅咒——用最理性的方式为这段关系画句号"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "匀速舒缓",
+      "pacing_note": "靠情绪余韵维持——钟然之死的复杂感和旅行的轻盈感并存",
+      "chapter_end_hook": {
+        "text": "世界荒诞灿烂，我只想抓住最爱的人。（完）",
+        "hook_type": "contrast_shock",
+        "hook_technique": "全篇收束句——不是爆点而是态度宣言，让读者带着这个态度合上文章",
+        "suspense_mechanism": "无悬念——但读者会带着这种'轻盈的骨气'回味全篇"
+      }
+    }
+  ],
+  "global_soul_signature": "用极致冷静的短句写极致惨烈的背叛，用重生者的信息差优越感驱动递进式清算，让女主永远不哭着求饶、永远靠证据和制度而非暴力翻身——冷静本身就是最大的暴力，不原谅本身就是最好的结局"
+}

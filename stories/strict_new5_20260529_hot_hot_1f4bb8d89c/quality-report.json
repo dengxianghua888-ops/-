@@ -1,0 +1,184 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260529_hot_hot_1f4bb8d89c/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11947,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        686,
+        722,
+        699,
+        758,
+        748,
+        820,
+        888,
+        1037,
+        1041,
+        1072,
+        1062,
+        817,
+        734,
+        767
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 67,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 10,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11947,
+      "sentence_count": 736,
+      "avg_sentence_length": 15.232,
+      "dialogue_ratio": 0.2684,
+      "question_marks": 57,
+      "question_marks_per_k": 4.771,
+      "physical_emotion_hits": {
+        "指尖": 11,
+        "喉咙": 1,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 28.292
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 11161,
+        "line_count": 610,
+        "avg_line_chars": 18.297,
+        "median_line_chars": 16.0,
+        "short_line_rate": 0.5213,
+        "long_line_rate": 0.0508,
+        "quote_line_rate": 0.4738,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 8.422,
+        "comma_period_ratio": 0.946,
+        "sentence_avg_len": 17.6
+      },
+      "candidate": {
+        "chars": 11790,
+        "line_count": 671,
+        "avg_line_chars": 17.571,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.468,
+        "long_line_rate": 0.0045,
+        "quote_line_rate": 0.4128,
+        "barrage_line_rate": 0.0015,
+        "question_marks_per_k": 4.835,
+        "comma_period_ratio": 0.971,
+        "sentence_avg_len": 15.2
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 533,
+      "unique_sentence_skeletons": 532,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0038
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.4,
+    "style": 7.6,
+    "logic": 7.8
+  },
+  "evidence": [
+    {
+      "type": "opening_hook",
+      "location": "draft.md opening",
+      "text": "婚礼开场前三分钟，白色遗体冷柜被推进主厅。"
+    },
+    {
+      "type": "information_asymmetry",
+      "location": "scene-01",
+      "text": "《低温保存核心算法专利回购协议》与伦理审查暂停函连续投屏，宾客和江砚舟此前都不知道女主已持有反制牌。"
+    },
+    {
+      "type": "emotion_payoff",
+      "location": "scene-14",
+      "text": "冷柜铭牌被放入“婚礼冷柜事件，反面案例补充物证”归档袋，完成开篇羞辱债回收。"
+    },
+    {
+      "type": "style_rhythm",
+      "location": "draft.md all",
+      "text": "正文以短行、对白、物证动作推进，无长篇解释监管流程或技术原理。"
+    },
+    {
+      "type": "logic_boundary",
+      "location": "scene-09 to scene-11",
+      "text": "投诉、受理、调查组、董事会冻结权限按程序递进，没有让角色凭口头爽点直接定罪。"
+    }
+  ]
+}

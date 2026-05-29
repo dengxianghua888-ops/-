@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "客厅照片墙、新风管道夹层、装饰承重层",
+  "time": "破拆开始后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "顾教授",
+    "破拆人员",
+    "法医"
+  ],
+  "character_goal": "沈棠要让家人从墙体中被找到。",
+  "opposition_goal": "假家人留下的伪装要在最后一刻仍维持无尸无证。",
+  "conflict_action": "破拆人员按沈棠标出的照片墙和新风夹层切开墙体，沈棠在封控线外辨认滚出的婚戒、手表和哥哥钥匙扣。",
+  "information_gap": "墙内遗骸是否属于沈家四人，是否还有未被发现的共犯证据。",
+  "emotional_debt_delta": "亲情抛弃债崩塌，悲痛与真相同时爆发。",
+  "payoff_or_hook": "终极恐怖反转兑现：家人一直在别墅墙体里。",
+  "chapter_end_hook": "新风夹层被打开时，我妈的婚戒从灰白尘土里滚到了我脚边。",
+  "paywall_card": false,
+  "must_include": [
+    "照片墙破拆",
+    "新风夹层",
+    "婚戒",
+    "父亲手表",
+    "哥哥钥匙扣",
+    "法医封存"
+  ],
+  "must_not_write_as_exposition": [
+    "不要细写遗骸状态",
+    "不要渲染藏尸细节",
+    "不要让发现变成猎奇恐怖"
+  ]
+}

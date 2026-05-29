@@ -1,0 +1,87 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "target_chars_min": 500,
+  "target_chars_max": 600,
+  "location": "沈氏资本LP年会大厅",
+  "time": "紧接scene-09",
+  "pov": "陆衍（第三人称）+ 沈母",
+  "characters": ["陆衍", "沈母", "苏念"],
+  "character_goal": "苏念当众抛出伪造期权和文化衫的证据",
+  "opposition_goal": "陆衍试图辩解但逻辑被堵死",
+  "conflict_action": "苏念平静说出伪造期权和文化衫事件→沈母猛转头→问号连击审判→逼迫陆衍说出跟谁领的证",
+  "information_gap": "沈母还不知道陆衍跟方怡领了证——最后的追问即将迫使最丢脸的真相曝光",
+  "emotional_debt_delta": "伪造期权的侮辱债开始兑现",
+  "payoff_or_hook": "沈母终极追问：'陆衍！你到底跟谁领的证！'",
+  "chapter_end_hook": "沈母忍不住了：'陆衍！你到底跟谁领的证！'",
+  "paywall_card": false,
+  "must_include": [
+    "苏念平静说出伪造期权事件（不带情绪）",
+    "沈母猛转头的动作",
+    "问号连击追问（至少3个问句）",
+    "'你自己跟别人领了证现在又说这种话合适吗'的逻辑死锁",
+    "沈母最终追问'你到底跟谁领的证'"
+  ],
+  "must_not_write_as_exposition": [
+    "方怡是谁（留给下章揭晓）",
+    "后续法律后果"
+  ],
+  "rhythm_job": {
+    "shape": "连续问号轰炸——审判节奏",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.5,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 14.8,
+    "dominant_emotion": "审判-逼迫-即将揭底",
+    "emotion_arc": "证据曝光 → 追问连击 → 逼到死角",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "每个问号都像一记耳光的痛快感，期待最丢脸的真相被逼出口",
+    "required_techniques": [
+      {
+        "technique": "问号连击审判",
+        "instruction": "'什么伪造？什么文化衫？你到底干了什么！你到底跟谁领的证！'——每个问号都是一记耳光"
+      },
+      {
+        "technique": "逻辑死锁",
+        "instruction": "'你自己跟别人领了证，现在又来说这种话，你觉得合适吗？'——用事实堵死所有辩解"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "陈述对方事实+反问'合适吗' = 逻辑死锁",
+        "example": "你自己跟别人领了证，现在又来说这种话，你觉得合适吗？",
+        "instruction": "用事实堵死对方所有辩解的路——他无话可说因为确实如此"
+      }
+    ],
+    "peak_type": "question_bomb",
+    "bomb_technique": "突变式——平静陈述中突然投出炸弹证据引爆连锁追问",
+    "source_excerpt": "苏念放下咖啡杯，语气平静：\n'他给我的期权协议是伪造的，签名不是我的笔迹。'\n'他让我穿公司文化衫，以前同事的身份去参加他跟别人的婚礼。'\n沈母猛地转头。\n'什么伪造？什么文化衫？'\n'陆衍！你到底干了什么！'\n陆衍张了张嘴。\n沈母的声音更高了：\n'你到底跟谁领的证！'"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": [],
+      "句式": "平静陈述事实、不带情绪色彩",
+      "单句上限": 12,
+      "禁止": "控诉语气、感叹号"
+    },
+    "陆衍": {
+      "口癖": [],
+      "句式": "结巴、张嘴说不出话",
+      "单句上限": 10,
+      "禁止": ""
+    },
+    "沈母": {
+      "口癖": ["你这孩子", "闭嘴"],
+      "句式": "追问连击、声音越来越高",
+      "单句上限": 11,
+      "禁止": "也许、可能"
+    }
+  }
+}

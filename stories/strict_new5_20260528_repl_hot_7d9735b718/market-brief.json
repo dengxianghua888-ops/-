@@ -1,0 +1,115 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_chars": {
+      "min": 500,
+      "max": 1200,
+      "preferred": 650
+    },
+    "chapter_end_rule": "每章末必须落一个新证据、新羞辱、新反转或新清算动作形成钩子",
+    "chapter_count_target": "12-20章",
+    "tomato_fit": "短章快切，单章只解决一个冲突点，章尾不做情绪总结"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须用生活细节异常直接暴露背叛或第二个家，不铺垫婚姻史",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "preferred_hook_types": ["H1", "H3"],
+    "hook_examples": [
+      "一句备注、一个会员号、一个称呼或一笔小额消费暴露隐藏关系",
+      "反派以为自己炫耀幸福，实际递出财产转移证据",
+      "女主当场不哭闹，转身收集证据，读者等待公开处刑"
+    ]
+  },
+  "market_positioning": {
+    "genre": "family_ethics",
+    "subgenre": "婚内背叛 / 第二个家 / 原配清算 / 财产反杀",
+    "core_reader_promise": "让被丈夫、婆家和小三共同欺骗压榨的原配，亲手撕开第二个家，并让所有施害者被自己的贪婪反噬。",
+    "dominant_satisfaction": "证据链打脸 + 财产追回 + 不复合不原谅 + 母女新生",
+    "emotional_debt_type": "婚姻欺骗债 / 家庭劳动剥削债 / 财产转移债 / 小三鸠占鹊巢债",
+    "antagonist_violation": [
+      "丈夫违反婚姻忠诚、财产诚信、父职责任和基本尊重",
+      "婆家把女主当免费护工与提款机",
+      "第三者明知正妻存在仍主动炫耀、逼宫、争夺身份",
+      "施害者用谎言改写女主名誉，把受害者包装成过错方"
+    ],
+    "protagonist_stance": "前期克制隐忍，发现真相后冷静取证、法律清算、拒绝复合",
+    "payoff_pattern": "女主拿回财产、女儿和人生主导权；丈夫失去两个家，婆家失去免费照护，第三者失去身份与自由。"
+  },
+  "audience": {
+    "target_readers": [
+      "25-45岁女性读者",
+      "偏好家庭伦理、婚姻背叛、原配反杀、法律清算题材的番茄短故事用户",
+      "对免费劳动、全职主妇被轻视、婆家压榨、男人双面生活高度敏感的读者"
+    ],
+    "emotional_needs": [
+      "希望看到女主不内耗、不求爱，快速识破骗局",
+      "希望坏人受到具体代价：钱、房、名声、自由、亲情全线崩塌",
+      "希望女主拿到现实补偿，而不只是口头道歉",
+      "希望结尾明确不复合、不原谅，母女生活变好"
+    ],
+    "topic_taboo": [
+      "禁止让女主为了孩子轻易复合",
+      "禁止把小三写成完全无辜白纸",
+      "禁止让婆婆一句道歉洗白",
+      "禁止用空泛自强替代财产、抚养权、法律结果",
+      "避免过度血腥、猎奇暴力和无必要的羞辱女性身体描写",
+      "避免把出轨包装成真爱选择"
+    ]
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "recommended_formula_ids": ["T1", "T4", "T5"],
+    "formula_candidates": [
+      {
+        "formula": "生活异常物件 + 暴露老公第二个家",
+        "example": "一碗不要香菜的面，暴露老公第二个家",
+        "market_use": "强生活细节，适合前300字快速进钩"
+      },
+      {
+        "formula": "小额消费/会员信息 + 大额背叛反转",
+        "example": "老公的会员卡，被小三刷出了第二个家",
+        "market_use": "数字与证据感强，适合家庭伦理反杀"
+      },
+      {
+        "formula": "被压榨身份 + 当场清算动作",
+        "example": "伺候婆婆两年后，我掀了老公的第二个家",
+        "market_use": "突出情绪债与爽点兑现"
+      },
+      {
+        "formula": "原配发现证据 + 全家悔疯",
+        "example": "发现老公养小家后，我让他们全家悔疯",
+        "market_use": "番茄高识别度，直给爽文承诺"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.0,
+      "drivers": ["开篇证据钩子", "每章新增一层欺骗", "清算结果具体"]
+    },
+    "paywall_point": {
+      "target_score": 8.8,
+      "requirements": ["2500-3500字出现第一次身份摊牌或小三逼宫", "6000-8000字出现法律证据升级", "9000字后进入最终判决或反派互咬"]
+    },
+    "emotional_release": {
+      "target_score": 9.2,
+      "requirements": ["女主不复合", "小三和丈夫均付出代价", "婆家压榨被法律或财产切割", "女儿与女主获得新生活"]
+    },
+    "ai_flavor": {
+      "target_score": 0,
+      "meaning": "越低越好",
+      "requirements": ["禁用空泛感悟", "少用抽象心理词", "用账单、会员号、聊天记录、转账、证件、判决书推进"]
+    },
+    "beat_density": {
+      "target_score": 9.0,
+      "requirements": ["每1000字至少一个可感知爆点", "每章末有钩子", "每3000字至少一个付费级卡点"]
+    }
+  }
+}

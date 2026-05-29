@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "临时专案会议室",
+  "time": "第六天上午",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "刘队", "专案组警员"],
+  "character_goal": "整理六名受害者的动线和证据，让她们从恐吓编号回到具体姓名。",
+  "opposition_goal": "江砚和论坛要用新的病例遗照夺走案件叙事权，把受害者继续变成展品。",
+  "conflict_action": "林照把六名女生的遗留物贴上白板，用门禁时间线推翻退学伪造记录，会议刚结束手机收到新病例遗照。",
+  "information_gap": "新遗照来自江砚还是馆长，下一名目标是否已被选定。",
+  "emotional_debt_delta": "受害者真相债-1，组织威胁债+1。",
+  "payoff_or_hook": "受害者不只是编号，林照用姓名、遗留物、最后动线完成阶段性还原。",
+  "chapter_end_hook": "受害者档案刚封存，一张新病例遗照发到林照手机。",
+  "paywall_card": false,
+  "must_include": [
+    "六名女生姓名",
+    "遗留物白板",
+    "门禁时间线",
+    "伪造退学记录",
+    "新病例遗照"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把受害者写成数字列表",
+    "不要用会议总结替代证据动作",
+    "不要完全解除威胁感"
+  ]
+}

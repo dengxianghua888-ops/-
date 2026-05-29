@@ -1,0 +1,406 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 12600
+  },
+  "title": "愚人节他拿我试车，我递上离婚书",
+  "genre": "家庭伦理 / 都市婚恋 / 追妻火葬场 / 清醒离婚复仇",
+  "mechanisms": {
+    "M3": "愚人节玩笑改为反向测试日，陆景珩和程安橙用测试、营销、玩笑为越界和事故免责，许知意最终夺回定义权。",
+    "M5": "陆景珩曾在隧道塌方救过许知意并用原型芯片婚戒求婚，后期却挂断求救、遮掩事故、买通医生，迟来赎罪无效。",
+    "M6": "离婚协议、工程机、黑匣子、OTA日志、假死归家、复健站起、法庭切割、捐戒前行层层升级。",
+    "M2": "被嘲坐轮椅的陆太太回归衡川康复科技，调用法务、技术和外骨骼资源完成身份与能力反转。"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 780,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "许知意把离婚协议推到直播镜头前：陆景珩，愚人节快乐，这次是真的。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 760,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "备用工程机震动，弹出三年前事故当天的隐藏测试任务。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 760,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "程安橙的小号里，出现一张许知意产检单的偷拍照。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 780,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "陆景珩撕掉离婚预约单，转身去替程安橙开发布会。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 800,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "康复医院旧档案显示，许知意的腿本来还有恢复窗口。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 820,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "陆景珩命人把许知意带回三年前那条测试路段。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 840,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "隧道爆燃后，陆景珩只在废墟里捡到一枚变形的婚戒。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "许家车队停在雨夜尽头，许知意第一次喊出爸。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 780,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "复健室监控里，许知意扶着外骨骼迈出了第一步。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 820,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "衡川发布会大屏亮起，标题是：三年前星驰封闭测试事故复盘。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 820,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "程安橙尖叫着说，那份黑匣子不可能还在。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 820,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "法官敲槌前，陆景珩终于看见自己签过的删改授权。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 780,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "程安橙逃跑时撞上同型号测试车，血从她腿下漫开。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 760,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "陆景珩跪在雨里问，能不能再测一次我们的以后。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 760,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "救援事故新闻里，陆景珩的遗物袋装着修复好的婚戒。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 740,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "许知意把戒指捐出，独自走出法院。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "星驰愚人节反向测试日直播间",
+      "character_goal": "许知意要当众结束婚姻，不再配合愚人节玩笑",
+      "conflict_action": "陆景珩摘下婚戒坐进程安橙副驾，直播间起哄时羞辱许知意残腿，许知意推轮椅入镜并甩出离婚协议",
+      "information_gap": "许知意为何在愚人节这天彻底醒悟，三年前测试事故只露出流产和残腿轮廓",
+      "emotion_debt_balance": "立债：婚内羞辱、摘戒背叛、残腿被嘲、流产旧伤被压住",
+      "chapter_end_hook": "许知意把离婚协议推到直播镜头前：陆景珩，愚人节快乐，这次是真的。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把羞辱写成调情",
+        "不能让女主哭求解释"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 830,
+      "scene_location": "陆家车库与星驰后台机房",
+      "character_goal": "许知意要拿回陆景珩备用工程机里的测试权限",
+      "conflict_action": "她趁陆景珩去安抚直播舆情，撬开旧车储物盒取走工程机，和保安在车库闸口对峙",
+      "information_gap": "工程机里藏着三年前事故当天的任务记录，但登录密码与婚戒芯片有关",
+      "emotion_debt_balance": "还债启动：女主不解释，直接取证；新增陆景珩长期监控她行动的压迫",
+      "chapter_end_hook": "备用工程机震动，弹出三年前事故当天的隐藏测试任务。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成黑客万能秒开",
+        "不能用回忆代替取证动作",
+        "禁用女主自怜长独白"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 830,
+      "scene_location": "星驰品牌后台与程安橙休息室外",
+      "character_goal": "许知意要验证程安橙是否提前知道她产检路线",
+      "conflict_action": "许知意用工程机调出直播后台素材，截住程安橙助理删除小号动态，并录下程安橙嘲讽她孩子没命的声音",
+      "information_gap": "小号照片证明程安橙盯过产检单，但谁给了她路线权限未揭",
+      "emotion_debt_balance": "加债：小三不仅出轨挑衅，还踩中失子痛点；女主获得第一枚实证",
+      "chapter_end_hook": "程安橙的小号里，出现一张许知意产检单的偷拍照。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能替小三找苦衷",
+        "不能淡化流产",
+        "不能让证据只停留在口头争吵"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 720,
+      "target_chars_max": 850,
+      "scene_location": "民政局离婚预约窗口与星驰发布会入口",
+      "character_goal": "许知意要逼陆景珩完成第一次离婚程序",
+      "conflict_action": "她推轮椅排到窗口，陆景珩却接到程安橙危机电话，当场抢走资料并把她留在雨里",
+      "information_gap": "程安橙为何能让陆景珩放弃离婚窗口，发布会危机是否与旧事故有关",
+      "emotion_debt_balance": "加债：离婚受阻、公开遗弃；女主确认陆景珩仍会优先保护程安橙",
+      "chapter_end_hook": "陆景珩撕掉离婚预约单，转身去替程安橙开发布会。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把缺席写成误会",
+        "不能让男主被动无辜",
+        "不能拖成长段民政局说明"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "康复医院档案室",
+      "character_goal": "许知意要查清三年前康复失败是不是被人为拖延",
+      "conflict_action": "她用旧病历编号逼档案员调出隐藏转诊单，撞见陆景珩助理给医生补尾款",
+      "information_gap": "收款记录指向陆景珩账户，但他是主动买通还是被程安橙借名操作暂未明说",
+      "emotion_debt_balance": "重大加债：残腿并非命运，恢复窗口被人为错过；女主拿到法律线索",
+      "chapter_end_hook": "康复医院旧档案显示，许知意的腿本来还有恢复窗口。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能泛化攻击医疗行业",
+        "不能写成一夜治愈",
+        "不能让残疾只作为惨点"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "星驰董事会与封闭测试路段入口",
+      "character_goal": "许知意要公开部分证据逼陆景珩承认事故责任",
+      "conflict_action": "她把产检单和后台截图投到董事会大屏，陆景珩为压下程安橙舆情，命人带她去旧路段做所谓澄清测试",
+      "information_gap": "陆景珩是否知道当年全部真相，程安橙为何急着重演测试",
+      "emotion_debt_balance": "加债转折：男主误判女主是闹事，把她再次推向伤害现场",
+      "chapter_end_hook": "陆景珩命人把许知意带回三年前那条测试路段。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让董事会变成总结会",
+        "不能让男主责任全推给小三",
+        "不能写低冲突铺垫"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 780,
+      "target_chars_max": 930,
+      "scene_location": "封闭测试隧道",
+      "character_goal": "许知意要借二次测试脱离陆家监控并保全证据",
+      "conflict_action": "她在试验车靠近时主动触发工程机备份上传，程安橙抢方向盘制造二次撞击，许家救援队趁爆燃遮蔽带走许知意",
+      "information_gap": "读者知道许知意可能未死，陆景珩只知道她消失在火里",
+      "emotion_debt_balance": "阶段还债：女主以假死夺回自由；男主开始尝到不可挽回",
+      "chapter_end_hook": "隧道爆燃后，陆景珩只在废墟里捡到一枚变形的婚戒。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把假死写成儿戏",
+        "不能让二次事故无代价",
+        "不能美化危险驾驶"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 830,
+      "scene_location": "衡川康复科技地下医疗通道",
+      "character_goal": "许知意要确认许家身份并决定是否回归",
+      "conflict_action": "许家法务拦住追来的星驰保镖，许父拿出旧亲子报告和当年寻人档案，许知意签署授权让许家接管证据保全",
+      "information_gap": "许知意为何失散、许家能提供哪些反杀资源仍留悬念",
+      "emotion_debt_balance": "开始还债：女主从陆家监控物变成证据所有人和许家继承人",
+      "chapter_end_hook": "许家车队停在雨夜尽头，许知意第一次喊出爸。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把归家写成炫富排场",
+        "不能安排新男主拯救",
+        "不能弱化女主主动签授权"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 720,
+      "target_chars_max": 860,
+      "scene_location": "衡川复健实验室",
+      "character_goal": "许知意要通过外骨骼复健，为公开站起积累可信过程",
+      "conflict_action": "她绑上外骨骼反复摔倒又重启训练，同时指挥技术组解封婚戒NFC备份中的旧算法日志",
+      "information_gap": "婚戒芯片里是否存有三年前被删掉的原始测试参数",
+      "emotion_debt_balance": "还债深化：身体重建与证据重建同步；痛苦不被抹平但产生行动",
+      "chapter_end_hook": "复健室监控里，许知意扶着外骨骼迈出了第一步。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成瞬间康复",
+        "不能说努力就必然恢复",
+        "不能让婚戒只当纪念品"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "衡川外骨骼发布会后台",
+      "character_goal": "许知意要把身份公开和事故证据发布合并成一次反击",
+      "conflict_action": "她改掉发布会流程，把产品演示替换成事故复盘入口，并让法务在陆景珩入场时递交传票",
+      "information_gap": "陆景珩以为这是许家逼他道歉，却不知道大屏将播放完整黑匣子",
+      "emotion_debt_balance": "还债升级：从私人婚姻切割进入公共证据清算",
+      "chapter_end_hook": "衡川发布会大屏亮起，标题是：三年前星驰封闭测试事故复盘。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让发布会只爽在排场",
+        "不能堆技术名词",
+        "不能省略女主改流程的动作"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "衡川外骨骼发布会主舞台",
+      "character_goal": "许知意要当众站起并播放关键证据",
+      "conflict_action": "她启动外骨骼从轮椅上站起，按下遥控播放EDR黑匣子、OTA删改日志和程安橙诱导路线录音",
+      "information_gap": "黑匣子显示陆景珩账户授权删改，但他是否亲自签字留到法庭",
+      "emotion_debt_balance": "高额还债：残腿羞辱被站起反杀，小三共犯身份公开",
+      "chapter_end_hook": "程安橙尖叫着说，那份黑匣子不可能还在。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把站起写成完全痊愈",
+        "不能让证据只靠口供",
+        "不能把小三崩溃写成可怜"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "离婚案法庭",
+      "character_goal": "许知意要完成法律离婚并推动事故线索移交",
+      "conflict_action": "她提交婚内出轨证据、事故链条和医生收款记录，陆景珩试图当庭认错挽回，被法官要求确认删改授权签名",
+      "information_gap": "陆景珩终于意识到自己不只是伤害旁观者，而是证据链上的授权人",
+      "emotion_debt_balance": "法律还债：关系切割进入判决层；男主悔悟开始但无挽回资格",
+      "chapter_end_hook": "法官敲槌前，陆景珩终于看见自己签过的删改授权。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用私刑替代法律",
+        "不能让男主哭就抵债",
+        "不能把法庭写成纯吵架"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 720,
+      "target_chars_max": 860,
+      "scene_location": "法院外停车场与事故逃逸路口",
+      "character_goal": "许知意要阻止程安橙销毁最后一份公关群证据",
+      "conflict_action": "她让法务申请证据保全，程安橙抢车逃跑并撞上转运中的测试车，警方当场查扣她手机",
+      "information_gap": "程安橙手机里的公关群记录将补齐诱导、篡改、妨害作证链条",
+      "emotion_debt_balance": "因果还债：小三复制伤害后果但以法律追责为主，不能猎奇化",
+      "chapter_end_hook": "程安橙逃跑时撞上同型号测试车，血从她腿下漫开。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成女主施暴",
+        "不能猎奇描写断腿",
+        "不能让小三卖惨稀释责任"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 700,
+      "target_chars_max": 830,
+      "scene_location": "陆家旧隧道纪念墙外雨夜",
+      "character_goal": "许知意要拒绝陆景珩的迟来挽回",
+      "conflict_action": "陆景珩跪雨递回修复中的婚戒和基金文件，许知意把文件交给律师，只留下离婚判决复印件给他",
+      "information_gap": "陆景珩开始做道路安全基金，但这只是赎罪，不是关系修复",
+      "emotion_debt_balance": "情感切割还债：承认他曾爱过，也明确迟到的爱不再算数",
+      "chapter_end_hook": "陆景珩跪在雨里问，能不能再测一次我们的以后。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能临时和解",
+        "不能把男主跪雨浪漫化",
+        "不能让女主因同情动摇"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 700,
+      "target_chars_max": 830,
+      "scene_location": "道路救援事故新闻现场与医院走廊",
+      "character_goal": "许知意要确认陆景珩死亡消息但拒绝被死亡绑架",
+      "conflict_action": "她到医院认领事故基金文件，面对媒体追问是否原谅，只回答普通救援者值得哀悼，婚姻旧债不因此两清",
+      "information_gap": "陆景珩遗物袋里的婚戒已修复，但它将去向哪里未揭",
+      "emotion_debt_balance": "终局前清账：男主赎罪成立但不能洗白，女主允许自己落泪却不回头",
+      "chapter_end_hook": "救援事故新闻里，陆景珩的遗物袋装着修复好的婚戒。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能死亡洗白",
+        "不能临终复合",
+        "不能让女主说原谅"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 680,
+      "target_chars_max": 820,
+      "scene_location": "法院、基金会捐赠处与清晨街口",
+      "character_goal": "许知意要把旧婚姻信物从私人枷锁变成公共援助",
+      "conflict_action": "她签收终审材料，把婚戒和芯片专利收益捐给残障驾驶安全基金，独自走下台阶离开",
+      "information_gap": "无，新生活开启，余味落在往前看",
+      "emotion_debt_balance": "全额清账：不复合、不原谅、不被遗物困住，婚戒完成誓约到捐赠的意义转换",
+      "chapter_end_hook": "许知意把戒指捐出，独自走出法院。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成等待新爱情证明价值",
+        "不能让结尾落在男主悲情",
+        "不能使用空泛说教"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapter_count": 10,
+    "planned_chapter_count": 16,
+    "minimum_paywall_cards": 4,
+    "planned_paywall_cards": 5,
+    "chapter_end_hook_coverage": 1.0,
+    "micro_hook_interval_chars": [
+      800,
+      1200
+    ],
+    "must_hold": [
+      "每章至少一个行动或证据点",
+      "女主每次痛后必须推进取证、离婚、归家、复健或法律动作",
+      "愚人节测试话术每次出现都对应真实伤害",
+      "不复合、不原谅、不用死亡洗白男主"
+    ]
+  }
+}

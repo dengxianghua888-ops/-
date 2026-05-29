@@ -1,0 +1,31 @@
+pipeline_mode: production
+status: final
+title: 她没有他活不了
+source: corpus/ancient_evening_wind.md
+genre: modern_reversal
+mechanisms:
+  - M5
+  - M3
+  - M6
+hook_type: H4
+target_length:
+  min: 10000
+  max: 14000
+actual_length: 10000
+chapters: 12
+paywall_cards: 3
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.5
+    emotion: 8.7
+    style: 8.3
+    logic: 8.4
+runner_policy:
+  external_allowed: false
+  provider: claude
+  model: claude-sonnet-4-20250514
+  source: manual_production
+created: "2026-05-18"

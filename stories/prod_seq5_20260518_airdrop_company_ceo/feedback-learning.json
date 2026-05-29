@@ -1,0 +1,108 @@
+{
+  "story_slug": "prod_seq5_20260518_airdrop_company_ceo",
+  "pipeline_mode": "production",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": ["M2", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 13283,
+  "quality_scores": {
+    "platform": 8.8,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 8.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "scene-01",
+      "hook": "周年惊喜反转为丈夫直播牵小三官宣上位，以“老公，惊喜吗？”完成首章强钩子。"
+    },
+    {
+      "chapter": 2,
+      "scene_id": "scene-02",
+      "hook": "闹场新人助播投屏结婚证，完成正妻身份反转。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "scene-03",
+      "hook": "女主展示平台首席增长与合规官任命函，从被驱逐对象变成现场权力方。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "scene-07",
+      "hook": "创始合伙协议、启动资金和最高表决权条款连环公开，击穿男主CEO叙事。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "scene-12",
+      "hook": "男主CEO权限被回收，刷不开会议室门禁，用物理失败呈现权力坠落。"
+    },
+    {
+      "chapter": 16,
+      "scene_id": "scene-16",
+      "hook": "“惊喜”母题回收为女主重启透明投流联盟，完成事业主场新生。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "scene_id": "scene-02",
+      "card": "结婚证投屏，隐婚正妻身份公开。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "scene-03",
+      "card": "平台任命函投屏，女主拥有现场合规接管权限。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "scene-07",
+      "card": "创始合伙协议与最高表决权条款公开，苏曼宁任命暂不生效。"
+    },
+    {
+      "chapter": 9,
+      "scene_id": "scene-09",
+      "card": "合同扫描件、私域收款码、投流发票、返点表并排核验，小三资金问题坐实。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "scene-12",
+      "card": "合伙人会暂停男主CEO职务，权限回收后男主刷不开门禁。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "不是……是……",
+      "genre": "urban_sweet_ceo",
+      "reason": "review.md指出流程反击段存在少量重复句式，后续同类型权力反转文应避免连续使用。"
+    },
+    {
+      "candidate": "流程/权限/审计",
+      "genre": "urban_sweet_ceo",
+      "reason": "review.md指出scene-08、scene-12流程术语略密，后续合规题材需用道具、动作和结果替代术语堆叠。"
+    }
+  ],
+  "retrieval_tags": [
+    "隐婚正妻",
+    "直播官宣小三",
+    "平台招商发布会",
+    "结婚证投屏",
+    "平台合规官",
+    "创始合伙协议",
+    "最高表决权",
+    "投流日志镜像",
+    "商单返点表",
+    "私域收款码",
+    "权限冻结",
+    "CEO停职",
+    "门禁权限回收",
+    "离婚签收",
+    "透明投流联盟",
+    "国货品牌扶持"
+  ],
+  "manual_revision_delta": []
+}

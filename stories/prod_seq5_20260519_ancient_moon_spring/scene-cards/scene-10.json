@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "码头废墟、陆氏停尸房",
+  "time": "爆炸次日",
+  "pov": "陆沉舟",
+  "characters": [
+    "陆沉舟",
+    "林若鸢",
+    "仵作",
+    "码头巡捕"
+  ],
+  "character_goal": "陆沉舟要确认沈南星和孩子是否死亡。",
+  "opposition_goal": "林若鸢要引导他相信沈南星畏罪自尽，并遮住假婴疑点。",
+  "conflict_action": "陆沉舟徒手翻开烧焦货箱，捡起残襁褓扣，又逼仵作打开无名女尸记录。",
+  "information_gap": "他不知道沈南星是否生还，也不知道小舟早已死亡。",
+  "emotional_debt_delta": "+男主迟来恐惧、+不可逆真相逼近",
+  "payoff_or_hook": "残扣是他当年亲手给小舟缝上的扣子。",
+  "chapter_end_hook": "陆沉舟攥着扣子，第一次问：小舟在哪里？",
+  "paywall_card": false,
+  "must_include": [
+    "码头废墟",
+    "烧焦襁褓扣",
+    "仵作记录",
+    "林若鸢假哭",
+    "陆沉舟第一次主动追问小舟"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让男主直接彻底崩溃过头",
+    "不要立刻揭开全部真相",
+    "不要让林若鸢失去伪装太快"
+  ]
+}

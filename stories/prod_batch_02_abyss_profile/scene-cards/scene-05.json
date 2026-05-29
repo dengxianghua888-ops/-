@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "护理实训教室与洗手间",
+  "time": "第三天上午",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "许曼", "护理班同学"],
+  "character_goal": "用假课表和假坐标诱导许曼转发信息，确认她与凶手的通讯链。",
+  "opposition_goal": "许曼要拿到林照夜间动线，送给上级安排下一次入库。",
+  "conflict_action": "林照故意把夹有定位贴的课表留在桌上，躲进洗手间隔间录下许曼拍照、转发和低声复述冷库坐标。",
+  "information_gap": "许曼把信息发给谁，对方是否就是冷库手套人。",
+  "emotional_debt_delta": "专业反制债-1，许曼工具人线索+1。",
+  "payoff_or_hook": "林照第一次主动设饵，凶手以为拿到她动线，其实拿到假坐标。",
+  "chapter_end_hook": "林照的课表背面，多出一行许曼手写的冷库坐标。",
+  "paywall_card": false,
+  "must_include": [
+    "假课表",
+    "定位贴",
+    "洗手间隔间录音",
+    "许曼转发照片",
+    "冷库坐标"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释设饵原理",
+    "不要让许曼主动坦白",
+    "不要把课堂写成无效日常"
+  ]
+}

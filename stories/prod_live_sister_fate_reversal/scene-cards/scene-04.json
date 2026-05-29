@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "琴房门外、宴会后厨房",
+  "time": "复演宴结束当晚",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "陆明砚",
+    "林父",
+    "林母"
+  ],
+  "character_goal": "晚萤想让陆明砚用权限卡开门，至少质问父母。",
+  "opposition_goal": "陆明砚想维持表面和平，父母要他别刺激知夏。",
+  "conflict_action": "陆明砚走到门前拿出权限卡，林父按住他的手；他退开，把饭盒放在门口，对门内发语音说明天补偿。",
+  "information_gap": "陆明砚以为晚萤会在明天听见道歉，读者知道她已经没有明天。",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "迟来补偿债建立，饭盒成为后续尸臭和错过证据。",
+  "chapter_end_hook": "陆明砚把饭盒放在门外，说等明天再向她道歉，可门内已经没人能回答。",
+  "paywall_card": false,
+  "must_include": [
+    "陆明砚确实带着权限卡靠近门",
+    "林父用别刺激知夏劝退他",
+    "饭盒放在门外",
+    "晚萤听见明天二字"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让男友成为复仇代理",
+    "不要写情侣长篇过往",
+    "不要让陆明砚彻底无辜",
+    "不要让他开门成功"
+  ]
+}

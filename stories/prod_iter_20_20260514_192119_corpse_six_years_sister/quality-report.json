@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_iter_20_20260514_192119_corpse_six_years_sister/final.md",
+    "target_length": {
+      "min": 11000,
+      "max": 13500,
+      "actual": 12069,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [819, 819, 838, 842, 826, 826, 811, 817, 805, 820, 842, 856, 870, 843],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 107,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 13,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 36,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12069,
+      "sentence_count": 1256,
+      "avg_sentence_length": 8.61,
+      "dialogue_ratio": 0.0,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "指甲": 4,
+        "掌心": 6
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "微微": 1
+      },
+      "action_density_per_k": 40.6
+    },
+    "semantic_repetition": {
+      "sentence_count": 363,
+      "unique_sentence_skeletons": 353,
+      "max_sentence_repeats": 3,
+      "max_sentence_repeat_ratio": 0.0083
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "微微": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.8,
+    "emotion": 9.0,
+    "style": 8.6,
+    "logic": 8.9
+  },
+  "evidence": [
+    {
+      "path": "draft-scenes/scene-01.md",
+      "quote": "非受益人，无权解锁。",
+      "claim": "首屏黄金30秒红屏钩，22亿信托结算被反向锁死"
+    },
+    {
+      "path": "draft-scenes/scene-02.md",
+      "quote": "磨练你六年，你怎么连这点学乖都没学会。",
+      "claim": "M3 第一回合金句，磨练/学乖三联词组首次落地"
+    },
+    {
+      "path": "draft-scenes/scene-06.md",
+      "quote": "她叫了一声叔叔。她不叫我爸。",
+      "claim": "亲情债现场化：六年代孕生女被夺，女儿不识父"
+    },
+    {
+      "path": "draft-scenes/scene-10.md",
+      "quote": "本人萧承时若放弃唯一受益人身份，则二十二亿信托收益自动划入已故继承人遗产专户。",
+      "claim": "M1 死环闭合：反向电子签把姐姐亲签的受益人确认书反兑成遗产划账"
+    },
+    {
+      "path": "draft-scenes/scene-10.md",
+      "quote": "我按下电子签发送键，把空白确认书反向兑现成她的咒，然后跨过天台的栏杆。",
+      "claim": "B10 章末钩，付费卡点+M1 反向兑现"
+    },
+    {
+      "path": "draft-scenes/scene-14.md",
+      "quote": "她问你见到我弟弟了吗，又说他马上就要结婚了。",
+      "claim": "M3 回声闭合：幸福新郎四字从B2讥讽到B14疯念三度回旋"
+    },
+    {
+      "path": "draft-scenes/scene-14.md",
+      "quote": "电子签存证·全球七台公证服务器·二十二亿原数划入已故继承人遗产专户。",
+      "claim": "衣冠冢碑面下方小字收尾，M1 资金链终结物理化"
+    }
+  ]
+}

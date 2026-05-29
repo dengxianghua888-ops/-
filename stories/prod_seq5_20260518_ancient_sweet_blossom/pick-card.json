@@ -1,0 +1,15 @@
+{
+  "slug": "prod_seq5_20260518_ancient_sweet_blossom",
+  "corpus_slug": "ancient_sweet_blossom",
+  "genre": "ancient_sweet",
+  "mechanisms": [
+    "M2",
+    "M3",
+    "M6"
+  ],
+  "hook_type": "H3",
+  "title_formula": "ancient_couplet",
+  "tomato_fit_score": 8.3,
+  "picked_at": "2026-05-18T19:37:53",
+  "run_id": "20260518_193753"
+}

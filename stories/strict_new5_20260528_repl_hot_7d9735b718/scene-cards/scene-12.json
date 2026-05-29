@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 670,
+  "target_chars_max": 710,
+  "location": "新工作室和搬家车旁",
+  "time": "初夏上午",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "念念", "沈泊舟", "搬家师傅"],
+  "character_goal": "搬离旧小区，带念念开始新生活。",
+  "opposition_goal": "沈泊舟想用悔恨和父亲身份拦住她们。",
+  "conflict_action": "许清辞签收工作室钥匙，沈泊舟拦车求复合，她关上车门让搬家车开走。",
+  "information_gap": "许清辞的新生活不再围绕沈泊舟展开。",
+  "emotional_debt_delta": "不复合、不原谅、母女新生完成。",
+  "payoff_or_hook": "情绪收束到具体生活动作。",
+  "chapter_end_hook": "念念把旧校服塞进回收袋，说：妈妈，我们不要那股味道了。",
+  "paywall_card": false,
+  "must_include": ["工作室钥匙", "旧校服", "沈泊舟求复合", "念念主动告别旧味道"],
+  "must_not_write_as_exposition": ["不要写空泛女性成长口号", "不要洗白沈泊舟", "不要让结尾变成鸡汤总结"],
+  "rhythm_job": {
+    "shape": "低压收束场，用搬家、签钥匙、关车门完成拒绝；结尾给女儿一句短话。",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_hook_ratio": "对白约28%，动作约47%，呼吸点约20%，结尾钩约5%。"
+  }
+}

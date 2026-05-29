@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "谢家海景婚房试衣间",
+  "time": "婚礼前夜",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "谢母", "陆沉舟"],
+  "character_goal": "林晚宜要试婚纱并签署属于她个人的资产文件。",
+  "opposition_goal": "陆沉舟要用撤档和黑热搜威胁她取消婚礼。",
+  "conflict_action": "陆沉舟连续发来撤档截图、撤资名单和热搜词条，谢砚拿走手机交给法务备证。",
+  "information_gap": "谢砚没有立刻解释反击方案，只让林晚宜继续试婚纱。",
+  "emotional_debt_delta": "+婚礼破坏债；-女主不回头姿态强化",
+  "payoff_or_hook": "终局危机启动，陆沉舟从误判求和升级到商业破坏。",
+  "chapter_end_hook": "婚礼前夜，林晚宜收到一张撤档截图，发件人是陆沉舟。",
+  "paywall_card": false,
+  "must_include": ["婚纱", "资产签署", "撤档截图", "谢砚交给法务备证"],
+  "must_not_write_as_exposition": ["不要让林晚宜慌乱求救", "不要让谢砚空口保证", "不要使用非法报复方案"]
+}

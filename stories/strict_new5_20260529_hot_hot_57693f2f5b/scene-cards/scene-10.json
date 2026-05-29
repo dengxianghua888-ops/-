@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 840,
+  "target_chars_max": 1050,
+  "location": "山区项目办公室与直播连线",
+  "time": "沈昭被找到当晚",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "短视频博主",
+    "项目负责人",
+    "直播间网友",
+    "赵慧"
+  ],
+  "character_goal": "沈昭公开交接证据，证明自己没有签收药箱。",
+  "opposition_goal": "赵慧隔空发声，试图把公开承诺说成临时帮忙。",
+  "conflict_action": "沈昭打开旧邮箱，调出赵慧语音、群截图和辞退通知时间。",
+  "information_gap": "监控视频文件出现但尚未播放，真正断电动作待揭开。",
+  "emotional_debt_delta": "沈昭被骂冷血的债开始偿还，第一轮责任回到赵慧和物业。",
+  "payoff_or_hook": "赵慧公开承诺和物业提前辞退形成硬冲突。",
+  "chapter_end_hook": "沈昭打开旧邮箱，第一段监控备份的标题是：活动室23:41。",
+  "paywall_card": false,
+  "must_include": [
+    "旧邮箱自动归档列表",
+    "赵慧语音转文字",
+    "直播评论从骂沈昭转向追问赵慧"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完整朗读聊天记录",
+    "不要解释邮箱技术细节",
+    "不要让证据展示变成PPT汇报"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作一条一条打出，中间用短对白和评论承接；动作约四成，对白两成，弹幕/评论/吐槽两成，冷旁白两成。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 6,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

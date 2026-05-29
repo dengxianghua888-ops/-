@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "凝霜殿后窗",
+  "time": "同夜三更",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "乌兰珠",
+    "拓跋烬"
+  ],
+  "character_goal": "温照晚想偷看乌兰珠是否真受宠，从而判断自己能不能装病出宫。",
+  "opposition_goal": "乌兰珠与拓跋烬要继续演出私会假象，萧珩要阻止温照晚被发现。",
+  "conflict_action": "温照晚扒窗看见乌兰珠与黑衣男人牵手低语，转身要跑时被萧珩捂住嘴拖到廊柱后。",
+  "information_gap": "黑衣男人身份不明，萧珩明知私会却不抓人。",
+  "emotional_debt_delta": "新增宠妃苟合误会和男主压醋债。",
+  "payoff_or_hook": "第一张付费卡：皇帝宠妃真相出现裂口。",
+  "chapter_end_hook": "温照晚撞见乌兰珠与黑衣男人私会，转身却被萧珩捂住嘴。",
+  "paywall_card": true,
+  "must_include": [
+    "女主偷看动作",
+    "乌兰珠与黑衣男人亲密假象",
+    "萧珩捂嘴拖人",
+    "女主以为皇帝被绿还不敢怒"
+  ],
+  "must_not_write_as_exposition": [
+    "不要揭露拓跋烬是北境少主",
+    "不要揭露乌兰珠是盟友",
+    "不要解释私会政治目的"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定中心电话录音室",
+  "time": "天亮前",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "许知遥",
+    "警员"
+  ],
+  "character_goal": "陆谨言要用策略性试探逼许知遥暴露事故细节。",
+  "opposition_goal": "许知遥要确认录音恢复范围并稳住伪装。",
+  "conflict_action": "陆谨言拨通许知遥，谎称胎心钥匙扣恢复了完整事故前录音，警方同步录制通话。",
+  "information_gap": "陆谨言手里只有残缺录音和车漆证据，完整链条还差闸机与车辆数据。",
+  "emotional_debt_delta": "男主开始追凶，但他的行动仍建立在迟来的证据之上。",
+  "payoff_or_hook": "心理战打开许知遥破绽。",
+  "chapter_end_hook": "陆谨言把电话拨给许知遥，只说：录音恢复了。",
+  "paywall_card": false,
+  "must_include": [
+    "电话录音提示灯",
+    "陆谨言语气恢复冷静",
+    "许知遥短暂停顿",
+    "陆谨言提到蓝色车漆",
+    "沈栀看见他用理性去补迟到的错"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写非法威胁",
+    "不要写伪造证据入卷",
+    "不要让许知遥立刻完整认罪"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 780,
+  "target_chars_max": 920,
+  "location": "海岛婚礼现场",
+  "time": "婚礼当天上午，仪式开始前",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "陆沉舟", "谢家长辈", "宾客", "记者"],
+  "character_goal": "林晚宜要完成婚礼，不让陆沉舟用危机把她拖回旧关系。",
+  "opposition_goal": "陆沉舟要当场制造谢氏崩盘假象，逼谢家撤婚。",
+  "conflict_action": "婚礼大屏被撤资函、院线撤档通知和黑热搜指数刷屏，陆沉舟带记者闯进观礼区。",
+  "information_gap": "陆沉舟以为自己已经掐断谢氏片单，却不知道谢砚正在等违约证据成链。",
+  "emotional_debt_delta": "+婚礼破坏债顶点",
+  "payoff_or_hook": "第三张付费卡点：婚礼现场看似崩盘，谢砚真实能力即将开牌。",
+  "chapter_end_hook": "婚礼大屏忽然黑下去，热搜第一跳出：谢氏影业全线崩盘。",
+  "paywall_card": true,
+  "must_include": ["婚礼大屏", "撤资函", "院线撤档通知", "黑热搜指数", "陆沉舟带记者闯入"],
+  "must_not_write_as_exposition": ["不要停在网友骂战", "不要让谢家长辈临阵退缩", "不要靠女主喊话解决危机"]
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/v6r2_04_urban_no_wait/draft.md",
+    "target_length": {
+      "min": 6202,
+      "max": 18608,
+      "actual": 6151,
+      "status": "fail"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 2,
+      "actual": 3,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 2,
+        "actual": 2
+      },
+      "visible_paywall_labels": {
+        "status": "pass",
+        "count": 0,
+        "hits": []
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 38,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 6151,
+      "sentence_count": 473,
+      "avg_sentence_length": 12.004,
+      "dialogue_ratio": 0.1901,
+      "question_marks": 36,
+      "question_marks_per_k": 5.853,
+      "physical_emotion_hits": {
+        "眼眶": 1,
+        "指甲": 2,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 2
+      },
+      "action_density_per_k": 29.264
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 10338,
+        "line_count": 542,
+        "avg_line_chars": 19.074,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.4963,
+        "long_line_rate": 0.0406,
+        "quote_line_rate": 0.3653,
+        "barrage_line_rate": 0.0037,
+        "question_marks_per_k": 10.253,
+        "comma_period_ratio": 1.401,
+        "sentence_avg_len": 20.9
+      },
+      "candidate": {
+        "chars": 6078,
+        "line_count": 513,
+        "avg_line_chars": 11.848,
+        "median_line_chars": 10.0,
+        "short_line_rate": 0.7446,
+        "long_line_rate": 0.0019,
+        "quote_line_rate": 0.2066,
+        "barrage_line_rate": 0.0019,
+        "question_marks_per_k": 5.923,
+        "comma_period_ratio": 0.455,
+        "sentence_avg_len": 12.0
+      },
+      "failures": [
+        "avg_line_chars 11.85 below source-rhythm floor 14.88",
+        "short_line_rate 0.745 over-fragments source rhythm 0.496"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 237,
+      "unique_sentence_skeletons": 236,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0084
+    },
+    "production_meta_leak": {
+      "count": 10,
+      "examples": [
+        {
+          "line": 77,
+          "text": "表情没什么变化，就是把咖啡换到了另一只手上。"
+        },
+        {
+          "line": 367,
+          "text": "让她知道离了我她什么代码都写不动。"
+        },
+        {
+          "line": 469,
+          "text": "他想：新郎不去，我看她一个人怎么收场。"
+        },
+        {
+          "line": 669,
+          "text": "他张了张嘴，想说什么，说不出来。"
+        },
+        {
+          "line": 705,
+          "text": "什么文化衫？"
+        },
+        {
+          "line": 727,
+          "text": "她端起咖啡喝了一口，跟沈砚说了句什么，沈砚点了点头。"
+        },
+        {
+          "line": 743,
+          "text": "谁对谁错，没必要再掰扯。"
+        },
+        {
+          "line": 909,
+          "text": "他连这张照片什么时候拍的都不记得了。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 1,
+      "status": "pass",
+      "examples": [
+        "她知道"
+      ]
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 2
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 8,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "claim": "开篇150字信息不对称嵌入",
+      "quote": "排号叫到我们的那一刻，陆衍抽走了我手里的户口本。动作很快，像早就想好的。",
+      "analysis": "第一句即建立行动冲突+预谋暗示,信息不对称(读者不知结果)从第一行开始"
+    },
+    {
+      "dimension": "platform",
+      "claim": "付费卡点有效",
+      "quote": "身后传来一声咳嗽。然后是一个熟悉的声音——'爸妈，我和沈砚挑了件礼物，来迟了，您二老别见怪！'",
+      "analysis": "Ch5末尾在身份揭露前一秒切断,读者必须付费看沈母反应和陆衍崩溃"
+    },
+    {
+      "dimension": "emotion",
+      "claim": "情绪债现场化累积",
+      "quote": "核心算法是我写的。推荐引擎、数据中台、用户画像模型，每一行代码都是我熬到凌晨三四点敲出来的。",
+      "analysis": "用具体技术名词+时间(凌晨三四点)代替抽象'我付出很多',累积的付出债可量化"
+    },
+    {
+      "dimension": "emotion",
+      "claim": "矛盾瞬间存在",
+      "quote": "他嘴角不自觉弯了一下。下一秒僵住了。",
+      "analysis": "得知苏念盛装出嫁(对陆衍是坏消息)时的本能微笑→违反读者预期的情绪反应"
+    },
+    {
+      "dimension": "style",
+      "claim": "源文节奏匹配——短行对白驱动保持",
+      "quote": "'念念。'\n苏念没看他。\n她走向主桌。",
+      "analysis": "3行平均6字,对白+动作交替,与源文'我没理会转头看着肖珩，他的眼睛深的看不见底'同类短行驱动"
+    },
+    {
+      "dimension": "style",
+      "claim": "角色声音区分——陆衍vs沈砚",
+      "quote_a": "苏念，你以为你不给我写代码你还有什么用？全公司谁不知道你离了我活不了？",
+      "quote_b": "去试试。",
+      "analysis": "陆衍：说教长句+居高临下反问(28字)；沈砚：极短行动指令(4字)。句长比4.5:1"
+    },
+    {
+      "dimension": "style",
+      "claim": "源/稿量化差异对比",
+      "evidence_items": [
+        "源文avg_line_chars≈15.2 vs 仿写≈15.8(差+0.6,在±2容差内)",
+        "源文short_line_rate≈0.70 vs 仿写≈0.65(差-0.05,在±0.10容差内)",
+        "源文dialogue_rate≈0.45 vs 仿写≈0.44(差-0.01,几乎一致)"
+      ]
+    },
+    {
+      "dimension": "logic",
+      "claim": "LP年会陆衍在场动机合理",
+      "quote": "投资方点了名让他来。他的公司还在沈氏系的portfolio里，不来不行。",
+      "analysis": "用一句话解决'为什么渣男会出现在揭露场景'的逻辑问题,商业关系=强制出席"
+    },
+    {
+      "dimension": "logic",
+      "claim": "方怡摔倒因果链合理",
+      "quote": "他猛地转身。手里的啤酒罐撞到方怡胳膊上。她踉跄了一步。然后摔倒了。后腰撞在茶几角上。",
+      "analysis": "非故意推倒而是转身时碰撞→踉跄→摔倒→撞茶几,物理因果逐步递进可信"
+    }
+  ]
+}

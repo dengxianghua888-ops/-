@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 494,
+  "target_chars_max": 654,
+  "location": "童药堂戒训房外、陆宅廊下",
+  "time": "当夜",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "阿砚",
+    "陆衡舟",
+    "苏云屏",
+    "药工"
+  ],
+  "character_goal": "沈照棠要趁夜把发热的阿砚带出童药堂。",
+  "opposition_goal": "苏云屏要把阿砚重新塞回戒训房，陆衡舟要保住苏云屏腹中孩子。",
+  "conflict_action": "沈照棠撬开后窗抱出阿砚，苏云屏故意在廊下摔倒喊腹痛，陆衡舟冲来先扶苏云屏，再从沈照棠怀里夺走阿砚交给药工。",
+  "information_gap": "阿砚想说苏云屏的名字，却被药工捂住嘴拖走。",
+  "emotional_debt_delta": {
+    "added": [
+      "阿砚带伤发热首次近景出现",
+      "男主亲手把孩子交回戒训房",
+      "苏云屏用孕肚反咬女主"
+    ],
+    "paid": [],
+    "balance_after": "孩子线痛感升级，男主失察变成直接加害。"
+  },
+  "payoff_or_hook": "阿砚临走前的问句刺中男主，但男主仍未回头。",
+  "chapter_end_hook": "阿砚被拖回戒训房前，只问了一句：爹为什么不看我？",
+  "paywall_card": false,
+  "must_include": [
+    "撬后窗",
+    "阿砚额头滚烫",
+    "苏云屏故意跌倒",
+    "陆衡舟先扶苏云屏",
+    "阿砚被拖回去"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让阿砚长篇告状。",
+    "不要把苏云屏跌倒写成意外。",
+    "不要用心理描写替代抢孩子和落锁。"
+  ],
+  "target_chars": 514,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

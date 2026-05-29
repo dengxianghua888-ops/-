@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "target_chars_min": 800,
+  "target_chars_max": 950,
+  "location": "会所走廊/出口",
+  "time": "季霄带苏念离开的过程中",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "陈奕"],
+  "character_goal": "季霄带苏念离开，同时给陈奕留下一个'看不懂的笑'",
+  "opposition_goal": "陈奕追出来质问——他不理解发生了什么，试图用'她去医院是看我'维持最后的面子",
+  "conflict_action": "陈奕坚称苏念去医院是看他，季霄只用五个字回应'行，你就当是吧'——不揭穿、不解释、只留悬念",
+  "information_gap": "季霄知道苏念怀孕是自己的孩子，但故意不告诉陈奕——让他继续活在错误认知里",
+  "emotional_debt_delta": "兑付第一阶段完成——季霄用行动（而非言语）证明掌控力",
+  "payoff_or_hook": "章末：季霄用日常口吻说'来一趟连把游戏都没打上'——用最轻的话处理最重的事",
+  "chapter_end_hook": "季霄嘟囔'连把游戏都没打上'然后说了一句暗示——'不过这样倒更顺理成章了'——悬置他接下来的计划",
+  "paywall_card": true,
+  "must_include": [
+    "陈奕追出来的对话（坚持苏念是来找他的）",
+    "季霄'行你就当是吧'的五字回应",
+    "季霄不揭穿的笑——让错误自信继续",
+    "章末季霄的轻松语气暗示下一步（更顺理成章）"
+  ],
+  "must_not_write_as_exposition": [
+    "季霄为什么不揭穿的心理分析",
+    "苏念对季霄行为的评价",
+    "接下来要做什么的具体计划"
+  ],
+  "rhythm_job": {
+    "shape": "追逐→戛然而止→松弛收束",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "松弛-暗流",
+    "emotion_arc": "陈奕追问 → 季霄轻描淡写 → 离场 → 暗示未来",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "爽感延续——季霄的'不在乎'本身就是对陈奕最大的贬低",
+    "required_techniques": [
+      {
+        "technique": "不完整信息的悬念保留",
+        "instruction": "季霄不揭穿、不解释，只留一个笑——让陈奕的错误自信继续维持，为后续更大打脸蓄力"
+      },
+      {
+        "technique": "慵懒语气与重大事件的反差",
+        "instruction": "用抱怨没打游戏的日常口吻处理'你怀了我的孩子+我要娶你'这件大事——极致反差"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "肯定词+让步+语气词",
+        "example": "行，你就当是吧。",
+        "instruction": "五个字的让步比任何反驳都有杀伤力——'你爱怎么想怎么想，真相我不屑跟你说'"
+      }
+    ],
+    "peak_type": "contrast_shock",
+    "bomb_technique": "反差式",
+    "source_excerpt": "\"告诉他，你去医院干什么了。\"顾呈阳肯定的说着，\"她去医院见我。\"傅宴也跟着笑了，\"行，你就当是吧。\"\"你这回国检查的还真会挑时候，我这一口酒都没喝上呢。\""
+  }
+}

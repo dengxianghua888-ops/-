@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "B17",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "法院外、墓园、云麓湾17号废墟前",
+  "time": "判决后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "顾教授",
+    "沈家父母与哥哥的墓碑"
+  ],
+  "character_goal": "沈棠要接受家人已死，并把断亲书从伤口变成遗物。",
+  "opposition_goal": "巨大的迟来真相要把她重新拖回失去亲人的痛里。",
+  "conflict_action": "沈棠拿着判决书去墓园，把断亲书复印件、母亲婚戒和哥哥钥匙扣放到墓前。",
+  "information_gap": "她是否会停在受害者家属身份里，还是继续走向新的正义身份。",
+  "emotional_debt_delta": "亲情债与正义债完成主要偿还，留下价值升格悬念。",
+  "payoff_or_hook": "死刑判决结果落地，但不渲染处刑过程。",
+  "chapter_end_hook": "我以为故事已经结束，直到两所名校的招生组同时找到了我。",
+  "paywall_card": false,
+  "must_include": [
+    "死刑判决结果",
+    "墓园告别",
+    "断亲书",
+    "婚戒",
+    "哥哥钥匙扣",
+    "名校招生组联系"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写处刑过程",
+    "不要让结尾停在报复快感",
+    "不要让沈棠用恋爱补偿创伤"
+  ]
+}

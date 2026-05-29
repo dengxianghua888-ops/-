@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": 5,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "质检站门外台阶",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "宋明远凑齐300万",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "打电话借钱：妻子的嫁妆存款、岳父养老金、甲方预支款",
+  "information_gap": "每通电话都是一刀，读者不知道钱的真正用途",
+  "emotional_debt_delta": "+2 代价累积",
+  "payoff_or_hook": "银行短信：到账3,004,200元。他站起来，腿麻得几乎摔倒",
+  "chapter_end_hook": "银行短信：到账3,004,200元。他站起来，腿麻得几乎摔倒",
+  "paywall_card": false,
+  "must_include": [
+    "打电话借钱：妻子的嫁妆存款、岳父养老金、甲方预支款"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 620,
+  "target_chars_max": 700,
+  "location": "海难纪念牌位区与港边旧仓道",
+  "time": "第二天清晨",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮",
+    "阿白",
+    "守夜老人"
+  ],
+  "character_goal": "给父母牌位换香，把航海值班簿藏稳。",
+  "opposition_goal": "裴砚潮要掐断她借亡亲和旧物‘卖惨’的空间。",
+  "conflict_action": "裴砚潮在牌位区堵住她，直接从她怀里抽走值班簿；阿白扑下来啄他袖口，她伸手去抢却被推开。",
+  "information_gap": "截断句：那本簿子背页，沾着她没擦掉的血。",
+  "emotional_debt_delta": {
+    "add": [
+      "值班簿是否藏着黑港证据",
+      "她还剩哪些能安放情绪的东西"
+    ],
+    "pay": [
+      "把证据与情感锚点绑死，不让后续真相显得空降"
+    ]
+  },
+  "payoff_or_hook": "值班簿被夺走的一瞬，她像被抽走最后一点防线。",
+  "chapter_end_hook": "截断句：那本簿子背页，沾着她没擦掉的血。",
+  "paywall_card": false,
+  "must_include": [
+    "父母海难纪念牌位",
+    "阿白扑翅",
+    "值班簿被硬夺",
+    "她下意识护住背页"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇写祭拜心情",
+    "不要回忆童年大段甜宠",
+    "不要把阿白写成纯煽情符号"
+  ],
+  "rhythm_job": {
+    "shape": "动作4成，对白2成，呼吸点3成，物件刀口1成；用旧物和小动作顶住情绪，不做抒情铺陈",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

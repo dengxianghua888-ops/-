@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "鲸跃传媒双十一平台招商发布会中控室最后一排",
+  "time": "双十一招商会开场前十分钟到官宣瞬间",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "苏曼宁", "品牌方代表", "中控员工", "直播间观众"],
+  "character_goal": "许闻溪隐藏身份坐进新助播工位，准备在周年专场给周砚礼惊喜",
+  "opposition_goal": "周砚礼要借发布会把苏曼宁推上平台招商中心总裁位置",
+  "conflict_action": "周砚礼牵着苏曼宁登上直播主舞台，接过麦克风宣布她接管国货矩阵",
+  "information_gap": "台上两人不知道最后一排的新助播就是周砚礼的妻子，也是国货矩阵最早谈判人",
+  "emotional_debt_delta": "+惊喜债 +公开羞辱债",
+  "payoff_or_hook": "许闻溪没有哭，慢慢鼓掌站起来",
+  "chapter_end_hook": "许闻溪看着镜头笑：老公，惊喜吗？",
+  "paywall_card": false,
+  "must_include": ["辞掉高薪平台生态顾问职位", "周年惊喜礼盒", "周砚礼牵苏曼宁上台", "苏曼宁接管国货矩阵", "许闻溪鼓掌"],
+  "must_not_write_as_exposition": ["不要用大段婚姻回忆开场", "不要解释直播行业术语", "不要让女主哭诉"]
+}

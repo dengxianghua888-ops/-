@@ -1,0 +1,17 @@
+phase: 4
+key: hook_writer
+role: Hook Writer
+title: 开篇导语生成
+system_prompt: prompts/production/hook-writer.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/story-brief.json
+  - story/analysis/style-dna.md
+  - story/adaptation-room.json
+  - story/adaptation.md
+required_outputs:
+  - hook/opening-hook.md
+  - hook/hook-meta.json
+validators:
+  - validate-production-story:phase4

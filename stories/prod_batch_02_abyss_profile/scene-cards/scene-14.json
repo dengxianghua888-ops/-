@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 860,
+  "target_chars_max": 1040,
+  "location": "废弃病理影像室",
+  "time": "第六天夜里",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "江砚", "刘队"],
+  "character_goal": "拖住江砚并固定他与论坛、病例遗照、馆长入口之间的证据。",
+  "opposition_goal": "江砚要用影像室封闭空间压迫林照，逼她承认自己和馆长是同类。",
+  "conflict_action": "江砚锁门并投出三张病例卡逼林照选择，林照一边对话录音，一边把封蜡粉末压到他的指纹上。",
+  "information_gap": "江砚是否掌握林照早年病例，馆长是否已观察她多年。",
+  "emotional_debt_delta": "生命威胁债+1，专业羞辱债+1，黑网债+1。",
+  "payoff_or_hook": "江砚把犯罪包装成入会仪式，林照把他的仪式拆成录音和指纹。",
+  "chapter_end_hook": "江砚锁住影像室：今晚你选，入库，还是入会。",
+  "paywall_card": true,
+  "must_include": [
+    "三张病例卡",
+    "影像室反锁",
+    "对话录音",
+    "封蜡粉末压指纹",
+    "江砚邀请入会"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让江砚长篇审美演讲",
+    "不要让林照被动听完",
+    "不要把入会写成诱惑或浪漫"
+  ]
+}

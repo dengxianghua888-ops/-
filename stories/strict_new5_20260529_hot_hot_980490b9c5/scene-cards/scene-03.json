@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "沈家前厅绣屏旁",
+  "time": "次日黄昏",
+  "pov": "沈知微第一人称",
+  "characters": ["沈知微", "萧承煜", "沈明珠", "沈嵘"],
+  "character_goal": "诱使太子暴露对贡缎禁纹和沈家秘谱的觊觎",
+  "opposition_goal": "太子要逼沈家交出秘谱，并替沈明珠立威",
+  "conflict_action": "沈知微点破禁纹，萧承煜出屏呵斥，伸手索要秘谱副册",
+  "information_gap": "太子袖口暗线只露一瞬，是否能被皇帝暗查印证还未揭开",
+  "emotional_debt_delta": {
+    "collect": ["太子羞辱女主", "沈家拿女主换东宫青眼"],
+    "payoff": ["太子第一次把龙纹线索带到女主眼前"]
+  },
+  "payoff_or_hook": "东宫袖口暗线与《逆龙工册》第一页吻合",
+  "chapter_end_hook": "萧承煜从绣屏后走出，袖口露出一截不该出现在东宫的龙纹暗线。",
+  "paywall_card": false,
+  "must_include": ["绣屏", "太子袖口暗线", "沈明珠得意递茶", "沈知微冷静观察"],
+  "must_not_write_as_exposition": ["不要连续解释龙纹禁制", "不要写太子真爱沈明珠", "不要让女主长篇自证"],
+  "rhythm_job": {
+    "shape": "先生活动作入场，再用太子现身抬压，末尾落在袖口证据",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [11, 15],
+    "action_beats_min": 5,
+    "evidence_turn_min": 1,
+    "low_pressure_carry": "写茶盏轻碰桌沿、沈知微低头数暗线针脚"
+  }
+}

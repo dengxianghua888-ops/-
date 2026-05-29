@@ -1,0 +1,72 @@
+title: 老公装病骗我做护工三个月，我消失后他疯了
+pipeline_mode: production
+status: final
+
+runner_policy:
+  external_allowed: false
+
+provider:
+  name: anthropic
+  model: claude-opus-4-6
+  source: claude-code
+
+genre: 现代婚恋短篇
+word_count_target:
+  min: 6831
+  max: 20494
+chapters: 12
+pov: 第一人称（女主）
+
+quality_gate:
+  pass
+  critical_failures: []
+  important_failures:
+    - "问号密度偏低：实测约1.6/千字，节奏合约目标3.5-6.0/千字，源文加权均值约3.8/千字。建议在Ch5-Ch8补充追问式对话。"
+    - "总字数处于下限边缘：实测约10,300字，距min=10,000仅有300字余量。建议Ch2/Ch9各扩展30-50字。"
+  critic_scores:
+    platform: 8
+    emotion: 9
+    style: 8
+    logic: 9
+
+submission:
+  platform: 番茄小说
+  format: 直接投稿版
+  title_options:
+    - 老公装病骗我做护工三个月，我消失后他疯了
+    - 他说肝癌晚期要八十万，我卖了传家砚台去做护工，却在走廊撞见他搂着别人笑
+    - 我把嫁妆全典当给他治病，三个月后发现他根本没病
+  tags:
+    - 婚姻
+    - 独立女性
+    - 虐渣
+    - 逆袭重生
+    - 古籍修复
+    - 短篇完结
+  paywall_nodes:
+    - chapter: 3
+      hook: 外婆端砚出现在情敌书房
+    - chapter: 8
+      hook: 经济彻底归零后宣布反击
+    - chapter: 10
+      hook: 男主翻到修复日志真相爆破
+total_chars: 6852
+paywall_cards: 4
+critic_scores:
+  logic: 8
+  style: 7
+  emotion: 8
+  platform: 8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_124950
+  runner: claude
+  provider: claude
+  current_phase: 6
+  retry_count: 2
+  human_gates:
+    phase2_blueprint_review: skipped

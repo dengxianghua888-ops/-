@@ -1,0 +1,379 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "密室钟慢了一分钟我砸门逃跑，一百个人再也出不来了",
+  "genre": "末世悬疑/系统文/大女主",
+  "mechanisms": ["M6_身份升维", "M7_降维打击", "M3_公开清算", "M8_因果回环"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.60,
+    "short_line_rate_lte_16_max": 0.75,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.0,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 0,
+      "source_chapter_id": 0,
+      "source_char_count": 280,
+      "target_char_count": [270, 320],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.5,
+          "comma_period_ratio": 0.6,
+          "sentence_avg_len": 14.2
+        },
+        "emotion": {
+          "dominant_emotion": "紧迫-决绝",
+          "emotion_arc": "异常发现 → 果断决定 → 悬念投放",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "被反常识决定震住，产生强烈的'为什么'疑问"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "一个正在享受闺蜜精心策划生日趴的人，在所有人最开心的时候要求立刻离开"
+        },
+        "techniques": ["反常识行为开篇", "极简悬念种子", "权威对立制造紧迫"],
+        "golden_lines": ["极短断言句+必须句", "因为+单一事实悬念"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "给出一个事实但不解释其意义，让读者自行推理危险程度",
+        "target_description": "沈听澜发现道具钟慢了一分钟，同时手机时间也慢了——从道具故障升级到系统性异常"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 920,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.55,
+          "sentence_avg_len": 15.6
+        },
+        "emotion": {
+          "dominant_emotion": "孤立-决绝",
+          "emotion_arc": "被否定 → 内心挣扎 → 壮士断腕",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "替她窒息，同时佩服她的决断力——她真的毁了三万块的生日趴"
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "emotional_bomb": "沈听澜撕碎闺蜜给她的生日彩蛋线索卡——这是她毁掉闺蜜心意的开端"
+        },
+        "techniques": ["牺牲量化", "群体碎片台词制造孤立感", "逐步加码权威压力", "独立行断言"],
+        "golden_lines": ["可+对比+反问", "那是+比喻重定义", "具体数字+情感表态"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "规模升级——从个人异常升级为集体异常，恐怖程度跃迁",
+        "target_description": "不仅是道具钟，场馆里所有人的手机时间都慢了一分钟——从设备故障升级到物理异常"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 780,
+      "target_char_count": [780, 880],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.50,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "焦急-希望",
+          "emotion_arc": "不被信→闺蜜出现→短暂希望→希望动摇",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "跟着主角一起焦急——周予安会跟她走吗？"
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "emotional_bomb": "在所有人否定她的时候，周予安说'我相信你'——为后续背刺加重痛感"
+        },
+        "techniques": ["唯一盟友铺设", "温度触觉传递情感", "规则升级作为章末钩"],
+        "golden_lines": ["名字+你相信我吗", "生理反应+内心感知"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "物理现象突变——用不可能的事件（时钟倒退）打破所有'合理解释'的可能",
+        "target_description": "道具钟的指针往回倒退了一分钟——从慢升级到倒退，规则恐怖量级跃迁"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 980,
+      "target_char_count": [1000, 1100],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.2,
+          "comma_period_ratio": 0.48,
+          "sentence_avg_len": 13.5
+        },
+        "emotion": {
+          "dominant_emotion": "绝望-撕裂",
+          "emotion_arc": "希望破灭 → 极端行为 → 背刺 → 彻底孤立",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "心脏被周予安那一巴掌打疼，愤怒和心痛交织"
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "emotional_bomb": "唯一相信她的人从信任→背刺，是全文最痛的一击"
+        },
+        "techniques": ["极端行为引爆冲突", "生理痛+心理痛对比降格", "阶级碾压式绝交台词", "自然异象呼应情绪", "暗线推进"],
+        "golden_lines": ["身体痛+但+心理痛对比", "等+条件+就+极端结果", "我X+你Y+再也不"],
+        "rhythm_shape": "蓄力-爆发-余震"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "自然异象暗示灾难加速，不说明但让读者感知到'三分钟快到了'",
+        "target_description": "场馆灯光集体闪烁，空气中弥漫低频嗡鸣——量子共振器充能即将完成"
+      },
+      "scenes": ["scene-04", "scene-05"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 1050,
+      "target_char_count": [1080, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 0.52,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "亡命-孤勇",
+          "emotion_arc": "绝望行动 → 身体代价 → 短暂自由 → 再次围攻",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "看她砸门时揪心，冲出去时振奋，被踹倒时愤怒"
+        },
+        "highlights": {
+          "peak_type": "physical_violence",
+          "emotional_bomb": "陈栩一脚踹倒她+妈妈哭着逼她道歉不护女儿"
+        },
+        "techniques": ["行动描写极简化", "母亲的无力作为痛点放大器", "时间正常化作为虚假释放", "三字独立行收尾"],
+        "golden_lines": ["时间+到了", "她不知道+事实+但我不后悔"],
+        "rhythm_shape": "前快后慢"
+      },
+      "chapter_end_hook": {
+        "hook_type": "death_declaration",
+        "hook_technique": "用最短的句子宣告灾难降临，不描述后果让读者自己想象",
+        "target_description": "三分钟，到了。——充能完成，量子坍缩启动"
+      },
+      "scenes": ["scene-06", "scene-07"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 720,
+      "target_char_count": [700, 800],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.58,
+          "sentence_avg_len": 16.4
+        },
+        "emotion": {
+          "dominant_emotion": "压迫顶峰-暗涌",
+          "emotion_arc": "被群体攻击 → 家人逼跪 → 不屈服 → 诡异安静降临",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "对所有人恨到极点，同时隐约感觉报应要来了"
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "emotional_bomb": "妈妈打她耳光说'你让我丢死人了'——最亲的人也背叛了"
+        },
+        "techniques": ["暗处伏笔不点明", "不屈服作为人格锚点", "道德绑架台词的精确刻写"],
+        "golden_lines": ["身体姿态+就是不", "没人发现+不知何时+异常状态"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用'安静'而非'爆炸'来宣告灾难——最恐怖的事是你还不知道已经发生了",
+        "target_description": "工厂方向传来的尖叫声和笑声全部消失，手机全无信号——里面已经出事了"
+      },
+      "scenes": ["scene-08"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 1100,
+      "target_char_count": [1100, 1280],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.2,
+          "comma_period_ratio": 0.55,
+          "sentence_avg_len": 16.0
+        },
+        "emotion": {
+          "dominant_emotion": "恐惧-证实",
+          "emotion_arc": "撞墙 → 恐慌升级 → 物理手段失败 → 绝望",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "终于！她说的是对的！但同时恐惧——里面的人怎么办？"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "消防车被力场弹开——穹顶不是一面墙，是一个半球形罩子"
+        },
+        "techniques": ["物理探索呈现异常", "升维式规模揭露", "外力穷尽制造绝望", "态度反转的第一声"],
+        "golden_lines": ["不是A+而是B认知升级", "就好像+极端比喻暗示最坏结果"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "不确认死亡但暗示最坏可能——留给读者想象的空间比明说更恐怖",
+        "target_description": "穹顶内完全寂静，没有一个人走出来——就好像里面的一切都被抹除了"
+      },
+      "scenes": ["scene-09", "scene-10"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 1020,
+      "target_char_count": [1080, 1220],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.50,
+          "sentence_avg_len": 15.0
+        },
+        "emotion": {
+          "dominant_emotion": "逆转-爽感释放",
+          "emotion_arc": "所有人绝望 → 所有人求她 → 陈栩跪下 → 她平静叙述",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "爽到极致——看到前面欺负她的人一个个跪下求她"
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "emotional_bomb": "陈栩从踹她到跪她——同一个人的180度翻转是M3的极致呈现"
+        },
+        "techniques": ["M3精确回旋", "群体反转的精确措辞对照", "主角冷静陈述VS群体情绪失控", "重复句强化记忆"],
+        "golden_lines": ["这次没人X+他们都Y对比句式", "称呼变化+求救+极致让步", "我本来想+更大善意"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "在最爽的时刻投入最重的问题——读者被拉回生死悬念",
+        "target_description": "特警队长问'里面的人还有救吗？'——在反转爽感最高点注入生死悬念"
+      },
+      "scenes": ["scene-11", "scene-12"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 1080,
+      "target_char_count": [1080, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.2,
+          "comma_period_ratio": 0.62,
+          "sentence_avg_len": 17.8
+        },
+        "emotion": {
+          "dominant_emotion": "揭秘-沉重",
+          "emotion_arc": "平静叙述 → 五年前回忆 → 父亲的绝望 → 规则恐怖",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "智力上满足（终于知道真相），情感上沉重（父亲的命运）"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "不止是父亲，整个实验室的人全部死亡。她是唯一的幸存者。"
+        },
+        "techniques": ["规则解释嵌入故事", "细节锚定真实感", "恐怖来自不可见"],
+        "golden_lines": ["没有X+没有Y+只有Z排除式聚焦", "人类终究不能X哲学断言", "不是A+是B重新定义"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "把前面的三分钟完整解释但引出新问题——现在怎么办？",
+        "target_description": "量子坍缩一旦启动，里面的时间会乱掉，逃跑窗口只有充能的三分钟——而三分钟已经过了"
+      },
+      "scenes": ["scene-13", "scene-14"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 900,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.52,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "悲壮-希望",
+          "emotion_arc": "父亲的牺牲 → 规则明确 → 方案浮现 → 穹顶消失=行动开始",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "被父亲的牺牲打动，同时看到希望——她有办法了"
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "emotional_bomb": "父亲按下紧急终止键后咬舌自尽，打破时间循环——为了救所有人包括6岁的她"
+        },
+        "techniques": ["眼神传递不可说的决定", "解决方案的逻辑自洽呈现", "极短独立行作为转折宣告"],
+        "golden_lines": ["一样+又不一样+多了X微差描写", "主语+消失最短转折", "上一次X+这一次Y时间对比"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "用物理状态变化宣告行动开始——三个字=起跑枪声",
+        "target_description": "穹顶不见了。——量子场进入不稳定期，进入窗口出现"
+      },
+      "scenes": ["scene-15"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 1050,
+      "target_char_count": [1120, 1300],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.50,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "英雄-释然",
+          "emotion_arc": "孤身行动 → 紧张对峙 → 一枪毙命 → 全员获救 → 身份揭示 → 超脱",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "痛快！一枪解决！然后被系统音效震到——原来她不是普通人"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "emotional_bomb": "量子修复者系统激活音揭示身份——前面所有受苦都获得宇宙级反讽"
+        },
+        "techniques": ["时间规则下的孤独行动", "衔尾蛇符号暗示", "解决问题时的专业分工", "系统音效作为终极身份揭示"],
+        "golden_lines": ["和X一样+只能A+只能B重复式限制", "名字+你是X最简情感补偿", "这是X后最Y的Z信息倾泻揭示"],
+        "rhythm_shape": "前快后慢"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "暗示这是系列故事的一环——她还有更多任务世界",
+        "target_description": "系统音效响起：任务完成，传送倒计时启动——她不是普通人，这不是她的第一次"
+      },
+      "scenes": ["scene-16", "scene-17"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10100,
+    "min_chapters": 11,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

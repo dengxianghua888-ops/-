@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 7 status=pass",
+    "target_length=10538",
+    "source_rhythm_fit=pass",
+    "action_density_per_k=25.242"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_stability_20260521_ancient_tang_flower/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10538,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        663,
+        676,
+        766,
+        789,
+        741,
+        739,
+        724,
+        818,
+        731,
+        717,
+        762,
+        780,
+        822,
+        720
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 68,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 3,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 11,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 17,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10538,
+      "sentence_count": 666,
+      "avg_sentence_length": 14.824,
+      "dialogue_ratio": 0.2902,
+      "question_marks": 16,
+      "question_marks_per_k": 1.518,
+      "physical_emotion_hits": {
+        "指尖": 10,
+        "青筋": 2,
+        "手心": 2,
+        "喉咙": 1,
+        "掌心": 8
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 25.242
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 22440,
+        "line_count": 1117,
+        "avg_line_chars": 20.09,
+        "median_line_chars": 18.0,
+        "short_line_rate": 0.4109,
+        "long_line_rate": 0.0528,
+        "quote_line_rate": 0.3474,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 4.055
+      },
+      "candidate": {
+        "chars": 10387,
+        "line_count": 588,
+        "avg_line_chars": 17.665,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.466,
+        "long_line_rate": 0.0085,
+        "quote_line_rate": 0.4082,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 1.54
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 576,
+      "unique_sentence_skeletons": 575,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0035
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

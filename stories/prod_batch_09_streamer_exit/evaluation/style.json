@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "evidence": [
+    {
+      "point": "short_sentence_control",
+      "quote": "我看着屏幕跳动，按掉。他再打。我没回。直接挂断。",
+      "assessment": "短句节奏干净，符合平台爽文推进。"
+    },
+    {
+      "point": "physical_objects",
+      "quote": "一本旧皮封遗嘱，一份房产证，一叠昼光股权文件。",
+      "assessment": "冲突落在实体物件上，避免空泛打脸。"
+    },
+    {
+      "point": "dialogue",
+      "quote": "谈律师函，找法务。谈合作，发商务邮箱。",
+      "assessment": "女主台词利落，有角色辨识度。"
+    },
+    {
+      "point": "anti_ai_smell",
+      "quote": "未见硬禁词：然而、总而言之、不禁、心中涌起、空气仿佛凝固、嘴角微微上扬。",
+      "assessment": "常见AI腔硬词基本规避。"
+    },
+    {
+      "point": "procedural_density_mitigated",
+      "quote": "法院门外的风很冷。陆呈的道歉置顶还亮着，我把手机锁屏，交给法务带回公司归档。",
+      "assessment": "局部流程感已通过章末动作和画面收束缓和。"
+    }
+  ]
+}

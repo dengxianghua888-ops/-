@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B3",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅候鉴区",
+  "time": "同日上午十一点",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "围观寄售卖家A·带货博主", "围观寄售卖家B·二代收藏者", "围观寄售卖家C·夫妻店女主"],
+  "character_goal": "保持冷静，不在围观中崩溃",
+  "opposition_goal": "围观者起哄看热闹，制造群体羞辱",
+  "conflict_action": "三组围观者交头接耳→低笑'活该被坑'→博主抬手机想拍→徐阳别过脸不看镜头，攥紧手里那张红屏单",
+  "information_gap": "围观者中至少三人也曾被同一系统坑过——B11会回收",
+  "emotional_debt_delta": "+1（累积至+3）群体羞辱叠加",
+  "payoff_or_hook": "围观议论金句：'AI鉴定哪糊弄得了'",
+  "chapter_end_hook": "身后传来低笑：'活该被坑，现在都是AI鉴定，你糊弄谁呢。'",
+  "paywall_card": false,
+  "must_include": ["三组围观者鲜明侧写", "手机镜头的小细节", "徐阳生理反应（手指、下颌）", "围观议论原话"],
+  "must_not_write_as_exposition": ["插叙围观者过往", "心声反击围观", "环境景物煽情", "主角动手抢手机"]
+}

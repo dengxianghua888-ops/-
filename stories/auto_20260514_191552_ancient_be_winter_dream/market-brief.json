@@ -1,0 +1,97 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 15000,
+    "sweet_spot": [11000, 13500]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 780,
+    "recommended_chapter_count": {"min": 14, "max": 18},
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_coverage_target": 1.0
+  },
+  "hook_policy": {
+    "front_300_chars": "倒叙刑场式 H1：把'妻子和姐姐为伪系统骗子打掉我九个孩子、阉割我'的死局先抛出来，再回到第九次失败签谅解书的瞬间",
+    "micro_hook_every_chars": 900,
+    "paywall_card_every_chars": 3000,
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄家庭伦理BE反转重度用户，男频/女频通吃",
+      "对'伪系统/伪重生/伪攻略者'套路有抗性、爱看反向揭穿的读者",
+      "25-40 岁被'顾全大局''养子情分''妹控姐姐'伤害过的男性向读者",
+      "看够了'娇妻文'、想看渣女姐妹被亲手清算的女性读者"
+    ],
+    "emotion_needs": [
+      "极致压迫：亲妻+亲姐合谋为外人打掉九个亲骨肉、阉割亲夫/亲弟",
+      "玉石俱焚式爽：主角不报警、不复仇，用一把姐姐送的成人礼刀直接自尽，把命还回去",
+      "镜像清算：反派最终被强行整成主角的脸、套上主角的旧病号服、关进狗笼电击",
+      "灵魂旁观：死后视角看渣女姐妹彻底崩塌、悔恨值溢出系统",
+      "穿越平行世界补偿：满级护短爹妈+完好身躯的回血爽点"
+    ],
+    "forbidden_topics": [
+      "不写胎儿、流产、解剖的血腥具象细节，只用情绪暗示和侧面描写",
+      "不出现真实医院、医生、品牌名",
+      "不写主角直接施暴反派的肉体撕扯，所有报应由沈梦茹/林依然执行",
+      "不写未成年人涉性、涉血场景",
+      "不出现境外政治、宗教、种族议题",
+      "禁'重生回到XX前''金手指系统'式真重生设定，本作必须坚持伪系统骗局揭穿"
+    ]
+  },
+  "title_strategy": {
+    "primary_formula": "T1 因果反转式",
+    "candidates": [
+      {
+        "title": "妻子和姐姐为骗子打掉我九个孩子，我把命还给了她们",
+        "formula": "T1",
+        "char_count": 26,
+        "hook_strength": 10,
+        "rationale": "数字+对象冲突+死局结果三连击，开篇直接锁住读者；T1 因果反转沿用爆款脊柱"
+      },
+      {
+        "title": "我被骗子阉割那天，妻子求我成全他完成系统任务",
+        "formula": "T2 反差对仗式",
+        "char_count": 23,
+        "hook_strength": 9,
+        "rationale": "把最离谱的台词作钩，先制造'这是什么神病文'的好奇，封面适配性高"
+      },
+      {
+        "title": "她们说梓轩需要我的命才能活，那就把命给他",
+        "formula": "T5 回旋金句式",
+        "char_count": 21,
+        "hook_strength": 9,
+        "rationale": "M5 回旋句式直接做标题，节奏短、记忆点强，适合短视频切片二创扩散"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_intent": 92,
+    "paywall_pass_rate": 88,
+    "emotion_release_score": 94,
+    "ai_flavor_score": 0,
+    "viral_density": 88,
+    "review_score_target": 4.7
+  },
+  "market_positioning": {
+    "comparable_titles": [
+      "老公给我妈下药后我杀疯了",
+      "成为高考状元却接到断亲书",
+      "我死后老公亲手解剖了我的尸体"
+    ],
+    "differentiation": "把'伪重生/伪系统攻略者'梗反向利用：主角不揭穿、不挣扎，用最决绝的死把所有'大局'打回原形；区别于女主开金手指反杀的同质化套路，本作主角以灵魂视角旁观渣女姐妹的悔恨自毁，并在新世界获得护短爹妈的回血爽点。",
+    "platform_fit_notes": "番茄短故事高完读区间题材：BE+反转+伪系统揭穿三合一；男频接受度高（亲妻亲姐合谋阉割亲夫/亲弟），女频亦能爆（沈梦茹彻底崩塌、林依然落街乞讨）。"
+  },
+  "production_constraints": {
+    "max_source_overlap_chars": 120,
+    "soul_contract_required": true,
+    "preferred_mechanisms": ["M1", "M5", "M8"],
+    "preferred_hooks": ["H1", "H4"],
+    "genre": "ancient_BE",
+    "subgenre": "modern_fake_system_revenge_BE"
+  }
+}

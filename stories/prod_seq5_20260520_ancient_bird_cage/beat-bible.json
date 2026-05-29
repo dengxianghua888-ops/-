@@ -1,0 +1,490 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12800,
+    "max": 15200,
+    "planned_total_chars": 14000
+  },
+  "title": "丈夫拿我孩子救她儿子，我送他坐牢",
+  "genre": "现代豪门虐恋复仇 / 追妻火葬场 / 女性逃离 / 医疗资本清算",
+  "mechanisms": {
+    "M5_temperature_reversal": "沈砚礼和叶行舟曾是叶晚宁最信任的保护者，后来用丈夫授权、亲哥证明、医疗专业话术亲手困住她。结尾他们忏悔具体到行为，但不能换来原谅。",
+    "M6_layered_reversal": "流产样本疑云、星星死亡真相、伪诊断、听证失败、修复中心假死、新加坡合规资源、被强行带回签和解、主动回笼诱供、公开庭审清算逐层升级。",
+    "M3_causal_irony": "沈砚礼曾说替她承担所有授权，最终电子授权日志证明他越权；叶行舟曾说法律保护妹妹，最终伪证和代理记录反噬他的职业资格。"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "叶行舟把创伤妄想复诊通知放到她枕边，说：晚宁，你该回中心了。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "叶晚宁在废纸篓里翻出冷链签收单，样本编号尾号和星星腕带一模一样。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "许洛霜当众跪下哭求她签字，屏幕却弹出一份已经生效的电子授权。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "她刚拷出门禁日志，叶行舟带着保安推门进来：这些足够证明你又发病了。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "隔离门合上前，她听见沈砚礼低声说：先让她冷静，授权的事我来处理。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "星空投影灯亮起，星星的最后语音从墙上落下来：妈妈，今天叔叔又拿走我的血。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "听证席上，叶行舟出示精神状态证明，主持人宣布暂停采信她的证据。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "火警响起时，叶晚宁把腕带套在烧焦的病号服上，第一次从沈氏系统里消失。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "顾闻澜把跨境审计报告推到她面前：你女儿的样本，被卖进了三家公司。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "沈砚礼在新加坡诊所门口抓住她手腕：跟我回去，签完和解书我就放你自由。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "董事会晚宴上，叶晚宁主动举起笔：我签，但我要许洛霜亲口告诉我，星星那晚发生了什么。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "许洛霜以为录音被关，笑着说：你女儿本来就撑不到天亮，样本不用也是浪费。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "监管人员进场封存研究楼，沈砚礼第一次看见授权日志上自己的签名。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "刑庭外，叶行舟摘下律师徽章，隔着警戒线喊她妹妹，她没有回头。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "沈砚礼挡在失控转运车前救下她，却听见她报警说：嫌疑人沈砚礼在这里。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "判决落下那天，叶晚宁关掉星空灯，对星星说：妈妈不回笼子了。",
+      "paywall_card": true
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_location": "沈氏医疗集团山顶康养别墅手术恢复间",
+      "character_goal": "叶晚宁醒来后逼问流产胎儿样本去向，确认自己是否再次被当成配型工具。",
+      "conflict_action": "她拔掉输液针下床翻手术记录，沈砚礼按住她的伤口并命护士收走平板，叶行舟送来复诊通知。",
+      "information_gap": "胎儿样本是否进入许洛霜儿子的实验室；星星三年前死亡是否与同一条样本链有关。",
+      "emotion_debt_balance": {
+        "new_debt": "流产样本被控制、丈夫回避、亲哥再次定义她失控",
+        "running_total": "胎儿债启动，星星旧债被重新揭开"
+      },
+      "chapter_end_hook": "叶行舟把创伤妄想复诊通知放到她枕边，说：晚宁，你该回中心了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把流产写成单纯误会",
+        "不能洗白沈砚礼回避样本去向",
+        "不能污名化真实精神疾病"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "康养别墅走廊与废弃护士站",
+      "character_goal": "叶晚宁抢在被送走前找到样本流转证据。",
+      "conflict_action": "她装作昏睡骗走护士，赤脚潜入护士站翻废纸篓和打印机缓存，避开沈家保镖巡查。",
+      "information_gap": "冷链签收单上的编号为何和星星遗物腕带一致。",
+      "emotion_debt_balance": {
+        "new_debt": "孕检系统和冷链系统共同遮蔽她的身体自主权",
+        "running_total": "胎儿债与女儿债第一次并线"
+      },
+      "chapter_end_hook": "叶晚宁在废纸篓里翻出冷链签收单，样本编号尾号和星星腕带一模一样。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让证据凭空出现",
+        "不能用大段医学解释替代动作",
+        "不能弱化女主技术能力"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "沈氏研究楼一层基金会探视区",
+      "character_goal": "叶晚宁当面逼许洛霜承认样本用途，并阻止追认授权生效。",
+      "conflict_action": "她闯入基金会探视区撕掉授权书，许洛霜抱着病儿跪地哭求，沈砚礼当众把叶晚宁拉开。",
+      "information_gap": "许洛霜是否只是求救的母亲，还是主动篡改授权的操盘者。",
+      "emotion_debt_balance": {
+        "new_debt": "受资助者反噬恩人，借病儿逼迫女主让渡身体权利",
+        "running_total": "恩将仇报债建立"
+      },
+      "chapter_end_hook": "许洛霜当众跪下哭求她签字，屏幕却弹出一份已经生效的电子授权。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能审判许洛霜的孩子",
+        "不能把强迫签字写成善意劝说",
+        "不能让沈砚礼只是被动围观"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "研究楼地下冷链档案室",
+      "character_goal": "叶晚宁拷贝门禁日志、冷链轨迹和星星当年急救记录。",
+      "conflict_action": "她用旧管理员权限进入档案室，撬开离线柜拷贝数据，叶行舟调保安堵门并夺走U盘。",
+      "information_gap": "叶行舟为何能精准知道她的位置；是否有人故意放她进来再反咬。",
+      "emotion_debt_balance": {
+        "new_debt": "亲哥主动阻断证据，准备用专业身份证明她精神失常",
+        "running_total": "亲情背叛债正式成立"
+      },
+      "chapter_end_hook": "她刚拷出门禁日志，叶行舟带着保安推门进来：这些足够证明你又发病了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把叶行舟写成被骗的旁观者",
+        "不能让U盘证据毫无代价获得",
+        "不能平收"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "无菌观察室 / 负压隔离房",
+      "character_goal": "叶晚宁保持清醒，留下自己被强制隔离的证据。",
+      "conflict_action": "她把病号服标签塞进排风口，用指甲在玻璃上刻下日期，抵抗护士要求她吞下镇静药。",
+      "information_gap": "沈砚礼究竟是保护她，还是在为授权漏洞争取时间。",
+      "emotion_debt_balance": {
+        "new_debt": "被丈夫和亲哥联手关进封闭空间，被剥夺自证能力",
+        "running_total": "封闭治疗债叠加"
+      },
+      "chapter_end_hook": "隔离门合上前，她听见沈砚礼低声说：先让她冷静，授权的事我来处理。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把强制治疗浪漫化",
+        "不能污名化精神病",
+        "不能写血腥医疗细节"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "叶晚宁旧卧室与星星遗物箱",
+      "character_goal": "叶晚宁找回星星留下的投影灯，寻找女儿死亡当晚的线索。",
+      "conflict_action": "她趁保洁开门撞倒药盘逃回旧卧室，拆开投影灯底座，抢在保镖赶到前播放隐藏语音。",
+      "information_gap": "星星生前被谁反复带去采样；死亡当晚是否被延误救治。",
+      "emotion_debt_balance": {
+        "new_debt": "女儿最后求救被成年人压下，母亲迟到三年才听见",
+        "running_total": "孩子血债成为绝对核心"
+      },
+      "chapter_end_hook": "星空投影灯亮起，星星的最后语音从墙上落下来：妈妈，今天叔叔又拿走我的血。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能猎奇描写儿童痛苦",
+        "不能让星星只作为工具人",
+        "不能用回忆替代现场行动"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "沈氏医疗伦理公开听证会第一现场",
+      "character_goal": "叶晚宁公开提交投影灯语音和冷链编号，撕开星星死亡真相。",
+      "conflict_action": "她冲上听证席播放语音，许洛霜抢话筒哭诉被勒索，叶行舟递交精神状态证明阻断采信。",
+      "information_gap": "听证会主持人与沈氏是否存在利益绑定；女主是否还有备份证据。",
+      "emotion_debt_balance": {
+        "new_debt": "她在公开场合再次被定义为不可信，被亲哥合法化抹杀证词",
+        "running_total": "伪证债和舆论债加重"
+      },
+      "chapter_end_hook": "听证席上，叶行舟出示精神状态证明，主持人宣布暂停采信她的证据。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让听证会变成纯摘要",
+        "不能把女主写成无准备哭诉",
+        "不能让叶行舟责任减轻"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "封闭式创伤修复中心夜间病区",
+      "character_goal": "叶晚宁制造假死脱身，带走最后一份可验证的样本链备份。",
+      "conflict_action": "她剪断监控盲区线路，引发局部火警，把腕带套到烧坏病号服上，从维修通道爬出病区。",
+      "information_gap": "她是否成功逃出沈氏系统；沈砚礼是否会相信她已死。",
+      "emotion_debt_balance": {
+        "new_debt": "她必须用死亡假象换取自由",
+        "running_total": "第一次主体偿还启动，但旧债未清"
+      },
+      "chapter_end_hook": "火警响起时，叶晚宁把腕带套在烧焦的病号服上，第一次从沈氏系统里消失。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写成自杀换悔悟",
+        "不能让逃离靠男主施舍",
+        "不能过度描写火灾伤害"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "新加坡母亲小诊所与合规调查办公室",
+      "character_goal": "叶晚宁恢复身份控制权，验证跨境样本和基金账目。",
+      "conflict_action": "她拒绝顾闻澜替她报警的建议，亲自核对审计日志，把星星编号与基金会转账逐项钉死。",
+      "information_gap": "沈氏样本链是否牵涉更多机构；许洛霜是否从中获利。",
+      "emotion_debt_balance": {
+        "new_debt": "女儿被当成医疗资本资产流转",
+        "running_total": "证据债转为反杀筹码"
+      },
+      "chapter_end_hook": "顾闻澜把跨境审计报告推到她面前：你女儿的样本，被卖进了三家公司。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让顾闻澜替女主复仇",
+        "不能转成长篇甜宠",
+        "不能用专业名词堆砌"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "新加坡诊所门口雨夜",
+      "character_goal": "叶晚宁测试沈砚礼是否悔悟，确认他是否仍要把她带回旧牢笼。",
+      "conflict_action": "沈砚礼堵住诊所门口，撕掉她的新身份文件复印件，强行把和解书塞进车里，她故意留下定位器。",
+      "information_gap": "沈砚礼是否知道许洛霜全部罪行；他带她回国的真实目的是什么。",
+      "emotion_debt_balance": {
+        "new_debt": "男主跨境强制带回，仍把控制包装成保护",
+        "running_total": "绑回牢笼债成立"
+      },
+      "chapter_end_hook": "沈砚礼在新加坡诊所门口抓住她手腕：跟我回去，签完和解书我就放你自由。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把绑回写成深情",
+        "不能让女主因男主流泪而软化",
+        "不能让顾闻澜抢走决策权"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "沈氏董事会晚宴后台休息室",
+      "character_goal": "叶晚宁主动回笼设局，引诱许洛霜和叶行舟暴露星星死亡细节。",
+      "conflict_action": "她当着董事和媒体拿起和解书，提出只要许洛霜亲口说明星星当晚流程就签字，同时打开胸针录音。",
+      "information_gap": "许洛霜会不会上钩；沈砚礼是否会阻止她继续追问。",
+      "emotion_debt_balance": {
+        "new_debt": "女主被迫重演签字羞辱，但把被动屈辱转为主动诱供",
+        "running_total": "主体偿还开始反超"
+      },
+      "chapter_end_hook": "董事会晚宴上，叶晚宁主动举起笔：我签，但我要许洛霜亲口告诉我，星星那晚发生了什么。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让女主真的放弃追责",
+        "不能写成单纯嘴炮",
+        "不能让沈砚礼轻易洗白"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "董事会晚宴休息室与隐藏直播链路",
+      "character_goal": "叶晚宁拿到许洛霜主动设计和延误救治的供述。",
+      "conflict_action": "她故意激怒许洛霜，许洛霜反锁休息室炫耀删改病历和调包冷链箱，叶晚宁把录音同步给顾闻澜和监管邮箱。",
+      "information_gap": "录音是否足够推翻此前听证结论；叶行舟是否会再次拦截。",
+      "emotion_debt_balance": {
+        "new_debt": "反派亲口践踏星星生命价值，情绪债冲顶",
+        "running_total": "清算证据闭环初成"
+      },
+      "chapter_end_hook": "许洛霜以为录音被关，笑着说：你女儿本来就撑不到天亮，样本不用也是浪费。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让反派恶只因争风吃醋",
+        "不能血腥化儿童伤害",
+        "不能平铺供述"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "沈氏研究楼封存现场",
+      "character_goal": "叶晚宁推动监管进场，迫使沈砚礼面对自己的越权签名。",
+      "conflict_action": "监管人员封存服务器，叶晚宁当众调出电子授权日志，沈砚礼试图拔掉投屏线却被警员按住。",
+      "information_gap": "沈砚礼到底亲自签过多少授权；他的悔悟是否只是怕失去权势。",
+      "emotion_debt_balance": {
+        "new_debt": "旧誓言反噬，丈夫承担直接责任",
+        "running_total": "真相偿还进入公开阶段"
+      },
+      "chapter_end_hook": "监管人员进场封存研究楼，沈砚礼第一次看见授权日志上自己的签名。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让沈砚礼一句不知情脱罪",
+        "不能用旁白宣判替代证据投屏",
+        "不能省略女主推动监管的动作"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "刑事庭审外走廊与律师协会调查室",
+      "character_goal": "叶晚宁提交叶行舟伪证链，让亲哥承担亲情背叛和职业违法代价。",
+      "conflict_action": "她把叶行舟签署的精神状态证明、代理利益冲突记录和威胁录音交给调查员，拒绝他的求情。",
+      "information_gap": "叶行舟是否会供出沈砚礼和许洛霜更多内幕。",
+      "emotion_debt_balance": {
+        "new_debt": "亲哥终于承认是主动选择牺牲妹妹",
+        "running_total": "亲情关系进入不可逆崩塌"
+      },
+      "chapter_end_hook": "刑庭外，叶行舟摘下律师徽章，隔着警戒线喊她妹妹，她没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写兄妹和解",
+        "不能把伪证轻轻放过",
+        "不能让女主因亲情心软撤证"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "法院地下车道与失控医疗转运车旁",
+      "character_goal": "叶晚宁保护最后证据，同时拒绝沈砚礼用一次救命抵消旧债。",
+      "conflict_action": "许洛霜安排转运车撞向叶晚宁灭口，沈砚礼冲过去推开她受伤，叶晚宁把证据箱交给警方并指认所有嫌疑人。",
+      "information_gap": "沈砚礼救人后是否会获得她的原谅；许洛霜灭口链能否坐实。",
+      "emotion_debt_balance": {
+        "new_debt": "男主终于做对一次，但无法抵消女儿和胎儿血债",
+        "running_total": "关系偿还进入终审"
+      },
+      "chapter_end_hook": "沈砚礼挡在失控转运车前救下她，却听见她报警说：嫌疑人沈砚礼在这里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让救命换复合",
+        "不能开放式原谅",
+        "不能让许洛霜逃避法律后果"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "刑事庭审直播屏、新加坡海边诊所、星空投影灯下",
+      "character_goal": "叶晚宁完成法律、关系、主体三重偿还，开启不需要旧关系许可的新生活。",
+      "conflict_action": "她听完判决，拒绝沈砚礼会见申请，退回叶行舟的道歉信，在新诊所把星空投影灯修好并关灯告别。",
+      "information_gap": "无外部悬念，结尾保留新生余韵：她是否会继续用合规基金帮助更多受害者。",
+      "emotion_debt_balance": {
+        "new_debt": "无新增虐债",
+        "running_total": "女儿债、胎儿债、封闭治疗债、伪证债、反派栽赃债、绑回债完成公开偿还"
+      },
+      "chapter_end_hook": "判决落下那天，叶晚宁关掉星空灯，对星星说：妈妈不回笼子了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能追妻成功",
+        "不能开放式复合",
+        "不能让新男主替代女主完成新生"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "planned_total_chars": 14000,
+    "minimum_chapter_count": 12,
+    "planned_chapter_count": 16,
+    "minimum_paywall_card_count": 4,
+    "planned_paywall_card_count": 4,
+    "chapter_end_hook_coverage": "16/16",
+    "first_300_chars_requirement": "第一场必须从流产醒来直接质问胎儿样本去向，三百字内打出丧女、流产、丈夫隐瞒、亲哥伪诊断四重伤害。",
+    "micro_hook_interval_chars": "每1章一个未解决动作钩，约700-950字一钩。",
+    "forbidden_global": [
+      "禁止追妻成功或复合",
+      "禁止浪漫化强制治疗、绑回和控制",
+      "禁止精神病污名化",
+      "禁止过度血腥器官描写",
+      "禁止让许洛霜的病儿承担道德审判",
+      "禁止新男主抢走女主复仇主导权"
+    ]
+  }
+}

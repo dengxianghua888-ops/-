@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "旧解剖楼后门与标本走廊",
+  "time": "第二天傍晚",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "值夜后勤", "刘队"],
+  "character_goal": "沿腕带编号追到旧解剖楼，确认第六名失踪女生是否被转移。",
+  "opposition_goal": "值夜后勤要拦住外来学生靠近旧楼，替楼内人员争取清理时间。",
+  "conflict_action": "林照拿护理实训登记表拖住后勤，趁对方打电话时贴下门禁读卡器旁的蜡屑并拍走登记本缺页。",
+  "information_gap": "第六名女生是否仍在楼内，蜡屑和冷库标签是否同源。",
+  "emotional_debt_delta": "受害者真相债+1，证据链推进+1。",
+  "payoff_or_hook": "所谓旧楼闹鬼被拆成门禁记录、登记本缺页和封蜡痕迹。",
+  "chapter_end_hook": "旧解剖楼门禁记录显示，第六名女生昨夜还在楼里。",
+  "paywall_card": false,
+  "must_include": [
+    "空标本瓶",
+    "门禁读卡器旁的蜡屑",
+    "登记本被撕掉一页",
+    "林照不硬闯，先留证"
+  ],
+  "must_not_write_as_exposition": [
+    "不要介绍旧解剖楼传说",
+    "不要细写医学标本猎奇细节",
+    "不要让林照靠直觉宣布真相"
+  ]
+}

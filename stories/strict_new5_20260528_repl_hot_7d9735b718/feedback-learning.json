@@ -1,0 +1,94 @@
+{
+  "story_slug": "strict_new5_20260528_repl_hot_7d9735b718",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M1", "M2", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10176,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.2,
+    "style": 7.5,
+    "logic": 7.2
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "chapter_1",
+      "hook": "洗衣机备注写着“别放柔顺剂，她闻了会吐”",
+      "reusable_fact": "用日常服务系统备注暴露第三者身体偏好，适合婚内背叛题的低成本强钩子。"
+    },
+    {
+      "scene_id": "chapter_4",
+      "hook": "亲女儿在校门口等父亲，丈夫却接走另一个孩子",
+      "reusable_fact": "同一学校、同一放学场景能把父职亏欠可视化，比单纯出轨更能叠加亲情债。"
+    },
+    {
+      "scene_id": "chapter_7",
+      "hook": "陪读房内出现租赁合同、男童校服、全家福",
+      "reusable_fact": "第二个家的空间证据要三件同框：居住证据、孩子证据、关系证据。"
+    },
+    {
+      "scene_id": "chapter_8",
+      "hook": "第三者承认洗衣标签是故意留下的",
+      "reusable_fact": "让第三者主动设局逼宫，可把被动发现升级为双向博弈。"
+    },
+    {
+      "scene_id": "chapter_9",
+      "hook": "结婚证反打“前妻”谎言",
+      "reusable_fact": "名誉债适合用官方身份文件当场反杀，台词可落在“谁才是前妻”。"
+    },
+    {
+      "scene_id": "chapter_12",
+      "hook": "女儿把旧校服塞进回收袋，说不要那股味道",
+      "reusable_fact": "结尾用开篇物件完成回旋，不用口号也能收束母女新生。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "chapter_4",
+      "chapter": 4,
+      "card": "丈夫骗女主加班，却在学校对面接第三者和男孩，并默认“以后就是一家人”。",
+      "paywall_value": "父职背叛和第二家庭首次正面显影。"
+    },
+    {
+      "scene_id": "chapter_7",
+      "chapter": 7,
+      "card": "女主进入1608，看见沈泊舟签的租赁合同和写着“我们的新家”的合照。",
+      "paywall_value": "第二个家的物证集中爆出。"
+    },
+    {
+      "scene_id": "chapter_10",
+      "chapter": 10,
+      "card": "林栀交出聊天记录和转账，法院短信弹出“案件已受理”。",
+      "paywall_value": "情绪冲突转为法律反杀。"
+    },
+    {
+      "scene_id": "chapter_11",
+      "chapter": 11,
+      "card": "判决确认房产、存款、抚养权和沈母护理责任归属。",
+      "paywall_value": "财产债、护理债、父职债集中偿还。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "modern_reversal",
+    "marital_betrayal",
+    "second_home",
+    "laundry_note_hook",
+    "pregnant_mistress",
+    "school_gate_father_debt",
+    "property_transfer",
+    "mother_in_law_complicity",
+    "legal_evidence_chain",
+    "paywall_chapter_4",
+    "paywall_chapter_7",
+    "paywall_chapter_10",
+    "object_callback_school_uniform"
+  ],
+  "manual_revision_delta": []
+}

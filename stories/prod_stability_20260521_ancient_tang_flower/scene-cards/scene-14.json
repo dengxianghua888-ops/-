@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "南洋码头离岸船边与新账房船舱",
+  "time": "数日后清晨",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "霍池渊",
+    "沈执"
+  ],
+  "character_goal": "完成最后一次价值切断，带着新名字和新账册离开。",
+  "opposition_goal": "霍池渊想用最后一次求见换一个回头或至少一份原谅。",
+  "conflict_action": "霍池渊带伤追到码头最后求见，贺晚棠当面说出‘感激不是爱’，转身登船，把旧玉坠留在岸边。",
+  "information_gap": "她的以后如何，并不再需要向旧关系交代。",
+  "emotional_debt_delta": "-2 价值彻底结清，女主带着生还而不是带着旧爱离开",
+  "payoff_or_hook": "最后留下的是判词，不是承诺。",
+  "chapter_end_hook": "此生不必再相逢。",
+  "paywall_card": false,
+  "must_include": [
+    "旧玉坠留岸上，形成物象收束",
+    "沈执只接账册，不抢终局情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写长篇未来规划",
+    "不要给复合留暧昧尾巴",
+    "不要写旁观者送别反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "最后求见25%+终局判词40%+留物切断20%+离岸15%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0,
+    "dialogue_ratio_target": 0.46,
+    "action_ratio_target": 0.3,
+    "hook_drop": "用登船离岸做终局黑切，不回头补叙",
+    "low_pressure_bridge": "收账册、解缆、潮声这些生活动作做收束"
+  }
+}

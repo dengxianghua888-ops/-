@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "海湾老宅保险柜暗室",
+  "time": "当夜",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊"
+  ],
+  "character_goal": "找到把逃婚和专利转移连起来的核心证据。",
+  "opposition_goal": "时间和旧创伤在阻碍她，她也抗拒让顾承渊看见自己真正崩开的地方。",
+  "conflict_action": "两人开保险柜、翻旧录音和补件文件；听到当年半段对话时她手指发抖，顾承渊去扶，她甩开又逼自己听完。",
+  "information_gap": "当年真正让她崩溃离开的最后一句到底是谁说的？",
+  "emotional_debt_delta": "真相回收+2，情感裂口再开+1",
+  "payoff_or_hook": "她终于证明自己不是任性逃婚，但真相故意只开半扇门。",
+  "chapter_end_hook": "截断句：录音里那句没放完的话，被人硬生生掐断。",
+  "paywall_card": false,
+  "must_include": [
+    "保险柜开启动作有仪式感但不拖长",
+    "旧录音同时指向逃婚和专利问题",
+    "女主短暂失稳后仍选择听下去"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完整复述过去三年经历",
+    "不要让男主替她完成情绪反应"
+  ],
+  "rhythm_job": {
+    "shape": "开柜-翻件-半段录音-情绪悬断",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "ratio_note": "动作和短对白并行，留4个呼吸点给录音停顿、手指收紧、目光躲闪，章尾靠录音断句吊住。"
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 13000,
+    "planned_total_target_chars": 11200,
+    "market_minimum": 10000,
+    "repair_note": "Phase 5 draft stabilized at production length; target reset to workspace production hard range."
+  },
+  "title": "他封锁药堂救恩人遗孀那夜，我儿子死在雪里",
+  "genre": "ancient_BE / 江南药商世家虐恋追妻火葬场 / 孩子线BE / 女主假死新生",
+  "mechanisms": {
+    "M5_温度反转曲线": {
+      "warmth_setup": [
+        "陆衡舟病弱时，沈照棠替他抄药典、试寒热药性。",
+        "阿砚出生后，陆衡舟亲手刻小药杵，许诺陆家药堂会护住母子。"
+      ],
+      "cold_turn": [
+        "陆衡舟用心疾癔症之名把沈照棠关进家庙三年。",
+        "他亲自签字把阿砚送进童药堂戒训房。",
+        "阿砚濒死时，他亲手封锁药堂，只给苏云屏安胎试方。"
+      ],
+      "negative_payoff": [
+        "阿砚死亡、苏云屏血缘骗局、陆衡舟早年伤身三重爆开。",
+        "陆衡舟舍命救沈照棠也无法抵债，温度只用于反衬不可逆。"
+      ]
+    },
+    "M6_多层递进反转": [
+      "采药崖假死：陆衡舟射出药弩后发现襁褓是假婴。",
+      "孩子真相：阿砚尸身、伤痕、童药堂账册证明死亡不是意外。",
+      "血缘骗局：苏云屏腹中孩子不是陆家血脉。",
+      "唯一血脉：陆衡舟早年中毒伤身，阿砚是他唯一可能的孩子。",
+      "新生反转：沈照棠活着，失忆后成为南洋女医研究者。",
+      "价值反转：火场救命后，她恢复记忆，不复合、不改嫁、不二选一。"
+    ],
+    "M3_因果回旋反讽": [
+      "陆衡舟为药脉继承牺牲阿砚，最后发现真正药脉被自己亲手断掉。",
+      "他用心疾之名压住沈照棠，后期必须在商报公开承认这是压迫工具。",
+      "苏云屏用腹中孩子抢走阿砚的一切，最后被公堂剥夺亲子支配权。"
+    ],
+    "style_dna": {
+      "pov": "第三人称近距离，前半贴沈照棠受难，中段转陆衡舟火葬场，后段回到沈照棠价值选择。",
+      "sentence_shape": "短句、短问、动作推进；高潮处一行一刀。",
+      "dialogue_function": "羞辱、误判、逼问、清算；不写闲聊。",
+      "forbidden_ai_phrases": [
+        "然而",
+        "总而言之",
+        "不禁",
+        "心中涌起",
+        "深吸一口气",
+        "宛如命运的齿轮",
+        "眼中闪过一丝",
+        "嘴角微微上扬",
+        "不由得",
+        "颤抖着说道",
+        "空气仿佛凝固"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 800,
+      "scene_range": [
+        "scene-01"
+      ],
+      "chapter_end_hook": "火盆里烧着阿砚的小药杵，沈照棠第一次没有哭。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 750,
+      "scene_range": [
+        "scene-02"
+      ],
+      "chapter_end_hook": "童药堂后门落锁，门缝里滚出一截带血的布条。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 750,
+      "scene_range": [
+        "scene-03"
+      ],
+      "chapter_end_hook": "阿砚被拖回戒训房前，只问了一句：爹为什么不看我？"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 850,
+      "scene_range": [
+        "scene-04"
+      ],
+      "chapter_end_hook": "阿砚的手从沈照棠掌心滑下，药堂铜锁还挂在门上。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 700,
+      "scene_range": [
+        "scene-05"
+      ],
+      "chapter_end_hook": "沈照棠扑进停灵小屋，却只看见空棺和一只碎药囊。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-06"
+      ],
+      "chapter_end_hook": "疗养院的铁门合上时，她把药布证据塞进墙缝。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-07"
+      ],
+      "chapter_end_hook": "沈照棠捏着采药崖钥牌，对苏云屏说：我会护你平安生产。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 875,
+      "scene_range": [
+        "scene-08"
+      ],
+      "chapter_end_hook": "襁褓摔开，草屑混着药布飞出来，崖下再没有沈照棠的回声。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-09"
+      ],
+      "chapter_end_hook": "陆衡舟在阿砚的炭笔画下看见一行小字：爹怎么不来。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-10"
+      ],
+      "chapter_end_hook": "戒训房账册最后一页，盖着陆衡舟自己的私印。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 725,
+      "scene_range": [
+        "scene-11"
+      ],
+      "chapter_end_hook": "老医案送到陆衡舟案前，封皮写着：陆氏血脉难续。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 875,
+      "scene_range": [
+        "scene-12"
+      ],
+      "chapter_end_hook": "苏云屏亲口承认孩子不是陆衡舟的，门外站着陆衡舟。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-13"
+      ],
+      "chapter_end_hook": "江南商报头版刊出陆衡舟认罪，陆氏药堂全城封堂。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 725,
+      "scene_range": [
+        "scene-14"
+      ],
+      "chapter_end_hook": "南洋女医研究院里，沈照棠听见小药杵落地，头痛到跪下。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-15"
+      ],
+      "chapter_end_hook": "码头雨棚下，陆衡舟喊她照棠，她回头问：先生认识我？"
+    },
+    {
+      "chapter_id": "chapter-16",
+      "target_chars": 875,
+      "scene_range": [
+        "scene-16"
+      ],
+      "chapter_end_hook": "沈照棠翻开旧商报，看见自己的名字和阿砚的死期并排印着。"
+    },
+    {
+      "chapter_id": "chapter-17",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-17"
+      ],
+      "chapter_end_hook": "温砚清承认隐瞒旧事，沈照棠把并蒂药囊放回桌上。"
+    },
+    {
+      "chapter_id": "chapter-18",
+      "target_chars": 875,
+      "scene_range": [
+        "scene-18"
+      ],
+      "chapter_end_hook": "药库火光里，她终于记起阿砚死在雪夜门槛外。"
+    },
+    {
+      "chapter_id": "chapter-19",
+      "target_chars": 925,
+      "scene_range": [
+        "scene-19"
+      ],
+      "chapter_end_hook": "陆衡舟问能不能两清，沈照棠说：你拿什么跟阿砚清？"
+    },
+    {
+      "chapter_id": "chapter-20",
+      "target_chars": 775,
+      "scene_range": [
+        "scene-20"
+      ],
+      "chapter_end_hook": "女童医塾开门那天，沈照棠走进晨光，再也没有回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "陆家家庙外、陆宅药房",
+      "character_goal": "沈照棠出家庙后只想带阿砚离开陆家。",
+      "conflict_action": "陆衡舟扶着怀孕的苏云屏试安胎药，命人把阿砚的小屋改成婴儿房，并把小药杵丢进火盆。",
+      "information_gap": "阿砚被送入童药堂后的真实处境暂不揭开，只让女主和读者知道孩子被夺走。",
+      "emotion_debt_balance": {
+        "added": [
+          "妻子被囚三年后回家仍被公开羞辱",
+          "孩子房间被反派腹中孩子占走",
+          "男主亲口拒绝女主带子离开"
+        ],
+        "paid": [],
+        "balance_after": "读者站队沈照棠和阿砚，恨点落在陆衡舟亲手偏袒苏云屏。"
+      },
+      "chapter_end_hook": "火盆里烧着阿砚的小药杵，沈照棠第一次没有哭。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得用大段说明概括三年囚禁。",
+        "必须让异常平静、床榻/药房越界、带子离开请求、阿砚被送走在前300字内完成。",
+        "不要把苏云屏写成柔弱受害人，她要主动占房、抢药杵、压女主。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "童药堂门口、后巷",
+      "character_goal": "沈照棠要闯进童药堂见阿砚。",
+      "conflict_action": "守门药工用铁栓拦住她，苏云屏撕掉她递进去的信，陆衡舟赶来逼她向苏云屏跪下赔罪。",
+      "information_gap": "门内传来孩子咳声，但沈照棠没看见阿砚，只拿到带血布条。",
+      "emotion_debt_balance": {
+        "added": [
+          "女主为见孩子被迫跪下",
+          "苏云屏截信的主动加害露出第一角",
+          "男主用家规压制母亲救子"
+        ],
+        "paid": [],
+        "balance_after": "母亲无权见子，反派封锁消息。"
+      },
+      "chapter_end_hook": "童药堂后门落锁，门缝里滚出一截带血的布条。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把童药堂背景写成制度介绍。",
+        "不得写猎奇虐童过程，只写铁门、咳声、布条、女主动作。",
+        "陆衡舟必须现场做出压女主的选择。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "童药堂戒训房外、陆宅廊下",
+      "character_goal": "沈照棠要趁夜把阿砚带走。",
+      "conflict_action": "她从后窗抱出发热的阿砚，苏云屏故意跌倒喊腹痛，陆衡舟夺走孩子并命药工把阿砚拖回戒训房。",
+      "information_gap": "阿砚想说苏云屏做过什么，却被药工捂住嘴。",
+      "emotion_debt_balance": {
+        "added": [
+          "阿砚首次出场即带伤发热",
+          "男主当面把孩子交回伤害空间",
+          "反派用孕肚制造道德绑架"
+        ],
+        "paid": [],
+        "balance_after": "孩子线痛感升级，男主罪责从失察变成亲手送回。"
+      },
+      "chapter_end_hook": "阿砚被拖回戒训房前，只问了一句：爹为什么不看我？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让阿砚长篇控诉。",
+        "不得写成误会自然发生，苏云屏必须主动跌倒喊痛。",
+        "不得用解释替代抢孩子、拖回去、落锁这些动作。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "雪夜陆家药堂门槛",
+      "character_goal": "沈照棠抱着濒死阿砚求陆家名医开门救命。",
+      "conflict_action": "陆衡舟把药堂铜锁扣上，命坐堂名医只给苏云屏安胎试方，推开抱着孩子的沈照棠。",
+      "information_gap": "阿砚死亡后，谁伪造过医案、谁截过求救信仍暂时不揭。",
+      "emotion_debt_balance": {
+        "added": [
+          "男主亲手封锁救命资源",
+          "阿砚死在父亲药堂门外",
+          "苏云屏保胎和亲子死亡形成强对照"
+        ],
+        "paid": [],
+        "balance_after": "核心不可逆债成立，后续悔悟不得抵消。"
+      },
+      "chapter_end_hook": "阿砚的手从沈照棠掌心滑下，药堂铜锁还挂在门上。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得弱化阿砚死亡。",
+        "不得让陆衡舟缺席，铜锁必须由他亲手扣上或亲口下令。",
+        "不得写具体药方、剂量或可模仿医疗操作。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 650,
+      "target_chars_max": 750,
+      "scene_location": "陆宅停灵小屋、正厅",
+      "character_goal": "沈照棠要守住阿砚尸身并揭开孩子伤痕。",
+      "conflict_action": "苏云屏命人搬走阿砚尸身，沈照棠扑空后掐住她，陆衡舟甩开沈照棠并叫来疗养院车。",
+      "information_gap": "阿砚尸身被运去何处暂时不说，只留下碎药囊。",
+      "emotion_debt_balance": {
+        "added": [
+          "母亲连守灵资格都被夺走",
+          "反派毁证动作明确",
+          "男主把女主悲痛定性为疯病"
+        ],
+        "paid": [],
+        "balance_after": "女主从求救转入心死和离场预备。"
+      },
+      "chapter_end_hook": "沈照棠扑进停灵小屋，却只看见空棺和一只碎药囊。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把女主写成无行动哭泣。",
+        "不得把疗养院写成合理救治机构，必须是权力压制。",
+        "不要提前揭完尸身去向。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "私设疗养院禁闭房",
+      "character_goal": "沈照棠要保住证据并活着出去。",
+      "conflict_action": "疗养院嬷嬷按住她泡药浴、绑上束带，她咬破袖口藏住碎药囊和带字药布，趁送饭把证据塞进墙缝。",
+      "information_gap": "沈照棠离开计划尚不明，只露出她保存证据和换取钥牌的动作。",
+      "emotion_debt_balance": {
+        "added": [
+          "女主二次囚禁",
+          "男主以病名压制申冤",
+          "阿砚证据被女主藏起"
+        ],
+        "paid": [],
+        "balance_after": "女主由受害转为冷静布局。"
+      },
+      "chapter_end_hook": "疗养院的铁门合上时，她把药布证据塞进墙缝。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得写医疗细节教程。",
+        "不得写空泛坚强，要写咬袖、藏证、换钥牌。",
+        "不得让女主在疗养院长篇回忆过去。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "陆宅孕妇院、采药房",
+      "character_goal": "沈照棠假意照顾苏云屏，实则拿到采药崖路线和密信。",
+      "conflict_action": "她给苏云屏端药、铺被、受辱不还口，同时从药箱夹层抽走密信，偷走采药崖钥牌并缝好草扎襁褓。",
+      "information_gap": "草扎襁褓的用途不明，读者只知道女主在准备一场离开。",
+      "emotion_debt_balance": {
+        "added": [
+          "女主被迫照顾害死孩子的孕妇",
+          "反派胜利感拉满",
+          "女主异常平静制造不安"
+        ],
+        "paid": [],
+        "balance_after": "反虐期待被抬起，假死前奏完成。"
+      },
+      "chapter_end_hook": "沈照棠捏着采药崖钥牌，对苏云屏说：我会护你平安生产。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得解释计划全貌。",
+        "不得把女主写成真心顺从。",
+        "必须用偷信、拿钥牌、缝襁褓三个动作推进。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "采药崖雨夜",
+      "character_goal": "沈照棠要用假死从陆家脱身。",
+      "conflict_action": "她抱着草扎襁褓奔上采药崖，苏云屏追来撕扯并喊她要害孩子，陆衡舟举起药弩射中她肩侧，她借力坠崖。",
+      "information_gap": "沈照棠是否活着不揭；崖下只留血迹、断绳和并蒂药囊。",
+      "emotion_debt_balance": {
+        "added": [
+          "男主亲手误伤女主",
+          "女主把假婴作为最后反杀",
+          "男主当场失去掌控"
+        ],
+        "paid": [
+          "女主初步离场成功"
+        ],
+        "balance_after": "读者进入追妻火葬场期待。"
+      },
+      "chapter_end_hook": "襁褓摔开，草屑混着药布飞出来，崖下再没有沈照棠的回声。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得让坠崖变成意外，必须由陆衡舟射出药弩造成。",
+        "不得写女主伤口血腥细描。",
+        "不得提前明说她被谁救走。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "采药崖下、阿砚旧屋",
+      "character_goal": "陆衡舟要找回沈照棠并确认襁褓真相。",
+      "conflict_action": "陆衡舟带药工翻遍崖底，拾到并蒂药囊后冲进阿砚旧屋，撬开药柜背板，看见炭笔画和求救字迹。",
+      "information_gap": "阿砚死亡全链条还未公开，只让陆衡舟第一次看见自己错过的求救。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "阿砚被忽视的求救开始反噬陆衡舟"
+        ],
+        "balance_after": "男主火葬场启动，但只承担惩罚功能。"
+      },
+      "chapter_end_hook": "陆衡舟在阿砚的炭笔画下看见一行小字：爹怎么不来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让陆衡舟用痛苦洗白自己。",
+        "不得用长悔悟替代找崖底、撬柜、看字。",
+        "不得让沈照棠在本章现身。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "童药堂戒训房、账房",
+      "character_goal": "陆衡舟要查清阿砚在童药堂遭遇。",
+      "conflict_action": "他踹开戒训房，逼管事交出账册，翻到禁食、罚跪、退信记录，并看见送训文书上盖着自己的私印。",
+      "information_gap": "谁偷用或诱导他盖印仍不完整，先让他承认印章和命令来自自己。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "童药堂伤害有证据",
+          "陆衡舟无法把责任全推给下人"
+        ],
+        "balance_after": "罪责回到男主本人。"
+      },
+      "chapter_end_hook": "戒训房账册最后一页，盖着陆衡舟自己的私印。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得写成下人背锅。",
+        "不得铺陈制度史，直接翻账、对印、逼供。",
+        "不得描述虐童过程，只给记录、伤痕和后果。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 650,
+      "target_chars_max": 800,
+      "scene_location": "陆宅书房、苏云屏院门外",
+      "character_goal": "陆衡舟要质问苏云屏，又想保住所谓药脉继承人。",
+      "conflict_action": "苏云屏抱着肚子跪到书房，拿救命恩情和陆氏药脉逼他收手，老掌柜同时送来早年中毒医案。",
+      "information_gap": "医案只露出血脉难续，不立即揭苏云屏孩子非亲生。",
+      "emotion_debt_balance": {
+        "added": [
+          "陆衡舟仍在血脉执念和真相之间摇摆"
+        ],
+        "paid": [],
+        "balance_after": "反转前压住信息差，等待血缘爆雷。"
+      },
+      "chapter_end_hook": "老医案送到陆衡舟案前，封皮写着：陆氏血脉难续。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让苏云屏软化。",
+        "不得让陆衡舟一夜醒悟成好人。",
+        "不得提前给出完整血缘答案。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "苏云屏偏院、密室门外",
+      "character_goal": "陆衡舟要拿到苏云屏伪造医案和截信证据。",
+      "conflict_action": "他站在门外听苏云屏对旧情人灭口，听见她承认孩子不是陆家的，也承认阿砚才可能是陆衡舟唯一血脉。",
+      "information_gap": "沈照棠生死仍不揭；血缘和阿砚死亡因果先爆给男主。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "苏云屏主动加害坐实",
+          "血缘骗局反噬香火逻辑",
+          "阿砚唯一血脉真相击中男主"
+        ],
+        "balance_after": "中后段最大反转完成，火葬场强度拉满。"
+      },
+      "chapter_end_hook": "苏云屏亲口承认孩子不是陆衡舟的，门外站着陆衡舟。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得用旁白宣布非亲生，必须让陆衡舟亲耳听见。",
+        "不得让苏云屏只是怕事，她要承认截信、伪造医案、压阿砚。",
+        "不得让男主痛苦抵消罪责。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "陆氏家族公所、江南商报馆",
+      "character_goal": "陆衡舟要公开证据并把陆氏药堂旧规推上公堂。",
+      "conflict_action": "他把账册、密信、接生婆供词递到公所，按下苏云屏求饶的手，在商报上刊出认罪和封堂公告。",
+      "information_gap": "公开认罪无法换回沈照棠，沈照棠还在另一个空间失忆新生。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "反派进入公堂清算",
+          "男主承认病名和家规是压迫工具",
+          "童药堂被封"
+        ],
+        "balance_after": "社会层面清算开始，但情感债仍未偿。"
+      },
+      "chapter_end_hook": "江南商报头版刊出陆衡舟认罪，陆氏药堂全城封堂。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得用私刑替代证据公开。",
+        "不得把苏云屏惩罚写成血腥爽感。",
+        "不得让认罪变成男主被原谅的筹码。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 650,
+      "target_chars_max": 800,
+      "scene_location": "南洋女医研究院",
+      "character_goal": "失忆后的沈照棠要完成药学讲稿并守住新身份。",
+      "conflict_action": "温砚清收起旧商报和并蒂药囊，沈照棠在课堂演示药材辨识时，被小药杵声刺痛记忆。",
+      "information_gap": "温砚清救她的经过和隐瞒原因暂不全说。",
+      "emotion_debt_balance": {
+        "added": [
+          "救命人隐瞒旧事形成新债"
+        ],
+        "paid": [
+          "女主活着的新生反转兑现"
+        ],
+        "balance_after": "读者从火葬场切到女主新生，但警惕新依附。"
+      },
+      "chapter_end_hook": "南洋女医研究院里，沈照棠听见小药杵落地，头痛到跪下。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把南洋段写成男配甜宠。",
+        "不得直接恢复全部记忆。",
+        "不得让温砚清完美无瑕，必须有收报纸、藏药囊的动作。"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "江南码头、女医讲学会场外",
+      "character_goal": "沈照棠以南洋女医身份回江南讲学。",
+      "conflict_action": "她下船时被陆衡舟拦住，陆衡舟跪在雨棚下喊她照棠，她抽回手并要求对方让路。",
+      "information_gap": "她不记得陆衡舟，不记得阿砚，只对名字和旧药香有身体反应。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "女主活着当面砸向男主"
+        ],
+        "balance_after": "男主看见人活着却无法靠近。"
+      },
+      "chapter_end_hook": "码头雨棚下，陆衡舟喊她照棠，她回头问：先生认识我？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让重逢变成暧昧。",
+        "不得让沈照棠因怜悯停留。",
+        "必须让她以职业身份出现，而非被男人带回。"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "江南药学讲堂、商报旧档室",
+      "character_goal": "沈照棠要查清陆衡舟为何纠缠自己。",
+      "conflict_action": "她当众讲课避开陆衡舟，转身进旧档室翻商报，读到自己的名字、阿砚的死期和陆衡舟认罪。",
+      "information_gap": "记忆没有完整恢复，但事实文本已经把她推回旧案。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "女主开始主动查自己的过去",
+          "男主公开认罪被女主本人看见"
+        ],
+        "balance_after": "失忆保护层裂开，最终清算逼近。"
+      },
+      "chapter_end_hook": "沈照棠翻开旧商报，看见自己的名字和阿砚的死期并排印着。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得让陆衡舟讲故事取代女主查档。",
+        "不得写成长篇报纸摘录。",
+        "不得让她因为认罪就心软。"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "旧陆宅客房、研究院临时住处",
+      "character_goal": "沈照棠要拿回并蒂药囊并逼温砚清说出隐瞒。",
+      "conflict_action": "陆衡舟送来炭笔画和药囊，温砚清拦在门前，沈照棠夺过药囊后质问温砚清为何藏报纸。",
+      "information_gap": "温砚清救她是真，想留住她也是真；女主尚未做终局选择。",
+      "emotion_debt_balance": {
+        "added": [
+          "救命人隐瞒伤害女主自主权"
+        ],
+        "paid": [
+          "沈照棠开始拒绝被两边安排"
+        ],
+        "balance_after": "女主价值选择线抬起。"
+      },
+      "chapter_end_hook": "温砚清承认隐瞒旧事，沈照棠把并蒂药囊放回桌上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把温砚清写成无条件正确。",
+        "不得让陆衡舟用旧物换原谅。",
+        "必须让沈照棠主动质问两个人。"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "target_chars_min": 800,
+      "target_chars_max": 950,
+      "scene_location": "陆氏旧药库火场",
+      "character_goal": "沈照棠要救出女学生和旧案证据。",
+      "conflict_action": "苏云屏纵火毁账册并锁住药库，沈照棠砸窗救人，陆衡舟冲进火场替她挡下坍塌药梁，温砚清从外侧破锁拖人。",
+      "information_gap": "火场救命不能给出情感答案，只触发阿砚死亡记忆。",
+      "emotion_debt_balance": {
+        "added": [
+          "苏云屏最后反扑"
+        ],
+        "paid": [
+          "陆衡舟救命动作形成对照",
+          "沈照棠恢复核心记忆"
+        ],
+        "balance_after": "终局拒绝条件成熟。"
+      },
+      "chapter_end_hook": "药库火光里，她终于记起阿砚死在雪夜门槛外。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让火场救命抵消阿砚之死。",
+        "不得渲染火灾血腥。",
+        "必须让沈照棠自己救学生和证据，不是等男人救。"
+      ]
+    },
+    {
+      "beat_id": "B19",
+      "target_chars_min": 850,
+      "target_chars_max": 1000,
+      "scene_location": "火后临时医棚、江边石阶",
+      "character_goal": "恢复记忆的沈照棠要给陆衡舟和温砚清最终答案。",
+      "conflict_action": "陆衡舟带伤跪下求一个两清，温砚清递出南洋船票，沈照棠把船票和药囊都放回桌上，逐条点出阿砚、家庙、药堂铜锁和药弩。",
+      "information_gap": "终局去向最后一章揭晓，但情感选择在此明确：不复合、不依附。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "女主亲口拒绝男主赎罪",
+          "女主拒绝被救命人托管",
+          "火场救命被重新放回罪债坐标"
+        ],
+        "balance_after": "情绪债完成价值层清算。"
+      },
+      "chapter_end_hook": "陆衡舟问能不能两清，沈照棠说：你拿什么跟阿砚清？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得复合。",
+        "不得改嫁温砚清。",
+        "不得让女主长篇哭喊，短句逐条点罪。"
+      ]
+    },
+    {
+      "beat_id": "B20",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "女童医塾、封闭的陆氏药堂外",
+      "character_goal": "沈照棠要把余生从旧宅和旧男人手里拿回来。",
+      "conflict_action": "她把阿砚炭笔画挂进女童医塾，剪断并蒂药囊旧线，带学生开门看诊，经过陆衡舟时没有停步。",
+      "information_gap": "无新的悬念，留下余味：陆衡舟活在罪责里，沈照棠走向自己的路。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "女主独立新生兑现",
+          "孩子记忆被尊重保存",
+          "男主无法追回"
+        ],
+        "balance_after": "核心承诺完成：不原谅、不复合、不二选一。"
+      },
+      "chapter_end_hook": "女童医塾开门那天，沈照棠走进晨光，再也没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得写成婚恋归宿。",
+        "不得用血浓于水、为了孩子原谅软化结局。",
+        "不得让陆衡舟死亡换赎罪，保留活着承担。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "planned_total_target_chars": 15925,
+    "minimum_chapter_count": 16,
+    "planned_chapter_count": 20,
+    "minimum_paywall_card_count": 4,
+    "planned_paywall_card_count": 5,
+    "paywall_card_scene_ids": [
+      "scene-04",
+      "scene-08",
+      "scene-12",
+      "scene-16",
+      "scene-19"
+    ],
+    "chapter_end_hook_coverage": "20/20",
+    "opening_300_chars_must_hit": [
+      "沈照棠被释放后异常平静",
+      "陆衡舟与苏云屏公开越界",
+      "沈照棠请求带阿砚离开",
+      "阿砚已被送入童药堂或受害爆雷"
+    ],
+    "must_keep_emotional_debt_chain": [
+      "沈照棠被囚三年",
+      "阿砚被父亲送入童药堂",
+      "苏云屏持续截信、伪造医案、压制阿砚",
+      "陆衡舟封锁药堂导致阿砚死亡",
+      "沈照棠采药崖假死离场",
+      "苏云屏孩子非陆家血脉",
+      "阿砚是陆衡舟唯一可能的孩子",
+      "陆衡舟迟来悔悟但无法追回"
+    ],
+    "ending_requirement": "沈照棠清醒独立，感谢救助但不依附温砚清，不原谅陆衡舟，不复合，最终创办女童医塾并走向新生活。"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 580,
+  "target_chars_max": 700,
+  "location": "海边",
+  "time": "暑假",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "林父",
+    "林母"
+  ],
+  "character_goal": "温暖收束",
+  "opposition_goal": "无",
+  "conflict_action": "海边日出→父母在身边→一家人拥抱→结尾金句",
+  "information_gap": "无",
+  "emotional_debt_delta": "清零(所有债务已还清)",
+  "payoff_or_hook": "终极补偿：家人都在",
+  "chapter_end_hook": "日出把海面染成金色。我左手挽着爸，右手挽着妈。世界很大，而我最重要的人都在身边。",
+  "paywall_card": false,
+  "must_include": [
+    "海边日出画面",
+    "三人拥抱",
+    "结尾短句收束"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写成散文",
+    "不能加新冲突",
+    "不能超过700字"
+  ],
+  "rhythm_job": {
+    "shape": "画面→拥抱→金句收束",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  }
+}

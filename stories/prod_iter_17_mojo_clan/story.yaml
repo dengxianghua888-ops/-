@@ -1,0 +1,18 @@
+slug: prod_iter_17_mojo_clan
+title: 藏鞭三年后，我请疯王爹娘踏平公府
+pipeline_mode: production
+status: final
+current_phase: 8
+genre: ancient_sweet
+target_platform: tomato
+source:
+  corpus_slug: ancient_mojo_revenge
+  source_file: corpus/ancient_mojo_revenge/source.md
+runner_policy:
+  external_allowed: false
+  provider: manual_iterative_rewrite
+  model: gpt-5.5
+quality_gate:
+  gate_status: pass
+  pipeline_mode: production
+  source_report: story/quality-report.json

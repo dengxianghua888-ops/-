@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 970,
+  "target_chars_max": 1090,
+  "location": "养老社区适老化样板间",
+  "time": "授权后数日，下午",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "林知夏", "林泽宇", "项目经理", "销售顾问", "看房客户"],
+  "character_goal": "沈砚验收样板间并完成适老化公寓签约。",
+  "opposition_goal": "林知夏和林泽宇想把他重新踩回维修工身份。",
+  "conflict_action": "林知夏嘲他来修轮椅，项目经理当众称沈工并交出样板间钥匙和全款签约单。",
+  "information_gap": "林知夏失控动手的后果留到下一场。",
+  "emotional_debt_delta": "财产反转+2；职业称呼反转+2；羞辱母句回旋预备。",
+  "payoff_or_hook": "公开场合完成样板间财产与设计负责人双打脸。",
+  "chapter_end_hook": "项目经理对着林知夏弯腰：沈工，样板间钥匙给您。",
+  "paywall_card": false,
+  "must_include": ["适老化样板间", "林知夏误认维修", "沈工称呼", "全款签约单", "客户或销售短评论"],
+  "must_not_write_as_exposition": ["不要写房产交易流程", "不要描写装修细节过长", "不要让林知夏马上悔过自新"],
+  "rhythm_job": {
+    "shape": "误认羞辱起，称呼反转落，评论吐槽轻承接",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 2,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白4，动作3，评论1，呼吸点1，章尾钩1",
+    "low_pressure_carry": "销售翻合同、客户小声评论、轮椅自动归位"
+  }
+}

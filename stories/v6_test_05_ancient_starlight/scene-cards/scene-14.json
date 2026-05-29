@@ -1,0 +1,68 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "盛典现场——碾压完成后的舞台/私密角落",
+  "time": "反杀完成后的几分钟",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄"],
+  "character_goal": "苏念在极致爽感之后需要一个情绪着陆——回到两个人的世界",
+  "opposition_goal": "无对手——这是温柔收束",
+  "conflict_action": "季霄用'今天下架的GMV都算你的聘礼'一句话把金融战降格为情侣间的日常——暴力碾压秒变甜蜜撒糖",
+  "information_gap": "无——所有信息差已在前一场关闭",
+  "emotional_debt_delta": "全部债务清零。从'顺手带的助理'到'季总夫人'+5%平台股份的终极价值认可",
+  "payoff_or_hook": "全文收束：碾压后的轻盈 + 全文唯一允许的抒情段落",
+  "chapter_end_hook": "全文以一段关于光和种子的短抒情收束——与前文极度克制形成最终反差，读者获得圆满感",
+  "paywall_card": false,
+  "must_include": [
+    "季霄'今天下架的GMV都算你的聘礼'的金句",
+    "苏念简短的温柔回应（如'好啊'两字）",
+    "两人之间松弛的日常互动（对比前文的紧张）",
+    "全文收尾的短抒情段（不超过4句）",
+    "抒情用自然意象（光/种子/生长）呼应标题"
+  ],
+  "must_not_write_as_exposition": [
+    "陈奕后来怎么了的交代",
+    "两人未来计划的详细展望",
+    "对全文事件的总结回顾"
+  ],
+  "rhythm_job": {
+    "shape": "松弛对话→温柔定格→抒情收束",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.0,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "温暖-圆满",
+    "emotion_arc": "碾压余韵 → 甜蜜日常 → 抒情升华",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "满足感+温暖感——所有愤怒都释放了，所有情绪债都兑现了，她值得这一切",
+    "required_techniques": [
+      {
+        "technique": "温柔收束——碾压后的轻盈",
+        "instruction": "刚碾压完就转头撒糖——'随口'和'歪头笑笑'的松弛把暴力级金融战降格为情侣日常，反差制造甜感"
+      },
+      {
+        "technique": "全文唯一的抒情段——与前文克制形成终极反差",
+        "instruction": "前面全文零抒情，收尾允许3-4句自然意象的抒情——克制了全篇的情绪在最后一刻轻轻释放"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间限定+全量归属+关系定位词",
+        "example": "今天下架的GMV，都算你的聘礼。",
+        "instruction": "把碾压赚来的钱直接命名为'聘礼'——让金融战的意义从'报复'变成'宠爱'，升华全文主题"
+      }
+    ],
+    "peak_type": "contrast_shock",
+    "bomb_technique": "反差式（暴力→温柔）",
+    "source_excerpt": "他随口说着，\"今天赚的钱，都算你的彩礼。\"我歪头笑笑，\"好啊。\"无论我们再怎么渺小，阳光都会一般无二的照过来。不惧风雨，不畏狂风。种子总会生根发芽，愿我光芒万丈。"
+  }
+}

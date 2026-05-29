@@ -1,0 +1,89 @@
+{
+  "todos": [],
+  "summary": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 767,
+      "min": 730,
+      "max": 790
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 712,
+      "min": 690,
+      "max": 750
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 801,
+      "min": 750,
+      "max": 810
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 842,
+      "min": 790,
+      "max": 850
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 846,
+      "min": 810,
+      "max": 870
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 758,
+      "min": 730,
+      "max": 790
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 946,
+      "min": 930,
+      "max": 990
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 1203,
+      "min": 1150,
+      "max": 1210
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 1180,
+      "min": 1130,
+      "max": 1190
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 909,
+      "min": 900,
+      "max": 960
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 882,
+      "min": 830,
+      "max": 890
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 803,
+      "min": 790,
+      "max": 850
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 735,
+      "min": 730,
+      "max": 790
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 774,
+      "min": 760,
+      "max": 820
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 14000,
+    "max": 16800,
+    "market_min": 10000,
+    "market_max": 18000
+  },
+  "title": "侧妃逼死我娘后，我成了女汗王",
+  "genre": "古言BE / 北境王庭复仇 / 追妻火葬场 / 命契离场",
+  "mechanisms": [
+    {
+      "id": "M4",
+      "name": "不可逆离场",
+      "carrier": "三枚雪铃命契逐日碎裂，最后一枚粉碎时阿泠死亡断契，不复活、不团圆。"
+    },
+    {
+      "id": "M5",
+      "name": "迟来悔悟反噬",
+      "carrier": "拓跋赫用披狼裘、擦血、温声许诺包装索取，最后知道自己血脉全靠阿泠换来。"
+    },
+    {
+      "id": "M8",
+      "name": "温度反转清算",
+      "carrier": "阿宝从被迫叫额吉的乖顺郡主，变成仍温声叫额吉的女汗王处刑者。"
+    },
+    {
+      "id": "M6",
+      "name": "身份升维",
+      "carrier": "阿宝从被夺走的孩子，升为唯一金狼血脉、王储、女汗王。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "额吉称呼、剜雪瞳回偿雪盲、取心血回偿骨寒、伪神谕回偿谋逆罪。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "阿泠看着第一枚雪铃裂开，只说：没有下一个了。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 1000,
+      "target_chars_max": 1250,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "狼神台雪夜里，阿宝看见第二枚雪铃暗了半边。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 1000,
+      "target_chars_max": 1250,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "拓跋赫亲手掰开阿泠的手指，把阿宝抱进南帐。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 1100,
+      "target_chars_max": 1350,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "乌兰珠指着阿宝身上的假鞭痕，说要阿泠认虐女之罪。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 1500,
+      "target_chars_max": 1850,
+      "scene_range": "scene-05 to scene-06",
+      "chapter_end_hook": "剜雪瞳的银刀落下前，阿泠把阿宝推到身后。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 1600,
+      "target_chars_max": 2000,
+      "scene_range": "scene-07 to scene-08",
+      "chapter_end_hook": "破毡卷起阿泠尸身，阿宝跪下，叫了仇人第一声额吉。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "十年后，老巫医把绝嗣脉案交到阿宝手里。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 1050,
+      "target_chars_max": 1300,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "金帐之上，拓跋赫第一次听见臣子请立阿宝为王储。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 1050,
+      "target_chars_max": 1300,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "阿宝翻开军马账册，指向雪巫祭司府的私印。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 1150,
+      "target_chars_max": 1400,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "乌兰珠的旧药渣被倒在金帐中央，奶酒缸案重开。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 1450,
+      "target_chars_max": 1750,
+      "scene_range": "scene-13 to scene-14",
+      "chapter_end_hook": "拓跋赫终于知道，八个儿子不是他的福，是阿泠的命。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 1150,
+      "target_chars_max": 1450,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "阿宝接过金狼王印，掌心像握着阿娘碎掉的雪铃。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "北境王庭产帐外与阿泠寝帐",
+      "character_goal": "阿宝想守住刚失去第八子的阿娘，弄明白阿泠为什么不再哭闹。",
+      "conflict_action": "拓跋赫压下奶酒缸命案，握着阿泠的手要求她养好身子再生一个王子；阿泠当着阿宝的面掀开袖口，让她看见第一枚雪铃裂开。",
+      "information_gap": "阿宝只知道雪铃裂开意味着倒计时，却不知道汗王绝嗣与命契真相。",
+      "emotion_debt_balance": "新增第八子被害债、汗王偏袒债、生育工具化债。",
+      "chapter_end_hook": "没有下一个了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释整套命契设定；用雪铃裂纹、阿泠沉默、拓跋赫索取动作让读者自己明白。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 1000,
+      "target_chars_max": 1250,
+      "scene_location": "祭狼宴与狼神台",
+      "character_goal": "阿宝想让刚出月子的阿泠避开祭狼宴羞辱。",
+      "conflict_action": "乌兰珠命阿泠斟酒，宗亲逼她跪谢王恩；乌兰珠假装惊厥摔盏，祭司旧家指认阿泠冲撞福运，拓跋赫命阿泠跪上狼神台。",
+      "information_gap": "乌兰珠惊厥真假未揭，祭司旧家为何帮养女压亲女未揭。",
+      "emotion_debt_balance": "新增生产后受辱债、雪地罚跪债、亲族背刺债。",
+      "chapter_end_hook": "第二枚雪铃暗了半边。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成宴会铺垫；每段都要有斟酒、摔盏、指认、罚跪的动作。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 1000,
+      "target_chars_max": 1250,
+      "scene_location": "南帐门前与阿泠寝帐",
+      "character_goal": "阿泠想把阿宝留在身边，阿宝想抓住阿娘的袖子不被带走。",
+      "conflict_action": "乌兰珠拿命格签逼拓跋赫过继阿宝；拓跋赫亲手掰开阿泠的手指，把阿宝抱进南帐；阿宝趁乱咬破乌兰珠侍女的手，记住侍女腰牌。",
+      "information_gap": "命格签是乌兰珠伪造还是祭司府授意，阿宝只拿到第一个线索。",
+      "emotion_debt_balance": "新增母女拆散债、认贼作母前置债。",
+      "chapter_end_hook": "南帐帘子落下，阿宝听见阿泠在外面吐血。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把过继写成一句旨意；必须写手指被掰开、孩子被抱走、阿宝留下腰牌线索。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 1100,
+      "target_chars_max": 1350,
+      "scene_location": "南帐内、金帐审问席",
+      "character_goal": "阿宝想拆穿乌兰珠伪造鞭痕的局，保护阿泠不被定罪。",
+      "conflict_action": "乌兰珠让侍女在阿宝背上按出旧伤假痕，再把阿宝推到金帐哭诉；阿泠冲进帐掀开药盒，祭司旧家却反咬她疯癫虐女；拓跋赫下令杖责阿泠。",
+      "information_gap": "药盒里的药从何处来，谁把南帐侍女口供调换。",
+      "emotion_debt_balance": "新增伪伤诬陷债、廷杖债、亲族否认真女债。",
+      "chapter_end_hook": "阿宝看见阿泠腕上第二枚雪铃彻底裂开。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要让阿宝只哭；她必须观察药盒、侍女、口供，并把证据记在心里。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 750,
+      "target_chars_max": 900,
+      "scene_location": "王庭医帐",
+      "character_goal": "乌兰珠想借假狼毒逼阿泠交出雪瞳，阿宝想拖延医官动刀。",
+      "conflict_action": "乌兰珠捂眼喊痛，老祭司宣称需下咒者双目入药；阿宝扑过去打翻药碗，阿泠为护她认下咒罪，把阿宝推出医帐。",
+      "information_gap": "老巫医看见药渣变色却不敢开口，说明他知道假病线索。",
+      "emotion_debt_balance": "剜眼债启动，阿泠为护女主动背罪。",
+      "chapter_end_hook": "银刀在灯下亮起来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要细写猎奇生理过程；重点写阿宝打翻药碗、阿泠推女、医官沉默。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "医帐外雪地与阿泠寝帐",
+      "character_goal": "阿宝想带失明的阿泠逃去雪奴坟旧道。",
+      "conflict_action": "阿宝用偷来的腰牌骗开帐门，扶阿泠摸雪往外走；拓跋赫追上来给阿泠披狼裘，却命侍卫把她送回帐中等乌兰珠用药。",
+      "information_gap": "拓跋赫是否看见药渣异常，阿宝还不能确定。",
+      "emotion_debt_balance": "伪温柔索取债加重，逃生失败。",
+      "chapter_end_hook": "阿泠问阿宝：还剩几枚铃？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写逃跑计划大段说明；用腰牌骗门、摸雪辨路、侍卫堵回完成行动。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_location": "阿泠寝帐",
+      "character_goal": "阿泠想用最后清醒时间把阿宝推出死局，阿宝想阻止取心头血。",
+      "conflict_action": "乌兰珠假装命危，祭司逼阿泠取心头血混雪铃粉；阿泠夺过短刀，不让医官碰她，自己刺入心口断契，把一片铃粉塞进阿宝掌心。",
+      "information_gap": "铃粉能证明什么，阿宝暂时不懂。",
+      "emotion_debt_balance": "心头血债、不可逆离场债爆发。",
+      "chapter_end_hook": "最后一枚雪铃粉碎。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把阿泠死亡写成误会或可救；她是在拒绝继续被索取。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "雪奴坟、南帐",
+      "character_goal": "阿宝想守住阿泠尸身，至少不让她被破毡裹走。",
+      "conflict_action": "乌兰珠嫌尸身晦气，命奴兵用破毡卷走阿泠；阿宝追到雪奴坟抓住破毡，被拖回南帐，乌兰珠逼她跪下叫额吉。",
+      "information_gap": "阿泠尸身被扔到哪一处雪坑，阿宝只记住了赶车奴兵的断指。",
+      "emotion_debt_balance": "尸身羞辱债、认贼作母债落定。",
+      "chapter_end_hook": "阿宝磕下头，叫：额吉。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写成悲伤旁白；必须有追车、抓破毡、被拖回、跪叫额吉。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_location": "南帐、账房、王庭医帐，十年跨度",
+      "character_goal": "阿宝想在乌兰珠眼皮底下活下来，并把所有旧债变成证据。",
+      "conflict_action": "阿宝日日给乌兰珠奉药叫额吉，夜里偷抄账册；她用断指奴兵换到雪奴坟位置，又逼老巫医留下绝嗣脉案副本。",
+      "information_gap": "老巫医只交出半册脉案，关键一页在拓跋赫私库。",
+      "emotion_debt_balance": "低温蛰伏开始，额吉称呼变成暗刀。",
+      "chapter_end_hook": "老巫医说：汗王从来不能有子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要用一句十年后跳过成本；必须写奉药、偷账、换证、逼供四个动作。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 1050,
+      "target_chars_max": 1300,
+      "scene_location": "金帐议政大帐",
+      "character_goal": "阿宝想把自己从南帐养女推到唯一继承人位置。",
+      "conflict_action": "阿宝在金帐当众献上边军粮马策，救下被乌兰珠扣粮的北境骑军；老臣借势请立王储，拓跋赫求子十年无果，只能看向阿宝。",
+      "information_gap": "阿宝手中还有多少军中人脉，乌兰珠尚未察觉。",
+      "emotion_debt_balance": "身份升维启动，阿宝获得调军与审账权限。",
+      "chapter_end_hook": "拓跋赫问她想要什么，她答：王储印。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要让王储身份凭空降临；用粮马策、边军拥护、绝嗣压力逼出册立。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 1050,
+      "target_chars_max": 1300,
+      "scene_location": "雪巫族祭司府、王储审账堂",
+      "character_goal": "阿宝想先斩断雪巫族旧家，夺走乌兰珠背后的神谕权。",
+      "conflict_action": "阿宝带骑军封祭司府，从暗格搜出军马账册、私兵名册和伪神谕草稿；外祖母跪求她顾念血脉，她当场命人按谋逆封门。",
+      "information_gap": "伪神谕草稿中提到南帐药渣，指向乌兰珠旧案。",
+      "emotion_debt_balance": "亲族背叛债开始偿还，谋逆证据成册。",
+      "chapter_end_hook": "阿宝把私印拍在案上：雪巫旧家，谋逆。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把孟家式亲族写成无奈；他们必须有私兵、伪神谕、倒卖军马的主动罪证。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 1150,
+      "target_chars_max": 1400,
+      "scene_location": "金帐重审席、南帐药房",
+      "character_goal": "阿宝想公开拆穿乌兰珠假惊厥、假狼毒和杀第八子的连环局。",
+      "conflict_action": "阿宝押来断指奴兵、南帐侍女和老巫医，倒出封存药渣；她让人抬出当年奶酒缸，逼证人指认乌兰珠如何沉死小王子。",
+      "information_gap": "乌兰珠仍握着拓跋赫旧私库里的最后一页脉案，准备反咬阿宝篡位。",
+      "emotion_debt_balance": "乌兰珠白莲面具破裂，第八子命案重开。",
+      "chapter_end_hook": "乌兰珠笑着说：没有那页脉案，你也配坐王储位？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要只宣布真相；必须让证人、药渣、奶酒缸、旧案物证同时上场。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 750,
+      "target_chars_max": 900,
+      "scene_location": "汗王私库、阿泠旧寝帐",
+      "character_goal": "阿宝想取出最后一页绝嗣脉案，彻底击碎拓跋赫的自欺。",
+      "conflict_action": "阿宝用阿泠留下的铃粉验开私库旧锁，从狼皮匣里取出脉案；拓跋赫追来抢夺，阿宝当着他面读出断根诊语。",
+      "information_gap": "拓跋赫首次意识到八子全靠阿泠命契，却还不知道阿泠最后三日本可安静离开。",
+      "emotion_debt_balance": "父王迟来悔悟债爆发前置，阿泠生育工具化真相公开。",
+      "chapter_end_hook": "阿宝说：父王，没有我娘，你一个儿子也不会有。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把汗王写成完全被蒙骗；他藏过脉案，说明他早知断嗣。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "雪奴坟、狼神台",
+      "character_goal": "阿宝想让拓跋赫亲眼看见阿泠最后被怎样对待。",
+      "conflict_action": "阿宝押拓跋赫走到雪奴坟，命断指奴兵指认破毡坑位；她把阿泠旧铃粉撒在雪上，让拓跋赫听完最后三日每一桩逼迫。",
+      "information_gap": "拓跋赫求阿宝让他祭拜，阿宝不知是否给他这个资格。",
+      "emotion_debt_balance": "草席裹尸债、迟来悔悟债集中回偿。",
+      "chapter_end_hook": "拓跋赫跪在雪坑前，第一次喊阿泠的名字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要给父王忏悔换原谅；悔悟只能让他更痛。"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 1150,
+      "target_chars_max": 1450,
+      "scene_location": "金帐、雪奴坟前、汗位高台",
+      "character_goal": "阿宝想完成最终清算，接住王庭权力，也替阿泠夺回选择权。",
+      "conflict_action": "阿宝以王储令宣判雪巫旧家谋逆，命乌兰珠跪雪奴坟听罪并承受雪盲骨寒；拓跋赫临死前交出金狼王印，阿宝接印登位，最后一次温声叫乌兰珠额吉。",
+      "information_gap": "没有新的救赎信息；所有信息缺口关闭，只留下阿泠永不归来的空位。",
+      "emotion_debt_balance": "乌兰珠、雪巫旧家、拓跋赫对应式偿债；阿宝赢得权力但失去天真。",
+      "chapter_end_hook": "金狼王印入手，阿宝掌心仍像握着碎雪铃。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写热闹团圆或轻飘爽完；结尾要冷，胜利有代价。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars_min": 14000,
+    "planned_total_chars_max": 16800,
+    "min_chapter_count": 9,
+    "planned_chapter_count": 12,
+    "min_paywall_cards": 4,
+    "planned_paywall_cards": 7,
+    "chapter_end_hook_coverage": "12/12",
+    "micro_hook_rule": "每800-1200字至少出现一次倒计时变化、证据反转、反派加害、身份升维或收网动作。",
+    "must_preserve": [
+      "前300字出现第八子被害、汗王偏袒、阿泠不闹、雪铃倒计时。",
+      "阿泠必须不可逆死亡，不能复活，不能与拓跋赫和解。",
+      "阿宝必须跪叫乌兰珠额吉，并在十年后用该称呼反杀。",
+      "后半清算必须依靠证据链、军权、王储权力，不靠临场奇迹。",
+      "结尾必须落在金狼王印入手。"
+    ],
+    "style_floor": {
+      "pov": "第一人称阿宝目击与回忆，后半仍保持冷静低温。",
+      "sentence_length": "短句密集，平均16-22字。",
+      "dialogue_ratio": "28%-34%，对白必须推动压债或清算。",
+      "forbidden_words": [
+        "然而",
+        "总而言之",
+        "不禁",
+        "心中涌起",
+        "命运齿轮",
+        "手机",
+        "微信",
+        "公司",
+        "KPI"
+      ]
+    }
+  }
+}

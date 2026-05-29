@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B3",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "学校附近餐厅/毕业聚餐",
+  "time": "大四冬季",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "江越",
+    "林薇"
+  ],
+  "character_goal": "确认江越心不在己",
+  "opposition_goal": "江越想维持三人关系",
+  "conflict_action": "江越主动帮林薇去掉龙虾壳却不知苏念海鲜过敏+苏念冷静放下筷子离开",
+  "information_gap": "过敏细节暴露谁是他真正关注的人",
+  "emotional_debt_delta": "+1",
+  "payoff_or_hook": "过敏信号确认",
+  "chapter_end_hook": "他记得林薇不吃龙虾，却不记得我碰一口就进急诊。",
+  "paywall_card": true,
+  "must_include": [
+    "剥虾动作对比",
+    "苏念离席",
+    "不回头"
+  ],
+  "must_not_write_as_exposition": [
+    "不能让女主哭或崩溃"
+  ]
+}

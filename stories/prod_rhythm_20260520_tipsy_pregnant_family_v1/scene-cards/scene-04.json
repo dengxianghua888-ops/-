@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "旧戏楼妆造间",
+  "time": "次日下午",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "秦月眠",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想拿回自己修到一半的戏服并保留秦月眠挑衅证据",
+  "opposition_goal": "秦月眠想用旧戏照坐实白月光身份，逼温瓷退场",
+  "conflict_action": "秦月眠把她和陆砚辞的旧戏照按在化妆台上，温瓷拍照留证后指出她戏服袖口开线",
+  "information_gap": "旧戏照只证明同框，不证明相爱；弹幕却继续误导",
+  "emotional_debt_delta": "替身债加重，但温瓷完成清奇反杀",
+  "payoff_or_hook": "秦月眠挑衅没有压垮女主，反被女主抓住衣服破绽和证据",
+  "chapter_end_hook": "秦月眠把照片推近，笑着说：“他回陆家那天，站在他身边的人只能是我。”",
+  "paywall_card": true,
+  "must_include": [
+    "秦月眠旧戏照",
+    "戏服袖口开线",
+    "温瓷拍照留证",
+    "弹幕喊白月光来了",
+    "温瓷慢吞吞问要不要补袖口"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让秦月眠长篇讲过去",
+    "不要让温瓷自卑",
+    "不要暗示男主真暧昧",
+    "不要写旁观者反应清单"
+  ],
+  "rhythm_job": "2轮挑衅对白+1个清奇反杀+章尾用陆家和站位宣告卡付费点"
+}

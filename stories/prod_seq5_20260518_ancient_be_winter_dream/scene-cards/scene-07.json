@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 660,
+  "target_chars_max": 820,
+  "location": "抢救舱门口",
+  "time": "纪寒舟生命体征归零瞬间",
+  "pov": "第一人称，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "沈澜星",
+    "抢救舱医生",
+    "归零系统"
+  ],
+  "character_goal": "纪寒舟完成归零离场，不再回应旧世界。",
+  "opposition_goal": "沈澜星试图用沈氏最高医疗权限强行抢救他。",
+  "conflict_action": "沈澜星踹开抢救舱门命令重启生命维持，归零系统拒绝旧世界权限，纪寒舟在她喊名字时闭眼。",
+  "information_gap": "沈澜星不理解为何顶级科技无效，读者知道这是系统级离场。",
+  "emotional_debt_delta": "死亡离场完成，补救窗口关闭。",
+  "payoff_or_hook": "妻子终于伸手救他，但已经晚于归零系统。",
+  "chapter_end_hook": "纪寒舟的生命体征归零，沈澜星手上的婚戒同步裂成两段。",
+  "paywall_card": false,
+  "must_include": [
+    "沈澜星踹门",
+    "最高医疗权限无效",
+    "纪寒舟不回应",
+    "婚戒裂开"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把死亡写成求爱戏",
+    "不要详细描写死亡方法",
+    "不要让医学抢救成功"
+  ]
+}

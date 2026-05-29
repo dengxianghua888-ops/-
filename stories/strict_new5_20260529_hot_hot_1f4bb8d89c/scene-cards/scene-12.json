@@ -1,0 +1,51 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 740,
+  "target_chars_max": 840,
+  "location": "沈家旧实验室",
+  "time": "江砚舟停职后三日",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "陆承川"
+  ],
+  "character_goal": "沈听澜要把旧证物归档，并决定是否给陆承川等待的可能。",
+  "opposition_goal": "江砚舟要用算法注释本和迟来求情换复合机会。",
+  "conflict_action": "江砚舟带着算法注释本来求情，沈听澜把注释本放进独立项目档案盒，陆承川站在门外没有进来。",
+  "information_gap": "沈听澜没有立刻进入新关系，但第一次主动给出时间。",
+  "emotional_debt_delta": {
+    "added": [
+      "迟来求情扰动债"
+    ],
+    "paid": [
+      "错付证物归档",
+      "旧男主求复合失败"
+    ]
+  },
+  "payoff_or_hook": "第3个付费级卡点：旧男主两头落空，新关系只给尊重和等待。",
+  "chapter_end_hook": "截断句：陆承川问，三天后，我还能等在门口吗。",
+  "paywall_card": true,
+  "must_include": [
+    "算法注释本",
+    "档案盒标签：独立医疗伦理项目",
+    "江砚舟求复合被短句拒绝",
+    "陆承川不进门"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写旧男主卖惨长段",
+    "不要写女主恋爱心得",
+    "不要让陆承川逼她答应"
+  ],
+  "rhythm_job": {
+    "shape": "旧证物归档，门内门外对照，等待句卡点",
+    "dialogue_action_breathing_ratio": "对白约42%，动作约43%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用档案盒合上的轻动作承接求情失败",
+    "chapter_tail_action": "陆承川站在门外问等待期限"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "苏晴家卧室/客厅",
+  "time": "深夜，陈北在厨房查看净水器后",
+  "pov": "苏晴",
+  "characters": ["苏晴", "陈北"],
+  "character_goal": "苏晴验证知乎回答时间戳与陈北行为的关联——确认丈夫就是匿名答主",
+  "opposition_goal": "陈北维持正常丈夫形象，不知已被监控",
+  "conflict_action": "苏晴在手机上刷新知乎→陈北进厨房→一分钟后回答新增编辑→时间完美吻合",
+  "information_gap": "苏晴完成确认但不动声色，陈北对此一无所知",
+  "emotional_debt_delta": "情绪债升级：'喝几天生水又出不了什么事'原话出现+丈夫揽肩的亲密动作=恶心感封顶",
+  "payoff_or_hook": "章末钩子：陈北揽住苏晴肩膀——知情后的亲密触碰=极致恶心",
+  "chapter_end_hook": "转身时，陈北顺势揽住苏晴的肩。这个曾经温暖的动作现在让她皮肤起鸡皮疙瘩",
+  "paywall_card": false,
+  "must_include": [
+    "知乎回答编辑记录的时间戳与陈北行为的逐条对照",
+    "回旋金句'喝几天生水又出不了什么事'在知乎回答中首次完整出现",
+    "知乎评论区的群体愤怒（3-4条评论）",
+    "陈北进厨房（橱柜下方净水器位置）后回答更新",
+    "揽肩动作收尾"
+  ],
+  "must_not_write_as_exposition": [
+    "不得用旁白解释'为什么苏晴不立刻揭穿'",
+    "不得描写苏晴的长段心理活动——用身体反应（僵住/手指攥紧手机）替代",
+    "不得解释知乎平台机制——默认读者都知道"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 3,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.5,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 14.8,
+    "dominant_emotion": "确认-恐惧",
+    "emotion_arc": "怀疑 → 验证 → 确认 → 恶心感爆发",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "心跳加速——知乎编辑记录的时间戳和丈夫行为完美吻合",
+    "required_techniques": [
+      {
+        "technique": "时间戳锁定法",
+        "instruction": "必须写出精确到分钟的时间对照：'编辑于22:47'→'陈北22:46走进厨房'。用数字的精确性焊死因果关系，让读者获得'铁证'级确认感"
+      },
+      {
+        "technique": "肢体动作反讽",
+        "instruction": "揽肩这个动作在确认真相后承载全部伪善。写时不加任何评价，让动作本身产生恶心感。一句话：'转身时，陈北顺势揽住我的肩。'"
+      },
+      {
+        "technique": "评论区群声制造公愤",
+        "instruction": "用3-4条知乎评论替代旁白评价：'答主太狠了吧''替你老婆心疼三秒''这不是投毒吗'。群体声音=读者情绪的镜像，完成共鸣确认"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "极短陈述句+时间精确到分钟",
+        "example": "回复就在一分钟前。",
+        "instruction": "用不超过8个字完成'知乎答主=丈夫'的终极确认。信息密度必须极高——每个字都承载判决"
+      },
+      {
+        "structure": "【引号原文】+冷血陈述+轻蔑语气",
+        "example": "楼主【丈母娘病两天又不会死，用不着你们操心。】",
+        "instruction": "知乎回答中写出'喝几天生水又出不了什么事'的完整句。这句话是全文回旋弹药——此刻种下，后面引爆。用知乎引用格式呈现"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "对比式",
+    "source_excerpt": "回复就在一分钟前。我紧紧盯着卫生间，宋松在几分钟前进去后，一直没有动静。评论区：【想让自己亲妈来带娃，就害丈母娘，男人真可怕。】【劝你善良，心疼你老婆三秒。】楼主【丈母娘病两天又不会死，用不着你们操心。】转身时，宋松顺势揽住我的肩。"
+  }
+}

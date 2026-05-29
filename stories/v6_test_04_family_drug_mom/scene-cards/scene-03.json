@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "苏晴家走廊/卧室→大门",
+  "time": "深夜→半个月后的下午",
+  "pov": "苏晴",
+  "characters": ["苏晴", "陈北（视频通话中）", "苏母（病中）", "陈母（门外）"],
+  "character_goal": "苏晴试图找到投毒源头（换水壶/锅具）但方向错误→偷听到真相",
+  "opposition_goal": "陈北加速推进计划，与婆婆视频商量'再等等'",
+  "conflict_action": "苏晴的所有防护措施（换壶/换锅/买瓶装水）全部无效→母亲继续恶化→偷听电话揭示净水器才是源头线索",
+  "information_gap": "苏晴知道是陈北但不知道具体载体是净水器滤芯——她的防护全往错误方向努力",
+  "emotional_debt_delta": "积累'无力感'债务——做了一切仍无法保护母亲",
+  "payoff_or_hook": "章末钩子：门铃催命响起，猫眼里是婆婆陈母+小叔子陈南",
+  "chapter_end_hook": "门铃催命似地响起。猫眼一看，是拎着尿素袋的婆婆和跟在后面的小叔子",
+  "paywall_card": false,
+  "must_include": [
+    "偷听陈北视频通话：'妈你再等等，过不了多久她就待不住了'",
+    "苏晴收回迈出的腿（不打草惊蛇的决策用动作表达）",
+    "无效努力的具体罗列（换锅/换壶/买瓶装水/带妈检查）",
+    "母亲身体继续恶化（非但没好反而更严重）",
+    "门铃响+婆婆到来"
+  ],
+  "must_not_write_as_exposition": [
+    "不得解释'为什么不报警'——用'单凭匿名回答没有证据'一笔带过即可",
+    "不得用时间线清单描述'半个月发生了什么'——压缩为2-3句",
+    "不得描写失眠的冗长心理——用'一夜没合眼'结束"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "无力-绝望",
+    "emotion_arc": "偷听真相 → 一夜未眠 → 努力无效 → 绝望加深",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "替女主着急——她什么都做了但母亲还是在恶化",
+    "required_techniques": [
+      {
+        "technique": "偷听场景的物理化构建",
+        "instruction": "用'我跨出去的腿又收了回来'一个动作替代所有心理描写。不写'我决定不打草惊蛇'——让读者从动作自己推断决策"
+      },
+      {
+        "technique": "无效努力制造绝望",
+        "instruction": "罗列3-4个具体防护动作（换壶/换锅/买瓶装水/检查食材），然后用一句转折'可我还是想得太天真了'全部否定。具体行动+彻底无效=绝望感最大化"
+      },
+      {
+        "technique": "门铃催命比喻",
+        "instruction": "用'催命似地响起'一个比喻将日常门铃声升级为恐怖信号。一句话完成气氛从绝望到紧张的切换"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "身体动作+未完成状态",
+        "example": "我跨出去的腿又收了回来。",
+        "instruction": "用一个收回的动作表达整个'不动声色收集证据'的决策。信任读者理解力，不做任何解释"
+      },
+      {
+        "structure": "转折短句+自省",
+        "example": "可我还是想的太天真了。",
+        "instruction": "独立成段的短句。前面越具体（我做了A、B、C），这句的打击力越大。暗示更大的打击即将到来"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "累积式",
+    "source_excerpt": "我跨出去的腿又收了回来。一夜没合眼。第二天我清空冰箱，连锅碗瓢盆都买了新的。可我还是想的太天真了。妈的身体非但没好，反而更严重了。半个月后，我刚伺候我妈躺下休息，门铃催命似的响起。猫眼一看，是小姑子和婆婆。"
+  }
+}

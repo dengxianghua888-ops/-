@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "无人化码头发布会大厅",
+  "time": "江沉死亡脱离后一小时",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "安全主管", "江栀", "沈清禾", "江父", "江母", "贺景衡", "媒体"],
+  "character_goal": "安全主管要宣布事故结果，江沉旁观迟到确认。",
+  "opposition_goal": "江栀和贺景衡要封住消息，不让发布会崩盘。",
+  "conflict_action": "江栀扇安全主管，沈清禾让律师封口，江父命保镖拦担架，贺景衡抢事故报告。",
+  "information_gap": "他们仍不愿承认担架上的人就是江沉。",
+  "emotional_debt_delta": "+死亡确认被继续压制；+施害者最后一次否认江沉痛苦",
+  "payoff_or_hook": "死亡确认前的拒信，强化悔悟迟到。",
+  "chapter_end_hook": "担架推到厅门口，白布下露出江沉那顶裂开的安全帽。",
+  "paywall_card": false,
+  "must_include": ["安全主管报告", "江栀扇人", "律师封口", "担架车", "裂开的安全帽"],
+  "must_not_write_as_exposition": ["不要跳过压消息动作", "不要让安全主管长篇说明", "不要让媒体反应盖过家人反应"]
+}

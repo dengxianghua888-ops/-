@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "药监部门受理窗口与封存区",
+  "time": "下午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "药监受理人员",
+    "执法人员",
+    "周骁"
+  ],
+  "character_goal": "提交完整材料，让两箱货进入正式封存流程。",
+  "opposition_goal": "周骁赶到现场抢回货物，阻止封存抽样。",
+  "conflict_action": "执法人员核对派单、签收单、扫码失败记录后贴封条，周骁伸手抢箱被拦下。",
+  "information_gap": "周骁不解释两箱来源，只强调主角侵占公司货。",
+  "emotional_debt_delta": "规则债开始反噬，主角拿到程序性保护。",
+  "payoff_or_hook": "周骁第一次在机关场景里失控，反差形成爽点。",
+  "chapter_end_hook": "执法人员贴上封条时，周骁的脸第一次白了。",
+  "paywall_card": false,
+  "must_include": [
+    "派单四箱",
+    "签收四箱",
+    "车内剩两箱",
+    "封存编号",
+    "周骁伸手抢箱",
+    "执法人员要求他说明货物来源"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让执法人员替主角骂反派",
+    "不要让周骁当场认罪",
+    "不要把封存写成判决"
+  ]
+}

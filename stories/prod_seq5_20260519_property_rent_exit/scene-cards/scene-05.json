@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "社区团购仓和直播分拣区",
+  "time": "撤仓前夜九点",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "许阳", "马成", "分拣员", "团购群团长"],
+  "character_goal": "许知夏要把社区团购订单、自提点和分拣班次全部迁移到新港。",
+  "opposition_goal": "马成要抢设备、拖延分拣，让订单超时后客户迁怒许家。",
+  "conflict_action": "马成伸手抢扫码枪，许阳护住后台电脑并按下小程序推送，把自提点从老市场切到新港。",
+  "information_gap": "马成不知道团购仓后台控制的是东区年轻家庭的复购订单。",
+  "emotional_debt_delta": "+1后-1：阻拦分拣加债，订单迁移让老市场失去第二条稳定流量。",
+  "payoff_or_hook": "团长群刷屏确认新地址，马成才意识到撤走的是入口不是货架。",
+  "chapter_end_hook": "许阳按下小程序弹窗，东区三千个团购订单同时跳到新港自提点。",
+  "paywall_card": false,
+  "must_include": ["抢扫码枪", "小程序推送", "团长群刷屏", "三千个订单", "许知夏指挥迁移节奏"],
+  "must_not_write_as_exposition": ["不要只说团购很重要", "不要把许阳写成工具人", "不要让冲突停在口头争吵"]
+}

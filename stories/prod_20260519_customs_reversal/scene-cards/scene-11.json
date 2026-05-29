@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": 11,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "质检站大厅",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "执法大队到场介入",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "陈建国(执法大队长)到场，看确认书+询问双方",
+  "information_gap": "会怎么判？马国栋还能翻盘吗？",
+  "emotional_debt_delta": "偿还+2(公权力站到主角一边)",
+  "payoff_or_hook": "陈建国看了眼确认书上的红章，转头盯着马国栋：'你批的？'",
+  "chapter_end_hook": "陈建国看了眼确认书上的红章，转头盯着马国栋：'你批的？'",
+  "paywall_card": false,
+  "must_include": [
+    "陈建国(执法大队长)到场，看确认书+询问双方"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

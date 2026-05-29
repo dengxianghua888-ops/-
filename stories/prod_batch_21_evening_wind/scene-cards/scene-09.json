@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B9",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "回国后公寓/办公室",
+  "time": "一年后",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "陆承衍（电话/门口）",
+    "林知薇（消息）"
+  ],
+  "character_goal": "事业反超+面对纠缠",
+  "opposition_goal": "施害者想挽回",
+  "conflict_action": "品牌上线利润翻倍；陆承衍频繁联系说受够表姐；表姐哭求和——主角全部拒绝",
+  "information_gap": "M3反身完全具象化",
+  "emotional_debt_delta": "-4（M5温度负值可视化）",
+  "payoff_or_hook": "他换了十几个号码打来——我一个都没接",
+  "chapter_end_hook": "他换了十几个号码打来——我一个都没接",
+  "paywall_card": true,
+  "must_include": [
+    "事业成功的具体数据",
+    "陆承衍的具体纠缠行为",
+    "表姐的具体求和内容",
+    "主角平静拒绝"
+  ],
+  "must_not_write_as_exposition": [
+    "不能只说他们过得不好"
+  ]
+}

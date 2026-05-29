@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B1",
+  "target_chars_min": 850,
+  "target_chars_max": 950,
+  "location": "主角公寓",
+  "time": "傍晚，出差归来",
+  "pov": "林知予（第一人称）",
+  "characters": [
+    "林知予",
+    "林知薇",
+    "陆承衍"
+  ],
+  "character_goal": "主角期待回家，推门看到背叛现场",
+  "opposition_goal": "表姐和陆承衍试图掩饰",
+  "conflict_action": "主角拖着行李推门，看到陆承衍从身后环抱正在做桂花糕的表姐，两人反应慌乱",
+  "information_gap": "这对关系何时开始、发展到什么程度",
+  "emotional_debt_delta": "+9（信任背叛冲击）",
+  "payoff_or_hook": "厨房里传来笑声，有人在用我的围裙",
+  "chapter_end_hook": "厨房里传来笑声，有人在用我的围裙",
+  "paywall_card": true,
+  "must_include": [
+    "具体的背叛画面（环抱+做饭）",
+    "表姐的慌张反应",
+    "主角克制的身体反应"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用旁白解释三人关系",
+    "不能写主角的心理分析"
+  ]
+}

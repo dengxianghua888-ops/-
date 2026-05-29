@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "海城商会大厅",
+  "time": "小舟死后三日",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "陆沉舟",
+    "林若鸢",
+    "商会会长",
+    "宾客"
+  ],
+  "character_goal": "沈南星公开病历和药疹照片，为小舟讨说法。",
+  "opposition_goal": "陆沉舟要压下丑闻，林若鸢要把沈南星塑造成疯癫闹事者。",
+  "conflict_action": "沈南星闯入商会宴席，把病历、骨折片和小舟药盒纸条摊在会长桌上。",
+  "information_gap": "宾客不知道陆家已经准备伪造诊断书。",
+  "emotional_debt_delta": "+公开求 justice 被压制、+证据第一次亮相",
+  "payoff_or_hook": "陆沉舟扣住她手腕，命人带她去陆氏医院检查。",
+  "chapter_end_hook": "他说：你病得不轻，别再拿一个孩子的死污蔑陆家。",
+  "paywall_card": false,
+  "must_include": [
+    "病历",
+    "骨折片",
+    "药疹照片",
+    "药盒纸条",
+    "林若鸢扶腹装弱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成摘要式庭审",
+    "不要让宾客立刻全信女主",
+    "不要让陆沉舟缺少主动压制动作"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 740,
+  "target_chars_max": 840,
+  "location": "航医中心走廊与自助缴费机旁",
+  "time": "同日清晨，签字后十分钟",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲",
+    "梁知棠",
+    "机场安保"
+  ],
+  "character_goal": "林照晚想让许承洲承认自己是他谈了十年的女朋友",
+  "opposition_goal": "许承洲想先稳住梁知棠和现场秩序，把林照晚从孕妻身边隔开",
+  "conflict_action": "林照晚拿出袖扣喊许承洲旧称，许承洲按住梁知棠腕带，示意安保把林照晚挡到黄线外",
+  "information_gap": "许承洲是否会公开承认林照晚，梁知棠是否早知道她",
+  "emotional_debt_delta": "+2 男主第一选择是隔离女主",
+  "payoff_or_hook": "温柔旧称撞上冷硬安保线，完成温度反转第一刀",
+  "chapter_end_hook": "他终于看见我，却先松开了我的手。",
+  "paywall_card": false,
+  "must_include": [
+    "许承洲曾经视频里教她热敷手腕的一个短回闪",
+    "黄线",
+    "安保伸手挡人",
+    "梁知棠低头摸腕带"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇解释女主怎么攒钱",
+    "不要连续质问",
+    "不要把孕妻写成单纯撒泼"
+  ],
+  "rhythm_job": {
+    "shape": "一段短回闪后立刻回到现实动作，对白推进身份差，章尾用松手截断",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用袖扣盒被汗浸湿、缴费机吐纸声降压",
+    "dialogue_action_comment_ratio": "对白约35%，动作约50%，呼吸点约15%，章尾钩1句"
+  }
+}

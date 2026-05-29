@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "外婆老院子、海棠树下旧钢琴旁",
+  "time": "头七夜",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "外婆",
+    "林知夏"
+  ],
+  "character_goal": "晚萤想完成告别，让自己从林家撤出。",
+  "opposition_goal": "知夏想见妹妹最后一面，外婆要守住晚萤的新归属。",
+  "conflict_action": "外婆把骨灰埋在海棠树下，摆上旧曲谱；知夏追来跪在院门外，外婆关门，只收下她放下的八音盒。",
+  "information_gap": "姐姐可以悔痛，但不能把晚萤带回林家；读者看见归属已变。",
+  "emotional_debt_delta": -3,
+  "payoff_or_hook": "真正的家债清偿，头七转世暗示开启。",
+  "chapter_end_hook": "头七夜，旧钢琴无人触碰，却自己落下了晚萤没弹完的第一个音。",
+  "paywall_card": true,
+  "must_include": [
+    "海棠树",
+    "旧钢琴",
+    "骨灰安放",
+    "八音盒被留下",
+    "知夏停在院门外"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写晚萤原谅林家",
+    "不要让父母进入院子",
+    "不要把头七写成恐怖桥段",
+    "不要让灵魂实体化复仇"
+  ]
+}

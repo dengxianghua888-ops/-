@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 640,
+  "target_chars_max": 800,
+  "location": "再生中心废弃观察室",
+  "time": "归零倒计时最后三十秒",
+  "pov": "第一人称，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "归零系统"
+  ],
+  "character_goal": "纪寒舟把证据包设置为死亡触发发送，并切断旧关系。",
+  "opposition_goal": "归零倒计时压缩他最后能完成的动作。",
+  "conflict_action": "他绑定死亡触发发送，摘下婚戒放进证据盒，掰断亲缘芯片。",
+  "information_gap": "沈澜星和纪明棠不知道真正的清算钥匙是他的死亡。",
+  "emotional_debt_delta": "主角停止索要爱与相信，改为保存证据并离场。",
+  "payoff_or_hook": "他把所有未说出口的话压成一个定时发送的报案包。",
+  "chapter_end_hook": "纪寒舟看着倒计时归零前最后一行字：任务失败，生命体征即将注销。",
+  "paywall_card": false,
+  "must_include": [
+    "死亡触发证据包",
+    "婚戒进入证据盒",
+    "亲缘芯片被掰断",
+    "归零系统任务失败提示"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写自杀方法",
+    "不要让主角给妻姐留下原谅话",
+    "不要用抽象悲伤撑场"
+  ]
+}

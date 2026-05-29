@@ -1,0 +1,97 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 13500,
+    "sweet_spot": [10500, 12500]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 820,
+    "recommended_chapter_count": {"min": 11, "max": 14},
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_coverage_target": 1.0
+  },
+  "hook_policy": {
+    "front_300_chars": "H1 直白威胁倒卷式：奥赛金牌少女回家迎来的不是父母，而是一封'你是假千金'的断亲书；门铃画面里那张哥哥的脸，让她当场拨通了'举报全家被灭门'的报警电话。",
+    "micro_hook_every_chars": 850,
+    "paywall_card_every_chars": 2700,
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄家庭悬疑+反转重度用户，男频女频通吃",
+      "对'伪身份/伪家人/调包真千金'套路有强爽点期待的读者",
+      "20-35 岁喜欢'女主智斗连环杀手'+'警校选择'热血主线的读者",
+      "看够了娇软白甜爽文、想看冷脑奥赛金牌少女单挑国际杀手组织的读者"
+    ],
+    "emotion_needs": [
+      "极致冰冷压迫：报喜归家迎来空别墅+断亲书+冒牌全家",
+      "智斗反杀：化学专业+夜视模式门铃画面+螯合剂逻辑链一刀刀切开完美犯罪",
+      "公开清算：实名直播倒逼警方、热搜把杀手组织钉在阳光下",
+      "尸骨补偿：父母兄长未婚夫四具被铸进墙体的尸骸重见天日",
+      "志向反转尾：清北抢人，主角转身报考公安大学痕检系"
+    ],
+    "forbidden_topics": [
+      "不写血腥具象解剖、尸块特写，只用情绪暗示和侧面留白",
+      "不出现真实学校、警局、品牌的具名（用清大/京大/京市警大等通用化名）",
+      "不写主角直接对凶手肉体施暴，所有报应由司法+真千金父母遗证执行",
+      "不写未成年人涉性、涉血场景",
+      "不出现境外政治、宗教、种族议题",
+      "禁'金手指系统/重生回到XX'式真重生设定，主角必须靠化学专业+逻辑+直播一步步翻盘"
+    ]
+  },
+  "title_strategy": {
+    "primary_formula": "T1 因果反转式",
+    "candidates": [
+      {
+        "title": "成为奥赛金牌后我接到断亲书，开直播举报全家被灭门",
+        "formula": "T1",
+        "char_count": 24,
+        "hook_strength": 10,
+        "rationale": "数字身份+断亲+灭门+直播，四段冲突一句封顶；T1 因果反转脊柱，番茄首屏完读率历史均值最高"
+      },
+      {
+        "title": "我以本省高考状元名义起誓，我家四口都死在这套别墅里",
+        "formula": "T5 回旋金句式",
+        "char_count": 24,
+        "hook_strength": 9,
+        "rationale": "把最强台词作钩，自带视频切片素材，二创扩散率高"
+      },
+      {
+        "title": "断亲书把我赶出家门当晚，门铃夜视模式拍到了血",
+        "formula": "T2 反差对仗式",
+        "char_count": 22,
+        "hook_strength": 9,
+        "rationale": "把'夜视画面'作为陡然反转点抛出，制造强信息差悬念"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_intent": 91,
+    "paywall_pass_rate": 87,
+    "emotion_release_score": 92,
+    "ai_flavor_score": 0,
+    "viral_density": 90,
+    "review_score_target": 4.7
+  },
+  "market_positioning": {
+    "comparable_titles": [
+      "成为高考状元却接到断亲书",
+      "我直播寻亲那天扒出杀人犯",
+      "她们说我不是亲生的那夜，我打了110"
+    ],
+    "differentiation": "把'调包真千金'同质化套路反向利用：主角不哭不闹不求复合，第一反应是报警；以化学奥赛金牌的硬专业认知打破螯合剂伪装现场；最终以'弃清北、报警校'的志向反转完成情绪补偿；区别于'女主重生开金手指反杀'的常见套路。",
+    "platform_fit_notes": "番茄家庭悬疑+反转高完读题材：H1 钩+M1/M3/M6 三机制全部保真；首章 1100 字含 9 分钩，每章必有强情绪/信息差节点；付费节点 4 个以上，全程零'付费'字眼。"
+  },
+  "production_constraints": {
+    "max_source_overlap_chars": 120,
+    "soul_contract_required": true,
+    "preferred_mechanisms": ["M1", "M3", "M6"],
+    "preferred_hooks": ["H1", "H4"],
+    "genre": "modern_reversal",
+    "subgenre": "fake_family_serial_killer_reversal"
+  }
+}

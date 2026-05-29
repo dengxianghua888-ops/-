@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 550,
+  "target_chars_max": 700,
+  "location": "临时黄牛摆渡点",
+  "time": "五一第一天下午一点",
+  "pov": "第一人称根据员工偷拍视频和后续转述还原",
+  "characters": [
+    "周凯",
+    "黄牛司机",
+    "周凯团队员工",
+    "女员工小林"
+  ],
+  "character_goal": "周凯想低价找车送团队去外面的黑露营地。",
+  "opposition_goal": "黄牛司机想趁音乐节接驳紧张高价拉客，不开发票不等人。",
+  "conflict_action": "黄牛司机拦住团队，开价每人120元，周凯砍价被怼回去，员工催他赶紧决定。",
+  "information_gap": "周凯刚刚为了每人200元差价退订，现在单接驳就要多掏120元。",
+  "emotional_debt_delta": "价格教育第一次落到现金损失上。",
+  "payoff_or_hook": "小林问周凯这笔钱能不能报销，周凯让大家先垫。",
+  "chapter_end_hook": "黄牛司机把二维码怼到周凯脸前：一位一百二，嫌贵就走山路。",
+  "paywall_card": true,
+  "must_include": [
+    "黄牛说后面还有人排队",
+    "每人120元摆渡费",
+    "不开发票",
+    "小林质疑垫钱",
+    "周凯强压员工先上车"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让黄牛和林晚有关联",
+    "不要让员工无反应",
+    "不要把周凯写成受害者"
+  ]
+}

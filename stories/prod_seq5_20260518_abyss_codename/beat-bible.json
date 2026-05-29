@@ -1,0 +1,502 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 13000,
+    "max": 16500,
+    "planned": 14800
+  },
+  "title": "她代号黑匣",
+  "genre": "校园刑侦大女主 / 身份反差悬疑爽文",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "execution": "林雾先被风港民航学院师生当成处分转来的软柿子，前300字内让读者看见刑侦支队消息，知道她是代号黑匣的公安行为分析顾问。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "倒放广播伪灵异层 -> 室友蒋晴嫌疑层 -> 机务社韩停执行层 -> 飞行安全课讲师纪闻操盘层 -> 加密频道塔台网络层。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "凶手把林雾列为最后一名待清舱乘客，林雾主动入局，用舱内黑匣录音、门禁日志、应急报警和外围布控反向收网。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "林雾听见B312墙内响起一段倒放的客舱广播。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "广播倒放后露出一句话：三号乘客未登机。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "模拟舱座椅上出现写着林雾名字的登机牌。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "门禁记录显示，蒋晴在失踪当晚刷开过模拟舱。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "蒋晴的枕头下压着一张旧乘客名单，第四栏是空白。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "退役客机货舱夹层里掉出一枚失踪女生的校牌。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "韩停笑着问林雾：你也想上那趟航班吗？"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "B312门磁记录在凌晨两点十七分被人触发。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "林雾按下应急报警器，说：从你进门开始，就已经记录了。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "韩停供出一个名字：纪老师才知道完整清舱名单。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "纪闻把林雾点上讲台，要求她复盘失踪女生的错误。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "纪闻的课件最后一页，藏着B312的平面图。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "蒋晴哭着说：我不是凶手，我是被留下来的那一个。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "塔台频道第一次主动呼叫林雾的代号。"
+    },
+    {
+      "chapter_id": "CH15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "纪闻把模拟舱门关上，说：最后一名乘客，到齐了。"
+    },
+    {
+      "chapter_id": "CH16",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "林雾抬头看向舱顶录音灯：黑匣已经开了。"
+    },
+    {
+      "chapter_id": "CH17",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_range": "scene-17",
+      "chapter_end_hook": "纪闻被带走前说，清舱名单不是他写的。"
+    },
+    {
+      "chapter_id": "CH18",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_range": "scene-18",
+      "chapter_end_hook": "新的音频响起：本次航班仍有乘客未清舱。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "chapter_id": "CH01",
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_location": "风港民航学院北区空乘公寓B312",
+      "character_goal": "林雾以处分转学生身份入住，确认失踪女生与B312的关系。",
+      "conflict_action": "宿管当众警告她不要乱问，室友当面翻她行李试探，她借签入住表观察楼层门禁和旧广播口。",
+      "information_gap": "读者知道她是黑匣，但学校人物不知道；B312为什么连续牵连三名失踪女生未明。",
+      "emotion_debt_balance": "建立被低估债、宿舍安全债、失踪女生真相债。",
+      "chapter_end_hook": "墙内响起倒放客舱广播，室友脸色骤变。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能拖延身份反差到300字后",
+        "不能把宿舍写成普通校园闲聊",
+        "禁止用闹鬼解释代替证据观察"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "chapter_id": "CH02",
+      "target_chars_min": 650,
+      "target_chars_max": 850,
+      "scene_location": "B312宿舍与走廊广播箱",
+      "character_goal": "林雾验证广播来源，拆掉伪灵异外壳。",
+      "conflict_action": "蒋晴阻止她靠近广播箱，林雾用手机录音倒放，对照宿舍楼断电时间和走廊摄像头盲区。",
+      "information_gap": "广播内容里的三号乘客是谁，为什么只在B312能听见。",
+      "emotion_debt_balance": "偿还第一笔专业能力债，增加蒋晴嫌疑债。",
+      "chapter_end_hook": "倒放广播里出现三号乘客未登机。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成玄学惊悚",
+        "不能长篇讲解音频原理",
+        "不能让林雾凭直觉下结论"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "chapter_id": "CH03",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "模拟客舱楼",
+      "character_goal": "林雾进入训练舱寻找广播与失踪案的连接点。",
+      "conflict_action": "她避开围观学生的嘲笑，打开座椅口袋、核对座位编号，在训练假人安全带结扣里发现失踪女生发圈。",
+      "information_gap": "登机牌日期指向今晚，林雾名字为何提前出现。",
+      "emotion_debt_balance": "受害者真相债上升，身份风险加重。",
+      "chapter_end_hook": "写着林雾名字的登机牌被放在最后一排座位上。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把线索写成静态展示",
+        "不能渲染受害者身体细节",
+        "不能让男警替林雾发现核心证据"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "chapter_id": "CH04",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "模拟客舱楼门禁室",
+      "character_goal": "林雾调取门禁痕迹，判断是否有人栽赃蒋晴。",
+      "conflict_action": "门禁管理员拒绝给记录，林雾用处分转学生身份示弱套话，再用已知广播时间逼他承认有人借走备用卡。",
+      "information_gap": "蒋晴刷卡是真的，但她是否主动参与未知。",
+      "emotion_debt_balance": "蒋晴嫌疑债扩大，低估债继续蓄力。",
+      "chapter_end_hook": "记录显示蒋晴在失踪当晚刷开模拟舱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成黑客式开挂",
+        "不能提供绕过门禁教程",
+        "不能提前洗白蒋晴"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "chapter_id": "CH05",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "B312宿舍",
+      "character_goal": "林雾近距离试探蒋晴，确认她是凶手还是被操控者。",
+      "conflict_action": "蒋晴趁熄灯翻林雾柜子，林雾提前夹好一根头发定位柜门，反手按亮台灯逼她交出藏物。",
+      "information_gap": "旧乘客名单第四栏空白，像是下一名受害者预留位。",
+      "emotion_debt_balance": "宿舍安全债加深，室友真假债进入临界。",
+      "chapter_end_hook": "蒋晴枕头下压着旧乘客名单，第四栏空白。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成女寝撕逼",
+        "不能让蒋晴直接自白",
+        "不能用大段回忆解释名单来历"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "chapter_id": "CH06",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "退役客机库与封存货舱",
+      "character_goal": "林雾追查旧乘客名单来源，找到失踪案规模扩大的证据。",
+      "conflict_action": "她跟踪一辆运送训练器材的推车进机库，趁管理员巡查间隙检查货舱夹层，拍下校牌和日期标签。",
+      "information_gap": "校牌证明不止一名失踪女生被带到机库，但夹层是谁定期维护未知。",
+      "emotion_debt_balance": "受害者真相债显性化，案件升级债启动。",
+      "chapter_end_hook": "货舱夹层掉出失踪女生校牌。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写真实航空设备破坏方法",
+        "不能写猎奇遗体细节",
+        "不能让证据无封存意识"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "chapter_id": "CH07",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "机务社维修间",
+      "character_goal": "林雾锁定熟悉门禁、广播和机库的人。",
+      "conflict_action": "她加入机务社临时清点器材，故意念错一个座位编号，观察韩停纠正时暴露对清舱名单的熟悉。",
+      "information_gap": "韩停知道名单术语，但他背后是否有老师级权限未知。",
+      "emotion_debt_balance": "凶手傲慢债出现，执行者威胁逼近。",
+      "chapter_end_hook": "韩停问她是否也想上那趟航班。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让林雾靠美貌套话",
+        "不能写维修技术教程",
+        "不能把韩停写成唯一终极凶手"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "chapter_id": "CH08",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "北区空乘公寓B312",
+      "character_goal": "林雾把自己作为诱饵，确认韩停夜间入侵路径。",
+      "conflict_action": "她向警方发送预案，调低宿舍灯光，故意把登机牌放在桌面，等待门磁记录被触发。",
+      "information_gap": "韩停是否会亲自来，蒋晴是否会被当替罪羊仍未揭开。",
+      "emotion_debt_balance": "宿舍安全债到高点，诱敌预案债建立。",
+      "chapter_end_hook": "凌晨两点十七分，门磁记录跳红。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让诱饵行为没有警方预案",
+        "不能描写可复制的入侵步骤",
+        "不能让林雾显得鲁莽求险"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "chapter_id": "CH09",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "B312宿舍夜袭现场",
+      "character_goal": "林雾现场抓住韩停并固定口供证据。",
+      "conflict_action": "韩停靠近床铺时，林雾掀开被子按下应急报警器，用录音逼他说出清舱名单和蒋晴被控制的细节。",
+      "information_gap": "韩停说自己只是执行清单，清单源头未明。",
+      "emotion_debt_balance": "宿舍安全债阶段性偿还，凶手傲慢债转移到上层。",
+      "chapter_end_hook": "林雾说从进门开始每句话都被记录。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写血腥搏斗",
+        "不能让男警冲进来完成关键反杀",
+        "不能把录音当唯一证据不补门磁和报警链"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "chapter_id": "CH10",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "学院保卫处临时询问室",
+      "character_goal": "林雾从韩停供述中逼出老师级操盘者。",
+      "conflict_action": "韩停装疯卖傻，林雾摆出门禁时间、广播源和机库校牌照片，逐项堵死他的退路。",
+      "information_gap": "纪闻为什么能操控韩停，清舱名单如何产生未知。",
+      "emotion_debt_balance": "执行者债偿还一半，老师级凶手债启动。",
+      "chapter_end_hook": "韩停供出纪老师才知道完整名单。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写审讯教程",
+        "不能让韩停一次性解释全案",
+        "不能让警方取代林雾推理"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "chapter_id": "CH11",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "飞行安全课教室",
+      "character_goal": "林雾当众观察纪闻，确认其话术和权力压迫。",
+      "conflict_action": "纪闻点名林雾复盘失踪女生的错误，林雾反用他的课程术语指出他把人说成异常项。",
+      "information_gap": "纪闻是否已识破林雾身份，课堂提问是否是警告未知。",
+      "emotion_debt_balance": "身份风险债上升，价值分界债出现。",
+      "chapter_end_hook": "纪闻让她站上讲台复盘失踪者。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让课堂变成长篇理念辩论",
+        "不能美化纪闻的控制话术",
+        "不能让林雾情绪失控"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "chapter_id": "CH12",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "飞行安全课教室与教师机后台",
+      "character_goal": "林雾寻找纪闻与B312、名单、广播的硬连接。",
+      "conflict_action": "她趁课间投影未关，拍下课件隐藏页，发现B312平面图和模拟舱座位编号重叠标注。",
+      "information_gap": "纪闻把宿舍床位映射成座位号的目的未明。",
+      "emotion_debt_balance": "证据链债推进，身份暴露风险加重。",
+      "chapter_end_hook": "课件最后一页藏着B312平面图。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写入侵教师电脑步骤",
+        "不能让证据凭空出现",
+        "不能忽略纪闻可能反监控林雾"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "chapter_id": "CH13",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "空乘公寓天台",
+      "character_goal": "林雾救下崩溃的蒋晴，拿到幸存者证词。",
+      "conflict_action": "蒋晴被匿名短信诱到天台，林雾截住她，逼她听完倒放广播原声，让她确认当晚听到的是纪闻课上的口令。",
+      "information_gap": "蒋晴知道第一名受害者曾留下塔台频道号码，但不知对方是谁。",
+      "emotion_debt_balance": "蒋晴嫌疑债转为幸存者债，受害者正名债增加。",
+      "chapter_end_hook": "蒋晴承认自己是被留下来的幸存者。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把蒋晴写成工具人",
+        "不能用崩溃独白替代证据",
+        "不能让林雾冷漠无救人动作"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "chapter_id": "CH14",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "退役客机库外与加密频道监听点",
+      "character_goal": "林雾追踪塔台频道，确认纪闻背后还有网络。",
+      "conflict_action": "她用蒋晴给出的频道号码等待呼叫，塔台播放新清舱提示，林雾把音频交给警方同步定位。",
+      "information_gap": "塔台知道林雾代号，说明警方内部或旧案资料曾泄露。",
+      "emotion_debt_balance": "案件升级债扩大，身份风险债达到高点。",
+      "chapter_end_hook": "塔台频道第一次叫出黑匣。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写加密通信破解教程",
+        "不能让警方定位万能化",
+        "不能提前揭开塔台真实身份"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "chapter_id": "CH15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "夜间模拟客舱楼",
+      "character_goal": "林雾主动赴约，诱使纪闻亲口讲出清舱规则。",
+      "conflict_action": "她按纪闻要求进入模拟舱，逐排检查座位上的登机牌，同时暗中确认舱内录音、门禁日志和外围布控已启动。",
+      "information_gap": "纪闻是否会亲自承认旧案，塔台是否会干预未知。",
+      "emotion_debt_balance": "诱饵债兑现前夕，凶手傲慢债压顶。",
+      "chapter_end_hook": "纪闻关上舱门，说最后一名乘客到齐。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让林雾无预案单独赴险",
+        "不能写锁舱操作教程",
+        "不能把纪闻写成有魅力的导师"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "chapter_id": "CH16",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "模拟客舱内",
+      "character_goal": "林雾让纪闻自证其罪，并完成猎物反转猎人。",
+      "conflict_action": "纪闻逼她承认自己也是异常乘客，林雾逐项念出证据，诱导他纠正细节并说出只有操盘者知道的座位映射。",
+      "information_gap": "纪闻落网后，塔台是否还会继续未知。",
+      "emotion_debt_balance": "凶手傲慢债、低估债、专业碾压债集中偿还。",
+      "chapter_end_hook": "林雾指向录音灯：黑匣已经开了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用主角嘴炮替代证据链",
+        "不能让纪闻无理由自爆",
+        "不能让暴力成为爽点核心"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "chapter_id": "CH17",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "模拟客舱楼外警戒线",
+      "character_goal": "林雾完成阶段性结案，替失踪女生正名。",
+      "conflict_action": "警方带走纪闻，林雾把校牌、发圈、名单和录音对应到每名受害者姓名，交给家属确认。",
+      "information_gap": "纪闻临走前否认清舱名单由他编写。",
+      "emotion_debt_balance": "受害者真相债阶段性偿还，网络债保留。",
+      "chapter_end_hook": "纪闻说清舱名单不是他写的。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能草草跳过受害者姓名",
+        "不能把结案写成彻底安全",
+        "不能让纪闻逃脱当前法律闭环"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "chapter_id": "CH18",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "B312宿舍与刑侦支队车内",
+      "character_goal": "林雾收束校园案，接住塔台网络续案钩子。",
+      "conflict_action": "她清空B312床位上的登机牌，将最后一段塔台音频接入支队设备，决定继续追查名单源头。",
+      "information_gap": "塔台仍在暗处，且掌握新的乘客编号。",
+      "emotion_debt_balance": "当前案释放安全感，系列追查债开启。",
+      "chapter_end_hook": "音频响起：本次航班仍有乘客未清舱。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把尾声写成完全大团圆",
+        "不能新增恋爱线",
+        "不能让塔台钩子吞掉当前案件闭环"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 13000,
+    "min_chapters": 18,
+    "min_paywall_cards": 6,
+    "chapter_end_hook_coverage": "18/18",
+    "first_300_chars_must_include": [
+      "处分转学生外壳",
+      "B312与失踪女生关联",
+      "刑侦支队消息",
+      "代号黑匣身份反差"
+    ],
+    "hard_rules": [
+      "第一人称冷静观察",
+      "每场必须有行动推进",
+      "推理必须由证据触发",
+      "林雾主动查案主动设局主动抓捕",
+      "不写航空破坏教程",
+      "不写重口尸检猎奇",
+      "不增加恋爱线"
+    ]
+  }
+}

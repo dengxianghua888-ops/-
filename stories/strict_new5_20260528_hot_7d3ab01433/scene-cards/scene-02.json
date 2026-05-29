@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 640,
+  "target_chars_max": 720,
+  "location": "白雀寺外斋市豆腐摊",
+  "time": "半年后清晨",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "常顺",
+    "斋市客人"
+  ],
+  "character_goal": "沈素娘要用一百文一块的斋豆腐钓出王府采买",
+  "opposition_goal": "常顺要压价拿货，并维护王府采买的威风",
+  "conflict_action": "常顺拍碎价牌、伸手抢豆腐，沈素娘切下一小块让他先尝",
+  "information_gap": "常顺尝到的旧亏欠是什么",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "百味豆腐机制落地：不解释神通，只写味觉破防",
+  "chapter_end_hook": "常顺咬下第一口豆腐，当街跪在白雀寺门前。",
+  "paywall_card": false,
+  "must_include": [
+    "斋市烟火气",
+    "一块豆腐一百文",
+    "常顺压价抢货",
+    "豆腐入口后常顺跪哭"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲解百味豆腐原理",
+    "不要写围观群众长篇议论",
+    "不要铺垫寺庙历史"
+  ],
+  "rhythm_job": {
+    "shape": "摊位生活动作开局，压价对白提速，入口后留两行短停顿",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白三成，切豆腐和抢货动作四成，呼吸点两成，章尾用跪地动作卡住"
+  }
+}

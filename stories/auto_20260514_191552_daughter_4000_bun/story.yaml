@@ -1,0 +1,10 @@
+slug: auto_20260514_191552_daughter_4000_bun
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: daughter_4000_bun
+genre: 
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

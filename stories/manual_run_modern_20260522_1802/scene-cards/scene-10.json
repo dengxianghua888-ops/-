@@ -1,0 +1,37 @@
+{
+  "scene_id": "S10",
+  "beat_id": "B10",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "市监投诉受理大厅",
+  "time": "同一日上午十点四十至十一点二十",
+  "pov": "first_person_林承",
+  "characters": ["林承", "张姨(手工香薰)", "孙阿姨(儿童棉袜)", "老郑(有机果干)", "路队长", "孙律师"],
+  "character_goal": "林承不再抢话,让其他三位同样被同一稽查队套路定性的店主自己拿出处罚单",
+  "opposition_goal": "张松想用'每案情况不同'切断关联",
+  "conflict_action": "三位店主依次把自己的《行政处罚决定书》摊到台面,案值分别 80 万/4 万/120 万,案由全部是'误导消费者重大'",
+  "information_gap": "三人背后是同一举报源——B11 揭",
+  "emotional_debt_delta": "+3 公愤升级(被压制的群体抬头)",
+  "payoff_or_hook": "孙阿姨那张儿童棉袜的处罚单平铺在台面,案值'¥40,000'被特写",
+  "chapter_end_hook": "孙阿姨把儿童棉袜的处罚单平铺在台面上——案值四万。",
+  "paywall_card": false,
+  "must_include": [
+    "三位店主台词风格各不相同(张姨抖、孙阿姨平、老郑闷)",
+    "处罚单纸张摊开 3 次承担节奏拍点",
+    "林承全程只说一句'你们说'",
+    "至少 1 处生活化呼吸(老郑用粗糙手指压住单角)"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让三人轮流喊冤",
+    "不要让主角接管讲述",
+    "不要重复同样的句式"
+  ],
+  "rhythm_job": {
+    "shape": "三人各 1 拍动作 + 1 短句→台面被处罚单铺满→沉默",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "粗糙手指 + 棉袜样品被压在处罚单角"
+  }
+}

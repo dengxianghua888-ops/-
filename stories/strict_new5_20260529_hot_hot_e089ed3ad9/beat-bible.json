@@ -1,0 +1,411 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars_min": 10090,
+    "planned_total_chars_max": 11570,
+    "planning_note": "按最低字数上浮约5%-8%作为现场发挥目标，高潮集中在第7-12场。"
+  },
+  "title": "爸爸死后三年，妈妈才知道账户是空的",
+  "genre": "family_ethics / 现代家庭伦理复仇",
+  "mechanisms": [
+    "M3 因果回旋反讽",
+    "M5 温度反转曲线",
+    "M6 多层递进反转"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "林望当着直播镜头说：林正年三年前就死在你们医院急诊走廊。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "沈岚让保安拦人，林望把死亡证明编号报给她。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "旧护耳器掉出来，沈岚第一次看见右耳伤残鉴定。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 680,
+      "target_chars_max": 790,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "年会监控里，雪夜保安把父子推出医院大门。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 720,
+      "target_chars_max": 830,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "缴费窗口打印出三年前那张余额为零的回执。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "太平间签字单上，家属栏只有林望一个名字。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 760,
+      "target_chars_max": 930,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "沈岚拨通秦砚舟电话，对面先笑着问：那对父子还没死心？"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 790,
+      "target_chars_max": 960,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "免提里，秦砚舟亲口说：五十万当然是我转走的。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "林望按下录音保存键，把文件发给经侦联系人。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "秦家项目发布会大屏上，跳出医疗账户流水截图。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 760,
+      "target_chars_max": 930,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "秦砚舟拔刀扑向林望，沈岚终于挡在他面前。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 720,
+      "target_chars_max": 870,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "手术室红灯亮起，林望只把沈岚的股份转让书放进证物袋。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 640,
+      "target_chars_max": 760,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "律师问是否以母子关系继承，林望说：以债权人身份。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 620,
+      "target_chars_max": 720,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "林正年急症救助基金的第一笔款，打进急诊患儿账户。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars_min": 640,
+      "target_chars_max": 760,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "墓园风声里，林望说这次钱到账了，然后没有回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "三甲医院慈善直播后台",
+      "character_goal": "林望推走病床，避开沈岚的直播镜头并保护父亲死讯不被消费。",
+      "conflict_action": "沈岚当众让助理转钱，命令林望带话给林正年认错。",
+      "information_gap": "沈岚以为林正年还活着装病，林望知道父亲死在本院三年。",
+      "emotion_debt_balance": "新增：母亲公开施舍和羞辱父亲；偿还：死亡信息差首次砸出。",
+      "chapter_end_hook": "林望当着直播镜头说：林正年三年前就死在你们医院急诊走廊。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能洗白沈岚为纯误会",
+        "不要解释医疗集团背景"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_location": "直播后台与员工通道",
+      "character_goal": "林望带走病患，不让记者把父亲死亡剪成慈善素材。",
+      "conflict_action": "沈岚追到员工通道，抓住林望工牌，要求他删掉死亡话题。",
+      "information_gap": "沈岚仍认为林望在替父亲撒谎逼钱。",
+      "emotion_debt_balance": "新增：母亲先维护面子和秦砚舟形象；偿还：死亡证明编号露出。",
+      "chapter_end_hook": "沈岚让保安拦人，林望把死亡证明编号报给她。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成母子叙旧",
+        "不要用记者反应清单灌水",
+        "不要让林望崩溃哭诉"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "夜班护工休息室",
+      "character_goal": "林望取回病历夹和旧护耳器，准备把沈岚推开。",
+      "conflict_action": "沈岚翻他柜子找父亲地址，扯出旧护耳器和听力鉴定。",
+      "information_gap": "沈岚不知道当年一巴掌造成林望右耳不可逆听损。",
+      "emotion_debt_balance": "新增：母亲擅翻私人物品；偿还：耳伤证据上桌。",
+      "chapter_end_hook": "旧护耳器掉出来，沈岚第一次看见右耳伤残鉴定。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要长段回忆童年",
+        "不能把听损写成猎奇卖惨",
+        "不要让沈岚一句道歉抵债"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 680,
+      "target_chars_max": 790,
+      "scene_location": "医院安保监控室",
+      "character_goal": "林望调取旧年会监控，证明父子曾被沈岚亲手赶走。",
+      "conflict_action": "沈岚命令安保删除片段，林望用备份U盘播放雪夜画面。",
+      "information_gap": "沈岚把年会闹场记成父子贪钱，监控显示父亲递的是病危通知。",
+      "emotion_debt_balance": "新增：删除证据意图；偿还：婚礼羞辱旧债开始回收。",
+      "chapter_end_hook": "年会监控里，雪夜保安把父子推出医院大门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述年会流程",
+        "不要写成纯旁观者议论",
+        "不能弱化父亲下跪递病危通知"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 720,
+      "target_chars_max": 830,
+      "scene_location": "医院缴费窗口",
+      "character_goal": "林望让沈岚亲自查三年前的预存医疗账户。",
+      "conflict_action": "沈岚刷董事权限查账，窗口打印出余额为零和排期取消记录。",
+      "information_gap": "沈岚以为五十万已经救急，实际账户被转空。",
+      "emotion_debt_balance": "新增：沈岚迟查三年；偿还：空账户真相初爆。",
+      "chapter_end_hook": "缴费窗口打印出三年前那张余额为零的回执。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要复述财务制度",
+        "不要把空账户写成误操作",
+        "不能让秦砚舟提前背完全部锅"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "老旧陪护出租屋",
+      "character_goal": "林望取遗像和太平间回执，切断沈岚最后的自欺。",
+      "conflict_action": "沈岚闯进出租屋翻找林正年，撞见供桌、饭盒和太平间签字单。",
+      "information_gap": "沈岚第一次直面父亲确已死亡，而不是儿子气话。",
+      "emotion_debt_balance": "新增：闯屋侵犯父亲最后体面；偿还：死亡实锤落地。",
+      "chapter_end_hook": "太平间签字单上，家属栏只有林望一个名字。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要渲染灵异或宿命",
+        "不要写沈岚痛哭洗白",
+        "不要把遗像当空泛煽情道具"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 760,
+      "target_chars_max": 930,
+      "scene_location": "急诊留观病房外走廊",
+      "character_goal": "林望逼沈岚按病历顺序看完父亲死亡链条。",
+      "conflict_action": "林望把术后感染、病危通知、取消排期单逐张贴到墙上。",
+      "information_gap": "沈岚仍想用“我不知道”自保，但每张单子都有她可查询的权限痕迹。",
+      "emotion_debt_balance": "新增：母亲迟来的推责；偿还：不查不问被定性为不在乎。",
+      "chapter_end_hook": "沈岚拨通秦砚舟电话，对面先笑着问：那对父子还没死心？",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要连续解释时间线",
+        "不能让沈岚变成单纯被骗者",
+        "不要用抽象控诉替代病历动作"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 790,
+      "target_chars_max": 960,
+      "scene_location": "急诊留观病房",
+      "character_goal": "林望诱导秦砚舟在免提里说出转钱和伪造绝症。",
+      "conflict_action": "林望用沈岚手机回拨，打开免提和录音，把转账流水编号念给秦砚舟。",
+      "information_gap": "秦砚舟不知道沈岚和林望同在病房，也不知道通话被录音。",
+      "emotion_debt_balance": "新增：反派恶意明牌；偿还：五十万空账户责任闭合。",
+      "chapter_end_hook": "免提里，秦砚舟亲口说：五十万当然是我转走的。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要把自爆写成反派演讲",
+        "不要让林望失控乱骂",
+        "不能漏掉录音和流水编号"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "医院消防通道",
+      "character_goal": "林望保存证据并把沈岚的悔意挡在法律流程之外。",
+      "conflict_action": "沈岚追来想用支票补偿，林望把录音、流水、伪造病情材料发送出去。",
+      "information_gap": "沈岚以为钱能先压住林望，林望已经启动经侦和院方合规调查。",
+      "emotion_debt_balance": "新增：用钱求和的二次伤害；偿还：证据进入法律管道。",
+      "chapter_end_hook": "林望按下录音保存键，把文件发给经侦联系人。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写成私刑复仇",
+        "不要大段解释法律条款",
+        "不能让支票变成和解入口"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "秦家医疗项目发布会",
+      "character_goal": "林望公开证据，让秦砚舟的公益医生人设崩塌。",
+      "conflict_action": "林望把账户流水、伪造诊断、项目资金去向交给记者，大屏同步跳证据。",
+      "information_gap": "秦砚舟以为发布会只会澄清丑闻，实际沈岚授权公开内部流水。",
+      "emotion_debt_balance": "新增：反派最后遮掩；偿还：顾家体面被证据撕碎。",
+      "chapter_end_hook": "秦家项目发布会大屏上，跳出医疗账户流水截图。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写成商战长流程",
+        "不要把记者问答写成清单",
+        "不能用空泛破产替代资金证据"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 760,
+      "target_chars_max": 930,
+      "scene_location": "发布会后台急救通道",
+      "character_goal": "林望护住证据原件，避免秦砚舟销毁录音设备。",
+      "conflict_action": "秦砚舟抢录音笔并持刀冲向林望，沈岚推开林望挡下。",
+      "information_gap": "沈岚以为挡刀能换一句原谅，林望只把她当迟来的伤者处理。",
+      "emotion_debt_balance": "新增：秦砚舟暴力灭证；偿还：母亲第一次用行动挡在前面但太迟。",
+      "chapter_end_hook": "秦砚舟拔刀扑向林望，沈岚终于挡在他面前。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要美化自毁换原谅",
+        "不要过度血腥",
+        "不能让林望叫妈"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 720,
+      "target_chars_max": 870,
+      "scene_location": "手术室外",
+      "character_goal": "林望完成证据移交，拒绝把沈岚伤情变成亲情复位。",
+      "conflict_action": "律师递来股份转让和遗嘱草案，林望要求全部进入父亲名义基金。",
+      "information_gap": "旁人以为林望会被沈岚挡刀打动，林望区分偿债和原谅。",
+      "emotion_debt_balance": "新增：迟来的补偿施压；偿还：遗产被改造为债务清偿。",
+      "chapter_end_hook": "手术室红灯亮起，林望只把沈岚的股份转让书放进证物袋。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要煽情和解",
+        "不要写亲友劝原谅",
+        "不能让挡刀覆盖旧债"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 640,
+      "target_chars_max": 760,
+      "scene_location": "律师事务所会议室",
+      "character_goal": "林望签署债务清偿文件，限定遗产用途。",
+      "conflict_action": "律师按母子继承口径宣读文件，林望划掉亲属称谓改成债务清偿。",
+      "information_gap": "外界以为巨额遗产是母子破冰，林望只承认它属于林正年。",
+      "emotion_debt_balance": "偿还：迟来补偿被剥离亲情意义；未偿：父亲生命不可返还。",
+      "chapter_end_hook": "律师问是否以母子关系继承，林望说：以债权人身份。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述遗产条款",
+        "不要写成主角贪财",
+        "不能把债务清偿写成感动"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 620,
+      "target_chars_max": 720,
+      "scene_location": "医院急诊缴费窗口",
+      "character_goal": "林望让父亲基金救下第一位因押金卡住的患儿。",
+      "conflict_action": "林望拿备案回执补齐患儿手术预存款，要求窗口立即恢复排期。",
+      "information_gap": "父亲当年等不到的五十万，终于以他的名字到达另一个家庭。",
+      "emotion_debt_balance": "偿还：父亲善良被延续；未偿：林正年本人回不来。",
+      "chapter_end_hook": "林正年急症救助基金的第一笔款，打进急诊患儿账户。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写公益宣传稿",
+        "不要解释基金制度",
+        "不能淡化父亲死亡代价"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 640,
+      "target_chars_max": 760,
+      "scene_location": "墓园",
+      "character_goal": "林望把基金备案回执和第一笔救助单放到父亲墓前，完成告别。",
+      "conflict_action": "沈岚旧助理送来最后道歉录音，林望没有播放，只把回执压在花下。",
+      "information_gap": "道歉是否真诚已经不重要，林望的未来不再由沈岚定义。",
+      "emotion_debt_balance": "偿还：价值补偿落地；终局：不原谅、不回头。",
+      "chapter_end_hook": "墓园风声里，林望说这次钱到账了，然后没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要让主角回头",
+        "不要播放长道歉录音",
+        "不能用血浓于水收束"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapter_count": 12,
+    "planned_chapter_count": 15,
+    "minimum_paywall_card_count": 4,
+    "planned_paywall_card_count": 5,
+    "chapter_end_hook_coverage": 1.0,
+    "minimum_evidence_reversal_per_chapter": 1
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      13,
+      18
+    ],
+    "short_line_rate_lte_16_min": 0.52,
+    "short_line_rate_lte_16_max": 0.7,
+    "direct_dialogue_line_rate_min": 0.3,
+    "direct_dialogue_line_rate_max": 0.45,
+    "barrage_line_rate_min": 0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 6.5,
+    "question_mark_density_per_1000_chars_max": 10.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

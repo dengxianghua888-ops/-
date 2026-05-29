@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "温府书房",
+  "time": "离宫后第七日",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "温其正",
+    "裴砚"
+  ],
+  "character_goal": "温照晚想查清御马场封后是否真是父亲捡漏。",
+  "opposition_goal": "温其正想保护女儿少受刺激，裴砚想劝她彻底别回宫。",
+  "conflict_action": "温其正卷起袖子给她看旧伤，裴砚取来当日破袍，温照晚在袖口发现禁军扳指划痕。",
+  "information_gap": "萧珩为何早就安排凤玺落到温家。",
+  "emotional_debt_delta": "凤玺捡漏反转启动，真心线开始补证。",
+  "payoff_or_hook": "温照晚发现封后不是偶然，但这不等于能原谅欺骗。",
+  "chapter_end_hook": "温父说凤玺台下那只推他的手，分明戴着禁军扳指。",
+  "paywall_card": false,
+  "must_include": [
+    "温父旧伤",
+    "破袍划痕",
+    "裴砚劝离",
+    "女主明确说安排不是伤害的免罪牌"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让温父长篇回忆",
+    "不要让裴砚变成男二抢戏",
+    "不要用暗恋证据直接洗白"
+  ]
+}

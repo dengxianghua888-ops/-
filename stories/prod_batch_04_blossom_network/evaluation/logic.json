@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "score": 8.0,
+  "evidence": [
+    {
+      "path": "story/draft.md#08",
+      "type": "asset_bridge",
+      "quote": "托管垫资。三方协议写得清楚。",
+      "assessment": "资金到账路径补足。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chars_per_chapter": [500, 1200],
+    "tomato_preferred_chars": [500, 800],
+    "must_end_with_hook": true
+  },
+  "hook_policy": {
+    "first_300_chars": "强Hook：女主千里奔赴求婚，当场撞见男友以丈夫身份陪孕妻产检。",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "required_hook_types": ["身份欺骗", "公开羞辱", "舆论围剿", "迟来追悔", "不复合离场"]
+  },
+  "audience": {
+    "target_readers": ["18-35岁女性", "偏好都市虐爽/追妻火葬场/清醒离场读者", "对长期欺骗、身份羞辱、原配小三错位议题敏感的番茄短篇用户"],
+    "emotion_needs": ["替女主委屈到极点", "看渣男权贵逻辑被情感拒绝反噬", "获得不原谅、不回头的尊严释放", "看到底层女孩从污名和围剿里重新站起来"],
+    "genre_forbidden": ["渣男洗白后复合", "女主靠当情人换资源", "把原配孕妻写成唯一受害者而弱化女主十年被骗", "结尾只靠男主补偿解决女主人生", "大段空泛独白替代行动反击"]
+  },
+  "title_strategy": [
+    {
+      "formula": "T1_强冲突长标题",
+      "examples": ["奔赴八百公里求婚后，我成了男友的十年小三", "五一去见异地男友，他正陪孕妻产检", "男友说加班，我却在公司楼下见到他的孕妻"],
+      "market_use": "首选，直接抛出身份错位和道德审判，适合番茄点击。"
+    },
+    {
+      "formula": "T3_虐感诗意标题",
+      "examples": ["千山奔赴，一梦成灰", "十年奔赴终成灰", "他困旧梦，我赴新生"],
+      "market_use": "用于偏虐恋火葬场包装，需搭配简介补强冲突。"
+    },
+    {
+      "formula": "T5_场景物证标题",
+      "examples": ["那枚结婚戒指，碎了我十年奔赴", "公司楼下的孕妻，揭开我男友的真身份", "一张直播稿，让我看清十年骗局"],
+      "market_use": "适合以关键道具串联爽点，增强记忆点。"
+    }
+  ],
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.0,
+      "drivers": ["开局即撞破双重身份", "女主被迫公开认小三", "男主追悔但补偿无效", "终局彻底离场"]
+    },
+    "paid_hook": {
+      "target_score": 8.8,
+      "required_cards": ["男友承认已婚却要求女主低调留下", "机场被泼水网暴", "直播澄清后被逼磕头捡钱", "男主离婚追来求复合"]
+    },
+    "emotion_release": {
+      "target_score": 8.7,
+      "release_mode": "女主不靠复仇大开杀戒，而靠切断、拒绝、重建完成低温爽感。"
+    },
+    "ai_flavor": {
+      "target_score": 0.5,
+      "max_allowed_score": 1.0,
+      "controls": ["少用总结句", "多用具体动作和场景证据", "避免模板化悔疯独白", "高强度情绪必须落到身体动作、证据、选择上"]
+    },
+    "plot_bomb_density": {
+      "target_score": 8.5,
+      "minimum_bombs_per_10k_chars": 8,
+      "required_bombs": ["男友总裁身份", "男友已婚", "孕妻非男主孩子", "十年资助反成笑话", "公开小三污名", "直播逼认", "磕头羞辱", "离婚追妻失败"]
+    }
+  }
+}

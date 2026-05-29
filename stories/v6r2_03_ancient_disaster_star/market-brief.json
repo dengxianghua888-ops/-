@@ -1,0 +1,93 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "前300字必须建立极致屈辱+身份反差悬念，让读者立刻产生'她凭什么忍'的愤怒代入",
+    "micro_hook_interval": [800, 1200],
+    "paywall_cliffhanger_interval": [2500, 3500],
+    "paywall_cliffhanger_types": ["身份即将揭露但被打断", "救兵到场但未亮明关系", "证据/真相即将公开但被阻", "旧爱突然出现在新婚现场"]
+  },
+  "audience": {
+    "primary_demographic": "18-35岁女性，番茄小说核心用户",
+    "emotional_needs": [
+      "被极致羞辱后的尊严补偿",
+      "旧爱追悔莫及的火葬场快感",
+      "新爱公开珍视的安全感满足",
+      "权力碾压式护短的爽感"
+    ],
+    "reading_context": "碎片化通勤/睡前阅读，需要每章都有情绪钩子防止退出",
+    "genre_preference": "古言虐渣+甜宠补偿，帝王负心+将军护短的经典对照结构",
+    "taboo_topics": [
+      "圣母原谅渣男",
+      "女主为爱降智",
+      "新男主也有白月光",
+      "结局复合旧爱",
+      "过度描写青楼侍客细节"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1_因果反转",
+        "example": "帝王买通国师害我为妓三年，南疆铁骑踏平他皇城那天他悔疯了"
+      },
+      {
+        "formula": "T3_情绪对仗",
+        "example": "凤冠碎地日，铁骑叩城时"
+      },
+      {
+        "formula": "ancient_couplet_变体",
+        "example": "三年青楼换一纸休书，三十万铁骑换她一个笑"
+      }
+    ],
+    "constraints": {
+      "max_chars": 30,
+      "must_contain_conflict": true,
+      "must_hint_reversal": true
+    }
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "scale": 10,
+      "method": "每章末必须留悬念，付费点前必须堆叠至少两层未解信息差"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "scale": 10,
+      "method": "付费卡点设在身份揭露前一刻/铁骑到场但未说明来意/旧爱当众跪求但女主尚未回应"
+    },
+    "emotional_release": {
+      "target": 9,
+      "scale": 10,
+      "method": "虐感在前60%持续累积，后40%逐层释放爽感，结尾必须有'不原谅'的冷句收束"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "scale": 10,
+      "method": "零容忍违禁词，情绪物理化替代心理描写，对话短句≤15字"
+    },
+    "hook_density": {
+      "target": 9,
+      "scale": 10,
+      "method": "每1000字至少1个微悬念，每3000字至少1个付费级卡点，首章hook≥9分"
+    }
+  },
+  "genre": "ancient_sweet",
+  "core_mechanisms": ["M2", "M3", "M5", "M6"],
+  "dominant_payoff": "被更强权力隆重接走 + 旧爱亲眼失去且不可挽回",
+  "emotional_debt_type": "帝王以爱为名践踏尊严债 + 三年青楼屈辱债",
+  "protagonist_stance": "忍辱三年后的清醒断爱，不哭求不回头",
+  "reader_promise": "让被负心帝王污蔑践踏的女主，被更强、更真诚的权力隆重接走，并让薄情者亲眼失爱、失后、失国"
+}

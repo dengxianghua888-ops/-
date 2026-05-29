@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "dimension": "debt_accumulation",
+      "finding": "婚礼冷柜羞辱、拖婚五年、署名被夺、许知微被包装成样本等情绪债均在现场动作中累积。",
+      "location": "scene-01, scene-02, scene-06, scene-08"
+    },
+    {
+      "dimension": "debt_payoff",
+      "finding": "冷柜铭牌最终被归入反面案例物证，女主不复合、不原谅、不回头，完成开篇羞辱债偿还。",
+      "location": "scene-14"
+    },
+    {
+      "dimension": "contrary_emotion",
+      "finding": "女主被公开羞辱时没有哭闹，而是整理头纱、走向冷柜、放下捧花并抽出文件反击；许知微也没有按情敌预期拆台，而是提醒并交证据。",
+      "location": "scene-01, scene-06"
+    },
+    {
+      "dimension": "relationship_arc",
+      "finding": "陆承川始终不替女主压场，不抢主体性，等待债以尊重距离兑现。",
+      "location": "scene-04, scene-12, scene-13, scene-14"
+    }
+  ]
+}

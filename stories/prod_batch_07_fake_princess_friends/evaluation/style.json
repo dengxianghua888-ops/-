@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "type": "physicalization",
+      "scene": "scene-01",
+      "quote": "齿轮滚到沈父靴边。",
+      "assessment": "关键物件有触感和位置，支撑冲突。"
+    },
+    {
+      "type": "scene_texture",
+      "scene": "scene-05",
+      "quote": "鼓架还没撤，湿桨横在棚边，船手们正分粽叶绳。",
+      "assessment": "码头场景有声音、湿度、物件，不是换皮宅斗。"
+    },
+    {
+      "type": "dialogue",
+      "scene": "scene-05",
+      "quote": "你替我？那你让她别举着。",
+      "assessment": "短对白有反击力，符合女主声口。"
+    },
+    {
+      "type": "dialogue",
+      "scene": "scene-10",
+      "quote": "云姣，你每次都骂得很准。",
+      "assessment": "打脸前的拱火句简洁有效。"
+    },
+    {
+      "type": "golden_line",
+      "scene": "scene-14",
+      "quote": "可我这一无是处，偏偏交到了全天下最护我的朋友。",
+      "assessment": "回旋原命题，具备收束记忆点。"
+    },
+    {
+      "type": "style_risk",
+      "scene": "multiple",
+      "quote": "脸色一变、血色尽失、眼神像要……等反应句式多次出现。",
+      "assessment": "不构成硬失败，但建议压缩表情套语，增加动作替代。"
+    }
+  ],
+  "notes": [
+    "整体 AI 味不重，主要风险是少数高频反应词和 scene-10 身份播报略清单化。"
+  ]
+}

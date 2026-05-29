@@ -1,0 +1,890 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 0,
+      "title": "引子",
+      "source_line_range": [1, 14],
+      "char_count": 280,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.5,
+        "comma_period_ratio": 0.6,
+        "question_mark_density_per_1k": 0,
+        "direct_dialogue_rate": 0.36,
+        "short_line_rate_lte16": 0.64,
+        "impact_density": 0.9,
+        "sentence_avg_len": 14.2
+      },
+      "emotion": {
+        "dominant_emotion": "紧迫-决绝",
+        "emotion_arc": "异常发现 → 果断决定 → 悬念投放",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "被反常识决定震住，产生强烈的'为什么'疑问"
+      },
+      "highlights": {
+        "peak_moment": "田可宣布必须逃离考场，揭示手表也慢了一分钟",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "一个能考清北的学生，在高考开考前五分钟要求离开",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "因为我的手表也慢了一分钟——从钟坏了升级到系统性异常"
+      },
+      "techniques": [
+        {
+          "technique": "反常识行为开篇",
+          "example": "我猛然起身，要求立刻离开考场。",
+          "effect": "用违反读者预期的行为（高考最重要时刻离开）瞬间锁住注意力"
+        },
+        {
+          "technique": "极简悬念种子",
+          "example": "因为我的手表也慢了一分钟。",
+          "effect": "只给一个微小事实，但暗示巨大危险，制造必须往下读的缺口"
+        },
+        {
+          "technique": "权威对立制造紧迫",
+          "example": "监考老师以为我故意找茬，厉声道",
+          "effect": "在主角和制度权威之间制造对立，让读者站在主角这边"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我毫不犹豫地离开座位。我必须逃离这里。",
+          "structure": "极短断言句+必须句——两句话完成决定",
+          "why_it_works": "极简的语言传递极强的决心，没有犹豫空间让读者也来不及质疑"
+        },
+        {
+          "text": "因为我的手表也慢了一分钟。",
+          "structure": "因为+单一事实——用最短的因果句制造最大悬念",
+          "why_it_works": "把一个看似无害的事实变成恐怖信号，读者的认知被强制重构"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠反常识行为+权威对立+信息缺口三重驱动",
+      "chapter_end_hook": {
+        "text": "因为我的手表也慢了一分钟。",
+        "hook_type": "revelation_half",
+        "hook_technique": "给出一个事实但不解释其意义，让读者自行推理危险程度",
+        "suspense_mechanism": "为什么手表也慢了？这意味着什么？她到底知道什么？"
+      }
+    },
+    {
+      "chapter_id": 1,
+      "title": "第1章",
+      "source_line_range": [15, 60],
+      "char_count": 920,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 5.4,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.8,
+        "sentence_avg_len": 15.6
+      },
+      "emotion": {
+        "dominant_emotion": "孤立-决绝",
+        "emotion_arc": "被否定 → 内心挣扎 → 壮士断腕",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "替她窒息，同时佩服她的决断力——她真的放弃清北了"
+      },
+      "highlights": {
+        "peak_moment": "田可宣布自愿放弃高考",
+        "peak_type": "power_shift",
+        "emotional_bomb": "一个确定能考上清北的学生主动放弃高考——对中国读者来说这是极致牺牲",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "不仅是他，整个考点所有人的表都慢了一分钟——恐怖范围从一个人扩大到一千人"
+      },
+      "techniques": [
+        {
+          "technique": "牺牲量化",
+          "example": "以我的成绩，只要正常发挥就能轻松考入清北。那是我从小就向往的大学。可和性命相比，高考算什么？",
+          "effect": "先量化牺牲有多大（清北），再用一句反问让决定显得更英雄——读者被迫感受代价"
+        },
+        {
+          "technique": "群体碎片台词制造孤立感",
+          "example": "\"马上就要考试了，她怎么站起来了？\"/\"她是不是想要把考题带出去作弊？\"/\"赶紧把她带走，别影响我们考试！\"",
+          "effect": "用3句来自不同人的短台词快速建立'所有人vs.一个人'的格局"
+        },
+        {
+          "technique": "逐步加码权威压力",
+          "example": "从\"最后一次警告\"→\"叫巡考把你带走\"→\"拉入高考黑名单，这辈子都别想高考\"",
+          "effect": "威胁层层升级，每次升级都在考验主角的决心，读者跟着揪心"
+        },
+        {
+          "technique": "独立行断言",
+          "example": "教室安静一瞬。但没人离开座位。",
+          "effect": "两句各占一行，第一句给希望（安静=在思考），第二句碾碎希望（没人动）"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "可和性命相比，高考算什么？",
+          "structure": "可+对比+反问——用反问句完成价值排序",
+          "why_it_works": "把读者心中最重要的东西（高考）瞬间降格，让主角的选择显得理所当然"
+        },
+        {
+          "text": "那是催命的倒计时。",
+          "structure": "那是+比喻重定义——对已有事物赋予新含义",
+          "why_it_works": "把普通的时钟指针重新定义为死亡倒计时，恐怖感骤升"
+        },
+        {
+          "text": "整个考点有一千多名考生，我没办法眼睁睁地看着他们送死。",
+          "structure": "具体数字+情感表态——用数字制造责任重量",
+          "why_it_works": "一千条命的重量瞬间压在读者心上，理解了她为什么必须这样做"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠对话冲突+权威压力递增+内心独白穿插维持张力",
+      "chapter_end_hook": {
+        "text": "不仅是他，整个考点所有人的表都慢了一分钟！",
+        "hook_type": "revelation_half",
+        "hook_technique": "规模升级——从个人异常升级为集体异常，恐怖程度跃迁",
+        "suspense_mechanism": "所有人的表都慢了意味着什么？接下来会发生什么？"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "title": "第2章",
+      "source_line_range": [61, 95],
+      "char_count": 780,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 5.1,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.75,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "焦急-希望",
+        "emotion_arc": "不被信→闺蜜出现→短暂希望→希望动摇",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "跟着主角一起焦急——闺蜜会跟她走吗？"
+      },
+      "highlights": {
+        "peak_moment": "闺蜜说'我相信小可'，给了唯一的信任",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "在所有人否定她的时候，唯一一个人选择相信——为后续背刺加重痛感",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "闺蜜猜测'难道考场里有炸弹？'——时钟往回倒退了一分钟"
+      },
+      "techniques": [
+        {
+          "technique": "唯一盟友铺设（为后续背刺加痛）",
+          "example": "闺蜜坚定地说：'我相信小可，她一定有难言之隐。'",
+          "effect": "先建立信任关系，让读者安心，后续背刺的痛感才能倍增"
+        },
+        {
+          "technique": "温度触觉传递情感",
+          "example": "闺蜜握紧了我冰冷的手。掌心传来温度。",
+          "effect": "用体温的物理传递替代语言的情感表达，更有沉浸感"
+        },
+        {
+          "technique": "规则升级作为章末钩",
+          "example": "话音刚落，墙上的挂钟往回倒退了一分钟。",
+          "effect": "异常从'慢'升级到'倒退'，规则恐怖再升一个量级"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "念念，你相信我吗？",
+          "structure": "名字+你相信我吗——最简洁的信任请求",
+          "why_it_works": "在极端压力下只问这一个问题，把所有筹码压在一个人身上"
+        },
+        {
+          "text": "额头冷汗滴落。我能感受到死亡的倒计时越来越近了。",
+          "structure": "生理反应+内心感知——先身体后心理",
+          "why_it_works": "让死亡威胁从抽象概念变成身体能感知的实在压力"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "靠希望-失望交替维持张力（闺蜜信→不确定→时钟倒退确认危险）",
+      "chapter_end_hook": {
+        "text": "话音刚落，墙上的挂钟往回倒退了一分钟。",
+        "hook_type": "cliff_action",
+        "hook_technique": "物理现象突变——用不可能的事件（时钟倒退）打破所有'合理解释'的可能",
+        "suspense_mechanism": "时钟倒退意味着危险在加速？还剩多少时间？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "title": "第3章",
+      "source_line_range": [96, 140],
+      "char_count": 980,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.2,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 4.1,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.74,
+        "impact_density": 0.92,
+        "sentence_avg_len": 13.5
+      },
+      "emotion": {
+        "dominant_emotion": "绝望-撕裂",
+        "emotion_arc": "希望破灭 → 极端行为 → 背刺 → 彻底孤立",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "心脏被闺蜜那一巴掌打疼，愤怒和心痛交织"
+      },
+      "highlights": {
+        "peak_moment": "闺蜜打了田可一耳光，说'我没有你这个朋友'",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "唯一相信她的人从信任→背刺，是全文最痛的一击",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "闺蜜说'以后我上清北，你高中毕业，我再也不想见你'——阶级碾压式绝交"
+      },
+      "techniques": [
+        {
+          "technique": "极端行为引爆冲突",
+          "example": "我急地撕碎了闺蜜的卷子",
+          "effect": "主角的极端行为让冲突升级到不可逆，制造'无路可退'的绝望感"
+        },
+        {
+          "technique": "生理痛+心理痛对比降格",
+          "example": "脸上火辣辣地疼。但和心里的痛比起来却不值一提了。",
+          "effect": "用物理疼痛作为参照物来量化心理疼痛的程度——读者跟着觉得心痛"
+        },
+        {
+          "technique": "阶级碾压式绝交台词",
+          "example": "以后我上清北，你高中毕业，我再也不想见你！",
+          "effect": "用未来的阶级差距（清北vs高中毕业）作为武器，是比骂人更残忍的伤害"
+        },
+        {
+          "technique": "自然异象呼应情绪",
+          "example": "窗外刮起狂风，更大的暴雨来了。",
+          "effect": "用天气变化呼应情绪走向——外部环境确认'事情在变糟'"
+        },
+        {
+          "technique": "暗线推进（时钟持续倒退）",
+          "example": "没人发现，墙上的挂钟又回退了半分钟。等时钟回退三分钟，就彻底完了。",
+          "effect": "在情感高潮后用冷静的事实陈述拉回悬疑线，提醒读者危险在逼近"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "脸上火辣辣地疼。但和心里的痛比起来却不值一提了。",
+          "structure": "身体痛+但+心理痛对比——用已知痛量化未知痛",
+          "why_it_works": "物理疼痛是读者能共感的锚点，用它来度量心理痛让抽象情绪变具体"
+        },
+        {
+          "text": "等时钟回退三分钟，就彻底完了。",
+          "structure": "等+条件+就+极端结果——倒计时句式",
+          "why_it_works": "把模糊的危险具体化为可计量的倒数，紧迫感瞬间可视化"
+        },
+        {
+          "text": "以后我上清北，你高中毕业，我再也不想见你！",
+          "structure": "我X+你Y+再也不——用对比句式完成绝交",
+          "why_it_works": "把友情的断裂具象为社会地位的永久分离，残忍程度倍增"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "蓄力-爆发-余震",
+      "pacing_note": "靠事件密度维持（撕卷→耳光→绝交→暴雨→时钟倒退，5个爆点连击）",
+      "chapter_end_hook": {
+        "text": "窗外刮起狂风，更大的暴雨来了。",
+        "hook_type": "silent_threat",
+        "hook_technique": "自然异象暗示灾难加速，不说明但让读者感知到'三分钟快到了'",
+        "suspense_mechanism": "暴雨=灾难前兆？三分钟倒计时还剩多少？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "title": "第4章",
+      "source_line_range": [141, 190],
+      "char_count": 1050,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.66,
+        "impact_density": 0.88,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "亡命-孤勇",
+        "emotion_arc": "绝望行动 → 身体代价 → 短暂自由 → 再次围攻",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "看她跳窗时揪心，冲出门时振奋，被踹倒时愤怒"
+      },
+      "highlights": {
+        "peak_moment": "田可跳窗逃跑，在暴雨中狂奔",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "闺蜜妈妈一脚踹倒她+拳打脚踢，而妈妈在旁边哭着道歉不护女儿",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "三分钟，到了。——章末独立行，死亡时刻降临"
+      },
+      "techniques": [
+        {
+          "technique": "行动描写极简化",
+          "example": "趁着警察不注意，我拉开窗户就跳了下去。",
+          "effect": "用最平淡的语气写最极端的行为，反差让行动本身更有力量"
+        },
+        {
+          "technique": "母亲的无力作为痛点放大器",
+          "example": "她跪倒在泥地里：'她学习很努力，能不能让她回去考试？我求您了！'",
+          "effect": "母亲为错误的事求情（让她回去=送她去死），读者知道真相所以更心痛"
+        },
+        {
+          "technique": "时间正常化作为虚假释放",
+          "example": "爬起身，我惊喜地发现，时间正常了！",
+          "effect": "先给主角一个好消息（自己安全了），然后立刻用新危险（其他人还在里面）打碎喘息"
+        },
+        {
+          "technique": "三字独立行收尾",
+          "example": "三分钟，到了。",
+          "structure": "极短独立行，四个字+标点",
+          "effect": "最短的句子承载最重的信息——死亡时刻来临"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "三分钟，到了。",
+          "structure": "时间+到了——最短倒计时归零宣告",
+          "why_it_works": "四个字承载全文最重的转折——从此以后墙内的人命运已定"
+        },
+        {
+          "text": "妈妈不知道，我已经放弃高考。而且因为扰乱考场秩序，我再也不能参加高考了。但我不后悔。",
+          "structure": "她不知道+事实+但我不后悔——三段式内心独白",
+          "why_it_works": "用'不后悔'三个字完成对前面所有牺牲的肯定，简洁而有力"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "前快后慢（追逃→被抓→被打→静止宣告）",
+      "pacing_note": "靠物理动作（跳窗/奔跑/被踹）维持前半张力，靠情绪暴力维持后半",
+      "chapter_end_hook": {
+        "text": "三分钟，到了。",
+        "hook_type": "death_declaration",
+        "hook_technique": "用最短的句子宣告灾难降临，不描述后果让读者自己想象",
+        "suspense_mechanism": "三分钟到了意味着什么？里面的人会怎样？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "title": "第5章",
+      "source_line_range": [191, 225],
+      "char_count": 720,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 2.8,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.82,
+        "sentence_avg_len": 16.4
+      },
+      "emotion": {
+        "dominant_emotion": "压迫顶峰-暗涌",
+        "emotion_arc": "被群体攻击 → 父母也逼她 → 她不屈服 → 诡异安静降临",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "对所有人恨到极点，同时隐约感觉报应要来了"
+      },
+      "highlights": {
+        "peak_moment": "妈妈给她一耳光说'你为什么还在撒谎'",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "亲妈打她+说出'我怎么教出这样的女儿'——最亲的人也背叛了",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "没人发现，考场门前不知何时陷入诡异的安静——灾难已经在发生了"
+      },
+      "techniques": [
+        {
+          "technique": "暗处伏笔不点明",
+          "example": "家长半天没听到班主任的回答。回头一看，身后除了雾哪还有人。",
+          "effect": "不用惊叹号不用'突然'，用最日常的困惑呈现消失事件——恐怖来自不经意"
+        },
+        {
+          "technique": "不屈服作为人格锚点",
+          "example": "我挺直后背，就是不跪下",
+          "effect": "在全场逼跪的压力下用一个身体姿态确认主角的人格——读者的敬意从这里来"
+        },
+        {
+          "technique": "道德绑架台词的精确刻写",
+          "example": "闺蜜妈妈：'不用了，我看她根本不怕坐牢，这孩子没救了。'",
+          "effect": "冷漠比愤怒更伤人——闺蜜妈妈从暴怒转为冷漠判词，是压迫的更高形态"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我挺直后背，就是不跪下。",
+          "structure": "身体姿态+就是不——用一个动作完成人格宣言",
+          "why_it_works": "在文字中'看到'一个人的脊梁，比任何语言更有力"
+        },
+        {
+          "text": "没人发现，考场门前不知何时陷入诡异的安静。",
+          "structure": "没人发现+不知何时+异常状态——暗处恐怖句式",
+          "why_it_works": "恐惧不来自可见的威胁，而来自'你不知道它什么时候已经开始了'"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "匀速高压（持续被攻击，不给喘息）",
+      "pacing_note": "靠群体暴力持续施压+暗线伏笔（班主任消失/白雾）暗示转折即将到来",
+      "chapter_end_hook": {
+        "text": "没人发现，考场门前不知何时陷入诡异的安静。三分钟，到了。",
+        "hook_type": "silent_threat",
+        "hook_technique": "用'安静'而非'爆炸'来宣告灾难——最恐怖的事是你还不知道已经发生了",
+        "suspense_mechanism": "安静意味着什么？里面的人是不是已经出事了？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "title": "第6章",
+      "source_line_range": [226, 280],
+      "char_count": 1100,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.2,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 5.5,
+        "direct_dialogue_rate": 0.44,
+        "short_line_rate_lte16": 0.60,
+        "impact_density": 0.85,
+        "sentence_avg_len": 16.0
+      },
+      "emotion": {
+        "dominant_emotion": "恐惧-证实",
+        "emotion_arc": "撞墙 → 恐慌升级 → 物理手段失败 → 绝望",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "终于！她说的是对的！但同时恐惧——里面的人怎么办？"
+      },
+      "highlights": {
+        "peak_moment": "闺蜜妈妈撞到空气墙，发现无法离开考点范围",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "直升机停在半空中——空气墙不是一面墙，是一个半球形罩子",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "爸妈终于意识到，我说的有危险都是真的——M3反转正式开始"
+      },
+      "techniques": [
+        {
+          "technique": "物理探索呈现异常",
+          "example": "她举着手臂围绕第二中学大门走起来。她越走越快，脸色越来越难看。终于，她停下了脚步。在原地上下抚摸。",
+          "effect": "用一个人的身体动作让读者'看到'看不见的墙——比描述墙更恐怖"
+        },
+        {
+          "technique": "升维式规模揭露",
+          "example": "围绕第二中学的不是一面墙，而是一个半球形的罩子。",
+          "effect": "从'一面墙'到'半球形罩子'的认知升级——问题比想象的严重得多"
+        },
+        {
+          "technique": "外力穷尽制造绝望",
+          "example": "直升机停在半空/挖掘机掘地三尺/最坚硬的砖石刀无法留下痕迹",
+          "effect": "用人类最强手段的逐一失败来确认问题的不可解——唯一的希望只能是主角"
+        },
+        {
+          "technique": "态度反转的第一声",
+          "example": "爸妈终于意识到，我说的有危险都是真的。",
+          "effect": "M3反转的第一个音符——从这里开始所有人的态度将逐一翻转"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "围绕第二中学的不是一面墙，而是一个半球形的罩子。",
+          "structure": "不是A+而是B——认知升级句式",
+          "why_it_works": "把读者以为的（墙）打破替换为更恐怖的（罩子），恐惧升维"
+        },
+        {
+          "text": "就好像这堵墙把里面的一切都抹除了。",
+          "structure": "就好像+极端比喻——用比喻暗示最坏结果",
+          "why_it_works": "'抹除'这个词比'困住'可怕得多——暗示里面可能已经没有人了"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快（探索墙的存在→手段升级加速失败）",
+      "pacing_note": "靠物理手段的逐一失败+规模认知的升级维持恐怖感",
+      "chapter_end_hook": {
+        "text": "没有一个人走出考场，来到墙边。就好像这堵墙把里面的一切都抹除了。",
+        "hook_type": "silent_threat",
+        "hook_technique": "不确认死亡但暗示最坏可能——留给读者想象的空间比明说更恐怖",
+        "suspense_mechanism": "里面的人还活着吗？为什么没人走出来？"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "title": "第7章",
+      "source_line_range": [281, 330],
+      "char_count": 1020,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 6.8,
+        "direct_dialogue_rate": 0.46,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.90,
+        "sentence_avg_len": 15.0
+      },
+      "emotion": {
+        "dominant_emotion": "逆转-爽感释放",
+        "emotion_arc": "所有人绝望 → 所有人求她 → 闺蜜妈妈跪下 → 她平静叙述",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "爽到极致——看到前面欺负她的人一个个跪下求她"
+      },
+      "highlights": {
+        "peak_moment": "闺蜜妈妈跪下磕头说'小可，救救我女儿，阿姨给你磕头了'",
+        "peak_type": "power_shift",
+        "emotional_bomb": "从踹她到跪她——同一个人的180度翻转是M3的极致呈现",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "指挥官问'他们还有救吗？'——生死悬念在最爽的时刻注入"
+      },
+      "techniques": [
+        {
+          "technique": "M3精确回旋（同一人翻转）",
+          "example": "闺蜜妈妈从'田可，亏我把你当干女儿'(踹她)→'小可，救救我女儿，阿姨给你磕头了'(跪她)",
+          "effect": "同一个人的称呼变化（田可→小可）+姿态变化（踹→跪）构成极致对比"
+        },
+        {
+          "technique": "群体反转的精确措辞对照",
+          "example": "从'她就不配参加高考'→'快让她想办法救救我的孩子'",
+          "effect": "刻意让反转后的台词和之前的攻击台词形成语义镜像——回旋感最强"
+        },
+        {
+          "technique": "主角冷静陈述VS群体情绪失控",
+          "example": "所有人哭喊时，田可平静地说：'考场里的时间慢了一分钟。'",
+          "effect": "主角的冷静和周围人的崩溃形成温度反差——她的强大不是怒吼而是平静"
+        },
+        {
+          "technique": "重复句强化记忆",
+          "example": "她再次说出那句话：'考场里的时间慢了一分钟。'这次没人打断她。",
+          "effect": "同一句话第三次出现，前两次被嘲笑，这次所有人跪着听——重复产生回旋力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "这次没人打断我，更没人质疑我。他们都期待地等着我告诉他们真相。",
+          "structure": "这次没人X+他们都Y——对比句式",
+          "why_it_works": "和前面每次被打断的对照——同一个'我要说话'的场景，结果完全反转"
+        },
+        {
+          "text": "小可，救救我女儿，阿姨给你磕头了！",
+          "structure": "称呼变化+求救+极致让步——跪求句式",
+          "why_it_works": "称呼从'田可'变'小可'是态度转变的语言标记，磕头是M3偿还的极致形态"
+        },
+        {
+          "text": "我本来想让所有人都出来的。",
+          "structure": "我本来想+更大的善意——轻描淡写式高格局",
+          "why_it_works": "当所有人在求她时她说的不是'活该'而是'我本来想救更多'——人格升华"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发（群体绝望蓄力→翻转爆发→真相释放开始）",
+      "pacing_note": "靠M3偿还的连续爽感+真相即将揭露的期待双重驱动",
+      "chapter_end_hook": {
+        "text": "指挥官表情凝重：'他们还有救吗？'",
+        "hook_type": "question_bomb",
+        "hook_technique": "在最爽的时刻投入最重的问题——读者被拉回生死悬念",
+        "suspense_mechanism": "她知道怎么救吗？能救出来吗？闺蜜还活着吗？"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "title": "第8章",
+      "source_line_range": [331, 385],
+      "char_count": 1080,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 17.2,
+        "comma_period_ratio": 0.62,
+        "question_mark_density_per_1k": 3.7,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.70,
+        "sentence_avg_len": 17.8
+      },
+      "emotion": {
+        "dominant_emotion": "揭秘-沉重",
+        "emotion_arc": "平静叙述 → 童年回忆 → 爷爷的绝望 → 规则恐怖",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "智力上满足（终于知道真相），情感上沉重（爷爷的命运）"
+      },
+      "highlights": {
+        "peak_moment": "田可说出'我爷爷曾经的科研项目是时光机'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "不止是爷爷，整个科研基地的人全部自杀。我是唯一的幸存者。",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "时间乱流一旦发生，留给我们的逃跑时间，只有倒计时三分钟——前面的三分钟终于有了完整解释"
+      },
+      "techniques": [
+        {
+          "technique": "规则解释嵌入故事",
+          "example": "不是用说明文解释时间乱流，而是通过田可叙述12年前经历来'展示'规则",
+          "effect": "避免枯燥的设定解释，让信息释放伴随情感（爷爷的牺牲）"
+        },
+        {
+          "technique": "细节锚定真实感",
+          "example": "这枚手表是爷爷从瑞士定制送给我的，十多年来准确到一秒都不差。",
+          "effect": "用一个具体物件（瑞士定制手表）锚定'手表不可能坏'的可信度"
+        },
+        {
+          "technique": "恐怖来自不可见",
+          "example": "里面没有什么洪水猛兽，也没有任何超自然的事物。里面只有时间，乱掉的时间。",
+          "effect": "否定所有可见的恐怖来源后，用'时间本身'作为敌人——最抽象也最恐怖"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "里面没有什么洪水猛兽，也没有任何超自然的事物。里面只有时间，乱掉的时间。",
+          "structure": "没有X+没有Y+只有Z——排除式聚焦",
+          "why_it_works": "排除所有常规恐惧后指向一个更高维的敌人——时间本身不可对抗"
+        },
+        {
+          "text": "人类终究不能控制时间。",
+          "structure": "人类终究不能X——哲学性断言",
+          "why_it_works": "一句话把整个故事的主题拉到哲学高度——不是打怪而是面对宇宙规则"
+        },
+        {
+          "text": "他们不是自杀，他们是被时间杀死了。",
+          "structure": "不是A+是B——重新定义句式",
+          "why_it_works": "把'自杀'重新定义为'被时间杀死'——恐怖不是来自意志而是来自规则"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快（回忆段节奏稍慢→时间乱流描述加速→结论句急促）",
+      "pacing_note": "靠信息释放的智力快感+童年创伤的情感共鸣+规则恐怖的持续压迫",
+      "chapter_end_hook": {
+        "text": "时间乱流一旦发生，留给我们的逃跑时间，只有倒计时三分钟。",
+        "hook_type": "revelation_half",
+        "hook_technique": "把前面的三分钟完整解释但引出新问题——现在怎么办？",
+        "suspense_mechanism": "三分钟已经过了，里面的人还能救吗？怎么救？"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "title": "第9章",
+      "source_line_range": [386, 430],
+      "char_count": 900,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 2.2,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.78,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "悲壮-希望",
+        "emotion_arc": "爷爷的牺牲 → 规则明确 → 方案浮现 → 墙消失=行动开始",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "被爷爷的牺牲打动，同时看到希望——她有办法了"
+      },
+      "highlights": {
+        "peak_moment": "爷爷咬舌自尽，打破时间循环",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "爷爷的决绝——为了救所有人包括孙女而自杀",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "墙不见了。——两个字宣告行动开始"
+      },
+      "techniques": [
+        {
+          "technique": "眼神传递不可说的决定",
+          "example": "爷爷朝我看了一眼，慈爱的眼神和记忆里一样，又不一样。多了几分决绝。",
+          "effect": "不说'爷爷决定牺牲'，用眼神的微妙变化让读者自己意识到——更有冲击力"
+        },
+        {
+          "technique": "解决方案的逻辑自洽呈现",
+          "example": "只有从墙里出来的人才能重新进去。因为在我们出来的那一刻，对于我们来说，我们处在墙里，墙却还没形成。",
+          "effect": "规则类悬疑的核心爽感——逻辑闭环的快感"
+        },
+        {
+          "technique": "极短独立行作为转折宣告",
+          "example": "墙不见了。",
+          "effect": "三个字独占一行=全文最重要的行动信号，简洁到极致"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "慈爱的眼神和记忆里一样，又不一样。多了几分决绝。",
+          "structure": "一样+又不一样+多了X——微差描写句式",
+          "why_it_works": "用最微小的变化暗示最大的决定——决绝二字的重量在于前面的'慈爱'"
+        },
+        {
+          "text": "墙不见了。",
+          "structure": "主语+消失——最短转折句",
+          "why_it_works": "全文最重要的物理变化用最短的句子说出——极简=极有力"
+        },
+        {
+          "text": "上一次，研究基地只有我出来了，这一次，我一定要把大家都救出来！",
+          "structure": "上一次X+这一次Y——时间对比式决心宣言",
+          "why_it_works": "把过去的遗憾转化为当下的动力——读者跟着她一起热血"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快（回忆慢→方案确定→墙消失瞬间加速）",
+      "pacing_note": "靠情感（爷爷牺牲）+逻辑（方案自洽）+行动信号（墙消失）三层驱动",
+      "chapter_end_hook": {
+        "text": "墙不见了。",
+        "hook_type": "cliff_action",
+        "hook_technique": "用物理状态变化宣告行动开始——三个字=起跑枪声",
+        "suspense_mechanism": "她要进去了！能成功吗？校长/助理还在里面吗？"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "title": "第10章",
+      "source_line_range": [431, 490],
+      "char_count": 1050,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 1.9,
+        "direct_dialogue_rate": 0.25,
+        "short_line_rate_lte16": 0.66,
+        "impact_density": 0.88,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "英雄-释然",
+        "emotion_arc": "孤身行动 → 紧张对峙 → 一枪毙命 → 全员获救 → 身份揭示 → 超脱",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "痛快！一枪解决！然后被系统音效震到——原来她不是普通人"
+      },
+      "highlights": {
+        "peak_moment": "警察一枪击毙校长/助理",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "系统音效揭示救世主身份——前面所有受苦都获得宇宙级反讽",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "【叮！救世任务已完成】——最后的身份反转"
+      },
+      "techniques": [
+        {
+          "technique": "时间规则下的孤独行动",
+          "example": "没有人追我。监考老师对着空气依旧在劝我不要扰乱考场秩序。",
+          "effect": "时间循环中所有人是提线木偶，只有她是自由的——孤独感+超脱感"
+        },
+        {
+          "technique": "衔尾蛇符号暗示",
+          "example": "校长办公室里挂着一幅醒目的画。衔尾蛇。",
+          "effect": "用一个视觉符号暗示时间循环的本质——给读者的智力彩蛋"
+        },
+        {
+          "technique": "解决问题时的专业分工",
+          "example": "警察一枪终结了校长的生命。'同学，击杀罪犯这种事，还是让专业的人来做。'",
+          "effect": "不让主角亲手杀人（保持纯洁性），让专业人士执行——既合理又让主角人格完整"
+        },
+        {
+          "technique": "系统音效作为终极身份揭示",
+          "example": "【叮！救世任务已完成，即将传送至下一个任务点，请宿主做好准备！】",
+          "effect": "在所有事件解决后用一个'系统提示音'重构全文——她从头到尾都不是普通人"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "他们和当年研究基地里的人一样。只能做做过的事，说说过的话。",
+          "structure": "和X一样+只能A+只能B——重复式限制描写",
+          "why_it_works": "用平行句式描写被困在时间里的无力感——读者理解了时间乱流的恐怖"
+        },
+        {
+          "text": "小可，你是我们的骄傲！",
+          "structure": "名字+你是X——最简情感补偿句",
+          "why_it_works": "对应前面'我怎么教出这样的女儿'的精确偿还——同一对嘴说出相反的话"
+        },
+        {
+          "text": "这是我绑定救世主系统后经历时间最长的任务，长达十二年之久。",
+          "structure": "这是X后最Y的Z——信息倾泻式揭示",
+          "why_it_works": "一句话把12年的铺垫全部重新定义——她不是被卷入事件而是主动执行任务"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "前快后慢（行动快速→一枪毙命→收尾舒缓→系统音效=最后一击）",
+      "pacing_note": "靠行动紧凑感+一枪式解决的干脆+身份揭示的惊喜三层驱动",
+      "chapter_end_hook": {
+        "text": "一阵白光闪过，我出现在了下一个任务世界……",
+        "hook_type": "power_reversal",
+        "hook_technique": "暗示这是系列故事的一环——她还有更多任务世界",
+        "suspense_mechanism": "下一个任务是什么？她还会遇到什么？（系列钩子）"
+      }
+    }
+  ],
+  "global_soul_signature": "用一条微小规则异常（时钟慢一分钟）撬动千人生死，在群体否定的极致压迫中用信息差制造焦急感，最终以180度态度反转偿还所有情绪债——这是'孤勇者被污名→被正名'的最纯粹快节奏范本",
+  "character_voices": [
+    {
+      "role": "女主（田可）",
+      "speech_pattern": {
+        "avg_utterance_length": 16,
+        "口癖": ["你们相信我", "快离开", "真的有危险", "我没有"],
+        "语气词": [],
+        "句式特征": "简短祈使句+事实陈述，不解释不辩驳不抒情，急迫时重复同一核心信息",
+        "禁用词": ["其实", "或许", "可能", "我觉得", "对不起"],
+        "情绪表达方式": "通过身体反应（冷汗/攥拳/颤抖）和行动（跳窗/撕卷子）表达，几乎不用情绪形容词",
+        "典型台词示例": [
+          "别管高考了，快离开这里！",
+          "老师，我自愿放弃高考，请立刻带我离开考场。",
+          "考场里的时间慢了一分钟。"
+        ]
+      }
+    },
+    {
+      "role": "闺蜜（陈念）",
+      "speech_pattern": {
+        "avg_utterance_length": 18,
+        "口癖": ["小可", "你怎么", "我怎么可能"],
+        "语气词": ["呢", "吗", "吧"],
+        "句式特征": "先肯定后否定（先信后疑），带有明确的利益权衡语气，绝交时使用阶级碾压式句式",
+        "禁用词": ["对不起", "我错了", "随便你"],
+        "情绪表达方式": "通过语气变化和社会地位话语表达——从温柔到冷漠到碾压",
+        "典型台词示例": [
+          "小可，你怎么跑进来了？",
+          "不是我不相信你，你什么也不说，就是不让我高考，我怎么可能跟你胡闹呢？",
+          "以后我上清北，你高中毕业，我再也不想见你！"
+        ]
+      }
+    },
+    {
+      "role": "闺蜜妈妈",
+      "speech_pattern": {
+        "avg_utterance_length": 20,
+        "口癖": ["我女儿", "你个", "凭什么"],
+        "语气词": ["啊", "吧"],
+        "句式特征": "极端情绪化，前期用攻击性骂人句式，后期用跪求句式——两极没有中间状态",
+        "禁用词": ["冷静", "也许", "或者"],
+        "情绪表达方式": "通过身体暴力（踹/打）和极端语言直接宣泄，没有内敛",
+        "典型台词示例": [
+          "田可，亏我把你当干女儿看待，你竟然想毁了我女儿的未来！",
+          "你个贱人，你就是要害我女儿！",
+          "小可，救救我女儿，阿姨给你磕头了！"
+        ]
+      }
+    },
+    {
+      "role": "监考老师",
+      "speech_pattern": {
+        "avg_utterance_length": 22,
+        "口癖": ["最后一次警告", "你要想清楚", "不要"],
+        "语气词": [],
+        "句式特征": "权威式长句，带有道德教育口吻，用后果威胁（黑名单/刑事责任）",
+        "禁用词": ["请", "拜托", "我理解"],
+        "情绪表达方式": "从冷静警告→强硬制止→语重心长劝说，是制度权威的声音",
+        "典型台词示例": [
+          "钟用时间长了都会有偏差，又不影响你高考，赶快坐好！",
+          "读书十几载，为的就是高考。你要想清楚，站起来，你的书可就白读了。",
+          "你会被拉入高考黑名单，这辈子都别想高考！"
+        ]
+      }
+    },
+    {
+      "role": "田可妈妈",
+      "speech_pattern": {
+        "avg_utterance_length": 15,
+        "口癖": ["对不起", "都是我", "求您了"],
+        "语气词": ["啊", "吗"],
+        "句式特征": "卑微求情式+恨铁不成钢式，在外人面前极度低姿态，对女儿则失望训斥",
+        "禁用词": ["我女儿没错", "她是对的"],
+        "情绪表达方式": "哭+下跪+道歉——用身体的卑微表达情绪",
+        "典型台词示例": [
+          "对不起，都是我没有教育好女儿。",
+          "田可，你为什么还在撒谎？你真的想去坐牢吗？",
+          "小可，你是我们的骄傲！"
+        ]
+      }
+    }
+  ]
+}

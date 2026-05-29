@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "evidence": [
+    {
+      "type": "causality_pass",
+      "scene": "scene-03",
+      "quote": "本王亲手做的灯，谁砸的？",
+      "assessment": "走马灯牵出靖王，物件因果成立。"
+    },
+    {
+      "type": "causality_pass",
+      "scene": "scene-06",
+      "quote": "沈照晚借哨调舟，是本将准的。",
+      "assessment": "铜哨牵出镇海将军，反转有凭证。"
+    },
+    {
+      "type": "causality_pass",
+      "scene": "scene-08",
+      "quote": "是朕题的谜。谜底是归舟。",
+      "assessment": "瓦舍灯帖牵出皇帝，旧识凭证成立。"
+    },
+    {
+      "type": "logic_failure",
+      "scene": "scene-07_to_scene-08",
+      "quote": "沈母抽走了我袖中的灯帖；我把真正的瓦舍灯帖往案上一拍。",
+      "assessment": "真假帖调包可推测但未现场交代，关键证物链有断点。"
+    },
+    {
+      "type": "logic_failure",
+      "scene": "scene-11_to_scene-12",
+      "quote": "谢兰舟夹起瓶塞闻了闻，脸色冷下来；三日后夜里，我回了沈家小祠堂。",
+      "assessment": "迷香已被识破后仍放任沈家继续设局，缺少女主反放线或装作未察觉的明确桥段。"
+    },
+    {
+      "type": "sensitive_boundary_pass",
+      "scene": "scene-09",
+      "quote": "沈云姣给的，只说门一开，我们站得近些就成。别的我们没敢想！",
+      "assessment": "私会局没有实际侵害描写，风险边界控制住。"
+    },
+    {
+      "type": "sensitive_boundary_pass",
+      "scene": "scene-12",
+      "quote": "我没中香。",
+      "assessment": "迷香局未写身体失控或非自愿暧昧，处理为犯罪证据。"
+    }
+  ],
+  "failures": [
+    "灯帖真假证物链需要补一行。",
+    "迷香二次局需要补反设局桥段。"
+  ]
+}

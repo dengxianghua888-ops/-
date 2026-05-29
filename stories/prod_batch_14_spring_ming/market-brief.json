@@ -1,0 +1,201 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [
+      10000,
+      30000
+    ]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "tomato_preferred_chars": [
+      500,
+      800
+    ],
+    "median_chars": 650,
+    "required_chapter_end_hook": true
+  },
+  "hook_policy": {
+    "golden_hook": "前300字必须完成强刺激：濒死/背叛/误判/不可逆伤害至少命中2项",
+    "micro_hook_interval_chars": [
+      800,
+      1200
+    ],
+    "paywall_card_interval_chars": [
+      2500,
+      3500
+    ],
+    "first_chapter_hook_score_min": 9,
+    "hook_types_preferred": [
+      "H2 死后旁观信息差",
+      "H3 不可逆离场",
+      "H1 极端背叛开局"
+    ]
+  },
+  "market_positioning": {
+    "genre": "现代虐恋BE / 追妻火葬场 / 死后悔悟",
+    "core_reader_promise": "看被误解、被抛弃、被替身夺走一切的女主，在死亡后让男主亲眼看清真相，完成迟来悔悟与不可追回的情绪清算。",
+    "dominant_selling_points": [
+      "极致错付后的不可逆死亡",
+      "男主误判女主装病、争宠、作恶，真相层层反噬",
+      "女主死后灵魂旁观，冷眼看施害者崩溃",
+      "恶女闺蜜被揭穿并遭报应",
+      "结尾重生/新生补偿，女主脱离原伤害关系"
+    ],
+    "tomato_fit_score_target": 8.6
+  },
+  "audience": {
+    "target_readers": [
+      "18-35岁偏女性读者",
+      "偏好虐恋、火葬场、替身夺爱、死后悔悟、重生补偿的短篇读者",
+      "接受高强度情绪压迫，但需要明确清算和不可逆爽点的读者"
+    ],
+    "emotional_needs": [
+      "替受害者被看见、被证明清白",
+      "让迟钝冷血男主付出无法挽回的代价",
+      "让伪善第三者公开败露并被惩罚",
+      "用死亡、离场或重生完成关系切割",
+      "最后不复合，保留女主尊严"
+    ],
+    "topic_taboos": [
+      "不得美化强迫、囚禁、性暴力或受害者羞辱",
+      "不得让女主原谅主要施害者",
+      "不得把男主悔悟写成HE复合奖励",
+      "不得把恶女报应写成猎奇爽点过度展开",
+      "不得用血缘、养育恩、爱情为长期伤害洗白",
+      "避免未成年人亲密关系正向描写",
+      "避免过量生理虐待细节导致平台审核风险"
+    ],
+    "acceptable_intensity": {
+      "abuse_description": "高强度但以结果、创伤反应、证据呈现为主，减少直白过程描写",
+      "revenge_description": "强调法律、舆论、因果反噬和心理崩塌，避免具体私刑教程化",
+      "romance_resolution": "女主必须脱离男主，男主只承担悔恨与代价"
+    }
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formulas": [
+      {
+        "id": "T1",
+        "formula": "我死后，男主才知道X真相",
+        "examples": [
+          "我死后，哥哥才知我在战区三年",
+          "我死后，他亲手拆穿了未婚妻"
+        ],
+        "best_for": "死后悔悟、真相反噬"
+      },
+      {
+        "id": "T2",
+        "formula": "他为白月光弃我X年，我死后他疯了",
+        "examples": [
+          "他为闺蜜弃我三年，我死后他疯了",
+          "他把我留在战区后，悔疯了"
+        ],
+        "best_for": "背叛开局、追妻火葬场"
+      },
+      {
+        "id": "T3",
+        "formula": "被他认定装病后，我真的死了",
+        "examples": [
+          "他骂我伪造病历后，我真的死了",
+          "他说我装可怜，可我只剩七天"
+        ],
+        "best_for": "病弱虐恋、误判反杀"
+      },
+      {
+        "id": "T4",
+        "formula": "婚礼前X天，我给自己刻了牌位",
+        "examples": [
+          "他婚礼前七天，我给自己刻了牌位",
+          "她戴上我的玉镯后，我给自己立碑"
+        ],
+        "best_for": "强画面钩子、死亡倒计时"
+      }
+    ]
+  },
+  "structure_constraints": {
+    "recommended_chapters": [
+      {
+        "range": "1-2",
+        "function": "强虐开局：女主被接回、发现男主将娶闺蜜、病情和创伤埋钩",
+        "payoff": "读者确认男主误判严重，女主不是争宠而是将死"
+      },
+      {
+        "range": "3-5",
+        "function": "连续羞辱与证据埋设：海鲜过敏、洗尘宴、旧伤、猫、日记曝光",
+        "payoff": "每章至少一次误解升级，结尾留身体崩坏或真相线索"
+      },
+      {
+        "range": "6-8",
+        "function": "付费级压迫：抽血、灵牌被毁、片场陷害、跳楼死亡",
+        "payoff": "死亡必须不可逆，男主悔悟不能立刻抵消伤害"
+      },
+      {
+        "range": "9-12",
+        "function": "死后旁观与真相清算：病历、战区经历、闺蜜陷害、男主责任",
+        "payoff": "男主精神崩塌，反派败露，女主保持冷感"
+      },
+      {
+        "range": "13-15",
+        "function": "终局补偿：女主新生、男主代价、关系彻底切断",
+        "payoff": "不复合，以女主自由作为最终爽点"
+      }
+    ],
+    "paywall_cards": [
+      "第3000字左右：男主强迫女主为闺蜜输血，护士提示濒危仍继续",
+      "第6000字左右：女主灵牌被砸，粉丝围攻，医生宣布只剩一周",
+      "第9000字左右：片场陷害后女主跳楼，男主亲眼看见",
+      "第12000字左右：医生揭开骨癌和旧伤真相，男主第一次崩塌",
+      "第15000字左右：查明闺蜜与战区迫害有关，女主得知男主也参与抛弃"
+    ]
+  },
+  "style_constraints": {
+    "pov": "第一人称或贴近女主的第三人称均可，优先保持女主受害体验和死后旁观冷感",
+    "sentence_style": "短句推进，高情绪段落用动作、伤口、声音、物件承载情绪",
+    "dialogue_ratio_target": [
+      0.28,
+      0.38
+    ],
+    "forbidden_ai_flavor": [
+      "然而",
+      "总而言之",
+      "不禁",
+      "心中涌起",
+      "深吸一口气",
+      "宛如命运的齿轮",
+      "眼中闪过一丝",
+      "嘴角微微上扬",
+      "空气仿佛凝固"
+    ],
+    "preferred_imagery": [
+      "病历单",
+      "航空箱",
+      "断指",
+      "平安扣",
+      "玉镯",
+      "灵牌",
+      "冰棺",
+      "红绸",
+      "旧日记"
+    ]
+  },
+  "success_metrics": {
+    "completion_desire_score_target": 92,
+    "paywall_point_score_target": 90,
+    "emotion_release_score_target": 88,
+    "ai_flavor_score_target": 95,
+    "plot_bomb_density_score_target": 90,
+    "chapter_hook_coverage_target": 1.0,
+    "micro_hook_density_target": "每800-1200字至少1个有效微钩",
+    "major_reversal_density_target": "每2500-3500字至少1个付费级卡点",
+    "originality_requirement": {
+      "max_source_overlap_chars": 120,
+      "max_repeated_substring_chars": 260,
+      "strategy": "保留错付-死亡-真相-新生情绪曲线，替换人物职业、核心伤害场景、关键物件和反派作恶机制"
+    }
+  }
+}

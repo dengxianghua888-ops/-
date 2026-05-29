@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "星潮总部顶层/通讯连线（陈奕远程得知消息）",
+  "time": "仪式完成后不久",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "陈奕（远程/电话）"],
+  "character_goal": "季霄要公开宣告——让整个行业知道苏念是他的人",
+  "opposition_goal": "陈奕得知消息后的困惑/愤怒（远程反应）",
+  "conflict_action": "季霄当众/通过行业渠道宣布与苏念的关系，同时对陈奕说出'她只是要跟我结婚了，但封杀你赢了'的嘲讽",
+  "information_gap": "陈奕被告知却无法确认真假——'这个游戏宅凭什么？'的困惑悬置",
+  "emotional_debt_delta": "M5温度曲线推进——陈奕从傲慢进入困惑阶段",
+  "payoff_or_hook": "章末：苏念走远没听清后面的话，直到盛典那天才有了陈奕的消息——时间跳跃+悬念",
+  "chapter_end_hook": "苏念没听清陈奕说了什么，直到平台年度盛典那天才有了他的消息——'他要搞事'的预感",
+  "paywall_card": true,
+  "must_include": [
+    "季霄的公开宣告（简短有力，含'我太太'或'订婚'关键词）",
+    "对陈奕的嘲讽回应（'封杀你赢了，你应该高兴的'）",
+    "苏念走远/信息切断的动作",
+    "时间跳跃到盛典——用一句话完成"
+  ],
+  "must_not_write_as_exposition": [
+    "陈奕的详细反应过程",
+    "这段时间发生了什么",
+    "盛典是什么活动的详细介绍"
+  ],
+  "rhythm_job": {
+    "shape": "宣告→嘲讽→切断→跳跃",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 15.5,
+    "dominant_emotion": "爽快-余韵",
+    "emotion_arc": "宣告的爽快 → 嘲讽的轻盈 → 信息切断 → 悬念投放",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "痛快！同时紧张——陈奕不会善罢甘休",
+    "required_techniques": [
+      {
+        "technique": "当众宣告——舞台化公开",
+        "instruction": "公开场合+'我太太'+'尊重'三个关键词——既是宣誓主权也是给陈奕当众打脸"
+      },
+      {
+        "technique": "回旋打脸的语言版",
+        "instruction": "'她只是要跟我结婚了，但封杀你赢了'——把'娶走你女人'说得像小事，降格处理是最高级嘲讽"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "让步句+转折+反讽建议",
+        "example": "她只是要跟我结婚了，但封杀你赢了，你应该高兴的。",
+        "instruction": "把碾压性的事实用安慰的口吻说出来——'你在乎的东西我不在乎'的姿态"
+      }
+    ],
+    "peak_type": "cliff_action",
+    "bomb_technique": "信息切断+时间跳跃",
+    "source_excerpt": "\"我跟沈闻订婚，八天后请大家喝喜酒。希望大家以后对我太太尊重一点，谢谢。\"\"她只是要跟我结婚了，但冷战你赢了，你应该高兴的。\"我走的远了，后面的话，我一句没听清。直到结婚那天，才有了顾呈阳的消息。"
+  }
+}

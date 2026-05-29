@@ -1,0 +1,177 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_13_customs_package/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 12500,
+      "actual": 10300,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        729,
+        685,
+        701,
+        681,
+        670,
+        644,
+        623,
+        633,
+        648,
+        699,
+        653,
+        745,
+        667,
+        740,
+        660
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 89,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 14,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10300,
+      "sentence_count": 510,
+      "avg_sentence_length": 19.196,
+      "dialogue_ratio": 0.1946,
+      "question_marks": 30,
+      "question_marks_per_k": 2.913,
+      "physical_emotion_hits": {
+        "后槽牙": 1,
+        "手心": 1,
+        "喉咙": 3
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 25.34
+    },
+    "semantic_repetition": {
+      "sentence_count": 420,
+      "unique_sentence_skeletons": 420,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0024
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "evidence": [
+    {
+      "category": "platform",
+      "quote": "我把三十斤茶样送进平台华东智能监管仓时，离晚八点的直播排期只剩六个小时。",
+      "reason": "开篇同时给出货物、地点、倒计时和商业风险，具备点击欲。"
+    },
+    {
+      "category": "platform",
+      "quote": "屏幕底部跳着红字：A 级珍品风险，疑似百年古树茶王春采头批，系统估值两千万。",
+      "reason": "核心荒诞冲突提前亮出。"
+    },
+    {
+      "category": "platform",
+      "quote": "八百万到账后，林照没有提货，只把空白确认单推回去：货名、数量、估值、收费依据，一个字都不能少。",
+      "reason": "付费后反向索证，形成强卡点。"
+    },
+    {
+      "category": "emotion",
+      "quote": "八百万不是数字，是茶厂三年的命。",
+      "reason": "生存债明确落到工厂现金流。"
+    },
+    {
+      "category": "emotion",
+      "quote": "姐姐在电话里骂我：林照，你是不是被人骗了？",
+      "reason": "亲情信任债现场化。"
+    },
+    {
+      "category": "emotion",
+      "quote": "八百万退回。滞纳金退回。平台冻结货款解冻。停业损失补偿到账。",
+      "reason": "经济债逐项偿还。"
+    },
+    {
+      "category": "style",
+      "quote": "赵启明突然跨前一步，手指直奔文件袋。",
+      "reason": "用动作呈现抢证据，而非解释反派心虚。"
+    },
+    {
+      "category": "style",
+      "quote": "剪刀咔嚓一声咬住封条。",
+      "reason": "物理化强，画面清晰。"
+    },
+    {
+      "category": "style",
+      "quote": "系统怎么评，你就怎么判。",
+      "reason": "前后金句回旋，有爽文记忆点。"
+    },
+    {
+      "category": "logic",
+      "quote": "我不是来吵乱收费。我是根据平台仓出具的正式估价和保价确认，主张我的高价值货物在监管区域内灭失或被调换。",
+      "reason": "报案口径明确，避免恶意报假警风险。"
+    },
+    {
+      "category": "logic",
+      "quote": "民警没有立刻表态。他先看完确认单，又核对转账流水上的收款公司，再让我重复一遍报案诉求。",
+      "reason": "执法介入有证据前置，不是无条件偏袒主角。"
+    },
+    {
+      "category": "logic",
+      "quote": "平台总部风控是在二十分钟后接入的。",
+      "reason": "平台总部作为风控和整改方介入，未将平台整体写成黑恶组织。"
+    }
+  ]
+}

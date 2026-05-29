@@ -1,0 +1,31 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_dd9504e6cb",
+  "title": "她跪在雨里求我回头，我删了她所有联系方式",
+  "genre": "family_ethics",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "被七年恋人背叛的清醒男主拒绝沉没成本，让背叛者被第三者反噬",
+    "new_setting": "被五年未婚妻背叛的清醒男主，发现她为前男友挪用婚房首付，选择彻底抽离，让背叛者被自己的选择反噬",
+    "character_map": {
+      "姜言→顾深": "男主，被五年未婚妻背叛后清醒抽离，拒绝沉没成本",
+      "周慧→林舒": "女主/反派，五年未婚妻，为前男友挪用婚房首付，最终被反噬",
+      "林晚亭→陈屿": "第三者/前男友，抑郁症人设，控制欲强，最终反噬林舒",
+      "陆雨→方瑶": "闺蜜，帮林舒道德绑架男主",
+      "顾婷萱→苏晚": "男主新妻，温柔独立"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "订婚宴前夕的裂缝", "min_impacts": 4, "must_include": ["男主发现未婚妻为前男友挪用婚房首付", "订婚宴当天前男友以自杀威胁", "未婚妻逃席"]},
+    {"beat_id": "B2", "title": "婚宴被改成前男友庆功宴", "min_impacts": 3, "must_include": ["男主发现酒席被挪用", "追回定金", "冷怒清醒"]},
+    {"beat_id": "B3", "title": "闺蜜羞辱与病倒", "min_impacts": 3, "must_include": ["闺蜜当众羞辱男主", "男主反击", "淋雨病倒无人问"]},
+    {"beat_id": "B4", "title": "病房二次抛弃", "min_impacts": 4, "must_include": ["未婚妻来病房不是关心而是逼道歉", "提出给前男友买房", "男主判定不爱了"]},
+    {"beat_id": "B5", "title": "对照心寒与搬离", "min_impacts": 3, "must_include": ["看见她为前男友做从不为自己做的事", "忘记男主过敏", "男主打包搬离"]},
+    {"beat_id": "B6", "title": "抢家具与孩子筹码", "min_impacts": 4, "must_include": ["未婚妻带前男友上门抢东西", "男主母亲被欺负", "男主爆发甩证据"]},
+    {"beat_id": "B7", "title": "孩子绑架与决绝拒绝", "min_impacts": 3, "must_include": ["未婚妻拿怀孕求复合", "前男友再次威胁", "她仍选择前男友", "男主彻底拒绝"]},
+    {"beat_id": "B8", "title": "律所断情", "min_impacts": 3, "must_include": ["男主说是我不要你了", "法律切割", "注销联系方式"]},
+    {"beat_id": "B9", "title": "三年跃迁与前任互噬", "min_impacts": 3, "must_include": ["男主事业成功新家庭幸福", "前男友举报未婚妻", "两人结婚互相折磨"]},
+    {"beat_id": "B10", "title": "降维无视与社会性死亡", "min_impacts": 4, "must_include": ["偶遇时男主彻底无视", "新妻孩子出现碾压", "注销号码真相揭露", "未婚妻社会性死亡"]}
+  ]
+}

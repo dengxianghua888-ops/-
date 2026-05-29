@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "学校操场角落 → 跑回家的路上 → 家门口",
+  "time": "志愿填报日下午",
+  "pov": "苏念",
+  "characters": ["苏念", "顾瑶", "叶东辰", "苏建国", "林秀兰"],
+  "character_goal": "苏念面对顾瑶的撕破脸攻击保持冷静碾压，然后回家确认父母安全",
+  "opposition_goal": "顾瑶被揭穿后恼羞成怒，试图用言语羞辱摧毁苏念的自尊；叶东辰试图护住顾瑶",
+  "conflict_action": "顾瑶撕掉面具直接炫耀'我演了三年穷，演得想吐'，苏念冷静回击后叶东辰挡在顾瑶前面",
+  "information_gap": "顾瑶以为苏念只发现了SUV的事，不知道苏念知道她和叶东辰的全部阴谋",
+  "emotional_debt_delta": "顾瑶的撕面具台词让情绪债再加码——读者恶心到需要物理反击才能释放",
+  "payoff_or_hook": "苏念用一句冷句碾压后转身跑回家，看到父母活着的瞬间崩溃——反差催泪",
+  "chapter_end_hook": "苏念跑回家看到父母正收拾东西准备陪她去确认志愿，外壳碎裂眼泪决堤",
+  "paywall_card": true,
+  "must_include": [
+    "顾瑶撕面具的核心台词：承认装穷三年、把苏念当笑话",
+    "叶东辰挡在顾瑶前面的身体本能",
+    "苏念的冷句反击（不超过两句）",
+    "跑回家路上的一句内心独白",
+    "看到父母活着的瞬间反应"
+  ],
+  "must_not_write_as_exposition": [
+    "顾瑶装穷的具体手法（不要列举清单）",
+    "苏念为什么哭（用动作不用解释）",
+    "父母在做什么的详细描写（一句话带过即可）"
+  ],
+  "rhythm_job": {
+    "shape": "波浪起伏",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.2,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "恶心-痛快",
+    "emotion_arc": "恶心（顾瑶炫耀）→ 愤怒 → 冷静碾压 → 奔跑 → 温暖崩溃",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "先被顾瑶恶心到想吐，再被苏念的冷静震撼，最后被见到父母的崩溃暖哭",
+    "required_techniques": [
+      {
+        "technique": "面具撕裂对比",
+        "instruction": "顾瑶前一秒还在'苏念我们好好说'的温柔，被拒绝后瞬间切换成赤裸裸的阶层碾压——人格切换之快让人脊背发凉"
+      },
+      {
+        "technique": "冷句收尾",
+        "instruction": "苏念不骂不吵，只用一句话否定整段关系：'我家穷得只剩彼此了，你偷的不是名额，是命。'——然后转身走"
+      },
+      {
+        "technique": "对比反差收束",
+        "instruction": "从冰冷的校园对峙切到温暖的家门口——坚强外壳只在父母面前才碎"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "表面体贴语气+实质羞辱内容",
+        "example": "我帮你试过了，钟然很厉害。",
+        "instruction": "顾瑶用闺蜜之间的悄悄话语气说最恶毒的内容：'你知道最恶心的是什么吗？你还真的把我当姐妹了。'"
+      },
+      {
+        "structure": "对方炫耀词+反向回敬",
+        "example": "厉害你就自己留着用吧。",
+        "instruction": "苏念不接招不生气，用对方的词堵回去——冷静本身就是降维打击"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "对比式",
+    "source_excerpt": "「我帮你试过了，钟然很厉害。」前一秒还在炫耀。听到脚步声：干脆地跪了下去。眼泪瞬间流出来，梨花带雨。「颜颜对不起，是我勾引钟然……」我抬脚朝他下面踢了上去。他马上痛得弯下腰。「这样打够劲吗？」我冷笑。我摔门走了。一刻不停地跑回家。看到爸妈一边收拾行李一边聊天。我彻底绷不住了，眼泪瞬间决堤。"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "祖宅会议厅续场",
+  "time": "当晚稍后",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "秦月眠", "陆老爷子", "董事会成员", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想确认秦月眠和陆砚辞到底有没有那层关系。",
+  "opposition_goal": "秦月眠想借众人在场，把婚约和白月光身份彻底钉死。",
+  "conflict_action": "秦月眠拿同框旧闻和联姻旧话再逼一步，陆砚辞当众取消她项目资格并否认全部暧昧。",
+  "information_gap": "既然没有感情，秦月眠为什么能进陆家局；温瓷在他心里到底是什么位置。",
+  "emotional_debt_delta": {
+    "安全感债": "-3",
+    "替身债": "-1"
+  },
+  "payoff_or_hook": "白月光线必须被公开切割，而不是私下解释。",
+  "chapter_end_hook": "陆砚辞看着所有人，说温瓷不是替身，是他三年前故意去找的人。",
+  "paywall_card": false,
+  "must_include": [
+    "秦月眠最后一次上桌施压",
+    "陆砚辞明确否认暧昧",
+    "项目资格或舞台资源被切走",
+    "3条以上弹幕，其中至少1条吐槽型"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成长时间互骂",
+    "不要让秦月眠再赢一轮",
+    "不要把切割放到场外"
+  ],
+  "rhythm_job": {
+    "shape": "挑衅再起-男主切割-弹幕翻车-真相前摇",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 3,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "对白4成，动作3成，弹幕2成，章尾钩1成"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10500
+  },
+  "title": "她拿凤位织命录，我献逆龙工册",
+  "genre": "古言重生复仇 / 穿越女攻略书翻车 / 皇权打脸 / 帝后共治爽文",
+  "mechanisms": [
+    "M3 因果回旋反讽：《凤位织命录》从继妹上位攻略反转为《逆龙工册》谋逆证据",
+    "M6 多层递进反转：献书、暗查、贡缎宴废储、县主掌家、诏狱互咬、帝后共治",
+    "M2 身份反差爆发：沈知微从绣房后库弃女升为清河县主、皇后与共治者",
+    "M1 证据死环：龙袍暗线、私矿银票、禁军甲片、军械账互相锁死太子狡辩"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "景元帝把《逆龙工册》按在御案上，问她：若查不出，你拿什么赔朕的疑心？"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 780,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "沈知微踏进沈家后库，门闩在身后落下，沈明珠手里正转着那枚织金莲纹梭。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 780,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "萧承煜从绣屏后走出，袖口露出一截不该出现在东宫的龙纹暗线。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 790,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "宫里退回的贡缎盒被打开，夹层里躺着一枚禁军甲片。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 790,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "暗查的内侍合上账册，低声道：江南私矿的银票，落款是东宫。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 790,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "万寿贡缎宴前夜，沈明珠把凤冠样纸摊在沈知微脚边：明日，你跪着看我入东宫。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 1050,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "贡缎刚铺上御前，殿外内侍高唱：圣旨到。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 1050,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "第一道圣旨读完，萧承煜的太子金册被当众收走。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 1050,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "第二道圣旨落下，沈知微被赐封清河县主，沈嵘的织造印却被封进朱匣。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 1050,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "诏狱灯火一晃，沈明珠听见太子说：本宫宠你，只因你手里有未来。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 800,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "宗人府供词呈上御案，最后一页写着沈嵘的私印。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 810,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "萧怀璟把新织贡赋册推到她面前：这天下棋局，你我共弈如何？"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "御书房",
+      "character_goal": "沈知微在重生第一天把默写出的《凤位织命录》改成《逆龙工册》献给景元帝",
+      "conflict_action": "她当面递书、亮出龙纹暗线注解，并请皇帝按书中节点暗查东宫",
+      "information_gap": "皇帝尚不知书是真是假，读者也只知道女主握有前世记忆与亡母纹样",
+      "emotion_debt_balance": {
+        "collect": ["前世惨死", "沈家满门被抄", "继妹靠攻略夺凤位"],
+        "payoff": ["女主先一步夺走攻略解释权"]
+      },
+      "chapter_end_hook": "景元帝把《逆龙工册》按在御案上，问她：若查不出，你拿什么赔朕的疑心？",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要把献书写成旁白复述", "不能让皇帝无脑相信女主"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "沈家绣房后库",
+      "character_goal": "沈知微回府后保住亡母织金莲纹梭与贡缎秘谱线索",
+      "conflict_action": "沈嵘命人锁门，沈明珠抢走纹梭并把馊饭推到女主脚边",
+      "information_gap": "沈明珠不知道女主已经献出《逆龙工册》",
+      "emotion_debt_balance": {
+        "collect": ["父亲偏心", "亡母遗物被夺", "嫡女被囚"],
+        "payoff": ["女主确认继妹仍按前世节点行动"]
+      },
+      "chapter_end_hook": "沈知微踏进沈家后库，门闩在身后落下，沈明珠手里正转着那枚织金莲纹梭。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能洗白偏心父亲", "不要写苦难清单"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "沈家前厅绣屏旁",
+      "character_goal": "沈知微诱使太子露出对龙袍暗线的熟悉",
+      "conflict_action": "她故意提起贡缎禁纹，萧承煜出面呵斥并下令沈家交出秘谱",
+      "information_gap": "太子以为自己只是压服沈家女，读者看到袖口暗线开始吻合工册",
+      "emotion_debt_balance": {
+        "collect": ["太子羞辱", "沈家逼女主交秘谱"],
+        "payoff": ["太子第一次把自己送进证据链"]
+      },
+      "chapter_end_hook": "萧承煜从绣屏后走出，袖口露出一截不该出现在东宫的龙纹暗线。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要连续解释织造规制", "太子不能写成真情护短"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 750,
+      "target_chars_max": 830,
+      "scene_location": "沈家账房与贡缎库",
+      "character_goal": "沈知微把退回贡缎盒中的夹层证据引到沈家人面前",
+      "conflict_action": "她借查破损贡缎打开夹层，让禁军甲片掉在沈嵘脚边",
+      "information_gap": "甲片是谁塞入贡缎盒仍未明示，但它与《逆龙工册》节点相扣",
+      "emotion_debt_balance": {
+        "collect": ["沈嵘逼女主认错", "沈明珠炫耀太子撑腰"],
+        "payoff": ["第一件实物证据落地"]
+      },
+      "chapter_end_hook": "宫里退回的贡缎盒被打开，夹层里躺着一枚禁军甲片。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁用AI套话", "不要复述协议条款", "不要把甲片来源写成说明文"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 750,
+      "target_chars_max": 830,
+      "scene_location": "江南织造局暗账房",
+      "character_goal": "皇帝派出的内侍按《逆龙工册》查到江南私矿银票",
+      "conflict_action": "内侍翻账、比对水印、抽出东宫落款银票并密封送京",
+      "information_gap": "景元帝是否会立刻动太子仍未知",
+      "emotion_debt_balance": {
+        "collect": ["女主仍被沈家看作疯女", "皇帝继续试探"],
+        "payoff": ["皇权暗查开始验证女主"]
+      },
+      "chapter_end_hook": "暗查的内侍合上账册，低声道：江南私矿的银票，落款是东宫。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要写大段财税科普", "不要让内侍替女主总结胜利"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 750,
+      "target_chars_max": 830,
+      "scene_location": "万寿贡缎宴前夜的沈家绣厅",
+      "character_goal": "沈知微稳住低位，等沈明珠把最得意的凤冠样纸拿出来",
+      "conflict_action": "沈明珠逼她缝凤冠垂带，沈嵘命她明日以粗布衣入宴献丑",
+      "information_gap": "沈家不知道万寿宴会变成废储现场",
+      "emotion_debt_balance": {
+        "collect": ["继妹夺荣耀", "父亲公开贬低嫡女"],
+        "payoff": ["反派把炫耀物摆到公开舞台前"]
+      },
+      "chapter_end_hook": "万寿贡缎宴前夜，沈明珠把凤冠样纸摊在沈知微脚边：明日，你跪着看我入东宫。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要写女主内心长篇委屈", "不能让女主求父亲改口"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 960,
+      "target_chars_max": 1140,
+      "scene_location": "万寿贡缎宴正殿",
+      "character_goal": "沈知微让贡缎、凤冠样纸与太子贺礼同时摆到御前",
+      "conflict_action": "她跪献贡缎时故意抽开暗线，逼出龙纹与凤冠图样的对应",
+      "information_gap": "圣旨未读，众人仍以为沈明珠即将得赐婚",
+      "emotion_debt_balance": {
+        "collect": ["众人嘲笑粗布嫡女", "太子准备当众抬举继妹"],
+        "payoff": ["证据被放到最大公开场"]
+      },
+      "chapter_end_hook": "贡缎刚铺上御前，殿外内侍高唱：圣旨到。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": ["禁用AI套话", "不要写宾客反应清单", "不要把宴会写成流程说明"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 960,
+      "target_chars_max": 1140,
+      "scene_location": "万寿贡缎宴御前",
+      "character_goal": "沈知微借第一道圣旨完成废储公开打脸",
+      "conflict_action": "内侍宣读废储旨意，侍卫收走太子金册，沈知微递上甲片与银票封套",
+      "information_gap": "沈明珠仍不明白攻略书为何会反咬自己",
+      "emotion_debt_balance": {
+        "collect": ["太子权势压迫", "前世男主光环"],
+        "payoff": ["太子失去储君身份"]
+      },
+      "chapter_end_hook": "第一道圣旨读完，萧承煜的太子金册被当众收走。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": ["禁用AI套话", "太子不能靠深情辩解脱身", "不要扩写朝堂制度背景"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 960,
+      "target_chars_max": 1140,
+      "scene_location": "万寿贡缎宴殿中",
+      "character_goal": "沈知微接住第二、第三道圣旨，把沈家家权从沈嵘手中夺下",
+      "conflict_action": "景元帝册封她为清河县主，查封织造局，令她暂管沈家贡缎账册",
+      "information_gap": "沈嵘是否会供出更多东宫往来仍悬着",
+      "emotion_debt_balance": {
+        "collect": ["父亲掌生死", "沈家羞辱"],
+        "payoff": ["父亲家权被夺，女主身份翻牌"]
+      },
+      "chapter_end_hook": "第二道圣旨落下，沈知微被赐封清河县主，沈嵘的织造印却被封进朱匣。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": ["禁用AI套话", "不能让沈知微原谅父亲", "不要写县主册封成空洞荣耀"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 960,
+      "target_chars_max": 1140,
+      "scene_location": "诏狱织案房",
+      "character_goal": "沈知微让沈明珠亲耳听见太子利用她的真相",
+      "conflict_action": "她隔着牢门递出残页，迫使萧承煜承认自己早知预知册价值",
+      "information_gap": "太子和沈明珠会在宗人府攀咬出谁仍未揭晓",
+      "emotion_debt_balance": {
+        "collect": ["继妹自认凤命", "太子伪装宠爱"],
+        "payoff": ["继妹女主梦坍塌，太子露出利用本质"]
+      },
+      "chapter_end_hook": "诏狱灯火一晃，沈明珠听见太子说：本宫宠你，只因你手里有未来。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": ["禁用AI套话", "不要把穿越女整体污名化", "不要让太子显得可怜"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 760,
+      "target_chars_max": 840,
+      "scene_location": "宗人府审讯厅",
+      "character_goal": "沈知微收束供词，让太子、沈明珠、沈嵘互相咬出证据闭环",
+      "conflict_action": "她按页翻供词，先放太子供状，再放沈明珠残页，最后摊开沈嵘私印",
+      "information_gap": "沈家能否保住最低族产，要看沈知微是否接管清账",
+      "emotion_debt_balance": {
+        "collect": ["反派互相利用", "沈父求保命"],
+        "payoff": ["谋逆证据闭环完成，父亲跪求无用"]
+      },
+      "chapter_end_hook": "宗人府供词呈上御案，最后一页写着沈嵘的私印。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁用AI套话", "不要写审讯法条清单", "不能用父亲忏悔换和解"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 770,
+      "target_chars_max": 850,
+      "scene_location": "新东宫议事书房",
+      "character_goal": "沈知微证明自己能清盐织贡赋，与萧怀璟形成共治盟约",
+      "conflict_action": "她改完贡赋册，划掉沈家旧暗账，递给萧怀璟三条可执行新规",
+      "information_gap": "结尾用共弈邀请闭合命运改写，不再开新悬念",
+      "emotion_debt_balance": {
+        "collect": ["前世被当棋子", "今生被看作弃女"],
+        "payoff": ["女主成为执棋者与治世共主"]
+      },
+      "chapter_end_hook": "萧怀璟把新织贡赋册推到她面前：这天下棋局，你我共弈如何？",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要写改革长论", "不能让七皇子替女主赢"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 12,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0,
+    "min_evidence_reversals_per_chapter": 1
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [24, 34],
+    "short_line_rate_lte_16_min": 0.28,
+    "short_line_rate_lte_16_max": 0.42,
+    "direct_dialogue_line_rate_min": 0.36,
+    "direct_dialogue_line_rate_max": 0.52,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 1.2,
+    "question_mark_density_per_1000_chars_max": 2.6,
+    "explanatory_long_paragraph_cap_per_chapter": 120
+  }
+}

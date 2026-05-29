@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "海防都督府水寨正门",
+  "time": "当夜，雨前闷雷",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "门兵",
+    "裴承骁",
+    "柳闻莺",
+    "顾家仆从"
+  ],
+  "character_goal": "先闯进都督府，把裴承骁从里头逼出来",
+  "opposition_goal": "都督府门兵和裴承骁要靠军功门第把她压在门外",
+  "conflict_action": "沈灼宁以缠骨鞭抽碎府匾、踹翻门兵、踩着碎木直入前院",
+  "information_gap": "裴承骁的底气仅仅来自都督府，还是他已拿到宫里的保命符",
+  "emotional_debt_delta": "门第羞辱债开始回抽，女主护短姿态+3",
+  "payoff_or_hook": "兑现‘女主先出第一刀’",
+  "chapter_end_hook": "她踩住门槛碎木，点名：\"裴承骁，滚出来。\"",
+  "paywall_card": false,
+  "must_include": [
+    "缠骨鞭抽碎匾额的物理画面",
+    "门兵被踹翻的即时动作",
+    "裴承骁出声羞辱顾家或顾临渊",
+    "一处生活动作承接，比如沈灼宁抖掉鞭上木屑"
+  ],
+  "must_not_write_as_exposition": [
+    "不要列门兵人数和武器配置",
+    "不要写旁观百姓反应长清单",
+    "不要把闯门改成口头争执"
+  ],
+  "rhythm_job": {
+    "shape": "动作开门，三轮短对白，最后逼人现身",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

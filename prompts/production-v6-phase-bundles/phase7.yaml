@@ -1,0 +1,19 @@
+phase: 7
+key: critic_gauntlet
+role: Critic Gauntlet
+title: 四路独立质量评审（含神髓验证）
+system_prompt: prompts/production/critic-gauntlet.md
+human_gate: none
+retryable: true
+required_inputs:
+  - templates/production-quality-report-template.json
+  - story/source.md
+  - story/draft.md
+  - story/beat-bible.json
+  - story/draft-scenes/*.md
+  - story/analysis/chapter-soul-map.json
+required_outputs:
+  - review.md
+  - quality-report.json
+validators:
+  - validate-production-story:phase7

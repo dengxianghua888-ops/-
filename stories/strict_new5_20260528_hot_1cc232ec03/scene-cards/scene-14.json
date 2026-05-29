@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 760,
+  "target_chars_max": 820,
+  "location": "民政局外与顾砚舟新工作室",
+  "time": "离婚手续完成当天上午到午后",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "沈知宁",
+    "顾念安",
+    "民政局工作人员",
+    "新工作室同事"
+  ],
+  "character_goal": "完成离婚手续，回到自己的研发与生活",
+  "opposition_goal": "沈知宁想用忏悔和复婚协议换取撤诉与复合",
+  "conflict_action": "沈知宁递复婚协议，顾砚舟只签离婚确认并收起探视安排",
+  "information_gap": "未来事业展开不细写，停在主角重新拥有生活",
+  "emotional_debt_delta": "终局+3：他们后悔，也不能重新拥有他",
+  "payoff_or_hook": "不复合、不即时原谅、不靠新欢救场的最终兑现",
+  "chapter_end_hook": "截断动作：天气很好，我把探视协议收进抽屉，关上了那扇旧门。",
+  "paywall_card": false,
+  "must_include": [
+    "沈知宁递复婚协议",
+    "顾砚舟只签离婚确认",
+    "女儿站在远处没有再冲上来",
+    "新工作室桌上放着肺康设备新样机"
+  ],
+  "must_not_write_as_exposition": [
+    "禁止复合团圆",
+    "不要抽象升华原谅",
+    "不要安排新伴侣替主角收尾"
+  ],
+  "rhythm_job": {
+    "shape": "民政局短对白断情，工作室动作收束，最后一句安静落门",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "mix": "动作约40%，对白约35%，留白约20%，事业细节约5%；强压词只用一次质问，后接收协议和关门"
+  }
+}

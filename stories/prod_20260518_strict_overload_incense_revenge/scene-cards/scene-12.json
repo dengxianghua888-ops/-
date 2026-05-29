@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "药监询问室",
+  "time": "第四天上午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "周骁",
+    "药监调查员",
+    "记录员"
+  ],
+  "character_goal": "用四箱派单和六箱视频锁死周骁的承认或否认。",
+  "opposition_goal": "周骁想同时追回两箱、索赔货损，又不承认违规加货。",
+  "conflict_action": "调查员播放装车视频，主角复述周骁原话，请他按系统解释额外两箱。",
+  "information_gap": "周骁承认则坐实私加货，否认则失去追货和索赔基础。",
+  "emotional_debt_delta": "规则债核心偿还，反派亲手写下的规则反咬。",
+  "payoff_or_hook": "付费卡点：同一句系统四箱在询问室反杀周骁。",
+  "chapter_end_hook": "药监的人问他：系统四箱，那另外两箱从哪来？",
+  "paywall_card": true,
+  "must_include": [
+    "装车视频播放",
+    "四箱派单截图",
+    "六箱实装画面",
+    "周骁原话回收",
+    "调查员追问来源",
+    "记录员敲键盘"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角大段输出法律道理",
+    "不要写成主角审问周骁",
+    "不要让调查员情绪化偏帮"
+  ]
+}

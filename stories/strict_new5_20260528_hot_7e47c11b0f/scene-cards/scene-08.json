@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 820,
+  "target_chars_max": 980,
+  "location": "航司母婴公益直播后台",
+  "time": "次日下午，直播开始前",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "梁知棠",
+    "姜意",
+    "直播导播"
+  ],
+  "character_goal": "林照晚想借直播说清自己不知道许承洲已婚",
+  "opposition_goal": "梁知棠和姜意要让她照稿认错，维护航司母婴公益项目形象",
+  "conflict_action": "姜意把道歉稿塞进她手里，导播打开提词器，梁知棠要求她把主动纠缠四个字念清楚",
+  "information_gap": "提词器亮起时，我才知道他们连我的道歉都写好了。",
+  "emotional_debt_delta": "+3 女主被逼替骗局背锅",
+  "payoff_or_hook": "直播澄清反转为直播认错，进入谷底前段",
+  "chapter_end_hook": "提词器亮起时，我才知道他们连我的道歉都写好了。",
+  "paywall_card": false,
+  "must_include": [
+    "道歉稿",
+    "提词器",
+    "评论/弹幕控评提示",
+    "梁知棠摸孕肚但不辱孕",
+    "女主把稿纸折出白痕"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释公益项目条款",
+    "不要写控评后台流程",
+    "不要让女主现场长篇演讲反杀"
+  ],
+  "rhythm_job": {
+    "shape": "后台动作压迫，提词器文字短行插入，2到4行弹幕/评论预热，章尾卡亮屏",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 2,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用稿纸白痕、耳返杂音、导播倒数承接",
+    "dialogue_action_comment_ratio": "对白约36%，动作约44%，弹幕评论约10%，呼吸点约10%，章尾钩1句"
+  }
+}

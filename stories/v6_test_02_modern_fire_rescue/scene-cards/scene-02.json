@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 1,
+  "is_chapter_end": false,
+  "is_climax_beat": false,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "家中客厅→厨房方向",
+  "time": "20:20-20:30",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "急诊分诊台护士（电话）", "沈知微（微信消息）"],
+  "character_goal": "绕过120直接联系医院急诊，或联系妻子求助",
+  "opposition_goal": "急诊分诊台已收到'焦虑症'标注；妻子微信回复冷漠拒绝",
+  "conflict_action": "直接打医院急诊电话被告知'系统标注疑似焦虑发作建议门诊'；给妻子发微信求救，回复'吃了安定就睡吧，别总觉得自己要死'",
+  "information_gap": "主角不知道妻子此刻正在方逸宁的论文庆功宴上；读者尚不知道",
+  "emotional_debt_delta": "+3：第二通道被堵+妻子微信羞辱，绝望加倍",
+  "payoff_or_hook": "微信弹出的那条消息——施害者不在场却通过文字控制局面",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "第二次求救被拒的具体话术（'系统里标注了'）",
+    "妻子微信原文'吃了安定就睡吧，别总觉得自己要死'",
+    "心梗症状持续恶化的生理细节",
+    "隐约感知到厨房方向有异常（为燃气阀伏笔）"
+  ],
+  "must_not_write_as_exposition": [
+    "HIS系统的工作原理不能用解释性段落交代",
+    "妻子为何不接电话的原因此刻不能揭露"
+  ],
+  "rhythm_job": {
+    "shape": "加速下坠",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "窒息-绝望",
+    "emotion_arc": "再求救 → 再被拒 → 恐惧升级",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "感受'所有通道一个个被关死'的窒息，微信消息是最冷的一刀",
+    "required_techniques": [
+      {
+        "technique": "画外音侵入",
+        "instruction": "微信消息弹出——她不在场，却用一条文字把他的求救定性为'作'。写出消息原文，不加评论让它自己说话"
+      },
+      {
+        "technique": "三段递进封锁（第二段）",
+        "instruction": "从120到急诊分诊台，权威级别递增。分诊护士比调度员更'专业'地拒绝——'系统里有标注，建议您去精神科门诊'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定A+肯定B（真相揭露句式）",
+        "example": "不是没人信。是沈知微先一步，堵死了别人相信我的可能。",
+        "instruction": "从'没人帮'升级到'被系统性屏蔽'——先写'不是XX'再写'是她先一步做了XX'，让受害程度跳级"
+      }
+    ],
+    "peak_type": "double_rejection",
+    "bomb_technique": "累积式",
+    "source_excerpt": "微信弹出消息：'吃了安定就睡吧，别总觉得自己要死。'我盯着那行字，胸口的疼像被人拧了一把。不是疼。是冷。她三个小时前就知道我今晚会难受，却选择提前告诉所有人——别理他。"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260518_topscorer_imo_revenge",
+  "genre": "modern_reversal",
+  "subgenre": "fake_family_serial_killer_reversal",
+  "hook_type": "H1 直白威胁倒卷式",
+  "title_formula": "T1 因果反转式",
+  "reader_promise": "奥赛金牌少女在断亲书与冒牌全家面前不崩溃，靠化学专业+夜视画面+实名直播一步步反逼警方与杀手组织，最终用一份螯合剂证物把'完美犯罪'钉死在阳光下，并以'弃清北报警校'的志向反转给出补偿尾。",
+  "payoff_pattern": "U 型谷底 + 志向反转补偿尾",
+  "source_length_chars": 10564,
+  "reversal_mechanisms": [
+    "M1",
+    "M3",
+    "M6"
+  ],
+  "emotional_debts": [
+    {
+      "id": "betrayal",
+      "name": "断亲背叛债",
+      "intensity": 10
+    },
+    {
+      "id": "humiliation",
+      "name": "公开矮化债",
+      "intensity": 9
+    },
+    {
+      "id": "information_gap",
+      "name": "信息差身份债",
+      "intensity": 9
+    }
+  ],
+  "forbidden_to_change": [
+    "断亲书 + 冒牌全家 + 真千金调包的核心错位结构",
+    "主角第一反应是报警、第二反应是开直播的克制+硬刚姿态",
+    "M3 多层身份反差：哥哥/未婚夫/父母/真千金四重'像而非'",
+    "M6 真相逐层揭露链：可视门铃→夜视模式→螯合剂箱子→墙体藏尸→DNA替换→纹身识别",
+    "化学专业作为唯一武器，禁加任何超能力/系统/重生设定",
+    "补偿尾：清北抢人 vs 主角弃保去公安大学"
+  ],
+  "replaceable_assets": [
+    "主角学位类型（高考状元/IMO 金牌/双竞赛金牌）",
+    "别墅地名（海庭湾34号 / 梧桐里3号 / 望江郡17号）",
+    "杀手组织标识（黑太阳 / 白鸢尾 / 北纬猎人）",
+    "假未婚夫所属企业（科技公司继承人 / 投行少东 / 半导体二代）",
+    "凶器配方（螯合剂+鲁米诺 / 二氯乙烯+柠檬酸 / 次氯酸钠+EDTA）"
+  ],
+  "platform_fit_notes": "番茄家庭悬疑+反转完读区间题材，M1/M3/M6 三机制全部保真，首章 1100 字含 9 分钩，11 章每章末必含强情绪节点或信息差锚点，付费节点 4-5 个，全程零'付费'字眼。",
+  "soul_contract_required": true
+}

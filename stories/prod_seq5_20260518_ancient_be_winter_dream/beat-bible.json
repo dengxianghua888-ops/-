@@ -1,0 +1,468 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 15000,
+    "planned_total_chars": 13400
+  },
+  "title": "第九枚胚囊失温后，我不闹了",
+  "genre": "近未来星环财阀虐恋悔悟清算 / 死后灵魂线 / 伪神谕骗局与归零系统",
+  "mechanisms": [
+    {
+      "id": "M4",
+      "name": "灵魂线视角",
+      "execution": "第8场纪寒舟死亡离场，之后以离体意识旁观旧世界查证、崩溃与清算。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "沈澜星前期用温柔压迫签字，死后抱冷却遗体查真相，但悔悟无效。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "极端伤害、死亡离场、灵魂旁观、伪神谕曝光、发布会公开清算、新星域补偿。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "裴砚前期催他别拖累大家，后期被沈澜星用同类规则反噬；纪明棠逼签豁免，后期被豁免令抛弃。"
+    },
+    {
+      "id": "M8",
+      "name": "道德阴影清算",
+      "execution": "清算聚焦证据公开、身份坍塌、权力剥夺与关系反噬，避免猎奇酷刑细写。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 760,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "纪寒舟签下声纹，脑内真实系统弹出：归零倒计时还剩三分钟。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 740,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "裴砚的再生舱亮起第九枚胚囊编号，沈澜星却命人关闭纪寒舟的报警器。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 720,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "纪明棠把撤诉声纹推到他唇边，说签完她就当没这个弟弟。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 760,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "裴砚隔着玻璃无声做口型：你早该消失了。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 720,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "纪寒舟看着倒计时归零前最后一行字：任务失败，生命体征即将注销。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 760,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "沈澜星终于打开他留下的报案包，里面第一份证据写着：第一枚胚囊死亡确认。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 740,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "纪寒舟的生命体征归零，沈澜星手上的婚戒同步裂成两段。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "他从抢救舱上方睁开眼，看见沈澜星跪在自己的遗体前。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 720,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "低温库门打开，九个空舱同时亮起红灯。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 760,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "伪神谕源码播放出裴砚原本的声纹，沈澜星第一次听见自己的名字也在受益人名单里。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 720,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "纪明棠拿着断亲书回纪家，却发现裴砚已经用同一份豁免令切断她的审判署权限。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 780,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "加冕发布会开始前，沈澜星把裴砚的继承人认证锁进了全息直播主控台。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 740,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "全星环观众看见裴砚亲手录下的第一条伪神谕。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 760,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "裴砚跪着求沈澜星救他，她只回他一句：既然是神谕，你为什么不自己完成。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 720,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "沈澜星抱着纪寒舟的遗物走进归零舱，却发现系统拒绝向旧世界开放任何赦免权限。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 760,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "纪寒舟听见新系统问他：是否接收新星域身体修复与亲缘绑定。"
+    },
+    {
+      "chapter_id": 17,
+      "target_chars": 720,
+      "scene_range": "scene-17",
+      "chapter_end_hook": "旧世界最后一封忏悔信追到星门边缘，被系统直接焚毁。"
+    },
+    {
+      "chapter_id": 18,
+      "target_chars": 760,
+      "scene_range": "scene-18",
+      "chapter_end_hook": "新父亲把热汤塞进他手里，说谁再敢让他受委屈，就先过新纪家的门。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 680,
+      "target_chars_max": 840,
+      "scene_location": "星港私立再生中心签署室",
+      "character_goal": "纪寒舟在倒计时内完成撤诉声纹签署，不再为自己辩解。",
+      "conflict_action": "沈澜星握着他的手按向声纹仪，纪明棠把医疗事故豁免令投到墙上，护士推走第九枚低温星种舱。",
+      "information_gap": "众人以为他被迫低头，读者知道他脑内真实归零系统已经启动。",
+      "emotion_debt_balance": "新增第九枚胚囊失温、承孕腺摘除、妻姐逼签三重债。",
+      "chapter_end_hook": "归零倒计时还剩三分钟。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把签字写成自愿和解",
+        "不能洗白妻姐"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 660,
+      "target_chars_max": 820,
+      "scene_location": "再生中心走廊与裴砚再生舱外",
+      "character_goal": "纪寒舟确认第九枚胚囊被送进裴砚舱内，保存最后的证据编号。",
+      "conflict_action": "他扶墙追到玻璃舱外拍下舱号，沈澜星命人删除他的访问权限，裴砚隔窗抬手比出胜利手势。",
+      "information_gap": "沈澜星不知道舱号照片已同步进纪寒舟的报案包。",
+      "emotion_debt_balance": "孩子债从抽象失去落成可见编号，裴砚主动受益坐实。",
+      "chapter_end_hook": "沈澜星关闭纪寒舟的报警器。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把胚囊降格成普通样本",
+        "不能写医疗科普长段",
+        "禁用背景介绍替代动作"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "联邦审判署远程仲裁台",
+      "character_goal": "纪寒舟想提交报案包，至少让纪明棠看见一眼证据。",
+      "conflict_action": "纪明棠用仲裁官权限冻结他的报案端口，撕掉亲缘申诉码，将撤诉声纹仪推到他唇边。",
+      "information_gap": "纪明棠相信自己在保全家族，却不知道她冻结的是亲弟弟最后的生路。",
+      "emotion_debt_balance": "亲情债升级为公权压迫债。",
+      "chapter_end_hook": "纪明棠说签完就当没这个弟弟。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把姐姐写成无奈帮忙",
+        "不能用抽象亲情伤痛替代权限冻结",
+        "不能让主角长篇控诉"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 700,
+      "target_chars_max": 880,
+      "scene_location": "低温胚囊库外",
+      "character_goal": "纪寒舟在彻底失权前取回九枚胚囊记录。",
+      "conflict_action": "他刷残留权限打开低温库门，沈澜星追来夺走他的腕机，裴砚故意触发虚假病危警报逼她转身。",
+      "information_gap": "裴砚的病危警报来源不明，第一次埋下伪神谕骗局破口。",
+      "emotion_debt_balance": "九枚胚囊血债完整陈列，妻子再一次主动选择裴砚。",
+      "chapter_end_hook": "裴砚无声做口型：你早该消失了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能只写回忆九次失子",
+        "不能让妻子选择模糊",
+        "不能把裴砚写成被动病人"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "再生中心废弃观察室",
+      "character_goal": "纪寒舟将证据包定时发送给沈澜星，并切断旧关系。",
+      "conflict_action": "他用最后权限绑定死亡触发发送，摘下婚戒放进证据盒，把亲缘芯片掰断。",
+      "information_gap": "读者知道死亡会触发证据，沈澜星还以为他只是赌气。",
+      "emotion_debt_balance": "主角从求证转为抽离，情绪债不再向施害者讨还。",
+      "chapter_end_hook": "系统提示生命体征即将注销。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成自怜独白",
+        "不能提供可模仿死亡方法",
+        "不能让主角期待妻姐回头"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 680,
+      "target_chars_max": 840,
+      "scene_location": "沈澜星私人悬浮车",
+      "character_goal": "沈澜星想把纪寒舟带回家软禁到发布会结束。",
+      "conflict_action": "她调取婚姻权限定位纪寒舟，却收到死亡触发的报案包；第一份胚囊死亡确认在车窗上展开。",
+      "information_gap": "沈澜星第一次看到胚囊死亡记录，却还不敢承认自己参与了全部流程。",
+      "emotion_debt_balance": "悔悟苗头出现，但无法抵消旧债。",
+      "chapter_end_hook": "报案包第一页写着第一枚胚囊死亡确认。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让悔悟变成赎罪",
+        "不能写成误会解除",
+        "不能洗掉她的签字责任"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 660,
+      "target_chars_max": 820,
+      "scene_location": "抢救舱门口",
+      "character_goal": "纪寒舟等待归零完成，沈澜星试图强行抢救并追回控制权。",
+      "conflict_action": "沈澜星踹开抢救舱门命令重启生命维持，系统屏幕却拒绝旧世界权限；纪寒舟在她喊他名字时闭眼。",
+      "information_gap": "旧世界科技救不了真实归零系统造成的离场。",
+      "emotion_debt_balance": "死亡离场完成，妻子失去补救资格。",
+      "chapter_end_hook": "生命体征归零，婚戒同步裂成两段。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把死亡写成煽情求爱",
+        "不能让抢救成功",
+        "不能让主角留下原谅话"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 880,
+      "scene_location": "抢救舱上空与遗体旁",
+      "character_goal": "纪寒舟适应离体意识，确认自己已经不再被旧世界触碰。",
+      "conflict_action": "他的意识上浮，看见沈澜星跪地按住遗体心口，纪明棠冲进来仍要求封存事故档案。",
+      "information_gap": "纪明棠不知道纪寒舟能旁观她最后一次选择。",
+      "emotion_debt_balance": "灵魂视角开启，悔悟与冷漠形成反差。",
+      "chapter_end_hook": "沈澜星跪在他的遗体前。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成AI备份视角",
+        "不能让灵魂干预现实",
+        "不能让主角心软"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "低温胚囊库",
+      "character_goal": "沈澜星想证明至少有胚囊被安全保存。",
+      "conflict_action": "她撬开低温库主控，逐一输入纪寒舟留下的编号，九个空舱同时亮红灯。",
+      "information_gap": "空舱证明胚囊都被转移使用，但真正转移指令还未曝光。",
+      "emotion_debt_balance": "九个孩子债被彻底坐实，沈澜星的自欺开始崩塌。",
+      "chapter_end_hook": "九个空舱同时亮红灯。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能一笔带过九个编号",
+        "不能用抽象后悔替代开舱动作",
+        "不能让沈澜星立刻被原谅"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 880,
+      "scene_location": "量子神谕服务器机房",
+      "character_goal": "沈澜星要查清神谕是否真的要求牺牲纪寒舟。",
+      "conflict_action": "她强拆裴砚的私有服务器，技术员还原伪神谕声纹，播放出裴砚未变声前的原始指令。",
+      "information_gap": "伪神谕源头曝光，但沈澜星仍需面对自己每次亲手确认授权。",
+      "emotion_debt_balance": "骗局解释来源，不能替施害者消罪。",
+      "chapter_end_hook": "受益人名单里出现沈澜星自己的名字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把妻子写成纯被骗",
+        "不能让伪神谕承担全部罪责",
+        "不能长篇技术说明"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "纪家老宅与审判署权限大厅",
+      "character_goal": "纪明棠想回纪家控制舆论，保住审判署职位。",
+      "conflict_action": "她刷徽章进权限大厅失败，裴砚提前用豁免令把所有事故责任推给她的仲裁签章。",
+      "information_gap": "姐姐曾以为豁免令只会压死纪寒舟，如今成了裴砚抛弃她的刀。",
+      "emotion_debt_balance": "亲情偏心开始反噬，姐姐失去权力护身符。",
+      "chapter_end_hook": "裴砚用同一份豁免令切断她的权限。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把姐姐报应写成偶然倒霉",
+        "不能忽略她主动盖章",
+        "不能让她继续站在道德高位"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "星环继承人加冕发布会后台",
+      "character_goal": "沈澜星决定把裴砚的继承人加冕变成罪证直播。",
+      "conflict_action": "她撤掉公关稿，把胚囊记录、手术授权、伪神谕源码接入全息主控，锁死裴砚的直播逃生通道。",
+      "information_gap": "裴砚以为自己即将正式夺位，不知道所有证据已经挂上主控台。",
+      "emotion_debt_balance": "清算从私人悔悟升级为公开处刑。",
+      "chapter_end_hook": "她把裴砚的继承人认证锁进直播主控台。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让发布会变成解释会",
+        "不能只靠台词揭罪",
+        "不能让裴砚提前逃走"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 660,
+      "target_chars_max": 820,
+      "scene_location": "加冕发布会全息主会场",
+      "character_goal": "裴砚想完成继承人认证，夺走纪寒舟原本的位置。",
+      "conflict_action": "他把手按上继承人面板，屏幕却跳出第一条伪神谕录制影像和第一枚胚囊转移记录。",
+      "information_gap": "全星环第一次知道裴砚的病弱身份是夺权工具。",
+      "emotion_debt_balance": "冒牌货身份开始坍塌，主角被抢走的人生获得公开证名。",
+      "chapter_end_hook": "观众看见裴砚亲手录下第一条伪神谕。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成旁白总结罪证",
+        "不能让裴砚保持体面",
+        "不能弱化胚囊证据"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 680,
+      "target_chars_max": 860,
+      "scene_location": "发布会认证舱",
+      "character_goal": "沈澜星要让裴砚承受冒牌替身认证的反噬。",
+      "conflict_action": "她启动基因面模与声纹重塑认证，让系统逐项判定裴砚无法匹配纪寒舟的源血、亲缘与婚姻授权。",
+      "information_gap": "裴砚抢来的身份在公开算法前无法成立。",
+      "emotion_debt_balance": "冒牌货被迫面对自己永远成不了真品。",
+      "chapter_end_hook": "沈澜星反问他为什么不自己完成神谕。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能细写猎奇身体惩罚",
+        "不能让惩罚太轻飘",
+        "不能把沈澜星写成正义女主"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "归零舱旧址",
+      "character_goal": "沈澜星想通过归零系统向纪寒舟求一句回应。",
+      "conflict_action": "她抱着婚戒和证据盒接入归零舱，系统弹出拒绝旧世界赦免权限，纪寒舟在空中冷眼看她一次次重试。",
+      "information_gap": "系统只结算主角亏欠，不给施害者补票机会。",
+      "emotion_debt_balance": "悔悟彻底无效，旧关系无法重启。",
+      "chapter_end_hook": "系统拒绝开放赦免权限。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角托梦安慰",
+        "不能让妻子死亡等于赎罪成功",
+        "不能写成破镜重圆"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 700,
+      "target_chars_max": 880,
+      "scene_location": "星门裂隙与系统结算空间",
+      "character_goal": "纪寒舟确认清算结算，选择离开旧世界。",
+      "conflict_action": "真实系统列出九枚胚囊、承孕腺、亲情、婚姻四项债务，逐项标记已清算并弹出新星域身体修复选项。",
+      "information_gap": "新世界身份即将揭晓，旧世界再也无法索回他。",
+      "emotion_debt_balance": "从债务清算转入补偿回升。",
+      "chapter_end_hook": "系统询问是否接收新星域身体修复与亲缘绑定。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能只写抽象释怀",
+        "不能让旧世界伤害被原地治好",
+        "不能让主角犹豫回头"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "target_chars_min": 640,
+      "target_chars_max": 800,
+      "scene_location": "旧世界星门边缘",
+      "character_goal": "旧世界施害者想把最后忏悔送到纪寒舟面前。",
+      "conflict_action": "沈澜星和纪明棠分别发送忏悔信，系统在星门边缘拦截并焚毁，只留下债务已结清提示。",
+      "information_gap": "读者知道主角已经获得拒收权，施害者连打扰资格都失去。",
+      "emotion_debt_balance": "主角彻底夺回边界。",
+      "chapter_end_hook": "最后一封忏悔信被系统焚毁。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能替施害者抒情洗白",
+        "不能让忏悔打动主角",
+        "不能让姐姐获得亲情赦免"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "target_chars_min": 700,
+      "target_chars_max": 900,
+      "scene_location": "新星域军政世家餐厅",
+      "character_goal": "纪寒舟接收新身体、新父母与富足热闹生活。",
+      "conflict_action": "他在新身体里醒来，新父母推开门检查修复报告，把热汤、继承徽章和护短宣言一起塞到他面前。",
+      "information_gap": "旧世界故事关闭，新人生具体开启。",
+      "emotion_debt_balance": "身体、亲情、生活三项补偿落地。",
+      "chapter_end_hook": "新父亲说谁再敢让他受委屈，就先过新纪家的门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用抽象幸福收尾",
+        "不能回到旧关系",
+        "不能把新生写成幻觉"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 12000,
+    "min_chapters": 16,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0,
+    "micro_hook_interval_chars_max": 1200,
+    "forbidden_summary_type": "beats[*].forbidden_summary 必须为非空数组",
+    "execution_notes": [
+      "前300字必须出现第九枚胚囊失温、承孕腺摘除、妻姐逼签、反常平静、归零倒计时。",
+      "每场必须有正在发生的动作，不能写成摘要或背景介绍。",
+      "妻子、姐姐、裴砚的悔悟或失败不能兑换主角原谅。"
+    ]
+  }
+}

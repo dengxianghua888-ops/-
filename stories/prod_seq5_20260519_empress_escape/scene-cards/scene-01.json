@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "御马场凤玺台",
+  "time": "新帝三年春，早朝后",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "温其正",
+    "萧珩",
+    "百官",
+    "禁军"
+  ],
+  "character_goal": "温照晚想把父亲从抢凤玺的人堆里拖出来，避免温家被卷进后位闹剧。",
+  "opposition_goal": "百官想抢到凤玺或阻止别人抢到，萧珩要让凤玺落进温家。",
+  "conflict_action": "百官在御马场撕袖、夺马鞭、互相绊腿，温其正被禁军暗中推上高台，抱着凤玺滚进温照晚怀里。",
+  "information_gap": "凤玺砸中温照晚到底是意外，还是萧珩预先安排。",
+  "emotional_debt_delta": "新增荒诞封后债和女主怕帝王债。",
+  "payoff_or_hook": "温照晚成了最不想当皇后的皇后，萧珩的笑留下异常信号。",
+  "chapter_end_hook": "温照晚被凤玺砸中封后，抬头看见萧珩正盯着她笑了一下。",
+  "paywall_card": false,
+  "must_include": [
+    "300字内出现御马场抢凤玺",
+    "温照晚即时吐槽权力场像闹市",
+    "温其正抱玺滚下高台",
+    "萧珩冷脸但眼神异常"
+  ],
+  "must_not_write_as_exposition": [
+    "不要介绍大胤朝代史",
+    "不要解释北境政治",
+    "不要用旁白说萧珩暗恋"
+  ]
+}

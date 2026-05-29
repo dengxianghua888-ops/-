@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 720,
+  "target_chars_max": 820,
+  "location": "海边美术馆主场与红毯区",
+  "time": "紧接上一场",
+  "pov": "沈知微 第一人称",
+  "characters": ["沈知微", "裴砚衡", "裴承屿", "林妍", "媒体", "宾客"],
+  "character_goal": "把婚礼羞辱原样奉还，完成更高位的公开接走。",
+  "opposition_goal": "裴承屿要保住婚礼体面，不让沈知微抢走全场目光。",
+  "conflict_action": "裴砚衡带主品牌团队和媒体入场，当众牵走沈知微、替她戴上主婚戒，并宣布主婚戒与主设计署名都只属于她。",
+  "information_gap": "婚礼翻盘后，副牌与裴承屿的事业窟窿会怎样被揭开。",
+  "emotional_debt_delta": "婚礼羞辱债完成高位回收，现任公开偏爱落地。",
+  "payoff_or_hook": "快门与宾客视线一起完成‘被接走、被珍重’的爽点。",
+  "chapter_end_hook": "裴承屿站在空台上，像被整场婚礼抛下。",
+  "paywall_card": false,
+  "must_include": [
+    "当众戴戒指动作",
+    "媒体快门声作为节拍",
+    "主设计署名被公开归还",
+    "裴承屿和林妍被晾在原位"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆砌布景华丽描写",
+    "不要写长篇告白",
+    "不要把全场反应写成名单"
+  ],
+  "rhythm_job": {
+    "shape": "红毯切入，先静后亮，再用一记戴戒完成高潮",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

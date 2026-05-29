@@ -1,0 +1,33 @@
+slug: batch_v2_03_ancient_BE
+source_slug: hot_7910425011
+title: 骨灰
+genre: ancient_BE
+pipeline_mode: production
+status: final
+run_date: "2026-05-26"
+optimization: v2_style_fidelity
+mechanisms:
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+  - M8_moral_ambiguity_ending
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 男友+闺蜜双重背叛+保送被偷+母亲死亡+远走重生+男主疯癫追悔
+  new_setting: 军婚+战友妻双重背叛+军功被夺+父亲战死真相+女主远赴边关+男主余生困守空城
+  identity_hide: 无（本genre不需要身份反转，核心是温度反转+因果回旋+BE结尾）
+  betrayal_layers:
+    - 丈夫与自己救过命的闺蜜（战友之妻）私通三年
+    - 闺蜜利用女主信任偷走女主的军功举荐信（相当于保送名额）
+    - 丈夫为闺蜜拒接女主求救电话，导致女主父亲战场救援延误而死
+    - 闺蜜安排流氓骚扰女主，丈夫反过来嫌女主"不干净"
+  reversal_trigger: 女主远走边关后，丈夫在旧居发现女主写了三年的家书（从未寄出）和父亲真正死因
+  boomerang: 丈夫军功全靠女主父亲旧部关系→女主离开→旧部断联→丈夫被架空；闺蜜曾差点被卖到矿区→最终被揭穿后被送回原生家庭
+  temperature_structure:
+    warm_memory: 新婚时他在军营外等她、给她带野花；训练受伤时他背她走三里山路
+    cold_reality: 她怀孕流产他在陪闺蜜；父亲出事他拒接电话；闺蜜出事他第一个到
+    freeze_point: 发现军功举荐信被篡改——他不仅不爱，还在主动剥夺她的前程

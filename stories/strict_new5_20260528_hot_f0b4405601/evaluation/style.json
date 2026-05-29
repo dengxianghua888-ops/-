@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "score": 7.2,
+  "evidence": [
+    {
+      "metric": "avg_visual_line_chars",
+      "source_estimate": 22.5,
+      "draft_estimate": 19.2,
+      "judgment": "稿件略短于源文，但仍为完整短句，不是 5-8 字机械碎行。"
+    },
+    {
+      "metric": "short_line_rate_lte_16",
+      "source_estimate": 0.32,
+      "draft_estimate": 0.39,
+      "judgment": "稿件短行率偏高但未接近 100%，保留了源文短行压力。"
+    },
+    {
+      "metric": "direct_dialogue_line_rate",
+      "source_estimate": 0.34,
+      "draft_estimate": 0.36,
+      "judgment": "对白驱动程度接近源文，没有变成长段说明。"
+    },
+    {
+      "metric": "question_mark_density_per_1000_chars",
+      "source_estimate": 8.5,
+      "draft_estimate": 7.8,
+      "judgment": "问号密度接近源文，并未明显过压。"
+    },
+    {
+      "metric": "narrative_crutches",
+      "draft_count": 0,
+      "judgment": "未命中“她知道/他明白/她意识到/他清楚/她心想/他暗忖/她终于明白/他这才知道”等叙述拐杖。"
+    },
+    {
+      "metric": "aphorism",
+      "draft_example": "护工可以结账，前夫不负责回收旧情。",
+      "judgment": "存在可独立传播的金句。"
+    },
+    {
+      "metric": "metaphor_density",
+      "draft_estimate_per_k": 1.45,
+      "judgment": "偏高，warning；未超过 1.8/千字 fail 线。"
+    }
+  ],
+  "warnings": [
+    "少量对白被挤在同一行，Phase 7 应拆开。",
+    "部分“像……”句承担总结功能，建议替换成动作。"
+  ]
+}

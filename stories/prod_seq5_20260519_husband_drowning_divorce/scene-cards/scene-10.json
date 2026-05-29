@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 740,
+  "target_chars_max": 920,
+  "location": "海外建筑安全实验室",
+  "time": "沈知晚入组第一周",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "周砚白", "实验室同事"],
+  "character_goal": "沈知晚拿回项目主导权，让专业价值落地。",
+  "opposition_goal": "项目组担心她离开学术太久，不能承担核心模块。",
+  "conflict_action": "周砚白拿出旧项目包让她现场重跑演算，沈知晚用自己的备份模型修正应急声场方案。",
+  "information_gap": "周砚白发现康复系统线索，但不急着公开。",
+  "emotional_debt_delta": "被看见的情绪补偿出现；新关系保持克制边界。",
+  "payoff_or_hook": "周砚白看见她曾把顶级模型用在陆景辞的康复里。",
+  "chapter_end_hook": "周砚白拆开旧项目包，发现陆景辞一直依赖的康复系统也出自沈知晚。",
+  "paywall_card": false,
+  "must_include": [
+    "周砚白尊重询问她是否愿意公开旧资料",
+    "沈知晚现场操作模型",
+    "实验室成员态度变化",
+    "康复系统和应急声场模型同源",
+    "周砚白台词：失去你，是他们的损失"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写强吻或占有",
+    "不要让周砚白替她复仇",
+    "不要把专业认可写成空泛夸奖"
+  ]
+}

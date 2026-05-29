@@ -1,0 +1,37 @@
+{
+  "story_slug": "prod_iter_16_corpse_exit",
+  "pipeline_mode": "production",
+  "source_corpus_slug": "corpse_six_years_sister",
+  "failure_types": [
+    "codex_phase5_timeout",
+    "manual_first_draft_under_target_length",
+    "scene_card_length_underfill"
+  ],
+  "successful_hooks": [
+    "首章四重揭骗：假病、假破产、父母假死、工资转捐",
+    "安全帽倒计时与证据上传绑定，替代原文系统脱离钩子",
+    "救援绳空了作为死亡脱离视觉锚点",
+    "数据中心死亡触发云盘公开证据包"
+  ],
+  "manual_revision_delta": [
+    "补足每场 600-950 字目标区间",
+    "增加旧怀表、旧结婚纸条、小船模型等旧温度物件",
+    "把泛泛追悔改为工资流水、派工名单、毒气报告、监护公证等硬证据"
+  ],
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.4,
+    "style": 7.8,
+    "logic": 8.1
+  },
+  "lessons": [
+    {
+      "lesson": "死亡脱离类 production 稿第一版必须直接写到 scene-card 字数下限以上，否则后续补写会打乱节奏。",
+      "apply_next": "下一篇场景生成时，以 700 字为默认场景长度，不写 300-400 字骨架。"
+    },
+    {
+      "lesson": "对照爆款时，旧温度物件比抽象回忆更能制造火葬场落差。",
+      "apply_next": "每个核心关系至少配置一个可回收物件：信物、旧证件、照片、礼物或承诺纸条。"
+    }
+  ]
+}

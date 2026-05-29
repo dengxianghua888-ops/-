@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260528_hot_7e47c11b0f/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10638,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 13,
+      "hook_hits": 13,
+      "hook_coverage": 1.0,
+      "lengths": [
+        842,
+        806,
+        744,
+        787,
+        818,
+        768,
+        768,
+        870,
+        913,
+        892,
+        660,
+        778,
+        790
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 166,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 17,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10638,
+      "sentence_count": 931,
+      "avg_sentence_length": 10.427,
+      "dialogue_ratio": 0.2074,
+      "question_marks": 63,
+      "question_marks_per_k": 5.922,
+      "physical_emotion_hits": {
+        "指尖": 7,
+        "发麻": 1,
+        "喉咙": 2,
+        "眼眶": 2,
+        "掌心": 14
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 30.363
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 9678,
+        "line_count": 467,
+        "avg_line_chars": 20.724,
+        "median_line_chars": 19.0,
+        "short_line_rate": 0.364,
+        "long_line_rate": 0.0343,
+        "quote_line_rate": 0.3576,
+        "barrage_line_rate": 0.0086,
+        "question_marks_per_k": 5.476,
+        "comma_period_ratio": 1.164,
+        "sentence_avg_len": 20.8
+      },
+      "candidate": {
+        "chars": 10380,
+        "line_count": 547,
+        "avg_line_chars": 18.976,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.4918,
+        "long_line_rate": 0.0457,
+        "quote_line_rate": 0.362,
+        "barrage_line_rate": 0.0347,
+        "question_marks_per_k": 6.069,
+        "comma_period_ratio": 0.386,
+        "sentence_avg_len": 10.4
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 425,
+      "unique_sentence_skeletons": 425,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0024
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.1,
+    "emotion": 8.4,
+    "style": 7.7,
+    "logic": 8.0
+  },
+  "evidence": [
+    "Opening uses ticket stub, aviation medical center, ring box, repair-shift excuse, and nurse calling the male lead Xu Zong within the first 150 chars to create information asymmetry.",
+    "Scene-07 provides the required contrary emotional reaction: heroine laughs after seeing the old boarding pass renamed in the display case.",
+    "Scene-09 pays off public humiliation with the male lead choosing '切远景' instead of protecting heroine.",
+    "Scene-13 completes non-reunion closure by returning the old map cufflink and calling the next patient.",
+    "Source rhythm comparison shows no long explanatory blocks and no mechanical 5-8 char poem-line fragmentation."
+  ]
+}

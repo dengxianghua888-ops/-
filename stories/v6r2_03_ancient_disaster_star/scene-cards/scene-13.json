@@ -1,0 +1,88 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-09b",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "target_chars_min": 520,
+  "target_chars_max": 680,
+  "location": "大漠婚宴营地",
+  "time": "紧接上一scene",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["苏若棠", "凌霄寒", "楚怀璟", "传令兵"],
+  "character_goal": "完成最终拒绝+凌霄寒用物理暴力画句号",
+  "opposition_goal": "楚怀璟做最后挣扎——但命运的铁拳已到",
+  "conflict_action": "凌霄寒马蹄踏向楚怀璟+'我不是你的妻，也从未嫁予你'的终极否定；传令兵报：朝廷以'通敌'为名收缴兵权",
+  "information_gap": "楚怀璟失爱之后即将失权——双重崩塌的因果闭环即将合上",
+  "emotional_debt_delta": "全部情感债清偿完毕——跪→被踏（位置翻转完成）+国家危机=命运闭环",
+  "payoff_or_hook": "朝廷收兵权=楚怀璟的终局序章",
+  "chapter_end_hook": "传令兵报：朝廷以通敌赤鹰部为名收缴靖安王兵权，三万禁军已围满城墙",
+  "paywall_card": false,
+  "must_include": [
+    "苏若棠'我不是你的妻，也从未嫁予你'的否定宣言",
+    "凌霄寒马蹄踏楚怀璟的物理暴力",
+    "楚怀璟'是啊…我本能有机会'的承认",
+    "传令兵报国家危机的突转",
+    "楚怀璟面对双重崩塌（失爱+失权）的物理反应"
+  ],
+  "must_not_write_as_exposition": [
+    "苏若棠的决绝程度（通过行动和台词展示）",
+    "朝廷收权的政治逻辑（一句传报带过）",
+    "楚怀璟的未来（悬念留给末章）"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压至突变",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.8,
+    "comma_period_ratio": 1.2,
+    "sentence_avg_len": 14.5,
+    "dominant_emotion": "决绝-冷酷-命运碾压",
+    "emotion_arc": "终极拒绝 → 物理惩罚 → 国家危机突入 → 双重崩塌",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "极致爽感的句号——帝王什么都失去了",
+    "required_techniques": [
+      {
+        "technique": "萧烬辞的物理暴力作为句号",
+        "instruction": "凌霄寒勒紧缰绳，马蹄重重落至楚怀璟腹中——不是讲道理，是直接踩。简单粗暴的爽"
+      },
+      {
+        "technique": "国家危机作为命运闭环",
+        "instruction": "传令兵突然报入——楚怀璟失去苏若棠(失去赤鹰部屏障)→朝廷趁机收权→因果闭环合上"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定句+也字加码否定",
+        "example": "我不是你的妻，也从未嫁与你。",
+        "instruction": "'我不是你的妻，也从未嫁予你'——在法理上否定关系，剥夺帝王的'所有权'话语"
+      }
+    ],
+    "peak_type": "power_reversal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "「我不是你的妻，也从未嫁与你。」\n萧烬辞勒紧缰绳，马蹄重重落至傅临渊的腹中。\n「是啊……我本能有机会娶你。」\n报！燕国十万铁骑已围满北国城墙！\n「陛下，您断不可儿女情长，请尽快回去主持大局！」"
+  },
+  "character_voices": {
+    "苏若棠": {
+      "口癖": ["从未", "也从不"],
+      "句式": "极短否定句，不带情绪",
+      "单句上限": 12,
+      "禁止": "犹豫、叹息、回头看"
+    },
+    "凌霄寒": {
+      "口癖": [],
+      "句式": "不说话，只行动（马蹄踏人）",
+      "单句上限": 10,
+      "禁止": "废话、威胁（已过了威胁阶段）"
+    },
+    "楚怀璟": {
+      "口癖": ["是啊", "我本能"],
+      "句式": "认命式短句+虚脱",
+      "单句上限": 15,
+      "禁止": "愤怒、不甘"
+    }
+  }
+}

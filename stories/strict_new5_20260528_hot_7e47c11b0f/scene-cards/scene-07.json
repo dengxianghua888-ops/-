@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "航司贵宾楼展示走廊",
+  "time": "次日清晨",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲",
+    "贵宾楼工作人员"
+  ],
+  "character_goal": "林照晚要取回行李和证件，尽快离开航司控制范围",
+  "opposition_goal": "许承洲想把她带去休息室继续谈补偿，不让她接触媒体或旅客",
+  "conflict_action": "工作人员带她穿过展示走廊，她看见自己十年前做的手作登机牌被标成许承洲少年收藏，许承洲伸手挡住说明牌",
+  "information_gap": "许承洲把她寄来的旧物改造成了怎样的体面故事",
+  "emotional_debt_delta": "+2 十年付出被男主改名占有",
+  "payoff_or_hook": "旧物证据反向证明男主长期伪装贫穷与普通",
+  "chapter_end_hook": "贵宾楼展示柜里，摆着我亲手做的旧登机牌。",
+  "paywall_card": false,
+  "must_include": [
+    "展示柜航模",
+    "手作登机牌",
+    "错误展签",
+    "许承洲挡说明牌",
+    "女主指尖按住玻璃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完整回忆制作过程",
+    "不要写贵宾楼豪华陈设清单",
+    "不要让男主用童年卖惨"
+  ],
+  "rhythm_job": {
+    "shape": "物证慢半拍击中，少量对白，女主用按玻璃和收手完成情绪转向，章尾卡展示柜",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "用玻璃反光、展柜灯、工作人员轻声提醒承接",
+    "dialogue_action_comment_ratio": "对白约24%，动作约58%，呼吸点约18%，章尾钩1句"
+  }
+}

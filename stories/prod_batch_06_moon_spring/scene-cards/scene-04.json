@@ -1,0 +1,47 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 551,
+  "target_chars_max": 711,
+  "location": "陆家药堂门槛",
+  "time": "雪夜，三日后",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "阿砚",
+    "陆衡舟",
+    "苏云屏",
+    "坐堂名医",
+    "药堂伙计"
+  ],
+  "character_goal": "沈照棠要让名医立刻救治濒死的阿砚。",
+  "opposition_goal": "陆衡舟要封锁药堂给苏云屏保胎，苏云屏要确保阿砚无法开口。",
+  "conflict_action": "沈照棠抱着高热昏迷的阿砚冲到药堂，陆衡舟亲手扣上铜锁，命名医转去给苏云屏试安胎方，并推开跪在雪里的沈照棠。",
+  "information_gap": "阿砚身上的伤和伪造医案暂不全揭，只让死亡发生在父亲的药堂门外。",
+  "emotional_debt_delta": {
+    "added": [
+      "父亲封锁救命资源",
+      "阿砚死在雪夜门槛外",
+      "母亲最后一次求救失败"
+    ],
+    "paid": [],
+    "balance_after": "核心不可逆罪债成立。"
+  },
+  "payoff_or_hook": "阿砚的手滑落时，铜锁仍挂在门上。",
+  "chapter_end_hook": "阿砚的手从沈照棠掌心滑下，药堂铜锁还挂在门上。",
+  "paywall_card": true,
+  "must_include": [
+    "雪夜",
+    "沈照棠抱孩子冲药堂",
+    "陆衡舟亲手扣铜锁",
+    "名医被调去给苏云屏保胎",
+    "阿砚死亡"
+  ],
+  "must_not_write_as_exposition": [
+    "不要弱化孩子死亡。",
+    "不要让陆衡舟缺席或只被下人代劳。",
+    "不要写具体方剂、剂量、针法。"
+  ],
+  "target_chars": 571,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

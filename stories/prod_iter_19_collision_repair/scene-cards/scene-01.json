@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 700,
+  "target_chars_max": 740,
+  "location": "义安市机动车检测中心查验工位",
+  "time": "主线时间线 第1节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "赵卫东",
+    "陈志国"
+  ],
+  "character_goal": "完成年检拿到合格标",
+  "opposition_goal": "以系统口径压价并把整改与报废绑成一张红章",
+  "conflict_action": "陈志国把扫描枪在大梁上来回拖了三遍，AI屏幕弹出D级报废红框，赵卫东走过来按下打印键，红章在白纸上盖下整改通知。",
+  "information_gap": "张磊以为是常规年检，反派已串通好把他列入‘整改清单’",
+  "emotional_debt_delta": "盖章债",
+  "payoff_or_hook": "赵卫东把单子推到我面前：系统说这个价，你交就行。",
+  "chapter_end_hook": "赵卫东把单子推到我面前：系统说这个价，你交就行。",
+  "paywall_card": false,
+  "must_include": [
+    "AI判D级",
+    "红章落下",
+    "系统话术",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

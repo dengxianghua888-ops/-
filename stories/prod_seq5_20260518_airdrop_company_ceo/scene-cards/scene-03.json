@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "直播主舞台与中控台之间",
+  "time": "正妻身份曝光后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "苏曼宁", "安保", "平台风控法务负责人李屿", "员工"],
+  "character_goal": "许闻溪阻止周砚礼用CEO权限把她赶走",
+  "opposition_goal": "周砚礼要叫安保清场，保住苏曼宁的官宣",
+  "conflict_action": "周砚礼命令安保架人，许闻溪刷开中控权限并展示平台派驻任命函",
+  "information_gap": "周砚礼不知道平台和投资人已经任命她为首席增长与合规官",
+  "emotional_debt_delta": "-身份低估债第一笔 +职权压迫债",
+  "payoff_or_hook": "女主从被驱赶的妻子变成现场合规负责人",
+  "chapter_end_hook": "任命函编号出现在屏幕右上角，安保同时停下脚步。",
+  "paywall_card": true,
+  "must_include": ["CEO命令清场", "安保上前", "许闻溪刷开后台", "首席增长与合规官任命函", "周砚礼失声"],
+  "must_not_write_as_exposition": ["不要把职位解释成简历介绍", "不要让平台人员替她说完关键台词", "不要堆GMV等术语"]
+}

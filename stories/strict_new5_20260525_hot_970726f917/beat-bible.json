@@ -1,0 +1,238 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10680
+  },
+  "title": "塔台主钟慢了一分钟，我撕了终选确认书",
+  "genre": "现代高概念校园危机 / 规则异常 / 女主救世 / 民航航训外壳",
+  "mechanisms": {
+    "M6": "塔台主钟慢一分钟，触发广播倒计时错位、相位封控层显形、十二年前旧案揭底、任务宇宙开启的多层递进反转。",
+    "M7": "女主是上一轮事故的墙外归还者，能在对位窗口二次入墙，优势来自规则豁免而非武力。",
+    "M2": "表层是终选发疯的女飞学员，里层是十二年前事故幸存关联者，底层是时序灾变回收任务执行者。"
+  },
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 860,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "我把录取确认单撕成两半，冲向出口。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 780,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "安保按住我的肩时，我看见广播倒计时和飞行表又差了一格。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 720,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "宋棠把我递给她的身份牌，狠狠摔回我脸上。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 900,
+      "scene_range": ["scene-04", "scene-05"],
+      "chapter_end_hook": "我扑到玻璃门前，门外的风停住了。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 900,
+      "scene_range": ["scene-06", "scene-07"],
+      "chapter_end_hook": "有人一头撞上去，又被那堵看不见的墙弹了回来。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 860,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "塔台总调度对着我笑了一下，说她早该死在十二年前。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 820,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "外公留下的旧录音里，传来和现在一模一样的倒计时。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 920,
+      "scene_range": ["scene-10", "scene-11"],
+      "chapter_end_hook": "我抬头看向旧航站楼，说我要再进去一次。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 820,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "封控层裂开一条只够一个人进去的缝。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 860,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "地下导航机房里，真正的主钟还在走。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 740,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "我按下停机键时，广播却报出了新的任务编号。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 860,
+      "scene_location": "旧航站楼终选主厅",
+      "character_goal": "确认一分钟异常并立刻逃离主厅。",
+      "conflict_action": "女主当众撕毁录取确认单、推开考官、冲向出口。",
+      "information_gap": "为什么只是主钟慢一分钟，女主却认定三分钟后整座楼会变成死区？",
+      "emotion_debt_balance": "建立极端代价债：她亲手毁掉近在眼前的前途，却没人知道原因。",
+      "chapter_end_hook": "确认单碎在地上，我已经开始往门口跑。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁用AI套话", "不能把一分钟异常解释成普通设备误差", "不能把撕确认书写成情绪化发泄"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 780,
+      "scene_location": "主厅出口与安检通道",
+      "character_goal": "挣脱控制，把更多人带出旧航站楼。",
+      "conflict_action": "她抢夺广播话筒、喊人撤离，被安保和考官联手按住。",
+      "information_gap": "她到底经历过什么，才会对倒计时和广播口令这么敏感？",
+      "emotion_debt_balance": "加重社死债和误判债：全场把她当成精神失常者。",
+      "chapter_end_hook": "飞行表秒针跳动时，广播却慢了一拍。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用流程说明", "不要复述安检制度", "不要让女主长篇解释理论"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 720,
+      "scene_location": "候选人等候区边缘",
+      "character_goal": "至少拉走唯一可能动摇的搭档宋棠。",
+      "conflict_action": "她把身份牌塞给宋棠，逼她跟自己走，却被宋棠当众甩开。",
+      "information_gap": "为什么女主连最亲近的搭档都不肯说全，只反复强调‘现在走’？",
+      "emotion_debt_balance": "情感背刺债成立：短暂信任后立刻坍塌。",
+      "chapter_end_hook": "身份牌砸在我脸上，宋棠站回了队伍。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成闺蜜谈心", "不要连续解释两人友情史", "不能让宋棠太早理解真相"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 840,
+      "target_chars_max": 900,
+      "scene_location": "家属等候区与玻璃门前",
+      "character_goal": "冲破父母阻拦，带家属先撤。",
+      "conflict_action": "母亲扯住她，父亲逼她道歉，她直接挣脱冲向玻璃门。",
+      "information_gap": "女主为什么对‘门外’有近乎偏执的执念？",
+      "emotion_debt_balance": "亲情误判债加码：最该信她的人也站到对立面。",
+      "chapter_end_hook": "门外风停了，像整片世界被按住。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写家长群像反应清单", "不要复述家庭教育往事", "不能用哭诉消解紧迫感"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 840,
+      "target_chars_max": 900,
+      "scene_location": "旧航站楼出口与停机坪边界",
+      "character_goal": "用第一次规则实锤逼所有人停止压制她。",
+      "conflict_action": "她把一只行李箱砸向出口，行李箱被无形封控层弹回。",
+      "information_gap": "这堵墙是什么，它和一分钟异常之间是什么关系？",
+      "emotion_debt_balance": "开始偿还误判债，但只偿还一半：大家终于怕了，却还没法出去。",
+      "chapter_end_hook": "第一个撞墙的人，被整个人弹回人群里。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能让空气墙靠人物解释出场", "不要写长段恐慌描写", "不要把场面写成普通火灾疏散"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 860,
+      "scene_location": "塔台控制室外",
+      "character_goal": "锁定人为掩盖者，逼出更高层真相。",
+      "conflict_action": "她指认塔台总调度改过主钟，双方在众人面前对撞。",
+      "information_gap": "反派为什么宁愿困死所有人，也要维持这一分钟错位？",
+      "emotion_debt_balance": "局势升级债：从个人发疯升到管理层掩盖。",
+      "chapter_end_hook": "总调度提到了十二年前，也提到了我外公。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成推理汇报", "不要科普塔台系统", "不能让反派一次性交代全部计划"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 820,
+      "scene_location": "临时封控区内的设备间",
+      "character_goal": "拼出旧案和自己之间的私人关联。",
+      "conflict_action": "她翻出外公留下的旧录音和刻痕表盘，对上当前倒计时。",
+      "information_gap": "十二年前那场事故里，女主究竟失去了什么，又为什么活下来？",
+      "emotion_debt_balance": "补足旧创伤债，让她的偏执获得私人重量。",
+      "chapter_end_hook": "录音里那句‘墙会在第三声后合上’，和现在完全重合。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写旧案资料罗列", "不要连续解释时间线", "不能把回忆写成长闪回"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 880,
+      "target_chars_max": 920,
+      "scene_location": "封控主厅与停机坪边界",
+      "character_goal": "让众人接受唯一解法是她二次入墙。",
+      "conflict_action": "她用自己短暂穿透封控层的异常反应，证明只有她能回去。",
+      "information_gap": "她为什么能碰到封控层却不立刻被时间黏住？代价是什么？",
+      "emotion_debt_balance": "大幅偿还正名债：众人开始被迫承认她一直是对的。",
+      "chapter_end_hook": "我说完‘我再进去一次’，所有人都安静了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把规则写成设定课", "不要列举所有失败方案", "不能让别人替她做决定"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 820,
+      "scene_location": "封控层裂缝口",
+      "character_goal": "卡准对位窗口独自重返旧航站楼。",
+      "conflict_action": "她挣脱家属和安保，顶着裂缝闭合冲进墙内。",
+      "information_gap": "墙内时间流速已经乱成什么样，她还能不能回来？",
+      "emotion_debt_balance": "再压执行者债：她不仅预言，还亲自返场。",
+      "chapter_end_hook": "裂缝在我身后合上，外面的声音瞬间断了。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写群体挽留台词堆叠", "不要描写英雄式宣言", "不能把入墙写成轻松穿越"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 860,
+      "scene_location": "地下导航机房",
+      "character_goal": "找到相位校时核心并完成停机。",
+      "conflict_action": "她循着主钟脉冲下到地下，与总调度正面冲突并强拆核心。",
+      "information_gap": "总调度为何执迷不悟，核心停机后会不会把所有人一起拖死？",
+      "emotion_debt_balance": "终局偿债：旧案真相直接服务当前破局。",
+      "chapter_end_hook": "停机键按下去后，广播却先响了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成打斗流程", "不要展开装置原理说明", "不能让外部救援代替主角完成破局"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 740,
+      "scene_location": "主厅废墟边与任务播报层",
+      "character_goal": "确认本轮危机闭环，同时抬出更大任务宇宙。",
+      "conflict_action": "封控层消失后她带人出楼，却被只对她开放的任务播报截住。",
+      "information_gap": "这不是第一局，也绝不会是最后一局；她接下来还要去哪里？",
+      "emotion_debt_balance": "本局完成偿债，同时新开连续任务债。",
+      "chapter_end_hook": "播报说，下一处时间灾变将在四十八小时后开启。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成庆功总结", "不要安排大段忏悔", "不能提前展开系统世界说明会"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 11,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [11.5, 15.5],
+    "short_line_rate_lte_16_min": 0.68,
+    "short_line_rate_lte_16_max": 0.82,
+    "direct_dialogue_line_rate_min": 0.48,
+    "direct_dialogue_line_rate_max": 0.62,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 4.5,
+    "question_mark_density_per_1000_chars_max": 7.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

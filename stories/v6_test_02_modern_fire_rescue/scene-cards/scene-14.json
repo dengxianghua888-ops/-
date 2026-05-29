@@ -1,0 +1,72 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "chapter_id": 8,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 850,
+  "target_chars_max": 1000,
+  "location": "线上舆论+医院+卫健委（多空间切换）",
+  "time": "离婚后数周",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "医疗自媒体评论（引用）", "卫健委通报（引用）"],
+  "character_goal": "推动制度性清算——从个人层面到职业层面到体制层面",
+  "opposition_goal": "系统清算一旦启动无人能阻——多米诺骨牌自动倒下",
+  "conflict_action": "L2医院伦理委员会宣布停止执业→L3卫健委吊销医师资格证（处分通报包含金句）→ 自媒体曝光引发舆论风暴",
+  "information_gap": "读者跟随主角第一次完整看到三层清算连续落下——每层都以为到顶了，下一层更重",
+  "emotional_debt_delta": "-5：三层制度清算的多米诺快感——'不配穿白大褂'的终极正义",
+  "payoff_or_hook": "卫健委通报金句'对患者求救置之不理的人，不配穿这身白大褂'——M3回旋终极兑现",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "L2停止执业的通知要点",
+    "L3卫健委吊销执照的处分通报（含金句原文）",
+    "自媒体/舆论反应的简短展示（2-3条评论）",
+    "金句'对患者求救置之不理的人，不配穿这身白大褂'必须作为通报原文出现",
+    "M3回旋点明：她曾用白大褂身份碾压，现在被白大褂抛弃"
+  ],
+  "must_not_write_as_exposition": [
+    "清算过程不能写成新闻报道——用主角的视角串联",
+    "舆论不能写成弹幕墙——最多3条精选评论"
+  ],
+  "rhythm_job": {
+    "shape": "多米诺连击",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.45,
+    "sentence_avg_len": 16.0,
+    "dominant_emotion": "清算-痛快",
+    "emotion_arc": "舆论引爆 → 停止执业 → 吊销执照",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "多米诺骨牌连倒的爽感+官方金句的制度正义快感+M3回旋兑现的结构满足感",
+    "required_techniques": [
+      {
+        "technique": "舆论引爆展示",
+        "instruction": "医疗自媒体曝光+2-3条精选评论。读者在评论中看到自己的愤怒被全网共鸣——破圈感+正义感。不超过3条，贵精不贵多"
+      },
+      {
+        "technique": "制度文书金句",
+        "instruction": "卫健委处分通报原文中出现'对患者求救置之不理的人，不配穿这身白大褂'。官方措辞比任何私人骂街都更有杀伤力"
+      },
+      {
+        "technique": "四层递进清算（L2+L3）",
+        "instruction": "停止执业→吊销执照，每层之间200-300字。每倒一块读者以为到顶了，下一块更重。不允许中间有喘息"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "条件定义+价值判断",
+        "example": "对群众求救置之不理者，不配穿这身制服。",
+        "instruction": "改为白大褂版本。官方文书式措辞+精准击中核心矛盾——急诊医生不救人=最高讽刺。必须作为通报原文引用"
+      }
+    ],
+    "peak_type": "institutional_reckoning",
+    "bomb_technique": "多米诺递进式",
+    "source_excerpt": "医院伦理委员会通知：即日起停止沈知微一切临床执业活动，等待上级部门最终处理意见。三天后，卫健委处分通报下发。最后一段写着：'对患者求救置之不理的人，不配穿这身白大褂。'我看了那行字很久。她最在意的就是那身白大褂。现在，它不要她了。"
+  }
+}

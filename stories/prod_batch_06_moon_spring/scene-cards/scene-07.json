@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 452,
+  "target_chars_max": 612,
+  "location": "陆宅孕妇院、采药房",
+  "time": "半月后，苏云屏临产前",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "苏云屏",
+    "采药童子",
+    "陆宅嬷嬷"
+  ],
+  "character_goal": "沈照棠假意顺从，拿到离开陆家的钥牌和证据。",
+  "opposition_goal": "苏云屏要把沈照棠踩成伺候自己的疯妇，并继续隐藏密信。",
+  "conflict_action": "沈照棠端药、铺被、替苏云屏擦鞋，趁苏云屏嘲笑阿砚时从药箱夹层抽出密信，又用银镯换走采药童子的采药崖钥牌，夜里缝好草扎襁褓。",
+  "information_gap": "草扎襁褓的用途暂不说明。",
+  "emotional_debt_delta": {
+    "added": [
+      "女主被迫伺候害子仇人",
+      "反派羞辱孩子",
+      "女主异常平静引发期待"
+    ],
+    "paid": [],
+    "balance_after": "假死反杀进入倒计时。"
+  },
+  "payoff_or_hook": "沈照棠说会护苏云屏生产，其实已经拿到采药崖钥牌。",
+  "chapter_end_hook": "沈照棠捏着采药崖钥牌，对苏云屏说：我会护你平安生产。",
+  "paywall_card": false,
+  "must_include": [
+    "端药铺被",
+    "苏云屏嘲笑阿砚",
+    "药箱夹层密信",
+    "银镯换钥牌",
+    "草扎襁褓"
+  ],
+  "must_not_write_as_exposition": [
+    "不要说明完整计划。",
+    "不要把顺从写成真顺从。",
+    "不要让苏云屏只口头恶毒，必须有藏信动作。"
+  ],
+  "target_chars": 472,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

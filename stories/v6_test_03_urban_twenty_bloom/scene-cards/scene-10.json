@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "县人民医院病房 → 医院走廊",
+  "time": "三天后，父母脱险",
+  "pov": "苏念",
+  "characters": ["苏念", "苏建国", "林秀兰", "韩致远"],
+  "character_goal": "苏念确认父母平安，感谢韩致远的介入",
+  "opposition_goal": "无直接对手——这是释放和喘息的章节",
+  "conflict_action": "韩致远揭示省教育厅已反查审计组，秦岚被停职调查；同时暗示自己与林秀兰的旧日渊源",
+  "information_gap": "苏念在前世知道韩致远可能是她的生父——但她选择只叫'韩叔叔'",
+  "emotional_debt_delta": "情绪债开始清偿——父母活了、诬告被查了，但还不是最终清算",
+  "payoff_or_hook": "父母都活了+诬告被反查——但顾瑶和叶东辰的正式审判还在后面",
+  "chapter_end_hook": "韩致远看着苏念说'你很勇敢'，苏念第一次笑了——但读者知道外面的风暴还没结束",
+  "paywall_card": false,
+  "must_include": [
+    "手术成功的简短宣布（用最简单句子释放）",
+    "上辈子签死亡通知书vs这辈子签出院单的对比（一句话）",
+    "韩致远'你很勇敢'的认可",
+    "苏念对韩致远身份的克制处理（只叫韩叔叔）",
+    "省教育厅反查秦岚的结果（一句话交代）"
+  ],
+  "must_not_write_as_exposition": [
+    "手术过程和医学细节",
+    "韩致远的完整身世背景",
+    "教育厅调查的详细流程"
+  ],
+  "rhythm_job": {
+    "shape": "前快后慢",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 16.5,
+    "dominant_emotion": "释放-温暖",
+    "emotion_arc": "等待焦虑 → 获救释放 → 身世暗示 → 温暖感恩",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "积压的恐惧在'手术成功'时一次性释放，眼泪止不住",
+    "required_techniques": [
+      {
+        "technique": "释放式短句",
+        "instruction": "'手术很成功。'——在长段高压后用最简单的句子释放。苏念笑了又哭了。越简单越有力"
+      },
+      {
+        "technique": "身世信息的克制处理",
+        "instruction": "韩致远的目光暗示他知道更多，但苏念选择不问——拒绝认亲不是不懂感恩而是对养父的忠诚"
+      },
+      {
+        "technique": "时间线对比释放",
+        "instruction": "上辈子同一时间点签的是火化同意书——用最具体的对照物传递最大的庆幸"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间线对比+极端对照物",
+        "example": "上一世，我签的是我妈的死亡通知单和遗体火化同意书。",
+        "instruction": "同一个动作（签字）在两个时空的天壤之别——这辈子签的是出院单"
+      },
+      {
+        "structure": "他人评价式两字金句",
+        "example": "你很勇敢。",
+        "instruction": "从权威人物口中说出的认可——苏念不需要被同情，她需要被承认"
+      }
+    ],
+    "peak_type": "identity_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "「手术很成功。」我笑了，又哭了。太好了，爸妈都没事了。上一世，我签的是我妈的死亡通知单和遗体火化同意书。上辈子……他临终时告诉我的。我觉得很荒唐。最后我说了一句：「赵叔叔走好。」「你很勇敢。」他们眼眶都微微泛红。「好孩子。」"
+  }
+}

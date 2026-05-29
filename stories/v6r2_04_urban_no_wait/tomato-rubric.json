@@ -1,0 +1,37 @@
+{
+  "story": "stories/v6r2_04_urban_no_wait",
+  "overall_score": 7.57,
+  "dimensions": {
+    "length_alignment": {
+      "score": 3.93,
+      "evidence": "总字数 6151,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "no chapters"
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 3/2"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 29.264/k"
+    },
+    "style_signature": {
+      "score": 8.99,
+      "evidence": "平均句长 12.004,软违禁 2 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 10.0,
+      "evidence": "未发现可比源文或终稿,跳过源节奏比对"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "fail"
+}

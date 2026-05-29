@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "校医院空诊室",
+  "time": "第五天凌晨",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "许曼", "刘队"],
+  "character_goal": "拆开许曼的共犯角色，逼出纪白背后的论坛和馆长线索。",
+  "opposition_goal": "许曼要销毁存储卡，把自己伪装成被胁迫的普通室友。",
+  "conflict_action": "许曼试图吞掉存储卡，林照扣住她手腕，播放宿舍录音和广播登录记录，逼她承认自己负责记录女生动线。",
+  "information_gap": "馆长是真人、论坛席位，还是江砚背后的更高层代号。",
+  "emotional_debt_delta": "许曼嫌疑债部分偿还，共犯债确认，黑网债+1。",
+  "payoff_or_hook": "许曼不是主凶，但也不是无辜者；她负责钥匙、广播和动线记录。",
+  "chapter_end_hook": "许曼说：纪白只是执行人，馆长要见寒灯。",
+  "paywall_card": false,
+  "must_include": [
+    "空诊室",
+    "存储卡",
+    "宿舍录音",
+    "广播登录记录",
+    "许曼说出馆长"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把审讯写成长篇交代",
+    "不要替许曼洗白",
+    "不要让馆长只像一句虚张声势"
+  ]
+}

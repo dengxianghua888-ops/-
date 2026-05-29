@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B6",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅外台阶+三小时电话",
+  "time": "同日下午一点至四点",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "合伙人老李·电话端", "母亲住院部护士·电话端", "网贷客服·电话端"],
+  "character_goal": "凑齐三千万销毁补偿费",
+  "opposition_goal": "时间窗口缩窄、资金缺口压顶",
+  "conflict_action": "徐阳依次拨号→合伙人挪借→拍卖小厂股权→护士那边把母亲住院押金调出→网贷额度拉满→银行转账到账",
+  "information_gap": "读者揪心'他为什么要交这笔钱'——吊足等爽",
+  "emotional_debt_delta": "+1（累积至+5）情绪谷底，但已是诱饵",
+  "payoff_or_hook": "钱到账瞬间，徐阳抬眼，平静得像没事人",
+  "chapter_end_hook": "三千万到账。我没接货，先开口要一张东西",
+  "paywall_card": true,
+  "must_include": ["三通电话具体内容（合伙人/医院/网贷）", "母亲住院只点一句不展开", "金额数字三千万", "到账瞬间的物理感受"],
+  "must_not_write_as_exposition": ["亲情苦情拖节奏", "倾家荡产情绪叠词", "念念不忘式心声", "主角后悔回头"]
+}

@@ -1,0 +1,87 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "苏念的公司楼下/停车场",
+  "time": "离婚后数周",
+  "pov": "苏念",
+  "characters": ["陆衍", "苏念"],
+  "character_goal": "陆衍想挽回苏念",
+  "opposition_goal": "苏念的回应——不恨只是不在乎",
+  "conflict_action": "陆衍失眠翻相册→跟踪苏念公司楼下→苏念拒绝'我不恨你我只是不在乎你了'→'没有来生'斩断所有幻想",
+  "information_gap": "陆衍翻遍相册只有几张合照——他从来不在意记录，现在想找都找不到",
+  "emotional_debt_delta": "温度曲线继续下坠：从'追悔'到'被彻底否定存在意义'",
+  "payoff_or_hook": "'不在乎'比恨更致命——称呼反转前的最后铺垫",
+  "chapter_end_hook": "陆衍开始频繁出现在苏念公司楼下，每天都能看到他的车停在路边",
+  "paywall_card": false,
+  "must_include": [
+    "翻相册只找到几张合照的具象化",
+    "公司楼下跟踪的画面",
+    "'我不恨你，我只是不在乎你了'金句",
+    "'没有来生'斩断幻想",
+    "每天停车路边的重复行为"
+  ],
+  "must_not_write_as_exposition": [
+    "苏念现在的公司规模",
+    "沈砚的具体安排",
+    "陆衍公司的清算进度"
+  ],
+  "rhythm_job": {
+    "shape": "缓慢下沉——悔恨的重复和无力",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 18.0,
+    "dominant_emotion": "追悔-被拒-丧失",
+    "emotion_arc": "失眠 → 跟踪 → 被拒 → 沉沦",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "对陆衍的跌落满足，被苏念'不在乎'的决绝震撼",
+    "required_techniques": [
+      {
+        "technique": "失眠的具象化",
+        "instruction": "'翻出手机相册一张一张看，翻遍了只找到几张'——合照很少=从不在意记录，现在想找都找不到"
+      },
+      {
+        "technique": "否定句收束",
+        "instruction": "'我不恨你，我只是不在乎你了'——否定恨+确认不在乎，比恨伤害大一万倍"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "我不[强情绪]，我只是[更致命的淡漠]",
+        "example": "我不恨你，我只是不在乎你了。",
+        "instruction": "恨=你还占据情绪空间；不在乎=你从我的世界消失了——后者才是真正的结束"
+      },
+      {
+        "structure": "否定对方假设+反问——斩断所有幻想",
+        "example": "没有来生，我们之间还谈什么来生？",
+        "instruction": "堵死所有退路——连'来生'的幻想都不给"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "否定式——用最冷的语气关闭所有可能性",
+    "source_excerpt": "陆衍翻出手机相册。\n一张一张看。\n他们的合照很少。翻遍了，只找到几张。\n都是她拍的。他从来没主动拍过。\n……\n苏念停下脚步。\n'陆衍，你到底要什么？'\n'念念，给我一个机会——'\n'我不恨你。'\n她看着他，语气平静得像在说天气。\n'我只是不在乎你了。'\n'没有来生，我们之间还谈什么来生？'\n她走了。\n他的车，每天都停在同一个位置。"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": ["过去了就是过去了"],
+      "句式": "极短、平静到残忍",
+      "单句上限": 12,
+      "禁止": "解释、心软、流泪"
+    },
+    "陆衍": {
+      "口癖": [],
+      "句式": "卑微请求、不完整的句子",
+      "单句上限": 12,
+      "禁止": "居高临下"
+    }
+  }
+}

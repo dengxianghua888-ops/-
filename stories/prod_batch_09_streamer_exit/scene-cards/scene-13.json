@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 600,
+  "target_chars_max": 794,
+  "location": "法院走廊 / 审判庭",
+  "time": "侵权案开庭日",
+  "pov": "第一人称：许闻笙",
+  "characters": [
+    "许闻笙",
+    "陆呈",
+    "陆呈律师",
+    "昼光律师",
+    "法官",
+    "品牌法务"
+  ],
+  "character_goal": "许闻笙用证据链推进陆呈虚假宣传与侵权案。",
+  "opposition_goal": "陆呈要把责任推成许闻笙设局陷害，争取舆论同情。",
+  "conflict_action": "陆呈庭前指着许闻笙说她设局害他，庭审中昼光律师逐项提交授权合同、直播录屏、样品签收单、营销号转账记录。",
+  "information_gap": "陆呈不知道工作室员工已经配合提交营销号付款凭证。",
+  "emotional_debt_delta": "+1：庭审反咬；-2：证据链压住反咬。",
+  "payoff_or_hook": "法官要求陆呈说明授权来源，他答不上来。",
+  "chapter_end_hook": "开庭前，陆呈突然指着我说：是她设局害我。",
+  "paywall_card": false,
+  "must_include": [
+    "陆呈庭前指认设局",
+    "授权合同",
+    "直播录屏",
+    "样品签收单",
+    "营销号转账记录"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把庭审写成吵架",
+    "不要让律师空喊正义",
+    "不要省略证据物件"
+  ]
+}

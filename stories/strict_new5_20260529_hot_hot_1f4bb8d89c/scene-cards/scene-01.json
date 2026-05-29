@@ -1,0 +1,54 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "澜舟科技上市庆功婚礼暨公益发布会主厅",
+  "time": "婚礼开场前三分钟",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "主持人",
+    "董事",
+    "媒体",
+    "直播观众"
+  ],
+  "character_goal": "沈听澜要在公开低位中拿出第一份反杀文件。",
+  "opposition_goal": "江砚舟要用遗体冷柜逼她体面退场，并保住自己深情CEO人设。",
+  "conflict_action": "江砚舟让礼仪推入贴着沈听澜铭牌的白色遗体冷柜，沈听澜从捧花里抽出专利回购协议交给主持人投屏。",
+  "information_gap": "宾客只知道她被羞辱，不知道她已经拿回低温保存算法授权。",
+  "emotional_debt_delta": {
+    "added": [
+      "婚礼公开羞辱债"
+    ],
+    "paid": [
+      "当场亮出专利回购协议"
+    ]
+  },
+  "payoff_or_hook": "第一张权力牌由女主自己亮出，陆承川不出现救场。",
+  "chapter_end_hook": "截断句：伦理审查暂停函右下角，盖着我的名字。",
+  "paywall_card": false,
+  "must_include": [
+    "前300字内出现遗体冷柜",
+    "冷柜铭牌写“沈听澜女士纪念舱”",
+    "江砚舟台词：你要是真想死心，就躺进去",
+    "沈听澜把捧花放到冷柜上再抽文件",
+    "直播评论只出现1行，作为低压错愕"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释低温保存技术",
+    "不要复述发布会背景",
+    "不要写宾客反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "动作开场，短对白压住羞辱，证据动作收尾",
+    "dialogue_action_breathing_ratio": "对白约45%，动作约40%，呼吸点约15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用直播评论和沈听澜整理头纱的慢半拍动作承接冷柜冲击",
+    "chapter_tail_action": "镜头落到暂停函盖章"
+  }
+}

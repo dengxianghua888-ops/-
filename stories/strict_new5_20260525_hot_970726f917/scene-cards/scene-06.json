@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 900,
+  "target_chars_max": 980,
+  "location": "塔台控制室外走廊",
+  "time": "封控层显形后5分钟内",
+  "pov": "第一人称",
+  "characters": [
+    "陆昭",
+    "塔台总调度许闻",
+    "韩岚",
+    "安保",
+    "围拢家属"
+  ],
+  "character_goal": "锁定修改主钟的人，逼出更高层线索与旧案口风。",
+  "opposition_goal": "许闻要把异常包装成临时系统故障，继续拖时间等装置完成对位。",
+  "conflict_action": "陆昭冲到塔台走廊，指着主钟让许闻重校；许闻反问她怎么会知道第三次相位收束，双方当众对撞。",
+  "information_gap": "截断句：许闻看着我，说你本来就该留在十二年前。",
+  "emotional_debt_delta": "从群体误判升级到人为掩盖债。",
+  "payoff_or_hook": "反派首次露口风，旧案和当前危机被拽到同一条线上。",
+  "chapter_end_hook": "截断句：许闻看着我，说你本来就该留在十二年前。",
+  "paywall_card": true,
+  "must_include": [
+    "主钟重校被拒",
+    "许闻话里有‘第三次相位收束’",
+    "韩岚和安保开始动摇",
+    "陆昭听到外公被提及时明显失控一瞬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要做反派设定说明",
+    "不要科普塔台职责",
+    "不要让女主连篇复盘逻辑"
+  ],
+  "rhythm_job": {
+    "shape": "冲塔台-指认-反派露口风-旧案炸点",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "低压反应：主钟滴答、走廊灯闪、许闻笑一下"
+  }
+}

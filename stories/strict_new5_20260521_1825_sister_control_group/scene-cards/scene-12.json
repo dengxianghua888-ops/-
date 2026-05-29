@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "婚礼直播现场 / 手机屏幕前",
+  "time": "数周后白天",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "沈蔓",
+    "周叙川",
+    "主持人",
+    "宾客"
+  ],
+  "character_goal": "沈栀要冷静看着反噬发生，不再回头替任何人收场。",
+  "opposition_goal": "沈蔓和周叙川都想保住最后的体面和名声。",
+  "conflict_action": "婚礼直播中途爆出行业通报和撤奖消息，现场乱掉，沈蔓当众追问周叙川之前许过谁署名和未来。",
+  "information_gap": "沈蔓塌房后会把火烧向家庭还是继续死抓周叙川？",
+  "emotional_debt_delta": "抢来的关系开始互咬，反噬爽兑现。",
+  "payoff_or_hook": "曾经拿来抬身份的婚礼，成了两人名声一起崩的直播间。",
+  "chapter_end_hook": "行业通报出来那天，沈蔓的婚礼直播突然黑掉了。",
+  "paywall_card": false,
+  "must_include": [
+    "直播或屏幕观看载体",
+    "通报与撤奖同时砸下",
+    "沈蔓现场反咬周叙川"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆网友评论",
+    "不要详细写婚礼流程",
+    "不要让女主沉浸式吃瓜不动作"
+  ],
+  "rhythm_job": {
+    "shape": "先稳后塌，外部消息切入，中段加入沈栀关掉直播提醒的生活动作，尾句黑屏收钩",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

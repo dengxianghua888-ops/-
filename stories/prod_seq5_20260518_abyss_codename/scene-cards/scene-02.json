@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 850,
+  "location": "B312宿舍与走廊广播箱",
+  "time": "入住当晚熄灯后",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "蒋晴",
+    "隔壁寝室女生"
+  ],
+  "character_goal": "确认倒放广播是否与失踪案有关。",
+  "opposition_goal": "蒋晴阻止林雾靠近广播箱，其他女生用闹鬼说法干扰判断。",
+  "conflict_action": "广播再次响起时，林雾拿手机录音并当场倒放，掀开走廊广播箱外罩查看标签，蒋晴冲过来按住她的手。",
+  "information_gap": "倒放内容提到三号乘客未登机，但三号乘客的身份未知。",
+  "emotional_debt_delta": "偿还一小笔专业能力债，同时加深蒋晴嫌疑。",
+  "payoff_or_hook": "林雾判断广播不是闹鬼，是有人用旧线路定点播放。",
+  "chapter_end_hook": "倒放音频里出现清晰一句：三号乘客未登机。",
+  "paywall_card": false,
+  "must_include": [
+    "倒放客舱安全广播",
+    "林雾用结果性证据拆解伪灵异",
+    "蒋晴对广播箱异常紧张",
+    "三号乘客线索"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲音频技术原理",
+    "不要让林雾凭感觉断案",
+    "不要把蒋晴直接写成凶手"
+  ]
+}

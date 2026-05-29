@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 720,
+  "target_chars_max": 860,
+  "location": "婚礼主厅大屏前",
+  "time": "谢砚完成发行盘反击后",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "陆沉舟", "谢氏法务总监", "记者", "宾客"],
+  "character_goal": "谢家法务要公开陆沉舟的违约链和陆家基金清算风险。",
+  "opposition_goal": "陆沉舟要继续把自己包装成被林晚宜报复的旧爱。",
+  "conflict_action": "法务总监把税务调查函、对赌违约书、商务索赔清单和陆家影视基金清算预通知投上婚礼大屏。",
+  "information_gap": "陆沉舟以为求林晚宜撤手就能停下清算，但合同和监管已经启动。",
+  "emotional_debt_delta": "-婚礼破坏债；-财富身份清算债",
+  "payoff_or_hook": "终局清算从情感羞辱落到事业、财富和家族资本链崩塌。",
+  "chapter_end_hook": "陆沉舟脸上的笑僵住，税务调查函盖着红章投上了大屏。",
+  "paywall_card": false,
+  "must_include": ["税务调查函", "对赌违约书", "商务索赔清单", "陆家影视基金清算预通知"],
+  "must_not_write_as_exposition": ["不要伪造证据", "不要暴力威胁", "不要把惩罚写成只掉粉"]
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "尸检间门外电话区",
+  "time": "尸表检查后",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "许知遥",
+    "助理法医"
+  ],
+  "character_goal": "许知遥要试探尸检是否发现追撞证据。",
+  "opposition_goal": "陆谨言要控制通话并继续封存证据。",
+  "conflict_action": "许知遥打来电话，陆谨言按下录音和免提，一边听她试探一边让助理送检蓝色车漆。",
+  "information_gap": "许知遥不知道胎心钥匙扣还在证物袋里，也不知道陆谨言已经发现车漆。",
+  "emotional_debt_delta": "外部凶手压力进入尸检现场，沈栀的恐惧变成冷怒。",
+  "payoff_or_hook": "凶手露怯但未自爆，悬念转向腹部检查。",
+  "chapter_end_hook": "许知遥打来电话，问尸检做到哪一步了。",
+  "paywall_card": false,
+  "must_include": [
+    "电话震动声",
+    "许知遥克制的关心",
+    "陆谨言按下录音",
+    "沈栀想起许知遥曾踩碎她的资料",
+    "陆谨言冷声说还在取证"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让许知遥夸张疯笑",
+    "不要让陆谨言在电话里失控",
+    "不要让心理战提前开始"
+  ]
+}

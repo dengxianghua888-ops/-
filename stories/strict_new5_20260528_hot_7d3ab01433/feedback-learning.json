@@ -1,0 +1,110 @@
+{
+  "story_slug": "strict_new5_20260528_hot_7d3ab01433",
+  "pipeline_mode": "production",
+  "genre": "ancient_revenge",
+  "mechanisms": ["M1", "M3", "M6", "M8"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 11865,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "scene-01",
+      "chapter": 1,
+      "type": "opening_blood_debt",
+      "fact": "首章前150字内直接给出杀父现场、权贵地点、石磨声音和反派冷句，迅速建立复仇债。"
+    },
+    {
+      "scene_id": "scene-01",
+      "chapter": 1,
+      "type": "object_oath",
+      "fact": "三两银被压进豆腐模，形成可贯穿全篇的羞辱物件和复仇载体。"
+    },
+    {
+      "scene_id": "scene-02",
+      "chapter": 2,
+      "type": "minor_villain_break",
+      "fact": "常顺吃豆腐后当街跪下喊娘，把豆腐的异常效果具象化，同时制造入府前置。"
+    },
+    {
+      "scene_id": "scene-05",
+      "chapter": 5,
+      "type": "trauma_sound",
+      "fact": "废斋房空磨声逼阿眠喊爹，复用开篇声音创伤，推动萧玄祁注意到旧案。"
+    },
+    {
+      "scene_id": "scene-07",
+      "chapter": 7,
+      "type": "evidence_unlock",
+      "fact": "半页旧供单证明沈广安是被王府征入斋房，不是偷入王府，承担污名反转。"
+    },
+    {
+      "scene_id": "scene-11",
+      "chapter": 11,
+      "type": "payoff_taste",
+      "fact": "萧玄祁尝出铁锈味后追问三两银，羞辱物件从账面转为入口清算。"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": 12,
+      "type": "object_closure",
+      "fact": "空银袋、供单、铜钱账、豆腐模痕同场摆出，形成物证链闭环。"
+    },
+    {
+      "scene_id": "scene-15",
+      "chapter": 15,
+      "type": "emotional_repair",
+      "fact": "结尾让石磨回到江边豆腐坊，只磨豆不再磨命，完成创伤降噪。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-03",
+      "chapter": 3,
+      "card_type": "villain_arrival",
+      "hook": "柳含霜车驾停在被砸豆腐摊前，反派从幕后进入现场。"
+    },
+    {
+      "scene_id": "scene-06",
+      "chapter": 6,
+      "card_type": "recognition_pressure",
+      "hook": "柳含霜以磨声逼问阿眠是否听过那架磨，身份暴露风险升高。"
+    },
+    {
+      "scene_id": "scene-09",
+      "chapter": 9,
+      "card_type": "evidence_reversal",
+      "hook": "柳含霜搜出银袋和小石臼，试图把复仇物证反咬成下毒证据。"
+    },
+    {
+      "scene_id": "scene-11",
+      "chapter": 11,
+      "card_type": "revenge_reveal",
+      "hook": "萧玄祁尝出铁锈味，娘翻出空银袋说三两银已经被王爷吃过。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "古言复仇",
+    "权贵旧案",
+    "食物意象复仇",
+    "三两银羞辱债",
+    "石磨声音创伤",
+    "豆腐斋饭",
+    "物证链反转",
+    "旧供单洗冤",
+    "母女复仇",
+    "短句对白推进",
+    "因果回旋",
+    "道德模糊结尾"
+  ],
+  "manual_revision_delta": []
+}

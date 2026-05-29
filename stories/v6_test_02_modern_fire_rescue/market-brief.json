@@ -1,0 +1,110 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "end_hook_required": true,
+    "target_chapter_count": "12-18"
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "第一段必须建立生死级悬念+公权背叛双重信息差，读者在三行内知道'妻子堵死了丈夫的求救通道'",
+    "micro_hook_interval_chars": [800, 1200],
+    "micro_hook_types": ["信息差揭露", "新证据浮出", "反派再次越线", "主角冷静反击前的蓄势"],
+    "paywall_cliffhanger_interval_chars": [2500, 3500],
+    "paywall_cliffhanger_types": ["入室者身份悬念", "生育诊断宣判", "值班记录曝光", "法庭判决前夜", "处分通报下达"]
+  },
+  "audience": {
+    "primary_demographic": "25-40岁女性，已婚/恋爱中，对婚姻安全感有焦虑",
+    "secondary_demographic": "18-30岁男性，共情'被冤枉/被忽视'的愤怒",
+    "emotional_needs": [
+      "看见'不被相信'的恐惧被具象化并获得正义",
+      "体验'证据型复仇'的冷静快感",
+      "获得'不原谅也合理'的心理许可",
+      "制度正义（开除/刑责）带来的秩序感补偿"
+    ],
+    "reading_context": "碎片化通勤/睡前阅读，单章完读时间90-150秒",
+    "genre_taboos": [
+      "不可让女主被原谅或复合",
+      "不可让施害者用眼泪/下跪获得廉价赎罪",
+      "不可弱化公权滥用的严重性",
+      "不可出现圣母式和解",
+      "不可让孩子成为复合工具"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "template": "【极端行为】+【施害者身份反差】+【受害结果】",
+        "examples": ["火场求救时，消防队长老婆说我在演戏", "被锁在火里求救，老婆让119别接我电话"]
+      },
+      {
+        "formula": "T3",
+        "template": "【受害者视角的绝望陈述】",
+        "examples": ["那场火里，没有人肯相信我", "求救电话被挂断的那个晚上"]
+      },
+      {
+        "formula": "T4",
+        "template": "【荒诞反差+悬念】",
+        "examples": ["119说我老婆交代过，别理我", "老婆是消防队长，可火烧到我时她在给别人切蛋糕"]
+      }
+    ],
+    "selection_criteria": "优先T1公式：动作明确、身份反差大、情绪触发快，适合番茄信息流标题"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "每章结尾留一个未回答的'接下来会怎样'，阶梯递进不回落"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "付费卡点设在'证据即将公开但尚未落地'的瞬间，如值班记录截图出现前、法庭宣判前"
+    },
+    "emotional_release": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "主角每次冷静短句（如'法院见''那就让她看看配不配穿'）即为释放点，密度≥每2000字一次"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "scale": 10,
+      "strategy": "零容忍：禁用'然而/不禁/心中涌起'等全部违禁词；情绪通过动作和生理反应传达，不直接命名"
+    },
+    "explosion_density": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "每1000字至少一个微冲突或信息差揭露，大反转间隔不超过3000字"
+    }
+  },
+  "genre_positioning": {
+    "primary_genre": "family_ethics",
+    "secondary_genre": "modern_reversal",
+    "core_mechanisms": ["M1", "M3", "M5", "M6"],
+    "dominant_payoff": "制度清算+证据反杀",
+    "emotion_curve_shape": "阶梯递进型",
+    "reader_promise": "看一个被妻子亲手堵死求救通道、差点丧命并失去生育可能的受害者，用证据链让她失去婚姻、制服、前途和道德立场"
+  },
+  "competitive_intelligence": {
+    "benchmark_stories": [
+      "hot_623b1cb2b5",
+      "hot_892e4b3fc3",
+      "hot_74bb52096b",
+      "hot_39fbc6434f"
+    ],
+    "avg_tomato_fit": 8.8,
+    "differentiator": "公权身份（消防队长）滥用制度堵死求救通道，比普通家暴多一层'系统性压迫'的愤怒；入室者悬念线增加类型叠加感",
+    "risk_factors": [
+      "消防职业设定需避免对整个系统污名化，聚焦个人滥权",
+      "生育损伤需克制表达，不做煽情催泪，保持主角冷硬"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04a",
+  "chapter_id": 3,
+  "is_chapter_end": false,
+  "target_chars_min": 480,
+  "target_chars_max": 550,
+  "location": "场馆B区走廊（昏暗灯光，哥特壁画）",
+  "time": "晚上8:05，时钟倒退后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "周予安"],
+  "character_goal": "沈听澜必须立刻带周予安离开，不惜用极端行为",
+  "opposition_goal": "周予安虽然想相信但无法理解，被沈听澜撕碎线索卡的行为彻底激怒",
+  "conflict_action": "沈听澜抢过周予安的生日彩蛋线索卡撕碎——阻止她深入场馆",
+  "information_gap": "沈听澜知道线索卡会引导周予安走向量子共振器所在的地下室",
+  "emotional_debt_delta": "闺蜜背刺债开始兑付——从信任到质疑到愤怒",
+  "payoff_or_hook": "过渡：周予安的反应从震惊到愤怒",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["撕碎线索卡的极端行为", "周予安从震惊到愤怒的转变", "沈听澜的急迫vs周予安的不理解"],
+  "must_not_write_as_exposition": ["线索卡上写了什么具体内容", "密室的完整剧情设计"],
+  "rhythm_job": {
+    "shape": "蓄力",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 13.5,
+    "dominant_emotion": "绝望-撕裂",
+    "emotion_arc": "希望破灭 → 极端行为",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "理解沈听澜为什么必须这样做，同时心疼两人的友情",
+    "required_techniques": [
+      {
+        "technique": "极端行为引爆冲突",
+        "instruction": "撕碎线索卡的动作必须突然且不可逆——让冲突瞬间升级到无法挽回的程度"
+      },
+      {
+        "technique": "生理痛+心理痛对比降格",
+        "instruction": "为下一场（耳光）做铺垫——先建立沈听澜的内心痛苦，让后续的物理疼痛显得微不足道"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "身体痛+但+心理痛对比",
+        "example": "脸上火辣辣地疼。但和心里的痛比起来却不值一提了。",
+        "instruction": "用即将到来的耳光之前的内心准备——她知道这样做会失去闺蜜，心理代价比物理疼痛重得多"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "反转式",
+    "source_excerpt": "我急地撕碎了闺蜜的卷子。闺蜜一脸不可思议地看着我。\"田可，你在干什么！你疯了吗！\"我不是疯了。我在救你的命。可我不知道该怎么开口。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["跟我走", "别问了", "来不及了"],
+      "句式": "极短命令式，不解释",
+      "单句上限": 12,
+      "禁止": "道歉、解释"
+    },
+    "周予安": {
+      "口癖": ["你疯了", "三万块", "我给你策划的"],
+      "句式": "从震惊到质问",
+      "单句上限": 18,
+      "禁止": "冷静长句"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_15_family_ethics",
+  "title": "我从二十八楼跳下去的时候，全家人在楼下鼓掌",
+  "source_slug": "hot_b37c6589ca",
+  "genre": "family_ethics",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10037, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 25.038, "long_line_rate": 0.0603, "question_marks_per_k": 2.408, "status": "pass"},
+    "structure_metrics": {"impact_density": 9.46, "watermark_count": 0, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 8, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "fail",
+  "applicable": true,
+  "source": {
+    "chars": 11161,
+    "line_count": 610,
+    "avg_line_chars": 18.297,
+    "median_line_chars": 16.0,
+    "short_line_rate": 0.5213,
+    "long_line_rate": 0.0508,
+    "quote_line_rate": 0.4738,
+    "barrage_line_rate": 0.0,
+    "question_marks_per_k": 8.422,
+    "comma_period_ratio": 0.946,
+    "sentence_avg_len": 17.6
+  },
+  "candidate": {
+    "chars": 7979,
+    "line_count": 494,
+    "avg_line_chars": 16.152,
+    "median_line_chars": 14.0,
+    "short_line_rate": 0.668,
+    "long_line_rate": 0.0223,
+    "quote_line_rate": 0.419,
+    "barrage_line_rate": 0.0,
+    "question_marks_per_k": 9.525,
+    "comma_period_ratio": 0.213,
+    "sentence_avg_len": 9.2
+  },
+  "failures": [
+    "short_line_rate 0.668 over-fragments source rhythm 0.521"
+  ],
+  "rewrite_instructions": [
+    "保持每个 scene 的事件和字数区间不变,只修节奏。",
+    "保留直接对白、弹幕、章尾钩和现有信息增量,不要删成概要。",
+    "不得新增旁白解释、环境铺陈、流程清单或重复情绪总结。",
+    "把被拆成两行的半句合并成完整短句,例如原因+结果、动作+反应、台词提示+动作可放回同一行。",
+    "目标是接近源文平均可视行长,不是把短行率推到 100%。",
+    "每行必须是一句完整、有信息量的短句;不要写成诗行。"
+  ]
+}

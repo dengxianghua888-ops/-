@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 580,
+  "target_chars_max": 620,
+  "location": "离婚诉讼庭审",
+  "time": "数月后上午",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "沈泊舟", "沈母", "法官", "律师"],
+  "character_goal": "拿到财产分割、抚养安排和护理责任切割。",
+  "opposition_goal": "沈泊舟想用悔恨拖延判决，沈母想继续让许清辞照护。",
+  "conflict_action": "法庭宣读判决，许清辞递交护理责任材料，拒绝沈泊舟当庭求复合。",
+  "information_gap": "沈泊舟失去的不只是婚姻，还有转嫁给许清辞的照护责任。",
+  "emotional_debt_delta": "金钱债、劳动债、父职债集中偿还。",
+  "payoff_or_hook": "现实补偿落地。",
+  "chapter_end_hook": "判决书最后一页，写着沈母后续护理费用由沈泊舟承担。",
+  "paywall_card": true,
+  "must_include": ["判决书", "主要房产和存款归属", "念念抚养安排", "护理责任材料"],
+  "must_not_write_as_exposition": ["不要写庭审流水账", "不要让丈夫长篇忏悔", "不要留下复合可能"],
+  "rhythm_job": {
+    "shape": "判决短章，法庭结果用短句落点，丈夫求复合只给两三句。",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_hook_ratio": "对白约30%，动作约35%，判决信息约30%，章尾钩约5%。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 960,
+  "target_chars_max": 1140,
+  "location": "诏狱织案房",
+  "time": "万寿宴后第三日夜",
+  "pov": "沈知微第一人称",
+  "characters": ["沈知微", "沈明珠", "萧承煜", "狱卒"],
+  "character_goal": "让沈明珠听见太子利用她的真相，摧毁其凤命信仰",
+  "opposition_goal": "沈明珠要证明自己仍是被太子所爱的女主，太子要把预知册罪责推给她",
+  "conflict_action": "沈知微把残页递到牢门前，萧承煜隔墙承认宠她只为未来情报",
+  "information_gap": "两名反派会在宗人府供出多少幕后交易尚未揭晓",
+  "emotional_debt_delta": {
+    "collect": ["继妹自认凤命", "太子伪装宠爱"],
+    "payoff": ["攻略书信仰坍塌，太子利用本质暴露"]
+  },
+  "payoff_or_hook": "沈明珠从凤命女主跌成被利用的情报器",
+  "chapter_end_hook": "诏狱灯火一晃，沈明珠听见太子说：本宫宠你，只因你手里有未来。",
+  "paywall_card": false,
+  "must_include": ["诏狱", "残页", "沈明珠失态说出剧本", "太子承认利用", "女主冷静补刀"],
+  "must_not_write_as_exposition": ["不要把穿越者群体污名化", "不要写太子深情回忆", "不要解释全部前世剧情"],
+  "rhythm_job": {
+    "shape": "牢门隔声制造误会，残页动作引出真话，继妹失态后留半句钩子",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [14, 20],
+    "action_beats_min": 6,
+    "evidence_turn_min": 1,
+    "low_pressure_carry": "写灯芯噼响、狱卒换水、残页贴上铁栏"
+  }
+}

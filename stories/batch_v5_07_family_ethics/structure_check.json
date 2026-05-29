@@ -1,0 +1,98 @@
+{
+  "impact_density": {
+    "total_impacts": 28,
+    "per_category": {
+      "physical_violence": 13,
+      "verbal_attack": 2,
+      "betrayal": 3,
+      "revelation": 7,
+      "status_reversal": 3
+    },
+    "impacts_per_1000_chars": 2.8,
+    "nonspace_chars": 10001
+  },
+  "watermark_violations": [
+    {
+      "start_line": 296,
+      "length": 9,
+      "sample": "我没有住进锦绣家园。"
+    }
+  ],
+  "watermark_count": 1,
+  "per_chapter": [
+    {
+      "title": "",
+      "nonspace_chars": 12,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第一章",
+      "nonspace_chars": 988,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第二章",
+      "nonspace_chars": 588,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第三章",
+      "nonspace_chars": 1245,
+      "impacts": 6,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第四章",
+      "nonspace_chars": 1378,
+      "impacts": 3,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第五章",
+      "nonspace_chars": 846,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第六章",
+      "nonspace_chars": 799,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第七章",
+      "nonspace_chars": 1046,
+      "impacts": 6,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第八章",
+      "nonspace_chars": 580,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第九章",
+      "nonspace_chars": 575,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十章",
+      "nonspace_chars": 713,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十一章",
+      "nonspace_chars": 1175,
+      "impacts": 2,
+      "watermark_violations": 0
+    }
+  ],
+  "gate_status": "pass",
+  "watermark_warning": true
+}

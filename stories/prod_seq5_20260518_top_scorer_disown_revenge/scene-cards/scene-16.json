@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "公开庭审现场",
+  "time": "数月后庭审日",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "假父亲",
+    "假母亲",
+    "假哥哥",
+    "假未婚夫",
+    "裴队",
+    "顾教授",
+    "检察官",
+    "法官"
+  ],
+  "character_goal": "沈棠要在庭审中完成制度正义下的公开清算。",
+  "opposition_goal": "反派要利用无直接目击和程序争议挣脱关键指控。",
+  "conflict_action": "检方播放门锁日志、传感器曲线、墙体取样、DNA鉴定和旧案身份比对，沈棠出庭逐项确认自己如何发现线索。",
+  "information_gap": "证据链能否击穿反派最后的无尸无证狡辩。",
+  "emotional_debt_delta": "公开打脸债和正义债集中兑现。",
+  "payoff_or_hook": "反派在完整证据链前失去傲慢。",
+  "chapter_end_hook": "庭审屏幕定格在门锁日志最后一分钟，假父亲的手终于抖了。",
+  "paywall_card": true,
+  "must_include": [
+    "公开庭审",
+    "门锁日志展示",
+    "传感器曲线",
+    "墙体取样",
+    "DNA鉴定",
+    "沈棠出庭"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把庭审写成私刑",
+    "不要省略证据链",
+    "不要让反派靠长篇嘴硬拖节奏"
+  ]
+}

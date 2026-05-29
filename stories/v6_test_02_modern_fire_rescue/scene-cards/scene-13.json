@@ -1,0 +1,73 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 450,
+  "target_chars_max": 580,
+  "location": "法院走廊",
+  "time": "庭审结束后",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "沈知微"],
+  "character_goal": "彻底切断——不给她任何挽回的幻想",
+  "opposition_goal": "沈知微试图追悔——'如果那天我信你一次…'",
+  "conflict_action": "走廊里她追上来说'承安，如果那天我信你一次...'；他说'你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能'；转身离开不回头",
+  "information_gap": "她不知道这只是第一层清算——还有停职、开除、刑责在等她",
+  "emotional_debt_delta": "-3：'掐掉了那个可能'的诛心快感+M5温度负值兑现",
+  "payoff_or_hook": "转身不回头——与第一章'她不接电话'的M3镜像完成",
+  "chapter_end_hook": "说完，我转身离开，没有再回头。",
+  "paywall_card": false,
+  "must_include": [
+    "沈知微的追悔台词（'如果那天我信你一次'）",
+    "主角的诛心反击（'你掐掉了那个可能'）",
+    "'我们原本可能会有个孩子'这个信息第一次当面说出",
+    "转身离开不回头的物理动作",
+    "她在身后喊名字但他不停步"
+  ],
+  "must_not_write_as_exposition": [
+    "不能解释为什么他不原谅——行动本身就是答案",
+    "不能预告下一步的职业追责"
+  ],
+  "rhythm_job": {
+    "shape": "先慢后爆",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.4,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "审判-决绝",
+    "emotion_arc": "她追悔 → 他诛心 → 物理离场",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "为'终于想起来了？'的反问拍手，为'没有回头'的决绝心疼又解气",
+    "required_techniques": [
+      {
+        "technique": "诛心反击术",
+        "instruction": "不说'你害了我'，而说'你终于想起来了？'——把刀交给对方的记忆自己捅。反问比控诉更狠"
+      },
+      {
+        "technique": "M3镜像回旋",
+        "instruction": "第一章她不接他的求救电话=不回头。现在他转身离开不回头=不接她的追悔。同一个动作，身份互换"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间对比+反问",
+        "example": "你现在终于想起来，我们原本可能会有个孩子了？",
+        "instruction": "'终于'二字暗含全部控诉。'我们原本可能有个孩子'第一次当面说出——信息差在此刻砸向她"
+      },
+      {
+        "structure": "时间定位+因果判定",
+        "example": "你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能。",
+        "instruction": "把抽象的'你伤害了我'精确到'那一刻那个动作'。'亲手掐掉'的意象精准且残忍"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "诛心反转式",
+    "source_excerpt": "她追上来，在走廊里喊：'承安——如果那天我信你一次…'我停了一秒。然后转过身。'你现在终于想起来，我们原本可能会有个孩子了？'她愣住了。我说：'你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能。'说完，我转身离开，没有再回头。"
+  }
+}

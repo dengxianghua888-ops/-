@@ -1,0 +1,187 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [
+      10000,
+      30000
+    ]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "tomato_preferred_median": 650
+    },
+    "chapter_end_requirement": "每章末必须落在新危机、新误会、新身份线索或即将打脸的动作前一秒，不能自然收束。",
+    "serialization_rhythm": "短章快切，单章只解决一个小冲突，同时抛出下一层人物关系或权力身份。"
+  },
+  "hook_policy": {
+    "first_300_chars": {
+      "requirement": "强 Hook",
+      "target_strength": 9,
+      "recommended_pattern": "低估身份 + 当众羞辱 + 主角摇人/藏牌反杀预告",
+      "example_shape": "我是假千金、废物、万人嫌；真千金逼我去死；我写信摇人；她看见我的朋友后当场崩溃。"
+    },
+    "micro_hook_every_chars": {
+      "min": 800,
+      "max": 1200,
+      "requirement": "每 800-1200 字必须出现一次微悬念或微冲突",
+      "usable_hooks": [
+        "被抢心爱之物后忍下，转头发急信",
+        "反派设局成功前，目标人物认出主角",
+        "主角看似落入陷阱，其实提前布置证人",
+        "亲人偏心加码，主角彻底断亲"
+      ]
+    },
+    "paywall_card_every_chars": {
+      "min": 2500,
+      "max": 3500,
+      "requirement": "每 2500-3500 字出现付费级卡点",
+      "preferred_cards": [
+        "真千金污蔑女主私通，门即将被踹开",
+        "皇帝/王爷/将军亲临，却找不到女主",
+        "反派辱骂的狐朋狗友真实身份即将揭晓",
+        "乔家人二次设局下药，王爷似乎中招"
+      ]
+    }
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短篇女频用户",
+      "偏好古言甜爽、真假千金、团宠反转、打脸复仇的读者",
+      "喜欢女主不憋屈、靠人脉身份反差碾压反派的读者"
+    ],
+    "emotion_needs": [
+      "开局受辱带来的代入性委屈",
+      "亲情偏心后的断亲爽感",
+      "反派自以为赢定后被身份碾压的爆笑打脸",
+      "女主被真正懂她的人坚定偏爱的补偿感",
+      "结尾爱情与自由双收的轻甜释放"
+    ],
+    "genre_positioning": {
+      "primary_genre": "ancient_sweet",
+      "secondary_tags": [
+        "真假千金",
+        "团宠",
+        "身份反转",
+        "古言甜宠",
+        "爽文打脸",
+        "狐朋狗友全是大佬"
+      ],
+      "core_reader_promise": "看被相府嫌弃的一无是处假千金，靠斗鸡、遛鸟、踢蹴鞠结下的顶级人脉，把真千金和偏心家人一层层打到跪地求饶，并收获亲王甜宠。"
+    },
+    "forbidden_zones": [
+      "女主长期跪舔原生家庭并无底线原谅",
+      "反派作恶后轻飘飘洗白",
+      "男主以控制、羞辱、囚禁包装深情",
+      "过度虐女主身体或贞洁危机描写",
+      "大段朝堂权谋解释压低爽点密度",
+      "用现代网络词破坏古言语境"
+    ]
+  },
+  "title_strategy": {
+    "platform_constraints": {
+      "max_chars": 30,
+      "style": "高信息密度、冲突前置、身份反差明确"
+    },
+    "formulas": [
+      {
+        "id": "T1",
+        "formula": "身份羞辱 + 反杀资源",
+        "candidate_titles": [
+          "假千金一无是处，可她朋友多啊",
+          "真千金逼我去死后，我摇来了皇上",
+          "全家骂我废物，可我兄弟是皇帝"
+        ],
+        "fit": "最适合番茄强 Hook，标题直接交代低估与反差爽点。"
+      },
+      {
+        "id": "T2",
+        "formula": "具体事件 + 大佬身份揭晓",
+        "candidate_titles": [
+          "她炖了我的鸡，王爷提剑上门了",
+          "抢我战鸟后，镇国将军杀回相府",
+          "她骂我狐朋狗友，皇上当场黑脸"
+        ],
+        "fit": "适合突出道具型爽点，鸡、鸟、蹴鞠都能变成身份炸弹。"
+      },
+      {
+        "id": "T3",
+        "formula": "被卖/被害危机 + 摇人翻盘",
+        "candidate_titles": [
+          "相府要把我卖了，我连夜摇人",
+          "真千金设局毁我，三个大佬破门而入",
+          "我被关柴房后，皇宫王府军营全炸了"
+        ],
+        "fit": "适合强化付费前危机，制造读者追读欲。"
+      },
+      {
+        "id": "T4",
+        "formula": "一无是处标签 + 全世界补偿",
+        "candidate_titles": [
+          "他们说我只会闯祸，后来全京城护我",
+          "被赶出相府后，我成了亲王心尖宠",
+          "假千金离府后，满京权贵来撑腰"
+        ],
+        "fit": "适合甜爽收束，强调女主从被嫌弃到被偏爱的情绪释放。"
+      }
+    ],
+    "recommended_title": "假千金一无是处，可她朋友多啊"
+  },
+  "market_constraints": {
+    "genre_profile": "ancient_sweet",
+    "preferred_mechanisms": [
+      "M2",
+      "M3",
+      "M6"
+    ],
+    "preferred_hooks": [
+      "H4",
+      "H3"
+    ],
+    "dominant_selling_point": "身份反差爆发",
+    "supporting_selling_points": [
+      "道具回旋打脸：斗鸡、战鸟、蹴鞠都对应大佬身份",
+      "偏心亲情清算：不原谅但不过度苦情",
+      "轻喜剧爽感：女主张扬顽皮，反派自爆式翻车",
+      "甜宠补偿：亲王懂女主、护女主、陪她继续野"
+    ],
+    "tone_requirements": {
+      "emotion_base": "轻快爽感中带少量委屈，不走重虐",
+      "protagonist_stance": "松弛、聪明、藏锋、俏皮、不苦大仇深",
+      "dialogue_ratio_target": [
+        0.45,
+        0.55
+      ],
+      "avg_sentence_length_target": [
+        20,
+        28
+      ]
+    }
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 92,
+      "reason": "前三百字给出完整反差承诺，后续用三封急信、三位大佬、二次设局维持追读。"
+    },
+    "payment_point": {
+      "target_score": 90,
+      "reason": "付费卡点应落在女主被污蔑私通、三大佬即将破门、真实身份即将公开处。"
+    },
+    "emotional_release": {
+      "target_score": 88,
+      "reason": "核心释放来自反派辱骂对象原来是皇上王爷将军，以及乔家二次背叛后的彻底流放。"
+    },
+    "ai_flavor": {
+      "target_score": 95,
+      "reason": "避免空泛抒情和模板句，使用动作、道具、短对话推进；禁用全局 AI 味词。"
+    },
+    "explosive_density": {
+      "target_score": 91,
+      "reason": "每章至少一个具体爆点：鸡被炖、鸟被抢、婚约被撕、三封信、皇上找人、身份揭晓、证据反杀、下药反设局、大婚甜爽。"
+    }
+  }
+}

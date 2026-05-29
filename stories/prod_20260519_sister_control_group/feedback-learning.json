@@ -1,0 +1,51 @@
+{
+  "pipeline_run": "prod_20260519_sister_control_group",
+  "pipeline_mode": "production",
+  "status": "final",
+  "quality_scores": {
+    "C0_soul_contract": 100,
+    "C1_emotion_curve": 90,
+    "C2_style_dna": 78,
+    "C3_originality": 97.9,
+    "C4_forbidden_words": 100,
+    "C5_mechanism_preservation": 100,
+    "overall": "PASS"
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {"chapter": 1, "type": "deathbed_revelation", "hook": "重生瞬间"},
+    {"chapter": 3, "type": "contrast_neglect", "hook": "海鲜过敏vs剥虾对比"},
+    {"chapter": 6, "type": "information_bomb", "hook": "姐妹也重生"},
+    {"chapter": 8, "type": "truth_layer", "hook": "走廊偷听工具人身份"},
+    {"chapter": 9, "type": "weapon_prep", "hook": "三份证据"},
+    {"chapter": 11, "type": "cathartic_rejection", "hook": "踩花+止损金句"},
+    {"chapter": 13, "type": "mutual_reveal", "hook": "男主也重生+等了一辈子"}
+  ],
+  "paywall_cards": {
+    "count": 4,
+    "positions": [3, 6, 9, 13],
+    "effectiveness_notes": "Ch3 uses physical discomfort + emotional contrast; Ch6 uses information asymmetry bomb; Ch9 uses revenge anticipation; Ch13 uses romantic revelation"
+  },
+  "new_forbidden_candidates": [
+    "咯咯",
+    "不自觉地"
+  ],
+  "retrieval_tags": [
+    "rebirth_romance",
+    "female_growth",
+    "family_betrayal",
+    "workplace_revenge",
+    "insider_trading",
+    "algorithm_engineer",
+    "sister_rivalry",
+    "SEC_report",
+    "dual_rebirth",
+    "corporate_shenzhen"
+  ],
+  "lessons_learned": [
+    "First-person rebirth POV naturally reduces dialogue ratio vs third-person source",
+    "Hard forbidden words (嘻嘻/一丝) can slip in during natural writing - must scan early",
+    "Scene expansion is more efficient when adding conflict detail rather than description",
+    "10000 char minimum requires deliberate planning at beat-bible stage for 14 chapters"
+  ]
+}

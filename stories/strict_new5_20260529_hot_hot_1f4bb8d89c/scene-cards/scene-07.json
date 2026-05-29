@@ -1,0 +1,50 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 780,
+  "target_chars_max": 900,
+  "location": "伦理基金会资料室",
+  "time": "会议室谈话后",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "许知微"
+  ],
+  "character_goal": "许知微要用另一条时间线证明江砚舟的自恋本质。",
+  "opposition_goal": "旧时间线的证据碎片容易把真相拖成玄虚回忆。",
+  "conflict_action": "许知微播放公益展录音，沈听澜把无菌手环编号与许知微的低温舱铭牌并排拍照。",
+  "information_gap": "两个女人的证物能拼出同一套公司叙事，但江砚舟还不知道她们已经对上。",
+  "emotional_debt_delta": {
+    "added": [
+      "前世错付债",
+      "许知微被包装债"
+    ],
+    "paid": [
+      "两女完成互证"
+    ]
+  },
+  "payoff_or_hook": "双时间线秘密落到可见证物，不靠空泛玄学。",
+  "chapter_end_hook": "截断句：许知微拿出另一块低温舱铭牌，上面原本刻着她的名字。",
+  "paywall_card": false,
+  "must_include": [
+    "公益展录音",
+    "低温舱铭牌",
+    "无菌手环编号",
+    "许知微短句：因为我也一样"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释平行时间线",
+    "不要写命运论",
+    "不要让两女争谁更惨"
+  ],
+  "rhythm_job": {
+    "shape": "录音证据，编号对齐，铭牌钩子",
+    "dialogue_action_breathing_ratio": "对白约40%，动作约45%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用拍照对齐编号的证据动作承接重生信息",
+    "chapter_tail_action": "铭牌翻面露出刻痕"
+  }
+}

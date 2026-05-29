@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "公开审理现场与全平台公告页",
+  "time": "终局日",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "顾淮川",
+    "法官",
+    "律师",
+    "平台公告",
+    "品牌公告",
+    "围观网友"
+  ],
+  "character_goal": "让顾淮川在最公开的场里失去事业、舆论和体面。",
+  "opposition_goal": "顾淮川想尽量把责任压小，保住事业余地。",
+  "conflict_action": "法庭确认侵权、诽谤、网暴责任，平台与品牌同步公告切割，顾淮川被判赔并公开置顶道歉。",
+  "information_gap": "大众直到判决落地前都把这当娱乐八卦，不知道会落到正式判赔与行业切割。",
+  "emotional_debt_delta": "事业塌、舆论塌、体面塌三线回收完成。",
+  "payoff_or_hook": "把前面所有羞辱、挂人、侵权、夺权一并定锤。",
+  "chapter_end_hook": "平台公告弹出来时，顾淮川必须把道歉声明置顶七天。",
+  "paywall_card": true,
+  "must_include": [
+    "判决结论用短句直接落",
+    "平台官博或品牌蓝V公告至少1条",
+    "评论/吐槽至少2行体现风向彻底反转",
+    "女主保持冷处理，不做胜利演讲"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述全部庭审细节",
+    "不要照搬判决书全文"
+  ],
+  "rhythm_job": {
+    "shape": "判决1拍+官宣切割2拍+评论反噬1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": "强压只给判决一次，后面用公告和评论做承接，不再连续逼问"
+  }
+}

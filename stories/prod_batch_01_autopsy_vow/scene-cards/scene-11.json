@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "电话录音室与跨江隧道监控调取点",
+  "time": "清晨",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "许知遥",
+    "警员",
+    "监控技术员"
+  ],
+  "character_goal": "陆谨言要把许知遥的失言转化为可查证线索。",
+  "opposition_goal": "许知遥要把第二道闸的暴露重新圆回事故报告。",
+  "conflict_action": "许知遥提到第二道闸，陆谨言立刻示意警方调取被删监控残帧和闸机日志。",
+  "information_gap": "第二道闸从未出现在公开事故通报中，只有现场操控者知道。",
+  "emotional_debt_delta": "沈栀生前说过的异常终于被系统记录承认。",
+  "payoff_or_hook": "闸机线索引向车辆控制数据。",
+  "chapter_end_hook": "许知遥在电话那头说漏了隧道第二道闸。",
+  "paywall_card": false,
+  "must_include": [
+    "许知遥说漏嘴后的呼吸停顿",
+    "陆谨言在纸上写下第二道闸",
+    "监控残帧",
+    "闸机日志",
+    "沈栀想起自己曾被说情绪污染结论"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让凶手显得愚蠢",
+    "不要靠巧合推进",
+    "不要让陆谨言因此被写成英雄"
+  ]
+}

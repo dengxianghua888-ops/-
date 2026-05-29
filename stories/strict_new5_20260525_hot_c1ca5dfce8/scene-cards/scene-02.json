@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 640,
+  "target_chars_max": 720,
+  "location": "教坊司罪乐署前院",
+  "time": "入署当日午后",
+  "pov": "我",
+  "characters": ["我", "掌事嬷嬷", "罪乐署女伎", "押送内侍"],
+  "character_goal": "在初次规训里护住最后一点体面",
+  "opposition_goal": "掌事嬷嬷要迅速把我从准皇后踩成可供点名的罪籍乐伎",
+  "conflict_action": "掌事嬷嬷当众剪碎我的礼服，逼我换上罪舞衣、跪着学规矩，还把名牌挂到我脖子上",
+  "information_gap": "三年后他真的会接我走，还是连这句话都是赐给我的笑话？",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "从凤冠候选人坠成挂牌罪伎",
+  "chapter_end_hook": "掌事嬷嬷把舞衣丢到我脸上：陛下既舍得，你又算什么？",
+  "paywall_card": false,
+  "must_include": ["剪碎礼服", "挂牌入册", "跪学笑", "有人认出我是原定册后人选"],
+  "must_not_write_as_exposition": ["不要概述三年生活", "不要写规矩清单", "不要用自我感慨替代被规训动作"],
+  "rhythm_job": {
+    "shape": "对白3段/动作4段/慢半拍反应1段/章尾钩1刀",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

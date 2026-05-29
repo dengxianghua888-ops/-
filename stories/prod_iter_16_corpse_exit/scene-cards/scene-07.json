@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "江家老宅档案室",
+  "time": "倒计时15小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "江父", "江母", "老管家"],
+  "character_goal": "江沉寻找自己的出生档案和继承文件。",
+  "opposition_goal": "父母要夺走档案，阻止江沉证明真少爷身份。",
+  "conflict_action": "江母锁门抢档案，江父用拐杖砸碎旧相框，老管家偷偷把档案袋踢到江沉脚边。",
+  "information_gap": "江沉不知道精神鉴定申请已经被送到发布会备用。",
+  "emotional_debt_delta": "+出生身份被篡改；+父母制造精神异常证据",
+  "payoff_or_hook": "真少爷身份线进入公开反转前夜。",
+  "chapter_end_hook": "江沉在档案袋底部摸到一份盖章精神鉴定，申请人是他的父母。",
+  "paywall_card": false,
+  "must_include": ["旧相框", "出生档案", "继承文件缺页", "精神鉴定申请", "老管家的迟疑"],
+  "must_not_write_as_exposition": ["不要用旁白说明继承法", "不要让老管家直接讲完真相", "不要替父母找正当理由"]
+}

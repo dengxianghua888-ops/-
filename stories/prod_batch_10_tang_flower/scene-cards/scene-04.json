@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 626,
+  "target_chars_max": 826,
+  "location": "陆家儿童房与楼梯口",
+  "time": "陆星野生日傍晚",
+  "pov": "第三人称贴近许知棠",
+  "characters": [
+    "许知棠",
+    "陆星野",
+    "林若宁",
+    "陆沉舟"
+  ],
+  "character_goal": "许知棠要把陆星野从林若宁直播间带回生日桌前。",
+  "opposition_goal": "陆星野要保护病弱小姨，林若宁要让孩子公开厌恶母亲。",
+  "conflict_action": "陆星野抱住林若宁药盒，推开许知棠；许知棠扶住楼梯扶手，手里的生日模型摔碎。",
+  "information_gap": "孩子被林若宁灌输了什么暂不完整揭露。",
+  "emotional_debt_delta": "亲子伤害债+1，许知棠离场决心+1。",
+  "payoff_or_hook": "孩子亲口说要小姨当妈妈，完成亲情刀。",
+  "chapter_end_hook": "陆星野红着眼说，我宁愿若宁小姨做我妈妈。",
+  "paywall_card": false,
+  "must_include": [
+    "许知棠亲手做的急救车模型",
+    "陆星野把药盒当成护身符",
+    "林若宁假装劝孩子不要这样",
+    "陆沉舟只看见孩子哭",
+    "许知棠捡起模型碎片没有解释"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让女主报复孩子",
+    "不要让孩子道歉太早",
+    "不要用血缘煽情逼女主忍耐",
+    "不要写成长篇育儿争执"
+  ]
+}

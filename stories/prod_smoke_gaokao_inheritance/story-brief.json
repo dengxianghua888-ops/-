@@ -1,0 +1,9 @@
+{
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "reversal_mechanisms": [
+    "inheritance_trigger",
+    "missing_relative"
+  ],
+  "source_length_chars": 10
+}

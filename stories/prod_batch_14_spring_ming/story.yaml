@@ -1,0 +1,140 @@
+pipeline_mode: production
+status: final
+slug: prod_batch_14_spring_ming
+genre: ancient_rebirth / crematorium_regret
+title:
+  primary: 他弃我北境三年后，我回到爹娘尚在时
+automation:
+  last_run_id: manual_phase_pack
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+quality_gate:
+  gate_status: pass
+  source_report: story/quality-report.json
+  schema_version: 2
+  pipeline_mode: production
+  critical_failures: []
+  important_failures: []
+  machine_metrics:
+    text_path: stories/prod_batch_14_spring_ming/final.md
+    target_length:
+      min: 10000
+      max: 12500
+      actual: 10326
+      status: pass
+    chapters:
+      count: 15
+      hook_hits: 15
+      hook_coverage: 1.0
+      lengths:
+      - 711
+      - 706
+      - 689
+      - 732
+      - 676
+      - 669
+      - 661
+      - 667
+      - 642
+      - 656
+      - 659
+      - 695
+      - 680
+      - 685
+      - 690
+      status: pass
+    paywall_cards:
+      required: 3
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 75
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 3
+        actual: 4
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 8
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 40
+      status: pass
+    style_metrics:
+      char_count: 10326
+      sentence_count: 539
+      avg_sentence_length: 18.158
+      dialogue_ratio: 0.0998
+      question_marks: 25
+      question_marks_per_k: 2.421
+      physical_emotion_hits:
+        指尖: 2
+        后背: 1
+        喉咙: 2
+        眼眶: 2
+        掌心: 3
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 28.859
+    semantic_repetition:
+      sentence_count: 426
+      unique_sentence_skeletons: 412
+      max_sentence_repeats: 15
+      max_sentence_repeat_ratio: 0.0352
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  critic_scores:
+    platform: 8.2
+    emotion: 8.5
+    style: 8.0
+    logic: 7.6
+chapters:
+  count: 15
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 15
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  revisions_applied:
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。

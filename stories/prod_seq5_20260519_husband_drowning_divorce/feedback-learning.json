@@ -1,0 +1,86 @@
+{
+  "story_slug": "prod_seq5_20260519_husband_drowning_divorce",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M3", "M5", "M6"],
+  "target_length": {
+    "min": 11000,
+    "max": 15000
+  },
+  "final_length": 12172,
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 7.7,
+    "logic": 7.5
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "hook": "火场抛弃后病房递离婚协议，开篇即完成生死背叛与行动反击。"
+    },
+    {
+      "chapter": "第三章",
+      "hook": "女主撤回康复音频授权，让丈夫第一次承担失去她专业支持的后果。"
+    },
+    {
+      "chapter": "第四章",
+      "hook": "姐姐卖惨视频后，女主用替嫁、休学、公证材料反打舆论。"
+    },
+    {
+      "chapter": "第八章",
+      "hook": "消防时间轴证明姐姐离出口只有一步，丈夫不是混乱中误判而是看见后选择放弃女主。"
+    },
+    {
+      "chapter": "第十二章",
+      "hook": "老保姆、旧员工录音、群聊三重证据坐实替嫁交易。"
+    },
+    {
+      "chapter": "第十五章",
+      "hook": "丈夫拿复婚协议求重来，女主明确拒绝复婚并收回访客证。"
+    },
+    {
+      "chapter": "第十六章",
+      "hook": "三年后男主仍困在火场回放里，女主把事故经验转化为安全冗余项目。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "第四章",
+      "card_type": "evidence_counterattack",
+      "payload": "公证材料上线，替嫁群聊、调解书、休学申请与律师函编号形成第一波舆论反转。"
+    },
+    {
+      "chapter": "第八章",
+      "card_type": "timeline_reversal",
+      "payload": "烟感报警、侧门监控、门磁记录和关键帧公开，证明沈明姝能走、陆景辞看见女主仍抱走姐姐。"
+    },
+    {
+      "chapter": "第十二章",
+      "card_type": "family_truth_lock",
+      "payload": "老保姆视频、旧员工录音、沈家群聊合并发布，替嫁从家事争议变成利益交易存证。"
+    },
+    {
+      "chapter": "第十五章",
+      "card_type": "relationship_final_cut",
+      "payload": "陆景辞用旧耳模和复婚协议求和，女主指出他火场选择不可重来，明确不会复婚。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "火场抛弃",
+    "丈夫救姐姐",
+    "离婚调解书",
+    "替嫁证据链",
+    "姐姐卖惨翻车",
+    "消防时间轴反转",
+    "康复音频授权撤回",
+    "建筑声学女主",
+    "专业能力回收",
+    "拒绝复婚",
+    "原生家庭偏心反击",
+    "舆论反转"
+  ],
+  "manual_revision_delta": []
+}

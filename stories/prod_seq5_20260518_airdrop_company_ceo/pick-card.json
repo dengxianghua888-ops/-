@@ -1,0 +1,15 @@
+{
+  "slug": "prod_seq5_20260518_airdrop_company_ceo",
+  "corpus_slug": "airdrop_company_ceo",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": [
+    "M2",
+    "M3",
+    "M5"
+  ],
+  "hook_type": "H4",
+  "title_formula": "T1",
+  "tomato_fit_score": 8.4,
+  "picked_at": "2026-05-18T19:37:53",
+  "run_id": "20260518_193753"
+}

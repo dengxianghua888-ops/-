@@ -1,0 +1,53 @@
+slug: strict_new5_20260529_hot_hot_df9671752a
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_df9671752a
+genre: apocalypse_heroine
+final_packaging:
+  title: 她剪碎我的温室手套后，虫群跪下了
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 16
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  - final-chapters/ch16.md
+  packager: scripts/package_from_draft_scenes.py
+total_chars: 13360
+chapter_count: 16
+paywall_cards: 14
+quality_gate: pass
+critic_scores:
+  logic: 8
+  style: 7
+  emotion: 8
+  platform: 8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260529_174904
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

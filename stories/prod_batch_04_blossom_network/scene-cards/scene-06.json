@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "签证中心自助打印区",
+  "time": "第三天傍晚",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "签证中心工作人员", "陆星澈", "周毓兰"],
+  "character_goal": "叶昭想调整出境资料，切断孩子对她的情感绑架。",
+  "opposition_goal": "陆星澈想继续要求叶昭围着他转，却不承担伤害后果。",
+  "conflict_action": "叶昭从资料袋里抽出陆星澈的同行签证申请，当场撕碎，同时把教育信托文件重新装回袋中。",
+  "information_gap": "陆星澈不知道自己被取消同行资格；陆闻舟不知道叶昭已开始处理监护边界。",
+  "emotional_debt_delta": "叶昭从母职忍耐转为有限责任，不报复孩子，但不再牺牲自己。",
+  "payoff_or_hook": "她给学校系统提交紧急联系人变更预申请。",
+  "chapter_end_hook": "叶昭把陆星澈的新加坡同行签证申请撕掉。",
+  "paywall_card": false,
+  "must_include": [
+    "签证资料袋",
+    "陆星澈同行申请",
+    "教育信托文件",
+    "紧急联系人变更页面",
+    "外婆安静握住叶昭手腕"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把放弃照料写成恶意报复",
+    "不要让叶昭说教孩子",
+    "不要用大段回忆替代撕申请动作"
+  ]
+}

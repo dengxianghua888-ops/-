@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "省城旧画室食堂服务台",
+  "time": "当日下午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "食堂服务台工作人员",
+    "陈橙"
+  ],
+  "character_goal": "林素琴拿到许念当年食堂卡充值明细",
+  "opposition_goal": "工作人员按规定不想调旧账，陈橙担心惹麻烦",
+  "conflict_action": "林素琴出示母女关系材料和视频，要求服务台打印许念三年充值明细，陈橙补充当年宿舍群截图",
+  "information_gap": "食堂卡每月只有500入账，4000转账没有进入许念日常生活",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+3",
+    "mother_negligence_debt": "+2",
+    "father_malice_debt": "+1"
+  },
+  "payoff_or_hook": "女儿贫困不再是口头抱怨，食堂明细坐实500",
+  "chapter_end_hook": "食堂充值窗口打印出三年明细，每月入账只有五百。",
+  "paywall_card": false,
+  "must_include": [
+    "服务台打印机吐出明细",
+    "每月500充值记录",
+    "宿舍群里许念借饭卡的截图",
+    "林素琴当场拍照留证"
+  ],
+  "must_not_write_as_exposition": [
+    "不要铺写艺考制度",
+    "不要写成工作人员主动讲完整真相",
+    "不要让陈橙变成解说员"
+  ]
+}

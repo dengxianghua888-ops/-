@@ -1,0 +1,93 @@
+{
+  "draft": "stories/batch_v2_01_modern_reversal/final.md",
+  "chapter_dialogue_distribution": [
+    {
+      "chapter": 1,
+      "title": "",
+      "quote_line_rate": 0.0,
+      "is_climax": false
+    },
+    {
+      "chapter": 2,
+      "title": "第 1 章 请帖",
+      "quote_line_rate": 0.1351,
+      "is_climax": false
+    },
+    {
+      "chapter": 3,
+      "title": "第 2 章 婆婆",
+      "quote_line_rate": 0.5135,
+      "is_climax": false
+    },
+    {
+      "chapter": 4,
+      "title": "第 3 章 白纱",
+      "quote_line_rate": 0.125,
+      "is_climax": false
+    },
+    {
+      "chapter": 5,
+      "title": "第 4 章 妈妈",
+      "quote_line_rate": 0.1842,
+      "is_climax": false
+    },
+    {
+      "chapter": 6,
+      "title": "第 5 章 红酒",
+      "quote_line_rate": 0.3929,
+      "is_climax": false
+    },
+    {
+      "chapter": 7,
+      "title": "第 6 章 戒指",
+      "quote_line_rate": 0.2889,
+      "is_climax": true
+    },
+    {
+      "chapter": 8,
+      "title": "第 7 章 灯灭",
+      "quote_line_rate": 0.2576,
+      "is_climax": true
+    },
+    {
+      "chapter": 9,
+      "title": "第 8 章 灯亮",
+      "quote_line_rate": 0.525,
+      "is_climax": true
+    },
+    {
+      "chapter": 10,
+      "title": "第 9 章 账",
+      "quote_line_rate": 0.537,
+      "is_climax": false
+    },
+    {
+      "chapter": 11,
+      "title": "第 10 章 念念",
+      "quote_line_rate": 0.36,
+      "is_climax": false
+    },
+    {
+      "chapter": 12,
+      "title": "第 11 章 镜子",
+      "quote_line_rate": 0.2083,
+      "is_climax": false
+    },
+    {
+      "chapter": 13,
+      "title": "第 12 章 名片",
+      "quote_line_rate": 0.2045,
+      "is_climax": false
+    }
+  ],
+  "summary": {
+    "avg_climax_quote_rate": 0.3572,
+    "avg_non_climax_quote_rate": 0.2661,
+    "variance_ratio": 1.34,
+    "narration_crutches_count": 0,
+    "confirmation_dialogues_count": 0
+  },
+  "narration_crutches": [],
+  "confirmation_dialogues": [],
+  "advisory": []
+}

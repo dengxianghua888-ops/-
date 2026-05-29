@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B13-B14",
+  "scene_label": "法医单·法庭嘲讽",
+  "location": "废墟旁警车+市中院第三审判庭",
+  "time": "拆楼后第二日上午",
+  "pov": "林初",
+  "characters": ["林初", "裴恒队长", "假家人五人", "法官", "顾敬之教授"],
+  "character_goal": "诈出更多证据并把五人钉在法庭上",
+  "opposition_goal": "五人冷笑、嘲讽，咬死无直接证据",
+  "conflict_action": "裴队递死因鉴定书+主角看一眼即决定起诉+法庭上五人冷笑+假未婚夫'500 万了结'+真千金白桐桐反咬+法官重锤",
+  "information_gap": "法官手中的证据从何而来",
+  "emotional_debt_delta": "+情绪债释放·三",
+  "payoff_or_hook": "'我请求警方一定要将他们绳之以法，予以严惩。'",
+  "chapter_end_hook": "法官重锤一声闷响，全场一寸不动",
+  "paywall_card": true,
+  "target_chars_min": 950,
+  "target_chars_max": 1200,
+  "must_include": [
+    "死因鉴定书：用毒/用刀/赤手三种手法",
+    "法庭上假未婚夫'500 万了结'原话",
+    "白桐桐'你也可以去找一对新爸妈'反咬",
+    "假哥哥'小姑娘，你还会觉得法律能把我们如何吗'挑衅"
+  ],
+  "must_not_write_as_exposition": [
+    "禁'眼眶酸涩'AI 腔",
+    "禁'冷艳'AI 腔",
+    "禁'宛如命运'"
+  ]
+}

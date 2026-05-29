@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "发布会直播镜头前",
+  "time": "发布会冲突顶点",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "陆沉舟", "谢家长辈", "媒体记者"],
+  "character_goal": "谢砚要用婚礼备案和回旋金句完成公开反打。",
+  "opposition_goal": "陆沉舟要逼谢砚承认这只是玩票，逼林晚宜回到旧关系里。",
+  "conflict_action": "谢砚调出八天后婚礼备案，牵起林晚宜的手，对着直播镜头回敬陆沉舟。",
+  "information_gap": "陆沉舟仍不知道谢砚的商业权限，误以为只要打垮谢氏片单就能毁婚。",
+  "emotional_debt_delta": "-误判追责债；-七年不婚债；-金句回旋债",
+  "payoff_or_hook": "“冷战你赢了”从羞辱变成反杀，陆沉舟赢了冷战却失去女主。",
+  "chapter_end_hook": "谢砚当着直播镜头回敬：“冷战你赢了，陆影帝应该高兴。”",
+  "paywall_card": false,
+  "must_include": ["八天后婚礼备案", "冷战回旋句", "公开直播", "陆沉舟表情失控"],
+  "must_not_write_as_exposition": ["不能改掉金句语义", "不要让林晚宜求陆沉舟祝福", "不要把婚礼写成儿戏"]
+}

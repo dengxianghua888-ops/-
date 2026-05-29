@@ -1,0 +1,278 @@
+{
+  "schema_version": "v4.beat-bible.1",
+  "pipeline_mode": "production",
+  "title": "我背尸六年给姐姐治血癌，她说她从来没病过",
+  "story_slug": "corpse_six_years_sister",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3"],
+  "target_length": {"min": 11000, "max": 13500, "sweet_spot": [11500, 12500]},
+  "quality_floor": {
+    "min_chars": 11000,
+    "min_chapter_count": 14,
+    "min_paywall_cards": 4,
+    "chapter_hook_coverage": 1.0
+  },
+  "chapters": [
+    {"chapter_id": "ch01", "scene_range": ["scene-01"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "刷指纹的那一秒，结算屏跳出红字：非受益人，无权解锁。"},
+    {"chapter_id": "ch02", "scene_range": ["scene-02"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "姐姐笑得很轻：'磨练你六年，你怎么连这点学乖都没学会。'"},
+    {"chapter_id": "ch03", "scene_range": ["scene-03"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "她当众把卡折成两段：'代孕守墓的钱晦气，捐孤儿院积德，七天内不出庭就视同放弃。'"},
+    {"chapter_id": "ch04", "scene_range": ["scene-04"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "我把那份PDF同时存进了三个邮箱、一只U盘、一个保管箱。"},
+    {"chapter_id": "ch05", "scene_range": ["scene-05"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "铜棺盖合上的那一声，姐姐的声音从外头传进来：'你六年前关三天才学乖，现在又忘了。'"},
+    {"chapter_id": "ch06", "scene_range": ["scene-06"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "祠堂的祭祖银叉扎进我小腹时，我才明白他们今晚要的不是认错，是命。", "paywall_card": true},
+    {"chapter_id": "ch07", "scene_range": ["scene-07"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "假表弟亮出婚书和女儿的出生证：'妹夫，你六年代孕的女儿，现在叫我爸。'"},
+    {"chapter_id": "ch08", "scene_range": ["scene-08"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "铜炉砸碎我胯骨那一下，姐姐还在笑：'磨练你为你好，等你知道真相会感激我的。'", "paywall_card": true},
+    {"chapter_id": "ch09", "scene_range": ["scene-09"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "我撑着那根叉子站起来，对着她一字一字地说：'我帮你发。'"},
+    {"chapter_id": "ch10", "scene_range": ["scene-10"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "我按下电子签发送键，把空白确认书反向兑现成她的咒，然后跨过天台的栏杆。", "paywall_card": true},
+    {"chapter_id": "ch11", "scene_range": ["scene-11"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "管家撞开祠堂的门：'大小姐，少爷……从十六楼的天台跳下去了。'"},
+    {"chapter_id": "ch12", "scene_range": ["scene-12"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "电子签后台同步到全球七台服务器：萧承时为唯一受益人，二十二亿原数划入已故继承人遗产专户。", "paywall_card": true},
+    {"chapter_id": "ch13", "scene_range": ["scene-13"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "江砚抱着我的照片从同一栋楼跳下来，父母剃头去了大屿山，假表弟被姐姐亲手送进I期临床。"},
+    {"chapter_id": "ch14", "scene_range": ["scene-14"], "target_chars_min": 800, "target_chars_max": 1000, "chapter_end_hook": "中环金钟廊的人潮里，姐姐穿着白婚纱拉住每一个路人：'你见到我弟弟了吗？他马上就要结婚了。'"}
+  ],
+  "beats": [
+    {
+      "beat_id": "B1",
+      "scene_location": "萧家律所信托结算大厅·指纹解锁台",
+      "character_goal": "萧承时按约定在第六年解锁日刷指纹解锁22亿信托给姐姐治血癌",
+      "conflict_action": "结算屏弹红字'非受益人，无权解锁'，他第一次被系统正面拒绝",
+      "information_gap": "读者不知道他这六年代孕守墓的全部前提是假的——M1反咬的入口埋在这一刻",
+      "emotion_debt_balance": "+1（钝感主角第一次撞上冷规则）",
+      "chapter_end_hook": "刷指纹的那一秒，结算屏跳出红字：非受益人，无权解锁。",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用'命运/宿命/红尘'AI腔", "禁用主角第一时间嘶吼", "禁用回忆杀拖慢节奏", "禁用旁白替读者点题"]
+    },
+    {
+      "beat_id": "B2",
+      "scene_location": "结算大厅外侧家族会客室",
+      "character_goal": "萧承时要个解释，请姐姐说清楚为什么自己不是受益人",
+      "conflict_action": "姐姐+假装康复的母亲+假表弟+假未婚妻江砚四方坦白：血癌是装的、植物人是装的、女儿一出生就被偷送给假表弟，所有这些都是'磨练你为你好'",
+      "information_gap": "读者一次性看清反派全貌，但还不知主角手里捏着电子签PDF原件",
+      "emotion_debt_balance": "+3（个体被全员共谋系统性击穿）",
+      "chapter_end_hook": "姐姐笑得很轻：'磨练你六年，你怎么连这点学乖都没学会。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角嘶吼下跪", "禁用反派狞笑式廉价描写", "禁用心声爆金句剧透", "禁用'磨练'一词出现在主角台词或叙述视角"]
+    },
+    {
+      "beat_id": "B3",
+      "scene_location": "结算大厅前台",
+      "character_goal": "萧承时尝试拿回六年代孕守墓的劳务卡（家族信托代育条款收益）",
+      "conflict_action": "姐姐当众把那张劳务卡折成两段，'代孕守墓的钱晦气，捐孤儿院积德'，同时启动家族墓园保管箱'七日生死契'倒计时——七天不出庭即视同放弃受益人身份",
+      "information_gap": "读者第一次看见'七日生死契'这个倒计时机制——后文B10会反咬",
+      "emotion_debt_balance": "+4（六年所得被当众抹零，倒计时启动）",
+      "chapter_end_hook": "她当众把卡折成两段：'代孕守墓的钱晦气，捐孤儿院积德，七天内不出庭就视同放弃。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角扑过去抢卡", "禁用群众瞬间替主角伸冤", "禁用反派立刻露出杀机", "禁用流水账心理"]
+    },
+    {
+      "beat_id": "B4",
+      "scene_location": "家族墓园保管箱前·铁盒打开瞬间",
+      "character_goal": "萧承时取出六年前姐姐亲手电子签的《受益人确认书》PDF原件",
+      "conflict_action": "他不哭不闹，把PDF同步到三个独立邮箱+一只U盘+保管箱铁盒，所有动作不超过十分钟",
+      "information_gap": "读者第一次嗅到反转——M1物证已三处异地备份，姐姐再无法毁证",
+      "emotion_debt_balance": "+4（持平，但心理逆转开始）",
+      "chapter_end_hook": "我把那份PDF同时存进了三个邮箱、一只U盘、一个保管箱。",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角心声剧透下一步", "禁用'冷到骨头缝里的清醒'之外的金句拔高", "禁用突然显灵贵人桥段", "禁用主角向天发誓"]
+    },
+    {
+      "beat_id": "B5",
+      "scene_location": "家族墓园铜棺别院",
+      "character_goal": "萧承时被姐姐借'七日生死契'强制押入家族墓园铜棺再'磨练'",
+      "conflict_action": "铜棺合盖，姐姐在外头说'你六年前关三天才学乖，现在又忘了'——M3'磨练'话术第二次落地",
+      "information_gap": "读者看到反派把'磨练'当成自家家规反复重复，金句记忆开始固化",
+      "emotion_debt_balance": "+6（幽闭恐惧再触发，物理化痛感叠加）",
+      "chapter_end_hook": "铜棺盖合上的那一声，姐姐的声音从外头传进来：'你六年前关三天才学乖，现在又忘了。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角嚎叫挣扎", "禁用主角心声痛骂姐姐", "禁用流水账叙述时间流逝", "禁用'磨练'一词进入主角声调"]
+    },
+    {
+      "beat_id": "B6",
+      "scene_location": "萧家祠堂祭祖夜·主祭台前",
+      "character_goal": "萧承时被姐姐塞稿当众认'人贩子之子换身'是污蔑，借机抹掉假表弟的伪证",
+      "conflict_action": "他当众撕碎那份认错稿，女儿（被假表弟养六年）从神龛后跑出来用祭祖银叉扎他小腹",
+      "information_gap": "读者第一次看清今晚不是认错而是要命——情绪谷底之一",
+      "emotion_debt_balance": "+7（被自己亲生女儿持物理武器伤）",
+      "chapter_end_hook": "祠堂的祭祖银叉扎进我小腹时，我才明白他们今晚要的不是认错，是命。",
+      "paywall_card": true,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用伤口血腥渲染", "禁用主角呼天抢地", "禁用女儿被刻画为纯恶童", "禁用旁白评注'多么讽刺'"]
+    },
+    {
+      "beat_id": "B7",
+      "scene_location": "祠堂主祭台·假表弟当众",
+      "character_goal": "萧承时确认六年代孕身份被全部抹除",
+      "conflict_action": "假表弟亮出与江砚的婚书+女儿出生证（登记为萧言安亲生女），'妹夫，你六年代孕的女儿现在叫我爸'",
+      "information_gap": "读者看到反派得意揭底——把M1反派一方的'兑付凭证'全部摆上桌",
+      "emotion_debt_balance": "+8（身份归零）",
+      "chapter_end_hook": "假表弟亮出婚书和女儿的出生证：'妹夫，你六年代孕的女儿，现在叫我爸。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角崩溃流泪", "禁用反派立刻起疑反向揭穿", "禁用群众替主角说话", "禁用旁白概括婚姻无效"]
+    },
+    {
+      "beat_id": "B8",
+      "scene_location": "祠堂主祭台·铜炉前",
+      "character_goal": "萧承时跪祭，承受最后一波'磨练'话术",
+      "conflict_action": "假表弟踢翻铜炉砸碎主角胯骨，姐姐站在烟里说'磨练你为你好，等你知道真相你会感激我的'——M3核心台词原文落地（第三次出现）",
+      "information_gap": "读者看到反派话术彻底成型——承诺为'幸福新郎'+'磨练为你好'+'学乖才会感激'三件套全部到位",
+      "emotion_debt_balance": "+8.5（情绪最深谷）",
+      "chapter_end_hook": "铜炉砸碎我胯骨那一下，姐姐还在笑：'磨练你为你好，等你知道真相会感激我的。'",
+      "paywall_card": true,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用'磨练'一词进入主角台词", "禁用反派咆哮失态", "禁用胯骨碎裂血腥渲染", "禁用主角昏厥跳过"]
+    },
+    {
+      "beat_id": "B9",
+      "scene_location": "祠堂主祭台·主角撑叉子站起",
+      "character_goal": "萧承时第一次反向开口，把姐姐的话原结构回敬",
+      "conflict_action": "他撑着那根扎在自己腹中的银叉慢慢站起来，对姐姐一字一字说'我帮你发'——把姐姐'磨练你为你好'反向兑现成'我替你把这话发出去'的伏笔",
+      "information_gap": "读者看见M3闭合的开关被主角亲手拨动，但还不知具体怎么发",
+      "emotion_debt_balance": "+8（持平，但反挫蓄势）",
+      "chapter_end_hook": "我撑着那根叉子站起来，对着她一字一字地说：'我帮你发。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角狂笑反讽", "禁用反派立刻招供求饶", "禁用旁白点题M3反讽", "禁用主角再多说一句"]
+    },
+    {
+      "beat_id": "B10",
+      "scene_location": "萧家祠堂十六楼天台·电子签发送键前",
+      "character_goal": "萧承时把空白《受益人放弃确认书》反向兑现，自我兑付二十二亿",
+      "conflict_action": "他把空白确认书逐字打满'若放弃则二十二亿自动转入已故继承人遗产专户'+附件电子签PDF原件链接，按下发送键，跨过栏杆",
+      "information_gap": "读者拍腿大爽——M1死环扣死：承认主角是受益人=22亿原数转入'已故继承人遗产专户'+伪证医疗费追缴；承认不是=六年所有电子签均为伪证罪+拐骗儿童罪+敲诈勒索",
+      "emotion_debt_balance": "-3（一次性大释放）",
+      "chapter_end_hook": "我按下电子签发送键，把空白确认书反向兑现成她的咒，然后跨过天台的栏杆。",
+      "paywall_card": true,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用坠落过程慢镜头血腥渲染", "禁用主角心声喊'去死吧'", "禁用反派立刻昏倒情节", "禁用警察在天台直接出场"]
+    },
+    {
+      "beat_id": "B11",
+      "scene_location": "祠堂主厅·管家闯入瞬间",
+      "character_goal": "灵魂态萧承时旁观全员第一波塌房",
+      "conflict_action": "管家撞开祠堂门报死讯，姐姐第一次失态从主祭台冲下楼，江砚瘫坐在地，假表弟当场后退三步",
+      "information_gap": "读者看到反派阵营从内部裂开第一道缝",
+      "emotion_debt_balance": "-4（释放继续）",
+      "chapter_end_hook": "管家撞开祠堂的门：'大小姐，少爷……从十六楼的天台跳下去了。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用灵魂态主角说话或显灵", "禁用群众瞬间高潮鼓掌", "禁用主角灵魂介入反派内部决策", "禁用旁白点评'报应来了'"]
+    },
+    {
+      "beat_id": "B12",
+      "scene_location": "萧家律所外部审计后台+市场监管打假专案组",
+      "character_goal": "电子签PDF同步到全球七台服务器+合并外部审计落实M1",
+      "conflict_action": "外部审计读后台：六年前姐姐亲签'萧承时为唯一受益人'+主角临终签'若放弃则22亿划入已故继承人遗产专户'，二者结合：22亿原数划入遗产专户+萧瑾时一系所有六年伪签电子签全数被定性为伪证",
+      "information_gap": "读者看到M1从'单点冤情'升维到'整个家族律所的伪证罪+拐骗儿童罪'",
+      "emotion_debt_balance": "-6",
+      "chapter_end_hook": "电子签后台同步到全球七台服务器：萧承时为唯一受益人，二十二亿原数划入已故继承人遗产专户。",
+      "paywall_card": true,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用审计员长篇法律科普", "禁用反派咆哮失态", "禁用旁白概括罪名清单", "禁用主角灵魂参与点头确认"]
+    },
+    {
+      "beat_id": "B13",
+      "scene_location": "港城同一栋楼天台+大屿山宝莲寺+I期临床中心+山区福利院",
+      "character_goal": "灵魂态主角旁观全员各自塌房",
+      "conflict_action": "江砚抱主角照片从同一栋楼跳下；母亲被揭穿装病，与父亲剃头去大屿山宝莲寺当苦行义工；姐姐亲手把假表弟以伪证+拐骗儿童罪送进I期临床合规试药；女儿被姐姐宣布从族谱除名，送山区福利院",
+      "information_gap": "无——附加爽点，灭族式偿还逐项落地",
+      "emotion_debt_balance": "-7",
+      "chapter_end_hook": "江砚抱着我的照片从同一栋楼跳下来，父母剃头去了大屿山，假表弟被姐姐亲手送进I期临床。",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用煽情比喻堆叠", "禁用主角灵魂介入劝退反派塌房", "禁用流量数字堆叠", "禁用旁白评点'报应不爽'"]
+    },
+    {
+      "beat_id": "B14",
+      "scene_location": "港城中环金钟廊+萧家墓园主角衣冠冢前",
+      "character_goal": "M3闭合：姐姐用主角生前承诺过她的'幸福新郎'四字反向疯念余生",
+      "conflict_action": "姐姐每日穿白婚纱在中环金钟廊拉路人问'你见到我弟弟了吗？他马上就要结婚了'；镜头切回墓园衣冠冢前，电子签PDF打印件+空白受益人确认书+衣冠冢三件套静物收尾",
+      "information_gap": "无——M3闭合金句记忆点+静物收尾留白",
+      "emotion_debt_balance": "-8",
+      "chapter_end_hook": "中环金钟廊的人潮里，姐姐穿着白婚纱拉住每一个路人：'你见到我弟弟了吗？他马上就要结婚了。'",
+      "paywall_card": false,
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "forbidden_summary": ["禁用主角灵魂抒情独白", "禁用未来展望式收尾", "禁用煽情景物烘托", "禁用'幸福新郎'句式在前章重复出现"]
+    }
+  ],
+  "characters": [
+    {
+      "id": "protagonist",
+      "name": "萧承时",
+      "role": "主角",
+      "voice": "克制、长期被驯化的钝感、规则信徒、最后一次自决；不哭不闹不歇斯底里",
+      "speech_register": "短句·物理化触感·回敬式金句",
+      "forbidden_words_personal": ["磨练", "学乖", "为你好", "幸福新郎"],
+      "arc": "六年驯化的乖弟弟 → 解锁失败被全员揭穿 → 拿出电子签三处备份 → 祠堂物理化重伤 → 撑叉站起说'我帮你发' → 天台按下反向电子签自我兑付 → 跨栏 → 灵魂态全程旁观不参与"
+    },
+    {
+      "id": "antagonist_main",
+      "name": "萧瑾时",
+      "role": "主反派/家族律所合伙人/姐姐",
+      "voice": "高傲、亲昵化训诫、用'磨练/为你好/学乖'三句话反复定义主角",
+      "speech_register": "训导式长句·高频亲昵称呼·伪关怀",
+      "core_lines_must_appear": [
+        "磨练你六年，你怎么连这点学乖都没学会。",
+        "你六年前关三天才学乖，现在又忘了。",
+        "磨练你为你好，等你知道真相会感激我的。"
+      ],
+      "echo_line_at_end": "你见到我弟弟了吗？他马上就要结婚了。"
+    },
+    {
+      "id": "antagonist_brother_fake",
+      "name": "萧言安",
+      "role": "假表弟/萧家律所小法务/伪证人贩子之子换身案当事人",
+      "voice": "得意嬉皮、踩低姐夫、爱当众炫耀战利品",
+      "key_action": "亮出与江砚的婚书+女儿出生证；踢翻铜炉砸碎主角胯骨；最终被姐姐亲手送进I期临床试药死"
+    },
+    {
+      "id": "antagonist_fake_wife",
+      "name": "江砚",
+      "role": "假未婚妻/律所同事",
+      "voice": "顺从姐姐、对主角始终敷衍",
+      "key_action": "六年从未办结婚证；主角跳楼后从同一栋楼跳下"
+    },
+    {
+      "id": "antagonist_mother",
+      "name": "萧母",
+      "role": "假装植物人六年的母亲",
+      "voice": "卧床装病六年，揭穿日态度冷淡",
+      "key_action": "揭穿日剃头与父亲一同去港岛大屿山宝莲寺当苦行义工"
+    },
+    {
+      "id": "stakeholder_daughter",
+      "name": "萧家小女儿（无独立姓名，登记为萧言安亲生女）",
+      "role": "代孕生下的女儿",
+      "voice": "被假表弟养六年，把萧言安认作亲爹",
+      "key_action": "祠堂祭祖夜用银叉扎主角小腹；最终被姐姐宣布从族谱除名，送山区福利院"
+    }
+  ],
+  "constraints": {
+    "global_forbidden_words": ["命运", "宿命", "红尘", "所谓的", "浓妆艳抹"],
+    "narrative_pov": "第一人称萧承时，B11之后转灵魂态第一人称旁观（不介入）",
+    "tense": "过去时为主，B11-B14灵魂态用现在时拉远距离",
+    "average_sentence_length": [14, 17],
+    "dialogue_ratio_target": 0.4,
+    "physical_anchors_required_per_beat": 1,
+    "echo_phrase_count": {
+      "magnify_phrase": "磨练为你好/学乖/幸福新郎，全文反派阵营累计出现≥4次，主角阵营0次"
+    }
+  }
+}

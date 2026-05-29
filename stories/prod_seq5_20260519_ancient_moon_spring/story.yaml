@@ -1,0 +1,180 @@
+pipeline_mode: production
+status: final
+title: 出药狱那日，夫君为义妹封了医院
+provider: openai
+model: gpt-5-codex
+source: user_provided_phase7_source_materials
+runner_policy:
+  external_allowed: false
+audit:
+  provider: openai
+  model: gpt-5-codex
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluations:
+      - story/evaluation/platform.json
+      - story/evaluation/emotion.json
+      - story/evaluation/style.json
+      - story/evaluation/logic.json
+  generated_outputs:
+    - final.md
+    - craft-notes.md
+    - tomato-submission.md
+    - final-chapters/_chapters-map.md
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+    - final-chapters/ch17.md
+    - final-chapters/ch18.md
+quality_gate:
+  pass
+  score_scale: 0-10
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.2
+    emotion: 8.7
+    style: 8.1
+    logic: 7.7
+  machine_metrics:
+    target_length:
+      min: 10000
+      max: 18000
+      actual_reference: 14771
+      status: pass
+    chapters:
+      count: 18
+      hook_hits: 18
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 5
+      actual: 6
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraphs: 4
+      mobile_paragraphs:
+        status: pass
+        rule: one_sentence_per_paragraph
+      submission_paywall_map:
+        status: pass
+        required: 5
+        actual: 6
+      visible_paywall_labels:
+        status: pass
+        count: 0
+  final_packaging_notes:
+    chapter_count_changed: false
+    hook_coverage_changed: false
+    phase6_diff_applied: true
+submission:
+  title_options:
+    - 出药狱那日，夫君为义妹封了医院
+    - 儿子死后，他才跪求我别走
+    - 夫君封院救义妹，我抱着儿子死在雨夜
+  tags:
+    - 追妻火葬场
+    - 民国虐恋
+    - 母子情深
+    - 女主复仇
+    - 伪诊断封口
+    - 破镜不圆
+    - 证据反杀
+    - 失忆归来
+chapters:
+  - id: ch01
+    title: 出药狱
+    file: final-chapters/ch01.md
+  - id: ch02
+    title: 药试所门
+    file: final-chapters/ch02.md
+  - id: ch03
+    title: 封楼
+    file: final-chapters/ch03.md
+  - id: ch04
+    title: 雨夜药棚
+    file: final-chapters/ch04.md
+  - id: ch05
+    title: 商会摊证
+    file: final-chapters/ch05.md
+  - id: ch06
+    title: 红印
+    file: final-chapters/ch06.md
+  - id: ch07
+    title: 窗缝
+    file: final-chapters/ch07.md
+  - id: ch08
+    title: 旧药箱
+    file: final-chapters/ch08.md
+  - id: ch09
+    title: 暴雨码头
+    file: final-chapters/ch09.md
+  - id: ch10
+    title: 残扣
+    file: final-chapters/ch10.md
+  - id: ch11
+    title: 档案室
+    file: final-chapters/ch11.md
+  - id: ch12
+    title: 留声机房
+    file: final-chapters/ch12.md
+  - id: ch13
+    title: 公审
+    file: final-chapters/ch13.md
+  - id: ch14
+    title: 南洋归船
+    file: final-chapters/ch14.md
+  - id: ch15
+    title: 皮箱
+    file: final-chapters/ch15.md
+  - id: ch16
+    title: 旧厂火味
+    file: final-chapters/ch16.md
+  - id: ch17
+    title: 火门之后
+    file: final-chapters/ch17.md
+  - id: ch18
+    title: 离港
+    file: final-chapters/ch18.md
+total_chars: 14901
+chapter_count: 18
+paywall_cards: 12
+critic_scores:
+  logic: 7.7
+  style: 8.1
+  emotion: 8.7
+  platform: 8.2
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260519_184658
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

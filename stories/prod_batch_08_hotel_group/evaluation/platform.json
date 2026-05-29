@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "evidence": [
+    {
+      "type": "opening_click",
+      "status": "pass",
+      "quote": "“这上面写着裸营位480。你收我680，一人多收200。老客户你也杀熟？”",
+      "comment": "开篇直接抛出价格矛盾、老客户翻脸、五一档期和主角经营压力。"
+    },
+    {
+      "type": "chapter_hook",
+      "status": "pass",
+      "quote": "周凯还没等到我求他，游客中心外已经响起了三辆研学大巴的倒车提示音。",
+      "comment": "第一章钩子用研学团补位完成反转。"
+    },
+    {
+      "type": "paywall_cards",
+      "status": "pass",
+      "quote": "黄牛司机把二维码怼到周凯脸前：一位一百二，嫌贵就走山路。",
+      "comment": "付费卡点有现金反噬、住宿危机、员工拒绝、夜间求助和持械闯入等递进压力。"
+    },
+    {
+      "type": "title_intro_packaging",
+      "status": "pass",
+      "quote": "beat-bible 已提供标题《五一露营嫌我贵？可我有百人研学团》。",
+      "comment": "标题已在故事圣经中确定，平台简介按产线由 Phase 7 Final Packager 生成。"
+    },
+    {
+      "type": "ending_commercial_return",
+      "status": "pass",
+      "quote": "姜老师问我：“暑期营地课程，还能给我们留档期吗？”",
+      "comment": "结尾回到订单增长与长期合作，完成商业收益闭环。"
+    }
+  ]
+}

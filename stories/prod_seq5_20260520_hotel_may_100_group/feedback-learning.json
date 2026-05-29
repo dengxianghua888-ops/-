@@ -1,0 +1,108 @@
+{
+  "story_slug": "prod_seq5_20260520_hotel_may_100_group",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3", "M6"],
+  "target_length": {
+    "min": 12000,
+    "max": 14500
+  },
+  "final_length": 12462,
+  "quality_scores": {
+    "platform": 8.8,
+    "emotion": 8.6,
+    "style": 8.5,
+    "logic": 8.7
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "hook": "老客户用平台四百纯房费逼五百全包价，并当众掌掴老板娘。",
+      "reusable_fact": "价格争议要拆成纯房费与服务包，冲突才有可验证边界。"
+    },
+    {
+      "chapter": "第二章",
+      "hook": "主角当场导出监控、签退房单、原路退款，释放三十间旺季房源。",
+      "reusable_fact": "反杀启动点应由对方签字确认，形成责任闭环。"
+    },
+    {
+      "chapter": "第三章",
+      "hook": "候补第一位的百人观鸟疗养团立即接盘三十间临湖木屋。",
+      "reusable_fact": "救场客源不能凭空出现，需提前用候补登记、名单、需求表埋伏。"
+    },
+    {
+      "chapter": "第六章",
+      "hook": "退房团队住进八百裸房渔家乐，证照、消防、登记全部出问题。",
+      "reusable_fact": "价格反讽最好用同场景刚需服务逐项对照，而不是靠旁白说贵。"
+    },
+    {
+      "chapter": "第八章",
+      "hook": "财务助理许宁夜里补登记遇险并报警，方越第一反应是压住群消息。",
+      "reusable_fact": "员工倒戈应由账目、安全和指令留痕共同推动。"
+    },
+    {
+      "chapter": "第十章",
+      "hook": "雨夜求房时，主角只给临时安置和公共区避雨，不挪已付款客房。",
+      "reusable_fact": "爽点拒绝要保留职业边界，避免主角显得冷血或违法。"
+    },
+    {
+      "chapter": "第十三章",
+      "hook": "派出所笔录中，主角不撤案、不私了，只按流程处理。",
+      "reusable_fact": "现代反转的终局惩罚应落在证据链、法律流程和组织追责。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter_after": "第三章",
+      "card_hook": "方越刚退完三十间房，百人观鸟疗养团就带着名单和报价单到场。",
+      "payoff_direction": "公开验价，证明五百全包不是杀熟。"
+    },
+    {
+      "chapter_after": "第六章",
+      "card_hook": "无证渔家乐把下午五百改成八百，还只给床位不包任何服务。",
+      "payoff_direction": "员工开始用新增支出反推原合同价值。"
+    },
+    {
+      "chapter_after": "第八章",
+      "card_hook": "许宁报警，民警要求老板拿出证照和住宿登记系统。",
+      "payoff_direction": "安全风险从抱怨升级为可追责事实。"
+    },
+    {
+      "chapter_after": "第十章",
+      "card_hook": "方越雨夜出一千一间求回潮汐湾，主角拿出生效合同拒绝挪房。",
+      "payoff_direction": "十年客情被主动退订和掌掴切断。"
+    },
+    {
+      "chapter_after": "第十二章",
+      "card_hook": "方越持刀闯到仓库门口，主角同步三组证据给出警民警。",
+      "payoff_direction": "冲突进入法律闭环，不能再用私下道歉解决。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代反转",
+    "民宿老板娘",
+    "五一满房",
+    "老客户压价",
+    "纯房费_vs_全包价",
+    "明码标价",
+    "退房签字单",
+    "原路退款",
+    "候补名单接盘",
+    "百人疗养团",
+    "观鸟团",
+    "服务清单验价",
+    "无证渔家乐",
+    "员工垫付",
+    "财务助理记账",
+    "报警记录",
+    "公司总部追责",
+    "雨夜求房拒绝",
+    "持刀未遂",
+    "不撤案不私了",
+    "合同边界",
+    "证据链反杀"
+  ],
+  "manual_revision_delta": []
+}

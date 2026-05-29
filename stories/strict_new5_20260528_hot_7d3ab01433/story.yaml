@@ -1,0 +1,34 @@
+slug: strict_new5_20260528_hot_7d3ab01433
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_7d3ab01433
+genre: ancient_BE
+final_packaging:
+  title: 三两银斋豆腐
+  final_file: final.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 15
+total_chars: 11865
+chapter_count: 15
+paywall_cards: 8
+quality_gate: pass
+critic_scores:
+  logic: 7.8
+  style: 8.1
+  emotion: 8.6
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_213136
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

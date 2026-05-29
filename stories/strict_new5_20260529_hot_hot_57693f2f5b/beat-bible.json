@@ -1,0 +1,395 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10720,
+    "planning_note": "总规划约高于最低字数7.2%，单场区间窄而稳，留给Writer现场动作和对白发挥。"
+  },
+  "title": "被业主群举报辞退后，我进山失联了",
+  "genre": "modern_reversal / rebirth_avoidance / community_public_opinion_revenge",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "赵慧用业主群举报和网暴逼走沈昭，后续自己被许曼、物业和业主群用同一套话术围攻；许曼用弱者人设吃流量，最终被监控和众筹流水反噬。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "拒收药箱、赵慧接盘、沈昭被辞退、药箱事故、主角失联、社区互咬、博主寻人、监控公开、众筹翻车、物业账目清算、主角新生。"
+    },
+    {
+      "id": "M8",
+      "name": "道德模糊冷感",
+      "carrier": "沈昭知道事故可能重演，但只拒绝流程外责任、保留证据、退出责任链，不主动伤害任何人。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "许曼把药箱往她怀里一塞，说：这次你可别想装没看见。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "赵慧在群里发了语音：我接，这责任我担。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 710,
+      "target_chars_max": 830,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "钱建国把辞退通知推到沈昭面前，落款时间竟然提前了两天。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 740,
+      "target_chars_max": 860,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "沈昭按下退群键前，群里最后一条是：等药箱出事，她负责。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 720,
+      "target_chars_max": 830,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "活动室的灯灭了，低温柜显示屏暗成一块黑玻璃。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 730,
+      "target_chars_max": 850,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "许曼哭着看向镜头：最早知道这件事的人，叫沈昭。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "赵慧拨出第十七个电话，提示音还是：您拨打的号码是空号。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "短视频热搜第一条变成：全城寻找被辞退的前社工沈昭。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 820,
+      "target_chars_max": 1010,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "博主镜头一晃，山路尽头那个穿灰色马甲的人抬起了脸。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 840,
+      "target_chars_max": 1050,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "沈昭打开旧邮箱，第一段监控备份的标题是：活动室23:41。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 830,
+      "target_chars_max": 1040,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "画面里，许曼弯腰拔掉了低温柜的插头。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "第二份表格弹出来，众筹流水第一笔转账备注写着：赵姐辛苦费。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "调查组问沈昭要不要回去补一份现场说明，她只把材料袋推了过去。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "顾临川站在新服务站门口，笑着问她：这次，还走吗？"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "社区便民服务站前台",
+      "character_goal": "沈昭从前世听证会猝死中醒来，立刻拒绝私下接收许曼的低温药箱。",
+      "conflict_action": "许曼当众把药箱推到沈昭怀里，逼她像前世一样先签收再补流程。",
+      "information_gap": "读者知道前世药箱害沈昭被讹十年，但暂不知道真正断电者是谁。",
+      "emotion_debt_balance": "建立前世十年照护、赔偿、网暴和爱情断裂的总债。",
+      "chapter_end_hook": "许曼把药箱往她怀里一塞，说：这次你可别想装没看见。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要渲染病痛猎奇",
+        "不能让沈昭主动违法害人"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "便民服务站门口与业主群",
+      "character_goal": "沈昭把药箱责任推回正规流程，逼所有人公开表态。",
+      "conflict_action": "赵慧录视频骂沈昭冷血，并在业主群公开接走药箱。",
+      "information_gap": "赵慧为什么这么急着替许曼出头，只露红包和熟络称呼的细节。",
+      "emotion_debt_balance": "偿还第一次不接锅爽点，新增赵慧造谣债。",
+      "chapter_end_hook": "赵慧在群里发了语音：我接，这责任我担。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述社区流程条款",
+        "不要洗白赵慧的越界",
+        "不要把互助写成原罪"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 710,
+      "target_chars_max": 830,
+      "scene_location": "物业办公室",
+      "character_goal": "沈昭留下辞退、扣补贴和药箱交接的书面痕迹。",
+      "conflict_action": "钱建国把联名举报拍在桌上，要求沈昭写自愿离职承诺。",
+      "information_gap": "物业冷柜采购和活动室使用有账目问题，暂只露钱建国回避公章。",
+      "emotion_debt_balance": "新增制度性甩锅债，强化沈昭把坏事当离场通道。",
+      "chapter_end_hook": "钱建国把辞退通知推到沈昭面前，落款时间竟然提前了两天。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成职场长谈判",
+        "不要让沈昭长篇辩解",
+        "不能让物业问题提前摊牌"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 740,
+      "target_chars_max": 860,
+      "scene_location": "服务站储物间与手机群聊",
+      "character_goal": "沈昭完成退群、换号、旧邮箱自动归档，进入山区封闭项目。",
+      "conflict_action": "群管理员在群里发起投票驱逐沈昭，沈昭截图后提交项目报到信息。",
+      "information_gap": "沈昭为什么确信旧邮箱有用，暂不解释摄像头独立供电。",
+      "emotion_debt_balance": "兑现主动失联，反派以为胜利，读者知道责任链反噬将启动。",
+      "chapter_end_hook": "沈昭按下退群键前，群里最后一条是：等药箱出事，她负责。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写逃避成怯懦",
+        "不要解释所有证据来源",
+        "不能让沈昭回群吵架"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 720,
+      "target_chars_max": 830,
+      "scene_location": "社区活动室夜间",
+      "character_goal": "让事故按责任链发生在赵慧、许曼和物业手里。",
+      "conflict_action": "许曼深夜进入活动室翻动药箱，低温柜断电后赵慧第二天才发现。",
+      "information_gap": "读者只看到断电后果，不直接揭示拔插头动作。",
+      "emotion_debt_balance": "前世同一事故重演，但责任不再落在沈昭身上。",
+      "chapter_end_hook": "活动室的灯灭了，低温柜显示屏暗成一块黑玻璃。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要描写抢救细节",
+        "不要把许知知病情当惩罚点",
+        "不要说明断电真相"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 730,
+      "target_chars_max": 850,
+      "scene_location": "医院走廊与同城短视频",
+      "character_goal": "许曼把责任从赵慧身上转移到沈昭，逼出舆论升级。",
+      "conflict_action": "许曼对镜哭诉，点名沈昭最早拒收药箱，赵慧在旁边删群消息。",
+      "information_gap": "赵慧删了哪些消息，物业为何不敢公开活动室监控。",
+      "emotion_debt_balance": "新增许曼操控舆论债，赵慧第一次尝到被推出去的反噬。",
+      "chapter_end_hook": "许曼哭着看向镜头：最早知道这件事的人，叫沈昭。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要连续解释病情",
+        "不要写旁观者反应清单",
+        "不能让许曼只显得可怜"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "赵慧家客厅与物业群",
+      "character_goal": "赵慧找到沈昭替自己作证，发现亲手逼走的是唯一证人。",
+      "conflict_action": "赵慧翻通讯录、找项目表、堵服务站，全部扑空。",
+      "information_gap": "沈昭到底去了哪里，只露山区项目公示里被打码的名字。",
+      "emotion_debt_balance": "兑现亲手逼走关键证人的回旋爽点。",
+      "chapter_end_hook": "赵慧拨出第十七个电话，提示音还是：您拨打的号码是空号。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要让赵慧无辜化",
+        "不要把找人写成流水账",
+        "不要让沈昭提前回应"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "物业办公室与同城热搜",
+      "character_goal": "物业把锅甩给失联的沈昭，引发全城寻人。",
+      "conflict_action": "钱建国在协调会上伪造时间线，赵慧当场撕掉调解书。",
+      "information_gap": "物业账目和辞退通知时间矛盾，调查方暂未介入。",
+      "emotion_debt_balance": "反派互咬升级，舆论从骂沈昭转向寻找沈昭。",
+      "chapter_end_hook": "短视频热搜第一条变成：全城寻找被辞退的前社工沈昭。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写会议纪要式调解",
+        "不要让物业一次性败露",
+        "不能把弹幕改成长篇分析"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 820,
+      "target_chars_max": 1010,
+      "scene_location": "山区入户普查点",
+      "character_goal": "沈昭以关键证人身份被偶遇，但保持冷静不立刻救场。",
+      "conflict_action": "探访博主直播拍到沈昭，评论区刷屏要求她回城作证。",
+      "information_gap": "沈昭手里有什么证据，只露她让同事拿来旧电脑。",
+      "emotion_debt_balance": "开始高潮反转，读者获得主角回归前的期待释放。",
+      "chapter_end_hook": "博主镜头一晃，山路尽头那个穿灰色马甲的人抬起了脸。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要把山区写成逃亡苦情",
+        "不要让沈昭道德说教",
+        "不能让直播失控成人肉煽动"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 840,
+      "target_chars_max": 1050,
+      "scene_location": "山区项目办公室与直播连线",
+      "character_goal": "沈昭公开第一层硬证据，证明自己从未签收药箱。",
+      "conflict_action": "沈昭调出邮件归档和聊天截图，逐条对上赵慧公开承诺。",
+      "information_gap": "活动室监控还未播放，真正拔电源者仍未揭晓。",
+      "emotion_debt_balance": "偿还沈昭被骂冷血的债，转移第一轮责任到赵慧和物业。",
+      "chapter_end_hook": "沈昭打开旧邮箱，第一段监控备份的标题是：活动室23:41。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要复述完整聊天记录",
+        "不要让沈昭解释过多法律概念",
+        "不能提前公布众筹流水"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 830,
+      "target_chars_max": 1040,
+      "scene_location": "直播间与社区活动室监控画面",
+      "character_goal": "公开视频爆出许曼拔插头和摆拍，击碎弱者人设操控。",
+      "conflict_action": "沈昭播放监控，画面显示许曼深夜操作低温柜并整理药箱位置。",
+      "information_gap": "许曼为何故意制造风险，留给众筹流水和红包解释。",
+      "emotion_debt_balance": "最大证据爽点爆开，许曼造谣债开始反噬。",
+      "chapter_end_hook": "画面里，许曼弯腰拔掉了低温柜的插头。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要渲染许知知身体后果",
+        "不要把许曼写成单纯疯癫",
+        "不要让评论区全是整齐审判"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_location": "调查组临时会议室与直播后续",
+      "character_goal": "沈昭提交众筹流水、红包记录和物业账目，触发制度清算。",
+      "conflict_action": "调查人员当场调取账目，赵慧和钱建国互相指认。",
+      "information_gap": "清算结果未完全落地，留到收束兑现。",
+      "emotion_debt_balance": "完成名誉、金钱、关系、制度四类代价的反杀集中段。",
+      "chapter_end_hook": "第二份表格弹出来，众筹流水第一笔转账备注写着：赵姐辛苦费。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写审计长流程",
+        "不要让外部正义替沈昭发泄",
+        "不能把清算提前总结完"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "社区公示栏与调查组办公室",
+      "character_goal": "沈昭只交材料不回去兜底，让反派承受各自后果。",
+      "conflict_action": "许曼、赵慧、钱建国分别求沈昭改口，沈昭拒绝接电话并签收补发工资。",
+      "information_gap": "顾临川是否还在等她，结尾前只露一条未读短信。",
+      "emotion_debt_balance": "偿还不救场契约，兑现工资、名誉和职业清白。",
+      "chapter_end_hook": "调查组问沈昭要不要回去补一份现场说明，她只把材料袋推了过去。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要安排沈昭当面痛骂所有人",
+        "不要写求饶清单",
+        "不能让沈昭心软回去照护"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "新服务站与山城路口",
+      "character_goal": "沈昭拿回新人生，补偿事业、家庭和爱情。",
+      "conflict_action": "沈昭拒绝旧社区返聘电话，递交考编资料，与顾临川重逢。",
+      "information_gap": "前世错过的十年不再详述，只用顾临川保留旧照片和一句话回收。",
+      "emotion_debt_balance": "完成新生补偿，保留冷感：她知道火会烧回去，但不再替任何人灭火。",
+      "chapter_end_hook": "顾临川站在新服务站门口，笑着问她：这次，还走吗？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要命运救赎套话",
+        "不要复合煽情过长",
+        "不要让主角原谅反派"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0,
+    "min_clear_burst_per_1000_chars": 1,
+    "min_major_reversal_per_3000_chars": 1
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      23,
+      32
+    ],
+    "short_line_rate_lte_16_min": 0.32,
+    "short_line_rate_lte_16_max": 0.48,
+    "direct_dialogue_line_rate_min": 0.25,
+    "direct_dialogue_line_rate_max": 0.38,
+    "barrage_line_rate_min": 0.05,
+    "barrage_line_rate_max": 0.12,
+    "question_mark_density_per_1000_chars_min": 1.8,
+    "question_mark_density_per_1000_chars_max": 4.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

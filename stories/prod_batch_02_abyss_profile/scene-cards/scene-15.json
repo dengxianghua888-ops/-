@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 820,
+  "target_chars_max": 1000,
+  "location": "废弃病理影像室与楼外抓捕点",
+  "time": "第六天夜里后半段",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "江砚", "刘队", "抓捕警员"],
+  "character_goal": "完成对江砚的反杀，把他从所谓馆长代理拆回犯罪嫌疑人。",
+  "opposition_goal": "江砚要在警力进入前删除论坛入口，并用馆长名义继续威胁林照。",
+  "conflict_action": "林照亮出录音笔和封蜡指纹证据，引江砚走到预设红外范围，刘队破门后按物证、录音和后台登录记录给他戴上手铐。",
+  "information_gap": "真正馆长是谁，他为什么能拿到林照的私人病例。",
+  "emotional_debt_delta": "专业羞辱债-1，第二层凶手债-1，终极馆长债+1。",
+  "payoff_or_hook": "江砚自称记录永恒，林照用证据让他成为案卷里的嫌疑人。",
+  "chapter_end_hook": "江砚落铐前笑了：馆长从来不用自己的手。",
+  "paywall_card": false,
+  "must_include": [
+    "录音笔",
+    "封蜡指纹",
+    "红外定位范围",
+    "刘队破门",
+    "江砚戴手铐"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让江砚突然降智",
+    "不要跳过证据闭环",
+    "不要让主角用情绪控诉替代法律和证据"
+  ]
+}

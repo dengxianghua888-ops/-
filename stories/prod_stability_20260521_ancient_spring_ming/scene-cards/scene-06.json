@@ -1,0 +1,49 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "港务侧门与停泊旧船边",
+  "time": "当日下午",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "老船医",
+    "杨昭宁",
+    "裴砚潮",
+    "安保"
+  ],
+  "character_goal": "拿回老船医补记页，确认有人记得她不是自愿留下。",
+  "opposition_goal": "杨昭宁要截断补记，裴砚潮要把一切定性成她偷机密。",
+  "conflict_action": "老船医把折起的补记塞进她手里，杨昭宁立刻喊安保；裴砚潮一到场就按住她的手腕，命人把老船医拖走。",
+  "information_gap": "补记具体写了什么；老船医知道多少弃救真相。",
+  "emotional_debt_delta": {
+    "add": [
+      "船上还有哪些人知道真相",
+      "为什么裴砚潮对记录如此敏感"
+    ],
+    "pay": [
+      "第一次有外部证人明说她不是自愿留下"
+    ]
+  },
+  "payoff_or_hook": "老船医被拖走时，补记只露出半行‘流血不止’。",
+  "chapter_end_hook": "截断句：老船医嘶哑地喊，她不是自愿留下的。",
+  "paywall_card": false,
+  "must_include": [
+    "老船医偷偷递纸",
+    "杨昭宁先开口定罪",
+    "裴砚潮按住她手腕",
+    "半页补记露头"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释港务档案制度",
+    "不要让证人一次讲完所有经过"
+  ],
+  "rhythm_job": {
+    "shape": "动作4成，对白3成，呼吸点2成，证据1成；先递纸，再截断，再留下半句钩",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

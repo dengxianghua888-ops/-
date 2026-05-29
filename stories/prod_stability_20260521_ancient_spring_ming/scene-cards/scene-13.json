@@ -1,0 +1,48 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "港务法医中心冷藏瞻视室",
+  "time": "坠塔后次日",
+  "pov": "裴砚潮",
+  "characters": [
+    "裴砚潮",
+    "港口法医",
+    "肿瘤中心主治",
+    "船务总助"
+  ],
+  "character_goal": "证明她不是认真赴死，或证明自己还没错到无可挽回。",
+  "opposition_goal": "尸检、病案与补记要一层层拆掉他的自欺。",
+  "conflict_action": "法医翻开尸检、骨癌病案和船医补记，逐项指出旧伤、流产痕迹与长期低温创伤；裴砚潮硬撑着看完。",
+  "information_gap": "截断句：翻到流产旧伤那页时，他的手抖得拿不稳纸。",
+  "emotional_debt_delta": {
+    "add": [
+      "哪一份证据会最后钉死他"
+    ],
+    "pay": [
+      "她三年创伤的身体证据正式落地",
+      "绝症与流产不再是口头传闻"
+    ]
+  },
+  "payoff_or_hook": "他第一次无法把她的痛解释成演戏。",
+  "chapter_end_hook": "截断句：翻到流产旧伤那页时，他的手抖得拿不稳纸。",
+  "paywall_card": false,
+  "must_include": [
+    "尸检单",
+    "骨癌病案",
+    "船医补记中的低温与流血记录",
+    "裴砚潮强撑后失手"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写尸检专业科普",
+    "不要把证据列成清单式摘要"
+  ],
+  "rhythm_job": {
+    "shape": "证据4成，动作2成，对白2成，呼吸点2成；每翻一页就加一刀，不做长段解释",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 1
+  }
+}

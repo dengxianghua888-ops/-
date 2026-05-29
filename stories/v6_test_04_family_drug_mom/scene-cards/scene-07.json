@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 530,
+  "target_chars_max": 650,
+  "location": "苏晴家/婆婆看管小柏的区域→清晨家中",
+  "time": "某天下午→次日清晨",
+  "pov": "苏晴",
+  "characters": ["苏晴", "小柏（4岁儿子）", "陈母（婆婆）", "陈北"],
+  "character_goal": "苏晴发现儿子被烫伤→母性暴怒→但必须继续忍耐等待完整证据",
+  "opposition_goal": "婆婆通过伤害孩子示威+陈北通过若无其事维持表面和平",
+  "conflict_action": "苏晴发现小柏手臂三个烟疤→婆婆辱骂'男孩子烫一下怎么了'→次日陈北若无其事买早餐",
+  "information_gap": "苏晴知道这是逼她崩溃的手段，但在证据到手前不能动",
+  "emotional_debt_delta": "母性红线被触碰——这笔债必须加倍偿还",
+  "payoff_or_hook": "章末钩子：陈北若无其事递早餐'给你和小柏买的'——极致反差",
+  "chapter_end_hook": "清晨陈北递上豆浆油条'给你和小柏买的，趁热吃'——虚伪人皮到极致",
+  "paywall_card": false,
+  "must_include": [
+    "小柏抱着苏晴哭到吐的画面",
+    "手臂三个烟疤排成一排的视觉冲击",
+    "婆婆辱骂（'男孩子烫一下怎么了/整天娇气'）",
+    "小柏害怕地往苏晴身后躲",
+    "陈北次日若无其事买早餐的极致反差"
+  ],
+  "must_not_write_as_exposition": [
+    "不得详细描写烫伤过程——只呈现事后结果（烟疤+哭泣）",
+    "不得写苏晴'决定以后报警'之类的计划——这里只需要情绪爆发",
+    "不得描写带孩子就医的流程——一笔带过即可"
+  ],
+  "rhythm_job": {
+    "shape": "前平后炸",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.2,
+    "comma_period_ratio": 0.40,
+    "sentence_avg_len": 12.5,
+    "dominant_emotion": "母性暴怒",
+    "emotion_arc": "震惊 → 心碎 → 暴怒 → 冷决",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "想杀人——碰孩子是绝对红线",
+    "required_techniques": [
+      {
+        "technique": "视觉冲击物象化",
+        "instruction": "用具体视觉变化制造冲击：'小臂内侧，三个烟疤排成一排'。不形容'有多惨'——让画面自己说话。配合'哭到吐'的生理反应级描写"
+      },
+      {
+        "technique": "语言暴力的降龄施加",
+        "instruction": "婆婆对4岁男孩使用成人化贬低：'男孩子烫一下怎么了''整天娇气跟个娘们似的'。对幼儿使用这种语言=突破道德底线，读者愤怒突破阈值"
+      },
+      {
+        "technique": "冷静若无其事的加害者形象",
+        "instruction": "陈北次日早餐场景：'他动作自然地把豆浆油条放在桌上，好似没有任何事情发生过'。日常化=最恐怖——'他觉得这很正常'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "寻找过程省略+结果冲击+生理反应",
+        "example": "找到女儿时，她抱着我哭到吐。原本漂亮的长发，被剪成了光头。",
+        "instruction": "省略找的过程直接给结果：'找到小柏时，他抱着我哭到吐。小臂内侧，三个烟疤排成一排。'叙事效率最大化"
+      },
+      {
+        "structure": "短句+孩子的恐惧动作",
+        "example": "女儿害怕地往我身后躲。",
+        "instruction": "'小柏害怕地往我身后躲。'孩子的恐惧比大人的愤怒更能击穿读者——保护欲是最原始的情绪"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "突变式",
+    "source_excerpt": "找到女儿时，她抱着我哭到吐。原本漂亮的长发，被剪成了光头。'小丫头片子整天穿的花里胡哨，想勾引谁呢！'女儿害怕地往我身后躲。清晨，宋松回来，神情一如往常。他动作自然地将早餐放在桌子上，好似没有任何事情发生过。'给你买了最爱吃的馄饨，趁热吃别凉了。'"
+  }
+}

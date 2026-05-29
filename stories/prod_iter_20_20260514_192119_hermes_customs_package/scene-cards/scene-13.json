@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "工厂办公室+电脑屏幕",
+  "time": "案发后第三天上午",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "合伙人老李", "网店后台屏幕"],
+  "character_goal": "处理爆款订单",
+  "opposition_goal": "瞬时流量大到服务器扛不住",
+  "conflict_action": "徐阳走进办公室→后台显示流量曲线垂直拉升→服务器当天宕机三次→老李进来报'品牌官博转发了我们'→订单数字滚动",
+  "information_gap": "无——附加爽点，因祸得福",
+  "emotional_debt_delta": "-1（累积至-8）",
+  "payoff_or_hook": "服务器宕机第三次的瞬间",
+  "chapter_end_hook": "新闻发酵第三天，我网店服务器宕机三次",
+  "paywall_card": false,
+  "must_include": ["流量曲线物理感", "服务器宕机三次的具体节奏", "品牌官博转发情节", "老李一句报喜"],
+  "must_not_write_as_exposition": ["炫富式描写", "主角狂喜失态", "流量数字堆叠到失真", "从此走上人生巅峰AI腔"]
+}

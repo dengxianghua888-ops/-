@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "score": 8.7,
+  "evidence": [
+    {
+      "check": "D1_trust_betrayal_accumulation",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "陆承衍从她身后伸出手，一只手揽住她的腰……另一只手覆在她拿着模具的手背上"
+    },
+    {
+      "check": "D1_trust_betrayal_payoff",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-06.md",
+      "quote": "陆承衍——你自己说的话，为什么不敢让别人听？"
+    },
+    {
+      "check": "D2_ingratitude_accumulation",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-03.md",
+      "quote": "知予，小时候舅妈说你寄养在我家要互相照顾，你忘了吗？这是你欠的。"
+    },
+    {
+      "check": "D2_ingratitude_payoff",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-11.md",
+      "quote": "走到今天是你们自己选的，怨不了任何人。"
+    },
+    {
+      "check": "D3_false_protection_seed",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-02.md",
+      "quote": "她没有我根本活不了。"
+    },
+    {
+      "check": "D3_false_protection_payoff",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-10.md",
+      "quote": "当初你说她没你活不了。现在她黏着你寸步不离——你该高兴才对。"
+    }
+  ],
+  "notes": [
+    "三笔情绪债全部现场化累积+现场化偿还，闭环完整。"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 709,
+  "target_chars_max": 709,
+  "location": "船舱屏幕前",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "公开备用手机证据",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "船舱门关上后，顾砚臣的朋友还在替他打圆场。  他们说纪念日嘛，男人放纵一次不算什么。",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "证据债",
+  "payoff_or_hook": "证据已经进了律师邮箱，也进了顾氏董事会的加密群。",
+  "chapter_end_hook": "证据已经进了律师邮箱，也进了顾氏董事会的加密群。",
+  "paywall_card": false,
+  "must_include": [
+    "公开备用手机证据",
+    "证据债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

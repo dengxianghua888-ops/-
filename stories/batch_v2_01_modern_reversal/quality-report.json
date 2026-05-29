@@ -1,0 +1,39 @@
+{
+  "slug": "batch_v2_01_modern_reversal",
+  "source_slug": "hot_027a4f9448",
+  "title": "镜厅",
+  "genre": "modern_reversal",
+  "run_date": "2026-05-25",
+  "optimization": "v2_style_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10004, "min": 10000, "max": 14000, "pass": true},
+    "chapter_count": {"value": 12, "min": 10, "pass": true},
+    "rhythm_fit": {
+      "status": "pass",
+      "source_avg_line_chars": 22.345,
+      "candidate_avg_line_chars": 18.672,
+      "source_short_line_rate": 0.3175,
+      "candidate_short_line_rate": 0.3032,
+      "source_quote_line_rate": 0.3764,
+      "candidate_quote_line_rate": 0.3202
+    },
+    "source_overlap": {"max_continuous_chars": 0, "threshold": 120, "pass": true},
+    "meta_leak": {"count": 0, "pass": true},
+    "ai_taste_words": {"count": 0, "pass": true}
+  },
+  "mechanisms_implemented": {
+    "M2_identity_explosion": true,
+    "M3_causal_boomerang": true,
+    "M5_multi_layer_betrayal": true,
+    "M6_progressive_escalation": true
+  },
+  "mechanism_notes": {
+    "M2": "女主从保洁工到集团继承人的身份爆破在B7-B8完成",
+    "M3": "丈夫选在晨光酒店办宴=选了岳母的地盘=自取灭亡",
+    "M5": "四层背叛递进：出轨办宴、婆婆逼跪、女儿叫妈、泼酒掰指",
+    "M6": "12章6级升级：请帖→婆婆→登场→叫妈→泼酒→掰指→灯灭→揭穿→清算"
+  },
+  "opening_structure": "conflict_first",
+  "rework_count": 3,
+  "final_verdict": "PASS"
+}

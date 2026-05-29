@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "银行柜台",
+  "time": "次日上午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "银行柜员"
+  ],
+  "character_goal": "林素琴查清4000入账后的去向",
+  "opposition_goal": "银行流程要求本人和证明材料齐全，旧流水调取耗时",
+  "conflict_action": "林素琴递交身份证、户口本和旧卡信息，在柜台前逐页核对流水，圈出每月到账当天转出的3500",
+  "information_gap": "3500转出账户是谁，为什么每月都精确发生在到账当天",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+3",
+    "mother_negligence_debt": "+3",
+    "father_malice_debt": "+3"
+  },
+  "payoff_or_hook": "第一付费级卡点：银行流水确认父亲控制账户并每月转走3500",
+  "chapter_end_hook": "柜员指着流水说，每月三号都有一笔三千五转出。",
+  "paywall_card": true,
+  "must_include": [
+    "每月4000到账",
+    "到账当天3500转出",
+    "银行卡绑定手机号为许国成号码",
+    "林素琴圈红流水"
+  ],
+  "must_not_write_as_exposition": [
+    "不要直接总结许国成偷钱",
+    "不要省略银行流水细节",
+    "不要让卡点平收"
+  ]
+}

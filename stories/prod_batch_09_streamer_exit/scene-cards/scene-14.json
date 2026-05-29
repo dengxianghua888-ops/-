@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 663,
+  "target_chars_max": 863,
+  "location": "法院 / 平台公告页",
+  "time": "判决日",
+  "pov": "第一人称：许闻笙",
+  "characters": [
+    "许闻笙",
+    "陆呈",
+    "顾凛",
+    "法官",
+    "平台风控"
+  ],
+  "character_goal": "许闻笙拿到判决结果，完成对白眼狼男主的司法清算。",
+  "opposition_goal": "陆呈还想赔钱后复出，维持爆款男主身份。",
+  "conflict_action": "法院判陆呈赔偿、公开道歉、停止虚假宣传；平台风控同步冻结其商业合作权限，品牌追偿违约损失，陆呈试图发声却只能发道歉模板。",
+  "information_gap": "陆呈不知道平台高风险名单会直接截断他后续商务。",
+  "emotional_debt_delta": "-4：侵权债、反咬债、粉丝污名债集中清算。",
+  "payoff_or_hook": "判决书和平台冻结公告同日公开，全网嘲讽陆呈靠资源还骂资源。",
+  "chapter_end_hook": "判决书落槌，陆呈账号商业合作权限同步被平台冻结。",
+  "paywall_card": false,
+  "must_include": [
+    "赔偿金额",
+    "公开道歉",
+    "停止虚假宣传",
+    "账号商业合作权限冻结",
+    "品牌违约追偿"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让陆呈体面退场",
+    "不要让一句道歉洗白",
+    "不要只写全网骂而无平台后果"
+  ]
+}

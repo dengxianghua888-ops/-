@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "dimension": "debt_accumulation",
+      "finding": "亲情背刺现场化，不靠旁白概括。女儿在缴费窗口用一百万估价父亲五年陪诊。",
+      "quote": "那一百万，够买断五年陪诊了。"
+    },
+    {
+      "dimension": "debt_repayment",
+      "finding": "一百万、护工工资、没工作、共同债务均在后文通过账单、专利、未受益证据回收。",
+      "quote": "法官翻到我五年缴费流水，问沈知宁：这些钱，你出过哪一笔？"
+    },
+    {
+      "dimension": "contrary_emotional_reaction",
+      "finding": "存在至少一处反预期情绪反应：主角被陆承安踩脏记录、妻子电话羞辱时没有崩溃，而是笑、拍照、录音、拨律师电话。",
+      "quote": "沈知宁说：“顾砚舟，你别总觉得谁欠你。”我笑了一声。"
+    },
+    {
+      "dimension": "ending_boundary",
+      "finding": "女儿悔意没有被即时赦免，情绪债没有廉价清零。",
+      "quote": "我说：“等不是抵消。”"
+    }
+  ]
+}

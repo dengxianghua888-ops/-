@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B2",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅·主管办公区柜台",
+  "time": "同日上午十点四十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "周明远（鉴定主管）"],
+  "character_goal": "举证申请复鉴：购买凭证、原版收据、面料明细",
+  "opposition_goal": "周明远拒绝复鉴，刷视频敷衍",
+  "conflict_action": "徐阳把购买凭证、面料明细单一张张递过去→周明远右手刷短视频左手挥开纸→打断三次：'电子签怎么签就怎么算'→徐阳不动，要求叫上级",
+  "information_gap": "周与销毁链条的勾结尚未暴露——读者只觉这人傲慢离谱",
+  "emotional_debt_delta": "+1（累积至+2）个体真相被压成废纸",
+  "payoff_or_hook": "M3埋雷：'电子签怎么签就怎么算，专家说话还能错？'",
+  "chapter_end_hook": "他根本不抬头：'电子签怎么签就怎么算，专家说话还能错？'",
+  "paywall_card": false,
+  "must_include": ["周明远刷视频的小动作", "电子签话术原句", "徐阳举证清单具体内容", "对话短促交锋节奏"],
+  "must_not_write_as_exposition": ["回忆周明远过往恶行", "解释电子签法律效力", "心声怒骂", "形容词堆叠人物外貌"]
+}

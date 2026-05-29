@@ -1,0 +1,25 @@
+title: 我从二十八楼跳下去的时候，全家人在楼下鼓掌
+source_slug: hot_b37c6589ca
+genre: family_ethics
+pipeline: v5_structure_fidelity
+batch: batch_v5_part2_20260527
+status: final
+nonspace_chars: 10037
+chapters: 10
+characters:
+  - name: 沈知意
+    role: 女主
+    description: 被偏心家庭逼到绝境的养女，用假死退场后以证据链清算所有施害者
+  - name: 沈若晴
+    role: 反派
+    description: 亲生女儿，装心脏病十七年陷害养女，最终被揭穿逐出家门
+  - name: 季寒舟
+    role: 反派
+    description: 未婚夫，追求女主是赌约，订婚宴当天改娶亲女儿
+  - name: 沈父
+    role: 配角
+    description: 偏心父亲，撤走气垫导致女主"坠亡"，事后悔恨
+  - name: 沈哲
+    role: 配角
+    description: 偏心哥哥，不信女主受害，事后崩溃
+logline: 被偏心父母和未婚夫联手逼迫的养女在订婚宴上用假死退场，死后证据链逐层砸脸让所有人悔疯，她绝不回头。

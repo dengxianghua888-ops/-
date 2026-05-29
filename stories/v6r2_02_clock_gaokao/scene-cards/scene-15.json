@@ -1,0 +1,86 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-10",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "工厂外指挥区→穹顶边缘",
+  "time": "晚上8:30，方案确定后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "特警队长", "沈妈妈"],
+  "character_goal": "沈听澜要让所有人接受她必须独自重新进入穹顶",
+  "opposition_goal": "妈妈不想让她冒生命危险再进去",
+  "conflict_action": "沈听澜说出父亲当年的解决方案——只有从内部关闭共振器才能终止；穹顶消失=进入窗口出现",
+  "information_gap": "父亲当年为关闭共振器而牺牲——她准备重复父亲的路",
+  "emotional_debt_delta": "M8因果回环——父亲5年前的牺牲与她今天的行动形成镜像",
+  "payoff_or_hook": "钩子：穹顶不见了。——三个字宣告行动开始",
+  "chapter_end_hook": "穹顶不见了。——量子场进入不稳定期，进入窗口出现",
+  "paywall_card": true,
+  "must_include": ["父亲按下终止键+咬舌自尽的回忆", "只有从内部关闭的规则", "沈听澜的决心宣言", "妈妈的哭泣和阻拦", "'穹顶不见了'独立行"],
+  "must_not_write_as_exposition": ["量子场不稳定期的科学原理", "特警的详细作战计划"],
+  "rhythm_job": {
+    "shape": "前慢后快（回忆慢→决心确定→穹顶消失瞬间加速）",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "悲壮-希望",
+    "emotion_arc": "父亲的牺牲 → 规则明确 → 方案浮现 → 穹顶消失=行动开始",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "被父亲的牺牲打动，同时振奋——她有办法了，她要进去了",
+    "required_techniques": [
+      {
+        "technique": "眼神传递不可说的决定",
+        "instruction": "回忆中父亲的最后眼神——慈爱中多了决绝。不说'要死了'，用眼神微妙变化让读者自己意识到"
+      },
+      {
+        "technique": "解决方案的逻辑自洽呈现",
+        "instruction": "只有从穹顶里出来的人才能重新进去（量子标记）——逻辑闭环的智力快感"
+      },
+      {
+        "technique": "极短独立行作为转折宣告",
+        "instruction": "'穹顶不见了。'四个字独占一行=全文最重要的行动信号"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "一样+又不一样+多了X",
+        "example": "慈爱的眼神和记忆里一样，又不一样。多了几分决绝。",
+        "instruction": "用最微小的变化暗示最大的决定——'决绝'的重量在于前面的'慈爱'"
+      },
+      {
+        "structure": "主语+消失",
+        "example": "墙不见了。",
+        "instruction": "全文最重要的物理变化用最短句子——极简=极有力"
+      },
+      {
+        "structure": "上一次X+这一次Y",
+        "example": "上一次，研究基地只有我出来了，这一次，我一定要把大家都救出来！",
+        "instruction": "过去遗憾→当下动力——时间对比式决心宣言"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "突变式",
+    "source_excerpt": "爷爷朝我看了一眼，慈爱的眼神和记忆里一样，又不一样。多了几分决绝。他按下了那个按钮。然后咬舌自尽。只有从墙里出来的人才能重新进去。因为在我们出来的那一刻，对于我们来说，我们处在墙里，墙却还没形成。上一次，研究基地只有我出来了。这一次，我一定要把大家都救出来！墙不见了。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["上一次", "这一次", "我进去"],
+      "句式": "从回忆中的略长→决心宣言极短",
+      "单句上限": 18,
+      "禁止": "犹豫、恐惧表达"
+    },
+    "沈妈妈": {
+      "口癖": ["不行", "听澜", "妈妈不让你去"],
+      "句式": "哭泣式阻拦",
+      "单句上限": 12,
+      "禁止": "理性分析"
+    }
+  }
+}

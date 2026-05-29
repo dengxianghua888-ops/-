@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "线上/江越办公室",
+  "time": "举报后一周",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "江越"
+  ],
+  "character_goal": "看到反击结果",
+  "opposition_goal": "江越想找出举报人",
+  "conflict_action": "证监会立案+江越被停职+行业传开",
+  "information_gap": "江越不知是谁举报",
+  "emotional_debt_delta": "-4",
+  "payoff_or_hook": "立案公告引爆",
+  "chapter_end_hook": "证监会立案调查的公告，在江越的朋友圈炸开。",
+  "paywall_card": false,
+  "must_include": [
+    "公告细节",
+    "江越反应",
+    "女主平静旁观"
+  ],
+  "must_not_write_as_exposition": [
+    "不能旁白概括结果"
+  ]
+}

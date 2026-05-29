@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "商会公审厅、陆氏医院血样室",
+  "time": "次日午后",
+  "pov": "陆沉舟为主，沈南星缺席",
+  "characters": [
+    "陆沉舟",
+    "林若鸢",
+    "商会会长",
+    "陆氏医生",
+    "巡捕"
+  ],
+  "character_goal": "陆沉舟公开撕开林若鸢骗局并撤销沈南星污名。",
+  "opposition_goal": "林若鸢要毁掉血样报告，把所有罪推给账房和所长。",
+  "conflict_action": "陆沉舟当众调取血样报告，命人封存医院账册，又亲手撤下沈南星的癔症通稿。",
+  "information_gap": "他以为公开认罪能给沈南星交代，却不知道她还活着且失忆。",
+  "emotional_debt_delta": "-反派被清算、+男主认罪无处送达",
+  "payoff_or_hook": "血样报告落地，林若鸢腹中孩子与陆家无亲缘。",
+  "chapter_end_hook": "陆沉舟看着空下来的妻子席位，才发现无人能听他的认错。",
+  "paywall_card": false,
+  "must_include": [
+    "血样报告",
+    "撤下癔症通稿",
+    "封存医院账册",
+    "林若鸢被巡捕带走",
+    "陆沉舟公开承认封院拒救和伪造诊断"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把撤稿写成赎罪完成",
+    "不要轻飘飘处理林若鸢",
+    "不要让沈南星旁观原谅"
+  ]
+}

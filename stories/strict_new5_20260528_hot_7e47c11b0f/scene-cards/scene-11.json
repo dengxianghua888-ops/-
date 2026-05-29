@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 640,
+  "target_chars_max": 780,
+  "location": "机场到达层出租车口",
+  "time": "夜里，雨停后",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲",
+    "出租车司机"
+  ],
+  "character_goal": "林照晚要坐车离开海城，切断许承洲的补偿通道",
+  "opposition_goal": "许承洲要用贵宾卡、门诊介绍信和转账把她留在自己能安排的范围内",
+  "conflict_action": "许承洲把贵宾卡塞进车窗，林照晚当面掰断卡片，退回转账并拉黑他所有号码",
+  "information_gap": "男主失去安排权后是否会追到她的新生活",
+  "emotional_debt_delta": "-2 女主第一次用行动夺回边界",
+  "payoff_or_hook": "补偿逻辑第一次被正面退回",
+  "chapter_end_hook": "我把贵宾卡掰断，断口划破了他的掌心。",
+  "paywall_card": true,
+  "must_include": [
+    "出租车后座",
+    "贵宾卡",
+    "门诊介绍信",
+    "退回转账",
+    "红色感叹号"
+  ],
+  "must_not_write_as_exposition": [
+    "不要总结女主成长",
+    "不要让司机替女主说教"
+  ],
+  "rhythm_job": {
+    "shape": "低温拒绝场，动作大于对白，红色感叹号做证据回声，章尾用掰卡截断",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用雨后地面、车窗升起、司机找零承接",
+    "dialogue_action_comment_ratio": "对白约30%，动作约58%，呼吸点约12%，章尾钩1句"
+  }
+}

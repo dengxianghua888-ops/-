@@ -1,0 +1,29 @@
+slug: batch_v2_01_modern_reversal
+source_slug: hot_027a4f9448
+title: 镜厅
+genre: modern_reversal
+pipeline_mode: production
+status: final
+run_date: "2026-05-25"
+optimization: v2_style_fidelity
+mechanisms:
+  - M2_identity_explosion
+  - M3_causal_boomerang
+  - M5_multi_layer_betrayal
+  - M6_progressive_escalation
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 豪门隐藏继承人+游轮订婚宴+妻子出轨假少爷
+  new_setting: 酒店集团隐藏继承人+镜厅宴会+丈夫公开订婚小三
+  identity_hide: 女主伪装酒店保洁主管，实为晨光酒店集团唯一继承人
+  betrayal_layers:
+    - 丈夫三年出轨，在女主家酒店办与小三的订婚宴
+    - 婆婆当众逼女主跪下道歉
+    - 亲生女儿被教唆喊小三"妈妈"
+    - 小三用红酒泼女主制服
+  reversal_trigger: 女主母亲以酒店董事长身份到场，宣布取消宴会
+  boomerang: 丈夫公司最大客户就是晨光酒店，订单全撤=破产

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "含章宫正殿",
+  "time": "同日黄昏",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "禁军",
+    "宫女"
+  ],
+  "character_goal": "温照晚想让萧珩亲口承认欺骗，并提出离宫。",
+  "opposition_goal": "萧珩想留住她，先压下局面再解释。",
+  "conflict_action": "温照晚摆出三碗苦参汤连问三句，萧珩喝完后拦住她出殿，禁军合上含章宫门。",
+  "information_gap": "萧珩是否会继续用皇权压她。",
+  "emotional_debt_delta": "软禁伤害发生，男主必须付出放手代价。",
+  "payoff_or_hook": "甜宠转入信任低谷。",
+  "chapter_end_hook": "温照晚问三遍还会不会骗她，萧珩没有一句敢答得干净。",
+  "paywall_card": false,
+  "must_include": [
+    "三碗苦参汤",
+    "三问欺骗",
+    "禁军合门",
+    "女主明确提出离宫"
+  ],
+  "must_not_write_as_exposition": [
+    "不要浪漫化软禁",
+    "不要让萧珩霸道发疯显得正确",
+    "不要让女主哭到失去判断"
+  ]
+}

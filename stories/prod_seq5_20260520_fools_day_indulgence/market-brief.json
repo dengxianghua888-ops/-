@@ -1,0 +1,83 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chars_per_chapter": {
+      "min": 500,
+      "max": 1200,
+      "tomato_preferred": 650
+    },
+    "chapter_count_target": [10, 18],
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_types": ["真相露头", "证据反转", "关系撕裂", "反派误判", "女主下一步行动"]
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强 Hook：愚人节放纵、婚内羞辱、残腿/流产旧债、女主不哭反笑离开。",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_types": ["离婚受阻", "旧车祸真相", "假死脱身", "归家反杀", "法庭切割"],
+    "minimum_hook_density": {
+      "micro_hooks_per_10k": 9,
+      "paywall_cards_per_10k": 3
+    }
+  },
+  "audience": {
+    "target_readers": ["18-35岁女性", "婚恋背叛爽文读者", "追妻火葬场读者", "女主清醒离婚复仇读者"],
+    "emotion_needs": ["被背叛后的清醒切割", "渣男迟来悔悟无效", "小三付出法律代价", "女主回归原生家庭与自我重建", "不原谅带来的情绪释放"],
+    "genre_forbidden": ["女主最后复合", "用死亡洗白渣男", "替小三找苦衷", "把出轨写成真爱", "淡化流产和残疾伤害", "长期自怜无行动", "空泛霸总宠溺", " AI腔总结式说教"]
+  },
+  "market_positioning": {
+    "primary_genre": "family_ethics",
+    "secondary_genre": "urban_sweet_ceo",
+    "core_reader_promise": "看被愚人节玩笑反复伤害的妻子，在残腿、流产、背叛旧债爆开后，不哭不求，假死脱身、归家复健、法庭离婚，让渣男和小三各自承担代价。",
+    "dominant_selling_points": ["追妻火葬场但不回头", "玩笑梗反复回旋", "残疾女主重新站起", "豪门归家反差", "迟来的赎罪无效"]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "candidates": [
+      {
+        "formula": "节日放纵 + 女主离开 + 他悔疯",
+        "examples": ["愚人节他放纵后，我不要他了", "放纵日后，我让浪子悔疯了"]
+      },
+      {
+        "formula": "具体伤害 + 清醒动作 + 反派代价",
+        "examples": ["他拿车祸当玩笑，我递上离婚书", "他为小三撞我后，我回家继承一切"]
+      },
+      {
+        "formula": "渣男真心话 + 女主反应反差",
+        "examples": ["他说我残腿恶心时，我笑了", "他摘下婚戒那天，我自由了"]
+      },
+      {
+        "formula": "追妻火葬场 + 不原谅终局",
+        "examples": ["浪子回头太迟，我不等了", "他跪到最后，我只说不认识"]
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.0,
+      "drivers": ["前三段高伤害", "每章都有新证据", "女主行动持续升级"]
+    },
+    "paywall_point": {
+      "target_score": 9.0,
+      "drivers": ["旧车祸反转", "假死后归家", "复健站起", "法院切割"]
+    },
+    "emotional_release": {
+      "target_score": 9.2,
+      "drivers": ["不和解", "不复合", "渣男悔悟无效", "小三法律惩罚"]
+    },
+    "ai_flavor": {
+      "target_score_max": 1.0,
+      "requirements": ["少用总结句", "用动作和证据推进", "避免空泛心理独白", "禁用套路化违禁词"]
+    },
+    "plot_density": {
+      "target_score": 8.8,
+      "requirements": ["每1000字至少1个有效反转或证据点", "每章末钩子覆盖率100%", "无连续800字低冲突段落"]
+    }
+  }
+}

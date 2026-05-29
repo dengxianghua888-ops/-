@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 800,
+  "target_chars_max": 880,
+  "location": "老城妇幼产科走廊",
+  "time": "同日上午稍后",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "秦月眠", "护士", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想做完检查离开，不想在医院闹大。",
+  "opposition_goal": "秦月眠要借信息差把‘孩子没了’的误会塞进陆砚辞耳朵里。",
+  "conflict_action": "温瓷贫血坐在走廊椅上，秦月眠抢先对赶来的陆砚辞说她刚从手术室出来。",
+  "information_gap": "陆砚辞会不会立刻相信；检查结果到底如何；温瓷来不来得及解释。",
+  "emotional_debt_delta": {
+    "孩子债": "+3",
+    "安全感债": "+1"
+  },
+  "payoff_or_hook": "中段峰值前一脚踩空，误会必须炸得具体。",
+  "chapter_end_hook": "陆砚辞手里的保温桶砸在地上，汤汁溅开，他一句话都说不出来。",
+  "paywall_card": false,
+  "must_include": [
+    "贫血发晕的生活动作，不要夸张受虐",
+    "秦月眠的误导句必须落在‘手术室’上",
+    "陆砚辞是赶来送吃的，不是来质问",
+    "弹幕既误导又慌乱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写医院制度说明",
+    "不要连续解释谁什么时候到场",
+    "不要堆三个以上强压词"
+  ],
+  "rhythm_job": {
+    "shape": "低压等号-误导插刀-物件落地-戛然而止",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 3,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "对白3成，动作4成，弹幕2成，留白1成"
+  }
+}

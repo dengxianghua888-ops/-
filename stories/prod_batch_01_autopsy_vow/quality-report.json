@@ -1,0 +1,148 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "Phase 7 final packager must add direct-submission title, opening guide, chapter split, and paywall-node map.",
+    "Final polish should reduce repeated judgment-line patterns in the ending."
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_01_autopsy_vow/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 15000,
+      "actual": 13180,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        945,
+        840,
+        815,
+        762,
+        808,
+        803,
+        870,
+        780,
+        802,
+        801,
+        763,
+        816,
+        803,
+        804,
+        809,
+        761
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 168,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 8,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 13,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 11,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13180,
+      "sentence_count": 663,
+      "avg_sentence_length": 18.879,
+      "dialogue_ratio": 0.0105,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 6,
+        "喉咙": 1,
+        "指甲": 7,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 28.983
+    },
+    "semantic_repetition": {
+      "sentence_count": 590,
+      "unique_sentence_skeletons": 590,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0017
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7.4,
+    "emotion": 8.0,
+    "style": 7.5,
+    "logic": 7.4
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "status": "pass",
+      "quote": "可我还是死了，一尸两命。 / 而两个小时后，陆谨言会站在尸检间门口，亲手签下主刀申请。",
+      "finding": "前300字完成死亡、怀孕、灵魂旁观和丈夫主刀预告。"
+    },
+    {
+      "dimension": "emotion",
+      "status": "pass",
+      "quote": "第一刀落下前，他把结婚戒指摘进证物袋。",
+      "finding": "亲密关系被程序化证物吞掉，情绪债现场化。"
+    },
+    {
+      "dimension": "logic",
+      "status": "pass",
+      "quote": "通话内容只能作为线索，后续仍要查证。 / 所有证据来源都要重新复核。",
+      "finding": "电话试探与客观证据链边界明确，亲属主刀风险由复核和停职处理。"
+    },
+    {
+      "dimension": "ending",
+      "status": "pass",
+      "quote": "我没有走向陆谨言，也没有走向那只空座椅。 / 胎心录音停下时，我终于看见，收费站外有了光。",
+      "finding": "第16章统一为收费站赎罪线，沈栀离开不等于原谅。"
+    }
+  ]
+}

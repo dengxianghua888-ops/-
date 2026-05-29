@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "临时合伙人会现场",
+  "time": "专项审计议题表决时",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "王珩", "李屿", "财务负责人", "合伙人代表"],
+  "character_goal": "许闻溪暂停周砚礼职务，启动资产和权限清算",
+  "opposition_goal": "周砚礼要抓住CEO身份，阻止最高表决权落地",
+  "conflict_action": "许闻溪投下最高表决权，推动停职、权限回收、专项投流审计和资产清算决议通过",
+  "information_gap": "周砚礼不知道投资人委托表决权已经全部站到许闻溪一侧",
+  "emotional_debt_delta": "-男主职权滥用债 -创始贡献债",
+  "payoff_or_hook": "男主从CEO变成被审计对象",
+  "chapter_end_hook": "周砚礼刷不开会议室门禁，屏幕提示：权限已回收。",
+  "paywall_card": true,
+  "must_include": ["最高表决权投票", "停职决议", "权限回收", "专项投流审计", "资产清算启动"],
+  "must_not_write_as_exposition": ["不要让王珩替女主拍板", "不要直接宣判刑期", "不要把审计细节堆满"]
+}

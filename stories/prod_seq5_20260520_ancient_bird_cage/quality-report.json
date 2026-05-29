@@ -1,0 +1,149 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260520_ancient_bird_cage/final.md",
+    "target_length": {
+      "min": 12800,
+      "max": 15200,
+      "actual": 13112,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        798,
+        834,
+        826,
+        858,
+        796,
+        747,
+        820,
+        778,
+        780,
+        761,
+        811,
+        798,
+        822,
+        829,
+        795,
+        892
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 134,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13112,
+      "sentence_count": 518,
+      "avg_sentence_length": 24.313,
+      "dialogue_ratio": 0.0,
+      "question_marks": 2,
+      "question_marks_per_k": 0.153,
+      "physical_emotion_hits": {
+        "指尖": 6,
+        "发麻": 1,
+        "胸腔": 1,
+        "喉咙": 2,
+        "眼眶": 1,
+        "指甲": 4,
+        "掌心": 9
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 31.345
+    },
+    "semantic_repetition": {
+      "sentence_count": 502,
+      "unique_sentence_skeletons": 502,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.002
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 9.2,
+    "style": 8.6,
+    "logic": 8.5
+  },
+  "evidence": [
+    {
+      "type": "opening",
+      "quote": "你又把他的样本送进许洛霜儿子的实验室了，是不是？",
+      "judgment": "首句直接抛出流产样本与第三方孩子，平台点击欲强。"
+    },
+    {
+      "type": "paywall",
+      "quote": "这些足够证明你又发病了。",
+      "judgment": "scene-04付费卡点在关键证据刚出现时被亲哥反咬，悬念有效。"
+    },
+    {
+      "type": "emotion_debt",
+      "quote": "妈妈，今天叔叔又拿走我的血。",
+      "judgment": "星星血债从概念落为现场音频，情绪债有物证承载。"
+    },
+    {
+      "type": "reversal",
+      "quote": "跟我回去，签完和解书我就放你自由。",
+      "judgment": "沈砚礼的保护话术再次暴露控制本质，关系债继续升级。"
+    },
+    {
+      "type": "payoff",
+      "quote": "妈妈不回笼子了。",
+      "judgment": "结尾完成法律、关系、主体三重偿还，无追妻成功。"
+    }
+  ]
+}

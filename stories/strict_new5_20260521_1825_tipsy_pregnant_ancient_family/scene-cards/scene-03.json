@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "民政局外与老城区街口",
+  "time": "第二天上午",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "闺蜜电话声",
+    "裴时砚的转账记录",
+    "弹幕"
+  ],
+  "character_goal": "温漾想办完手续后决定孩子去留",
+  "opposition_goal": "闺蜜想劝她先别一个人扛，弹幕继续误导男主甩掉她",
+  "conflict_action": "温漾领完离婚证，拒绝闺蜜约酒，转身买酸梅糖并把产检预约保留下来",
+  "information_gap": "裴时砚离婚后为什么还从修表铺给她转工资",
+  "emotional_debt_delta": "+孕期委屈债，-男主补偿动作一点",
+  "payoff_or_hook": "女主主动选择留下孩子，男主工资转账反差钩住身份谜",
+  "chapter_end_hook": "截断句：手机震了一下，转账备注写着：给漾漾。",
+  "paywall_card": true,
+  "must_include": [
+    "离婚证",
+    "酸梅糖",
+    "不喝酒的主动选择",
+    "夜班工资转账"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释离婚流程",
+    "不要写孩子是筹码",
+    "不要让闺蜜长篇劝导"
+  ],
+  "rhythm_job": {
+    "shape": "低压章，用生活动作承接；对白约28%，动作约48%，弹幕约12%，呼吸点约12%",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 3,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "酸梅糖、手机震动、产检预约形成轻钩"
+  }
+}

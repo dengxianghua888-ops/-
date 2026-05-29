@@ -1,0 +1,358 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned": 10600
+  },
+  "title": "他逼我小产后，才知我是公主",
+  "genre": "ancient_BE",
+  "mechanisms": [
+    "M2 身份反差爆发",
+    "M5 温度反转曲线",
+    "M3 因果回旋反讽"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 720,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "谢临舟把她的脉案压回桌上：\"明日搬去漕仓别苑，别误了我迎亲。\""
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 740,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "她刚追到水榭尽头，身后的药棚忽然窜起火光。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 760,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "漕仓药室的门闩落下时，她听见谢临舟吩咐：\"没有我的令，不准她见人。\""
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 760,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "血从她裙角蜿蜒下去，谢临舟却只说：\"别闹到喜宴前。\""
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 780,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "那碗断潮汤抵到她唇边时，谢临舟没有回头。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 760,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "第九千九百九十九级石阶前，她咳出一口血，平安符却被谢临舟拿去给了裴明珠。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 800,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "九色河灯顺水漂远，暗河里忽然亮起第二盏回灯。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "喜鼓敲响时，沈蘅把龙骨舟钗插回发间：\"那我就亲自去送你这场婚。\""
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 800,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "水桥尽头，礼官高声唱名：\"昭宁公主驾到。\""
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 780,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "谢临舟当众跪下时，沈蘅只抬眼问他：\"你烧园下药那日，可曾想过今日？\""
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 800,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "皇帝把她护到身后，淡声落旨：\"削谢家漕权，开漕银旧案。\""
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 780,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "谢临舟捏碎安胎符，终于知道自己害死的是唯一的亲生骨血。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 760,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "禁河桥外，他跪得满膝是血，宫门里却只传出两个字：\"不能。\""
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 600,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "她转身进了新药圃，水光照旧，却再也没有回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars": 720,
+      "scene_location": "江南闸口临水药圃木屋",
+      "character_goal": "沈蘅想告诉谢临舟自己有孕，并逼他给出名分与去留答案。",
+      "conflict_action": "沈蘅拿着自写脉案拦住谢临舟，谢临舟抽走脉纸，直接宣布自己将迎娶裴明珠，并命人收拾她搬去别苑。",
+      "information_gap": "谢临舟到底知不知道她怀了他的孩子；沈蘅会不会当场亮出身份。",
+      "emotion_debt_balance": "先立三年真情与水乡旧梦，再一刀砍下另娶与外宅羞辱债。",
+      "chapter_end_hook": "谢临舟把她的脉案压回桌上：\"明日搬去漕仓别苑，别误了我迎亲。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用大段回忆三年恋爱史",
+        "不能把另娶理由写成温和协商"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars": 740,
+      "scene_location": "药圃水榭与泊舟木桥",
+      "character_goal": "沈蘅要保住药圃和自己在这段关系中的正妻位置。",
+      "conflict_action": "她追到水榭质问，扯住谢临舟衣袖不让他走；谢临舟掰开她的手，改口称她只是不能见光的外宅娘子。",
+      "information_gap": "药圃会不会真被处理掉；谢临舟的狠心会停在嘴上还是落到实处。",
+      "emotion_debt_balance": "门第碾压债坐实，甜梦开始被现实逐件拆毁。",
+      "chapter_end_hook": "她刚追到水榭尽头，身后的药棚忽然窜起火光。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要讲盐漕联姻制度课",
+        "不能把冲突写成单纯哭诉"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars": 760,
+      "scene_location": "被焚药圃外沿与废弃漕仓后院",
+      "character_goal": "沈蘅想冲回火场抢救药册与舟钗，并逃离谢家控制。",
+      "conflict_action": "她冲进火边抢药册，被家丁拦腰拖走；谢临舟亲自把她塞进漕仓药室，落锁禁足。",
+      "information_gap": "火是不是谢家授意；她还能不能向外送出求援讯号。",
+      "emotion_debt_balance": "小院被烧债正式落地，安全感被连根拔起。",
+      "chapter_end_hook": "漕仓药室的门闩落下时，她听见谢临舟吩咐：\"没有我的令，不准她见人。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写旁观者救火流程清单",
+        "不要用抒情散文替代拖拽和锁门动作"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars": 760,
+      "scene_location": "漕仓药室",
+      "character_goal": "沈蘅想保住腹中孩子，逼谢临舟请大夫。",
+      "conflict_action": "谢临舟端来安胎点心哄她吃下；药效发作后她抱着腹部去砸门求医，谢临舟却按住门框不许人去请太医。",
+      "information_gap": "他是无意还是明知下药；孩子还能不能保住。",
+      "emotion_debt_balance": "失子债开裂，男主亲手参与的罪责第一次落锤。",
+      "chapter_end_hook": "血从她裙角蜿蜒下去，谢临舟却只说：\"别闹到喜宴前。\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把药理解释写成说明书",
+        "不能弱化谢临舟对拒医的直接责任"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars": 780,
+      "scene_location": "漕仓药室与外廊",
+      "character_goal": "沈蘅想留下最后一点生育希望，也要逼谢临舟开口认罪。",
+      "conflict_action": "裴明珠带人闯入，命婆子灌下断潮汤；沈蘅抓住谢临舟衣摆求他拦住，谢临舟却抽开衣角默许灌药。",
+      "information_gap": "谢临舟会不会在最后一刻回头；沈蘅的身体还能留下什么余地。",
+      "emotion_debt_balance": "绝嗣债落下，男主从弃她升级到纵容毁她后半生。",
+      "chapter_end_hook": "那碗断潮汤抵到她唇边时，谢临舟没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把裴明珠写成喧宾夺主的宫斗主角",
+        "不要用旁白总结她有多恶毒，直接写灌药动作"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars": 760,
+      "scene_location": "镇潮神宫九千九百九十九级石阶",
+      "character_goal": "沈蘅想活着走完石阶，同时记住这笔账，等着日后讨回。",
+      "conflict_action": "谢临舟命人把她从漕仓拖上山，逼她一步一叩去求安胎符；她拖着小产后的身体硬爬，几次摔倒又被拽起。",
+      "information_gap": "她会不会死在石阶上；谢临舟还能狠到什么地步。",
+      "emotion_debt_balance": "羞辱债与身体创伤债叠满，读者憋屈值推到高位。",
+      "chapter_end_hook": "第九千九百九十九级石阶前，她咳出一口血，平安符却被谢临舟拿去给了裴明珠。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述神宫来历",
+        "不要写连续台阶数字播报"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars": 800,
+      "scene_location": "神宫后河埠与夜色水道",
+      "character_goal": "沈蘅要把求援讯号送出去，为婚礼反杀埋下活口。",
+      "conflict_action": "她借洗血帕的空档，把沾血的安胎符和龙骨舟钗绑上九色河灯放入暗河；暗卫在下游认出皇室水讯，悄然回灯。",
+      "information_gap": "河灯能不能被认出来；她能否撑到援手赶来。",
+      "emotion_debt_balance": "在极低处埋入主动权，给后续反杀开第一道口子。",
+      "chapter_end_hook": "九色河灯顺水漂远，暗河里忽然亮起第二盏回灯。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要长篇讲皇室暗号规则",
+        "不要把求援写成神迹巧合"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars": 760,
+      "scene_location": "漕仓别苑婚前一夜",
+      "character_goal": "沈蘅要稳住谢临舟，不提前暴露自己已送出河灯讯号。",
+      "conflict_action": "谢临舟来给她一套素衣，想把她锁在后院；沈蘅反而平静提出要亲眼看他成婚，逼他点头放她去喜宴外沿。",
+      "information_gap": "谢临舟为什么肯答应；婚礼当天她是被押着去还是能自己走进去。",
+      "emotion_debt_balance": "女主从被动受刑转向冷静布棋，气温开始逆转。",
+      "chapter_end_hook": "喜鼓敲响时，沈蘅把龙骨舟钗插回发间：\"那我就亲自去送你这场婚。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释她心理建设全过程",
+        "不要把这场冷静写成突然释怀"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars": 800,
+      "scene_location": "漕督府跨水桥与喜宴前堂",
+      "character_goal": "沈蘅要在最公开的地方把身份炸开，让谢家无处可躲。",
+      "conflict_action": "她穿素衣踏上水桥，被谢家下人拦阻；下一刻皇城水龙仪仗破水而来，礼官高唱公主驾到，暗卫当众奉上金册与礼服。",
+      "information_gap": "谢临舟会不会当场认出她；喜宴众人会站哪边。",
+      "emotion_debt_balance": "身份反差爆发，尊严回收正式开启。",
+      "chapter_end_hook": "水桥尽头，礼官高声唱名：\"昭宁公主驾到。\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要大段铺陈礼制排场",
+        "不要把高光写成慢镜头空描"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars": 780,
+      "scene_location": "漕督府正堂喜宴",
+      "character_goal": "沈蘅要当众逐条点名旧债，让所有人知道谢临舟做过什么。",
+      "conflict_action": "她站在喜堂中央，抬手一件件摔出药册残页、血符、舟钗，逐条控诉焚园、囚禁、堕胎、断潮汤和跪阶；谢临舟当众跪地辩解，却被她一句句压回去。",
+      "information_gap": "谢家会不会反咬她诬陷；谢临舟何时意识到孩子是自己亲手害死的。",
+      "emotion_debt_balance": "旧债清单化，读者要的当众审判感兑现。",
+      "chapter_end_hook": "谢临舟当众跪下时，沈蘅只抬眼问他：\"你烧园下药那日，可曾想过今日？\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要用旁白替代逐条举证",
+        "不要给谢临舟长篇自我辩白空间"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars": 800,
+      "scene_location": "喜堂外水阶与皇城仪仗前",
+      "character_goal": "沈蘅要被父皇正式接住，并借皇权完成第一轮追偿。",
+      "conflict_action": "皇帝亲至水阶，把披风裹到她身上；谢家父子和裴家当众跪伏，皇帝立旨削谢家漕权、拘押问罪、追查漕银旧案。",
+      "information_gap": "谢家还能不能翻身；皇帝会不会只护女不追责。",
+      "emotion_debt_balance": "安全回收合同兑现，虐点开始转入权力清算。",
+      "chapter_end_hook": "皇帝把她护到身后，淡声落旨：\"削谢家漕权，开漕银旧案。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要展开朝堂制度背景",
+        "不要让父皇变成只会震怒的工具人"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars": 780,
+      "scene_location": "谢家被查封后的空水岸",
+      "character_goal": "谢临舟想抓住最后一丝自我欺骗，证明自己没有输到彻底。",
+      "conflict_action": "他翻出旧脉案和被裴明珠藏起的药渣，逼问稳婆，最终得知裴明珠是假喜脉，而沈蘅那一胎才是他唯一的骨血。",
+      "information_gap": "他会不会彻底崩塌；这份认知能不能换来任何回头。",
+      "emotion_debt_balance": "因果回旋反讽完成核心闭环，他失去的正是自己想保的嫡统。",
+      "chapter_end_hook": "谢临舟捏碎安胎符，终于知道自己害死的是唯一的亲生骨血。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把调查写成悬疑推理流程",
+        "不要让裴明珠反转成主线中心"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars": 760,
+      "scene_location": "禁河桥外与宫城水门前",
+      "character_goal": "谢临舟想见沈蘅最后一面，求她带自己走或给一句原谅。",
+      "conflict_action": "他在禁河桥外长跪，膝下磨出血印；沈蘅隔着宫门水帘与他短对，直接拒绝他的补偿、悔意和同行请求。",
+      "information_gap": "她会不会因为旧情软一次；他被发去边地前还能不能再见到她。",
+      "emotion_debt_balance": "后悔不能换复合，不回头合同落地。",
+      "chapter_end_hook": "禁河桥外，他跪得满膝是血，宫门里却只传出两个字：\"不能。\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写成双向虐恋对谈",
+        "不要让女主回忆旧甜削弱拒绝力度"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars": 600,
+      "scene_location": "皇庄水埠新药圃",
+      "character_goal": "沈蘅要完成自我秩序重建，并把谢临舟彻底留在过去。",
+      "conflict_action": "数月后她在新药圃亲手栽下第一株药苗；谢临舟从边地回京路过水埠，只敢隔岸望她，最终被侍卫拦停，她头也不回地转身离开。",
+      "information_gap": "他是否还能靠余生等来一眼；她的新生会不会再被旧情扰乱。",
+      "emotion_debt_balance": "结局给女主生活与家国归位，给男主长期不得近的余罚。",
+      "chapter_end_hook": "她转身进了新药圃，水光照旧，却再也没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把疗伤写成慢日常散文",
+        "不要给男主安排任何实质性回暖"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 12,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_len_range": [
+      18,
+      24
+    ],
+    "short_line_rate_range": [
+      0.38,
+      0.5
+    ],
+    "direct_dialogue_line_rate_range": [
+      0.55,
+      0.7
+    ],
+    "barrage_comment_line_rate_range": [
+      0.0,
+      0.02
+    ],
+    "question_density_range_per_1000_chars": [
+      2.5,
+      4.5
+    ],
+    "explanatory_long_paragraph_cap_per_chapter": 1,
+    "explanatory_long_paragraph_char_cap": 85,
+    "min_hooks_per_chapter": 1,
+    "min_rhetorical_questions_per_chapter": 1,
+    "min_evidence_reversals_per_chapter": 1,
+    "avg_visual_line_chars_range": [
+      18,
+      24
+    ],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.5,
+    "direct_dialogue_line_rate_min": 0.55,
+    "direct_dialogue_line_rate_max": 0.7,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 2.5,
+    "question_mark_density_per_1000_chars_max": 4.5
+  }
+}

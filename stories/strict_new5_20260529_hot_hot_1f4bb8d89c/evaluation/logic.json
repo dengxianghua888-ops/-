@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "evidence": [
+    {
+      "dimension": "motivation",
+      "finding": "女主目标从退婚、撤授权、取回署名到建立独立伦理信托，动机连续，不是单纯口头反杀。",
+      "location": "scene-01 to scene-11"
+    },
+    {
+      "dimension": "causality",
+      "finding": "专利撤回、肖像授权撤回、伦理投诉、董事会冻结权限形成因果链，江砚舟失势有证据递进。",
+      "location": "scene-08 to scene-11"
+    },
+    {
+      "dimension": "sensitive_boundary",
+      "finding": "许知微病史被写成被商业叙事利用的问题，而非疾病羞辱；结尾让她以项目负责人署名，伦理落点较稳。",
+      "location": "scene-06, scene-11, scene-13"
+    },
+    {
+      "dimension": "risk",
+      "finding": "交易所问询、伦理审查、独立伦理信托等设定偏类型化但未严重断裂；建议 Phase 7 增加一句“受理不等于定论”的边界表达。"
+    }
+  ]
+}

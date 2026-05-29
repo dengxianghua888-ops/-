@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 760,
+  "target_chars_max": 920,
+  "location": "秦家医疗项目发布会",
+  "time": "三日后下午",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "秦砚舟",
+    "记者",
+    "项目负责人"
+  ],
+  "character_goal": "林望公开证据，让秦砚舟的公益医生人设当场倒塌。",
+  "opposition_goal": "秦砚舟要用发布会澄清丑闻，反咬父子敲诈。",
+  "conflict_action": "林望把流水、伪造诊断和项目资金去向交给记者，大屏同步切出截图。",
+  "information_gap": "秦砚舟不知道沈岚已经开放内部流水权限。",
+  "emotional_debt_delta": "年会羞辱被反向偿还，体面者被证据撕开。",
+  "payoff_or_hook": "秦家项目被查，法律清算进入公开层。",
+  "chapter_end_hook": "大屏上跳出那笔五十万的转出账户，收款人正是秦砚舟。",
+  "paywall_card": true,
+  "must_include": [
+    "发布会大屏",
+    "医疗账户流水截图",
+    "伪造诊断材料",
+    "记者提问但不铺成长清单"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写商战流程",
+    "不要列十几个记者问题",
+    "不要用一句破产概括清算"
+  ],
+  "rhythm_job": {
+    "shape": "公开场面用证据截图切节奏，对白三到五轮，动作和屏幕信息承压",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

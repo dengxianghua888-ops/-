@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {"path": "draft-scenes/scene-01.md", "quote": "非受益人，无权解锁。", "note": "首屏黄金30秒红屏钩"},
+    {"path": "draft-scenes/scene-04.md", "quote": "七天倒数已经开始", "note": "倒计时式章末钩"},
+    {"path": "draft-scenes/scene-06.md", "quote": "祠堂的祭祖银叉扎进我小腹时，我才明白他们今晚要的不是认错，是命", "note": "B6 钝响章末钩"},
+    {"path": "draft-scenes/scene-10.md", "quote": "我按下电子签发送键，把空白确认书反向兑现成她的咒，然后跨过天台的栏杆", "note": "M1 闭合金句章末钩"},
+    {"path": "machine_metrics.paywall_cards", "quote": "actual=8 required=4", "note": "付费卡点充足"}
+  ]
+}

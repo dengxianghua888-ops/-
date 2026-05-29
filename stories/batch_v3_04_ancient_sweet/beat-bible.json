@@ -1,0 +1,153 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {"min": 10000, "max": 14000},
+  "quality_floor": {
+    "chapter_hook_coverage": 1.0,
+    "paywall_card_every_chars": 3500,
+    "chapter_min_chars": 600,
+    "chapter_max_chars": 1400
+  },
+  "dialogue_distribution_guidance": {
+    "note": "源文quote≈0.37，climax beats应≥0.50，非climax≤0.45",
+    "climax_quote_rate_floor": 0.50,
+    "non_climax_quote_rate_ceiling": 0.45
+  },
+  "rhythm_contract": {
+    "source_avg_line_chars": 16.72,
+    "allowed_avg_visual_line_chars": [13, 22],
+    "short_line_rate_lte_16_min": 0.35,
+    "short_line_rate_lte_16_max": 0.65,
+    "direct_dialogue_line_rate_min": 0.30,
+    "direct_dialogue_line_rate_max": 0.55,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 8.0
+  },
+  "beats": [
+    {
+      "beat_id": "B1",
+      "title": "开篇预告与身份反差",
+      "budget_role": "setup",
+      "budget_pct": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "opening_hook": "女主自述庶女身份与'狐朋狗友'，提前抛出闺蜜身份炸点——信息不对称：读者知道闺蜜厉害但不知具体身份",
+      "must_include": ["女主自述处境", "三位闺蜜预告", "嫡姐归府背景", "被全家嫌弃的设定"]
+    },
+    {
+      "beat_id": "B2",
+      "title": "嫡姐归府，团宠崩塌",
+      "budget_role": "escalation",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["嫡姐回府夺宠", "父亲首次打女主", "锦鲤被毒杀", "女主委屈但不苦情"]
+    },
+    {
+      "beat_id": "B3",
+      "title": "画眉鸟被抢，兄长偏袒",
+      "budget_role": "escalation",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["嫡兄抢走画眉鸟", "女主被打", "画眉鸟真正来历伏笔", "女主忍耐到极限"]
+    },
+    {
+      "beat_id": "B4",
+      "title": "婚约被夺，逼做陪嫁",
+      "budget_role": "escalation",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["未婚夫与嫡姐私通", "全家逼女主做陪嫁", "女主发三封信求援", "触底反弹启动"]
+    },
+    {
+      "beat_id": "B5",
+      "title": "下毒设局，触底时刻",
+      "budget_role": "escalation",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "contradiction_moment": "女主被关柴房等死时想起幼时父亲教她骑马——那时候他还叫她'小宝'",
+      "must_include": ["嫡姐下毒陷害", "女主被关柴房", "设局者被女主闺蜜吓住", "温度反转回忆"]
+    },
+    {
+      "beat_id": "B6",
+      "title": "贵客驾临，嫡姐自曝",
+      "budget_role": "climax",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": true,
+      "must_include": ["三位闺蜜到府", "嫡姐污蔑女主", "闺蜜身份初露端倪", "全家慌乱"]
+    },
+    {
+      "beat_id": "B7",
+      "title": "身份全面爆发",
+      "budget_role": "climax",
+      "budget_pct": 10,
+      "target_chars_min": 1000,
+      "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "gold_sentence_slot": "核心金句——你们嘲笑我一无是处，可我那些'没用的朋友'，随便一个都能让你们跪着求饶",
+      "must_include": ["三位闺蜜身份逐一揭开", "锦鲤画眉鸟回旋清算", "全家跪地", "嫡姐崩溃"]
+    },
+    {
+      "beat_id": "B8",
+      "title": "逐条清算",
+      "budget_role": "climax",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": true,
+      "must_include": ["毒鲤之债", "抢鸟之债", "逼嫁之债", "下毒之债逐一清算"]
+    },
+    {
+      "beat_id": "B9",
+      "title": "父亲求情与女主断亲",
+      "budget_role": "resolution",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["父亲跪求原谅", "女主冷静拒绝", "嫡姐下场", "不怪但回不去了"]
+    },
+    {
+      "beat_id": "B10",
+      "title": "独立门户与甜宠补偿",
+      "budget_role": "emotional",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["女主离开国公府", "闺蜜们的护短", "男主出现表白", "新生活开始"]
+    },
+    {
+      "beat_id": "B11",
+      "title": "二次设局反杀",
+      "budget_role": "resolution",
+      "budget_pct": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "must_include": ["嫡姐不死心再设局", "女主反将一军", "终极清算", "反派彻底出局"]
+    },
+    {
+      "beat_id": "B12",
+      "title": "热闹收束与回旋金句",
+      "budget_role": "resolution",
+      "budget_pct": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "gold_sentence_slot": "结尾升维句——满城都笑我不读书，可我这辈子，赢麻了",
+      "must_include": ["女主大婚或新生活", "一无是处反转回旋", "自由快乐的姿态"]
+    }
+  ]
+}

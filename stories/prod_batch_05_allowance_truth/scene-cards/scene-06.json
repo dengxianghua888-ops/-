@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "许家客厅",
+  "time": "当晚",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "许国成"
+  ],
+  "character_goal": "林素琴逼许国成交代转走3500和许砚的关系",
+  "opposition_goal": "许国成销毁联系人记录并把问题推成夫妻争吵",
+  "conflict_action": "林素琴把流水摔上茶几，许国成抢文件袋、划开手机通讯录删除许砚号码，林素琴扑过去夺回文件",
+  "information_gap": "许国成为什么对许砚名字反应这么大",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+3",
+    "mother_negligence_debt": "+3",
+    "father_malice_debt": "+5"
+  },
+  "payoff_or_hook": "许国成首次露出毁证行为，父亲嫌疑从偷钱升级为藏人",
+  "chapter_end_hook": "许国成抢走文件袋，转身就往门外跑。",
+  "paywall_card": false,
+  "must_include": [
+    "流水摔在茶几上",
+    "许国成抢文件袋",
+    "删除许砚联系人记录",
+    "林素琴夺回被揉皱的流水"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让两人长篇争辩婚史",
+    "不要让许国成承认全部事实",
+    "不要给许国成可怜理由"
+  ]
+}

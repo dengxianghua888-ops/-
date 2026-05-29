@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "律师事务所、商户群取证页面",
+  "time": "次日到立案阶段",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "苏律师",
+    "沈月然",
+    "商户群管理员"
+  ],
+  "character_goal": "补齐外部证据链，正式推起离婚、赠与追回和伪证线。",
+  "opposition_goal": "周瑞阳虽然不在场，但他的残余控制还在拖沈月然和商户闭嘴。",
+  "conflict_action": "沈月然交出群聊、转账提醒和假证明来源截图，林晚晴同步提交立案材料和财产保全申请。",
+  "information_gap": "沈月然能交出多深的材料，商户群聊天能否直接锁到周瑞阳本人。",
+  "emotional_debt_delta": "第三者从高位跌成证人，但只是止损，不是洗白。",
+  "payoff_or_hook": "群聊里“证先做出来给女方家安心”一句，直接钉死假证链条。",
+  "chapter_end_hook": "截断在沈月然把截图推过来的那根手指停住时。",
+  "paywall_card": false,
+  "must_include": [
+    "沈月然的转向要出于自保，不是圣母觉醒",
+    "立案和保全动作要具体但简短",
+    "女主始终是主导提诉的一方"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把证据列成长表格",
+    "不要给第三者写忏悔演说",
+    "不要省略女主主动提交材料的动作"
+  ],
+  "rhythm_job": {
+    "shape": "1次交材料+2个截图短刺+1记立案落笔",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "5:5",
+    "low_pressure_bridge": "翻页、签字、截图放大这些证据动作保持节奏不虚空",
+    "chapter_tail_cut": "截图内容亮出即停"
+  }
+}

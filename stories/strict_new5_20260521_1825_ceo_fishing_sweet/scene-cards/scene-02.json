@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "星阈医疗董事会会议室",
+  "time": "回国次日上午",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "沈国淮",
+    "方雅琴",
+    "沈奕川",
+    "顾承渊",
+    "董事会成员"
+  ],
+  "character_goal": "当场拿回合法席位，立住回国夺权主线。",
+  "opposition_goal": "反派父子要把她打成无资格闹场者，拖住她进入董事会。",
+  "conflict_action": "沈奕川先否认她席位，沈国淮拿父女名分压她，沈晚棠逐份甩出遗嘱、董事席位指定书和表决权委托，逼会议重开并抢下发言权。",
+  "information_gap": "顾承渊为什么持有关键一票，他这些年对星阈做过哪些暗护？",
+  "emotional_debt_delta": "事业翻盘回收+3",
+  "payoff_or_hook": "身份反差第一次强爆：她不是笑柄前任，是合法控制权持有人。",
+  "chapter_end_hook": "截断动作：会议门被推开，顾承渊边走边说：\"我这一票，今天只认文件。\"",
+  "paywall_card": true,
+  "must_include": [
+    "合法文件一份一份落桌，不靠嘴炮翻盘",
+    "沈奕川急于抢椅子的细节动作",
+    "顾承渊最后进场改变票面"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述公司章程全文",
+    "不要写股东履历介绍",
+    "不要把表决过程写成流程清单"
+  ],
+  "rhythm_job": {
+    "shape": "证据三连击后立刻换票",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白与证据动作对半，插1行董事窃语/评论，留白后用男主进门完成章尾钩。"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "亲友席后侧、礼账台旁",
+  "time": "白天，宾客陆续落座时",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "邱淑芬",
+    "周建国",
+    "亲友女眷",
+    "礼账员"
+  ],
+  "character_goal": "确认公婆是否共谋，并抓到他们炫耀偏爱的硬证据。",
+  "opposition_goal": "公婆沉浸在抬身价的风光里，随口炫耀却不会主动露怯。",
+  "conflict_action": "林晚晴躲在布景和礼盒后开录音，盯礼单、听炫耀、拍下金器和收益承诺。",
+  "information_gap": "公婆知情到什么程度，儿子是否也被他们一口抹掉，偏爱差额究竟落在哪些物件和钱上。",
+  "emotional_debt_delta": "新增债：婆家不只是共谋，还把她不要彩礼解释成廉价。",
+  "payoff_or_hook": "邱淑芬顺嘴说漏“连那个小杂种都没了”，把孩子也埋进了谎话。",
+  "chapter_end_hook": "截断在“那个小杂种”四个字刺进林晚晴耳朵时。",
+  "paywall_card": false,
+  "must_include": [
+    "礼单里要出现古法金镯、金锁、商铺一年租金收益权",
+    "公公不是透明背景，要显出默认共谋",
+    "女主情绪要物理化，不要抽象悲痛"
+  ],
+  "must_not_write_as_exposition": [
+    "不要列完整礼品清单",
+    "不要长段总结婆家势利",
+    "不要写旁观亲戚一人一句"
+  ],
+  "rhythm_job": {
+    "shape": "1段潜听+2记礼物对照+1句孩子被抹掉的重锤",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "6:4",
+    "low_pressure_bridge": "录音键按下、手机贴腿侧、礼盒反光这些细动作承接重话",
+    "chapter_tail_cut": "孩子被骂时直接切断"
+  }
+}

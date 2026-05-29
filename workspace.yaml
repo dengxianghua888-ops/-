@@ -1,0 +1,248 @@
+# StoryForge — 短篇仿写产线配置 V4
+# 版本: 4.0.0
+
+# V4: workspace.yaml 只保存全局产线配置。
+# 单篇状态以 stories/{slug}/story.yaml 为唯一状态源,避免 active_stories 漂移。
+
+# 产线设置
+pipeline:
+  mode: full                  # full | fast (fast 跳过深度文风指纹提取)
+  production:
+    enabled: true
+    phase_count: 8
+    default_mode: production
+    target_length:
+      production: [10000, 18000]
+      ultra_short: [6000, 9000]
+      sweet_spot: [10000, 30000]
+    hard_quality_gate:
+      min_chapter_hook_coverage: 1.0
+      paywall_card_every_chars: 3500
+      max_source_overlap_chars: 120
+      max_repeated_substring_chars: 260
+      min_action_density_per_k: 8
+    chapter_policy:
+      min_chars: 500
+      max_chars: 1200
+    runner_policy:
+      external_allowed: true
+      role_isolation_required: true
+      audit_prompt_and_raw_output: true
+  
+  # 质量闸门
+  quality_gate:
+    # Critical 维度（任一不达标退回返工）
+    emotion_threshold: 85       # C1 情绪曲线对齐度 (%)
+    style_threshold: 85         # C2 文风 DNA 一致性 (%)
+    originality_max_overlap: 5  # C3 原文重复率上限 (%)
+    ai_flavor_forbidden: 0      # C4 违禁词容许数量（0 = 零容忍）
+    emotion_physical_rate: 80   # C4 情绪物理化覆盖率 (%, 仅限高强度 Beat)
+    soul_contract_required: true # C0 缺 soul-contract 或禁改项未过即失败
+    quality_report_required: true
+    review_gate_block_required: true
+    # Important 维度（不影响通过但建议修改）
+    rhythm_threshold: 80        # I1 节奏对齐度 (%)
+    hook_min_score: 7           # I3 Hook 力度最低分 (/10)
+    # 番茄爆款对齐 rubric (V4.2 软闸门)
+    tomato_rubric:
+      enabled: true
+      pass_threshold: 8.0       # 0-10 加权综合分,Phase 7 通过后触发
+      benchmark_path: "context/tomato-benchmark.json"
+      max_rework_rounds: 2      # rubric 失败时最多再跑几轮定向重写
+      rework_strategy: targeted # targeted | full
+      auto_repair:
+        enabled: true           # Phase 5/7/8 自动跑 repairs/* 修复 F1-F5
+
+  # Beat Sheet 节拍器配置
+  beat_sheet:
+    min_beats: 8               # 最少节拍数
+    max_beats: 18              # 最多节拍数
+    target_beat_words: 600     # 单 Beat 目标字数
+    beat_word_tolerance: 0.2   # 单 Beat 字数容差 (±20%)
+    micro_conflict_per: 500    # 每 X 字一个微冲突
+    major_turn_per: 1000       # 每 X 字一个大转折
+
+# 运行时配置 (V4)
+runtime:
+  max_retries_per_phase: 3      # 每阶段最多重试次数 (Phase 4 FAIL 回 Phase 3 重写)
+  timeout_minutes: 30           # 单阶段超时分钟数 (记录提醒, 非强制)
+  run_log_dir: "runs"           # stories/{slug}/runs/{timestamp}/ 记录每次跑批
+
+# 自动跑配置 (V4.1)
+automation:
+  default_runner: agent
+  agent_provider_priority: [codex, openclaw, claude, manual-prompt-pack]
+  local_model_enabled_by_default: false
+  human_gates:
+    phase2_blueprint_review: required_for_real_sources
+  source_access_policy:
+    default: trusted_runners_allowed
+    trusted_runners: [codex, openclaw, claude, manual]
+
+# 改编自由度矩阵
+adaptation:
+  locked:                     # 🔒 锁定
+    - beat_sheet_shape          # 节拍器情绪曲线形状
+    - rhythm_pattern            # 节奏型
+    - style_dna                 # 文风 DNA
+    - hook_intensity            # 前三段 Hook 强度
+    - soul_contract             # 爆款神髓合约
+    - reader_promise            # 读者承诺
+    - emotional_debt_chain      # 情绪债累积/偿还链
+    - payoff_causal_chain       # 爽点因果链
+  semi_locked:                # 🔓 半锁定
+    - narrative_structure       # 叙事结构
+    - pov                       # 叙述视角
+    - paywall_position          # 付费卡点位置
+  free:                       # 🆓 自由
+    - worldbuilding             # 世界观
+    - characters                # 角色设定
+    - core_conflict             # 核心冲突
+    - setting                   # 场景背景
+    - imagery_system            # 意象系统
+    - props                     # 关键道具
+
+# AI 除味配置
+# 注意: 完整违禁/偏好词库已按 genre 迁移到 prompts/patterns/forbidden-and-preferred.md
+# 此处仅保留全局硬性/软性基线,各 genre 在 genre_profiles 中追加扩展
+ai_flavor:
+  # 全局硬性违禁词库 (所有 genre 共用)
+  forbidden_words:
+    - "然而"
+    - "总而言之"
+    - "不禁"
+    - "心中涌起"
+    - "深吸一口气"
+    - "宛如命运的齿轮"
+    - "眼中闪过一丝"
+    - "嘴角微微上扬"
+    - "不由得"
+    - "颤抖着说道"
+    - "空气仿佛凝固"
+  # 软性违禁词 (高频使用时违禁, 单篇 ≤2 次)
+  soft_forbidden:
+    - "悄然"
+    - "缓缓"
+    - "默默"
+    - "微微"
+    - "淡淡"
+    - "轻轻"
+  # 情绪物理化触发阈值
+  physical_emotion_threshold: 7  # 情绪强度 ≥ 此值的 Beat 需要物理化
+
+# Genre 档案 —— 题材化配置层
+# 完整说明见 templates/style-dna-{genre}.md 与 prompts/patterns/forbidden-and-preferred.md
+genre_profiles:
+  modern_reversal:
+    name: "现代反转/反贪爽文"
+    avg_sentence_length: [15, 20]
+    dialogue_ratio: [0.35, 0.45]
+    dna_template: "templates/style-dna-modern-reversal.md"
+    extra_forbidden: ["命运", "宿命", "红尘", "所谓的", "浓妆艳抹"]
+    preferred_mechanisms: [M1, M3]
+    preferred_hooks: [H1, H4]
+    preferred_titles: [T1, T4]
+
+  ancient_BE:
+    name: "古言 BE/虐恋"
+    avg_sentence_length: [25, 35]
+    dialogue_ratio: [0.25, 0.35]
+    dna_template: "templates/style-dna-ancient-be.md"
+    extra_forbidden:
+      - "手机"
+      - "电话"
+      - "公司"
+      - "地铁"
+      - "网红"
+      - "微信"
+      - "朋友圈"
+      - "杀疯"
+      - "笑疯"
+      - "怼"
+      - "KO"
+      - "公斤"
+      - "公里"
+    preferred_mechanisms: [M4, M5, M8]
+    preferred_hooks: [H2, H3]
+    preferred_titles: ["ancient_couplet", T3]
+
+  ancient_sweet:
+    name: "古言甜宠/双强"
+    avg_sentence_length: [20, 28]
+    dialogue_ratio: [0.45, 0.55]
+    dna_template: "templates/style-dna-ancient-sweet.md"
+    extra_forbidden: ["手机", "电话", "公司", "微信", "朋友圈", "KPI"]
+    preferred_mechanisms: [M2, M3, M6]
+    preferred_hooks: [H4, H3]
+    preferred_titles: ["ancient_couplet", T2]
+
+  apocalypse_heroine:
+    name: "末世大女主/异能/系统文"
+    avg_sentence_length: [15, 22]
+    dialogue_ratio: [0.25, 0.35]
+    dna_template: "templates/style-dna-apocalypse.md"
+    extra_forbidden:
+      - "珍珠般的眼泪"
+      - "五味杂陈"
+      - "我不怪你"
+      - "我理解你"
+    preferred_mechanisms: [M7, M6, M8]
+    preferred_hooks: [H1, H3]
+    preferred_titles: [T1, T3]
+
+  family_ethics:
+    name: "家庭伦理复仇"
+    avg_sentence_length: [14, 18]
+    dialogue_ratio: [0.40, 0.50]
+    dna_template: "templates/style-dna-family-ethics.md"
+    extra_forbidden:
+      - "毕竟是一家人"
+      - "血浓于水"
+      - "我原谅你"
+      - "她也有她的难处"
+    preferred_mechanisms: [M3, M1, M5]
+    preferred_hooks: [H1, H2]
+    preferred_titles: [T1, T4, T5]
+
+  urban_sweet_ceo:
+    name: "都市甜宠/霸总/钓系"
+    avg_sentence_length: [18, 25]
+    dialogue_ratio: [0.45, 0.55]
+    dna_template: "templates/style-dna-urban-ceo.md"
+    extra_forbidden: ["他眼底是我看不懂的深情", "他宠溺地看着我"]
+    preferred_mechanisms: [M2, M3, M5]
+    preferred_hooks: [H4, H1]
+    preferred_titles: [T1, T5]
+
+# 新媒体爆款法则
+viral_rules:
+  golden_hook_words: 300       # 黄金 Hook 前 X 字
+  micro_conflict_interval: 500 # 微冲突间隔
+  major_turn_interval: 1000    # 大转折间隔
+  max_dialogue_line_chars: 15  # 单句对话最大字数
+
+# 全局设置
+settings:
+  prompts_path: "prompts"
+  patterns_path: "prompts/patterns"       # 机制/hook/标题/词库
+  style_library_enabled: true
+  style_library_path: "style-library"
+  context_path: "context.md"              # 旧入口,保留作人类摘要笔记
+  context_dir: "context"                  # 结构化 JSON 沉淀
+  templates_path: "templates"
+  corpus_path: "corpus"                   # 37 篇 few-shot 库
+  corpus_index: "corpus/_index.json"      # 跨篇检索索引 + 爆款基因索引
+
+# 番茄平台特化(V4)
+tomato:
+  enabled: true
+  chapter_word_min: 500
+  chapter_word_max: 800
+  chapter_word_median: 650
+  paywall_every_words: 3000              # 每 X 字至少 1 个付费级卡点
+  hook_every_words: 1000                 # 每 X 字至少 1 个微悬念钩子
+  first_chapter_min_hook: 9              # 首章 Hook 强度 /10 下限
+  title_max_chars: 30
+  synopsis_min_chars: 90
+  synopsis_max_chars: 120
+  submission_template: "templates/tomato-submission-template.md"

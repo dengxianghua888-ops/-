@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 8.0,
+  "evidence": [
+    {
+      "item": "opening_click",
+      "evidence": "首场以洗衣房、远程会员机、柔顺剂备注进入；核心钩子为“别放柔顺剂，她闻了会吐”。",
+      "assessment": "生活细节足够低门槛，背叛信息具体可视。"
+    },
+    {
+      "item": "first_150_chars",
+      "evidence": "前 150 字内已有丈夫远程开机但本人缺席的错位感，强钩子稍后出现。",
+      "assessment": "通过，但建议 Phase 7 前移“备注不是我的名字”。"
+    },
+    {
+      "item": "chapter_hooks",
+      "evidence": "Scene 4以前妻抢钱谎言收尾，Scene 7以“我们的新家”亲子照收尾，Scene 10以法院受理短信收尾。",
+      "assessment": "章末钩覆盖完整。"
+    },
+    {
+      "item": "paywall_cards",
+      "evidence": "可设置 4 个正文卡点：4、7、10、11。",
+      "assessment": "满足 beat-bible 的 4 个付费卡要求。"
+    }
+  ]
+}

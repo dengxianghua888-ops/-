@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 500,
+  "target_chars_max": 600,
+  "location": "学校纪检会议室 → 校门口/工地方向",
+  "time": "同一天，审查继续",
+  "pov": "苏念",
+  "characters": ["苏念", "秦岚", "苏建国", "教务主任"],
+  "character_goal": "苏念试图阻止事态扩大，保护父亲不受刺激",
+  "opposition_goal": "秦岚带审计组去工地找苏建国核实，当众羞辱质问",
+  "conflict_action": "秦岚当着工友面质问苏建国'你女儿的贫困证明是不是假的'→苏建国愤怒反击'我女儿的人品我最了解'→情绪过激脑溢血倒下",
+  "information_gap": "苏念知道上辈子父亲就是这样死的——她正在眼睁睁看着悲剧重演",
+  "emotional_debt_delta": "情绪债拉到极限——最恐惧的事正在发生，上辈子的悲剧轨迹正在重叠",
+  "payoff_or_hook": "父亲倒在脚手架下——读者必须翻页知道他能不能活",
+  "chapter_end_hook": "苏建国被当众羞辱后脸色通红手剧烈颤抖，直挺挺倒在脚手架下。'爸！'",
+  "paywall_card": true,
+  "must_include": [
+    "秦岚在工地当众质问的具体台词",
+    "苏建国为女儿辩护的热血台词",
+    "苏建国倒下的物理细节（脸红+颤抖+倒下）",
+    "苏念的嘶喊",
+    "上辈子记忆的一句闪回"
+  ],
+  "must_not_write_as_exposition": [
+    "脑溢血的医学解释",
+    "苏念内心的恐惧推演过程",
+    "秦岚为什么要去工地（她的行动本身说明）"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "窒息-愤怒",
+    "emotion_arc": "紧张升级 → 父亲反击 → 恐惧预感 → 悲剧降临",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "眼睁睁看着最恐惧的事发生却无法阻止的绝望",
+    "required_techniques": [
+      {
+        "technique": "问句连击",
+        "instruction": "秦岚的连续质问不是调查而是审判——每个问题都预设有罪：'证明是不是假的？''是不是你让村里开的？''你知不知道这是犯罪？'"
+      },
+      {
+        "technique": "父亲的热血",
+        "instruction": "在所有人都不信女儿时，父亲无条件站出来——'我女儿的人品我最了解！'这个信任本身就是催泪弹，但也是悲剧的触发器"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "两个并列短句，先品性后能力",
+        "example": "她的品性我最了解，她的成绩也不需要作弊！",
+        "instruction": "父亲的信任没有犹豫没有'但是'——无条件的爱在压力下最闪耀，也让他的倒下更心碎"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "递进式",
+    "source_excerpt": "记者：「为什么要铤而走险？」「是不是抱着侥幸心理？」「你不觉得是给你父亲脸上抹黑吗？」我爸忍无可忍，把记者推开……「我女儿没有作弊！她的品性我最了解！」我爸脸和脖子通红，手突然剧烈颤抖起来，下一秒人直挺挺地倒了下去。「爸！」"
+  }
+}

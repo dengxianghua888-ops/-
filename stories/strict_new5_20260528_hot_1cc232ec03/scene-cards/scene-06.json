@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 730,
+  "target_chars_max": 790,
+  "location": "律师事务所会客室",
+  "time": "康复营事件当晚",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "离婚律师",
+    "专利律师",
+    "沈知宁电话声"
+  ],
+  "character_goal": "撤回抚养权争夺，转向财产、专利和债务清算",
+  "opposition_goal": "沈知宁想用女儿病情继续牵住他，让他净身出户",
+  "conflict_action": "顾砚舟签下撤回抚养权争夺文件，同时提交家庭账单和云端日志目录",
+  "information_gap": "证据完整内容不展开，发布会场才集中释放",
+  "emotional_debt_delta": "边界+2：从求亲情转向规则清算",
+  "payoff_or_hook": "第一次明确主角不再争女儿，付费级关系翻转",
+  "chapter_end_hook": "截断句：我在撤回抚养权申请上签名，只留下一句：她，连同你，我都不要了。",
+  "paywall_card": true,
+  "must_include": [
+    "撤回抚养权申请",
+    "卖房流水、金镯典当记录、急诊缴费单被放上桌",
+    "沈知宁电话威胁他别后悔",
+    "律师提醒发布会是公开担保节点"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写律师科普离婚程序",
+    "不要把孩子写成被遗弃",
+    "不要长段总结主角心死"
+  ],
+  "rhythm_job": {
+    "shape": "证据摆桌，电话对白打断，签名动作收束",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "mix": "动作约40%，对白约35%，证据名约20%，留白约5%；强压词只用一次威胁，后接签名和收笔"
+  }
+}

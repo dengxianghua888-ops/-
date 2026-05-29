@@ -1,0 +1,23 @@
+phase: 2
+key: source_dissection
+role: Source Dissector
+title: 源文爆款基因拆解
+system_prompt: prompts/production/source-dissection.md
+human_gate: none
+retryable: false
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/hook-types.md
+  - prompts/patterns/title-formulas.md
+  - story/source.md
+  - story/market-brief.json
+required_outputs:
+  - story-brief.json
+  - dissection.md
+  - analysis/beat-sheet.md
+  - analysis/style-dna.md
+  - analysis/soul-contract.md
+  - analysis/reader-engine.md
+  - analysis/tension-ledger.md
+validators:
+  - validate-production-story:phase2

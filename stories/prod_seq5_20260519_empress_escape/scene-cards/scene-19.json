@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-19",
+  "beat_id": "B19",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "金殿",
+  "time": "围京解除次日早朝",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "乌兰珠",
+    "拓跋烬",
+    "百官"
+  ],
+  "character_goal": "温照晚想让萧珩公开承认皇后和孩子不是棋子，并切断继嗣局。",
+  "opposition_goal": "百官想把孩子继续纳入北境安抚安排，萧珩必须在国局和她之间表态。",
+  "conflict_action": "温照晚抱着凤玺站上丹陛，逼萧珩撕毁北境密约，萧珩当众认错并宣布孩子只属皇后自己。",
+  "information_gap": "温照晚是否会在清算后重新选择他。",
+  "emotional_debt_delta": "偿还政治欺骗、孩子工具化和软禁后续债。",
+  "payoff_or_hook": "女主拿回选择权，萧珩用公开认错代替解释。",
+  "chapter_end_hook": "温照晚逼萧珩在百官前承认，皇后和孩子都不是棋子。",
+  "paywall_card": false,
+  "must_include": [
+    "凤玺回旋",
+    "撕毁密约",
+    "萧珩公开认错",
+    "乌兰珠体面退场去北境"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把认错写成一句带过",
+    "不要让百官辩论喧宾夺主",
+    "不要让女主被大局压服"
+  ]
+}

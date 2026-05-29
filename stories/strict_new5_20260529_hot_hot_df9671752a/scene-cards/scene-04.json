@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 680,
+  "target_chars_max": 740,
+  "location": "外墙观察廊",
+  "time": "午后警报前",
+  "pov": "沈梨雾",
+  "characters": [
+    "沈梨雾",
+    "秦岚",
+    "外墙士兵",
+    "观察员"
+  ],
+  "character_goal": "沈梨雾想提醒外墙虫群休眠线异常",
+  "opposition_goal": "秦岚要证明她只会装可怜",
+  "conflict_action": "秦岚拖着沈梨雾站到观察窗前，让她看外墙训练",
+  "information_gap": "虫群越线是封印裂口的第一层反转",
+  "emotional_debt_delta": "+1 被误判债",
+  "payoff_or_hook": "冰壳虫越过十公里休眠线，观察员来不及报错",
+  "chapter_end_hook": "雪原尽头，一只冰壳虫爬过了休眠线。",
+  "paywall_card": false,
+  "must_include": [
+    "外墙白雪",
+    "观察员低声报数",
+    "秦岚误判为虫群迁徙"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普虫群习性",
+    "不要让沈梨雾完整说出真相"
+  ],
+  "rhythm_job": {
+    "shape": "视线推进，少量对白，观察数字变成钩子",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "观察员擦玻璃上的霜，先以为自己看错"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "公府后山菜圃",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "韩若"
+  ],
+  "character_goal": "女主治愈，韩若求和离被拒",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "韩若诉苦：裴长渊镜像报复她",
+  "information_gap": "男主对韩若做了同样的事",
+  "emotional_debt_delta": "-10（因果循环收束）",
+  "payoff_or_hook": "和离？休想。你自己选的",
+  "chapter_end_hook": "和离？休想。你自己选的",
+  "paywall_card": false,
+  "must_include": [
+    "韩若诉苦：裴长渊镜像报复她"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {"min": 10000, "max": 18000, "sweet_spot": [10000, 30000]},
+  "chapter_policy": {"min_chars": 500, "max_chars": 1200, "hook_coverage": 1.0},
+  "hook_policy": {"opening_hook_chars": 300, "micro_hook_every_chars": 1200, "paywall_card_every_chars": 3500},
+  "success_metrics": {"opening_click": 8, "completion_pull": 8, "paywall_pull": 8, "emotion_release": 8, "ai_flavor": 0}
+}

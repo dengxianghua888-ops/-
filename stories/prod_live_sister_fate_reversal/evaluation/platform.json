@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 8.7,
+  "evidence": [
+    {
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "变量。\n\n我是变量。",
+      "assessment": "首屏直接定位被牺牲者，点击钩明确。"
+    },
+    {
+      "path": "story/draft-scenes/scene-08.md",
+      "quote": "备用钥匙插进锁孔，门板开出一道缝，林母终于看见了钢琴下的裙角。",
+      "assessment": "尸体发现前卡断，付费钩强。"
+    },
+    {
+      "path": "story/draft-scenes/scene-10.md",
+      "quote": "尸检报告递到林母手里，第一行结论写着：早期送医有存活可能。",
+      "assessment": "可救未救爆点清楚。"
+    }
+  ]
+}

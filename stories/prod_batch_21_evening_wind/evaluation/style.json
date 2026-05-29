@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 8.3,
+  "evidence": [
+    {
+      "check": "forbidden_words",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "forbidden_hits: {} — 零命中"
+    },
+    {
+      "check": "physical_emotion",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "心跳很快，太阳穴在跳"
+    },
+    {
+      "check": "physical_emotion_2",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-02.md",
+      "quote": "指节泛白，关节咯吱响了一声"
+    },
+    {
+      "check": "sentence_format",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "一句一段格式严格执行，mobile_paragraphs.status=pass"
+    },
+    {
+      "check": "ai_flavor_absence",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "soft_forbidden_hits: {} — 无然而/深吸一口气/宛如等表达"
+    }
+  ],
+  "notes": [
+    "avg_sentence_length 15.8，略低于source的17字，但在genre可接受范围内。",
+    "比喻密度适中，未见过度堆砌。"
+  ]
+}

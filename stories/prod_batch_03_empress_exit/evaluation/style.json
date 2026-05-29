@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "score": 8.0,
+  "evidence": [
+    {
+      "path": "story/draft.md#11",
+      "type": "setting_cleanup",
+      "quote": "乌兰旧族不是亲族，是案犯。",
+      "assessment": "设定统一到北境旧族。"
+    },
+    {
+      "path": "story/draft.md#15",
+      "type": "line",
+      "quote": "王庭不许再有下一个阿泠。",
+      "assessment": "收束句有记忆点。"
+    }
+  ]
+}

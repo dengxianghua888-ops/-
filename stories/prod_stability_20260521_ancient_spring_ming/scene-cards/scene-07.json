@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "肿瘤中心走廊与地下停车场",
+  "time": "两天后傍晚",
+  "pov": "沈惊棠",
+  "characters": ["沈惊棠", "主治医生", "裴砚潮", "司机"],
+  "character_goal": "独自拿到完整病历与剩余天数，不想再被任何人插手。",
+  "opposition_goal": "裴砚潮要掐断她用病情换取怜悯的可能。",
+  "conflict_action": "主治医生追出来把报告塞给她，裴砚潮及时出现抽走报告，当着她的面说别再拿病装可怜。",
+  "information_gap": "她还剩几天；裴砚潮看到数字没有。",
+  "emotional_debt_delta": {
+    "add": ["死前她是否会被相信一次"],
+    "pay": ["明确死亡倒计时已经逼近，不再只是笼统绝症"]
+  },
+  "payoff_or_hook": "她把剩余天数折进掌心，像把自己折小了一截。",
+  "chapter_end_hook": "截断句：她低头数了数，够她处理后事了。",
+  "paywall_card": false,
+  "must_include": ["完整病历袋", "医生追人动作", "裴砚潮当面抽走报告", "她自己悄悄留下剩余天数那页"],
+  "must_not_write_as_exposition": ["不要写治疗方案说明", "不要医生长篇同情", "不要把倒计时做成夸张宣判口吻"],
+  "rhythm_job": {
+    "shape": "动作3成，对白3成，呼吸点3成，证据1成；情绪要收，不要炸，给后续赴死做冷准备",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "林家老宅客厅",
+  "time": "次日傍晚",
+  "pov": "林见棠 第一人称",
+  "characters": ["林见棠", "林薇薇", "苏曼", "林振宏", "律师"],
+  "character_goal": "把家庭战场从偏心争吵拉到产权和股权硬证据。",
+  "opposition_goal": "林薇薇和苏曼要趁顾淮川翻车前夜先逼她交出老宅与项目。",
+  "conflict_action": "林薇薇逼她搬出去，苏曼拉父亲站队，林见棠直接让律师送来产权和信托文件。",
+  "information_gap": "她们一直误判父亲的态度就是资产归属。",
+  "emotional_debt_delta": "家庭线进入正式清算前夜。",
+  "payoff_or_hook": "家里这场不是狗血吵架，而是现实支撑谁说了算。",
+  "chapter_end_hook": "林振宏当众承认：公司股份不在他名下。",
+  "paywall_card": false,
+  "must_include": [
+    "老宅客厅的逼搬动作",
+    "律师带文件进门",
+    "父亲迟疑后被迫开口",
+    "林薇薇误判仍很硬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲父母婚姻史",
+    "不要解释信托架构超过两段",
+    "不要让亲情哭诉抢戏"
+  ],
+  "rhythm_job": {
+    "shape": "逼搬1拍+文件入场1拍+父亲失口2拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白短促，证据动作要顶上去，不拖成长篇家庭伦理"
+  }
+}

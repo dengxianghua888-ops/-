@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "工作室电脑前",
+  "time": "发布会后当夜",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "祁渡"
+  ],
+  "character_goal": "沈栀要亲手完成举报，让因果回旋真正落地。",
+  "opposition_goal": "对方试图维持旧秩序、压住证据或拖延真相落地。",
+  "conflict_action": "沈栀和祁渡对照录音、邮件、流水，一边删去无效情绪，一边补齐能落地的证据链，最后由沈栀点击发送。",
+  "information_gap": "举报后他会先塌哪一块，祁渡又为什么总能提前想到她需要什么？",
+  "emotional_debt_delta": "主动出手债大幅偿还，祁渡的长期看见感继续累积。",
+  "payoff_or_hook": "不是等他们互咬，而是沈栀亲自把刀递进制度里。",
+  "chapter_end_hook": "署名置换邮件、送礼录音、经费流水，一份不少，全都到了举报邮箱。",
+  "paywall_card": true,
+  "must_include": [
+    "评奖送礼录音",
+    "署名置换邮件",
+    "由沈栀亲手点击发送"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把证据整理写成电脑教程",
+    "不要让祁渡变成全能拯救者",
+    "不要连篇情绪宣泄"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作推进为主，中间穿插短对白，结尾发送落锤",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

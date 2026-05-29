@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "score": 9.0,
+  "evidence": [
+    {"path": "draft-scenes/scene-02.md", "quote": "你六年代孕生下的女儿，一出生就被抱给言安，登记为他的亲生女", "note": "亲情/生育债现场化"},
+    {"path": "draft-scenes/scene-02.md", "quote": "磨练你六年，你怎么连这点学乖都没学会", "note": "M3 第一回合反派话术"},
+    {"path": "draft-scenes/scene-05.md", "quote": "U盘抵胯骨", "note": "铜棺幽闭物理锚点"},
+    {"path": "draft-scenes/scene-06.md", "quote": "她叫了一声叔叔。她不叫我爸", "note": "生父被剥夺的剧痛锚点"},
+    {"path": "draft-scenes/scene-13.md", "quote": "外部审计组已经开始介入", "note": "二级支援网络偿还"},
+    {"path": "draft-scenes/scene-14.md", "quote": "我要让他成为最幸福的新郎", "note": "M3 回声闭合·亲情债收束"}
+  ]
+}

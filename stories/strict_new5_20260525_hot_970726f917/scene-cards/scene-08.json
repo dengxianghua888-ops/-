@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "封控主厅边缘",
+  "time": "确认旧案后立刻",
+  "pov": "第一人称",
+  "characters": [
+    "陆昭",
+    "韩岚",
+    "安保队长",
+    "宋棠",
+    "父母"
+  ],
+  "character_goal": "让众人承认外部救援无效，唯一解法是她回到墙内。",
+  "opposition_goal": "韩岚等人想把她留住，避免让唯一清醒的人再送死。",
+  "conflict_action": "陆昭把手探进封控层边缘，证明自己能短暂穿透而未立刻被扯碎时间，逼众人听她说完一句完整计划。",
+  "information_gap": "她这种短暂豁免来自幸存者身份还是别的更大规则？",
+  "emotional_debt_delta": "正名债开始大额回收，但执行代价债继续增加。",
+  "payoff_or_hook": "她第一次获得不是相信，而是被迫承认。",
+  "chapter_end_hook": "截断句：我能进去，因为我早就进去过一次。",
+  "paywall_card": false,
+  "must_include": [
+    "手探封控层的试探动作",
+    "韩岚从压制转为沉默",
+    "陆昭只说够行动的半真相"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释完整世界观",
+    "不要列所有规则条目",
+    "不要开团队会议式商量方案"
+  ],
+  "rhythm_job": {
+    "shape": "试墙证明-众人静住-半真相抛出",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "指尖发麻、墙面泛光、众人后退"
+  }
+}

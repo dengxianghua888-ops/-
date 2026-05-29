@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 850,
+  "target_chars_max": 930,
+  "location": "主厅出口与安检通道",
+  "time": "终选开始前2分半",
+  "pov": "第一人称",
+  "characters": ["陆昭", "安保队长", "韩岚", "航医", "围观学员"],
+  "character_goal": "挣脱控制，抢到广播或话筒，直接喊所有人撤离。",
+  "opposition_goal": "安保认定她情绪失控，要立刻控制并送离现场，避免扰乱终选。",
+  "conflict_action": "陆昭扑向话筒喊‘出去’，安保反剪她的手，韩岚命人按住她。",
+  "information_gap": "她为什么对广播节拍的错误如此笃定，像提前听过这套倒计时？",
+  "emotional_debt_delta": "社死债、误判债继续上升。",
+  "payoff_or_hook": "她越想救人，越被当成危险源。",
+  "chapter_end_hook": "截断动作：我被按在地上，却看见广播数字比我的表慢了整整一拍。",
+  "paywall_card": false,
+  "must_include": ["抢话筒或广播键", "安保身体控制", "韩岚公开宣布取消她终选资格", "倒计时错位再次出现"],
+  "must_not_write_as_exposition": ["不要写安保工作流程", "不要长篇描写场馆布局", "不要让女主停下来分析原理"],
+  "rhythm_job": {
+    "shape": "抢话筒-被压制-资格剥夺-再见错位",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "低压反应：广播电流声、手腕疼痛、鞋跟擦地"
+  }
+}

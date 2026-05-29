@@ -1,0 +1,37 @@
+title: 深夜来电
+source_slug: ancient_evening_wind
+genre: modern_reversal
+pipeline_version: v5
+status: final
+target_platform: tomato
+generated_at: "2026-05-26"
+
+adaptation:
+  source_setting: "男友+闺蜜背叛，婚礼公开证据清算"
+  new_setting: "合伙人+助理背叛，融资路演公开证据清算"
+  character_map:
+    沈明棠: 陈知微 (CEO)
+    傅涵之: 林越 (CTO)
+    许知意: 宋念 (助理)
+
+metrics:
+  nonspace_chars: 10010
+  rhythm_status: pass
+  structure_gate: pass
+  impact_density: 3.5
+  avg_line_chars: 24.25
+  quote_line_rate: 0.307
+
+quality_gate:
+  nonspace_in_range: true
+  rhythm_pass: true
+  structure_pass: true
+  source_overlap_lte_5pct: true
+  meta_leak_zero: true
+  ai_forbidden_zero: true
+
+required_artifacts:
+  - beat-bible.json
+  - final.md
+  - quality-report.json
+  - story.yaml

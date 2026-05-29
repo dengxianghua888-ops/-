@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "旧码头、系缆桩边与海鸥救助棚",
+  "time": "次日清晨",
+  "pov": "沈惊棠",
+  "characters": ["沈惊棠", "旧水手", "阿白", "守棚阿姨"],
+  "character_goal": "安顿阿白和牌位，确认自己走后还有什么能留下。",
+  "opposition_goal": "命运与旧伤同时逼近，她想安放的最后一点温情正在断掉。",
+  "conflict_action": "阿白因旧伤坠地扑腾，旧水手趁乱把录音笔和一句原话塞给她；她听见裴砚潮当年那句‘把她留在海上磨掉心思’。",
+  "information_gap": "他说这句话时听信了谁、还有没有更直白的命令记录。",
+  "emotional_debt_delta": {
+    "add": ["他主动下令的完整上下文", "她最后一个情感锚点还能否安放"],
+    "pay": ["男主责任从误判推进到主动命令"]
+  },
+  "payoff_or_hook": "那句录音像钩子一样，把她最后一点期待钩断。",
+  "chapter_end_hook": "截断句：旧水手说，这是裴总亲口吩咐的。",
+  "paywall_card": false,
+  "must_include": ["阿白受伤或濒死", "旧水手递录音笔", "原话‘把她留在海上磨掉心思’", "她听完后的静默"],
+  "must_not_write_as_exposition": ["不要长篇写阿白陪伴史", "不要解释录音来源太细", "不要把这一场写成纯信息交代"],
+  "rhythm_job": {
+    "shape": "呼吸点3成，动作3成，对白2成，证据2成；先低压安顿，再证据一刀，章尾收冷",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

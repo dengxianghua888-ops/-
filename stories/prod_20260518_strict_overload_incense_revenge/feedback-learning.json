@@ -1,0 +1,118 @@
+{
+  "story_slug": "prod_20260518_strict_overload_incense_revenge",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 11620,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.7,
+    "style": 8.1,
+    "logic": 8.5
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "平台罚单刚弹出，主管电话立刻打进来。",
+      "reusable_fact": "开局用系统罚款和上级施压双触发，能在首章同时制造经济债和阴谋感。"
+    },
+    {
+      "chapter": 4,
+      "hook": "主角不去灰色收货点，直接右转监管部门。",
+      "reusable_fact": "合规职业题材的爽点可来自主角把证据带进监管流程，而不是私下对抗。"
+    },
+    {
+      "chapter": 7,
+      "hook": "母亲摊位被刷红字。",
+      "reusable_fact": "反派从工作场景外溢到家人生活空间，会显著抬高情绪债。"
+    },
+    {
+      "chapter": 12,
+      "hook": "药监追问系统四箱之外的两箱来源。",
+      "reusable_fact": "让反派早前的压迫话术成为正式询问中的死环问题，能形成稳定反杀。"
+    },
+    {
+      "chapter": 16,
+      "hook": "罚款撤销、保证金返还、干净年度单落地。",
+      "reusable_fact": "职业复盘型结尾要把赔偿、名誉、账号权限和新订单逐项偿还。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 3,
+      "card": "拒补单录音",
+      "trigger": "周骁亲口说“系统只认四箱，你就该替我背锅”。",
+      "function": "锁定反派甩锅证据，推动主角从忍耐转入取证反击。"
+    },
+    {
+      "chapter": 4,
+      "card": "右转药监",
+      "trigger": "主角放弃美容院后门路线，实名举报并请求封存。",
+      "function": "完成第一次选择性反转，把私下违规交付改成监管现场。"
+    },
+    {
+      "chapter": 6,
+      "card": "保证金冻结",
+      "trigger": "平台驳回申诉并冻结五万元冷链保证金。",
+      "function": "把单次罚款升级为生计风险，拉高追读压力。"
+    },
+    {
+      "chapter": 7,
+      "card": "红字上门",
+      "trigger": "母亲摊位被喷字造谣，威胁从职业身份扩展到家庭。",
+      "function": "制造不可退让的情绪底线。"
+    },
+    {
+      "chapter": 9,
+      "card": "三十万律师函",
+      "trigger": "反派公司发函索赔，同时书面承认两箱货归属。",
+      "function": "让恐吓文件反向成为归属证据。"
+    },
+    {
+      "chapter": 11,
+      "card": "停车场现金",
+      "trigger": "周骁用现金逼撤举报，并说出假批号线索。",
+      "function": "将私了场面变成更高层级证据入口。"
+    },
+    {
+      "chapter": 13,
+      "card": "平台改口",
+      "trigger": "平台风控暂停扣罚并移除违规标签。",
+      "function": "给中后段阶段性偿还，防止读者只等终局。"
+    },
+    {
+      "chapter": 14,
+      "card": "库房账本",
+      "trigger": "黑皮账本与封存样品批号、车次对应。",
+      "function": "把个案异常扩展为系统性违法链条。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代逆袭",
+    "职业合规",
+    "冷链运输",
+    "平台罚款",
+    "保证金冻结",
+    "扫码失败",
+    "灰色货箱",
+    "药监封存",
+    "温控曲线",
+    "装车视频",
+    "签收单",
+    "拒补单录音",
+    "律师函反证",
+    "母亲摊位造谣",
+    "系统四箱回旋句",
+    "监管流程反杀",
+    "M1死环反杀",
+    "M3因果回旋反讽",
+    "M6多层递进反转"
+  ],
+  "manual_revision_delta": []
+}

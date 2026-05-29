@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "夜灯档案室",
+  "time": "第五年雪夜",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言"
+  ],
+  "character_goal": "陆谨言要完成最后一份卷宗并面对那段从未播放完的胎心录音。",
+  "opposition_goal": "不可逆的死亡和沈栀的沉默拒绝把迟来代价写成圆满。",
+  "conflict_action": "陆谨言整理最后一份孕亡者卷宗，按下胎心钥匙扣播放键，关掉桌上工作灯后走向雪夜。",
+  "information_gap": "他的不可逆选择不换取原谅，只留下迟到的代价。",
+  "emotional_debt_delta": "余生偿还抵达生命级代价，沈栀从恨转为疲惫放下。",
+  "payoff_or_hook": "结尾温柔但不现实HE，保留一尸两命的阴影。",
+  "chapter_end_hook": "第五年雪夜，他终于按下那段胎心录音。",
+  "paywall_card": false,
+  "must_include": [
+    "第五年雪夜",
+    "最后一份卷宗",
+    "胎心录音",
+    "最后一盏灯",
+    "沈栀不是原谅，只是放下"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写自毁具体方法",
+    "不要浪漫化死亡",
+    "不要写现实团圆",
+    "不要让沈栀说我原谅你"
+  ]
+}

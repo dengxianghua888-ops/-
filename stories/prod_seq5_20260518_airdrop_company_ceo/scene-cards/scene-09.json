@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "风控会议室数据墙",
+  "time": "临时合伙人会开始后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "苏曼宁", "周砚礼", "李屿", "品牌方代表", "财务负责人"],
+  "character_goal": "许闻溪证明苏曼宁侵占商单资源和私收返点",
+  "opposition_goal": "苏曼宁要把异常流水解释成粉丝打赏和合作预付款",
+  "conflict_action": "许闻溪播放合同扫描件、私域收款码、异常转账记录和投流发票对照表",
+  "information_gap": "苏曼宁的私账与品牌招商资源第一次被放到正式流程里核对",
+  "emotional_debt_delta": "-资源侵占债第一笔 +追偿债",
+  "payoff_or_hook": "苏曼宁从被力捧的王牌主播变成被逐笔追问的涉事人",
+  "chapter_end_hook": "最后一笔转账备注跳出来，收款人写着苏曼宁的小号。",
+  "paywall_card": true,
+  "must_include": ["私域收款码", "商单返点表", "投流发票", "合同扫描件", "品牌方解除信任"],
+  "must_not_write_as_exposition": ["不要展示身份证住址等隐私", "不要煽动网暴", "不要把所有民事问题直接写成犯罪"]
+}

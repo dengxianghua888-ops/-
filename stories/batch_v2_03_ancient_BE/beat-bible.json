@@ -1,0 +1,110 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 12000},
+  "title": "骨灰",
+  "genre": "ancient_BE",
+  "mechanisms": ["M3_causal_boomerang", "M5_temperature_reversal", "M6_multi_layer_escalation", "M8_moral_ambiguity_ending"],
+  "opening_structure": "conflict_first",
+  "climax_budget_note": "B7-B9-B10 are climax beats, get 35% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "坦白",
+      "budget_role": "opening", "budget_pct": "8%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["丈夫顾衍舟坦白与闺蜜宋念的关系", "他无所谓的态度", "细节炫耀式坦白让女主林晚棠恶心", "闺蜜假惺惺解释"]
+    },
+    {
+      "beat_id": "B2", "title": "旧恩",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 1000, "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["回忆宋念曾差点被卖到矿区是女主父亲救的", "顾衍舟欠林家一条命（林父战场救他）", "曾经温暖的新婚时光", "温度对照：那时多亲现在多冷"]
+    },
+    {
+      "beat_id": "B3", "title": "军功被偷",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["女主的边关举荐信（相当于升迁名额）被顾衍舟给了宋念", "他说'反正你能力强再等一年'", "女主才知道自己不是落选而是被偷", "他追着宋念离开"]
+    },
+    {
+      "beat_id": "B4", "title": "父亲病房",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 1000, "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["父亲旧伤复发住院", "顾衍舟和宋念戴情侣物件被父亲看穿", "父亲怒骂'忘恩负义'", "父亲病情加重"]
+    },
+    {
+      "beat_id": "B5", "title": "嫌脏",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["宋念安排流氓骚扰女主", "顾衍舟赶来救了她但看到痕迹后嫌恶", "女主彻底清醒", "金句：原来不是我的错是爱的人没心没肺"]
+    },
+    {
+      "beat_id": "B6", "title": "父死",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 1000, "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["父亲急需手术费/救命物资", "女主打电话给顾衍舟求救他不接（在陪宋念）", "父亲死亡", "女主带骨灰离开决定远走"]
+    },
+    {
+      "beat_id": "B7", "title": "厌弃",
+      "budget_role": "climax", "budget_pct": "11%",
+      "target_chars_min": 1100, "target_chars_max": 1400,
+      "is_climax_beat": true,
+      "must_include": ["顾衍舟开始厌烦宋念", "想起女主的好", "宋念卖惨被识破", "揭穿宋念偷军功/安排流氓/害死父亲的全部真相"]
+    },
+    {
+      "beat_id": "B8", "title": "旧物引爆",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1200, "target_chars_max": 1500,
+      "is_climax_beat": true,
+      "must_include": ["顾衍舟回女主旧居发现三年未寄家书", "家书从'我想你'到'我恨你'到'你害死了我爸'", "他跪地崩溃", "得知父亲死亡真相是自己拒接电话"]
+    },
+    {
+      "beat_id": "B9", "title": "反噬",
+      "budget_role": "climax", "budget_pct": "10%",
+      "target_chars_min": 1000, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["顾衍舟清算宋念", "M3因果回旋：宋念被送回原来的恐惧命运", "军中旧部断联顾衍舟被架空", "他找不到女主"]
+    },
+    {
+      "beat_id": "B10", "title": "三年后",
+      "budget_role": "resolution", "budget_pct": "9%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["女主在边关成长为独当一面的人", "顾衍舟困在旧居重复过去像死水", "他每天对着空屋喊她名字", "M8道德模糊：他的余生就是惩罚"]
+    },
+    {
+      "beat_id": "B11", "title": "重逢",
+      "budget_role": "resolution", "budget_pct": "5%",
+      "target_chars_min": 500, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "must_include": ["顾衍舟找到女主求复合", "他装疯/卖惨/自毁", "女主识破不为所动"]
+    },
+    {
+      "beat_id": "B12", "title": "不渡",
+      "budget_role": "closure", "budget_pct": "3%",
+      "target_chars_min": 300, "target_chars_max": 500,
+      "is_climax_beat": false,
+      "must_include": ["女主拒绝不回头", "把爱情送给过去", "余生是自己的", "标题呼应：骨灰散尽不回头"]
+    }
+  ],
+  "rhythm_contract": {
+    "source_measured": {
+      "avg_line_chars": 19.63,
+      "short_line_rate": 0.457,
+      "quote_line_rate": 0.275,
+      "barrage_rate": 0.014
+    },
+    "candidate_target": {
+      "avg_line_chars_range": [16, 22],
+      "short_line_rate_range": [0.35, 0.50],
+      "quote_line_rate_range": [0.20, 0.35],
+      "barrage_rate_max": 0.03
+    }
+  }
+}

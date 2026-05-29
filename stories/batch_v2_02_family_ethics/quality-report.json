@@ -1,0 +1,46 @@
+{
+  "slug": "batch_v2_02_family_ethics",
+  "source_slug": "hot_0033ca75f8",
+  "title": "产房",
+  "genre": "family_ethics",
+  "status": "pass",
+  "validation": {
+    "nonspace_chars": 10001,
+    "nonspace_target": {"min": 10000, "max": 14000},
+    "chapters": 12,
+    "chapters_min": 10,
+    "rhythm_fit": "pass",
+    "rhythm_metrics": {
+      "source_avg_line_chars": 19.59,
+      "candidate_avg_line_chars": 17.408,
+      "source_short_line_rate": 0.5368,
+      "candidate_short_line_rate": 0.4077,
+      "source_quote_line_rate": 0.2335,
+      "candidate_quote_line_rate": 0.1863,
+      "source_barrage_rate": 0.0074,
+      "candidate_barrage_rate": 0.0
+    },
+    "ai_taste_words": 0,
+    "source_overlap": "pass",
+    "meta_leak": 0
+  },
+  "mechanisms": {
+    "M3_causal_boomerang": {
+      "status": "implemented",
+      "detail": "丈夫医药代表靠女主医院人脉拿单→女主离职→医院取消准入→客户流失→业绩归零→被劝退"
+    },
+    "M5_temperature_reversal": {
+      "status": "implemented",
+      "detail": "暖记忆(婚前等夜班送粥/枣去核/桂圆补气血) vs 冷现实(孕期不陪产检/小三出事凌晨到场/改病历杀胎)"
+    },
+    "M6_multi_layer_escalation": {
+      "status": "implemented",
+      "detail": "L1出轨→L2小三怀孕→L3全科知情公婆帮瞒→L4改病历致畸→L5引产→L6摊牌→L7因果反噬"
+    }
+  },
+  "rework_count": 1,
+  "rework_notes": [
+    "首次生成quote_line_rate过高(0.388 vs source 0.234)，原因：style-dna描述'对话占比43%'与实际rhythm_metrics测量值(0.234)不符。完全重写，以内心独白+叙事为主，对话压缩为点睛。"
+  ],
+  "final_date": "2026-05-26"
+}

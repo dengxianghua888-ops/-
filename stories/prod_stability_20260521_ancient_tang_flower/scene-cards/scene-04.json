@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 780,
+  "target_chars_max": 860,
+  "location": "运河闸口被截的官船与侧舷黑水",
+  "time": "潮期开闸夜",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "霍池渊",
+    "霍承舟",
+    "贺婉书",
+    "水匪首领",
+    "船工"
+  ],
+  "character_goal": "亲手看清他们最后的选择，并完成离场。",
+  "opposition_goal": "水匪和贺婉书这边要逼霍池渊先换人，让贺晚棠彻底成为弃子。",
+  "conflict_action": "水匪把两边人质逼到船沿，霍承舟先哭喊救小姨，霍池渊权衡后下令先换贺婉书，贺晚棠趁乱松手沉入黑水。",
+  "information_gap": "先救小姨。",
+  "emotional_debt_delta": "+4 生命级放弃落地，丈夫与儿子共同完成关系死刑",
+  "payoff_or_hook": "她沉进水里前，听见的不是自己的名字。",
+  "chapter_end_hook": "先救小姨。",
+  "paywall_card": true,
+  "must_include": [
+    "霍池渊的命令要有短促动作，不许含糊",
+    "贺晚棠的沉水处理成戏剧化瞬断，不给模仿细节"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释劫船流程",
+    "不要长篇描写黑水和窒息细节",
+    "不要把核心冲突改写成回忆插叙"
+  ],
+  "rhythm_job": {
+    "shape": "对峙逼选45%+儿子补刀15%+沉水断裂25%+章尾黑切15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.46,
+    "action_ratio_target": 0.38,
+    "hook_drop": "在命令句后立刻黑切，不做解释回头",
+    "low_pressure_bridge": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "type": "debt_accumulation",
+      "scene": "scene-01",
+      "quote": "走马灯砸在青砖上，灯骨裂开，齿轮滚到沈父靴边。",
+      "assessment": "心爱之物被毁债以现场动作建立。"
+    },
+    {
+      "type": "debt_accumulation",
+      "scene": "scene-02",
+      "quote": "顾承砚把婚书展开，当着我的面撕成两半。",
+      "assessment": "婚约背叛债明确。"
+    },
+    {
+      "type": "debt_accumulation",
+      "scene": "scene-07",
+      "quote": "她趁说话时，抽走了我袖中的灯帖。",
+      "assessment": "冒名夺功和亲情偏心继续加债。"
+    },
+    {
+      "type": "payoff",
+      "scene": "scene-03",
+      "quote": "谢兰舟从袖中取出一块玄色腰牌。",
+      "assessment": "砸灯债转化为靖王身份打脸。"
+    },
+    {
+      "type": "payoff",
+      "scene": "scene-10",
+      "quote": "第一个，靖王。第二个，当今圣上。第三个，镇海将军。",
+      "assessment": "私会污蔑债和身份羞辱债集中偿还。"
+    },
+    {
+      "type": "final_emotional_resolution",
+      "scene": "scene-14",
+      "quote": "我娶的是会逛瓦舍、扎灯、赛龙舟的沈照晚，又不是木头牌位。",
+      "assessment": "结尾回收自我价值，女主没有被规训成端庄模板。"
+    }
+  ]
+}

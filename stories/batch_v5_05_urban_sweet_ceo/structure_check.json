@@ -1,0 +1,92 @@
+{
+  "impact_density": {
+    "total_impacts": 20,
+    "per_category": {
+      "physical_violence": 10,
+      "verbal_attack": 8,
+      "betrayal": 0,
+      "revelation": 1,
+      "status_reversal": 1
+    },
+    "impacts_per_1000_chars": 1.99,
+    "nonspace_chars": 10072
+  },
+  "watermark_violations": [
+    {
+      "start_line": 471,
+      "length": 9,
+      "sample": "她笑了。没追问。发动了车。"
+    }
+  ],
+  "watermark_count": 1,
+  "per_chapter": [
+    {
+      "title": "",
+      "nonspace_chars": 10,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第一章",
+      "nonspace_chars": 1084,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第二章",
+      "nonspace_chars": 925,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第三章",
+      "nonspace_chars": 1157,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第四章",
+      "nonspace_chars": 1396,
+      "impacts": 2,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第五章",
+      "nonspace_chars": 596,
+      "impacts": 5,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第六章",
+      "nonspace_chars": 846,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第七章",
+      "nonspace_chars": 645,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第八章",
+      "nonspace_chars": 890,
+      "impacts": 3,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第九章",
+      "nonspace_chars": 1183,
+      "impacts": 7,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十章",
+      "nonspace_chars": 1290,
+      "impacts": 1,
+      "watermark_violations": 1
+    }
+  ],
+  "gate_status": "pass",
+  "watermark_warning": true
+}

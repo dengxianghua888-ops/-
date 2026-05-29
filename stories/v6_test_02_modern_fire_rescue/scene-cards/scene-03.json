@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "家中客厅→失去意识",
+  "time": "20:35-20:45",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "未知入侵者（暗示）"],
+  "character_goal": "最后一搏——自驾去医院",
+  "opposition_goal": "身体已濒临极限；家中有不明人物存在",
+  "conflict_action": "挣扎起身准备自驾，闻到厨房方向有煤气味；听到客厅外极轻的脚步声；试图爬向门口时意识模糊倒下",
+  "information_gap": "读者和主角都不知道那个脚步声是谁（方逸宁当晚来过家中开燃气阀）",
+  "emotional_debt_delta": "+4：生死边缘+入室悬疑双重危险，恐惧封顶",
+  "payoff_or_hook": "失去意识前定格在手机屏幕——妻子那条'别总觉得自己要死'",
+  "chapter_end_hook": "手机屏幕还停在沈知微的对话框上。厨房方向，燃气灶的提示音响了一下。",
+  "paywall_card": true,
+  "must_include": [
+    "煤气味的伏笔（为后续燃气阀悬疑线铺垫）",
+    "极轻的脚步声/门把手被压下的细节",
+    "意识模糊前最后看到的画面——手机屏幕上妻子的消息",
+    "自驾求医的决定（为下一章撞护栏铺垫）"
+  ],
+  "must_not_write_as_exposition": [
+    "入侵者身份不能有任何暗示",
+    "燃气阀被动过的事实此处只能用嗅觉暗示"
+  ],
+  "rhythm_job": {
+    "shape": "悬崖收尾",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "窒息-恐惧",
+    "emotion_arc": "孤注一掷 → 新危险出现 → 意识消失",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "在生死边缘突然叠加入室悬疑，危险翻倍的惊悚+对妻子的极度愤怒",
+    "required_techniques": [
+      {
+        "technique": "悬疑嫁接",
+        "instruction": "在心梗叙事中突然嫁接入室悬疑——煤气味+脚步声+门把手。一瞬间从'病发'升级为'被害'。只用感官碎片暗示，不解释"
+      },
+      {
+        "technique": "视觉定格收尾",
+        "instruction": "意识消失前定格在一个安静画面——手机屏幕上她的那条消息。在混乱中突然静止，用对比制造余音不绝的效果"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定旧认知+揭示新事实",
+        "example": "不是单纯失火。有人进了我家。",
+        "instruction": "用两个短句完成认知翻转：'不是单纯心梗发作。家里还有别的东西在泄漏。'让读者和主角同时'嗡'的一声"
+      }
+    ],
+    "peak_type": "double_threat",
+    "bomb_technique": "悬疑嫁接式",
+    "source_excerpt": "客厅里忽然传来一阵极轻的脚步声。不是空调。不是猫。是脚步。书房门把手被人从外面缓缓压了一下。我死死盯着那个把手，手机屏幕的光照在我脸上。屏幕还停在和沈知微的聊天框上。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {"min": 10000, "max": 14000},
+  "quality_floor": {
+    "chapter_hook_coverage": 1.0,
+    "paywall_card_every_chars": 3500,
+    "chapter_min_chars": 600,
+    "chapter_max_chars": 1400
+  },
+  "dialogue_distribution_guidance": {
+    "note": "源文quote≈0.42，climax beats应≥0.50，非climax≤0.40",
+    "climax_quote_rate_floor": 0.50,
+    "non_climax_quote_rate_ceiling": 0.40
+  },
+  "rhythm_contract": {
+    "source_avg_line_chars": 24.94,
+    "allowed_avg_visual_line_chars": [20, 30],
+    "short_line_rate_lte_16_min": 0.15,
+    "short_line_rate_lte_16_max": 0.40,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 2.5,
+    "question_mark_density_per_1000_chars_max": 7.0
+  },
+  "beats": [
+    {
+      "beat_id": "B1",
+      "title": "有孕当日的背叛宣告",
+      "budget_role": "setup",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "opening_hook": "女主有孕报喜时，丈夫平静告知三日后将迎娶知府千金为正妻——信息不对称：读者不知女主真实身份",
+      "must_include": ["女主有孕", "丈夫宣布另娶", "女主被告知只能为妾", "身份伏笔暗埋"]
+    },
+    {
+      "beat_id": "B2",
+      "title": "囚禁与旧物被夺",
+      "budget_role": "escalation",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["女主被囚于偏院", "嫁妆被搜（含兵符信物）", "丈夫烧毁旧居", "木簪作为温度物件首次出现"]
+    },
+    {
+      "beat_id": "B3",
+      "title": "下药杀子",
+      "budget_role": "escalation",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["丈夫在糕点中下药", "女主腹痛小产", "丈夫拒绝请医", "情绪债最大落点"]
+    },
+    {
+      "beat_id": "B4",
+      "title": "知府千金的羞辱与红花",
+      "budget_role": "escalation",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["知府千金灌红花绝育", "丈夫知情不阻", "女主被彻底物化", "三色烟火伏笔埋入"]
+    },
+    {
+      "beat_id": "B5",
+      "title": "温度反转：旧日温暖的碎片",
+      "budget_role": "emotional",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "contradiction_moment": "女主在被迫叩阶时想起他亲手雕木簪说'此生只你一人'——身体在痛，记忆在笑",
+      "must_include": ["成婚初期的温暖回忆", "木簪承诺", "对比当下的残酷", "叩阶求平安符"]
+    },
+    {
+      "beat_id": "B6",
+      "title": "三色烟火升空",
+      "budget_role": "climax",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": true,
+      "must_include": ["女主设计让知府千金放烟火", "三色烟火升空", "边军收到信号", "身份反转前奏"]
+    },
+    {
+      "beat_id": "B7",
+      "title": "将门嫡女驾到",
+      "budget_role": "climax",
+      "budget_pct": 10,
+      "target_chars_min": 1000,
+      "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "gold_sentence_slot": "核心金句——你亲手毁掉的恰恰是你此生再也得不到的",
+      "must_include": ["边军围府", "女主换上将门甲胄", "丈夫跪地", "身份彻底揭穿"]
+    },
+    {
+      "beat_id": "B8",
+      "title": "逐条清算",
+      "budget_role": "climax",
+      "budget_pct": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1200,
+      "is_climax_beat": true,
+      "must_include": ["烧院之债", "杀子之债", "红花之债", "叩阶之债逐一清算"]
+    },
+    {
+      "beat_id": "B9",
+      "title": "丈夫的悔恨与求饶",
+      "budget_role": "resolution",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["丈夫跪求复合", "女主冷静拒绝", "知府千金的下场"]
+    },
+    {
+      "beat_id": "B10",
+      "title": "木簪归还",
+      "budget_role": "emotional",
+      "budget_pct": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "contradiction_moment": "女主将木簪放回他手中时笑了——不是释然，是觉得这东西配不上她了",
+      "must_include": ["木簪作为情感物件最终处理", "女主的放下姿态", "丈夫的崩溃"]
+    },
+    {
+      "beat_id": "B11",
+      "title": "回归将门",
+      "budget_role": "resolution",
+      "budget_pct": 8,
+      "target_chars_min": 800,
+      "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["女主回到父帅身边", "身体损伤的代价", "旧人只能远望"]
+    },
+    {
+      "beat_id": "B12",
+      "title": "长明灯收束",
+      "budget_role": "resolution",
+      "budget_pct": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "gold_sentence_slot": "结尾升维句——没有了谁，长明灯依旧会亮",
+      "must_include": ["女主为亡子点长明灯", "新生活开始", "不原谅不回头的姿态"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 740,
+  "target_chars_max": 920,
+  "location": "透明投流联盟开播现场",
+  "time": "清算完成后的新项目发布日",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "赵凌云", "国货品牌创始人", "鲸跃新团队", "直播间观众"],
+  "character_goal": "许闻溪重启国货品牌扶持计划，把惊喜母题回收到自我新生",
+  "opposition_goal": "外界质疑鲸跃经历丑闻后无法重建信任，赵凌云试探是否能帮她站台",
+  "conflict_action": "许闻溪拒绝赵凌云替她救场，亲自按下开播键，公开透明投流规则和首批品牌名单",
+  "information_gap": "结尾才揭示这一次惊喜不是给周砚礼，而是给她自己和新团队",
+  "emotional_debt_delta": "-事业补偿债 -惊喜债最终回收",
+  "payoff_or_hook": "女主站在聚光灯下，以掌权者身份开启新人生",
+  "chapter_end_hook": "许闻溪看着亮起的红灯说：这一次，是我的惊喜专场。",
+  "paywall_card": false,
+  "must_include": ["透明投流规则", "国货品牌扶持计划", "赵凌云尊重边界", "许闻溪亲自开播", "惊喜回旋"],
+  "must_not_write_as_exposition": ["不要让新感情救场", "不要用鸡汤收尾", "不要把事业新生写成恋爱补偿"]
+}

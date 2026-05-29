@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "教育局纪检监察室",
+  "time": "面试后第五天",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "沈墨白",
+    "顾念慈",
+    "周岩",
+    "纪检组长"
+  ],
+  "character_goal": "翻盘——让周岩当场翻供",
+  "opposition_goal": "沈墨白+表姐联合诬陷",
+  "conflict_action": "沈墨白+表姐作伪证→女主亮出转账截图→周岩动摇→女主给出最后一击→周岩翻供",
+  "information_gap": "沈墨白不知道女主有截图",
+  "emotional_debt_delta": "-4(证据链合龙大偿还)",
+  "payoff_or_hook": "M3因果回旋——沈墨白自己的转账毁了自己",
+  "chapter_end_hook": "周岩从包里掏出一摞银行流水摔在桌上：\"都是沈墨白转给我的。\"",
+  "paywall_card": true,
+  "must_include": [
+    "伪证的嚣张",
+    "证据亮出的戏剧性",
+    "翻供瞬间的冲击"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写庭审式问答流程",
+    "不要让翻供太顺利"
+  ],
+  "rhythm_job": {
+    "shape": "压制→反转→爆发",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  }
+}

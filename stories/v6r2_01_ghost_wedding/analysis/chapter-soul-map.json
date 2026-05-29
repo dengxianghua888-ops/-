@@ -1,0 +1,832 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [
+        1,
+        48
+      ],
+      "char_count": 920,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 17.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 5.4,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.72,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "震惊-压抑",
+        "emotion_arc": "平静 → 震惊 → 愕然 → 冷怒蓄力",
+        "emotion_intensity": 7,
+        "reader_feeling_target": "和女主同步震惊，对丈夫产生强烈厌恶，急切想知道她下一步动作"
+      },
+      "highlights": {
+        "peak_moment": "婆婆当众说女主是'福薄寿短的丧门星'，而公婆全程笑脸配合儿子的二婚",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "不仅丈夫背叛，连公婆都参与合谋——受恩者反噬",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "'就写诈尸的前妻'——读者瞬间被女主的冷幽默和杀气勾住"
+      },
+      "techniques": [
+        {
+          "technique": "冷幽默破冰",
+          "example": "代笔先生问我记谁的名字。我呲了呲牙告诉他：就写「诈尸的前妻。」",
+          "effect": "在极端痛苦情境中插入黑色幽默，让读者在震惊中笑出来，建立对女主'不好惹'人设的第一印象"
+        },
+        {
+          "technique": "偷听式信息获取",
+          "example": "刚想打招呼，就听见他俩的对话。'瑞阳终于苦尽甘来要再婚了。''谁说不是，前妻是个短命的'",
+          "effect": "用偷听建立信息差——女主知道真相但尚未暴露，读者获得'看她怎么收拾'的期待快感"
+        },
+        {
+          "technique": "量化对比首发",
+          "example": "他说，'婚纱照就是个形式，拍那么贵完全没有意义。'→ 这婚纱照一看就价格不菲",
+          "effect": "第一组A-B对比出场，用丈夫原话vs当前行为的直接冲突，建立'量化清算'的全文基调"
+        },
+        {
+          "technique": "悬置钩子",
+          "example": "这笔账等会儿再算。",
+          "effect": "明确告知读者'清算即将到来'，制造期待感，防止读者中途退出"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "就写「诈尸的前妻。」",
+          "structure": "极端身份标签+黑色幽默自指",
+          "why_it_works": "将'被宣告死亡'的痛苦转化为攻击性幽默，展现女主不是受害者而是复仇者的心态"
+        },
+        {
+          "text": "明明我活得好好的，怎么就死了？",
+          "structure": "事实陈述+荒诞反问",
+          "why_it_works": "用最朴素的逻辑质疑建立全文核心荒诞感，读者立刻被拉入'这到底怎么回事'的好奇"
+        },
+        {
+          "text": "我要是真丧，他们坟头草都不知道多高了？",
+          "structure": "假设反击+夸张后果",
+          "why_it_works": "暗示女主的厉害程度，为后续反击做人设铺垫"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "平缓-渐起",
+      "pacing_note": "靠信息差的逐步揭露维持张力，每个新信息点都增加一层愤怒",
+      "chapter_end_hook": {
+        "text": "徐万芳注意到我从宴会厅出来，笑着和我打招呼，'你是瑞阳同事吧？！'",
+        "hook_type": "contrast_shock",
+        "hook_technique": "新娘主动接触女主，不知面前之人就是'已死前妻'——信息差极致化",
+        "suspense_mechanism": "读者好奇：她会暴露吗？会当场揭穿吗？还是继续潜伏？"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [
+        49,
+        98
+      ],
+      "char_count": 960,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 19.2,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 4.1,
+        "direct_dialogue_rate": 0.44,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.78,
+        "sentence_avg_len": 17.8
+      },
+      "emotion": {
+        "dominant_emotion": "心寒-刺痛",
+        "emotion_arc": "试探接近 → 逐步心寒 → 刺痛累积 → 试探出击",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "替女主心疼，对渣男的'区别对待'感到极度愤怒，每一组对比都像刀子"
+      },
+      "highlights": {
+        "peak_moment": "得知丈夫每年有上百万公司分红，而只给妻子月交一万五底薪",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "不仅是出轨，更是长期系统性的经济欺诈——五年隐瞒百万级收入",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "伴娘无意中说出'每年光分红就上百万'——女主和读者同时被这个数字击中"
+      },
+      "techniques": [
+        {
+          "technique": "他人之口揭露法",
+          "example": "伴娘一脸艳羡，'听说你老公公司效益可好了，每年光分红就上百万'",
+          "effect": "关键信息不由当事人说出，而通过不知情的第三方自然流出，既有真实感又加倍刺痛（别人都知道，只有我不知道）"
+        },
+        {
+          "technique": "反讽闪回对照",
+          "example": "他说，'买那玩意儿干啥？不当吃不当穿的，你也不是那种物质女孩。'→ 六位数翡翠镯子",
+          "effect": "用丈夫当年的原话直接对照当下行为，原话变成最尖锐的讽刺武器"
+        },
+        {
+          "technique": "身体化情绪",
+          "example": "心像被捅个窟窿",
+          "effect": "拒绝抽象抒情，用物理感受外化心理状态，读者能'感觉到'痛而非'被告知'痛"
+        },
+        {
+          "technique": "试探性反击",
+          "example": "你就那么信任周瑞阳？没准儿他家外有家呢？",
+          "effect": "女主在压抑中泄露一丝攻击性，读者感受到'忍耐的极限正在逼近'的紧迫感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "心像被捅个窟窿",
+          "structure": "身体部位+暴力动作比喻",
+          "why_it_works": "不说'心痛'而说'被捅'，动词暴力化让情绪可感知"
+        },
+        {
+          "text": "他挣多少工资？你不是比我还清楚嘛。",
+          "structure": "反问+身份错位讽刺",
+          "why_it_works": "正妻反而成了'局外人'的荒诞现实，一句话浓缩了五年欺诈的本质"
+        },
+        {
+          "text": "你也不是那种物质女孩。",
+          "structure": "PUA话术原句引用",
+          "why_it_works": "让读者识别出操控术的具体话术，引发强烈的共鸣和愤怒——'我也被这样说过'"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "波浪递进",
+      "pacing_note": "靠量化对比的密度维持张力：镯子→分红→戒烟，每个新信息都是一次新打击",
+      "chapter_end_hook": {
+        "text": "你就那么信任周瑞阳？没准儿他家外有家呢？",
+        "hook_type": "silent_threat",
+        "hook_technique": "女主第一次在新娘面前露出攻击性——读者知道暴风雨要来了",
+        "suspense_mechanism": "新娘会警觉吗？女主会直接揭穿吗？下一章局势如何变化？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [
+        99,
+        148
+      ],
+      "char_count": 940,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 18.5,
+        "comma_period_ratio": 0.44,
+        "question_mark_density_per_1k": 3.2,
+        "direct_dialogue_rate": 0.46,
+        "short_line_rate_lte16": 0.6,
+        "impact_density": 0.85,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "冰凉-绝望认知",
+        "emotion_arc": "继续心寒 → 震惊（戒烟真相）→ 冰凉（做饭真相）→ 极致震怒（编造儿子已死）",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "当听到'前妻和儿子出车祸都走了'时，读者应该感到血液凝固般的愤怒——连孩子都不放过"
+      },
+      "highlights": {
+        "peak_moment": "新娘说出'他前妻和儿子前两年出车祸都走了'——丈夫连亲生骨肉都编造为死",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "不是只抹杀妻子，连亲生三岁儿子的存在都否定——突破人伦底线",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "'其实老周之前有过一段婚姻。他前妻和儿子……前两年出车祸，都走了。'——全文最强信息炸弹"
+      },
+      "techniques": [
+        {
+          "technique": "顿悟式反转",
+          "example": "原来不是手艺问题，是人不对。",
+          "effect": "用一句极简总结完成认知翻转——所有过去的'他不会做饭'的记忆被重新定义为'他不想为你做'"
+        },
+        {
+          "technique": "伴娘日常化揭露",
+          "example": "伴娘们非说徐万芳在炫耀……徐万芳咬了咬唇，忽然表情变得严肃",
+          "effect": "信息炸弹的引出用的是闺蜜间的日常玩闹语调，反差越日常→爆点越痛"
+        },
+        {
+          "technique": "独立短句封杀",
+          "example": "我手机差点儿掉地上。",
+          "effect": "在密集对话中突然插入一个独立短句描述物理反应，形成视觉和节奏上的'停顿一拍'——让读者也'停'下来感受这一刻"
+        },
+        {
+          "technique": "记忆翻新术",
+          "example": "三个月前，他突然转性了，直接将烟都扔进了垃圾桶……我当时还很感动",
+          "effect": "把曾经'感动'的记忆用新信息重新染色为'被愚弄'——情绪从正面记忆直接反转为负面，落差倍增"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "原来不是手艺问题，是人不对。",
+          "structure": "否定A+肯定B（排除法定性）",
+          "why_it_works": "极度简洁的逻辑判断，像法官宣判——冷静到让人心疼"
+        },
+        {
+          "text": "我当时还很感动，原来这烟是为另一个女人戒的，不是为我和儿子。",
+          "structure": "正面情绪记忆+真相反转+否定归属",
+          "why_it_works": "先召唤读者对'感动'的共情，再一句话粉碎——让读者和女主同步经历情绪坍塌"
+        },
+        {
+          "text": "他前妻和儿子……前两年出车祸，都走了。",
+          "structure": "第三人视角陈述+省略号制造犹疑感",
+          "why_it_works": "最痛的话由不知情的人用最平静的语气说出——反差制造最大化刺痛"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前半段靠日常对话节奏推进（做饭、戒烟），末尾突然扔出'妻儿都死了'的信息核弹，节奏骤紧",
+      "chapter_end_hook": {
+        "text": "其实老周之前有过一段婚姻。他前妻和儿子……前两年出车祸，都走了。这件事对他打击特别大，到现在都受不了。",
+        "hook_type": "revelation_half",
+        "hook_technique": "终极信息炸弹在章末投下——读者需要看到女主的反应和行动",
+        "suspense_mechanism": "连孩子都编造为死了，她还能忍吗？下一步必须爆发了吧？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [
+        149,
+        198
+      ],
+      "char_count": 880,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 18.0,
+        "comma_period_ratio": 0.5,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.9,
+        "sentence_avg_len": 17.2
+      },
+      "emotion": {
+        "dominant_emotion": "怒火压制-行动触发",
+        "emotion_arc": "极怒（编造儿子死）→ 被婆婆火上浇油 → 确认金条真相 → 冷静决定行动",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "读者的愤怒到达顶点，迫不及待地想看到女主出手——而章末她终于动了"
+      },
+      "highlights": {
+        "peak_moment": "女主走上舞台，用话筒说出'老公，结婚这么大的事怎么不告诉我一声？'",
+        "peak_type": "power_shift",
+        "emotional_bomb": "从潜伏者→公开出击者的角色转换，权力关系在这一句话中反转",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "章末金句'老公，结婚这么大的事怎么不告诉我一声？'——全文最强行动触发"
+      },
+      "techniques": [
+        {
+          "technique": "电话场景双线信息",
+          "example": "婆婆打来电话要88000→女主立刻知道这是改口费",
+          "effect": "用一通电话同时完成两件事：暴露婆婆的算计+让女主获得最后一块拼图，效率极高"
+        },
+        {
+          "technique": "数字精确对应",
+          "example": "五根金条，这不正好是周瑞阳这几年补给我的那几根吗？数字恰好对得上。",
+          "effect": "用'数字对得上'的推理瞬间建立因果——读者和女主同时完成拼图，共享'原来如此'的顿悟"
+        },
+        {
+          "technique": "冷静一句话转场",
+          "example": "笑吧，现在笑得有多欢，一会儿哭得就有多难看。",
+          "effect": "女主的内心独白从'被动承受痛'切换为'冷静预告复仇'，读者感知到猎手已经就位"
+        },
+        {
+          "technique": "舞台夺麦式开场白",
+          "example": "老公，结婚这么大的事怎么不告诉我一声？",
+          "effect": "用日常语调说出致命话语——'结婚这么大的事'的日常化处理让爆炸感倍增"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "老公，结婚这么大的事怎么不告诉我一声？",
+          "structure": "亲密称呼+日常关切语气+致命内容",
+          "why_it_works": "用妻子的日常语气说出炸弹级内容——越平常的语调越恐怖"
+        },
+        {
+          "text": "笑吧，现在笑得有多欢，一会儿哭得就有多难看。",
+          "structure": "现在时态+将来时态对比预告",
+          "why_it_works": "猎人俯视猎物的优越感，读者和女主站在同一阵营等着看好戏"
+        },
+        {
+          "text": "他的剧本不但把我写死了，连我儿子都没放过。",
+          "structure": "递进否定（不但A，连B都）+拟物化（剧本）",
+          "why_it_works": "'剧本'一词精准概括了丈夫的欺骗本质——这不是一个错误，是精心编写的谎言"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前80%继续蓄力（电话+金条），最后20%一句话完成从蓄力到爆发的转折",
+      "chapter_end_hook": {
+        "text": "老公，结婚这么大的事怎么不告诉我一声？",
+        "hook_type": "power_reversal",
+        "hook_technique": "全文最强一句话作为章末钩——从暗处走到明处的第一声",
+        "suspense_mechanism": "全场会是什么反应？丈夫怎么应对？新娘懵不懵？接下来会怎样？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [
+        199,
+        248
+      ],
+      "char_count": 950,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 17.5,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 5.2,
+        "direct_dialogue_rate": 0.52,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.92,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "爆发-碾压",
+        "emotion_arc": "全场静默 → 渣男恳求 → 女主不让 → 连续打击 → 逼问公婆",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "肾上腺素飙升，为女主的每一句话叫好，恨不得自己上去帮她打耳光"
+      },
+      "highlights": {
+        "peak_moment": "女主甩手一个耳光扇在丈夫脸上，随后连珠炮式揭露所有事实",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "当众揭穿'前妻活着、儿子活着、丧门星是假的'——全场认知翻转",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "冷笑一声甩手一个耳光——物理暴力+语言暴力的同步输出"
+      },
+      "techniques": [
+        {
+          "technique": "全场反应切镜",
+          "example": "宴会厅瞬间鸦雀无声……议论声像潮水般炸开了锅。'这什么情况？''台上那女的是谁？'",
+          "effect": "用群体反应作为情绪放大器——不是只有当事人震惊，是所有人都震惊，爽感乘以人数"
+        },
+        {
+          "technique": "多方表情切片",
+          "example": "周瑞阳的表情活像见了鬼……公婆两张脸由红转白再由白转青……徐万芳整个人都懵了",
+          "effect": "快速切镜式描写三方反应，让读者360度感受到这一炸的威力"
+        },
+        {
+          "technique": "恳求-拒绝节奏",
+          "example": "'绮云，有什么事等婚礼过后再说行吗？'我一把甩开周瑞阳，'不行，等不了！'",
+          "effect": "渣男每恳求一次被拒一次，形成'求→拒→求→拒'的节奏，每次拒绝都让女主气场更强"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你都停妻再娶了，我凭什么不闹？",
+          "structure": "对方行为+反问自身权利",
+          "why_it_works": "用最朴素的逻辑堵死'体面'的道德绑架——你做了最极端的事，就别要求我体面"
+        },
+        {
+          "text": "周瑞阳的表情活像见了鬼。",
+          "structure": "主语+比喻（活像见了鬼）",
+          "why_it_works": "'见了鬼'呼应'被宣告死亡'的设定——他确实见了'鬼'——自己亲手杀死的'鬼'"
+        },
+        {
+          "text": "公婆两张脸由红转白，再由白转青。",
+          "structure": "主语+颜色渐变三段式",
+          "why_it_works": "颜色变化可视化了心理崩塌的过程——读者能'看见'他们怎么垮的"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话密度维持高压——每个人都在说话，每句话都在推进局势",
+      "chapter_end_hook": {
+        "text": "婆婆，这话是你亲口说的吧！",
+        "hook_type": "silent_threat",
+        "hook_technique": "火力转向帮凶——揭穿丈夫后转向公婆，暗示清算还没结束",
+        "suspense_mechanism": "婆婆会怎么反应？女主还要揭多少？量化清算要开始了？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [
+        249,
+        308
+      ],
+      "char_count": 1020,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 19.0,
+        "comma_period_ratio": 0.46,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.4,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.88,
+        "sentence_avg_len": 18.2
+      },
+      "emotion": {
+        "dominant_emotion": "清算快感-心酸交织",
+        "emotion_arc": "怒火输出 → 逐笔清算 → 短暂哽咽 → 继续输出 → 金条真相大白",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "为女主的每一笔清算拍手叫好，同时在'哽咽'处心疼——复合情绪体验"
+      },
+      "highlights": {
+        "peak_moment": "揭露金条改口费真相——'五根金条，婆婆，我没说错吧？'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "丈夫补给妻子的'补偿'转眼就被婆婆拿去给新媳——算计到骨头渣子",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "女主列举自己的付出（按摩椅、端屎端尿、炖汤）vs被对待方式，读者被'不值得'的感觉淹没"
+      },
+      "techniques": [
+        {
+          "technique": "控诉清单化",
+          "example": "我每个月工资发了第一件事就是给公婆转生活费。逢年过节，衣服、补品、红包，吃食，一样都没有少过！",
+          "effect": "用具体事项列举的方式呈现付出——越具体越让读者感到'这一切都白费了'的不值"
+        },
+        {
+          "technique": "短暂脆弱展露",
+          "example": "我忽然哽了一下，为自己这么多年的付出不值。缓了好久，我才再次开口",
+          "effect": "在全程冷静的清算中突然露出一丝脆弱——让女主从'复仇机器'回归'人'，读者心疼倍增"
+        },
+        {
+          "technique": "旁观者道德裁判",
+          "example": "'这也太不是东西了！''人家拿真心待他们，他们把人家当傻子耍？'",
+          "effect": "宾客的议论代替读者发声——读者的愤怒被角色替代表达，产生'共鸣放大器'效果"
+        },
+        {
+          "technique": "追问式逼供",
+          "example": "那你知道，为什么你的改口费突然变成金条了吗？",
+          "effect": "不直接揭穿，而是用引导式提问让对方'自己'走向答案——比直说更有戏剧性"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你在周家人眼里是高价聘来的，我是白送的丧门星。",
+          "structure": "你是A，我是B（身份对照+贬损标签）",
+          "why_it_works": "用一句话浓缩了两个女人在同一家庭中的待遇落差——标签化让对比更刺痛"
+        },
+        {
+          "text": "你们一家子对我真是算计到骨头渣子了。",
+          "structure": "主语+动作+程度副词（到骨头渣子）",
+          "why_it_works": "'骨头渣子'这个日常化比喻让'算计'变得可感——不是抽象的坏，是剥了又剥刮了又刮"
+        },
+        {
+          "text": "你的改口费是八万八，我的改口费是一千八。",
+          "structure": "你的X是A，我的X是B（同结构不同数字对照）",
+          "why_it_works": "同一句式填入不同数字，数字本身就是最锋利的武器——无需任何形容词"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度（逐笔清算）+ 旁观者反应交替维持节奏，不给读者喘息空间",
+      "chapter_end_hook": {
+        "text": "阿姨，她说的是真的吗？",
+        "hook_type": "question_bomb",
+        "hook_technique": "新娘转向婆婆追问——战线从'女主vs渣男'扩展为'全场vs渣男一家'",
+        "suspense_mechanism": "婆婆会承认吗？新娘会崩溃吗？接下来还有什么更大的雷？"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [
+        309,
+        358
+      ],
+      "char_count": 850,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.8,
+        "comma_period_ratio": 0.4,
+        "question_mark_density_per_1k": 4.7,
+        "direct_dialogue_rate": 0.5,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.95,
+        "sentence_avg_len": 14.5
+      },
+      "emotion": {
+        "dominant_emotion": "暴雷-双重崩塌",
+        "emotion_arc": "新娘追问 → 丈夫承认假证 → 新娘崩溃 → 女主冷静定性",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "看到假证暴雷时倒吸冷气——渣男的恶比想象的还深；然后为'你脏了'这句话拍案"
+      },
+      "highlights": {
+        "peak_moment": "丈夫亲口承认结婚证是伪造的——'假的。结婚证是伪造的。我……我和绮云的结婚证才是真的。'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "新娘五年的感情建立在伪造国家证件之上——她连法律上的妻子都不是",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "'假的'两个字——用最短的回答承认最大的罪"
+      },
+      "techniques": [
+        {
+          "technique": "极简回答式暴雷",
+          "example": "'假的。结婚证是伪造的。'",
+          "effect": "最大的秘密用最短的句子揭露——简洁度与信息量的极端反差制造冲击力"
+        },
+        {
+          "technique": "双面耳光对照",
+          "example": "啪——一记耳光……啪——又是一记耳光",
+          "effect": "新娘和正妻先后打耳光，形成'两个受害者的愤怒汇合'——爽感叠加"
+        },
+        {
+          "technique": "情绪温度对比",
+          "example": "徐万芳'五年的感情你用钱打发了？' vs 女主'至少他对你，比对我好太多了'",
+          "effect": "两个女人的痛苦并置——新娘哭喊vs正妻冷静，温度差让正妻的克制更有力量"
+        },
+        {
+          "technique": "一句话定性",
+          "example": "周瑞阳，你脏了。",
+          "effect": "不用长篇大论的控诉，用一个极简的形容词完成对一个人的终极评价——'脏'比任何辱骂都更致命"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "周瑞阳，你脏了。",
+          "structure": "全名称呼+极简定性（你+形容词）",
+          "why_it_works": "不骂、不哭、不解释——三个字比一千字的控诉更有杀伤力。'脏'是不可逆的评价，不是情绪而是判决"
+        },
+        {
+          "text": "你说不出来，因为你根本没觉得自己错了。你只是——被发现了。",
+          "structure": "否定对方的表面忏悔+破折号揭露本质",
+          "why_it_works": "直接拆穿'道歉'的虚伪——'没觉得错'+'被发现了'让读者意识到这不是犯错是犯罪心态"
+        },
+        {
+          "text": "假的。结婚证是伪造的。",
+          "structure": "极短判断句+补充说明",
+          "why_it_works": "越短的句子越重——当关键信息缩短到两个字时，爆炸力最大"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半靠追问节奏推进，后半靠连续耳光和短句轰炸加速——读者被裹挟着往前冲",
+      "chapter_end_hook": {
+        "text": "我心里像被人投了一把碎冰，感觉一切都像是一场闹剧。'至少他对你，比对我好太多了。'",
+        "hook_type": "contrast_shock",
+        "hook_technique": "女主在新娘崩溃时说出'他对你比对我好'——最大的受害者反而最冷静",
+        "suspense_mechanism": "她接下来要怎么做？是要原谅还是要追究？法律武器什么时候亮出来？"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [
+        359,
+        428
+      ],
+      "char_count": 1100,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 17.2,
+        "comma_period_ratio": 0.38,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.66,
+        "impact_density": 0.93,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "冷静宣判-绝不退让",
+        "emotion_arc": "量化清算（戒烟/做饭/缺席）→ 三条宣判 → 婆婆反扑 → 冷静碾压 → 转身离场",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "极致爽感——三条清算声明像判决书一样，读者替女主感到扬眉吐气"
+      },
+      "highlights": {
+        "peak_moment": "女主提出三条清算——追回财产、追究重婚罪、离婚",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "从私人情感清算升维到法律制裁——不是求他道歉，而是送他坐牢",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "第二……第三——离婚。'每一条都是递进的打击，第三条最简单也最决绝"
+      },
+      "techniques": [
+        {
+          "technique": "三段式宣判",
+          "example": "第一，追回……第二，追究……第三——离婚。",
+          "effect": "用法律文书的编号格式宣判——冷静、理性、不可商量，每一条之间的停顿都是无声的力量"
+        },
+        {
+          "technique": "帮凶反扑-碾压节奏",
+          "example": "婆婆跳脚'你凭什么分财产' → 女主'凭我手里攥着真结婚证'",
+          "effect": "先让帮凶嚣张（提升读者愤怒），再一句话碾压——'先给你希望再打碎'的反向运用"
+        },
+        {
+          "technique": "满堂证人的法律锁定",
+          "example": "我转身环指满堂宾客，'这么多人都看着呢。'台下有人高声附和，'就是！我们可以作证。'",
+          "effect": "用群体力量完成法律证据链的闭合——婚礼变成了审判庭，宾客变成了陪审团"
+        },
+        {
+          "technique": "施舍式和解的打脸拒绝",
+          "example": "'这件事就这么算了，我以后回归家庭' → 扬手再次狠狠一巴掌",
+          "effect": "渣男试图用'施舍'收场，被物理暴力拒绝——耳光的声音就是拒绝的声音"
+        },
+        {
+          "technique": "缺席父亲的时间量化",
+          "example": "整整五年，你有一万八千多个机会可以回头",
+          "effect": "把'五年'换算成'一万八千多个机会'——抽象时间变成可计数的背叛"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "第一，追回你婚内赠予徐万芳的全部财产，一分不能少。第二，追究你的重婚罪，在场所有人都是证人。第三——离婚。",
+          "structure": "编号递进+最后一条最短最重（破折号延迟释放）",
+          "why_it_works": "三条声明从财产→刑事→关系切断，层层升维。最后'离婚'两字最简短但最决绝——不需要理由"
+        },
+        {
+          "text": "你心安理得让我陪你吃苦，却没打算跟我同甘。",
+          "structure": "吃苦/同甘对比+心安理得定性",
+          "why_it_works": "把五年婚姻的本质压缩成一句格言——'吃苦vs同甘'的古语化表达让道德判断变得不可辩驳"
+        },
+        {
+          "text": "整整五年，你有一万八千多个机会可以回头，你有过哪怕一次觉得良心不安吗？",
+          "structure": "时间量化+反问（一万八千个→哪怕一次）",
+          "why_it_works": "大数字vs'哪怕一次'的极端反差——证明这不是一时冲动而是长期蓄意"
+        },
+        {
+          "text": "你没有。我替他答了。你心安理得让我陪你吃苦，却没打算跟我同甘。",
+          "structure": "替对方回答+定性总结",
+          "why_it_works": "不给对方开口的机会——'我替他答了'是极致的控场力展示"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话节奏和反击密度维持——每一次渣男/婆婆的回应都成为女主新一轮打击的弹药",
+      "chapter_end_hook": {
+        "text": "周瑞阳，你脏了。",
+        "hook_type": "death_declaration",
+        "hook_technique": "一句话宣判人格死刑——不是'我恨你'而是'你脏了'，判决式结语",
+        "suspense_mechanism": "她会真的走法律程序吗？能判几年？新娘怎么办？结局如何？"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [
+        429,
+        480
+      ],
+      "char_count": 780,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 20.5,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 2.5,
+        "direct_dialogue_rate": 0.3,
+        "short_line_rate_lte16": 0.48,
+        "impact_density": 0.6,
+        "sentence_avg_len": 20.2
+      },
+      "emotion": {
+        "dominant_emotion": "正义落地-温暖新生",
+        "emotion_arc": "法律制裁确认 → 新娘道歉 → 母子重逢 → 积木意象 → 万家灯火收束",
+        "emotion_intensity": 7,
+        "reader_feeling_target": "正义感被完全满足后，在母子积木场景中感到温暖和治愈——带着笑离开"
+      },
+      "highlights": {
+        "peak_moment": "法院判决周瑞阳重婚罪成立，有期徒刑一年六个月",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "法律的铁锤落下——不是私刑，是国家公权力的正义",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "儿子搭积木说'这是妈妈的房间'——日常细节完成情绪着陆"
+      },
+      "techniques": [
+        {
+          "technique": "法律结果简报式",
+          "example": "法院判决……周瑞阳重婚罪成立，判处有期徒刑一年六个月",
+          "effect": "用新闻简报的冷静语调呈现法律结果——不渲染不拖沓，事实本身就是最好的爽感"
+        },
+        {
+          "technique": "日常细节情绪着陆",
+          "example": "他正坐在地板上搭积木，推倒了又搭，搭一座歪歪扭扭的房子",
+          "effect": "用儿子搭积木的日常画面将情绪从法庭的严肃拉回生活的温暖——从高压到平静的完美过渡"
+        },
+        {
+          "technique": "意象照应升华",
+          "example": "这一次，我和儿子的家我们自己搭，每一块都作数。",
+          "effect": "积木→房子→家→人生，一个物象完成多层隐喻的升华——不说大道理，用具象物承载抽象含义"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "这一次，我和儿子的家我们自己搭，每一块都作数。",
+          "structure": "这一次+主语动作+每一块都作数（价值确认）",
+          "why_it_works": "'每一块都作数'与之前'五年不作数'形成终极对照——从被否定到自我肯定的完成"
+        },
+        {
+          "text": "窗外已经黑了，这座城市的万家灯火一扇一扇地亮起来，其中有一扇，是我和儿子的。",
+          "structure": "全景→聚焦（万家灯火→其中一扇）",
+          "why_it_works": "从宏观到微观的镜头推移，让'一扇窗'有了'万家灯火中的独立存在'的尊严感"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "前快后慢",
+      "pacing_note": "前半靠法律结果的信息密度快速推进，后半靠日常细节的缓慢展开完成情绪着陆",
+      "chapter_end_hook": {
+        "text": "窗外已经黑了，这座城市的万家灯火一扇一扇地亮起来，其中有一扇，是我和儿子的。这一次，我和儿子的家我们自己搭，每一块都作数。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "不是悬念钩子而是情绪着陆钩——用温暖收束全文，让读者带着满足感离开",
+        "suspense_mechanism": "无悬念，纯治愈——给读者一个'值得读完'的情感回报"
+      }
+    }
+  ],
+  "global_soul_signature": "用量化对比代替抒情控诉，用冷静逻辑代替情绪崩溃，用法律武器代替暴力复仇——这是一篇'理性愤怒'的范本，爽感来自'她比你更聪明、更克制、更有力'",
+  "character_voices": [
+    {
+      "role": "女主（李绮云）",
+      "speech_pattern": {
+        "avg_utterance_length": 18,
+        "口癖": [
+          "凭什么",
+          "你觉得",
+          "原来",
+          "你说",
+          "我倒要看看"
+        ],
+        "语气词": [],
+        "句式特征": "短句连击、反问驱动、冷静陈述事实后一句话定性，绝不拖泥带水",
+        "禁用词": [
+          "求你了",
+          "为什么要这样对我",
+          "呜呜",
+          "我好难过",
+          "给个机会"
+        ],
+        "情绪表达方式": "不哭不喊，通过动作（甩耳光、转身）和冷静短句输出愤怒，偶尔一句自嘲",
+        "典型台词示例": [
+          "就写「诈尸的前妻。」",
+          "你都停妻再娶了，我凭什么不闹？",
+          "周瑞阳，你脏了。",
+          "第一，追回你婚内赠予徐万芳的全部财产，一分不能少。"
+        ]
+      }
+    },
+    {
+      "role": "渣男（周瑞阳）",
+      "speech_pattern": {
+        "avg_utterance_length": 14,
+        "口癖": [
+          "绮云",
+          "别闹了",
+          "我错了",
+          "你别说了",
+          "回头再说"
+        ],
+        "语气词": [
+          "行吗",
+          "好吗"
+        ],
+        "句式特征": "哀求式短句+试图拖延，开头常带对方名字试图建立亲密感，被揭穿后只会重复道歉",
+        "禁用词": [
+          "我解释",
+          "你听我说完",
+          "事情不是这样的"
+        ],
+        "情绪表达方式": "从沉默→哀求→沉默的循环，绝不正面回应质问，只想让事情过去",
+        "典型台词示例": [
+          "绮云，有什么事等婚礼过后再说行吗？",
+          "万芳，对不起，我……",
+          "这件事就这么算了，我以后回归家庭，跟你好好过日子。",
+          "假的。结婚证是伪造的。"
+        ]
+      }
+    },
+    {
+      "role": "婆婆",
+      "speech_pattern": {
+        "avg_utterance_length": 22,
+        "口癖": [
+          "我跟你说",
+          "你听听",
+          "天经地义",
+          "不行",
+          "我就知道"
+        ],
+        "语气词": [
+          "嘛",
+          "啊",
+          "哎"
+        ],
+        "句式特征": "居高临下的命令句+道德绑架式长句，擅长偷换概念和转移焦点",
+        "禁用词": [
+          "对不起",
+          "我错了",
+          "你说得对"
+        ],
+        "情绪表达方式": "平时靠嘲讽和道德绑架施压，被揭穿后缩成鹌鹑不说话，涉及钱时立刻跳脚",
+        "典型台词示例": [
+          "自从瑞阳认识他，一年比一年顺，不像前头那个，福薄寿短，丧门星一个。",
+          "你赶紧给我转八万八，我有急用。",
+          "伺候公婆天经地义！",
+          "那是我儿子的血汗钱，你要离婚可以，卷铺盖走人，一分钱都别想拿走！"
+        ]
+      }
+    },
+    {
+      "role": "新娘（徐万芳）",
+      "speech_pattern": {
+        "avg_utterance_length": 16,
+        "口癖": [
+          "我家瑞阳",
+          "你说的",
+          "怎么可能",
+          "我不信"
+        ],
+        "语气词": [
+          "呢",
+          "嘛",
+          "吧"
+        ],
+        "句式特征": "从幸福小女人语气（撒娇+炫耀）突变为崩溃质问（短句+重复），转折明显",
+        "禁用词": [
+          "活该",
+          "我早该知道"
+        ],
+        "情绪表达方式": "前期天真炫耀，被揭穿后从不相信→震惊→崩溃哭泣→暴力宣泄（打人）",
+        "典型台词示例": [
+          "他哪是不吸烟，他是想要个蜜月宝宝，主动戒的烟。",
+          "这……这怎么可能……",
+          "你让我怎么办？我要怎么办？",
+          "五年，整整五年！我心里把你当成完美丈夫！"
+        ]
+      }
+    }
+  ]
+}

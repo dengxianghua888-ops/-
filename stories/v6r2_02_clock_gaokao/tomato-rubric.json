@@ -1,0 +1,73 @@
+{
+  "story": "stories/v6r2_02_clock_gaokao",
+  "overall_score": 6.3,
+  "dimensions": {
+    "length_alignment": {
+      "score": 4.53,
+      "evidence": "总字数 6816,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "no chapters"
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 3/2"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 31.397/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 12.499,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 5.3,
+      "evidence": "源/稿均行长 16.897/11.286, 短行率 0.5758/0.7816, 对白行率 0.2727/0.3536; avg_line_chars 11.29 below source-rhythm floor 13.18；short_line_rate 0.782 over-fragments source rhythm 0.576",
+      "details": {
+        "status": "fail",
+        "applicable": true,
+        "source": {
+          "chars": 10037,
+          "line_count": 594,
+          "avg_line_chars": 16.897,
+          "median_line_chars": 15.0,
+          "short_line_rate": 0.5758,
+          "long_line_rate": 0.0185,
+          "quote_line_rate": 0.2727,
+          "barrage_line_rate": 0.0017,
+          "question_marks_per_k": 5.579,
+          "comma_period_ratio": 0.929,
+          "sentence_avg_len": 20.2
+        },
+        "candidate": {
+          "chars": 6512,
+          "line_count": 577,
+          "avg_line_chars": 11.286,
+          "median_line_chars": 9.0,
+          "short_line_rate": 0.7816,
+          "long_line_rate": 0.0139,
+          "quote_line_rate": 0.3536,
+          "barrage_line_rate": 0.0017,
+          "question_marks_per_k": 4.146,
+          "comma_period_ratio": 0.443,
+          "sentence_avg_len": 12.5
+        },
+        "failures": [
+          "avg_line_chars 11.29 below source-rhythm floor 13.18",
+          "short_line_rate 0.782 over-fragments source rhythm 0.576"
+        ]
+      }
+    },
+    "mobile_readability": {
+      "score": 9.5,
+      "evidence": "1 段违规"
+    }
+  },
+  "rework_targets": [
+    "source_rhythm_fit"
+  ],
+  "pass_threshold": 8.0,
+  "status": "fail"
+}

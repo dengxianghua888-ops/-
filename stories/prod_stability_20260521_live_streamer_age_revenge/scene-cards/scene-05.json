@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 620,
+  "target_chars_max": 760,
+  "location": "林家二次饭局包厢",
+  "time": "当晚",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "林薇薇",
+    "苏曼",
+    "林振宏",
+    "顾淮川"
+  ],
+  "character_goal": "摸清继妹和继母的真实夺权边界。",
+  "opposition_goal": "林薇薇要借顾淮川热度与父亲偏心，逼她让出老宅和项目。",
+  "conflict_action": "林薇薇端酒逼她给顾淮川道歉，苏曼顺势谈老宅归属和公司项目，顾淮川在旁默认。",
+  "information_gap": "她们以为父亲一句偏心就能等于资产归属。",
+  "emotional_debt_delta": "家庭线主债显形：继妹不是嘴贱，是实打实想夺权。",
+  "payoff_or_hook": "从情感背叛升级到资源与家产背叛。",
+  "chapter_end_hook": "林见棠看见林薇薇包里那串配好的老宅钥匙。",
+  "paywall_card": false,
+  "must_include": [
+    "逼敬酒或逼道歉的具体动作",
+    "林薇薇至少一句把家产说成理所当然的话",
+    "顾淮川在家庭战场站到林薇薇那边",
+    "一个视觉细节锁定夺产欲，比如钥匙、房卡、文件夹"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开家族陈年恩怨",
+    "不要让所有人轮流骂街",
+    "不要写旁观亲戚名单"
+  ],
+  "rhythm_job": {
+    "shape": "逼酒1拍+逼让位2拍+钥匙特写1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": ""
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "老戏楼侧台与雨廊",
+  "time": "深夜",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想知道三年前雨巷相遇是不是巧合，自己究竟是不是被选中的那一个。",
+  "opposition_goal": "陆砚辞要把真相说清，但也得承认自己用离婚保护她的错。",
+  "conflict_action": "陆砚辞拿出旧票根、断扣和她修过的样稿，带她一步步对回三年前那场雨夜。",
+  "information_gap": "他为什么提前认出她；为何宁愿离婚也不肯早说。",
+  "emotional_debt_delta": {
+    "替身债": "-3",
+    "解释债": "-2",
+    "仪式债": "+1"
+  },
+  "payoff_or_hook": "‘不是被你捡，是我想让你捡。’这句要靠实物链条撑住。",
+  "chapter_end_hook": "温瓷攥着那枚旧扣子，终于明白自己从来不是谁的代替。",
+  "paywall_card": true,
+  "must_include": [
+    "旧票根、断扣、样稿至少两样实物",
+    "三年前雨巷被捡的回环",
+    "温瓷不是立刻大哭，而是慢半拍听懂",
+    "至少2条弹幕/评论，其中1条卡顿认错"
+  ],
+  "must_not_write_as_exposition": [
+    "不要整段倒叙复盘",
+    "不要写成命运论独白",
+    "不要省略陆砚辞认错自己做法笨"
+  ],
+  "rhythm_job": {
+    "shape": "物证串联-短句揭真-慢半拍消化-温柔截断",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "对白3成，动作4成，弹幕2成，留白1成"
+  }
+}

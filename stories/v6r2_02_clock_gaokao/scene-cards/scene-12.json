@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-08b",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "target_chars_min": 540,
+  "target_chars_max": 620,
+  "location": "工厂外空地·特警指挥车旁",
+  "time": "晚上8:22，态度翻转后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "特警队长", "玩家家属群体"],
+  "character_goal": "沈听澜要让专业力量相信她、配合她行动",
+  "opposition_goal": "特警队长需要在极短时间内判断这个25岁的姑娘是否可信",
+  "conflict_action": "沈听澜平静地说出'钟慢了一分钟'的完整含义，这次所有人安静听完",
+  "information_gap": "沈听澜开始释放信息——但只说'有办法'，不说具体方案",
+  "emotional_debt_delta": "信任债开始偿还——从无人信到所有人等着听她说",
+  "payoff_or_hook": "钩子：特警队长问'他们还有救吗？'——在最爽时刻注入生死悬念",
+  "chapter_end_hook": "特警队长问'里面的人还有救吗？'——在爽感最高点拉回生死线",
+  "paywall_card": false,
+  "must_include": ["沈听澜平静叙述（同一句话第三次说出，这次没人打断）", "重复句的回旋力", "特警队长的专业判断", "生死悬念注入"],
+  "must_not_write_as_exposition": ["完整的科学解释（留给下章）", "沈听澜的心理活动"],
+  "rhythm_job": {
+    "shape": "爆发→新悬念（爽感→冷水）",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 15.0,
+    "dominant_emotion": "逆转-爽感释放",
+    "emotion_arc": "她平静叙述 → 所有人信服 → 生死问题投入",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "被她的冷静和格局震撼——然后被'还有救吗'这个问题抓回悬念",
+    "required_techniques": [
+      {
+        "technique": "主角冷静陈述VS群体情绪失控",
+        "instruction": "所有人哭喊时她平静开口——她的强大不是怒吼而是平静"
+      },
+      {
+        "technique": "重复句强化记忆",
+        "instruction": "同一句话第三次出现（'钟慢了一分钟'），前两次被嘲笑，这次所有人跪着听"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "我本来想+更大的善意",
+        "example": "我本来想让所有人都出来的。",
+        "instruction": "当所有人在求她时，她说的不是'活该'而是'我本来想救所有人'——人格升华"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "对比式",
+    "source_excerpt": "我再次说出那句话：\"考场里的时间慢了一分钟。\"这次没人打断我。指挥官表情凝重：\"他们还有救吗？\"我本来想让所有人都出来的。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["时间慢了一分钟", "有办法"],
+      "句式": "冷静事实陈述，极短",
+      "单句上限": 16,
+      "禁止": "情绪化、长篇大论"
+    }
+  }
+}

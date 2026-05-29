@@ -1,0 +1,151 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 11500},
+  "title": "红章",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1_dead_loop_reversal", "M3_causal_boomerang", "M6_progressive_escalation"],
+  "opening_structure": "conclusion_first",
+  "opening_summary_lines": 10,
+  "climax_budget_note": "beats B8-B9-B10 are climax, get 35-40% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "红章落下",
+      "budget_role": "opening", "budget_pct": "12%",
+      "target_chars_min": 750, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "scene_ids": ["S01"],
+      "must_include": ["结论前置摘要（前10行冷静剧透逻辑链）", "张松盖章动作", "PH试纸盒伏笔"]
+    },
+    {
+      "beat_id": "B2", "title": "PPT威压",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 600, "target_chars_max": 750,
+      "is_climax_beat": false,
+      "scene_ids": ["S02"],
+      "must_include": ["三页类案PPT", "切页声节拍", "检测报告被挡回"]
+    },
+    {
+      "beat_id": "B3", "title": "黑屏直播",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 600, "target_chars_max": 750,
+      "is_climax_beat": false,
+      "scene_ids": ["S03"],
+      "must_include": ["弹幕误导", "直播被强制关闭", "阿德慌张"]
+    },
+    {
+      "beat_id": "B4", "title": "视频逼签",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 650, "target_chars_max": 800,
+      "is_climax_beat": false,
+      "scene_ids": ["S04"],
+      "must_include": ["陈悦视频出现", "团团哭喊", "视频被挂断"]
+    },
+    {
+      "beat_id": "B5", "title": "封条+断供",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 550, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "scene_ids": ["S05"],
+      "must_include": ["三次'合规说不行'", "工坊贴封条", "PH试纸盒被踢到水沟"]
+    },
+    {
+      "beat_id": "B6", "title": "离婚笔",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 550, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "scene_ids": ["S06"],
+      "must_include": ["离婚协议三页", "笔上团团划痕", "陈悦'我不是要你今天签'"]
+    },
+    {
+      "beat_id": "B7", "title": "啪——取证",
+      "budget_role": "buildup", "budget_pct": "6%",
+      "target_chars_min": 500, "target_chars_max": 650,
+      "is_climax_beat": false,
+      "scene_ids": ["S07"],
+      "must_include": ["档案室补打印", "孙律师三次递申请", "盖章声'啪'"]
+    },
+    {
+      "beat_id": "B8", "title": "计算器反杀",
+      "budget_role": "climax", "budget_pct": "13%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": true,
+      "scene_ids": ["S08"],
+      "must_include": ["决定书拍台面", "计算器4次按键", "三亿数字", "刷卡还是转账"]
+    },
+    {
+      "beat_id": "B9", "title": "汗滴死环",
+      "budget_role": "climax", "budget_pct": "14%",
+      "target_chars_min": 950, "target_chars_max": 1150,
+      "is_climax_beat": true,
+      "scene_ids": ["S09"],
+      "must_include": ["M1死环二选一逼问", "张松答不出", "汗滴签字处", "路队长介入"]
+    },
+    {
+      "beat_id": "B10", "title": "群众三单",
+      "budget_role": "climax", "budget_pct": "9%",
+      "target_chars_min": 700, "target_chars_max": 850,
+      "is_climax_beat": true,
+      "scene_ids": ["S10"],
+      "must_include": ["三位受害店主", "各自决定书并排", "老郑'流水八千贴了一百二十万'"]
+    },
+    {
+      "beat_id": "B11", "title": "流水曝光",
+      "budget_role": "closure_start", "budget_pct": "7%",
+      "target_chars_min": 550, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "scene_ids": ["S11"],
+      "must_include": ["张松银行流水七笔116万", "周某网红品牌法人", "羽毛球队借口"]
+    },
+    {
+      "beat_id": "B12", "title": "法槌",
+      "budget_role": "closure", "budget_pct": "5%",
+      "target_chars_min": 450, "target_chars_max": 600,
+      "is_climax_beat": false,
+      "scene_ids": ["S12"],
+      "must_include": ["受贿罪九年+滥权五年=十一年", "法槌落下", "旁听席三店主"]
+    },
+    {
+      "beat_id": "B13", "title": "手心",
+      "budget_role": "closure", "budget_pct": "4%",
+      "target_chars_min": 350, "target_chars_max": 500,
+      "is_climax_beat": false,
+      "scene_ids": ["S13"],
+      "must_include": ["老姨法院外拦住", "儿子十年前假药案", "手心比纸还薄"]
+    },
+    {
+      "beat_id": "B14", "title": "颈窝",
+      "budget_role": "closure", "budget_pct": "5%",
+      "target_chars_min": 400, "target_chars_max": 550,
+      "is_climax_beat": false,
+      "scene_ids": ["S14"],
+      "must_include": ["工坊重开", "团团'爸爸不走了'", "陈悦未和好但送团团来"]
+    },
+    {
+      "beat_id": "B15", "title": "酸碱",
+      "budget_role": "closure", "budget_pct": "4%",
+      "target_chars_min": 350, "target_chars_max": 500,
+      "is_climax_beat": false,
+      "scene_ids": ["S15"],
+      "must_include": ["援助站锦旗", "教新来小老板'让他们盖章让他们赔'", "张松牢里念酸碱"]
+    }
+  ],
+  "quality_floor": {
+    "min_chars": 10000,
+    "min_chapters": 13,
+    "min_paywall_cards": 4,
+    "hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [16, 26],
+    "short_line_rate_lte_16_min": 0.30,
+    "short_line_rate_lte_16_max": 0.55,
+    "direct_dialogue_line_rate_min": 0.25,
+    "direct_dialogue_line_rate_max": 0.45,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 8.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

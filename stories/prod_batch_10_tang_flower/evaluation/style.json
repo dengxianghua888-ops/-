@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "evidence": [
+    {
+      "point": "physical_props",
+      "quote": "袖扣、腕带、调拨单、白百合、急救车模型、U盘、交换同意书、断裂袖扣。",
+      "assessment": "道具连续承载情绪债。"
+    },
+    {
+      "point": "line_memory",
+      "quote": "感激不是爱，亏欠也不是婚姻。",
+      "assessment": "金句和终局动作绑定。"
+    },
+    {
+      "point": "anti_ai",
+      "quote": "全文硬禁词未命中。",
+      "assessment": "机器禁词与重复指标通过。"
+    }
+  ]
+}

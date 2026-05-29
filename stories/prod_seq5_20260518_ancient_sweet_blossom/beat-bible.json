@@ -1,0 +1,427 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 15000,
+    "planned_total_chars": 13200
+  },
+  "title": "领证当天我登机，祁总找疯了",
+  "genre": "都市虐恋追妻火葬场 / 豪门白月光 / 航旅医疗转运 / 清醒离场",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "机场到达口、出发口、家属通行证、空病房、海外康复公寓",
+      "execution": "沈听澜从等祁砚舟回家，到带外婆登机离开；祁砚舟从笃定她不会走，到追到海外也追不上。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "80%家族信托、医疗转运航线、蓝钻胸针、登机牌、两封信",
+      "execution": "祁砚舟先用资源安置乔棠母女，后期再用同一套资源求沈听澜原谅，最终被拒绝。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "工具婚、夺权、删权限、儿子羞辱、全家福爽约、领证扑空、读信悔悟、海外拒绝",
+      "execution": "每一层都切断一段关系：不做妻子、不做项目负责人、不再带走儿子、不再等他、不再爱他。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "祁砚舟说完要娶她，沈听澜却把领证预约取消了。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "外婆换好旧旗袍等全家福，祁砚舟的信息却只剩一句：我去接乔棠。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "乔棠坐进沈听澜的位置，第一件事就是让人冻结她的后台权限。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars_min": 780,
+      "target_chars_max": 980,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "候机室里，祁小屿当着所有人说，不想让同学知道他有这样的太婆。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "沈听澜在抚养权协议上签字，第一次没有把儿子的名字写进出国申请。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "她把蓝钻胸针和基金份额公证变现，祁砚舟还以为她只是闹脾气。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "私人电梯刷不开时，沈听澜终于明白，这个家早已先把她删掉了。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "外婆抢救电话和乔棠过敏电话同时响起，祁砚舟选择了后者。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "外婆醒来后没有再催她嫁人，只让她订最早的航班。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "领证前夜，祁砚舟给她发来戒指照片，她回给他的只有一封辞职邮件。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "民政局的叫号声响起时，沈听澜已经推着外婆走进登机口。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars_min": 800,
+      "target_chars_max": 980,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "祁砚舟赶到病房，只看见两封信和一张没拍成的全家福预约单。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars_min": 840,
+      "target_chars_max": 1040,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "他读完外婆的信，才知道沈听澜七年前差点死在产房里。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "新加坡康复公寓门口，沈听澜说：祁砚舟，我已经没有感觉了。"
+    },
+    {
+      "chapter_id": "CH15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "他替她挡下一次危险，她结清医疗账单，也结清最后一点亏欠。"
+    },
+    {
+      "chapter_id": "CH16",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "春天来时，沈听澜陪外婆走过海边栈道，再没有回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "祁氏航旅董事休息舱外",
+      "character_goal": "沈听澜原本要确认领证流程，给外婆一个安心交代。",
+      "conflict_action": "她隔着门听见祁砚舟向董事承认娶她只是因为她听话，并准备把80%家族信托收益和核心医疗转运航线留给乔棠母女。",
+      "information_gap": "祁砚舟不知道沈听澜全程听见，也不知道她已经取消领证预约。",
+      "emotion_debt_balance": "男主新增债务：工具婚羞辱、资产偏心、七年等待被轻贱。",
+      "chapter_end_hook": "沈听澜删掉领证提醒，把外婆的检查单放回包里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把工具婚写成误会",
+        "不能洗白男主偏心"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "老城区照相馆",
+      "character_goal": "沈听澜想带外婆拍全家福，完成外婆最后心愿。",
+      "conflict_action": "外婆换好旧旗袍坐到镜头前，祁砚舟却临时改道去机场接乔棠。",
+      "information_gap": "外婆仍以为祁砚舟会来，沈听澜没有告诉她自己听见了信托安排。",
+      "emotion_debt_balance": "新增债务：外婆心愿被爽约，女主替男主遮掩一次。",
+      "chapter_end_hook": "摄影师第三次问人齐了吗，沈听澜按灭祁砚舟的未读消息。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把外婆写成只会催婚的工具人",
+        "不能用大段回忆替代等待动作",
+        "禁用贫穷嘲讽"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "祁氏航旅高层航线会议室",
+      "character_goal": "沈听澜要保住国际医疗转运项目的患者名单和航线排期。",
+      "conflict_action": "乔棠空降公益项目，拿着祁砚舟签批的授权，当众冻结沈听澜后台权限。",
+      "information_gap": "乔棠以为沈听澜会争职位，祁砚舟以为给她婚姻就能压住委屈。",
+      "emotion_debt_balance": "新增债务：职业成果被夺、白月光公开占位、男主授权纵容。",
+      "chapter_end_hook": "沈听澜没有吵，只把项目交接清单抄送给法务。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让白月光承担全部责任",
+        "不能把职场冲突写成泛泛口角",
+        "不能用解释代替冻结权限动作"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 780,
+      "target_chars_max": 980,
+      "scene_location": "机场VIP候机医疗休息室",
+      "character_goal": "沈听澜想让儿子祁小屿陪外婆吃一次饭，给外婆留点亲情念想。",
+      "conflict_action": "祁小屿推开外婆递来的薄荷糖，嫌旧轮椅和药味丢人，还把乔眠带来的香氛毯盖到自己身上。",
+      "information_gap": "祁小屿不知道沈听澜已准备带外婆出国，也不知道这句话会让她放弃带他走。",
+      "emotion_debt_balance": "新增债务：儿子羞辱外婆，母爱边界被逼到断点。",
+      "chapter_end_hook": "沈听澜蹲下替外婆捡糖，听见儿子说：我不要她做我太婆。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写女主报复孩子",
+        "不能弱化孩子伤害外婆的刺痛",
+        "不能让儿子立刻懂事洗白"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "机场停车场与律师事务所",
+      "character_goal": "沈听澜要完成离场第一步：签抚养权协议和出国治疗申请。",
+      "conflict_action": "她把祁小屿的抚养权让给祁砚舟，删除出国申请里的亲属随行栏，只保留外婆。",
+      "information_gap": "祁砚舟还以为她会借孩子逼婚，不知道她已经放弃这个筹码。",
+      "emotion_debt_balance": "债务转化：儿子线从牵绊变成切断，男主失去用孩子挽留她的工具。",
+      "chapter_end_hook": "律师提醒她签下去很难反悔，她说不用改。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把放弃抚养权写成虐待或遗弃爽点",
+        "不能写女主突然无痛冷血",
+        "不能用口号代替签字动作"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_location": "公证处与银行贵宾室",
+      "character_goal": "沈听澜要合法变现祁家首航蓝钻胸针和3%航旅基金份额，筹外婆治疗押金。",
+      "conflict_action": "祁砚舟派助理送来婚戒样图安抚她，她当着公证员的面确认赠与不可撤销。",
+      "information_gap": "祁砚舟不知道她不是要更多补偿，而是在把旧关系换成出路。",
+      "emotion_debt_balance": "回旋债务：男主送过的象征物被女主转化为离场燃料。",
+      "chapter_end_hook": "银行到账短信亮起时，祁砚舟的信息也跳出来：别闹，领证那天我会到。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写非法变卖",
+        "不能把钱写成女主贪财",
+        "不能让男主补偿显得甜宠"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "祁砚舟顶层云端公馆",
+      "character_goal": "沈听澜回公馆取外婆旧丝巾、病历和自己的证件。",
+      "conflict_action": "私人电梯拒绝识别她的指纹，乔棠从里面出来，告诉她家属权限已经重置。",
+      "information_gap": "乔棠以为删权限能逼沈听澜求祁砚舟，沈听澜却只拍下证据。",
+      "emotion_debt_balance": "新增债务：家门权限被白月光替换，七年生活被系统删除。",
+      "chapter_end_hook": "沈听澜站在电梯监控下，给搬家公司发出最后确认。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成单纯雌竞",
+        "不能让乔棠替男主背锅",
+        "不能省略男主授权痕迹"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_location": "国际转运病房走廊",
+      "character_goal": "沈听澜要让祁砚舟赶来签外婆跨境治疗评估的担保确认。",
+      "conflict_action": "外婆突发疼痛进抢救观察，乔棠同时打电话说乔眠误食过敏，祁砚舟挂断沈听澜电话赶去乔棠那边。",
+      "information_gap": "祁砚舟以为病房有医生就行，不知道外婆醒来第一句话是问他有没有到。",
+      "emotion_debt_balance": "付费级债务：病危二选一，男主主动选择白月光母女。",
+      "chapter_end_hook": "沈听澜签完担保书，终于把祁砚舟从紧急联系人里删掉。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写医生故意延误抢救",
+        "不能用医疗奇迹替代情绪",
+        "不能把男主选择写成客观无奈"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_location": "病房夜间与护士站",
+      "character_goal": "沈听澜想瞒住外婆，让她安心休息。",
+      "conflict_action": "外婆醒后摘下氧气面罩，自己撕掉写给祁砚舟的托付草稿，让沈听澜订最早去新加坡的航班。",
+      "information_gap": "沈听澜不知道外婆已经看穿祁砚舟不会来，也不知道外婆另写了两封信。",
+      "emotion_debt_balance": "债务反转：外婆不再托付男主，女主第一次被外婆允许离开。",
+      "chapter_end_hook": "外婆把旧丝巾塞进她手里，说别等天亮。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让外婆劝和",
+        "不能把外婆写成悲情工具",
+        "不能大段解释病情"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "祁氏航旅办公室与沈听澜出租屋",
+      "character_goal": "沈听澜要清空工作权限、提交辞职、注销旧手机号。",
+      "conflict_action": "她发送辞职邮件、交回家属通行证和项目密钥，同时把旧SIM卡剪断。",
+      "information_gap": "祁砚舟看到辞职邮件仍以为她在逼他低头，不知道她的行李已经托运。",
+      "emotion_debt_balance": "关系清算：职位、通行证、号码三条线同步断开。",
+      "chapter_end_hook": "剪断的SIM卡落进垃圾桶，屏幕上最后一条消息是祁砚舟发来的婚戒照片。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成离家出走",
+        "不能缺少辞职换号等可执行动作",
+        "不能让女主行动全靠别人帮助"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_location": "民政局与机场出发口交叉剪辑",
+      "character_goal": "沈听澜要在领证当天带外婆顺利登机。",
+      "conflict_action": "祁砚舟在民政局等她补办登记，她推着外婆经过出发口，把国内手机号和家属通行证一起作废。",
+      "information_gap": "祁砚舟不知道叫号同一刻，她已经登上飞往新加坡的航班。",
+      "emotion_debt_balance": "不可逆债务：婚姻工具失效，女主用登机完成断联。",
+      "chapter_end_hook": "广播念到登机口即将关闭时，祁砚舟终于拨通医院电话。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写违规拦机",
+        "不能让女主临时犹豫回头",
+        "不能把登机写成单纯逃跑"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 800,
+      "target_chars_max": 980,
+      "scene_location": "空病房与老城区照相馆",
+      "character_goal": "祁砚舟要找回沈听澜，并确认她只是躲起来闹脾气。",
+      "conflict_action": "他冲进病房翻找证件，只找到两封信、旧登机牌、外婆全家福预约单和退回的家属通行证。",
+      "information_gap": "祁砚舟还没读信，不知道信里会揭开沈听澜七年所有伤口。",
+      "emotion_debt_balance": "火葬场启动：男主第一次面对空缺而非顺从。",
+      "chapter_end_hook": "他拆开第一封信，看见开头写着：祁先生，我没有把听澜托付给你。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让男主马上找到女主",
+        "不能用独白水字数",
+        "不能把女主离开解释成误会"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 840,
+      "target_chars_max": 1040,
+      "scene_location": "祁氏顶层办公室夜晚",
+      "character_goal": "祁砚舟要从信里找出沈听澜离开的原因。",
+      "conflict_action": "他读到沈听澜童年被外婆从废品站养大、产后病危通知书、七年旧机票和外婆没拍成的全家福预约单，砸碎自己准备好的婚戒盒。",
+      "information_gap": "他不知道沈听澜在新加坡是否平安，只知道所有联系方式都失效。",
+      "emotion_debt_balance": "债务总爆发：童年、生产、等待、病危、亲情羞辱集中反噬。",
+      "chapter_end_hook": "他把80%信托改到沈听澜名下，却发现文件没有任何送达地址。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用男主哭惨抵消伤害",
+        "不能让财产补偿变成洗白",
+        "不能把七年伤害归咎白月光"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "新加坡医疗中心与临海康复公寓",
+      "character_goal": "祁砚舟要用信托、航线和婚姻承诺求沈听澜回头。",
+      "conflict_action": "他堵在康复公寓门口递上信托文件和医疗转运航线授权，沈听澜接过医疗费用确认单，只退回婚戒。",
+      "information_gap": "祁砚舟以为她还在恨，没听懂她是真的不爱了。",
+      "emotion_debt_balance": "债务判决：钱可以用于治疗，爱情不可回收。",
+      "chapter_end_hook": "沈听澜看着他说：祁砚舟，我已经没有任何感觉了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写女主赌气",
+        "不能写海外求复合成功",
+        "不能让财产购买原谅"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "新加坡医疗中心外街口",
+      "character_goal": "祁砚舟想证明自己能保护沈听澜。",
+      "conflict_action": "突发冲突中他替沈听澜挡下一次短促袭击，醒来后索要见她，沈听澜只让律师送来感谢函和医疗账单结清凭证。",
+      "information_gap": "祁砚舟以为救命能换来一次心软，沈听澜已经把感谢和爱情分开。",
+      "emotion_debt_balance": "最后债务清零：救命可谢，旧爱不还。",
+      "chapter_end_hook": "他隔着病房玻璃看见沈听澜推外婆离开，没有停步。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能渲染血腥暴力",
+        "不能让挡伤成为复合理由",
+        "不能道德绑架女主探病"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_location": "新加坡海边康复公寓与儿童医疗转运基金办公室",
+      "character_goal": "沈听澜要把补偿转成新生活和可持续事业。",
+      "conflict_action": "她用到账资金支付外婆后续治疗、设立儿童医疗转运救助项目，带外婆在海边拍下迟到的合影。",
+      "information_gap": "祁砚舟只收到基金成立公告，永远不知道那张合影背后的风有多暖。",
+      "emotion_debt_balance": "情绪释放：女主获得生活，外婆获得安置，男主被排除在新家之外。",
+      "chapter_end_hook": "终章钩子收束：沈听澜没有回头，镜头落在外婆笑起来的照片上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能落到男主痛苦独白",
+        "不能写外婆奇迹治愈",
+        "不能写女主复合或暧昧回头"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 12000,
+    "min_chapters": 16,
+    "min_paywall_card_count": 5,
+    "chapter_end_hook_coverage": "100%",
+    "micro_hook_interval_chars": "800-1200",
+    "forbidden_summary_rule": "beats[*].forbidden_summary必须为非空数组",
+    "scene_action_rule": "每个scene必须包含具体冲突动作，不允许只写解释、回忆或铺垫。"
+  }
+}

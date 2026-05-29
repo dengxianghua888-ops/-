@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海城裴家听钟楼老宅",
+  "time": "入夜，整点报时前",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "裴老爷子",
+    "裴家二房",
+    "拍卖行董事"
+  ],
+  "character_goal": "温漾想进老宅听完整真相，并守住自己的边界",
+  "opposition_goal": "裴家旁支想用婚约和继承权审视她",
+  "conflict_action": "温漾被领进会客厅，旁支递来家族席位名单，裴时砚直接把她的椅子拉到自己身边",
+  "information_gap": "老爷子是否承认她和孩子，沈知遥是否有婚约证据",
+  "emotional_debt_delta": "+家族压力债，-男主公开护妻一点",
+  "payoff_or_hook": "老宅由危险场开始转为护妻场",
+  "chapter_end_hook": "截断动作：长钟第一声响起，满屋人的视线同时落在我肚子上。",
+  "paywall_card": false,
+  "must_include": [
+    "听钟楼",
+    "裴时砚拉椅子护妻",
+    "继承席位名单",
+    "温漾慢半拍但不退"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开宅斗",
+    "不要羞辱女主外貌或生育价值",
+    "不要介绍老宅陈设清单"
+  ],
+  "rhythm_job": {
+    "shape": "外部压力低密度推进；对白约34%，动作约42%，弹幕约0%，呼吸点约24%",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "温漾摸椅背、听钟声慢一拍、裴时砚递温水"
+  }
+}

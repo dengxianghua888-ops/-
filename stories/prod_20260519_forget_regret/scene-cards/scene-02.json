@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "竹庐→火焰中",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "女主试图挽留",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "男主拒绝后下令焚烧竹庐",
+  "information_gap": "男主不知她是镇国公嫡女",
+  "emotional_debt_delta": "+20（三年记忆化为灰烬）",
+  "payoff_or_hook": "竹庐大火，三年恩爱的物证全部焚毁",
+  "chapter_end_hook": "竹庐大火，三年恩爱的物证全部焚毁",
+  "paywall_card": false,
+  "must_include": [
+    "男主拒绝后下令焚烧竹庐"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 1130,
+  "target_chars_max": 1190,
+  "location": "融资发布会主舞台与媒体区",
+  "time": "scene-08后一刻钟",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "沈知宁",
+    "陆承安",
+    "专利律师",
+    "财务负责人",
+    "媒体记者"
+  ],
+  "character_goal": "公开资产转移、同居受益和冻结申请，让背叛承担现实代价",
+  "opposition_goal": "沈知宁要把侵权说成夫妻共同创业成果，陆承安要抽身",
+  "conflict_action": "顾砚舟授权律师展示别墅物业、车辆通行、转账流水和资产冻结回执",
+  "information_gap": "沈知宁接下来会把债务推给顾砚舟，留到庭审反杀",
+  "emotional_debt_delta": "财产债+3：情夫受益与家庭欠费形成对照",
+  "payoff_or_hook": "公开处刑第二击，事业、婚姻、财务三线合拢",
+  "chapter_end_hook": "截断句：资产冻结通知递到沈知宁手里时，陆承安先松开了她的手。",
+  "paywall_card": true,
+  "must_include": [
+    "资产冻结回执",
+    "陆承安别墅物业与车辆通行记录",
+    "孕产护理账单只作为资金流证据，不写露骨内容",
+    "直播评论/弹幕吐槽陆承安松手"
+  ],
+  "must_not_write_as_exposition": [
+    "不要露骨描写出轨",
+    "不要堆账单编号",
+    "不要把沈知宁失败写成单纯社死"
+  ],
+  "rhythm_job": {
+    "shape": "证据屏幕切换，人物动作露怯，弹幕短句承接",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 3,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "mix": "证据动作约40%，对白约30%，弹幕/评论约15%，低压人物动作约15%；强压词只用一次宣告，后接陆承安松手的生活化动作"
+  }
+}

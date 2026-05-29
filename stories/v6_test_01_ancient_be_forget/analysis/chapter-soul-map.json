@@ -1,0 +1,848 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [
+        1,
+        26
+      ],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 21.4,
+        "comma_period_ratio": 0.62,
+        "question_mark_density_per_1k": 2.6,
+        "direct_dialogue_rate": 0.54,
+        "short_line_rate_lte16": 0.31,
+        "impact_density": 0.72,
+        "sentence_avg_len": 18.8
+      },
+      "emotion": {
+        "dominant_emotion": "震惊-恳求",
+        "emotion_arc": "平静 → 震惊 → 不信 → 恳求",
+        "emotion_intensity": 7.0,
+        "reader_feeling_target": "替女主愤怒，同时好奇她隐藏的身份是什么"
+      },
+      "highlights": {
+        "peak_moment": "陆北辰承认隐瞒身份并已与林楚楚有夫妻之实",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "怀孕当天被告知丈夫另娶",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "女主说出'若我说，我也可以与你门第相当呢'——暗示她身份不简单"
+      },
+      "techniques": [
+        {
+          "technique": "对称隐瞒设计",
+          "example": "“我隐瞒身份和陆北辰做起了平凡夫妻”→“我其实是定北侯世子”",
+          "effect": "双方都隐瞒身份，建立对称结构，为后续'谁的身份更大'制造悬念"
+        },
+        {
+          "technique": "怀孕时刻的残忍对冲",
+          "example": "“得知有孕那天，他突然开口：'我和太师府嫡女三日后便要成婚了。'”",
+          "effect": "在女性最脆弱最期待的时刻投下炸弹，反差制造最大情绪冲击"
+        },
+        {
+          "technique": "悬念尾句暗示",
+          "example": "“若我说，我也可以与你门第相当呢？”",
+          "effect": "不揭底牌只暗示，让读者带着好奇心冲入下一章"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "若我说，我也可以与你门第相当呢？",
+          "structure": "假设句式（若我说…呢）+ 关键信息藏在假设里",
+          "why_it_works": "用假设语气包裹核弹级信息，既不暴露又制造悬念，让读者疯狂想知道答案"
+        },
+        {
+          "text": "除了名分我可以给你和孩子一切",
+          "structure": "排除句式（除了X，可以给你Y）——看似慷慨实则剥夺核心",
+          "why_it_works": "渣男的施舍逻辑让读者本能愤怒：名分才是一切"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话密度和信息量维持张力，每句对话都推进冲突",
+      "chapter_end_hook": {
+        "text": "若我说，我也可以与你门第相当呢？",
+        "hook_type": "revelation_half",
+        "hook_technique": "用反问暗示身份但不揭露，留半个悬念",
+        "suspense_mechanism": "读者想知道她的真实身份到底是什么"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [
+        27,
+        58
+      ],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 22.1,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 6.1,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.28,
+        "impact_density": 0.68,
+        "sentence_avg_len": 20.2
+      },
+      "emotion": {
+        "dominant_emotion": "卑微-绝望",
+        "emotion_arc": "恳求 → 被蔑视 → 强撑 → 绝望",
+        "emotion_intensity": 8.0,
+        "reader_feeling_target": "恨铁不成钢地心疼女主，对陆北辰的厌恶值急剧攀升"
+      },
+      "highlights": {
+        "peak_moment": "陆北辰当面骂她是“只会浇水种田的村妇，怎配为我世子夫人”",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "女主生辰日，他与林楚楚苟合",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "“林楚楚她可能有孕了”——暗示女主的孩子会被夺走"
+      },
+      "techniques": [
+        {
+          "technique": "降格比喻打脸预埋",
+          "example": "“只会浇水种田的村妇，怎配为我世子夫人”",
+          "effect": "用最低的标签定义女主，为后续身份揭露时的反差倍率提供基数——骂得越低，打脸越响"
+        },
+        {
+          "technique": "特殊日期绑定背叛",
+          "example": "“什么时候的事？”“你生辰那日。”",
+          "effect": "用生日这个特殊日期锚定背叛，让痛感具体化——不是泛泛的出轨，是在她最特别的日子"
+        },
+        {
+          "technique": "物件反转叙事",
+          "example": "雪莲花从“深情礼物”变成“出轨遮掩品”",
+          "effect": "同一物件意义翻转，让读者和女主同步经历'被骗'的恶心感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "只会浇水种田的村妇，怎配为我世子夫人",
+          "structure": "限定词（只会…的）+ 降格名词 + 反问否定",
+          "why_it_works": "用最高傲的语气说出最伤人的话，读者会自动代入：等着，她比你高贵一万倍"
+        },
+        {
+          "text": "难道你非要逼我说难听的话吗",
+          "structure": "反问前置 + 假委屈语气 + 实施暴力",
+          "why_it_works": "施暴者的'我也不想这样'话术，读者见过无数遍，每次都会愤怒"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半段恳求节奏慢（给读者心疼的时间），后半段信息连炸（生辰日/可能有孕）加速",
+      "chapter_end_hook": {
+        "text": "林楚楚她可能有孕了……她的孩子必须要成为嫡长子，你才安全",
+        "hook_type": "silent_threat",
+        "hook_technique": "用'你才安全'暗示女主孩子会被处理",
+        "suspense_mechanism": "读者紧张：他要对孩子做什么？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [
+        59,
+        86
+      ],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 19.6,
+        "comma_period_ratio": 0.71,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.38,
+        "impact_density": 0.92,
+        "sentence_avg_len": 17.3
+      },
+      "emotion": {
+        "dominant_emotion": "绝望-崩溃",
+        "emotion_arc": "恐惧 → 哀求 → 被拒 → 生理崩溃",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "窒息、愤怒到想摔手机，同时被'杀子'的不可逆性震住"
+      },
+      "highlights": {
+        "peak_moment": "陆北辰在糕点里下药，拒绝请太医，说'流产死不了人'后离开",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "亲手杀死自己的孩子，且全程保持冷静",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "“流产死不了人，你好自为之吧”——冷到极点的一句话"
+      },
+      "techniques": [
+        {
+          "technique": "哀求递进三连拒",
+          "example": "“快去找太医”→“我不嫁你了行不行，我只想要我的孩子”→“我是公主，昭宁公主”——三次恳求三次被拒",
+          "effect": "每次哀求都降低姿态、加大筹码，但每次都被无情拒绝，读者的愤怒随每次拒绝翻倍"
+        },
+        {
+          "technique": "身份提前揭露但不被信",
+          "example": "“我是公主，昭宁公主，你赶快去找太医”→“你太让我失望了，说慌也要有个度”",
+          "effect": "最绝望时甩出底牌却不被相信——比不说更虐，因为真话被当谎话的无力感是极致的"
+        },
+        {
+          "technique": "冷句杀人",
+          "example": "“流产死不了人，你好自为之吧。”",
+          "effect": "用最轻描淡写的语气说最残忍的话，冷漠本身就是最大的暴力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "流产死不了人，你好自为之吧",
+          "structure": "断言句（X死不了人）+ 甩手短句",
+          "why_it_works": "极致的冷漠浓缩在8个字里，读者会记住这句话到全文结束，等着它被偿还"
+        },
+        {
+          "text": "那个我曾日夜期盼的孩子，在他父亲刚知晓的第一天，就亲手杀了他",
+          "structure": "时间限定（刚…的第一天）+ 身份讽刺（父亲）+ 动作（亲手杀）",
+          "why_it_works": "用'第一天'和'亲手'强化不可原谅性——不是误杀，是知道后的第一反应就是杀"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前半段哀求拉扯（蓄力），'流产死不了人'一句瞬间冷至冰点（爆发）",
+      "chapter_end_hook": {
+        "text": "房门被人一脚踹开，林楚楚带着几个婆子闯了进来",
+        "hook_type": "cliff_action",
+        "hook_technique": "女主最脆弱时新的威胁闯入",
+        "suspense_mechanism": "林楚楚来干什么？女主刚流产还能承受什么？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [
+        87,
+        118
+      ],
+      "char_count": 830,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 20.8,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 2.4,
+        "direct_dialogue_rate": 0.44,
+        "short_line_rate_lte16": 0.36,
+        "impact_density": 0.88,
+        "sentence_avg_len": 18.1
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-恨意生长",
+        "emotion_arc": "被踩在脚下 → 愤怒无力 → 冷恨萌芽",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "恨林楚楚恨到牙痒，同时开始期待报复"
+      },
+      "highlights": {
+        "peak_moment": "婆子掰开嘴强灌红花，林楚楚蹲下拍脸说'免的日后再有子嗣'",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "不仅杀了现在的孩子，还要绝育断绝未来",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "林楚楚露出陆北辰母亲的玉佩——连最后的信物都给了别人"
+      },
+      "techniques": [
+        {
+          "technique": "俯视体位的物理羞辱",
+          "example": "“林楚楚蹲下身子拍了拍我的脸，满是羞辱”",
+          "effect": "用物理姿态（蹲下拍脸）具象化权力关系——你在地上，我在上面，读者生理性不适"
+        },
+        {
+          "technique": "有意无意的物件展示",
+          "example": "“她起身时，有意无意的露出腰间的玉佩。那是陆北辰的”",
+          "effect": "不是直接炫耀，是'不经意'展示——比炫耀更刺眼，暗示她已完全取代女主的位置"
+        },
+        {
+          "technique": "讽刺式转身告别",
+          "example": "“还有两日我大婚，还得回去试我的凤冠呢，失陪了”",
+          "effect": "轻飘飘的语气处理极重的事（刚灌完绝育药就说'失陪了'），反差制造极致恶心感"
+        },
+        {
+          "technique": "女主的冷静反制伏笔",
+          "example": "女主问林楚楚是否听过昭宁公主，提议放彩色天灯",
+          "effect": "在最弱势时布局反击——读者看到希望，张力从纯压迫转为'等着看好戏'"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "免的日后再有子嗣，争来争去麻烦",
+          "structure": "轻描淡写语气 + 永久性伤害内容",
+          "why_it_works": "用'麻烦'来形容绝育——把极致残忍包装成日常不耐烦，冷血感爆表"
+        },
+        {
+          "text": "在我的宅子里住的，记得要守我的规矩哦",
+          "structure": "所有权宣示 + 规则制定 + 语气词软化（哦）",
+          "why_it_works": "'哦'这个语气词让羞辱更扎心——不是愤怒的压制，是居高临下的玩弄"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "全程无喘息，每句话都是一刀，靠新信息/新伤害维持窒息感",
+      "chapter_end_hook": {
+        "text": "我叫住她……如果是假的，对林姑娘你也没坏处不是吗",
+        "hook_type": "power_reversal",
+        "hook_technique": "女主在最弱势时反向利用林楚楚的虚荣心布局",
+        "suspense_mechanism": "彩色天灯是什么？女主在计划什么？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [
+        119,
+        148
+      ],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 24.3,
+        "comma_period_ratio": 0.68,
+        "question_mark_density_per_1k": 2.6,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.22,
+        "impact_density": 0.75,
+        "sentence_avg_len": 21.5
+      },
+      "emotion": {
+        "dominant_emotion": "麻木-决绝",
+        "emotion_arc": "肉体折磨 → 麻木 → 最后的希望 → 决绝",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "心疼到无法呼吸，同时因天灯出现燃起期待"
+      },
+      "highlights": {
+        "peak_moment": "女主小产未愈、两日未进食被逼一步一叩爬9999阶天梯",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "为杀了自己孩子的人祈福——因果讽刺到极致",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "窗外出现彩色天灯——救兵来了"
+      },
+      "techniques": [
+        {
+          "technique": "肉体折磨数字化",
+          "example": "“九千九百九十九阶天梯”“两日未进米水”“晕了醒，醒了晕”",
+          "effect": "用具体数字（9999）和重复结构（晕了醒醒了晕）让读者切身感受疲惫和绝望"
+        },
+        {
+          "technique": "因果讽刺并置",
+          "example": "为了给杀死自己孩子的林楚楚腹中孩子求平安符",
+          "effect": "讽刺到极致——你杀了我的孩子，还逼我为你的孩子祈福，读者的愤怒值在此封顶"
+        },
+        {
+          "technique": "希望信号物象化",
+          "example": "“昏迷中，我恍恍惚惚看见了窗外那七色的天灯。我这才松了口气笑了。”",
+          "effect": "在最黑暗时出现彩色意象——视觉反差即情绪反差，读者和女主一起松了口气"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "路上晕了醒，醒了晕",
+          "structure": "AB+BA回环结构",
+          "why_it_works": "回环结构暗示无尽循环，6个字写尽了漫长天梯的折磨"
+        },
+        {
+          "text": "这话若在三天前说我也许会信，现在我只觉恶心",
+          "structure": "时间对比（三天前vs现在）+ 情绪翻转词（信→恶心）",
+          "why_it_works": "精确的时间锚定让情感转变可信——不是泛泛的'不信了'，是'三天前还会信'的具体"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前重后轻",
+      "pacing_note": "前半段极致压迫（天梯折磨），后半段天灯出现带来喘息——是全文唯一的'转折点'",
+      "chapter_end_hook": {
+        "text": "希望明日，你们不要后悔",
+        "hook_type": "death_declaration",
+        "hook_technique": "从被动受难者变为主动布局者，一句话翻转全局势",
+        "suspense_mechanism": "她要在大婚做什么？怎么做？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [
+        149,
+        178
+      ],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 18.4,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 5.5,
+        "direct_dialogue_rate": 0.52,
+        "short_line_rate_lte16": 0.42,
+        "impact_density": 0.95,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "碾压-爽快",
+        "emotion_arc": "期待 → 震撼 → 爽到颅内高潮",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "爽到鸡皮疙瘩，终于等到这一刻"
+      },
+      "highlights": {
+        "peak_moment": "“公主殿下驾到”——女主凤冠加身走入大婚现场",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "陆北辰手里红绸散落，脸色惨白",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "林楚楚掀盖头以为是自己请来的公主——还不知道是谁"
+      },
+      "techniques": [
+        {
+          "technique": "延迟揭露吊胃口",
+          "example": "林楚楚“手里的红绸一抖，嘴角含笑，她没想到，公主竟然真的来了喜宴”——她还以为是自己的功劳",
+          "effect": "让不知情者先得意，再崩塌——得意越高，崩塌越惨"
+        },
+        {
+          "technique": "短句砸脸连击",
+          "example": "“阿宁？”/ 他不可置信的唤着我。/ “怎么会是你？”",
+          "effect": "每句≤10字，每句一击，不给喘息空间，物理化渲染崩塌感"
+        },
+        {
+          "technique": "物件碾压对照",
+          "example": "林楚楚用军功换来的凤冠 vs 女主头上御赐的真凤冠",
+          "effect": "同类物件的真假对比——你费尽心机得到的赝品，在真品面前灰飞烟灭"
+        },
+        {
+          "technique": "侍女替主宣威",
+          "example": "“秀着金凤纹的冠服有几个人敢穿，凤冠上的东珠，世间仅此一颗”",
+          "effect": "女主自己不需要解释身份，侍女的愤怒替代主人的尊严——更有气势"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "公主殿下驾到",
+          "structure": "四字宣告（身份+尊称+动作）",
+          "why_it_works": "全文最爽的四个字——读者等了6000字就为了这一声，仪式感满格"
+        },
+        {
+          "text": "陆北辰手里的红绸散落在地，脸色惨白的吓人",
+          "structure": "物件脱落（红绸散落）+ 面色变化（惨白）——身体失控写心理崩塌",
+          "why_it_works": "不写他在想什么，只写他的身体反应——物理化碾压，让读者自己脑补他的恐惧"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前3句铺场面（红绸高挂/宾客），第4句'公主殿下驾到'引爆全场——一切铺垫为这4个字服务",
+      "chapter_end_hook": {
+        "text": "怎么，想野村妇摇身一变，变成公主，二位这么惊讶？",
+        "hook_type": "power_reversal",
+        "hook_technique": "用对方曾经骂她的词（野村妇）反讽，确认身份反转",
+        "suspense_mechanism": "她接下来要怎么清算？会说什么？"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [
+        179,
+        218
+      ],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 20.2,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 7.8,
+        "direct_dialogue_rate": 0.58,
+        "short_line_rate_lte16": 0.38,
+        "impact_density": 0.98,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "冷静碾压",
+        "emotion_arc": "冷静控诉 → 层层加码 → 极致碾压",
+        "emotion_intensity": 10.0,
+        "reader_feeling_target": "爽到起鸡皮疙瘩，每一句话都想叫好"
+      },
+      "highlights": {
+        "peak_moment": "公主逐条清算六层罪行，陆北辰跪地哭着说对不起",
+        "peak_type": "power_shift",
+        "emotional_bomb": "所有情绪债在一段话内一次性偿还",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "“流产死不了人，你就是这么爱我的？”——回旋金句"
+      },
+      "techniques": [
+        {
+          "technique": "清单式控诉节奏",
+          "example": "“杀子→不请太医→囚禁→灌红花→爬天梯”，一口气不停歇",
+          "effect": "像宣读判决书，每一条都是铁证，不给辩驳空间，读者像陪审团一样判定有罪"
+        },
+        {
+          "technique": "原话回旋打脸",
+          "example": "“流产死不了人，你就是这么爱我的？”——引用他自己说过的话",
+          "effect": "M3因果回旋的核心手法：用对方的原话反击，比任何新词都更有力"
+        },
+        {
+          "technique": "不哭的控诉更有力",
+          "example": "“我看着他眼眶发红，却没有一滴泪掉下来”",
+          "effect": "哭=弱者；不哭=已经超越了伤痛的强者——反差让控诉有碾压感而非乞怜感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "本公主的孩子你能让他复生吗？灌下我肚子的红花，你能让她消失吗",
+          "structure": "反问句式并列（你能X吗？你能Y吗？）+ 不可逆性强调",
+          "why_it_works": "用反问确认伤害的不可逆——不是'你对不起我'而是'你永远赔不起'"
+        },
+        {
+          "text": "我若早些知道你的身份，我……",
+          "structure": "假设句+省略号（话被打断/自知说不出口）",
+          "why_it_works": "陆北辰自己都说不下去——因为答案太丑陋：知道她是公主就不会这样做，说明一切都是因为看不起她"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠控诉的信息密度和节奏紧凑维持——每句话都是一把刀，不给任何喘息",
+      "chapter_end_hook": {
+        "text": "林楚楚见陆北辰一脸怨恨的望着她，她突然扑过来抱住我的腿",
+        "hook_type": "revelation_half",
+        "hook_technique": "林楚楚的反应暗示还有更大的秘密即将揭露",
+        "suspense_mechanism": "林楚楚要说什么？还有什么反转？"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [
+        219,
+        250
+      ],
+      "char_count": 790,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 21.5,
+        "comma_period_ratio": 0.6,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.4,
+        "short_line_rate_lte16": 0.3,
+        "impact_density": 0.85,
+        "sentence_avg_len": 19.4
+      },
+      "emotion": {
+        "dominant_emotion": "讽刺-冷笑",
+        "emotion_arc": "震惊（林楚楚自爆）→ 讽刺高潮 → 冷静离场",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "黑色幽默的快感——陆北辰杀了唯一亲生的孩子去保一个别人的种"
+      },
+      "highlights": {
+        "peak_moment": "林楚楚自爆孩子是表哥的，陆北辰发现自己一切选择都是笑话",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "他为了假嫡子杀了真骨血",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "“如果他从头到尾都坚信的选择我，他想要的一切全部都有了”"
+      },
+      "techniques": [
+        {
+          "technique": "自证陷阱式反转",
+          "example": "林楚楚为求饶而自爆'孩子是表哥的'，无意中完成了对陆北辰的最后一击",
+          "effect": "不是主角刻意揭穿，是配角的自救行为意外引爆更大的真相——自然且震撼"
+        },
+        {
+          "technique": "全知视角的讽刺总结",
+          "example": "“如果他从头到尾都坚信的选择我，他想要的一切，爱人，孩子，身份地位，全部都有了”",
+          "effect": "跳出场景做一句命运总结——让读者看到全貌后感叹'活该'"
+        },
+        {
+          "technique": "轻描淡写的致命离场",
+          "example": "“如今我没什么可说的，只想祝二位百年好合了。”",
+          "effect": "'百年好合'四个字比任何诅咒都狠——因为他们真的要绑在一起了"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "如果他从头到尾都坚信的选择我，他想要的一切，爱人，孩子，身份地位，全部都有了",
+          "structure": "假设句 + 列举（爱人/孩子/身份/地位）+ 总结（全部都有了）",
+          "why_it_works": "用排比列举他本可拥有的一切，让'失去'的代价具象化——不是失去一样，是全部"
+        },
+        {
+          "text": "你烧毁小院，杀死我孩子的时候可曾见过旧情",
+          "structure": "具体行为列举 + 反问（可曾…）",
+          "why_it_works": "用他自己的'旧情'论反击——你先不念旧情，凭什么要求我念"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "林楚楚自爆是意外的第二波高潮，打破'清算已结束'的预期，给读者额外惊喜",
+      "chapter_end_hook": {
+        "text": "踏出镇北侯府大门时，无比的轻松，仿佛这三年的荒唐在这一刻全部烟消云散了",
+        "hook_type": "contrast_shock",
+        "hook_technique": "从极致冲突切到极致平静——轻松感本身就是最强的态度",
+        "suspense_mechanism": "回到皇宫后，父女重逢会是什么样？"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [
+        251,
+        290
+      ],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 23.8,
+        "comma_period_ratio": 0.72,
+        "question_mark_density_per_1k": 2.4,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.24,
+        "impact_density": 0.55,
+        "sentence_avg_len": 22.1
+      },
+      "emotion": {
+        "dominant_emotion": "温暖-释然",
+        "emotion_arc": "紧张（见父皇）→ 心酸 → 大哭 → 被温暖包裹",
+        "emotion_intensity": 8.0,
+        "reader_feeling_target": "跟着女主一起哭，感受到'终于有人心疼她了'的安慰"
+      },
+      "highlights": {
+        "peak_moment": "父皇捏着她的脸“你还知道回来”，手在抖，泪水晕湿龙袍",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "三年的委屈在父亲怀里全部释放",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "父皇鬓角添了白发——他等了三年"
+      },
+      "techniques": [
+        {
+          "technique": "严厉外壳包裹深情内核",
+          "example": "“语气严厉凶狠，可掐着我脸的手却是抖的”",
+          "effect": "用外在的凶和内在的抖的矛盾，写出中国式父爱——读者秒懂且泪目"
+        },
+        {
+          "technique": "物理细节传递时间流逝",
+          "example": "“三年不见，父皇的鬓角添了许多白发，眼角的皱纹也深了”",
+          "effect": "不说'他很担心'，用白发和皱纹说——三年的等待凝缩在两个物理变化里"
+        },
+        {
+          "technique": "日常物件的情感重量",
+          "example": "“桌上摆着我喜欢的梅花和我最爱吃的糕点”“陛下吩咐要日日给公主的寝殿收拾干净”",
+          "effect": "三年如一日的准备=三年如一日的等待——用物件的恒定性写感情的深度"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你还知道回来？",
+          "structure": "反问式责备（你还知道X）——字面是怪罪，潜台词是心疼",
+          "why_it_works": "中国式父母最典型的表达方式——嘴上骂着'你还知道回来'，眼泪已经在眼眶里"
+        },
+        {
+          "text": "泪水晕湿了龙袍，父皇也只是慢慢的拍着我的后背，和小时候一样",
+          "structure": "动作句 + 时间锚点（和小时候一样）",
+          "why_it_works": "'和小时候一样'五个字拉出时间纵深——不管你多大、经历了什么，在父亲面前永远是孩子"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "前紧后松",
+      "pacing_note": "这是全文唯一的'呼吸段'——前面连续6000字的高压后，读者需要这个温暖的泄洪口",
+      "chapter_end_hook": {
+        "text": "说我小产伤了根本……日后怕是很难再有孕了。父皇气的摔了杯盏",
+        "hook_type": "silent_threat",
+        "hook_technique": "用不可逆的身体代价提醒读者：伤害永远不会真的'过去'",
+        "suspense_mechanism": "陆北辰会受到什么惩罚？"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "source_line_range": [
+        291,
+        330
+      ],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 22.5,
+        "comma_period_ratio": 0.63,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.28,
+        "short_line_rate_lte16": 0.26,
+        "impact_density": 0.62,
+        "sentence_avg_len": 20.8
+      },
+      "emotion": {
+        "dominant_emotion": "冷漠-自愈",
+        "emotion_arc": "决断（不杀留着受苦）→ 平静 → 淡漠 → 自我疗愈",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "佩服女主的清醒，同时享受陆北辰受苦的旁观快感"
+      },
+      "highlights": {
+        "peak_moment": "女主对父皇说“活着远比死去要痛苦的多”——定义了惩罚方式",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "不杀他，让他活在永恒的悔恨中",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "信件被扔进火炉——“这些信就连片刻的温暖都给不了我”"
+      },
+      "techniques": [
+        {
+          "technique": "惩罚哲学的升维",
+          "example": "“活着远比死去要痛苦的多”",
+          "effect": "从物理惩罚升维到存在惩罚——比杀了他更高级，也更契合古言公主的身份和修养"
+        },
+        {
+          "technique": "物象隐喻替代抒情",
+          "example": "“这些信就连片刻的温暖都给不了我，我要她何用？”——信=关系=火炉一烧就灭",
+          "effect": "不说'我不爱他了'，用'信烧了只一瞬就灭了'具象化——冷到读者心里"
+        },
+        {
+          "technique": "旁观式叙述制造距离感",
+          "example": "“每日都会有人来和我汇报这些消息，只是这些人和事，我根本都不再在乎了”",
+          "effect": "用'不在乎'的语气叙述渣男的惨状——比痛骂更冷，比报复更狠"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "活着远比死去要痛苦的多",
+          "structure": "比较句式（A远比B更X）——定义刑罚哲学",
+          "why_it_works": "一句话翻转'杀了他'的复仇预期——更冷静、更高级、更持久的折磨"
+        },
+        {
+          "text": "这些信就连片刻的温暖都给不了我，我要她何用",
+          "structure": "连…都…的极端否定 + 反问收束",
+          "why_it_works": "用'片刻温暖'的最低标准都达不到来表达彻底死心——比'我恨你'冷一万倍"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "匀速低压",
+      "pacing_note": "节奏放缓，靠'冷漠的细节'维持兴趣——读者享受的是渣男求而不得的过程",
+      "chapter_end_hook": {
+        "text": "青黛告诉我，陆北辰昏倒在了宫门外头",
+        "hook_type": "contrast_shock",
+        "hook_technique": "他在门外昏倒vs她在门内平静——物理距离即情感距离",
+        "suspense_mechanism": "他还会做什么极端的事？"
+      }
+    },
+    {
+      "chapter_id": 11,
+      "source_line_range": [
+        331,
+        372
+      ],
+      "char_count": 830,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 23.2,
+        "comma_period_ratio": 0.65,
+        "question_mark_density_per_1k": 4.8,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.28,
+        "impact_density": 0.7,
+        "sentence_avg_len": 20.5
+      },
+      "emotion": {
+        "dominant_emotion": "平静-释然",
+        "emotion_arc": "日常温暖 → 感悟 → 因果回旋揭露 → 冷硬不软",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "满足的叹息——她过得好，他们过得烂，因果不爽"
+      },
+      "highlights": {
+        "peak_moment": "林楚楚来求和离，自述被陆北辰用同样方式折磨（灌红花/逼爬天梯/折腾掉孩子）",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "M3因果回旋的显式落地——所有伤害被原样返还",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "女主一脚踢开林楚楚：“这难道不是你自找的吗？”"
+      },
+      "techniques": [
+        {
+          "technique": "因果回旋显式对照",
+          "example": "林楚楚述说的每一条苦（灌红花/爬天梯/折腾孩子）都精确对应女主受过的每一条",
+          "effect": "读者自动进行逐条比对——'你当初怎么对她的，现在全还给你了'，公正感满格"
+        },
+        {
+          "technique": "拒绝施恩的冷硬",
+          "example": "“和离，你休想”",
+          "effect": "女主不是不能放她，是'凭什么帮你'——不做烂好人比原谅更让读者爽"
+        },
+        {
+          "technique": "父爱物象化延续",
+          "example": "父皇特意给她开辟地种菜，“诺，你不是喜欢种地吗”——语气别扭",
+          "effect": "严父的笨拙温柔——不会表达但全力满足，与陆北辰的虚伪深情形成终极对比"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "从前我真心待以待的人，还我遍体鳞伤，可不管我什么时候回头，家里都会一直为我撑伞",
+          "structure": "对比句式（真心待的人→伤害我；回头→永远在）",
+          "why_it_works": "浪漫爱情vs亲情的终极对比——爱情不可靠，血缘才是永恒避风港，击中核心用户情感"
+        },
+        {
+          "text": "这难道不是你自找的吗",
+          "structure": "反问+因果归因（你自找的）",
+          "why_it_works": "拒绝圣母——不帮仇人就是正义，读者等的就是这句"
+        }
+      ],
+      "narrative_mode": "dialogue_driven",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "日常温暖段(低谷)→林楚楚来访(起伏)→拒绝(高点)→回归平静——波浪感让节奏不单调",
+      "chapter_end_hook": {
+        "text": "陆北辰他要去边关了",
+        "hook_type": "cliff_action",
+        "hook_technique": "信息简短抛出，暗示故事还没结束",
+        "suspense_mechanism": "他去边关意味着什么？还会回来吗？"
+      }
+    },
+    {
+      "chapter_id": 12,
+      "source_line_range": [
+        373,
+        420
+      ],
+      "char_count": 890,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 21.8,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 3.4,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.32,
+        "impact_density": 0.6,
+        "sentence_avg_len": 19.6
+      },
+      "emotion": {
+        "dominant_emotion": "淡然-余韵",
+        "emotion_arc": "独立生活 → 他归来 → 拒绝 → 彻底放下的平静",
+        "emotion_intensity": 7.0,
+        "reader_feeling_target": "唏嘘但释然——她好好的，他活该"
+      },
+      "highlights": {
+        "peak_moment": "陆北辰满身伤疤归来，跪在篱笆外说'我什么都没有了只剩你了'，女主说'我从来不属于你'",
+        "peak_type": "power_shift",
+        "emotional_bomb": "他追了一辈子，她再也不会回头",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "女主给了一碗粥说'吃了就走吧'——极致的冷漠里有一丝人性"
+      },
+      "techniques": [
+        {
+          "technique": "物理落差具象化",
+          "example": "“一身洗得发白的旧衣裳，风尘仆仆。他瘦了很多，也黑了很多，左脸上多了一道长长的疤”",
+          "effect": "用外貌的变化写命运的跌落——从世子到残疾乞丐的视觉冲击"
+        },
+        {
+          "technique": "一碗粥的温度计",
+          "example": "给了粥但说'吃了就走'——不是恨（恨会不给），不是爱（爱会让进门），是无所谓",
+          "effect": "精确传递'不恨也不爱'的中间状态——比恨更让对方绝望"
+        },
+        {
+          "technique": "开放式留白结尾",
+          "example": "“可我知道不管他在不在，我都要把我的菜浇完，把我的花养好，把我的日子过下去”",
+          "effect": "不给确定答案（他会走吗？她会心软吗？），留白制造讨论空间和重读欲"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "没有了谁，太阳都会照常升起",
+          "structure": "否定主语（没有了谁）+ 自然意象不变（太阳照常升起）",
+          "why_it_works": "用宇宙恒常反衬个体渺小——你觉得天塌了，世界一点没变，这就是'放下'的终极表达"
+        },
+        {
+          "text": "我从来不属于你",
+          "structure": "时间副词（从来）+ 否定归属（不属于）",
+          "why_it_works": "否定的不是'现在不爱了'，是'从来就不属于你'——彻底瓦解对方的自我安慰"
+        },
+        {
+          "text": "吃了就走吧",
+          "structure": "祈使句（吃了）+ 祈使句（走吧）——极简双动作",
+          "why_it_works": "4个字写尽了关系的终极形态——我可以给你活下去的东西，但你不能留在我的世界"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半段写独立生活的缓慢日常（安抚读者），后半段陆北辰突然出现加快节奏，最后用留白收束",
+      "chapter_end_hook": {
+        "text": "无关紧要的人，对我造不成任何一影响",
+        "hook_type": "silent_threat",
+        "hook_technique": "以全文最冷的定性收束——不是恨，是'无关紧要'",
+        "suspense_mechanism": "无后续悬念，但留白感让读者反复咀嚼：这真的是最好的结局吗？"
+      }
+    }
+  ],
+  "global_soul_signature": "用极致的身份反差碾压和'不原谅'的清醒冷漠，让古言虐恋从'他追回来了'的俗套中跳脱——真正的BE不是她死了，是他活着但永远够不到她"
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 520,
+  "target_chars_max": 720,
+  "location": "监管仓封存开箱桌",
+  "time": "傍晚七点十五分",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "赵启明",
+    "值班警员",
+    "仓管",
+    "围观商户",
+    "平台客服"
+  ],
+  "character_goal": "林照要让实物碎茶与红章确认单在同一画面里对撞。",
+  "opposition_goal": "赵启明要证明箱内本来就是普通碎茶，试图把调包案压回误会。",
+  "conflict_action": "警员剪开封条，仓管倒出碎茶末，赵启明指着茶叶脱口说这本来就是碎茶。",
+  "information_gap": "既然是碎茶，赵启明为何盖章认定两千万茶王并收八百万。",
+  "emotional_debt_delta": "系统权威被实物打脸，读者获得第一波反噬快感。",
+  "payoff_or_hook": "赵启明亲口承认货物不值钱。",
+  "chapter_end_hook": "纸箱打开，碎茶末铺在封存桌上，赵启明脱口而出：这本来就是碎茶。",
+  "paywall_card": false,
+  "must_include": [
+    "剪封条",
+    "货箱编号",
+    "碎茶末倒在封存桌",
+    "直播间弹幕转向",
+    "赵启明脱口承认"
+  ],
+  "must_not_write_as_exposition": [
+    "不要详写茶叶鉴定知识",
+    "不要让林照主动先说这是碎茶",
+    "不要省略开箱见证人"
+  ]
+}

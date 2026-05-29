@@ -1,0 +1,73 @@
+{
+  "story": "stories/v6r2_01_ghost_wedding",
+  "overall_score": 6.08,
+  "dimensions": {
+    "length_alignment": {
+      "score": 5.36,
+      "evidence": "总字数 7734,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "no chapters"
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 3/3"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 26.636/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 17.461,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 4.33,
+      "evidence": "源/稿均行长 26.44/15.036, 短行率 0.2665/0.6121, 对白行率 0.4615/0.4; avg_line_chars 15.04 below source-rhythm floor 20.62；short_line_rate 0.612 over-fragments source rhythm 0.267",
+      "details": {
+        "status": "fail",
+        "applicable": true,
+        "source": {
+          "chars": 9624,
+          "line_count": 364,
+          "avg_line_chars": 26.44,
+          "median_line_chars": 24.0,
+          "short_line_rate": 0.2665,
+          "long_line_rate": 0.1813,
+          "quote_line_rate": 0.4615,
+          "barrage_line_rate": 0.0275,
+          "question_marks_per_k": 7.793,
+          "comma_period_ratio": 1.448,
+          "sentence_avg_len": 23.5
+        },
+        "candidate": {
+          "chars": 7443,
+          "line_count": 495,
+          "avg_line_chars": 15.036,
+          "median_line_chars": 13.0,
+          "short_line_rate": 0.6121,
+          "long_line_rate": 0.0364,
+          "quote_line_rate": 0.4,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 6.18,
+          "comma_period_ratio": 0.856,
+          "sentence_avg_len": 17.5
+        },
+        "failures": [
+          "avg_line_chars 15.04 below source-rhythm floor 20.62",
+          "short_line_rate 0.612 over-fragments source rhythm 0.267"
+        ]
+      }
+    },
+    "mobile_readability": {
+      "score": 9.5,
+      "evidence": "1 段违规"
+    }
+  },
+  "rework_targets": [
+    "source_rhythm_fit"
+  ],
+  "pass_threshold": 8.0,
+  "status": "fail"
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 780,
+  "target_chars_max": 900,
+  "location": "陆氏旧药厂火场外",
+  "time": "数日后夜里",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "林若鸢",
+    "陆沉舟",
+    "周砚",
+    "被困工人"
+  ],
+  "character_goal": "沈南星要抢救被困工人并查明火源。",
+  "opposition_goal": "林若鸢要趁火毁掉旧账本，并把沈南星困死在药厂。",
+  "conflict_action": "沈南星披湿毯冲进药厂取走试剂账本，林若鸢趁乱推倒药架封住出口。",
+  "information_gap": "火味触发记忆碎片，但沈南星还没有完整想起小舟死亡全过程。",
+  "emotional_debt_delta": "+生命危险、+记忆恢复入口、+反派最后作恶",
+  "payoff_or_hook": "熟悉药味钻进鼻腔，她脑中闪过小舟雨夜求抱的脸。",
+  "chapter_end_hook": "她低头看见账本边角，小舟的名字被火光照亮。",
+  "paywall_card": true,
+  "must_include": [
+    "陆氏旧药厂大火",
+    "林若鸢推倒药架封路",
+    "试剂账本",
+    "药味触发记忆碎片",
+    "小舟雨夜脸的闪回"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写可模仿的起火细节",
+    "不要把火场写成浪漫救赎",
+    "不要让林若鸢只在远处叫嚣"
+  ]
+}

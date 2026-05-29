@@ -1,0 +1,10 @@
+slug: auto_20260514_191552_sister_rebirth_my_death
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: sister_rebirth_my_death
+genre: family_ethics
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

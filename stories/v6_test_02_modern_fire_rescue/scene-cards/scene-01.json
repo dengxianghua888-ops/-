@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": false,
+  "is_climax_beat": false,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "家中客厅地板",
+  "time": "20:15 心梗发作后数分钟",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "120调度员（电话）"],
+  "character_goal": "拨打120求救，活下去",
+  "opposition_goal": "调度系统已将其标记为'焦虑症患者夸大症状'，降低出车优先级",
+  "conflict_action": "拨打120后被告知'您爱人提前说过您情绪不太好'，出车被降级为非紧急",
+  "information_gap": "主角不知道妻子三小时前已在调度群发了三条消息；读者从开篇hook已知",
+  "emotional_debt_delta": "+3：第一次求救被降级，窒息感建立",
+  "payoff_or_hook": "120说'先核实情绪状态再安排出车'——专业术语包裹下的见死不救",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "心梗发作的具体生理症状（ST段抬高、左臂放射痛）",
+    "120调度员温柔但致命的'提前通知'话术",
+    "手机心电图App的客观数据与调度员态度的反差"
+  ],
+  "must_not_write_as_exposition": [
+    "心梗的医学知识不能用科普方式呈现",
+    "妻子的职业背景不能由叙述者直接解释"
+  ],
+  "rhythm_job": {
+    "shape": "急促递进",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "窒息-绝望",
+    "emotion_arc": "发作 → 求救 → 第一次被拒",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "感受心梗的生理恐惧+被专业话术挡在门外的荒谬",
+    "required_techniques": [
+      {
+        "technique": "感官过载叠加",
+        "instruction": "视觉（眼前发黑）+触觉（左臂钢筋贯穿感）+内脏感（胸腔被碾压）同时过载，不超过三行"
+      },
+      {
+        "technique": "三段递进封锁（第一段）",
+        "instruction": "120调度员先确认身份，再提及'您爱人说过'，最后以'建议先深呼吸自我缓解'拒绝优先出车——温柔的拒绝比粗暴的更绝望"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "事实短句+事实短句+转折否定",
+        "example": "火是真的。我也是真的快死了。可没有人信我。",
+        "instruction": "用三个短句：心梗是真的+我真的快死了+但调度员不当回事。第三句的转折词用'可'或'但'，一个字承载全部绝望"
+      }
+    ],
+    "peak_type": "system_rejection",
+    "bomb_technique": "温柔拒绝式",
+    "source_excerpt": "120调度员的声音很温柔。'先生，您爱人提前跟我们说过，您最近情绪不太好——'我蜷在客厅地板上，左臂像被钢筋贯穿。心电图仪在手机屏幕上跳出ST段抬高的曲线，我认得那条线。建筑师认得死亡的形状。"
+  }
+}

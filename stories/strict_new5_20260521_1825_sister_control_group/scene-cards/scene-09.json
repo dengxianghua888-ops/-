@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "妇产医院病房内",
+  "time": "紧接上一场",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "周叙川",
+    "沈蔓"
+  ],
+  "character_goal": "沈栀要抢回命名权，彻底切断他们对她的排序和安排。",
+  "opposition_goal": "周叙川要挽回解释权，沈蔓要用怀孕和亲情继续压她。",
+  "conflict_action": "沈栀推门进去，当面拆穿两人的逻辑，甩开周叙川的手，对沈蔓说出‘备胎的备胎’。",
+  "information_gap": "我推门进去时，沈蔓捂着肚子看我，像在看一个终于知道自己排第几的人。",
+  "emotional_debt_delta": "羞辱回敬完成，关系切割从心里转成当面宣布。",
+  "payoff_or_hook": "我推门进去时，沈蔓捂着肚子看我，像在看一个终于知道自己排第几的人。",
+  "chapter_end_hook": "我推门进去时，沈蔓捂着肚子看我，像在看一个终于知道自己排第几的人。",
+  "paywall_card": false,
+  "must_include": [
+    "推门进入动作",
+    "甩开拉扯",
+    "‘备胎的备胎’明确说出口"
+  ],
+  "must_not_write_as_exposition": [
+    "不要变成三方辩论赛",
+    "不要长讲伦理道理",
+    "不要把快感写成嚎哭失控"
+  ],
+  "rhythm_job": {
+    "shape": "入门即爆，短句对砸，尾段留反扑阴影",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

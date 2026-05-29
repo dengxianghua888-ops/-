@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "含章宫宫门",
+  "time": "软禁第五日",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "温其正",
+    "太医",
+    "禁军"
+  ],
+  "character_goal": "温照晚想出宫养胎，重新判断这段关系。",
+  "opposition_goal": "萧珩想留下她，但最终选择撤走禁军送她离宫。",
+  "conflict_action": "萧珩撤禁军、牵马车、放上药箱和三匣苦参蜜丸，把和离文书压在车窗边。",
+  "information_gap": "萧珩的放手是否真能持续，温照晚会不会回来。",
+  "emotional_debt_delta": "偿还软禁债第一步，开启追妻火葬场。",
+  "payoff_or_hook": "第四张付费卡：软禁与离宫抉择落地。",
+  "chapter_end_hook": "萧珩打开含章宫门，说皇后想走，朕送你走。",
+  "paywall_card": true,
+  "must_include": [
+    "撤走禁军",
+    "马车和药箱",
+    "三匣苦参蜜丸",
+    "女主不是被赶走而是被尊重送走"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让男主解释一堆苦衷",
+    "不要让女主当场原谅",
+    "不要写成冷漠分手"
+  ]
+}

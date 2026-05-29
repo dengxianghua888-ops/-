@@ -1,0 +1,371 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10640
+  },
+  "title": "夫君断腿后，我召来海上疯王杀穿都督府",
+  "genre": "古言权谋护短爽文",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "沈灼宁从收爪郡主揭成镇海王独女，顾临渊从病骨画师揭成旧监国嫡血少主"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "都督府拿军令、门第、毒药压人，后续被更高军权、封港权、旧案证据反压"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "闯府见血→王妃登岸→舰队封港→皇帝黑手落证→军宴改旗"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "海东青急令飞出窗棂，沈灼宁抹掉顾临渊腿上的血：\"今夜，我让都督府还。\""
+    },
+    {
+      "chapter_id": "ch02",
+      "target_chars": 740,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "鎏金缠骨鞭抽碎匾额后，沈灼宁当众点名：\"把裴承骁拖出来。\""
+    },
+    {
+      "chapter_id": "ch03",
+      "target_chars": 760,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "顾照雪吐出那口黑血时，柳闻莺袖中的药包掉了出来。"
+    },
+    {
+      "chapter_id": "ch04",
+      "target_chars": 780,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "海面鼓角压城，鎏金海鹘舟靠岸，裴照棠掀帘下船。"
+    },
+    {
+      "chapter_id": "ch05",
+      "target_chars": 760,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "沈烈川一句\"封港\"砸下去，整个水寨的门栓同时落死。"
+    },
+    {
+      "chapter_id": "ch06",
+      "target_chars": 760,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "顾临渊从断椅下摸出半枚旧监国海印，眸色第一次冷到底。"
+    },
+    {
+      "chapter_id": "ch07",
+      "target_chars": 740,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "顾临渊把那枚海印压进掌心：\"废腿这局，不是都督府起的。\""
+    },
+    {
+      "chapter_id": "ch08",
+      "target_chars": 760,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "海防中军旧将跪在暗巷里，喊出的却不是顾公子，而是\"少主\"。"
+    },
+    {
+      "chapter_id": "ch09",
+      "target_chars": 780,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "封赏军宴的请帖送到案上，署名不是都督府，是御前督海司。"
+    },
+    {
+      "chapter_id": "ch10",
+      "target_chars": 760,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "宴上第一杯酒未落，港外火雷引线已经被人悄悄点燃。"
+    },
+    {
+      "chapter_id": "ch11",
+      "target_chars": 740,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "皇帝口谕借内侍之口落地：\"顾氏一脉，一个不留。\""
+    },
+    {
+      "chapter_id": "ch12",
+      "target_chars": 780,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "顾临渊掀碎轮椅扶手起身，海防旧部齐齐跪倒：\"恭迎少主。\""
+    },
+    {
+      "chapter_id": "ch13",
+      "target_chars": 760,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "沈灼宁把供词甩上御案：\"狗皇帝，轮到你还债了。\""
+    },
+    {
+      "chapter_id": "ch14",
+      "target_chars": 760,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "潮声退去，顾临渊把糖蒸酥递到她唇边：\"天下不要了，我只陪你回家。\""
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海崖别院内室",
+      "character_goal": "沈灼宁确认夫君断腿与顾照雪流产真相，并立刻摇来镇海王夫妇",
+      "conflict_action": "她一边止血一边逼问随从，随后放出海东青急令",
+      "information_gap": "断腿与断潮散到底是裴承骁私怨，还是有人借他下死手",
+      "emotion_debt_balance": "一次性欠下护夫债、护妹债、门第羞辱债；同步开启娘家护短兑现",
+      "chapter_end_hook": "海东青振翅出窗，今夜就要见血",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要长段解释海疆背景",
+        "不能把受辱写成事后复盘"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 700,
+      "target_chars_max": 780,
+      "scene_location": "海防都督府水寨正门",
+      "character_goal": "沈灼宁先一步闯府，把裴承骁逼出来",
+      "conflict_action": "她持缠骨鞭抽碎匾额、踹翻门兵、踩着石阶往里闯",
+      "information_gap": "裴承骁为什么敢当众废顾临渊的腿，背后凭的只是都督府军功吗",
+      "emotion_debt_balance": "开始偿还门第羞辱债，建立女主先出第一刀的护短姿态",
+      "chapter_end_hook": "她点名要裴承骁滚出来受鞭",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写路人震惊清单",
+        "不能把闯府写成流程说明"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海防都督府前院",
+      "character_goal": "当众揪出害顾照雪的柳闻莺，并逼出断潮散实物",
+      "conflict_action": "沈灼宁扯开柳闻莺袖口，逼她吞回药粉，裴承骁拔刀护人",
+      "information_gap": "断潮散只是争宠害胎，还是冲着顾家断嗣来的政治手段",
+      "emotion_debt_balance": "护妹债开始兑付，但反派可杀度被继续堆高",
+      "chapter_end_hook": "药包落地，黑血出口，众人才知不止伤胎",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要连续解释药理",
+        "不能把顾照雪惨状写成猎奇细节"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "都督府前院至岸口",
+      "character_goal": "用镇海王妃登岸压碎都督府的门第底气",
+      "conflict_action": "裴照棠下舟入院，当众掌掴裴承骁生母，并下令清场验毒",
+      "information_gap": "王妃为何一见顾临渊腿伤就神色骤变，她认出了什么旧物",
+      "emotion_debt_balance": "娘家护短债大幅偿还，同时埋下男主身份债的新裂口",
+      "chapter_end_hook": "裴照棠盯着伤口里的黑砂：\"这毒，我在宫里见过。\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要把王妃入场写成长篇服饰描写",
+        "不能只靠身份压人而没有见血动作"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "都督府议事堂与港口",
+      "character_goal": "沈烈川以更高军权封死都督府与海港，防止灭口",
+      "conflict_action": "他拍下节钺、撞开议事堂门、命玄潮舰队封港扣人",
+      "information_gap": "都督府账房与药库里，到底藏着谁的命令与供毒线",
+      "emotion_debt_balance": "门第羞辱债被军权反压，故事坐标从府斗抬到封港军权",
+      "chapter_end_hook": "封港令落下后，裴承骁终于慌了",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要复述军令条款",
+        "不能把封港写成官样公文"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海崖别院药室",
+      "character_goal": "先救顾临渊，再从伤药里掏出第一条旧监国线索",
+      "conflict_action": "王妃剜出腿骨中的黑砂，顾临渊自己从断椅夹层取出半枚海印",
+      "information_gap": "顾临渊为什么随身藏着旧监国海印，他到底瞒了沈灼宁什么",
+      "emotion_debt_balance": "护夫债被局部安抚，隐藏身份债被正式点燃",
+      "chapter_end_hook": "海印现身，顾临渊第一次没再装温吞",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要长段回忆夫妻三年往事",
+        "不能把疗伤写成医案说明"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 700,
+      "target_chars_max": 780,
+      "scene_location": "海崖别院廊下",
+      "character_goal": "沈灼宁逼顾临渊交代伪废与蚀骨潮毒的关联",
+      "conflict_action": "她把海印按回他掌心，逼他给一句真话；他反手握住她腕骨承认局不止都督府",
+      "information_gap": "顾临渊是被谁逼着装病残，真正要他命的是海疆势力还是宫里",
+      "emotion_debt_balance": "夫妻信任债开始偿还，信息差转为共同对敌的张力",
+      "chapter_end_hook": "顾临渊说出：\"要我废的，从来不是裴承骁。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写成谈心大会",
+        "不能连续解释三年布局时间线"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "旧船坞暗巷",
+      "character_goal": "找到愿意开口的海防旧将，确认顾临渊与旧监国一脉的关系",
+      "conflict_action": "沈灼宁带人夜截转运车，顾临渊用海印逼旧将下跪认主",
+      "information_gap": "旧监国残部为何沉默多年，如今为何又突然肯现身",
+      "emotion_debt_balance": "隐藏身份债开始实质兑付，但保留更大掉马空间",
+      "chapter_end_hook": "第一声\"少主\"落下，沈灼宁才知自己嫁的从不是普通画师",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写旧将群像名录",
+        "不能把认主写成空喊口号"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "海崖别院正厅",
+      "character_goal": "主角团拆解军宴请帖，决定反设局把皇帝黑手钓出来",
+      "conflict_action": "沈烈川撕开请帖，裴照棠对照药路供词，顾临渊拍板赴宴",
+      "information_gap": "御前督海司为何越过都督府发帖，皇帝究竟急着灭哪一口",
+      "emotion_debt_balance": "皇权绞杀债被明确抛到台前，爽点从地方清算升级到朝局清算",
+      "chapter_end_hook": "请帖上的御印，证明宫里已经亲自下场",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要分析朝局大势一整段",
+        "不能把设局写成智囊会议纪要"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "犒军宴外场与港口栈桥",
+      "character_goal": "先入宴，再暗中剪断对方封舱火雷的杀招",
+      "conflict_action": "沈灼宁假意入席，顾临渊调旧部换掉引线，裴承骁命亲兵锁桥",
+      "information_gap": "宴上第一刀会从哪里落下，是酒、火雷，还是海防亲军反噬",
+      "emotion_debt_balance": "节奏进入临门一脚，读者知道杀局已成但不知哪边先翻桌",
+      "chapter_end_hook": "火雷引线亮起的瞬间，顾临渊却朝反方向笑了",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要复述宴席布置清单",
+        "不能把潜入动作写成慢流程"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 700,
+      "target_chars_max": 780,
+      "scene_location": "犒军宴主厅",
+      "character_goal": "逼出皇帝灭口口谕，让裴承骁从外刀变成铁证",
+      "conflict_action": "内侍宣口谕，裴承骁当众拔刀，沈灼宁顺势把供药账册砸到席上",
+      "information_gap": "皇帝为何如此急着杀顾家，顾临渊身上那条血脉到底指向谁",
+      "emotion_debt_balance": "皇权绞杀债完全坐实，反派升级报复完成顶格",
+      "chapter_end_hook": "口谕落地：顾氏一脉，一个不留",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要堆砌群臣反应",
+        "不能把宣旨写成纯程序播报"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "犒军宴主厅至高台",
+      "character_goal": "顾临渊公开起身掉马，夺回海防旧部与现场军心",
+      "conflict_action": "他掀碎轮椅、夺刀斩旗、持海印登高；中军旧部率先跪迎",
+      "information_gap": "顾临渊除了血脉正统，还握着什么能直接改旗的实权",
+      "emotion_debt_balance": "隐藏身份债与护夫债大额兑现，男主从被护对象翻成镇场核心",
+      "chapter_end_hook": "满厅跪声汇成一句：\"恭迎少主。\"",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要回忆他从前多能忍",
+        "不能把掉马写成旁白介绍"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "军宴高台与御前传令船",
+      "character_goal": "用供词、毒证、旧部认主三证合一，当众把皇帝推上真凶位",
+      "conflict_action": "沈灼宁甩供词，沈烈川扣下传令内侍，顾临渊当众宣旧监国血案",
+      "information_gap": "主角团会不会顺势夺位，还是只清算黑手后另做选择",
+      "emotion_debt_balance": "皇权绞杀债完成清算前夜，读者期待最终价值反转",
+      "chapter_end_hook": "她指着御案来的密旨骂出：\"轮到狗皇帝还债。\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要长篇讲旧案全史",
+        "不能让证据只靠口头自述"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海崖别院后廊",
+      "character_goal": "战后回府，回收夫妻甜爽与护妹余温，并完成价值收束",
+      "conflict_action": "顾临渊替她端药递糖蒸酥，顾照雪被安置养胎，沈灼宁追问他为何不登位",
+      "information_gap": "赢了天下后，这对夫妻会选龙椅还是彼此",
+      "emotion_debt_balance": "护夫债、护妹债、夫妻糖点全部回甘，完成不登位的价值反转",
+      "chapter_end_hook": "顾临渊说不要天下，只陪她回家看潮",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写庆功流水账",
+        "不能把回甘写成空抒情"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapters": 14,
+    "minimum_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [18, 23],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.46,
+    "direct_dialogue_line_rate_min": 0.42,
+    "direct_dialogue_line_rate_max": 0.5,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 1.5,
+    "question_mark_density_per_1000_chars_max": 3.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

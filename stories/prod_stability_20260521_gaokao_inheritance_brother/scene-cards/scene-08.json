@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "暗层门口与旧校区走廊",
+  "time": "次日下午",
+  "pov": "第一人称，沈知夏",
+  "characters": [
+    "沈知夏",
+    "母亲",
+    "父亲"
+  ],
+  "character_goal": "逼母亲解释药盒、记录和前三世死亡的关系",
+  "opposition_goal": "母亲要毁掉药盒与草稿，父亲要把我拖离旧校区",
+  "conflict_action": "我举着改名草稿堵住走廊，夺下母亲手里的药盒，当场拆看标签",
+  "information_gap": "药盒和封存记录究竟压住了什么，为什么母亲怕到宁可烧掉",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "母亲的恐惧从'丢继承权'翻面成'怕真相重演第三次死亡'",
+  "chapter_end_hook": "母亲眼眶通红：'把这些都烧了，不然我们第四次还是活不成。'",
+  "paywall_card": false,
+  "must_include": [
+    "药盒标签能指向长期心理干预",
+    "父亲第一次在动作上站到母亲那边"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把药理写成长说明",
+    "不要连续解释前三世时间线",
+    "不要让父母一口气讲清全部因果"
+  ],
+  "rhythm_job": {
+    "shape": "堵路动作 25% + 三人短对白 45% + 药盒反证 20% + 崩溃钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "药盒掉地滚动的瞬间，给一拍静场"
+  }
+}

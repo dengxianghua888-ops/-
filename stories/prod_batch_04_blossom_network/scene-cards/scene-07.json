@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "基金律师办公室",
+  "time": "第四天上午",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "陆闻舟", "基金律师"],
+  "character_goal": "叶昭想拿到可变现资产，补足外婆治疗费用。",
+  "opposition_goal": "陆闻舟想用北桥救援站股权赠与和领证日期稳住叶昭。",
+  "conflict_action": "陆闻舟把股权赠与协议推给叶昭，叶昭逐页拍照、核对页码、签收原件。",
+  "information_gap": "陆闻舟以为叶昭收下协议代表想嫁；叶昭已经把它视为治疗保证金来源。",
+  "emotional_debt_delta": "迟到补救第一次出现，但叶昭不再把补偿当作爱。",
+  "payoff_or_hook": "陆闻舟说领证后她还是陆太太，叶昭只问协议几日内可转让。",
+  "chapter_end_hook": "陆闻舟把北桥救援站股权赠与书递给她，以为她会哭着答应。",
+  "paywall_card": false,
+  "must_include": [
+    "北桥救援站股权赠与协议",
+    "叶昭逐页拍照",
+    "基金律师提醒冷静期",
+    "陆闻舟误判她妥协",
+    "叶昭询问转让期限"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写叶昭被礼物打动",
+    "不要让陆闻舟知道她要变现",
+    "不要解释复杂股权结构"
+  ]
+}

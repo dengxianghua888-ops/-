@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "钟楼整点报时台阶",
+  "time": "夜深，白月光离场后",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "裴老爷子",
+    "弹幕"
+  ],
+  "character_goal": "温漾想确认自己被选择不是因为孩子",
+  "opposition_goal": "裴时砚想用具体补偿和求婚重新建立安全感",
+  "conflict_action": "裴时砚交出工资卡、信托文件和戒指，温漾要求他补上三个月酸梅糖再回答",
+  "information_gap": "她是否答应复婚",
+  "emotional_debt_delta": "-隐瞒保护债偿还，+复婚期待",
+  "payoff_or_hook": "甜宠回温但保留女主主动选择",
+  "chapter_end_hook": "截断句：他单膝跪在钟楼下，问我：“温漾，你愿意再嫁我一次吗？”",
+  "paywall_card": false,
+  "must_include": [
+    "工资卡",
+    "信托文件",
+    "戒指",
+    "酸梅糖要求",
+    "弹幕/评论催答应"
+  ],
+  "must_not_write_as_exposition": [
+    "不要纯炫富",
+    "不要让孩子替她做决定",
+    "不要写长篇誓词"
+  ],
+  "rhythm_job": {
+    "shape": "甜宠带轻冲突；对白约38%，动作约34%，弹幕/评论约16%，呼吸点约12%",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 4,
+    "max_question_marks": 5,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "钟声、酸梅糖、温漾慢半拍数补偿"
+  }
+}

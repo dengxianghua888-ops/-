@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "城郊别庄（囚禁处）",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "女主被囚禁，听到外界消息",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "得知凤翎步摇送给了韩若",
+  "information_gap": "步摇的回旋伏笔建立",
+  "emotional_debt_delta": "+15（信物背叛）",
+  "payoff_or_hook": "当年他说'这步摇只配你戴'",
+  "chapter_end_hook": "当年他说'这步摇只配你戴'",
+  "paywall_card": false,
+  "must_include": [
+    "得知凤翎步摇送给了韩若"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

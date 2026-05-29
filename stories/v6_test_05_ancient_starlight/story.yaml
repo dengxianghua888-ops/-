@@ -1,0 +1,83 @@
+pipeline_mode: production
+status: final
+
+title: "他当众叫我助理，我转身嫁了他金主"
+genre: 短篇甜宠
+platform: 番茄小说
+pov: 第一人称女主
+
+runner_policy:
+  external_allowed: false
+  manual_review: true
+
+provider: anthropic
+model: claude-opus-4-6
+source: storyforge-production-v6
+phase: 8-final-packager
+
+quality_gate:
+  pass
+  critical_failures: []
+  important_failures_resolved:
+    - "「松弛」描述符：原5处重复，已替换4处（保留首次出场建立人设）"
+    - "「像在[日常动作]」比喻：原8处模板化，已替换5处为动作/语气/沉默等手法"
+    - "scene-02背景叙述段：已精简流程说明句，提速处理"
+  score_scale: "0-10"
+  critic_scores:
+    platform: 7
+    emotion: 8
+    style: 7
+    logic: 8
+
+machine_metrics:
+  char_count_estimate: 5100
+  chapter_count: 7
+  chapter_lengths_range: "500-1200"
+  hook_coverage: 1.0
+  paywall_nodes: 3
+  target_length:
+    min: 3000
+    max: 7747
+    status: pass
+  direct_submission:
+    opening_guide: pass
+    mobile_paragraphs: pass
+    submission_paywall_map: pass
+    visible_paywall_labels: pass
+
+chapters:
+  - id: 1
+    hook: "是我怀孕了。"
+    hook_type: revelation_bomb
+  - id: 2
+    hook: "始终没有拨出去。"
+    hook_type: silent_threat
+  - id: 3
+    hook: "来找我？"
+    hook_type: power_reversal
+  - id: 4
+    hook: "更顺理成章。"
+    hook_type: contrast_shock
+  - id: 5
+    hook: "都签好了，就差你点头。"
+    hook_type: evidence_half_reveal
+  - id: 6
+    hook: "走吧，先把正事办了。"
+    hook_type: cliff_action
+  - id: 7
+    hook: "种子总会生根发芽。"
+    hook_type: closure
+
+revision_log:
+  - "松弛×5 → 保留1处(步子松弛)，替换4处为：放松/平平/不高不低/随口/舒展"
+  - "像在[小事]×8 → 保留3处(首次建立+自然处)，替换5处为动作描写/语气词/直接陈述"
+  - "scene-02流程说明句精简，删除间接转述'看似是询问'段"
+  - "Ch5/Ch6超1200字，拆分为Ch5+Ch6+Ch7三章，各章均在500-1200范围内"
+  - "删除Ch5末尾重复描写句'长桌上铺满红色文件夹，最后一页的墨迹还没有干。'"
+total_chars: 5129
+paywall_cards: 4
+critic_scores:
+  logic: 8
+  style: 7
+  emotion: 8
+  platform: 7

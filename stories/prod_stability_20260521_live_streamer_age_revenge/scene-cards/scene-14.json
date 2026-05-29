@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 680,
+  "target_chars_max": 800,
+  "location": "新项目片场晨会与签约桌",
+  "time": "数日后早晨",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "周既白",
+    "制片团队"
+  ],
+  "character_goal": "翻篇旧人，确认新搭档给她的是尊重和回报，而不是报复性替代。",
+  "opposition_goal": "无正面反派，本场对抗是她是否还被旧伤牵住。",
+  "conflict_action": "周既白递上新项目计划表、修订档期和终生合作约，把第一位署名和拍板权留给她。",
+  "information_gap": "周既白说：这次轮到我给你递台阶。",
+  "emotional_debt_delta": "完成补偿闭环：旧账清零，新关系轻落地。",
+  "payoff_or_hook": "给出尊重型修复，不抢主线爽感。",
+  "chapter_end_hook": "周既白说：这次轮到我给你递台阶。",
+  "paywall_card": false,
+  "must_include": [
+    "计划表、档期或合同等具体业务物件",
+    "周既白公开把主导权留给她",
+    "一句克制、不过火的修复台词",
+    "片场日常动作做收尾，如打板、递咖啡、翻合同"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把结尾写成甜宠告白",
+    "不要回头消费顾淮川",
+    "不要用总结句概括她终于幸福"
+  ],
+  "rhythm_job": {
+    "shape": "晨会日常1拍+递合同2拍+轻落修复1拍",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0,
+    "ratio_note": "对白、动作、呼吸点比例偏轻，章尾钩是向前走，不再加压"
+  }
+}

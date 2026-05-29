@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "赵慧家客厅、服务站旧址、项目公示栏",
+  "time": "事故后三天",
+  "pov": "有限第三人称，贴近赵慧",
+  "characters": [
+    "赵慧",
+    "赵慧丈夫",
+    "服务站会计",
+    "群管理员"
+  ],
+  "character_goal": "赵慧找到沈昭替自己证明药箱是许曼和物业接手。",
+  "opposition_goal": "服务站和业主群都想把赵慧推到前台承担承诺。",
+  "conflict_action": "赵慧翻通讯录、跑服务站、查项目公示，却只找到沈昭已离职和换号的痕迹。",
+  "information_gap": "沈昭所在地只显示山区项目打码名单，仍不出现本人。",
+  "emotional_debt_delta": "亲手逼走关键证人的回旋债兑现。",
+  "payoff_or_hook": "赵慧第一次意识到自己需要沈昭，却已经找不到她。",
+  "chapter_end_hook": "赵慧拨出第十七个电话，提示音还是：您拨打的号码是空号。",
+  "paywall_card": false,
+  "must_include": [
+    "赵慧翻旧群发现沈昭已退群",
+    "服务站会计冷淡递出离职记录",
+    "群里开始出现骂赵慧的评论"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把找人过程写成地点流水账",
+    "不要让赵慧立刻彻底悔悟",
+    "不要让沈昭接电话"
+  ],
+  "rhythm_job": {
+    "shape": "找人动作连跳，夹入群风向变化；动作约四成，对白两成，弹幕/评论/吐槽两成，心理裂缝两成。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 5,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

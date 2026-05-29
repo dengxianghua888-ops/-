@@ -1,0 +1,51 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "沈家旧实验室档案间",
+  "time": "退婚次日清晨",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "旧实验室管理员"
+  ],
+  "character_goal": "沈听澜要取回五年前被抹掉的研发证据。",
+  "opposition_goal": "江砚舟要让她交回文件，继续把她锁进幕后角色。",
+  "conflict_action": "沈听澜打开防火柜取出算法注释本和旧实验录音，江砚舟电话打进来要求她送回公司。",
+  "information_gap": "录音里藏着前世冷柜原话，先以杂音遮住。",
+  "emotional_debt_delta": {
+    "added": [
+      "放弃署名债",
+      "守实验室债"
+    ],
+    "paid": [
+      "研发证物回到沈听澜手里"
+    ]
+  },
+  "payoff_or_hook": "具体证物替代苦情叙述，证明她五年不是空等。",
+  "chapter_end_hook": "截断句：修复后的录音里，江砚舟说，你要是真想死心，就躺进去。",
+  "paywall_card": false,
+  "must_include": [
+    "防火柜",
+    "母亲留下的实验室信托标签",
+    "胃药或旧咖啡杯作为五年付出轻证据",
+    "江砚舟电话只占短段"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写母亲遗嘱长段",
+    "不要讲商业授权全流程",
+    "不要让女主独白自己有多苦"
+  ],
+  "rhythm_job": {
+    "shape": "证物搜取，电话打断，录音句尾钩",
+    "dialogue_action_breathing_ratio": "对白约35%，动作约50%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用沈听澜擦去注释本灰尘的生活动作放缓",
+    "chapter_tail_action": "录音修复条走到100%"
+  }
+}

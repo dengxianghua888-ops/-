@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "scene": "scene-01",
+      "type": "opening_click",
+      "quote": "陆沉舟抬眼，语气像在纠正一张错票。“她只是经纪人。”",
+      "assessment": "开篇三百字内完成公开否认和身份羞辱，平台点击欲强。"
+    },
+    {
+      "scene": "scene-02",
+      "type": "chapter_hook",
+      "quote": "我把辞职信推过去，陆沉舟却笑了：“这场冷战你赢了。”",
+      "assessment": "章末钩具备误判、羞辱和后文回旋空间。"
+    },
+    {
+      "scene": "scene-08",
+      "type": "paywall_card",
+      "quote": "谢家今日下聘，不让她再被任何人叫错身份。",
+      "assessment": "谢家公开下聘、资产和身份同时落地，适合作为强付费爽点。"
+    },
+    {
+      "scene": "scene-12",
+      "type": "paywall_card",
+      "quote": "婚礼大屏忽然黑下去，热搜第一跳出：谢氏影业全线崩盘。",
+      "assessment": "婚礼危机最大化，具备卡章追读动力。"
+    }
+  ],
+  "notes": "标题、简介、投稿付费节点地图属于 Phase 7 包装项，未纳入 fail gate。"
+}

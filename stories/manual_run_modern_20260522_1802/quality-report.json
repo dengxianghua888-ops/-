@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.5,
+    "style": 7.5,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 5 status=pass",
+    "target_length actual=11296 in range [10000,14000]",
+    "source_rhythm_fit=pass, quote_line_rate=0.515 within ceiling 0.538",
+    "meta_leak_count=0",
+    "source_overlap max_continuous=7 chars (well below threshold)",
+    "action_density_per_k=9.74"
+  ],
+  "hard_checks": {
+    "word_count": {"status": "pass", "value": 11296},
+    "chapter_count": {"status": "pass", "value": 15},
+    "paywall_cards": {"status": "pass", "value": 5},
+    "source_overlap": {"status": "pass", "value": 7},
+    "meta_leak": {"status": "pass", "value": 0}
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {"id": "M1_dead_loop_reversal", "status": "pass", "evidence": "protagonist uses adversary's own document (300万 decision) as weapon in counter-claim"},
+      {"id": "M3_causal_boomerang", "status": "pass", "evidence": "the very act of stamping the inflated amount becomes the proof of administrative fraud"},
+      {"id": "M6_progressive_escalation", "status": "pass", "evidence": "PPT intimidation → video coercion → seal/封条 → calculator confrontation → sweat confession → verdict"}
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {"id": "tone_match", "status": "pass", "evidence": "first-person restrained narrator, short declarative lines, sensory anchors (PH试纸盒, 红章, 计算器)"},
+      {"id": "rhythm_match", "status": "pass", "evidence": "rhythm_fit pass; avg_line_chars 31.7 within source tolerance; quote_rate controlled"},
+      {"id": "emotional_arc", "status": "pass", "evidence": "压迫→绝望→决心→反击→正义→修复 arc matches source pattern"}
+    ]
+  },
+  "machine_metrics": {
+    "text_path": "stories/manual_run_modern_20260522_1802/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 14000,
+      "actual": 11296,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 5,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {"present": true, "paragraphs": 3, "chars": 104, "status": "pass"},
+      "mobile_paragraphs": {"offending_paragraphs": 0, "status": "pass"},
+      "submission_paywall_map": {"required": 4, "actual": 5, "present": true, "status": "pass"},
+      "visible_paywall_labels": {"hits": [], "count": 0, "status": "pass"}
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 23,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11296,
+      "action_density_per_k": 9.74
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {"chars": 9793, "line_count": 418, "avg_line_chars": 23.428, "median_line_chars": 20.0, "short_line_rate": 0.3684, "long_line_rate": 0.122, "quote_line_rate": 0.3469, "barrage_line_rate": 0.0, "question_marks_per_k": 5.106},
+      "candidate": {"chars": 11079, "line_count": 367, "avg_line_chars": 30.188, "median_line_chars": 20.0, "short_line_rate": 0.4114, "long_line_rate": 0.3215, "quote_line_rate": 0.515, "barrage_line_rate": 0.0, "question_marks_per_k": 2.437},
+      "failures": []
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

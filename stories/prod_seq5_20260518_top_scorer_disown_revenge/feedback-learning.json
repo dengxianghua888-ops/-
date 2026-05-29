@@ -1,0 +1,106 @@
+{
+  "story_slug": "prod_seq5_20260518_top_scorer_disown_revenge",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M2", "M3", "M6"],
+  "target_length": {
+    "min": 12000,
+    "max": 15000
+  },
+  "final_length": 13554,
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 8.2,
+    "logic": 7.6
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "type": "opening_stack",
+      "reusable_fact": "用“高考748分省状元+直播采访+全家失联+断亲退婚+实名报警灭门”在首章完成多重冲突叠压。"
+    },
+    {
+      "chapter": 3,
+      "type": "visual_evidence_reversal",
+      "reusable_fact": "用“伤疤长错手”作为低门槛可视化破绽，适合直播/监控场景快速扭转身份判断。"
+    },
+    {
+      "chapter": 8,
+      "type": "technical_trace_hook",
+      "reusable_fact": "智能家居日志把门锁、传感器、新风报警和手动校准集中到同一时间点，能把玄学式怀疑转为程序化证据。"
+    },
+    {
+      "chapter": 13,
+      "type": "physical_payoff",
+      "reusable_fact": "破拆墙体先滚出婚戒、手表、钥匙扣等亲密物证，比直接发现遗骸更适合制造情绪递进。"
+    },
+    {
+      "chapter": 14,
+      "type": "emotional_reversal",
+      "reusable_fact": "断亲书正面是驱逐，背面压痕是“别回家”，同一物件完成伤害到保护的主情绪反转。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "after_chapter": 4,
+      "card_type": "public_opinion_reversal",
+      "reusable_fact": "假家人带亲子鉴定、出境记录和真千金上门，把主角从报警人打成冒牌货。"
+    },
+    {
+      "after_chapter": 8,
+      "card_type": "hidden_system_trace",
+      "reusable_fact": "常规检测失败后，智能后台显示凌晨三点二十七分全屋传感器爆红并被手动校准。"
+    },
+    {
+      "after_chapter": 12,
+      "card_type": "procedural_bet",
+      "reusable_fact": "主角签下破拆申请和损失承担书，把个人前途、房屋损失和真相赌在同一张程序文件上。"
+    },
+    {
+      "after_chapter": 16,
+      "card_type": "courtroom_chain_closure",
+      "reusable_fact": "庭审把门锁日志、传感器曲线、墙体取样、DNA、电子印章和旧案身份逐项闭合。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "高考状元",
+    "直播报喜反转",
+    "断亲书反转",
+    "假家人",
+    "真假千金伪装",
+    "智能家居日志",
+    "门锁记录",
+    "传感器异常",
+    "墙体藏尸",
+    "程序化取证",
+    "破拆签字",
+    "庭审证据链",
+    "亲情遗言",
+    "公安刑事科学技术"
+  ],
+  "manual_revision_delta": [
+    {
+      "chapter": 15,
+      "change": "补入陌生女孩被债务胁迫、按剧本冒充真千金并交出提词资料，回收真千金支线。"
+    },
+    {
+      "chapter": 16,
+      "change": "补入陌生女孩作为证人出庭，确认假家人亲情台词来源。"
+    },
+    {
+      "chapter": 7,
+      "change": "明确警方把摄像机挡在封控线外，禁止拍摄取证画面、屏幕内容和证物细节。"
+    },
+    {
+      "chapter": 9,
+      "change": "补充记者在警戒线外且拍不到屋内标记，压严直播边界。"
+    },
+    {
+      "chapter": 17,
+      "change": "将判决表述调整为“一审判决主犯死刑，相关共犯分别获刑，后续程序依法推进”，增强现实感。"
+    }
+  ]
+}

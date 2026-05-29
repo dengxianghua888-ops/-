@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "无人化码头发布会后台",
+  "time": "江沉死亡脱离后半小时",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "江栀", "沈清禾", "贺景衡", "公关经理", "安全主管"],
+  "character_goal": "江沉旁观众人如何对待他的失踪和报警。",
+  "opposition_goal": "贺景衡和江栀要压住事故，维持发布会。",
+  "conflict_action": "江栀命人继续发布会，沈清禾删掉江沉未接来电，贺景衡让公关写江沉畏罪潜逃通稿。",
+  "information_gap": "众人不知道安全主管已经收到井下无生命体征报告。",
+  "emotional_debt_delta": "+死后仍被污名为闹事潜逃",
+  "payoff_or_hook": "迟来追悔先从更冷的误判开始。",
+  "chapter_end_hook": "安全主管撞进发布会大厅，脸色惨白地喊：江沉出事了。",
+  "paywall_card": false,
+  "must_include": ["灵魂没有触感", "未接来电被删", "畏罪潜逃通稿", "发布会继续", "安全主管冲进来"],
+  "must_not_write_as_exposition": ["不要让江沉灵魂替她们解释", "不要立即全员悔悟", "不要把灵魂写成能干预现实"]
+}

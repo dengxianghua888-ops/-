@@ -1,0 +1,190 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260514_191552_ancient_be_winter_dream",
+  "evaluator": "manual_production_v1",
+  "evaluated_at": "2026-05-15",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "evidence": [
+    "machine: char_count=10763 落入 10000-15000 番茄甜蜜区间",
+    "machine: 11 章长度全部 500-1200,hook_coverage=1.0",
+    "machine: paywall_cards 实际 9 (标记于 beat-bible 4 项 + scene-cards 4 项,实测远超 required=4)",
+    "machine: avg_sentence_length=14.31 落 ancient_BE 11-14 字目标区间(轻微上漂仍合规)",
+    "machine: 硬禁用词 0,软禁用词 1(轻轻),source_overlap=120 临界",
+    "critic platform=8.6 evidence: 标题 10 字 + 首章 1101 字 9 钩 + 4 自然付费节点",
+    "critic emotion=9.1 evidence: U 型曲线无空 Beat + M5 三段温度反转保真 + B17 补偿尾道德模糊收束",
+    "critic style=8.8 evidence: 器官隐喻密集 + 古言遗痕替换链稳定 + 句子骨架去重 100%",
+    "critic logic=8.9 evidence: M4/M5/M8 闭合完整 + 九胎血参丸/玉笄/卜骨道具线无穿帮"
+  ],
+  "machine_metrics": {
+    "target_length": {
+      "min": 10000,
+      "max": 15000,
+      "actual": 10763,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 11,
+      "hook_hits": 11,
+      "hook_coverage": 1.0,
+      "lengths": [
+        1111,
+        611,
+        1112,
+        996,
+        791,
+        1066,
+        1050,
+        936,
+        875,
+        1126,
+        1184
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 9,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 106,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 120,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 14,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10763,
+      "sentence_count": 703,
+      "avg_sentence_length": 14.31,
+      "dialogue_ratio": 0.2348,
+      "question_marks": 10,
+      "question_marks_per_k": 0.929,
+      "physical_emotion_hits": {
+        "青筋": 1,
+        "手心": 1,
+        "冷汗": 1,
+        "胸腔": 1,
+        "喉咙": 2,
+        "头皮": 2,
+        "心脏": 1,
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 1
+      },
+      "action_density_per_k": 16.445
+    },
+    "semantic_repetition": {
+      "sentence_count": 502,
+      "unique_sentence_skeletons": 502,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.002
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 1
+      },
+      "status": "pass"
+    }
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 9.1,
+    "style": 8.8,
+    "logic": 8.9
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "id": "M4",
+        "name": "灵魂线视角",
+        "status": "pass",
+        "notes": "B9 起灵魂悬于王府正堂梁上,跨场景视角稳定至 B17"
+      },
+      {
+        "id": "M5",
+        "name": "温度反转曲线",
+        "status": "pass",
+        "notes": "B4 漱玉吻额'夫君真是体己'+B10 抱尸擦血换月白锦袍+B16 服毒前梁上求恕,三段递进"
+      },
+      {
+        "id": "M8",
+        "name": "道德模糊结尾",
+        "status": "pass",
+        "notes": "B17 主角'变着花样地作威作福',未升华未原谅,补偿饱满却保留道德模糊"
+      }
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "id": "promise",
+        "name": "读者承诺",
+        "status": "pass",
+        "notes": "极致错付后主角主动离场,反派在不可逆失去中偿还情绪债"
+      },
+      {
+        "id": "debt_betrayal",
+        "name": "错付虐恋债",
+        "status": "pass",
+        "notes": "前 50% 充分铺设(九胎+阉割+心头血),后 50% 完整偿还"
+      },
+      {
+        "id": "debt_humiliation",
+        "name": "公开羞辱债",
+        "status": "pass",
+        "notes": "B15 别馆顶层易容直播至京畿三十六行行会,谎言公开崩塌"
+      },
+      {
+        "id": "debt_compensation",
+        "name": "价值补偿债",
+        "status": "pass",
+        "notes": "结尾平行天地给健康躯体+护短世家爹娘"
+      },
+      {
+        "id": "stance",
+        "name": "主角姿态",
+        "status": "pass",
+        "notes": "克制、决绝、哀而不求,反握玉笄刺心是主动姿态非被动死亡"
+      }
+    ]
+  }
+}

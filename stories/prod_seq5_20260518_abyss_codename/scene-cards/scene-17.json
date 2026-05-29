@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "B17",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "模拟客舱楼外警戒线",
+  "time": "第六天清晨",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "纪闻",
+    "蒋晴",
+    "受害者家属",
+    "刑侦支队联络员"
+  ],
+  "character_goal": "完成阶段性结案，替失踪女生恢复姓名和证据位置。",
+  "opposition_goal": "纪闻想把责任推给塔台和韩停，保留自己操盘者的优越感。",
+  "conflict_action": "林雾把校牌、发圈、乘客名单、录音和门禁记录逐项对应到每名失踪女生，交给警方和家属确认；纪闻被押走时丢出塔台仍在的线索。",
+  "information_gap": "清舱名单不是纪闻写的，真正的名单源头仍未露面。",
+  "emotional_debt_delta": "受害者真相债阶段性偿还，系列网络债保留。",
+  "payoff_or_hook": "当前校园案证据闭环，受害者不再只是编号。",
+  "chapter_end_hook": "纪闻回头说：清舱名单，从来不是我写的。",
+  "paywall_card": false,
+  "must_include": [
+    "校牌和发圈归位",
+    "受害者姓名被说出",
+    "纪闻被押走",
+    "名单源头钩子"
+  ],
+  "must_not_write_as_exposition": [
+    "不要草草略过受害者",
+    "不要让纪闻逃脱当前案责任",
+    "不要把结案写成彻底太平"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "老旧陪护出租屋",
+  "time": "清晨雨后",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "房东阿姨"
+  ],
+  "character_goal": "林望取回父亲遗像、死亡证明和太平间签字单。",
+  "opposition_goal": "沈岚要闯进屋里找到活着的林正年，推翻林望说法。",
+  "conflict_action": "沈岚推门翻找卧室，撞见供桌、遗像、旧饭盒和太平间回执。",
+  "information_gap": "沈岚第一次面对父亲死亡实物，而不是编号和回执。",
+  "emotional_debt_delta": "死亡实锤完成，沈岚三年不看墓不查证的罪钉牢。",
+  "payoff_or_hook": "出租屋遗像付费卡点。",
+  "chapter_end_hook": "太平间签字单上，家属签名只有十七岁的林望。",
+  "paywall_card": true,
+  "must_include": [
+    "父亲遗像",
+    "旧医院饭盒",
+    "太平间签字单",
+    "死亡证明原件"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写灵异氛围",
+    "不要长篇怀旧",
+    "不要让沈岚痛哭成为洗白段落"
+  ],
+  "rhythm_job": {
+    "shape": "进屋动作快，遗物呈现慢，对白减少，呼吸点压住情绪",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用林望扶正饭盒、擦掉遗像水痕承接沈岚失态"
+  }
+}

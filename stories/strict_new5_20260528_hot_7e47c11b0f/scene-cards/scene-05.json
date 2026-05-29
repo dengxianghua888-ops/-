@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "机场公共候机区与航司官号评论区",
+  "time": "同日下午",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "姜意",
+    "候机旅客",
+    "线上评论用户"
+  ],
+  "character_goal": "林照晚想买票离开海城，避免事情牵连工作和家人",
+  "opposition_goal": "姜意要抢先发布声明，把舆论定性为高层家属被骚扰",
+  "conflict_action": "航司官号发出带模糊照片的声明，评论区扒出林照晚姓名和门诊单位，候机旅客开始认人",
+  "information_gap": "谁把她的个人信息交给官号，许承洲是否默许",
+  "emotional_debt_delta": "+2 背叛从两个人之间扩散到公共舆论",
+  "payoff_or_hook": "舆论围剿启动，女主第一次发现自己无法安静离开",
+  "chapter_end_hook": "航司官号发出声明的那一秒，我的名字被挂了上去。",
+  "paywall_card": false,
+  "must_include": [
+    "航司官号声明",
+    "评论/吐槽弹幕式短行",
+    "模糊照片",
+    "门诊单位被扒",
+    "女主取消购票页面"
+  ],
+  "must_not_write_as_exposition": [
+    "不要列一屏网友辱骂",
+    "不要解释热搜机制",
+    "不要把女主写成站在原地吵架"
+  ],
+  "rhythm_job": {
+    "shape": "动作逃离被评论截停，穿插3到5行评论/吐槽短行，章尾落在实名暴露",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 3,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用购票页面刷新失败、广播寻物、手指滑错键降压",
+    "dialogue_action_comment_ratio": "对白约20%，动作约55%，评论约15%，呼吸点约10%，章尾钩1句"
+  }
+}

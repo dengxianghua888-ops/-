@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 640,
+  "target_chars_max": 780,
+  "location": "酒店洗手间外走廊、下行电梯、车内",
+  "time": "紧接上一场",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "顾淮川",
+    "运营总监电话声"
+  ],
+  "character_goal": "立刻撤回自己给顾淮川搭好的平台位和S级短剧。",
+  "opposition_goal": "顾淮川要把她定义成闹情绪，阻止她真动资源。",
+  "conflict_action": "林见棠一边下指令换首页推荐位，一边甩开顾淮川追问；顾淮川伸手拦电梯门逼她解释。",
+  "information_gap": "顾淮川不知道她不是能“砸点钱”的姐姐，而是能直接换推荐位的人。",
+  "emotional_debt_delta": "开始偿还主债：第一次实际抽梯子。",
+  "payoff_or_hook": "平台首页刷新，顾淮川海报消失。",
+  "chapter_end_hook": "平台首页刷新，顾淮川海报消失。",
+  "paywall_card": false,
+  "must_include": [
+    "运营电话中的具体动作词：撤首页、换热榜、停开屏",
+    "顾淮川一句误判台词：你又在闹什么",
+    "电梯/车门等切断式动作",
+    "至少1行短句体现女主冷处理"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开平台审批流程",
+    "不要回忆两人恋爱史",
+    "不要解释为什么女主能调资源超过两段"
+  ],
+  "rhythm_job": {
+    "shape": "电话指令2拍+追拦对峙2拍+刷新结果1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": ""
+  }
+}

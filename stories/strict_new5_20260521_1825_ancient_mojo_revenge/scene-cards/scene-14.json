@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海崖别院后廊",
+  "time": "大战后数日，黄昏",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "顾照雪"
+  ],
+  "character_goal": "确认顾照雪平安、夫妻并肩无裂痕，并完成‘可登位而不登位’的价值收束",
+  "opposition_goal": "对方试图维持旧秩序、压住证据或拖延真相落地。",
+  "conflict_action": "顾临渊端药递糖蒸酥，沈灼宁追问他为何不接龙椅；他把海印放下，只说回家",
+  "information_gap": "赢了天下后，他们到底选择权位还是彼此",
+  "emotional_debt_delta": "护妹债偿还+2，夫妻甜爽回收+4，终局余温+3",
+  "payoff_or_hook": "从杀穿天下回收到两个人的日常温度",
+  "chapter_end_hook": "顾临渊把糖蒸酥递到她唇边：\"天下不要了，我只陪你回家。\"",
+  "paywall_card": false,
+  "must_include": [
+    "顾照雪安稳养着的近况一句",
+    "顾临渊亲手端药或递点心",
+    "海印被放下的动作，象征主动不取位",
+    "看潮的安静收束"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写庆功封赏流水账",
+    "不要详细交代朝局善后",
+    "不要用空泛抒情代替夫妻互动"
+  ],
+  "rhythm_job": {
+    "shape": "低压回甘场，动作比对白更柔，但仍要有一句价值落锤",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  }
+}

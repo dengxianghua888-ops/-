@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B7",
+  "scene_label": "心头血·第九胎血肉鼎",
+  "location": "礼安王府内堂(取血石榻)",
+  "time": "申时二刻",
+  "pov": "谢长卿",
+  "characters": [
+    "谢长卿",
+    "漱玉郡主",
+    "萧迟",
+    "太医院判"
+  ],
+  "character_goal": "撑过取心头血、不让自己当场气绝",
+  "opposition_goal": "院判取心头血压萧迟命脉,萧迟假意呕吐欲再加码",
+  "conflict_action": "粗银针扎入胸骨、漱玉言语补偿、谢长卿拔针反扑",
+  "information_gap": "萧迟'心气逆死'其实是吃了致敏鬼参,读者尚不知",
+  "emotional_debt_delta": "+羞辱债:漱玉以沈氏良田铺面作'抚恤',继续把谢长卿当器物",
+  "payoff_or_hook": "谢长卿拔出胸前取血针,反扑萧迟",
+  "chapter_end_hook": "萧迟跌入碎瓷,惨叫'漱玉姐姐救我'",
+  "paywall_card": false,
+  "target_chars_min": 720,
+  "target_chars_max": 980,
+  "must_include": [
+    "粗大取血针扎胸骨无麻药",
+    "漱玉'沈氏一脉良田铺面悉数过到你名下'",
+    "主角拔针反扑萧迟"
+  ],
+  "must_not_write_as_exposition": [
+    "禁现代医学描写",
+    "禁血腥具象解剖"
+  ]
+}

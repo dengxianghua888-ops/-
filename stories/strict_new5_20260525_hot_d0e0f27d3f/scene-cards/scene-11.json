@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 660,
+  "target_chars_max": 760,
+  "location": "主品牌董事小会会议室",
+  "time": "当日下午",
+  "pov": "沈知微 第一人称",
+  "characters": ["沈知微", "裴砚衡", "裴母", "裴老爷子代表", "裴承屿"],
+  "character_goal": "把胜利落到事业位置，而不只是婚姻名分。",
+  "opposition_goal": "裴承屿仍想把她定义成借婚上位，不承认她的专业价值。",
+  "conflict_action": "裴母宣布主品牌设计总监任命，裴砚衡当场交还她被压掉的核心署名档案，裴承屿出声质疑却被长辈一句‘这本来就是她的’压回去。",
+  "information_gap": "裴承屿还能抓住什么旧情借口，还是只能走向最终改口。",
+  "emotional_debt_delta": "女主赢回体面、位置、边界，避免只剩嫁得更好。",
+  "payoff_or_hook": "主品牌位置落地，身份升维从名分变成秩序。",
+  "chapter_end_hook": "任命书推到我面前时，裴承屿连反驳都慢了半拍。",
+  "paywall_card": false,
+  "must_include": [
+    "任命书",
+    "被压掉的署名档案",
+    "长辈一句定性她本就配得上",
+    "裴砚衡用动作交还位置"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲公司治理结构",
+    "不要长篇夸女主能力",
+    "不要弱化事业落点"
+  ],
+  "rhythm_job": {
+    "shape": "先静后准，文书和一句压场台词完成升位",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

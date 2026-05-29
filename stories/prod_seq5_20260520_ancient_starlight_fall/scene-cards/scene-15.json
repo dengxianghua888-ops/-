@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "婚礼礼堂门口",
+  "time": "婚礼仪式重新开始前",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "谢砚", "谢母", "宾客"],
+  "character_goal": "林晚宜要走进礼堂，完成与旧关系的最后切割。",
+  "opposition_goal": "陆沉舟要用七年旧情和下跪拖住她，逼她承认还在乎。",
+  "conflict_action": "陆沉舟跪在门口抓住婚纱裙摆，谢砚弯腰替林晚宜把裙摆从他手里抽出，林晚宜继续往前走。",
+  "information_gap": "陆沉舟终于知道她不是恨他，而是真的不再把他放进选择里。",
+  "emotional_debt_delta": "-七年错付债；-人格贬低债；-误判追责债",
+  "payoff_or_hook": "追妻火葬场释放，女主不回头、不原谅、不自证。",
+  "chapter_end_hook": "陆沉舟跪在婚礼门外，林晚宜没有回头。",
+  "paywall_card": false,
+  "must_include": ["陆沉舟下跪", "抓婚纱裙摆", "谢砚抽回裙摆", "林晚宜不回头"],
+  "must_not_write_as_exposition": ["不要复合", "不要心软拥抱", "不要用长篇独白审判陆沉舟"]
+}

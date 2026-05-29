@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 8.5,
+  "evidence": [
+    {
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "我把琴谱塞进门缝，想卡住门。纸页被门板碾皱，最后一角掉在我脚边。",
+      "assessment": "冲突动作化，不靠解释推进。"
+    },
+    {
+      "path": "story/draft-scenes/scene-08.md",
+      "quote": "那张卡落在门槛内侧，正好碰到被碾皱的琴谱。",
+      "assessment": "权限卡与琴谱形成视觉审判。"
+    },
+    {
+      "path": "story/draft-scenes/scene-10.md",
+      "quote": "一边是我的名字被划掉，一边是我的命被错过。",
+      "assessment": "金句有证据场景承托。"
+    }
+  ]
+}

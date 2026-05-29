@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "北岚资本联合采购签约会",
+  "time": "两天后下午",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊",
+    "沈奕川",
+    "北岚资本代表",
+    "参会媒体"
+  ],
+  "character_goal": "签下第二个项目，坐实自己在星阈的掌控力。",
+  "opposition_goal": "沈奕川要借专利质疑翻盘，让她从掌控者重新跌回嫌疑人。",
+  "conflict_action": "她刚谈妥条件，现场就爆出实名举报；沈奕川趁机煽动质疑，顾承渊当场叫停签字，强行把她带进共同追查局。",
+  "information_gap": "举报到底指向谁，顾承渊为什么在关键一刻选择截停而不是替她硬签？",
+  "emotional_debt_delta": "事业危机+2，关系绑定+1",
+  "payoff_or_hook": "看似要赢的合作突然翻面，逼出更深的专利真相线。",
+  "chapter_end_hook": "截断动作：签字笔停在纸面上方，北岚代表收回合同。",
+  "paywall_card": true,
+  "must_include": [
+    "男主不是救火骑士，而是逼女主一起追源",
+    "媒体或评论吐槽至少1行"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写采购制度科普",
+    "不要把危机写成董事口水仗",
+    "不要省略女主当场的应对动作"
+  ],
+  "rhythm_job": {
+    "shape": "快签-举报砸场-截停-被迫并肩",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白推进合作与质疑，插1行媒体评论/吐槽，动作集中在签字停笔和男主截人，章尾用合同收回做钩。"
+  }
+}

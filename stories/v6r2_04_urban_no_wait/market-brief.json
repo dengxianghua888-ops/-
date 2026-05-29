@@ -1,0 +1,100 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "end_hook_required": true,
+    "median_chars": 650
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "第一句话必须制造身份落差或公开羞辱场景，让读者在三行内产生'这个女的怎么能忍'的愤怒代入",
+    "micro_hook_interval": [800, 1200],
+    "micro_hook_type": "信息差揭露、旧人出场、新证据浮出、对方原话回旋",
+    "paywall_hook_interval": [2500, 3500],
+    "paywall_hook_type": "身份反转落地、公开处刑启动、旧爱亲眼目睹新关系确认"
+  },
+  "audience": {
+    "primary_demo": "18-35岁女性，通勤碎片时间阅读，偏好短平快情绪释放",
+    "emotional_need": [
+      "被轻视后的尊严夺回",
+      "旧爱追悔莫及的报偿快感",
+      "新关系中被隆重对待的补偿",
+      "不原谅、不回头的决绝爽感"
+    ],
+    "genre_preference": "都市甜宠/霸总/反转爽文，男主隐忍深情型或降维碾压型",
+    "taboo": [
+      "女主圣母原谅渣男",
+      "女主靠新男人才有价值",
+      "性暴力描写",
+      "儿童受伤细节",
+      "政治敏感内容",
+      "抑郁自杀美化"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "pattern": "[羞辱动作]后，[反转结果]",
+        "example": "未婚夫抢走户口本和闺蜜领证后，我转身嫁了他大哥"
+      },
+      {
+        "formula": "T4",
+        "pattern": "[悬念数字/细节]，[情绪反转]",
+        "example": "领证排号叫到我们，他却把闺蜜推上了柜台"
+      },
+      {
+        "formula": "T5",
+        "pattern": "[短句对仗/意象]",
+        "example": "他以为我会哭着求他，我笑着嫁了更好的人"
+      }
+    ],
+    "max_chars": 30,
+    "requirement": "必须包含具体动作或场景细节，禁止空泛情绪词"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 8.5,
+      "note": "每章结尾必须制造未解悬念或即将爆发的紧张感，读者划走成本极高"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "note": "付费卡点设在身份反转即将公开、公开处刑即将落地、旧爱即将崩溃的前一秒"
+    },
+    "emotional_release": {
+      "target": 9.0,
+      "note": "核心爽点密度高于同类，每次打脸必须有具体台词回旋或物证实锤，禁止空泛描写"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "note": "零容忍违禁词，情绪表达必须物理化，禁止心理独白式抒情"
+    },
+    "explosive_density": {
+      "target": 8.5,
+      "note": "每1000字至少一个微爽点（台词回旋/证据落地/身份揭露），每3000字一个大爆点"
+    }
+  },
+  "genre": "urban_sweet_ceo",
+  "source_slug": "hot_d0e0f27d3f",
+  "reversal_mechanisms": ["M3", "M5", "M6"],
+  "dominant_hook": "H1",
+  "emotion_curve_shape": "阶梯递进型",
+  "core_reader_promise": "让被未婚夫和闺蜜当面羞辱的女主，不哭不求当场换人，并让旧爱在逐层失去中悔到一无所有",
+  "payoff_pattern": "旧爱破产悔疯但女主不回头；闺蜜因嫉妒自毁人生；女主获得被珍视的新婚姻和完整尊严",
+  "protagonist_stance": "清醒抽离，体面反击，绝不回头",
+  "antagonist_violation": "未婚夫把女主四年付出当理所当然，领证日抢户口本给闺蜜，伪造假证糊弄，要求女主穿伴娘服办婚礼",
+  "platform_constraints": {
+    "first_chapter_hook_min": 9,
+    "title_max_chars": 30,
+    "synopsis_chars": [90, 120],
+    "paywall_every_words": 3000,
+    "hook_every_words": 1000
+  }
+}

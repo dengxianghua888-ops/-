@@ -1,0 +1,29 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_6d1ab9400b",
+  "title": "她不需要被看见了",
+  "genre": "modern_reversal",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "被竹马和妹妹看轻十年的女创始人，以投资人身份面对破产旧爱",
+    "new_setting": "被前男友和闺蜜看轻八年的女设计师，以甲方总监身份面对求合作的前男友",
+    "character_map": {
+      "姜晚→苏晚": "女主，被轻视八年后成为顶级设计公司创意总监",
+      "沈既白→陈屿舟": "前男友，抄袭女主创意开公司，现濒临破产求合作",
+      "姜柔→苏柔": "闺蜜/妹妹，篡改女主人设，嫁给前男友",
+      "母亲→母亲": "偏心妹妹，贬低女主"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "甲方是我", "min_impacts": 2, "must_include": ["前男友求合作", "甲方身份揭露"]},
+    {"beat_id": "B2", "title": "亲情施压", "min_impacts": 3, "must_include": ["母亲要求帮忙", "闺蜜篡改叙事", "家人无视成就"]},
+    {"beat_id": "B3", "title": "闺蜜的谎言", "min_impacts": 3, "must_include": ["闺蜜歪曲女主出国原因", "女主被塑造为失恋逃跑"]},
+    {"beat_id": "B4", "title": "正式面谈", "min_impacts": 3, "must_include": ["前男友傲慢", "女主冷静专业", "方案被否"]},
+    {"beat_id": "B5", "title": "抄袭曝光", "min_impacts": 4, "must_include": ["发现前男友抄袭女主旧作", "证据确凿"]},
+    {"beat_id": "B6", "title": "闺蜜求情", "min_impacts": 3, "must_include": ["闺蜜来求放过", "女主拒绝", "闺蜜破防"]},
+    {"beat_id": "B7", "title": "前男友崩溃", "min_impacts": 4, "must_include": ["融资失败", "承认自卑", "求复合被拒"]},
+    {"beat_id": "B8", "title": "家族群清算", "min_impacts": 3, "must_include": ["母亲得知真相", "家人态度反转", "女主不接受"]},
+    {"beat_id": "B9", "title": "不再需要被看见", "min_impacts": 2, "must_include": ["退出家族群", "开车向前不回头"]}
+  ]
+}

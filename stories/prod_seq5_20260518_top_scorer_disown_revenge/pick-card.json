@@ -1,0 +1,15 @@
+{
+  "slug": "prod_seq5_20260518_top_scorer_disown_revenge",
+  "corpus_slug": "top_scorer_disown_revenge",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M1",
+    "M6",
+    "M3"
+  ],
+  "hook_type": "H1",
+  "title_formula": "T1",
+  "tomato_fit_score": 8.8,
+  "picked_at": "2026-05-18T19:37:53",
+  "run_id": "20260518_193753"
+}

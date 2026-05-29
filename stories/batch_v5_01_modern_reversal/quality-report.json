@@ -1,0 +1,45 @@
+{
+  "story_slug": "batch_v5_01_modern_reversal",
+  "title": "深夜来电",
+  "source_slug": "ancient_evening_wind",
+  "genre": "modern_reversal",
+  "pipeline_version": "v5",
+  "generated_at": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10010,
+    "target_range": [10000, 14000],
+    "nonspace_pass": true,
+    "rhythm_fit": {
+      "status": "pass",
+      "avg_line_chars": 24.251,
+      "short_line_rate": 0.3317,
+      "long_line_rate": 0.1293,
+      "quote_line_rate": 0.3073
+    },
+    "structure": {
+      "gate_status": "pass",
+      "impact_density": 3.5,
+      "impact_density_floor": 3.4,
+      "watermark_violations": 4,
+      "total_impacts": 35
+    },
+    "source_overlap_pct": 0,
+    "meta_leak": 0,
+    "ai_forbidden_words": 0
+  },
+  "chapter_stats": [
+    {"title": "第一章", "chars": 709, "impacts": 2},
+    {"title": "第二章", "chars": 883, "impacts": 7},
+    {"title": "第三章", "chars": 1015, "impacts": 2},
+    {"title": "第四章", "chars": 972, "impacts": 4},
+    {"title": "第五章", "chars": 851, "impacts": 4},
+    {"title": "第六章", "chars": 899, "impacts": 5},
+    {"title": "第七章", "chars": 1329, "impacts": 3},
+    {"title": "第八章", "chars": 798, "impacts": 3},
+    {"title": "第九章", "chars": 629, "impacts": 2},
+    {"title": "第十章", "chars": 666, "impacts": 2},
+    {"title": "第十一章", "chars": 558, "impacts": 0},
+    {"title": "第十二章", "chars": 634, "impacts": 1}
+  ],
+  "overall_pass": true
+}

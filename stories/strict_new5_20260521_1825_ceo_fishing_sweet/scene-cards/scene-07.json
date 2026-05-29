@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "地下停车场豪车边",
+  "time": "老宅清算后夜里",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊"
+  ],
+  "character_goal": "守住心防，不被顾承渊几句撩拨逼出失态。",
+  "opposition_goal": "顾承渊要逼她承认当年逃婚并不单纯，也想逼她看见自己这些年没离开。",
+  "conflict_action": "她想上车离开，顾承渊横臂拦门；她反手去推，他掏出拦截恶意收购的证据、逼问她当年听见的那一句，距离和火气一起压近。",
+  "information_gap": "顾承渊到底知道多少当年内幕，为什么一直没彻底说破？",
+  "emotional_debt_delta": "情感欠账浮出+2，误会痛点加深+1",
+  "payoff_or_hook": "他第一次拿出真护她的实证，却还不肯把全部答案给完。",
+  "chapter_end_hook": "截断句：\"你逃的不是婚，你逃的是你以为我不要你。是不是？\"",
+  "paywall_card": false,
+  "must_include": [
+    "男主拿出暗护证据，不是空口深情",
+    "车门、手腕、呼吸距离构成近身张力",
+    "女主嘴硬但动作停住一瞬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇回忆三年前细节",
+    "不要用心理独白替代对抗",
+    "不要一次性洗清全部误会"
+  ],
+  "rhythm_job": {
+    "shape": "拦车-推门-甩证据-旧伤追问",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白压前，动作贴身，留3个呼吸点给停顿、视线和手指收紧，章尾用一句直刺误会核心的话断开。"
+  }
+}

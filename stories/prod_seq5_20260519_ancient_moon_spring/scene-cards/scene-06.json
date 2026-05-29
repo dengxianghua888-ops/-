@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "陆氏医院诊断室、商会告示栏",
+  "time": "当夜",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "陆沉舟",
+    "陆氏医生",
+    "林若鸢",
+    "商会文书"
+  ],
+  "character_goal": "沈南星要证明自己清醒，阻止伪造诊断生效。",
+  "opposition_goal": "陆沉舟要用诊断书和商会通稿封住她的控诉。",
+  "conflict_action": "沈南星夺笔划掉假症状，陆沉舟按住纸页签字，文书随后把通稿贴上商会告示栏。",
+  "information_gap": "用药记录已被调包，调包链条暂未暴露。",
+  "emotional_debt_delta": "+污名封口、+社会性死亡",
+  "payoff_or_hook": "红印盖下：沈南星患药物性癔症，所言皆为臆想。",
+  "chapter_end_hook": "她的名字被贴上告示栏，旁边是小舟被改成病亡的记录。",
+  "paywall_card": true,
+  "must_include": [
+    "药物性癔症诊断书",
+    "陆沉舟亲笔签字",
+    "商会联合通稿",
+    "沈南星划掉假症状失败"
+  ],
+  "must_not_write_as_exposition": [
+    "不要污名化真实精神疾病",
+    "不要让诊断看似真实合理",
+    "不要把陆沉舟写成被迫签字"
+  ]
+}

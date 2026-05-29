@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 640,
+  "target_chars_max": 800,
+  "location": "低温胚囊库",
+  "time": "死亡后一小时",
+  "pov": "第一人称灵魂视角，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "沈澜星",
+    "低温库管理员",
+    "沈氏技术员"
+  ],
+  "character_goal": "纪寒舟旁观沈澜星查验九枚胚囊记录。",
+  "opposition_goal": "沈澜星想证明至少有一枚胚囊仍被安全保存，以减轻自己的罪。",
+  "conflict_action": "沈澜星逐一输入纪寒舟留下的编号，管理员打开九个低温舱，空舱红灯依次亮起。",
+  "information_gap": "空舱证明胚囊被使用，但真正的转移授权还未打开。",
+  "emotional_debt_delta": "九个孩子的血债被公开到沈澜星眼前。",
+  "payoff_or_hook": "她第一次数到第九个空舱时失声，但纪寒舟没有任何回应。",
+  "chapter_end_hook": "低温库门打开，九个空舱同时亮起红灯。",
+  "paywall_card": false,
+  "must_include": [
+    "九个编号逐一输入",
+    "九个空舱",
+    "低温库管理员不敢说话",
+    "纪寒舟冷感旁观"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用一句话概括九个孩子都没了",
+    "不要让沈澜星哭完就算赎罪",
+    "不要写成主角讲解证据"
+  ]
+}

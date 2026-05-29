@@ -1,0 +1,19 @@
+slug: strict_new5_20260529_hot_hot_980490b9c5
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_980490b9c5
+genre: ancient_sweet
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260529_193322
+  runner: agent
+  provider: 
+  current_phase: 5
+  retry_count: 1
+  human_gates:
+    phase2_blueprint_review: skipped

@@ -1,0 +1,100 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "tomato_preferred_chars": 650,
+    "end_hook_required": true,
+    "chapter_end_hook_types": [
+      "关系破裂后对方迟到的补救",
+      "女主即将抽身但男主误判她还会回头",
+      "亲情/孩子二次伤害",
+      "关键证据或离开动作被发现"
+    ]
+  },
+  "hook_policy": {
+    "first_300_chars": {
+      "required": true,
+      "intensity_min_score": 9,
+      "preferred_shape": "开局直接给出男主偏爱白月光、女主被当成听话替身的公开羞辱"
+    },
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "required_hook_density": {
+      "micro_hooks_per_1000_chars_min": 1,
+      "major_cards_per_3000_chars_min": 1
+    },
+    "paywall_card_examples": [
+      "女主拿到离开所需资金或证件，男主误以为她终于妥协",
+      "外婆/亲人最后心愿被男主再次放鸽子",
+      "女主彻底离开后，男主才读到真相材料",
+      "孩子意识到自己伤害了母亲，但母亲已切断联系"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短篇读者",
+      "偏好追妻火葬场、替身醒悟、带球/带娃虐恋、亲情补偿线的读者",
+      "喜欢女主从恋爱脑到清醒抽身、男主迟来悔悟但不可轻易复合的读者"
+    ],
+    "emotional_needs": [
+      "替被长期忽视的女主讨回尊严",
+      "看到男主和偏爱对象的算计被拆穿",
+      "看到女主带着真正爱她的人离开旧关系",
+      "在男主悔疯、孩子后悔、女主不回头中获得情绪释放"
+    ],
+    "genre_red_lines": [
+      "女主被伤害后快速原谅",
+      "用男主挡伤或给钱直接洗白七年亏欠",
+      "把孩子的恶意轻飘飘处理成童言无忌",
+      "白月光只靠脸谱化雌竞推动剧情",
+      "结尾强行复合或牺牲女主独立性"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "candidate_formulas": [
+      {
+        "formula_id": "T1_伤害事件+我离开后悔疯",
+        "template": "他为白月光放弃我外婆后，我带她出国，他悔疯了",
+        "use_case": "主打追妻火葬场与不可追回"
+      },
+      {
+        "formula_id": "T2_身份关系+公开偏爱+抽身",
+        "template": "给他生子七年，他却把婚房让给白月光",
+        "use_case": "主打替身羞辱和关系爆点"
+      },
+      {
+        "formula_id": "T3_亲情心愿+失约反噬",
+        "template": "外婆临终想拍全家福，他带儿子陪了别人",
+        "use_case": "主打亲情刀和读者愤怒"
+      },
+      {
+        "formula_id": "T4_协议误判+女主反向利用",
+        "template": "他拿婚前协议哄我，我转身订了出国机票",
+        "use_case": "主打女主清醒和男主误判"
+      }
+    ],
+    "preferred_title_direction": "事件感强、关系清楚、女主动作明确，标题内必须出现背叛或离开信号"
+  },
+  "success_metrics": {
+    "completion_desire_target": 92,
+    "payment_point_target": 90,
+    "emotional_release_target": 94,
+    "ai_flavor_target": 5,
+    "viral_density_target": 91,
+    "notes": {
+      "completion_desire": "每章都要让读者想看下一次失约、下一次误判、下一次反噬",
+      "payment_point": "付费卡点优先放在女主离开前夜、亲人心愿落空、男主发现真相三类节点",
+      "emotional_release": "女主必须越来越冷静，男主和孩子的悔意必须越来越迟",
+      "ai_flavor": "避免空泛心理描写，多用动作、物证、通话记录、协议、医院细节承接情绪",
+      "viral_density": "每1000字至少一次明确羞辱、误判、反击、离开或真相揭露"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chars_per_chapter": {
+      "min": 500,
+      "max": 1200,
+      "tomato_recommended": 650
+    },
+    "chapter_count_estimate": [10, 24],
+    "must_end_with_hook": true,
+    "chapter_end_hook_targets": [
+      "门即将打开却被打断",
+      "迟来的发现前一秒转场",
+      "尸检真相揭开前卡断",
+      "家人悔悟被外部角色审判",
+      "头七回魂或转世暗示"
+    ]
+  },
+  "hook_policy": {
+    "golden_hook_first_chars": 300,
+    "golden_hook_requirement": "前300字必须完成死亡预言、家人牺牲主角、婚礼/新生与死亡同日的强冲突绑定",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "paywall_card_design": [
+      "主角已死但家人仍误判她在赌气",
+      "母亲差一点开门却因姐姐轻伤离开",
+      "尸臭出现后全家回家，地下室门即将打开",
+      "法医确认本可救回，悔悟不可逆"
+    ],
+    "first_chapter_hook_min_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短篇读者",
+      "偏好家庭伦理、亲情偏心、死后悔悟、转世补偿题材的读者",
+      "接受强虐开局但需要后段明确情绪清算的读者"
+    ],
+    "emotion_needs": [
+      "替被忽视的小女儿讨回公道",
+      "看偏心父母在不可逆失去后崩溃偿债",
+      "看善良姐姐与主角之间保留温情，避免全员恶人疲劳",
+      "通过外婆审判与转世新生完成情绪释放"
+    ],
+    "topic_zones": {
+      "preferred": [
+        "家庭偏心",
+        "死亡预言",
+        "灵魂旁观",
+        "迟来悔悟",
+        "外婆带回真正的家",
+        "转世胎记"
+      ],
+      "forbidden": [
+        "主角原谅施害者后大团圆",
+        "父母用苦衷洗白责任",
+        "姐姐恶毒化抢夺所有爽点",
+        "男主替主角完成全部复仇",
+        "过度血腥尸体描写",
+        "低俗猎奇或未成年人伤害细节消费"
+      ]
+    },
+    "ai_flavor_constraints": {
+      "hard_forbidden_words": [
+        "然而",
+        "总而言之",
+        "不禁",
+        "心中涌起",
+        "深吸一口气",
+        "宛如命运的齿轮",
+        "眼中闪过一丝",
+        "嘴角微微上扬",
+        "不由得",
+        "颤抖着说道",
+        "空气仿佛凝固"
+      ],
+      "soft_forbidden_max_each": 2
+    }
+  },
+  "title_strategy": {
+    "platform_title_max_chars": 30,
+    "formulas": [
+      {
+        "formula_id": "T3",
+        "pattern": "关键事件 + 生死反差 + 亲人悔疯",
+        "candidates": [
+          "姐姐新生那天，我死在地下室",
+          "姐姐逃过死劫后，全家发现我死了",
+          "她的预言破了，我的尸体臭了"
+        ]
+      },
+      {
+        "formula_id": "T1",
+        "pattern": "施害动作 + 主角死亡/离场 + 反派悔悟",
+        "candidates": [
+          "爸妈为救姐姐锁我七天后悔疯了",
+          "他们把我推进地下室后，全家崩溃了",
+          "婚礼当天他们救姐姐，却害死了我"
+        ]
+      },
+      {
+        "formula_id": "H3_title",
+        "pattern": "倒计时/预言 + 错救对象 + 不可逆真相",
+        "candidates": [
+          "弹幕只预言姐姐会死，没说我也会",
+          "预言到期那晚，死的人是我",
+          "全家等姐姐新生时，我死在门后"
+        ]
+      }
+    ],
+    "recommended_primary": "姐姐新生那天，我死在地下室"
+  },
+  "market_positioning": {
+    "genre": "family_ethics",
+    "subgenre": "亲情偏心 / 灵魂旁观 / 死后悔悟",
+    "reader_promise": "看被全家为姐姐牺牲的小女儿死后旁观真相迟迟错过，最终由尸检、外婆审判和转世新生完成不可逆清算。",
+    "core_emotional_debt": [
+      "亲情偏心债",
+      "预言绑架债",
+      "迟来发现债",
+      "死后无法补偿债"
+    ],
+    "dominant_s爽点": "灵魂线视角 + 迟来悔悟清算",
+    "antagonist_violation": "父母将死亡预言当作牺牲小女儿的正当理由，反复误判她的求救为嫉妒和赌气。",
+    "protagonist_stance": "死后旁观、委屈但不撒泼、善良克制、最后选择离开原家庭",
+    "payoff_pattern": "门缝多次错过制造情绪债，尸检确认本可救回引爆悔悟，外婆夺回骨灰完成伦理审判，转世胎记给读者补偿。"
+  },
+  "success_metrics": {
+    "completion_desire_target": 92,
+    "paywall_point_target": 90,
+    "emotion_release_target": 94,
+    "ai_flavor_target": 0,
+    "viral_density_target": 88,
+    "hook_density_target": 90,
+    "tomato_fit_target": 8.6
+  }
+}

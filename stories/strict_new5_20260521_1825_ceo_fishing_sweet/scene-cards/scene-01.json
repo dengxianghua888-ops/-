@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "鹭港国际机场VIP通道",
+  "time": "回国当日傍晚",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊",
+    "女伴",
+    "商圈熟人"
+  ],
+  "character_goal": "稳住回国第一场，不让自己被逃婚旧名声压垮。",
+  "opposition_goal": "顾承渊要逼她正面应战，围观者想借旧事羞辱她。",
+  "conflict_action": "沈晚棠被人当面阴阳逃婚，顾承渊故意挡住她的路，她夺回行李箱、反刺回去，顾承渊再扣住她手腕逼问来意。",
+  "information_gap": "顾承渊为何精准出现，他到底是来添火还是来拦人？",
+  "emotional_debt_delta": "旧羞辱债+2，拉扯预热+1",
+  "payoff_or_hook": "首屏直接给逃婚恶名、旧爱拦路和回国真实目的的影子。",
+  "chapter_end_hook": "截断句：\"沈晚棠，你这次回来，是不是终于敢抢回星阈了？\"",
+  "paywall_card": false,
+  "must_include": [
+    "女主刚落地就被认出是当年逃婚的人",
+    "顾承渊表面带女伴，实则全程盯她",
+    "至少一记短促反问把旧情和敌意同时点燃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述三年前逃婚经过",
+    "不要写机场环境说明书",
+    "不要连续解释豪门圈人物关系"
+  ],
+  "rhythm_job": {
+    "shape": "3段短撞：认出羞辱-拦路试探-手腕截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白为主，动作补刀，留2个呼吸点给目光和手腕动作，章尾用一句逼问截断。"
+  }
+}

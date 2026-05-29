@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 860,
+  "target_chars_max": 1040,
+  "location": "母婴公益直播间台前",
+  "time": "次日下午，直播中段",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "梁知棠",
+    "姜意",
+    "直播间观众",
+    "许承洲"
+  ],
+  "character_goal": "林照晚要在镜头前说出十年恋爱事实，不接受小三污名",
+  "opposition_goal": "梁知棠要借镜头让她跪地捡钱并念完道歉稿",
+  "conflict_action": "梁知棠把机票钱和硬币倒在地上，姜意示意镜头压低拍林照晚膝盖，许承洲赶到门口却先让导播切远景",
+  "information_gap": "许承洲到底是救她，还是继续救航司脸面",
+  "emotional_debt_delta": "+4 公开羞辱到达谷底",
+  "payoff_or_hook": "第三张付费卡：直播认错、跪地捡钱、男主到场却先控镜头",
+  "chapter_end_hook": "硬币滚到我膝边，镜头红灯还亮着。",
+  "paywall_card": true,
+  "must_include": [
+    "硬币滚动",
+    "膝盖旧伤",
+    "镜头红灯",
+    "弹幕/评论短行",
+    "许承洲先让切远景"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写猎奇羞辱细节",
+    "不要让围观者低俗起哄",
+    "不要让女主靠哭喊翻盘"
+  ],
+  "rhythm_job": {
+    "shape": "动作羞辱为主，弹幕短行承接误导，女主用捡起一枚硬币又放下形成反抗，章尾卡红灯",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 4,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用硬币声音、膝盖停顿、镜头灯闪烁承接",
+    "dialogue_action_comment_ratio": "对白约28%，动作约50%，弹幕评论约12%，呼吸点约10%，章尾钩1句"
+  }
+}

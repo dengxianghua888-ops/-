@@ -1,0 +1,148 @@
+pipeline_mode: production
+status: final
+title: 我死后，他才听见孩子的胎心
+language: zh-CN
+genre:
+  - 现代虐恋
+  - 悬疑复仇
+  - 灵魂旁观
+  - 追妻火葬场
+source_materials:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+runner_policy:
+  external_allowed: false
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source: StoryForge production Phase 7 Final Packager
+  generated_by_role: Final Packager
+quality_gate:
+  schema_version: 2
+  score_scale: 0-10
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures_source:
+    - Phase 7 final packager must add direct-submission title, opening guide, chapter split, and paywall-node map.
+    - Final polish should reduce repeated judgment-line patterns in the ending.
+  phase7_resolution:
+    direct_submission_title: pass
+    opening_guide: pass
+    chapter_split: pass
+    paywall_node_map: pass
+    ending_polish: pass
+  critic_scores:
+    platform: 7.4
+    emotion: 8.0
+    style: 7.5
+    logic: 7.4
+  machine_metrics_source:
+    target_length:
+      min: 12000
+      max: 15000
+      actual: 12987
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - path: final-chapters/ch01.md
+      title: 第一章
+      hook: 陆谨言戴上手套，说：“由我主刀。”
+    - path: final-chapters/ch02.md
+      title: 第二章
+      hook: 他掀开白布，念出我的名字。
+    - path: final-chapters/ch03.md
+      title: 第三章
+      hook: 第一刀落下前，他把结婚戒指摘进证物袋。
+    - path: final-chapters/ch04.md
+      title: 第四章
+      hook: 他在我的指甲缝里看见一抹不属于我的蓝色车漆。
+    - path: final-chapters/ch05.md
+      title: 第五章
+      hook: 许知遥打来电话，问尸检做到哪一步了。
+    - path: final-chapters/ch06.md
+      title: 第六章
+      hook: 他的刀停在我的下腹，记录员忽然抬头。
+    - path: final-chapters/ch07.md
+      title: 第七章
+      hook: 陆谨言看见了孩子。
+    - path: final-chapters/ch08.md
+      title: 第八章
+      hook: 他从我随身证物里翻出那枚胎心钥匙扣。
+    - path: final-chapters/ch09.md
+      title: 第九章
+      hook: 钥匙扣里传出我没来得及发给他的胎心声。
+    - path: final-chapters/ch10.md
+      title: 第十章
+      hook: 陆谨言只重复：“录音恢复了。”
+    - path: final-chapters/ch11.md
+      title: 第十一章
+      hook: 许知遥在电话那头说漏了隧道第二道闸。
+    - path: final-chapters/ch12.md
+      title: 第十二章
+      hook: 车辆控制数据打开前，陆谨言签下停职申请。
+    - path: final-chapters/ch13.md
+      title: 第十三章
+      hook: 许知遥被带走时，还在喊陆谨言会原谅她。
+    - path: final-chapters/ch14.md
+      title: 第十四章
+      hook: 废弃收费站的第一盏夜灯亮起，他把空儿童安全座椅放在窗边。
+    - path: final-chapters/ch15.md
+      title: 第十五章
+      hook: 第五年雪夜，他终于按下那段胎心录音。
+    - path: final-chapters/ch16.md
+      title: 第十六章
+      hook: 胎心录音停下时，我终于看见，收费站外有了光。
+submission:
+  title_options:
+    A: 我死后，他才听见孩子的胎心
+    B: 他亲手尸检我后，听见了胎心
+    C: 我怀孕死在隧道，他主刀解剖我
+  paywall_node_map:
+    required_minimum: 4
+    actual: 8
+    visible_in_final_text: false
+final_checks:
+  first_line_title: pass
+  opening_guide_paragraphs: 3
+  one_sentence_paragraphs: pass
+  internal_paywall_labels_in_final: 0
+  chapter_count: 16
+  chapter_hooks_nonempty: pass
+  ending_object_continuity: pass
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: regen_20260514_01_phase7_8
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

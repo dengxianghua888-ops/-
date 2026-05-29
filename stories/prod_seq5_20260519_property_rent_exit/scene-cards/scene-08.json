@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "市场管理处收费窗口",
+  "time": "第三天上午，办理保证金退还时",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "马成", "收费员", "顾砚", "市场法务"],
+  "character_goal": "许知夏要拿回保证金，并把马成私收费用逼进证据死环。",
+  "opposition_goal": "马成要用三个月流程拖延保证金，并用出门单保证金继续卡车。",
+  "conflict_action": "马成把退还申请扔回窗口，许知夏依次摆出手写冷库费、月台费、维修费账单照片和付款记录，要求他拿出对公入账凭证。",
+  "information_gap": "马成不知道每一笔现金要求和收款码都被许知夏留了照片。",
+  "emotional_debt_delta": "-1：扣保证金被证据链反击，马成第一次被迫退钱。",
+  "payoff_or_hook": "市场法务当场收走账单复印件，收费员不敢再盖拖延章。",
+  "chapter_end_hook": "我把手写账单照片推到他面前：“对公凭证呢？”",
+  "paywall_card": false,
+  "must_include": ["三个月流程话术", "手写账单照片", "付款记录", "对公凭证死环", "马成当场转保证金"],
+  "must_not_write_as_exposition": ["不要突然出现证据", "不要写暴力讨债", "不要把法务流程写成万能一句话"]
+}

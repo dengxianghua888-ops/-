@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 850,
+  "target_chars_max": 1100,
+  "location": "林知夏卧室、琴房门外",
+  "time": "第二天深夜",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "林知夏",
+    "林母",
+    "护工"
+  ],
+  "character_goal": "晚萤想让姐姐从旧录音里听见她被关前的求救。",
+  "opposition_goal": "林母想让知夏休息，不再追问晚萤。",
+  "conflict_action": "知夏翻出八音盒里的旧录音，听见晚萤喊门；她拔掉辅助线，拖着康复支架下床，推开护工去找父母。",
+  "information_gap": "姐姐开始触碰真相，但她只知道妹妹被关过，不知道门后已经死亡。",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "旧录音把姐妹温情转为证据，逼近真相。",
+  "chapter_end_hook": "林知夏从旧录音里听见晚萤最后一句求救，录音时间停在宴会开场前。",
+  "paywall_card": true,
+  "must_include": [
+    "八音盒",
+    "四手联弹旧录音",
+    "知夏拖着康复支架下床",
+    "林母阻拦失败"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写姐姐自责长篇独白",
+    "不要让晚萤操控录音播放",
+    "不要把温情写成煽情回忆",
+    "不要让父母在此处承认真相"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 780,
+  "target_chars_max": 820,
+  "location": "市监局信访接待室",
+  "time": "主线时间线 第8节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬"
+  ],
+  "character_goal": "把红章和录音递到能拍板的人手里",
+  "opposition_goal": "以为系统流程能挡住外部举报",
+  "conflict_action": "我把三十六张红章按序号码在桌上，把录音U盘放在最上面，接访的同志翻到第七张时停下笔，转身把人叫了进来。",
+  "information_gap": "反派以为系统挡得住，红章在系统外面变成铁证",
+  "emotional_debt_delta": "回旋债",
+  "payoff_or_hook": "他抬头看我：系统说这个价，他们要坐牢就行。",
+  "chapter_end_hook": "他抬头看我：系统说这个价，他们要坐牢就行。",
+  "paywall_card": true,
+  "must_include": [
+    "三十六张红章排序",
+    "U盘上桌",
+    "回旋金句变形",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

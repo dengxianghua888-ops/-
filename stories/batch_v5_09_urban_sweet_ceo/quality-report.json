@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_09_urban_sweet_ceo",
+  "title": "他签的手术单杀了我",
+  "source_slug": "hot_3bd829101f",
+  "genre": "urban_sweet_ceo",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10017, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 20.5, "long_line_rate": 0.002, "question_marks_per_k": 4.04, "status": "pass"},
+    "structure_metrics": {"impact_density": 13.48, "watermark_count": 3, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 11, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 640,
+  "target_chars_max": 720,
+  "location": "港城私立海事医院急诊观察室",
+  "time": "当夜稍后",
+  "pov": "沈惊棠",
+  "characters": ["沈惊棠", "裴砚潮", "杨昭宁", "急诊医生", "护士"],
+  "character_goal": "止住疼和眩晕，把完整病历藏住，不让裴砚潮再拿病说她演戏。",
+  "opposition_goal": "裴砚潮要快速处理掉她的‘失控’，杨昭宁要把她定性成借病争宠。",
+  "conflict_action": "医生要追加检查，裴砚潮直接签字压下详细问诊；杨昭宁在旁边柔声替她‘解释’成情绪问题。",
+  "information_gap": "她到底病到了什么程度；裴砚潮是真不知道还是不肯知道。",
+  "emotional_debt_delta": {
+    "add": ["她还能活多久", "谁在持续压她的病历"],
+    "pay": ["首次抛出骨头塌陷的硬证据"]
+  },
+  "payoff_or_hook": "医生扫到片子上的异常，神色一变。",
+  "chapter_end_hook": "截断句：医生低声说，她的骨头已经塌了。",
+  "paywall_card": false,
+  "must_include": ["检查单上异常指标", "裴砚潮亲手压下问诊", "杨昭宁温柔补刀", "沈惊棠下意识护住病历袋"],
+  "must_not_write_as_exposition": ["不要解释检查项目", "不要写长段医院流程", "不要用‘她病得很重’这种总结句代替症状"],
+  "rhythm_job": {
+    "shape": "对白4成，动作3成，呼吸点2成，证据露头1成；每次对话都带定性，不闲聊",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

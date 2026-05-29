@@ -1,0 +1,136 @@
+pipeline_mode: production
+status: final
+slug: prod_batch_15_drug_mom_revenge
+genre: modern_reversal / domestic_crime
+title:
+  primary: 老公给我妈加料后，我用水机日志送他坐牢
+automation:
+  last_run_id: manual_phase_pack
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+quality_gate:
+  gate_status: pass
+  source_report: story/quality-report.json
+  schema_version: 2
+  pipeline_mode: production
+  critical_failures: []
+  important_failures: []
+  machine_metrics:
+    text_path: stories/prod_batch_15_drug_mom_revenge/final.md
+    target_length:
+      min: 10000
+      max: 12500
+      actual: 10204
+      status: pass
+    chapters:
+      count: 14
+      hook_hits: 14
+      hook_coverage: 1.0
+      lengths:
+      - 767
+      - 722
+      - 703
+      - 699
+      - 741
+      - 708
+      - 729
+      - 722
+      - 729
+      - 747
+      - 683
+      - 702
+      - 688
+      - 727
+      status: pass
+    paywall_cards:
+      required: 3
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 103
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 3
+        actual: 4
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 12
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 45
+      status: pass
+    style_metrics:
+      char_count: 10204
+      sentence_count: 498
+      avg_sentence_length: 19.49
+      dialogue_ratio: 0.0821
+      question_marks: 25
+      question_marks_per_k: 2.45
+      physical_emotion_hits:
+        指尖: 1
+        发麻: 1
+        手心: 2
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 29.204
+    semantic_repetition:
+      sentence_count: 402
+      unique_sentence_skeletons: 376
+      max_sentence_repeats: 14
+      max_sentence_repeat_ratio: 0.0348
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  critic_scores:
+    platform: 8.5
+    emotion: 8.4
+    style: 8.1
+    logic: 8.0
+chapters:
+  count: 14
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  revisions_applied:
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。

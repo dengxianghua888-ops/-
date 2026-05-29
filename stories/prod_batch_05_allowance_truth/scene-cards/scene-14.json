@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "肿瘤科病房",
+  "time": "第六日晚",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "许念",
+    "医生"
+  ],
+  "character_goal": "许念想向母亲确认真相并补回迟到的母女关系",
+  "opposition_goal": "林素琴病情恶化，留给母女说清的时间被压缩",
+  "conflict_action": "许念跪在床边递出食堂明细，林素琴把4000转账记录推回去，承认自己当年没有及时发现异常",
+  "information_gap": "母女刚和解，医生却给出时间按天算的倒计时",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "-2",
+    "mother_negligence_debt": "-2",
+    "father_malice_debt": "+10",
+    "time_debt": "+8"
+  },
+  "payoff_or_hook": "第四付费级卡点：女儿知道真相，母亲已时间不多",
+  "chapter_end_hook": "医生把家属谈话单递给许念，说时间要按天算。",
+  "paywall_card": true,
+  "must_include": [
+    "食堂明细",
+    "4000转账记录",
+    "母亲承认疏忽",
+    "许念喊妈",
+    "家属谈话单"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让和解只靠哭",
+    "不要把母亲写成完美无责",
+    "不要细写治疗过程"
+  ]
+}

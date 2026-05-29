@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B7",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅财务柜台",
+  "time": "同日下午四点二十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "财务专员", "周明远"],
+  "character_goal": "要求把'三千万真品级铂金包·五十只'逐字打进销毁单",
+  "opposition_goal": "财务+周明远不耐烦：'你管这干嘛，钱都付了'",
+  "conflict_action": "徐阳不接货→打开手机鉴定书原文→指着字段一字一字念给财务→财务不情愿改单→周明远走过来想撕单被徐阳挡下→最终一字不少地打印盖章",
+  "information_gap": "读者第一次确信他要这张单子干大事——M1第二环成立",
+  "emotional_debt_delta": "0（持平+5）",
+  "payoff_or_hook": "销毁单逐字落地，盖章咔嗒一声",
+  "chapter_end_hook": "'销毁单上必须一字不少地打：徐阳寄存白底鳄鱼皮铂金包50只，估值30,000,000元。少一个字，我都不要。'",
+  "paywall_card": false,
+  "must_include": ["徐阳逐字念字段的动作", "盖章动作的物理音", "周明远试图撕单的小动作", "销毁单完整字段呈现"],
+  "must_not_write_as_exposition": ["心声剧透下一步", "反派立刻起疑", "周边路人多嘴", "流程跳过含糊"]
+}

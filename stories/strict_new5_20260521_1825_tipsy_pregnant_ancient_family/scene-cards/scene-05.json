@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "修表铺后门雨棚",
+  "time": "雨夜",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "沈知遥",
+    "弹幕"
+  ],
+  "character_goal": "温漾想把鸡汤给裴时砚后安静离开",
+  "opposition_goal": "沈知遥想让裴时砚看见产检袋并误会温漾已经处理孩子",
+  "conflict_action": "裴时砚替温漾挡雨，沈知遥故意撞开她包扣，产检袋露出一角",
+  "information_gap": "截断动作：裴时砚伸手扶包，指尖停在产检袋三个字上。",
+  "emotional_debt_delta": "-照顾动作回温，+产检暴露风险",
+  "payoff_or_hook": "男主照顾证明不冷，产检袋制造下一章误会",
+  "chapter_end_hook": "截断动作：裴时砚伸手扶包，指尖停在产检袋三个字上。",
+  "paywall_card": false,
+  "must_include": [
+    "雨棚",
+    "酸梅糖",
+    "裴时砚替她挡雨",
+    "产检袋露出"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把照顾写成纯甜宠",
+    "不要解释孕期注意事项",
+    "不要让沈知遥连续放狠话"
+  ],
+  "rhythm_job": {
+    "shape": "甜里带钩；对白约30%，动作约45%，弹幕约13%，呼吸点约12%",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 3,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "酸梅糖、雨声、温漾慢半拍拉包链"
+  }
+}

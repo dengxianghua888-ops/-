@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_05_allowance_truth/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 14000,
+      "actual": 13165,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        819,
+        853,
+        756,
+        911,
+        762,
+        767,
+        772,
+        914,
+        762,
+        765,
+        706,
+        878,
+        832,
+        857,
+        880,
+        805
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 91,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 11,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 36,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13165,
+      "sentence_count": 922,
+      "avg_sentence_length": 13.279,
+      "dialogue_ratio": 0.2528,
+      "question_marks": 74,
+      "question_marks_per_k": 5.621,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "发麻": 1,
+        "手心": 2,
+        "喉咙": 2,
+        "指甲": 1,
+        "掌心": 3
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 30.156
+    },
+    "semantic_repetition": {
+      "sentence_count": 562,
+      "unique_sentence_skeletons": 561,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0036
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 9.0,
+    "style": 8.4,
+    "logic": 8.2
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "我以为每月四千足够女儿吃好。直到一段旧视频里，她蹲在楼梯间啃冷馒头。",
+      "supports": [
+        "intro",
+        "platform_hook"
+      ]
+    },
+    {
+      "id": "E02",
+      "path": "story/draft-scenes/scene-04.md",
+      "quote": "许念昨夜发来的电子签名委托书递进去。委托书只授权调取生活费流水。",
+      "supports": [
+        "bank_authorization",
+        "logic_fix"
+      ]
+    },
+    {
+      "id": "E03",
+      "path": "story/draft-scenes/scene-08.md",
+      "quote": "许砚身份部分只放依法调取的遮敏复印件，原件留在警方卷宗里。",
+      "supports": [
+        "privacy_boundary",
+        "evidence_chain"
+      ]
+    },
+    {
+      "id": "E04",
+      "path": "story/draft-scenes/scene-15.md",
+      "quote": "半个月后，许念去了看守所。",
+      "supports": [
+        "legal_timeline"
+      ]
+    },
+    {
+      "id": "E05",
+      "path": "story/draft-scenes/scene-15.md",
+      "quote": "你这辈子，都别说我是你女儿。",
+      "supports": [
+        "climax_hook_integrity"
+      ]
+    }
+  ],
+  "resolved_notes": [
+    "补入平台标题与导语。",
+    "补明许念授权、第三方材料遮敏与警方/法院依法调取路径。",
+    "第15章刑事流程改为半个月后，并修正断亲句代词。",
+    "评分归一到0-10并刷新机器指标。"
+  ]
+}

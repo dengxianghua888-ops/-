@@ -1,0 +1,50 @@
+{
+  "candidates": [
+    {
+      "id": "A",
+      "premise": "现代智能家居取证，丈夫给岳母加不明粉末逼妻子换婆婆带娃。",
+      "freshness_score": 8.8,
+      "fidelity_score": 9.2,
+      "tomato_score": 9.0,
+      "logic_score": 8.8,
+      "risks": [
+        "药物细节需模糊",
+        "走司法鉴定"
+      ]
+    },
+    {
+      "id": "B",
+      "premise": "改为养老院护工投料案。",
+      "freshness_score": 8.4,
+      "fidelity_score": 8.5,
+      "tomato_score": 8.4,
+      "logic_score": 8.5,
+      "risks": [
+        "家庭情绪弱"
+      ]
+    },
+    {
+      "id": "C",
+      "premise": "改为月嫂争岗给老人食物做手脚。",
+      "freshness_score": 8.2,
+      "fidelity_score": 8.6,
+      "tomato_score": 8.5,
+      "logic_score": 8.5,
+      "risks": [
+        "外人作恶弱化丈夫背叛"
+      ]
+    }
+  ],
+  "selected_candidate": "A",
+  "replacement_map": {
+    "下药": "加不明粉末/处方成分待鉴定",
+    "帖子": "匿名育儿论坛帖",
+    "证据": "水机日志、杯底样本、监控、快递记录"
+  },
+  "mechanism_preservation": {
+    "M1": "水机日志与检测报告闭合",
+    "M3": "好心接班话术被养老算计反噬",
+    "M6": "从怀疑到司法清算多层推进"
+  },
+  "sensitive_topic_policy": "不写具体药物配方，不鼓励私刑，老人和孩子先转移保护，警方固定证据。"
+}

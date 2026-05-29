@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "萧家祠堂十六楼天台·电子签发送键前",
+  "time": "子时",
+  "pov": "萧承时·第一人称",
+  "characters": ["萧承时", "天台风"],
+  "character_goal": "把空白《受益人放弃确认书》反向兑现，自我兑付二十二亿",
+  "opposition_goal": "时间——他流血失温，可能撑不到按下发送键",
+  "conflict_action": "他爬上天台→打开手机里早已编辑好的反向确认书PDF→逐字打入'若放弃则二十二亿自动转入已故继承人遗产专户'→附件链接电子签PDF原件→按下发送键→跨过天台栏杆",
+  "information_gap": "读者拍腿大爽——M1死环扣死",
+  "emotional_debt_delta": "-3 一次性大释放",
+  "payoff_or_hook": "发送键的'嘀'和栏杆外的风声同步",
+  "chapter_end_hook": "我按下电子签发送键，把空白确认书反向兑现成她的咒，然后跨过天台的栏杆。",
+  "paywall_card": true,
+  "must_include": ["反向确认书原文核心句", "电子签PDF附件三处备份链接（邮箱/U盘/保管箱）", "天台风+腹部血滴的物理感", "发送键'嘀'声"],
+  "must_not_write_as_exposition": ["坠落过程慢镜头血腥渲染", "主角心声喊'去死吧'", "反派立刻昏倒情节", "警察在天台直接出场"]
+}

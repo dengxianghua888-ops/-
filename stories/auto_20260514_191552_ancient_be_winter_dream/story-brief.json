@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260514_191552_ancient_be_winter_dream",
+  "genre": "ancient_BE",
+  "subgenre": "fake_heaven_mandate_substitute_BE",
+  "hook_type": "H3 违和+预言式",
+  "title_formula": "T1 因果反转式",
+  "reader_promise": "极致错付后主角主动离场,灵魂线见证骗局崩塌,反派在不可逆失去中偿还情绪债,平行天地补偿圆满。",
+  "payoff_pattern": "U 型谷底 + BE 补偿尾",
+  "source_length_chars": 9842,
+  "reversal_mechanisms": [
+    "M4",
+    "M5",
+    "M8"
+  ],
+  "emotional_debts": [
+    {
+      "id": "betrayal",
+      "name": "错付虐恋债",
+      "intensity": 10
+    },
+    {
+      "id": "humiliation",
+      "name": "公开羞辱债",
+      "intensity": 9
+    },
+    {
+      "id": "compensation",
+      "name": "价值补偿债",
+      "intensity": 8
+    }
+  ],
+  "forbidden_to_change": [
+    "亲妻+亲姐为伪天命替身合谋虐主角的核心错付结构",
+    "主角主动赴死、不报警/不揭穿的克制姿态",
+    "M5 温度反转链:吻额→抱尸擦血→服毒前求恕",
+    "M8 道德模糊收束:主角'变着花样地作威作福'",
+    "BE 补偿尾:平行世界健康躯体+护短世家"
+  ],
+  "replaceable_assets": [
+    "时代/地域(古代/现代/末世/修真皆可)",
+    "伪天命的具体形式(卜骨/系统/军令/炉鼎)",
+    "成礼信物(玉笄/纸刀/匕首/法宝)",
+    "传影渠道(京畿三十六行/网络直播/末世广播)"
+  ],
+  "platform_fit_notes": "番茄古言 BE 完读区间题材,M4/M5/M8 三机制全部保真,首章 1101 字含 9 分钩,后续每章必含强情绪节点。",
+  "soul_contract_required": true
+}

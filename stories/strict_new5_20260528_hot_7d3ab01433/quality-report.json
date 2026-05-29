@@ -1,0 +1,190 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260528_hot_7d3ab01433/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11865,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        690,
+        647,
+        675,
+        685,
+        724,
+        746,
+        672,
+        964,
+        1004,
+        1004,
+        984,
+        905,
+        716,
+        665,
+        676
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 86,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 6,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 11,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11865,
+      "sentence_count": 1107,
+      "avg_sentence_length": 9.718,
+      "dialogue_ratio": 0.1743,
+      "question_marks": 70,
+      "question_marks_per_k": 5.9,
+      "physical_emotion_hits": {
+        "指尖": 12,
+        "发麻": 2,
+        "青筋": 2,
+        "手心": 1,
+        "后背": 2,
+        "喉咙": 5,
+        "眼眶": 1,
+        "指甲": 3,
+        "掌心": 5
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.246
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 12075,
+        "line_count": 715,
+        "avg_line_chars": 16.888,
+        "median_line_chars": 16.0,
+        "short_line_rate": 0.5357,
+        "long_line_rate": 0.0126,
+        "quote_line_rate": 0.3734,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 7.867,
+        "comma_period_ratio": 0.6,
+        "sentence_avg_len": 15.5
+      },
+      "candidate": {
+        "chars": 11691,
+        "line_count": 663,
+        "avg_line_chars": 17.633,
+        "median_line_chars": 16.0,
+        "short_line_rate": 0.5264,
+        "long_line_rate": 0.0302,
+        "quote_line_rate": 0.3544,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 5.988,
+        "comma_period_ratio": 0.408,
+        "sentence_avg_len": 9.7
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 485,
+      "unique_sentence_skeletons": 485,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "evidence": [
+    {
+      "dimension": "opening_hook",
+      "location": "draft.md opening",
+      "quote": "我爹死在肃王府斋房。那夜石磨没停，木柄一圈圈转。",
+      "finding": "前150字直接给出杀父现场、权贵地点和石磨悬念。"
+    },
+    {
+      "dimension": "emotion_debt",
+      "location": "scene-01 / scene-11 / scene-12",
+      "quote": "三两银买你爹一条命。日后请他们自己吃回去。",
+      "finding": "三两银从羞辱物件变成最终入口清算，债务闭环明确。"
+    },
+    {
+      "dimension": "style_rhythm",
+      "location": "draft-scenes/*.md",
+      "quote": "够了。 / 本王说再来。 / 民妇还要明日进府。",
+      "finding": "关键冲突多用短对白推进，符合源文短行对白驱动。"
+    },
+    {
+      "dimension": "logic",
+      "location": "scene-07 / scene-12",
+      "quote": "白雀镇沈广安。征入斋房，三日。",
+      "finding": "旧供单承担污名反转证据功能，避免纯口供复盘。"
+    }
+  ]
+}

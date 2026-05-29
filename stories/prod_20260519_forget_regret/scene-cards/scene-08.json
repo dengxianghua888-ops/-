@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "别庄→大婚前夜",
+  "time": "夜晚",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "暗卫到达，反击倒计时",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "男主叮嘱她安分，她心中已决",
+  "information_gap": "读者知道明天就是反杀日",
+  "emotional_debt_delta": "0（蓄势）",
+  "payoff_or_hook": "希望明日，你们不要后悔",
+  "chapter_end_hook": "希望明日，你们不要后悔",
+  "paywall_card": true,
+  "must_include": [
+    "男主叮嘱她安分，她心中已决"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

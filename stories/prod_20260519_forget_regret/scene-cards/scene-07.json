@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "北邙寒山寺石阶",
+  "time": "夜晚",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "男主逼女主百里朝圣为韩若求平安符",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "小产后水米未进、浑身发热，一步一叩",
+  "information_gap": "暗卫已经在路上",
+  "emotional_debt_delta": "+20（体罚极限）",
+  "payoff_or_hook": "求到平安符后她昏厥摔倒",
+  "chapter_end_hook": "求到平安符后她昏厥摔倒",
+  "paywall_card": false,
+  "must_include": [
+    "小产后水米未进、浑身发热，一步一叩"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

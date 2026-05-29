@@ -1,0 +1,382 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 15000,
+    "planned_total_chars": 13500
+  },
+  "title": "我死后，他才发现我怀了他的孩子",
+  "genre": "现代法医虐恋BE / 死后旁观 / 证据反噬",
+  "mechanisms": [
+    {
+      "id": "M4",
+      "name": "灵魂线视角",
+      "usage": "沈栀死后第一人称旁观，不能干预现实，只能看着丈夫亲手把她和孩子变成证据。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "usage": "陆谨言从纪念日前温柔，到尸检台上冷静，再到胎儿真相爆开后崩溃。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "usage": "他生前只要数据和证据，死后她的尸体、孩子、钥匙扣、车漆和车辆数据成为审判他的证据。"
+    },
+    {
+      "id": "M8",
+      "name": "道德模糊结尾",
+      "usage": "凶手伏法后，陆谨言仍失去资格、自囚五年，最终走向不可逆选择；沈栀不是原谅，是放下。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 900,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "陆谨言戴上手套，说：由我主刀。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 850,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "他掀开白布，念出我的名字。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "第一刀落下前，他把结婚戒指摘进证物袋。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 850,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "他在我的指甲缝里看见一抹不属于我的蓝色车漆。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 900,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "许知遥打来电话，问尸检做到哪一步了。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 900,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "他的刀停在我的下腹，记录员忽然抬头。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 950,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "陆谨言看见了孩子。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 850,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "他从我随身证物里翻出那枚胎心钥匙扣。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 900,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "钥匙扣里传出我没来得及发给他的胎心声。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 900,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "陆谨言把电话拨给许知遥，只说：录音恢复了。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 850,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "许知遥在电话那头说漏了隧道第二道闸。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 900,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "车辆控制数据打开前，陆谨言签下停职申请。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 900,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "许知遥被带走时，还在喊陆谨言会原谅她。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 900,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "废弃收费站的第一盏夜灯亮起，他把空儿童安全座椅放在窗边。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 900,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "第五年雪夜，他终于按下那段胎心录音。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars": 900,
+      "scene_location": "跨江隧道事故现场与0号尸检间门外",
+      "character_goal": "沈栀死后仍想护住腹中孩子，并阻止丈夫主刀。",
+      "conflict_action": "许知遥驾车逼停沈栀、追撞并纵火；沈栀灵魂跟随尸袋进入鉴定中心，看见陆谨言签下主刀申请。",
+      "information_gap": "读者和沈栀知道她怀孕三个月，陆谨言不知道。",
+      "emotion_debt_balance": "女主死亡债+孩子死亡债+丈夫二次伤害预告。",
+      "chapter_end_hook": "陆谨言戴上手套，说：由我主刀。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能拖延开篇死亡",
+        "不能让灵魂干预现实",
+        "不能提前让陆谨言知道怀孕"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars": 850,
+      "scene_location": "重大事故司法鉴定中心0号尸检间",
+      "character_goal": "陆谨言要用程序证明自己不受私人关系影响。",
+      "conflict_action": "陆谨言打开录像、检方旁证入场、亲手掀开白布并宣读沈栀身份。",
+      "information_gap": "外界怀疑沈栀酒驾自杀，陆谨言以为自己在维护她的清白。",
+      "emotion_debt_balance": "丈夫以公正之名剥掉妻子最后体面。",
+      "chapter_end_hook": "他掀开白布，念出我的名字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止把尸检写成猎奇科普",
+        "不能让男主早崩溃",
+        "不能洗白他的冷"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars": 900,
+      "scene_location": "0号尸检间解剖台",
+      "character_goal": "沈栀想保住结婚戒指和纪念日礼盒的意义。",
+      "conflict_action": "陆谨言取下沈栀戒指、封存证物、拿起解剖刀准备开检。",
+      "information_gap": "戒指旁的纪念日礼盒里本该放胎心钥匙扣。",
+      "emotion_debt_balance": "亲密物被专业程序吞掉，读者等待他被证据反噬。",
+      "chapter_end_hook": "第一刀落下前，他把结婚戒指摘进证物袋。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止用大段回忆替代当前动作",
+        "不能让沈栀哭闹撒泼",
+        "不能弱化第一刀的伦理冲击"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars": 850,
+      "scene_location": "0号尸检间",
+      "character_goal": "陆谨言要确认事故伤与火烧痕迹是否符合单车事故。",
+      "conflict_action": "陆谨言检查手部、清理指甲缝、夹出蓝色车漆碎屑并命人送检。",
+      "information_gap": "蓝色车漆来自许知遥车辆，陆谨言尚未联想到旧同学。",
+      "emotion_debt_balance": "沈栀生前提醒许知遥异常的委屈开始回收。",
+      "chapter_end_hook": "他在我的指甲缝里看见一抹不属于我的蓝色车漆。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把证据链写成纯口供",
+        "禁止过密医学细节",
+        "不能让凶手立刻暴露全貌"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars": 900,
+      "scene_location": "尸检间与走廊电话区",
+      "character_goal": "许知遥要确认尸检是否发现追撞证据，陆谨言要保持冷静继续取证。",
+      "conflict_action": "许知遥拨电话试探，陆谨言接听后按免提录音，继续让助理封存车漆证据。",
+      "information_gap": "许知遥不知道胎心钥匙扣还在证物袋里。",
+      "emotion_debt_balance": "外部凶手登场，男主仍未意识到自己生前不信任的后果。",
+      "chapter_end_hook": "许知遥打来电话，问尸检做到哪一步了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止让许知遥脸谱化疯笑",
+        "不能让心理战替代客观证据",
+        "不能过早给男主深情忏悔"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars": 900,
+      "scene_location": "0号尸检间腹部检查阶段",
+      "character_goal": "陆谨言要确认腹部撞击方向，沈栀想阻止他靠近孩子。",
+      "conflict_action": "陆谨言调整无影灯、记录腹部伤痕、把刀移向下腹检查区域。",
+      "information_gap": "他以为下腹异常只是撞击损伤，读者知道那里藏着孩子。",
+      "emotion_debt_balance": "身体偿还进入最大爆点前一拍。",
+      "chapter_end_hook": "他的刀停在我的下腹，记录员忽然抬头。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止跳过尸检动作直接宣布怀孕",
+        "不能猎奇描写胎儿",
+        "不能让男主提前退缩"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars": 950,
+      "scene_location": "0号尸检间",
+      "character_goal": "陆谨言要完成程序，沈栀要让他终于看见迟来的证据。",
+      "conflict_action": "陆谨言进行子宫剖验，手中器械停顿、掉落，报告记录被迫中断。",
+      "information_gap": "怀孕真相从沈栀独知变为全场可见证据。",
+      "emotion_debt_balance": "孩子偿还爆开，陆谨言的理性信条第一次断裂。",
+      "chapter_end_hook": "陆谨言看见了孩子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止胎儿细节猎奇化",
+        "不能让男主用一句道歉抵债",
+        "不能把这一幕写成温情和解"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars": 850,
+      "scene_location": "尸检间证物台",
+      "character_goal": "陆谨言要证明自己看见的不是错觉，沈栀冷看他补查迟来的证据。",
+      "conflict_action": "陆谨言撕开证物袋、翻出手机产检短信和胎心钥匙扣，逐条核对日期。",
+      "information_gap": "纪念日礼物与孩子真相闭合，但胎心录音尚未播放。",
+      "emotion_debt_balance": "生前不信任债被实物证据压回男主身上。",
+      "chapter_end_hook": "他从我随身证物里翻出那枚胎心钥匙扣。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止让女主原谅",
+        "不能写成男主完全无辜",
+        "不能用抽象抒情稀释证物动作"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars": 900,
+      "scene_location": "0号尸检间与证物恢复室",
+      "character_goal": "陆谨言要恢复钥匙扣内容，沈栀想让他听见自己生前准备的惊喜。",
+      "conflict_action": "技术员接线恢复损坏钥匙扣，陆谨言站在门边听胎心声和沈栀未发出的留言。",
+      "information_gap": "录音里可能残留事故前的环境声与许知遥破绽。",
+      "emotion_debt_balance": "温柔证据变成精神刑具，男主从震惊转入自我审判。",
+      "chapter_end_hook": "钥匙扣里传出我没来得及发给他的胎心声。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止甜宠化胎心录音",
+        "不能让男主崩溃后立刻获得安慰",
+        "不能让证据链只靠录音"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars": 900,
+      "scene_location": "鉴定中心电话录音室",
+      "character_goal": "陆谨言要撬开许知遥的心理破绽，许知遥要确认自己是否暴露。",
+      "conflict_action": "陆谨言拨通许知遥电话，谎称钥匙扣录音已完整恢复，诱导她解释隧道细节。",
+      "information_gap": "录音并未完整恢复，陆谨言用已知车漆和胎心事实诈出漏洞。",
+      "emotion_debt_balance": "男主开始用他的专业能力追偿外部凶手，但不能抵消对沈栀的亏欠。",
+      "chapter_end_hook": "陆谨言把电话拨给许知遥，只说：录音恢复了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写非法刑讯",
+        "不能让伪造证据入卷",
+        "不能让心理战成为唯一证据"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars": 850,
+      "scene_location": "电话录音室与隧道监控调取现场",
+      "character_goal": "陆谨言要锁定许知遥参与事故的位置与时间。",
+      "conflict_action": "许知遥失口提到第二道闸，陆谨言立刻让警方调取被删监控残帧和闸机日志。",
+      "information_gap": "第二道闸是公开报告里没有出现过的事故点。",
+      "emotion_debt_balance": "凶手开始被证据链反噬，沈栀的委屈被客观事实接住。",
+      "chapter_end_hook": "许知遥在电话那头说漏了隧道第二道闸。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止让凶手无脑自爆",
+        "不能用巧合替代证据推进",
+        "不能淡化沈栀生前求救被否定"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars": 900,
+      "scene_location": "鉴定中心数据室",
+      "character_goal": "陆谨言要用车辆控制数据闭合追撞与逼停过程。",
+      "conflict_action": "警方导入许知遥车辆数据，陆谨言核对刹车、转向和碰撞时间线，同时签下停职申请。",
+      "information_gap": "停职说明他承认自己不该主刀妻子，但代价刚开始。",
+      "emotion_debt_balance": "外部正义推进，男主职业信仰开始坍塌。",
+      "chapter_end_hook": "车辆控制数据打开前，陆谨言签下停职申请。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把停职写成洗白",
+        "不能让程序争议消失不见",
+        "不能忽略检方旁证和录像"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars": 900,
+      "scene_location": "警方询问室与鉴定中心走廊",
+      "character_goal": "许知遥要把罪推给事故失控，陆谨言要让证据链压过她的辩解。",
+      "conflict_action": "警方展示车漆、监控残帧、车辆数据和尸检报告，许知遥被带走，陆谨言隔着玻璃看她失控。",
+      "information_gap": "凶手伏法不是终点，陆谨言还欠沈栀和孩子余生。",
+      "emotion_debt_balance": "凶手法律代价落地，读者情绪转向男主赎罪。",
+      "chapter_end_hook": "许知遥被带走时，还在喊陆谨言会原谅她。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止轻飘带过凶手惩罚",
+        "不能让陆谨言替许知遥开脱",
+        "不能把法律结果写成全部偿还"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars": 900,
+      "scene_location": "跨江隧道旁废弃收费站",
+      "character_goal": "陆谨言要把废弃收费站改成夜灯档案室，沈栀要确认这不是求原谅的表演。",
+      "conflict_action": "陆谨言搬来卷宗柜、装上二十四小时夜灯、把空儿童安全座椅放到窗边并交出鉴定资格证。",
+      "information_gap": "五年自囚开始，但他从不播放胎心录音。",
+      "emotion_debt_balance": "男主进入长期偿债，沈栀从恨转为冷看。",
+      "chapter_end_hook": "废弃收费站的第一盏夜灯亮起，他把空儿童安全座椅放在窗边。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止把档案室写成公益成功学",
+        "不能让女主主动安慰他",
+        "不能让赎罪显得轻松体面"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars": 900,
+      "scene_location": "夜灯档案室第五年雪夜",
+      "character_goal": "陆谨言要完成最后一份孕亡者卷宗并面对胎心录音，沈栀要决定是否继续恨。",
+      "conflict_action": "陆谨言整理最后一份卷宗、打开未播放的胎心钥匙扣、关掉桌上工作灯后走向雪夜。",
+      "information_gap": "他的不可逆选择不换取原谅，只成为迟到代价。",
+      "emotion_debt_balance": "余生偿还完成到生命级代价，沈栀疲惫放下。",
+      "chapter_end_hook": "第五年雪夜，他终于按下那段胎心录音。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止描写自毁具体方法",
+        "不能浪漫化死亡",
+        "不能写现实HE",
+        "不能让沈栀说全部原谅"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 12000,
+    "min_chapters": 15,
+    "min_paywall_cards": 5,
+    "chapter_end_hook_coverage": "100%",
+    "min_micro_hooks": 12,
+    "must_preserve": [
+      "前300字完成死亡、怀孕、灵魂旁观、丈夫主刀预告",
+      "胎儿必须由陆谨言在尸检中亲手发现",
+      "凶手必须由客观证据链追责",
+      "陆谨言必须失去职业资格并长期赎罪",
+      "沈栀不能复活、托梦或干预现实"
+    ]
+  }
+}

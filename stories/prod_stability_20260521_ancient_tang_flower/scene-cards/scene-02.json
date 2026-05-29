@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "堤岸河灯处与避雨廊檐下",
+  "time": "当夜入更后，雷雨将至",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "儿子霍承舟",
+    "贺婉书",
+    "随行婢女"
+  ],
+  "character_goal": "把给母亲的河灯放下，稳住自己，不再被旧伤拖回上一世。",
+  "opposition_goal": "贺婉书要继续占据孩子情感位置，让贺晚棠再次像多余的人。",
+  "conflict_action": "儿子把河灯转手送给贺婉书，雷声劈下时贺晚棠被前世闸口溺亡记忆猛然击中。",
+  "information_gap": "上一世闸口最后的选择到底有多狠，才让她这一世连争都不愿再争？",
+  "emotional_debt_delta": "+2 儿子情感站队补刀，重生理由被当场点明",
+  "payoff_or_hook": "她从回忆里醒来，决定按死局时间来安排自己的离场。",
+  "chapter_end_hook": "二十一日后，闸口最适合死人。",
+  "paywall_card": false,
+  "must_include": [
+    "儿子不是纯恶，要写出被长期诱导后的自然偏心"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释前世全貌",
+    "不要长篇回忆婚后每次委屈",
+    "不要写旁观者反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "小细节刺痛35%+亲子错位25%+前世闪回25%+冷判决15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.44,
+    "action_ratio_target": 0.34,
+    "hook_drop": "用水殓婆报潮期做章尾截断",
+    "low_pressure_bridge": "点灯、避雨、收袖这些慢半拍动作托住记忆暴击"
+  }
+}

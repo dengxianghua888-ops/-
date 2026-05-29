@@ -1,0 +1,66 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 14000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "recommended_chapter_count": {
+      "min": 12,
+      "max": 18
+    },
+    "chapter_end_hook_required": true
+  },
+  "hook_policy": {
+    "front_300_chars": "死前丈夫的遗言否定一生 + 重生后立即面对同一人再次出现,制造悬念：这次她会怎么选？",
+    "micro_hook_interval": 1000,
+    "paywall_card_interval": 3500
+  },
+  "audience": {
+    "target_readers": [
+      "重生逆袭读者",
+      "女性成长独立读者",
+      "家庭伦理爽文读者",
+      "姐妹情仇/婚姻反思读者"
+    ],
+    "emotional_needs": [
+      "看清渣男真面目的爽感",
+      "女主自强后碾压前夫的快感",
+      "错过的真爱终于抓住的甜蜜补偿",
+      "对重男轻女/恋爱脑的批判共鸣"
+    ],
+    "genre_taboo": [
+      "不能美化出轨",
+      "不能让女主回头接受渣男",
+      "不能让姐姐的行为被洗白",
+      "不能弱化女主独立意志"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "example": "重生后我才发现，我是姐姐的对照组"
+      },
+      {
+        "formula": "T4",
+        "example": "老公临终说从没爱过我，重生后我选了年级第一"
+      },
+      {
+        "formula": "T3",
+        "example": "姐姐和我老公的秘密，重生后我全看见了"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": 9,
+    "paywall_pull": 8.5,
+    "emotional_release": 9,
+    "ai_flavor": 0,
+    "explosion_density": 8.5
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 780,
+  "target_chars_max": 860,
+  "location": "商栈内堂",
+  "time": "次日午后",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "霍池渊",
+    "霍承舟",
+    "沈执"
+  ],
+  "character_goal": "亲口宣判不回头，让迟来的悔意彻底失效。",
+  "opposition_goal": "霍池渊和霍承舟都想借见面与认错换回至少一点旧情位置。",
+  "conflict_action": "霍池渊带着儿子跪求见面，儿子扑上来认错，贺晚棠当面拆穿他们每一次选择，然后抽回袖子拒绝。",
+  "information_gap": "他们被拒后会退，还是会把更大的危险一起带来？",
+  "emotional_debt_delta": "-2 女主完成核心判决，迟来的父子悔意不再能绑住她",
+  "payoff_or_hook": "她终于把‘感激’和‘爱’分开说清了。",
+  "chapter_end_hook": "她把袖子从他手里抽了出去。",
+  "paywall_card": true,
+  "must_include": [
+    "沈执只需稳住场面，不替女主发言"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让道歉台词刷屏",
+    "不要把节奏拖成哭求拉扯"
+  ],
+  "rhythm_job": {
+    "shape": "父子求见20%+当面拆账45%+拒绝抽袖20%+隐患埋下15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.55,
+    "action_ratio_target": 0.25,
+    "hook_drop": "用抽袖这个动作代替长句结案",
+    "low_pressure_bridge": "奉茶、关门、移椅这些生活动作承接跪求高压"
+  }
+}

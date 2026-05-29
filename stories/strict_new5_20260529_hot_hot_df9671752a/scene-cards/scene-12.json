@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 1080,
+  "target_chars_max": 1160,
+  "location": "外墙广播广场",
+  "time": "女皇醒来后",
+  "pov": "沈梨雾",
+  "characters": [
+    "沈梨雾",
+    "秦岚",
+    "祁砚",
+    "地堡居民",
+    "虫群"
+  ],
+  "character_goal": "沈梨雾要让秦岚听见自己的规则回旋",
+  "opposition_goal": "秦岚想用人人平等继续煽动居民",
+  "conflict_action": "沈梨雾让虫群叼起扩音器，复播秦岚白天说过的口号",
+  "information_gap": "秦岚的公平在虫群视角里只剩热源同等可食",
+  "emotional_debt_delta": "-2 规则回旋债偿还",
+  "payoff_or_hook": "局部庇护撤去，秦岚身边的安全圈消失",
+  "chapter_end_hook": "扩音器掉在雪里，传出秦岚自己的声音：弱者就该被淘汰。",
+  "paywall_card": false,
+  "must_include": [
+    "三句原话回旋",
+    "沈梨雾短问你不是说吗",
+    "虫群只围不啃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续判词超过一段",
+    "不要写无差别屠杀",
+    "不要给秦岚合理化苦衷"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 7,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "虫群没有立刻扑上去，只把雪地安全圈啃成断线"
+  }
+}

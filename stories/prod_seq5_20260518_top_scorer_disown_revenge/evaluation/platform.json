@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "point": "开篇点击欲",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "我查到748分那一刻，校门口采访车正把镜头推到我脸上。",
+      "assessment": "省状元高光与直播镜头开场，读者能立即理解爽点和危机。"
+    },
+    {
+      "point": "开篇爆点叠加",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "我对着直播镜头说：我要举报，云麓湾17号全家被灭门，尸体就在这栋房子里。",
+      "assessment": "首场完成从报喜到灭门举报的强反差。"
+    },
+    {
+      "point": "章末钩",
+      "source": "draft-scenes/scene-08.md",
+      "quote": "凌晨三点二十七分，整栋别墅所有传感器同时爆红，又在四分钟后被人手动校准。",
+      "assessment": "技术证据把检测失败转成下一层悬念。"
+    },
+    {
+      "point": "付费卡点",
+      "source": "draft-scenes/scene-12.md",
+      "quote": "我把名字签完，对裴队说：拆，出了事我负责。",
+      "assessment": "破拆前的身败名裂赌注适合做付费节点。"
+    },
+    {
+      "point": "正文闭环",
+      "source": "draft-scenes/scene-18.md",
+      "quote": "这一次，我要亲手把更多真相带回阳光下。",
+      "assessment": "从受害者家属转为刑事科学技术方向，完成价值升格。"
+    }
+  ],
+  "risks": [
+    "Phase 7 仍需补标题、简介、投稿导语和显式付费节点地图。",
+    "scene-16 庭审段可压缩重复句，增强付费后段爽感。"
+  ]
+}

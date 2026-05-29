@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "evidence": [
+    {
+      "point": "opening_hook",
+      "quote": "安全转移预约日期后，她签下了“许知棠”三个字。",
+      "assessment": "首章强钩子仍在，且法律风险低于原死亡预约。"
+    },
+    {
+      "point": "paywall",
+      "quote": "绑匪把刀尖转向许知棠。“陆沉舟，马上选。”",
+      "assessment": "生死交换卡点明确。"
+    },
+    {
+      "point": "ending_hook",
+      "quote": "陆医生，我的命不再排在你的手术台上。",
+      "assessment": "终局拒绝有记忆点。"
+    }
+  ]
+}

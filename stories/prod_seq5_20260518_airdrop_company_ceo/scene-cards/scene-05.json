@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "直播中控室",
+  "time": "履历质询后，直播仍在延迟播出",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "苏曼宁", "周砚礼", "中控主管", "平台风控法务负责人李屿"],
+  "character_goal": "许闻溪保全刷单、投流和合同证据",
+  "opposition_goal": "苏曼宁要破坏中控设备，切断现场证据展示",
+  "conflict_action": "苏曼宁扑向中控线，许闻溪抢先按下证据镜像，锁定投流日志和录屏包",
+  "information_gap": "苏曼宁不知道许闻溪早有合规只读权限",
+  "emotional_debt_delta": "-履历造假债第一笔 +证据灭失风险",
+  "payoff_or_hook": "证据包同步到平台风控，现场无法再被周砚礼单方控制",
+  "chapter_end_hook": "进度条跳到百分之百，苏曼宁的手停在断线开关前。",
+  "paywall_card": false,
+  "must_include": ["拔线动作", "只读镜像", "投流日志", "合同扫描件", "录屏证据包"],
+  "must_not_write_as_exposition": ["不要写成黑客入侵", "不要公开私人隐私", "不要让证据凭空出现"]
+}

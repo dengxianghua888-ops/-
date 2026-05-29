@@ -1,0 +1,126 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "end_hook_required": true,
+    "chapter_count_estimate": [12, 22]
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "第一句即制造认知冲突：丈夫装病骗钱，妻子夜场卖唱攒手术费，推开包厢门撞见丈夫搂着别的女人。三重信息差在300字内全部引爆。",
+    "micro_hook_interval_chars": [800, 1200],
+    "micro_hook_examples": [
+      "陆晚月亮出手腕上的翡翠镯——外婆的遗物",
+      "账户余额347元",
+      "赵鸣川欲言又止的半句话",
+      "咖啡馆偶遇他手中那张旧照片背面的字"
+    ],
+    "paywall_cliffhanger_interval_chars": [2500, 3500],
+    "paywall_cliffhanger_examples": [
+      "陆晚月低声说：你挣的钱有一半转到了我卡上",
+      "齐衍深三秒沉默——那就是答案",
+      "赵鸣川推出牛皮纸袋：救命之恩是编的",
+      "手腕骨裂，明天面试要弹琴",
+      "陌生号码：你弹琴的样子还是很好看"
+    ]
+  },
+  "audience": {
+    "primary_demographic": "18-35岁女性，都市打工人/大学生",
+    "emotional_needs": [
+      "被辜负后的清醒离场快感",
+      "经济独立与职业尊严的重建",
+      "迟来深情无效的报复性满足",
+      "不复合、不原谅的边界感认同"
+    ],
+    "genre_preference": "现代情感反转/火葬场/清醒女主",
+    "taboos": [
+      "女主回头复合",
+      "圣母式原谅",
+      "靠新男人翻身",
+      "过度暴力血腥",
+      "无逻辑金手指"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "template": "动作+结果+情绪反转",
+        "examples": [
+          "老公装病骗我卖唱三个月，我消失后他疯了",
+          "给老公攒够手术费那天，我在夜场撞见了他"
+        ]
+      },
+      {
+        "formula": "T3",
+        "template": "诗意短句暗示结局",
+        "examples": [
+          "风雪衍深处，无以唤念歌",
+          "从此琴声不为你"
+        ]
+      },
+      {
+        "formula": "T5",
+        "template": "场景切片式悬念",
+        "examples": [
+          "推开包厢门，老公搂着别人笑",
+          "她的翡翠镯戴在另一个女人手上"
+        ]
+      }
+    ],
+    "max_chars": 30,
+    "recommendation": "T1公式，信息量大、冲突前置、完读率最高"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "每章末留悬念钩，前三章密集信息差引爆，中段用经济困境+职业危机维持紧迫感"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "第一个付费点设在陆晚月揭露钱流向；第二个设在赵鸣川揭穿救命恩情骗局；第三个设在手腕骨裂面试危机"
+    },
+    "emotional_release": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "压迫链足够长（装病→夜场→嫁妆→失业→网暴→骨裂），释放点精准（消失不回头、面试通过、陆晚月跌落）"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "scale": 10,
+      "note": "零AI味，禁用然而/不禁/心中涌起等词，情绪用动作和生理反应外化"
+    },
+    "explosive_density": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "每1000字至少一个微冲突或信息差揭露，大转折间隔不超过3000字"
+    }
+  },
+  "genre_constraints": {
+    "genre": "modern_reversal",
+    "avg_sentence_length": [15, 20],
+    "dialogue_ratio": [0.35, 0.45],
+    "reversal_mechanisms": ["M3", "M5", "M6"],
+    "hook_type": "H1",
+    "emotion_curve_shape": "深谷后阶梯递进型",
+    "extra_forbidden_words": ["命运", "宿命", "红尘", "所谓的", "浓妆艳抹"]
+  },
+  "core_selling_points": [
+    "装病骗局——信息差从第一句就建立",
+    "嫁妆流向——外婆翡翠镯戴在小三手上的视觉冲击",
+    "经济绝境——347元余额、跪求预支工资的真实窒息感",
+    "清醒离场——五个字同意离婚、物归原主、全部拉黑",
+    "救命恩情骗局揭穿——整个情感基础坍塌",
+    "职业重建——面试通过、琴声回归的治愈补偿",
+    "不复合结局——嘴角扬了扬但没回头"
+  ]
+}

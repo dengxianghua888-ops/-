@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "衡川外骨骼发布会主舞台",
+  "time": "发布会进行时",
+  "pov": "第一人称，许知意，夹短暂陆景珩反应",
+  "characters": [
+    "许知意",
+    "陆景珩",
+    "程安橙",
+    "许父",
+    "媒体",
+    "衡川工程师"
+  ],
+  "character_goal": "许知意要当众站起，并公开证明旧事故是人为诱导和遮掩",
+  "opposition_goal": "程安橙要否认黑匣子真实性，陆景珩要阻止许知意继续播放",
+  "conflict_action": "许知意启动外骨骼从轮椅上站起，按下遥控播放EDR黑匣子、OTA删改日志、门禁记录和程安橙诱导路线录音",
+  "information_gap": "删改授权账户属于陆景珩，但他亲自签过什么留到法庭爆",
+  "emotional_debt_delta": "高额爽点：残腿羞辱被公开站起反击，小三共犯被钉住",
+  "payoff_or_hook": "程安橙失控，暴露她知道黑匣子本该被毁",
+  "chapter_end_hook": "程安橙尖叫着说，那份黑匣子不可能还在。",
+  "paywall_card": false,
+  "must_include": [
+    "许知意从轮椅上站起",
+    "外骨骼辅助被明确呈现",
+    "EDR黑匣子",
+    "OTA删改日志",
+    "程安橙失控喊漏嘴"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把站起写成身体完全恢复",
+    "不要让观众夸赞替代证据冲击",
+    "不要把小三崩溃写可怜"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "evidence": [
+    "已完成软禁词替换并刷新机器质检",
+    "二轮与三轮迭代补足章节长度、去除重复模板句、同步 final/draft/chapter artifacts",
+    "机器质检字数 10673，重复片段 78，软禁词 {}"
+  ],
+  "critic_scores": {
+    "platform": 8.8,
+    "emotion": 8.9,
+    "style": 8.5,
+    "logic": 8.7
+  },
+  "machine_metrics": {
+    "text_path": "/Users/dengxianghua/短篇仿写/stories/prod_iter_18_fools_divorce/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10673,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        680,
+        709,
+        680,
+        645,
+        687,
+        669,
+        642,
+        653,
+        637,
+        622,
+        650,
+        631,
+        653,
+        658,
+        686,
+        648
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 106,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 12,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 78,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10673,
+      "sentence_count": 431,
+      "avg_sentence_length": 23.763,
+      "dialogue_ratio": 0.013,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 2,
+        "指甲": 1,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.797
+    },
+    "semantic_repetition": {
+      "sentence_count": 403,
+      "unique_sentence_skeletons": 373,
+      "max_sentence_repeats": 16,
+      "max_sentence_repeat_ratio": 0.0397
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

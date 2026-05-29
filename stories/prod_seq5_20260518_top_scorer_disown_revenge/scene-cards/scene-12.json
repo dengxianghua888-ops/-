@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "别墅门口、警戒线、破拆准备区",
+  "time": "顾教授建议破拆后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "顾教授",
+    "假哥哥",
+    "记者",
+    "围观邻居"
+  ],
+  "character_goal": "沈棠要签下破拆申请，赌上这栋承载回忆的家。",
+  "opposition_goal": "假哥哥要用法律责任、房屋损失和直播舆论逼她撤回申请。",
+  "conflict_action": "假哥哥隔着警戒线挑衅，沈棠接过破拆申请和损失承担书，在镜头前签字。",
+  "information_gap": "墙后到底有证据，还是她会因拆毁别墅彻底身败名裂。",
+  "emotional_debt_delta": "沈棠赌上家、名声和前途，情绪债进入第二高点。",
+  "payoff_or_hook": "破拆令启动，反派挑衅转为终局倒计时。",
+  "chapter_end_hook": "我把名字签完，对裴队说：拆，出了事我负责。",
+  "paywall_card": true,
+  "must_include": [
+    "假哥哥公开挑衅",
+    "破拆申请",
+    "损失承担书",
+    "沈棠签字",
+    "直播间分裂"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成冲动砸家",
+    "不要让破拆绕开警方程序",
+    "不要让反派只会辱骂"
+  ]
+}

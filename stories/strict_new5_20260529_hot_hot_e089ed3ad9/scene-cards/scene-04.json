@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 680,
+  "target_chars_max": 790,
+  "location": "医院安保监控室",
+  "time": "深夜",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "安保主管",
+    "值班护士"
+  ],
+  "character_goal": "林望播放旧年会监控，证明父亲当年不是闹事而是求救。",
+  "opposition_goal": "沈岚要删除监控片段，守住自己对父子的旧判词。",
+  "conflict_action": "沈岚命令安保主管关掉屏幕，林望插入备份U盘继续播放。",
+  "information_gap": "沈岚记忆里的贪钱闹场，被监控里的病危通知和雪夜驱赶推翻。",
+  "emotional_debt_delta": "婚礼羞辱债上桌，父亲温柔和狼狈同时出现。",
+  "payoff_or_hook": "父子被赶出雪夜的画面成为下一轮证据。",
+  "chapter_end_hook": "屏幕里，林正年跪在雪地上，把病危通知举过头顶。",
+  "paywall_card": false,
+  "must_include": [
+    "旧年会监控时间戳",
+    "父亲递病危通知",
+    "保安推人",
+    "林望备份U盘"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述整场年会",
+    "不要列旁观者反应",
+    "不要把父亲写成只会哭求"
+  ],
+  "rhythm_job": {
+    "shape": "监控画面短句切片，对白少而准，留出画面停顿",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用监控无声画面和雪落镜头降压"
+  }
+}

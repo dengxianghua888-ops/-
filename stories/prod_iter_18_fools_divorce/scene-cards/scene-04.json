@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 645,
+  "target_chars_max": 645,
+  "location": "顾宅客厅",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "触发信托撤保",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "顾砚臣深夜回家时，外套上带着医院消毒水味和宋晚棠惯用的白茶香。  他把一束玫瑰放到我",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "信托债",
+  "payoff_or_hook": "“放心，我会按法律动。”",
+  "chapter_end_hook": "“放心，我会按法律动。”",
+  "paywall_card": true,
+  "must_include": [
+    "触发信托撤保",
+    "信托债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

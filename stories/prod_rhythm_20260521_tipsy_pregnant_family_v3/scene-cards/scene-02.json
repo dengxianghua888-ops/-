@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 640,
+  "target_chars_max": 720,
+  "location": "旧戏楼小屋到院门口",
+  "time": "紧接上一场，夜色刚落",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想确认自己是不是被抛下，同时找出协议异常处。",
+  "opposition_goal": "陆砚辞要把所有托底都留给她，但不允许她追问原因。",
+  "conflict_action": "温瓷当面逐条翻协议，念出孩子信托那一行，逼得陆砚辞只能沉默后转身离开。",
+  "information_gap": "为什么一份离婚协议会提前给未来孩子留信托；陆砚辞是否早知道她可能怀孕。",
+  "emotional_debt_delta": {
+    "离婚债": "+1",
+    "沟通债": "+1",
+    "安全感债": "-1"
+  },
+  "payoff_or_hook": "协议全偏女方，第一次让读者意识到这不像单纯抛弃。",
+  "chapter_end_hook": "协议写到未来孩子信托，门外却已经没了陆砚辞的人影。",
+  "paywall_card": false,
+  "must_include": [
+    "戏楼产权、存款、保险、孩子信托至少提到两项",
+    "温瓷发现异常时不是哭，而是慢吞吞停住",
+    "弹幕出现分裂：有人骂渣，有人开始怀疑不对"
+  ],
+  "must_not_write_as_exposition": [
+    "不要逐条列完所有资产",
+    "不要做法律科普",
+    "不要长段总结情绪"
+  ],
+  "rhythm_job": {
+    "shape": "翻协议-短问短答-沉默动作-门口截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "对白3成，动作4成，弹幕2成，留白1成"
+  }
+}

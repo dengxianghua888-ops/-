@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 720,
+  "target_chars_max": 900,
+  "location": "陆氏集团总控室",
+  "time": "沈知晚登机后当晚",
+  "pov": "第三人称贴近陆景辞",
+  "characters": ["陆景辞", "技术主管", "沈明姝"],
+  "character_goal": "陆景辞想找到证据证明自己当时选择合理。",
+  "opposition_goal": "火场原片和技术记录不断推翻他的自我合理化。",
+  "conflict_action": "陆景辞命技术主管调出直播原片，逐帧回放自己越过总控台、抱走沈明姝、对沈知晚喊自己找路。",
+  "information_gap": "沈明姝离出口更近的消防时间轴还未放出。",
+  "emotional_debt_delta": "陆景辞悔恨种子出现，但尚未构成清算。",
+  "payoff_or_hook": "他的原话成为后期反复折磨自己的证据。",
+  "chapter_end_hook": "陆景辞打开火场直播原片，听见自己对沈知晚喊：你熟悉这里，自己找路。",
+  "paywall_card": false,
+  "must_include": [
+    "直播原片",
+    "总控台后的沈知晚",
+    "陆景辞越过她",
+    "沈明姝抓住他衣领",
+    "陆景辞手抖按暂停"
+  ],
+  "must_not_write_as_exposition": [
+    "不要替陆景辞辩解",
+    "不要写成他没听见沈知晚",
+    "不要把悔恨写成已经赎罪"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 660,
+  "target_chars_max": 760,
+  "location": "国际医疗伦理论坛签到区",
+  "time": "三天后上午",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "许知微",
+    "陆承川",
+    "江砚舟",
+    "安保",
+    "论坛来宾"
+  ],
+  "character_goal": "沈听澜要以独立项目负责人身份登场，许知微要摆脱被展示的病史标签。",
+  "opposition_goal": "江砚舟要用冷柜铭牌把自己包装成悔过者，重新接近沈听澜。",
+  "conflict_action": "沈听澜和许知微共同提交新项目展牌，陆承川替她们留好嘉宾席，江砚舟在入口被安保拦下。",
+  "information_gap": "江砚舟手里的冷柜铭牌即将从求复合道具变成反面案例证物。",
+  "emotional_debt_delta": {
+    "added": [
+      "最后纠缠债"
+    ],
+    "paid": [
+      "女性结盟项目公开",
+      "陆承川尊重式补偿兑现"
+    ]
+  },
+  "payoff_or_hook": "故事重心从惩罚前任转向女主新项目和新边界。",
+  "chapter_end_hook": "截断句：江砚舟摊开掌心，那块冷柜铭牌露了出来。",
+  "paywall_card": false,
+  "must_include": [
+    "新项目展牌",
+    "许知微名字不再跟病史绑定",
+    "陆承川只留座不催促",
+    "1行现场评论或直播弹幕轻轻补刀"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写论坛流程清单",
+    "不要科普医疗伦理",
+    "不要让江砚舟靠忏悔进场"
+  ],
+  "rhythm_job": {
+    "shape": "新场景开阔，轻评论补刀，铭牌回收钩",
+    "dialogue_action_breathing_ratio": "对白约35%，动作约47%，评论约3%，呼吸点约15%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用签到、留座、展牌摆正的生活动作放缓",
+    "chapter_tail_action": "铭牌在江砚舟掌心翻面"
+  }
+}

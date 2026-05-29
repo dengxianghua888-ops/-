@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "文旅酒吧舞台后场 / 招待包厢门口",
+  "time": "雨夜，驻场最后一轮前后",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "齐衍深",
+    "陆晚月",
+    "酒吧领班",
+    "包厢散客"
+  ],
+  "character_goal": "唱完最后两首，拿到结算钱去补齐所谓手术押金。",
+  "opposition_goal": "陆晚月要当场踩脸炫耀，齐衍深要先稳住局面不让真相炸开。",
+  "conflict_action": "沈念歌推门撞见齐衍深搂着陆晚月，陆晚月直接拿钱流向和琴轸玉饰挑衅，逼她当场失态。",
+  "information_gap": "齐衍深的病是真是假，她的救命钱究竟有没有进医院。",
+  "emotional_debt_delta": "极大负债：救夫劳动与婚姻背叛同场相撞。",
+  "payoff_or_hook": "钱没进医院，进了第三者卡里；旧物也在第三者手上。",
+  "chapter_end_hook": "截断句：‘你唱一晚的钱，一半都在我卡里。’",
+  "paywall_card": false,
+  "must_include": [
+    "驻场前的喘息动作和嗓子发紧的身体反应",
+    "包厢门被推开的具体动作",
+    "陆晚月佩戴琴轸玉饰的近景",
+    "至少一句围观者低声议论或吐槽"
+  ],
+  "must_not_write_as_exposition": [
+    "不要交代完整婚史",
+    "不要解释酒吧运营流程",
+    "不要用回忆代替撞破现场"
+  ],
+  "rhythm_job": {
+    "shape": "开场三连击：动作进入-撞破-钱流向揭脸",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "ratio_note": ""
+  }
+}

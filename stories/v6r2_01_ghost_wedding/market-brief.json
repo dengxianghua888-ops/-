@@ -1,0 +1,102 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "end_hook_required": true,
+    "median_chars": 650
+  },
+  "hook_policy": {
+    "golden_hook_words": 300,
+    "golden_hook_requirement": "前300字必须建立核心信息差：女主偶遇丈夫发小谈论'前妻已死'和'再婚'，读者立刻获得'活人被宣告死亡'的荒诞感和愤怒驱动力",
+    "micro_hook_interval": [800, 1200],
+    "micro_hook_description": "每800-1200字设置一个新的信息落差或情绪升级点：新细节揭露丈夫双面生活的具体差异（金钱、时间、情感投入的量化对比）",
+    "paywall_hook_interval": [2500, 3500],
+    "paywall_hook_description": "每2500-3500字设置付费级卡点：婚礼现场夺麦、假证真相爆出、法庭判决等不可逆转折"
+  },
+  "audience": {
+    "primary_demographic": "25-40岁女性，已婚或有婚恋经验",
+    "emotional_needs": [
+      "被背叛后的正义补偿感",
+      "对隐性剥削的共鸣与愤怒释放",
+      "看见女主不哭不求、用规则反杀的爽感",
+      "母子独立新生的治愈收束"
+    ],
+    "reading_context": "碎片化通勤阅读、睡前解压，需要持续的情绪钩子防止退出",
+    "genre_forbidden_zones": [
+      "女主原谅渣男复合",
+      "靠新男人救场（女主必须自力清算）",
+      "孩子成为要挟筹码被伤害",
+      "过度血腥暴力",
+      "圣母式宽恕或道德说教"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "template": "[极端事件]+[对方悔/疯/崩]",
+        "examples": ["老公婚礼上我诈尸后，全家悔疯了", "被宣告死亡三年，我出现在他二婚现场"]
+      },
+      {
+        "formula": "T3",
+        "template": "[视角反转]+[不可逆后果]",
+        "examples": ["老公婚礼，我才知道自己死去多年", "参加陌生人婚礼，新郎竟是我老公"]
+      },
+      {
+        "formula": "T5",
+        "template": "[日常细节引爆]+[身份错位]",
+        "examples": ["礼账写'诈尸前妻'后，新娘脸白了", "随了二百份子钱，新郎叫我老婆"]
+      }
+    ],
+    "constraints": {
+      "max_chars": 30,
+      "must_contain_conflict": true,
+      "avoid_spoiling_climax": true
+    }
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "description": "每章末必须有未解悬念或即将爆发的情绪压力，读者无法停下"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "description": "付费卡点设置在信息差即将揭晓但尚未完全释放的精确位置"
+    },
+    "emotional_release": {
+      "target": 9,
+      "description": "愤怒→震惊→痛快→治愈的完整情绪弧，每个清算节点都有量化对比（数字、原话回旋）"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "description": "零违禁词，情绪通过动作和对话外化，禁用心理旁白式总结"
+    },
+    "explosive_density": {
+      "target": 8.5,
+      "description": "每千字至少1个微冲突或信息反差点，大转折间隔不超过3000字"
+    }
+  },
+  "genre_specific": {
+    "genre": "family_ethics",
+    "core_mechanisms": ["M1", "M3", "M5", "M6"],
+    "emotion_curve_shape": "阶梯递进型",
+    "dominant_payoff": "夺麦揭穿、假证暴雷、三条清算、法院判刑、母子新家",
+    "protagonist_stance": "先隐忍取证，后冷静爆破，绝不复合",
+    "antagonist_violation_type": "伪造死亡、重婚、伪造证件、转移共同财产、抹杀亲生孩子",
+    "reader_promise": "被丈夫和婆家活活抹杀的正妻，在二婚现场当众诈尸，逐笔清算重婚、财产与尊严",
+    "emotional_debt_type": "丈夫对外宣称女主已死并停妻再娶"
+  },
+  "structural_notes": {
+    "opening_scene": "以女主第一人称撞见丈夫发小对话开场，3句话内建立核心冲突",
+    "escalation_pattern": "信息差逐层剥开——发小对话→婚礼现场→伴娘闲聊→婆婆电话→舞台夺麦，每层增加一个量化对比（彩礼、戒指、早餐、戒烟、分红）",
+    "climax_placement": "全文60%-75%处为公开清算高潮，75%-90%为法律清算，最后10%为母子新生收束",
+    "ending_tone": "不苦大仇深，用儿子搭积木的日常细节完成情绪着陆"
+  }
+}

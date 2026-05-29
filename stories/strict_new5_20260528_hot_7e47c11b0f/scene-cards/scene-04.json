@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "机场贵宾休息楼小会客室",
+  "time": "同日中午",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲"
+  ],
+  "character_goal": "林照晚要许承洲亲口解释婚姻、身份和十年欺骗",
+  "opposition_goal": "许承洲想用赔偿协议、贵宾卡和住处安排让她低调留在海城",
+  "conflict_action": "许承洲把协议推到她面前，承认自己已婚和航司副总身份，同时要求她暂时别公开恋爱记录",
+  "information_gap": "他隐婚多久，梁知棠和他家族到底交换了什么",
+  "emotional_debt_delta": "+3 男主把十年关系改成待处理风险",
+  "payoff_or_hook": "第一张付费卡：已婚承认加低调留下",
+  "chapter_end_hook": "他说，婚已经结了，你先低调留下。",
+  "paywall_card": true,
+  "must_include": [
+    "赔偿协议",
+    "贵宾卡",
+    "男主说身份不重要",
+    "女主把戒指盒合上",
+    "窗外起飞的航班声"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释航权联姻细节",
+    "不要让男主完整卖惨",
+    "不要让女主签任何东西"
+  ],
+  "rhythm_job": {
+    "shape": "谈判桌短对白，对方分三轮抛出新事实，女主用合上戒指盒切断，章尾卡男主原话",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用纸页翻动、杯水没动、航班广播承接",
+    "dialogue_action_comment_ratio": "对白约42%，动作约45%，呼吸点约13%，章尾钩1句"
+  }
+}

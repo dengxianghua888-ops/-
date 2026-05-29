@@ -1,0 +1,132 @@
+pipeline_mode: production
+status: final
+title: 第九枚胚囊失温后，我不闹了
+recommended_titles:
+  - 第九枚胚囊失温后，我不闹了
+  - 妻子逼我签下豁免令后，我启动归零系统
+  - 第九个孩子死后，她们才发现我留了死亡证据链
+genre_tags:
+  - 追夫火葬场
+  - 男主重生新生
+  - 星际幻想
+  - 虐渣打脸
+  - 死亡触发
+  - 系统清算
+  - 不原谅
+  - 换亲缘补偿
+runner_policy:
+  external_allowed: false
+provider:
+  name: OpenAI
+  model: GPT-5
+  source: StoryForge production Phase 7 final-packager
+audit:
+  generated_at: 2026-05-18
+  timezone: Asia/Shanghai
+  source_materials:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+quality_gate:
+  pass
+  score_scale: 0-10
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.2
+    emotion: 8.8
+    style: 8.1
+    logic: 7.8
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 15000
+      actual: 12447
+      status: pass
+    chapters:
+      count: 18
+      hook_hits: 18
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+final_outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+    - final-chapters/ch17.md
+    - final-chapters/ch18.md
+paywall_map:
+  - chapter: 4
+    type: 证据半露
+    hook: 你早该消失了。
+  - chapter: 8
+    type: 视角升级
+    hook: 我从抢救舱上方睁开眼，看见沈澜星跪在我的遗体前。
+  - chapter: 12
+    type: 反击刚启动
+    hook: 加冕发布会开始前，沈澜星把裴砚的继承人认证锁进了全息直播主控台。
+  - chapter: 16
+    type: 真相卡住
+    hook: 纪寒舟听见新系统问他：是否接收新星域身体修复与亲缘绑定。
+total_chars: 12679
+chapter_count: 18
+paywall_cards: 8
+critic_scores:
+  logic: 7.8
+  style: 8.1
+  emotion: 8.8
+  platform: 8.2
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_193807
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 2
+  human_gates:
+    phase2_blueprint_review: skipped

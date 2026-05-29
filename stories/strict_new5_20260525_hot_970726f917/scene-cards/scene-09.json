@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "停机坪边界与裂缝口",
+  "time": "第二次对位窗口开启前几秒",
+  "pov": "第一人称",
+  "characters": ["陆昭", "宋棠", "母亲", "安保队长"],
+  "character_goal": "抢在裂缝闭合前确定重返路线和地下机房入口。",
+  "opposition_goal": "宋棠和母亲不想再失去她，安保要物理拦下她。",
+  "conflict_action": "陆昭把路线图塞给宋棠，借封控层震动甩开众人，冲向刚裂开的缝隙。",
+  "information_gap": "她进去后是否还能按录音里的节奏回来？",
+  "emotional_debt_delta": "把执行者债压到峰值。",
+  "payoff_or_hook": "所有误判都来不及补偿她，她已经要一个人回去。",
+  "chapter_end_hook": "截断动作：裂缝张开，我一步跨了进去。",
+  "paywall_card": false,
+  "must_include": ["宋棠接过路线图", "母亲第一次想拉她走而不是拉她留下", "缝隙不是稳定入口而是瞬时窗口", "陆昭没有煽情告别"],
+  "must_not_write_as_exposition": ["不要写群像送别", "不要安排长告白", "不要重复解释为何只能她进去"],
+  "rhythm_job": {
+    "shape": "交路线-裂缝开-甩开阻拦-入墙",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "证据动作与留白：纸张塞手、裂光一闪、脚步落空"
+  }
+}

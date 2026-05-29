@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 610,
+  "target_chars_max": 670,
+  "location": "重建后的无菌花房",
+  "time": "三日后清晨",
+  "pov": "沈梨雾",
+  "characters": [
+    "沈梨雾",
+    "祁砚",
+    "许伯",
+    "新勤务员"
+  ],
+  "character_goal": "沈梨雾要接受补偿但拒绝回到被圈养状态",
+  "opposition_goal": "祁砚想用旧规则保护她，却怕再次冒犯",
+  "conflict_action": "祁砚递上新白手套和蜜雾香糖，沈梨雾只接手套，不回恒温床",
+  "information_gap": "供养关系继续，但权力方向已经反转",
+  "emotional_debt_delta": "-1 白手套债补偿",
+  "payoff_or_hook": "白手套回归，却不再是笼子",
+  "chapter_end_hook": "新的白手套送到她面前，却没人敢碰她的指尖。",
+  "paywall_card": false,
+  "must_include": [
+    "许伯修剪新白花",
+    "祁砚说权限归她",
+    "沈梨雾看一眼恒温床"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让祁砚替她宣布新政",
+    "不要让女主恢复无害小公主"
+  ],
+  "rhythm_job": {
+    "shape": "收束低压，动作补偿，余味钩子",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "许伯剪花枝的咔嚓声替代大段说明"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "江边公寓餐桌",
+  "time": "傍晚，温漾刚从妇产科回来",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "弹幕"
+  ],
+  "character_goal": "温漾想把孕八周报告告诉裴时砚",
+  "opposition_goal": "裴时砚想让她先签离婚协议，把她从裴家风险里摘出去",
+  "conflict_action": "裴时砚把离婚协议推到餐桌中央，温漾把产检袋压在膝上，反应慢半拍没能开口",
+  "information_gap": "弹幕说白月光回国，但离婚协议异常优厚的原因不明",
+  "emotional_debt_delta": "+怀孕未告知即被离婚的委屈债",
+  "payoff_or_hook": "离婚、怀孕、白月光误导三件事在前300字内同时落地",
+  "chapter_end_hook": "截断句：弹幕忽然刷出一行红字：【白月光已经下飞机了。】",
+  "paywall_card": false,
+  "must_include": [
+    "孕八周报告袋",
+    "离婚协议",
+    "温漾眨眼慢半拍",
+    "弹幕/评论短句误导白月光"
+  ],
+  "must_not_write_as_exposition": [
+    "不要铺垫婚姻日常",
+    "不要解释裴家",
+    "不要写长段内心受伤总结"
+  ],
+  "rhythm_job": {
+    "shape": "短句开场，物件三连落点；对白约35%，动作约35%，弹幕/评论约18%，呼吸留白约12%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 5,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用温漾慢吞吞摸报告袋和看协议页码承接压力"
+  }
+}

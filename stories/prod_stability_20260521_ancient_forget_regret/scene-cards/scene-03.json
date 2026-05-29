@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "被焚药圃外沿与废弃漕仓后院",
+  "time": "同日傍晚",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "家丁",
+    "婆子"
+  ],
+  "character_goal": "抢回药册与龙骨舟钗，顺势逃离谢家控制。",
+  "opposition_goal": "谢临舟要把她彻底隔离，防她在婚前露面。",
+  "conflict_action": "沈蘅往火里扑去抢药册，被家丁拖住脚踝拉走；谢临舟亲手把她推进漕仓药室，落锁禁足。",
+  "information_gap": "漕仓药室的门闩落下时，她听见谢临舟吩咐：\"没有我的令，不准她见人。\"",
+  "emotional_debt_delta": "+1：旧梦空间被烧空，囚禁债成立。",
+  "payoff_or_hook": "让烧园与锁门连续发生，别给缓冲。",
+  "chapter_end_hook": "漕仓药室的门闩落下时，她听见谢临舟吩咐：\"没有我的令，不准她见人。\"",
+  "paywall_card": false,
+  "must_include": [
+    "她扑火抢药册或舟钗的动作",
+    "漕仓药室的冷硬细节，只取一两笔",
+    "谢临舟亲口下禁足令"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写救火围观者反应清单",
+    "不要解释漕仓结构",
+    "不要让囚禁只停在口头威胁"
+  ],
+  "rhythm_job": {
+    "shape": "火场动作先行 -> 1轮短对白顶回去 -> 锁门声落尾",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "动作5成，对白4成，留白1成",
+    "hook_line_required": true
+  }
+}

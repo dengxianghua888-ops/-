@@ -1,0 +1,436 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 12500,
+    "planned_total_chars": 10192
+  },
+  "title": "法医冠军当天，我报警全家死在医院",
+  "genre": "modern_reversal / family_ethics / suspense_crime",
+  "mechanisms": [
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "use": "解除收养是假抛弃，假家属是真伪证，病理楼藏死亡证据，未婚夫参与骗保链，终局进入司法鉴定系统。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "use": "反派用孤儿、学生、没证据压制林知夏，后文由医院自己的病历日志、冷链记录、蜡块编号逐项反噬。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "use": "林知夏表面被解除收养，实际是全国法医技能赛金奖得主，能识别固定液、包埋批号、冷链曲线和签名轨迹。"
+    },
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "use": "出院记录、亲缘初检、退婚语音、假家属转账都从清白证明变成定罪线索。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "林知夏对接警员说：我养父母和哥哥已经死了，证据在仁和医院病理楼。",
+      "target_chars": 641
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "警方调出出院记录，屏幕上三个人的电子签名竟然一模一样。",
+      "target_chars": 658
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "假母亲当众伸手抱她，林知夏却盯住那只手：你不是她。",
+      "target_chars": 664
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "亲缘初检报告弹出：样本符合母女关系。林知夏的报警被认定疑似虚假。",
+      "target_chars": 743
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "她在退婚语音里听见一个不该出现的病理楼门禁提示音。",
+      "target_chars": 663
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "封存单刚贴上蜡块库，医院信息科却提交了系统宕机报告。",
+      "target_chars": 650
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "冷链曲线的凌晨断崖温差，正好落在林家三口所谓出院之后。",
+      "target_chars": 653
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars_min": 840,
+      "target_chars_max": 1000,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "发布会大屏黑了一秒，随后跳出一行字：该编号蜡块已被申请销毁。",
+      "target_chars": 707
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "专家复核后摘下眼镜：这不是活检流程，这是死亡时间被改写了。",
+      "target_chars": 680
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "未婚夫在走廊拦住她，低声说：你再查下去，解除收养协议就白签了。",
+      "target_chars": 688
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "她拿到养父母留下的原始录音，第一句却是：知夏，别回林家。",
+      "target_chars": 630
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars_min": 840,
+      "target_chars_max": 1000,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "二次 DNA 复核启动前，冻存旧血样的封条被人割开。",
+      "target_chars": 673
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "庭审直播中，未婚夫否认全部指控，林知夏却申请播放那段退婚语音。",
+      "target_chars": 677
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "法官敲槌前，医院院长突然供出最后一个买保单的人。",
+      "target_chars": 673
+    },
+    {
+      "chapter_id": "CH15",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "录取通知重新送到她手里，这一次抬头是公安司法鉴定中心。",
+      "target_chars": 792
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "京港法医中心录取仪式外厅 / 仁和医院门口",
+      "character_goal": "林知夏想把金奖和录取消息告诉养父母。",
+      "conflict_action": "律师递交解除收养协议，未婚夫发退婚语音，医院大屏播放林家三口康复采访，林知夏当场拨打 110。",
+      "information_gap": "屏幕里的人为什么和家人长得一样，却被林知夏认定不是本人。",
+      "emotion_debt_balance": "欠下高光日被毁、亲密关系集体断裂、报警无人信三笔债。",
+      "chapter_end_hook": "我举报仁和医院伪造病历，我养父母和哥哥已经死了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写成主角哭诉求信任",
+        "不能把医院整体污名化"
+      ],
+      "target_chars": 641
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "仁和医院急诊警务室",
+      "character_goal": "林知夏要求警方封存 VIP 病区和病理楼门禁记录。",
+      "conflict_action": "值班民警调取出院记录和签名，医院行政主任拿出完整出院证明压制她。",
+      "information_gap": "三份签名为什么看起来合规，却在细节上完全重合。",
+      "emotion_debt_balance": "权威初步误判加重，主角从报警人变成疑似报假警者。",
+      "chapter_end_hook": "三个人的电子签名压力轨迹，像从同一支笔里复制出来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用大段科普电子签名",
+        "不能让警方无脑相信或无脑否定",
+        "不能平收"
+      ],
+      "target_chars": 658
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "VIP 康复中心大厅",
+      "character_goal": "林知夏要当面拆穿假母亲的身体习惯漏洞。",
+      "conflict_action": "假家属在大厅接受采访并拥抱她，行政主任引导镜头拍她失控，林知夏抓住假母亲左手拿杯的动作质问。",
+      "information_gap": "真正的母亲术后右手无力，假母亲为何不知道这个私密习惯。",
+      "emotion_debt_balance": "公众误判开始形成，假亲人把她塑造成不孝和疯癫。",
+      "chapter_end_hook": "假母亲靠近她耳边说：孤儿就该懂规矩。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成家庭伦理说教",
+        "不能让主角暴力袭击假家属",
+        "禁止洗白假亲人"
+      ],
+      "target_chars": 664
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "医院检验科外走廊",
+      "character_goal": "林知夏想申请二次 DNA 复核并保全样本来源。",
+      "conflict_action": "医院提交亲缘初检报告，未婚夫带记者质问她，警方要求她拿出更直接证据。",
+      "information_gap": "亲缘初检为什么能证明假母亲和她有关系。",
+      "emotion_debt_balance": "第一张强伪证压下主角，读者等待她如何翻盘。",
+      "chapter_end_hook": "报告盖章生效，未婚夫对镜头说：她只是嫉妒真女儿回来了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把 DNA 写成玄学反转",
+        "不能让未婚夫被同情",
+        "不能详细描写违法采样方法"
+      ],
+      "target_chars": 743
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "医院停车场 / 门禁岗亭",
+      "character_goal": "林知夏要证明未婚夫提前进入过病理楼。",
+      "conflict_action": "她反复播放退婚语音，截取背景门禁提示音，要求门岗调取对应时段抓拍。",
+      "information_gap": "退婚语音为什么会录到病理楼门禁声。",
+      "emotion_debt_balance": "退婚背刺开始反噬，未婚夫从旁观者变成涉案人。",
+      "chapter_end_hook": "门岗抓拍里，未婚夫身后跟着一只贴着冷链标签的蓝色箱子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成巧合破案",
+        "不能让门岗私自泄露核心证据",
+        "避免长篇心理独白"
+      ],
+      "target_chars": 663
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_location": "病理楼一层蜡块库门口",
+      "character_goal": "林知夏推动警方依法封存蜡块库和病理系统日志。",
+      "conflict_action": "她向民警提交门禁抓拍和签名轨迹疑点，警方开封存单，医院信息科突然声称系统宕机。",
+      "information_gap": "系统宕机是真故障，还是有人趁封存前删除记录。",
+      "emotion_debt_balance": "权威角色开始动摇，但反派立刻反扑。",
+      "chapter_end_hook": "封存单贴上门的同时，蜡块库监控画面全黑。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成主角越权闯库",
+        "不能技术万能化",
+        "不能让警方无作为"
+      ],
+      "target_chars": 650
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "病理楼冷链库外",
+      "character_goal": "林知夏要找出林家三口出院后仍有组织样本转运的记录。",
+      "conflict_action": "她核对冷链温控曲线和耗材领用单，指出凌晨温差与大体组织转运匹配，要求追加调取采购记录。",
+      "information_gap": "异常固定液和脱钙液为什么会在同一夜集中领用。",
+      "emotion_debt_balance": "专业能力第一次撬开证据链，偿还“学生不懂鉴定”的羞辱。",
+      "chapter_end_hook": "耗材单末尾签名栏里，出现了未婚夫的医院临时权限号。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能堆术语",
+        "不能提供可复制犯罪流程",
+        "不能用恐怖描写替代证据"
+      ],
+      "target_chars": 653
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 840,
+      "target_chars_max": 1000,
+      "scene_location": "仁和医院新闻发布会现场",
+      "character_goal": "林知夏要在公开场域逼医院解释冷链和蜡块编号。",
+      "conflict_action": "医院召开澄清发布会，林知夏当众递交曲线图和编号表，远程专家要求复核原始系统日志。",
+      "information_gap": "被申请销毁的蜡块编号到底对应谁。",
+      "emotion_debt_balance": "直播嘲笑达到峰值，真相即将翻盘前卡住。",
+      "chapter_end_hook": "大屏弹出销毁申请，申请人正是假哥哥的证件号。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成主角演讲爽文",
+        "不能让网友失控网暴",
+        "不能让专家无程序地下结论"
+      ],
+      "target_chars": 707
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "发布会后台鉴定临时席",
+      "character_goal": "林知夏要让专家确认蜡块批号晚于出院时间。",
+      "conflict_action": "专家复核冷链温控、蜡块批号和病理申请单，警方当场扣押涉案服务器镜像。",
+      "information_gap": "假出院记录是谁在系统里最后确认的。",
+      "emotion_debt_balance": "权威角色从怀疑转向支持，公开误判开始反转。",
+      "chapter_end_hook": "服务器镜像里，最后确认人不是医生，而是院长办公室账号。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把专家写成神探",
+        "不能详细描写遗体处理",
+        "不能跳过证据保全程序"
+      ],
+      "target_chars": 680
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_location": "医院行政楼走廊",
+      "character_goal": "林知夏要逼未婚夫承认退婚前已知解除收养协议和病历异常。",
+      "conflict_action": "未婚夫拦路威胁，林知夏打开录音笔，警方同步调取他临时权限和转账记录。",
+      "information_gap": "解除收养协议为何让未婚夫恐慌。",
+      "emotion_debt_balance": "退婚话术反噬，亲密背叛转为犯罪参与线索。",
+      "chapter_end_hook": "未婚夫咬牙说：你爸妈签那份协议，是为了让你活。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能安排复合",
+        "不能给未婚夫洗白",
+        "不能写成私下和解"
+      ],
+      "target_chars": 688
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "林家旧公寓 / 公证录像室",
+      "character_goal": "林知夏要查明解除收养协议是不是死前保护文本。",
+      "conflict_action": "她在警方陪同下调取养父母签协议的原始录像，发现养父母被迫配合却留下关键词。",
+      "information_gap": "养父母为什么宁愿被她误会，也要切断法律关系。",
+      "emotion_debt_balance": "高光日被抛弃的债开始返还，亲人没有背叛的痛感浮出。",
+      "chapter_end_hook": "录像里，养母用口型说出两个字：保单。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用煽情独白拖节奏",
+        "不能让保护协议合理化亲情压迫",
+        "不能跳过警方陪同"
+      ],
+      "target_chars": 630
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 840,
+      "target_chars_max": 1000,
+      "scene_location": "司法鉴定中心样本室",
+      "character_goal": "林知夏要推动二次 DNA 复核，证明初检样本来自冻存旧血样。",
+      "conflict_action": "鉴定员核验封条时发现切口，警方追踪样本流转，林知夏指出旧血样编号与林家多年体检记录相连。",
+      "information_gap": "谁割开封条，谁把旧血样送进初检流程。",
+      "emotion_debt_balance": "第二张强伪证被撬开，真相即将定型前再遭破坏。",
+      "chapter_end_hook": "监控恢复后，割封条的人穿着仁和医院信息科工牌。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写非法取证",
+        "不能写血腥细节",
+        "不能让鉴定流程像儿戏"
+      ],
+      "target_chars": 673
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_location": "法院庭审直播间",
+      "character_goal": "林知夏要把未婚夫的退婚语音变成参与伪造病历的时间证据。",
+      "conflict_action": "未婚夫否认进过病理楼，林知夏申请播放语音并比对门禁提示音，检方提交转账和临时权限记录。",
+      "information_gap": "未婚夫背后的骗保链还缺哪个关键受益人。",
+      "emotion_debt_balance": "公开审判偿还退婚羞辱，反派从傲慢转为失控。",
+      "chapter_end_hook": "检方出示保单受益人名单，最上面不是未婚夫，而是院长。 ",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能庭审嘴炮化",
+        "不能让主角替代检方职能",
+        "不能美化骗保"
+      ],
+      "target_chars": 677
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 760,
+      "target_chars_max": 940,
+      "scene_location": "法院主审庭",
+      "character_goal": "林知夏要完成证据链闭环，让所有伪证反噬反派。",
+      "conflict_action": "检方串联病历日志、耗材采购、冷链曲线、蜡块编号、二次 DNA、转账记录，院长当庭供认上游买保单者。",
+      "information_gap": "最后一个买保单的人是否就是伪造亲属的组织者。",
+      "emotion_debt_balance": "法律偿还落地前最后抬高代价。",
+      "chapter_end_hook": "院长抬手指向旁听席：真正买下他们命的人，就坐在那里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写私刑",
+        "不能让刑罚表达猎奇",
+        "不能让反派轻易悔过洗白"
+      ],
+      "target_chars": 673
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 780,
+      "target_chars_max": 960,
+      "scene_location": "法院外 / 公安司法鉴定中心报到处",
+      "character_goal": "林知夏要完成身份重建，进入正义系统。",
+      "conflict_action": "官方通报追责涉案人员，法院宣判，林知夏拒绝流量采访，带着养父母留下的录音去司法鉴定中心报到。",
+      "information_gap": "她如何带着亲人留下的真相继续生活。",
+      "emotion_debt_balance": "法律、舆论、身份三重偿还完成。",
+      "chapter_end_hook": "终章收束：她推开鉴定中心的门，第一次没有回头。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能家庭大团圆",
+        "不能让未婚夫回收",
+        "不能把结局写成拿钱远走"
+      ],
+      "target_chars": 792
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 11000,
+    "min_chapters": 15,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "min_evidence_nodes": 6,
+    "min_false_evidence_suppression": 2,
+    "must_have_public_reversal": true,
+    "must_have_authority_turn": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "applicable": true,
+  "source": {
+    "chars": 9567,
+    "line_count": 616,
+    "avg_line_chars": 15.531,
+    "median_line_chars": 14.0,
+    "short_line_rate": 0.6153,
+    "long_line_rate": 0.013,
+    "quote_line_rate": 0.3604,
+    "barrage_line_rate": 0.0146,
+    "question_marks_per_k": 8.362,
+    "comma_period_ratio": 0.848,
+    "sentence_avg_len": 15.9
+  },
+  "candidate": {
+    "chars": 9199,
+    "line_count": 615,
+    "avg_line_chars": 14.958,
+    "median_line_chars": 13.0,
+    "short_line_rate": 0.7301,
+    "long_line_rate": 0.0293,
+    "quote_line_rate": 0.4585,
+    "barrage_line_rate": 0.0,
+    "question_marks_per_k": 10.545,
+    "comma_period_ratio": 0.082,
+    "sentence_avg_len": 7.6
+  },
+  "failures": [],
+  "rewrite_instructions": [
+    "保持每个 scene 的事件和字数区间不变,只修节奏。",
+    "保留直接对白、弹幕、章尾钩和现有信息增量,不要删成概要。",
+    "不得新增旁白解释、环境铺陈、流程清单或重复情绪总结。"
+  ]
+}

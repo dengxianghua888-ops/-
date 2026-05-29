@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 800,
+  "target_chars_max": 1200,
+  "location": "闻家客厅",
+  "time": "高考前夜",
+  "pov": "first_person",
+  "characters": [
+    "闻夏",
+    "父亲",
+    "母亲",
+    "周律师"
+  ],
+  "character_goal": "拿到遗嘱和信托文件",
+  "opposition_goal": "阻止她打开门",
+  "conflict_action": "父亲按住文件，母亲挡住门",
+  "information_gap": "失踪哥哥到底是谁",
+  "emotional_debt_delta": "被忽视多年的情绪债继续加码",
+  "payoff_or_hook": "门外传来哥哥的名字",
+  "emotion_debt_balance": "被忽视多年",
+  "chapter_end_hook": "门外传来哥哥的名字",
+  "paywall_card": true,
+  "must_include": [
+    "遗嘱",
+    "信托文件",
+    "录音笔"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用旁白解释哥哥身份"
+  ]
+}

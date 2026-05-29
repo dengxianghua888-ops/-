@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "鹭港晚春婚礼主场",
+  "time": "数月后傍晚",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊",
+    "顾老太太",
+    "亲友宾客"
+  ],
+  "character_goal": "公开完成事业与爱情双回收，把自己的人生重新站回人前。",
+  "opposition_goal": "对方试图维持旧秩序、压住证据或拖延真相落地。",
+  "conflict_action": "她穿着‘晚春’主纱入场，现场公开领证事实和星阈新控制权格局；顾家长辈认定她的名分，顾承渊当众补上迟到三年的誓言，她也给出未来延续的回应。",
+  "information_gap": "终局是否会把未来延续说实，而不是只停在婚礼画面？",
+  "emotional_debt_delta": "事业终局回收+3，名分与爱情终局回收+4",
+  "payoff_or_hook": "公开婚姻、长辈认可、晚春婚纱与未来延续一次性重回收。",
+  "chapter_end_hook": "截断句：\"这一次，谁也别想再把你从我身边夺走。\"",
+  "paywall_card": false,
+  "must_include": [
+    "公开领证或等价终身绑定明确落地",
+    "顾老太太的偏爱得到回报"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写婚礼流程清单",
+    "不要用旁白总结幸福",
+    "不要省略公开名分和未来延续"
+  ],
+  "rhythm_job": {
+    "shape": "婚纱亮相-公开名分-长辈认定-誓言收束",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": "对白和动作并行，插1行宾客评论/吐槽完成名声翻案余响，留4个呼吸点给婚纱、对视和誓言落点。"
+  }
+}

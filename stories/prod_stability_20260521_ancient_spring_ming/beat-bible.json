@@ -1,0 +1,384 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10620
+  },
+  "title": "被养兄弃在黑港三年后，我跳塔了",
+  "genre": "现代虐恋BE / 死后火葬场 / 养兄禁忌关系反噬",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "码头烟火、姜汤、守夜等旧宠爱，与冷判、弃救、逼食过敏浓汤、低温仓羞辱形成镜像反差"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "成年礼下药反咬 -> 黑港弃救 -> 归港病历被压 -> 坠塔身亡 -> 调度令与口供坐实主动责任"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "裴砚潮用“学规矩”“海上都熬过来了”合理化伤害，后期这套逻辑反咬回他与杨昭宁"
+    },
+    {
+      "id": "M8",
+      "name": "道德模糊结尾",
+      "carrier": "女主死亡后拒绝一切迟到补偿，守海祠终局只给价值判死刑，不给情感和解"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 700,
+      "scene_range": ["scene-01", "scene-01"],
+      "chapter_end_hook": "她听见船铃，下一秒，黑港那夜被他只带走杨昭宁的画面劈回来。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 680,
+      "scene_range": ["scene-02", "scene-02"],
+      "chapter_end_hook": "港口医生看着检查单愣住：她的骨头已经在塌。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 700,
+      "scene_range": ["scene-03", "scene-03"],
+      "chapter_end_hook": "镜头扫过她发白的手腕，弹幕却在刷：又装。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 760,
+      "scene_range": ["scene-04", "scene-04"],
+      "chapter_end_hook": "她喉间全是血腥味，裴砚潮却只冷冷问了一句：演够了吗？"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 660,
+      "scene_range": ["scene-05", "scene-05"],
+      "chapter_end_hook": "那本航海值班簿被他抽走，背页上沾着她没来得及擦掉的血。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 700,
+      "scene_range": ["scene-06", "scene-06"],
+      "chapter_end_hook": "老船医被拖走前只喊出半句：黑港那年，她不是自愿留下的。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 720,
+      "scene_range": ["scene-07", "scene-07"],
+      "chapter_end_hook": "她把剩余天数折进掌心，轻得像在数自己的后事。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": ["scene-08", "scene-08"],
+      "chapter_end_hook": "直播大屏上，她被定格成一个疯子。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 720,
+      "scene_range": ["scene-09", "scene-09"],
+      "chapter_end_hook": "冷柜周转箱的门扣响了一声，她整个人缩到墙角。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 700,
+      "scene_range": ["scene-10", "scene-10"],
+      "chapter_end_hook": "旧水手递给她一句原话：裴总说，把她留在海上磨掉心思。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 700,
+      "scene_range": ["scene-11", "scene-11"],
+      "chapter_end_hook": "她终于问出口：所以三年前，你是故意的？"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 780,
+      "scene_range": ["scene-12", "scene-12"],
+      "chapter_end_hook": "她松开栏杆时，没有再回头。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 720,
+      "scene_range": ["scene-13", "scene-13"],
+      "chapter_end_hook": "尸检单翻到流产旧伤那页，裴砚潮的手第一次抖得拿不稳纸。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 760,
+      "scene_range": ["scene-14", "scene-14"],
+      "chapter_end_hook": "港务调度记录里，白纸黑字写着他的命令。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 760,
+      "scene_range": ["scene-15", "scene-15"],
+      "chapter_end_hook": "守海祠风铃轻响，她留下最后一句：你现在这样，只让我觉得恶心。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "海运慈善夜外场与归港通道",
+      "character_goal": "沈惊棠想撑住不失控，尽快离开裴砚潮视线。",
+      "conflict_action": "裴砚潮当众拽住她，逼她回慈善夜给杨昭宁赔礼；船铃与消杀液同时触发她的黑港创伤。",
+      "information_gap": "读者先知道她被他抛弃过，却还不知道他为何从极宠变成冷判，也不知道黑港那夜具体发生了什么。",
+      "emotion_debt_balance": {
+        "new_debt": ["为什么最信任的人会亲手拖她回羞辱现场", "三年前黑港弃救到底如何发生"],
+        "partial_payoff": ["先坐实温差反差，不解释原因"]
+      },
+      "chapter_end_hook": "她听见船铃，黑港那夜的求救信号瞬间回卷。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能把她的崩溃写成抽象难过", "不能把裴砚潮写成嘴硬心软"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 640,
+      "target_chars_max": 720,
+      "scene_location": "港城私立海事医院急诊观察室",
+      "character_goal": "沈惊棠想止住疼痛并藏住病历，避免再被说成卖惨。",
+      "conflict_action": "医生要追加检查，裴砚潮却签字压下详细问诊，只把她的失控归为争宠；杨昭宁柔声补刀。",
+      "information_gap": "她病到什么程度、裴砚潮是否真不知道，仍未说透。",
+      "emotion_debt_balance": {
+        "new_debt": ["她还能活多久", "为什么病历会被轻易压住"],
+        "partial_payoff": ["首次抛出骨头塌陷的硬证据"]
+      },
+      "chapter_end_hook": "医生看着片子发怔：她的骨头已经塌了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要连续解释医学流程", "不能写成长段医院说明", "不能用旁白替代针刺般对白"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "集团新航线发布会后台与主舞台",
+      "character_goal": "沈惊棠想稳住身体，不在直播镜头里失态。",
+      "conflict_action": "杨昭宁把她推上台递资料，直播镜头与评论区一起围观她发抖；裴砚潮命她继续站着。",
+      "information_gap": "她为什么如此怕镜头、怕男人脚步声，仍只给结果不给全貌。",
+      "emotion_debt_balance": {
+        "new_debt": ["镜头和人群为何能把她逼到失控", "杨昭宁此刻到底在策划什么"],
+        "partial_payoff": ["证实归港后她仍被持续投喂到公众视线里羞辱"]
+      },
+      "chapter_end_hook": "弹幕刷满了“她又想抢戏”。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要列活动流程", "不要写旁观者反应清单", "不能把弹幕全改成普通对白"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海上纪录片庆功宴包厢",
+      "character_goal": "沈惊棠想避开甲壳类浓汤和包厢里的腥味，保住呼吸。",
+      "conflict_action": "杨昭宁借庆功敬她浓汤，裴砚潮当着所有人命她喝完；她过敏窒息、呕血倒地。",
+      "information_gap": "他究竟是不知道她严重过敏，还是知道也照样逼她喝。",
+      "emotion_debt_balance": {
+        "new_debt": ["裴砚潮对她的身体底线到底恶化到什么程度", "过敏背后还连着哪段海上创伤"],
+        "partial_payoff": ["用具体伤害兑现‘温差’和‘二次误判’"]
+      },
+      "chapter_end_hook": "她满嘴血腥气，听见他冷声问：演够了吗？",
+      "paywall_card": true,
+      "forbidden_summary": ["不要复述酒席寒暄", "不要解释食物成分", "不能把过敏写成轻飘不适"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 620,
+      "target_chars_max": 700,
+      "scene_location": "海难纪念牌位区与港边旧仓道",
+      "character_goal": "沈惊棠想给父母牌位换香，顺便把值班簿藏好。",
+      "conflict_action": "裴砚潮误以为她又在用亡亲逼他心软，直接夺走值班簿；阿白在护栏上叫个不停。",
+      "information_gap": "值班簿里究竟记了什么，为什么她宁可挨痛也要护着。",
+      "emotion_debt_balance": {
+        "new_debt": ["她手里的手记是不是黑港证据", "父母牌位为何和她的死志相连"],
+        "partial_payoff": ["把情感锚点与证据锚点绑在一起"]
+      },
+      "chapter_end_hook": "那本簿子背页，沾着她没擦掉的血。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写祭拜流程说明", "不要长篇回忆童年", "不能把阿白写成纯卖萌道具"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "港务侧门与停泊旧船边",
+      "character_goal": "沈惊棠想从老船医手里拿回补记页，确认自己不是唯一记得的人。",
+      "conflict_action": "老船医偷偷塞来补记，杨昭宁当场喊人，说她偷集团机密；裴砚潮下令把人拖走。",
+      "information_gap": "补记里记的究竟是流产、伤痕，还是弃救命令，暂时只露半页。",
+      "emotion_debt_balance": {
+        "new_debt": ["老船医为什么怕成这样", "裴砚潮究竟掩过哪些记录"],
+        "partial_payoff": ["第一次让外部证人开口：她不是自愿留下"]
+      },
+      "chapter_end_hook": "老船医被拖走前喊出：黑港那年，她不是自愿留下的。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释港务制度", "不要写成调查报道口吻", "不能让关键证人一次说完全部真相"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "肿瘤中心走廊与地下停车场",
+      "character_goal": "沈惊棠想独自拿到完整病历，确认还能撑几天。",
+      "conflict_action": "医生追出来塞给她剩余天数估算单，裴砚潮赶到后直接抽走报告，说别再拿病装可怜。",
+      "information_gap": "她究竟还有几天、裴砚潮是真不信还是不肯信，继续悬着。",
+      "emotion_debt_balance": {
+        "new_debt": ["她死前是否会被相信一次"],
+        "partial_payoff": ["明确死亡倒计时已经非常近"]
+      },
+      "chapter_end_hook": "她把剩余天数折进掌心，像在数自己的后事。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释癌症知识", "不要写医生长篇劝说", "不能把倒计时写成悬浮数字游戏"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "海上纪录片首映直播与海运中心大屏前厅",
+      "character_goal": "沈惊棠想把值班簿拿回来后离场，不再当众出丑。",
+      "conflict_action": "杨昭宁在直播连线里放出剪过的黑港片段，暗示她靠男人活下去；评论区和现场一起把她钉成脏人。",
+      "information_gap": "那段被剪过的影像原始版本究竟藏着什么。",
+      "emotion_debt_balance": {
+        "new_debt": ["原始黑港影像是否能翻案", "裴砚潮看到她被公开踩烂后还会不会继续推她"],
+        "partial_payoff": ["公开舆论羞辱成型，为坠塔前群体围观做铺垫"]
+      },
+      "chapter_end_hook": "大屏上，她被定格成一个疯子。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要复述节目内容", "不要把弹幕删掉改成叙述", "不能把舆论伤害写得太轻"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "海运中心冷链周转区",
+      "character_goal": "沈惊棠想逃离低温区和周转箱，不再被关回那种金属气味里。",
+      "conflict_action": "裴砚潮把她堵在冷链区，命她在冷柜周转箱旁站到清醒；门扣一响，她直接缩到墙角求他别关。",
+      "information_gap": "冷柜箱与她三年里最深的伤到底如何对应，还只给一刀式闪回。",
+      "emotion_debt_balance": {
+        "new_debt": ["三年里她在低温仓遭遇过什么"],
+        "partial_payoff": ["让读者第一次听见她明确求：别关我"]
+      },
+      "chapter_end_hook": "冷柜门扣响了一声，她整个人缩到墙角。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释冷链设备", "不要长篇回忆黑港生活", "不能把创伤触发写成普通怕冷"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "旧码头、系缆桩边与海鸥救助棚",
+      "character_goal": "沈惊棠想安顿阿白和父母牌位，顺便确认自己准备离开的后手。",
+      "conflict_action": "阿白因旧伤坠地，旧水手把一段录音和一句原话塞给她；她终于知道‘留在海上磨掉心思’是裴砚潮亲口下的令。",
+      "information_gap": "裴砚潮这句命令是在何种情境下说的，还未给完整上下文。",
+      "emotion_debt_balance": {
+        "new_debt": ["他当年下令时究竟听信了什么", "她最后一个情感锚点还能不能被安放"],
+        "partial_payoff": ["男主责任从误判迈向主动"]
+      },
+      "chapter_end_hook": "旧水手说：裴总亲口吩咐，把她留在海上磨掉心思。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写宠物护理说明", "不要长段追忆阿白陪伴史", "不能把关键录音一次放完"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "海运中心观景塔封闭层",
+      "character_goal": "沈惊棠想在死前问清一句：三年前你是不是故意的。",
+      "conflict_action": "她把录音残片摁到裴砚潮面前追问；他先夺手机，再用‘学规矩’和‘你越界在先’把责任继续压回她身上。",
+      "information_gap": "他到底知不知道她已濒死，此刻仍不点破，让读者憋到坠塔后。",
+      "emotion_debt_balance": {
+        "new_debt": ["她死前能不能换来一次承认", "他会不会在她坠下前说出真正的后悔"],
+        "partial_payoff": ["男主主动责任在女主视角里正式坐实"]
+      },
+      "chapter_end_hook": "她问：所以三年前，你是故意的？",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写长篇道德辩论", "不要解释成年礼误会细节一大段", "不能让冲突停在口水战"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "scene_location": "海运中心观景塔外缘与楼下广场",
+      "character_goal": "沈惊棠想终止羞辱循环，把最后的选择夺回来。",
+      "conflict_action": "她把值班簿、录音残页和工牌一起塞回他手里，翻出栏杆；裴砚潮冲过去抓她，她松手坠下。",
+      "information_gap": "她手里交回去的东西会怎样引爆后续证据雪崩，先留到死后才兑现。",
+      "emotion_debt_balance": {
+        "new_debt": ["死后证据会按什么顺序爆开"],
+        "partial_payoff": ["女主主动赴死成立，情绪极值兑现"]
+      },
+      "chapter_end_hook": "她松开栏杆时，没有再回头。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写救援流程说明", "不要拖成长篇心理独白", "不能写成意外失足"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "港务法医中心冷藏瞻视室",
+      "character_goal": "裴砚潮想证明她只是赌气，尸体和报告却一步步拆掉他的自欺。",
+      "conflict_action": "法医翻开尸检、骨癌病案和船医补记，点出旧伤、流产痕迹与长期低温创伤；裴砚潮强撑着一页页看下去。",
+      "information_gap": "船医补记里是否有他当年的直接命令签注，还未翻到最后一页。",
+      "emotion_debt_balance": {
+        "new_debt": ["他会被哪一条证据彻底钉死"],
+        "partial_payoff": ["她三年受害的身体证据第一次完整落地"]
+      },
+      "chapter_end_hook": "尸检单翻到流产旧伤那页，他的手终于抖了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写法医科普", "不要把伤情列成报告清单", "不能把崩塌写成嚎啕感动戏"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "港务调度室旧档案库与审讯室",
+      "character_goal": "裴砚潮想抓杨昭宁出来对质，却在档案里先看见自己的命令。",
+      "conflict_action": "调度员调出封存靠泊记录和语音指令，杨昭宁被带来后反咬：是你说，把她留在海上磨掉心思。",
+      "information_gap": "他会怎样承担这条命令的后果，留待终局而不靠法律流程收尾。",
+      "emotion_debt_balance": {
+        "new_debt": ["他知道真相后会疯到什么程度，但这种疯值不值钱"],
+        "partial_payoff": ["男主从误会者升级为主动下令者，核心责任坐实", "杨昭宁主谋链条被完整摊开"]
+      },
+      "chapter_end_hook": "港务记录里，白纸黑字写着他的命令。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要展开审讯程序", "不要解释港务封存规定", "不能用法律说明替代情感反噬"]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "守海祠与系缆许愿架",
+      "character_goal": "女主死后视角只想彻底离开裴砚潮，不让他的悔悟变现。",
+      "conflict_action": "裴砚潮捐股、守尸、跪祠、挂愿牌都换不来回应；守海祠老人引她看完最后一眼，她只留下价值判词后转身。",
+      "information_gap": "无须再留事实谜面，只保留价值审判后的冷空白。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": ["兑现‘她终于离开他’", "迟来悔悟被判无效", "终局不复合不原谅"]
+      },
+      "chapter_end_hook": "她说：你现在这个样子，只让我觉得恶心。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写男主赎罪流水账", "不要把结尾写软成感动化", "不能给复合口子"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 15,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [11, 16],
+    "short_line_rate_lte_16_min": 0.72,
+    "short_line_rate_lte_16_max": 0.84,
+    "direct_dialogue_line_rate_min": 0.22,
+    "direct_dialogue_line_rate_max": 0.32,
+    "barrage_line_rate_min": 0.02,
+    "barrage_line_rate_max": 0.06,
+    "question_mark_density_per_1000_chars_min": 1.0,
+    "question_mark_density_per_1000_chars_max": 2.2,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

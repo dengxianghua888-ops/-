@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 800,
+  "target_chars_max": 980,
+  "location": "律师声明发布页与消防通道监控",
+  "time": "火场事故调查初步结果公开日",
+  "pov": "沈知晚第一人称穿插公开材料",
+  "characters": ["沈知晚", "律师", "网友", "沈明姝", "陆景辞"],
+  "character_goal": "沈知晚坐实沈明姝装困和陆景辞清醒选择。",
+  "opposition_goal": "沈明姝团队想用剪辑视频证明她才是最危险的人。",
+  "conflict_action": "沈知晚授权律师发布烟感报警时间轴、消防通道监控、直播原片关键帧，逐条对照沈明姝团队剪辑。",
+  "information_gap": "沈明姝更深层的海外黑料仍未揭开。",
+  "emotional_debt_delta": "生死抛弃债被公开清算一轮；舆论逆转。",
+  "payoff_or_hook": "沈明姝站在最近出口旁装被困，视觉打脸强。",
+  "chapter_end_hook": "消防时间轴公布，沈明姝站在最近出口旁装作被困的画面被定格。",
+  "paywall_card": true,
+  "must_include": [
+    "烟感报警时间轴",
+    "消防通道监控",
+    "沈明姝距离出口最近",
+    "陆景辞抱人路线",
+    "律师声明避免网暴"
+  ],
+  "must_not_write_as_exposition": [
+    "不要渲染无关伤亡",
+    "不要鼓励人肉或私刑",
+    "不要让证据只停留在口头转述"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 608,
+  "target_chars_max": 808,
+  "location": "仁和医院行政楼走廊",
+  "time": "深夜，警方押送服务器镜像后",
+  "pov": "林知夏第一人称",
+  "characters": [
+    "林知夏",
+    "贺闻川",
+    "民警陈岑",
+    "律师周铭"
+  ],
+  "character_goal": "确认贺闻川是否提前知道解除收养协议和病历异常。",
+  "opposition_goal": "贺闻川要用威胁和旧情迫使她停止追查。",
+  "conflict_action": "贺闻川在走廊拦住她，低声威胁她别查保单，林知夏打开录音笔反问退婚时间，陈岑调出贺闻川临时权限和转账冻结通知。",
+  "information_gap": "解除收养协议为什么会和保单、病历异常连在一起。",
+  "emotional_debt_delta": "退婚伤害被改写为犯罪参与证据，背叛无法回收。",
+  "payoff_or_hook": "未婚夫首次露出恐惧，说明他知道死者真正意图。",
+  "chapter_end_hook": "未婚夫在走廊拦住她，低声说：你再查下去，解除收养协议就白签了。",
+  "paywall_card": false,
+  "must_include": [
+    "林知夏提前打开录音笔",
+    "贺闻川提到保单或协议",
+    "陈岑出现打断威胁",
+    "林知夏没有求复合"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写旧情拉扯",
+    "不要给贺闻川苦衷洗白",
+    "不要让他一次性说出全案"
+  ]
+}

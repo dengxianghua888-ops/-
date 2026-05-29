@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "check": "style_clean",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "硬禁词与软禁词均未命中。"
+    }
+  ],
+  "notes": [
+    "Phase 6 fixes applied and validator metrics refreshed."
+  ]
+}

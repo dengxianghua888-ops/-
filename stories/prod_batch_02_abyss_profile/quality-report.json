@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_02_abyss_profile/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 12850,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        720,
+        773,
+        794,
+        804,
+        776,
+        798,
+        767,
+        870,
+        776,
+        817,
+        897,
+        722,
+        779,
+        910,
+        853,
+        677
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 85,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 23,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12850,
+      "sentence_count": 987,
+      "avg_sentence_length": 12.019,
+      "dialogue_ratio": 0.1788,
+      "question_marks": 53,
+      "question_marks_per_k": 4.125,
+      "physical_emotion_hits": {
+        "指尖": 7,
+        "眼眶": 1,
+        "指甲": 1,
+        "掌心": 5
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 27.782
+    },
+    "semantic_repetition": {
+      "sentence_count": 551,
+      "unique_sentence_skeletons": 550,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0036
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.7,
+    "style": 8.4,
+    "logic": 8.1
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "path": "story/draft.md#01",
+      "quote": "全校以为我晕血，其实我代号寒灯 / 【导语】云衡医学院七天失踪一名女生。",
+      "supports": [
+        "title_intro",
+        "platform_packaging"
+      ]
+    },
+    {
+      "id": "E02",
+      "path": "story/draft.md#01",
+      "quote": "二十三岁。参与十四起命案重建。公安法医行为组外聘专家。 / 代号，寒灯。",
+      "supports": [
+        "identity_reversal",
+        "front_hook"
+      ]
+    },
+    {
+      "id": "E03",
+      "path": "story/draft.md#03",
+      "quote": "我按专案组给出的取证窗口，拿着护理实训登记表，绕到旧解剖楼后门。",
+      "supports": [
+        "authorization_boundary"
+      ]
+    },
+    {
+      "id": "E04",
+      "path": "story/draft.md#10",
+      "quote": "这不是单独约谈，是专案组同步录像的取证窗口。",
+      "supports": [
+        "procedure_boundary"
+      ]
+    },
+    {
+      "id": "E05",
+      "path": "story/draft.md#10",
+      "quote": "外廊警力到位。物业维修单也批了，今晚温控阈值会恢复正常。",
+      "supports": [
+        "trap_foreshadowing"
+      ]
+    },
+    {
+      "id": "E06",
+      "path": "story/draft.md#13",
+      "quote": "外场两组人在楼下，商厦物业也留了备用钥匙。我的任务不是搜查，是确认模板来源和江砚是否现身。",
+      "supports": [
+        "field_control",
+        "legal_boundary"
+      ]
+    },
+    {
+      "id": "E07",
+      "path": "story/draft.md#15",
+      "quote": "那条线是刘队用消防巡检名义提前布下的警戒位，只等他自己跨进去。",
+      "supports": [
+        "redline_setup",
+        "logic_fix"
+      ]
+    },
+    {
+      "id": "E08",
+      "path": "story/draft.md#16",
+      "quote": "周眠。陈栀。罗宁。孟知夏。许禾。唐芮。",
+      "supports": [
+        "emotion_payoff",
+        "victim_names"
+      ]
+    }
+  ],
+  "resolved_notes": [
+    "标题和导语已并入第一场正文，且 scene-01 未超字数上限。",
+    "补充专案组备案、同步录像、外场警力、物业协作与红外警戒位前置。",
+    "付费卡点以 beat-bible 与 scene-cards 的 paywall_card 字段为机器识别依据，当前实际计数为 10。"
+  ]
+}

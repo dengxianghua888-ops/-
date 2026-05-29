@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "陆家老戏楼祖宅会议厅",
+  "time": "当晚",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "陆家老爷子",
+    "陆家董事",
+    "秦月眠"
+  ],
+  "character_goal": "陆砚辞想把温瓷和孩子的安全写进陆家文件",
+  "opposition_goal": "陆家董事会想逼他以联姻换回继承权",
+  "conflict_action": "董事会摊开剧院股权和非遗基金授权书，陆砚辞当场划掉联姻条款",
+  "information_gap": "温瓷名字早已在受益人栏，说明陆砚辞很早就在保护她",
+  "emotional_debt_delta": "保护动机露出硬证据，家族压力债升级",
+  "payoff_or_hook": "身份兑现不靠旁白，靠股权文件和当场划线",
+  "chapter_end_hook": "陆砚辞把笔按在联姻条款上，一笔划到底，只剩温瓷的名字。",
+  "paywall_card": false,
+  "must_include": [
+    "剧院股权文件",
+    "非遗基金授权书",
+    "联姻条款",
+    "温瓷受益人签名栏",
+    "陆砚辞划掉条款"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释复杂股权",
+    "不要写家族会议流程",
+    "不要让男主对秦月眠或联姻犹豫"
+  ],
+  "rhythm_job": "2轮董事压迫对白+1笔划掉联姻条款+章尾文件翻转"
+}

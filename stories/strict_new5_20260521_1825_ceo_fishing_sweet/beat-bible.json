@@ -1,0 +1,360 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10640
+  },
+  "title": "逃婚三年后，前未婚夫跪着求我夺回一切",
+  "genre": "都市豪门甜虐追妻+医械夺权+商战恋爱爽文",
+  "mechanisms": [
+    "M2 身份反差爆发",
+    "M3 因果回旋反讽",
+    "M5 温度反转曲线",
+    "M6 多层递进反转"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "顾承渊当众扣住她的手腕，低声问：\"沈晚棠，你这次回来，是不是终于敢抢回星阈了？\""
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 760,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "她把外公遗嘱拍上桌后，沈奕川脸色变了，而门外突然传来顾承渊的声音：\"表决先别急，我也有一票。\""
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 740,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "顾老太太把一只旧钥匙塞进她掌心：\"老宅的保险柜，你外公只留给你开。\""
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 760,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "竞标现场最后一份技术背书亮起，署名不是沈奕川，而是她亡母。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 760,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "慈善酒会上所有人都等着看她出丑时，大屏忽然切出一段偷拍视频。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 760,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "她站在海湾老宅门口递出搬离通知，方雅琴失声尖叫：\"你凭什么收我的家？\""
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 780,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "顾承渊把她困在车门与臂弯之间，嗓音发哑：\"你当年逃婚前，听见的到底是哪一句？\""
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "联合采购会场上，北岚资本忽然宣布暂停签字，因为有人实名举报星阈核心专利来源有问题。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 760,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "保险柜里的旧录音一放出来，她当年逃婚的那一夜，真相只揭开了一半。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 780,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "沈国淮被踢出董事会时还在嘴硬，下一秒，警方的人已经站在门外。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 760,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "海上发布会返程的那一刻，船体猛地一斜，她和顾承渊同时坠进了冰冷海水。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 760,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "她醒来后看着顾承渊，眼神陌生，轻声问：\"先生，你是谁？\""
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 760,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "顾承渊把结婚申请表推到她面前：\"你认不认得我都没关系，这次换我先把名分抢回来。\""
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 760,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "婚礼上，当她穿着‘晚春’主纱走出来，顾承渊俯身贴着她耳边说：\"沈晚棠，这一次，谁也别想再把你从我身边夺走。\""
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "鹭港国际机场VIP通道",
+      "character_goal": "沈晚棠顶着逃婚污名回城，先稳住气场，不让顾承渊和围观者看见她的狼狈。",
+      "conflict_action": "她刚落地就撞见顾承渊带女伴接机，被商圈熟人当面挖苦；她反手夺回自己的行李箱，冷声回击，顾承渊却故意拦住她去路。",
+      "information_gap": "顾承渊为什么偏偏在她回国这天出现，他到底是来羞辱她还是来堵她？",
+      "emotion_debt_balance": "旧日羞辱债+2，情感拉扯预热+1",
+      "chapter_end_hook": "顾承渊扣住她手腕，直接点破她回国不是为旧情，而是为星阈。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用机场背景介绍长段",
+        "不能把商圈嘲讽写成旁白复盘",
+        "不能提前解释逃婚真相"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "星阈医疗董事会会议室",
+      "character_goal": "沈晚棠要在第一轮公开场合拿回合法席位，让反派知道她不是回来闹场。",
+      "conflict_action": "沈国淮和沈奕川联手否认她的资格，她当场亮出外公遗嘱、董事席位指定书和20%表决权委托，逼董事会重启表决。",
+      "information_gap": "顾承渊手里的那一票到底站谁，他这些年拦下过多少针对星阈的动作？",
+      "emotion_debt_balance": "事业翻盘回收+3，旧怨升级+1",
+      "chapter_end_hook": "顾承渊现身追加关键一票，局面瞬间倒向她。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要复述公司章程条款",
+        "不要把翻盘写成纯嘴炮",
+        "不能让反派轻易认输"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 680,
+      "target_chars_max": 800,
+      "scene_location": "顾家老宅午宴",
+      "character_goal": "沈晚棠要确认顾家长辈到底是敌是友，并拿到外公留下的下一把钥匙。",
+      "conflict_action": "顾家旁支借旧事阴阳她，顾老太太当面护她、逼顾承渊表态，顾承渊嘴上轻佻却顺手替她挡酒挡话。",
+      "information_gap": "顾老太太为什么始终笃定她当年逃婚有隐情，老宅钥匙背后藏着什么证据？",
+      "emotion_debt_balance": "长辈情义回收+2，男女主误会延续+1",
+      "chapter_end_hook": "顾老太太把保险柜钥匙交给她，指向外公留存的旧证据。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写顾家人物关系清单",
+        "不要长篇解释旧年婚约背景",
+        "不要把护短写成温吞寒暄"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "鹭港一院康复机器人采购路演厅",
+      "character_goal": "沈晚棠要拿下回国后的第一个硬项目，证明自己不是只会争名分。",
+      "conflict_action": "沈奕川当众质疑她离开三年不懂国内市场，她直接接管演示机、修正故障参数，并用亡母留下的临床适配方案反压对方。",
+      "information_gap": "演示机故障是巧合还是人为做局，谁把母亲的旧方案偷偷留到了现场？",
+      "emotion_debt_balance": "能力证明回收+2，母亲线牵引+1",
+      "chapter_end_hook": "大屏技术署名跳出亡母名字，现场风向骤变。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释算法细节",
+        "不要写采购流程说明",
+        "不要把爽点写成汇报会"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "鹭港医疗投资联盟慈善酒会",
+      "character_goal": "沈晚棠要在商圈冷处理中撬开舆论缺口，不让自己被继续钉死成笑柄。",
+      "conflict_action": "方雅琴带着名媛圈故意晾她，沈晚棠转身抢下话筒反敬一杯，顾承渊却忽然把她拉进镜头中心；紧接着，大屏放出偷拍视频，矛头直指当年逃婚夜。",
+      "information_gap": "偷拍视频是谁放的，内容是要继续踩她，还是有人故意逼她追真相？",
+      "emotion_debt_balance": "名声债继续压迫+2，男女主火花升温+1",
+      "chapter_end_hook": "大屏亮起偷拍视频，所有人目光重新砸向她。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写酒会奢华环境堆砌",
+        "不要罗列所有来宾反应",
+        "不要让舆论羞辱停留在空话"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海湾老宅正门与客厅",
+      "character_goal": "沈晚棠要把反派一家从外公留下的老宅里赶出去，完成一次规则镜像反杀。",
+      "conflict_action": "她带律师和产权文件登门，方雅琴试图哭闹拖延，沈国淮搬父女情分压她，她直接让物业断掉非授权门禁并限时搬离。",
+      "information_gap": "老宅保险柜里到底藏着什么，为什么方雅琴一听到保险柜就明显失态？",
+      "emotion_debt_balance": "家产清算回收+3，亲情撕裂债+1",
+      "chapter_end_hook": "方雅琴尖叫着扑向二楼，像是想抢先毁掉什么。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要连续解释产权手续",
+        "不要写旁观者起哄清单",
+        "不要让清算变成口头争吵循环"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "地下停车场豪车边",
+      "character_goal": "沈晚棠要守住情绪，不被顾承渊几句试探撬开防线。",
+      "conflict_action": "顾承渊把她逼到车门前，追问她当年逃婚前到底听见了什么；她反手去拉车门，他却拿出自己这些年替她拦收购的证据，逼她正眼看他。",
+      "information_gap": "顾承渊到底知道多少当年内幕，他为什么不早说？",
+      "emotion_debt_balance": "情感亏欠浮出+2，误会债暂未回收",
+      "chapter_end_hook": "他压低声音追问她当年听见的那句话，第一次把旧伤捅开。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要长篇心理独白",
+        "不要一次性说完全部误会",
+        "不要把暧昧写成纯回忆"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "北岚资本联合采购签约会",
+      "character_goal": "沈晚棠要借第二个大项目坐实自己在星阈的掌控力。",
+      "conflict_action": "她刚把合作条件压到最优，现场突然有人实名举报核心专利来源异常；沈奕川顺势煽动股东质疑她，顾承渊当场截停签约，逼她跟自己一起查源头。",
+      "information_gap": "专利举报是谁发起的，指向的是母亲旧研究还是沈奕川偷换成果的证据链？",
+      "emotion_debt_balance": "事业新危机+2，男女主绑定调查+1",
+      "chapter_end_hook": "签字暂停，专利来源问题把她重新推到风口。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要解释联合采购规则",
+        "不要把举报写成空洞悬念",
+        "不要让男主代替女主解决问题"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海湾老宅保险柜暗室",
+      "character_goal": "沈晚棠要亲手打开外公留下的证据，查清逃婚与专利转移是否连在一起。",
+      "conflict_action": "她和顾承渊一起开保险柜，翻出旧录音、专利信托补件和一份未寄出的婚礼前夕备忘；录音里出现沈国淮、方雅琴，以及顾家长辈当年的半段对话。",
+      "information_gap": "她当年误听的内容为什么只有半段，真正把她逼走的最后一击是谁下的手？",
+      "emotion_debt_balance": "真相回收+2，误会继续吊高+1",
+      "chapter_end_hook": "录音证明她当年没有任性，却还缺最关键的最后一句。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要完整复述过去三年时间线",
+        "不要写成证据清单说明书",
+        "不要让真相一次性落尽"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "星阈医疗临时股东会",
+      "character_goal": "沈晚棠要借证据链彻底踢出沈国淮和沈奕川，完成中段最大一次清算。",
+      "conflict_action": "她当众播放录音、出示专利信托流转文件和资金回流记录，反手提请罢免；沈国淮还想拿父女身份压她，她直接申请司法保全并让警方进场。",
+      "information_gap": "反派被踢出后会不会狗急跳墙，顾承渊为何在最关键时刻显得比她还紧绷？",
+      "emotion_debt_balance": "事业主债大回收+4，危险预警+1",
+      "chapter_end_hook": "警方现身带走人之前，沈奕川忽然丢下一句：\"你真以为顾承渊什么都没瞒你？\"",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要复述财务证据全部细节",
+        "不要把清算写成宣判稿",
+        "不要弱化反派临死反扑"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海上新品发布会返程船",
+      "character_goal": "沈晚棠要守住刚夺回的项目和声誉，完成公开翻案的最后一步。",
+      "conflict_action": "她在发布会上公开澄清当年污名、宣布星阈新合作；返程时船体设备被动过手脚，她去抢证据，顾承渊扑过去拉她，两人一起坠海。",
+      "information_gap": "事故是反派残余报复还是更深的幕后手，坠海后谁能先撑到救援？",
+      "emotion_debt_balance": "名声翻案回收+2，生死债暴增+3",
+      "chapter_end_hook": "船身倾斜，她和顾承渊同时跌进海里，话都来不及说完。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写设备原理分析",
+        "不要渲染灾难奇观长段",
+        "不要让危机脱离两人关系线"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海外康复中心病房",
+      "character_goal": "顾承渊要把她从失认状态里拉回来，沈晚棠则在陌生感里本能抗拒又被吸引。",
+      "conflict_action": "她醒来后认不出顾承渊，只认得零碎的动作记忆；顾承渊压住情绪陪她做基础恢复，顾老太太和医生却提醒他别再用旧刺激逼她。",
+      "information_gap": "她会先想起当年逃婚，还是先想起这些年顾承渊暗护她的证据？",
+      "emotion_debt_balance": "情感欠账彻底翻面+3，甜虐拉高+2",
+      "chapter_end_hook": "她陌生地问出那句\"先生，你是谁\"，把他的心彻底捅穿。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写医疗康复流程说明",
+        "不要把失认写成夸张失智",
+        "不要连续煽情回忆杀"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海外海边小教堂与登记处",
+      "character_goal": "顾承渊要把爱意和名分一次性落地，沈晚棠要在重新确认真相后给出回应。",
+      "conflict_action": "顾承渊带她回看母亲留下的‘晚春’设计手稿和自己多年保存的婚纱商标文件，沈晚棠想起当年真相与他暗护全貌；他不再等她开口，直接推来登记文件求婚。",
+      "information_gap": "她会不会答应先领证，还是还要把最后一句迟来的补偿逼出来？",
+      "emotion_debt_balance": "情感真相大回收+4，名分兑现启动+2",
+      "chapter_end_hook": "顾承渊把结婚申请表推到她面前，不再给彼此退路。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把恢复记忆写成一大段说明",
+        "不要空泛谈爱多年",
+        "不要省略她主动回应"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "鹭港晚春婚礼主场",
+      "character_goal": "沈晚棠要公开完成事业与爱情双回收，让所有旧账在众人面前结清。",
+      "conflict_action": "她穿着母亲留下的‘晚春’主纱走向顾承渊，现场公开领证事实、顾家长辈认亲、星阈新控制权落定；旧日看她笑话的人被迫改口，顾承渊当众补上迟到三年的誓言。",
+      "information_gap": "婚礼收束后，她是否还会把未来延续明确落地，而不是停在复合口头上？",
+      "emotion_debt_balance": "事业终局回收+3，爱情与名分终局回收+4",
+      "chapter_end_hook": "顾承渊在婚礼上宣告终身绑定，完成终局闭环。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写婚礼流程清单",
+        "不要空喊幸福总结",
+        "不要缺失公开认定与未来延续"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapter_count": 14,
+    "minimum_paywall_card_count": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [13.5, 16.5],
+    "short_line_rate_lte_16_min": 0.58,
+    "short_line_rate_lte_16_max": 0.7,
+    "direct_dialogue_line_rate_min": 0.5,
+    "direct_dialogue_line_rate_max": 0.62,
+    "barrage_line_rate_min": 0.02,
+    "barrage_line_rate_max": 0.06,
+    "question_mark_density_per_1000_chars_min": 3.8,
+    "question_mark_density_per_1000_chars_max": 5.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

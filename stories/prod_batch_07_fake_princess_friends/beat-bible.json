@@ -1,0 +1,346 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 11500,
+    "target": 11000
+  },
+  "title": "假千金只会逛瓦舍，圣上却来找她",
+  "genre": "古言甜爽｜真假千金｜团宠打脸｜身份反转",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "瓦舍灯帖、机关走马灯、水师铜哨分别牵出皇帝、靖王、镇海将军"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "沈云姣辱骂戏子、贱匠、船娘，每一句都反噬为辱君、辱亲王、辱将军"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "夺物羞辱、婚约背叛、私会陷害、三权破门、二次换嫁局"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "沈家旧日温情归零，靖王爱她原本的野性与玩心"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 780,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "沈照晚把第三张灯帖递出去，信使看清地址后手一抖：水师营？"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 780,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "门外传来王府侍卫的声音：谁砸了兰九公子的走马灯？"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 780,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "沈云姣骂他贱匠，谢兰舟却慢慢取出靖王腰牌。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 780,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "沈云姣攥着水师铜哨，转身让丫鬟去码头叫人。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 780,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "江面鼓声停了，一艘军船靠岸，黎船娘按刀走下船头。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 780,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "织造府刚跪完镇海将军，宫中传旨的人又指名要见沈照晚。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 780,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "少年天子站在花厅门口，淡声问：沈照晚呢？"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 780,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "沈云姣盯着瓦舍灯帖，低声吩咐：今晚灯坊厢房，抓她私会。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 780,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "灯坊厢房的门被踹开前一瞬，沈照晚听见谢兰舟的靴声。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 780,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "皇帝下令查织造府账册，沈云姣的丫鬟忽然喊出顾世子的名字。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 780,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "沈母说老乳娘病危，沈照晚却看见她袖中藏着迷香。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 780,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "红盖头下的人忽然笑了：王爷，该掀哪一顶？"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 780,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "谢兰舟捧着未完的走马灯问她：跟我回京城扎灯吗？"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 780,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "终章回旋：沈照晚举灯上船，谢兰舟把胜局让给她。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "江南织造府花厅",
+      "character_goal": "沈照晚想拿回被砸的机关走马灯和水师铜哨，不向沈云姣低头。",
+      "conflict_action": "沈云姣当众砸灯、夺哨、装哭，沈父抬手打沈照晚，沈照晚转身送出三张灯帖。",
+      "information_gap": "沈家不知道灯帖分别送往瓦舍、靖王府灯坊和水师营。",
+      "emotion_debt_balance": "身份羞辱债+1，心爱之物被毁债+1，亲情偏心债+1，摇人反击线索+1。",
+      "chapter_end_hook": "信使看见第三张灯帖地址，失声问：姑娘，真送水师营？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得概述她被欺负；必须写砸灯、夺哨、挨打、发帖四个动作。"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "织造府偏院与灯库",
+      "character_goal": "沈照晚想把第二张灯帖送出去，并保住最后一枚瓦舍灯谜牌。",
+      "conflict_action": "顾承砚撕婚书，逼她给沈云姣做陪嫁；沈家长兄锁门搜身，她从灯库暗窗递出灯帖。",
+      "information_gap": "沈家只当她求市井朋友撑腰，不知道第一位来的是靖王。",
+      "emotion_debt_balance": "婚约背叛债+1，亲情偏心债+1，女主主动性+1。",
+      "chapter_end_hook": "王府侍卫叩门：谁砸了兰九公子的走马灯？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得写成婚约背景介绍；必须让顾承砚现场撕婚书、沈照晚现场递帖。"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "织造府前厅",
+      "character_goal": "沈照晚想让谢兰舟亲眼看见被砸碎的机关灯，逼沈家无法抵赖。",
+      "conflict_action": "谢兰舟进府验灯，沈云姣抢先跪哭，骂他是沈照晚勾来的贱匠，沈照晚故意拦一句诱她骂满。",
+      "information_gap": "沈云姣不知道兰九就是靖王谢兰舟。",
+      "emotion_debt_balance": "辱骂反噬蓄力+1，男主护本性线+1。",
+      "chapter_end_hook": "谢兰舟取出靖王腰牌，沈父膝盖一软。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得提前解释靖王身份；必须用腰牌和众人反应完成揭牌。"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "织造府花厅与后廊",
+      "character_goal": "沈照晚想收下靖王撑腰，但不让他替自己把局全打完。",
+      "conflict_action": "谢兰舟令沈云姣赔灯，沈照晚亲手把碎灯芯收进匣子；沈母转头护住沈云姣，沈云姣偷拿铜哨去码头设局。",
+      "information_gap": "沈家不知道铜哨是镇海将军的调营信物。",
+      "emotion_debt_balance": "第一次身份打脸偿还+1，母亲偏心债继续+1，铜哨危机+1。",
+      "chapter_end_hook": "沈云姣命丫鬟去码头：让那些船夫都看看她偷了什么。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让靖王长篇训人；重点写赔灯、收碎片、偷哨三个动作。"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "江南码头龙舟棚",
+      "character_goal": "沈照晚想夺回铜哨，并防止沈云姣把军中信物扔进江里。",
+      "conflict_action": "沈云姣带顾承砚和沈家长兄堵住龙舟棚，举哨污蔑她偷军物私会船夫，沈照晚扑过去扣住她手腕。",
+      "information_gap": "围观者不知道黎船娘就是镇海将军黎青禾。",
+      "emotion_debt_balance": "水师铜哨债+1，名声污蔑债+1，镇海将军登场线索+1。",
+      "chapter_end_hook": "军船靠岸，黎青禾从船头跃下，先看见沈云姣手里的铜哨。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得解释铜哨来历；必须用夺哨、围堵、军船靠岸推进。"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "码头军船前",
+      "character_goal": "沈照晚想让沈云姣自己承认夺哨，而不是替她解释罪名。",
+      "conflict_action": "黎青禾质问铜哨来源，沈云姣反骂船娘装腔，沈照晚故意说别连累船家，逼沈云姣继续辱骂。",
+      "information_gap": "沈云姣不知道铜哨能调动水师三营。",
+      "emotion_debt_balance": "第二次身份打脸偿还+1，辱将军反噬+1，家族求饶前压迫感+1。",
+      "chapter_end_hook": "传旨小太监跑上码头：圣上点名，要沈照晚入花厅接驾。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把将军身份用旁白交代；必须让黎青禾按刀报职。"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "织造府花厅",
+      "character_goal": "沈照晚想按自己的节奏见阿晏，不被沈家推去当邀宠工具。",
+      "conflict_action": "沈云姣偷走瓦舍灯帖冒名迎驾，沈父命人把沈照晚关进侧院，少年皇帝进门后直接问沈照晚在哪里。",
+      "information_gap": "沈家不知道阿晏就是皇帝，也不知道他认得沈照晚的灯谜字迹。",
+      "emotion_debt_balance": "皇权反差蓄力+1，冒名夺功债+1，付费危机+1。",
+      "chapter_end_hook": "皇帝环视满厅，冷声问：朕要找的人，怎么不在？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得写成宫宴铺陈；必须用偷帖、关人、皇帝找人制造卡点。"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "织造府侧院与花厅",
+      "character_goal": "沈照晚想当面拆穿冒名，又不急着暴露全部证据。",
+      "conflict_action": "她从侧院翻窗进花厅，把真灯帖拍到案上；沈云姣急骂她与瓦舍戏子厮混，萧晏当众认出自己题过的谜底。",
+      "information_gap": "沈云姣仍以为阿晏只是被皇帝派来的近侍或戏班少年。",
+      "emotion_debt_balance": "第三条权力线揭开前蓄力+1，瓦舍羞辱债+1。",
+      "chapter_end_hook": "沈云姣看着灯帖，暗自吩咐丫鬟：今晚灯坊厢房，抓她私会。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得长篇回忆瓦舍结识；用灯谜字迹、拍帖、翻窗完成旧关系证明。"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "织造府灯坊厢房",
+      "character_goal": "沈照晚想接住私会局，把沈云姣买通的人变成证人。",
+      "conflict_action": "沈云姣伪造邀约把她引进厢房，三名被收买的瓦舍混混堵门，沈照晚亮出旧账让他们反绑自己做假戏。",
+      "information_gap": "沈家和围观宾客以为门内是私会丑事，不知道三位权贵已在厢房等候。",
+      "emotion_debt_balance": "名声陷害债+1，女主设局能力+1，高潮付费卡点+1。",
+      "chapter_end_hook": "门栓被踹裂，沈云姣尖声喊：沈照晚和野男人就在里面！",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得描写侵害过程或暧昧失控；必须在伤害发生前写女主接管局面。"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 950,
+      "target_chars_max": 1150,
+      "scene_location": "灯坊厢房门口",
+      "character_goal": "沈照晚想让沈云姣在众人面前把辱骂说满，再一次性反噬。",
+      "conflict_action": "门被踹开，谢兰舟扶着沈照晚，萧晏坐在灯下喝茶，黎青禾按刀守门；沈云姣继续骂他们戏子、面首、船匪。",
+      "information_gap": "沈云姣直到三人亮明身份前仍以为自己抓住了沈照晚把柄。",
+      "emotion_debt_balance": "身份羞辱债大额偿还+3，私会陷害债偿还+1，皇权清算启动+1。",
+      "chapter_end_hook": "皇帝命人查织造府账册，沈云姣贴身丫鬟忽然指向顾承砚。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得让女主自证清白长篇辩论；必须靠三人同场、证人口供、身份亮牌打脸。"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "织造府审账花厅",
+      "character_goal": "沈照晚想退掉婚约、切开沈家，但保留最后一点体面。",
+      "conflict_action": "顾承砚被搜出沈云姣银票，沈家长兄被问出锁人经过；沈照晚亲手把婚书扔进火盆，拒绝沈父下跪求她回府。",
+      "information_gap": "沈母表面求和，暗中已备迷香和换嫁红盖头。",
+      "emotion_debt_balance": "婚约背叛债偿还+1，亲情求和未还清，二次背叛伏笔+1。",
+      "chapter_end_hook": "沈母说老乳娘病危，沈照晚却闻见她袖中淡淡迷香。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得写成清算公告；必须写搜银票、烧婚书、拒绝回府、闻见迷香。"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "沈家小祠堂与临时喜房",
+      "character_goal": "沈照晚想确认沈家是否还有底线，并把换嫁局变成最后断亲证据。",
+      "conflict_action": "沈母摆家宴点迷香，沈父让人换上喜服，沈云姣戴红盖头坐进喜房，沈照晚提前调换香炉并请谢兰舟清醒入局。",
+      "information_gap": "沈家以为靖王中香会认错新娘，不知道香炉被换、窗外有证人。",
+      "emotion_debt_balance": "二次背叛债+1，亲情线彻底归零，付费危机+1。",
+      "chapter_end_hook": "红盖头下传来沈照晚的笑声：王爷，该掀哪一顶？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得写非自愿暧昧或失控身体细节；迷香只作为犯罪证据和反杀机关。"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 860,
+      "target_chars_max": 1050,
+      "scene_location": "临时喜房与织造府门前",
+      "character_goal": "沈照晚想完成最后断亲，让沈家承担二次设局后果。",
+      "conflict_action": "谢兰舟掀开两顶盖头，沈云姣暴露在床前，沈父沈母互相推罪；萧晏和黎青禾带证人入门，沈照晚把沈家玉佩放回门槛内。",
+      "information_gap": "沈家以为她会心软，没想到她连旧玉佩都不要。",
+      "emotion_debt_balance": "二次背叛债偿还+1，原生家庭债清零，甜宠选择开启+1。",
+      "chapter_end_hook": "谢兰舟捧着修好的走马灯问：沈照晚，跟我回京城扎灯吗？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得轻易原谅沈家；必须让女主平静归还玉佩，自己走出门。"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_location": "江南灯会与龙舟江面",
+      "character_goal": "沈照晚想以自己的样子成婚，不被王府规训成端庄王妃。",
+      "conflict_action": "大婚后她穿喜服跑去赛龙舟，谢兰舟替她提裙上船，萧晏题灯，黎青禾击鼓，谢兰舟在终点前故意慢半桨。",
+      "information_gap": "无新阴谋，回收读者对自由、被偏爱和仍保留本性的期待。",
+      "emotion_debt_balance": "甜宠补偿+2，自我价值翻盘+2，全局情绪债结清。",
+      "chapter_end_hook": "终章收束：她举着灯回头笑，终于把一无是处活成了全城灯火。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得把结尾写成女主变贤淑；必须写逛灯、赛舟、男主让她赢。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_chars": 10000,
+    "target_chars": 13500,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "14/14",
+    "micro_hook_every_chars_max": 1200,
+    "dialogue_ratio_target": "0.45-0.55",
+    "forbidden": [
+      "不得低于 market brief 最低字数",
+      "不得用摘要代替场景行动",
+      "不得让女主长期求原生家庭原谅",
+      "不得让男主控制、羞辱、囚禁女主",
+      "不得渲染私会局或迷香局中的侵害过程"
+    ]
+  }
+}

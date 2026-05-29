@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "beat-11b",
+  "chapter_id": 10,
+  "is_chapter_end": true,
+  "target_chars_min": 560,
+  "target_chars_max": 650,
+  "location": "地下室·量子共振器前→工厂外",
+  "time": "晚上8:35，方屹被击毙后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "周予安", "沈妈妈", "所有获救者"],
+  "character_goal": "沈听澜按下紧急终止键，关闭共振器，拯救所有人",
+  "opposition_goal": "（无人类对手）只有按钮和命运",
+  "conflict_action": "沈听澜按下父亲当年按过的同一个终止键——穹顶解除，所有人获救",
+  "information_gap": "最后一层信息差释放：系统音效揭示她是量子修复者——她从来不是普通人",
+  "emotional_debt_delta": "所有债务清零——全员获救+父母拥抱+身份正名",
+  "payoff_or_hook": "终极钩子：系统音效——任务完成，传送倒计时启动（暗示系列）",
+  "chapter_end_hook": "量子修复者系统激活：叮——任务完成。传送倒计时启动。她不是第一次，也不是最后一次。",
+  "paywall_card": false,
+  "must_include": ["按下终止键（M8回环封闭——父亲按过的同一个键）", "穹顶解除+全员获救", "和周予安的短暂对视（不和解但活着）", "妈妈的拥抱+'你是我们的骄傲'", "系统音效身份揭示"],
+  "must_not_write_as_exposition": ["系统的完整背景设定", "下一个任务世界的描述"],
+  "rhythm_job": {
+    "shape": "后慢（行动完成→情感补偿→身份揭示余韵）",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "英雄-释然",
+    "emotion_arc": "按键 → 全员获救 → 情感补偿 → 身份揭示 → 超脱",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "按键时热泪盈眶，系统音效响起时被震到——她的格局超越所有人",
+    "required_techniques": [
+      {
+        "technique": "系统音效作为终极身份揭示",
+        "instruction": "在所有事件解决后用'叮'一声重构全文——她从头到尾都不是普通人"
+      },
+      {
+        "technique": "M8因果回环封闭",
+        "instruction": "父亲保护6岁的她→25岁的她保护100人——按下的是同一个按钮"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "名字+你是X最简情感补偿",
+        "example": "小可，你是我们的骄傲！",
+        "instruction": "对应前面'你让我丢死人了'的精确偿还——同一张嘴说出相反的话"
+      },
+      {
+        "structure": "这是X后最Y的Z信息倾泻",
+        "example": "这是我绑定救世主系统后经历时间最长的任务，长达十二年之久。",
+        "instruction": "一句话重新定义前面的一切——改为'这是我绑定修复者系统后最长的一次任务，五年'"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "突变式",
+    "source_excerpt": "我按下了那个按钮。和爷爷按下的是同一个。白光闪过。墙消失了。所有人跌跌撞撞从考场里跑出来。妈妈冲上来抱住我：\"小可，你是我们的骄傲！\"耳边传来一声清脆的提示音。【叮！救世任务已完成，即将传送至下一个任务点，请宿主做好准备！】这是我绑定救世主系统后经历时间最长的任务，长达十二年之久。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["完成了"],
+      "句式": "内心独白极短，平静超脱",
+      "单句上限": 14,
+      "禁止": "悲情、自怜"
+    },
+    "沈妈妈": {
+      "口癖": ["听澜", "你是我们的骄傲"],
+      "句式": "哭泣+最短肯定句",
+      "单句上限": 12,
+      "禁止": "训斥、质疑"
+    }
+  }
+}

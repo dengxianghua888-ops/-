@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "刷卡机吐出余额不足四个字",
+      "finding": "抽象绝望被机器反馈物理化。"
+    },
+    {
+      "ref": "draft-scenes/scene-02.md",
+      "quote": "红绸盖住催费单一角",
+      "finding": "遮羞意象有效，物件承担道德判断。"
+    },
+    {
+      "ref": "draft-scenes/scene-06.md",
+      "quote": "客户经理递来封条，我亲手按上骑缝签名。",
+      "finding": "证据流程有动作，不是纯解释。"
+    },
+    {
+      "ref": "draft-scenes/scene-10.md",
+      "quote": "那面曾经摆满白花的冠军纪念墙，只剩钉眼和灰印。",
+      "finding": "面子工程崩塌有可视化落点。"
+    },
+    {
+      "ref": "draft-scenes/scene-15.md",
+      "quote": "矿灯照片上的玻璃亮了一下",
+      "finding": "收尾克制，有余味，没有强行煽情。"
+    }
+  ],
+  "notes": [
+    "整体 AI 味低，场景以实物推进。",
+    "部分证据段连续使用“我把/我没有/他说”，Phase 7 可做句式节奏微调。"
+  ]
+}

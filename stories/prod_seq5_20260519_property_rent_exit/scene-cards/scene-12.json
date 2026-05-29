@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "新港停车区夜班车旁",
+  "time": "同夜十一点，夜班车发车前",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "顾砚"],
+  "character_goal": "许知夏要让顾砚说出顾怀民介入的真相，并明确婚姻边界。",
+  "opposition_goal": "顾砚想先帮她处理完市场问题，再承认自己隐瞒父亲干预。",
+  "conflict_action": "许知夏拦住顾砚的车门，播放马成电话里喊顾董的录音，把调度平板推回给他，要求他现在表态。",
+  "information_gap": "顾砚仍未说出顾怀民与老市场承包方之间的利益交换。",
+  "emotional_debt_delta": "+1后-1：隐瞒加深信任债，顾砚承认父亲插手偿还第一步。",
+  "payoff_or_hook": "许知夏没有原谅，只要求他下一次别替她决定真相的时间。",
+  "chapter_end_hook": "顾砚低声说：“让我爸插手的人，是我没拦住。”",
+  "paywall_card": false,
+  "must_include": ["夜班车", "马成喊顾董的录音", "调度平板推回", "许知夏不立刻原谅", "顾砚承认没拦住父亲"],
+  "must_not_write_as_exposition": ["不要写夫妻拥抱和解", "不要让顾砚卖惨", "不要让感情线盖过事业线"]
+}

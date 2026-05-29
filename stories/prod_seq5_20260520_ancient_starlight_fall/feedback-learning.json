@@ -1,0 +1,118 @@
+{
+  "story_slug": "prod_seq5_20260520_ancient_starlight_fall",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M2:身份反差爆发",
+    "M3:因果回旋反讽",
+    "M5:温度反转曲线",
+    "M6:多层递进反转"
+  ],
+  "target_length": {
+    "min": 11200,
+    "max": 13600
+  },
+  "final_length": 13019,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "scene-01",
+      "chapter": "第一章",
+      "hook": "红毯前二十分钟，男主当众把贵宾通行证给新欢，并说女主只是经纪人。",
+      "reusable_fact": "开篇用倒计时+公开场合+身份贬低，能在300字内建立羞辱债和点击欲。"
+    },
+    {
+      "scene_id": "scene-04",
+      "chapter": "第四章",
+      "hook": "谢砚签下孕检风险告知联系人，并把报告袋底层回执压住。",
+      "reusable_fact": "隐私高敏事件不要靠公开自证推进，可用合法联系人、医院章、禁止拍摄构成保护型信息差。"
+    },
+    {
+      "scene_id": "scene-06",
+      "chapter": "第六章",
+      "hook": "女主完成账号交接后摘下旧戒指，扔进片场垃圾桶。",
+      "reusable_fact": "感情切割用具体物件动作完成，比长篇宣言更有画面和爽感。"
+    },
+    {
+      "scene_id": "scene-08",
+      "chapter": "第八章",
+      "hook": "谢家公开医疗基金、婚房产权、版权分红和婚书。",
+      "reusable_fact": "身份反差爆发可通过连续文件落章呈现，让公开羞辱债在同样公开的镜头下偿还。"
+    },
+    {
+      "scene_id": "scene-10",
+      "chapter": "第十章",
+      "hook": "谢砚用婚礼备案文件回击陆沉舟，并复用“冷战你赢了”的羞辱句。",
+      "reusable_fact": "M3回旋反讽需要复用对方原句，且最好由新秩序代表人物当众回敬。"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": "第十二章",
+      "hook": "婚礼大屏被撤资函、撤档通知和黑热搜覆盖。",
+      "reusable_fact": "中后段危机升级要从舆论扩展到资金、院线、合同多线同步，才能支撑大反击。"
+    },
+    {
+      "scene_id": "scene-14",
+      "chapter": "第十四章",
+      "hook": "谢氏法务公开违约链、监管回执、税务调查函，陆沉舟体面崩塌。",
+      "reusable_fact": "商战反击必须落在合同、公证、监管和索赔链条上，避免非法报复感。"
+    },
+    {
+      "scene_id": "scene-16",
+      "chapter": "第十六章",
+      "hook": "女主选择版权中心职位，陆家影视基金清算公告生效。",
+      "reusable_fact": "终章不要只停在婚恋胜利，补女主职业权柄和独立收益，情绪债更完整。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-04",
+      "chapter": "第四章",
+      "card": "谢砚压住孕检报告并问陆沉舟是否还不知道。",
+      "payoff_type": "隐私信息差+保护者入场"
+    },
+    {
+      "scene_id": "scene-08",
+      "chapter": "第八章",
+      "card": "谢家在发布会公开下聘，婚书日期证明不是临时做戏。",
+      "payoff_type": "身份反差+公开偿债"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": "第十二章",
+      "card": "婚礼现场被撤资撤档和黑热搜打断，热搜第一显示谢氏影业全线崩盘。",
+      "payoff_type": "终局危机+强制续读"
+    },
+    {
+      "scene_id": "scene-16",
+      "chapter": "第十六章",
+      "card": "陆家影视基金清算正式生效，女主签下个人版权收益并进入版权中心。",
+      "payoff_type": "清算落地+女主新生"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代逆袭",
+    "娱乐圈影帝",
+    "经纪人女主",
+    "公开羞辱",
+    "红毯打脸",
+    "孕检报告保护",
+    "谢家下聘",
+    "婚书公开",
+    "商战反击",
+    "合同证据链",
+    "监管公证",
+    "旧戒指切割",
+    "七年无名分",
+    "女主职业权柄",
+    "版权收益独立"
+  ],
+  "manual_revision_delta": []
+}

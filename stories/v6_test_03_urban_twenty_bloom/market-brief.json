@@ -1,0 +1,131 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "median_chars": 650,
+    "end_of_chapter_hook_required": true,
+    "estimated_chapters": [12, 22]
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "micro_hook_interval": [800, 1200],
+    "paywall_card_interval": [2500, 3500],
+    "first_chapter_hook_min_score": 9
+  },
+  "audience": {
+    "primary_demo": "18-35岁女性，日均阅读30分钟以上，偏好短完结爽文",
+    "secondary_demo": "25-40岁职场女性，碎片化阅读，追求情绪代偿",
+    "emotional_needs": [
+      "被背叛后清醒反击的爽感",
+      "重生改命、守住亲人的安慰感",
+      "渣男渣女下场惨烈的情绪释放",
+      "高考/前途被毁又夺回的补偿快感",
+      "不原谅、不回头的骨气认同"
+    ],
+    "genre_taboos": [
+      "女主原谅渣男/复合",
+      "父母再次死亡（必须被救回）",
+      "女主靠新男人翻身（必须靠自己和制度）",
+      "过度血腥暴力或色情描写",
+      "涉政敏感（高考制度批判不可过激）",
+      "宗教迷信作为核心解释（重生需轻描淡写）"
+    ]
+  },
+  "genre": "family_ethics",
+  "genre_sub": "重生复仇+高考前途+闺蜜背叛",
+  "source_dna": {
+    "reversal_mechanisms": ["M3", "M5", "M6"],
+    "hook_type": "H1",
+    "emotion_curve_shape": "阶梯递进型",
+    "reader_promise": "被闺蜜和男友联手毁掉高考人生的女主，重生后保住父母、夺回前途，并让背叛者承受迟到但不可逆的报应",
+    "emotional_debt_type": "钟然和宋攸宁篡改志愿、诬告作弊、间接害死父母",
+    "protagonist_stance": "清醒护亲，先切断关系，再守住命运关键点",
+    "dominant_payoff": "女主切断关系、公开揭穿、洗清冤屈、拿回A大、拒绝钟然",
+    "tomato_fit_score": 8.1
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "pattern": "动作+结果+他们悔疯了",
+        "examples": [
+          "重生后我不帮闺蜜遮掩了，她和竹马悔疯了",
+          "闺蜜偷改我高考志愿后，我让她坐牢了",
+          "被闺蜜和男友联手毁了高考，重生后我让他们付出代价"
+        ]
+      },
+      {
+        "formula": "T4",
+        "pattern": "反常细节引发悬念",
+        "examples": [
+          "高考志愿被改那天，闺蜜内衣扣是松的",
+          "二十年婚姻，闺蜜的孩子长得像我老公"
+        ]
+      },
+      {
+        "formula": "T5",
+        "pattern": "情感冲突+时间跨度",
+        "examples": [
+          "二十年花开荼蘼，重来一次我不再傻",
+          "重生回十八岁，这次我选择先踹了他"
+        ]
+      }
+    ],
+    "constraints": {
+      "max_chars": 30,
+      "must_contain_conflict": true,
+      "prefer_first_person": true
+    }
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 8.5,
+      "note": "重生+高考双线悬念，每章必须有推进感"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "note": "第一个付费卡点建议放在志愿表危机或校长室对质前"
+    },
+    "emotional_release": {
+      "target": 9.0,
+      "note": "核心爽点：踹渣男、扇闺蜜、揭穿记者、拿到录取通知书"
+    },
+    "ai_flavor_score": {
+      "target": 0,
+      "note": "零容忍，对话必须口语化短句，禁用所有全局违禁词"
+    },
+    "explosion_density": {
+      "target": 8.5,
+      "note": "每1000字至少1个微冲突，每3000字1个付费级爆点"
+    }
+  },
+  "competitive_positioning": {
+    "similar_hits_on_platform": [
+      "志愿被贫困生改成技校系列（9.0分）",
+      "高考前爸妈为妹妹假离婚系列（8.8-9.0分）",
+      "重生后我不帮竹马找助听器（8.4分）"
+    ],
+    "differentiation": "本篇独特卖点：20年婚姻闪回开篇→重生18岁的时间落差极大，闺蜜背叛+男友共谋双线，高考志愿+诬告作弊双重阴谋，父母险死→被救的强情绪补偿",
+    "risk_factors": [
+      "重生设定需一笔带过，不可深究逻辑",
+      "赵省长关系需合理化，避免金手指感过重",
+      "钟然结局（救人死亡）需要读者提前有情绪铺垫，不可突兀洗白"
+    ]
+  },
+  "structural_notes": {
+    "recommended_opening": "婚礼现场听到出轨真相→地震→重生回18岁志愿填报日，300字内完成",
+    "key_paywall_positions": [
+      "第一卡点：女主发现志愿表被改/校长室被诬告（约3000字）",
+      "第二卡点：父母双双倒下，女主孤立无援拨出电话（约6000字）",
+      "第三卡点：法院判决前/钟然重生后找来（约10000字）"
+    ],
+    "ending_tone": "不原谅、不回头、轻盈向前。用旅行和父母健在的日常收束，避免沉重"
+  }
+}

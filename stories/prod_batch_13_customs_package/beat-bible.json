@@ -1,0 +1,384 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 12500,
+    "planned_total_chars": 10002
+  },
+  "title": "平台说我碎茶值两千万，那就赔我茶王",
+  "genre": "modern_reversal / business_survival / bureaucratic_suspense",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "carrier": "赵启明收下八百万并盖章确认三十斤茶样估值两千万，林照反用红章单据报警称茶王在监管仓被调包。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "赵启明前期反复说“系统怎么评，我就怎么扣”，结尾被林照回敬“系统怎么评，你就怎么判”。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "误判、冻结、缴费、盖章、报警、开箱、后台日志、受害者、流水、通报、爆单逐层升级。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "林照只是小茶厂老板，但懂留证、索票、录音、报案口径和仓储凭证。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 725,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "赵启明把冻结通知推到林照面前：今晚十二点前不交钱，店铺货款全部扣死。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 681,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "赵启明拒绝开箱复检，还让客服直播调解间连上线，让围观商户看林照怎么被系统定性。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 697,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "八百万到账后，林照没有提货，只把空白确认单推回去：货名、数量、估值、收费依据，一个字都不能少。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 650,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "赵启明当众盖下红章，林照把单据拍照备份，转身走向大厅警务联络台。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 666,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "林照举起红章单据说：我两千万茶王在你们监管仓里被调包了。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 640,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "警员封存仓门，赵启明第一次伸手去抢那张确认单。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 619,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "开箱剪刀落下前，赵启明低声说愿意马上退款。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 600,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "纸箱打开，碎茶末铺在封存桌上，赵启明脱口而出：这本来就是碎茶。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 644,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "林照指着红章单据问他：那你刚才盖的两千万茶王，是谁家的？"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 695,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "平台总部风控接入后台，第一条异常记录显示：A 级珍品阈值在入库前十分钟被人工改过。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 648,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "客服直播间里，三个商户同时举起类似的保价缴费单。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 712,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "网安查到代缴账户流水，八百万没有进平台总账，而是分成四笔转向赵启明亲属账户。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 662,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "赵启明被带走前还喊系统背锅，林照只回他一句：系统怎么评，你就怎么判。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 710,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "官方通报刚发出，林照店铺后台第一秒就弹出九百七十六个新订单。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 653,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "林照重新打开茶厂大门，下一批货箱贴上新标签：算法认证茶王同款，不保价，只保真。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 725,
+      "scene_location": "平台华东智能监管仓提货大厅",
+      "character_goal": "林照想取回给客户寄样的三十斤碎茶样，赶上直播间供货排期。",
+      "conflict_action": "赵启明把系统估价单拍到柜台上，要求林照缴纳八百万特殊保价费、鉴定费、滞纳金和仓储担保金。",
+      "information_gap": "系统为什么把三十元碎茶评成百年古树茶王，赵启明为什么急着催缴。",
+      "emotion_debt_balance": "建立规则压迫债：小厂订单、店铺货款和员工工资被一张系统单据压住。",
+      "chapter_end_hook": "赵启明把冻结通知推到林照面前：今晚十二点前不交钱，店铺货款全部扣死。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把平台整体写成黑恶组织",
+        "不能让主角长篇卖惨"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 681,
+      "scene_location": "监管仓申诉柜台",
+      "character_goal": "林照要求开箱复检并出示自己的进货批次、检测报告和三十元成本单。",
+      "conflict_action": "赵启明按下拒绝申诉按钮，通知仓管贴封条，并威胁关闭林照直播供货权限。",
+      "information_gap": "赵启明为什么不敢开箱，系统评级是否有人为干预。",
+      "emotion_debt_balance": "增加围观误解债：商户和客服把林照当成走私天价茶的投机商。",
+      "chapter_end_hook": "赵启明拒绝开箱复检，还让客服直播调解间连上线，让围观商户看林照怎么被系统定性。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成主角无能哭诉",
+        "不能用抽象制度压迫替代具体按钮、封条、冻结短信",
+        "不能提前揭穿全部阴谋"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 697,
+      "scene_location": "茶厂办公室与银行窗口",
+      "character_goal": "林照先保住店铺和客户订单，凑齐八百万取得对方正式收费凭证。",
+      "conflict_action": "林照抵押设备、挪用预付款、向姐姐借房本，逐笔转账到赵启明指定代缴账户。",
+      "information_gap": "林照为什么愿意交这笔明显离谱的钱，他真正要拿什么。",
+      "emotion_debt_balance": "压迫债达到第一段高峰：家产、工厂现金流、亲情信任全部压进八百万转账。",
+      "chapter_end_hook": "八百万到账后，林照没有提货，只把空白确认单推回去：货名、数量、估值、收费依据，一个字都不能少。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让借钱过程拖成苦情戏",
+        "不能漏写转账流水和代缴账户",
+        "不能让主角靠贵人送钱"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 650,
+      "scene_location": "监管仓收费窗口",
+      "character_goal": "林照要求赵启明把系统估值、货品名称、数量、费用和经办人全部写入确认单。",
+      "conflict_action": "赵启明让文员删减字样，林照按住单据要求重打，并用手机录下赵启明亲口确认。",
+      "information_gap": "这张红章确认单将如何从收费凭证变成刑事线索。",
+      "emotion_debt_balance": "开始转入反杀准备：林照把每一处压迫都变成可封存证据。",
+      "chapter_end_hook": "赵启明当众盖下红章，林照把单据拍照备份，转身走向大厅警务联络台。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把索票写成口头争辩",
+        "不能遗漏红章、经办人签名、系统估值",
+        "不能让赵启明显得无辜误操作"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 666,
+      "scene_location": "平台仓大厅警务联络台",
+      "character_goal": "林照以红章确认单为依据，要求警方按两千万茶王被调包立案核查。",
+      "conflict_action": "林照把确认单、转账流水、入库码和冻结短信排在警务台上，请求封存仓库监控和后台记录。",
+      "information_gap": "警方是否会按调包受理，赵启明会选择承认茶不值钱还是承认仓内失窃。",
+      "emotion_debt_balance": "第一次偿还围观误解债：群众从骂林照逃费转为盯住赵启明。",
+      "chapter_end_hook": "林照举起红章单据说：我两千万茶王在你们监管仓里被调包了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成恶意报假警",
+        "不能让警方无证据偏袒主角",
+        "不能让林照发表长篇演讲"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 640,
+      "scene_location": "提货大厅与客服直播调解间",
+      "character_goal": "林照要求公开封存货箱并让平台客服、警方、仓管共同见证。",
+      "conflict_action": "赵启明试图关闭直播调解间并抢回确认单，林照把单据交给警员封存。",
+      "information_gap": "货箱里到底是碎茶还是赵启明单据上的两千万茶王。",
+      "emotion_debt_balance": "反派嚣张债开始回落：赵启明第一次从压人转为抢证据。",
+      "chapter_end_hook": "警员封存仓门，赵启明第一次伸手去抢那张确认单。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让冲突变成肢体暴力",
+        "不能关闭公开场域",
+        "不能用旁白总结死环，要用抢单据动作呈现"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 619,
+      "scene_location": "监管仓封存区门口",
+      "character_goal": "林照坚持当场开箱，确认红章单据与实物是否一致。",
+      "conflict_action": "赵启明拿退款协议堵住林照，让他签撤销报案和保密承诺。",
+      "information_gap": "赵启明为什么宁愿退款也不愿开箱，退款协议背后还有哪些单据漏洞。",
+      "emotion_debt_balance": "增加黑箱债：反派试图用私了掩盖更大链条。",
+      "chapter_end_hook": "开箱剪刀落下前，赵启明低声说愿意马上退款。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角接受私了",
+        "不能把退款当成最终爽点",
+        "不能让赵启明突然洗白"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 600,
+      "scene_location": "监管仓封存开箱桌",
+      "character_goal": "林照要让实物、单据、直播画面和警方笔录在同一现场碰撞。",
+      "conflict_action": "警员剪开封条，仓管倒出碎茶末，赵启明急着证明那只是普通茶样。",
+      "information_gap": "赵启明承认碎茶后，八百万收费和两千万估值如何解释。",
+      "emotion_debt_balance": "开始偿还规则压迫债：系统权威第一次被实物打脸。",
+      "chapter_end_hook": "纸箱打开，碎茶末铺在封存桌上，赵启明脱口而出：这本来就是碎茶。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把开箱写成解释性复盘",
+        "不能淡化群众和直播见证",
+        "不能遗漏封条、货箱、碎茶末"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 644,
+      "scene_location": "封存开箱现场",
+      "character_goal": "林照把赵启明逼进二选一：承认敲诈伪造，或承认两千万茶王在仓内失踪。",
+      "conflict_action": "林照让警员把赵启明刚才的话记入笔录，再把红章确认单压到碎茶旁边拍照固定。",
+      "information_gap": "赵启明背后是否有人改系统、做假鉴定、分走八百万。",
+      "emotion_debt_balance": "核心爽点第一次释放：红章从压迫凭证变成反杀凭证。",
+      "chapter_end_hook": "林照指着红章单据问他：那你刚才盖的两千万茶王，是谁家的？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把死环讲成法律课堂",
+        "不能让主角骂街",
+        "不能让反派轻松逃离现场"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 695,
+      "scene_location": "平台总部远程风控会议屏",
+      "character_goal": "林照要求平台总部风控和网安同步封存评级后台、收费接口和入库扫码记录。",
+      "conflict_action": "总部风控当场调取日志，赵启明试图用权限故障拖延，被网安要求交出主管口令。",
+      "information_gap": "珍品评级系统为何只把林照这批碎茶提到 A 级，修改人是谁。",
+      "emotion_debt_balance": "把个人冤屈升级为系统被人为篡改的证据线。",
+      "chapter_end_hook": "平台总部风控接入后台，第一条异常记录显示：A 级珍品阈值在入库前十分钟被人工改过。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角黑客式破案",
+        "不能把算法写成天然作恶",
+        "不能使用真实平台名称"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 648,
+      "scene_location": "客服直播调解间",
+      "character_goal": "林照要让其他商户的类似遭遇进入警方和平台总部视野。",
+      "conflict_action": "三个商户冲进直播调解间，分别拿出茶具、蜂蜜、干货被高估后缴费的红章单据。",
+      "information_gap": "这些异常单据是否来自同一套收费接口和同一批代缴账户。",
+      "emotion_debt_balance": "偿还沉默受害者债：敢怒不敢言的商户开始站出来。",
+      "chapter_end_hook": "客服直播间里，三个商户同时举起类似的保价缴费单。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让群像抢走林照主线",
+        "不能把所有平台员工写成同谋",
+        "不能空喊受害者很多，要拿出具体单据"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 712,
+      "scene_location": "监管仓临时调查室",
+      "character_goal": "林照配合警方核对八百万流水，推动案件从乱收费进入敲诈和职务侵占线索。",
+      "conflict_action": "网安和警方把后台日志、代缴账户、赵启明签名单据逐项投屏，锁定四笔分账。",
+      "information_gap": "假鉴定老师、代缴公司和仓内内鬼谁先被抓，赵启明会不会供出链条。",
+      "emotion_debt_balance": "经济债开始偿还：八百万去向被锁定，追回有了路径。",
+      "chapter_end_hook": "网安查到代缴账户流水，八百万没有进平台总账，而是分成四笔转向赵启明亲属账户。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用主角猜测替代警方查证",
+        "不能让资金流含糊",
+        "不能把平台总部写成包庇方"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 662,
+      "scene_location": "监管仓大厅门口",
+      "character_goal": "林照要亲眼确认赵启明被带走，并让前期压迫金句完成回旋。",
+      "conflict_action": "赵启明被带上手铐还喊自己只是按系统办事，林照把红章确认单交给警员补充入卷。",
+      "information_gap": "平台会如何退赔，林照的店铺和工厂能不能恢复。",
+      "emotion_debt_balance": "权力滥用债强偿还：曾经用系统压人的人被系统日志和单据钉死。",
+      "chapter_end_hook": "赵启明被带走前还喊系统背锅，林照只回他一句：系统怎么评，你就怎么判。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角得意长篇训话",
+        "不能漏掉手铐、红章单据、日志物证",
+        "不能让赵启明只受内部处分"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 710,
+      "scene_location": "茶厂办公室与平台公告页",
+      "character_goal": "林照要拿回八百万、解除冻结、恢复供货资质并安抚客户。",
+      "conflict_action": "平台总部发布整改通报，财务当场退赔保价费、滞纳金和停业损失，林照逐笔还给姐姐和供应商。",
+      "information_gap": "舆论会把林照当笑话还是把小茶厂推成新热点。",
+      "emotion_debt_balance": "生存债偿还：退款、资质恢复、客户排期保住。",
+      "chapter_end_hook": "官方通报刚发出，林照店铺后台第一秒就弹出九百七十六个新订单。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让爆单替代司法清算",
+        "不能漏写退款和资质恢复",
+        "不能用空泛成功学收尾"
+      ]
+    },
+    {
+      "beat_id": "beat-15",
+      "target_chars": 653,
+      "scene_location": "林照茶厂打包车间",
+      "character_goal": "林照要把舆论热度转化成真实订单，同时守住保真底线。",
+      "conflict_action": "林照拒绝炒作两千万茶王噱头，改贴溯源码、检测报告和批次卡，带工人连夜打包爆单。",
+      "information_gap": "林照会不会被新的流量诱惑带偏，茶厂能否真正活下来。",
+      "emotion_debt_balance": "最终释放：退款、抓人、通报、整改、爆单五层完成，普通小厂靠真实证据翻身。",
+      "chapter_end_hook": "林照重新打开茶厂大门，下一批货箱贴上新标签：算法认证茶王同款，不保价，只保真。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把结尾写成虚假营销",
+        "不能让主角变成流量骗子",
+        "不能弱化刑事、经济、舆论三重清算"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 14000,
+    "min_chapters": 15,
+    "min_paywall_cards": 5,
+    "chapter_end_hook_coverage": "100%",
+    "micro_hook_every_chars_max": 1200,
+    "must_include_public_reversal": true,
+    "must_include_legal_evidence_chain": [
+      "冻结短信",
+      "转账流水",
+      "红章估价确认单",
+      "报警回执",
+      "开箱视频",
+      "后台日志",
+      "账户流水",
+      "官方通报"
+    ]
+  }
+}

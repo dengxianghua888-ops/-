@@ -1,0 +1,230 @@
+pipeline_mode: production
+status: final
+slug: prod_batch_13_customs_package
+genre: modern_reversal / business_survival / bureaucratic_suspense
+title:
+  primary: 平台说我碎茶值两千万，那就赔我茶王
+  alternatives:
+  - 三十元茶样被判成茶王后，我报警索赔两千万
+  - 他们盖章说我茶值两千万，后来全仓被查封
+  - 平台逼我交八百万，我拿红章单据报警了
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluation:
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  phase: 'Phase 7: 投稿包与章节化定稿'
+  role: Final Packager
+final_outputs:
+- final.md
+- craft-notes.md
+- tomato-submission.md
+- final-chapters/_chapters-map.md
+- final-chapters/ch01.md
+- final-chapters/ch02.md
+- final-chapters/ch03.md
+- final-chapters/ch04.md
+- final-chapters/ch05.md
+- final-chapters/ch06.md
+- final-chapters/ch07.md
+- final-chapters/ch08.md
+- final-chapters/ch09.md
+- final-chapters/ch10.md
+- final-chapters/ch11.md
+- final-chapters/ch12.md
+- final-chapters/ch13.md
+- final-chapters/ch14.md
+- final-chapters/ch15.md
+- story.yaml
+quality_gate:
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 8.6
+    style: 8.1
+    logic: 7.8
+  machine_metrics:
+    text_path: stories/prod_batch_13_customs_package/final.md
+    target_length:
+      min: 10000
+      max: 12500
+      actual: 10300
+      status: pass
+    chapters:
+      count: 15
+      hook_hits: 15
+      hook_coverage: 1.0
+      lengths:
+      - 729
+      - 685
+      - 701
+      - 681
+      - 670
+      - 644
+      - 623
+      - 633
+      - 648
+      - 699
+      - 653
+      - 745
+      - 667
+      - 740
+      - 660
+      status: pass
+    paywall_cards:
+      required: 3
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 89
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 3
+        actual: 4
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 7
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 14
+      status: pass
+    style_metrics:
+      char_count: 10300
+      sentence_count: 510
+      avg_sentence_length: 19.196
+      dialogue_ratio: 0.1946
+      question_marks: 30
+      question_marks_per_k: 2.913
+      physical_emotion_hits:
+        后槽牙: 1
+        手心: 1
+        喉咙: 3
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 25.34
+    semantic_repetition:
+      sentence_count: 420
+      unique_sentence_skeletons: 420
+      max_sentence_repeats: 1
+      max_sentence_repeat_ratio: 0.0024
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  source_report: story/quality-report.json
+chapters:
+  count: 15
+  min_chars_per_chapter: 500
+  max_chars_per_chapter: 1200
+  files:
+  - path: final-chapters/ch01.md
+    hook: 我看着冻结通知上的倒计时，第一次觉得一个平台按钮能把人按到水底。
+  - path: final-chapters/ch02.md
+    hook: 纸张被我按出折痕，他连看都没看。
+  - path: final-chapters/ch03.md
+    hook: “货名、数量、估值、收费依据、经办人，一个字都不能少。”
+  - path: final-chapters/ch04.md
+    hook: 下一秒，我转身走向大厅警务联络台。
+  - path: final-chapters/ch05.md
+    hook: 他刚才用来压我的系统和红章，现在全压回了他身上。
+  - path: final-chapters/ch06.md
+    hook: 赵启明第一次不看屏幕，只盯着那张纸。
+  - path: final-chapters/ch07.md
+    hook: 可剪刀已经落下去了。
+  - path: final-chapters/ch08.md
+    hook: 封存桌上的碎茶末，比任何争吵都硬。
+  - path: final-chapters/ch09.md
+    hook: “还有一件事。八百万不是打到平台总账，是打到云衡鉴定服务。这个账户，也请一并查。”
+  - path: final-chapters/ch10.md
+    hook: 这不是误判，是下套。
+  - path: final-chapters/ch11.md
+    hook: 三张保价单举起来时，赵启明的肩膀垮了。
+  - path: final-chapters/ch12.md
+    hook: “林照，你的报案性质要调整，涉及敲诈勒索、职务侵占和破坏平台数据。”
+  - path: final-chapters/ch13.md
+    hook: 大厅大屏上，平台总部的公告正在更新：华东智能监管仓暂停运营，所有异常收费单进入复核。
+  - path: final-chapters/ch14.md
+    hook: “开。”
+  - path: final-chapters/ch15.md
+    hook: 人得知道自己卖的到底是什么。
+submission:
+  platform: 番茄
+  tags:
+  - 现代反转
+  - 小老板逆袭
+  - 平台仓黑幕
+  - 证据反杀
+  - 算法误判
+  - 公开打脸
+  - 商业爽文
+  - 维权悬疑
+  - 司法清算
+  - 国货爆单
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+automation:
+  last_run_id: 20260511172849
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 15
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  revisions_applied:
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。

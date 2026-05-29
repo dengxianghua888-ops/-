@@ -1,0 +1,116 @@
+{
+  "story_slug": "prod_batch_13_customs_package",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 12500
+  },
+  "final_length": 10102,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "普通碎茶被平台系统估值为两千万茶王，成本与估值形成强荒诞落差。",
+      "reusable_fact": "现代反转开篇可用低值日用品被算法/系统错误标成天价资产，直接制造点击冲突。"
+    },
+    {
+      "chapter": 4,
+      "hook": "主角缴费后不急着提货，反逼经办人写清货名、数量、估值、收费依据和代收账户。",
+      "reusable_fact": "死环反杀的关键载体应由反派亲手盖章或签字确认，且包含金额、物品、经办人、资金去向。"
+    },
+    {
+      "chapter": 5,
+      "hook": "主角不报乱收费，而是按对方确认的高价值货物口径报案称疑似调包。",
+      "reusable_fact": "敏感执法场景中，主角诉求要建立在对方正式文件上，避免直接喊冤，转为要求核验被确认的高价值资产。"
+    },
+    {
+      "chapter": 8,
+      "hook": "开箱出现碎茶，反派以为获救，却同时证明两千万估值从一开始不存在。",
+      "reusable_fact": "反派的自证清白可以设计成第二层自证有罪，让同一事实同时击穿两个解释。"
+    },
+    {
+      "chapter": 13,
+      "hook": "开头反派金句“系统怎么评，我就怎么扣”回旋为“系统怎么评，你就怎么判”。",
+      "reusable_fact": "现代爽文反讽金句最好前后同句式替换核心动词，形成记忆点和情绪偿还。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 3,
+      "card": "八百万凑齐后，主角没有立刻提货，而是准备让赵启明把每个字写死。"
+    },
+    {
+      "chapter": 4,
+      "card": "红章确认单写明两千万茶王和云衡代收，主角转身走向警务联络台。"
+    },
+    {
+      "chapter": 5,
+      "card": "主角用平台正式估价报案称两千万茶王疑似调包，赵启明当场失控喊那是碎茶。"
+    },
+    {
+      "chapter": 6,
+      "card": "录音、直播调解间和红章单据被现场固定，赵启明试图抢回文件失败。"
+    },
+    {
+      "chapter": 7,
+      "card": "赵启明拿出退款保密协议要求撤案，剪刀已经落向封条。"
+    },
+    {
+      "chapter": 8,
+      "card": "箱内倒出的全是碎茶，红章两千万估值与实物同框。"
+    },
+    {
+      "chapter": 10,
+      "card": "后台日志显示珍品阈值被赵启明账号人工下调，并生成强制收费话术。"
+    },
+    {
+      "chapter": 11,
+      "card": "蜂蜜、陶杯、货代等商户拿出类似单据，异常收费从个案变串案。"
+    },
+    {
+      "chapter": 12,
+      "card": "八百万被拆成四笔流向关联账户，日志备注写着“林照，茶王，急”。"
+    },
+    {
+      "chapter": 14,
+      "card": "退赔到账后，店铺因“算法认证茶王同款”爆单，但主角选择先核产能和检测批次。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "phrase": "这不是误判，是下套",
+      "reason": "评审指出该句偏抽象判断，可优先替换为日志、话术、接口同屏后的现场反应。"
+    },
+    {
+      "phrase": "这不是一时起意，是一张网",
+      "reason": "评审指出该句偏模板化，可用资金拆分、账号权限、受害商户证据链替代。"
+    }
+  ],
+  "retrieval_tags": [
+    "modern_reversal",
+    "platform_algorithm_error",
+    "smart_warehouse",
+    "small_merchant",
+    "tea_factory",
+    "false_high_value_appraisal",
+    "forced_fee",
+    "red_stamp_confirmation",
+    "dead_loop_counterattack",
+    "evidence_chain",
+    "police_report_wording",
+    "backend_log",
+    "third_party_account",
+    "merchant_group_victims",
+    "official_rectification",
+    "truth_over_marketing"
+  ],
+  "manual_revision_delta": []
+}

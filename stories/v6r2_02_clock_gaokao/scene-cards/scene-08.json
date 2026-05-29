@@ -1,0 +1,81 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-06",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "工厂外停车场·家属等待区",
+  "time": "晚上8:10，三分钟刚过",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "沈妈妈", "舅舅", "玩家家属群体"],
+  "character_goal": "沈听澜要让所有人远离工厂——三分钟后可能还有二次扩散",
+  "opposition_goal": "妈妈+舅舅逼她跪下给所有人道歉，家属群体继续攻击她",
+  "conflict_action": "舅舅拽她胳膊逼她跪，妈妈打了她一耳光说'你让我丢死人了'；她挺直后背不跪",
+  "information_gap": "沈听澜注意到工厂方向彻底安静了——里面已经出事了，但外面的人还在忙着骂她",
+  "emotional_debt_delta": "家人否定债封顶——亲妈打耳光+逼跪=压迫极限",
+  "payoff_or_hook": "钩子：工厂方向的尖叫和笑声全部消失，所有手机无信号——灾难已经发生",
+  "chapter_end_hook": "工厂里的声音全部消失+手机无信号——没人注意到灾难已经在发生",
+  "paywall_card": false,
+  "must_include": ["妈妈的耳光", "舅舅逼跪", "沈听澜'挺直后背就是不跪'", "群体持续攻击", "工厂突然安静的暗处伏笔", "DM/NPC失联的细节"],
+  "must_not_write_as_exposition": ["沈听澜的内心控诉", "家庭关系的背景故事"],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 16.4,
+    "dominant_emotion": "压迫顶峰-暗涌",
+    "emotion_arc": "被群体攻击 → 家人逼跪 → 不屈服 → 诡异安静降临",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "对所有人恨到极点，同时隐约感觉报应要来了",
+    "required_techniques": [
+      {
+        "technique": "暗处伏笔不点明",
+        "instruction": "有人发现联系不上里面的朋友——不用惊叹号，用日常困惑呈现消失事件，恐怖来自不经意"
+      },
+      {
+        "technique": "不屈服作为人格锚点",
+        "instruction": "用一个身体姿态（挺直后背/不跪）确认主角人格——读者的敬意从这里来"
+      },
+      {
+        "technique": "道德绑架台词的精确刻写",
+        "instruction": "陈栩从暴怒转为冷漠——'算了，这种人没救了'比骂更伤"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "身体姿态+就是不",
+        "example": "我挺直后背，就是不跪下。",
+        "instruction": "在文字中'看到'一个人的脊梁——用一个动作完成人格宣言"
+      },
+      {
+        "structure": "没人发现+不知何时+异常状态",
+        "example": "没人发现，考场门前不知何时陷入诡异的安静。",
+        "instruction": "恐惧来自你不知道灾难什么时候已经开始了——用安静代替爆炸"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "累积式",
+    "source_excerpt": "妈妈给了我一耳光：\"田可，你为什么还在撒谎？你真的想去坐牢吗？\"我挺直后背，就是不跪下。闺蜜妈妈冷冷地说：\"不用了，我看她根本不怕坐牢，这孩子没救了。\"没人发现，考场门前不知何时陷入诡异的安静。家长半天没听到班主任的回答。回头一看，身后除了雾哪还有人。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": [],
+      "句式": "沉默不语，只用身体语言抗拒",
+      "单句上限": 8,
+      "禁止": "任何求饶或辩解"
+    },
+    "沈妈妈": {
+      "口癖": ["听澜", "你让我丢死人了", "跪下"],
+      "句式": "恨铁不成钢+卑微求情混合",
+      "单句上限": 15,
+      "禁止": "支持女儿"
+    }
+  }
+}

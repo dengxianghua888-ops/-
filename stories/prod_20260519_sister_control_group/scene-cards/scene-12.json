@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "公司停车场",
+  "time": "紧接上场",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "江越",
+    "顾行舟"
+  ],
+  "character_goal": "法律终结",
+  "opposition_goal": "江越失控",
+  "conflict_action": "江越抓住女主手腕被顾行舟挡下+报警+带走",
+  "information_gap": "江越撕破最后的体面",
+  "emotional_debt_delta": "-2",
+  "payoff_or_hook": "法律制裁",
+  "chapter_end_hook": "警察把他从地上拉起来时，他的西装袖口沾满了泥。",
+  "paywall_card": false,
+  "must_include": [
+    "动手被挡",
+    "报警",
+    "带走"
+  ],
+  "must_not_write_as_exposition": [
+    "不能美化暴力"
+  ]
+}

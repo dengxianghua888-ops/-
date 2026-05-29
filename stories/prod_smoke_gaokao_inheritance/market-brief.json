@@ -1,0 +1,15 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "tomato_rules": {
+    "minimum_short_story_chars": 6000,
+    "best_range_chars": [
+      10000,
+      30000
+    ]
+  }
+}

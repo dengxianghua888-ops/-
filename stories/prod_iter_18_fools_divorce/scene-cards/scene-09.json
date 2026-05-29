@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 637,
+  "target_chars_max": 637,
+  "location": "公寓楼上",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "切断骚扰和旧情",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "一审结束后，网上舆论彻底翻转。  从前骂我恶毒的人开始替我委屈，仿佛换一张脸就能抹掉",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "雨跪债",
+  "payoff_or_hook": "我拉上窗帘，给康复中心预约了新的训练时间。",
+  "chapter_end_hook": "我拉上窗帘，给康复中心预约了新的训练时间。",
+  "paywall_card": false,
+  "must_include": [
+    "切断骚扰和旧情",
+    "雨跪债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

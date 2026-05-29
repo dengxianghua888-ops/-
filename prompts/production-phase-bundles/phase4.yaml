@@ -1,0 +1,19 @@
+phase: 4
+key: beat_bible
+role: Beat Bible Architect
+title: 场景级写作圣经
+system_prompt: prompts/production/beat-bible.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/market-brief.json
+  - story/story-brief.json
+  - story/adaptation-room.json
+  - story/adaptation.md
+  - story/analysis/style-dna.md
+  - story/analysis/soul-contract.md
+required_outputs:
+  - beat-bible.json
+  - scene-cards/*.json
+validators:
+  - validate-production-story:phase4

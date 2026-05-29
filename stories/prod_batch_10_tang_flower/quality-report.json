@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "platform.synopsis_pending_phase7: 平台简介将在 Final Packager 投稿包中产出。"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_10_tang_flower/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 12500,
+      "actual": 10717,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        727,
+        667,
+        665,
+        728,
+        648,
+        657,
+        656,
+        669,
+        618,
+        611,
+        653,
+        716,
+        632,
+        648,
+        620,
+        685
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 12,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 84,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 11,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 23,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10717,
+      "sentence_count": 573,
+      "avg_sentence_length": 17.705,
+      "dialogue_ratio": 0.2282,
+      "question_marks": 34,
+      "question_marks_per_k": 3.173,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "手心": 1,
+        "后背": 1,
+        "眼眶": 3,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 30.699
+    },
+    "semantic_repetition": {
+      "sentence_count": 442,
+      "unique_sentence_skeletons": 442,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0023
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7.8,
+    "emotion": 8.1,
+    "style": 7.6,
+    "logic": 7.4
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "excerpt": "安全转移预约日期后，她签下了“许知棠”三个字。",
+      "finding": "首章钩子从非法死亡预约改为合法安全转移，点击承诺仍成立。"
+    },
+    {
+      "dimension": "emotion",
+      "excerpt": "婚姻里很多判决没有法槌。签名就够了。",
+      "finding": "交换同意书承接生死选择情绪债。"
+    },
+    {
+      "dimension": "style",
+      "excerpt": "银面被刮花，只剩半句刻字：先救。",
+      "finding": "袖扣道具回收有效，画面感强。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "非授权探视与病历调取不予受理。",
+      "finding": "身份处理改为医疗隐私和保护令权限，不再写成伪造死亡。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "车内人员失联，生还可能极低。",
+      "finding": "死亡结果改为事故失联误判，规避机构制造死亡证明。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "非授权查档和接触请求都会留痕，中心会同步警方。",
+      "finding": "庇护中心边界改为留痕、警方协作和本人授权。"
+    }
+  ]
+}

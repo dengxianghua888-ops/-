@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 740,
+  "target_chars_max": 860,
+  "location": "陆氏私立医院封楼门口",
+  "time": "次日深夜",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "小舟",
+    "陆沉舟",
+    "医院管事",
+    "护院"
+  ],
+  "character_goal": "沈南星抱着发热的小舟求医院急救。",
+  "opposition_goal": "陆沉舟要封楼保住林若鸢腹中所谓继承胎和陆家名声。",
+  "conflict_action": "沈南星拍打铁门求急救，陆沉舟命护院撤走担架，并让医院管事只放林若鸢的马车入内。",
+  "information_gap": "医院实际还有空病房，但沈南星当场不知道。",
+  "emotional_debt_delta": "+拒救、+男主主动选择义妹与继承胎",
+  "payoff_or_hook": "陆沉舟隔着铁门警告她，若若鸢腹中孩子出事，他不再认她这个妻子。",
+  "chapter_end_hook": "铁门合死，沈南星怀里的小舟轻轻问：爹是不是不要我了？",
+  "paywall_card": false,
+  "must_include": [
+    "医院封楼木牌",
+    "林若鸢保胎马车被放行",
+    "小舟发热和空药盒",
+    "陆沉舟亲口拒绝让小舟入院"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让陆沉舟只是传话缺席",
+    "不要写真实医疗处理细节",
+    "不要把拒救解释成误会"
+  ]
+}

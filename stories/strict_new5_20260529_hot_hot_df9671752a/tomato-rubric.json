@@ -1,0 +1,81 @@
+{
+  "story": "stories/strict_new5_20260529_hot_hot_df9671752a",
+  "overall_score": 8.77,
+  "dimensions": {
+    "length_alignment": {
+      "score": 5.88,
+      "evidence": "总字数 13360,章节方差 206.6"
+    },
+    "hook_density": {
+      "score": 6.88,
+      "evidence": "11/16 强钩,弱钩章: ch01,ch08,ch14,ch15,ch16",
+      "weak_chapters": [
+        "ch01",
+        "ch08",
+        "ch14",
+        "ch15",
+        "ch16"
+      ]
+    },
+    "paywall_layout": {
+      "score": 8.5,
+      "evidence": "付费卡点 14/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 25.299/k"
+    },
+    "style_signature": {
+      "score": 9.5,
+      "evidence": "平均句长 15.135,软违禁 1 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.49,
+      "evidence": "源/稿均行长 18.133/16.914, 短行率 0.4752/0.4641, 对白行率 0.4455/0.3564",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 9157,
+          "line_count": 505,
+          "avg_line_chars": 18.133,
+          "median_line_chars": 17.0,
+          "short_line_rate": 0.4752,
+          "long_line_rate": 0.0119,
+          "quote_line_rate": 0.4455,
+          "barrage_line_rate": 0.002,
+          "question_marks_per_k": 6.771,
+          "comma_period_ratio": 0.548,
+          "sentence_avg_len": 14.8
+        },
+        "candidate": {
+          "chars": 13193,
+          "line_count": 780,
+          "avg_line_chars": 16.914,
+          "median_line_chars": 17.0,
+          "short_line_rate": 0.4641,
+          "long_line_rate": 0.0026,
+          "quote_line_rate": 0.3564,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 3.714,
+          "comma_period_ratio": 0.948,
+          "sentence_avg_len": 15.1
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch01",
+    "ch08",
+    "ch14",
+    "ch15",
+    "ch16"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B8",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "机场→东京",
+  "time": "次日",
+  "pov": "林知予",
+  "characters": [
+    "林知予"
+  ],
+  "character_goal": "远走+简述后果",
+  "opposition_goal": "无",
+  "conflict_action": "关机飞东京；简述社会后果：陆承衍声誉崩塌、合作方疏远、表姐被拉黑",
+  "information_gap": "后果严重程度",
+  "emotional_debt_delta": "-6（D3开始偿还）",
+  "payoff_or_hook": "我飞去了东京，手机关机三十天",
+  "chapter_end_hook": "我飞去了东京，手机关机三十天",
+  "paywall_card": false,
+  "must_include": [
+    "关机动作",
+    "3-4个具体后果",
+    "主角的平静心态"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写成新闻报道式列举"
+  ]
+}

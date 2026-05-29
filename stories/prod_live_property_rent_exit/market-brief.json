@@ -1,0 +1,16 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "genre": "modern_business_revenge",
+  "audience_promise": "主角被商业规则压迫后，用更硬的合同、客流和证据完成反杀。",
+  "tomato_strategy": {
+    "minimum_short_story_chars": 6000,
+    "best_range_chars": [10000, 30000],
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500]
+  }
+}

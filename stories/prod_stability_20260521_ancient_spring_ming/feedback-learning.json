@@ -1,0 +1,104 @@
+{
+  "story_slug": "prod_stability_20260521_ancient_spring_ming",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M3", "M4", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10319,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 2,
+      "hook": "医生越过男主直接判定“她的骨头已经塌了”",
+      "reusable_fact": "病情真相适合用专业第三方打断压病叙事，形成第一轮可信反转。"
+    },
+    {
+      "chapter": 6,
+      "hook": "老船医被拖走前喊出“她不是自愿留下的”",
+      "reusable_fact": "半截证词比完整说明更适合中段留钩，能同时推进冤情和阻断感。"
+    },
+    {
+      "chapter": 8,
+      "hook": "直播大屏把受害者剪成疯子",
+      "reusable_fact": "公开羞辱场景可把私人误解升级为平台围观，增强女主断裂动机。"
+    },
+    {
+      "chapter": 11,
+      "hook": "男主亲口承认三年前是故意留她在海上",
+      "reusable_fact": "关键误会必须由施害者本人承认，避免读者把矛盾理解成信息差。"
+    },
+    {
+      "chapter": 12,
+      "hook": "女主把值班簿、工牌、录音笔还回去后跳塔",
+      "reusable_fact": "自毁高潮前归还证据载体，能把复仇动作转成关系清算。"
+    },
+    {
+      "chapter": 15,
+      "hook": "灵魂线留下“只让我觉得恶心”",
+      "reusable_fact": "迟来忏悔尾声用冷拒绝收束，比原谅或惩罚细节更适合BE余味。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "card": "她的骨头已经塌了",
+      "function": "病情反转"
+    },
+    {
+      "chapter": 6,
+      "card": "黑港那年，她不是自愿留下的",
+      "function": "旧案证词反转"
+    },
+    {
+      "chapter": 8,
+      "card": "直播大屏上，她被钉成一个疯子",
+      "function": "公开羞辱升级"
+    },
+    {
+      "chapter": 11,
+      "card": "所以三年前，你是故意的？",
+      "function": "男主责任坐实"
+    },
+    {
+      "chapter": 12,
+      "card": "她松开栏杆时，没有再回头",
+      "function": "死亡高潮"
+    },
+    {
+      "chapter": 14,
+      "card": "港务记录里，白纸黑字写着他的命令",
+      "function": "证据闭环"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代虐恋BE",
+    "养兄弃救",
+    "黑港创伤",
+    "低温仓PTSD",
+    "骨癌隐瞒",
+    "直播污名化",
+    "白月光陷害",
+    "证据三件套",
+    "值班簿",
+    "录音笔",
+    "港务记录",
+    "流产旧伤",
+    "跳塔死亡",
+    "灵魂线尾声",
+    "迟来忏悔无效",
+    "原句回旋反讽",
+    "公开处刑",
+    "专业第三方揭真相"
+  ],
+  "manual_revision_delta": []
+}

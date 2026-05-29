@@ -1,0 +1,111 @@
+{
+  "story_slug": "prod_batch_09_streamer_exit",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M2", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 12500
+  },
+  "final_length": 11366,
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.6,
+    "style": 7.8,
+    "logic": 8.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "S+男主当场从陆呈换成顾凛",
+      "reusable_fact": "开篇三百字内同时完成羞辱、资源债、即时反击，能快速兑现现代逆袭爽点承诺。"
+    },
+    {
+      "chapter": 2,
+      "hook": "陆呈投流后台余额归零",
+      "reusable_fact": "情绪债用可量化后台数据偿还，比口头争吵更有平台感。"
+    },
+    {
+      "chapter": 3,
+      "hook": "顾凛递出两万字分镜笔记",
+      "reusable_fact": "替代男主不能只靠偏爱上位，需用分镜、秒数、训练表证明可交付。"
+    },
+    {
+      "chapter": 7,
+      "hook": "品牌官宣男主不是陆呈",
+      "reusable_fact": "倒计时官宣前让反派粉丝先刷庆祝词，官宣落地时打脸截图感更强。"
+    },
+    {
+      "chapter": 10,
+      "hook": "搬家公司到达许家",
+      "reusable_fact": "家庭产权反转后，用外部执行动作做章末钩子，避免复述式总结。"
+    },
+    {
+      "chapter": 12,
+      "hook": "陆呈被保安架住时顾凛战报跳屏",
+      "reusable_fact": "反派线下失控与主角数据胜利同屏，可以把爽点从争执转向结果碾压。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 1,
+      "card": "项目群弹出：S+男主，换顾凛。",
+      "type": "resource_reversal"
+    },
+    {
+      "chapter": 2,
+      "card": "陆呈买量余额归零。",
+      "type": "data_slap"
+    },
+    {
+      "chapter": 3,
+      "card": "顾凛两万字分镜笔记待验收。",
+      "type": "new_male_lead_competence"
+    },
+    {
+      "chapter": 6,
+      "card": "陆呈直播举珠宝盒预告高奢联名男主。",
+      "type": "false_claim_setup"
+    },
+    {
+      "chapter": 8,
+      "card": "律师函送到陆呈工作室。",
+      "type": "legal_escalation"
+    },
+    {
+      "chapter": 9,
+      "card": "许念拍出股份转让书逼签。",
+      "type": "family_property_debt"
+    },
+    {
+      "chapter": 12,
+      "card": "顾凛首播战报刷新平台纪录。",
+      "type": "commercial_validation"
+    },
+    {
+      "chapter": 14,
+      "card": "陆呈公开道歉并被平台冻结商业合作权限。",
+      "type": "final_consequence"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "entertainment_industry",
+    "short_drama_platform",
+    "female_producer",
+    "actor_replacement",
+    "paywall_resource_freeze",
+    "data_slap",
+    "brand_collaboration_reversal",
+    "legal_evidence_chain",
+    "property_rights_reversal",
+    "M2_identity_authority",
+    "M3_resource_backfire",
+    "M6_layered_reversal",
+    "competent_second_male_lead",
+    "anti_net_violence_evidence_collection"
+  ],
+  "manual_revision_delta": []
+}

@@ -1,0 +1,30 @@
+{
+  "story_slug": "batch_v3_05_apocalypse",
+  "title": "她们说我是废物",
+  "run_date": "2026-05-26",
+  "gate_status": "pass",
+  "machine_metrics": {
+    "nonspace_chars": 11684,
+    "chapter_count": 12,
+    "rhythm_fit": "pass",
+    "source_avg_line_chars": 18.13,
+    "candidate_avg_line_chars": 22.33,
+    "source_short_line_rate": 0.48,
+    "candidate_short_line_rate": 0.3000,
+    "source_quote_line_rate": 0.45,
+    "candidate_quote_line_rate": 0.4000,
+    "candidate_barrage_line_rate": 0.0,
+    "ai_forbidden_words": 0,
+    "narration_crutches": 0,
+    "source_overlap_4gram": 0.0498,
+    "meta_leak": 0
+  },
+  "quality_notes": {
+    "contradiction_moment": "无温情回忆线——用老厨师的善良对比群体冷漠，老赵断指后女主恨意成形",
+    "opening_hook": "女主是堡垒唯一净化者，只要听音乐盒保持愉悦方圆十里异兽不敢靠近——信息不对称：读者知道她重要但不知她是零号宿主",
+    "gold_sentences": [
+      "你亲手释放了这颗星球上最恐怖的存在",
+      "她高兴的时候，世界就是晴天。她蹙眉的时候，便是人间炼狱"
+    ]
+  }
+}

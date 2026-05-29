@@ -1,0 +1,155 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_iter_20_20260514_192119_hermes_customs_package/final.md",
+    "target_length": {
+      "min": 11000,
+      "max": 13500,
+      "actual": 11972,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        854,
+        854,
+        823,
+        847,
+        863,
+        826,
+        835,
+        851,
+        841,
+        840,
+        827,
+        826,
+        829,
+        880
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 103,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 23,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 25,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11972,
+      "sentence_count": 790,
+      "avg_sentence_length": 14.154,
+      "dialogue_ratio": 0.0102,
+      "question_marks": 14,
+      "question_marks_per_k": 1.169,
+      "physical_emotion_hits": {
+        "指尖": 2,
+        "后槽牙": 2,
+        "手心": 4,
+        "指甲": 3,
+        "掌心": 3
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 40.595
+    },
+    "semantic_repetition": {
+      "sentence_count": 469,
+      "unique_sentence_skeletons": 467,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0043
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 9.0,
+    "emotion": 8.8,
+    "style": 8.7,
+    "logic": 9.0
+  },
+  "evidence": [
+    {
+      "path": "draft-scenes/scene-01.md",
+      "quote": "鉴定结论：白底鳄鱼皮铂金包·限量真品级·五十只·总估值30,000,000元·待入库销毁",
+      "claim": "首屏红屏冲击，30秒钩成立"
+    },
+    {
+      "path": "draft-scenes/scene-02.md",
+      "quote": "电子签怎么签就怎么算，专家说话还能错？",
+      "claim": "M3 第一回合金句，B12 闭环钩"
+    },
+    {
+      "path": "draft-scenes/scene-07.md",
+      "quote": "徐阳寄存白底鳄鱼皮铂金包五十只，估值30,000,000元",
+      "claim": "M1 主动诱导对方在销毁单写入完税同表述"
+    },
+    {
+      "path": "draft-scenes/scene-08.md",
+      "quote": "我寄存在真鉴堂的财物，三千万真品五十只，被人调包了",
+      "claim": "M1 闭环触发：自首式报案"
+    },
+    {
+      "path": "draft-scenes/scene-12.md",
+      "quote": "科技鉴定嘛，电子签怎么签，你就怎么坐牢吧",
+      "claim": "M3 回声闭合"
+    },
+    {
+      "path": "draft-scenes/scene-11.md",
+      "quote": "三年时间，受害卖家四百二十七人，截留金额四千余万",
+      "claim": "案件升级到公诉级"
+    },
+    {
+      "path": "draft-scenes/scene-14.md",
+      "quote": "她以为这只包还在她樟木箱底。她什么都不用知道",
+      "claim": "亲情债收束，静物收尾"
+    }
+  ]
+}

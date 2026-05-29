@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "罪乐署水牢",
+  "time": "当夜子时",
+  "pov": "我",
+  "characters": [
+    "我",
+    "巡牢婆子",
+    "暗线使者"
+  ],
+  "character_goal": "活下去，并确认自己还有归路",
+  "opposition_goal": "罪乐署要让我在水牢里先烂掉，再被拉去下一场示众",
+  "conflict_action": "我在水牢里自己撕布止血、踮脚换气，夜深时暗线从栅缝递进义印、药丸和一句口信",
+  "information_gap": "递消息的人是不是谢珩的人，西川究竟已走到哪一步？",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "第一次出现切实可摸到的外部救援证物",
+  "chapter_end_hook": "水牢缝隙里塞进一枚旧义印，背面只有四个字：西川已至。",
+  "paywall_card": false,
+  "must_include": [
+    "水牢换气动作",
+    "伤口自救",
+    "旧义印",
+    "口信四字",
+    "低压留白一瞬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要整段回顾受刑史",
+    "不要详细讲义册背景",
+    "不要把救援写成神兵天降全能解困"
+  ],
+  "rhythm_job": {
+    "shape": "动作4段/对白2段/呼吸点2段/章尾钩1刀",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

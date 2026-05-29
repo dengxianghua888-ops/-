@@ -1,0 +1,297 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10650,
+    "planning_note": "规划总字数约为市场最低字数的106.5%，留出现场发挥空间。"
+  },
+  "title": "一筒不能加柔顺剂的衣服，洗出老公第二个家",
+  "genre": "family_ethics / 婚内背叛 / 原配清算 / 财产反杀",
+  "mechanisms": {
+    "H1_life_detail_hook": "洗衣机备注“别放柔顺剂，她闻了会吐”暴露另一个女人的身体偏好。",
+    "M3_causal_irony": "沈泊舟用降薪、省钱、照护责任压榨许清辞，最终因婚内转移财产失去房产、存款和护理转嫁资格。",
+    "M5_temperature_reversal": "他嫌许清辞洗衣液贵，却记得林栀衣物不能加柔顺剂、孕妇裙要低温烘干。",
+    "M6_layered_reversal": "柔顺剂备注、手机号会员、孕妇衣物、陪读房、婆婆骗款、小三设局、反派互咬、法院判决逐层推进。",
+    "ordinary_beat_reference_target_chars": 720,
+    "climax_beat_max_ratio_to_ordinary": 1.5,
+    "counterattack_focus": "真正反杀集中在第9-10章完成，前两章高潮用于现场揭露和小三翻脸。"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 680,
+      "scene_range": [1, 1],
+      "chapter_end_hook": "洗衣机屏幕跳出备注：别放柔顺剂，她闻了会吐。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 700,
+      "scene_range": [2, 2],
+      "chapter_end_hook": "孕妇报出的会员手机号，正是沈泊舟用了八年的号码。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 720,
+      "scene_range": [3, 3],
+      "chapter_end_hook": "取衣标签背面，贴着女儿学校对面公寓的门牌号。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 760,
+      "scene_range": [4, 4],
+      "chapter_end_hook": "林栀笑着说：我老公说，他前妻早就拿钱跑了。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 740,
+      "scene_range": [5, 5],
+      "chapter_end_hook": "婆婆的康复押金流水，收款人备注是安胎费。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 800,
+      "scene_range": [6, 6],
+      "chapter_end_hook": "陪读房门禁密码，是林栀预产期。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 960,
+      "scene_range": [7, 7],
+      "chapter_end_hook": "墙上的亲子照里，沈泊舟抱着别人的孩子，笑得像个好父亲。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 1000,
+      "scene_range": [8, 8],
+      "chapter_end_hook": "林栀把录音笔推到我面前：我当然知道你没离婚。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 980,
+      "scene_range": [9, 9],
+      "chapter_end_hook": "我把结婚证放在茶几上：现在，谁才是前妻？"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 1020,
+      "scene_range": [10, 10],
+      "chapter_end_hook": "沈泊舟抢走林栀手机时，法院短信正好亮起。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 600,
+      "scene_range": [11, 11],
+      "chapter_end_hook": "判决书最后一页，写着婆婆护理责任由沈泊舟承担。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 690,
+      "scene_range": [12, 12],
+      "chapter_end_hook": "搬家那天，念念把旧校服塞进回收袋，说：妈妈，我们不要那股味道了。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 660,
+      "target_chars_max": 700,
+      "phase": "opening",
+      "is_climax_beat": false,
+      "scene_location": "小区自助洗衣房",
+      "character_goal": "许清辞给女儿洗被颜料弄脏的校服，顺手确认丈夫远程开的会员机。",
+      "conflict_action": "沈泊舟远程选错洗衣备注，许清辞截图机器编号和备注。",
+      "information_gap": "备注里的“她”不是许清辞，也不是女儿念念。",
+      "emotion_debt_balance": "婚姻欺骗债首次出现，女主先压住错位感。",
+      "chapter_end_hook": "屏幕上那行备注还亮着：别放柔顺剂，她闻了会吐。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要写婚姻史长回忆", "不能让女主当场撒泼"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 680,
+      "target_chars_max": 720,
+      "phase": "opening",
+      "is_climax_beat": false,
+      "scene_location": "洗衣房会员休息区",
+      "character_goal": "许清辞回到洗衣房核对会员记录。",
+      "conflict_action": "林栀抱着孕妇裙取衣，报出沈泊舟手机号会员。",
+      "information_gap": "孕妇口中的“老公”与许清辞的丈夫是同一个手机号。",
+      "emotion_debt_balance": "忠诚债升级为可核验身份疑点。",
+      "chapter_end_hook": "我低头看向手机通讯录，那串号码一个数字都没错。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要马上揭穿林栀", "不要解释洗衣房会员制度"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 740,
+      "phase": "pressure",
+      "is_climax_beat": false,
+      "scene_location": "洗衣房后台取衣柜",
+      "character_goal": "许清辞拿到洗护记录和衣物标签。",
+      "conflict_action": "她用付款截图向店员补开发票，拍下孕妇裙标签和取衣柜编号。",
+      "information_gap": "标签地址指向女儿学校对面公寓。",
+      "emotion_debt_balance": "财产转移债露头：一万元洗护年卡与家中节省形成对照。",
+      "chapter_end_hook": "标签最下面，印着念念学校正门对面的楼号。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写店员背景", "不要复述全部消费条款", "不能把取证写成流程说明"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 740,
+      "target_chars_max": 780,
+      "phase": "pressure",
+      "is_climax_beat": false,
+      "scene_location": "学校门口和洗衣房外",
+      "character_goal": "许清辞确认林栀与沈泊舟的对外关系说法。",
+      "conflict_action": "她跟到校门口，看见沈泊舟接走林栀和一个男孩。",
+      "information_gap": "沈泊舟对林栀说许清辞是卷钱跑路的前妻。",
+      "emotion_debt_balance": "名誉污蔑债成型，父职亏欠同步加深。",
+      "chapter_end_hook": "林栀挽着他的胳膊问：你前妻还会回来抢钱吗？",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写旁观者反应清单", "不要连续解释前妻谎言", "不能让许清辞冲上去撕扯"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 720,
+      "target_chars_max": 760,
+      "phase": "pressure",
+      "is_climax_beat": false,
+      "scene_location": "家中护理床旁",
+      "character_goal": "许清辞核对婆婆当年索要十二万康复押金的去向。",
+      "conflict_action": "她翻出转账凭证试探婆婆，录下婆婆说漏嘴。",
+      "information_gap": "十二万不是康复押金，而是安胎费和房租押金。",
+      "emotion_debt_balance": "婆婆共犯债落地，劳动剥削与骗款连上。",
+      "chapter_end_hook": "婆婆攥住床栏，低声说：那钱本来就是给沈家的孙子用的。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要嘲讽疾病", "不要写护理苦情长段", "不能让婆婆一句道歉洗白"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 780,
+      "target_chars_max": 820,
+      "phase": "pressure",
+      "is_climax_beat": false,
+      "scene_location": "女儿学校对面公寓大堂",
+      "character_goal": "许清辞验证陪读房是否真实存在。",
+      "conflict_action": "她用洗衣标签和物业取件码套出门禁记录，按下楼层。",
+      "information_gap": "门禁密码是林栀预产期，沈泊舟长期出入。",
+      "emotion_debt_balance": "第二个家从账单变为空间羞辱。",
+      "chapter_end_hook": "电梯门合上前，我看见门禁屏上亮着四个字：家属通行。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要讲物业制度", "不要解释陪读房市场", "不能提前写完整房间真相"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 900,
+      "target_chars_max": 1020,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "陪读房玄关和客厅",
+      "character_goal": "许清辞进入陪读房，拍下第二个家的实物证据。",
+      "conflict_action": "她开门拍摄孕妇枕、男童校服、亲子照和沈泊舟签字的租赁合同。",
+      "information_gap": "沈泊舟把别人孩子的陪读房安排在亲生女儿学校对面。",
+      "emotion_debt_balance": "父职债、身份债、财产债集中压到可见物上。",
+      "chapter_end_hook": "墙上那张合照里，沈泊舟抱着男孩，背后写着：我们的新家。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要把屋内物品写成陈列清单", "不要写女主崩溃独白", "不能弱化亲子照冲击"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 940,
+      "target_chars_max": 1060,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "陪读房客厅",
+      "character_goal": "许清辞逼出林栀是否知情。",
+      "conflict_action": "林栀关门摊牌，拿出录音笔承认自己故意留洗衣标签。",
+      "information_gap": "林栀早知正妻存在，利用洗衣房引许清辞发现，逼沈泊舟离婚。",
+      "emotion_debt_balance": "小三逼宫债从暧昧变成主动设局。",
+      "chapter_end_hook": "她笑着按下录音键：沈太太，这场戏我等你很久了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把林栀写成纯受害者", "不要解释她的成长史", "不能让她只靠哭卖惨"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 920,
+      "target_chars_max": 1040,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "陪读房客厅",
+      "character_goal": "许清辞公开合法妻子身份并把证据链摆到沈泊舟面前。",
+      "conflict_action": "她把结婚证、会员流水、租房合同和婆婆录音依次放上茶几。",
+      "information_gap": "沈泊舟两边撒谎，林栀也不是他以为能安抚的人。",
+      "emotion_debt_balance": "名誉债开始偿还，女主从被污蔑者转为审判者。",
+      "chapter_end_hook": "我看着林栀发白的脸，问沈泊舟：现在，谁才是前妻？",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写法条讲解", "不要让女主骂街", "不能把证据一次讲成说明书"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 960,
+      "target_chars_max": 1080,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "律师事务所和陪读房楼下",
+      "character_goal": "许清辞把反派互咬转成法律证据。",
+      "conflict_action": "她让律师调取门禁、转账和录音，林栀当面提交沈泊舟转移财产聊天记录。",
+      "information_gap": "沈泊舟不只骗妻子，也骗林栀说房子会写她名。",
+      "emotion_debt_balance": "财产债进入反杀，反派联盟开始自毁。",
+      "chapter_end_hook": "沈泊舟抢走手机时，法院短信弹了出来：案件已受理。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写完整诉讼科普", "不要把互咬写成吵架循环", "不能用暴力替代证据"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 580,
+      "target_chars_max": 620,
+      "phase": "settlement",
+      "is_climax_beat": false,
+      "scene_location": "离婚诉讼庭审",
+      "character_goal": "许清辞拿到现实补偿和责任切割。",
+      "conflict_action": "法庭出示判决结果，沈泊舟跪求撤诉，许清辞递交护理责任材料。",
+      "information_gap": "婆婆护理责任不能再转嫁给许清辞。",
+      "emotion_debt_balance": "金钱债、劳动债、父职债进入兑现。",
+      "chapter_end_hook": "判决书最后一页，写着沈母后续护理费用由沈泊舟承担。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写庭审流水账", "不要让丈夫道歉过长", "不能给复合余地"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 670,
+      "target_chars_max": 710,
+      "phase": "settlement",
+      "is_climax_beat": false,
+      "scene_location": "新工作室和搬家车旁",
+      "character_goal": "许清辞带女儿搬离旧小区，恢复服装修复师工作。",
+      "conflict_action": "沈泊舟拦车求复合，许清辞签收工作室钥匙后关上车门。",
+      "information_gap": "女主不再需要丈夫的悔恨来确认自身价值。",
+      "emotion_debt_balance": "不复合、不原谅、母女新生完成。",
+      "chapter_end_hook": "念念把旧校服塞进回收袋，说：妈妈，我们不要那股味道了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写空泛成长感悟", "不要洗白沈泊舟", "不能让结尾只剩口号"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 12,
+    "min_paywall_card_count": 4,
+    "chapter_end_hook_coverage": "12/12 chapters must end with a new clue, humiliation, reversal, legal action, or clean refusal.",
+    "evidence_reversal_min_per_chapter": 1,
+    "no_reconciliation": true,
+    "legal_and_property_payoff_required": true
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [13, 18],
+    "short_line_rate_lte_16_min": 0.52,
+    "short_line_rate_lte_16_max": 0.68,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 1.5,
+    "question_mark_density_per_1000_chars_max": 3.0,
+    "explanatory_long_paragraph_cap_per_chapter": 90
+  }
+}

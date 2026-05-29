@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 640,
+  "target_chars_max": 800,
+  "location": "联邦审判署远程仲裁台",
+  "time": "签署后两分钟",
+  "pov": "第一人称，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "纪明棠",
+    "沈澜星",
+    "审判署系统"
+  ],
+  "character_goal": "纪寒舟想让纪明棠至少看一眼报案包。",
+  "opposition_goal": "纪明棠要用仲裁官权限冻结报案，保住裴砚和纪家声誉。",
+  "conflict_action": "纪明棠刷权限冻结报案端口，撕掉纪寒舟的亲缘申诉码，将撤诉声纹仪推到他唇边。",
+  "information_gap": "纪明棠以为自己在收拾弟弟闹剧，却亲手切断他最后的法律通道。",
+  "emotional_debt_delta": "亲姐偏心升级为公权压迫，断亲债成立。",
+  "payoff_or_hook": "纪寒舟不争辩，只把断掉的亲缘码放进证据盒。",
+  "chapter_end_hook": "纪明棠把撤诉声纹推到他唇边，说签完她就当没这个弟弟。",
+  "paywall_card": false,
+  "must_include": [
+    "审判署权限冻结报案",
+    "亲缘申诉码被撕毁",
+    "纪明棠说断亲",
+    "纪寒舟平静收起断码"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释审判署架构",
+    "不要让姐姐表现成被迫无奈",
+    "不要让主角长篇控诉童年"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "tomato_preferred": [500, 800],
+      "median_target": 650
+    },
+    "chapter_end_requirement": "每章末必须留下明确钩子：误会升级、身份揭露、关系反转、公开打脸或下一场危机。",
+    "no_flat_chapter": true
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：必须出现高压关系场、公开羞辱或女主被低估后的即时反击可能。",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "paywall_card_type": [
+      "怀孕检验报告被关键人物截获",
+      "男二家族公开认女主与孩子",
+      "前任在婚礼或股市战中失控反扑",
+      "女主从被抛弃者变成被豪门正名者"
+    ]
+  },
+  "audience": {
+    "target_readers": "18-35 岁女性向番茄短故事读者，偏好追妻火葬场、先孕后婚、豪门撑腰、前任悔疯、女主清醒转身。",
+    "emotion_needs": [
+      "被轻视后的身份翻盘",
+      "旧爱误判女主价值后的强烈后悔",
+      "男二无条件托举带来的补偿感",
+      "公开场合反杀与正名",
+      "女主不纠缠、不自证、不回头的爽感"
+    ],
+    "genre_forbidden_zones": [
+      "女主回头原谅羞辱型前任",
+      "用孩子强行绑定虐待关系",
+      "女主长期雌竞或自降身价",
+      "男二只做工具人没有真实行动价值",
+      "结尾模糊和解、精神胜利、无实质惩罚",
+      "大段解释设定或散文化感悟"
+    ]
+  },
+  "market_positioning": {
+    "genre_profile": "urban_sweet_ceo",
+    "primary_selling_point": "七年错付后，女主带孕转身，年轻豪门男二全族撑腰，前任从自信拿捏到亲眼看她嫁入更高门第。",
+    "reader_promise": "看被前任贬低的清醒女主，不哭不求，凭一次转身完成感情、身份、财富和尊严的四重反杀。",
+    "dominant_s_point": "补偿型豪门正名 + 前任悔疯",
+    "emotional_debt_type": [
+      "七年错付债",
+      "公开羞辱债",
+      "身份低估债",
+      "情感替身债"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula": "T1_冲突结果式",
+        "template": "七年男友嫌我脏，我转身嫁给他小叔",
+        "fit": "强冲突、强身份反差，适合番茄首屏点击。"
+      },
+      {
+        "formula": "T3_死亡/离场倒计时式",
+        "template": "我怀孕离开后，前任在婚礼上悔疯了",
+        "fit": "突出离场与悔疯，适合追妻火葬场。"
+      },
+      {
+        "formula": "T5_身份撑腰式",
+        "template": "前任说我没人要，傅家连夜下聘",
+        "fit": "高补偿感，卖点直接，利于短故事转化。"
+      },
+      {
+        "formula": "反讽回旋式",
+        "template": "冷战他赢了，可我要嫁人了",
+        "fit": "继承原文核心金句，适合做章节钩子和封面副标题。"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.0,
+    "payment_card_target": 8.8,
+    "emotion_release_target": 9.2,
+    "ai_flavor_max": 1.0,
+    "plot_burst_density_target": 8.6,
+    "first_chapter_hook_min": 9.0,
+    "chapter_hook_coverage": 1.0,
+    "action_density_per_1000_chars_min": 8,
+    "forbidden_ai_phrase_tolerance": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "别墅客厅智能中控屏前",
+  "time": "警方初查后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "技术员",
+    "记者"
+  ],
+  "character_goal": "沈棠要拿出能让警方继续查下去的第一枚证据。",
+  "opposition_goal": "裴队要求她证明昨夜有人进入别墅且与沈家失踪有关。",
+  "conflict_action": "沈棠打开智能门铃后台，调出昨夜回放，暂停放大进门男人的手和袖口，并让技术员切换夜视模式。",
+  "information_gap": "进门男人为什么像哥哥，却在旧伤位置和袖口痕迹上出错。",
+  "emotional_debt_delta": "沈棠从被动质疑转为主动举证，智性爽感第一次露头。",
+  "payoff_or_hook": "旧伤错位证明进门者不是沈棠真正的哥哥。",
+  "chapter_end_hook": "夜视画面停住的一瞬间，我看见他右手无名指上有一道疤。",
+  "paywall_card": false,
+  "must_include": [
+    "智能门铃回放",
+    "夜视模式",
+    "哥哥旧伤左右手错位",
+    "袖口暗斑",
+    "沈棠要求技术员保存原始视频"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成沈棠凭感觉认人",
+    "不要细说暗斑来源",
+    "不要让视频直接给出凶手身份"
+  ]
+}

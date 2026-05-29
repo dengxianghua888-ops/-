@@ -1,0 +1,30 @@
+{
+  "story_slug": "batch_v3_02_family_ethics",
+  "title": "骨灰盒",
+  "run_date": "2026-05-26",
+  "gate_status": "pass",
+  "machine_metrics": {
+    "nonspace_chars": 10000,
+    "chapter_count": 12,
+    "rhythm_fit": "pass",
+    "source_avg_line_chars": 23.546,
+    "candidate_avg_line_chars": 20.653,
+    "source_short_line_rate": 0.3107,
+    "candidate_short_line_rate": 0.3077,
+    "source_quote_line_rate": 0.3832,
+    "candidate_quote_line_rate": 0.3119,
+    "candidate_barrage_line_rate": 0.0,
+    "ai_forbidden_words": 0,
+    "narration_crutches": 1,
+    "source_overlap_4gram": 0.0116,
+    "meta_leak": 0
+  },
+  "quality_notes": {
+    "contradiction_moment": "母亲哭着道歉时女主在吃火锅——生活已经跟他们无关了",
+    "opening_hook": "女主在母亲床边换尿袋时，手机弹出摄像头异常移动提醒",
+    "gold_sentences": [
+      "你以为的牺牲，是别人设计好的剧本",
+      "我不是天生适合伺候人，我只是被骗了太久"
+    ]
+  }
+}

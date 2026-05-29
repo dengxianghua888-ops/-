@@ -1,0 +1,26 @@
+phase: 5
+key: final
+role: Finalizer
+title: 可投稿包与学习资产定稿
+system_prompt: prompts/finalizer.md
+human_gate: none
+retryable: false
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/forbidden-and-preferred.md
+  - story/draft.md
+  - story/review.md
+  - story/diff.md
+  - story/quality-report.json
+  - story/analysis/soul-contract.md
+  - story/analysis/reader-engine.md
+  - story/analysis/tension-ledger.md
+  - story/analysis/platform-fit.md
+required_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - story.yaml
+validators:
+  - validate-story:final

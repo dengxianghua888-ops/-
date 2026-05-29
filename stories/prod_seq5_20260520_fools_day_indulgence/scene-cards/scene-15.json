@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 700,
+  "target_chars_max": 830,
+  "location": "道路救援事故医院走廊",
+  "time": "数月后",
+  "pov": "第一人称，许知意",
+  "characters": [
+    "许知意",
+    "记者",
+    "基金会工作人员",
+    "陆景珩遗物交接人"
+  ],
+  "character_goal": "许知意要处理陆景珩死亡后的遗物和舆论追问，不让死亡变成和解筹码",
+  "opposition_goal": "媒体要追问她是否原谅，舆论试图把陆景珩塑造成深情赎罪者",
+  "conflict_action": "许知意到医院签收基金文件和遗物袋，面对镜头追问，明确把陆景珩定义为普通救援者，同时拒绝用死亡抵消婚姻旧债",
+  "information_gap": "遗物袋里的婚戒已修复，最终去向暂留到结尾",
+  "emotional_debt_delta": "男主赎罪落地但不洗白；女主可以落泪，却不被道德绑架",
+  "payoff_or_hook": "她说值得哀悼的是救人，不是把伤害一笔勾销",
+  "chapter_end_hook": "救援事故新闻里，陆景珩的遗物袋装着修复好的婚戒。",
+  "paywall_card": false,
+  "must_include": [
+    "道路救援事故",
+    "陆景珩死亡消息",
+    "媒体追问是否原谅",
+    "遗物袋",
+    "修复好的婚戒"
+  ],
+  "must_not_write_as_exposition": [
+    "不要死亡洗白",
+    "不要临终和解",
+    "不要让女主承认仍属于他"
+  ]
+}

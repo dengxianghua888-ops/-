@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 700,
+  "target_chars_max": 950,
+  "location": "海城机场国际出发口",
+  "time": "第六天深夜",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "周毓兰", "机场地勤", "陆闻舟"],
+  "character_goal": "叶昭想带外婆登上去新加坡的航班并断开旧关系联系。",
+  "opposition_goal": "陆闻舟想通过电话和定位把叶昭拉回原来的安排里。",
+  "conflict_action": "叶昭推着外婆过安检，拔出国内SIM卡掰断，换上新加坡临时号码。",
+  "information_gap": "陆闻舟赶到旧照相馆时，叶昭已经过了边检；他不知道她的新号码。",
+  "emotional_debt_delta": "离境断联完成，男主所有补救进入迟到状态。",
+  "payoff_or_hook": "登机广播响起，叶昭把国内SIM卡丢进垃圾桶。",
+  "chapter_end_hook": "国内SIM卡被叶昭掰断，落进机场垃圾桶。",
+  "paywall_card": true,
+  "must_include": [
+    "登机牌",
+    "轮椅快速通道",
+    "国内SIM卡被掰断",
+    "新加坡临时号码",
+    "陆闻舟打来的最后一通未接电话"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成轻飘飘出国",
+    "不要夸大海外治疗效果",
+    "不要让陆闻舟在机场追上"
+  ]
+}

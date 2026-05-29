@@ -1,0 +1,128 @@
+schema_version: 1
+pipeline_mode: production
+title: 全校以为我晕血，其实我代号寒灯
+genre:
+  - 悬疑推理
+  - 女强
+  - 校园刑侦
+status: final
+runner_policy:
+  external_allowed: false
+audit:
+  provider: openai
+  model: GPT-5
+  source:
+    draft: story/draft.md
+    diff: story/diff.md
+    review: story/review.md
+    quality_report: story/quality-report.json
+    evaluations:
+      platform: story/evaluation/platform.json
+      emotion: story/evaluation/emotion.json
+      style: story/evaluation/style.json
+      logic: story/evaluation/logic.json
+quality_gate:
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 8.7
+    style: 8.4
+    logic: 8.1
+  machine_metrics:
+    target_length:
+      min: 10000
+      max: 18000
+      actual: 12716
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 10
+      status: pass
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+chapters:
+  - file: final-chapters/ch01.md
+    title: 第一章
+    hook: 第七例已入校
+  - file: final-chapters/ch02.md
+    title: 第二章
+    hook: 许曼衣柜里藏着第六名失踪女生编号玩偶
+  - file: final-chapters/ch03.md
+    title: 第三章
+    hook: 第六名女生昨夜仍在旧解剖楼
+  - file: final-chapters/ch04.md
+    title: 第四章
+    hook: 冷库标签写明第七例林照
+  - file: final-chapters/ch05.md
+    title: 第五章
+    hook: 许曼手写冷库坐标
+  - file: final-chapters/ch06.md
+    title: 第六章
+    hook: 播放心电音的账号是纪白工号
+  - file: final-chapters/ch07.md
+    title: 第七章
+    hook: 纪白烫痕与第七例标签边缘吻合
+  - file: final-chapters/ch08.md
+    title: 第八章
+    hook: 纪白亲口要求第七例去冷库
+  - file: final-chapters/ch09.md
+    title: 第九章
+    hook: 馆长要见寒灯
+  - file: final-chapters/ch10.md
+    title: 第十章
+    hook: 匿名论坛倒计时寒灯入库
+  - file: final-chapters/ch11.md
+    title: 第十一章
+    hook: 江砚邀请第八盏灯去影像室
+  - file: final-chapters/ch12.md
+    title: 第十二章
+    hook: 林照收到自己的新病例遗照
+  - file: final-chapters/ch13.md
+    title: 第十三章
+    hook: 江砚准确叫出寒灯
+  - file: final-chapters/ch14.md
+    title: 第十四章
+    hook: 入库还是入会
+  - file: final-chapters/ch15.md
+    title: 第十五章
+    hook: 馆长从来不用自己的手
+  - file: final-chapters/ch16.md
+    title: 第十六章
+    hook: 馆长发来林照儿时病例并欢迎归档
+submission:
+  titles:
+    A: 全校以为我晕血，其实我代号寒灯
+    B: 晕血护理生入校后，连环失踪案露出第七例
+    C: 我伪装成胆小新生，抓出医学院寒灯档案馆
+  tags:
+    - 悬疑推理
+    - 女强
+    - 校园
+    - 马甲
+    - 刑侦
+    - 反转
+    - 连环失踪
+    - 证据流
+    - 短篇完结
+    - 续篇钩子
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260508_225124
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 510,
+  "target_chars_max": 670,
+  "location": "童药堂门口、后巷",
+  "time": "同日午后",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "苏云屏",
+    "童药堂管事",
+    "药工"
+  ],
+  "character_goal": "沈照棠要进童药堂见阿砚，确认孩子是否平安。",
+  "opposition_goal": "苏云屏要阻断母子见面，陆衡舟要维护所谓戒训规矩。",
+  "conflict_action": "沈照棠拍门喊阿砚，守门药工用铁栓顶住门；她把求见信塞进门缝，苏云屏当面撕碎，陆衡舟赶来后按住她肩膀逼她给苏云屏赔罪。",
+  "information_gap": "门内传出孩子压着嗓子的咳声，但谁伤了他还不明。",
+  "emotional_debt_delta": {
+    "added": [
+      "母亲被挡在孩子受害空间外",
+      "反派截信明牌",
+      "男主逼女主向加害者低头"
+    ],
+    "paid": [],
+    "balance_after": "母子被权力强行隔开，童药堂成为恐惧空间。"
+  },
+  "payoff_or_hook": "门缝滚出带血布条，证明阿砚处境恶化。",
+  "chapter_end_hook": "童药堂后门落锁，门缝里滚出一截带血的布条。",
+  "paywall_card": false,
+  "must_include": [
+    "铁栓顶门",
+    "求见信被撕碎",
+    "沈照棠被迫跪下或低头",
+    "门内压低的孩子咳声",
+    "带血布条"
+  ],
+  "must_not_write_as_exposition": [
+    "不要介绍童药堂历史。",
+    "不要写虐童细节，只写咳声、布条和门锁。",
+    "不要让陆衡舟不在场，他必须亲自压下沈照棠。"
+  ],
+  "target_chars": 530,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

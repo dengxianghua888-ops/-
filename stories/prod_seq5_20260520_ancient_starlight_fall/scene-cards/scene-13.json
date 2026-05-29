@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 740,
+  "target_chars_max": 880,
+  "location": "婚礼后台临时指挥室",
+  "time": "婚礼危机爆发后二十分钟内",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "海外发行负责人", "院线总裁", "版权代理", "谢氏法务"],
+  "character_goal": "谢砚要稳住发行盘并反手锁定陆沉舟违约证据。",
+  "opposition_goal": "陆沉舟要让谢氏片单无法按期发行，逼资本撤出。",
+  "conflict_action": "谢砚连续拨通三方电话，调回海外发行盘、补上院线排片、反买版权并冻结备用资金。",
+  "information_gap": "法务手里的税务和对赌材料还没公开。",
+  "emotional_debt_delta": "-婚礼破坏债部分偿还；+男二真实能力兑现",
+  "payoff_or_hook": "谢砚从玩票少爷显露为能调度院线、发行、版权的人。",
+  "chapter_end_hook": "谢砚按下通话免提：“二十分钟，把海外发行盘调回来。”",
+  "paywall_card": false,
+  "must_include": ["二十分钟倒计时", "海外发行盘", "院线排片", "反买版权", "备用资金"],
+  "must_not_write_as_exposition": ["不要只说谢砚很厉害", "不要用黑客入侵", "不要让行业术语拖慢节奏"]
+}

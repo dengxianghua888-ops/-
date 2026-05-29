@@ -1,0 +1,93 @@
+{
+  "story_slug": "prod_seq5_20260518_ancient_be_winter_dream",
+  "pipeline_mode": "production",
+  "genre": "ancient_BE",
+  "mechanisms": [
+    "M1: death-trigger evidence chain",
+    "M4: soul-perspective after death",
+    "M5: warmth-to-coldness reversal",
+    "M6: layered public reckoning"
+  ],
+  "target_length": {
+    "min": 12000,
+    "max": 15000
+  },
+  "final_length": 12679,
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.8,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "归零倒计时还剩三分钟。",
+      "reuse_fact": "首章末用死亡倒计时把被迫签署转成主动反击预告。"
+    },
+    {
+      "chapter": 4,
+      "hook": "你早该消失了。",
+      "reuse_fact": "反派在关键证据只导出半页时打断，形成早段付费悬念。"
+    },
+    {
+      "chapter": 7,
+      "hook": "我的生命体征归零，沈澜星手上的婚戒同步裂成两段。",
+      "reuse_fact": "死亡结果与婚姻绑定物件同步崩裂，完成关系债具象化。"
+    },
+    {
+      "chapter": 9,
+      "hook": "低温库门打开，九个空舱同时亮起红灯。",
+      "reuse_fact": "九枚胚囊债用编号、空舱、红灯同时偿还，比旁白控诉更强。"
+    },
+    {
+      "chapter": 13,
+      "hook": "全星环观众看见裴砚亲手录下的第一条伪神谕。",
+      "reuse_fact": "发布会直播把伪神谕从私密罪证转成公开处刑。"
+    },
+    {
+      "chapter": 17,
+      "hook": "旧世界最后一封忏悔信追到星门边缘，被系统直接焚毁。",
+      "reuse_fact": "忏悔信不读、不保留、不转交，明确拒绝破镜重圆。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 4,
+      "card": "九枚胚囊转移记录刚出现，裴砚用病危警报打断导出，留下半页证据悬念。",
+      "trigger_line": "你早该消失了。"
+    },
+    {
+      "chapter": 6,
+      "card": "沈澜星第一次打开死亡触发报案包，第一页就是她授权的第一枚胚囊死亡确认。",
+      "trigger_line": "第一枚胚囊死亡确认。"
+    },
+    {
+      "chapter": 9,
+      "card": "低温库九个空舱同时亮红灯，胚囊失踪从单案升级为连续罪证。",
+      "trigger_line": "低温库门打开，九个空舱同时亮起红灯。"
+    },
+    {
+      "chapter": 12,
+      "card": "加冕发布会前，沈澜星把裴砚继承认证锁入直播主控台。",
+      "trigger_line": "加冕发布会开始前，沈澜星把裴砚的继承人认证锁进了全息直播主控台。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "第九枚胚囊",
+    "承孕腺摘除",
+    "死亡触发证据链",
+    "报案端口冻结",
+    "亲缘码断裂",
+    "九个空舱",
+    "伪神谕原声",
+    "发布会公开清算",
+    "赦免权限拒绝",
+    "忏悔信拒收",
+    "新星域身体修复",
+    "热汤补偿尾"
+  ],
+  "manual_revision_delta": []
+}

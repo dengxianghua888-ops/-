@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "停用样板校区奖杯墙、样板教室",
+  "time": "次日上午",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "秦律师"],
+  "character_goal": "在旧校区找到能证明弟弟存在的实物",
+  "opposition_goal": "秦律师只愿旁观，不愿主动解释姥爷布局",
+  "conflict_action": "我撬开奖杯墙背板、翻桌斗和旧教案，逼出被藏的人事登记表",
+  "information_gap": "残缺登记表上的'沈'字指向谁，姥爷为何把证据留在这里",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "外部弟弟不再只是口头传闻，开始有物证轮廓",
+  "chapter_end_hook": "一张边角发黑的登记表滑出来，姓名栏只剩一个'沈'字。",
+  "paywall_card": false,
+  "must_include": [
+    "旧校区要有奖杯墙、状元海报等高考神话视觉",
+    "登记表残损，不能直接给出全名",
+    "秦律师知道更多但故意只给半步"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段写教培行业背景",
+    "不要详细说明校区布局",
+    "不要一次性解释登记表来源"
+  ],
+  "rhythm_job": {
+    "shape": "搜证动作 35% + 半句对答 25% + 物证出现 30% + 章尾钩 10%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "奖杯上落灰、指尖被划一下这类小动作承接"
+  }
+}

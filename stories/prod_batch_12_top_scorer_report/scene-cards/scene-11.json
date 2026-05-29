@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 550,
+  "target_chars_max": 750,
+  "location": "林家旧公寓 / 公证录像室",
+  "time": "次日上午",
+  "pov": "林知夏第一人称",
+  "characters": [
+    "林知夏",
+    "民警陈岑",
+    "公证员",
+    "录像里的养父母"
+  ],
+  "character_goal": "查明解除收养协议是否是养父母真正的抛弃。",
+  "opposition_goal": "反派留下的文本要继续伤害她，让她以为自己被亲人主动切断。",
+  "conflict_action": "林知夏在警方陪同下调取签署协议的原始录像，逐帧看见养母握笔前敲了三下桌面，养父用口型留下保单提示。",
+  "information_gap": "养父母为什么要用最残忍的文本保护她。",
+  "emotional_debt_delta": "高光日被抛弃的情绪债开始偿还，但痛感更深。",
+  "payoff_or_hook": "解除收养协议从抛弃证据反转为保护证据。",
+  "chapter_end_hook": "她拿到养父母留下的原始录音，第一句却是：知夏，别回林家。",
+  "paywall_card": false,
+  "must_include": [
+    "养母敲桌三下作为旧暗号",
+    "养父口型说保单",
+    "林知夏手抖但按下继续播放",
+    "警方记录原始录像来源"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇回忆养父母往事",
+    "不要把解除收养包装成理所当然的伤害",
+    "不要让录像直接解释全案"
+  ]
+}

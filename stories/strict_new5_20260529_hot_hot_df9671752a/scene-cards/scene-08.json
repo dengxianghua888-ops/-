@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 810,
+  "target_chars_max": 870,
+  "location": "地堡外墙破口",
+  "time": "深夜后半",
+  "pov": "祁砚",
+  "characters": ["祁砚", "秦岚", "外墙士兵", "观察员"],
+  "character_goal": "祁砚想确认沈梨雾位置并恢复花房权限",
+  "opposition_goal": "秦岚想封住现场，证明自己纪律正确",
+  "conflict_action": "祁砚驾驶装甲车撞开封锁门，夺取外墙控制台",
+  "information_gap": "他知道沈梨雾被供养是封印维护",
+  "emotional_debt_delta": "-1 真相临近",
+  "payoff_or_hook": "祁砚看见花房空了，脸色第一次变白",
+  "chapter_end_hook": "祁砚冲进花房，只看见空了的恒温床。",
+  "paywall_card": false,
+  "must_include": ["装甲车刹停", "祁砚问她人呢", "秦岚仍说纪律无错"],
+  "must_not_write_as_exposition": ["不要写前线战况长段", "不要让祁砚抢走女主主线", "不要提前完整揭女皇身份"],
+  "rhythm_job": {
+    "shape": "男性守护者只负责揭幕，快问快答，空花房卡章",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "祁砚先捡起地上的半只白手套，再看向秦岚"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "S15",
+  "beat_id": "B15",
+  "target_chars_min": 760,
+  "target_chars_max": 920,
+  "location": "援助站门口墙上+省第二看守所手工劳动间(双线收束)",
+  "time": "工坊重开第三个月",
+  "pov": "first_person_林承",
+  "characters": ["林承", "王嬷嬷(B13 老姨)", "援助站第一位顾客", "张松(狱中,旁白镜头)"],
+  "character_goal": "低头给王嬷嬷办理免费咨询,把儿子十年前的卷宗收进档案柜",
+  "opposition_goal": "无明显对抗,只剩生活节拍",
+  "conflict_action": "王嬷嬷把卷宗放在桌上,墙上挂上一面写着'公道在民,正气长存'的锦旗,镜头切到看守所手工劳动间,张松在糊纸盒,反复念叨'PH试纸、酸碱'",
+  "information_gap": "无新信息,完成价值收束",
+  "emotional_debt_delta": "0 完成清算",
+  "payoff_or_hook": "M3 第三次回旋(收束):林承对前来的小商户说'以后他们认定你什么,你就让他们盖章;他们盖什么章,你就让他们按什么赔'",
+  "chapter_end_hook": "张松在牢里把PH试纸念成'酸碱、酸碱'，像我家团团两岁时学说话。",
+  "paywall_card": false,
+  "must_include": [
+    "锦旗具体字样:'公道在民,正气长存'",
+    "M3 金句第三次回旋(浓缩升华版),由林承低头说出,不发表演讲",
+    "张松狱中糊纸盒的具体动作 + 至少 2 个具体生活物件(墙上挂历、马扎、纸盒胶水)",
+    "结尾把团团两岁学'酸碱'与张松念叨形成余味回响,不抒情"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写正义升华大段独白",
+    "不要让张松良心发现",
+    "不要让锦旗成为唯一物件,需要至少 2 个具体生活细节"
+  ],
+  "rhythm_job": {
+    "shape": "援助站动作→金句回旋→双线切到狱中→童言收束",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "low_pressure_buffer": "马扎吱呀 + 胶水味 + 墙上日历翻页 + 援助站门口阳光斜照"
+  }
+}

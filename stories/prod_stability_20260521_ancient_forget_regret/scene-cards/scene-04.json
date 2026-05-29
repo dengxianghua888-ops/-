@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "漕仓药室",
+  "time": "次日清早",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "守门家丁"
+  ],
+  "character_goal": "保住孩子，逼谢临舟请大夫。",
+  "opposition_goal": "谢临舟要让她安静熬过婚前，不许任何医者近身露出破绽。",
+  "conflict_action": "谢临舟端来安胎点心哄她吃下；药性发作后她抱腹去砸门，谢临舟按着门框不许人请医。",
+  "information_gap": "他是无意还是明知下药；腹中的孩子还有没有机会。",
+  "emotional_debt_delta": "+2：男主亲手下药且拒医。",
+  "payoff_or_hook": "血从她裙角蜿蜒下去，谢临舟却只说：\"别闹到喜宴前。\"",
+  "chapter_end_hook": "血从她裙角蜿蜒下去，谢临舟却只说：\"别闹到喜宴前。\"",
+  "paywall_card": true,
+  "must_include": [
+    "“安胎点心”与腹痛形成反讽",
+    "她砸门或抓门槛求医的具体动作",
+    "谢临舟明确拒绝请医"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释药材成分",
+    "不要把痛感写成空泛比喻",
+    "不要减轻谢临舟的知情程度"
+  ],
+  "rhythm_job": {
+    "shape": "1句假温柔 -> 2次身体后果升级 -> 1句极冷判词卡尾",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白5成，动作4成，留白1成",
+    "hook_line_required": true
+  }
+}

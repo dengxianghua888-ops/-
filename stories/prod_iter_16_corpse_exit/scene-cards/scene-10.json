@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 600,
+  "target_chars_max": 740,
+  "location": "发布会台前水景池旁",
+  "time": "倒计时8小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "沈清禾", "江童", "江栀", "保安", "媒体"],
+  "character_goal": "江沉用旧结婚证和孩子出生腕带证明自己才是丈夫和父亲。",
+  "opposition_goal": "沈清禾要毁掉旧证据，江童要维护贺景衡父亲身份。",
+  "conflict_action": "沈清禾把旧证件摔进水景池，江童用安全帽砸江沉膝盖，江栀命保安按住江沉。",
+  "information_gap": "江沉不知道旧证件已被沈清禾提前申请作废。",
+  "emotional_debt_delta": "+亲子证据被毁；+孩子当众否认亲父；+姐姐当众镇压",
+  "payoff_or_hook": "主角最后一次争辩失败，进入证据公开与死亡离场倒计时。",
+  "chapter_end_hook": "系统弹窗：【是否上传全部证据？倒计时：8小时。】",
+  "paywall_card": false,
+  "must_include": ["旧结婚证", "出生腕带", "水景池", "孩子砸安全帽", "系统弹窗"],
+  "must_not_write_as_exposition": ["不要让江沉讲长篇道理", "不要让孩子道歉", "不要让沈清禾有无辜犹豫"]
+}

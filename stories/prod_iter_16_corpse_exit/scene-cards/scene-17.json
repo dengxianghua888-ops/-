@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "beat-17",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "码头监控室",
+  "time": "江沉死亡脱离后三小时",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "江栀", "沈清禾", "江父", "江母", "贺景衡", "安全主管", "包工头"],
+  "character_goal": "众人查看江沉死前录像，寻找事故原因。",
+  "opposition_goal": "贺景衡要切断录像，阻止毒气陷害和威胁内容外泄。",
+  "conflict_action": "安全主管播放安全帽录像，把毒气浓度报告拍上桌，江栀夺过遥控器反复回放贺景衡威胁画面。",
+  "information_gap": "江栀才意识到她安排的羞辱项目，被贺景衡加码成真实伤害。",
+  "emotional_debt_delta": "-江沉控诉被硬证据坐实；-江栀磨炼话术反噬；-贺景衡主动施害露出",
+  "payoff_or_hook": "第四付费级卡点：姐姐安排的羞辱被假少爷加码成真实凌辱和毒气陷害。",
+  "chapter_end_hook": "包工头被带进监控室，说：江总只让我羞辱他，开毒阀是贺少吩咐的。",
+  "paywall_card": true,
+  "must_include": ["安全帽录像", "贺景衡威胁", "毒气浓度报告", "江栀反复回放", "包工头供词"],
+  "must_not_write_as_exposition": ["不要只说证据很多", "不要洗白江栀", "不要让贺景衡轻易逃离现场"]
+}

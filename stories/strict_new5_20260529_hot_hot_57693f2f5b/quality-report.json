@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260529_hot_hot_57693f2f5b/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11114,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        765,
+        747,
+        748,
+        772,
+        746,
+        774,
+        743,
+        788,
+        845,
+        876,
+        859,
+        857,
+        751,
+        732
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 80,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 27,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11114,
+      "sentence_count": 995,
+      "avg_sentence_length": 10.17,
+      "dialogue_ratio": 0.1597,
+      "question_marks": 31,
+      "question_marks_per_k": 2.789,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "手心": 2,
+        "喉咙": 1,
+        "指甲": 1,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 1
+      },
+      "action_density_per_k": 32.392
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 11092,
+        "line_count": 467,
+        "avg_line_chars": 23.752,
+        "median_line_chars": 20.0,
+        "short_line_rate": 0.4069,
+        "long_line_rate": 0.1413,
+        "quote_line_rate": 0.3212,
+        "barrage_line_rate": 0.0021,
+        "question_marks_per_k": 5.59,
+        "comma_period_ratio": 1.624,
+        "sentence_avg_len": 20.6
+      },
+      "candidate": {
+        "chars": 10560,
+        "line_count": 558,
+        "avg_line_chars": 18.925,
+        "median_line_chars": 17.5,
+        "short_line_rate": 0.4713,
+        "long_line_rate": 0.0305,
+        "quote_line_rate": 0.2903,
+        "barrage_line_rate": 0.2061,
+        "question_marks_per_k": 2.936,
+        "comma_period_ratio": 0.365,
+        "sentence_avg_len": 10.2
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 366,
+      "unique_sentence_skeletons": 364,
+      "max_sentence_repeats": 3,
+      "max_sentence_repeat_ratio": 0.0082
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.3,
+    "emotion": 8.0,
+    "style": 7.4,
+    "logic": 7.5
+  },
+  "evidence": [
+    "第1章前150字：猝死、十年赔偿/网暴、顾临川质问、重回药箱现场，形成明确开篇钩。",
+    "第4章：退群、停机、封闭山区项目，完成失联卡点。",
+    "第8章：协调会互咬，热搜从冷血社工变成前社工失联。",
+    "第11章：监控显示许曼拔掉低温柜插头，核心真相爆点成立。",
+    "第12章：众筹流水和赵姐辛苦费把许曼、赵慧、物业三方责任扣合。"
+  ]
+}

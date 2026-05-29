@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 790,
+  "target_chars_max": 850,
+  "location": "法院外台阶",
+  "time": "宣判日午后",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "顾砚舟律师",
+    "沈知宁",
+    "陆承安",
+    "媒体记者"
+  ],
+  "character_goal": "确认财产、专利收益和债务未受益的清算结果",
+  "opposition_goal": "沈知宁想把责任推给陆承安并求顾砚舟撤回追责",
+  "conflict_action": "律师宣读判决要点，陆承安被带走配合调查，沈知宁追下台阶求他停手",
+  "information_gap": "顾念安如何面对结果留到下一场",
+  "emotional_debt_delta": "规则债+3：一百万对照巨额返还和不担债",
+  "payoff_or_hook": "财产、事业、法律代价落地",
+  "chapter_end_hook": "截断句：判决书最后一页落下，沈知宁才知道一百万买不走我的五年。",
+  "paywall_card": false,
+  "must_include": [
+    "返还资产和专利收益的判决方向",
+    "顾砚舟不承担未受益债务",
+    "陆承安现实代价",
+    "媒体短评但不让舆论替代判决"
+  ],
+  "must_not_write_as_exposition": [
+    "不要一句话万能判决",
+    "不要细写不确定法条",
+    "不要把陆承安只写成被骂"
+  ],
+  "rhythm_job": {
+    "shape": "判决要点短句化，人物下台阶动作，章尾金额对照",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "mix": "证据结果约35%，动作约30%，对白约25%，媒体评论约10%；强压词只用一次追问，后接台阶停步"
+  }
+}

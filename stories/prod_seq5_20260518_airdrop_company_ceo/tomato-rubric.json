@@ -1,0 +1,50 @@
+{
+  "story": "stories/prod_seq5_20260518_airdrop_company_ceo",
+  "overall_score": 8.71,
+  "dimensions": {
+    "length_alignment": {
+      "score": 9.91,
+      "evidence": "总字数 13283,章节方差 32.2"
+    },
+    "hook_density": {
+      "score": 5.62,
+      "evidence": "9/16 强钩,弱钩章: ch01,ch06,ch07,ch08,ch10,ch11,ch16",
+      "weak_chapters": [
+        "ch01",
+        "ch06",
+        "ch07",
+        "ch08",
+        "ch10",
+        "ch11",
+        "ch16"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 29.888/k"
+    },
+    "style_signature": {
+      "score": 9.07,
+      "evidence": "平均句长 10.325,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch01",
+    "ch06",
+    "ch07",
+    "ch08",
+    "ch10",
+    "ch11",
+    "ch16"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

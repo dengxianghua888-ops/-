@@ -1,0 +1,348 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_midpoint": 10680
+  },
+  "title": "老婆嫌我是免费护工，我离婚后她悔疯了",
+  "genre": "现代婚恋反转 / 家庭伦理复仇 / 低估者翻身",
+  "mechanisms": {
+    "M2": "沈砚从被轻贱的售后维修员、免费护工，逐步揭示为康复辅具工程师、专利授权人、适老化项目负责人。",
+    "M3": "免费护工、没本事、不如小舅、一家人别报警等羞辱母句在后文以证据和边界回旋。",
+    "M5": "前半写十年照护的温度，中段离婚归零，后半只保留法律义务，不再情感兜底。",
+    "M6": "生活撤场、离婚签字、证据打脸、专利授权、样板间财产、报警清算、行业升维、离城切断逐层递进。"
+  },
+  "budget_distribution": {
+    "opening": {
+      "target_chars_midpoint": 1390,
+      "ratio": 0.13,
+      "beat_ids": ["B01", "B02"]
+    },
+    "pressure_accumulation": {
+      "target_chars_midpoint": 3020,
+      "ratio": 0.28,
+      "beat_ids": ["B03", "B04", "B05", "B06"]
+    },
+    "climax_reversal": {
+      "target_chars_midpoint": 4130,
+      "ratio": 0.39,
+      "beat_ids": ["B07", "B08", "B09", "B10"],
+      "note": "反杀集中在离婚证据、专利身份、样板间财产、报警清算四个高压章节内完成。"
+    },
+    "resolution": {
+      "target_chars_midpoint": 2140,
+      "ratio": 0.20,
+      "beat_ids": ["B11", "B12", "B13", "B14"],
+      "note": "收束不写和解，只写求原谅失败、行业反噬和离城断联。"
+    }
+  },
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars_min": 660,
+      "target_chars_max": 730,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "沈砚把录音保存，低声说：明早九点，民政局。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "林承安抱着无人机喊小舅，沈砚手里的雾化器滤芯被撞落在地。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars_min": 690,
+      "target_chars_max": 780,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "老师当众念出家长协作名单，林承安把沈砚的名字划掉。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars_min": 730,
+      "target_chars_max": 830,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "岳父一巴掌落下，沈砚摸到嘴角的血，第一次拨出报警页面。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars_min": 710,
+      "target_chars_max": 810,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "沈砚抽走最后一张哮喘急救卡，林知夏才发现冰箱门空了。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars_min": 730,
+      "target_chars_max": 840,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "离婚协议签完，岳母开始翻他的行李箱。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars_min": 950,
+      "target_chars_max": 1070,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "设备后台跳出绑定位置：林泽宇的公文包。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars_min": 980,
+      "target_chars_max": 1100,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "授权合同盖章，三百万到账短信亮在沈砚掌心。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars_min": 970,
+      "target_chars_max": 1090,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "项目经理对着林知夏弯腰：沈工，样板间钥匙给您。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars_min": 970,
+      "target_chars_max": 1100,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "民警问是否调解，沈砚看着林知夏说：不和解。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars_min": 600,
+      "target_chars_max": 700,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "急诊监控里，林泽宇把坚果能量棒塞进林承安手里。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars_min": 610,
+      "target_chars_max": 720,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "林知夏跪在雨里喊丈夫，沈砚关上车窗。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars_min": 540,
+      "target_chars_max": 640,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "行业会大屏弹出抄袭比对，林泽宇的脸色白了。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars_min": 520,
+      "target_chars_max": 600,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "新手机开机，旧号码卡被沈砚掰断。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 660,
+      "target_chars_max": 730,
+      "scene_location": "网约车后座到林家楼下",
+      "character_goal": "沈砚接醉酒妻子回家，并确认这段婚姻是否还值得维持。",
+      "conflict_action": "林知夏借酒把沈砚定义成没本事赘婿和免费护工，沈砚录下关键羞辱并决定离婚。",
+      "information_gap": "沈砚手机里被打断的专利电话和旧图纸暂不解释，只露出一眼。",
+      "emotion_debt_balance": "新增妻子公开羞辱债；沈砚的沉默形成压抑债。",
+      "chapter_end_hook": "沈砚把录音保存，低声说：明早九点，民政局。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要解释十年婚姻史", "不能把醉话洗白成误会"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "林家客厅",
+      "character_goal": "沈砚递出离婚协议，拿回自己作为丈夫的边界。",
+      "conflict_action": "林知夏轻飘飘否认醉话，林承安抱着小舅送的无人机踩碎雾化器滤芯包装。",
+      "information_gap": "竞赛报名费被谁挪用不立刻揭穿。",
+      "emotion_debt_balance": "新增儿子第一次站队小舅债；雾化器滤芯成为亲子痛点。",
+      "chapter_end_hook": "林承安抱着无人机喊小舅，沈砚手里的雾化器滤芯被撞落在地。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成家庭日常流水账", "不能让沈砚争宠", "不要提前揭露林泽宇挪钱"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 690,
+      "target_chars_max": 780,
+      "scene_location": "学校家长开放日与亲子复健体验课",
+      "character_goal": "沈砚按计划参加孩子活动，保住最后一点父职体面。",
+      "conflict_action": "林承安当众要求林泽宇替代父亲上台，称沈砚只是修机器的。",
+      "information_gap": "体验设备为什么被沈砚一眼看出参数错误，先让老师和家长误会。",
+      "emotion_debt_balance": "新增亲子公开羞辱债；埋下专业能力伏笔。",
+      "chapter_end_hook": "老师当众念出家长协作名单，林承安把沈砚的名字划掉。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写教育理念长段", "不要复述活动流程", "不要把儿子写成纯恶成年人"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 730,
+      "target_chars_max": 830,
+      "scene_location": "林家客厅，康复脚踏机旁",
+      "character_goal": "沈砚要求林泽宇为错误设备参数和挪用报名费道歉。",
+      "conflict_action": "林泽宇装委屈，岳父推倒脚踏机并掌掴沈砚，林知夏要求沈砚向小舅道歉。",
+      "information_gap": "报警页面只停在拨号前，先让读者等法律清算。",
+      "emotion_debt_balance": "新增岳父暴力债、妻子偏袒债；第一付费级卡点形成。",
+      "chapter_end_hook": "岳父一巴掌落下，沈砚摸到嘴角的血，第一次拨出报警页面。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要美化家暴", "不要让沈砚互殴", "不能用一家人和稀泥收场"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 710,
+      "target_chars_max": 810,
+      "scene_location": "厨房、冰箱、药箱柜",
+      "character_goal": "沈砚交接照护系统，证明自己不是可有可无的免费劳力。",
+      "conflict_action": "他逐项取走慢病药盒复健表、哮喘急救卡和胃病餐单，只留下复印件签收。",
+      "information_gap": "林家暂时不懂这些清单的真正价值，后面用崩盘兑现。",
+      "emotion_debt_balance": "部分兑现照护价值被看见的蓄爽；新增岳家依赖恐慌。",
+      "chapter_end_hook": "沈砚抽走最后一张哮喘急救卡，林知夏才发现冰箱门空了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要复述协议条款", "不要写成长篇清单说明", "不能让沈砚继续替他们安排后续"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 730,
+      "target_chars_max": 840,
+      "scene_location": "民政局门口与林家玄关",
+      "character_goal": "沈砚完成离婚签字，搬走个人物品。",
+      "conflict_action": "林知夏赌气签字，岳家要求净身出户，岳母趁乱翻箱找定制助听器。",
+      "information_gap": "助听器真实去向延迟到下一章公开打脸。",
+      "emotion_debt_balance": "关系断裂债结清；新增诬陷债。",
+      "chapter_end_hook": "离婚协议签完，岳母开始翻他的行李箱。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写离婚手续细节", "不要解释财产法条", "不能让林知夏立刻后悔"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 950,
+      "target_chars_max": 1070,
+      "scene_location": "楼道与电梯口",
+      "character_goal": "沈砚用公开证据洗清偷助听器的诬陷。",
+      "conflict_action": "岳母拦门喊邻居围观，沈砚打开维修后台和设备绑定编号，定位到林泽宇包里。",
+      "information_gap": "林泽宇为什么有后台权限暂不解释，留到行业会抄袭。",
+      "emotion_debt_balance": "兑现岳母诬陷债；邻居见证形成第一轮公开打脸。",
+      "chapter_end_hook": "设备后台跳出绑定位置：林泽宇的公文包。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": ["不要写旁观者反应清单", "不要把设备原理讲成长段", "不能让林泽宇靠哭逃过现场"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 980,
+      "target_chars_max": 1100,
+      "scene_location": "短租房与专利授权会议室",
+      "character_goal": "沈砚重启被家庭打断的康复机械臂模块授权。",
+      "conflict_action": "他通宵修正图纸，带着旧邮件和样机测试记录签下三百万授权。",
+      "information_gap": "医疗集团给他的职位先只露出名片，不完全揭示。",
+      "emotion_debt_balance": "兑现能力层反转；第二付费级身份价值爆发。",
+      "chapter_end_hook": "授权合同盖章，三百万到账短信亮在沈砚掌心。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": ["不要写天降贵人", "不要解释专利流程", "不能把翻身写成中彩票"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 970,
+      "target_chars_max": 1090,
+      "scene_location": "养老社区适老化样板间",
+      "character_goal": "沈砚验收自己设计的样板间并完成全款签约。",
+      "conflict_action": "林知夏和林泽宇误认他来维修，项目经理当众称他沈工并交钥匙。",
+      "information_gap": "林知夏还不知道沈砚即将报警清算旧伤。",
+      "emotion_debt_balance": "兑现财产层和职业称呼双打脸；林知夏羞辱债开始回旋。",
+      "chapter_end_hook": "项目经理对着林知夏弯腰：沈工，样板间钥匙给您。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": ["不要写买房流程", "不要写样板间装修说明", "不能让林知夏一句道歉软化沈砚"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 970,
+      "target_chars_max": 1100,
+      "scene_location": "样板间门口与派出所调解室",
+      "character_goal": "沈砚把妻子动手和岳父掌掴纳入法律清算。",
+      "conflict_action": "林知夏失控打人，沈砚当场报警，提交验伤报告、楼道监控和现场视频。",
+      "information_gap": "处罚结果先卡在民警询问是否调解。",
+      "emotion_debt_balance": "兑现暴力债；回旋一家人别报警。",
+      "chapter_end_hook": "民警问是否调解，沈砚看着林知夏说：不和解。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": ["不要淡化暴力", "不要写派出所普法长段", "不能让亲戚劝和成功"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 600,
+      "target_chars_max": 700,
+      "scene_location": "医院急诊走廊",
+      "character_goal": "沈砚按法律和安全底线赶到医院，只处理林承安哮喘急救证据。",
+      "conflict_action": "急诊监控显示林泽宇带孩子进密闭VR馆并递坚果能量棒，林承安第一次意识到小舅不是依靠。",
+      "information_gap": "沈砚是否原谅儿子留到下一章。",
+      "emotion_debt_balance": "兑现小舅照护失职债；儿子背刺开始反噬。",
+      "chapter_end_hook": "急诊监控里，林泽宇把坚果能量棒塞进林承安手里。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写医疗奇迹", "不要羞辱病人", "不要让沈砚重新承担旧家庭照护"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 610,
+      "target_chars_max": 720,
+      "scene_location": "医院停车场雨棚",
+      "character_goal": "沈砚拒绝前妻复合和儿子情感索取，只确认抚养费与急救责任。",
+      "conflict_action": "林知夏跪地求复合，林承安哭着喊爸爸，沈砚用免费护工原话回敬并上车离开。",
+      "information_gap": "林泽宇还没受到行业层清算。",
+      "emotion_debt_balance": "兑现妻子求复合失败、儿子求原谅失败；保留法定抚养义务边界。",
+      "chapter_end_hook": "林知夏跪在雨里喊丈夫，沈砚关上车窗。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写反派长篇忏悔", "不要让沈砚心软复合", "不要断供法定抚养费"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 540,
+      "target_chars_max": 640,
+      "scene_location": "康复器材行业会",
+      "character_goal": "沈砚完成行业身份升维，并让林泽宇偷方案付出代价。",
+      "conflict_action": "客户播放方案比对，林泽宇抄袭翻车，沈砚以医疗集团项目负责人身份接管演示。",
+      "information_gap": "总部调任通知只在手机通知栏闪过。",
+      "emotion_debt_balance": "兑现林泽宇夺资源债；公开第三方打脸完成。",
+      "chapter_end_hook": "行业会大屏弹出抄袭比对，林泽宇的脸色白了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写技术发布会长段", "不要让客户替沈砚夸太多", "不能只口头惩罚林泽宇"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 520,
+      "target_chars_max": 600,
+      "scene_location": "高铁站贵宾候车区与新城市公寓",
+      "character_goal": "沈砚切断旧家庭消息，前往医疗集团总部。",
+      "conflict_action": "林承安二次求同住失败，沈砚确认抚养费账户后换号离城。",
+      "information_gap": "不再留下复合窗口。",
+      "emotion_debt_balance": "兑现终局自由；亲情绑架彻底拒绝。",
+      "chapter_end_hook": "新手机开机，旧号码卡被沈砚掰断。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写大团圆", "不要让儿子轻易被原谅", "不要把离城写成逃避责任"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0,
+    "min_public_evidence_scenes": 3,
+    "must_not_violate": ["不复合", "不原谅旧家庭背刺", "不靠天降暴富", "不逃避法定抚养义务"]
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [18, 26],
+    "short_line_rate_lte_16_min": 0.26,
+    "short_line_rate_lte_16_max": 0.40,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.01,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 6,
+    "question_mark_density_per_1000_chars_max": 11,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  }
+}

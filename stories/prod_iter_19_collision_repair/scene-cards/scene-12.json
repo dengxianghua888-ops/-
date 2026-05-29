@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 730,
+  "target_chars_max": 770,
+  "location": "市检察院第三检察部",
+  "time": "主线时间线 第12节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "检察官"
+  ],
+  "character_goal": "把保护伞一并端掉",
+  "opposition_goal": "想切割责任只丢车间一线",
+  "conflict_action": "检察官把账目铺在长桌上，三十六张红章对应三十六笔分账，分账的另一端连到检测中心副主任，副主任的银行流水又连到一辆登记在他姐夫名下的奔驰。",
+  "information_gap": "反派以为顶多丢一条线，账目把整张网拽了上来",
+  "emotional_debt_delta": "网破债",
+  "payoff_or_hook": "检察官签下传唤令，笔尖在纸上顿了一下。",
+  "chapter_end_hook": "检察官签下传唤令，笔尖在纸上顿了一下。",
+  "paywall_card": false,
+  "must_include": [
+    "三十六笔分账连线",
+    "奔驰登记",
+    "传唤令",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

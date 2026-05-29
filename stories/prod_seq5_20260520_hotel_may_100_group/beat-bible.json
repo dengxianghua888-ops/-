@@ -1,0 +1,369 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 14500,
+    "planned_total_chars": 13200
+  },
+  "title": "嫌我五一房贵？我转手接百人团",
+  "genre": "modern_reversal / realistic_business_revenge",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "use": "方越用400元纯房费压500元全包价，后文被满房、船班、无证渔家乐和自费项目逐项反噬。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "use": "退房接百人团、公开验价、交通受困、渔家乐涨价、安全报警、员工倒戈、公司开除、法律收口。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "use": "林棠前期讲十年合作情分和账目，被打后客情归零，雨夜求房时冷静拒绝。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 900,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "林棠刚要调监控，方越抬手一巴掌打断她。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 950,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "三十间木屋退空后，林棠拨通了周姨的电话。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 950,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "方越坐在前台等林棠求他，码头接驳车却停满了百人团行李。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 900,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "周姨当众验价付款，方越脸色变了。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 900,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "方越带队冲到码头，售票屏上只剩一行红字：今日离岛船票售罄。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 950,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "渔家乐老板把牌子翻过来，500一间变成800一间。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 950,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "员工算完餐费、门票和接送差价，第一次把矛头指向方越。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 950,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "暴雨封航提示弹出时，许宁的报警电话打进了公司群。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 950,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "执法车停在渔家乐门口，员工把投诉材料一份份发给总部。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 950,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "方越在雨里开口愿意一千一晚，林棠只回了三个字：住满了。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 900,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "总部电话接通，方越听见人事让他立刻停职。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 950,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "方越被开除后消失半天，再出现时手里攥着一把水果刀。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 950,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "警方调走监控时，方越终于低头认错，可林棠没有撤案。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 950,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "潮汐退去，林棠把新的合作价目表贴上前台：规则写清，情分另算。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "潮汐湾木屋营地前台",
+      "character_goal": "林棠要守住500元合作全包价，并把400元纯房费和全包价讲清楚。",
+      "conflict_action": "方越把平台400元房费页面拍在前台，逼林棠按400元给三十间木屋继续包餐、接送、门票和向导。",
+      "information_gap": "读者暂时不知道林棠是否还有替代客源，只知道五一海岛房源紧张。",
+      "emotion_debt_balance": "新增杀熟污名债、十年客情被践踏债。",
+      "chapter_end_hook": "方越一巴掌打断林棠调监控。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把账写成经营理念说教",
+        "不能让林棠先发疯或求饶"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 860,
+      "target_chars_max": 1020,
+      "scene_location": "前台与退款操作台",
+      "character_goal": "林棠要留下证据、完成退款、切断方越的老客户特权。",
+      "conflict_action": "方越带员工围住前台威胁差评，林棠打印退房单让他签字，并当场原路退款。",
+      "information_gap": "方越以为林棠退掉三十间房会空房亏损，读者还不知道她要接谁。",
+      "emotion_debt_balance": "新增动手羞辱债、差评威胁债；林棠完成证据留存。",
+      "chapter_end_hook": "林棠拨通周姨电话，问百人观鸟团还要不要房。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用长篇心理独白",
+        "不能写林棠原谅掌掴",
+        "不能漏掉退款签字和监控证据"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 860,
+      "target_chars_max": 1030,
+      "scene_location": "营地前台与码头接驳等候区",
+      "character_goal": "林棠要把退空房源转给百人银发观鸟疗养团。",
+      "conflict_action": "方越故意赖在前台等林棠求和，林棠安排接驳车接周姨团队进场验房。",
+      "information_gap": "方越不知道百人团是否真会付款，读者等待公开打脸落地。",
+      "emotion_debt_balance": "开始偿还杀熟污名债。",
+      "chapter_end_hook": "百人团行李车停在门口，周姨开口要当场验价。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁用巧合式救场",
+        "不能把百人团写成临时虚构",
+        "不能让方越提前离场错过打脸"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "木屋区与前台付款处",
+      "character_goal": "林棠要让第三方客人公开确认500元全包价的价值。",
+      "conflict_action": "周姨逐项核对住宿、早晚餐、码头接送、湿地门票、观鸟向导、保险、雨具，并刷卡支付订金和半月房款。",
+      "information_gap": "方越嘴硬退房后下一步怎么安排仍未揭开。",
+      "emotion_debt_balance": "偿还部分杀熟污名债；扩大方越面子债。",
+      "chapter_end_hook": "方越摔门带队走人，却被员工问今晚到底住哪。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成团购宣传",
+        "不能让周姨只夸不验价",
+        "不能弱化500全包明细"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 820,
+      "target_chars_max": 990,
+      "scene_location": "岛际摆渡车站与末班船码头",
+      "character_goal": "方越要证明离开潮汐湾也能找到更便宜住宿。",
+      "conflict_action": "方越带三十名员工拖行李赶末班船，抢摆渡车座位失败，又在售票屏前查到离岛船票售罄。",
+      "information_gap": "岛上是否还有可住的房间未确定。",
+      "emotion_debt_balance": "开始偿还占便宜反噬债；方越嘴硬债升级。",
+      "chapter_end_hook": "本地号推送五一鹿屿住宿满订提示。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成天降堵路",
+        "必须用船班和五一客流给出市场依据",
+        "不能让方越立即认错"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 860,
+      "target_chars_max": 1040,
+      "scene_location": "无证渔家乐临时房",
+      "character_goal": "方越要用低价安置员工，压住众人不满。",
+      "conflict_action": "渔家乐老板先报500元一间，见满岛无房后改口800元一间，且不包餐、不包接送、不包门票。",
+      "information_gap": "员工是否会继续听方越安排还没爆发。",
+      "emotion_debt_balance": "偿还400享500服务的反噬债；新增员工裹挟债压力。",
+      "chapter_end_hook": "方越让员工先垫差价，群里第一条质疑弹出来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把渔家乐老板写成无逻辑反派",
+        "不能忘记不包餐不包接送不包门票",
+        "不能让林棠出手帮忙"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 860,
+      "target_chars_max": 1020,
+      "scene_location": "渔家乐餐棚、湿地售票口、员工微信群",
+      "character_goal": "方越要维持团建行程，阻止员工把费用问题上报总部。",
+      "conflict_action": "员工排队自费买早餐、门票和临时交通，财务助理许宁在群里贴出每人新增支出清单。",
+      "information_gap": "许宁的反抗会不会引发更严重后果暂未揭开。",
+      "emotion_debt_balance": "员工被裹挟债开始转向方越本人。",
+      "chapter_end_hook": "方越点名许宁闭嘴，把她安排去夜里补住宿登记。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成单纯抱怨",
+        "必须用具体账单推动冲突",
+        "不能指责员工贪便宜"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 860,
+      "target_chars_max": 1030,
+      "scene_location": "暴雨前的渔家乐走廊与派出所接警记录",
+      "character_goal": "许宁要补登记并保护自己，方越要压下事端保住面子。",
+      "conflict_action": "许宁在走廊被醉客纠缠后报警，同事赶到陪她去前台调监控，方越却先要求她别把事情发到公司群。",
+      "information_gap": "渔家乐资质问题会不会被查出。",
+      "emotion_debt_balance": "安全责任债形成；方越甩锅债形成。",
+      "chapter_end_hook": "警方要求查看渔家乐证照，老板拿不出来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能描写侵害过程",
+        "不能把许宁写成错误承担者",
+        "不能用猎奇安全事件替代因果"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 860,
+      "target_chars_max": 1030,
+      "scene_location": "渔家乐门口、员工群与公司行政群",
+      "character_goal": "员工要把真实费用和安全隐患上报公司，方越要阻止倒戈。",
+      "conflict_action": "执法人员因消防、营业资质、住宿登记和价格投诉查封渔家乐，员工联名把账单、报警记录、退房经过发给总部。",
+      "information_gap": "总部会如何处理方越仍未揭晓。",
+      "emotion_debt_balance": "员工裹挟债开始偿还；差评威胁债反噬成公开投诉。",
+      "chapter_end_hook": "方越拨通林棠电话，第一次压低声音问还有没有房。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把查封写成万能惩罚",
+        "必须保留现实执法依据",
+        "不能让员工突然无因倒戈"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 860,
+      "target_chars_max": 1040,
+      "scene_location": "暴雨封航前的潮汐湾外栈道",
+      "character_goal": "方越要带队回潮汐湾避雨入住，林棠要守住已售房源和底线。",
+      "conflict_action": "方越冒雨堵在营地门口，从500加到1000一晚求房，林棠出示满房系统和百人团合同拒绝他。",
+      "information_gap": "方越被公司追责的结果还没落地。",
+      "emotion_debt_balance": "偿还十年客情被践踏债和占便宜反噬债；林棠边界确立。",
+      "chapter_end_hook": "方越刚骂完，手机响起总部人事电话。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让林棠心软收留方越",
+        "不能写成情绪吵架胜利",
+        "必须让满房有合同和系统依据"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "潮汐湾前台外、公司视频会议",
+      "character_goal": "方越要把责任推给林棠和市场，员工要证明是他擅自退订。",
+      "conflict_action": "总部视频会议中播放退房签字、员工联名投诉、费用超支表和安全事故报告，方越被当场停职调查。",
+      "information_gap": "方越停职后会不会继续报复未明。",
+      "emotion_debt_balance": "偿还甩锅主角债；公司层面清算启动。",
+      "chapter_end_hook": "人事让方越交接权限，他当着员工的面摔碎手机。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能天降开除",
+        "必须用证据链推动公司处理",
+        "不能让林棠主动操控公司决定"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 860,
+      "target_chars_max": 1030,
+      "scene_location": "营地仓库门、安保岗、监控室",
+      "character_goal": "方越要用暴力逼林棠撤投诉和撤证据，林棠要保护员工并报警。",
+      "conflict_action": "方越持水果刀闯入营地仓库门，安保按预案拦截，林棠让前台锁门并把监控、伤情证明、退款单交给警方。",
+      "information_gap": "警方是否会正式处理方越留到下一章确认。",
+      "emotion_debt_balance": "暴力报复债进入法律收口。",
+      "chapter_end_hook": "警灯照到方越脸上，他终于喊出林棠的名字。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能渲染血腥暴力",
+        "不能写私刑报复",
+        "必须写未遂、安保、监控和报警"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 860,
+      "target_chars_max": 1020,
+      "scene_location": "派出所调解室与潮汐湾前台",
+      "character_goal": "林棠要完成法律证据闭环，不接受口头道歉换撤案。",
+      "conflict_action": "警方核对掌掴监控、伤情证明、退房签字、持刀闯入监控，方越低头道歉请求林棠撤案。",
+      "information_gap": "故事最终价值落点和林棠经营选择尚未收束。",
+      "emotion_debt_balance": "偿还动手羞辱债和暴力报复债。",
+      "chapter_end_hook": "林棠签完笔录，只说按流程处理。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让道歉抵消法律后果",
+        "不能把警方写成情绪工具",
+        "不能让林棠圣母原谅"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 860,
+      "target_chars_max": 1030,
+      "scene_location": "潮汐湾木屋营地、湿地观鸟栈道",
+      "character_goal": "林棠要恢复营地秩序，并把规则写清楚给真正尊重服务的人。",
+      "conflict_action": "林棠送百人观鸟团出发，重新贴出合作价目表和订退规则，拒绝方越公司后续压价合作申请。",
+      "information_gap": "无新信息缺口，完成价值闭环。",
+      "emotion_debt_balance": "全部情感债收束：市场、员工、公司、法律完成清算。",
+      "chapter_end_hook": "结尾金句：情分可以给，规矩不能被拿来打人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成鸡汤演讲",
+        "不能安排方越体面复归",
+        "不能弱化规则回旋反杀"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 12000,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "micro_hook_interval_chars": "800-1200",
+    "must_keep": [
+      "400元纯房费与500元全包价的价格偷换",
+      "三十间木屋老客户房源",
+      "掌掴、退款签字、监控证据",
+      "百人银发观鸟疗养团接盘并付款",
+      "末班船、满房、无证渔家乐涨价",
+      "许宁报警、员工倒戈、公司追责",
+      "持刀闯营地未遂与法律收口"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sample_count": 21,
+  "generated_from": [
+    "prod_batch_01_autopsy_vow",
+    "prod_batch_02_abyss_profile",
+    "prod_batch_03_empress_exit",
+    "prod_batch_04_blossom_network",
+    "prod_batch_05_allowance_truth",
+    "prod_batch_06_moon_spring",
+    "prod_batch_07_fake_princess_friends",
+    "prod_batch_08_hotel_group",
+    "prod_batch_09_streamer_exit",
+    "prod_batch_10_tang_flower",
+    "prod_batch_11_drowning_divorce",
+    "prod_batch_12_top_scorer_report",
+    "prod_batch_13_customs_package",
+    "prod_batch_14_spring_ming",
+    "prod_batch_15_drug_mom_revenge",
+    "prod_iter_16_corpse_exit",
+    "prod_iter_17_mojo_clan",
+    "prod_iter_18_fools_divorce",
+    "prod_iter_19_collision_repair",
+    "prod_live_property_rent_exit",
+    "prod_live_sister_fate_reversal"
+  ],
+  "total_chars": {
+    "p10": 10217.0,
+    "p50": 10759.0,
+    "p90": 13180.0,
+    "mean": 11516.7619,
+    "stdev": 1329.6599
+  },
+  "chapter_count": {
+    "p10": 14.0,
+    "p50": 15.0,
+    "p90": 16.0,
+    "mean": 15.2857,
+    "stdev": 1.8553
+  },
+  "chapter_length": {
+    "p10": 640.0,
+    "p50": 716.0,
+    "p90": 878.0,
+    "mean": 740.7065,
+    "stdev": 107.7525
+  },
+  "chapter_length_stdev_per_story": {
+    "p10": 22.9178,
+    "p50": 45.5073,
+    "p90": 62.4264,
+    "mean": 51.453,
+    "stdev": 29.1676
+  },
+  "hook_coverage": {
+    "p10": 1.0,
+    "p50": 1.0,
+    "p90": 1.0,
+    "mean": 1.0,
+    "stdev": 0.0
+  },
+  "paywall_actual": {
+    "p10": 8.0,
+    "p50": 10.0,
+    "p90": 10.0,
+    "mean": 9.8095,
+    "stdev": 1.7353
+  },
+  "avg_sentence_length": {
+    "p10": 12.019,
+    "p50": 17.362,
+    "p90": 19.49,
+    "mean": 16.6143,
+    "stdev": 3.6265
+  },
+  "action_density_per_k": {
+    "p10": 24.743,
+    "p50": 29.238,
+    "p90": 31.984,
+    "mean": 29.1528,
+    "stdev": 3.8748
+  },
+  "physical_emotion_total": {
+    "p10": 1.0,
+    "p50": 12.0,
+    "p90": 21.0,
+    "mean": 10.8571,
+    "stdev": 8.0787
+  },
+  "soft_forbidden_total": {
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 1.0,
+    "mean": 0.1429,
+    "stdev": 0.3499
+  }
+}

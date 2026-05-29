@@ -1,0 +1,562 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "老公装病骗我做护工三个月，我消失后他疯了",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M3-因果回旋反讽：顾深舟设的规则原封不动反噬自身",
+    "M5-温度反转曲线：从婚礼递砚的暖→热粥膏药的假温暖→追到图书馆的热→被拒绝的冰点",
+    "M6-多层递进反转：Layer1情节(撞见装病)→Layer2经济(端砚典当+217元)→Layer3社会(护工照曝光)→Layer4真相(防汛档案证伪)→Layer5价值(刀是他自己拿起来的)"
+  ],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 16],
+    "short_line_rate_lte_16_min": 0.65,
+    "short_line_rate_lte_16_max": 0.78,
+    "direct_dialogue_line_rate_min": 0.30,
+    "direct_dialogue_line_rate_max": 0.40,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.0,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 0
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 780,
+      "target_char_count": [750, 950],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 12.8,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 5.1,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.78,
+          "sentence_avg_len": 13.5
+        },
+        "emotion": {
+          "dominant_emotion": "震惊-克制",
+          "emotion_arc": "紧张期待 → 撞见震惊 → 被补刀 → 强行冷静",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "替女主窒息，同时被她的冷静震到——她竟然还能说出'给你挣治病的钱'"
+        },
+        "highlights": {
+          "peak_moment": "姜漪澜低声说'她挣的那些钱——有一半，转到了我卡上'",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "递进式"
+        },
+        "techniques": [
+          "三重信息差同步引爆",
+          "反差冷静法",
+          "压低声音的私密补刀",
+          "行为替代情绪"
+        ],
+        "golden_lines": [
+          "我在这做护工，给你挣治病的钱。",
+          "我的声音稳得连自己都觉得陌生。",
+          "凌晨三点。A栋6楼。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "刚施害完立刻摆出施恩姿态，用身份落差制造阅读愤怒",
+        "target_description": "顾深舟追出来扣住她手腕，说'你不用在这种地方上班'——语气高高在上，刚搂着别人笑现在又来装关心"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 720,
+      "target_char_count": [680, 870],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.38,
+          "question_mark_density_per_1k": 2.8,
+          "direct_dialogue_rate": 0.22,
+          "short_line_rate_lte16": 0.74,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "隐痛-决断",
+          "emotion_arc": "表面平静 → 手抖暴露真实 → 回忆端砚 → 摘戒指仪式 → 冷判断",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "心疼到窒息——她连发抖都要藏起来"
+        },
+        "highlights": {
+          "peak_moment": "婚戒掉进洗手池磕出一声轻响——婚姻的物理化终结声",
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "突变式"
+        },
+        "techniques": [
+          "延迟崩塌术",
+          "物件转移法",
+          "声音具象化",
+          "一句话定性"
+        ],
+        "golden_lines": [
+          "没犹豫，也没再看。",
+          "别在医院了，不是心疼我，是嫌我做护工丢他的人。"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用最短的动作暗示决裂的开始——不回复=切断",
+        "target_description": "锁屏，没回。"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 810,
+      "target_char_count": [780, 970],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.2,
+          "comma_period_ratio": 0.40,
+          "question_mark_density_per_1k": 1.2,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 16.0
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-隐忍",
+          "emotion_arc": "日常温暖(修复工作) → 姜漪澜出现 → 端砚冲击 → 强忍 → 搬离 → 深夜崩裂",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "看到端砚在别人书房的那一刻，替女主想打人"
+        },
+        "highlights": {
+          "peak_moment": "看到外婆磨了四十年墨的端砚摆在姜漪澜的书桌上",
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "对比式"
+        },
+        "techniques": [
+          "日常温暖锚定对比",
+          "视觉聚焦术",
+          "反讽回击（含毒微笑型）",
+          "闭门崩塌法"
+        ],
+        "golden_lines": [
+          "胸腔里有什么东西裂开了一条缝。我按住了，没让任何声音从喉咙里跑出来。",
+          "他说得对，是老东西，磨了四十年，当心别磕了。"
+        ],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "用最美好的过去画面收尾，与当下形成最大反差——'就是那方'三字是刺刀",
+        "target_description": "婚礼那天，他把端砚放进锦盒递给我，说'这是你外婆留给你的，我帮你保管'。就是那方。"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 750,
+      "target_char_count": [720, 900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.0,
+          "comma_period_ratio": 0.35,
+          "question_mark_density_per_1k": 6.7,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "对峙-威胁",
+          "emotion_arc": "冷淡对峙 → 嫁妆清单追问 → 他回避 → 威胁职业",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "愤怒——他居然还有脸用钱打发，更可恨的是还威胁她"
+        },
+        "highlights": {
+          "peak_moment": "顾深舟用'做护工的事传出去你的委托方迟早知道'威胁女主",
+          "peak_type": "power_shift",
+          "bomb_technique": "突变式"
+        },
+        "techniques": [
+          "清单式追问（三段递进）",
+          "微动作泄底",
+          "威胁后的静默处理"
+        ],
+        "golden_lines": [
+          "语气平淡得让人发指，跟结清一笔公务尾款没两样。",
+          "我再想想。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "将威胁指向读者已知的女主最柔软处（修复事业）",
+        "target_description": "你在医院做护工的事已经有人知道了，你的委托方迟早会听说，到时候你连修复工作室都开不下去。"
+      },
+      "scenes": ["scene-04"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 790,
+      "target_char_count": [760, 940],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 2.5,
+          "direct_dialogue_rate": 0.28,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "疲惫-困惑",
+          "emotion_arc": "身体极限 → 周护士长关心 → 热粥温暖 → 眼眶酸 → 强行压住 → 定性'最残忍'",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "心疼+愤怒交织——热粥让人心软的瞬间立刻被'最残忍'打醒"
+        },
+        "highlights": {
+          "peak_moment": "热粥入胃→眼眶酸→猛地放碗→手背压眼睛十几秒",
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "突变式"
+        },
+        "techniques": [
+          "温度陷阱结构",
+          "身体极限细节堆",
+          "旁人视角补充真实感"
+        ],
+        "golden_lines": [
+          "伤我的时候决绝冷硬，偶尔给一点温度又随意得很，让我永远分不清哪一面才是真的他。",
+          "撑得住。"
+        ],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "用一句认知升级收尾，让读者带着'温度陷阱'的意识继续阅读",
+        "target_description": "他最残忍就在这里。伤我的时候决绝冷硬，偶尔给一点温度又随意得很，让我永远分不清哪一面才是真的他。"
+      },
+      "scenes": ["scene-05"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 820,
+      "target_char_count": [790, 980],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.36,
+          "question_mark_density_per_1k": 3.6,
+          "direct_dialogue_rate": 0.30,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 15.5
+        },
+        "emotion": {
+          "dominant_emotion": "绝望-麻木",
+          "emotion_arc": "余额冲击 → 何薇出现 → 三个月前截图 → 麻木 → 回忆反差 → 手抖握不住修复刀",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "彻底寒心——不是一时冲动出轨，是蓄谋三个月的精算"
+        },
+        "highlights": {
+          "peak_moment": "看到顾深舟三个月前对姜漪澜说'再给我点时间，我搞定她'",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": [
+          "数字冲击法",
+          "时间线对比杀伤",
+          "能力丧失具象化"
+        ],
+        "golden_lines": [
+          "那份协议上的钱买不回我搬坏的手腕，买不回我泡白的皮肤，买不回我在那些病房里低下去的头。什么都买不回来了。",
+          "手机银行余额页面定格在217。"
+        ],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用物理姿态暗示精神蜷缩——她已到极限",
+        "target_description": "修复刀放下了。靠着墙坐在地上，膝盖收到胸口。"
+      },
+      "scenes": ["scene-06"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 880,
+      "target_char_count": [850, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.5,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 4.5,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.75,
+          "sentence_avg_len": 14.0
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-碎裂",
+          "emotion_arc": "桂花糕温暖→'我不签'的决断→姜漪澜闯入→当众护她→独坐碎裂",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "想冲进屏幕打人——当着所有人的面选了另一个女人"
+        },
+        "highlights": {
+          "peak_moment": "顾深舟站起来给姜漪澜披外套、说'没事'，然后回头对女主说'考虑好了告诉我'",
+          "peak_type": "public_humiliation",
+          "bomb_technique": "对比式"
+        },
+        "techniques": [
+          "温度陷阱2.0（桂花糕）",
+          "第三方闯入打断法",
+          "行为选择即宣判",
+          "碎裂留白"
+        ],
+        "golden_lines": [
+          "什么都没碎，但什么也都碎了。",
+          "永远是这招，左手递刀子右手递糖，让我分不清他到底有心还是没心。"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "用冷却的食物对应冷却的关系——物象收尾",
+        "target_description": "茶室里只剩我一个人，和那碟温度已经降下来的桂花糕。什么都没碎，但什么也都碎了。"
+      },
+      "scenes": ["scene-07"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 920,
+      "target_char_count": [960, 1160],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.2,
+          "comma_period_ratio": 0.40,
+          "question_mark_density_per_1k": 5.4,
+          "direct_dialogue_rate": 0.32,
+          "short_line_rate_lte16": 0.73,
+          "sentence_avg_len": 14.5
+        },
+        "emotion": {
+          "dominant_emotion": "绝境-觉醒",
+          "emotion_arc": "委托流失 → 工作室关门 → 手泡白 → 雨中对峙 → 照片曝光 → 三秒沉默 → 觉醒",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "窒息到极点后突然看见她站直了——从雨里走出去那一刻是全文最燃的画面"
+        },
+        "highlights": {
+          "peak_moment": "她从他撑的伞底走出去，走进了雨里，说出'条件由我来说'",
+          "peak_type": "power_shift",
+          "bomb_technique": "累积式"
+        },
+        "techniques": [
+          "社死具象化",
+          "物理动作=心理决裂",
+          "三连打击不间断",
+          "沉默即答案"
+        ],
+        "golden_lines": [
+          "你定的规则不是我选的，如果你想结束，可以，但条件由我来说。",
+          "那三秒的沉默就是答案。",
+          "他大概没发，但他也没拦。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "一句话宣告经济归零——接下来她怎么活",
+        "target_description": "最后一份收入也断了。"
+      },
+      "scenes": ["scene-08", "scene-09"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 750,
+      "target_char_count": [720, 900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 12.5,
+          "comma_period_ratio": 0.32,
+          "question_mark_density_per_1k": 1.3,
+          "direct_dialogue_rate": 0.15,
+          "short_line_rate_lte16": 0.82,
+          "sentence_avg_len": 12.0
+        },
+        "emotion": {
+          "dominant_emotion": "决绝-寂静",
+          "emotion_arc": "姜漪澜最后补刀 → 镜子自观 → 删所有照片 → 五个字 → 物归原主 → 黑暗中刻骨",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "痛快+心疼并存——她终于走了，但走得太安静让人想哭"
+        },
+        "highlights": {
+          "peak_moment": "'我同意离婚。'五个字发送",
+          "peak_type": "power_reversal",
+          "bomb_technique": "突变式"
+        },
+        "techniques": [
+          "字数即力量",
+          "仪式化删除",
+          "自我约束独白",
+          "空间反讽"
+        ],
+        "golden_lines": [
+          "不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。",
+          "物归原主。"
+        ],
+        "rhythm_shape": "匀速递降"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用'刻骨'暗示这不是遗忘而是铭记——她走了但伤痕永在",
+        "target_description": "黑暗里眼睛睁着，一夜没合上。不是舍不得。是我在把这种疼一寸一寸刻进骨头里。"
+      },
+      "scenes": ["scene-10"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 980,
+      "target_char_count": [1040, 1220],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.44,
+          "question_mark_density_per_1k": 6.1,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "追悔-崩塌",
+          "emotion_arc": "追寻落空 → 方砚青揭穿真相 → 质问姜漪澜 → 翻到日志 → 流水记录 → 崩塌",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "报复性快感——终于轮到他承受了，每一个细节都是他活该"
+        },
+        "highlights": {
+          "peak_moment": "翻到女主的修复日志'如果他好了，我就回去修书……想他'——信息差终极引爆",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "累积式"
+        },
+        "techniques": [
+          "追寻落空连击",
+          "旁人审判",
+          "证据链闭合",
+          "手写日志引爆",
+          "姜漪澜的终极定性"
+        ],
+        "golden_lines": [
+          "你拿一个假的恩情，去伤了一个真的爱你的人。",
+          "你到底是想要她回来，还是受不了她先松手？",
+          "我只是顺着你的想法推了一把而已。"
+        ],
+        "rhythm_shape": "阶梯递进"
+      },
+      "chapter_end_hook": {
+        "hook_type": "emotional_bomb",
+        "hook_technique": "不写他哭，只写肩膀抖——具象化崩塌",
+        "target_description": "顾深舟蹲在衣柜前的地板上，一页一页翻。翻完之后把头埋进臂弯里，肩膀一下一下地抖。"
+      },
+      "scenes": ["scene-11", "scene-12"]
+    },
+    {
+      "chapter_id": 11,
+      "source_chapter_id": 11,
+      "source_char_count": 850,
+      "target_char_count": [820, 1010],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 0.40,
+          "question_mark_density_per_1k": 3.5,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "清醒-告别",
+          "emotion_arc": "追到临市 → 被拒 → 咖啡馆偶遇 → 修复日志 → 碎砚 → 真相摊开 → '刀是他自己拿起来的' → 不回来了",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "复杂——既替她心疼他翻日志的样子，又坚定站在'不复合'这边"
+        },
+        "highlights": {
+          "peak_moment": "女主定性：'不是姜漪澜毁了我们。刀是他自己拿起来的。'",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": [
+          "物件双重意义",
+          "终极定性句",
+          "温柔拒绝法",
+          "碎片留桌不取"
+        ],
+        "golden_lines": [
+          "不是姜漪澜毁了我们。姜漪澜只是递了一把刀。刀是他自己拿起来的。",
+          "我原谅你，但我不会回来了。",
+          "我从废墟里爬出来了。"
+        ],
+        "rhythm_shape": "前快后慢"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "人走了但碎砚留下——物件替代人完成告别",
+        "target_description": "走到门口打开伞，雨幕里走远了。那截碎砚还搁在桌上，我没拿走。"
+      },
+      "scenes": ["scene-13"]
+    },
+    {
+      "chapter_id": 12,
+      "source_chapter_id": 12,
+      "source_char_count": 850,
+      "target_char_count": [820, 1010],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.45,
+          "question_mark_density_per_1k": 2.4,
+          "direct_dialogue_rate": 0.25,
+          "short_line_rate_lte16": 0.62,
+          "sentence_avg_len": 17.0
+        },
+        "emotion": {
+          "dominant_emotion": "重建-释然",
+          "emotion_arc": "手腕骨裂 → 他送医 → 父亲三字 → 考核通过 → 姜漪澜结局 → 最后短信 → 微笑",
+          "emotion_intensity": 7,
+          "reader_feeling_target": "鼻酸的温暖——她真的好了，手不抖了，不需要任何人了"
+        },
+        "highlights": {
+          "peak_moment": "考核间修复宋版残页，从头到尾手没抖一下",
+          "peak_type": "identity_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": [
+          "能力回归=灵魂回归",
+          "父亲三字法",
+          "因果回旋落地（姜漪澜结局）",
+          "结尾留白微笑"
+        ],
+        "golden_lines": [
+          "回来就好。",
+          "没有回头。但嘴角轻轻扬了扬。不是给谁的回应。是给自己的。",
+          "碎了的砚台粘起来也是裂的。"
+        ],
+        "rhythm_shape": "匀速递降"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "在读者期待复合的位置给出'给自己的微笑'——满足与意难平并存",
+        "target_description": "没有回头。但嘴角轻轻扬了扬。不是给谁的回应。是给自己的。"
+      },
+      "scenes": ["scene-14"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 12,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

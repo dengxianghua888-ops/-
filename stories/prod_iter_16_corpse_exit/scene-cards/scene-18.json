@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "beat-18",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "港务集团审讯室",
+  "time": "江沉死亡脱离后四小时",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "江栀", "包工头", "贺景衡", "警方", "江童"],
+  "character_goal": "江栀要从包工头口中确认贺景衡到底做了什么。",
+  "opposition_goal": "贺景衡要把责任推给江沉精神异常和包工头私怨。",
+  "conflict_action": "包工头交出转账记录、伤情照片和派工聊天截图，江栀砸碎玻璃冲向贺景衡。",
+  "information_gap": "江童还不知道自己亲生父亲已经死于这条伤害链。",
+  "emotional_debt_delta": "-毒气陷害坐实；-工伤记录坐实；-贺景衡加害链坐实",
+  "payoff_or_hook": "清算开始从情绪追悔转入法律证据。",
+  "chapter_end_hook": "贺景衡把孩子推到镜头前，孩子第一次问：我亲爸是不是死了？",
+  "paywall_card": false,
+  "must_include": ["转账记录", "伤情照片", "派工聊天截图", "江栀砸玻璃", "孩子被推到镜头前"],
+  "must_not_write_as_exposition": ["不要把供词写成口头总结", "不要写儿童血腥伤害", "不要让贺景衡变成被迫替身"]
+}

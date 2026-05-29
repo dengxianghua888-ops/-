@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B4-B5",
+  "scene_label": "卸两吨开走·路虎堵截",
+  "location": "广州物流园收货点→省道口",
+  "time": "当日下午四点",
+  "pov": "苏柠",
+  "characters": ["苏柠", "李凯", "三名马仔"],
+  "character_goal": "按合同字面卸两吨开车走+保住车门拨打 110",
+  "opposition_goal": "李凯堵截+三名马仔提铝合金棒球棍砸窗逼主角下车",
+  "conflict_action": "卸到两吨整→车门一关挂挡走→省道口路虎横停→三人砸车窗→防爆玻璃裂蛛网→主角锁死四门拨 110",
+  "information_gap": "李凯为何不报警直接动手——多出的一吨到底是什么",
+  "emotional_debt_delta": "+被欺骗债·峰值+家人受惊债·铺垫",
+  "payoff_or_hook": "我把车门一关——挂挡就走——这次我可是认认真真的按合同办事了",
+  "chapter_end_hook": "防爆玻璃被砸出蛛网般的裂纹——车里的空气瞬间紧绷起来",
+  "paywall_card": true,
+  "target_chars_min": 780,
+  "target_chars_max": 1000,
+  "must_include": [
+    "卸到两吨整",
+    "车门一关挂挡就走",
+    "后照镜里工人发愣",
+    "路虎横停+三个马仔+铝合金棒球棍",
+    "防爆玻璃蛛网",
+    "主角锁死四门拨 110"
+  ],
+  "must_not_write_as_exposition": [
+    "禁血腥具象描写",
+    "禁'仿佛末日'AI 腔",
+    "禁主角'冷艳一笑'"
+  ]
+}

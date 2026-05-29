@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 452,
+  "target_chars_max": 612,
+  "location": "采药崖下、阿砚旧屋",
+  "time": "坠崖后第二日",
+  "pov": "第三人称近距离，贴陆衡舟",
+  "characters": [
+    "陆衡舟",
+    "陆家护院",
+    "老掌柜",
+    "阿砚"
+  ],
+  "character_goal": "陆衡舟要找到沈照棠的尸身或生还痕迹。",
+  "opposition_goal": "崖底山洪、陆宅旧证和他的自欺共同阻拦真相。",
+  "conflict_action": "陆衡舟带人翻找崖底，拾到并蒂药囊后回到阿砚旧屋，砸开被封的药柜背板，看见阿砚画下爹娘和小药杵。",
+  "information_gap": "阿砚死亡全过程仍未揭，只让童年求救字迹先击中陆衡舟。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "陆衡舟首次直面阿砚求救",
+      "并蒂药囊回收旧温情"
+    ],
+    "balance_after": "男主悔意开始，但不可抵罪。"
+  },
+  "payoff_or_hook": "炭笔画下的小字让陆衡舟意识到孩子一直在等他。",
+  "chapter_end_hook": "陆衡舟在阿砚的炭笔画下看见一行小字：爹怎么不来。",
+  "paywall_card": false,
+  "must_include": [
+    "崖底搜寻",
+    "并蒂药囊",
+    "砸开药柜背板",
+    "阿砚炭笔画",
+    "爹怎么不来"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用男主哭悔铺满整章。",
+    "不要让沈照棠现身。",
+    "不要让并蒂药囊变成复合暗示。"
+  ],
+  "target_chars": 472,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

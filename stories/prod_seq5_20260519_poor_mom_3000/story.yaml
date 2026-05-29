@@ -1,0 +1,116 @@
+schema_version: 2
+pipeline_mode: production
+status: final
+language: zh-CN
+title: 我在医院晕倒时，妈妈说每月给我三千
+artifact_role: final_packager
+created_date: 2026-05-19
+source_materials:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+  evaluations:
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_only_artifact_bundle: true
+audit:
+  provider: OpenAI
+  model: GPT-5 Codex
+  source: StoryForge production Phase 7 Final Packager
+  timezone: Asia/Shanghai
+quality_gate:
+  pass
+  gate_status: pass
+  score_scale: 0-10
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.6
+    emotion: 8.8
+    style: 8.3
+    logic: 7.7
+  final_metrics:
+    target_length:
+      min: 11000
+      max: 13500
+      status: pass
+    chapters:
+      count: 14
+      hook_hits: 14
+      hook_coverage: 1.0
+      length_status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraph_count: 3
+        first_paragraph_prefix: "导语："
+      mobile_paragraphs:
+        status: pass
+        rule: one_sentence_per_paragraph
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+packaging:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_files:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+revision_notes:
+  - Added direct-submission opening guide before chapter one.
+  - Preserved fourteen-chapter draft order.
+  - Changed CH03 hook from tuition framing to living-expense and medicine-fee framing.
+  - Made CH04 bank terminal evidence more conservative.
+  - Made CH08 car-dealer confirmation a tail-number match rather than full payer disclosure.
+  - Added institutional setting cue for the white-family hospital system.
+total_chars: 11559
+chapter_count: 14
+paywall_cards: 8
+critic_scores:
+  logic: 7.7
+  style: 8.3
+  emotion: 8.8
+  platform: 8.6
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260519_210217
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

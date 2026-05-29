@@ -1,0 +1,98 @@
+{
+  "story_slug": "prod_stability_20260521_gaokao_inheritance_brother",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M2", "M3", "M6"],
+  "target_length": 10005,
+  "final_length": 10005,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "遗嘱要求七天内找回不存在的弟弟，否则一家会第四次死亡。",
+      "reuse_fact": "开篇把继承条件和死亡倒计时绑定，比单纯争产更强。"
+    },
+    {
+      "chapter": 2,
+      "hook": "姥爷遗物录音指向旧校区，并警告别让母亲先到。",
+      "reuse_fact": "死者录音适合做低成本任务派发器，同时制造母亲阻挠嫌疑。"
+    },
+    {
+      "chapter": 4,
+      "hook": "烧黑登记表只留下姓名栏一个“沈”字。",
+      "reuse_fact": "半毁档案比完整档案更适合延迟身份真相，能自然推进继续追查。"
+    },
+    {
+      "chapter": 8,
+      "hook": "母亲砸掉药盒，要求立刻烧毁，否则第四次仍活不成。",
+      "reuse_fact": "阻止证据曝光的人不一定是反派，可用极端保护动作制造误判。"
+    },
+    {
+      "chapter": 10,
+      "hook": "催眠记忆显示所谓弟弟不是别人，而是主角被压下的自我身份。",
+      "reuse_fact": "身份反差爆发可从外部找人转为内部认回自己，情绪爆点更集中。"
+    },
+    {
+      "chapter": 12,
+      "hook": "姥爷录音揭示遗嘱真实目的：逼父母承认主角真实身份。",
+      "reuse_fact": "前期像压迫者的长辈，后期可翻成保护者，形成机制回旋。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 1,
+      "card": "七天内找不到弟弟，全家会第四次死亡。",
+      "function": "倒计时生死局"
+    },
+    {
+      "chapter": 2,
+      "card": "姥爷录音要求去旧校区，且不能让母亲先到。",
+      "function": "任务地点加亲人嫌疑"
+    },
+    {
+      "chapter": 4,
+      "card": "旧校区烧黑登记表只剩一个“沈”字。",
+      "function": "证据半揭露"
+    },
+    {
+      "chapter": 6,
+      "card": "输入心理辅导日期后，后仓暗门打开。",
+      "function": "记忆封印入口"
+    },
+    {
+      "chapter": 8,
+      "card": "母亲砸药盒并说不烧毁就活不成。",
+      "function": "保护动作伪装成毁证"
+    },
+    {
+      "chapter": 10,
+      "card": "催眠记忆里弟弟的脸是主角自己。",
+      "function": "核心身份反转"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "高考出分",
+    "遗嘱继承",
+    "七天倒计时",
+    "不存在的弟弟",
+    "家庭秘密",
+    "旧校区",
+    "死循环",
+    "母亲阻挠",
+    "烧毁药盒",
+    "心理咨询记录",
+    "身份认回",
+    "跨性别身份",
+    "姥爷录音",
+    "亲子和解",
+    "升学宴公开承认"
+  ],
+  "manual_revision_delta": []
+}

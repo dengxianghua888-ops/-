@@ -1,0 +1,63 @@
+<<<FILE: dissection.md>>>
+genre: modern_reversal
+genre_confidence: high
+genre_reasoning: 规则压迫后同规则反杀。
+
+## 题材与机制
+- reversal_mechanisms: [M1, M3]
+- hook_type: H1
+- reader_promise: 看主角用对方规则反杀。
+<<<END FILE>>>
+<<<FILE: analysis/beat-sheet.md>>>
+# Beat Sheet
+
+1. 开场罚单压迫。reversal_mechanism: M1. hook_strength: 8
+2. 主角隐忍取证。reversal_mechanism: M3
+3. 规则回旋清算。reversal_mechanism: M1
+<<<END FILE>>>
+<<<FILE: analysis/style-dna.md>>>
+# Style DNA
+
+- 平均句长: 15-20
+- 对话占比: 35%-45%
+- 金句密度: 每 1000 字 1 句
+<<<END FILE>>>
+<<<FILE: analysis/characters.md>>>
+# Characters
+
+- 主角: 冷静隐忍的小店主
+- 反派: 滥用规则的管理者
+<<<END FILE>>>
+<<<FILE: analysis/theme.md>>>
+# Theme
+
+规则不能只惩罚弱者。
+<<<END FILE>>>
+<<<FILE: analysis/soul-contract.md>>>
+# Soul Contract
+
+**一句话承诺**: 看主角用对方规则反杀。
+**情绪债**: 公开羞辱债。
+**核心姿态**: 冷静隐忍。
+**神髓禁改项**: 反派必须亲手留下规则漏洞。
+<<<END FILE>>>
+<<<FILE: analysis/reader-engine.md>>>
+# Reader Engine
+
+Beat 1: 读者恨滥权者，期待主角保留证据。
+Beat 2: 读者等待规则回旋。
+Beat 3: 读者获得清算爽感。
+<<<END FILE>>>
+<<<FILE: analysis/tension-ledger.md>>>
+# Tension Ledger
+
+| 债务来源 | 偿还方式 |
+|---|---|
+| 罚单羞辱 | 公示规则漏洞 |
+<<<END FILE>>>
+<<<FILE: analysis/platform-fit.md>>>
+# Platform Fit
+
+**总分**: 8.5
+**首章留存**: 强
+<<<END FILE>>>

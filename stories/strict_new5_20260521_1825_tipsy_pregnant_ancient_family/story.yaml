@@ -1,0 +1,90 @@
+pipeline_mode: production
+status: final
+title: 离婚当天，前夫发现我孕八周
+language: zh-CN
+genre:
+  - 先婚后爱
+  - 追妻火葬场
+  - 豪门世家
+  - 弹幕
+  - 带球跑
+required_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+runner_policy:
+  external_allowed: false
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source: StoryForge production Phase 7 Final Packager
+  source_materials:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+quality_gate:
+  pass
+  critical_failures: []
+  important_failures: []
+  score_scale: 0-10
+  critic_scores:
+    platform: 8.0
+    emotion: 8.0
+    style: 8.0
+    logic: 8.0
+  source_rhythm_fit: pass
+  action_density_per_k: 29.201
+final_packaging:
+  chapter_count: 14
+  chapter_length_policy: 500-1200
+  hook_coverage: 1.0
+  opening_guide: pass
+  mobile_paragraphs: pass
+  submission_paywall_map:
+    status: pass
+    actual: 4
+  visible_paywall_labels:
+    status: pass
+    count: 0
+notes:
+  - final.md uses direct submission structure with title, guide, and chapterized body.
+  - final-chapters mirrors final.md chapter body.
+  - body removes duplicate lines and production meta notes from draft.
+total_chars: 10577
+chapter_count: 14
+paywall_cards: 10
+critic_scores:
+  logic: 8.0
+  style: 8.0
+  emotion: 8.0
+  platform: 8.0
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260521_194513
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

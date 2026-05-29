@@ -1,0 +1,165 @@
+{
+  "story_slug": "prod_batch_11_drowning_divorce",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "reuse_fact": "开篇傅寒舟用“许明珠不会水”合理化先救假千金，后文通过直播原片证明真正问题不是没听见，而是没有回头确认；终局“不复婚、不回许家、不原谅”完成反讽闭环。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "reuse_fact": "傅寒舟从命令式“你又闹什么”降到海外追来求复合，许家从威胁断亲降到求撤材料，情感温度反转由证据和边界动作触发。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "reuse_fact": "反击分层推进：替嫁聊天记录与结婚证澄清身份，修复签名证明专业价值，实验室官网名单完成事业升维，监管调查收束许家商业债。"
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 13000
+  },
+  "final_length": 12014,
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.0,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "failure_types": [
+    {
+      "type": "chapter_thinness",
+      "severity": "important",
+      "chapter": "全篇多章",
+      "evidence": "章节长度多集中在 600-800 字，低于 beat-bible 900-1100 字规划。",
+      "lesson": "下一篇同类 production 稿若总字数达标，仍需优先检查单章饱满度，尤其强场面章应补足现场对抗回合。"
+    },
+    {
+      "type": "evidence_chain_overcompression",
+      "severity": "important",
+      "chapter": "第十章至第十五章",
+      "evidence": "中后段连续依赖第三方账号、匿名实习生、监管推进和律师说明完成反转。",
+      "lesson": "证据复仇线应给反派至少一次完整否认、转移矛盾或现场阻挠，再用更硬证据压回去。"
+    },
+    {
+      "type": "legal_process_compression",
+      "severity": "minor",
+      "chapter": "第十五章",
+      "evidence": "学历、抄袭、赝品交易链、配合调查等信息集中在发布会一章爆发。",
+      "lesson": "涉及现实监管和司法流程时，保留“涉嫌”“配合调查”“核验中”“以程序结论为准”等措辞，并避免用舆论替代法律结论。"
+    }
+  ],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "hook": "傅寒舟先救假千金后，女主第二天递离婚协议。",
+      "reuse_fact": "开篇 300 字内同时给出生死抛弃、假千金、婚姻断裂三个点击点。"
+    },
+    {
+      "chapter": "第三章",
+      "hook": "许母威胁女主别毁许明珠名声时，女主已按下录音并转给律师。",
+      "reuse_fact": "亲情压迫不要靠吵赢，靠实时录音、公证、律师接收形成硬反击。"
+    },
+    {
+      "chapter": "第四章",
+      "hook": "傅寒舟第一次找不到护具记录，伤腿在雨夜疼到站不稳。",
+      "reuse_fact": "婚内隐形劳动可用缺失清单、找不到药具、旧伤发作转成即时反噬。"
+    },
+    {
+      "chapter": "第六章",
+      "hook": "女主账号只挂三张图：替嫁聊天记录、结婚证、离婚证。",
+      "reuse_fact": "澄清污名时少写长文，用三份强证据直接反转“插足/抢婚”叙事。"
+    },
+    {
+      "chapter": "第八章",
+      "hook": "佛罗伦萨实验室官网名单更新，女主名字进入王冠项目组。",
+      "reuse_fact": "事业升维最好落在公开名单、项目铭牌、官网截图等可验证载体上。"
+    },
+    {
+      "chapter": "第十二章",
+      "hook": "傅寒舟拿到直播原片，看见女主在水下伸向他的手。",
+      "reuse_fact": "追夫火葬场的关键反噬不是解释误会，而是让他亲眼看见自己没有回头。"
+    },
+    {
+      "chapter": "第十四章",
+      "hook": "傅寒舟说和许明珠什么都没有，女主问和前妻有什么关系。",
+      "reuse_fact": "拒复婚钩子要把男主迟来的自证爱情降级为无关信息。"
+    },
+    {
+      "chapter": "第十六章",
+      "hook": "多年后傅寒舟守着一屋修坏的胸针复制件，再也等不到女主回头。",
+      "reuse_fact": "终局火葬场可用无法修复的旧物复制件承载男主反复失败，不需要复合或原谅。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "第三章",
+      "card": "许母威胁我别毁许明珠名声时，我按下录音，转发给律师。",
+      "function": "亲情压迫第一次被证据化，开启法律反击线。"
+    },
+    {
+      "chapter": "第六章",
+      "card": "我的账号首页，只挂着三张图。替嫁聊天记录，结婚证，离婚证。",
+      "function": "身份污名反杀，完成舆论风向第一轮逆转。"
+    },
+    {
+      "chapter": "第八章",
+      "card": "佛罗伦萨实验室官网名单更新，我的名字排在王冠项目组里。",
+      "function": "事业价值公开认证，脱离傅家和许家叙事。"
+    },
+    {
+      "chapter": "第十一章",
+      "card": "拍卖行旧账被查，许父连夜给我打电话求我撤材料。",
+      "function": "许家商业债反噬，亲情道德绑架转为求饶。"
+    },
+    {
+      "chapter": "第十四章",
+      "card": "傅寒舟说他们什么都没有，我问：和我这个前妻有什么关系？",
+      "function": "追妻火葬场核心拒绝点，明确不复婚。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "term": "像被刺了一下",
+      "genre": "modern_reversal",
+      "reason": "常规疼痛比喻，后续可替换为更贴合职业线的金属、裂纹、修复意象。"
+    },
+    {
+      "term": "像从皮肤里拔出一根旧刺",
+      "genre": "modern_reversal",
+      "reason": "常见创伤比喻，容易显得模板化；本故事更适合用停针、焊线、裂纹等意象。"
+    },
+    {
+      "term": "轻轻",
+      "genre": "modern_reversal",
+      "reason": "本稿软违禁命中 1 次，未构成失败，但仍可作为动作描写弱化词候选。"
+    }
+  ],
+  "retrieval_tags": [
+    "modern_reversal",
+    "fake_heir",
+    "drowning_wedding",
+    "divorce_after_abandonment",
+    "evidence_revenge",
+    "lawyer_preservation",
+    "substitute_marriage",
+    "public_opinion_reversal",
+    "artifact_restoration",
+    "signature_rights",
+    "auction_house_investigation",
+    "career_ascension",
+    "florence_conservation_lab",
+    "no_remarriage",
+    "no_family_reconciliation",
+    "boundaries",
+    "chasing_wife_crematorium",
+    "original_footage_reversal",
+    "invisible_domestic_labor",
+    "paywall_three_documents"
+  ],
+  "manual_revision_delta": []
+}

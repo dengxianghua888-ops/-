@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "停车场、平台申诉页面、司机群",
+  "time": "傍晚",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "平台客服",
+    "司机群成员",
+    "周骁"
+  ],
+  "character_goal": "申诉罚款与账号风险，阻止保证金被冻结。",
+  "opposition_goal": "周骁利用客户投诉和群聊舆论，把主角打成偷货司机。",
+  "conflict_action": "平台驳回申诉并冻结保证金，周骁把剪辑过的照片发进司机群。",
+  "information_gap": "平台尚未接入药监封存回执，只按客户投诉和异常数据判责。",
+  "emotional_debt_delta": "生计债+停号风险，金钱债+保证金冻结，尊严债+群聊羞辱。",
+  "payoff_or_hook": "主角被系统二次压迫，读者恨意继续上升。",
+  "chapter_end_hook": "平台冻结保证金的短信，比周骁的威胁更冷。",
+  "paywall_card": false,
+  "must_include": [
+    "账号停单提醒",
+    "冷链保证金冻结",
+    "司机群截图污名",
+    "周骁称她偷公司货",
+    "主角保存群聊证据"
+  ],
+  "must_not_write_as_exposition": [
+    "不要泛骂所有平台",
+    "不要让主角退出行业",
+    "不要让群聊所有人立刻相信她"
+  ]
+}

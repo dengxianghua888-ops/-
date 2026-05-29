@@ -1,0 +1,404 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10760
+  },
+  "title": "棠花落尽不相逢",
+  "genre": "古言壳虐恋重生追妻火葬场短篇",
+  "mechanisms": [
+    "M5 温度反转曲线",
+    "M6 多层递进反转",
+    "丈夫与儿子双重背叛",
+    "水殓档假殁倒计时",
+    "真相反噬后迟来悔悟",
+    "重逢不复合"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "她当着河风说：替我约水殓档，我要一份溺亡契。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 740,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "水殓婆报出潮期：二十一日后，闸口最适合死人。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 780,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "她看着霍池渊护住贺婉书，只淡声道：把执行日提前到闸口。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 820,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "她松开木板，沉进黑水前只听见儿子喊：先救小姨。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 740,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "官簿落印时，霍池渊第一次看见那枚本该在她颈上的河灯玉坠。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 760,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "改笔痕和放船手令摆在一起，他的手第一次发抖。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 760,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "屏风后，贺婉书轻笑着认下：闸口那局，本就是给姐姐送终。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 820,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "他终于明白，自己亲手把她送进了死局。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 760,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "南洋商埠四个字，被他攥得满是血印。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 760,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "香料铺门前，那道背影抬眼的一瞬，他像见了鬼。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 740,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "她对着他的名字停了停，下一句却是：这位大人，认错人了。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 820,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "儿子哭着扑来时，她只把袖子从他手里抽了出去。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 820,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "火铳响起时，霍池渊终于真正挡在了她身前。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 740,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "船帆离岸，她没有回头，只留下一句：此生不必再相逢。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 760,
+      "scene_location": "祭河大典高台与府中家宴",
+      "character_goal": "贺晚棠完成五周年祭河仪式，看清霍池渊到底会不会再次失约。",
+      "conflict_action": "霍池渊临场弃席去替贺婉书压私盐风波，逼贺晚棠独自收场并承受众人议论。",
+      "information_gap": "她为什么没有像上一世那样当场闹开，反而异常平静？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "大幅增加",
+        "reason": "重要日子被公开放弃，旧誓被当众踩碎",
+        "collection_state": "未偿"
+      },
+      "chapter_end_hook": "替我约水殓档，我要一份溺亡契。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要长篇解释祭河规制",
+        "不能把异常冷静写成单纯隐忍"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 740,
+      "scene_location": "堤岸河灯祭母夜，雷雨将至",
+      "character_goal": "贺晚棠确认自己重生后的选择，不再重复上一世的哭闹求证。",
+      "conflict_action": "儿子把本该给母亲的河灯递给贺婉书，霍池渊再度缺席，雷声触发贺晚棠上一世闸口溺亡记忆。",
+      "information_gap": "她记起了什么，才会把离开变成唯一方案？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "继续增加",
+        "reason": "母亲忌夜与儿子站队一起补刀",
+        "collection_state": "未偿"
+      },
+      "chapter_end_hook": "二十一日后，闸口最适合死人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要连续解释前世时间线",
+        "不要把重生写成玄学科普",
+        "不能弱化儿子递灯这一刀"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 780,
+      "scene_location": "盐号庆功宴与后院账房",
+      "character_goal": "贺晚棠借公开羞辱彻底切断对婚姻的最后幻想，并把假殁计划落到可执行节点。",
+      "conflict_action": "贺婉书借改笔账册栽赃她失德，霍池渊当众护着贺婉书，还逼贺晚棠为大局低头。",
+      "information_gap": "栽赃只是庶妹临场起意，还是她布局已久的一环？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "大幅增加",
+        "reason": "丈夫在公开场域判她输，名节与体面同时受损",
+        "collection_state": "未偿"
+      },
+      "chapter_end_hook": "把执行日提前到闸口。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述账册条目",
+        "不要把冲突写成纯解释谁对谁错",
+        "不能洗白霍池渊的当众护妹"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 820,
+      "scene_location": "运河闸口被水匪截船的一换一局",
+      "character_goal": "贺晚棠亲眼确认霍池渊与儿子的最终选择，完成关系死亡。",
+      "conflict_action": "水匪逼霍池渊在贺晚棠与贺婉书之间二选一，儿子哭喊着先救小姨，霍池渊下令先换贺婉书，贺晚棠借沉船黑水脱身。",
+      "information_gap": "这场闸口局到底是谁提前布好的，霍池渊事后会不会立刻意识到自己选错了？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "达到死刑级",
+        "reason": "丈夫与儿子共同给出生命级放弃",
+        "collection_state": "关系彻底断裂"
+      },
+      "chapter_end_hook": "先救小姨。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写水匪流程教学",
+        "不要把核心冲突改成内心回忆",
+        "不能把跳河写成拖长抒情"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 740,
+      "scene_location": "官府验簿房与霍府灵堂",
+      "character_goal": "霍池渊先否认失去，再被实物证据逼出第一道裂缝。",
+      "conflict_action": "官府落下溺亡簿册，霍池渊硬撑着不肯认，直到看见河灯玉坠出现在认领物里。",
+      "information_gap": "那枚玉坠为什么会落进官簿，是巧合还是有人借此坐实贺晚棠已死？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "不减反涨",
+        "reason": "他此刻的痛只证明失去，不足以偿还放弃",
+        "collection_state": "开始反噬男主"
+      },
+      "chapter_end_hook": "那枚本该在她颈上的玉坠，为什么会在认领盘里？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成长篇守灵流程",
+        "不要让男主一夜洗白",
+        "不能把官簿当成设定说明书"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 760,
+      "scene_location": "书房、盐引库房、闸口留档处",
+      "character_goal": "霍池渊沿着手令与账册痕迹查清闸口局不是意外。",
+      "conflict_action": "他强行调出放船手令、盐引批签和账册底稿，发现时间与改笔痕全部指向贺婉书提前做局。",
+      "information_gap": "贺婉书为什么能一路得手，府里还有谁在帮她遮掩？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "开始转入惩罚期",
+        "reason": "真相逼近，但偿还仍只停留在认知层",
+        "collection_state": "男主承担后知后觉痛感"
+      },
+      "chapter_end_hook": "改笔痕和放船手令摆在一起，他的手第一次发抖。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要罗列证据清单",
+        "不要把查证写成办案流程文",
+        "不能忽略他亲手下令先救贺婉书的责任"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 760,
+      "scene_location": "贺婉书院外屏风后",
+      "character_goal": "霍池渊亲耳听见贺婉书露出真面目，打碎自己最后的自我辩解。",
+      "conflict_action": "他藏在屏风后，听见贺婉书向心腹夸耀账册、手令、闸口局都出自自己布置，还嘲笑贺晚棠终于死得安静。",
+      "information_gap": "除了她的口头认罪，还有没有足以钉死她的物证？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "加速反噬男主",
+        "reason": "他终于知道自己护了真正的加害者",
+        "collection_state": "惩罚感暴涨"
+      },
+      "chapter_end_hook": "闸口那局，本就是给姐姐送终。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要只靠偷听撑真相",
+        "不要把贺婉书写成临时起恶",
+        "不能省掉她长期蓄谋的狠"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 820,
+      "scene_location": "内堂对质与私牢",
+      "character_goal": "霍池渊完成真相闭环，承认自己亲手逼死贺晚棠，并启动清算。",
+      "conflict_action": "他拿账册底稿、放船手令、偷换玉坠与仆从供词逼问贺婉书，逼出完整认罪后将其押入私牢。",
+      "information_gap": "清算了贺婉书，他还能不能找到贺晚棠，还是只能对着尸簿赎罪？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "仍不可清零",
+        "reason": "惩治真凶只能补足因果，补不回她的命",
+        "collection_state": "男主确认无资格被原谅"
+      },
+      "chapter_end_hook": "自己亲手把她送进了死局。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要连续解释证据逻辑",
+        "不要把清算写成爽文刑罚秀",
+        "不能让认罪替男主减责"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 760,
+      "scene_location": "河堤旧灯处与书房海路图",
+      "character_goal": "霍池渊在父子裂缝中得到南洋线索，开始真正意义上的追失。",
+      "conflict_action": "儿子哭求去祭河赎罪，霍池渊第一次冷声拒绝并指出是他亲口选了小姨；随后从水殓档旧账里挖出南洋商埠去向。",
+      "information_gap": "她在南洋到底是活着，还是只留下一个被精心伪造过的名字？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "外溢到父子关系",
+        "reason": "迟来的父子共痛只证明报应开始",
+        "collection_state": "追悔阶段"
+      },
+      "chapter_end_hook": "南洋商埠四个字，被他攥得满是血印。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把亲子线扩成育儿教育",
+        "不要长篇航路说明",
+        "不能让儿子几句后悔就冲淡前刀"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 760,
+      "scene_location": "南洋商埠香料铺与女学账房外",
+      "character_goal": "贺晚棠稳住新生活秩序，不让旧世界重新吞没自己。",
+      "conflict_action": "她在账房核账、在香料铺对账，沈执替她挡去无关盘问，远处却出现霍池渊追来的身影。",
+      "information_gap": "他只是错认，还是已经顺着痕迹找到她了？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "进入价值反转",
+        "reason": "她先拥有不必乞求的安稳，旧爱被迫站在门外",
+        "collection_state": "女主开始收回主动权"
+      },
+      "chapter_end_hook": "那道背影抬眼的一瞬，他像见了鬼。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写南洋风物大全",
+        "不要把沈执写成高调追求者",
+        "不能稀释她新生的安静质感"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 740,
+      "scene_location": "女学回廊与雨棚下",
+      "character_goal": "霍池渊确认人就在眼前，贺晚棠则用否认身份完成第一道价值判决。",
+      "conflict_action": "霍池渊追到回廊拦人，直接喊她名字；贺晚棠停了一瞬，却当面否认身份，沈执上前把人带走。",
+      "information_gap": "她是真不愿认，还是准备给他更狠的一次当面断绝？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "进入主动结算",
+        "reason": "她把认与不认的权力握回自己手里",
+        "collection_state": "男主被正式排除在她生活之外"
+      },
+      "chapter_end_hook": "这位大人，认错人了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成久别抒情散文",
+        "不要让重逢自动融化旧账",
+        "不能让否认身份变成欲擒故纵"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 820,
+      "scene_location": "商栈内堂",
+      "character_goal": "贺晚棠亲口宣判不回头，连儿子的眼泪也不再是锁链。",
+      "conflict_action": "霍池渊带着儿子求见，儿子扑上来哭着认错，霍池渊跪下求她回去；贺晚棠当面拆开他们迟到的悔意，然后抽回袖子拒绝。",
+      "information_gap": "他们被拒后会不会死缠不放，还是旧敌已经追到了异邦？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "明确不可兑换",
+        "reason": "迟来的父子悔意被判无效",
+        "collection_state": "女主完成核心价值宣告"
+      },
+      "chapter_end_hook": "她把袖子从他手里抽了出去。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要让道歉台词过长",
+        "不要把拒绝写成说教",
+        "不能让儿子的哭声变成软化筹码"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 820,
+      "scene_location": "异邦商栈外街口",
+      "character_goal": "贺晚棠保住现有生活，霍池渊则在真正的危险里补上他此生最迟的一次保护。",
+      "conflict_action": "贺婉书买通亡命徒持火铳伏杀，霍池渊扑过去替贺晚棠挡下这一枪，并逼出贺婉书最后的疯态。",
+      "information_gap": "他挡下这一枪之后，贺晚棠会不会因此改判？",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "仍不可清零",
+        "reason": "真正护住她一次，只能证明前面错得多晚",
+        "collection_state": "赎罪成立，爱情无效"
+      },
+      "chapter_end_hook": "霍池渊终于真正挡在了她身前。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要展开火铳细节教学",
+        "不要把挡杀写成浪漫补偿",
+        "不能把危险全写成喊叫"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 740,
+      "scene_location": "码头送别船与新账房",
+      "character_goal": "贺晚棠完成最终切断，把感激与爱情彻底分开。",
+      "conflict_action": "伤后清醒的霍池渊最后一次求见，贺晚棠留下谢意与判词，转身登船赴新账房，沈执只安静接过她的账册。",
+      "information_gap": "没有了旧关系，她往后如何活，不再重要给谁看，而只重要给自己。",
+      "emotion_debt_balance": {
+        "debt_to_heroine": "完成价值结算",
+        "reason": "她接受生还与善意，不接受旧爱回收",
+        "collection_state": "女主新生闭环"
+      },
+      "chapter_end_hook": "此生不必再相逢。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写复合暧昧尾巴",
+        "不要长篇交代海外事业版图",
+        "不能把终局写成温吞和解"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 14,
+    "min_paywall_card_count": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [19, 24],
+    "short_line_rate_lte_16_min": 0.35,
+    "short_line_rate_lte_16_max": 0.45,
+    "direct_dialogue_line_rate_min": 0.43,
+    "direct_dialogue_line_rate_max": 0.55,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 1.8,
+    "question_mark_density_per_1000_chars_max": 3.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

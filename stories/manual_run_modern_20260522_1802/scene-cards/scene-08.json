@@ -1,0 +1,37 @@
+{
+  "scene_id": "S08",
+  "beat_id": "B8",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "市监投诉受理大厅",
+  "time": "释放次日上午九点四十",
+  "pov": "first_person_林承",
+  "characters": ["林承", "孙律师", "受理员", "大厅候号群众"],
+  "character_goal": "按对方'误导消费者三百万案值'的逻辑反向索赔三个亿",
+  "opposition_goal": "受理员希望林承走'国家赔偿协商'流程而非投诉",
+  "conflict_action": "林承把决定书拍在台面,打开计算器,逐项列出查封天数 30 + 案值 300 万 × 罚没期数 + 商誉损失,推过去",
+  "information_gap": "张松和路队长尚未到场——B9 引爆",
+  "emotional_debt_delta": "-5 第一波清算",
+  "payoff_or_hook": "计算器屏幕上的'¥300,000,000.00'被特写一次",
+  "chapter_end_hook": "我把计算器推过去：'三个亿，刷卡还是转账？'",
+  "paywall_card": false,
+  "must_include": [
+    "决定书拍台面声 1 次",
+    "计算器按键声 4 次承担节拍",
+    "孙律师全场只递了一支笔,不替主角说话",
+    "候号群众一条低声议论:'这小伙子真敢算'(承接弹幕语感)"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林承解释计算公式给读者",
+    "不要让受理员立即拒绝",
+    "不要让对话超过 6 句来回"
+  ],
+  "rhythm_job": {
+    "shape": "拍台面 1 拍→计算器 4 拍→宣告→沉默",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "孙律师递笔的动作 + 候号群众弹幕式低议"
+  }
+}

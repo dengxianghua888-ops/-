@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 840,
+  "target_chars_max": 980,
+  "location": "肃王府药斋夜间",
+  "time": "寿斋当夜",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "萧玄祁",
+    "常顺"
+  ],
+  "character_goal": "沈素娘要把最后一碗白豆腐送到萧玄祁口中",
+  "opposition_goal": "萧玄祁要确认自己仍能控制沈素娘和这碗豆腐",
+  "conflict_action": "萧玄祁命沈素娘先尝，沈素娘尝后递回，他咽下最后一口并尝到铁锈味",
+  "information_gap": "铁锈味漫上舌根，萧玄祁哑声问：“那三两银在哪里？”",
+  "emotional_debt_delta": "三两银主债开始回收，萧玄祁恐惧落地",
+  "payoff_or_hook": "铁锈味连接三两银与入口报应",
+  "chapter_end_hook": "铁锈味漫上舌根，萧玄祁哑声问：“那三两银在哪里？”",
+  "paywall_card": true,
+  "must_include": [
+    "萧玄祁命沈素娘先尝",
+    "沈素娘平静尝一口",
+    "铁锈味",
+    "三两银问题"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写毒理解释",
+    "不要写具体伤害配方",
+    "不要让萧玄祁长篇忏悔"
+  ],
+  "rhythm_job": {
+    "shape": "慢动作入口，短句对白，铁锈味后留白，再用三两银问题卡章",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白三成，动作四成，呼吸点三成，章尾用问题钩"
+  }
+}

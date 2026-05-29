@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B16b-B17",
+  "scene_label": "鹤顶红·平行天地补偿",
+  "location": "礼安王府正寝 / 平行世家闺房",
+  "time": "弩矢之后/醒来",
+  "pov": "谢长卿(灵魂线 → 平行天地)",
+  "characters": [
+    "漱玉郡主",
+    "谢长卿(平行)",
+    "护短爹娘"
+  ],
+  "character_goal": "脱离原世,在平行天地获得回血爽点",
+  "opposition_goal": "(灵线已胜,无新对手)",
+  "conflict_action": "漱玉干嚼鹤顶红死、卜骨清算面板弹出、主角醒在素檀色顶下",
+  "information_gap": "卜骨真伪不再重要,主角拒绝承认反派灵魂祭献的'圆满'",
+  "emotional_debt_delta": "+补偿债:健康躯体+顶级世家护短爹娘",
+  "payoff_or_hook": "'这辈子不光要过得好,还得变着花样地作威作福。'",
+  "chapter_end_hook": "以前欠我的好日子,我全都要享受回来",
+  "paywall_card": false,
+  "target_chars_min": 760,
+  "target_chars_max": 1020,
+  "must_include": [
+    "干嚼整盒鹤顶红",
+    "卜骨清算面板'目标人物自愿献祭灵魂'",
+    "雕梁画栋素檀色顶",
+    "护短爹娘买城南庄子",
+    "金句'变着花样地作威作福'"
+  ],
+  "must_not_write_as_exposition": [
+    "禁过度议论道德是非,保留 M8 模糊",
+    "禁现代消费品牌/词汇"
+  ]
+}

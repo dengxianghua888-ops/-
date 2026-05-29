@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "矿区医院收费窗口的灯白得刺眼",
+      "finding": "第一句即进入高压现场，没有慢热背景介绍。"
+    },
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "林雯的朋友圈在这时跳出来",
+      "finding": "医院催费与冠军鸽灵堂并置，前三百字点击欲达标。"
+    },
+    {
+      "ref": "draft-scenes/scene-03.md",
+      "quote": "我按下了手机录音键",
+      "finding": "付费级转折清楚，母亲第一次拿到主动证据。"
+    },
+    {
+      "ref": "draft-scenes/scene-07.md",
+      "quote": "红手印落在个人担保旁边",
+      "finding": "债务自缚具备卡点价值，读者期待反噬。"
+    },
+    {
+      "ref": "draft-scenes/scene-10.md",
+      "quote": "排除亲生关系",
+      "finding": "中后段强反转，足以支撑续读。"
+    },
+    {
+      "ref": "draft-scenes/scene-13.md",
+      "quote": "警察问我要不要谅解，我说不。",
+      "finding": "第四个强卡点完成断亲和刑责转向。"
+    }
+  ],
+  "notes": [
+    "Phase 7 需补标题、简介、导语和投稿付费地图；这些不计入 Phase 6 gate。",
+    "正文章节钩完整，但 draft.md 投稿版还需做章节分隔和移动端排版。"
+  ]
+}

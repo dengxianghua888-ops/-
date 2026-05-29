@@ -1,0 +1,171 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_20260518_strict_overload_incense_revenge/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11620,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        713,
+        716,
+        711,
+        713,
+        708,
+        714,
+        708,
+        730,
+        710,
+        709,
+        710,
+        713,
+        720,
+        710,
+        717,
+        719
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 166,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 6,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11620,
+      "sentence_count": 613,
+      "avg_sentence_length": 17.956,
+      "dialogue_ratio": 0.1521,
+      "question_marks": 29,
+      "question_marks_per_k": 2.496,
+      "physical_emotion_hits": {
+        "指尖": 2,
+        "发麻": 1,
+        "手心": 2,
+        "喉咙": 2,
+        "指甲": 2,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 32.186
+    },
+    "semantic_repetition": {
+      "sentence_count": 580,
+      "unique_sentence_skeletons": 580,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0017
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.7,
+    "style": 8.1,
+    "logic": 8.5
+  },
+  "evidence": [
+    {
+      "dimension": "platform_opening",
+      "quote": "平台报价六百，路线从城西仓到东桥社区诊所。"
+    },
+    {
+      "dimension": "platform_opening",
+      "quote": "温控与重量异常，预扣罚款六千八，账号扣分待复核。"
+    },
+    {
+      "dimension": "chapter_hook",
+      "quote": "我没去美容院，直接把车开向药监大楼。"
+    },
+    {
+      "dimension": "emotion_debt",
+      "quote": "冷链保证金冻结，冻结金额五万，解除时间待定。"
+    },
+    {
+      "dimension": "emotion_debt",
+      "quote": "母亲门口那行红字，把这场纠纷推过了底线。"
+    },
+    {
+      "dimension": "emotion_payoff",
+      "quote": "六千八罚款撤销，扣分清零。"
+    },
+    {
+      "dimension": "emotion_payoff",
+      "quote": "冷链保证金五万元已返还至账户。"
+    },
+    {
+      "dimension": "style",
+      "quote": "我没有删任何聊天记录，也没有改动原始视频。"
+    },
+    {
+      "dimension": "logic",
+      "quote": "两箱有没有拆开？我摇头：没有。"
+    },
+    {
+      "dimension": "logic",
+      "quote": "他说还要继续查套用来源，今天只是初步异常说明。"
+    },
+    {
+      "dimension": "sensitive_boundary",
+      "quote": "他没有说成分，也没有说用途。"
+    },
+    {
+      "dimension": "final_payoff",
+      "quote": "我重新启动冷链车，接下第一张干净的年度配送单。"
+    }
+  ]
+}

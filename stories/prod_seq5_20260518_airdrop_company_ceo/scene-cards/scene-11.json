@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "风控会议室门外走廊",
+  "time": "苏曼宁权限被冻结后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "李屿", "王珩"],
+  "character_goal": "许闻溪拒绝周砚礼用旧情要求停手",
+  "opposition_goal": "周砚礼想用戒指、旧照和共同创业记忆换她撤销审计",
+  "conflict_action": "周砚礼拦住许闻溪递出戒指，许闻溪把法务函和回避通知放进他掌心",
+  "information_gap": "周砚礼还不知道离婚协议和资产清单已经准备好",
+  "emotional_debt_delta": "-情感依附债第一笔 +迟来忏悔债",
+  "payoff_or_hook": "旧情道具被制度文件压过",
+  "chapter_end_hook": "周砚礼跪在门口说别毁了我，许闻溪只让他签收。",
+  "paywall_card": false,
+  "must_include": ["旧戒指", "共同创业旧照", "法务函", "回避通知", "签收动作"],
+  "must_not_write_as_exposition": ["不要写复合暧昧", "不要让女主被戒指打动", "不要用长篇回忆冲淡清算"]
+}

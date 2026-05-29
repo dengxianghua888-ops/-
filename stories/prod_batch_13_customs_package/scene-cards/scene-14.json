@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 630,
+  "target_chars_max": 830,
+  "location": "茶厂办公室与平台公告页",
+  "time": "三天后上午",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "林照姐姐",
+    "平台总部客服主管",
+    "茶厂工人",
+    "客户采购"
+  ],
+  "character_goal": "林照拿回损失、解除冻结、恢复供货资质，并把钱还给家人和供应商。",
+  "opposition_goal": "残余舆论把林照当成碰瓷流量，质疑茶厂品质。",
+  "conflict_action": "平台发布整改通报并打款退赔，林照逐笔还款，同时接起客户采购要求追加订单的电话。",
+  "information_gap": "这次荒诞事件会不会真正转化为茶厂生路。",
+  "emotional_debt_delta": "生存债偿还，工厂从停工边缘被拉回。",
+  "payoff_or_hook": "新订单在通报发布后涌入。",
+  "chapter_end_hook": "官方通报刚发出，林照店铺后台第一秒就弹出九百七十六个新订单。",
+  "paywall_card": false,
+  "must_include": [
+    "官方整改通报",
+    "退赔到账",
+    "解除冻结",
+    "恢复供货资质",
+    "九百七十六个新订单"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用一句话带过退款",
+    "不要让爆单早于清算",
+    "不要写成虚假致富神话"
+  ]
+}

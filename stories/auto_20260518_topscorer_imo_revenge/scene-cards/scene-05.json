@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B9",
+  "scene_label": "直播自爆·赌前途",
+  "location": "别墅客厅角落",
+  "time": "晚八点零二",
+  "pov": "林初",
+  "characters": ["林初", "假哥哥", "裴恒队长", "假家人四人"],
+  "character_goal": "用奥赛金牌前途换警方再查一遍",
+  "opposition_goal": "假哥哥扑过来拍掉手机，让主角彻底沦为笑柄",
+  "conflict_action": "主角支起手机直播+实名报姓名报奥赛身份+举报别墅藏尸+假哥哥扑过来打掉手机+主角后退继续直播",
+  "information_gap": "直播间评论区一片'高考状元疯了'，证据指向何方",
+  "emotional_debt_delta": "+情绪债开始释放",
+  "payoff_or_hook": "'我是 IMO 国际数学奥赛金牌得主林初——我要实名举报梧桐里 3 号别墅藏尸！死者是我的父母、我的哥哥、我的未婚夫。'",
+  "chapter_end_hook": "在线人数飙过 5 万，公屏血红一片",
+  "paywall_card": false,
+  "target_chars_min": 750,
+  "target_chars_max": 1000,
+  "must_include": [
+    "直播间标题",
+    "在线人数飙到 5 万",
+    "假哥哥拍手机动作",
+    "评论区前两条具体内容"
+  ],
+  "must_not_write_as_exposition": [
+    "禁主角内心鸡汤",
+    "禁'直播间'词重复 5 次以上"
+  ]
+}

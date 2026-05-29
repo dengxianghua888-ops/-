@@ -1,0 +1,51 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "发布会后台走廊",
+  "time": "退婚公布后",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "助理",
+    "安保"
+  ],
+  "character_goal": "沈听澜要离开旧关系叙事，不再被江砚舟定义。",
+  "opposition_goal": "江砚舟要用旧情和未婚妻身份把她拽回发布会。",
+  "conflict_action": "江砚舟堵住走廊，沈听澜取下无菌手环和低温舱编号牌，放进透明证物袋。",
+  "information_gap": "无菌手环和前世创伤有关，但具体真相暂不展开。",
+  "emotional_debt_delta": {
+    "added": [
+      "错付真心被轻贱债"
+    ],
+    "paid": [
+      "拒绝欲擒故纵标签"
+    ]
+  },
+  "payoff_or_hook": "旧手环成为前世伤害证物，而不是苦情回忆入口。",
+  "chapter_end_hook": "截断句：陌生号码发来四个字，别信他。",
+  "paywall_card": false,
+  "must_include": [
+    "江砚舟台词：你闹够了没有",
+    "沈听澜回答不超过8个字",
+    "无菌手环编号牌入袋",
+    "短信落款不写姓名"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段回忆前世婚姻",
+    "不要解释手环医疗用途",
+    "不要让安保或助理评价女主"
+  ],
+  "rhythm_job": {
+    "shape": "走廊拦截，短对白交锋，证物动作转钩子",
+    "dialogue_action_breathing_ratio": "对白约50%，动作约35%，呼吸点约15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用沈听澜慢慢封好证物袋压低情绪",
+    "chapter_tail_action": "短信亮屏，停在未知发送人"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "直播控制台旁、景区办公室门口",
+  "time": "白天，婚礼被迫中断后不久",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "苏律师",
+    "周瑞阳",
+    "景区运营助理",
+    "直播导播"
+  ],
+  "character_goal": "把婚礼事故变成可执行的证据保全现场。",
+  "opposition_goal": "周瑞阳要切断直播、收回材料，把事件压成私人纠纷。",
+  "conflict_action": "林晚晴让苏律师现场发函、拷回放、拍存假证明、固定导播台时间线。",
+  "information_gap": "截断在周瑞阳面对二选一说不出话。",
+  "emotional_debt_delta": "第一轮制度反击落地，女主不让爽点停在口舌上。",
+  "payoff_or_hook": "苏律师一句“你选哪条后果”让周瑞阳第一次闭嘴。",
+  "chapter_end_hook": "截断在周瑞阳面对二选一说不出话。",
+  "paywall_card": false,
+  "must_include": [
+    "苏律师是工具性放大器，主导权仍在女主",
+    "导播和办公室细节要让直播可取证成立",
+    "周瑞阳被逼到只能选更坏的那边"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写法律科普长段",
+    "不要跳过保全流程动作",
+    "不要让律师长篇演讲"
+  ],
+  "rhythm_job": {
+    "shape": "2个取证动作+1记二选一发问+章尾沉默",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "4:6",
+    "low_pressure_bridge": "拷硬盘、签收单、导播回看时间码这些证据动作承接高压",
+    "chapter_tail_cut": "周瑞阳沉默即切"
+  }
+}

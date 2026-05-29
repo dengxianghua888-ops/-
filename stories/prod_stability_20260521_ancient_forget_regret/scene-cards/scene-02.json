@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "药圃水榭与泊舟木桥",
+  "time": "同日午后",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "两名谢家家丁"
+  ],
+  "character_goal": "保住药圃，也逼谢临舟承认她不是随手安置的外宅。",
+  "opposition_goal": "谢临舟要用门第和联姻利益压服她，让她别在婚前闹事。",
+  "conflict_action": "沈蘅追到水榭扯住他衣袖不放，谢临舟掰开她的手，改口把她定成外宅娘子，还让家丁把药圃账册先搬走。",
+  "information_gap": "她刚追到水榭尽头，身后的药棚忽然窜起火光。",
+  "emotional_debt_delta": "+1：正妻位置被亲口抹掉。",
+  "payoff_or_hook": "把“门第不配”和“孩子也不配见光”的寒心感砸实。",
+  "chapter_end_hook": "她刚追到水榭尽头，身后的药棚忽然窜起火光。",
+  "paywall_card": false,
+  "must_include": [
+    "谢临舟亲口说出联姻是为了稳盐漕",
+    "沈蘅抓袖子或拦桥的具体动作",
+    "火光先从她最珍重的一处药棚烧起"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开联姻政治分析",
+    "不要写长段哭诉式回忆",
+    "不要列药圃物件清单"
+  ],
+  "rhythm_job": {
+    "shape": "3轮对撞对白 -> 1次掰手动作 -> 火光突入截断",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白6成，动作2成，燃烧画面2成",
+    "hook_line_required": true
+  }
+}

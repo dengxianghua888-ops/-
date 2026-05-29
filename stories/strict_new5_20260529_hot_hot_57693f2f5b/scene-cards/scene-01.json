@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 720,
+  "target_chars_max": 820,
+  "location": "社区便民服务站前台",
+  "time": "重生当天午后",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "许曼",
+    "许知知",
+    "排队居民"
+  ],
+  "character_goal": "沈昭确认自己重生，并拒绝私下接收许曼递来的低温药箱。",
+  "opposition_goal": "许曼要让沈昭先收下药箱，形成事实签收和照看责任。",
+  "conflict_action": "许曼把药箱压到前台登记本上，拉着许知知当众说沈昭不帮就是见死不救。",
+  "information_gap": "前世十年受害只给关键碎片，暂不揭示断电真凶。",
+  "emotional_debt_delta": "建立前世被讹、被网暴、赔偿和爱情断裂的底债。",
+  "payoff_or_hook": "沈昭第一次没有接锅，要求许曼去社区卫生站登记。",
+  "chapter_end_hook": "许曼把药箱往她怀里一塞，说：这次你可别想装没看见。",
+  "paywall_card": false,
+  "must_include": [
+    "前300字内出现前世听证会门口猝死和今生药箱递到面前",
+    "沈昭只说流程，不解释委屈",
+    "许曼把许知知推到镜头感位置"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释病情和药箱原理",
+    "不要复述前世十年全过程",
+    "不要写居民反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "短句开局，前半事实砸落，后半对白交锋；对白约三成，动作约三成，回忆碎片两成，留白与围观噪音两成。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

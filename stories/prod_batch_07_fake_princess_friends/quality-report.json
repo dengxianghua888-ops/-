@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "platform.synopsis_pending_phase7: 平台简介将在 Final Packager 投稿包中产出。"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_07_fake_princess_friends/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 11500,
+      "actual": 10652,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        727,
+        786,
+        785,
+        715,
+        655,
+        890,
+        709,
+        720,
+        769,
+        764,
+        782,
+        756,
+        752,
+        727
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 85,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 11,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 9,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10652,
+      "sentence_count": 591,
+      "avg_sentence_length": 17.024,
+      "dialogue_ratio": 0.2894,
+      "question_marks": 76,
+      "question_marks_per_k": 7.135,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "发麻": 1,
+        "后背": 1,
+        "喉咙": 1,
+        "指甲": 3,
+        "掌心": 8
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.947
+    },
+    "semantic_repetition": {
+      "sentence_count": 466,
+      "unique_sentence_skeletons": 466,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7.8,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.6
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "excerpt": "元宵前三日，织造府花厅里，我这个假千金又被骂了。",
+      "finding": "开篇第一句完成身份和冲突定位。"
+    },
+    {
+      "dimension": "platform",
+      "excerpt": "谢兰舟把腰牌放在碎灯旁，声音不高：本王亲手做的灯，谁砸的？",
+      "finding": "scene-03 付费卡点成立。"
+    },
+    {
+      "dimension": "platform",
+      "excerpt": "source bundle 仅见 beat-bible.title，未见简介字段或独立简介正文。",
+      "finding": "简介缺失，标题/简介评审无法完整 PASS。"
+    },
+    {
+      "dimension": "emotion",
+      "excerpt": "啪！走马灯砸在青砖上，灯骨裂开，齿轮滚到沈父靴边。",
+      "finding": "心爱之物被毁债现场化。"
+    },
+    {
+      "dimension": "emotion",
+      "excerpt": "我从颈上取下沈家玉佩。沈家的东西，还给沈家。",
+      "finding": "原生家庭债以断亲动作偿还。"
+    },
+    {
+      "dimension": "style",
+      "excerpt": "鼓架还没撤，湿桨横在棚边，船手们正分粽叶绳。",
+      "finding": "物理化场景有效，非空泛旁白。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "沈母抽走了我袖中的灯帖；scene-08 又写我把真正的瓦舍灯帖往案上一拍。",
+      "finding": "真假灯帖调包缺少明确桥段。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "谢兰舟夹起瓶塞闻了闻，脸色冷下来；三日后夜里，我回了沈家小祠堂。",
+      "finding": "迷香已暴露后仍放线三日，需要补一行反设局因果。"
+    }
+  ]
+}

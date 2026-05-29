@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "救援基地家属区门口",
+  "time": "第五天上午",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "林舒禾", "保安", "陆星澈"],
+  "character_goal": "叶昭想取回证件、旧相机和外婆的病历夹。",
+  "opposition_goal": "林舒禾想用门禁权限证明自己已经取代叶昭的位置。",
+  "conflict_action": "叶昭刷门禁失败，保安按林舒禾给的新名单拦住她，陆星澈在楼上看见后关掉对讲。",
+  "information_gap": "林舒禾不知道旧相机和病历夹里有迟到真相；叶昭不知道陆星澈看见她被拦。",
+  "emotional_debt_delta": "家庭归属被制度化删除，叶昭对旧家的最后一点温度归零。",
+  "payoff_or_hook": "叶昭没有争，转身去补办证件并登记失物取证。",
+  "chapter_end_hook": "家属区门禁响起红灯：无权限进入。",
+  "paywall_card": false,
+  "must_include": [
+    "门禁红灯",
+    "林舒禾更新的住户名单",
+    "保安拦人",
+    "陆星澈关掉对讲",
+    "叶昭转身去补办证件"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成单纯争风吃醋",
+    "不要让叶昭求林舒禾开门",
+    "不要让陆星澈的旁观无后果"
+  ]
+}

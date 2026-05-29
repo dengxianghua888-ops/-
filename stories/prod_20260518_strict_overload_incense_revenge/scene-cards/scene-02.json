@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "社区诊所卸货点",
+  "time": "上午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "诊所签收员",
+    "蒋总",
+    "周骁"
+  ],
+  "character_goal": "只按派单向社区诊所交付四箱，并拿到完整签收回执。",
+  "opposition_goal": "蒋总和周骁要求她把剩下两箱送去私人美容院，不留下系统签收。",
+  "conflict_action": "主角卸下四箱让签收员扫码，蒋总在电话里报出另一个地址，周骁命令她别问箱码直接送。",
+  "information_gap": "私人美容院地址不在派单路线，蒋总拒绝系统签收。",
+  "emotional_debt_delta": "规则债继续累积，主角确认额外两箱没有合法交付路径。",
+  "payoff_or_hook": "主角锁回车门，第一次按系统四箱划清责任。",
+  "chapter_end_hook": "我看着签收单上的四箱，把车门重新锁上。",
+  "paywall_card": false,
+  "must_include": [
+    "四箱被正常扫码签收",
+    "两箱仍留在冷链车内",
+    "蒋总催去私人美容院",
+    "周骁不愿发补充派单",
+    "主角拍下签收单和车厢余货"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写主角解释一大段法律常识",
+    "不要让主角打开两箱",
+    "不要把诊所写成反派同伙"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "item": "physicalized_action",
+      "quote": "我把车门打开一半，让车内摄像头对着副驾。",
+      "assessment": "关键反击靠具体动作完成。"
+    },
+    {
+      "item": "dialogue",
+      "quote": "系统只认四箱，你就该替我背锅。",
+      "assessment": "反派原话短、狠，并能回旋成后文反杀。"
+    },
+    {
+      "item": "anti_ai_fluff",
+      "quote": "我没有删任何聊天记录，也没有改动原始视频。",
+      "assessment": "证据流清楚，没有泛泛讲道理。"
+    },
+    {
+      "item": "minor_issue",
+      "quote": "我把资料一份份摊开，派单页放在最上面。",
+      "assessment": "类似“我把”结构出现较密，建议局部变换。"
+    }
+  ],
+  "notes": [
+    "整体短句移动端友好。",
+    "少量总结句和重复句式不影响通过。"
+  ]
+}

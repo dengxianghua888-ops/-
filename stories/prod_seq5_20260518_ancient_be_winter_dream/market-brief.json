@@ -1,0 +1,121 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "preferred_chars_per_chapter": 650,
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_rule": "每章结尾必须留下未解决动作、真相缺口、反派升级或主角状态突变，不允许用情绪总结收尾。"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强 Hook：极端伤害 + 反常平静 + 生死倒计时或不可逆损失同时出现。",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_rule": "每 2500-3500 字至少一次付费级卡点，优先卡在死亡倒计时、真相反转、反派升级、主角离场或清算启动前。",
+    "hook_density_floor": "全篇不得连续 1200 字无新冲突、无新信息差、无新惩罚或无新反转。"
+  },
+  "market_lane": {
+    "primary_genre": "虐恋悔悟清算 / 死后灵魂线 / 系统抹杀爽虐",
+    "secondary_genre": "豪门错付 / 假少爷夺位 / 极限背叛复仇",
+    "reader_promise": "看被妻子、亲姐和假少爷榨干血肉的主角，在死亡后旁观施害者悔疯，再用系统清算完成不可逆惩罚与新生补偿。",
+    "core_selling_points": [
+      "开篇直接给出阉割、九次流产、逼签谅解书、生死倒计时，情绪阈值极高。",
+      "主角不再争辩，以平静赴死制造强烈反差。",
+      "死亡后灵魂视角旁观迟来的悔悟，满足虐文读者的追悔爽点。",
+      "假系统真骗局、妻姐自我欺骗崩塌、替身整容惩罚，形成多层清算。",
+      "结尾换世界重生，提供情绪补偿，避免纯虐无释放。"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短故事女性向虐文读者",
+      "偏好极端背叛、死后悔悟、追妻火葬场、亲情背刺清算的读者",
+      "能接受高强度狗血设定、系统设定、豪门惩罚和灵魂旁观视角的爽虐读者"
+    ],
+    "emotional_needs": [
+      "快速确认主角被亏欠到极致，立刻站队主角。",
+      "看到施害者越过伦理底线后遭到明确、不可撤销的惩罚。",
+      "需要主角死亡或离场后的冷感旁观，而不是继续求爱求亲情。",
+      "需要反派自作自受，悔悟不能兑换原谅。",
+      "需要结尾给主角新身体、新家庭、新生活作为情绪赔付。"
+    ],
+    "topic_forbidden_zones": [
+      "不要把妻子、姐姐的伤害洗白成苦衷。",
+      "不要让主角原谅任何核心施害者。",
+      "不要弱化九个孩子、身体伤害、生育剥夺的不可逆性。",
+      "不要用大段抽象心理描写替代具体伤害、证据和行动。",
+      "不要把结尾写成重归旧关系或继续纠缠。"
+    ]
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "formulas": [
+      {
+        "formula_id": "T3",
+        "pattern": "我死后，X 亲手发现 Y，却再也救不回我",
+        "example": "我死后，妻子才知道九个孩子都是她亲手杀的",
+        "best_for": "死后灵魂线、迟来真相、强悔悟"
+      },
+      {
+        "formula_id": "T1",
+        "pattern": "X 为了 Y 害我 Z，我死后她悔疯了",
+        "example": "妻子为假少爷阉了我，我死后她悔疯了",
+        "best_for": "开篇极端伤害、番茄强刺激点击"
+      },
+      {
+        "formula_id": "T4",
+        "pattern": "他们逼我 X 后，系统开始清算",
+        "example": "他们逼我签谅解书后，系统开始清算",
+        "best_for": "系统抹杀、清算倒计时、反常平静"
+      },
+      {
+        "formula_id": "T5",
+        "pattern": "第 N 次失去孩子后，我不闹了",
+        "example": "第九次失去孩子后，我不闹了",
+        "best_for": "虐恋错付、主角抽身、平静反杀"
+      }
+    ]
+  },
+  "benchmark_alignment": {
+    "primary_benchmarks": [
+      {
+        "slug": "dead_autopsy_pregnant",
+        "fit_reason": "死后灵魂视角 + 怀孕真相爆开 + 理性错杀反噬，适合作为迟来悔悟强参照。",
+        "tomato_fit_score": 8.6
+      },
+      {
+        "slug": "ancient_mother_emperor_regret",
+        "fit_reason": "生育工具化债 + 倒计时离场 + 绝嗣真相清算，适合作为不可逆失去参照。",
+        "tomato_fit_score": 8.4
+      },
+      {
+        "slug": "sister_rebirth_my_death",
+        "fit_reason": "亲情牺牲债 + 灵魂旁观 + 家庭伦理反噬，适合作为亲属背刺清算参照。",
+        "tomato_fit_score": 8.3
+      }
+    ],
+    "recommended_mechanisms": ["M4", "M5", "M8", "M6"],
+    "recommended_hook_types": ["H2", "H3"],
+    "emotion_curve_shape": "持续下沉后死亡离场，随后阶梯式清算与补偿回升"
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.2,
+    "paywall_point_target": 9.0,
+    "emotion_release_target": 9.3,
+    "ai_flavor_target": 1.0,
+    "hook_density_target": 9.1,
+    "scoring_notes": {
+      "completion_desire": "前 300 字必须让读者想知道主角是否真死、系统是否真清算、妻姐何时悔悟。",
+      "paywall_point": "付费点优先放在主角死亡、灵魂出窍、假系统曝光、婚礼惩罚、重生补偿前。",
+      "emotion_release": "必须做到施害者悔悟无效、反派肉身和社会身份双重崩塌、主角获得新人生。",
+      "ai_flavor": "目标越低越好；禁止空泛总结、机械排比、抽象悲伤和模板化深情。",
+      "hook_density": "每章至少一个新增冲突或真相，每 800-1200 字制造一次推进型悬念。"
+    }
+  }
+}

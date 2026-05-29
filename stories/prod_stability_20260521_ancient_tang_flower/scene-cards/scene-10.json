@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "南洋商埠香料铺外街与女学账房",
+  "time": "数月后午后",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "沈执",
+    "女学掌事",
+    "铺中伙计",
+    "霍池渊"
+  ],
+  "character_goal": "守住自己新生活的秩序，不让任何旧人把她重新拖回旧身份。",
+  "opposition_goal": "霍池渊追着旧线索而来，想确认她是不是还活着；沈执则要先替她挡掉不必要的打扰。",
+  "conflict_action": "贺晚棠在账房对账，沈执替她接下生客盘问，街角的霍池渊终于循线看到她的背影。",
+  "information_gap": "他只是怀疑，还是已经认出她了？",
+  "emotional_debt_delta": "-1 女主开始站在安稳的一边，旧情被迫停在门外",
+  "payoff_or_hook": "旧世界跨海而来，新世界却先一步把门关上。",
+  "chapter_end_hook": "那道背影抬眼的一瞬，他像见了鬼。",
+  "paywall_card": false,
+  "must_include": [
+    "沈执的存在感要稳，不抢戏",
+    "霍池渊第一次看见她时要像见活人，不是见恋人"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写南洋风物游记",
+    "不要用大段旁白夸新男主",
+    "不要让重逢在这场就彻底摊牌"
+  ],
+  "rhythm_job": {
+    "shape": "新生活落地35%+旧人逼近25%+短暂错身25%+章尾惊见15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_ratio_target": 0.43,
+    "action_ratio_target": 0.36,
+    "hook_drop": "以视线撞上做静爆点",
+    "low_pressure_bridge": "核账、称香料、收算盘这些生活动作承接追来压迫"
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10620
+  },
+  "title": "他装病骗我卖祖传玉饰后，我把自己弹回来了",
+  "genre": "modern_reversal / 婚恋背叛 / 证据流清算 / 低谷逆转",
+  "mechanisms": [
+    "M3 因果回旋反讽",
+    "M5 温度反转曲线",
+    "M6 多层递进反转"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "陆晚月晃着琴轸玉饰笑：你唱一晚的钱，一半都在我卡里。"
+    },
+    {
+      "chapter_id": "ch02",
+      "target_chars": 760,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "齐衍深压低声音：那几段驻场视频，你也不想让修复圈都看见吧。"
+    },
+    {
+      "chapter_id": "ch03",
+      "target_chars": 740,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "沈母摸到空盒子时，才发现外祖母留下的琴轸玉饰已经不见了。"
+    },
+    {
+      "chapter_id": "ch04",
+      "target_chars": 780,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "家长群里弹出偷拍视频，合作机构当场撤掉了她的试岗名额。"
+    },
+    {
+      "chapter_id": "ch05",
+      "target_chars": 740,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "饭局上，陆晚月摸着肚子说：我怀了。"
+    },
+    {
+      "chapter_id": "ch06",
+      "target_chars": 760,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "沈念歌把离婚协议推过去：字我会签，但账要先对。"
+    },
+    {
+      "chapter_id": "ch07",
+      "target_chars": 760,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "第九笔转账对应的，根本不是手术押金，是陆晚月的联名包尾款。"
+    },
+    {
+      "chapter_id": "ch08",
+      "target_chars": 760,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "碎成三截的琴轸玉饰落在桌上，齐衍深第一次一句话都说不出来。"
+    },
+    {
+      "chapter_id": "ch09",
+      "target_chars": 760,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "替他家挡债保前程的所谓恩情，查出来连时间线都是假的。"
+    },
+    {
+      "chapter_id": "ch10",
+      "target_chars": 760,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "所谓孕检单上的医院章，是一家早就停用的旧章。"
+    },
+    {
+      "chapter_id": "ch11",
+      "target_chars": 760,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "陆晚月偷拍视频带节奏的后台账号，反手被人整包导出。"
+    },
+    {
+      "chapter_id": "ch12",
+      "target_chars": 760,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "古乐试演名单上，沈念歌的名字排在第一行。"
+    },
+    {
+      "chapter_id": "ch13",
+      "target_chars": 760,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "齐衍深看完她留下的手写账单，终于知道她曾为他跪求过预支工资。"
+    },
+    {
+      "chapter_id": "ch14",
+      "target_chars": 760,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "沈念歌收回视线：我原谅你，但我不会回来了。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 760,
+      "scene_location": "文旅酒吧舞台后场 / 招待包厢门口",
+      "character_goal": "沈念歌想唱完最后两首，尽快凑够齐衍深的手术押金。",
+      "conflict_action": "她推开包厢门，当场撞见齐衍深搂着陆晚月，陆晚月直接亮出转账话术踩脸。",
+      "information_gap": "齐衍深到底病没病，她这三个月的钱究竟去了哪。",
+      "emotion_debt_balance": "建立最大债务：女主为救夫深夜驻场，立刻被骗局和羞辱双重击穿。",
+      "chapter_end_hook": "陆晚月晃着琴轸玉饰笑：你唱一晚的钱，一半都在我卡里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用开篇背景介绍",
+        "不能把撞破奸情写成回忆转述",
+        "不能弱化钱流向第三者的当场揭脸"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 760,
+      "scene_location": "婚房客厅 / 洗手台边",
+      "character_goal": "沈念歌要逼齐衍深解释病历和转账，确认是不是骗局。",
+      "conflict_action": "她把伪造病历和转账截图摔到台面上，齐衍深先否认后威胁她别再去闹。",
+      "information_gap": "齐衍深为什么敢这么稳，他手里还握着什么压她的筹码。",
+      "emotion_debt_balance": "债务继续加深：骗钱被揭后，男主马上转入职业威胁。",
+      "chapter_end_hook": "齐衍深压低声音：那几段驻场视频，你也不想让修复圈都看见吧。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用长篇婚姻回顾",
+        "不能把威胁写成抽象冷暴力",
+        "不能洗白男主说成迫不得已"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 740,
+      "scene_location": "旧书铺后间 / 家里旧琴柜前",
+      "character_goal": "沈念歌想先稳住母亲急诊缴费，再确认家里旧物还剩什么。",
+      "conflict_action": "她翻开旧盒、联系典当记录、对照照片，发现最重要的琴轸玉饰已被掉包。",
+      "information_gap": "旧物是被卖了，还是被人直接转赠出去。",
+      "emotion_debt_balance": "旧物羞辱落地，婚姻背叛从情绪层变成物证层。",
+      "chapter_end_hook": "沈母摸到空盒子时，才发现外祖母留下的琴轸玉饰已经不见了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述家族旧物来历清单",
+        "不要把伤心写成大段哭诉",
+        "不能省略找盒子和对照片的动作"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 780,
+      "scene_location": "艺培机构走廊 / 家长群聊天界面",
+      "character_goal": "沈念歌想保住陪练课和试岗名额，至少留下生计。",
+      "conflict_action": "她赶去解释偷拍视频被恶意剪辑，机构却当面撤岗，家长群里评论继续发酵。",
+      "information_gap": "偷拍视频是谁先发的，齐衍深是否默许甚至参与了扩散。",
+      "emotion_debt_balance": "社会性坠落兑现，生计被切断，读者付费欲被拉满。",
+      "chapter_end_hook": "家长群里弹出偷拍视频，合作机构当场撤掉了她的试岗名额。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写机构流程说明",
+        "不要连续罗列所有家长反应",
+        "不能把网暴写成模糊背景噪音"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 740,
+      "scene_location": "文旅招商饭局包间",
+      "character_goal": "沈念歌要当面拿回白玉拨片，并逼齐衍深站队表态。",
+      "conflict_action": "陆晚月当众佩戴白玉拨片挑衅，齐衍深为了合同和面子公开维护她，陆晚月顺势抛出怀孕筹码。",
+      "information_gap": "怀孕是真是假，齐衍深到底信了多少。",
+      "emotion_debt_balance": "公开站队完成，女主彻底看见男主主动选择伤她。",
+      "chapter_end_hook": "饭局上，陆晚月摸着肚子说：我怀了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成单纯骂战",
+        "不要复述饭局人物名单",
+        "不能让女主在这里情绪失控喧闹到底"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 760,
+      "scene_location": "民政局外长椅 / 打印店",
+      "character_goal": "沈念歌要先离场止损，但把钱账和旧物账一并留下口子。",
+      "conflict_action": "她当场改离婚协议里的财产与债务条款，要求补列转账、典当、治疗用途证明。",
+      "information_gap": "齐衍深会不会为了尽快脱身，自己交出能反咬陆晚月的材料。",
+      "emotion_debt_balance": "女主从受辱转入冷静控盘，开始追回话语权。",
+      "chapter_end_hook": "沈念歌把离婚协议推过去：字我会签，但账要先对。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述协议条款全文",
+        "不要写成长篇法律科普",
+        "不能让离婚只停留在口头狠话"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 760,
+      "scene_location": "旧书铺楼上小桌 / 银行流水页面",
+      "character_goal": "沈念歌要用流水把“救命钱”链路钉死。",
+      "conflict_action": "她和父母逐笔对账，把酒吧结算单、预支记录、母亲急诊缺口与齐衍深收款时间一一套上。",
+      "information_gap": "有没有哪一笔能直接连到陆晚月消费或联名项目。",
+      "emotion_debt_balance": "女主的牺牲被具体看见，情绪债开始有了追偿抓手。",
+      "chapter_end_hook": "第九笔转账对应的，根本不是手术押金，是陆晚月的联名包尾款。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把流水核对写成枯燥账本说明",
+        "不要跳过关键金额和时间点",
+        "不能省略父母看见她极限牺牲后的反应"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 760,
+      "scene_location": "陆晚月直播拍摄点 / 车边",
+      "character_goal": "沈念歌要拿回琴轸玉饰，哪怕只剩碎片也要拿到物证。",
+      "conflict_action": "她当面截住拍摄，抢下玉饰时与陆晚月拉扯，玉饰坠地碎成三截，围观镜头全拍下来了。",
+      "information_gap": "这段现场视频会先伤到谁，齐衍深会不会第一次动摇。",
+      "emotion_debt_balance": "旧物回旋镖成形，不可复原感把关系判死。",
+      "chapter_end_hook": "碎成三截的琴轸玉饰落在桌上，齐衍深第一次一句话都说不出来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要用抒情代替抢夺动作",
+        "不要模糊碎裂细节",
+        "不能把围观镜头全写成嘈杂描述"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 760,
+      "scene_location": "老债主门口 / 茶馆角落",
+      "character_goal": "沈念歌要查清陆晚月口中的旧年恩情，到底救过齐衍深什么。",
+      "conflict_action": "她顺着老联系人去问当年债务时间线，当场拿到矛盾口供和转手聊天记录。",
+      "information_gap": "齐衍深是否知道恩情是假的，还是他只愿意相信能抬高自己的版本。",
+      "emotion_debt_balance": "最大认知翻盘起手，男主赖以站队的道德支柱开始塌。",
+      "chapter_end_hook": "替他家挡债保前程的所谓恩情，查出来连时间线都是假的。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要连续解释旧年背景",
+        "不要写成侦探式绕圈盘问",
+        "不能让关键口供只靠巧合出现"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 760,
+      "scene_location": "妇幼医院门口 / 咖啡店",
+      "character_goal": "沈念歌要核掉陆晚月的怀孕筹码，彻底拆穿男主最后的借口。",
+      "conflict_action": "她拿着单据去核验医院章和就诊号，随后把伪造痕迹拍照发给齐衍深。",
+      "information_gap": "齐衍深看到假孕证据后，是会先崩塌还是先补救自己。",
+      "emotion_debt_balance": "双爆完成，男主最后一层自我叙事被证据击穿。",
+      "chapter_end_hook": "所谓孕检单上的医院章，是一家早就停用的旧章。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写医院流程科普",
+        "不要让证据只停在口头推测",
+        "不能把假孕拆穿写成轻飘一句"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 760,
+      "scene_location": "短视频后台截图 / 文旅项目办公室",
+      "character_goal": "沈念歌要把偷拍视频和网暴链路反打回去，修复自己的职业名声。",
+      "conflict_action": "她联合掌握后台的人导出账号运营证据，文旅项目方顺势切割陆晚月和齐衍深。",
+      "information_gap": "行业层面的代价会落到什么程度，齐衍深会失去到哪一步。",
+      "emotion_debt_balance": "社会性坠落开始反修复，M3 因果回旋正式兑现。",
+      "chapter_end_hook": "陆晚月偷拍视频带节奏的后台账号，反手被人整包导出。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述平台规则",
+        "不要把舆论反噬写成抽象热搜",
+        "不能省略项目方当场切割动作"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 760,
+      "scene_location": "青年古乐试演厅 / 后台候场区",
+      "character_goal": "沈念歌要在最低谷后，拿回自己原本就有的职业位置。",
+      "conflict_action": "她顶着手伤和流言上台试演，父亲把修好的老杉木断琴递给她，现场评审改口留下她。",
+      "information_gap": "她能不能不借任何男人的补偿，独立把人生线拉回来。",
+      "emotion_debt_balance": "事业回收开始兑现，受害者身份转成主动者身份。",
+      "chapter_end_hook": "古乐试演名单上，沈念歌的名字排在第一行。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写大量古琴专业术语",
+        "不要把试演过程写成说明文",
+        "不能省略父亲递琴这个接住动作"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 760,
+      "scene_location": "空婚房 / 餐桌",
+      "character_goal": "齐衍深想求一次解释机会，沈念歌则要让他亲眼看完全部代价。",
+      "conflict_action": "她留下手写账单、预支记录、母亲急诊票据和空盒，逼他自己对照看完。",
+      "information_gap": "齐衍深的悔悟能不能成立到具体，而不是一句空道歉。",
+      "emotion_debt_balance": "男主终于准确看见她为他跪过、卖过、失去过什么，悔悟成立。",
+      "chapter_end_hook": "齐衍深看完她留下的手写账单，终于知道她曾为他跪求过预支工资。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写男主长篇内心独白",
+        "不要让悔悟靠别人骂醒",
+        "不能把账单只当道具掠过"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 760,
+      "scene_location": "演出散场台阶 / 夜风里",
+      "character_goal": "齐衍深想挽回，沈念歌要给出最终价值判决并彻底离场。",
+      "conflict_action": "他追到散场口递来旧习惯里的温水和护指膏，她接过看一眼，又平静放回他手里。",
+      "information_gap": "她会不会被迟来的温度动摇，还是完整拿走不回头资格。",
+      "emotion_debt_balance": "终局清账：她原谅，但拒绝回流，释放感完成。",
+      "chapter_end_hook": "沈念歌收回视线：我原谅你，但我不会回来了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成复合拉扯",
+        "不要喊口号式总结成长",
+        "不能模糊‘不回头’判决"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [15.5, 19.5],
+    "short_line_rate_lte_16_min": 0.48,
+    "short_line_rate_lte_16_max": 0.65,
+    "direct_dialogue_line_rate_min": 0.2,
+    "direct_dialogue_line_rate_max": 0.32,
+    "barrage_line_rate_min": 0.003,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 3.2,
+    "question_mark_density_per_1000_chars_max": 5.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

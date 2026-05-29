@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "林家客厅",
+  "time": "次日清晨",
+  "pov": "沈砚第一人称",
+  "characters": [
+    "沈砚",
+    "林知夏",
+    "林承安",
+    "林泽宇"
+  ],
+  "character_goal": "沈砚把离婚协议递出去，让林知夏正面回应羞辱。",
+  "opposition_goal": "林知夏想把醉话轻轻揭过，林承安想维护会送礼物的小舅。",
+  "conflict_action": "沈砚放下离婚协议，林承安抱着小舅送的无人机撞翻雾化器滤芯。",
+  "information_gap": "林承安抱着无人机喊小舅，沈砚手里的雾化器滤芯被撞落在地。",
+  "emotional_debt_delta": "儿子背刺债+1；小舅蹭资源债+1。",
+  "payoff_or_hook": "亲子痛点替代榴莲，雾化器滤芯成为照护责任物证。",
+  "chapter_end_hook": "林承安抱着无人机喊小舅，沈砚手里的雾化器滤芯被撞落在地。",
+  "paywall_card": false,
+  "must_include": [
+    "离婚协议实体出现",
+    "雾化器滤芯包装被踩",
+    "儿子说你本来就不如小舅",
+    "林泽宇装作劝和"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释哮喘病史长段",
+    "不要写小舅完整来历",
+    "不要让沈砚争宠吵输"
+  ],
+  "rhythm_job": {
+    "shape": "协议动作起，童声背刺落点，生活物件收尾",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白3，动作4，呼吸点2，章尾钩1",
+    "low_pressure_carry": "沈砚蹲下捡滤芯、扫开碎包装、把协议推正"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 760,
+  "target_chars_max": 930,
+  "location": "发布会后台急救通道",
+  "time": "发布会中断后",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "秦砚舟",
+    "保安",
+    "急救医生"
+  ],
+  "character_goal": "林望护住录音笔和证据原件，等待警方到场。",
+  "opposition_goal": "秦砚舟要抢走录音笔并伤害林望灭证。",
+  "conflict_action": "秦砚舟夺证不成，持刀扑向林望，沈岚推开林望挡下。",
+  "information_gap": "沈岚以为终于挡在儿子面前就能获得回应，林望只先处理伤情和证据。",
+  "emotional_debt_delta": "母亲第一次用行动挡伤，但不能抵消前债。",
+  "payoff_or_hook": "病房持刀冲突付费卡点。",
+  "chapter_end_hook": "沈岚倒下时看着林望，林望只喊：医生，止血。",
+  "paywall_card": true,
+  "must_include": [
+    "录音笔",
+    "证据原件袋",
+    "秦砚舟抢夺动作",
+    "林望没有叫妈"
+  ],
+  "must_not_write_as_exposition": [
+    "不要过度血腥",
+    "不要美化挡刀换原谅",
+    "不要让林望情感复位"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用止血、递证物袋、急救车轮声承接"
+  }
+}

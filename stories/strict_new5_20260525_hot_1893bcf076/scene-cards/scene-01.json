@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "古镇街口、开街主路口",
+  "time": "白天，开街仪式前半小时",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "周瑞阳的朋友老贺",
+    "路过的花商和游客"
+  ],
+  "character_goal": "确认“丧妻多年终于续弦”说的是不是周瑞阳，并抢在婚礼开始前赶到现场。",
+  "opposition_goal": "老贺只想顺口吹捧新郎，不愿被陌生女人追问；人流和活动秩序也在挡她。",
+  "conflict_action": "林晚晴拦车、追问、夺看手机婚礼海报，再扛着花篮往古镇主路挤。",
+  "information_gap": "周瑞阳到底把她编成了什么死法，婚礼是不是公开直播，孩子有没有也被一起抹掉。",
+  "emotional_debt_delta": "新增核心债：活人亲耳听见自己已成亡妻。",
+  "payoff_or_hook": "她抬头看见大屏婚礼形象片，新郎正是周瑞阳。",
+  "chapter_end_hook": "截断在她看清新郎脸的那一秒。",
+  "paywall_card": false,
+  "must_include": [
+    "古镇开街人流和婚礼喜气与女主身体发冷形成反差",
+    "林晚晴不是原地哭，而是立刻追过去"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释古镇项目来龙去脉",
+    "不要长段回忆婚姻全史",
+    "不要写路人围观清单"
+  ],
+  "rhythm_job": {
+    "shape": "1记起爆句+2轮追问+1个物理动作冲门+章尾大屏砸脸",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "4:6",
+    "low_pressure_bridge": "穿过花篮、宣传旗和游客肩膀的生活动作承接高压信息",
+    "chapter_tail_cut": "看到大屏上的新郎脸后立停"
+  }
+}

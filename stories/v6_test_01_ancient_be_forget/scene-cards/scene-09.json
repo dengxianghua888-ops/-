@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "target_chars_min": 720,
+  "target_chars_max": 920,
+  "location": "五凤画舫上 → 皇宫·公主寝殿",
+  "time": "册封典礼当日傍晚",
+  "pov": "阿昭",
+  "characters": ["阿昭", "父皇", "素笺"],
+  "character_goal": "阿昭回到父亲身边，三年委屈找到出口",
+  "opposition_goal": "无对抗——本章是情绪泄洪口",
+  "conflict_action": "阿昭登上画舫见到父皇→父皇强装严厉捏她脸'你还知道回来'但手在抖→阿昭扑进怀里大哭→发现寝殿三年如一日地收拾着、摆着她爱的画具和糕点→太医诊脉后说出'日后难再有孕'→父皇摔杯盏",
+  "information_gap": "读者第一次看到'父皇这三年怎么过的'——白发/皱纹/每日备好的寝殿=三年等待",
+  "emotional_debt_delta": "情绪补偿：父爱的温暖抵消部分伤痛，但不可逆的伤害提醒读者'并非一切都能修复'",
+  "payoff_or_hook": "太医确认难再有孕+父皇摔杯——不可逆伤害的余震",
+  "chapter_end_hook": "日后怕是很难再有孕了——父皇气得摔了杯盏，暗示惩罚即将降临",
+  "paywall_card": false,
+  "must_include": [
+    "父皇'你还知道回来'的严厉台词+手在抖的物理矛盾",
+    "三年寝殿如一日的细节（画具/糕点/每日收拾）",
+    "父皇鬓角白发/眼角皱纹的物理变化",
+    "阿昭大哭+父皇拍背'和小时候一样'",
+    "太医诊脉后'难再有孕'的结论+父皇摔杯"
+  ],
+  "must_not_write_as_exposition": [
+    "三年间父皇的思念不得用长段回忆叙述",
+    "不得写宫廷背景的科普段落",
+    "阿昭的哭泣不得用心理分析解释'为什么哭'"
+  ],
+  "rhythm_job": {
+    "shape": "前紧后松",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 23.8,
+    "comma_period_ratio": 0.72,
+    "sentence_avg_len": 22.1,
+    "dominant_emotion": "温暖-释然",
+    "emotion_arc": "紧张（见父皇）→ 心酸 → 大哭 → 被温暖包裹",
+    "emotion_intensity": 8.0,
+    "reader_feeling_target": "跟着女主一起哭，感受到'终于有人心疼她了'的安慰",
+    "required_techniques": [
+      {
+        "technique": "严厉外壳包裹深情内核",
+        "instruction": "父皇台词语气凶（'你还知道回来？'），但身体出卖了他（手抖/声线变/眼眶湿）——用外在凶vs内在抖的矛盾写中国式父爱"
+      },
+      {
+        "technique": "物理细节传递时间流逝",
+        "instruction": "不说'他很担心'，用三年后的白发和皱纹说。两个物理变化（白发+皱纹/瘦了/背驼了），一句带过，不展开"
+      },
+      {
+        "technique": "日常物件的情感重量",
+        "instruction": "寝殿里三年如一日准备好的东西（画具/糕点/每日收拾）=三年如一日的等待。用物件的恒定性写感情深度——最多两句"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问式责备（你还知道X）——字面怪罪，潜台词心疼",
+        "example": "你还知道回来？",
+        "instruction": "中国式父母最典型的表达：嘴上责备，眼泪在眼眶里。保持这个结构，台词≤7字"
+      },
+      {
+        "structure": "动作句 + 时间锚点（和小时候一样）",
+        "example": "泪水晕湿了龙袍，父皇也只是慢慢的拍着我的后背，和小时候一样",
+        "instruction": "'和小时候一样'五个字拉出时间纵深——不管经历了什么，在父亲面前永远是孩子。必须用这个时间锚点"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "对比式",
+    "source_excerpt": "语气严厉凶狠，可掐着我脸的手却是抖的……三年不见，父皇的鬓角添了许多白发，眼角的皱纹也深了……你还知道回来？……泪水晕湿了龙袍，父皇也只是慢慢的拍着我的后背，和小时候一样……桌上摆着我喜欢的梅花和我最爱吃的糕点……陛下吩咐要日日给公主的寝殿收拾干净……说我小产伤了根本……日后怕是很难再有孕了。父皇气的摔了杯盏。"
+  }
+}

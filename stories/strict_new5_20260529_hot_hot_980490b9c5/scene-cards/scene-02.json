@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "沈家绣房后库",
+  "time": "同日午后",
+  "pov": "沈知微第一人称",
+  "characters": ["沈知微", "沈明珠", "沈嵘", "沈家仆妇"],
+  "character_goal": "保住亡母织金莲纹梭并确认沈明珠是否按前世节点行动",
+  "opposition_goal": "沈明珠要夺走纹梭，沈嵘要把嫡女关回后库压住流言",
+  "conflict_action": "沈明珠抢纹梭，沈嵘命人落锁，仆妇把馊饭推到女主脚边",
+  "information_gap": "沈家人不知道《逆龙工册》已经入宫",
+  "emotional_debt_delta": {
+    "collect": ["亡母遗物被夺", "父亲偏心", "嫡女被囚"],
+    "payoff": ["女主确定继妹仍在照攻略走"]
+  },
+  "payoff_or_hook": "继妹炫耀太子宠爱，同时把纹梭带去绣厅",
+  "chapter_end_hook": "沈知微踏进沈家后库，门闩在身后落下，沈明珠手里正转着那枚织金莲纹梭。",
+  "paywall_card": false,
+  "must_include": ["粗布衣", "馊饭", "断针", "织金莲纹梭", "沈明珠自认凤命"],
+  "must_not_write_as_exposition": ["不要写苦难清单", "不要解释母亲生平", "不要让女主求父亲公平"],
+  "rhythm_job": {
+    "shape": "后库动作压低位，父女对白刺痛，继妹炫耀后用门闩声截断",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [9, 13],
+    "action_beats_min": 6,
+    "evidence_turn_min": 1,
+    "low_pressure_carry": "写沈知微捡断针、擦净馊饭溅到的袖口"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 830,
+  "target_chars_max": 890,
+  "location": "离婚财产分割庭",
+  "time": "同日上午庭审",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "沈知宁",
+    "双方律师",
+    "法官",
+    "旁听记者"
+  ],
+  "character_goal": "证明五年家庭生活费由自己承担，集团债务自己未受益",
+  "opposition_goal": "沈知宁要把主角写进受益人和共同承担人",
+  "conflict_action": "顾砚舟提交急诊缴费单、康复账单、卖房流水、金镯典当记录和沈知宁零家用记录",
+  "information_gap": "最终金额和判决方向暂时不完整公布",
+  "emotional_debt_delta": "家庭债+3：所有被污名的钱都有来源",
+  "payoff_or_hook": "护工工资污名回旋为未受益证据",
+  "chapter_end_hook": "截断句：法官翻到我五年缴费流水，问沈知宁：这些钱，你出过哪一笔？",
+  "paywall_card": true,
+  "must_include": [
+    "急诊缴费单与康复账单",
+    "卖房流水和母亲金镯典当记录",
+    "旁听记者短评论/低声吐槽",
+    "法官一句问题卡住沈知宁"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释时间线",
+    "不要用主角哭诉代替证据"
+  ],
+  "rhythm_job": {
+    "shape": "一组证据一刀，短评论喘息，法官问题收章",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "mix": "证据动作约40%，对白约35%，旁听评论约5%，庭审动作约20%；强压词只用一次反问，后接翻页和沉默"
+  }
+}

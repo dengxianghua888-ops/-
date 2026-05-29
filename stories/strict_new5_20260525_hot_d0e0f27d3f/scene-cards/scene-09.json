@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "私立医院走廊",
+  "time": "当天下午",
+  "pov": "沈知微 第一人称",
+  "characters": ["沈知微", "林妍", "裴承屿", "医生", "护士"],
+  "character_goal": "确认自己不再替他们的混乱兜底，也不被拖回旧局。",
+  "opposition_goal": "裴承屿想把林妍的情绪失控怪到沈知微头上，继续进行道德绑架。",
+  "conflict_action": "林妍因直播翻车和家中争执动了胎气，裴承屿冲到走廊先质问沈知微发双证照的动机；沈知微直接让开路，不接招也不安慰。",
+  "information_gap": "裴承屿最终会保住谁，林妍是否开始意识到自己只是替代品。",
+  "emotional_debt_delta": "闺蜜抢来的婚育成果开始裂开，但不以恶意生育羞辱呈现。",
+  "payoff_or_hook": "裴承屿已经开始在两个烂摊子之间左右失序。",
+  "chapter_end_hook": "他看我朋友圈双证照的时间，比看检查单还久。",
+  "paywall_card": false,
+  "must_include": [
+    "走廊拦人动作",
+    "检查结果只点到为止",
+    "沈知微不背锅的明确切割",
+    "裴承屿失序地先盯双证照"
+  ],
+  "must_not_write_as_exposition": [
+    "不要血腥描写医疗细节",
+    "不要把矛头写成女人互骂",
+    "不要长篇争谁更惨"
+  ],
+  "rhythm_job": {
+    "shape": "医院低压环境里打短对白，靠错位视线制造更冷的冲击",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

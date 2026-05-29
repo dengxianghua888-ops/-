@@ -1,0 +1,36 @@
+{
+  "story": "stories/prod_iter_19_collision_repair",
+  "overall_score": 8.92,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 11482,章节方差 35.6"
+    },
+    "hook_density": {
+      "score": 9.33,
+      "evidence": "14/15 强钩,弱钩章: ch15",
+      "weak_chapters": [
+        "ch15"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/4"
+    },
+    "action_density": {
+      "score": 4.71,
+      "evidence": "动作密度 42.24/k"
+    },
+    "style_signature": {
+      "score": 9.42,
+      "evidence": "平均句长 11.872,软违禁 1 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

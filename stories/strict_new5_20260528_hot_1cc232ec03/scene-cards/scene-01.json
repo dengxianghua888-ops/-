@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 730,
+  "target_chars_max": 790,
+  "location": "儿童康复医院缴费窗口",
+  "time": "周五傍晚，缴费队伍最拥挤时",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "顾念安",
+    "收费窗口工作人员",
+    "排队家属"
+  ],
+  "character_goal": "给女儿续康复疗程，并继续争取抚养权",
+  "opposition_goal": "顾念安要他签离婚协议、放弃抚养权和财产",
+  "conflict_action": "顾念安把离婚协议压在缴费单上，拿签字笔敲出一百万补偿条款",
+  "information_gap": "截断句：顾念安把签字笔推到我掌心，说一百万已经算她对我仁慈。",
+  "emotional_debt_delta": "亲情背刺-2：女儿主动用一百万买断陪诊",
+  "payoff_or_hook": "开篇300字内落下协议、一百万、图钱污名和亲情背刺",
+  "chapter_end_hook": "截断句：顾念安把签字笔推到我掌心，说一百万已经算她对我仁慈。",
+  "paywall_card": false,
+  "must_include": [
+    "离婚协议与缴费单叠在一起",
+    "女儿说一百万够买断五年陪诊",
+    "排队家属的低声议论形成少量评论/吐槽",
+    "顾砚舟手里还攥着女儿下一疗程账单"
+  ],
+  "must_not_write_as_exposition": [
+    "不要倒叙五年照护史",
+    "不要解释离婚协议全部条款",
+    "不要连续写围观者反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "短对白开局，动作夹证据，末尾一句冷钩",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "mix": "对白约45%，动作约35%，缴费单证据约15%，评论/吐槽约5%；强压词只用一次逼签，后接顾砚舟看账单的低压留白"
+  }
+}

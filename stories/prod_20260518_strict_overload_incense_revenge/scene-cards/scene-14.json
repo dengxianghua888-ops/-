@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "周骁公司库房与调查通报节点",
+  "time": "一周后",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "药监调查员",
+    "周骁公司库管",
+    "蒋总"
+  ],
+  "character_goal": "配合调查补全装车链条和多次违规证据。",
+  "opposition_goal": "周骁公司试图把责任推给库管和临时配送员。",
+  "conflict_action": "调查人员按主角视频定位库房货架，起出批号套用账本和伪造冷链记录。",
+  "information_gap": "涉案金额、次数和责任人还需核算后移交。",
+  "emotional_debt_delta": "黑账暴露，反派从单次纠纷跌入行业链条清算。",
+  "payoff_or_hook": "账本把周骁、蒋总和多次违规配送连起来。",
+  "chapter_end_hook": "账本里每一条假批号，都能对上周骁的车次。",
+  "paywall_card": false,
+  "must_include": [
+    "库房货架定位",
+    "批号套用账本",
+    "伪造冷链记录",
+    "库管改口",
+    "蒋总被传唤",
+    "主角只作证不越界"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写具体造假教程",
+    "不要写搜查无程序",
+    "不要让所有责任都落在小库管身上"
+  ]
+}

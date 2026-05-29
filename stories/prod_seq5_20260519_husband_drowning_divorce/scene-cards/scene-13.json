@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 760,
+  "target_chars_max": 950,
+  "location": "海外实验室入口与沈氏集团新闻页",
+  "time": "沈家证据公开后一周",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "沈父", "沈母", "实验室安保", "周砚白"],
+  "character_goal": "沈知晚拒绝沈家求和，保护自己的新生活边界。",
+  "opposition_goal": "沈父沈母想用下跪和病弱姿态逼她回家救沈氏。",
+  "conflict_action": "沈父沈母堵在实验室入口递和解书，沈知晚没有接，直接让安保按访客制度请离。",
+  "information_gap": "陆景辞仍未完成最终追悔清算。",
+  "emotional_debt_delta": "原生家庭债完成现实惩罚：沈氏撤资、父母求而不得。",
+  "payoff_or_hook": "她不再做沈家的救命工具。",
+  "chapter_end_hook": "沈氏合作方撤资，沈父跪在实验室门外求沈知晚回家。",
+  "paywall_card": false,
+  "must_include": [
+    "沈氏撤资新闻",
+    "和解书",
+    "沈母哭求",
+    "沈知晚叫安保",
+    "周砚白只在旁边确认她是否需要帮助"
+  ],
+  "must_not_write_as_exposition": [
+    "不要安排母女和解",
+    "不要写沈知晚心软回家",
+    "不要让周砚白替她赶人抢戏"
+  ]
+}

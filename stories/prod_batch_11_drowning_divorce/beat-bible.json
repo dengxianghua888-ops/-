@@ -1,0 +1,567 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 13000,
+    "planned_total_chars": 11391
+  },
+  "title": "婚礼落海后，他先救假千金",
+  "genre": "家庭伦理复仇 / 都市追妻火葬场 / 真假千金离婚逆袭",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "傅寒舟用“许明珠不会水”轻描淡写生死抛弃，许知夏用“我差点死了，所以我不要你”冷静废除婚姻规则；后期他解释和许明珠没什么，她回敬“和我这个前妻有什么关系”。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "婚内用康复记录、旧怀表、傅母胸针承载正温度；落海时背影归零；离婚后用腿痛、坏胸针、直播原片形成负温度悔恨。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "execution": "许知夏从被骂捞女的小众修复博主，分层揭露为材料学院高分生、傅氏藏品修复署名者、佛罗伦萨文保实验室成员、国际王冠项目参与者。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "离婚断联、亲情切割、直播污名、替嫁证据、修复署名、学术履历、许明珠黑料、海外拒复婚、终生悔恨逐层推进。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "傅寒舟冷笑她吃醋，许知夏把离婚协议推过去：签字。",
+      "target_chars": 665
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "傅寒舟翻到财产分割页，才发现她连傅家的珠宝修复署名都不要了。",
+      "target_chars": 822
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "许母威胁她别毁许明珠名声，许知夏按下录音转发给律师。",
+      "target_chars": 805
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "傅寒舟第一次找不到护具记录，伤腿在雨夜疼到站不稳。",
+      "target_chars": 715
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "许明珠发出剪辑视频，全网都在骂许知夏抢姐姐婚礼。",
+      "target_chars": 661
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "许知夏只发三张图：替嫁聊天记录、结婚证、离婚证。",
+      "target_chars": 699
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "行业账号认出她的修复签名，傅氏拍卖行评论区炸了。",
+      "target_chars": 676
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "佛罗伦萨实验室官网名单更新，许知夏的名字排在王冠项目组里。",
+      "target_chars": 716
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "傅寒舟看见那篇旧论文致谢，才知道她曾为替嫁放弃入学。",
+      "target_chars": 701
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "许明珠后台骂人的录音被实习生发出，她的柔弱人设裂开第一道缝。",
+      "target_chars": 736
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "拍卖行旧账被查，许父连夜给许知夏打电话求她撤声明。",
+      "target_chars": 731
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "傅寒舟终于拿到直播原片，看见许知夏在水下伸向他的手。",
+      "target_chars": 665
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "他买了最近一班去佛罗伦萨的机票，却看到她和周砚白一起进展厅。",
+      "target_chars": 702
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "傅寒舟说他们什么都没有，许知夏问：和我这个前妻有什么关系？",
+      "target_chars": 667
+    },
+    {
+      "chapter_id": 15,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "许明珠被带走前喊她是许家的女儿，许知夏关掉直播回放。",
+      "target_chars": 711
+    },
+    {
+      "chapter_id": 16,
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "多年后，傅寒舟守着一屋修坏的胸针复制件，再也等不到她回头。",
+      "target_chars": 719
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "海岛婚礼发布会玻璃栈道 / 傅氏老宅书房",
+      "character_goal": "许知夏从落海濒死中醒来，第二天直接结束婚姻。",
+      "conflict_action": "傅寒舟当众抱走许明珠；许知夏把离婚协议推到他面前逼他签字。",
+      "information_gap": "傅寒舟误以为她只是吃醋赌气，读者知道她已经心死。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "生死抛弃债",
+          "公开羞辱债"
+        ],
+        "partial_payoff": [
+          "女主首章止损"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟冷笑她吃醋，许知夏把离婚协议推过去：签字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把落海写成误会",
+        "不能让女主长篇哭诉"
+      ],
+      "target_chars": 665
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "傅氏老宅书房",
+      "character_goal": "许知夏完成冷硬谈判，拿回属于自己的个人物品。",
+      "conflict_action": "傅寒舟摔笔逼她解释，许知夏逐项划掉傅家补偿，只拿修复笔记和证件。",
+      "information_gap": "傅寒舟不知道那些笔记支撑过他的伤腿和傅氏藏品。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "婚内付出被无视债"
+        ],
+        "partial_payoff": [
+          "离婚法律推进"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟翻到财产分割页，才发现她连傅家的珠宝修复署名都不要了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止谈判拖泥带水",
+        "不能让女主求解释",
+        "不能洗白傅寒舟"
+      ],
+      "target_chars": 822
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "许家电话 / 公证处外",
+      "character_goal": "许知夏切断原生家庭控制，为后续证据反击留底。",
+      "conflict_action": "许母打电话威胁她维护许明珠，许知夏开免提录音并提交律师公证。",
+      "information_gap": "许家以为她仍怕被赶出家门，却不知道她已经准备断亲。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "真千金被替嫁剥夺债"
+        ],
+        "partial_payoff": [
+          "亲情控制被录证"
+        ]
+      },
+      "chapter_end_hook": "许母威胁她别毁许明珠名声，许知夏按下录音转发给律师。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能亲情和解",
+        "不能让父母显得无辜",
+        "禁止摘要化断亲"
+      ],
+      "target_chars": 805
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "许知夏出租屋 / 傅氏老宅雨夜",
+      "character_goal": "许知夏搬离旧宅，傅寒舟第一次感到生活秩序崩塌。",
+      "conflict_action": "许知夏拖箱离开并删除管家群；傅寒舟翻柜找护具记录和怀表维修卡失败。",
+      "information_gap": "傅寒舟仍把她的离开当闹脾气，读者看到她已订出国材料。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "婚内劳动被隐形债"
+        ],
+        "partial_payoff": [
+          "断联离宅"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟第一次找不到护具记录，伤腿在雨夜疼到站不稳。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成家庭琐事流水账",
+        "不能让傅寒舟悔悟过早",
+        "女主不能反复接电话"
+      ],
+      "target_chars": 715
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "短视频平台 / 许明珠直播间",
+      "character_goal": "许明珠抢占舆论，把许知夏塑造成插足者。",
+      "conflict_action": "许明珠发布剪辑回放哭诉，粉丝围攻许知夏账号和修复店铺。",
+      "information_gap": "网友只看见剪辑，不知道替嫁和结婚证真相。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "舆论污名债"
+        ],
+        "partial_payoff": []
+      },
+      "chapter_end_hook": "许明珠发出剪辑视频，全网都在骂许知夏抢姐姐婚礼。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "避免复刻大量污言秽语",
+        "不能过度雌竞",
+        "不能让女主卖惨"
+      ],
+      "target_chars": 661
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "出租屋电脑前 / 律师事务所",
+      "character_goal": "许知夏用第一批硬证据扭转插足叙事。",
+      "conflict_action": "她登录久未更新的账号，上传公证替嫁聊天记录、结婚证和离婚证。",
+      "information_gap": "证据只证明许明珠逃婚，尚未暴露许家和傅家的全部利益链。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "舆论污名债第一阶段偿还",
+          "替嫁剥夺债第一阶段偿还"
+        ]
+      },
+      "chapter_end_hook": "许知夏只发三张图：替嫁聊天记录、结婚证、离婚证。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能一口气爆完所有证据",
+        "不能写成长篇澄清小作文",
+        "禁止女主自证可怜"
+      ],
+      "target_chars": 699
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "傅氏拍卖行评论区 / 行业账号",
+      "character_goal": "许知夏的专业价值第一次从婚姻身份里露出。",
+      "conflict_action": "行业博主比对傅氏旧藏修复记录，公开许知夏的手写签名和修复痕迹。",
+      "information_gap": "网友知道她会修复旧藏，却不知道她曾是材料学院高分生。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "价值低估债第一阶段偿还"
+        ]
+      },
+      "chapter_end_hook": "行业账号认出她的修复签名，傅氏拍卖行评论区炸了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能专业术语堆砌",
+        "不能让新男主替她发声",
+        "不能变成科普文"
+      ],
+      "target_chars": 676
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "机场 / 佛罗伦萨文保实验室官网",
+      "character_goal": "许知夏离开旧关系，进入更高平台。",
+      "conflict_action": "她拖箱过安检拒接傅寒舟电话，同时实验室官网公布王冠修复项目成员名单。",
+      "information_gap": "傅寒舟只知道她出国，不知道她将参与国际项目。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "断联升级",
+          "价值低估债第二阶段偿还"
+        ]
+      },
+      "chapter_end_hook": "佛罗伦萨实验室官网名单更新，许知夏的名字排在王冠项目组里。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写海外奢华流水账",
+        "不能让新男主安排录取",
+        "不能淡化女主主动性"
+      ],
+      "target_chars": 716
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "傅寒舟办公室 / 材料学院校友群",
+      "character_goal": "傅寒舟被女主旧履历击中，悔悟从证据开始。",
+      "conflict_action": "材料学院老师发出许知夏旧论文和竞赛记录，傅寒舟逐页翻她被替嫁中断的申请材料。",
+      "information_gap": "傅寒舟知道她有能力，却还不知道许明珠如何窃取她的修复方案。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "迟来悔恨债"
+        ],
+        "partial_payoff": [
+          "价值低估债第三阶段偿还"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟看见那篇旧论文致谢，才知道她曾为替嫁放弃入学。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让傅寒舟突然深情洗白",
+        "不能长篇前夫视角抢戏",
+        "证据必须具体"
+      ],
+      "target_chars": 701
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "许明珠品牌后台 / 实习生匿名账号",
+      "character_goal": "假千金柔弱人设开始崩塌。",
+      "conflict_action": "被霸凌的实习生放出后台录音和设计稿时间线，证明许明珠私下辱骂许知夏并偷用修复方案。",
+      "information_gap": "录音只撕开人设，赝品交易和学历造假还未爆出。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "舆论污名债第二阶段偿还"
+        ]
+      },
+      "chapter_end_hook": "许明珠后台骂人的录音被实习生发出，她的柔弱人设裂开第一道缝。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止猎奇黑料",
+        "不能把矛盾写成单纯女人互撕",
+        "不能让惩罚过轻"
+      ],
+      "target_chars": 736
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "许家拍卖行 / 工商调查现场",
+      "character_goal": "许家因偏心和拍卖行问题受到现实反噬。",
+      "conflict_action": "律师声明引出旧藏修复署名争议，监管人员进入许家拍卖行核查赝品交易链。",
+      "information_gap": "许父许母仍以为许知夏会顾念血缘撤回声明。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "真千金被替嫁剥夺债第二阶段偿还",
+          "许家现实代价启动"
+        ]
+      },
+      "chapter_end_hook": "拍卖行旧账被查，许父连夜给许知夏打电话求她撤声明。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能亲情和解",
+        "不能父母哭一哭就赎罪",
+        "不能只靠霸总封杀"
+      ],
+      "target_chars": 731
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "傅氏书房 / 海岛直播原片存档室",
+      "character_goal": "傅寒舟直面落海原片，生死抛弃债反噬。",
+      "conflict_action": "傅寒舟逼节目技术组调出未剪辑原片，看见许知夏在水下挣扎而自己抱着许明珠离开。",
+      "information_gap": "他终于知道她不是吃醋，但仍误以为道歉能挽回。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "傅寒舟自我刑罚开始"
+        ],
+        "partial_payoff": [
+          "生死抛弃债开始反噬"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟终于拿到直播原片，看见许知夏在水下伸向他的手。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把原片写成洗白证据",
+        "不能过度血腥",
+        "不能让女主回头安慰"
+      ],
+      "target_chars": 665
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "佛罗伦萨文保展外 / 实验室走廊",
+      "character_goal": "傅寒舟追到国外，第一次看到许知夏的新人生。",
+      "conflict_action": "他堵在展厅外递旧胸针求她修，周砚白按流程请安保维持距离。",
+      "information_gap": "傅寒舟误以为周砚白是新情敌，没明白他只是尊重许知夏边界。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "追妻失败债"
+        ],
+        "partial_payoff": [
+          "新男主价值识别"
+        ]
+      },
+      "chapter_end_hook": "他买了最近一班去佛罗伦萨的机票，却看到她和周砚白一起进展厅。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "新男主不能强势替她决定",
+        "不能用三角恋稀释事业线",
+        "傅寒舟不能被浪漫化"
+      ],
+      "target_chars": 702
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "文保展闭馆后 / 展厅门口",
+      "character_goal": "许知夏明确拒绝复婚，完成关系规则回旋。",
+      "conflict_action": "傅寒舟解释自己和许明珠没有什么，许知夏当场退回旧胸针维修盒并拒绝私人修复。",
+      "information_gap": "傅寒舟终于意识到她不是惩罚他，而是真的不要他。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "生死抛弃债情感清算",
+          "追妻失败卡兑现"
+        ]
+      },
+      "chapter_end_hook": "傅寒舟说他们什么都没有，许知夏问：和我这个前妻有什么关系？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止复婚",
+        "禁止暧昧回头",
+        "女主拒绝台词必须短冷"
+      ],
+      "target_chars": 667
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "国内直播发布会 / 许家拍卖行门口",
+      "character_goal": "许明珠和许家迎来公开塌房与现实惩罚。",
+      "conflict_action": "媒体追问学历造假和赝品交易，警方带走许明珠协助调查，许父许母当众求许知夏澄清血缘关系。",
+      "information_gap": "许家还想把许知夏当止损工具，读者等待她彻底切割。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "假千金舆论污名债偿还",
+          "许家偏心债偿还"
+        ]
+      },
+      "chapter_end_hook": "许明珠被带走前喊她是许家的女儿，许知夏关掉直播回放。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让许明珠轻罚",
+        "不能让许家借血缘获赦",
+        "不能猎奇展开黑料"
+      ],
+      "target_chars": 711
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 900,
+      "target_chars_max": 1100,
+      "scene_location": "佛罗伦萨展厅 / 傅氏书房多年后",
+      "character_goal": "许知夏完成事业与新关系稳定，傅寒舟长期受刑。",
+      "conflict_action": "许知夏在展厅署名发布成果并与周砚白并肩谢幕；傅寒舟反复修胸针复制件却每次失败。",
+      "information_gap": "终局不留复婚可能，只留下傅寒舟被过去困住。",
+      "emotion_debt_balance": {
+        "new_debt": [],
+        "partial_payoff": [
+          "价值低估债终局偿还",
+          "前夫长期惩罚兑现",
+          "独美新生兑现"
+        ]
+      },
+      "chapter_end_hook": "多年后，傅寒舟守着一屋修坏的胸针复制件，再也等不到她回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止复婚",
+        "禁止亲情和解",
+        "不能让前夫痛苦盖过女主新生"
+      ],
+      "target_chars": 719
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 14000,
+    "min_chapters": 16,
+    "min_paywall_cards": 5,
+    "chapter_end_hook_coverage": "16/16",
+    "micro_hook_interval_chars": "900-1100",
+    "first_300_chars_must_include": [
+      "落海",
+      "丈夫先救假千金",
+      "第二天离婚协议"
+    ],
+    "forbidden_summary_rule": "beats[*].forbidden_summary 必须保持非空数组"
+  }
+}

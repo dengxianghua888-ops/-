@@ -1,0 +1,58 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 14000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "chapter_end_hook_required": true,
+    "estimated_chapters": "12-18"
+  },
+  "hook_policy": {
+    "golden_hook_words": 300,
+    "micro_hook_interval": 1000,
+    "paywall_card_interval": 3500,
+    "first_chapter_hook_min": 9
+  },
+  "audience": {
+    "primary": "18-35岁女性读者，都市情感类短篇消费者",
+    "emotional_need": "看闺蜜+男友双重背叛后主角不哭不闹、体面反击、活出更好自己的爽感",
+    "pain_point": "现实中遭遇信任崩塌却无力反击的代入感",
+    "taboo": ["和解洗白施害者", "受害者自残自毁", "说教式升华"]
+  },
+  "genre": "modern_reversal",
+  "source_genre_analysis": {
+    "primary": "modern_reversal",
+    "secondary": "family_ethics",
+    "confidence": "high"
+  },
+  "title_strategy": {
+    "formulas": ["T1", "T4", "T5"],
+    "candidates": [
+      "闺蜜偷了我男友还要我祝福，我在婚礼上让全场看清她的脸",
+      "养了闺蜜三年她偷我男友，婚礼当天我送上大屏贺礼她哭疯了",
+      "男友嫌我太独立转头宠闺蜜，一年后他跪着求我回头"
+    ],
+    "direction": "强调双重背叛+公开反击+施害者自食恶果"
+  },
+  "success_metrics": {
+    "completion_desire": 9,
+    "paywall_pull": 8.5,
+    "emotional_release": 9,
+    "ai_flavor_zero": true,
+    "explosion_density": "每1000字至少1个微爽点，每3000字1个大爽点"
+  },
+  "mechanism_strategy": {
+    "primary": ["M5", "M3"],
+    "secondary": ["M6"],
+    "notes": "M5温度反转（男友从爱到冷到悔）为主线情绪引擎，M3因果回旋（'她离开你活不下去'被反向应用）为金句命脉，M6多层递进（婚礼曝光→社会性死亡→事业反超→新恋情）为爽感阶梯"
+  },
+  "competitive_positioning": {
+    "similar_hits": ["瞒着老公空降公司", "因为落水老公没救我我提了离婚", "一手捧红的男主播嫌我老"],
+    "differentiation": "双线背叛（闺蜜+男友同时）叠加25年友谊崩塌，情绪债比单纯出轨更重；主角反击方式是公开曝光而非逻辑死环，更具画面感和社交传播性"
+  }
+}

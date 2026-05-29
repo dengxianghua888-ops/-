@@ -1,0 +1,478 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 11200},
+  "title": "领证日他抢走户口本给闺蜜，我转身嫁了他合伙人",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": [
+    "M3-因果回旋反讽：镜像句'反正你俩不是合伙人吗？我和谁领证不都一样？'",
+    "M5-温度反转曲线：陆衍从创业承诺→无用定性→崩溃→叫嫂子",
+    "M6-多层递进反转：领证→婚礼→LP年会→专利清算四层碾压",
+    "M2-身份反差爆发：技术VP→沈太太→远景科技实控人三层揭露"
+  ],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.60,
+    "short_line_rate_lte_16_max": 0.80,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.55,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 7.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 1380,
+      "target_char_count": [1380, 1520],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 5.8,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 18.2
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-决绝-孤立",
+          "emotion_arc": "震惊 → 屈辱 → 冷静反击 → 被孤立 → 坠入回忆 → 清醒",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "前半段替女主窒息愤怒，反击瞬间猛拍大腿，后半段心疼她的付出"
+        },
+        "highlights": {
+          "peak_moment": "苏念用陆衍的原话镜像反击：反正你俩不是合伙人吗？我和谁领证不都一样？",
+          "peak_type": "power_shift",
+          "emotional_bomb": "四年核心算法+卖房的付出被一句'你有什么用'概括"
+        },
+        "techniques": [
+          "镜像句式回旋",
+          "控制姿态具象化（捏后颈）",
+          "具象数据代替抒情",
+          "烈酒/程序比喻收章"
+        ],
+        "golden_lines": [
+          "反正你俩不是合伙人吗？我和谁领证不都一样？",
+          "苏念，你以为你不给我写代码你还有什么用？全公司谁不知道你离了我活不了？",
+          "没要股份，没要借条，只是凭着一腔爱意信他。"
+        ],
+        "rhythm_shape": "急起-急落-回忆缓冲-再起"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "伪造期权协议出现——受益人签名不对但女主暂未点破",
+        "target_description": "陆衍掏出伪造的期权协议变更文件递给苏念，受益人一栏赫然写着方怡的名字，苏念认出签名不是自己的笔迹"
+      },
+      "scenes": ["scene-01", "scene-02"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 870,
+      "target_char_count": [880, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.5,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 3.5,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.62,
+          "sentence_avg_len": 19.0
+        },
+        "emotion": {
+          "dominant_emotion": "背刺痛感-柳暗花明",
+          "emotion_arc": "发现伪造的冷 → 监控视频的痛 → 闺蜜回忆的碎 → 沈砚出现的暖 → 求婚的释然",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "前半段心绞痛般的背叛感，后半段被沈砚的行动力暖到想哭"
+        },
+        "highlights": {
+          "peak_moment": "沈砚单膝下跪说'我沈砚早就想娶你'——反转伪造侮辱为真爱确认",
+          "peak_type": "power_shift",
+          "emotional_bomb": "闺蜜回忆——从'第一次写代码通宵是我陪的'到背叛的友情崩塌"
+        },
+        "techniques": [
+          "细节验伪（签名笔迹）",
+          "甜蜜回忆反衬现实",
+          "语义反转收章"
+        ],
+        "golden_lines": [
+          "我说太仓促，是觉得这种潦草的仪式配不上你。",
+          "但证现在就领！",
+          "她第一次加班通宵是我帮她调的bug。"
+        ],
+        "rhythm_shape": "沉底-回忆-突然拉起"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "用行动力+承诺同时给出，让读者确信不是空头支票",
+        "target_description": "沈砚戴上戒指说'婚礼我会补，但证现在就领'——读者期待领证结果和陆衍发现的时刻"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 1100,
+      "target_char_count": [1100, 1220],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.2,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 4.2,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 17.5
+        },
+        "emotion": {
+          "dominant_emotion": "暗喜-被压迫-忍耐",
+          "emotion_arc": "暗中得意（发圈）→ 被无视 → 礼服惊喜 → 礼服被抢 → 婚礼降格 → 算法授权被转 → 极致忍耐",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "看到礼服细节时心暖，看到被抢时暴怒，看到文化衫时恨不得冲进屏幕"
+        },
+        "highlights": {
+          "peak_moment": "陆衍动作粗暴扯开礼服袋，说'方怡身材刚好'——极致的物化和控制",
+          "peak_type": "public_humiliation",
+          "emotional_bomb": "三个月前就准备的高定礼服被当面抢走"
+        },
+        "techniques": [
+          "暗中布局的时间差",
+          "降格比喻",
+          "递进剥夺法",
+          "甜枣话术还原"
+        ],
+        "golden_lines": [
+          "LED屏循环播着PPT，廉价得像科技园年会抽奖现场。",
+          "你穿这种收腰的不合适，方怡身材刚好。",
+          "你是技术合伙人，让着点行政的人，天经地义！"
+        ],
+        "rhythm_shape": "缓起-层层加压-压到极致"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "从新娘降格到'前同事'——用一件公司文化衫完成身份贬低的极致表达",
+        "target_description": "陆衍递出公司文化衫说'商业婚礼你穿这个来就行，前同事嘛'——压迫到极致的临界点"
+      },
+      "scenes": ["scene-04", "scene-05"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 950,
+      "target_char_count": [920, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "压迫顶点-反转启动",
+          "emotion_arc": "继续被压 → 画饼话术 → 婚礼日翻转 → 盛装九宫格 → 沈砚接亲 → 碾压启动",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "前半段忍到极限的窒息，后半段终于等到反击的解气"
+        },
+        "highlights": {
+          "peak_moment": "盛装朋友圈九宫格配文'盛装已着，静候君来'——从文化衫到高定礼服的极致反差",
+          "peak_type": "power_shift",
+          "emotional_bomb": "陆衍还在画饼说'等方怡生完再补'，下一秒就看到苏念的盛大婚礼"
+        },
+        "techniques": [
+          "社交媒体作为揭露工具",
+          "第三方传话加倍打脸",
+          "微表情泄露真心"
+        ],
+        "golden_lines": [
+          "盛装已着，静候君来。",
+          "让她等，让她丢这个人。让她知道离了我她什么代码都写不动。",
+          "打个网约车就行，不能惯她这臭毛病。"
+        ],
+        "rhythm_shape": "前慢后快——蓄力到释放"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "场景切到空荡荡的科技园配套酒店——反差制造悬念",
+        "target_description": "同事们开始起哄'新娘呢？'——陆衍的面子即将碎裂"
+      },
+      "scenes": ["scene-06"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 920,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.50,
+          "question_mark_density_per_1k": 4.5,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.74,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "碾压快感-蓄力待爆",
+          "emotion_arc": "同事嘲讽（残留压迫）→ 科技媒体曝光 → 陆衍打电话被挂 → 死撑面子 → LP年会通知",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "看到行业刷屏时拍桌子叫好，看到陆衍死撑时又恨又爽，看到年会预告时疯狂期待"
+        },
+        "highlights": {
+          "peak_moment": "科技媒体推送【爆】远景科技千金今日大婚——陆衍在空厅里看到",
+          "peak_type": "public_humiliation",
+          "emotional_bomb": "陆衍坐了一下午等她求饶，每隔十分钟翻手机——从得意到焦虑"
+        },
+        "techniques": [
+          "行业媒体作为叙事道具",
+          "时间压缩制造焦虑",
+          "声音入场制造悬念",
+          "自欺独白暴露真实"
+        ],
+        "golden_lines": [
+          "新郎不去，我看她一个人怎么收场。",
+          "有些人自己作的自己受着。",
+          "爸妈，我和沈砚挑了件礼物，来迟了，您二老别见怪！"
+        ],
+        "rhythm_shape": "匀速高压——持续碾压不松手"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "付费卡点——在身份即将公开揭露的前一秒切断",
+        "target_description": "沈母LP年会上，苏念的声音传来叫'爸妈'——陆衍在场，身份即将公开"
+      },
+      "scenes": ["scene-07"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 900,
+      "target_char_count": [900, 1020],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 0.40,
+          "question_mark_density_per_1k": 6.2,
+          "direct_dialogue_rate": 0.52,
+          "short_line_rate_lte16": 0.78,
+          "sentence_avg_len": 15.5
+        },
+        "emotion": {
+          "dominant_emotion": "揭露狂喜-碾压快感",
+          "emotion_arc": "陆衍得意（以为她回来求和）→ 困惑 → 震惊（沈母叫儿媳）→ 崩溃",
+          "emotion_intensity": 10,
+          "reader_feeling_target": "酣畅淋漓的打脸快感，每一句对话都像在读者心头放烟花"
+        },
+        "highlights": {
+          "peak_moment": "沈母说'你嫂子进门了你也不打招呼？愣着干什么，快叫嫂子！'",
+          "peak_type": "identity_reveal",
+          "emotional_bomb": "陆衍目光落在两人无名指上的戒指——视觉化的事实碾压"
+        },
+        "techniques": [
+          "自以为是的得意铺垫反转",
+          "第三方无意揭露",
+          "物件对比碾压",
+          "控制姿态失效（捏后颈被躲开）"
+        ],
+        "golden_lines": [
+          "你嫂子进门了你也不打招呼？愣着干什么，快叫嫂子！",
+          "你什么人？你们订婚了？领证了？还是办了婚礼？",
+          "闹了半个月，还不是乖乖回来了？"
+        ],
+        "rhythm_shape": "蓄力-爆发-连续爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "陆衍最后的挣扎——读者知道是死路但想看他怎么被打脸",
+        "target_description": "陆衍嘴唇哆嗦：'妈，您搞错了？她是我老婆！'"
+      },
+      "scenes": ["scene-08"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 1000,
+      "target_char_count": [1020, 1180],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.5,
+          "comma_period_ratio": 0.38,
+          "question_mark_density_per_1k": 7.8,
+          "direct_dialogue_rate": 0.55,
+          "short_line_rate_lte16": 0.80,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "审判碾压-酣畅痛快",
+          "emotion_arc": "陆衍继续嘴硬 → 沈砚轻描淡写反击 → 陆衍崩溃哭 → 全场审判 → 真相曝光",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "看着渣男在LP年会众人面前崩塌哭泣的极致快感，同时被沈砚的淡定护妻暖到"
+        },
+        "highlights": {
+          "peak_moment": "沈砚给苏念递咖啡说'事情已经过去了。念念现在是我妻子，以前的事不提了'",
+          "peak_type": "power_shift",
+          "emotional_bomb": "苏念把伪造期权和文化衫的事当众说出——沈母猛转头"
+        },
+        "techniques": [
+          "轻描淡写的降维碾压",
+          "细节降格（碗里溅水花）",
+          "问号连击审判",
+          "证据投弹（伪造期权当众曝光）"
+        ],
+        "golden_lines": [
+          "不提了。三个字，轻飘飘的，却像一把刀扎进陆衍心口。",
+          "你自己跟别人领了证，现在又来说这种话，你觉得合适吗？",
+          "三十岁的男人，当着百位投资人的面哭成这样，场面说不出的难看。"
+        ],
+        "rhythm_shape": "匀速高压——全程对话交锋无喘息"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "沈母的最终追问——迫使最丢脸的真相必须说出口",
+        "target_description": "沈母忍不住了：'陆衍！你到底跟谁领的证！'"
+      },
+      "scenes": ["scene-09", "scene-10"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 850,
+      "target_char_count": [850, 980],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.0,
+          "comma_period_ratio": 0.45,
+          "question_mark_density_per_1k": 5.5,
+          "direct_dialogue_rate": 0.50,
+          "short_line_rate_lte16": 0.75,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "因果兑现-复杂",
+          "emotion_arc": "真相曝光 → 沈母崩溃 → 苏念体面收场 → 方怡追问 → 陆衍失手 → 流产",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "对陆衍和方怡的报应感到痛快，同时对孩子无辜有一丝复杂"
+        },
+        "highlights": {
+          "peak_moment": "方怡倒地流血——因果报应的物理化兑现",
+          "peak_type": "emotional_bomb",
+          "emotional_bomb": "陆衍内心承认'如果没有这个孩子，就可以干干净净离开去追苏念'"
+        },
+        "techniques": [
+          "女主体面退场让位施害者自毁",
+          "内心独白暴露丑陋",
+          "签字细节物理化情绪"
+        ],
+        "golden_lines": [
+          "过去了就是过去了，谁对谁错，没必要再掰扯。",
+          "愧疚是对方怡的。恶心是对自己的。"
+        ],
+        "rhythm_shape": "前紧后松——从审判高压到因果兑现的缓落"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "医学术语'清宫'的冷酷+签字的不可逆——把情感后果物理化",
+        "target_description": "护士递来清宫同意书——'先生，您太太需要清宫，请签字'"
+      },
+      "scenes": ["scene-11"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 1100,
+      "target_char_count": [1100, 1220],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.50,
+          "question_mark_density_per_1k": 4.0,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 18.0
+        },
+        "emotion": {
+          "dominant_emotion": "追悔-自毁-清算",
+          "emotion_arc": "方怡不孕 → 方怡自白嫉妒 → 离婚 → 陆衍失眠想苏念 → 跟踪被拒",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "对施害者的报应感到满足，对方怡的自白有一丝复杂共情但不原谅"
+        },
+        "highlights": {
+          "peak_moment": "方怡说'凭什么她什么都比我强？所以我抢走了你'——背叛动机终极坦白",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "陆衍喝醉了叫的都是苏念名字——方怡揭露"
+        },
+        "techniques": [
+          "施害者自剖动机",
+          "失眠的具象化（翻相册）",
+          "否定句收束",
+          "平行命运对照"
+        ],
+        "golden_lines": [
+          "我不恨你，我只是不在乎你了。",
+          "你跟我在一起的时候，闭着眼叫的也是她的名字！",
+          "没有来生，我们之间还谈什么来生？"
+        ],
+        "rhythm_shape": "缓慢下沉——持续的悔恨和丧失"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "从'创业公司CEO'到'科技园跟踪狂'的身份跌落",
+        "target_description": "陆衍开始频繁出现在苏念公司楼下，每天下班都能看到他的车停在路边"
+      },
+      "scenes": ["scene-12", "scene-13"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 900,
+      "target_char_count": [870, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 3.2,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 16.5
+        },
+        "emotion": {
+          "dominant_emotion": "平静-释然-余韵",
+          "emotion_arc": "苏念拒绝 → 方怡沉沦 → 陆衍破产 → 年会偶遇 → 叫嫂子 → 收束",
+          "emotion_intensity": 7.0,
+          "reader_feeling_target": "所有账清了的满足感，苏念获得平静的幸福感，淡淡的余韵和感慨"
+        },
+        "highlights": {
+          "peak_moment": "陆衍看见苏念，笑着说'嫂子'——从'你有什么用'到'嫂子'的称呼反转",
+          "peak_type": "power_shift",
+          "emotional_bomb": "沈砚说'他倒是长大了'，苏念说'可惜太晚了'"
+        },
+        "techniques": [
+          "称呼反转收束全文",
+          "城市灯光意象收束",
+          "标题回扣",
+          "落寞背影定格"
+        ],
+        "golden_lines": [
+          "有些人，注定是用来错过的。有些遗憾，注定是一辈子的。而我，终于不用再等了。",
+          "欠你的我会还的。",
+          "可惜太晚了。"
+        ],
+        "rhythm_shape": "缓降收束——从清算的高压到平静的日常"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "不是悬念式收尾而是哲理式收束——给读者留下回味",
+        "target_description": "有些人注定是用来错过的。而我，终于不用再等了——回扣全文"
+      },
+      "scenes": ["scene-14"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 10,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

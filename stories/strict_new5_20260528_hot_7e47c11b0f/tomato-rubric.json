@@ -1,0 +1,97 @@
+{
+  "story": "stories/strict_new5_20260528_hot_7e47c11b0f",
+  "overall_score": 8.01,
+  "dimensions": {
+    "length_alignment": {
+      "score": 9.95,
+      "evidence": "总字数 10638,章节方差 64.3"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "0/13 强钩,弱钩章: ch01,ch02,ch03,ch04,ch05,ch06,ch07,ch08,ch09,ch10,ch11,ch12,ch13",
+      "weak_chapters": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch04",
+        "ch05",
+        "ch06",
+        "ch07",
+        "ch08",
+        "ch09",
+        "ch10",
+        "ch11",
+        "ch12",
+        "ch13"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 30.363/k"
+    },
+    "style_signature": {
+      "score": 9.12,
+      "evidence": "平均句长 10.427,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.78,
+      "evidence": "源/稿均行长 20.724/18.976, 短行率 0.364/0.4918, 对白行率 0.3576/0.362",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 9678,
+          "line_count": 467,
+          "avg_line_chars": 20.724,
+          "median_line_chars": 19.0,
+          "short_line_rate": 0.364,
+          "long_line_rate": 0.0343,
+          "quote_line_rate": 0.3576,
+          "barrage_line_rate": 0.0086,
+          "question_marks_per_k": 5.476,
+          "comma_period_ratio": 1.164,
+          "sentence_avg_len": 20.8
+        },
+        "candidate": {
+          "chars": 10380,
+          "line_count": 547,
+          "avg_line_chars": 18.976,
+          "median_line_chars": 17.0,
+          "short_line_rate": 0.4918,
+          "long_line_rate": 0.0457,
+          "quote_line_rate": 0.362,
+          "barrage_line_rate": 0.0347,
+          "question_marks_per_k": 6.069,
+          "comma_period_ratio": 0.386,
+          "sentence_avg_len": 10.4
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch01",
+    "ch02",
+    "ch03",
+    "ch04",
+    "ch05",
+    "ch06",
+    "ch07",
+    "ch08",
+    "ch09",
+    "ch10",
+    "ch11",
+    "ch12",
+    "ch13"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

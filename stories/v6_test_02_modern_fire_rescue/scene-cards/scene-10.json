@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 720,
+  "target_chars_max": 850,
+  "location": "婚房客厅（警方在场）",
+  "time": "紧接上场",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "民警（两名）"],
+  "character_goal": "了解警方发现的新证据",
+  "opposition_goal": "事实冰冷——燃气阀指纹不是主角的，方逸宁当晚来过",
+  "conflict_action": "民警告知：厨房燃气阀有人为开启半圈痕迹+指纹不属于主角+ETC记录显示方逸宁当晚20:00前到过该小区；主角闪回第一章的煤气味和脚步声碎片",
+  "information_gap": "确认'那晚不只是心梗'——有人蓄意制造更大危险；但动机和主谋尚未定论",
+  "emotional_debt_delta": "+2：从'延误救治'升级为'可能是蓄意谋害'",
+  "payoff_or_hook": "'如果那天她肯信我一次，事情都不会走到这一步。'——最平静的话承载最重的因果",
+  "chapter_end_hook": "如果那天她肯信我一次，事情都不会走到这一步。",
+  "paywall_card": false,
+  "must_include": [
+    "燃气阀被人为开启半圈的技术细节",
+    "指纹比对结果（不是主角的）",
+    "方逸宁当晚行踪数据（ETC/门禁记录）",
+    "闪回碎片：第一章的煤气味+脚步声+门把手",
+    "主角的反问：'所以如果我那晚没自己爬出去，不只是心梗？'"
+  ],
+  "must_not_write_as_exposition": [
+    "警方调查流程不能详细交代",
+    "方逸宁的动机不能在此定论（留给后续）"
+  ],
+  "rhythm_job": {
+    "shape": "冷压递进",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.5,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 19.2,
+    "dominant_emotion": "真相-寒意",
+    "emotion_arc": "听取报告 → 闪回碎片 → 危险确认 → 冷静因果判断",
+    "emotion_intensity": 8.0,
+    "reader_feeling_target": "从'原来不只是延误'的震惊转为'她不信我=差点让我被害死'的后怕+愤怒递增",
+    "required_techniques": [
+      {
+        "technique": "官方叙述冷感",
+        "instruction": "民警用客观术语陈述：'燃气阀逆时针旋转约30度，表面检出非户主指纹'。事实本身即恐怖，不需渲染"
+      },
+      {
+        "technique": "闪回碎片拼接",
+        "instruction": "短句碎片重现第一章伏笔——'煤气味。脚步声。门把手被压下。'三个名词短句，让读者'原来那时就...'的惊悚感"
+      },
+      {
+        "technique": "反问升级术",
+        "instruction": "用反问把信息差递进——'所以如果我没爬出去，不只是心梗？'从'病发延误'升级为'谋杀未遂'级别"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定+肯定（确认事实）",
+        "example": "不是幻觉。那晚，家里真的还有别人。",
+        "instruction": "呼应第一章的疑虑，确认读者的猜测。'不是意外。那晚，有人拧开了燃气阀。'"
+      },
+      {
+        "structure": "条件假设+因果陈述",
+        "example": "如果那天她肯信我一次，事情都不会走到这一步。",
+        "instruction": "不控诉，只陈述一个假设——但这个假设本身就是最沉重的控诉。作为章末钩子使用"
+      }
+    ],
+    "peak_type": "truth_escalation",
+    "bomb_technique": "突变式+闪回验证",
+    "source_excerpt": "民警翻开记录：'厨房燃气阀有人为开启痕迹，逆时针约30度。表面指纹比对结果——不是您的。另外，当晚20:00前，小区门禁记录显示方逸宁的车进出过。'我脑子里闪过那天晚上——厨房方向的煤气味。极轻的脚步声。被缓缓压下去的门把手。"
+  }
+}

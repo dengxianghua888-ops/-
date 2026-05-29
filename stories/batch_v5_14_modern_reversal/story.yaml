@@ -1,0 +1,25 @@
+title: 他说我是拖油瓶的那天，我看见了十年后他跪在我坟前的样子
+source_slug: hot_7a61ef4bd5
+genre: modern_reversal
+pipeline: v5_structure_fidelity
+batch: batch_v5_part2_20260527
+status: final
+nonspace_chars: 10140
+chapters: 10
+characters:
+  - name: 苏念
+    role: 女主
+    description: 被竹马视为拖累的养女，通过未来信息提前逃离命运，在伦敦重建人生
+  - name: 顾衍
+    role: 男主/反派
+    description: 把恩情当枷锁的竹马，获得未来记忆后崩溃赎罪，最终以命换改命机会
+  - name: 林薇
+    role: 反派
+    description: 伪闺蜜，表面直爽实则恶毒，处心积虑抢夺男主
+  - name: 奶奶
+    role: 配角
+    description: 女主唯一亲人，被保护的情感锚点
+  - name: 沈屿
+    role: 男配
+    description: 建筑师，女主新伴侣，温柔可靠
+logline: 被竹马和室友联手背叛的女孩通过未来日记提前看见自己的悲惨结局后果断抽身，让迟来的悔恨永远追不上她。

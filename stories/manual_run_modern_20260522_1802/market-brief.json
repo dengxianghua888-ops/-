@@ -1,0 +1,89 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 14000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 720,
+    "chapter_end_hook_required": true
+  },
+  "hook_policy": {
+    "golden_first": 300,
+    "first_chapter_min_score": 9,
+    "micro_hook_every_chars": 1000,
+    "paywall_card_every_chars": 3500,
+    "min_hooks_per_chapter": 1
+  },
+  "audience": {
+    "primary_segment": "番茄短故事女频/男频通吃 25-45 岁通勤读者",
+    "emotion_needs": [
+      "对公权傲慢的强烈代入受害感",
+      "对'用对方规则反杀对方'的高补偿型爽感",
+      "对'被逼绝境却冷静设局'的智性满足",
+      "对个人冤屈被升华为公共正义的道德回报"
+    ],
+    "story_taboo": [
+      "主角全程靠运气/贵人/系统外挂逆袭",
+      "反派被简单情绪化痛骂而非用其自身规则反制",
+      "结尾停留在口号而非具体物件落地",
+      "主角前期'设局者气场太足'导致前半压迫失真"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "label": "因果反转式 + 数字对比",
+        "title": "市监说我虚假宣传罚我三百万，我反手让他赔三个亿"
+      },
+      {
+        "formula": "T1",
+        "label": "因果反转式",
+        "title": "查封我店铺时他骂我是骗子，我让他把这句话写进判决书"
+      },
+      {
+        "formula": "T4",
+        "label": "数字对比式",
+        "title": "他们盖了三个章罚没我三百万，我用一句他们的原话拿回三个亿"
+      }
+    ],
+    "preferred": "市监说我虚假宣传罚我三百万，我反手让他赔三个亿",
+    "title_max_chars": 30,
+    "synopsis_min_chars": 90,
+    "synopsis_max_chars": 120
+  },
+  "success_metrics": {
+    "completion_rate_target": 0.62,
+    "paywall_pull_target": 0.18,
+    "emotion_release_score": 8.5,
+    "ai_flavor_tolerance": 0,
+    "hotspot_density_per_k": 4.2,
+    "tomato_rubric_target": 8.5,
+    "review_gate_target": "pass"
+  },
+  "genre_alignment": {
+    "primary_genre": "modern_reversal",
+    "preferred_mechanisms": ["M1", "M3", "M6"],
+    "preferred_hooks": ["H1", "H4"],
+    "preferred_titles": ["T1", "T4"],
+    "rationale": "源文为现代公权反杀+M1死环+M3回旋+M6递进的爆款基因。新作神髓需保持: 普通人被公权迫害→用其自身盖章规则反杀→分层揭露腐败链。"
+  },
+  "platform_constraints": {
+    "platform": "番茄短故事",
+    "min_paywall_cards": 4,
+    "front_matter_required": "导语：（90-120字钩子，含主角姓名/职业/反派身份/核心冲突悬念）",
+    "no_internal_markers_in_final": true,
+    "paragraph_policy": "正文一句一段，对话独段",
+    "max_dialogue_line_chars": 15
+  },
+  "competitive_intel": {
+    "benchmark_path": "context/tomato-benchmark.json",
+    "neighbor_corpus_slugs": ["hot_14dd5cdefe", "hot_00eeab613b", "hot_065457ce77"],
+    "differentiation_from_neighbors": "把'海关误判+反索赔'变种为'市监稽查+消费品行业+品牌损失反索赔', 域名换皮到电商品牌经营场景，避开海关/物流题材审美疲劳。"
+  }
+}

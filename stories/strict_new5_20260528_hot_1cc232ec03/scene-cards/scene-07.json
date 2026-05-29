@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 930,
+  "target_chars_max": 990,
+  "location": "知宁康复集团B轮融资发布会后台",
+  "time": "两周后上午，发布会开场前",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "沈知宁",
+    "陆承安",
+    "发布会主持人",
+    "投资人代表"
+  ],
+  "character_goal": "让沈知宁和陆承安在媒体和投资人前完成原创担保",
+  "opposition_goal": "沈知宁要把顾砚舟赶出后台，维护融资场面",
+  "conflict_action": "沈知宁拦住顾砚舟入场证，转身安排陆承安上台担保全部自研",
+  "information_gap": "顾砚舟已经安排材料接入大屏，但不说破",
+  "emotional_debt_delta": "反杀蓄力+1：反派主动走进担保死环",
+  "payoff_or_hook": "从家庭撕裂转入公开名利场",
+  "chapter_end_hook": "截断句：发布会后台，沈知宁把话筒递给陆承安，让他替集团担保原创。",
+  "paywall_card": false,
+  "must_include": [
+    "入场证被沈知宁扣住",
+    "陆承安整理胸牌上台",
+    "媒体区弹幕/直播评论夸沈知宁女强人",
+    "顾砚舟给律师发出一个确认消息"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写发布会流程表",
+    "不要介绍融资背景过长",
+    "不要提前展示证据全集"
+  ],
+  "rhythm_job": {
+    "shape": "后台拦截对白，直播评论松一拍，上台担保落钩",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "mix": "对白约40%，动作约35%，直播评论约10%，证据准备约15%；强压词只用一次质问，后接发送确认消息"
+  }
+}

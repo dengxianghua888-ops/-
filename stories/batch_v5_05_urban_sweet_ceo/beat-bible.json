@@ -1,0 +1,90 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_0949ad53a5",
+  "title": "她把副驾留给了别人",
+  "genre": "urban_sweet_ceo",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "structure_contract": {
+    "target_draft_chars": 14000,
+    "impact_density_floor": 3.4,
+    "cliffhanger_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "source_avg_line_chars": 20,
+    "allowed_avg_visual_line_chars": [16, 25],
+    "short_line_rate_lte_16_min": 0.25,
+    "short_line_rate_lte_16_max": 0.55,
+    "direct_dialogue_line_rate_min": 0.30,
+    "direct_dialogue_line_rate_max": 0.55
+  },
+  "adaptation": {
+    "source_setting": "七年青梅男友在女友反复偏袒男实习生后冷静分手，去上海开启新生活",
+    "new_setting": "五年男友在女友反复偏袒男闺蜜后冷静分手，去深圳开启新生活",
+    "character_map": {
+      "姜昀→陆辰": "男主，五年男友，被长期轻慢后冷静抽离",
+      "高珊珊→林念": "前女友，仗着五年感情默认男主不会走",
+      "苏逸宁→周衍": "男闺蜜/第三者，持续越界",
+      "贺舒怡→沈知予": "新爱，十年暗恋，尊重边界"
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B1", "title": "副驾事件", "budget_role": "setup", "budget_pct": 8,
+      "target_chars_min": 800, "target_chars_max": 1100, "is_climax_beat": false,
+      "opening_hook": "男主发现女友把副驾永远留给男闺蜜，提出分手",
+      "min_impacts": 2, "must_include": ["位置被替代", "冷静提分手", "女方不当回事"]
+    },
+    {
+      "beat_id": "B2", "title": "录音羞辱", "budget_role": "escalation", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": false,
+      "min_impacts": 3, "must_include": ["女方播放旧录音嘲笑", "男闺蜜越界行为曝光", "男主忍耐到极限"]
+    },
+    {
+      "beat_id": "B3", "title": "朋友围观排挤", "budget_role": "escalation", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": false,
+      "min_impacts": 3, "must_include": ["朋友群嘲男主小气", "男闺蜜故意挤占", "女方偏袒"]
+    },
+    {
+      "beat_id": "B4", "title": "温度正峰与断裂", "budget_role": "escalation", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": false,
+      "min_impacts": 3, "must_include": ["回忆旧爱曾经的好", "关键事件中旧爱缺席", "新爱出现对照"]
+    },
+    {
+      "beat_id": "B5", "title": "真正改道", "budget_role": "climax", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": true,
+      "min_impacts": 3, "must_include": ["男主扔掉旧物", "改变目的地", "不可逆离开"],
+      "reversal_layers": {"min_depth": 2, "pattern": "以为闹脾气→真的走了→去了新城市"}
+    },
+    {
+      "beat_id": "B6", "title": "女方发现退票", "budget_role": "climax", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": true,
+      "min_impacts": 4, "must_include": ["女方发现男主不在", "慌乱追查", "联系不上"],
+      "reversal_layers": {"min_depth": 2, "pattern": "以为在闹→发现真走了→彻底联系不上"}
+    },
+    {
+      "beat_id": "B7", "title": "新城市新爱", "budget_role": "resolution", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": false,
+      "min_impacts": 2, "must_include": ["新爱接站", "坦白暗恋", "尊重边界"]
+    },
+    {
+      "beat_id": "B8", "title": "录音反杀", "budget_role": "climax", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": true,
+      "min_impacts": 4,
+      "reversal_layers": {"min_depth": 2, "pattern": "女方追来求复合→男主播放她自己录的分手录音→锁死关系"},
+      "gold_sentence_slot": {"position": "beat结尾", "rhetoric_pattern": "boomerang_quote"},
+      "must_include": ["女方追到新城市", "录音反用", "关系锁死"]
+    },
+    {
+      "beat_id": "B9", "title": "男闺蜜破防", "budget_role": "climax", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": true,
+      "min_impacts": 3, "must_include": ["男闺蜜暴露真面目", "女方醒悟", "彻底失去"]
+    },
+    {
+      "beat_id": "B10", "title": "终局清算", "budget_role": "resolution", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1100, "is_climax_beat": false,
+      "gold_sentence_slot": {"position": "全文结尾", "rhetoric_pattern": "contrast_pair", "source_reference": "迟到补偿vs新生活"},
+      "min_impacts": 2, "must_include": ["迟到补偿被拒", "新爱圆满", "旧物丢弃"]
+    }
+  ]
+}

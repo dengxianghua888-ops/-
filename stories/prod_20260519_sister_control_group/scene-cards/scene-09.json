@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B9",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "女主公寓",
+  "time": "出差归来当晚",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "顾行舟"
+  ],
+  "character_goal": "决定反击方式",
+  "opposition_goal": "无",
+  "conflict_action": "整理情绪+回忆江越曾透露的内幕交易信息+截图存档",
+  "information_gap": "读者等待反击",
+  "emotional_debt_delta": "0",
+  "payoff_or_hook": "证据准备就绪",
+  "chapter_end_hook": "那份内幕交易的截图，我存了三份。",
+  "paywall_card": false,
+  "must_include": [
+    "具体整理动作",
+    "顾行舟默默陪伴",
+    "决心表达"
+  ],
+  "must_not_write_as_exposition": [
+    "不能只写心理活动"
+  ]
+}

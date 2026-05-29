@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "丹阶到宫门长街",
+  "time": "雨天申时",
+  "pov": "我",
+  "characters": [
+    "我",
+    "新帝",
+    "裴含霜",
+    "内侍",
+    "百姓"
+  ],
+  "character_goal": "撑过雨跪和拖街，不认错求饶",
+  "opposition_goal": "裴含霜要把我做成活的示众样本，新帝则要让全城相信我只配如此",
+  "conflict_action": "我被罚雨跪丹阶，膝骨见血后仍被锁链拖过长街，内侍一路喝令众人围观",
+  "information_gap": "锁链拖过丹墀时，有人低声道：她怕是活不到明日。",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "公共羞辱把女主压到最低谷前夜",
+  "chapter_end_hook": "锁链拖过丹墀时，有人低声道：她怕是活不到明日。",
+  "paywall_card": false,
+  "must_include": [
+    "雨跪丹阶",
+    "锁链押行",
+    "百姓议论像评论区",
+    "新帝默许不叫停"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长段写雨景",
+    "不要罗列旁观者身份",
+    "不要跳过锁链拖行动作"
+  ],
+  "rhythm_job": {
+    "shape": "对白3段/动作4段/议论1段/慢反应1段/章尾钩1刀",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

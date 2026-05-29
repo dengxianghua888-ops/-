@@ -1,0 +1,96 @@
+{
+  "story_slug": "strict_new5_20260529_hot_hot_57693f2f5b",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 11114,
+  "quality_scores": {
+    "platform": 8.3,
+    "emotion": 8.0,
+    "style": 7.4,
+    "logic": 7.5
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "开篇前150字内同时给出猝死、十年赔偿网暴、顾临川追问、重回药箱现场，快速建立重生反杀目标。"
+    },
+    {
+      "chapter": 4,
+      "hook": "主角退群、停机、进封闭山区项目，把被网暴辞退升级为失联悬念。"
+    },
+    {
+      "chapter": 8,
+      "hook": "协调会三方互咬，热搜从冷血社工变成前社工失联，外部舆论反向推动找人。"
+    },
+    {
+      "chapter": 11,
+      "hook": "监控定格许曼拔掉低温柜插头，完成核心责任反转。"
+    },
+    {
+      "chapter": 12,
+      "hook": "众筹流水、红包备注、冷柜账目同时曝光，把许曼、赵慧、物业三方责任扣合。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "after_chapter": 4,
+      "card_type": "失联升级",
+      "payload": "主角离职退群、停机进山，旧群留下“等药箱出事，她负责”的截图，读者期待后续全城找人。"
+    },
+    {
+      "after_chapter": 8,
+      "card_type": "舆论反转",
+      "payload": "协调会互咬失败，热搜变成前社工失联，三方都需要找到沈昭作证。"
+    },
+    {
+      "after_chapter": 10,
+      "card_type": "证据预揭",
+      "payload": "主角只放部分证据，监控文件标题露出但不播放，调查组介入前不碰原件。"
+    },
+    {
+      "after_chapter": 11,
+      "card_type": "真相爆点",
+      "payload": "监控显示许曼半夜拔掉低温柜插头，直播间舆论瞬间反转。"
+    },
+    {
+      "after_chapter": 12,
+      "card_type": "多方清算",
+      "payload": "众筹流水备注“赵姐辛苦费”，冷柜采购账目异常，三方进入互咬清算。"
+    },
+    {
+      "after_chapter": 13,
+      "card_type": "爽点回收",
+      "payload": "处分撤销、工资补发、旧社区求返聘，主角拒绝回去收残局。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "term": "轻轻",
+      "genre": "modern_reversal",
+      "evidence": "soft_forbidden_words 命中1次，未达升级阈值，仅保留观察。"
+    }
+  ],
+  "retrieval_tags": [
+    "现代反转",
+    "重生反杀",
+    "社区业主群",
+    "网暴辞退",
+    "证据链",
+    "监控反转",
+    "直播舆论",
+    "失联钩",
+    "药箱责任",
+    "众筹流水",
+    "物业账目",
+    "三方互咬",
+    "短段快节奏",
+    "群聊弹幕推进"
+  ],
+  "manual_revision_delta": []
+}

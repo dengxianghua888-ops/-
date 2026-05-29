@@ -1,0 +1,686 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [
+        1,
+        95
+      ],
+      "char_count": 2100,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 4.3,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.64,
+        "impact_density": 0.92,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "窒息-绝望",
+        "emotion_arc": "紧张 → 求救 → 被拒 → 再求救 → 再被拒 → 恐惧升级 → 孤注一掷",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "感受'所有出口被堵死'的窒息，同时为主角的求生意志揪心"
+      },
+      "highlights": {
+        "peak_moment": "120电话转接到妻子，她亲口说'在演戏不必优先出车'",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "三次求救三次被拒，最后一次是妻子本人亲手封死通道",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "书房门把手被人从外面缓慢压下——家里不止他一个人"
+      },
+      "techniques": [
+        {
+          "technique": "三段递进封锁",
+          "example": "119第一次('沈队说了')→119第二次('别让我们难做')→120转接('不必优先出车')",
+          "effect": "每次被拒的权威级别递增：队友→值班员→妻子本人，绝望感阶梯式升高"
+        },
+        {
+          "technique": "画外音侵入",
+          "example": "微信弹出'顾承安你有完没完？再作今晚你一个人冷静'",
+          "effect": "施害者不在场却通过文字控制局面，制造'无形牢笼'的压迫感"
+        },
+        {
+          "technique": "感官过载叠加",
+          "example": "'浓烟灌进书房'+'热浪猛地扑到门缝底下'+'连木地板都开始发烫'",
+          "effect": "视觉+触觉+嗅觉同时过载，读者身临其境的窒息感"
+        },
+        {
+          "technique": "悬疑嫁接",
+          "example": "'客厅里忽然传来一阵极轻的脚步声'+'书房门把手被人从外面缓慢压了一下'",
+          "effect": "在火灾叙事中突然嫁接入室悬疑，一瞬间危险等级翻倍"
+        },
+        {
+          "technique": "视觉定格收尾",
+          "example": "'屏幕还停在和沈知微的聊天框上'",
+          "effect": "失去意识前定格在施害者的对话框——最后看到的仍是她的冷漠"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "火是真的。我也是真的快死了。可没有人信我。",
+          "structure": "事实短句+事实短句+转折否定",
+          "why_it_works": "三个短句构成逻辑铁三角，最后一句的'可'字让前两个事实变得毫无意义——绝望的精确定义"
+        },
+        {
+          "text": "不是没人信。是沈知微先一步，堵死了别人相信我的可能。",
+          "structure": "否定A+肯定B（真相揭露句式）",
+          "why_it_works": "从'没人信'升级到'被系统性屏蔽'，受害程度瞬间跳级"
+        },
+        {
+          "text": "不是单纯失火。有人进了我家。",
+          "structure": "否定旧认知+揭示新事实",
+          "why_it_works": "两个短句完成认知翻转，读者和主角同时'嗡'的一声"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度维持张力——每30-50字就有一个新的被拒/新的危险升级，无喘息",
+      "chapter_end_hook": {
+        "text": "屏幕还停在和沈知微的聊天框上。",
+        "hook_type": "silent_threat",
+        "hook_technique": "以静写动：在混乱惊叫中定格一个安静的画面，用对比制造余音",
+        "suspense_mechanism": "读者想知道：他会不会死？醒来后怎么面对她？"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [
+        96,
+        150
+      ],
+      "char_count": 1200,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.5,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 5.8,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.78,
+        "sentence_avg_len": 17.0
+      },
+      "emotion": {
+        "dominant_emotion": "冷痛-决绝",
+        "emotion_arc": "苏醒 → 诊断打击 → 回忆温情 → 电话被羞辱 → 冷静决断",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "在不育诊断和妻子冷漠的双重打击下，为主角的决绝感到心疼且解气"
+      },
+      "highlights": {
+        "peak_moment": "妻子说'你现在连这种话都编得出来了？'——得知丈夫可能不育后的反应是不信+嘲讽",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "丈夫偷偷体检准备惊喜 vs 现在永远做不了父亲",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "朋友圈照片——她替陆景川扶正生日帽，眼神温柔得像在看什么珍贵的东西"
+      },
+      "techniques": [
+        {
+          "technique": "诊断冷语术",
+          "example": "'从目前检查结果看，你以后自然生育的概率，会很低。'",
+          "effect": "医生的客观语气与毁灭性内容的反差，让坏消息更具穿透力"
+        },
+        {
+          "technique": "回忆闪回刺刀",
+          "example": "'上个月她还难得温和地对我说，等忙过这一阵，我们就认真准备'",
+          "effect": "用一个温柔回忆在最痛的时刻插入，制造M5温度正峰的最大反差"
+        },
+        {
+          "technique": "背景音对比",
+          "example": "'那边很吵，杯盏碰撞，笑闹声不断。陆景川的声音近得刺耳'",
+          "effect": "他在病床上诊断不育，她在派对上欢笑——空间对比放大不公"
+        },
+        {
+          "technique": "朋友圈证据",
+          "example": "配文是：'有人说，以后每年生日都陪我过。'",
+          "effect": "社交媒体作为'公开背叛'的载体，比私人对话更具羞辱性"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你现在连这种话都编得出来了？",
+          "structure": "反问+指控",
+          "why_it_works": "把受害者的真实伤痛定性为'编造'，是二次伤害的典型句式——读者瞬间暴怒"
+        },
+        {
+          "text": "帮我准备离婚材料。越快越好。",
+          "structure": "祈使句+追加强调",
+          "why_it_works": "极简决断，无任何情绪修饰——冷静到极致就是最强的反击姿态"
+        },
+        {
+          "text": "你现在不是没死吗？",
+          "structure": "反问+轻蔑否定",
+          "why_it_works": "把'差点死亡'降格为'没死就没事'——读者对施害者的厌恶瞬间封顶"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半靠诊断+回忆建立情感落差，后半靠电话对话加速推进到决断",
+      "chapter_end_hook": {
+        "text": "“你终于想清楚了？”我回：“越快越好。”",
+        "hook_type": "power_reversal",
+        "hook_technique": "从被害者到行动者的身份切换，用两个字'越快'传递不可逆的决心",
+        "suspense_mechanism": "读者想知道：离婚过程会怎样？她会怎么反应？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [
+        151,
+        220
+      ],
+      "char_count": 1350,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.0,
+        "comma_period_ratio": 0.5,
+        "question_mark_density_per_1k": 6.2,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.6,
+        "impact_density": 0.75,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "对峙-冷硬",
+        "emotion_arc": "挑衅登场 → 双方对峙 → 撕协议 → 主角更冷 → 身份否认",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "替主角愤怒于撕协议的侮辱，同时被'法院见'的冷静震到"
+      },
+      "highlights": {
+        "peak_moment": "沈知微当面把离婚协议撕成八半",
+        "peak_type": "power_shift",
+        "emotional_bomb": "她以为撕纸能阻止离婚——不知道主角早有法律准备",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "'她不是我家属'——在医生面前公开否认妻子身份"
+      },
+      "techniques": [
+        {
+          "technique": "物理化递进（撕纸）",
+          "example": "'两半。紧接着，是四半，八半。碎纸落了一地。'",
+          "effect": "用撕纸的物理过程可视化她的暴力控制欲——读者能'听见'那个声音"
+        },
+        {
+          "technique": "冷静反差句",
+          "example": "'我看着满地碎纸，胸口却反而彻底静了下来。我点点头。“行。”“那就法院见。”'",
+          "effect": "施害者越暴烈，主角越平静——反差制造'这个人不会输'的信念感"
+        },
+        {
+          "technique": "第三人称打圆场术",
+          "example": "陆景川'出来打圆场'——实为显示二人关系亲密",
+          "effect": "伪善的'劝和'比直接挑衅更让人恶心"
+        },
+        {
+          "technique": "身份否认作为武器",
+          "example": "'她不是我家属。联系人改成我朋友周衡。'",
+          "effect": "不说重话，只做一个行政动作——比任何指责都更有杀伤力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "不是威胁。是通知。",
+          "structure": "否定A+肯定B",
+          "why_it_works": "'通知'比'威胁'冷十倍——意味着你连反驳的资格都没有"
+        },
+        {
+          "text": "那就法院见。",
+          "structure": "四字短句收束",
+          "why_it_works": "极致精简=极致决心。没有任何余地留给对方撒泼"
+        },
+        {
+          "text": "原来在她眼里，我从火里捡回一条命，换来的也不过是一句'事情已经这样了'。",
+          "structure": "对比概括句（代价 vs 评价）",
+          "why_it_works": "把读者累积的愤怒用一句话精确命名——'我差点死了，你说事情已经这样了'"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "靠对话节奏：施害者加码→主角反击→施害者再加码→主角更冷静",
+      "chapter_end_hook": {
+        "text": "沈知微的脸色，瞬间难看到了极点。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "以施害者的表情变化暗示权力天平已经倾斜",
+        "suspense_mechanism": "读者想知道：她会怎么报复？他下一步做什么？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [
+        221,
+        330
+      ],
+      "char_count": 2000,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 17.2,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.82,
+        "sentence_avg_len": 18.5
+      },
+      "emotion": {
+        "dominant_emotion": "侵占-愤怒",
+        "emotion_arc": "回忆温情 → 发现侵占 → 层层加码 → 遗物被亵渎 → 愤怒爆发",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "从'可笑'到'忍无可忍'的共情愤怒，尤其是亡父遗物被随意佩戴的刺痛"
+      },
+      "highlights": {
+        "peak_moment": "发现陆景川手腕上是亡父的旧银表——'谁准你动我东西的？'",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "婴儿车位的设计 vs 小木马碎裂 vs 生育能力丧失——三重象征叠加",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "陆景川穿着主角睡衣，露出锁骨侧暧昧红痕——故意展示"
+      },
+      "techniques": [
+        {
+          "technique": "空间回忆嵌套",
+          "example": "'玄关留了宽一点的位置，方便放儿童车。书房柜体特意做低了一层，以后可以腾出来放绘本'",
+          "effect": "用曾经的设计细节构建'本来应该的未来'，让当下的侵占更显残忍"
+        },
+        {
+          "technique": "物件递进侵占",
+          "example": "男士拖鞋→新床单→睡衣→暧昧红痕→小木马碎裂→亡父银表",
+          "effect": "侵占从日用品升级到肉体暗示再到精神遗产，每一层都刺得更深"
+        },
+        {
+          "technique": "挑衅式低语",
+          "example": "'她不是不信你。她是根本懒得管你。'",
+          "effect": "陆景川用'为你好'的温柔语气说最残忍的话——伪善比直接攻击更恶心"
+        },
+        {
+          "technique": "伤口撕裂叙事",
+          "example": "'我动作太急，牵扯到右腿和下腹的伤，疼得眼前发白，却还是死死攥着不松手'",
+          "effect": "物理疼痛和精神愤怒同时在身体上表现——读者能'感觉到'那个痛"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你现在还有资格叫我滚吗？",
+          "structure": "反问+地位碾压",
+          "why_it_works": "一句话完成身份倒置——在你家里告诉你这不是你家"
+        },
+        {
+          "text": "这里早就不是家了。",
+          "structure": "判断短句",
+          "why_it_works": "不解释、不感伤，五个字完成与过去的切割"
+        },
+        {
+          "text": "我差点死在这套房子里，你转头就让他住进来了，是吗？",
+          "structure": "因果对比+确认式反问",
+          "why_it_works": "把两个事实并置，让荒谬性自己说话——不控诉，比控诉更狠"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前半用回忆和空间描写蓄力，后半靠物件发现和对话层层爆发",
+      "chapter_end_hook": {
+        "text": "“请问顾承安先生在吗？关于火灾现场，我们还有些情况需要补充了解。”",
+        "hook_type": "revelation_half",
+        "hook_technique": "权威第三方（警方）突然介入，暗示将有新真相揭露",
+        "suspense_mechanism": "读者想知道：火灾还有什么内情？是不是有人纵火？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [
+        331,
+        370
+      ],
+      "char_count": 800,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 18.5,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.5,
+        "impact_density": 0.7,
+        "sentence_avg_len": 19.2
+      },
+      "emotion": {
+        "dominant_emotion": "真相-寒意",
+        "emotion_arc": "听取报告 → 闪回碎片 → 危险升级确认 → 冷静离场",
+        "emotion_intensity": 8.0,
+        "reader_feeling_target": "从'原来不只是火灾'的震惊转为'如果她信了他就不会遇到入室者'的后怕+愤怒"
+      },
+      "highlights": {
+        "peak_moment": "民警说'你当时处境很危险'——确认那晚可能被人攻击",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "防御性划伤+钝器击打痕迹=跳窗前遭受过攻击",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "'所以如果我没跳窗，不只是会被烧死？'"
+      },
+      "techniques": [
+        {
+          "technique": "官方叙述冷感",
+          "example": "'门锁有外力撬动痕迹，书房外走廊和客厅之间发现陌生鞋印，厨房台面也有明显翻动和挣扎痕迹'",
+          "effect": "民警的客观陈述比任何渲染都更有冲击力——事实本身即恐怖"
+        },
+        {
+          "technique": "闪回碎片拼接",
+          "example": "'被缓缓压下去的书房门把。客厅里极轻的脚步声。厨房门口一闪而过的黑影。'",
+          "effect": "短句碎片重现第一章的伏笔——读者恍然'原来那时就已经...'的惊悚感"
+        },
+        {
+          "technique": "反问升级术",
+          "example": "'所以如果我没跳窗，不只是会被烧死？'",
+          "effect": "用反问把信息差递进——从'火灾'升级为'谋杀未遂'级别"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "不是幻觉。那晚，家里真的还有别人。",
+          "structure": "否定+肯定（确认事实）",
+          "why_it_works": "呼应第一章的疑虑，确认读者的猜测——信任读者的直觉让人满足"
+        },
+        {
+          "text": "如果那天她肯信我一次，事情都不会走到这一步。",
+          "structure": "条件假设+因果陈述",
+          "why_it_works": "不控诉，只陈述一个假设——但这个假设本身就是最沉重的控诉"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "靠信息差揭露维持张力——每一条新证据都让事件升级",
+      "chapter_end_hook": {
+        "text": "如果那天她肯信我一次，事情都不会走到这一步。",
+        "hook_type": "silent_threat",
+        "hook_technique": "以最平静的语气说出最沉重的因果——暗示接下来要让她为'不信'付出代价",
+        "suspense_mechanism": "读者想知道：他要怎么追究？值班记录什么时候曝光？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [
+        371,
+        410
+      ],
+      "char_count": 750,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 5.3,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.88,
+        "sentence_avg_len": 15.5
+      },
+      "emotion": {
+        "dominant_emotion": "证据-冷锋",
+        "emotion_arc": "证据展示 → 系统性伤害确认 → 追责决断 → 宣战",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "看到三条消息时的'铁证如山'快感，以及'终于要收网了'的期待"
+      },
+      "highlights": {
+        "peak_moment": "三条值班群消息逐条展示——20:03/20:04/20:06的时间戳精确到分",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "消息内容和火灾时间线完全吻合——这不是失误是蓄意",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "'让她自己看看，她到底配不配穿'"
+      },
+      "techniques": [
+        {
+          "technique": "时间戳证据锤",
+          "example": "'二十点零三分...二十点零四分...二十点零六分...'",
+          "effect": "精确到分钟的时间戳让'蓄意'变得无可辩驳——数字比描述更有法律感"
+        },
+        {
+          "technique": "原文引用式揭露",
+          "example": "直接引用群消息原文'先核实，别直接出车''他最近情绪不稳'",
+          "effect": "让施害者'自己的话'成为铁证——比转述更有'亲眼看到'的冲击"
+        },
+        {
+          "technique": "冷静宣战金句",
+          "example": "'她最在意的，不就是那身制服吗？那就让她自己看看，她到底配不配穿。'",
+          "effect": "精准击中施害者最脆弱的软肋，同时预告M3金句回旋的终局"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "她最在意的，不就是那身制服吗？那就让她自己看看，她到底配不配穿。",
+          "structure": "反问定位软肋+宣战句",
+          "why_it_works": "先精准命名'她最在乎什么'，再宣告'我就要毁掉它'——读者拍大腿"
+        },
+        {
+          "text": "119第一次接警不是故意挂你电话，是看见这几条后犹豫了。",
+          "structure": "否定表面原因+揭示真实原因",
+          "why_it_works": "为第一章的'为什么挂我电话'给出因果闭环——信息差补全的满足感"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠证据密度和法律话语维持张力——每一条记录都是一颗子弹",
+      "chapter_end_hook": {
+        "text": "那就让她自己看看，她到底配不配穿。",
+        "hook_type": "death_declaration",
+        "hook_technique": "以第一人称宣战句结尾——读者知道清算要开始了",
+        "suspense_mechanism": "读者想知道：怎么追责？她会不会被开除？"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [
+        411,
+        460
+      ],
+      "char_count": 900,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.4,
+        "question_mark_density_per_1k": 6.7,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.85,
+        "sentence_avg_len": 14.0
+      },
+      "emotion": {
+        "dominant_emotion": "审判-快感",
+        "emotion_arc": "证据呈堂 → 逐项承认 → 同意离婚 → 追悔 → 诛心反击",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "听她一声声'承认'的解气，和最后那句'你掐掉了那个可能'的痛快"
+      },
+      "highlights": {
+        "peak_moment": "主角说'你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能'",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "'如果那天我信你一次'——她的追悔在他面前一文不值",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "三次'承认'的递进——法庭上她彻底失去辩解的余地"
+      },
+      "techniques": [
+        {
+          "technique": "法庭问答体",
+          "example": "'你是否承认...''承认。''你是否承认...''承认。''你是否同意...''……同意。'",
+          "effect": "法律程序的仪式感让清算有了公权力背书——比私人复仇格局更高"
+        },
+        {
+          "technique": "省略号递进",
+          "example": "'……同意。'——最后一个'同意'前的省略号",
+          "effect": "只加了一个省略号就写出她从'认罪'到'认输'的心理差——极致经济"
+        },
+        {
+          "technique": "诛心反击术",
+          "example": "'你现在终于想起来，我们原本可能会有个孩子了？'",
+          "effect": "不说'你害了我'，而说'你终于想起来了'——把刀交给对方的记忆自己捅"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你现在终于想起来，我们原本可能会有个孩子了？",
+          "structure": "时间对比+反问",
+          "why_it_works": "'终于'二字暗含'你早干嘛去了'的全部控诉——一个词顶一百句"
+        },
+        {
+          "text": "你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能。",
+          "structure": "时间定位+因果判定",
+          "why_it_works": "把抽象的'你伤害了我'精确到'那一刻那个动作'——因果链无可辩驳"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半靠法庭仪式感的缓慢推进蓄力，后半靠法庭外对话的短句爆发",
+      "chapter_end_hook": {
+        "text": "说完，我转身离开，没有再回头。",
+        "hook_type": "power_reversal",
+        "hook_technique": "'没有回头'是物理化的决绝——与第一章她'没有回来看一眼'的镜像",
+        "suspense_mechanism": "读者想知道：判决结果具体是什么？她的职业怎么处理？"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [
+        461,
+        545
+      ],
+      "char_count": 1600,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.45,
+        "question_mark_density_per_1k": 3.1,
+        "direct_dialogue_rate": 0.3,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.9,
+        "sentence_avg_len": 16.0
+      },
+      "emotion": {
+        "dominant_emotion": "清算-痛快",
+        "emotion_arc": "舆论引爆 → 停职 → 开除 → 对陆景川最终审判 → 判决落锤 → 冷静收束",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "四层清算如多米诺骨牌倒下的爽感，尤其是'不配穿这身制服'的制度正义快感"
+      },
+      "highlights": {
+        "peak_moment": "处分决定书最后写着：'对群众求救置之不理者，不配穿这身制服'",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "M3金句回旋最终兑现——她用制服压人，现在被制服抛弃",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "对陆景川说'你最该庆幸的是我没死。我如果死了，是刑责。'"
+      },
+      "techniques": [
+        {
+          "technique": "舆论引爆展示",
+          "example": "热搜话题+三条精选评论——将公共审判具象化",
+          "effect": "读者在评论中看到自己的愤怒被全网共鸣——破圈感+正义感"
+        },
+        {
+          "technique": "制度文书金句",
+          "example": "'对群众求救置之不理者，不配穿这身制服。'",
+          "effect": "官方措辞比任何私人骂街都更有杀伤力——制度正义的终极快感"
+        },
+        {
+          "technique": "四层递进清算",
+          "example": "停职→开除→民事判决→刑事移送，每层之间约200-300字",
+          "effect": "多米诺骨牌效应——每倒一块读者都以为到顶了，下一块又更重"
+        },
+        {
+          "technique": "冷杀最终审判",
+          "example": "'陆景川，你最该庆幸的，是我没死。我如果死了，你今天面对的就不是赔偿。是刑责。'",
+          "effect": "对副线施害者的清算——不打不骂，只陈述法律后果，冷到骨头"
+        },
+        {
+          "technique": "拉黑作为终极武器",
+          "example": "'【承安，求你接我一次电话。】我盯着那行字看了两秒，直接拉黑。'",
+          "effect": "M3回旋：她曾'不接他的求救'，现在她的求救也被永远屏蔽"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "对群众求救置之不理者，不配穿这身制服。",
+          "structure": "条件定义+价值判断",
+          "why_it_works": "官方文书式措辞+精准击中核心矛盾——消防人不救人=最高讽刺"
+        },
+        {
+          "text": "你最该庆幸的，是我没死。我如果死了，你今天面对的就不是赔偿。是刑责。",
+          "structure": "庆幸句+条件假设+结论升级",
+          "why_it_works": "三段递进把恐惧钉进对方身体——'我活着是你的运气'这种翻转太强"
+        },
+        {
+          "text": "都是他们应得的。",
+          "structure": "判断短句（终结式）",
+          "why_it_works": "六个字收束全篇清算——不多说一个字，冷静到让人敬畏"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度维持——每200-300字一个新的清算落锤，无喘息，纯释放",
+      "chapter_end_hook": {
+        "text": "“都是他们应得的。”",
+        "hook_type": "power_reversal",
+        "hook_technique": "以终极宣判式短句收束所有清算——不是钩子而是句号",
+        "suspense_mechanism": "读者想知道：他后来过得怎么样？"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [
+        546,
+        590
+      ],
+      "char_count": 700,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 18.0,
+        "comma_period_ratio": 0.6,
+        "question_mark_density_per_1k": 1.4,
+        "direct_dialogue_rate": 0.15,
+        "short_line_rate_lte16": 0.45,
+        "impact_density": 0.35,
+        "sentence_avg_len": 20.0
+      },
+      "emotion": {
+        "dominant_emotion": "释然-新生",
+        "emotion_arc": "告别旧屋 → 物象收束 → 新生活 → 平静结尾",
+        "emotion_intensity": 6.0,
+        "reader_feeling_target": "为他松一口气，感觉'结束了，他会好的'的温暖余韵"
+      },
+      "highlights": {
+        "peak_moment": "关上门锁的那一声脆响——与全篇'被反锁'的首尾呼应",
+        "peak_type": "power_shift",
+        "emotional_bomb": "无——这章是纯释放",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'我的生活终于一点一点，回到了自己手里'"
+      },
+      "techniques": [
+        {
+          "technique": "首尾锁/门呼应",
+          "example": "第一章'门被反锁'→第九章'我关上门，门锁合拢'",
+          "effect": "首章被人锁住=被控制，末章自己锁门=主动告别——结构圆满"
+        },
+        {
+          "technique": "光影收束",
+          "example": "'天光从阳台斜斜照进来，落在空荡荡的地板上，连影子都显得单薄'",
+          "effect": "用光线和空间写'一切都过去了'——不煽情，让空间自己说话"
+        },
+        {
+          "technique": "日常复归",
+          "example": "'新的方案、新的会议通知，还有下周要去对接的现场资料。很忙，但都和过去无关了。'",
+          "effect": "用工作日常的平淡传达'我好了'——不需要宣告，生活本身就是证明"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "门锁合拢，发出一声很轻的脆响。",
+          "structure": "动作+声音描写",
+          "why_it_works": "呼应开篇'被反锁'——同样是门锁声，但这次是他主动关上的"
+        },
+        {
+          "text": "我的生活终于一点一点，回到了自己手里。",
+          "structure": "主语+副词递进+结论",
+          "why_it_works": "'一点一点'传达重建的不易，'自己手里'传达失而复得的珍贵"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "匀速舒缓",
+      "pacing_note": "靠空间描写和日常细节缓慢降落，让读者从高潮中平安着陆",
+      "chapter_end_hook": {
+        "text": "我的生活终于一点一点，回到了自己手里。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "以平静的生活宣言收束——与全篇的惊涛骇浪形成最终对比",
+        "suspense_mechanism": "无悬念，纯收束——给读者一个安心的句号"
+      }
+    }
+  ],
+  "global_soul_signature": "以极致克制的第一人称冷叙述驱动'证据型复仇'：主角从不哭泣、从不控诉、从不解释——他只做三件事：记录、取证、执行。正是这种'冷到骨头的理性'让每一句短句反击（'法院见''是通知''都是他们应得的'）都成为读者尖叫的爽点。"
+}

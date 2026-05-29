@@ -1,0 +1,124 @@
+pipeline_mode: production
+status: final
+title: 愚人节直播，他摘下婚戒后我不要他了
+language: zh-CN
+created_at: "2026-05-20"
+timezone: Asia/Shanghai
+
+runner_policy:
+  external_allowed: false
+  network_used: false
+  filesystem_modified: false
+
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source: user-provided StoryForge production Phase 7 source materials
+  source_files:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+
+chaptering:
+  policy: keep draft scene count and order
+  count: 16
+  min_chars_per_chapter: 500
+  max_chars_per_chapter: 1200
+  hook_coverage: 1.0
+  status: pass
+
+quality_gate:
+  pass
+  score_scale: "0-10"
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 8.7
+    style: 8.2
+    logic: 7.8
+  direct_submission:
+    status: pass
+    opening_guide:
+      status: pass
+    mobile_paragraphs:
+      status: pass
+    submission_paywall_map:
+      status: pass
+      required: 4
+      actual: 5
+    visible_paywall_labels:
+      status: pass
+      count: 0
+      hits: []
+  target_length:
+    min: 10000
+    max: 18000
+    status: pass
+  forbidden_words:
+    status: pass
+    hits: {}
+  soft_forbidden_words:
+    status: pass
+    hits: {}
+
+revision_notes:
+  - Added direct-submission title and three-paragraph opening guide.
+  - Preserved sixteen-chapter structure and scene order.
+  - Added Hengchuan and Xu-family legal foreshadowing before the tunnel rescue.
+  - Clarified board motivation with regulatory, stock, and public-opinion pressure.
+  - Condensed the evidence reveal to EDR, OTA, access records, and recording.
+  - Reframed chapter thirteen hook around police evidence preservation.
+  - Preserved the no-reconciliation ending and donation of the ring.
+total_chars: 11901
+chapter_count: 16
+paywall_cards: 10
+critic_scores:
+  logic: 7.8
+  style: 8.2
+  emotion: 8.7
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260520_strict_seq5_04c
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

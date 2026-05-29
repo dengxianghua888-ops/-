@@ -1,0 +1,49 @@
+slug: strict_new5_20260525_hot_970726f917
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_970726f917
+genre: apocalypse_heroine
+final_packaging:
+  title: 塔台主钟慢了一分钟，我撕了终选确认书
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 12
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  packager: scripts/package_from_draft_scenes.py
+total_chars: 10314
+chapter_count: 12
+paywall_cards: 10
+quality_gate: pass
+critic_scores:
+  logic: 8.0
+  style: 8.0
+  emotion: 8.0
+  platform: 8.0
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: phase8_20260525_1853
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

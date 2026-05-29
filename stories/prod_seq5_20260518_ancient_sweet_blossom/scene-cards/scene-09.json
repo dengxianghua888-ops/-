@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 780,
+  "target_chars_max": 960,
+  "location": "国际转运病房夜间",
+  "time": "领证前一天清晨",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "林阿婆",
+    "护士"
+  ],
+  "character_goal": "安抚外婆，继续隐瞒祁砚舟连续缺席的伤害。",
+  "opposition_goal": "林阿婆要逼沈听澜承认不用再等，并让她马上离开旧生活。",
+  "conflict_action": "林阿婆醒来后拔下氧气面罩边缘，撕掉原本写给祁砚舟的托付草稿，催沈听澜订最早的新加坡航班。",
+  "information_gap": "沈听澜不知道外婆还留了两封真正的信，准备在她离开后给祁砚舟和祁小屿。",
+  "emotional_debt_delta": "-外婆劝和可能；+亲情确认；+女主获得离开许可",
+  "payoff_or_hook": "外婆把旧丝巾系到沈听澜手腕，说以后别把自己交到别人手里。",
+  "chapter_end_hook": "章末截断：沈听澜订下最早航班，屏幕显示起飞时间正好是领证那天上午。",
+  "paywall_card": false,
+  "must_include": [
+    "外婆撕掉托付草稿",
+    "最早新加坡航班",
+    "旧丝巾",
+    "外婆不再劝和"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让外婆变成催婚工具",
+    "不要写外婆神奇好转",
+    "不要用鸡汤式台词"
+  ]
+}

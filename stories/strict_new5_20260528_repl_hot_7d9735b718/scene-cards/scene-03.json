@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 740,
+  "location": "洗衣房后台取衣柜",
+  "time": "同日中午",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "洗衣房店员", "后台主管"],
+  "character_goal": "拿到可保存的消费凭证和衣物标签。",
+  "opposition_goal": "店员只愿按普通会员隐私处理，不想多给信息。",
+  "conflict_action": "许清辞用付款截图要求补开发票，趁核对时拍下孕妇裙标签和取衣柜编号。",
+  "information_gap": "标签上的配送地址为什么是念念学校对面公寓。",
+  "emotional_debt_delta": "财产转移债+1，从怀疑变成消费记录。",
+  "payoff_or_hook": "洗护记录指向第二空间。",
+  "chapter_end_hook": "标签最下面，印着念念学校正门对面的楼号。",
+  "paywall_card": false,
+  "must_include": ["补开发票", "取衣柜编号", "孕妇裙护理标签", "学校对面楼号"],
+  "must_not_write_as_exposition": ["不要复述后台制度", "不要连续解释地址来源", "不要把证据写成清单"],
+  "rhythm_job": {
+    "shape": "证据动作场，少量交涉对白，靠拍照、发票、标签三次递进。",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_hook_ratio": "对白约25%，动作约55%，呼吸点约15%，章尾钩约5%。"
+  }
+}

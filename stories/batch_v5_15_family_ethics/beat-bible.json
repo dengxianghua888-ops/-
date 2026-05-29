@@ -1,0 +1,32 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_b37c6589ca",
+  "title": "我从二十八楼跳下去的时候，全家人在楼下鼓掌",
+  "genre": "family_ethics",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "被偏心家人和未婚夫逼到绝境的假千金用死亡退场",
+    "new_setting": "被偏心父母和未婚夫联手逼迫的养女在订婚宴上用死亡退场，死后证据链逐层砸脸让所有人悔疯",
+    "character_map": {
+      "陆雨棠→沈知意": "女主，被偏心家庭逼到绝境的养女，主动选择死亡退场",
+      "陆茵茵→沈若晴": "亲生女儿/真千金，装病陷害养女，抢夺未婚夫",
+      "厉尘霄→季寒舟": "未婚夫，追求女主是赌约，婚礼当天改娶亲女儿",
+      "陆父→沈父": "偏心父亲，撤走保护措施导致女主死亡",
+      "陆母→沈母": "偏心母亲，事后崩溃",
+      "陆哥→沈哲": "偏心哥哥，不信女主受害"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "订婚宴夺位", "min_impacts": 3, "must_include": ["未婚夫当众宣布改娶姐姐", "承认追求是赌约", "家人要求女主让步"]},
+    {"beat_id": "B2", "title": "被关押殴打", "min_impacts": 3, "must_include": ["女主被关在房间", "佣人殴打致伤", "发现他们想灭口"]},
+    {"beat_id": "B3", "title": "带伤闯宴", "min_impacts": 3, "must_include": ["女主逃出", "血衣闯入宴会现场", "家人不信"]},
+    {"beat_id": "B4", "title": "家人偏信姐姐", "min_impacts": 3, "must_include": ["断骨暴露仍被质疑", "姐姐装病夺注意力", "二次羞辱"]},
+    {"beat_id": "B5", "title": "走向天台", "min_impacts": 3, "must_include": ["未婚夫承认赌约", "家人无人在意", "女主决定死亡退场"]},
+    {"beat_id": "B6", "title": "撤走气垫坠亡", "min_impacts": 4, "must_include": ["家人要求撤走安全措施", "女主跳下", "血溅众人", "震骇"]},
+    {"beat_id": "B7", "title": "死后仍被否认", "min_impacts": 3, "must_include": ["家人不信死亡", "姐姐再次夺走救护资源", "尸体无人管"]},
+    {"beat_id": "B8", "title": "录音爆雷", "min_impacts": 3, "must_include": ["发现手机录音", "殴打真相还原", "家人脸色惨白"]},
+    {"beat_id": "B9", "title": "日记与调查揭穿真千金", "min_impacts": 4, "must_include": ["日记揭露姐姐陷害", "调查证实装病", "救命恩人真相", "姐姐人设崩塌"]},
+    {"beat_id": "B10", "title": "清算与拒归", "min_impacts": 3, "must_include": ["姐姐被清算", "家人求女主回来", "女主拒绝"]}
+  ]
+}

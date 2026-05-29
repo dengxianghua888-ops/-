@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "冷链车站台与新客户仓库",
+  "time": "清晨",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "平台风控主管",
+    "新客户调度",
+    "母亲"
+  ],
+  "character_goal": "拿回账号、保证金和正规年度配送机会，继续上路。",
+  "opposition_goal": "没有新反派，最后阻力是主角对这份职业是否还能信任。",
+  "conflict_action": "平台发来返还保证金和年度合规配送推荐，主角逐项检查温控仪、封签、派单数量后发车。",
+  "information_gap": "故事关闭主要纠纷，只留下主角继续按规则跑车的余味。",
+  "emotional_debt_delta": "金钱债、生计债、尊严债全部偿还，职业尊严回归。",
+  "payoff_or_hook": "付费收束：不暴富、不投靠贵人，靠证据和流程拿回路。",
+  "chapter_end_hook": "我重新启动冷链车，接下第一张干净的年度配送单。",
+  "paywall_card": true,
+  "must_include": [
+    "6800罚款撤销",
+    "保证金返还",
+    "账号解封",
+    "年度合规配送单",
+    "主角检查四箱派单",
+    "冷链车重新上路"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写暴富逆袭",
+    "不要写长篇价值宣言",
+    "不要让男主或贵人解决收尾"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "婚房客厅 / 洗手台边",
+  "time": "当夜回家后",
+  "pov": "沈念歌",
+  "characters": ["沈念歌", "齐衍深"],
+  "character_goal": "逼齐衍深解释病历、押金和陆晚月的关系。",
+  "opposition_goal": "齐衍深要压住她继续追问，并把她拖回沉默位置。",
+  "conflict_action": "沈念歌摊开病历和转账截图逐项逼问，齐衍深先否认再反咬她去酒吧驻场丢人，拿偷拍视频威胁。",
+  "information_gap": "偷拍视频在谁手里，齐衍深有没有主动递给陆晚月。",
+  "emotional_debt_delta": "继续负债：骗钱之外再落职业威胁。",
+  "payoff_or_hook": "男主不是一时慌乱，而是清醒地知道如何拿她的体面压她。",
+  "chapter_end_hook": "截断动作：齐衍深把手机转过来，停在偷拍视频缩略图页面。",
+  "paywall_card": false,
+  "must_include": [
+    "病历纸张被摔在台面上的动作",
+    "洗手台冷光或镜面反射，增加现场感",
+    "齐衍深一句先软后硬的台词",
+    "女主短句回击，不长篇争辩"
+  ],
+  "must_not_write_as_exposition": [
+    "不要回顾三个月全部相处细节",
+    "不要解释偷拍视频传播路径",
+    "不要把威胁写成抽象‘他很可怕’"
+  ],
+  "rhythm_job": {
+    "shape": "对质钉桩：证据一句一落，末尾转威胁",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白主驱动，动作辅助，保留1个洗手或擦脸的小动作做缓冲，章尾钩落在偷拍视频页面。"
+  }
+}

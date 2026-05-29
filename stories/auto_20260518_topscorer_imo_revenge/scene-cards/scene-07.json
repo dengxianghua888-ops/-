@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B12",
+  "scene_label": "拆楼七十时·墙中藏尸",
+  "location": "梧桐里 3 号别墅废墟边缘",
+  "time": "三日后凌晨四点",
+  "pov": "林初",
+  "characters": ["林初", "顾敬之教授", "裴恒队长", "拆迁队", "法医组"],
+  "character_goal": "见到家人的真身",
+  "opposition_goal": "（场景内无活动反派）",
+  "conflict_action": "全省顶尖拆迁队彻夜动工+整栋别墅拆为两半+尸块由墙体里一块块取出+法医现场默哀+主角放声大哭",
+  "information_gap": "M6 真相·四：尸体被打碎铸入墙体；家人留下的最后线索是什么",
+  "emotional_debt_delta": "情绪债·谷底（U 型最低点）",
+  "payoff_or_hook": "'他们将我家人的尸体重新打碎，铸进了这栋别墅的每一处墙壁。'",
+  "chapter_end_hook": "我蹲在废墟边缘，水米未进，嗓子发不出声",
+  "paywall_card": false,
+  "target_chars_min": 850,
+  "target_chars_max": 1100,
+  "must_include": [
+    "拆迁队 70 小时具体时间",
+    "整栋别墅拆为两半的描述",
+    "法医组默哀动作",
+    "主角'放声大哭'+'水米未进'"
+  ],
+  "must_not_write_as_exposition": [
+    "禁血腥具象解剖描述",
+    "禁'风吹云散'抒情"
+  ]
+}

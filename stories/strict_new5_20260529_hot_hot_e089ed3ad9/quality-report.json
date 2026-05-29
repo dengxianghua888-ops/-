@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260529_hot_hot_e089ed3ad9/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11457,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        702,
+        673,
+        706,
+        712,
+        769,
+        775,
+        826,
+        914,
+        772,
+        852,
+        865,
+        811,
+        661,
+        650,
+        660
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 76,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 13,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11457,
+      "sentence_count": 759,
+      "avg_sentence_length": 14.095,
+      "dialogue_ratio": 0.2407,
+      "question_marks": 82,
+      "question_marks_per_k": 7.157,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "青筋": 1,
+        "喉咙": 3,
+        "眼眶": 1,
+        "指甲": 1,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.447
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 9567,
+        "line_count": 616,
+        "avg_line_chars": 15.531,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.6153,
+        "long_line_rate": 0.013,
+        "quote_line_rate": 0.3604,
+        "barrage_line_rate": 0.0146,
+        "question_marks_per_k": 8.362,
+        "comma_period_ratio": 0.848,
+        "sentence_avg_len": 15.9
+      },
+      "candidate": {
+        "chars": 11282,
+        "line_count": 697,
+        "avg_line_chars": 16.187,
+        "median_line_chars": 16.0,
+        "short_line_rate": 0.5294,
+        "long_line_rate": 0.0057,
+        "quote_line_rate": 0.396,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 7.268,
+        "comma_period_ratio": 0.8,
+        "sentence_avg_len": 14.1
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 482,
+      "unique_sentence_skeletons": 482,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.2,
+    "style": 7.1,
+    "logic": 7.4
+  },
+  "evidence": [
+    "draft总字数约11299，落在10000-18000目标区间。",
+    "draft-scenes共15场，场尾钩子覆盖率约1.0；付费卡点来自beat-bible标注5处，超过最低4处。",
+    "开篇以慈善直播后台、病床避镜头、沈岚捐赠牌和护士回避制造悬念，后续用“林正年三年前就死了”完成信息差爆点。",
+    "源文平均可视行长15.44，draft为14.14；源文短行率0.613，draft为0.738；源文对白行率0.35，draft为0.282。",
+    "叙述拐杖检测0次；比喻密度约0.35/千字；未触发比喻密度硬门。",
+    "总结句估算约3处，未超过>3硬门；但建议Phase 7删弱“把门彻底关死了”等替读者总结句。",
+    "逻辑上保留沈岚可查不查的责任链：院长端查阅、病危通知、取消排期、账户转空、秦砚舟免提自爆。"
+  ]
+}

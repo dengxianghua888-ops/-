@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "开篇前150字无信息不对称或悬念钩子嵌入，纯场景描写（信息炸弹在约第250字引爆）",
+    "全文短行率(<=16字)估算约0.50-0.52，低于rhythm_contract最低要求0.55",
+    "'你脏了'在Ch7(scene-14)和Ch8(scene-16)重复使用，稀释终极判决力度"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6r2_01_ghost_wedding/final.md",
+    "target_length": {
+      "min": 5774,
+      "max": 17323,
+      "actual": 7734,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "fail"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 3,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "fail",
+      "opening_guide": {
+        "present": false,
+        "paragraphs": 7,
+        "chars": 181,
+        "status": "fail"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 1,
+        "max_sentence_endings": 3,
+        "examples": [
+          "| 节点 | 位置 | 截断悬念 | 付费拉力 |\n|------|------|---------|---------|\n| 1 | 第3章末 | 女主得知丈"
+        ],
+        "status": "fail"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 0,
+        "present": false,
+        "status": "fail"
+      },
+      "visible_paywall_labels": {
+        "hits": [
+          "付费节点"
+        ],
+        "count": 1,
+        "status": "fail"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 21,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 24,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 7734,
+      "sentence_count": 419,
+      "avg_sentence_length": 17.461,
+      "dialogue_ratio": 0.3483,
+      "question_marks": 46,
+      "question_marks_per_k": 5.948,
+      "physical_emotion_hits": {
+        "后背": 1,
+        "眼眶": 1,
+        "指甲": 1,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.636
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 9624,
+        "line_count": 364,
+        "avg_line_chars": 26.44,
+        "median_line_chars": 24.0,
+        "short_line_rate": 0.2665,
+        "long_line_rate": 0.1813,
+        "quote_line_rate": 0.4615,
+        "barrage_line_rate": 0.0275,
+        "question_marks_per_k": 7.793,
+        "comma_period_ratio": 1.448,
+        "sentence_avg_len": 23.5
+      },
+      "candidate": {
+        "chars": 7443,
+        "line_count": 495,
+        "avg_line_chars": 15.036,
+        "median_line_chars": 13.0,
+        "short_line_rate": 0.6121,
+        "long_line_rate": 0.0364,
+        "quote_line_rate": 0.4,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 6.18,
+        "comma_period_ratio": 0.856,
+        "sentence_avg_len": 17.5
+      },
+      "failures": [
+        "avg_line_chars 15.04 below source-rhythm floor 20.62",
+        "short_line_rate 0.612 over-fragments source rhythm 0.267"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 301,
+      "unique_sentence_skeletons": 299,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0066
+    },
+    "production_meta_leak": {
+      "count": 5,
+      "examples": [
+        {
+          "line": 187,
+          "text": "我的店去年涨租百分之三十，给张锐城打电话商量能不能帮忙周转一下，他说做生意有赔有赚的，你自己想办法吧，我这边也紧。"
+        },
+        {
+          "line": 255,
+          "text": "我坐月子那会儿问他能不能煮碗粥，他说他回来太晚了做什么饭，点个外卖不就行了。"
+        },
+        {
+          "line": 267,
+          "text": "我好像听谁提过一嘴。"
+        },
+        {
+          "line": 523,
+          "text": "有什么事回家说行不行！"
+        },
+        {
+          "line": 875,
+          "text": "张母还在嘶吼着什么，声音尖得刺耳，但已经没人理她了。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7.5,
+    "emotion": 8.0,
+    "style": 7.0,
+    "logic": 7.5
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "finding": "开篇150字缺信息钩子",
+      "location": "Ch1 scene-01 第1-3句",
+      "source_text": "凌晨三点半，我在揉面团。酵母刚激活……偶尔一辆早班出租车的引擎声飘过来。",
+      "issue": "纯环境建构，无信息差、无悬念、无反常事件。源文在第50字内即引爆信息炸弹。",
+      "severity": "important"
+    },
+    {
+      "dimension": "platform",
+      "finding": "Ch4末章钩极强",
+      "location": "Ch4 scene-08 末句",
+      "source_text": "老公，结婚这么大的事，怎么不告诉我一声？",
+      "issue": "正面评价：亲密称呼+日常语气+致命内容，是全文最强付费卡点。",
+      "severity": "positive"
+    },
+    {
+      "dimension": "style",
+      "finding": "短行率低于contract",
+      "location": "全文，尤其Ch1-4",
+      "source_text": "操作台上方那根日光灯管把白色台面照得发亮，外面天黑着，偶尔一辆早班出租车的引擎声飘过来。(40字)",
+      "issue": "源文对应位置用极短句('我愕然怔住。'6字)，仿写用长描写句。早期章节短行率约0.48 vs 源文0.58。",
+      "severity": "important"
+    },
+    {
+      "dimension": "style",
+      "finding": "对峙场景节奏与源文一致",
+      "location": "Ch5-8",
+      "source_text": "'不好。'(2字) / '站那儿别动。'(5字) / '两千。'(2字)",
+      "issue": "正面评价：对峙章节大量使用极短句，对白密度0.45+，问号密度4.5+/千字，与源文爽文节奏一致。",
+      "severity": "positive"
+    },
+    {
+      "dimension": "style",
+      "finding": "'你脏了'重复使用",
+      "location": "scene-14 (Ch7) + scene-16 (Ch8)",
+      "source_text": "Ch7:'你脏了。三个字，说完了。' / Ch8:'张锐城，你脏了。'",
+      "issue": "源文仅在第8章末尾使用一次作为终极定性。仿写在Ch7已使用，Ch8再次重复，第二次的冲击力被稀释。建议保留Ch8版本（带全名+转身离场），删除Ch7处。",
+      "severity": "important"
+    },
+    {
+      "dimension": "emotion",
+      "finding": "情绪债现场化累积良好",
+      "location": "Ch2-4信息收集阶段",
+      "source_text": "一百五十万。我每个月收到的家用转账是一万二。",
+      "issue": "正面评价：每组对比（改口费2千vs6.6万，银项链vs翡翠镯子，电动车vs卡宴）均通过场景化对话自然流出，非罗列式控诉。",
+      "severity": "positive"
+    },
+    {
+      "dimension": "logic",
+      "finding": "宣告死亡程序轻微逻辑拉伸",
+      "location": "全文设定层",
+      "source_text": "他前妻……产后得了抑郁症，后来就出走了，失联了两年多，法院都判了宣告死亡。",
+      "issue": "女主持续经营烘焙店+儿子在幼儿园中班，正常情况下不可能被成功宣告死亡。仿写通过'虚假诉讼罪'+'伪造材料'做了genre-acceptable的自圆其说，但严格法律逻辑存在漏洞。",
+      "severity": "minor"
+    },
+    {
+      "dimension": "logic",
+      "finding": "创造性改编提升情节合理性",
+      "location": "Ch1-4设定层",
+      "source_text": "我把车里的三层翻糖蛋糕搬下来……甜品供应商的工牌还挂在脖子上，没人拦我。",
+      "issue": "正面评价：将源文'随意闯婚礼'改为'甜品供应商潜入'，解决了'如何自然进入婚礼现场'的逻辑问题，同时增加了'同行竞争'的讽刺层（她做烘焙，新娘也开甜品品牌）。",
+      "severity": "positive"
+    }
+  ]
+}

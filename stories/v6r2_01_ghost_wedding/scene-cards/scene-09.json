@@ -1,0 +1,89 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 5,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 750,
+  "location": "酒庄宴会厅舞台上",
+  "time": "婚礼仪式中断",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "许芷悦", "宾客群"],
+  "character_goal": "沈绮云公开揭穿身份，让全场知道'已故前妻'还活着",
+  "opposition_goal": "张锐城试图让她下台，私下解决；试图控制局面",
+  "conflict_action": "张锐城恳求'有事下来说'→沈绮云甩耳光→连珠炮揭露'我是他老婆，没死'→全场哗然→张锐城再次恳求→再次被拒",
+  "information_gap": "宾客们刚刚知道新郎有'已故前妻'，现在前妻活生生站在台上——认知地震",
+  "emotional_debt_delta": "公开羞辱开始：张锐城从'完美新郎'变成'停妻再娶的骗子'",
+  "payoff_or_hook": "第一轮公开揭穿完成，全场认知翻转",
+  "paywall_card": false,
+  "must_include": [
+    "全场鸦雀无声的瞬间",
+    "张锐城恳求+女主拒绝（'别闹了'→'你都停妻再娶了，我凭什么不闹？'）",
+    "耳光（一次，清脆）",
+    "多方反应切镜（张锐城脸色/张父张母/许芷悦/宾客议论）",
+    "宾客开始议论的声浪"
+  ],
+  "must_not_write_as_exposition": [
+    "两人过去的婚姻经历",
+    "宾客们的身份背景"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.5,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "爆发-碾压",
+    "emotion_arc": "全场静默 → 渣男恳求 → 女主不让 → 耳光+连续打击",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "肾上腺素飙升，为女主每一句话叫好",
+    "required_techniques": [
+      {
+        "technique": "全场反应切镜",
+        "instruction": "用群体反应作为情绪放大器——'鸦雀无声…议论声像潮水般炸开'。不是只有当事人震惊，是所有人都震惊，爽感乘以人数。宾客的碎语用短句快速切入"
+      },
+      {
+        "technique": "恳求-拒绝节奏",
+        "instruction": "张锐城每恳求一次被拒一次——'绮云，有事下来说好吗？'→'不行。'/'别闹了'→'你停妻再娶了我凭什么不闹？'形成求→拒→求→拒的节奏，每次拒绝都让女主气场更强"
+      },
+      {
+        "technique": "多方表情切片",
+        "instruction": "快速切镜三方反应——张锐城脸色（活像见了鬼）、张父张母（由红转白）、许芷悦（整个人懵了）。用一两句描写每方，360度展现这一炸的威力"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对方行为+反问自身权利",
+        "example": "你都停妻再娶了，我凭什么不闹？",
+        "instruction": "用最朴素的逻辑堵死'体面'的道德绑架——你做了最极端的事，就别要求我体面。句式：'你都XX了，我凭什么不XX？'"
+      },
+      {
+        "structure": "主语+比喻(活像见了鬼)",
+        "example": "周瑞阳的表情活像见了鬼。",
+        "instruction": "'见了鬼'呼应'被宣告死亡'的设定——他确实见了自己亲手'杀死'的人。用这个比喻强化荒诞感"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "累积式",
+    "source_excerpt": "宴会厅瞬间鸦雀无声。周瑞阳的表情活像见了鬼。'绮云，有什么事等婚礼过后再说行吗？'我冷笑一声，甩手一个耳光扇在他脸上。'你都停妻再娶了，我凭什么不闹？'议论声像潮水般炸开了锅。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["凭什么", "你觉得"],
+      "句式": "短句连击、反问驱动、一句话封杀",
+      "单句上限": 15,
+      "禁止": "长句解释、哭泣"
+    },
+    "张锐城": {
+      "口癖": ["绮云", "别闹了", "下来说"],
+      "句式": "哀求式短句+试图拖延",
+      "单句上限": 14,
+      "禁止": "正面回应质问"
+    }
+  }
+}

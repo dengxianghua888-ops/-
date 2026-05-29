@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "旧戏楼后院小屋",
+  "time": "雨后傍晚",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想把包里的早孕单告诉陆砚辞",
+  "opposition_goal": "陆砚辞想先完成离婚协议，切断她和陆家风险",
+  "conflict_action": "陆砚辞把解约式离婚协议推到修复桌上，要求温瓷今晚签字",
+  "information_gap": "他声称欠债拖累她，弹幕却刷出白月光秦月眠回国，温瓷不知道哪边是真的",
+  "emotional_debt_delta": "新增离婚债、怀孕未告知债、替身误会债",
+  "payoff_or_hook": "协议开局偏冷，弹幕把秦月眠推到台前制造替身误判",
+  "chapter_end_hook": "温瓷指尖碰到包里的孕检单，弹幕忽然刷出：【白月光回国了，她还要说吗？】",
+  "paywall_card": false,
+  "must_include": [
+    "离婚协议第一页",
+    "温瓷慢半拍反应",
+    "早孕单压在包底",
+    "弹幕误导秦月眠是白月光",
+    "陆砚辞语气冷但手边放着热水"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释陆家背景",
+    "不要复述婚姻三年时间线",
+    "不要用心理总结写女主伤心"
+  ],
+  "rhythm_job": "3轮短对白+1次弹幕误导+章尾用孕检单和白月光同屏截断"
+}

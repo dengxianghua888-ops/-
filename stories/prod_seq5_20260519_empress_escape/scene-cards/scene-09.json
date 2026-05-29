@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "含章宫药浴屏风后",
+  "time": "假孕冲突当夜",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩"
+  ],
+  "character_goal": "温照晚想逼萧珩说清假孕和乌兰珠私会。",
+  "opposition_goal": "萧珩想承认自己在设局，却避开会伤到她的孩子计划。",
+  "conflict_action": "温照晚用银针抵住萧珩喉结审问，萧珩握住她手腕后退进药浴桶，水溅湿两人衣袖。",
+  "information_gap": "萧珩承认局中有北境，却不说皇后和孩子会被怎样使用。",
+  "emotional_debt_delta": "暧昧升温，同时增加萧珩隐瞒债。",
+  "payoff_or_hook": "审问变成反撩，女主开始承认自己被他扰乱。",
+  "chapter_end_hook": "萧珩把她抵在药浴屏风后，说这一次不是治病，是求她抱抱。",
+  "paywall_card": false,
+  "must_include": [
+    "银针抵喉",
+    "药浴屏风动作",
+    "萧珩求抱",
+    "女主吐槽自己手欠心软"
+  ],
+  "must_not_write_as_exposition": [
+    "不要露骨肉戏",
+    "不要让萧珩用甜言蜜语盖过问题",
+    "不要让女主忘记追问"
+  ]
+}

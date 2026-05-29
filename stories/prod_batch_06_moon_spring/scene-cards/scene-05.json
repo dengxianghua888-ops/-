@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 446,
+  "target_chars_max": 606,
+  "location": "陆宅停灵小屋、正厅",
+  "time": "阿砚死后次日",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "苏云屏",
+    "陆家嬷嬷",
+    "疗养院护工"
+  ],
+  "character_goal": "沈照棠要守住阿砚尸身，检查孩子留下的伤痕和证物。",
+  "opposition_goal": "苏云屏要搬走尸身毁证，陆衡舟要把沈照棠的反抗定成疯病。",
+  "conflict_action": "沈照棠冲进停灵小屋发现空棺，转身掐住苏云屏讨要阿砚，陆衡舟甩开她手腕，叫疗养院护工把她拖上车。",
+  "information_gap": "阿砚尸身被运去何处暂时不揭，只留下碎药囊。",
+  "emotional_debt_delta": {
+    "added": [
+      "母亲守灵资格被夺",
+      "反派搬尸毁证",
+      "男主把申冤打成疯病"
+    ],
+    "paid": [],
+    "balance_after": "女主心死，离场动机成立。"
+  },
+  "payoff_or_hook": "空棺和碎药囊逼女主转入冷静布局。",
+  "chapter_end_hook": "沈照棠扑进停灵小屋，却只看见空棺和一只碎药囊。",
+  "paywall_card": false,
+  "must_include": [
+    "空棺",
+    "碎药囊",
+    "沈照棠掐住苏云屏",
+    "陆衡舟叫疗养院车",
+    "苏云屏躲在陆衡舟身后"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让女主只哭不动。",
+    "不要让疗养院显得合理。",
+    "不要提前解释尸身去向。"
+  ],
+  "target_chars": 466,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

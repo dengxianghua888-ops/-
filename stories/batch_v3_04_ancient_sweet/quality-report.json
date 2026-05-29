@@ -1,0 +1,30 @@
+{
+  "story_slug": "batch_v3_04_ancient_sweet",
+  "title": "满城笑我不读书",
+  "run_date": "2026-05-26",
+  "gate_status": "pass",
+  "machine_metrics": {
+    "nonspace_chars": 10007,
+    "chapter_count": 12,
+    "rhythm_fit": "pass",
+    "source_avg_line_chars": 16.722,
+    "candidate_avg_line_chars": 20.789,
+    "source_short_line_rate": 0.5159,
+    "candidate_short_line_rate": 0.3452,
+    "source_quote_line_rate": 0.3698,
+    "candidate_quote_line_rate": 0.3473,
+    "candidate_barrage_line_rate": 0.0,
+    "ai_forbidden_words": 0,
+    "narration_crutches": 1,
+    "source_overlap_4gram": 0.0142,
+    "meta_leak": 0
+  },
+  "quality_notes": {
+    "contradiction_moment": "女主被关柴房等死时想起幼时父亲教她骑马——那时候他还叫她'小宝'",
+    "opening_hook": "女主自述庶女身份与'狐朋狗友'，提前抛出闺蜜身份炸点——信息不对称：读者知道闺蜜厉害但不知具体身份",
+    "gold_sentences": [
+      "你们嘲笑我一无是处，可我那些'没用的朋友'，随便一个都能让你们跪着求饶",
+      "满城都笑我不读书，可我这辈子，赢麻了"
+    ]
+  }
+}

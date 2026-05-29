@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 470,
+  "target_chars_max": 530,
+  "location": "新女皇地堡外墙",
+  "time": "新秩序第一场晴天",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "祁砚", "许伯", "地堡居民", "虫群"],
+  "character_goal": "沈梨雾确认地堡的新边界和自己的情绪主权",
+  "opposition_goal": "居民想知道旧安全感是否还能回来",
+  "conflict_action": "沈梨雾咬碎蜜雾香糖，让虫群安静，同时让居民跪守新规则牌",
+  "information_gap": "地堡被保下，但晴天取决于女皇是否愿意开心",
+  "emotional_debt_delta": "-1 香糖债补偿并保留危险余味",
+  "payoff_or_hook": "甜味回归，虫群同步安静，没人再说她搞特殊",
+  "chapter_end_hook": "她咬碎蜜雾香糖，外墙外的虫群同时安静下来。",
+  "paywall_card": false,
+  "must_include": ["暗红虫翼披风", "蜜雾香糖", "新规则牌", "无人敢说特权"],
+  "must_not_write_as_exposition": ["不要总结人性", "不要大团圆洗白", "不要抹掉女皇危险感"],
+  "rhythm_job": {
+    "shape": "短收束，物件回旋，最后一行动作留余味",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "沈梨雾慢慢剥开糖纸，外墙士兵先听见虫翅停声"
+  }
+}

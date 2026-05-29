@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "冷链仓库",
+  "time": "同夜深夜",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "绑匪",
+    "闻砚舟（电话）"
+  ],
+  "character_goal": "保住自己和手里的离婚证，不让偷拍视频成为第二轮公开羞辱。",
+  "opposition_goal": "绑匪要逼她配合拍摄并交出证据，闻砚舟则用挂断完成最后一次放弃。",
+  "conflict_action": "她被绑住后伺机摸到手机拨号，电话接通时仓库里的人正拿偷拍视频威胁她。",
+  "information_gap": "她不知道挂断电话的是冷漠、误判，还是默许。",
+  "emotional_debt_delta": "求救通道被亲手掐断，旧情彻底死透。",
+  "payoff_or_hook": "电话那头传来宋知澜的笑声后，闻砚舟直接挂断。",
+  "chapter_end_hook": "仓库再次黑下去前，她只来得及听见一声忙音。",
+  "paywall_card": true,
+  "must_include": [
+    "求救电话",
+    "偷拍视频威胁",
+    "留白式黑暗承接而非细节猎奇"
+  ],
+  "must_not_write_as_exposition": [
+    "不要细写身体暴力",
+    "不要解释绑匪背景",
+    "不要靠回忆填充恐惧"
+  ],
+  "rhythm_job": {
+    "shape": "黑暗动作-短对白威胁-电话接通-忙音截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

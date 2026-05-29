@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 620,
+  "target_chars_max": 700,
+  "location": "戏楼小屋到老城妇幼挂号窗口",
+  "time": "第四天上午",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "挂号护士", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想低调完成产检，稳住自己和孩子。",
+  "opposition_goal": "外部误导不断侵入，试图打乱她的检查安排。",
+  "conflict_action": "温瓷一边挂号一边把秦月眠的短信、照片和时间点截图保存，顺手拉黑号码。",
+  "information_gap": "秦月眠为什么精准踩中产检时间；陆砚辞会不会也被这轮误导击中。",
+  "emotional_debt_delta": {
+    "安全感债": "-1",
+    "孩子债": "+1"
+  },
+  "payoff_or_hook": "女主不吵不闹，但会存证、拉黑、先护孩子。",
+  "chapter_end_hook": "挂号单刚打印出来，手机就弹出一张手术室门口的照片。",
+  "paywall_card": false,
+  "must_include": [
+    "存证截图动作",
+    "拉黑挑衅号码",
+    "挂号窗口的生活化细节",
+    "至少2条弹幕/评论"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述全部挑衅短信",
+    "不要解释医院路线",
+    "不要把女主写成只会忍"
+  ],
+  "rhythm_job": {
+    "shape": "生活动作-证据动作-轻弹幕-照片突刺",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "动作5成，弹幕2成，对白2成，钩子1成"
+  }
+}

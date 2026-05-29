@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 690,
+  "target_chars_max": 780,
+  "location": "升学宴后台化妆间",
+  "time": "第七天傍晚，升学宴开始前",
+  "pov": "第一人称，沈知夏",
+  "characters": [
+    "沈知夏",
+    "母亲",
+    "父亲",
+    "造型师"
+  ],
+  "character_goal": "确认父母的接纳是否会落实到公开场合和法律文件",
+  "opposition_goal": "父母虽然已松动，但仍怕当众失控或亲友议论",
+  "conflict_action": "我不肯换衣上台，直到他们拿出新身份证、海外就诊预约和已通知亲友的名单",
+  "information_gap": "母亲把新身份证塞进我手里，第一次叫我：'儿子。'",
+  "emotional_debt_delta": -1,
+  "payoff_or_hook": "补偿从口头道歉落地到法律改名、医疗安排、亲友预沟通",
+  "chapter_end_hook": "母亲把新身份证塞进我手里，第一次叫我：'儿子。'",
+  "paywall_card": false,
+  "must_include": [
+    "新身份证或改名证明",
+    "出国就诊/医疗安排的可执行凭证",
+    "父母已经先和关键亲友做过沟通"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列所有亲友表态",
+    "不要让补偿停留在哭着道歉"
+  ],
+  "rhythm_job": {
+    "shape": "后台僵持 25% + 凭证落地 35% + 短对白回暖 25% + 称呼钩 15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "领带、证件、门外主持人试音形成生活承接"
+  }
+}

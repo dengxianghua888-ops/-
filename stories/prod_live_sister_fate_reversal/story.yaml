@@ -1,0 +1,21 @@
+slug: prod_live_sister_fate_reversal
+status: final
+pipeline_mode: production
+title: 姐姐摘掉监测器那晚，我死在琴房
+genre: family_ethics
+source: source.md
+final: final.md
+target_platform: tomato
+quality_gate: pass
+word_count: 12430
+chapters: 14
+runner: codex
+provider: manual-packager
+automation:
+  last_run_id: manual-final-package
+  runner: codex
+  provider: manual-packager
+  current_phase: 7
+  retry_count: 1
+  human_gates:
+    phase2_blueprint_review: skipped

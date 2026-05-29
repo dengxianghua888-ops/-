@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "短视频后台截图 / 文旅项目办公室",
+  "time": "当天下午",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "项目法务",
+    "后台知情人",
+    "齐衍深",
+    "陆晚月（远程）"
+  ],
+  "character_goal": "把偷拍视频和带节奏账号整包钉死，拿回职业名声。",
+  "opposition_goal": "陆晚月想删数据切割，齐衍深想先止损别牵到项目。",
+  "conflict_action": "后台记录和投放截图被导出，项目方当场切割陆晚月并暂停齐衍深岗位。",
+  "information_gap": "截断句：‘账号是她养的，流量是他放的。’",
+  "emotional_debt_delta": "社会性坠落开始反向修复，男主事业代价启动。",
+  "payoff_or_hook": "偷拍视频回旋镖砸回施害者手里。",
+  "chapter_end_hook": "截断句：‘账号是她养的，流量是他放的。’",
+  "paywall_card": false,
+  "must_include": [
+    "后台截图或投放记录的具体锚点",
+    "项目方切割的明确动作",
+    "齐衍深第一次明显失语",
+    "可有1句评论式吐槽，点出报应感"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释平台算法",
+    "不要把反噬写成抽象舆论风向",
+    "不要省略项目方态度转变的现场动作"
+  ],
+  "rhythm_job": {
+    "shape": "证据导出-当场切割-一锤定责",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白和证据展示交替，留1句轻吐槽做承接，章尾用定责短句卡住。"
+  }
+}

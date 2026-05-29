@@ -1,0 +1,73 @@
+{
+  "story": "stories/v6r2_05_snowstorm_twenty_wan",
+  "overall_score": 6.1,
+  "dimensions": {
+    "length_alignment": {
+      "score": 4.56,
+      "evidence": "总字数 6852,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "no chapters"
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 4/2"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 31.378/k"
+    },
+    "style_signature": {
+      "score": 9.08,
+      "evidence": "平均句长 10.346,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 4.88,
+      "evidence": "源/稿均行长 17.199/10.09, 短行率 0.5498/0.8781, 对白行率 0.2523/0.1944; avg_line_chars 10.09 below source-rhythm floor 13.42；short_line_rate 0.878 over-fragments source rhythm 0.550",
+      "details": {
+        "status": "fail",
+        "applicable": true,
+        "source": {
+          "chars": 11386,
+          "line_count": 662,
+          "avg_line_chars": 17.199,
+          "median_line_chars": 15.0,
+          "short_line_rate": 0.5498,
+          "long_line_rate": 0.0272,
+          "quote_line_rate": 0.2523,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 4.216,
+          "comma_period_ratio": 0.794,
+          "sentence_avg_len": 16.2
+        },
+        "candidate": {
+          "chars": 6538,
+          "line_count": 648,
+          "avg_line_chars": 10.09,
+          "median_line_chars": 8.0,
+          "short_line_rate": 0.8781,
+          "long_line_rate": 0.0108,
+          "quote_line_rate": 0.1944,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 3.059,
+          "comma_period_ratio": 0.27,
+          "sentence_avg_len": 10.3
+        },
+        "failures": [
+          "avg_line_chars 10.09 below source-rhythm floor 13.42",
+          "short_line_rate 0.878 over-fragments source rhythm 0.550"
+        ]
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "source_rhythm_fit"
+  ],
+  "pass_threshold": 8.0,
+  "status": "fail"
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "裴府大婚正堂",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊",
+    "韩若",
+    "冬凝"
+  ],
+  "character_goal": "女主以真实身份入场",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "仪仗开路，嫡长女冠服入场，全场跪拜",
+  "information_gap": "韩若以为是假扮→冬凝亮证据",
+  "emotional_debt_delta": "-40（身份碾压释放）",
+  "payoff_or_hook": "裴长渊脸色惨白：阿宁？",
+  "chapter_end_hook": "裴长渊脸色惨白：阿宁？",
+  "paywall_card": true,
+  "must_include": [
+    "仪仗开路，嫡长女冠服入场，全场跪拜"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

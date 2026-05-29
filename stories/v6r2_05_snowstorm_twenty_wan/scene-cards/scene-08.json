@@ -1,0 +1,83 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08a",
+  "chapter_id": 8,
+  "is_chapter_end": false,
+  "target_chars_min": 450,
+  "target_chars_max": 600,
+  "location": "修复工作室 → 医院 → 城市街道",
+  "time": "某天（社会层崩塌日）",
+  "pov": "程书衡（第一人称）",
+  "characters": ["程书衡", "周护士长"],
+  "character_goal": "程书衡试图维持最后的生存线",
+  "opposition_goal": "社会压力从四面八方压来——委托流失、工作室开不下去、护工也做不成",
+  "conflict_action": "委托方取消→业内群护工照片流传→工作室再无委托→去医院上班→周护士长说'小程你别来了'→最后一份收入也没了→手泡白发皱",
+  "information_gap": "读者知道照片是姜漪澜发的，女主此刻还不确定",
+  "emotional_debt_delta": "社会层全面崩塌：职业信誉+经济来源同时归零",
+  "payoff_or_hook": "三连打击不给喘息——为下一个scene的觉醒蓄力",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "委托方一个个取消的冷淡短信",
+    "业内群里流传的护工照片（不直接展示内容，通过他人反应暗示）",
+    "工作室最后关灯",
+    "周护士长说'别来了'时的无奈表情",
+    "手泡白发皱的细节",
+    "一个家长/客户刻意绕开她的具象化社死"
+  ],
+  "must_not_write_as_exposition": [
+    "网暴/曝光的详细经过",
+    "她对姜漪澜的推理过程",
+    "对社会不公的议论"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.40,
+    "sentence_avg_len": 14.5,
+    "dominant_emotion": "绝境-窒息",
+    "emotion_arc": "委托流失 → 照片曝光 → 工作室关门 → 护工也做不成 → 彻底归零",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "窒息——一个接一个的打击不给喘气，读者和她同步体验绝境",
+    "required_techniques": [
+      {
+        "technique": "社死具象化",
+        "instruction": "不写'所有人都知道了'。写一个具体动作：'一个来取修复件的老客户站在门口犹豫了三秒，然后说改天再来。再也没来。'以小见大。"
+      },
+      {
+        "technique": "三连打击不间断",
+        "instruction": "委托取消(职业断)→手泡白(尊严断)→照片曝光(社会断)→周护士长说别来了(最后收入断)——不给喘息的连续打击制造窒息感。"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "列举式断裂（每句一个丧失）",
+        "example": "辞退信。工作群退出。关灯。",
+        "instruction": "用极短的独立句列举每一个失去：'取消。已读不回。关灯。'每个词就是一扇门关上的声音。"
+      }
+    ],
+    "peak_type": "social_collapse",
+    "bomb_technique": "累积式",
+    "source_excerpt": "一个送孩子来上课的家长拉了拉孩子的手，刻意绕开了我。班主任来办公室找我谈话。'沈老师，有家长反映……'手机震了一下。方姐：'小沈，上面说这阵子你先别来了。'最后一份收入也断了。"
+  },
+  "character_voices": {
+    "程书衡": {
+      "口癖": [],
+      "句式": "几乎不开口——用沉默和动作",
+      "单句上限": 6,
+      "禁止": "抱怨、求情"
+    },
+    "周护士长": {
+      "口癖": ["小程"],
+      "句式": "无奈+不忍心的短句",
+      "单句上限": 12,
+      "禁止": "长篇解释"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 700,
+  "target_chars_max": 740,
+  "location": "义安农商行柜台",
+  "time": "主线时间线 第3节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬"
+  ],
+  "character_goal": "把抵押款打进汽修厂账户",
+  "opposition_goal": "用‘正规收据’制造交款证据反咬张磊",
+  "conflict_action": "桂芬扶着腰把房产证放进柜员窗口，三十万跨行汇款回执打出来，我把回执拍照发给赵卫东。",
+  "information_gap": "张磊相信交钱即解决，反派已准备好红章里的另一个字",
+  "emotional_debt_delta": "卖房债",
+  "payoff_or_hook": "对方回了一条：到账，下午来拿章。",
+  "chapter_end_hook": "对方回了一条：到账，下午来拿章。",
+  "paywall_card": true,
+  "must_include": [
+    "跨行汇款回执",
+    "桂芬扶腰",
+    "转账截图",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

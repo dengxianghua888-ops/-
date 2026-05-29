@@ -1,0 +1,90 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 680,
+  "target_chars_max": 870,
+  "location": "护工更衣室 → 出租屋",
+  "time": "凌晨4:00下班后",
+  "pov": "程书衡（第一人称）",
+  "characters": ["程书衡"],
+  "character_goal": "独处时消化真相，做出第一个物理决断",
+  "opposition_goal": "无（内心独白场）",
+  "conflict_action": "换衣服时手抖暴露→回忆交出端砚时也抖→摘婚戒→戒指掉进洗手池→冷判断'不是心疼我是嫌丢人'→顾深舟消息进来→锁屏不回",
+  "information_gap": "读者此刻确认：前面的冷静是假的，她一直在发抖",
+  "emotional_debt_delta": "情绪债未新增，但已有债务的重量感首次通过身体反应传递给读者",
+  "payoff_or_hook": "锁屏不回——沉默是最冷的回应",
+  "chapter_end_hook": "锁屏，没回。",
+  "paywall_card": false,
+  "must_include": [
+    "更衣室里手指开始发抖",
+    "回忆交出端砚时手也抖过",
+    "婚戒滑脱掉进洗手池的声音",
+    "一句话定性：不是心疼我，是嫌我做护工丢他的人",
+    "顾深舟发来消息（内容不显示）",
+    "锁屏不回"
+  ],
+  "must_not_write_as_exposition": [
+    "对婚姻的回忆总结（不要'回想起这三年'式叙述）",
+    "对顾深舟性格的分析（用一句判断替代）",
+    "离婚计划的理性思考（此刻只有身体反应和直觉判断）"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "隐痛-决断",
+    "emotion_arc": "表面平静 → 手抖暴露真实 → 回忆端砚 → 摘戒指仪式 → 冷判断",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "心疼到窒息——她连发抖都要藏起来",
+    "required_techniques": [
+      {
+        "technique": "延迟崩塌术",
+        "instruction": "用句号隔开关键句：'更衣室。手指开始发抖。'让崩塌来得突然且安静。与上一章的超常冷静形成时间差反差。"
+      },
+      {
+        "technique": "物件转移法",
+        "instruction": "从手抖→联想到当初交出端砚时也抖过→'不是心疼，是怕他看出来我舍不得'。用同一个身体反应串联两个时间点。"
+      },
+      {
+        "technique": "声音具象化",
+        "instruction": "婚戒掉进洗手池的'磕'声必须写出来——寂静中的微小声音=情绪的放大镜。"
+      },
+      {
+        "technique": "一句话定性",
+        "instruction": "不给解释不给辩护：'别在医院了，不是心疼我，是嫌我做护工丢他的人。'一句内心判断直接定性。"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定+否定（双重否定=绝对态度）",
+        "example": "没犹豫，也没再看。",
+        "instruction": "摘戒指后用双重否定收束：四个字两个否定，干净到不给感情回旋余地。"
+      },
+      {
+        "structure": "引述原文+否定解读A+给出真实解读B",
+        "example": "别在夜场了，不是心疼我，是嫌我在夜场丢他的人。",
+        "instruction": "引用顾深舟说过的话(别在医院了)，否定其表面含义(心疼)，给出真实判断(嫌丢人)。"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "突变式",
+    "source_excerpt": "后台换衣服的时候。手指开始发抖。之前在台上是稳的，点歌时是稳的，被陆晚月那句话刺了之后也是稳的。但现在不稳了。想起来把镯子交给他的那天，手也是这样抖的。他说'你放心，我保管'。不是心疼，是怕他看出来我舍不得。戒指终于滑脱，掉进洗手池，磕出一声轻响。没犹豫，也没再看。手机亮了。他发了条消息。锁屏，没回。"
+  },
+  "character_voices": {
+    "程书衡": {
+      "口癖": ["嗯"],
+      "句式": "极短陈述句、内心判断不超过两行",
+      "单句上限": 12,
+      "禁止": "为什么、凭什么、我不甘心"
+    }
+  }
+}

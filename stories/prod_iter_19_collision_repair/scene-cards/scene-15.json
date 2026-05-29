@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "target_chars_min": 680,
+  "target_chars_max": 720,
+  "location": "义安—杭州绕城高速入口",
+  "time": "主线时间线 第15节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬"
+  ],
+  "character_goal": "把车开回那条线，把回旋句钉死",
+  "opposition_goal": "事件余波想以匿名方式继续骚扰主角",
+  "conflict_action": "我把新车驶上G92入口，桂芬在副驾摸着肚子笑，后视镜里那家被查封的汽修厂掠过，我握紧方向盘往前开。",
+  "information_gap": "反派彻底退出，主角把生活握回自己手里",
+  "emotional_debt_delta": "回旋收束债",
+  "payoff_or_hook": "我对着镜子里那道封条说：系统说这个价，你坐牢就行。",
+  "chapter_end_hook": "我对着镜子里那道封条说：系统说这个价，你坐牢就行。",
+  "paywall_card": false,
+  "must_include": [
+    "G92入口",
+    "副驾笑",
+    "后视镜里的封条",
+    "回旋金句",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

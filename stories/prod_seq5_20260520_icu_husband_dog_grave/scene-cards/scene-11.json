@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 750,
+  "target_chars_max": 900,
+  "location": "街道调解室",
+  "time": "鸽舍查封后第二天",
+  "pov": "第一人称，母亲",
+  "characters": [
+    "母亲",
+    "儿子霍建明",
+    "儿媳林雯",
+    "岳父林国强",
+    "调解员",
+    "保安"
+  ],
+  "character_goal": "母亲公开击碎香火勒索，切断儿媳和岳家的最后筹码。",
+  "opposition_goal": "儿媳继续以孩子和养老威胁母亲出钱。",
+  "conflict_action": "母亲递出亲子鉴定报告，点开鸽棚监控截图，儿子抢手机砸向儿媳，保安冲进来隔开双方。",
+  "information_gap": "儿子没有立刻认错，他的羞辱会转化为下一场破坏行动。",
+  "emotional_debt_delta": "儿媳骗局债被偿还，儿子婚姻和香火幻想崩塌。",
+  "payoff_or_hook": "母亲用报告和监控让反派阵营内部撕裂。",
+  "chapter_end_hook": "儿子看完鸽棚监控，冲向那座冠军鸽灵堂。",
+  "paywall_card": false,
+  "must_include": [
+    "亲子鉴定报告纸质件",
+    "鸽棚监控截图",
+    "儿媳继续用孩子逼钱",
+    "儿子抢手机",
+    "保安隔开双方"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成道德审判演讲",
+    "不要扩大攻击女性群体",
+    "不要让母亲辱骂孩子",
+    "不要让儿子突然清醒忏悔"
+  ]
+}

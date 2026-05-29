@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "直播主屏前",
+  "time": "周砚礼拒绝交权限时",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "苏曼宁", "投资人代表王珩", "李屿", "全场员工"],
+  "character_goal": "许闻溪亮出创始合伙人和最高表决权，拿回鲸跃的最高处置权",
+  "opposition_goal": "周砚礼坚持公司是他一手做大，否认许闻溪有权干预",
+  "conflict_action": "许闻溪投屏创始合伙协议、启动资金记录和投资人委托表决书，当场否决苏曼宁任命",
+  "information_gap": "全场不知道鲸跃创立资金一半来自许闻溪，最高表决权也在她手里",
+  "emotional_debt_delta": "-创始贡献债 -身份低估债",
+  "payoff_or_hook": "女主从合规负责人升级为真正掌权者",
+  "chapter_end_hook": "最高表决权条款被放大，周砚礼终于说不出话。",
+  "paywall_card": true,
+  "must_include": ["创始合伙协议", "启动资金记录", "投资人委托表决书", "最高表决权", "否决苏曼宁任命"],
+  "must_not_write_as_exposition": ["不要提前在前几章透露股权", "不要让王珩替女主夺权", "不要写成无凭口嗨"]
+}

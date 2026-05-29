@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_rhythm_20260520_tipsy_pregnant_family_v1/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10518,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        727,
+        712,
+        706,
+        737,
+        706,
+        760,
+        765,
+        714,
+        735,
+        718,
+        738,
+        792,
+        751,
+        801
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 127,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 10,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10518,
+      "sentence_count": 1041,
+      "avg_sentence_length": 9.105,
+      "dialogue_ratio": 0.2641,
+      "question_marks": 142,
+      "question_marks_per_k": 13.501,
+      "physical_emotion_hits": {
+        "指尖": 6,
+        "喉咙": 1,
+        "眼眶": 3,
+        "掌心": 10
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.854
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 12267,
+        "line_count": 828,
+        "avg_line_chars": 14.815,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.6643,
+        "long_line_rate": 0.0121,
+        "quote_line_rate": 0.2403,
+        "question_marks_per_k": 7.174
+      },
+      "candidate": {
+        "chars": 10301,
+        "line_count": 1053,
+        "avg_line_chars": 9.783,
+        "median_line_chars": 9.0,
+        "short_line_rate": 0.8851,
+        "long_line_rate": 0.0,
+        "quote_line_rate": 0.3447,
+        "question_marks_per_k": 13.785
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 334,
+      "unique_sentence_skeletons": 334,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.003
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "evidence": [
+    "第1章开头同时出现离婚、早孕单、白月光误导，满足开篇点击欲。",
+    "第4章、第8章、第12章分别用站位宣告、陆家身份黑屏、故意被捡真相形成付费卡点。",
+    "第6-7章用手术室误导、贫血、B超单、胎心数值完成孩子债的现场化累积与偿还。",
+    "第11章陆砚辞当众撤同框海报并说从没喜欢秦月眠，替身债获得行动偿还。",
+    "第12章温瓷质问利用与被设计，伦理风险未被轻飘飘洗白。",
+    "稿件短行率、对白率、问号密度与源文接近，未变成长流程说明。"
+  ]
+}

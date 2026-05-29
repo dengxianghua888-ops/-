@@ -1,0 +1,18 @@
+slug: v4_smoke_local_rules
+source_title: 烟花罚单
+output_title: 一张罚单让我反杀了示范街区
+target_platform: tomato
+genre: modern_reversal
+status: final
+current_phase: 5
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+metrics:
+  final_word_count: 520
+  title_chars: 15
+  hook_score: 8
+  tomato_fit_score: 8.4
+  forbidden_hits: {}
+

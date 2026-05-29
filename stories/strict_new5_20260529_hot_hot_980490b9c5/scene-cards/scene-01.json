@@ -1,0 +1,56 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "御书房",
+  "time": "重生第一日清晨",
+  "pov": "沈知微第一人称",
+  "characters": [
+    "沈知微",
+    "景元帝",
+    "掌印太监"
+  ],
+  "character_goal": "把《凤位织命录》改名《逆龙工册》并送到皇帝案头",
+  "opposition_goal": "景元帝要试出她是否借谋逆攀咬东宫",
+  "conflict_action": "沈知微递书、展开龙纹暗线注解、报出三处可查节点",
+  "information_gap": "景元帝把《逆龙工册》按在御案上，问她：若查不出，你拿什么赔朕的疑心？",
+  "emotional_debt_delta": {
+    "collect": [
+      "前世惨死",
+      "继妹攻略害人"
+    ],
+    "payoff": [
+      "女主抢先夺走攻略解释权"
+    ]
+  },
+  "payoff_or_hook": "皇帝同意暗查，却把她也放入试探范围",
+  "chapter_end_hook": "景元帝把《逆龙工册》按在御案上，问她：若查不出，你拿什么赔朕的疑心？",
+  "paywall_card": false,
+  "must_include": [
+    "重生第一天",
+    "默写攻略书",
+    "封面改成《逆龙工册》",
+    "献给皇帝",
+    "龙袍谋逆爆点"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述前世完整时间线",
+    "不要解释织造制度",
+    "不要让皇帝直接全信"
+  ],
+  "rhythm_job": {
+    "shape": "冷开场短句起手，献书动作推进，御前对白占主要篇幅，末尾用皇帝试探截断",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [
+      10,
+      14
+    ],
+    "action_beats_min": 5,
+    "evidence_turn_min": 1,
+    "low_pressure_carry": "写沈知微整理袖口、把书页压平、等朱砂干透的慢半拍动作"
+  }
+}

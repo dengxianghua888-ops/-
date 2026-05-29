@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "summary": "短句、动作、物理细节稳定；移动端单句一段恪守，平均句长落在 12-14 区间；硬词只出现在化学/法医/直播节点，非堆砌。",
+  "evidence": [
+    {
+      "type": "physical_detail",
+      "quote": "封皮的烫金边硌得我指肚发疼。"
+    },
+    {
+      "type": "physical_detail",
+      "quote": "杯壁的温度从烫到温到凉。凉得跟我两只手心一样。"
+    },
+    {
+      "type": "evidence_translation",
+      "quote": "擦掉的不是灰——是一层薄薄的、带着甜味的化妆粉。"
+    },
+    {
+      "type": "strong_line",
+      "quote": "我林初——不是被一个人骗了。我林初——是被四个人一齐推下楼。"
+    },
+    {
+      "type": "strong_line",
+      "quote": "从此我袖口里装的,不再是奥赛金牌。是三条人命的重量。"
+    },
+    {
+      "type": "dialogue_function",
+      "quote": "重启调查这四个字。是您妹妹用前途换的。耽误不得。"
+    }
+  ],
+  "failures": []
+}

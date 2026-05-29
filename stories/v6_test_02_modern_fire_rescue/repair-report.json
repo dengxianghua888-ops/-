@@ -1,0 +1,102 @@
+{
+  "phase": 7,
+  "mode": "production_v6",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "direct_submission",
+      "status": "ok",
+      "changes": []
+    },
+    {
+      "name": "mobile_paragraphs",
+      "status": "ok",
+      "fixed_files": [
+        {
+          "path": "draft.md",
+          "fixed_paragraphs": 87
+        },
+        {
+          "path": "draft-scenes/scene-01.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "fixed_paragraphs": 4
+        },
+        {
+          "path": "draft-scenes/scene-03.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-04.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-05.md",
+          "fixed_paragraphs": 6
+        },
+        {
+          "path": "draft-scenes/scene-06.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "fixed_paragraphs": 4
+        },
+        {
+          "path": "draft-scenes/scene-08.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-09.md",
+          "fixed_paragraphs": 7
+        },
+        {
+          "path": "draft-scenes/scene-10.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-11.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "fixed_paragraphs": 3
+        },
+        {
+          "path": "draft-scenes/scene-13.md",
+          "fixed_paragraphs": 2
+        },
+        {
+          "path": "draft-scenes/scene-14.md",
+          "fixed_paragraphs": 4
+        },
+        {
+          "path": "draft-scenes/scene-15.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-16.md",
+          "fixed_paragraphs": 5
+        }
+      ],
+      "manual_review": []
+    },
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": [
+        "chapters"
+      ]
+    },
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

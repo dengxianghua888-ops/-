@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 800,
+  "target_chars_max": 920,
+  "location": "暴雨巷口、临时药棚",
+  "time": "同夜后半夜",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "小舟",
+    "旧药棚看守",
+    "车夫"
+  ],
+  "character_goal": "沈南星要用最后的人脉和药箱救回小舟。",
+  "opposition_goal": "暴雨、封锁和被延误的马车共同阻断她求救。",
+  "conflict_action": "沈南星砸开旧药棚木门找器械，撕下衣摆裹住小舟，再抱着孩子冲向商会医馆。",
+  "information_gap": "她暂不知道林若鸢命人延误马车，也不知道小舟死前仍盼陆沉舟来抱他。",
+  "emotional_debt_delta": "+孩子死亡不可逆、+母亲彻底崩塌",
+  "payoff_or_hook": "小舟攥着空药盒断气，最后一句是想让爹抱一抱。",
+  "chapter_end_hook": "沈南星低头去听，怀里的小手已经松开了。",
+  "paywall_card": true,
+  "must_include": [
+    "暴雨",
+    "空药盒",
+    "小舟最后求父亲抱一抱",
+    "沈南星身体反应：耳鸣、手抖、抱紧孩子",
+    "死亡落点克制"
+  ],
+  "must_not_write_as_exposition": [
+    "不要铺陈血腥细节",
+    "不要让孩子死亡变成自然病亡",
+    "不要让沈南星长篇控诉"
+  ]
+}

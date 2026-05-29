@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 980,
+  "target_chars_max": 1100,
+  "location": "短租房与专利授权会议室",
+  "time": "离婚后一周内",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "医疗集团法务", "项目经理", "林知夏来电"],
+  "character_goal": "沈砚完成康复机械臂控制模块授权，拿回被家庭耽误的职业价值。",
+  "opposition_goal": "林知夏想让他回去处理药和设备，旧家庭继续索取。",
+  "conflict_action": "沈砚挂断林知夏来电，带旧邮件、测试记录和样机数据签下三百万授权合同。",
+  "information_gap": "医疗集团项目负责人职位先用名片和未读邮件提示。",
+  "emotional_debt_delta": "能力反转爽点+3；免费护工索取债开始反噬。",
+  "payoff_or_hook": "第二付费卡点：真实能力和现金价值爆发。",
+  "chapter_end_hook": "授权合同盖章，三百万到账短信亮在沈砚掌心。",
+  "paywall_card": true,
+  "must_include": ["短租房旧图纸", "样机测试记录", "三百万授权合同", "林知夏来电被挂断", "项目负责人名片"],
+  "must_not_write_as_exposition": ["不要写专利申请科普", "不要写大佬赏识长段", "不要让钱像天降"],
+  "rhythm_job": {
+    "shape": "生活低点到合同落章，电话打断制造旧家索取",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0,
+    "dialogue_action_breathing_ratio": "对白2，动作5，呼吸点2，章尾钩1",
+    "low_pressure_carry": "泡面凉掉、图纸压平、印泥盖章、短信亮屏"
+  }
+}

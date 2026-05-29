@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "evidence": [
+    {
+      "type": "short_sentence_drive",
+      "status": "pass",
+      "quote": "我没有还手。我只是看着他。十年的客情，在这一巴掌里断干净了。",
+      "comment": "短句推进有效，有压迫感。"
+    },
+    {
+      "type": "physical_detail",
+      "status": "pass",
+      "quote": "泡面二十元一盒，矿泉水八元一瓶。小火腿五元一根。",
+      "comment": "价格和物件细节具体，能支撑市场反噬。"
+    },
+    {
+      "type": "dialogue_density",
+      "status": "pass",
+      "quote": "“凭什么？”一个男员工直接顶回去，“退订是你签的，黄牛车是你让坐的，黑营地是你找的，现在涨价还要我们分摊？”",
+      "comment": "对话承担冲突推进，不是纯旁白解释。"
+    },
+    {
+      "type": "scaffold_residue_fixed",
+      "status": "pass",
+      "quote": "我看着监控里那一巴掌，点了保存键：“保留。”",
+      "comment": "原提纲式复述已替换为动作落点。"
+    },
+    {
+      "type": "visual_ending",
+      "status": "pass",
+      "quote": "小陈把大厅灯重新打开，地上只剩隔离栏拖出的白痕。",
+      "comment": "高潮后用现场痕迹收束，减少总结味。"
+    }
+  ]
+}

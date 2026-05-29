@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "point": "betrayal_debt",
+      "quote": "救人有优先级。今晚的事，之后我补给你。",
+      "assessment": "五周年背叛债清楚。"
+    },
+    {
+      "point": "child_debt",
+      "quote": "我宁愿若宁小姨做我妈妈。",
+      "assessment": "亲子伤害债强。"
+    },
+    {
+      "point": "payoff",
+      "quote": "无探视权。",
+      "assessment": "边界偿还干脆。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "营地游客中心大厅",
+  "time": "五一第四天晚上八点",
+  "pov": "第一人称，我，营地老板林晚",
+  "characters": [
+    "林晚",
+    "周凯",
+    "夜班保安",
+    "前台小陈",
+    "游客",
+    "民警"
+  ],
+  "character_goal": "林晚想保护游客和员工安全，依法处理周凯持械闯入。",
+  "opposition_goal": "周凯想用折叠刀威胁林晚，把自己被开除的怒火发泄到营地。",
+  "conflict_action": "周凯攥折叠刀冲进游客中心，保安用隔离栏和防暴叉控制距离，林晚疏散游客并报警。",
+  "information_gap": "清算必须交给法律，不让主角私刑复仇。",
+  "emotional_debt_delta": "周凯动手和持械威胁债进入法律偿还。",
+  "payoff_or_hook": "民警到场带走周凯，林晚提交监控、语音和退订纠纷材料。",
+  "chapter_end_hook": "民警到场带走周凯，林晚提交监控、语音和退订纠纷材料。",
+  "paywall_card": false,
+  "must_include": [
+    "折叠刀只作为违法证据",
+    "安保保持距离控制",
+    "游客疏散",
+    "林晚报警",
+    "民警依法带走周凯"
+  ],
+  "must_not_write_as_exposition": [
+    "禁止写私刑虐打",
+    "禁止美化持刀报复",
+    "不要让林晚亲自动手报复"
+  ]
+}

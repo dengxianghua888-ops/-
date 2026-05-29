@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 850,
+  "target_chars_max": 950,
+  "location": "邵明律师事务所取证室",
+  "time": "第五日下午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "邵明",
+    "录音里的许国成"
+  ],
+  "character_goal": "林素琴确认许国成截流不是缺钱，而是蓄意报复",
+  "opposition_goal": "录音内容会彻底击碎林素琴对旧婚姻的最后判断，也会伤害许念",
+  "conflict_action": "邵明播放恢复音频，林素琴按下暂停、倒回、再播放，把许国成每句恶意原话逐条转写成证据文本",
+  "information_gap": "许念听见父亲原话后，会不会愿意重看这十五年",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+5",
+    "mother_negligence_debt": "+4",
+    "father_malice_debt": "+10",
+    "time_debt": "+5"
+  },
+  "payoff_or_hook": "第三付费级卡点：录音证明许国成故意让许念恨母亲",
+  "chapter_end_hook": "录音里他说：我要她觉得，她妈只舍得给她五百。",
+  "paywall_card": true,
+  "must_include": [
+    "行车记录仪音频",
+    "许国成原话",
+    "林素琴转写证据文本",
+    "邵明提醒要让许念亲耳听"
+  ],
+  "must_not_write_as_exposition": [
+    "不要只写林素琴震惊",
+    "不要让许国成用苦衷解释行为",
+    "不要让录音内容含糊"
+  ]
+}

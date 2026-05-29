@@ -1,0 +1,179 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260528_repl_hot_7d9735b718/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10176,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 12,
+      "hook_hits": 12,
+      "hook_coverage": 1.0,
+      "lengths": [
+        699,
+        722,
+        739,
+        781,
+        764,
+        818,
+        1017,
+        1063,
+        1039,
+        1076,
+        620,
+        713
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 92,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 6,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 15,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10176,
+      "sentence_count": 1019,
+      "avg_sentence_length": 8.986,
+      "dialogue_ratio": 0.0,
+      "question_marks": 78,
+      "question_marks_per_k": 7.665,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "手心": 1,
+        "喉咙": 2,
+        "眼眶": 1,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 35.181
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 9969,
+        "line_count": 665,
+        "avg_line_chars": 14.991,
+        "median_line_chars": 13.0,
+        "short_line_rate": 0.6511,
+        "long_line_rate": 0.012,
+        "quote_line_rate": 0.3053,
+        "barrage_line_rate": 0.0135,
+        "question_marks_per_k": 6.019,
+        "comma_period_ratio": 0.757,
+        "sentence_avg_len": 14.8
+      },
+      "candidate": {
+        "chars": 10000,
+        "line_count": 609,
+        "avg_line_chars": 16.42,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.5813,
+        "long_line_rate": 0.0164,
+        "quote_line_rate": 0.4204,
+        "barrage_line_rate": 0.0115,
+        "question_marks_per_k": 7.8,
+        "comma_period_ratio": 0.274,
+        "sentence_avg_len": 9.0
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 332,
+      "unique_sentence_skeletons": 331,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.006
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.2,
+    "style": 7.5,
+    "logic": 7.2
+  },
+  "evidence": [
+    {
+      "type": "opening_hook",
+      "quote": "屏幕上那行备注还亮着：别放柔顺剂，她闻了会吐。",
+      "assessment": "生活细节钩子明确，信息不对称成立。"
+    },
+    {
+      "type": "identity_reversal",
+      "quote": "我看着林栀发白的脸，转向沈泊舟。现在，谁才是前妻？",
+      "assessment": "名誉债在摊牌场偿还。"
+    },
+    {
+      "type": "property_evidence",
+      "quote": "门禁、快递、停车记录，都盖了章。",
+      "assessment": "反杀从情绪冲突转入可提交证据。"
+    },
+    {
+      "type": "emotional_payoff",
+      "quote": "念念把旧校服塞进回收袋，说：妈妈，我们不要那股味道了。",
+      "assessment": "结尾以物件完成母女新生，不靠空泛口号。"
+    }
+  ]
+}

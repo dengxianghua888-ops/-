@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10500,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_coverage": 0,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 3,
+      "status": "pass"
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 0,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 0,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_sentence_length": 18,
+      "dialogue_ratio": 0.35,
+      "action_density_per_k": 12
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    }
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 8,
+    "logic": 8
+  },
+  "evidence": [
+    "platform evidence",
+    "emotion evidence",
+    "style evidence",
+    "logic evidence"
+  ]
+}

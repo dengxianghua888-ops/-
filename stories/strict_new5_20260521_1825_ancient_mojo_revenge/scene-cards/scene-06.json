@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海崖别院药室",
+  "time": "后半夜",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "裴照棠",
+    "医女"
+  ],
+  "character_goal": "先稳住顾临渊伤势，再抓住他藏起来的第一块身份证据",
+  "opposition_goal": "顾临渊还想继续遮掩，把她隔在真正的旧案之外",
+  "conflict_action": "裴照棠剜毒，顾临渊忍痛不吭声；沈灼宁翻断椅夹层，逼出半枚海印",
+  "information_gap": "半枚海印压在灯下发冷光，顾临渊终于沉了脸。",
+  "emotional_debt_delta": "护夫债安抚+2，隐藏身份债+3",
+  "payoff_or_hook": "从伤口里抠出的不是只有毒，还有旧案钥匙",
+  "chapter_end_hook": "半枚海印压在灯下发冷光，顾临渊终于沉了脸。",
+  "paywall_card": false,
+  "must_include": [
+    "剜毒时顾临渊强撑的身体反应",
+    "沈灼宁翻断椅的具体动作",
+    "海印出现时王妃或顾临渊神色变化"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写完整医治步骤",
+    "不要回忆旧监国史整段",
+    "不要堆砌夫妻内心独白"
+  ],
+  "rhythm_job": {
+    "shape": "疗伤不是静场，动作和逼问并行，最后用实物揭牌",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

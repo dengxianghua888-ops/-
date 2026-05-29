@@ -1,0 +1,182 @@
+pipeline_mode: production
+status: final
+story_id: prod_seq5_20260519_property_rent_exit
+title: 涨租逼我撤仓，老市场断供了
+language: zh-CN
+genre: 女频经营爽文
+date: "2026-05-19"
+
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluation:
+      platform: story/evaluation/platform.json
+      emotion: story/evaluation/emotion.json
+      style: story/evaluation/style.json
+      logic: story/evaluation/logic.json
+
+quality_gate:
+  pass
+  score_scale: "0-10"
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 8.7
+    style: 8.1
+    logic: 8.5
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 15000
+      actual: 12000
+      status: pass
+    chapters:
+      count: 15
+      hook_hits: 15
+      hook_coverage: 1.0
+      length_min: 500
+      length_max: 1200
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraphs: 3
+      mobile_paragraphs:
+        status: pass
+        rule: one_sentence_per_line
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+    source_overlap:
+      max_continuous_overlap_chars: 8
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 21
+      status: pass
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+
+chapters:
+  - id: ch01
+    file: final-chapters/ch01.md
+    hook: "“顺便，我妈的海鲜档、顾砚的冷链车队、我弟的团购仓，也一起走。”"
+  - id: ch02
+    file: final-chapters/ch02.md
+    hook: "温控报警红灯跳出来时，马成站在门口笑：“现在知道谁管电了？”"
+  - id: ch03
+    file: final-chapters/ch03.md
+    hook: "我妈把灯牌递给我，冷声说：“老客户，我带走。”"
+  - id: ch04
+    file: final-chapters/ch04.md
+    hook: "顾砚把调度平板推到我面前，低声问：“车队今晚全部改线，你点头吗？”"
+  - id: ch05
+    file: final-chapters/ch05.md
+    hook: "许阳按下小程序弹窗，东区三千个团购订单同时跳到新港自提点。"
+  - id: ch06
+    file: final-chapters/ch06.md
+    hook: "白蔓的发布会刚开场，第一排酒楼老板已经起身走了。"
+  - id: ch07
+    file: final-chapters/ch07.md
+    hook: "我说：“那就让它们在这里等检查。”"
+  - id: ch08
+    file: final-chapters/ch08.md
+    hook: "我看着他，只问：“对公凭证呢？”"
+  - id: ch09
+    file: final-chapters/ch09.md
+    hook: "冷链港大屏亮起那一刻，老市场东区第一次在清晨六点黑了灯。"
+  - id: ch10
+    file: final-chapters/ch10.md
+    hook: "白蔓盯着二百八十元的日销表，脸上的直播滤镜终于碎了。"
+  - id: ch11
+    file: final-chapters/ch11.md
+    hook: "他终于低声说：“许老板，条件你开。”"
+  - id: ch12
+    file: final-chapters/ch12.md
+    hook: "他低下头，说让我爸插手的人，是我没拦住。"
+  - id: ch13
+    file: final-chapters/ch13.md
+    hook: "我说你不是最讲规则吗，现在轮到你进规则里说话。"
+  - id: ch14
+    file: final-chapters/ch14.md
+    hook: "“顾董，现在我是这里的规则制定者。”"
+  - id: ch15
+    file: final-chapters/ch15.md
+    hook: "这条线，我会亲自守住。"
+
+submission:
+  recommended_title: 涨租逼我撤仓，老市场断供了
+  title_options:
+    A: 涨租逼我撤仓，老市场断供了
+    B: 市场涨租赶我走，我带全家断供
+    C: 他断我冷库电，我让老市场空了
+  tags:
+    - 女频爽文
+    - 创业逆袭
+    - 冷链农批
+    - 家族反击
+    - 证据链
+    - 婚姻博弈
+    - 经营流
+    - 打脸反杀
+  paid_node_count: 4
+  paid_nodes:
+    - chapter: ch04
+      type: 反击刚启动
+      hook: "顾砚把调度平板推到我面前，低声问：“车队今晚全部改线，你点头吗？”"
+    - chapter: ch07
+      type: 证据半露
+      hook: "我说：“那就让它们在这里等检查。”"
+    - chapter: ch10
+      type: 真相卡住
+      hook: "白蔓盯着二百八十元的日销表，脸上的直播滤镜终于碎了。"
+    - chapter: ch14
+      type: 身份亮牌
+      hook: "“顾董，现在我是这里的规则制定者。”"
+total_chars: 12074
+chapter_count: 15
+paywall_cards: 8
+critic_scores:
+  logic: 8.5
+  style: 8.1
+  emotion: 8.7
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260519_225555
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

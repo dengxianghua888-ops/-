@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "妇幼医院门口 / 咖啡店靠窗位",
+  "time": "次日上午",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "导诊护士",
+    "齐衍深（手机对话）"
+  ],
+  "character_goal": "核掉假怀孕，彻底拆穿陆晚月最后的绑架筹码。",
+  "opposition_goal": "伪造单据和齐衍深的自欺在拖延真相落地。",
+  "conflict_action": "她核验就诊号、医院章和格式漏洞，拍下证据后直接发给齐衍深，逼他自己看。",
+  "information_gap": "截断动作：照片发出去后，对话框长时间显示‘对方正在输入’。",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "陆晚月连怀孕都是假的，男主最后的站队理由被抽空。",
+  "chapter_end_hook": "截断动作：照片发出去后，对话框长时间显示‘对方正在输入’。",
+  "paywall_card": false,
+  "must_include": [
+    "就诊号或章的具体错误点",
+    "医院门口等待时的呼吸停顿",
+    "发送证据的明确动作",
+    "不需要当面争吵，靠证据击穿"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普医院流程",
+    "不要用猜测代替核验",
+    "不要让拆穿假孕只剩一句通知"
+  ],
+  "rhythm_job": {
+    "shape": "核验-确认-发送后静压",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "ratio_note": "动作比对白更重，末尾留出输入框静压感，章尾钩靠未发出的回复。"
+  }
+}

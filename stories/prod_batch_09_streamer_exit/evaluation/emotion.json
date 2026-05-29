@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "point": "debt_established",
+      "quote": "“不熟。”他说，“许小姐这个年纪，还是别往镜头前凑，观众不吃。”",
+      "assessment": "三年扶持被当众否认并叠加年龄羞辱，情绪债清晰。"
+    },
+    {
+      "point": "debt_quantified",
+      "quote": "原本挂在他名下的S+项目余额栏，只剩一行灰色小字：当前可用买量余额，0元。",
+      "assessment": "羞辱债被转化为可见资源损失，偿还现场化。"
+    },
+    {
+      "point": "support_compensation",
+      "quote": "许闻笙是制片人，不是任何人的羞辱对象。请停止对她本人和昼光员工的攻击。",
+      "assessment": "顾凛公开维护，但没有越界替女主做决定，补偿线有效。"
+    },
+    {
+      "point": "family_debt",
+      "quote": "许念把股份转让书拍到桌上：签了，否则你从这个家滚出去。",
+      "assessment": "继妹索股和逐客形成家庭线高压债。"
+    },
+    {
+      "point": "payoff",
+      "quote": "所以，你让我从我的房子里滚出去？",
+      "assessment": "产权真相直接偿还逐客羞辱，爽点闭合。"
+    }
+  ]
+}

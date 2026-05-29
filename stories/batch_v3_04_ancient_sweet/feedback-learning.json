@@ -1,0 +1,22 @@
+{
+  "story_slug": "batch_v3_04_ancient_sweet",
+  "source_slug": "fake_princess_friends",
+  "run_date": "2026-05-26",
+  "lessons": [
+    {
+      "category": "rhythm",
+      "observation": "源文avg=16.72极短句风格，生成时avg=20.79略偏长但仍在合同范围[13,22]内",
+      "action": "碎句源文写作时需更积极断句，多用句号分割长句"
+    },
+    {
+      "category": "length",
+      "observation": "首次生成仅9136字，需多轮扩展才达标",
+      "action": "轻快爽文风格容易写短，首次写作时应主动超配15%行数"
+    },
+    {
+      "category": "tone",
+      "observation": "古言甜宠吐槽风需要大量短对话和内心吐槽，与BE虐文完全不同的写作节奏",
+      "action": "甜宠文的对话应更密集、更口语化、更有网感"
+    }
+  ]
+}

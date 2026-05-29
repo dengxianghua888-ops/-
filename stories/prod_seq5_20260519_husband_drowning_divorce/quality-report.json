@@ -1,0 +1,153 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260519_husband_drowning_divorce/final.md",
+    "target_length": {
+      "min": 11000,
+      "max": 15000,
+      "actual": 12172,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        763,
+        713,
+        757,
+        809,
+        739,
+        702,
+        731,
+        794,
+        759,
+        747,
+        746,
+        687,
+        749,
+        727,
+        761,
+        822
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 132,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12172,
+      "sentence_count": 613,
+      "avg_sentence_length": 18.856,
+      "dialogue_ratio": 0.0021,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 2,
+        "太阳穴": 1,
+        "喉咙": 2,
+        "眼眶": 2,
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 31.219
+    },
+    "semantic_repetition": {
+      "sentence_count": 548,
+      "unique_sentence_skeletons": 548,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0018
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 7.7,
+    "logic": 7.5
+  },
+  "evidence": [
+    {
+      "type": "opening",
+      "location": "第一章前300字",
+      "summary": "病房醒来、火场回放、陆景辞抱走沈明姝、女主被留在总控台后、离婚协议入场。"
+    },
+    {
+      "type": "chapter_hooks",
+      "location": "第1-16章章末",
+      "summary": "每章均有明确章末钩，形成离婚、证据、事业、追妻失败、余生惩罚递进。"
+    },
+    {
+      "type": "paywall",
+      "location": "第4/8/12/15章",
+      "summary": "公证材料上线、消防时间轴定格、替嫁证据链公开、拒绝复婚，四个卡点成立。"
+    },
+    {
+      "type": "emotion_debt",
+      "location": "第1/7/8/15/16章",
+      "summary": "火场抛弃从现场濒死到原片回放、公开时间轴、当面拒绝、余生回放完成偿还。"
+    },
+    {
+      "type": "logic_risk",
+      "location": "第二章",
+      "summary": "民政局当天办完离婚证与现实冷静期冲突，建议修正但不影响 Phase 6 gate。"
+    }
+  ],
+  "phase7_revision_items": [
+    "补标题、简介、导语、投稿付费节点地图。",
+    "修正第二章离婚法律流程。",
+    "将章末第三人称提要句改成更自然的正文内钩子。",
+    "统一第十六章第三人称与第一人称切换。"
+  ]
+}

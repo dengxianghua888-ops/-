@@ -1,0 +1,124 @@
+pipeline_mode: production
+status: final
+title: 高考状元当天，我举报全家被封进墙里
+phase: 7
+role: Final Packager
+language: zh-CN
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+provider:
+  name: OpenAI
+  model: GPT-5
+  source: codex
+source_audit:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+  evaluations:
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+    - final-chapters/ch17.md
+    - final-chapters/ch18.md
+quality_gate:
+  pass
+  pipeline_mode: production
+  score_scale: 0-10
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.6
+    emotion: 8.8
+    style: 8.2
+    logic: 7.6
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 15000
+      source_actual: 13151
+      final_status: pass
+    chapters:
+      count: 18
+      hook_hits: 18
+      hook_coverage: 1.0
+      length_status: pass
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraph_count: 3
+      mobile_paragraphs:
+        status: pass
+        rule: one_sentence_per_paragraph
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+    forbidden_words:
+      status: pass
+    soft_forbidden_words:
+      status: pass
+packaging_notes:
+  preserved_scene_order: true
+  chapter_count: 18
+  explicit_paywall_labels_in_body: false
+  diff_notes_addressed:
+    - 回收陌生女孩线
+    - 压严直播边界
+    - 精修庭审重复
+    - 降低少量比喻密度
+    - 补强判决现实感
+total_chars: 13554
+chapter_count: 18
+paywall_cards: 8
+critic_scores:
+  logic: 7.6
+  style: 8.2
+  emotion: 8.8
+  platform: 8.6
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_231545
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

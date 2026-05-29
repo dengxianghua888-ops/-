@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "邵明律师事务所会议室",
+  "time": "第三日下午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "邵明"
+  ],
+  "character_goal": "林素琴确认许砚是不是许国成的私生子",
+  "opposition_goal": "证据链需要从缴费关系推进到亲子和财产侵占关系",
+  "conflict_action": "邵明把户籍关联、出生证明复印件和许国成签过字的入学材料逐份推到林素琴面前",
+  "information_gap": "挪钱养私生子只是表层，许国成为什么非要让许念恨母亲",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+4",
+    "mother_negligence_debt": "+3",
+    "father_malice_debt": "+6"
+  },
+  "payoff_or_hook": "第二付费级卡点：许砚私生子身份曝光",
+  "chapter_end_hook": "邵明把出生证明推到桌上：许砚是他的儿子。",
+  "paywall_card": true,
+  "must_include": [
+    "出生证明",
+    "入学材料上的许国成签名",
+    "林素琴把缴费单和许念食堂明细并排放",
+    "邵明提示还有深层动机"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把故事停在婚外情愤怒",
+    "不要写母亲为私生子让步",
+    "不要让邵明长篇讲道理"
+  ]
+}

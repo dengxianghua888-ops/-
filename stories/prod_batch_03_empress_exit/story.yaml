@@ -1,0 +1,183 @@
+schema_version: 2
+status: final
+pipeline_mode: production
+title: 我娘不再替汗王生子后，他悔疯了
+genre:
+  - 古风复仇
+  - 女主复仇
+  - 母女情深
+  - 追悔火葬场
+runner_policy:
+  external_allowed: false
+audit:
+  provider: openai
+  model: gpt-5.4
+  source:
+    draft: story/draft.md
+    diff: story/diff.md
+    review: story/review.md
+    quality_report: story/quality-report.json
+  phase: 7
+  role: Final Packager
+  generated_at: 2026-05-08
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  machine_metrics:
+    text_path: stories/prod_batch_03_empress_exit/draft.md
+    target_length:
+      min: 14000
+      max: 16800
+      actual: 14259
+      status: pass
+    chapters:
+      count: 0
+      hook_hits: 0
+      hook_coverage: 0.0
+      lengths: []
+      status: pass
+    paywall_cards:
+      required: 5
+      actual: 16
+      status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 9
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 11
+      status: pass
+    style_metrics:
+      char_count: 14259
+      sentence_count: 969
+      avg_sentence_length: 13.715
+      dialogue_ratio: 0.2249
+      question_marks: 39
+      question_marks_per_k: 2.735
+      physical_emotion_hits:
+        指尖: 8
+        手心: 2
+        眼眶: 1
+        指甲: 3
+        掌心: 14
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 29.595
+    semantic_repetition:
+      sentence_count: 627
+      unique_sentence_skeletons: 627
+      max_sentence_repeats: 1
+      max_sentence_repeat_ratio: 0.0016
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  critic_scores:
+    platform: 8.3
+    emotion: 8.9
+    style: 8.0
+    logic: 8.1
+  evidence:
+    - id: E01
+      path: story/draft.md#01
+      quote: 我娘不再替汗王生子后，他悔疯了 / 【导语】阿娘用雪铃命契替绝嗣汗王生下八个王子。
+      supports:
+        - title_intro
+        - platform
+    - id: E02
+      path: story/draft.md#01
+      quote: 三枚铃，三日。
+      supports:
+        - countdown_hook
+    - id: E03
+      path: story/draft.md#12
+      quote: 她从袖中取出一页脉案誊本。
+      supports:
+        - logic_fix
+        - copy_vs_original
+    - id: E04
+      path: story/draft.md#13
+      quote: 我打开匣子，取出完整脉案。
+      supports:
+        - logic_fix
+        - original_location
+    - id: E05
+      path: story/draft.md#15
+      quote: 从今日起，王庭不许再有下一个阿泠。
+      supports:
+        - ending_boundary
+        - payoff
+  resolved_notes:
+    - 清理孟家/贵妃/皇子/系统等设定残留为北境王庭体系。
+    - 将乌兰珠持有的脉案改为誊本，私库保留原件，修复道具位置冲突。
+    - 标题和导语已并入第一场正文。
+submission:
+  title_a: 我娘不再替汗王生子后，他悔疯了
+  title_b: 阿娘断了雪铃命契后，绝嗣汗王跪疯了
+  title_c: 我带碎铃回金帐那日，汗王才知八子皆是我娘的命
+  synopsis_length: 112
+  tags:
+    - 古风复仇
+    - 女主复仇
+    - 母女情深
+    - 追悔火葬场
+    - 权谋清算
+    - 虐渣爽文
+    - 草原王庭
+    - 命契设定
+chapters:
+  count: 15
+  target_range_chars: 500-1200
+  hooks:
+    - 没有下一个了。
+    - 狼神台雪夜里，第二枚雪铃暗了半边。
+    - 拓跋赫亲手掰开阿泠的手指，把我抱进南帐。
+    - 乌兰珠指着我身上的假鞭痕，要阿泠认罪。
+    - 剜雪瞳的银刀落下前，阿泠把阿宝推到身后。
+    - 阿泠摸着我的脸问：还剩几枚铃？
+    - 最后一枚雪铃粉碎。
+    - 阿宝磕下头，叫：额吉。
+    - 他说：“汗王从来不能有子。”
+    - 拓跋赫问她想要什么，她答：王储印。
+    - 阿宝翻开军马账册，指向雪巫祭司府的私印。
+    - 乌兰珠的旧药渣被倒在金帐中央，奶酒缸案重开。
+    - 拓跋赫终于知道，八个儿子不是他的福，是阿泠的命。
+    - 拓跋赫跪在雪坑前，第一次喊阿泠的名字。
+    - 阿宝接过金狼王印，掌心像握着阿娘碎掉的雪铃。
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260508_234436
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

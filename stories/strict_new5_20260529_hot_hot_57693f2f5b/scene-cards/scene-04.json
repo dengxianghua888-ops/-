@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 740,
+  "target_chars_max": 860,
+  "location": "服务站储物间、手机群聊、山区项目报名页",
+  "time": "离职当天傍晚",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "群管理员",
+    "赵慧",
+    "山区项目负责人"
+  ],
+  "character_goal": "沈昭完成主动失联的准备，退群、换号、进入封闭项目。",
+  "opposition_goal": "业主群要公开驱逐她，让她留下冷血认罪的舆论标签。",
+  "conflict_action": "群管理员发起踢人投票，沈昭截图后提交山区入户普查项目报到表。",
+  "information_gap": "沈昭旧邮箱为什么自动归档监控，暂只露她设置邮件规则。",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "沈昭把旧群、旧号码、旧工牌全部放进一个文件袋。",
+  "chapter_end_hook": "沈昭按下退群键前，群里最后一条是：等药箱出事，她负责。",
+  "paywall_card": true,
+  "must_include": [
+    "业主群投票截图",
+    "评论/吐槽式群消息至少五条",
+    "山区项目写明封闭、弱网、统一保管手机"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释项目背景太久",
+    "不要把退群写成情绪崩溃",
+    "不要提前说明监控证据"
+  ],
+  "rhythm_job": {
+    "shape": "群消息快切加沈昭安静收拾；弹幕/评论/吐槽约两成，动作约四成，对白一成，冷旁白三成。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 6,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

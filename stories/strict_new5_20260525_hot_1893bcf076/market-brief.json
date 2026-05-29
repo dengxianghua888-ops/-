@@ -1,0 +1,150 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "source_story_slug": "hot_1893bcf076",
+  "market_positioning": {
+    "primary_genre": "family_ethics",
+    "sub_genres": [
+      "婚姻背叛清算",
+      "假死重婚反杀",
+      "母子新生"
+    ],
+    "core_promise": "让读者看见一个被丈夫、婆家和第三者联手“宣告死亡”的正妻，在二婚婚礼现场当众诈尸，逐笔清算重婚、财产与母子名分。",
+    "dominant_payoff": "公开场合身份回魂反杀",
+    "emotional_debt": "丈夫对外宣称女主已死，重婚并转移夫妻共同财产，连亲生孩子也被从叙事里抹掉。"
+  },
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [
+      10000,
+      30000
+    ]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "recommended_chars_per_chapter": 650,
+    "chapter_end_rule": "每章末必须留钩子，优先使用身份揭穿、证据反转、财产追击、孩子归属、法律推进类悬念。"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须直接打出强Hook：'我活着，却在老公的二婚婚礼上看见自己死了很多年。'",
+    "micro_hook_interval_chars": [
+      800,
+      1200
+    ],
+    "paywall_hook_interval_chars": [
+      2500,
+      3500
+    ],
+    "micro_hook_types": [
+      "新证据浮出",
+      "旧谎言被拆",
+      "婆家再踩底线",
+      "第三者身份认知崩塌",
+      "孩子存在被抹杀的真相外扩"
+    ],
+    "paywall_hook_types": [
+      "婚礼现场公开夺麦/揭身份",
+      "假结婚证或重婚证据落地",
+      "夫妻共同财产追回节点",
+      "法庭反杀前夜",
+      "儿子名分与抚养权争夺"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向家庭伦理核心读者",
+      "偏好婚姻背叛、婆家算计、公开打脸题材的下沉市场读者",
+      "对'不原谅、要赔偿、要法律结果'有强偏好的情绪消费读者"
+    ],
+    "emotional_needs": [
+      "要快：前3章必须进入婚礼揭穿，不可长铺垫",
+      "要狠：渣夫、婆婆、公公必须连续失态、失势、失钱",
+      "要实：财产、重婚、假证、抚养权都要落到具体证据和结果",
+      "要爽：女主不是哭闹求爱，而是公开控场、冷静算账",
+      "要补偿：儿子安全、母子有家、女主不回收脏男人"
+    ],
+    "topic_taboos": [
+      "不能洗白渣夫，不能给'他其实也苦衷'主叙事",
+      "不能让女主轻易原谅婆家或第三者",
+      "不能把高潮停在情绪输出，必须有法律与财产层面的实锤清算",
+      "不能让孩子沦为纯工具人，必须承担情感补偿功能",
+      "不能出现圣母式和解、吃亏是福、为了孩子凑合过"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "recommended_formulas": [
+      {
+        "formula": "T1",
+        "pattern": "老公婚礼，我才知道自己死去多年"
+      },
+      {
+        "formula": "T1",
+        "pattern": "丈夫装我死了再婚，我在婚礼上诈尸了"
+      },
+      {
+        "formula": "T3",
+        "pattern": "我活着，他却替我办了场葬礼"
+      },
+      {
+        "formula": "T1",
+        "pattern": "老公二婚现场，我抱着儿子来认尸"
+      }
+    ],
+    "title_direction": "优先用'我/老公/婚礼/死了/再婚/诈尸'高冲突词，直接交代身份悖论与公开场合羞辱。"
+  },
+  "content_constraints": {
+    "narrative_engine": [
+      "婚礼公开揭穿",
+      "婆家双标追账",
+      "夫妻财产追回",
+      "重婚法律清算",
+      "母子新生收束"
+    ],
+    "must_have_scenes": [
+      "女主在婚礼现场确认自己被“死亡”",
+      "婆婆公公发表白送/丧门星/彩礼双标言论",
+      "第三者发现自己也是被骗对象",
+      "渣夫假证或重婚事实被公开砸脸",
+      "法庭或律师推进形成结果闭环",
+      "结尾落在母子新家，不回头"
+    ],
+    "must_keep_reader_promise": "女主必须赢回名分、钱、孩子与叙事权，渣夫必须失去婚姻、体面与自由。",
+    "anti_ai_flavor": {
+      "forbidden_global": [
+        "然而",
+        "总而言之",
+        "不禁",
+        "心中涌起",
+        "深吸一口气",
+        "眼中闪过一丝"
+      ],
+      "style_notes": [
+        "句子短，信息密，少空抒情",
+        "多用对白、证据、动作推进",
+        "情绪要物理化：手抖、胃绞、后槽牙发紧、指甲掐进掌心",
+        "金句要狠，不要文青腔"
+      ]
+    }
+  },
+  "benchmark_alignment": {
+    "reference_mechanisms": [
+      "M1",
+      "M3",
+      "M5",
+      "M6"
+    ],
+    "preferred_hook_type": "H3",
+    "emotion_curve_shape": "阶梯递进型",
+    "tomato_fit_target": 8.8
+  },
+  "success_metrics": {
+    "完读欲": 8.9,
+    "付费点": 8.8,
+    "情绪释放": 9.2,
+    "AI味": 1.2,
+    "爆点密度": 8.9
+  }
+}

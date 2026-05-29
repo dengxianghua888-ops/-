@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "凝霜殿内室",
+  "time": "赏花宴后",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "乌兰珠",
+    "萧珩",
+    "凝霜殿侍女"
+  ],
+  "character_goal": "温照晚想替乌兰珠诊脉，确认所谓身孕是真是假。",
+  "opposition_goal": "乌兰珠想让她摸到假脉，又让萧珩看见两人冲突。",
+  "conflict_action": "温照晚按住乌兰珠手腕诊脉，发现脉象造假，乌兰珠立刻打翻药盏，萧珩推门入内。",
+  "information_gap": "假孕是谁设的局，萧珩是否知情。",
+  "emotional_debt_delta": "宠妃怀孕假象破裂，但更大的政治疑问出现。",
+  "payoff_or_hook": "第二张付费卡：宠妃真相反转，圣女并未怀孕。",
+  "chapter_end_hook": "温照晚替乌兰珠诊脉后发现，她根本没有身孕。",
+  "paywall_card": true,
+  "must_include": [
+    "诊脉动作",
+    "假脉细节点到即止",
+    "乌兰珠打翻药盏",
+    "萧珩入门形成误会"
+  ],
+  "must_not_write_as_exposition": [
+    "不要医学长篇解释",
+    "不要揭露假孕服务继嗣局",
+    "不要让萧珩当场全盘说明"
+  ]
+}

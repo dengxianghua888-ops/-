@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "score": 8,
+  "evidence": [
+    "source_rhythm_fit 已通过，短行率和弹幕行率回到源文可接受区间。",
+    "软禁词清零，机械碎行已通过合并返修压下。"
+  ]
+}

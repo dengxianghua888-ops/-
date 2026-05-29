@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 620,
+  "target_chars_max": 720,
+  "location": "医院急诊缴费窗口",
+  "time": "基金备案通过当天",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "收费员",
+    "患儿父亲",
+    "急诊护士"
+  ],
+  "character_goal": "林望用基金第一笔钱补齐患儿术前预存款。",
+  "opposition_goal": "缴费窗口按流程等待款项确认，患儿父亲几乎放弃。",
+  "conflict_action": "林望递上基金备案回执和付款确认单，要求窗口恢复手术排期。",
+  "information_gap": "当年父亲等不到的五十万，现在以林正年的名字到账。",
+  "emotional_debt_delta": "父亲善良获得价值延续，但死亡不能被抵消。",
+  "payoff_or_hook": "第一笔救助落地。",
+  "chapter_end_hook": "收费员盖章：林正年急症救助基金，到账。",
+  "paywall_card": false,
+  "must_include": [
+    "基金备案回执",
+    "第一笔救助付款单",
+    "患儿父亲发抖的手",
+    "恢复排期通知"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写公益宣传稿",
+    "不要解释基金制度",
+    "不要让新家庭抢走主线"
+  ],
+  "rhythm_job": {
+    "shape": "生活动作和证据动作并行，对白克制，情绪落在盖章和到账提示",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "用缴费窗口盖章、患儿父亲握紧单据承接"
+  }
+}

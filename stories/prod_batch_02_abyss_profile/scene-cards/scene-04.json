@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "病理楼地下冷库外廊",
+  "time": "第二天深夜二十二点四十分",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "未知手套人", "刘队"],
+  "character_goal": "确认冷库是否是连环失踪案核心现场，并查明自己是否被列入目标。",
+  "opposition_goal": "冷库内的人要恐吓林照，让她按标签指定时间独自进入冷库。",
+  "conflict_action": "林照借送耗材接近冷库，在巡逻灯暗下时拍标签，门缝里伸出的手套突然抓住她袖口，她反手把纤维贴片粘在手套边缘。",
+  "information_gap": "门内的人是谁，为什么知道林照姓名和今晚二十三点这个节点。",
+  "emotional_debt_delta": "生命威胁债+1，目标反转债+1。",
+  "payoff_or_hook": "主角从潜入调查者变成凶手指定的第七例。",
+  "chapter_end_hook": "冷库外新贴的标签写着：第七例，林照，今晚二十三点。",
+  "paywall_card": true,
+  "must_include": [
+    "冷库标签第七例",
+    "林照姓名",
+    "今晚二十三点",
+    "纤维贴片取证",
+    "刘队在耳机里要求她撤离"
+  ],
+  "must_not_write_as_exposition": [
+    "不要渲染冷库尸体",
+    "不要提供冷库操作细节",
+    "不要让林照无准备独自冒险"
+  ]
+}

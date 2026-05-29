@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "旧排水泵站外",
+  "time": "倒计时14小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "贺景衡", "打手", "管网工友"],
+  "character_goal": "江沉上传第一段安全帽录像，保住自己被害证据。",
+  "opposition_goal": "贺景衡要抢走安全帽和存储卡，阻止录像外流。",
+  "conflict_action": "贺景衡带人围堵江沉，江沉把备用存储卡塞进排水缝，反手打开直播按钮。",
+  "information_gap": "江沉不知道倒计时归零将直接完成死亡脱离；贺景衡不知道录像已同步云端。",
+  "emotional_debt_delta": "+证据被抢；+生命威胁升级；-江沉保住备用录像",
+  "payoff_or_hook": "证据线开始主动反击，但离场倒计时压住求生期待。",
+  "chapter_end_hook": "发布会入场码弹进江沉手机，倒计时显示【14小时】。",
+  "paywall_card": false,
+  "must_include": ["安全帽录像", "备用存储卡", "排水缝", "贺景衡抢帽", "直播红点"],
+  "must_not_write_as_exposition": ["不要让录像无成本保存", "不要让打斗过度猎奇", "不要让江沉像主动寻死"]
+}

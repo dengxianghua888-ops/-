@@ -1,0 +1,36 @@
+{
+  "story": "stories/prod_seq5_20260519_empress_escape",
+  "overall_score": 8.47,
+  "dimensions": {
+    "length_alignment": {
+      "score": 5.75,
+      "evidence": "总字数 17845,章节方差 63.8"
+    },
+    "hook_density": {
+      "score": 9.5,
+      "evidence": "19/20 强钩,弱钩章: ch03",
+      "weak_chapters": [
+        "ch03"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/6"
+    },
+    "action_density": {
+      "score": 4.9,
+      "evidence": "动作密度 41.86/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 17.627,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

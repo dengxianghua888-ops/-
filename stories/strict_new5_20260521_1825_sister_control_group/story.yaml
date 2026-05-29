@@ -1,0 +1,51 @@
+slug: strict_new5_20260521_1825_sister_control_group
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: sister_control_group
+genre: null
+final_packaging:
+  title: 姐姐把她的舔狗介绍给我后，我重生了
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  packager: scripts/package_from_draft_scenes.py
+total_chars: 10016
+chapter_count: 14
+paywall_cards: 6
+quality_gate: pass
+critic_scores:
+  logic: 8.0
+  style: 8.0
+  emotion: 8.0
+  platform: 8.0
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260521_210117
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

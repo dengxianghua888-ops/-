@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "电影节后台贵宾通道",
+  "time": "电影节闭幕红毯前二十分钟",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "苏明霜", "投资人", "记者"],
+  "character_goal": "林晚宜要压住红毯危机，并拿回自己作为经纪人的最后权限。",
+  "opposition_goal": "陆沉舟要护苏明霜上红毯，同时继续把林晚宜固定在经纪人位置上。",
+  "conflict_action": "陆沉舟当众推开林晚宜，扶住苏明霜，把贵宾通行证塞进苏明霜手里。",
+  "information_gap": "林晚宜已经怀孕，但现场没人知道；她今晚真正要找的人不是陆沉舟。",
+  "emotional_debt_delta": "+公开羞辱债；+七年无名分债",
+  "payoff_or_hook": "首屏高压羞辱建立，陆沉舟把七年关系压成“只是经纪人”。",
+  "chapter_end_hook": "陆沉舟把苏明霜护到身后，反手扣住林晚宜的腕骨。",
+  "paywall_card": false,
+  "must_include": ["陆沉舟公开偏袒苏明霜", "投资人和记者在场", "林晚宜短句克制", "第一章前300字出现公开羞辱"],
+  "must_not_write_as_exposition": ["不要解释娱乐圈背景", "不要大段回忆七年", "不要让林晚宜哭诉"]
+}

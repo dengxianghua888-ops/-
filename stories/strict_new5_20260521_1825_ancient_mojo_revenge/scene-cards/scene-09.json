@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "海崖别院正厅",
+  "time": "次日上午",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "沈烈川",
+    "裴照棠",
+    "送帖内侍"
+  ],
+  "character_goal": "拆穿军宴请帖背后的皇帝意图，并决定将计就计赴宴",
+  "opposition_goal": "送帖内侍装作公事公办，试图隐藏御前督海司已越级接管杀局",
+  "conflict_action": "沈烈川撕帖验印，裴照棠对照供词，顾临渊当场定下赴宴反设局",
+  "information_gap": "皇帝急着灭的是顾临渊本人，还是所有知晓旧案的人",
+  "emotional_debt_delta": "皇权绞杀债+3，主角团同阵线+2",
+  "payoff_or_hook": "宫里亲自下场，地方恶霸瞬间降格成外刀",
+  "chapter_end_hook": "请帖上的御印烫得刺眼，沈灼宁笑了：\"终于轮到宫里来送死。\"",
+  "paywall_card": true,
+  "must_include": [
+    "御前督海司名头出现",
+    "撕帖或拍帖动作",
+    "一家四口第一次明确同桌定局",
+    "送帖内侍露出破绽一句话"
+  ],
+  "must_not_write_as_exposition": [
+    "不要详细分析朝堂派系",
+    "不要把商议写成幕僚会议纪要",
+    "不要重复前文已知证据"
+  ],
+  "rhythm_job": {
+    "shape": "信息密度高但句子短，三人接力压帖，尾端转入赴宴决断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  }
+}

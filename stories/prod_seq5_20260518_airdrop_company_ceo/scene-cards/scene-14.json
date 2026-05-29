@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 720,
+  "target_chars_max": 900,
+  "location": "鲸跃传媒楼下与法务接待室",
+  "time": "审计材料初步核验后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "苏曼宁", "周砚礼", "李屿", "品牌方代表", "调查人员"],
+  "character_goal": "许闻溪推动苏曼宁为造假和资源侵占承担后果",
+  "opposition_goal": "苏曼宁要把责任推给经纪团队和周砚礼的授权",
+  "conflict_action": "法务递交材料，品牌方解除违规合作，苏曼宁被要求配合调查说明",
+  "information_gap": "苏曼宁仍以为周砚礼能保住她",
+  "emotional_debt_delta": "-履历造假债 -资源侵占债 +后续追偿债",
+  "payoff_or_hook": "苏曼宁失去职位、账号、品牌和周砚礼的保护",
+  "chapter_end_hook": "电梯门合上前，苏曼宁还在喊周砚礼的名字。",
+  "paywall_card": false,
+  "must_include": ["材料移交", "品牌解除违规合作", "配合调查", "苏曼宁推责", "周砚礼无力回应"],
+  "must_not_write_as_exposition": ["不要写围观羞辱", "不要用私生活猎奇", "不要把苏曼宁洗白成无辜"]
+}

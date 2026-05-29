@@ -1,0 +1,49 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "B18",
+  "target_chars_min": 474,
+  "target_chars_max": 634,
+  "location": "陆氏旧药库",
+  "time": "次日夜，暴雨后起火",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "温砚清",
+    "苏云屏",
+    "女医学生",
+    "陆家护院"
+  ],
+  "character_goal": "沈照棠要救出被困学生和旧案证据。",
+  "opposition_goal": "苏云屏要烧掉剩余账册并拖沈照棠同归于尽。",
+  "conflict_action": "苏云屏纵火锁住旧药库，沈照棠砸窗钻入火场拉出女学生和账册，陆衡舟冲进来替她挡下坍塌药梁，温砚清从外侧砸锁把人拖出。",
+  "information_gap": "火场救命不给出和解答案，只触发核心记忆。",
+  "emotional_debt_delta": {
+    "added": [
+      "苏云屏最后反扑"
+    ],
+    "paid": [
+      "沈照棠恢复阿砚死亡记忆",
+      "陆衡舟救命动作只能形成对照"
+    ],
+    "balance_after": "终局清算条件完成。"
+  },
+  "payoff_or_hook": "火光和雪夜门槛重叠，阿砚死亡记忆完整回来。",
+  "chapter_end_hook": "药库火光里，她终于记起阿砚死在雪夜门槛外。",
+  "paywall_card": false,
+  "must_include": [
+    "苏云屏纵火",
+    "锁住药库",
+    "沈照棠砸窗救学生",
+    "陆衡舟挡药梁",
+    "温砚清砸锁救人",
+    "阿砚雪夜记忆恢复"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让沈照棠等待被救。",
+    "不要让陆衡舟救命抵消前债。",
+    "不要写过度血腥火场细节。"
+  ],
+  "target_chars": 494,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

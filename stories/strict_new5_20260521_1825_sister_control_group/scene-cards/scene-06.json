@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "校园影像节后台",
+  "time": "月末晚上",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "周叙川",
+    "祁渡",
+    "工作人员"
+  ],
+  "character_goal": "沈栀要保住自己的作品位置，不再给周叙川补位。",
+  "opposition_goal": "周叙川要逼她继续做幕后执行者，维持旧分工。",
+  "conflict_action": "后台器材混乱时，周叙川抓住她要她去补剪救场，沈栀当众拒绝，转身去自己的机位。",
+  "information_gap": "周叙川要的是她的人，还是她那套可以替他收残局的能力？",
+  "emotional_debt_delta": "女主第一次在公共场合掐断旧角色，周叙川的占有欲正式浮出水面。",
+  "payoff_or_hook": "不再替人收尾，就是沈栀对前世命运的第一次公开叛逃。",
+  "chapter_end_hook": "校园影像节后台，周叙川当众拦住我，说这次他不会再把我让出去。",
+  "paywall_card": false,
+  "must_include": [
+    "后台拦人动作",
+    "补剪素材的旧分工影子",
+    "沈栀把人情债甩回去"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写完整比赛流程",
+    "不要细讲器材参数",
+    "不要把拒绝变成长篇宣言"
+  ],
+  "rhythm_job": {
+    "shape": "工作现场快切，对白硬碰，尾句留占有感",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

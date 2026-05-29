@@ -1,0 +1,76 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 740,
+  "target_chars_max": 940,
+  "location": "拾翠阁正厅·挂着沈家历代名画的长廊",
+  "time": "次日清晨",
+  "pov": "阿昭",
+  "characters": ["阿昭", "沈砚卿"],
+  "character_goal": "阿昭试图用恳求留住最后的尊严，至少保住孩子的安全",
+  "opposition_goal": "沈砚卿要让阿昭认清现实、安分做侧室，并暗示裴若霜的孩子必须成为嫡长",
+  "conflict_action": "沈砚卿当面说出'一个连宣纸和皮纸都分不清的乡野丫头'降格羞辱，随后揭露生辰日与裴若霜在画室的事",
+  "information_gap": "沈砚卿不知阿昭三岁执笔七岁入画院，读者知道——降格越低，日后打脸越响",
+  "emotional_debt_delta": "+2：降格羞辱+生辰日背叛+暗示裴若霜有孕将威胁阿昭的孩子",
+  "payoff_or_hook": "'裴若霜她可能有孕了'——暗示阿昭的孩子是障碍，读者紧张",
+  "chapter_end_hook": "裴若霜可能有孕了……她的孩子必须成为嫡长子，你才安全——暗示孩子将被处理",
+  "paywall_card": false,
+  "must_include": [
+    "沈砚卿用'乡野丫头/学徒'类最低标签定义阿昭的台词",
+    "生辰日+背叛的时间绑定必须通过对话揭露",
+    "一个被阿昭重视的物件（如沈砚卿送的画笔）含义翻转——从深情变成遮掩",
+    "章末必须有'孩子'相关的威胁性暗示"
+  ],
+  "must_not_write_as_exposition": [
+    "生辰日背叛不得用回忆长段交代前因后果",
+    "阿昭的画技不得在本章向沈砚卿展示",
+    "不得用内心独白解释'为什么她不直接亮身份'"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 22.1,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 20.2,
+    "dominant_emotion": "卑微-绝望",
+    "emotion_arc": "恳求 → 被蔑视 → 强撑 → 绝望",
+    "emotion_intensity": 8.0,
+    "reader_feeling_target": "恨铁不成钢地心疼女主，对沈砚卿的厌恶值急剧攀升",
+    "required_techniques": [
+      {
+        "technique": "降格比喻打脸预埋",
+        "instruction": "沈砚卿必须用具体的、与画坊相关的词贬低阿昭（如'连宣纸和皮纸都分不清'），越具体越好——日后身份揭露时这些词会原样打回来"
+      },
+      {
+        "technique": "特殊日期绑定背叛",
+        "instruction": "用生辰日锚定背叛事件。必须通过简短对话揭露（如'什么时候的事？''你生辰那日。'），不用叙述体"
+      },
+      {
+        "technique": "物件反转叙事",
+        "instruction": "一个曾代表深情的物件（画笔/颜料/画作）在本章被揭露为出轨遮掩——同一物件意义翻转，让读者和女主同步被骗的恶心感"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "限定词（只会…的/连…都不…的）+ 降格名词 + 反问否定",
+        "example": "只会浇水种田的村妇，怎配为我世子夫人",
+        "instruction": "改写为画坊语境：用'宣纸皮纸都分不清''只会磨墨端水'等画坊术语构建降格。反问句式不变"
+      },
+      {
+        "structure": "反问前置 + 假委屈语气 + 实施暴力",
+        "example": "难道你非要逼我说难听的话吗",
+        "instruction": "施暴者的'我也不想这样'话术——语气委屈但内容残忍，保持这个反差结构"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "递进式",
+    "source_excerpt": "只会浇水种田的村妇，怎配为我世子夫人……什么时候的事？你生辰那日……那株雪莲花是在回来的路上顺手摘的……难道你非要逼我说难听的话吗……林楚楚她可能有孕了……她的孩子必须要成为嫡长子，你才安全。"
+  }
+}

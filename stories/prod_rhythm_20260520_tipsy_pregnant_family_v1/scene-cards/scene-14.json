@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "陆家满月宴与家中厨房",
+  "time": "数月后",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "龙凤胎",
+    "陆家老爷子",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想让孩子、陆家和她的日常生活真正落定",
+  "opposition_goal": "陆家旧规矩想把满月宴办成继承权展示",
+  "conflict_action": "陆砚辞在满月宴上公开把龙凤胎写入继承信托，宴后脱下西装回厨房给温瓷煲汤",
+  "information_gap": "弹幕承认原评论区也误判了所有人，故事闭环",
+  "emotional_debt_delta": "家庭圆满、身份兑现、公开偏袒、日常甜宠全部结清",
+  "payoff_or_hook": "陆砚辞白天掌权，晚上回家照顾温瓷，完成甜宠回环",
+  "chapter_end_hook": "弹幕最后一行停住：【原来被接回家的，一直是他。】",
+  "paywall_card": false,
+  "must_include": [
+    "龙凤胎满月宴",
+    "继承信托",
+    "陆砚辞公开偏袒",
+    "回家煲汤",
+    "弹幕最终承认看错"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写宾客名单",
+    "不要开放式结尾",
+    "不要把圆满写成流水账",
+    "不要用空泛幸福总结替代动作"
+  ],
+  "rhythm_job": "1个公开信托动作+1个厨房日常回环+章尾弹幕收束"
+}

@@ -1,0 +1,829 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [1, 78],
+      "char_count": 1380,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 5.8,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.92,
+        "sentence_avg_len": 18.2
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-决绝-孤立",
+        "emotion_arc": "震惊 → 屈辱 → 冷静反击 → 被孤立 → 坠入回忆 → 清醒",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "前半段替女主窒息愤怒，反击瞬间猛拍大腿，后半段心疼她的付出"
+      },
+      "highlights": {
+        "peak_moment": "女主用肖奈的原话镜像反击：反正你俩不是亲兄弟吗？我和谁领证不都一样？",
+        "peak_type": "power_shift",
+        "emotional_bomb": "四年卖房卖命的付出被一句'舔狗'概括",
+        "bomb_detonation_technique": "累积式——先列事实（卖房/胃出血/每一次牺牲），最后一句'舔狗'引爆全部",
+        "reader_hook_point": "女主笑着转身一把拽过大哥那一刻——读者屏住呼吸等结果"
+      },
+      "techniques": [
+        {
+          "technique": "镜像句式回旋",
+          "example": "肖奈：'反正你俩不是好闺蜜吗？我和谁领证不都一样？' → 女主：'反正你俩不是亲兄弟吗？我和谁领证不都一样？'",
+          "effect": "用施害者的原话反击是最爽的——读者感受到'以其人之道还治其人之身'的智力快感"
+        },
+        {
+          "technique": "控制姿态具象化",
+          "example": "'抬手揉我头发''拇指蹭了蹭我的脸颊''像逗弄不听话的狗'",
+          "effect": "把PUA的心理控制转化为可视的物理动作，读者本能反感这种居高临下"
+        },
+        {
+          "technique": "烈酒比喻收章",
+          "example": "'肖奈就像一杯烈酒，第一口辣得呛出眼泪，可越喝越上瘾，最后醉得一塌糊涂，连自己怎么死的都不知道。'",
+          "effect": "用感官体验比喻情感关系，让抽象的情感变得可触摸，且暗含'清醒了'的转折"
+        },
+        {
+          "technique": "具象数据代替抒情",
+          "example": "'汤臣一品的房子''没要股份没要借条''喝酒喝到胃出血'",
+          "effect": "具体的金额/病症比'我为他付出了很多'有一百倍的冲击力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "反正你俩不是亲兄弟吗？我和谁领证不都一样？",
+          "structure": "[对方原话结构] + 替换一个关键名词 = 镜像回旋",
+          "why_it_works": "读者在前3行已经对原话产生强烈反感，当同样结构被反向使用时，积累的厌恶瞬间转化为快感"
+        },
+        {
+          "text": "姜晚，你当我的舔狗这么多年，全城谁不知道你离了我不行？",
+          "structure": "[贬低定性]+[社会佐证] = 极致羞辱",
+          "why_it_works": "不仅是私下侮辱而是'全城都知道'的公共化，触发读者的社死恐惧代入"
+        },
+        {
+          "text": "没要股份，没要借条，只是凭着一腔爱意信他。",
+          "structure": "没要A，没要B，只是[最卑微的理由]",
+          "why_it_works": "三连否定后接一个纯真理由，对比产生的心酸感让读者瞬间站在女主这边"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "急起-急落-回忆缓冲-再起",
+      "pacing_note": "靠对话交锋和镜像反击维持前半段高压，靠具体回忆事件维持后半段情绪积累",
+      "chapter_end_hook": {
+        "text": "肖奈拿出一个红本本随手塞给我，上面赫然贴着我和他的照片，姓名、身份证号一应俱全，连发证机关的红章都有模有样。",
+        "hook_type": "revelation_half",
+        "hook_technique": "看似给了交代（假证）但读者直觉不对——为什么'有模有样'要强调？",
+        "suspense_mechanism": "激发读者'这是假的吧？她会发现吗？'的验证欲"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [79, 130],
+      "char_count": 870,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.5,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.78,
+        "sentence_avg_len": 19.0
+      },
+      "emotion": {
+        "dominant_emotion": "背刺痛感-柳暗花明",
+        "emotion_arc": "发现假证的冷 → 视频暴击的痛 → 闺蜜回忆的碎 → 肖珩出现的暖 → 求婚的释然",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "前半段心绞痛般的背叛感，后半段被肖珩的行动力暖到想哭"
+      },
+      "highlights": {
+        "peak_moment": "肖珩单膝下跪说'我肖珩早就想娶你'——反转假证侮辱为真爱确认",
+        "peak_type": "power_shift",
+        "emotional_bomb": "闺蜜回忆——从'第一次吃螃蟹是我剥的'到'所以我抢走了你'的友情崩塌",
+        "bomb_detonation_technique": "对比式——越甜蜜的回忆对比越显得背叛残忍",
+        "reader_hook_point": "肖珩解释'太仓促是觉得这种潦草的仪式配不上你'——信息差反转"
+      },
+      "techniques": [
+        {
+          "technique": "细节验伪",
+          "example": "'红底照片上，那女人锁骨下方一颗小痣清晰可见。是江柔。'",
+          "effect": "用一个精确的生理细节（痣）完成验伪，比'我看出是假的'有十倍说服力"
+        },
+        {
+          "technique": "甜蜜回忆反衬现实",
+          "example": "'她第一次吃螃蟹是我剥好了放进她碗里''她第一次买超过500的衣服高兴的在宿舍里转圈'",
+          "effect": "越具体的善意回忆，越放大背叛的残忍——读者从共情善意转入共情被刺"
+        },
+        {
+          "technique": "语义反转收章",
+          "example": "'我说太仓促，是觉得这种潦草的仪式配不上你。'",
+          "effect": "把第1章看似拒绝的话重新解释——读者恍然大悟的'原来如此'带来智力满足"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我说太仓促，是觉得这种潦草的仪式配不上你。",
+          "structure": "我说A，是觉得[深层真实原因反转表面含义]",
+          "why_it_works": "把读者和女主共同的误解一句话推翻，信息差引爆带来的满足感极强"
+        },
+        {
+          "text": "但证现在就领！",
+          "structure": "转折词+[极短斩钉截铁的行动宣言]",
+          "why_it_works": "在浪漫的铺垫后突然切回务实行动，反差产生的果决感让读者安心"
+        },
+        {
+          "text": "她第一次吃螃蟹是我剥好了放进她碗里。",
+          "structure": "[对方的第一次美好体验]+是我[亲手提供的]",
+          "why_it_works": "第一次的不可替代性+亲手的温度，让背叛的疼痛感倍增"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "沉底-回忆-突然拉起",
+      "pacing_note": "靠闺蜜回忆的情感密度维持中段，靠肖珩出现的突然性制造节奏反差",
+      "chapter_end_hook": {
+        "text": "他替我郑重戴上戒指，'戒指你先收着，婚礼我会补，求婚我会重来。但证现在就领！'",
+        "hook_type": "power_reversal",
+        "hook_technique": "用行动力+承诺同时给出，让读者确信这不是空头支票",
+        "suspense_mechanism": "激发'他们真的领到了吗？肖奈什么时候会发现？'的双重期待"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [131, 198],
+      "char_count": 1100,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.2,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 4.2,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.85,
+        "sentence_avg_len": 17.5
+      },
+      "emotion": {
+        "dominant_emotion": "暗喜-被压迫-忍耐",
+        "emotion_arc": "暗中得意（发圈） → 被无视 → 婚纱惊喜 → 婚纱被抢 → 婚礼降格 → 三金被摘 → 极致忍耐",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "看到婚纱细节时心暖，看到被抢时暴怒，看到伴娘服时恨不得冲进屏幕"
+      },
+      "highlights": {
+        "peak_moment": "肖奈动作粗暴扯开婚纱，递黑卡给店员说'三倍刷吧'——极致的物化和控制",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "三个月前就准备的梦中婚纱被当面抢走",
+        "bomb_detonation_technique": "递进式——先给甜（肖珩的心意）再一层层剥夺（抢婚纱→摘三金→伴娘服）",
+        "reader_hook_point": "肖奈说'明天你穿这个就行'递出伴娘服——压迫到极致的临界点"
+      },
+      "techniques": [
+        {
+          "technique": "暗中布局的时间差",
+          "example": "'店员说肖珩三个月前就开始准备了，那时候我和肖奈的婚礼刚定下'",
+          "effect": "三个月前=肖珩的感情不是临时起意，时间差证明深情，让读者彻底站队"
+        },
+        {
+          "technique": "降格比喻",
+          "example": "'塑料花俗艳得像殡仪馆门口的花圈'",
+          "effect": "把婚礼降格到殡仪馆级别，视觉化的厌恶感比'很差'有效一百倍"
+        },
+        {
+          "technique": "递进剥夺法",
+          "example": "抢婚纱 → 摘三金 → 廉价场地 → 伴娘服——四层剥夺每层加码",
+          "effect": "每多一层剥夺，读者的怒气值就加一档，为爆发蓄满能量"
+        },
+        {
+          "technique": "甜枣话术还原",
+          "example": "'回头我给你买件更贵的''等柔柔生完孩子再补''西郊那个庄园随你折腾'",
+          "effect": "精准还原PUA的'画饼'话术，读者因为太真实而愤怒——很多人经历过类似"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "塑料花俗艳得像殡仪馆门口的花圈。",
+          "structure": "[事物]得像[比其更低档的同类事物]——降格比喻",
+          "why_it_works": "把婚礼（人生最美时刻）和殡仪馆（死亡）并置，落差产生的恶心感比任何形容词都强"
+        },
+        {
+          "text": "你穿这种收腰的不好看，柔柔身材刚好。",
+          "structure": "否定你+肯定第三者=双重打击",
+          "why_it_works": "不只是抢东西而是否定你的身体——触发读者最本能的自尊防御"
+        },
+        {
+          "text": "宁可信其有不可信其无。你是做大人的，让着点小的，天经地义！",
+          "structure": "[道德绑架的俗语]+[强加身份等级]",
+          "why_it_works": "用伪道德话术包装不合理要求——读者对这种逻辑极度反感因为太常见"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "缓起-层层加压-压到极致",
+      "pacing_note": "靠事件密度（4个压迫事件连续）维持张力，不给读者喘息空间",
+      "chapter_end_hook": {
+        "text": "他满意地点了下头，随手拿起一件伴娘服，'明天你穿这个就行。'",
+        "hook_type": "contrast_shock",
+        "hook_technique": "从新娘降格到伴娘——用一件衣服完成身份贬低的极致表达",
+        "suspense_mechanism": "激发'她不可能真穿吧？明天婚礼到底会怎样？'的强烈好奇"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [199, 260],
+      "char_count": 950,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.88,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "压迫顶点-反转启动",
+        "emotion_arc": "继续被压 → 画饼话术 → 婚礼日翻转 → 盛装九宫格 → 肖珩接亲 → 碾压启动",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "前半段忍到极限的窒息，后半段终于等到反击的解气"
+      },
+      "highlights": {
+        "peak_moment": "盛装朋友圈九宫格配文'盛装已着，静候君来'——从伴娘服到苏绣婚纱的极致反差",
+        "peak_type": "power_shift",
+        "emotional_bomb": "肖奈还在画饼说'等柔柔生完再补'，下一秒就看到女主的盛大婚礼",
+        "bomb_detonation_technique": "对比式——廉价塑料布vs苏绣拖尾、出租车vs劳斯莱斯",
+        "reader_hook_point": "陈柏言说'嫂子被你亲哥开劳斯莱斯接走了'——肖奈的面子碎裂瞬间"
+      },
+      "techniques": [
+        {
+          "technique": "社交媒体作为揭露工具",
+          "example": "'微信群消息已经炸到九十九加，全在艾特他''朋友圈九宫格'",
+          "effect": "用现代人最熟悉的社交场景作为打脸载体，代入感极强——每个人都刷过朋友圈"
+        },
+        {
+          "technique": "第三方传话加倍打脸",
+          "example": "陈柏言：'嫂子今天那身打扮，绝了！''口是心非，我们都准备好给嫂子拍出租车接亲的视频'",
+          "effect": "不是女主直接打脸而是通过兄弟传话——社交圈层的围观让羞辱公共化"
+        },
+        {
+          "technique": "微表情泄露真心",
+          "example": "'他嘴角不自觉地弯了一下'（看到盛装照时）",
+          "effect": "一个不自觉的微笑暴露他其实在意——为后续崩溃埋伏笔"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "盛装已着，静候君来。",
+          "structure": "[古典四字]+[古典四字] = 对仗配文",
+          "why_it_works": "用古典句式对仗抬升格调，与肖奈安排的廉价婚礼形成阶级碾压的对比"
+        },
+        {
+          "text": "让她等，让她丢这个人。让她知道离了我她什么都不是。",
+          "structure": "让她A，让她B，让她C——三连祈使句自以为是",
+          "why_it_works": "三连'让她'暴露控制欲极致，读者看得咬牙——因为知道他不知道的真相"
+        },
+        {
+          "text": "打个出租车就行，不能惯她这臭毛病。",
+          "structure": "[降格安排]+[居高临下评价]",
+          "why_it_works": "出租车vs劳斯莱斯的对比即将到来——铺垫越低，反差越爽"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前慢后快——蓄力到释放",
+      "pacing_note": "靠社交媒体信息流的即时性加速后半段节奏，靠第三方传话制造连续微爽",
+      "chapter_end_hook": {
+        "text": "兄弟们开始起哄张望：'新娘呢？别藏着了！'",
+        "hook_type": "question_bomb",
+        "hook_technique": "场景切到空荡荡的廉价宴会厅——反差制造悬念",
+        "suspense_mechanism": "激发'他还不知道真正的婚礼在哪——等他发现的那一刻！'"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [261, 320],
+      "char_count": 920,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.74,
+        "impact_density": 0.90,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "碾压快感-蓄力待爆",
+        "emotion_arc": "兄弟嘲讽（残留压迫）→ 热搜曝光 → 肖奈打电话被挂 → 死撑面子 → 半月后家宴通知",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "看到热搜时拍桌子叫好，看到肖奈死撑时又恨又爽，看到家宴预告时疯狂期待"
+      },
+      "highlights": {
+        "peak_moment": "热搜【爆】姜氏千金今日大婚，世纪婚礼现场曝光——肖奈在空厅里看到这条推送",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "肖奈坐了一下午等她求饶，每隔十分钟翻手机——从得意到焦虑的无声崩塌",
+        "bomb_detonation_technique": "反转式——他以为是惩罚她，实际被全世界围观打脸",
+        "reader_hook_point": "姜晚的声音传来'爸妈，我和肖珩挑了件礼物'——付费卡点，最强悬念"
+      },
+      "techniques": [
+        {
+          "technique": "热搜标题作为叙事道具",
+          "example": "'【爆】姜氏千金今日大婚，世纪婚礼现场曝光，新郎竟是肖家继承人！'",
+          "effect": "用读者最熟悉的热搜格式作为信息载体——现代感极强且自带画面感"
+        },
+        {
+          "technique": "时间压缩制造焦虑",
+          "example": "'每隔十分钟翻一次手机，还是没等到那个女孩求饶'",
+          "effect": "时间的流逝对比行为的重复——无声地展示内心从笃定到慌乱的过渡"
+        },
+        {
+          "technique": "声音入场制造悬念",
+          "example": "'身后传来一声咳嗽''熟悉的声音传来'",
+          "effect": "先声后人——让读者跟着角色的感官一起转头，制造身临其境的悬念感"
+        },
+        {
+          "technique": "自欺独白暴露真实",
+          "example": "'让她等，让她丢这个人。让她知道离了我她什么都不是。'",
+          "effect": "内心独白暴露的不是自信而是恐惧——读者能读出他在说服自己"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "新郎不去，我看她一个人怎么收场。",
+          "structure": "[自以为是的决定]+[自以为是的预判]",
+          "why_it_works": "戏剧反讽——读者知道她不需要他，他的'底牌'其实是张废纸"
+        },
+        {
+          "text": "有些人自己作的自己受着。",
+          "structure": "[施害者对受害者的定性总结]",
+          "why_it_works": "这句话会在全文结局被因果回旋——最终'自己作的自己受着'的是肖奈自己"
+        },
+        {
+          "text": "爸妈，我和肖珩挑了件礼物，来迟了，您二老别见怪！",
+          "structure": "[亲密称呼]+[理所当然的身份宣示]+[得体客套]",
+          "why_it_works": "一句话完成身份确认（叫爸妈）+关系确认（和肖珩）+姿态确认（体面得体），信息炸弹级"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "匀速高压——持续碾压不松手",
+      "pacing_note": "靠信息差的持续存在和肖奈的自欺维持张力，靠家宴预告拉出新悬念",
+      "chapter_end_hook": {
+        "text": "身后传来一声咳嗽……'爸妈，我和肖珩挑了件礼物，来迟了，您二老别见怪！'",
+        "hook_type": "power_reversal",
+        "hook_technique": "付费卡点——在身份即将公开揭露的前一秒切断",
+        "suspense_mechanism": "激发'肖奈的脸色！肖母的反应！全家的反应！'的极致好奇——读者必须付费"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [321, 385],
+      "char_count": 900,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 6.2,
+        "direct_dialogue_rate": 0.52,
+        "short_line_rate_lte16": 0.78,
+        "impact_density": 0.95,
+        "sentence_avg_len": 15.5
+      },
+      "emotion": {
+        "dominant_emotion": "揭露狂喜-碾压快感",
+        "emotion_arc": "肖奈得意（以为她回来求和）→ 困惑（她不坐他安排的位置）→ 震惊（妈叫大嫂）→ 崩溃",
+        "emotion_intensity": 10,
+        "reader_feeling_target": "酣畅淋漓的打脸快感，每一句对话都像在读者心头放烟花"
+      },
+      "highlights": {
+        "peak_moment": "肖母说'你大嫂进门了你也不打招呼？愣着干什么，快叫大嫂！'",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "肖奈目光落在两人无名指上交相辉映的戒指——视觉化的事实碾压",
+        "bomb_detonation_technique": "递进式——先叫错位置→再被纠正→再看到戒指→完全崩塌",
+        "reader_hook_point": "肖母端菜叫'大嫂'那一刻——全文最强爽点"
+      },
+      "techniques": [
+        {
+          "technique": "自以为是的得意铺垫反转",
+          "example": "'闹了半个月，还不是乖乖回来了？这套裙子肯定是为了今晚特意买的'",
+          "effect": "让肖奈在揭露前达到得意峰值——峰值越高，崩塌越爽"
+        },
+        {
+          "technique": "第三方无意揭露",
+          "example": "不是女主说'我是你嫂子'，而是肖母无意中叫出来的",
+          "effect": "第三方揭露比自揭更有杀伤力——说明这是'所有人都知道只有你不知道'的局面"
+        },
+        {
+          "technique": "物件对比碾压",
+          "example": "'他目光落在我无名指上的戒指，和他哥手上的那枚交相辉映，刺的他眼睛生疼'",
+          "effect": "用一对戒指完成关系确认——视觉化的证据比任何语言都更有力"
+        },
+        {
+          "technique": "控制姿态失效",
+          "example": "肖奈'抬手想揉她的头发'——女主'偏头躲了过去'",
+          "effect": "此前他的揉头发=控制权象征，现在被躲开=控制权彻底丧失"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你大嫂进门了你也不打招呼？愣着干什么，快叫大嫂！",
+          "structure": "[长辈权威口吻]+[称呼反转]+[命令]",
+          "why_it_works": "来自母亲的权威确认——不容置疑的、制度性的身份宣判"
+        },
+        {
+          "text": "你什么人？你们订婚了？领证了？还是办了婚礼？",
+          "structure": "反问+三连追问（层层递进否定）",
+          "why_it_works": "用对方自己的逻辑漏洞反杀——你什么都没有凭什么说是你的人？"
+        },
+        {
+          "text": "闹了半个月，还不是乖乖回来了？",
+          "structure": "[时间]+[自以为是的结论]——戏剧反讽",
+          "why_it_works": "读者知道真相所以这句话格外可笑——笑他至死不悟"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发-连续爆发",
+      "pacing_note": "靠对话交锋的密度维持极高节奏，每句话都在推进揭露进程",
+      "chapter_end_hook": {
+        "text": "肖奈嘴唇哆嗦：'妈，您是不是搞错了？她是我老婆！'",
+        "hook_type": "cliff_action",
+        "hook_technique": "肖奈最后的挣扎——读者知道这是死路但想看他怎么被打脸",
+        "suspense_mechanism": "激发'肖母会怎么反应？全家会怎么审判他？'的强烈期待"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [386, 450],
+      "char_count": 1000,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.5,
+        "comma_period_ratio": 0.38,
+        "question_mark_density_per_1k": 7.8,
+        "direct_dialogue_rate": 0.55,
+        "short_line_rate_lte16": 0.80,
+        "impact_density": 0.92,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "审判碾压-酣畅痛快",
+        "emotion_arc": "肖奈继续嘴硬 → 肖珩轻描淡写反击 → 肖奈崩溃哭 → 全家审判 → 真相曝光",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "看着渣男在全家面前崩塌哭泣的极致快感，同时被肖珩的淡定护妻暖到"
+      },
+      "highlights": {
+        "peak_moment": "肖珩给她盛汤说'爸妈，事情已经过去了。晚晚现在是我妻子，以前的事不提了'——轻描淡写的碾压",
+        "peak_type": "power_shift",
+        "emotional_bomb": "女主把伪造证和伴娘服的事当众说出——肖母猛转头",
+        "bomb_detonation_technique": "突变式——平静对话中突然投出炸弹证据",
+        "reader_hook_point": "三十岁的男人当着全家面哭成那样——极致的降格画面"
+      },
+      "techniques": [
+        {
+          "technique": "轻描淡写的降维碾压",
+          "example": "'爸，妈，事情已经过去了。晚晚现在是我妻子，以前的事，不提了。'",
+          "effect": "'不提了'三个字的杀伤力远大于控诉——因为不提=不屑=你不配被计较"
+        },
+        {
+          "technique": "细节降格",
+          "example": "'肖奈低着头，眼泪砸在碗里，溅起小小的水花。三十岁的男人，当着全家的面哭成这样'",
+          "effect": "具体到'碗里溅水花'的细节让男人哭泣的画面极度真实且可笑——降格到位"
+        },
+        {
+          "technique": "问号连击审判",
+          "example": "'什么伪造？什么伴娘服？''你到底干了什么！''你到底跟谁领的证！'",
+          "effect": "每个问号都是一记耳光——来自至亲的追问比任何惩罚都更有摧毁力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "不提了。三个字，轻飘飘的，却像一把刀扎进肖奈心口。",
+          "structure": "[极短句]+[物理化比喻] = 轻巧动作+重磅伤害的反差",
+          "why_it_works": "越轻描淡写越有杀伤力——因为暗示'你已经不值得我愤怒'"
+        },
+        {
+          "text": "你自己跟别人领了证，现在又来说这种话，你觉得合适吗？",
+          "structure": "陈述对方事实+反问'合适吗' = 逻辑死锁",
+          "why_it_works": "用事实堵死对方所有辩解的路——他无话可说因为确实如此"
+        },
+        {
+          "text": "三十岁的男人，当着全家的面哭成这样，场面说不出的难看。",
+          "structure": "[年龄]+[场合]+[行为]+[评价] = 社死级画面",
+          "why_it_works": "把'哭'这个行为放在'三十岁''全家面前'的语境中=极致丢人，读者的鄙视感拉满"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压——全程对话交锋无喘息",
+      "pacing_note": "靠高密度对话交锋和问号追击维持极速节奏，零叙述段",
+      "chapter_end_hook": {
+        "text": "肖母终于忍不住了，'肖奈！你到底跟谁领的证！'",
+        "hook_type": "question_bomb",
+        "hook_technique": "母亲的最终追问——迫使最丢脸的真相必须说出口",
+        "suspense_mechanism": "激发'他要说出江柔了！肖母会什么反应？'的即时期待"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [451, 520],
+      "char_count": 850,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.0,
+        "comma_period_ratio": 0.45,
+        "question_mark_density_per_1k": 5.5,
+        "direct_dialogue_rate": 0.50,
+        "short_line_rate_lte16": 0.75,
+        "impact_density": 0.82,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "因果兑现-复杂",
+        "emotion_arc": "真相曝光 → 肖母崩溃 → 女主体面收场 → 江柔追问 → 肖奈失手 → 流产",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "对肖奈和江柔的报应感到痛快，同时对孩子无辜有一丝复杂"
+      },
+      "highlights": {
+        "peak_moment": "江柔倒地流血——因果报应的物理化兑现",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "肖奈内心承认'如果没有这个孩子，就可以干干净净离婚去追姜晚'——动机暴露",
+        "bomb_detonation_technique": "突变式——从争吵瞬间转为流血的物理暴力",
+        "reader_hook_point": "护士递来清宫同意书的那一刻——从'有孩子'到'永远不能有'的落差"
+      },
+      "techniques": [
+        {
+          "technique": "女主体面退场让位施害者自毁",
+          "example": "'过去了就是过去了，谁对谁错，没必要再掰扯。'然后切换到肖奈江柔的自毁线",
+          "effect": "女主不参与他们的毁灭——他们是自己毁掉自己的，这比'女主报复'更高级"
+        },
+        {
+          "technique": "内心独白暴露丑陋",
+          "example": "'他确实想过，如果没有这个孩子，他就可以干干净净地离婚'",
+          "effect": "把潜意识的想法白纸黑字写出来——读者确认'这个人就是这么自私'"
+        },
+        {
+          "technique": "签字细节物理化情绪",
+          "example": "'名字签得歪歪扭扭，像个小学生的字'",
+          "effect": "手抖到字迹歪扭——把'害怕/愧疚'转化为可视的物理表现"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "过去了就是过去了，谁对谁错，没必要再掰扯。",
+          "structure": "[重复确认]+[放下判断] = 极致的体面和不在乎",
+          "why_it_works": "不追究=不在乎你了——对曾经爱过的人来说这比恨更致命"
+        },
+        {
+          "text": "愧疚是对江柔的。恶心是对自己的。",
+          "structure": "[情绪A]是对[对象A]的。[情绪B]是对[对象B]的。——平行短句剖析",
+          "why_it_works": "把复杂的内心用手术刀式的精准句式剖开——读者看到他终于认清自己"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "前紧后松——从审判高压到因果兑现的缓落",
+      "pacing_note": "靠视角切换（从家宴切到肖奈江柔私生活）维持新鲜感",
+      "chapter_end_hook": {
+        "text": "护士走过来，'先生，您太太需要清宫，这是同意书，请签字。'",
+        "hook_type": "silent_threat",
+        "hook_technique": "医学术语'清宫'的冷酷+签字的不可逆——把情感后果物理化",
+        "suspense_mechanism": "激发'孩子没了？她以后还能生吗？这对他们会怎样？'的连锁担忧"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [521, 600],
+      "char_count": 1100,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 4.0,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.72,
+        "sentence_avg_len": 18.0
+      },
+      "emotion": {
+        "dominant_emotion": "追悔-自毁-清算",
+        "emotion_arc": "江柔不孕 → 江柔自白嫉妒 → 离婚 → 肖奈失眠想姜晚 → 跟踪被拒",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "对施害者的报应感到满足，对江柔的自白有一丝复杂共情但不原谅"
+      },
+      "highlights": {
+        "peak_moment": "江柔说'凭什么她什么都比我强？所以我抢走了你'——背叛动机的终极坦白",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "肖奈喝醉了叫的都是姜晚名字——江柔揭露的真相",
+        "bomb_detonation_technique": "累积式——江柔的控诉一句接一句堆叠出肖奈的自私全貌",
+        "reader_hook_point": "女主说'我不恨你，我只是不在乎你了'——比恨更致命的一句话"
+      },
+      "techniques": [
+        {
+          "technique": "施害者自剖动机",
+          "example": "'我嫉妒姜晚。凭什么她什么都比我强？所以我抢走了你！'",
+          "effect": "让施害者自己说出动机比旁人揭露更有说服力——读者确认'她从一开始就是存心的'"
+        },
+        {
+          "technique": "失眠的具象化",
+          "example": "'他翻出手机里存的照片，一张一张看。他们的合照很少，他翻遍了相册，只找到几张。'",
+          "effect": "合照很少=他从来不在意记录→现在想找都找不到→具象化的'来不及了'"
+        },
+        {
+          "technique": "否定句收束",
+          "example": "'我不恨你，我只是不在乎你了。'",
+          "effect": "否定恨+确认不在乎——比'我恨你'伤害大一万倍因为恨至少说明还在意"
+        },
+        {
+          "technique": "平行命运对照",
+          "example": "肖奈失眠跟踪姜晚 ‖ 江柔找新男友被甩——两个施害者平行沉沦",
+          "effect": "并排展示两个人的报应——信息密度高且制造'因果不爽不可'的满足"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我不恨你，我只是不在乎你了。",
+          "structure": "我不[强情绪]，我只是[更致命的淡漠]",
+          "why_it_works": "恨=你还占据我的情绪空间；不在乎=你从我的世界消失了——后者才是真正的结束"
+        },
+        {
+          "text": "你跟我上床的时候，闭着眼喊的也是她的名字！",
+          "structure": "你[最亲密的时刻]+[最暴露的细节] = 致命一击",
+          "why_it_works": "最私密的时刻暴露最真实的心——江柔说出这句话是在揭开自己的伤疤做武器"
+        },
+        {
+          "text": "没有来生，我们之间还谈什么来生？",
+          "structure": "否定对方的假设+反问——斩断所有幻想",
+          "why_it_works": "堵死所有退路——连'来生'的幻想都不给，绝情到极致=极致爽"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "缓慢下沉——持续的悔恨和丧失",
+      "pacing_note": "靠施害者的内心崩塌过程维持阅读动力——读者想看他们到底能有多惨",
+      "chapter_end_hook": {
+        "text": "肖奈开始频繁出现在我公司楼下。每天下班，都能看到他的车停在路边。",
+        "hook_type": "silent_threat",
+        "hook_technique": "从'全城第一公子'到'停车场跟踪狂'的身份跌落",
+        "suspense_mechanism": "激发'她会理他吗？肖珩会怎么反应？最终结局是什么？'"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "source_line_range": [601, 680],
+      "char_count": 900,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 3.2,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.68,
+        "sentence_avg_len": 16.5
+      },
+      "emotion": {
+        "dominant_emotion": "平静-释然-余韵",
+        "emotion_arc": "女主拒绝 → 江柔沉沦 → 肖奈破产 → 春节家宴 → 叫大嫂 → 烟花收束",
+        "emotion_intensity": 7.0,
+        "reader_feeling_target": "所有账清了的满足感，女主获得平静的幸福感，淡淡的余韵和感慨"
+      },
+      "highlights": {
+        "peak_moment": "肖奈春节家宴看见女主，笑着说'大嫂'——从'舔狗'到'大嫂'的称呼反转",
+        "peak_type": "power_shift",
+        "emotional_bomb": "肖珩说'他倒是长大了'，女主说'可惜太晚了'——温度曲线的终极确认",
+        "bomb_detonation_technique": "对比式——肖珩揽肩的日常温暖vs肖奈落寞的背影",
+        "reader_hook_point": "最后一句'而我，终于不用再等了'——回扣标题《余生不候》"
+      },
+      "techniques": [
+        {
+          "technique": "称呼反转收束全文",
+          "example": "第1章'舔狗' → 第10章'大嫂'——同一个人对女主的称呼变化",
+          "effect": "用称呼的变化浓缩整个权力关系的反转——比任何描述都精准"
+        },
+        {
+          "technique": "烟花意象收束",
+          "example": "'窗外的烟花炸开，照亮了整个夜空。我抬头看着那些绚烂的光，心里很平静。'",
+          "effect": "用外在的绚烂对比内在的平静——暗示'热闹是他们的，我有我的幸福'"
+        },
+        {
+          "technique": "标题回扣",
+          "example": "'而我，终于不用再等了。'——回扣《余生不候》",
+          "effect": "标题的意义在结尾完整揭示——'余生不候'不是等不到，是不再等"
+        },
+        {
+          "technique": "落寞背影定格",
+          "example": "'他转身走了。背影有些落寞'",
+          "effect": "给予渣男一个'人'的瞬间——不是恶意地踩，而是淡然地看他走远"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "有些人，注定是用来错过的。有些遗憾，注定是一辈子的。而我，终于不用再等了。",
+          "structure": "有些[名词]，注定是[动词]的。有些[名词]，注定是[动词]的。而我，[转折收束]。",
+          "why_it_works": "排比的平静感+转折的释然感——读者和女主一起完成了情绪的着陆"
+        },
+        {
+          "text": "欠你的我会还的。",
+          "structure": "[认错]+[承诺]——简短到卑微",
+          "why_it_works": "从'舔狗这么多年'到'欠你的会还'——权力关系的完全倒转浓缩在一句话里"
+        },
+        {
+          "text": "可惜太晚了。",
+          "structure": "可惜+[时间判定] = 盖棺定论",
+          "why_it_works": "四个字关闭所有可能性——温度曲线的终点确认"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "缓降收束——从清算的高压到平静的日常",
+      "pacing_note": "靠时间跳跃（半年后/一年后）压缩叙事，靠意象（烟花/背影）代替事件",
+      "chapter_end_hook": {
+        "text": "有些人，注定是用来错过的。有些遗憾，注定是一辈子的。而我，终于不用再等了。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "不是悬念式收尾而是哲理式收束——给读者留下回味而非好奇",
+        "suspense_mechanism": "不激发好奇心而是激发共鸣——让读者把这句话代入自己的经历"
+      }
+    }
+  ],
+  "global_soul_signature": "用镜像回旋句制造即时爽感，用信息差延迟引爆制造期待快感，用温度曲线的完整坠落制造长期满足——三重爽感引擎叠加在快节奏短句群和高密度对话交锋的形式里，让读者从第一句到最后一句都停不下来。",
+  "character_voices": [
+    {
+      "role": "姜晚（女主）",
+      "speech_pattern": {
+        "avg_utterance_length": 12,
+        "口癖": ["反正", "我的…就不劳你费心了", "过去了就是过去了"],
+        "语气词": [],
+        "句式特征": "短句、平静陈述、不带感情色彩、不解释不控诉",
+        "禁用词": ["求你了", "为什么", "你怎么能", "我好难过", "呜呜"],
+        "情绪表达方式": "不表达情绪，用行动和沉默代替——笑着转身、偏头躲开、平静走过",
+        "典型台词示例": [
+          "反正你俩不是亲兄弟吗？我和谁领证不都一样？",
+          "我不恨你，我只是不在乎你了。",
+          "没有来生，我们之间还谈什么来生？",
+          "过去了就是过去了，谁对谁错，没必要再掰扯。"
+        ]
+      }
+    },
+    {
+      "role": "肖奈（渣男前未婚夫）",
+      "speech_pattern": {
+        "avg_utterance_length": 18,
+        "口癖": ["你懂我意思吗", "放心", "乖一点", "别闹", "又闹"],
+        "语气词": ["了", "嘛", "呗"],
+        "句式特征": "说教式长句、居高临下的安抚语气、画饼承诺句式、揉头发配合话术",
+        "禁用词": ["对不起（前期）", "请", "拜托"],
+        "情绪表达方式": "前期用PUA话术包装控制，后期用哭泣和跟踪表达悔恨",
+        "典型台词示例": [
+          "姜晚，你当我的舔狗这么多年，全城谁不知道你离了我不行？",
+          "放心，名义上肖太太还是你。",
+          "别哭了，你这副样子，不知道的还以为我怎么欺负你了。",
+          "回头我带你去补一套婚纱照，随你怎么挑。",
+          "打个出租车就行，不能惯她这臭毛病。"
+        ]
+      }
+    },
+    {
+      "role": "肖珩（新男主/大哥）",
+      "speech_pattern": {
+        "avg_utterance_length": 9,
+        "口癖": ["尝尝", "不提了"],
+        "语气词": [],
+        "句式特征": "极短、沉稳、行动多于言语、一句话解决问题不废话",
+        "禁用词": ["求", "拜托", "害怕", "怎么办", "你听我解释"],
+        "情绪表达方式": "不说爱，用行动证明——三个月准备婚纱、记得喝龙井、劳斯莱斯接亲",
+        "典型台词示例": [
+          "太仓促了。",
+          "我肖珩，早就想娶你。",
+          "但证现在就领！",
+          "爸，妈，事情已经过去了。晚晚现在是我妻子，以前的事，不提了。",
+          "尝尝，是你喜欢的龙井。"
+        ]
+      }
+    },
+    {
+      "role": "江柔（闺蜜反派）",
+      "speech_pattern": {
+        "avg_utterance_length": 15,
+        "口癖": ["晚晚", "奈哥", "我知道你", "凭什么"],
+        "语气词": ["嘛", "吧", "呀"],
+        "句式特征": "撒娇式短句+暗藏刀子的'体贴'话术，崩溃时变长句控诉",
+        "禁用词": ["姐姐（不会对姜晚用）", "谢谢你"],
+        "情绪表达方式": "前期用'大度体贴'伪装（实际是踩人），后期用哭泣和控诉表达",
+        "典型台词示例": [
+          "晚晚你放心，三天后的婚礼还是你们的，我不会抢你风头。",
+          "奈哥，你说欠我一个婚礼要弥补我，我想要这件。",
+          "凭什么她什么都比我强？凭什么她可以拥有这么好的人生？所以我抢走了你！",
+          "你跟我上床的时候，闭着眼喊的也是她的名字！"
+        ]
+      }
+    },
+    {
+      "role": "肖母",
+      "speech_pattern": {
+        "avg_utterance_length": 11,
+        "口癖": ["你这孩子", "快", "闭嘴"],
+        "语气词": ["了", "啊"],
+        "句式特征": "家长式命令句、嗔怪语气、简短有力",
+        "禁用词": ["请", "也许", "可能"],
+        "情绪表达方式": "直接用命令和训斥表达情绪，不含蓄",
+        "典型台词示例": [
+          "你大嫂进门了你也不打招呼？愣着干什么，快叫大嫂！",
+          "你这孩子，开什么玩笑？没大没小的！",
+          "你闭嘴！",
+          "肖奈！你到底跟谁领的证！"
+        ]
+      }
+    }
+  ]
+}

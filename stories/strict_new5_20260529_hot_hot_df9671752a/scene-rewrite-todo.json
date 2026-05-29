@@ -1,0 +1,262 @@
+{
+  "todos": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 571,
+      "min": 660,
+      "max": 720,
+      "delta": 89,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 566,
+      "min": 630,
+      "max": 690,
+      "delta": 64,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 580,
+      "min": 690,
+      "max": 750,
+      "delta": 110,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 581,
+      "min": 680,
+      "max": 740,
+      "delta": 99,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 708,
+      "min": 750,
+      "max": 810,
+      "delta": 42,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 623,
+      "min": 730,
+      "max": 790,
+      "delta": 107,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 591,
+      "min": 790,
+      "max": 850,
+      "delta": 199,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 554,
+      "min": 810,
+      "max": 870,
+      "delta": 256,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 758,
+      "min": 1040,
+      "max": 1120,
+      "delta": 282,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 618,
+      "min": 1120,
+      "max": 1200,
+      "delta": 502,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 662,
+      "min": 1140,
+      "max": 1220,
+      "delta": 478,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 698,
+      "min": 1080,
+      "max": 1160,
+      "delta": 382,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 686,
+      "min": 1000,
+      "max": 1080,
+      "delta": 314,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 583,
+      "min": 810,
+      "max": 870,
+      "delta": 227,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 491,
+      "min": 610,
+      "max": 670,
+      "delta": 119,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-16",
+      "actual_chars": 425,
+      "min": 470,
+      "max": 530,
+      "delta": 45,
+      "direction": "expand"
+    }
+  ],
+  "summary": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 571,
+      "min": 660,
+      "max": 720,
+      "delta": 89,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 566,
+      "min": 630,
+      "max": 690,
+      "delta": 64,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 580,
+      "min": 690,
+      "max": 750,
+      "delta": 110,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 581,
+      "min": 680,
+      "max": 740,
+      "delta": 99,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 708,
+      "min": 750,
+      "max": 810,
+      "delta": 42,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 623,
+      "min": 730,
+      "max": 790,
+      "delta": 107,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 591,
+      "min": 790,
+      "max": 850,
+      "delta": 199,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 554,
+      "min": 810,
+      "max": 870,
+      "delta": 256,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 758,
+      "min": 1040,
+      "max": 1120,
+      "delta": 282,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 618,
+      "min": 1120,
+      "max": 1200,
+      "delta": 502,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 662,
+      "min": 1140,
+      "max": 1220,
+      "delta": 478,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 698,
+      "min": 1080,
+      "max": 1160,
+      "delta": 382,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 686,
+      "min": 1000,
+      "max": 1080,
+      "delta": 314,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 583,
+      "min": 810,
+      "max": 870,
+      "delta": 227,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 491,
+      "min": 610,
+      "max": 670,
+      "delta": 119,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-16",
+      "actual_chars": 425,
+      "min": 470,
+      "max": 530,
+      "delta": 45,
+      "direction": "expand"
+    }
+  ]
+}

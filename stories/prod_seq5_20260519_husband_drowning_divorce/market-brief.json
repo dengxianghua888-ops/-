@@ -1,0 +1,109 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "preferred": 650
+    },
+    "chapter_end_rule": "每章末必须留一个明确钩子：新证据、新误会、新反转、新追悔或关系切断动作。",
+    "preferred_chapter_count": [12, 22]
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：综艺落水二选一，丈夫先救姐姐，女主差点溺亡，醒来直接递离婚协议。",
+    "micro_hook_interval_chars": [800, 1200],
+    "micro_hook_types": [
+      "前夫误判女主只是吃醋",
+      "姐姐持续占位并抢资源",
+      "沈家父母偏心证据浮出",
+      "女主学霸身份被低估",
+      "前夫开始后悔但已经失去资格"
+    ],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_types": [
+      "离婚证已领，前夫才发现家里所有温度都来自女主",
+      "全网造谣女主抢人，女主甩出联姻聊天记录",
+      "姐姐海外黑料和沈家偏心证据连环爆出",
+      "前夫追到国外求复婚，却撞见女主新人生和新守护者"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "18-35岁女性短篇爽文读者",
+      "偏好婚姻背叛、真假千金、原生家庭偏心、离婚后逆袭题材的番茄用户",
+      "喜欢女主清醒抽身、前夫追悔莫及、恶人公开塌房的读者"
+    ],
+    "emotional_needs": [
+      "被忽视后的即时切割快感",
+      "真心错付后不回头的尊严补偿",
+      "偏心父母与绿茶姐姐被证据反噬的公正感",
+      "女主离开婚姻后重启学业和人生的成长爽",
+      "前夫迟来深情无效化的追悔惩罚"
+    ],
+    "genre_taboo": [
+      "禁止让女主复婚或心软原谅前夫",
+      "禁止用怀孕、流产、装病强行制造狗血和解",
+      "禁止把姐姐洗白成无辜受害者",
+      "禁止让原生家庭以亲情绑架获得谅解",
+      "禁止过度依赖豪门炫富，核心爽点必须落在清醒切割、证据反杀和自我实现"
+    ]
+  },
+  "market_positioning": {
+    "primary_genre": "family_ethics",
+    "secondary_genre": "urban_sweet_ceo",
+    "reader_promise": "看被丈夫在生死关头放弃的真千金，离婚后不哭不闹重启学业，用证据撕开姐姐和原生家庭的谎言，让前夫在不可追回里悔到崩溃。",
+    "dominant_selling_points": [
+      "落水救谁的生死级开篇冲突",
+      "女主离婚不纠缠的清醒人设",
+      "真假千金和偏心父母的情绪债",
+      "娱乐圈舆论反转与证据打脸",
+      "前夫追妻失败的不可逆惩罚"
+    ]
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula": "伤害事件 + 我做出切割",
+        "example": "落水后老公先救姐姐，我离婚了",
+        "fit_reason": "前半句直接给出生死背叛，后半句给清醒爽点。"
+      },
+      {
+        "formula": "因为X没救我 + 我提离婚",
+        "example": "因为落水老公没救我，我提了离婚",
+        "fit_reason": "因果清晰，适合番茄短篇入口，读者一眼知道冲突和反击。"
+      },
+      {
+        "formula": "他救白月光 + 我转身成全",
+        "example": "他救白月光那天，我签了离婚书",
+        "fit_reason": "强化情感错付和即时切割，适合婚恋追悔流。"
+      },
+      {
+        "formula": "前夫追悔 + 女主不可追回",
+        "example": "前夫求复婚时，我已在耶鲁封神",
+        "fit_reason": "突出后半程逆袭爽点，但不如落水开篇更强，适合作副标题或简介钩子。"
+      }
+    ]
+  },
+  "success_metrics": {
+    "finish_desire_score_target": 9.0,
+    "paywall_point_score_target": 8.8,
+    "emotional_release_score_target": 9.2,
+    "ai_flavor_score_target": 1.0,
+    "explosive_point_density_score_target": 8.8,
+    "scoring_scale": "除 AI 味外均为 0-10 分越高越好；AI 味为 0-10 分越低越好。",
+    "hard_requirements": [
+      "首章 Hook 强度不得低于 9/10。",
+      "每 800-1200 字必须出现一次关系推进或信息反转。",
+      "每 2500-3500 字必须设置一次足以促使继续阅读的付费级卡点。",
+      "女主必须保持清醒切割，不走复合线。",
+      "结尾必须完成姐姐、沈家、前夫三条情绪债清算。"
+    ]
+  }
+}

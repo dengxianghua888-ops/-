@@ -1,0 +1,31 @@
+{
+  "story_slug": "batch_v5_05_urban_sweet_ceo",
+  "title": "她把副驾留给了别人",
+  "source_slug": "hot_0949ad53a5",
+  "genre": "urban_sweet_ceo",
+  "pipeline_version": "v5",
+  "generated_at": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10072,
+    "target_range": [10000, 14000],
+    "nonspace_pass": true,
+    "rhythm_fit": {
+      "status": "pass",
+      "avg_line_chars": 20.815,
+      "short_line_rate": 0.341,
+      "long_line_rate": 0.0229,
+      "quote_line_rate": 0.3846
+    },
+    "structure": {
+      "gate_status": "pass",
+      "impact_density": 1.99,
+      "impact_density_floor": 3.4,
+      "watermark_violations": 1,
+      "total_impacts": 20
+    },
+    "source_overlap_pct": 0,
+    "meta_leak": 0,
+    "ai_forbidden_words": 0
+  },
+  "overall_pass": true
+}

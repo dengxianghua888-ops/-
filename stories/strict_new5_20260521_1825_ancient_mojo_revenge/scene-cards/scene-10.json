@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "犒军宴外场与港口栈桥",
+  "time": "当晚入宴前后",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "裴承骁",
+    "海防亲兵",
+    "贺铮"
+  ],
+  "character_goal": "入宴不露底，同时剪掉对方火雷与锁桥的第一层杀招",
+  "opposition_goal": "裴承骁要借宴席礼数拖住他们，再以火雷封舱灭口",
+  "conflict_action": "沈灼宁假意随礼入席吸引视线，顾临渊暗调旧部换掉引线，裴承骁命亲兵锁桥",
+  "information_gap": "第一波杀招会先落在酒里、火雷里，还是锁桥后的乱箭里",
+  "emotional_debt_delta": "决战紧绷+3，男主控场力+1",
+  "payoff_or_hook": "主角团不是被动赴死，而是边进场边拆局",
+  "chapter_end_hook": "引线亮起时，顾临渊却朝反方向笑了一下。",
+  "paywall_card": false,
+  "must_include": [
+    "栈桥被锁的听觉或视觉细节",
+    "顾临渊暗换引线的证据动作",
+    "裴承骁自以为稳操胜券的一句台词"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列宴席器皿和菜名",
+    "不要长写潜行路线",
+    "不要把火雷布置写成工艺说明"
+  ],
+  "rhythm_job": {
+    "shape": "表面平静，底下拆局，尾端突然点亮引线",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

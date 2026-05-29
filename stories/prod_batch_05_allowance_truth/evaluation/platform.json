@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "check": "intro_and_hook",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "【导语】我以为每月四千足够女儿吃好。"
+    }
+  ],
+  "notes": [
+    "Phase 6 fixes applied and validator metrics refreshed."
+  ]
+}

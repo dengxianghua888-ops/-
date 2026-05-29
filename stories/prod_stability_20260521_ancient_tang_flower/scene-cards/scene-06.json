@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "霍府书房、盐引库房、闸口留档案柜",
+  "time": "三日内连续推进",
+  "pov": "霍池渊",
+  "characters": [
+    "霍池渊",
+    "老账房",
+    "闸口书吏",
+    "管家"
+  ],
+  "character_goal": "查清闸口局是否被人提前动过手脚。",
+  "opposition_goal": "旧档案和底下人都想维持表面无事，不愿说破贺婉书被特殊放行的痕迹。",
+  "conflict_action": "霍池渊强令开柜、拆封、对照底稿，终于在放船手令时间和账册改笔痕上抓到错位。",
+  "information_gap": "仅凭这些痕迹，够不够证明贺婉书就是布局者？",
+  "emotional_debt_delta": "+1 真相靠近，后知后觉开始真正咬住他",
+  "payoff_or_hook": "证据不是替他开脱，而是把他的责任钉得更深。",
+  "chapter_end_hook": "改笔痕和放船手令摆在一起，他的手第一次发抖。",
+  "paywall_card": false,
+  "must_include": [
+    "霍池渊要表现出主动追查，不等旁人喂真相",
+    "书吏和老账房的闪躲要带出府内长期偏护"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释盐引制度",
+    "不要把节奏拖成查账教学"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作40%+短对白追问25%+认知塌陷20%+章尾发抖15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.43,
+    "action_ratio_target": 0.4,
+    "hook_drop": "用一处具体错位替代整段解释",
+    "low_pressure_bridge": "翻柜、摊纸、点灯这些生活动作缓冲查证压强"
+  }
+}

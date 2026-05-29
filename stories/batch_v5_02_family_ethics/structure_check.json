@@ -1,0 +1,118 @@
+{
+  "impact_density": {
+    "total_impacts": 60,
+    "per_category": {
+      "physical_violence": 15,
+      "verbal_attack": 10,
+      "betrayal": 7,
+      "revelation": 3,
+      "status_reversal": 25
+    },
+    "impacts_per_1000_chars": 5.99,
+    "nonspace_chars": 10015
+  },
+  "watermark_violations": [
+    {
+      "start_line": 1,
+      "length": 10,
+      "sample": "最后一次化疗。六个疗程。半年。一百八十二天。"
+    },
+    {
+      "start_line": 90,
+      "length": 12,
+      "sample": "她叫陈雨桐。周远舟公司的实习生。去年九月入职。"
+    },
+    {
+      "start_line": 114,
+      "length": 8,
+      "sample": "别吓她。她才二十三。"
+    },
+    {
+      "start_line": 136,
+      "length": 7,
+      "sample": "开门的时候她还在喘。头发散了几缕。外套扣子扣错了一颗。手里还拎着一个保温桶。是给"
+    },
+    {
+      "start_line": 348,
+      "length": 7,
+      "sample": "判决下来的那天晚上。陈雨桐来找我了。"
+    }
+  ],
+  "watermark_count": 5,
+  "per_chapter": [
+    {
+      "title": "",
+      "nonspace_chars": 5,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第一章",
+      "nonspace_chars": 849,
+      "impacts": 1,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第二章",
+      "nonspace_chars": 965,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第三章",
+      "nonspace_chars": 826,
+      "impacts": 7,
+      "watermark_violations": 2
+    },
+    {
+      "title": "第四章",
+      "nonspace_chars": 1141,
+      "impacts": 4,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第五章",
+      "nonspace_chars": 1018,
+      "impacts": 17,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第六章",
+      "nonspace_chars": 938,
+      "impacts": 11,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第七章",
+      "nonspace_chars": 1073,
+      "impacts": 2,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第八章",
+      "nonspace_chars": 806,
+      "impacts": 1,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第九章",
+      "nonspace_chars": 837,
+      "impacts": 4,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十章",
+      "nonspace_chars": 779,
+      "impacts": 1,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十一章",
+      "nonspace_chars": 722,
+      "impacts": 4,
+      "watermark_violations": 0
+    }
+  ],
+  "gate_status": "pass",
+  "watermark_warning": true
+}

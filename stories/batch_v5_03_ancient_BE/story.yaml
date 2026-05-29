@@ -1,0 +1,39 @@
+title: 玻璃房子
+source_slug: hot_012a1f1f65
+genre: ancient_BE
+pipeline_version: v5
+status: final
+target_platform: tomato
+generated_at: "2026-05-26"
+
+adaptation:
+  source_setting: "伪穿越圈养三年，AI虐文女主觉醒倒计时，施害者被同一套规则反噬"
+  new_setting: "伪失忆疗养院圈养两年，系统倒计时觉醒，施害者被同一套治疗方案反噬"
+  character_map:
+    梁蝶: 沈鹿 (女主，被伪造失忆关入疗养院)
+    何宴舟: 陆深 (丈夫，主导圈养)
+    梁淮之: 沈屿 (弟弟，配合伪造)
+    江言澈: 顾时年 (主治医生/青梅)
+    梁文萱: 姜晚宁 (白月光，真正受益者)
+
+metrics:
+  nonspace_chars: 10003
+  rhythm_status: pass
+  structure_gate: pass
+  impact_density: 6.6
+  avg_line_chars: 20.085
+  quote_line_rate: 0.230
+
+quality_gate:
+  nonspace_in_range: true
+  rhythm_pass: true
+  structure_pass: true
+  source_overlap_lte_5pct: true
+  meta_leak_zero: true
+  ai_forbidden_zero: true
+
+required_artifacts:
+  - beat-bible.json
+  - final.md
+  - quality-report.json
+  - story.yaml

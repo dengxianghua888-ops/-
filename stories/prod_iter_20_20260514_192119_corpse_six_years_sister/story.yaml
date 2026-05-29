@@ -1,0 +1,10 @@
+slug: prod_iter_20_20260514_192119_corpse_six_years_sister
+status: final
+current_phase: 7
+pipeline_mode: production
+corpus_source: corpse_six_years_sister
+genre: modern_reversal
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

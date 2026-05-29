@@ -1,0 +1,84 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 2,
+  "is_chapter_end": false,
+  "target_chars_min": 500,
+  "target_chars_max": 700,
+  "location": "酒庄后厨/甜品台协调区",
+  "time": "婚礼当天，仪式前",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "婚庆协调员", "许芷悦（短暂出现）"],
+  "character_goal": "沈绮云以供应商身份接触婚庆团队，套取丈夫真实经济状况",
+  "opposition_goal": "协调员和伴娘们无意中炫耀新郎的阔绰，每一句都在刺痛女主",
+  "conflict_action": "协调员聊起新郎送新娘的保时捷卡宴、投资的甜品品牌'蜜予'，沈绮云闪回丈夫当年对自己说的话",
+  "information_gap": "协调员不知道面前的供应商就是正妻，每一句夸赞都是对正妻的无意伤害",
+  "emotional_debt_delta": "经济欺诈层层剥开：150万年薪vs月给12000，保时捷vs面包车",
+  "payoff_or_hook": "第一轮量化对比完成，情绪压力蓄积",
+  "paywall_card": false,
+  "must_include": [
+    "保时捷卡宴的信息（落地60万）",
+    "年薪+分红150万的数字",
+    "丈夫当年的PUA原话闪回（'买那么贵的车干啥''你又不是物质的人'）",
+    "身体化情绪反应（心像被捅个窟窿）"
+  ],
+  "must_not_write_as_exposition": [
+    "张锐城的公司组织架构",
+    "沈绮云和张锐城的恋爱过程"
+  ],
+  "rhythm_job": {
+    "shape": "波浪递进",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 19.2,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 17.8,
+    "dominant_emotion": "心寒-刺痛",
+    "emotion_arc": "试探接近 → 逐步心寒 → 刺痛累积",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "替女主心疼，对渣男的'区别对待'感到极度愤怒",
+    "required_techniques": [
+      {
+        "technique": "他人之口揭露法",
+        "instruction": "关键信息不由当事人说出，通过不知情的协调员自然流出——'张总可大方了，直接送了辆卡宴'。越是不经意越刺痛——别人都知道他有钱，只有正妻被蒙在鼓里"
+      },
+      {
+        "technique": "反讽闪回对照",
+        "instruction": "每听到一个'他给新娘的好'，立刻闪回丈夫当年对自己说的拒绝原话。格式：协调员说→闪回原话（直接引语）→真相刺痛（1句）。原话必须是PUA话术"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "PUA话术原句引用",
+        "example": "你也不是那种物质女孩。",
+        "instruction": "引用丈夫当年拒绝给女主花钱时的具体话术——'开面包车怎么了，安全就行''我们不跟人比这些'。让读者识别出操控术，引发共鸣愤怒"
+      },
+      {
+        "structure": "身体部位+暴力动作比喻",
+        "example": "心像被捅个窟窿",
+        "instruction": "不说'心痛'而用物理暴力外化——'胸口像被人拿钝刀子来回锯''血液从指尖凉到后脑勺'"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "伴娘一脸艳羡，'听说你老公公司效益可好了，每年光分红就上百万。'我心像被捅个窟窿。他说，'买那玩意儿干啥？不当吃不当穿的，你也不是那种物质女孩。'六位数翡翠镯子就这么戴在新娘手上。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["原来", "凭什么"],
+      "句式": "冷静观察+身体化情绪+短句内心独白",
+      "单句上限": 16,
+      "禁止": "哭泣、当场质问暴露身份"
+    },
+    "许芷悦": {
+      "口癖": ["我家锐城", "你说的"],
+      "句式": "撒娇式炫耀+幸福小女人语气",
+      "单句上限": 18,
+      "禁止": "任何负面情绪"
+    }
+  }
+}

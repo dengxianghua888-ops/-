@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_11_family_ethics",
+  "title": "她跪在雨里求我回头，我删了她所有联系方式",
+  "source_slug": "hot_dd9504e6cb",
+  "genre": "family_ethics",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10003, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 23.1, "long_line_rate": 0.007, "question_marks_per_k": 3.22, "status": "pass"},
+    "structure_metrics": {"impact_density": 4.7, "watermark_count": 5, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 9, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "重大事故司法鉴定中心0号尸检间",
+  "time": "事故后深夜",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "检方旁证",
+    "记录员",
+    "助理法医"
+  ],
+  "character_goal": "沈栀想保留作为妻子的最后体面。",
+  "opposition_goal": "陆谨言要把她先当死者，再当证据，排除私人情绪。",
+  "conflict_action": "陆谨言开启全程录像，要求检方旁证入镜，亲手掀开白布并宣读死者身份。",
+  "information_gap": "陆谨言以为冷静是在维护沈栀清白，沈栀知道他即将亲手伤害妻儿。",
+  "emotional_debt_delta": "亲密称呼被职业宣读替代，体面债增加。",
+  "payoff_or_hook": "专业冷词第一次切开亲密关系。",
+  "chapter_end_hook": "他掀开白布，念出我的名字。",
+  "paywall_card": false,
+  "must_include": [
+    "冷白灯",
+    "全程录像红点",
+    "白布被掀开",
+    "死者，沈栀，女，二十九岁",
+    "沈栀灵魂扑过去却穿过他的手"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段介绍陆谨言履历",
+    "不要让男主明显哭泣",
+    "不要把尸检写成猎奇医学科普"
+  ]
+}

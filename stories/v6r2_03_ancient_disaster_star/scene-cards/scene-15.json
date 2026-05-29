@@ -1,0 +1,92 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-10b",
+  "chapter_id": 10,
+  "is_chapter_end": true,
+  "target_chars_min": 420,
+  "target_chars_max": 580,
+  "location": "大漠王帐/花园",
+  "time": "楚怀璟死后不久，苏若棠新婚日常",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["苏若棠", "凌霄寒", "婢女"],
+  "character_goal": "完成'翻篇'——彻底归零+新生标记",
+  "opposition_goal": "（无对抗）",
+  "conflict_action": "苏若棠收到楚怀璟临终送来的白玉匕首，随手赏赐给马夫/婢女；'轻点，小心伤了孩子'——怀孕揭露",
+  "information_gap": "无——全部归零",
+  "emotional_debt_delta": "情感完全归零——帝王毕生悔恨的遗物='削马蹄用的旧物'，一文不值",
+  "payoff_or_hook": "自然意象收束——风落万事好转",
+  "chapter_end_hook": "风落时，万事皆会得以好转。——全文完",
+  "paywall_card": false,
+  "must_include": [
+    "白玉匕首送到",
+    "苏若棠随手赏赐给马夫/婢女（'夫君赠我赤金弯刀，这把旧物你拿去削马蹄'）",
+    "凌霄寒的温柔互动",
+    "'轻点，小心伤了孩子'——怀孕揭露",
+    "自然意象收束（风+花香）",
+    "全文完"
+  ],
+  "must_not_write_as_exposition": [
+    "苏若棠对白玉匕首的情感（用'随手'展示不在乎）",
+    "怀孕的意义（不做总结，轻描淡写揭露）",
+    "全文主题（不做总结性发言）"
+  ],
+  "rhythm_job": {
+    "shape": "由缓至静",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 1.4,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "释然-圆满-新生",
+    "emotion_arc": "收到遗物(不在乎) → 随手赏赐 → 怀孕揭露 → 风落好转",
+    "emotion_intensity": 7.0,
+    "reader_feeling_target": "满足的叹息——一切尘埃落定，好人有好报，心中安宁",
+    "required_techniques": [
+      {
+        "technique": "遗物的降格处理",
+        "instruction": "'我将白玉匕首随手赏给马夫——夫君赠我赤金弯刀，这把旧物，你拿去削马蹄吧。'——'随手赏赐'比'扔掉'更冷"
+      },
+      {
+        "technique": "怀孕作为新生符号",
+        "instruction": "'轻点，小心伤了孩子。'——用最日常的语气说出最重要的消息，人生彻底翻篇"
+      },
+      {
+        "technique": "自然意象收束",
+        "instruction": "'微风裹挟着淡淡花香。至于那些不堪回首的往事，便让它随风消散。'——风+花香=归于平静"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对比判断（A已有最好的）+轻描淡写处置",
+        "example": "夫君已给了我世上最好的簪子，这枚，便送你了。",
+        "instruction": "'夫君赠我赤金弯刀，这把旧物，你拿去削马蹄吧'——帝王毕生悔恨=马夫削蹄工具"
+      },
+      {
+        "structure": "自然意象+万事好转的祝愿式收束",
+        "example": "而风落时，万事皆会得以好转。",
+        "instruction": "用古言语感的祝福句收全文，留白不说透，余韵悠长"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "我将那枚兰花发簪随意赏赐给身旁的婢女。\n「夫君已给了我世上最好的簪子，这枚，便送你了。」\n「轻点，小心伤了孩子。」\n微风轻拂，裹挟着淡淡的花香。\n至于那些不堪回首的往事。\n便让它随风消散。\n而风落时，万事皆会得以好转。"
+  },
+  "character_voices": {
+    "苏若棠": {
+      "口癖": ["夫君", "旧物"],
+      "句式": "轻描淡写的日常短句",
+      "单句上限": 18,
+      "禁止": "感慨、回忆、任何对楚怀璟的情感余波"
+    },
+    "凌霄寒": {
+      "口癖": ["轻点", "若棠"],
+      "句式": "日常温柔极简",
+      "单句上限": 10,
+      "禁止": "长句"
+    }
+  }
+}

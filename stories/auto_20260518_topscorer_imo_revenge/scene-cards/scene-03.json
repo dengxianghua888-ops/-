@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B6",
+  "scene_label": "拽袖起誓·赌前途",
+  "location": "客厅沙发前+大门口",
+  "time": "傍晚七点二十",
+  "pov": "林初",
+  "characters": ["林初", "假哥哥", "裴恒队长"],
+  "character_goal": "拽住裴队，让他重启侦查",
+  "opposition_goal": "假哥哥用房产证+'妈妈的愧疚'软化主角",
+  "conflict_action": "假哥哥递房产证（仅写主角一人名）+主角恍惚握紧+裴队转身离去前主角拽住衣袖+赌奥赛金牌前途起誓",
+  "information_gap": "为什么房产证在他们手里、他们为何这么早做好了断亲准备",
+  "emotional_debt_delta": "+断亲背叛债·加深+信息差身份债·峰值铺垫",
+  "payoff_or_hook": "'我以本省双金奥赛金牌的名义起誓——我家四口都死在这套别墅里。'",
+  "chapter_end_hook": "'撒谎，是有代价的。'裴队声音压在喉头，停步回身",
+  "paywall_card": false,
+  "target_chars_min": 1100,
+  "target_chars_max": 1300,
+  "must_include": [
+    "房产证只写主角一人姓名",
+    "主角指节捏到发白",
+    "拽住裴队衣袖的动作",
+    "出示分数页+IMO 金牌证书图片"
+  ],
+  "must_not_write_as_exposition": [
+    "禁'养育之恩风吹云散'抒情",
+    "禁'似乎''仿佛'软描写"
+  ]
+}

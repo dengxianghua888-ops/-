@@ -1,0 +1,53 @@
+{
+  "story_slug": "prod_iter_19_collision_repair",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3"],
+  "target_length": [10000, 18000],
+  "final_length": 11482,
+  "quality_scores": {
+    "platform": 8.7,
+    "emotion": 8.9,
+    "style": 8.6,
+    "logic": 8.8
+  },
+  "failure_types": [
+    "首轮多句段落违反番茄移动端单句段落规则,集中出现在 scene-04、scene-05 的对话段(已在终稿前清零)",
+    "首轮 quality-report.json machine_metrics 与 final.md 不同步,字数显示 11362 而实际 11482(已重算修正)"
+  ],
+  "successful_hooks": [
+    "赵卫东把单子推到我面前:系统说这个价,你交就行。",
+    "他抬头看我:系统说这个价,他们要坐牢就行。",
+    "审判长落槌:诈骗罪、敲诈勒索罪、滥用职权罪,数罪并罚。",
+    "我把红章纸折起来塞回胸口,转身往外走。",
+    "民警合上笔录:行了,他们今晚住这。"
+  ],
+  "paywall_cards": [
+    {"chapter": 3, "hook": "对方回了一条:到账,下午来拿章。"},
+    {"chapter": 6, "hook": "老周把烟摁灭:这事,得有人录下来。"},
+    {"chapter": 8, "hook": "他抬头看我:系统说这个价,他们要坐牢就行。"},
+    {"chapter": 11, "hook": "民警合上笔录:行了,他们今晚住这。"}
+  ],
+  "new_forbidden_candidates": [
+    "把'整改费'与'强制报废'写在同一张红章上构成死环,后续仿写若复用必须换行业(检测/环保/食品),不可再复刻汽修+货车",
+    "'系统说这个价,你X就行'三段回旋句,已在本篇用满交款/坐牢/审判三态,后续仿写不得连续两篇沿用同一句式骨架",
+    "调查介入由'监察科+民警+检察院'三方串接,后续若再用应替换为纪委/审计/媒体路径以避免人物组同质化"
+  ],
+  "retrieval_tags": [
+    "modern_reversal",
+    "M1_death_loop",
+    "M3_causal_echo",
+    "blue_collar_pov",
+    "vehicle_inspection",
+    "extortion_under_color_of_law",
+    "group_victim_reversal",
+    "u_shape_emotion",
+    "tomato_mobile_format"
+  ],
+  "manual_revision_delta": [
+    "scene-04 把'车按这张纸,依然是D级报废。上路抓到罚款两万、扣车半年,这是规定。'压缩为单句,保住对话张力同时合规移动端段落",
+    "scene-05 把'钱有没有少?没少。'问号改逗号,合并为单句段落",
+    "scene-09~scene-15 在不动剧情骨架的前提下补写动作与物理化情绪,补足从 561/544 字到 752/764 字的目标区间",
+    "quality-report.json machine_metrics 重算同步,补齐 chapters.count/lengths/hook_coverage 三项"
+  ]
+}

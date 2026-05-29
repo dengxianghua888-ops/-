@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 5,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "星潮总部顶层会议室",
+  "time": "到达后——季霄带苏念走进准备好的一切",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "季家老爷子", "季家全员"],
+  "character_goal": "苏念只是跟着季霄走进去——她不知道会看到什么",
+  "opposition_goal": "无对手——这是纯粹的价值兑付场景",
+  "conflict_action": "走入会议室发现全家老小已在等候，长桌铺满红色文件夹，季家老爷子正在签最后一份股权转让书——5%平台股份写的是苏念的名字",
+  "information_gap": "季霄什么时候安排的这一切？他早就决定了？——再次证明他的信息掌控和行动力",
+  "emotional_debt_delta": "最强兑付——六年不被娶 vs 一月就全家备好股权文件。时间反差的极致羞辱性",
+  "payoff_or_hook": "仪式感爆击：红色文件夹+墨迹未干+全家起立+股权转让书",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "走进会议室的视觉冲击描写（红色文件夹铺满长桌）",
+    "季家老爷子用钢笔签文件的动作细节",
+    "全家人看苏念（或她肚子）的反应",
+    "股权转让/不动产变更等具象化的价值证明清单",
+    "月嫂/营养师/恢复教练等超预期准备项"
+  ],
+  "must_not_write_as_exposition": [
+    "季家的家族背景介绍",
+    "股权价值几何的具体金额",
+    "苏念'我配不上'的自我贬低"
+  ],
+  "rhythm_job": {
+    "shape": "缓慢进入→逐项震撼→定格",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.58,
+    "sentence_avg_len": 15.0,
+    "dominant_emotion": "震撼-温暖",
+    "emotion_arc": "好奇 → 走入 → 震撼 → 被接住的温暖",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "起鸡皮疙瘩——被全员接纳的仪式感直击'不被重视'的核心创伤",
+    "required_techniques": [
+      {
+        "technique": "仪式感碾压——用具象物件堆叠价值认可",
+        "instruction": "'墨迹没干'说明刚写（为她准备），'老爷子亲自签'说明最高规格——不用说'重视'，物件自己说话"
+      },
+      {
+        "technique": "超预期清单——用服务项目量化珍视程度",
+        "instruction": "名词堆叠（月嫂/营养师/恢复教练/股权转让）制造'考虑得比你自己还周全'的冲击——每多一项，感动多一层"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "视觉描写+时间状态细节",
+        "example": "长桌上铺满红色文件夹，最后一页的墨迹还没有干。",
+        "instruction": "'没干'三字承载全部：刚写的=为她的=她被等待的=她被重视的——一个物理细节做五句话的工作"
+      }
+    ],
+    "peak_type": "identity_reveal",
+    "bomb_technique": "对比式（六年空白 vs 一月备齐）",
+    "source_excerpt": "桌上全是红纸，上面的字迹还没有完全干透。最里面拿着毛笔奋笔疾书的，是傅家的老太爷。月子营养单，月嫂，营养师，厨师，恢复教练，还有一份不动产变更协议。"
+  }
+}

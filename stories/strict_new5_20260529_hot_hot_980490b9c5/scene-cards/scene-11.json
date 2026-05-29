@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "宗人府审讯厅",
+  "time": "诏狱对峙次日",
+  "pov": "沈知微第一人称",
+  "characters": ["沈知微", "萧承煜", "沈明珠", "沈嵘", "宗人府官"],
+  "character_goal": "用供词闭合证据链，并拒绝沈嵘求情",
+  "opposition_goal": "太子、沈明珠、沈嵘各自推罪保命",
+  "conflict_action": "沈知微按顺序摊开供词、残页、沈嵘私印，让三人互相攀咬",
+  "information_gap": "沈家旧族产如何处置、女主是否会接管清账留到收束",
+  "emotional_debt_delta": {
+    "collect": ["父亲跪求保族", "反派互相利用"],
+    "payoff": ["谋逆证据闭环完成，女主拒绝和解"]
+  },
+  "payoff_or_hook": "沈嵘私印把家宅羞辱线接回谋逆案",
+  "chapter_end_hook": "宗人府供词呈上御案，最后一页写着沈嵘的私印。",
+  "paywall_card": true,
+  "must_include": ["供词", "残页", "沈嵘私印", "互相攀咬", "女主拒绝父亲"],
+  "must_not_write_as_exposition": ["不要写审讯法条清单", "不要复述每条罪名", "不要让父亲忏悔洗白"],
+  "rhythm_job": {
+    "shape": "三份物证轮流落桌，反派短对白互咬，女主一句话切断亲情债",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [11, 16],
+    "action_beats_min": 7,
+    "evidence_turn_min": 3,
+    "low_pressure_carry": "写供纸边角沾墨、朱印压在烛影里"
+  }
+}

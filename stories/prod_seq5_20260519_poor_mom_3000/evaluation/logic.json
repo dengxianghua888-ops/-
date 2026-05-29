@@ -1,0 +1,64 @@
+{
+  "status": "pass",
+  "score": 7.7,
+  "evidence": [
+    {
+      "area": "money_chain",
+      "location": "CH05",
+      "quote": "九点零三分，协议支付转出三千元。",
+      "reason": "解释了母亲截图成功但主角余额消失的核心矛盾。"
+    },
+    {
+      "area": "money_chain",
+      "location": "CH08",
+      "quote": "系统显示全款支付卡尾号为9087。",
+      "reason": "尾号9087把生活费划扣与豪车付款连接起来。"
+    },
+    {
+      "area": "company_chain",
+      "location": "CH09",
+      "quote": "系统里跳出父亲的电子签批",
+      "reason": "父亲从家庭账户问题扩展到企业采购问题，有因果升级。"
+    },
+    {
+      "area": "legal_boundary",
+      "location": "CH12",
+      "quote": "律师提醒我，提交材料后就不能再当作普通家庭矛盾处理。",
+      "reason": "后续处理进入律师、内审、派出所，不靠私刑解决。"
+    },
+    {
+      "area": "ethical_boundary",
+      "location": "CH14",
+      "quote": "这些钱和手续是我应得的。",
+      "reason": "主角收回权益但不被血缘话术绑架，伦理边界清楚。"
+    }
+  ],
+  "risks": [
+    {
+      "location": "CH03",
+      "issue": "“私吞学费”前置不足，前文主要铺的是药费和生活费。",
+      "severity": "minor"
+    },
+    {
+      "location": "CH04",
+      "issue": "医院合作自助终端能显示亲属授权变更记录和代办人姓名，便利度偏高。",
+      "severity": "minor"
+    },
+    {
+      "location": "CH08",
+      "issue": "车行向非车主确认付款卡尾号需更谨慎表述。",
+      "severity": "minor"
+    },
+    {
+      "location": "CH01-CH11",
+      "issue": "急诊输液室、医院食堂、白氏口腔总部、总院门口之间的机构关系建议补一句统一设定。",
+      "severity": "minor"
+    }
+  ],
+  "sensitive_topics": {
+    "medical_industry": "pass",
+    "privacy_and_recording": "pass_with_minor_polish",
+    "family_abuse": "pass",
+    "legal_process": "pass"
+  }
+}

@@ -1,0 +1,130 @@
+pipeline_mode: production
+status: final
+title: 领证当天我登机，祁总找疯了
+language: zh-CN
+genre:
+  - 现言
+  - 追妻火葬场
+  - 不原谅
+  - 豪门
+  - 亲情救赎
+deliverables:
+  final_text: final.md
+  craft_notes: craft-notes.md
+  submission_pack: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters_glob: final-chapters/*.md
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_only_artifact_bundle: true
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source:
+    contract: prompts/production/final-packager.md
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluations:
+      - story/evaluation/platform.json
+      - story/evaluation/emotion.json
+      - story/evaluation/style.json
+      - story/evaluation/logic.json
+  generation_date: 2026-05-18
+quality_gate:
+  pass
+  pipeline_mode: production
+  score_scale: 0-10
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 9.0
+    style: 8.2
+    logic: 8.0
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 15000
+      status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 5
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraphs: 4
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 5
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+packaging:
+  chapter_count: 16
+  chapter_files:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+  direct_submission_checks:
+    title_first_line: true
+    opening_guide_present: true
+    first_guide_starts_with: 导语：
+    one_sentence_per_paragraph: true
+    no_internal_paywall_labels_in_final: true
+    paywall_map_in_submission_pack: true
+revision_notes:
+  - 增补直接投稿导语。
+  - 保留 16 场顺序拆章。
+  - 修正通行证剪角执行主体为祁氏通行证管理处。
+  - 删除照相馆追查段落中的重复动作。
+  - 修正病房玻璃措辞。
+  - 补充基金份额登记已完成的流程说明。
+total_chars: 13107
+chapter_count: 16
+paywall_cards: 10
+critic_scores:
+  logic: 8.0
+  style: 8.2
+  emotion: 9.0
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_214610
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

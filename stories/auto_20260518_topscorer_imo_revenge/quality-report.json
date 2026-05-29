@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/auto_20260518_topscorer_imo_revenge/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 13500,
+      "actual": 10495,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 11,
+      "hook_hits": 11,
+      "hook_coverage": 1.0,
+      "lengths": [
+        1112,
+        1110,
+        1113,
+        1123,
+        505,
+        885,
+        1089,
+        982,
+        1080,
+        652,
+        939
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 12,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 94,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 25,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 19,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10495,
+      "sentence_count": 686,
+      "avg_sentence_length": 14.299,
+      "dialogue_ratio": 0.1963,
+      "question_marks": 11,
+      "question_marks_per_k": 1.048,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "后槽牙": 2,
+        "手心": 4,
+        "后背": 3,
+        "冷汗": 2,
+        "胸腔": 1,
+        "眼眶": 1,
+        "心脏": 2,
+        "指甲": 2,
+        "掌心": 6
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 15.531
+    },
+    "semantic_repetition": {
+      "sentence_count": 454,
+      "unique_sentence_skeletons": 454,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0022
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 8.4,
+    "style": 8.1,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "我捏着省高考状元的喜报推开家门——客厅里却只有一张厚牛皮纸——【你不是我们亲生的孩子】。"
+    },
+    {
+      "area": "opening_hook",
+      "quote": "我家——四口——都被——杀光了。梧桐里 3 号。"
+    },
+    {
+      "area": "platform_title",
+      "quote": "成为奥赛金牌后我接到断亲书，开直播举报全家被灭门"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "签字日期是 6 月 5 日——我高考前两天——他们为这一场局筹谋了至少两个月。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "我以本省双金奥赛金牌的名义起誓。我没有撒谎。我家四口都死在这套别墅里。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "我在别墅的角落发现了巨量螯合剂。"
+    },
+    {
+      "area": "evidence_chain_signature",
+      "quote": "刀口角度与司琦右手前臂肌群发力角度一致；掌印宽度与假爸爸的手掌完全吻合。"
+    },
+    {
+      "area": "evidence_chain_voice",
+      "quote": "第八张是地下室那盏吊灯灯罩内侧——我哥用马克笔写下的最后一行字——'小烟,藏好,别出来'。"
+    },
+    {
+      "area": "final_mastermind_payoff",
+      "quote": "白鸢尾境外组织·境内执行链——段佩芸、温崎、纪闵、雷宿、夏皎。"
+    },
+    {
+      "area": "final_mastermind_consequence",
+      "quote": "纪闵在落网时,正在重新打印一份'林初'的入境记录。他们原本计划在三日之内,把我送到境外。"
+    },
+    {
+      "area": "emotion_payoff_family",
+      "quote": "我把那枚 IMO 金牌按进了袖口。从此我袖口里装的,不再是奥赛金牌。是三条人命的重量。"
+    },
+    {
+      "area": "logic_process",
+      "quote": "请求总部立即增援——现场有四名连环杀人犯。"
+    },
+    {
+      "area": "logic_procedure",
+      "quote": "现场指挥让法医组先做核磁穿透成像。再切割切线方向。每段墙体落地后立即编号、贴封条、入证物袋。"
+    },
+    {
+      "area": "logic_chemistry",
+      "quote": "螯合剂会把骨钙、骨磷、重金属络合成可溶盐。再用石膏二次封固——墙体外观一寸都不裂。"
+    },
+    {
+      "area": "logic_three_methods",
+      "quote": "三种手法——分别由不同人执行。意图制造非同一作案人的错觉。却被三人手部物理特征反向锁回同一团伙。"
+    },
+    {
+      "area": "intl_org_closure",
+      "quote": "三日后——国际刑警组织通过红色通缉对接——白鸢尾在曼谷的资金链账户被冻结。"
+    },
+    {
+      "area": "mentor_lineage",
+      "quote": "顾敬之看了我手心一眼。你父亲那篇螯合剂综述——当年我做的二审。"
+    }
+  ]
+}

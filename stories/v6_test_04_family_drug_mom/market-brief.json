@@ -1,0 +1,112 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "end_hook_required": true,
+    "chapter_count_estimate": [12, 20]
+  },
+  "hook_policy": {
+    "golden_hook_words": 300,
+    "golden_hook_requirement": "前300字必须建立核心冲突：丈夫匿名发帖问如何赶走丈母娘 + 母亲突然身体异常，两条线在读者脑中碰撞产生悬疑",
+    "micro_hook_interval": [800, 1200],
+    "paywall_hook_interval": [2500, 3500],
+    "paywall_hook_positions": [
+      "第一个付费卡点：女主发现帖子更新与丈夫行为完全吻合，确认下药事实",
+      "第二个付费卡点：婆婆入住后升级压迫，女主决定以牙还牙",
+      "第三个付费卡点：女主当面灌粉末，宋松崩溃跪求，真相公开对质",
+      "第四个付费卡点：宋松跳楼后离婚协议递出，婆婆跪求"
+    ]
+  },
+  "audience": {
+    "primary_demographic": "25-40岁已婚女性，经历过或正在经历婆媳矛盾、丈夫立场摇摆",
+    "secondary_demographic": "18-25岁未婚女性，对婚姻中女性处境有强烈共情",
+    "emotional_needs": [
+      "对愚孝丈夫的愤怒宣泄",
+      "对恶婆婆被清算的爽感期待",
+      "对女主清醒止损的认同感",
+      "对'以其人之道还治其人之身'的因果正义满足"
+    ],
+    "genre_taboos": [
+      "不可让女主最终原谅丈夫复合",
+      "不可让婆婆洗白或获得同情",
+      "不可弱化下药行为的严重性",
+      "不可让女主靠新男人解决问题",
+      "不可出现圣母式和解结局"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "template": "【动作】+【对象】+【后果】",
+        "examples": [
+          "老公给我妈下药后，我杀疯了",
+          "发现老公给我妈下毒后，我把同样的药喂给了他妈",
+          "老公偷给我妈下药三个月，我一招让他全家跪"
+        ]
+      },
+      {
+        "formula": "T4",
+        "template": "【悬疑细节】+【情绪炸裂】",
+        "examples": [
+          "我妈查不出病因，直到我刷到老公的匿名帖",
+          "丈夫牙膏里的白色粉末，差点要了我妈的命"
+        ]
+      },
+      {
+        "formula": "T5",
+        "template": "【反讽/回旋句式】",
+        "examples": [
+          "他说丈母娘病两天又不会死，现在轮到他妈了",
+          "婆婆想让我跪着伺候，最后跪的是她自己"
+        ]
+      }
+    ],
+    "final_recommendation": "T1公式，保留原标题'老公给我妈下药后，我杀疯了'——信息量大、冲突明确、情绪爆裂，完美命中番茄首页点击心理"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "每章结尾悬而未决：下药证据何时坐实？女主何时反击？婆婆如何被清算？宋松最终下场？层层递进不断档"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "第一个付费点设在女主确认丈夫就是帖子楼主的瞬间——读者已积累足够愤怒，必须看到反击才能释放"
+    },
+    "emotional_release": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "核心爽点是因果回旋反讽：丈夫说'病两天又不会死'，女主用同样逻辑还击；婆婆要女主跪，最后自己跪；面粉替代药粉的反转既解气又守住女主底线"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "scale": 10,
+      "strategy": "零容忍AI味。禁用'不禁''心中涌起''深吸一口气'等词；情绪用动作和生理反应外化；对话短平快不超15字"
+    },
+    "explosion_density": {
+      "target": 8.5,
+      "scale": 10,
+      "strategy": "每1000字至少一个情绪爆点：帖子更新、婆婆闯门、女儿被剃头、半夜切菜、灌粉末、跳楼、离婚——密度足够但不失节奏呼吸"
+    }
+  },
+  "genre": "family_ethics",
+  "core_mechanisms": ["M3", "M1", "M5"],
+  "dominant_satisfaction": "因果回旋反讽",
+  "reader_promise": "看丈夫为讨好婆婆给岳母下药后，妻子把同一套药、话术和证据链原样回敬，让愚孝家庭付出刑事与伦理双重代价",
+  "emotion_curve_shape": "U型（前半压迫积怨，中段触底反击，后半清算释放）",
+  "platform_constraints": {
+    "chapter_word_median": 650,
+    "first_chapter_hook_min": 9,
+    "title_max_chars": 30,
+    "synopsis_chars": [90, 120]
+  }
+}

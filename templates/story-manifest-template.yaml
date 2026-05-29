@@ -1,0 +1,120 @@
+# StoryForge story 状态文件模板 (V4)
+
+slug: ""
+source_title: ""
+output_title: ""
+target_platform: tomato
+genre: ""
+status: phase1 # phase1|phase2|draft|review_failed|final|submitted
+current_phase: 1
+
+required_artifacts:
+  phase1:
+    - source.md
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+  phase2:
+    - source.md
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+    - adaptation.md
+    - blueprint.md
+  phase3:
+    - source.md
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+    - adaptation.md
+    - blueprint.md
+    - draft.md
+  phase4:
+    - source.md
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+    - adaptation.md
+    - blueprint.md
+    - draft.md
+    - review.md
+    - quality-report.json
+    - diff.md
+  phase5:
+    - source.md
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+    - adaptation.md
+    - blueprint.md
+    - draft.md
+    - review.md
+    - quality-report.json
+    - diff.md
+    - final.md
+    - craft-notes.md
+    - tomato-submission.md
+    - final-chapters/_chapters-map.md
+    - story.yaml
+
+quality_gate:
+  gate_status: ""
+  critical_failures: []
+  important_failures: []
+
+metrics:
+  final_word_count: 0
+  title_chars: 0
+  hook_score: 0
+  tomato_fit_score: 0
+  forbidden_hits: {}
+
+platform_feedback:
+  submitted_at: ""
+  title_click_rate: null
+  first_chapter_completion_rate: null
+  paid_conversion_rate: null
+  drop_off_chapter: null
+
+source_policy:
+  access: trusted_runners_allowed # trusted_runners_allowed|denied
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: ""
+  runner: agent
+  provider: ""
+  current_phase: 1
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: pending # pending|approved|skipped

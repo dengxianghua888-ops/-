@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "海运中心观景塔封闭层",
+  "time": "当日黄昏",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮"
+  ],
+  "character_goal": "在死前问清一句：三年前你是不是故意的。",
+  "opposition_goal": "裴砚潮要夺回录音、维持‘她越界在先’的判断，拒绝承担核心责任。",
+  "conflict_action": "她把录音残片按到他掌心，逼问三年前的命令；他夺手机、逼近一步步把责任压回她，仍说她该学规矩。",
+  "information_gap": "截断句：她问，所以三年前，你是故意的？",
+  "emotional_debt_delta": {
+    "add": [],
+    "pay": [
+      "在女主面前坐实男主主动责任"
+    ]
+  },
+  "payoff_or_hook": "她终于明白，不是误会，是选择。",
+  "chapter_end_hook": "截断句：她问，所以三年前，你是故意的？",
+  "paywall_card": false,
+  "must_include": [
+    "录音残片",
+    "裴砚潮逼近与夺手机",
+    "‘学规矩’原话回环",
+    "她从求证走向死心"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇回顾成年礼误会",
+    "不要把冲突写成纯吵架",
+    "不要解释双方心理学"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

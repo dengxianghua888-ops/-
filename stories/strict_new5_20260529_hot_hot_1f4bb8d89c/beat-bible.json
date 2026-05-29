@@ -1,0 +1,631 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_midpoint": 10700
+  },
+  "title": "婚礼冷柜送到时，我撤回了专利",
+  "genre": "都市重生退婚爽文 / 医疗科技豪门联姻 / 前任火葬场 / 女性结盟成长",
+  "mechanisms": [
+    "M2 身份反差爆发：沈听澜从被羞辱新娘翻为核心专利持有人与第二大表决权人。",
+    "M3 因果回旋反讽：遗体冷柜从羞辱道具回旋成江砚舟自恋深情的冷藏讽刺。",
+    "M5 温度反转曲线：沈听澜由五年真心归零离场，江砚舟由轻蔑误判转入追悔失控。",
+    "M6 多层递进反转：撤授权、揭身份、陆承川入局、许知微双时间线、女性结盟、新项目公开。"
+  ],
+  "phase_budget": {
+    "opening": {
+      "beat_ids": [
+        "B01",
+        "B02"
+      ],
+      "target_chars_midpoint": 1460,
+      "ratio": 0.136
+    },
+    "pressure_accumulation": {
+      "beat_ids": [
+        "B03",
+        "B04",
+        "B05",
+        "B06"
+      ],
+      "target_chars_midpoint": 2960,
+      "ratio": 0.277
+    },
+    "climax_reversal": {
+      "beat_ids": [
+        "B08",
+        "B09",
+        "B10",
+        "B11"
+      ],
+      "target_chars_midpoint": 3980,
+      "ratio": 0.372
+    },
+    "closure": {
+      "beat_ids": [
+        "B13",
+        "B14"
+      ],
+      "target_chars_midpoint": 1470,
+      "ratio": 0.137
+    },
+    "transition_or_payoff_bridge": {
+      "beat_ids": [
+        "B07",
+        "B12"
+      ],
+      "target_chars_midpoint": 1630,
+      "ratio": 0.152
+    }
+  },
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 720,
+      "scene_range": [
+        "scene-01"
+      ],
+      "chapter_end_hook": "截断在伦理审查暂停函盖章亮出：签发申请人是沈听澜。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 740,
+      "scene_range": [
+        "scene-02"
+      ],
+      "chapter_end_hook": "截断在江砚舟收到交易所问询电话。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 700,
+      "scene_range": [
+        "scene-03"
+      ],
+      "chapter_end_hook": "截断在陌生号码发来一句：别信他，我也记得。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 770,
+      "scene_range": [
+        "scene-04"
+      ],
+      "chapter_end_hook": "截断在陆承川递名片：需要我作证，还是需要我等。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 720,
+      "scene_range": [
+        "scene-05"
+      ],
+      "chapter_end_hook": "截断在旧录音里传出江砚舟前世说过的同一句话。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 770,
+      "scene_range": [
+        "scene-06"
+      ],
+      "chapter_end_hook": "截断在许知微低声说：我死过一次。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 840,
+      "scene_range": [
+        "scene-07"
+      ],
+      "chapter_end_hook": "截断在许知微拿出同编号低温舱铭牌。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 980,
+      "scene_range": [
+        "scene-08"
+      ],
+      "chapter_end_hook": "截断在江砚舟当众说：我要起诉你们两个。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 960,
+      "scene_range": [
+        "scene-09"
+      ],
+      "chapter_end_hook": "截断在调查组通知十五分钟后进场。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 1010,
+      "scene_range": [
+        "scene-10"
+      ],
+      "chapter_end_hook": "截断在江砚舟看见许知微把他号码拉黑。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 1030,
+      "scene_range": [
+        "scene-11"
+      ],
+      "chapter_end_hook": "截断在董事会屏幕显示：江砚舟暂停职务。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 790,
+      "scene_range": [
+        "scene-12"
+      ],
+      "chapter_end_hook": "截断在陆承川问：三天后，我还能等在门口吗。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 710,
+      "scene_range": [
+        "scene-13"
+      ],
+      "chapter_end_hook": "截断在论坛入口，江砚舟握着那块冷柜铭牌。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 760,
+      "scene_range": [
+        "scene-14"
+      ],
+      "chapter_end_hook": "截断在沈听澜合上反面案例档案，不再回头。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "scene_id": "scene-01",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "澜舟科技上市庆功婚礼暨公益发布会主厅",
+      "character_goal": "沈听澜要在被冷柜羞辱后亲手亮出撤授权第一张牌。",
+      "conflict_action": "江砚舟让礼仪推入贴着沈听澜铭牌的白色遗体冷柜，沈听澜从捧花里抽出专利回购协议并交给主持人投屏。",
+      "information_gap": "宾客只以为她是被抛弃的新娘，不知道她已经拿回低温保存算法授权。",
+      "emotion_debt_balance": {
+        "added": [
+          "婚礼公开羞辱债"
+        ],
+        "paid": [
+          "用专利文件当场回击羞辱"
+        ],
+        "remaining": [
+          "五年隐退幕后债",
+          "前世婚姻创伤债"
+        ]
+      },
+      "chapter_end_hook": "伦理审查暂停函右下角盖章亮出：签发申请人是沈听澜。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要解释医学原理",
+        "不能让陆承川救场"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "scene_id": "scene-02",
+      "target_chars_min": 700,
+      "target_chars_max": 780,
+      "scene_location": "发布会投屏区与主舞台",
+      "character_goal": "沈听澜要把退婚从情绪事件改成公司控制权事件。",
+      "conflict_action": "沈听澜把董事会投票权委托书推到江砚舟面前，摘下婚戒放在冷柜托盘上。",
+      "information_gap": "江砚舟仍以为她只是在逼他低头，不知道交易所已经收到审查风险提示。",
+      "emotion_debt_balance": {
+        "added": [
+          "拖婚五年尊严债"
+        ],
+        "paid": [
+          "当众退婚",
+          "揭第二大表决权人身份"
+        ],
+        "remaining": [
+          "江砚舟误判债",
+          "许知微被利用真相债"
+        ]
+      },
+      "chapter_end_hook": "江砚舟刚要冷笑，手机响起，来电显示是交易所问询组。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不能写成股权课",
+        "不要洗白江砚舟",
+        "不要让女主哭诉"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "scene_id": "scene-03",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "发布会后台走廊",
+      "character_goal": "沈听澜要切断江砚舟用旧情控制她的路径。",
+      "conflict_action": "江砚舟拦住沈听澜的去路，沈听澜取下无菌手环，连同低温舱编号牌一起丢进证物袋。",
+      "information_gap": "读者知道手环和前世创伤有关，但不知道具体发生过什么。",
+      "emotion_debt_balance": {
+        "added": [
+          "错付真心被轻贱债"
+        ],
+        "paid": [
+          "拒绝被欲擒故纵叙事框住"
+        ],
+        "remaining": [
+          "无菌手环旧伤债",
+          "白月光阴影债"
+        ]
+      },
+      "chapter_end_hook": "沈听澜走出后台时，陌生号码发来一句：别信他，我也记得。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要大段回忆前世",
+        "不能让江砚舟真诚道歉",
+        "不要写旁观者反应清单"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "scene_id": "scene-04",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "投资人会所小宴厅",
+      "character_goal": "沈听澜要阻断江砚舟用公益门面稳住资本的补救。",
+      "conflict_action": "江砚舟拉许知微上台安抚投资人，沈听澜当场撤回旧算法注释授权，陆承川只在旁边确认合规流程。",
+      "information_gap": "许知微看似仍站在江砚舟身边，但她盯着沈听澜的证物袋没有移开视线。",
+      "emotion_debt_balance": {
+        "added": [
+          "江砚舟继续消费两个女人的债"
+        ],
+        "paid": [
+          "第一次拆掉公益包装"
+        ],
+        "remaining": [
+          "许知微真实立场债",
+          "陆承川前世补偿债"
+        ]
+      },
+      "chapter_end_hook": "陆承川递来名片：沈小姐，需要我作证，还是需要我等。",
+      "paywall_card": true,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不能把陆承川写成霸总救场",
+        "不要复述审查流程",
+        "不要让许知微恶毒挑衅"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "scene_id": "scene-05",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "沈家旧实验室档案间",
+      "character_goal": "沈听澜要找回五年前被抹掉的研发证据。",
+      "conflict_action": "沈听澜打开母亲留下的防火柜，取出算法注释本和旧实验录音，江砚舟电话打进来要求她把文件送回公司。",
+      "information_gap": "录音里有江砚舟前世说过的话，但开头先被噪音盖住。",
+      "emotion_debt_balance": {
+        "added": [
+          "放弃署名与守实验室债"
+        ],
+        "paid": [
+          "取回研发证物"
+        ],
+        "remaining": [
+          "前世同句式伤害债",
+          "母亲信托真相债"
+        ]
+      },
+      "chapter_end_hook": "录音修复完成，江砚舟的声音响起：你要是真想死心，就躺进去。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要连续解释专利来源",
+        "不要写母女苦情长段",
+        "不能让女主犹豫回头"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "scene_id": "scene-06",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "医院旁伦理基金会会议室",
+      "character_goal": "沈听澜要确认陌生短信来源，许知微要摆脱白月光标签。",
+      "conflict_action": "许知微把病史营销合约推到桌上，划掉江砚舟写给她的人设词。",
+      "information_gap": "许知微知道另一条时间线，却只先交出被利用的证据。",
+      "emotion_debt_balance": {
+        "added": [
+          "女性互相投射消耗债"
+        ],
+        "paid": [
+          "许知微停止雌竞",
+          "沈听澜接纳证据"
+        ],
+        "remaining": [
+          "双时间线真相债",
+          "江砚舟自恋本质债"
+        ]
+      },
+      "chapter_end_hook": "许知微按住合约最后一页，低声说：我死过一次。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要写真实诊疗细节",
+        "不要用疾病羞辱角色",
+        "不要把许知微写成求原谅工具人"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "scene_id": "scene-07",
+      "target_chars_min": 780,
+      "target_chars_max": 900,
+      "scene_location": "伦理基金会资料室",
+      "character_goal": "许知微要用自己的时间线证明江砚舟谁都不爱。",
+      "conflict_action": "许知微播放另一条时间线的公益展录音，沈听澜把自己的无菌手环编号与她的低温舱铭牌并排拍照。",
+      "information_gap": "两个女人的死亡/失去都指向同一套公司叙事，但江砚舟还不知道她们已经对上证据。",
+      "emotion_debt_balance": {
+        "added": [
+          "前世四十年错付债",
+          "许知微被包装利用债"
+        ],
+        "paid": [
+          "两女完成互证"
+        ],
+        "remaining": [
+          "公开揭露江砚舟自恋债"
+        ]
+      },
+      "chapter_end_hook": "许知微从包里拿出同编号低温舱铭牌：这块，本来刻的是我的名字。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要玄学化解释重生",
+        "不要连续解释时间线",
+        "不能让两女互骂"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "scene_id": "scene-08",
+      "target_chars_min": 880,
+      "target_chars_max": 1080,
+      "scene_location": "澜舟科技临时董事会",
+      "character_goal": "沈听澜和许知微要把私人伤害转成可查证的公司风险。",
+      "conflict_action": "江砚舟拿旧署名文件抹掉沈听澜贡献，沈听澜投出原始提交记录，许知微当场撤回公益肖像授权。",
+      "information_gap": "董事们以为这是情感纠纷，直到原始记录显示江砚舟篡改过研发归属。",
+      "emotion_debt_balance": {
+        "added": [
+          "署名被夺债",
+          "公益门面被消费债"
+        ],
+        "paid": [
+          "研发贡献公开回收",
+          "许知微第一次正面断供江砚舟"
+        ],
+        "remaining": [
+          "董事会控制权债",
+          "江砚舟名誉反噬债"
+        ]
+      },
+      "chapter_end_hook": "江砚舟盯着两份撤回函，咬字说：我要起诉你们两个。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写法条讲解",
+        "不要把董事写成反应清单",
+        "不能弱化许知微的主动性"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "scene_id": "scene-09",
+      "target_chars_min": 860,
+      "target_chars_max": 1060,
+      "scene_location": "澜舟科技楼下媒体区",
+      "character_goal": "沈听澜要反制江砚舟把她塑造成吃醋未婚妻的舆论话术。",
+      "conflict_action": "江砚舟开媒体说明会，沈听澜和许知微并肩提交伦理投诉回执，陆承川只确认文件已进入程序。",
+      "information_gap": "记者还不知道投诉附件里包含遗体冷柜采购单和病史营销脚本。",
+      "emotion_debt_balance": {
+        "added": [
+          "舆论污名债"
+        ],
+        "paid": [
+          "两女公开同框",
+          "伦理投诉落地"
+        ],
+        "remaining": [
+          "冷柜采购链债",
+          "江砚舟职务债"
+        ]
+      },
+      "chapter_end_hook": "调查组电话打到江砚舟助理手机上：十五分钟后，我们进场。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写记者提问长清单",
+        "不要把投诉写成科普",
+        "不能让陆承川替她们发言"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "scene_id": "scene-10",
+      "target_chars_min": 900,
+      "target_chars_max": 1120,
+      "scene_location": "会所地下车库",
+      "character_goal": "沈听澜要让江砚舟承认他的挽回只是两头占有。",
+      "conflict_action": "江砚舟先堵许知微递补偿协议，又转身追沈听澜上车，沈听澜把冷柜原话录音外放给他听。",
+      "information_gap": "江砚舟还以为只要许知微心软，沈听澜就会重新争他。",
+      "emotion_debt_balance": {
+        "added": [
+          "两头挽回羞辱债"
+        ],
+        "paid": [
+          "冷柜名言回敬",
+          "许知微拉黑江砚舟"
+        ],
+        "remaining": [
+          "最终职务坠落债"
+        ]
+      },
+      "chapter_end_hook": "江砚舟的手机亮起提示：许知微已拒收你的消息。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要写暴力拉扯",
+        "不要让江砚舟深情剖白",
+        "不要把女主写成胜利演讲"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "scene_id": "scene-11",
+      "target_chars_min": 920,
+      "target_chars_max": 1140,
+      "scene_location": "澜舟科技董事会表决厅",
+      "character_goal": "沈听澜要把反杀落到制度结果，而不是口头赢。",
+      "conflict_action": "江砚舟试图保住CEO席位，沈听澜把部分表决权转入独立伦理信托，许知微提交营销脚本证言。",
+      "information_gap": "江砚舟不知道沈听澜早已准备把权力从私人恩怨中剥离出去。",
+      "emotion_debt_balance": {
+        "added": [
+          "公司神话反噬债"
+        ],
+        "paid": [
+          "江砚舟暂停职务",
+          "项目进入独立审查"
+        ],
+        "remaining": [
+          "沈听澜新生活选择债",
+          "陆承川等待债"
+        ]
+      },
+      "chapter_end_hook": "董事会屏幕刷新出决议：江砚舟暂停职务，即刻生效。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "不要复述表决规则",
+        "不要写成男主商业翻盘",
+        "不能让女主把胜利归功于陆承川"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "scene_id": "scene-12",
+      "target_chars_min": 740,
+      "target_chars_max": 840,
+      "scene_location": "沈家旧实验室",
+      "character_goal": "沈听澜要处理旧证物，决定是否接受陆承川的等待。",
+      "conflict_action": "江砚舟带着算法注释本来求情，沈听澜把注释本放进独立项目档案盒，陆承川站在门外没有进来。",
+      "information_gap": "沈听澜没有立刻答应陆承川，但第一次主动给出时间。",
+      "emotion_debt_balance": {
+        "added": [
+          "迟来求情扰动债"
+        ],
+        "paid": [
+          "错付证物归档",
+          "旧男主求复合失败"
+        ],
+        "remaining": [
+          "新关系公开债",
+          "最终不回头承诺债"
+        ]
+      },
+      "chapter_end_hook": "陆承川问：三天后，我还能等在门口吗。",
+      "paywall_card": true,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要让江砚舟卖惨洗白",
+        "不要写长段恋爱感悟",
+        "不能让陆承川逼她选择"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "scene_id": "scene-13",
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_location": "国际医疗伦理论坛签到区",
+      "character_goal": "沈听澜要以独立项目负责人身份登场，许知微要摆脱被展示的病史标签。",
+      "conflict_action": "沈听澜和许知微共同提交新项目展牌，陆承川只替她们留好嘉宾席，江砚舟在入口被安保拦下。",
+      "information_gap": "江砚舟手里握着冷柜铭牌，试图把自己包装成悔过者。",
+      "emotion_debt_balance": {
+        "added": [
+          "最后纠缠债"
+        ],
+        "paid": [
+          "女性结盟项目公开",
+          "陆承川尊重式补偿兑现"
+        ],
+        "remaining": [
+          "最终边界句债"
+        ]
+      },
+      "chapter_end_hook": "论坛入口，江砚舟摊开掌心，那块冷柜铭牌露了出来。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "不要写论坛议程清单",
+        "不要医学科普化",
+        "不能让江砚舟靠忏悔进场"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "scene_id": "scene-14",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "国际医疗伦理论坛后台与主会场",
+      "character_goal": "沈听澜要完成不复合、不原谅、不回头的最终落点。",
+      "conflict_action": "江砚舟闯到后台递铭牌求复合，沈听澜把铭牌交给案例档案管理员，随后走上台公开新项目。",
+      "information_gap": "江砚舟以为铭牌能唤回旧情，却没想到它只会成为反面案例证物。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": [
+          "婚礼冷柜羞辱债",
+          "拖婚五年尊严债",
+          "错付真心债",
+          "女性雌竞债",
+          "陆承川等待补偿债"
+        ],
+        "remaining": []
+      },
+      "chapter_end_hook": "沈听澜合上反面案例档案，走向灯光，没有回头。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能安排旧男主牺牲洗白",
+        "不能让女主回头复合"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars_midpoint": 10700,
+    "min_chapters": 14,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0,
+    "min_climax_ratio": 0.35,
+    "required_opening_first_300_chars": [
+      "遗体冷柜羞辱",
+      "专利回购或撤授权反杀"
+    ]
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      16,
+      22
+    ],
+    "short_line_rate_lte_16_min": 0.45,
+    "short_line_rate_lte_16_max": 0.62,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.5,
+    "barrage_line_rate_min": 0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 3.2,
+    "question_mark_density_per_1000_chars_max": 5.8,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

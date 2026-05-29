@@ -1,0 +1,34 @@
+{
+  "pipeline_mode": "production",
+  "source_title": "物业涨租逼我走，全家撤场让他慌",
+  "genre": "modern_business_revenge",
+  "hook_type": "H1",
+  "title_formula": "T1",
+  "source_slug": "property_rent_exit",
+  "source_length_chars": 13249,
+  "reversal_mechanisms": [
+    "old_tenant_exit",
+    "traffic_dependency_reveal",
+    "contract_evidence_counterattack",
+    "merchant_alliance_transfer"
+  ],
+  "reader_promise": "看被物业涨租断水逼走的老租户，用全家业态撤场、客流迁移和合同证据反向掏空旧商场。",
+  "emotional_debts": [
+    "两年引流被物业一句占位抹掉",
+    "断水毁掉孩子生日课和员工劳动",
+    "老商户押金与乱收费长期被压"
+  ],
+  "payoff_pattern": "主角不靠嘴硬回头，而是让客流、合同、断水记录和老商户证词在招商会集中清算。",
+  "forbidden_to_change": [
+    "涨租逼迁后主动撤场",
+    "全家业态和老商户共同带走客流",
+    "物业违规证据在公开场合反杀"
+  ],
+  "replaceable_assets": [
+    "商场业态",
+    "断水记录",
+    "押金单",
+    "招商会"
+  ],
+  "new_story_core": "女主经营亲子烘焙店，被物业恶意涨租断水逼迁。她带动父亲面馆、母亲花艺、丈夫体能馆、妹妹自习室，以及被物业欺压的老商户转入对面旧厂区，反向掏空商场客流，并用合同和消控记录揭穿物业经理吃回扣与伪造检修。"
+}

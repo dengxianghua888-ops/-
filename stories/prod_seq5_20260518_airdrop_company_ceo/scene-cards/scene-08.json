@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "鲸跃传媒临时会议室",
+  "time": "发布会中断后的二十分钟内",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "王珩", "李屿", "财务负责人", "招商主管"],
+  "character_goal": "许闻溪把现场反击转入正式合伙人会程序",
+  "opposition_goal": "周砚礼想拖延会议，私下求许闻溪先保住面子",
+  "conflict_action": "许闻溪发送临时合伙人会通知，要求周砚礼回避苏曼宁任命和招商审计议题",
+  "information_gap": "周砚礼以为夫妻旧情能让她收手",
+  "emotional_debt_delta": "-职权压迫债 +情感绑架苗头",
+  "payoff_or_hook": "周砚礼第一次被请离自己坐惯的CEO主位",
+  "chapter_end_hook": "会议系统弹出回避提示：周砚礼，无表决权限。",
+  "paywall_card": false,
+  "must_include": ["临时合伙人会通知", "回避调查", "CEO主位", "会议系统权限提示", "周砚礼压低声音求她"],
+  "must_not_write_as_exposition": ["不要写成长篇公司章程", "不要让女主心软", "不要让会议失去冲突"]
+}

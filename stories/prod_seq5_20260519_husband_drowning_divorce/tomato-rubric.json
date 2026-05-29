@@ -1,0 +1,36 @@
+{
+  "story": "stories/prod_seq5_20260519_husband_drowning_divorce",
+  "overall_score": 9.85,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 12172,章节方差 35.1"
+    },
+    "hook_density": {
+      "score": 9.38,
+      "evidence": "15/16 强钩,弱钩章: ch08",
+      "weak_chapters": [
+        "ch08"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 31.219/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 18.856,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

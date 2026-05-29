@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "run_slug": "rerun_modern_20260525_v2",
+  "source_slug": "hot_14dd5cdefe",
+  "optimization": "v2_style_fidelity",
+  "run_date": "2026-05-25",
+  "baseline_run": "manual_run_modern_20260522_1802",
+  "summary": "v2优化（few-shot样本集+风格锚定prompt+2硬门）全量重跑验证通过。rhythm_fit从v1的FAIL(2failures)提升至PASS(0failures)，四项核心指标中三项delta收窄至<25%。",
+  "metrics_comparison": {
+    "avg_line_chars": {
+      "source": 23.428,
+      "v1": 30.188,
+      "v2": 23.207,
+      "v1_delta_pct": 28.9,
+      "v2_delta_pct": 0.9,
+      "improvement": "28.9% → 0.9%"
+    },
+    "long_line_rate": {
+      "source": 0.122,
+      "v1": 0.322,
+      "v2": 0.151,
+      "v1_delta_pct": 163.9,
+      "v2_delta_pct": 23.8,
+      "improvement": "164% → 24%"
+    },
+    "quote_line_rate": {
+      "source": 0.347,
+      "v1": 0.515,
+      "v2": 0.389,
+      "v1_delta_pct": 48.4,
+      "v2_delta_pct": 12.1,
+      "improvement": "48% → 12%"
+    },
+    "question_marks_per_k": {
+      "source": 5.106,
+      "v1": 2.437,
+      "v2": 2.615,
+      "v1_delta_pct": 52.3,
+      "v2_delta_pct": 48.8,
+      "improvement": "52% → 49% (minimal)",
+      "note": "追问密度仍低于源文，但已通过rhythm_fit floor(1.79)。后续可在prompt中加强逼问句引导。"
+    },
+    "rhythm_fit_status": {
+      "v1": "FAIL (2 failures: avg_line_chars, long_line_rate)",
+      "v2": "PASS (0 failures)"
+    }
+  },
+  "what_worked": [
+    "few-shot样本集（5篇excerpt）让模型直接'看到'正确节奏，比规则约束更有效",
+    "风格锚定3条（短/碎/快）简洁直接，模型执行度高",
+    "高潮预算35-40%确保反杀段不被稀释（B8-B9-B10合计约3600字/10500≈34%）",
+    "long_line_rate硬门拦住了v1中32%的超长行问题",
+    "avg_line_chars ceiling收紧(1.25x)精准卡住偏移"
+  ],
+  "what_needs_improvement": [
+    {
+      "issue": "question_marks_per_k仍有49%差距",
+      "root_cause": "模型倾向用陈述句推进而非追问句。few-shot中追问密度高但模型未完全模仿此特征。",
+      "proposed_fix": "下次在风格锚定中增加第4条：'问。高潮段每5行至少1个问号。用反问逼对方回答。'"
+    },
+    {
+      "issue": "首次draft字数不足(5636)需要二次扩写",
+      "root_cause": "风格锚定的'短'指令被过度执行，导致每行过于碎片化、信息密度过低",
+      "proposed_fix": "在prompt中补充：'短≠少。每行20字但总行数要多。目标总字数10000-14000不可妥协。'"
+    }
+  ],
+  "mechanism_fidelity_notes": {
+    "M1_dead_loop_reversal": "Ch9二选一逼问结构清晰：是→无数据来源 / 不是→文书造假。执行到位。",
+    "M3_causal_boomerang": "用对方盖的300万红章反向索赔3亿，因果回旋完整。",
+    "M6_progressive_escalation": "PPT→视频→封条→笔→计算器→汗→流水→法槌，8级递进无跳跃。"
+  },
+  "style_fidelity_notes": {
+    "tone": "第一人称冷硬叙述贯穿全文，无抒情段落入侵",
+    "opening": "结论前置9行摘要+分隔线后进入时间线，与源文结构一致",
+    "dialogue": "对白短促（多数<15字），程序化逼问为主",
+    "objects": "红章/PH试纸/计算器/封条/棉袜等物件锚定密集"
+  },
+  "pipeline_learnings": [
+    "v2策略验证：少约束+数据驱动 > 多约束。2个硬门+few-shot达成的效果超过v1的7个硬门。",
+    "字数控制需在beat-bible阶段就明确每beat的chars范围，不能只靠总字数门。",
+    "rhythm_fit作为唯一质量硬门足够（配合few-shot），不需要叠加filler_rate等主观指标。",
+    "开篇结构标注(conclusion_first)让writer准确复刻源文开头，值得推广到所有genre。"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 830,
+  "target_chars_max": 1030,
+  "location": "画坊后院·阿昭的小房间",
+  "time": "三日后深夜",
+  "pov": "阿昭",
+  "characters": ["阿昭", "沈砚卿"],
+  "character_goal": "阿昭发现墨锭有异后拼死想保住孩子，不惜暴露身份",
+  "opposition_goal": "沈砚卿要确保裴若霜的孩子成为嫡长，必须除掉'障碍'",
+  "conflict_action": "阿昭发现用了那锭墨后腹痛出血→恳求沈砚卿请太医→三次递进哀求三次被拒→绝望亮出公主身份但不被相信→沈砚卿留下一句'小产死不了人'后离开",
+  "information_gap": "阿昭说出真实身份但被当作谎话——真话不被信的极致无力",
+  "emotional_debt_delta": "+3：杀子（不可逆）+身份不被信+冷漠离去",
+  "payoff_or_hook": "门被踹开，裴若霜带人闯入——最脆弱时新威胁降临",
+  "chapter_end_hook": "房门被人一脚踹开，裴若霜带着几个婆子闯了进来——她刚失去孩子还能承受什么？",
+  "paywall_card": true,
+  "must_include": [
+    "毒墨的发现过程（腹痛+发现墨锭异样）",
+    "三次哀求递进：请太医→我不要名分只要孩子→我是昭阳公主",
+    "三次拒绝递进：不为所动→嘲讽→'说谎也要有个度'",
+    "'小产死不了人'的冷句必须作为沈砚卿离场台词",
+    "最后一句必须是裴若霜破门而入"
+  ],
+  "must_not_write_as_exposition": [
+    "毒墨的药理作用不得详细解释",
+    "流产过程不得有医学细节",
+    "阿昭的身体痛苦用意象传递（血染画毡），不用生理描写"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 19.6,
+    "comma_period_ratio": 0.71,
+    "sentence_avg_len": 17.3,
+    "dominant_emotion": "绝望-崩溃",
+    "emotion_arc": "恐惧 → 哀求 → 被拒 → 生理崩溃",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "窒息、愤怒到想摔手机，同时被'杀子'的不可逆性震住",
+    "required_techniques": [
+      {
+        "technique": "哀求递进三连拒",
+        "instruction": "写三轮恳求-拒绝循环。每轮阿昭降低姿态（从请求→放弃名分→暴露底牌），每轮沈砚卿更冷（从沉默→嘲讽→不信+离开）。三轮必须在同一个连续段落内完成，不插入叙述"
+      },
+      {
+        "technique": "身份提前揭露但不被信",
+        "instruction": "阿昭在最绝望时说出'我是昭阳长公主'，但沈砚卿嗤笑一声说她疯了/说谎——真话被当谎话的无力感是极致的虐点"
+      },
+      {
+        "technique": "冷句杀人",
+        "instruction": "沈砚卿的离场台词必须极致轻描淡写：用最短的句子说最残忍的事实。不超过10个字。语气不怒、不悲、不解释——纯粹的冷漠"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "断言句（X死不了人）+ 甩手短句",
+        "example": "流产死不了人，你好自为之吧",
+        "instruction": "改写保持结构：'X死不了人'+极短甩手语。用松烟墨/画坊语境替换，但残忍的轻描淡写感不变"
+      },
+      {
+        "structure": "时间限定（刚…的第一天）+ 身份讽刺（父亲）+ 动作（亲手杀）",
+        "example": "那个我曾日夜期盼的孩子，在他父亲刚知晓的第一天，就亲手杀了他",
+        "instruction": "用阿昭的内心独白一句话总结事件：必须包含'第一天/刚知道'的时间锚定和'亲手'的主动性强调"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "累积式",
+    "source_excerpt": "快去找太医……我不嫁你了行不行，我什么都不要了，我只想要我的孩子……我是公主，昭宁公主，你赶快去找太医……你太让我失望了，说慌也要有个度……流产死不了人，你好自为之吧。……那个我曾日夜期盼的孩子，在他父亲刚知晓的第一天，就亲手杀了他。"
+  }
+}

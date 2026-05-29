@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "version": 2,
+    "description": "各反转机制的跨案例执行经验库。success_cases: 执行得好的案例及要点; failure_patterns: 执行偏差案例及教训。",
+    "updated_at": "2026-04-20",
+    "seeded_genres": ["modern_reversal", "ancient_BE", "ancient_sweet", "apocalypse_heroine", "family_ethics", "urban_sweet_ceo"],
+    "total_success_cases": 16
+  },
+  "M1": {
+    "name": "死环反杀",
+    "success_cases": [
+      {
+        "slug": "hermes_customs_package",
+        "genre": "modern_reversal",
+        "key": "完税单作为固化载体,结尾金句'电脑怎么报就怎么坐牢'完美回敬",
+        "note": "二选一陈述必须显式,被海关公章闭锁"
+      },
+      {
+        "slug": "husband_drug_mom_revenge",
+        "genre": "family_ethics",
+        "key": "婆婆住院诊断书+丈夫转账记录构成双锁的刑事证据",
+        "note": "家庭伦理题材的死环载体是'医疗+金流'组合"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M2": {
+    "name": "身份反差爆发",
+    "success_cases": [
+      {
+        "slug": "airdrop_company_ceo",
+        "genre": "urban_sweet_ceo",
+        "key": "3 层身份递进:副总→32%股权→举报人,对方 3 阶段崩塌(僵→惨白→恐惧)",
+        "note": "揭身份段每句 ≤15 字,短句砸脸"
+      },
+      {
+        "slug": "ancient_sweet_blossom",
+        "genre": "ancient_sweet",
+        "key": "3 层:无能嫡女→江湖盟主→南疆王爷义妹,每层间隔 25%",
+        "note": "古言甜宠的身份反差可以带俏皮感,不必全严肃"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M3": {
+    "name": "因果回旋反讽",
+    "success_cases": [
+      {
+        "slug": "hermes_customs_package",
+        "genre": "modern_reversal",
+        "key": "开头'电脑怎么报就怎么交税'→结尾'电脑怎么报就怎么坐牢',原句回敬",
+        "note": "回旋金句是 M3 命脉,改编最易漏"
+      },
+      {
+        "slug": "airdrop_company_ceo",
+        "genre": "urban_sweet_ceo",
+        "key": "'惊喜'一词开头+结尾各用一次,同词异意极致反讽",
+        "note": "关键反讽词必须在首尾对称出现"
+      },
+      {
+        "slug": "husband_drug_mom_revenge",
+        "genre": "family_ethics",
+        "key": "丈夫下药的具体动作被妻子精确还原,句式复用",
+        "note": "下毒动作的'镜像'必须精确,不能模糊"
+      },
+      {
+        "slug": "ancient_sweet_blossom",
+        "genre": "ancient_sweet",
+        "key": "假千金嘲讽'你能干什么'被反问'我能干什么你想不到'",
+        "note": "古言可用半文半白的俏皮版回敬"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M4": {
+    "name": "灵魂线视角",
+    "success_cases": [
+      {
+        "slug": "ancient_be_winter_dream",
+        "genre": "ancient_BE",
+        "key": "系统倒计时触发灵魂化,前 20% 完成生死转换,信息差炸弹在结尾引爆",
+        "note": "死亡触发必须前置"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M5": {
+    "name": "温度反转曲线",
+    "success_cases": [
+      {
+        "slug": "ancient_be_winter_dream",
+        "genre": "ancient_BE",
+        "key": "妻子用温柔的词说残忍的事('老公真乖''最顾全大局'),温度正峰→负值对比最毒"
+      },
+      {
+        "slug": "airdrop_company_ceo",
+        "genre": "urban_sweet_ceo",
+        "key": "顾宸'深情→冷汗→惊恐求饶'3 阶段温度崩,前期爱意场景显式铺垫"
+      },
+      {
+        "slug": "husband_drug_mom_revenge",
+        "genre": "family_ethics",
+        "key": "丈夫从'妻子是我的人'→'我毁了她'→'她也毁了我',家庭戏温度反转"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M6": {
+    "name": "多层递进反转",
+    "success_cases": [
+      {
+        "slug": "apocalypse_exile_revenge",
+        "genre": "apocalypse_heroine",
+        "key": "4 层反转(驱逐→觉醒→反杀→价值观),层间字数均匀 ~25%"
+      },
+      {
+        "slug": "ancient_sweet_blossom",
+        "genre": "ancient_sweet",
+        "key": "3 层:个人能力→人脉→血脉,每层间 25-30%"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M7": {
+    "name": "降维打击",
+    "success_cases": [
+      {
+        "slug": "apocalypse_exile_revenge",
+        "genre": "apocalypse_heroine",
+        "key": "'不再净化辐射→就是辐射本身',两套规则前期铺垫充分,跃迁事件具体(被驱逐+辐射侵蚀)"
+      }
+    ],
+    "failure_patterns": []
+  },
+  "M8": {
+    "name": "道德模糊结尾",
+    "success_cases": [
+      {
+        "slug": "apocalypse_exile_revenge",
+        "genre": "apocalypse_heroine",
+        "key": "'拥有世界=失去世界'代价段 ≥300 字,结尾留白'一个孤独的神明'"
+      },
+      {
+        "slug": "ancient_be_winter_dream",
+        "genre": "ancient_BE",
+        "key": "BE 补偿尾带反向道德模糊——主角变成了曾经痛恨的那种人"
+      }
+    ],
+    "failure_patterns": []
+  }
+}

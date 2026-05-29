@@ -1,0 +1,37 @@
+{
+  "story": "stories/prod_seq5_20260520_hotel_may_100_group",
+  "overall_score": 9.33,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 12462,章节方差 57.3"
+    },
+    "hook_density": {
+      "score": 8.57,
+      "evidence": "12/14 强钩,弱钩章: ch01,ch06",
+      "weak_chapters": [
+        "ch01",
+        "ch06"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/4"
+    },
+    "action_density": {
+      "score": 7.91,
+      "evidence": "动作密度 36.03/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 19.263,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

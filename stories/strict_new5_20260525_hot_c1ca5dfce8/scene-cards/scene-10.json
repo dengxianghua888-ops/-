@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "奉天殿前廷",
+  "time": "紧接上场",
+  "pov": "我",
+  "characters": [
+    "我",
+    "谢珩",
+    "新帝",
+    "西川使臣",
+    "百官"
+  ],
+  "character_goal": "当众切断旧情，拿回制度上的新身份",
+  "opposition_goal": "新帝要拦人，逼我继续留在他定义的旧名分里",
+  "conflict_action": "西川使臣展开义册与先帝印信，谢珩扶我起身，新帝伸手抓我手腕时我后退一步，当众否认曾与他成婚",
+  "information_gap": "王府义册展开那一瞬，百官齐齐跪了下去。",
+  "emotional_debt_delta": -3,
+  "payoff_or_hook": "从罪籍乐伎切回安宁郡主的制度反转",
+  "chapter_end_hook": "王府义册展开那一瞬，百官齐齐跪了下去。",
+  "paywall_card": false,
+  "must_include": [
+    "义册",
+    "先帝印信",
+    "我主动退开他的手",
+    "一句作废旧情的截屏金句"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长讲义女缘起",
+    "不要让拒绝停留在心里",
+    "不要把百官见证写淡"
+  ],
+  "rhythm_job": {
+    "shape": "对白5段/动作3段/留白1段/章尾钩1刀",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

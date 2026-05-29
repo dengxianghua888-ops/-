@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 790,
+  "target_chars_max": 960,
+  "location": "急诊留观病房",
+  "time": "电话接通后",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "秦砚舟",
+    "急诊护士"
+  ],
+  "character_goal": "林望用免提电话让秦砚舟亲口承认转空五十万和伪造绝症。",
+  "opposition_goal": "秦砚舟要继续挑拨沈岚，把父子塑造成贪钱纠缠者。",
+  "conflict_action": "林望打开免提和录音，念出流水编号，引秦砚舟接话。",
+  "information_gap": "秦砚舟不知道沈岚就在病房，更不知道录音已开。",
+  "emotional_debt_delta": "反派恶意自证，父亲死亡责任链闭合。",
+  "payoff_or_hook": "电话自爆付费卡点。",
+  "chapter_end_hook": "秦砚舟在免提里说：五十万当然是我转走的，他死了才干净。",
+  "paywall_card": true,
+  "must_include": [
+    "免提电话",
+    "录音红点",
+    "流水编号",
+    "伪造绝症话术"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写反派长篇自述",
+    "不要把自爆写得像演讲",
+    "不要让沈岚的震惊替代证据"
+  ],
+  "rhythm_job": {
+    "shape": "电话对白短回合，林望少说，证据编号和录音动作做锚点",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用录音红点闪烁、沈岚手机滑落的动作降压"
+  }
+}

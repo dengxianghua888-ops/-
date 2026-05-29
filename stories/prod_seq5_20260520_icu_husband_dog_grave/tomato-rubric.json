@@ -1,0 +1,34 @@
+{
+  "story": "stories/prod_seq5_20260520_icu_husband_dog_grave",
+  "overall_score": 8.9,
+  "dimensions": {
+    "length_alignment": {
+      "score": 9.95,
+      "evidence": "总字数 13239,章节方差 46.8"
+    },
+    "hook_density": {
+      "score": 10.0,
+      "evidence": "15/15 强钩,弱钩章: 无",
+      "weak_chapters": []
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 3.54,
+      "evidence": "动作密度 44.49/k"
+    },
+    "style_signature": {
+      "score": 9.39,
+      "evidence": "平均句长 20.597,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

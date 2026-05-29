@@ -1,0 +1,71 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 3,
+  "is_chapter_end": false,
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "行业派对——某高端电竞会所/私人泳池区",
+  "time": "被方颖带到的目的地，白天或傍晚",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "陈奕", "方颖", "几个行业人士"],
+  "character_goal": "苏念只想确认情况后离开——她不是来求和的",
+  "opposition_goal": "陈奕在众人面前维持'她主动来找我'的叙事，巩固优越感",
+  "conflict_action": "苏念到场发现陈奕根本没出事——正在派对上和年轻女孩玩乐。陈奕自以为她来找自己，开始第一轮贬低",
+  "information_gap": "苏念来找的其实是季霄（同一个会所），但陈奕和所有人都误以为她来找陈奕",
+  "emotional_debt_delta": "重度叠加——从'顺手带的助理'到'她能有今天全靠我'的公开贬低",
+  "payoff_or_hook": "蓄力：陈奕的贬低从第一层升到第三层，为下一场爆发蓄力",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "陈奕在泳池/娱乐区玩乐的视觉画面（戳破'出事'谎言）",
+    "陈奕身体某处的伤痕细节（暗示确实出过事但完全不在乎）",
+    "陈奕'刚回来就找我'的错误自信",
+    "至少两轮递进贬低对话"
+  ],
+  "must_not_write_as_exposition": [
+    "苏念六年为陈奕做了什么的详细清单",
+    "苏念对贬低的内心分析",
+    "陈奕为什么变成这样的心理解释"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力递进",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.0,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 12.0,
+    "dominant_emotion": "屈辱-压制",
+    "emotion_arc": "到场发现谎言 → 被误读 → 第一波贬低 → 压力上升",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "开始为苏念感到愤怒——这个人凭什么？",
+    "required_techniques": [
+      {
+        "technique": "派对视觉对比——伤员在玩乐",
+        "instruction": "陈奕明明'出了事'却在派对上和年轻女孩玩乐，身上某处的绷带/创可贴暴露他不在乎自己更不在乎苏念"
+      },
+      {
+        "technique": "错误解读的喜剧性——他以为她来找自己",
+        "instruction": "陈奕完全笃定苏念是为他而来——这种自信建立在错误前提上，读者知道真相后觉得可笑"
+      },
+      {
+        "technique": "递进贬低的前两层",
+        "instruction": "第一层：暗示苏念离不开他（'刚回来就找我'）；第二层：当众贬低能力（'她能有今天全靠我平台'）"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "第三人称+双重否定+隐含贬低",
+        "example": "他季霄再不济，也不是不挑不拣的。",
+        "instruction": "不直说'你不配'而用'他不会选你'来贬低——间接比直接更伤人"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "递进式",
+    "source_excerpt": "顾呈阳蒙着眼睛，在泳池上下抓着年轻的小姑娘。他脚踝上的纱布渗着血。\"刚回来就找我的人，不好吧？\""
+  }
+}

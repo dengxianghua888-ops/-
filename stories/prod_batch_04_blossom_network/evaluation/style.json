@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "path": "story/draft.md#12",
+      "type": "object",
+      "quote": "SIM卡被叶昭掰断。",
+      "assessment": "物件收束有效。"
+    }
+  ]
+}

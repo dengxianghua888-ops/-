@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 750,
+  "target_chars_max": 900,
+  "location": "银行贵宾室与律师事务所",
+  "time": "赔偿金到账前一日",
+  "pov": "第一人称，母亲",
+  "characters": [
+    "母亲",
+    "律师周姐",
+    "银行客户经理",
+    "儿子霍建明"
+  ],
+  "character_goal": "母亲把赔偿金用途和产权证据全部落到纸面。",
+  "opposition_goal": "儿子不断催问到账时间，准备拿钱填自己的欲望。",
+  "conflict_action": "母亲办理账户限制，调取婚房首付流水和装修转账，翻出鸽舍股权代持协议，最后给儿子发送延迟到账短信。",
+  "information_gap": "读者只看到文件名称，不展开完整反杀路径。",
+  "emotional_debt_delta": "母亲开始偿还自己和老伴的晚年债，证据债务死环开始成形。",
+  "payoff_or_hook": "赔偿金从被抢对象变为诱饵。",
+  "chapter_end_hook": "我发给儿子一句话：赔偿金下周才能动。",
+  "paywall_card": false,
+  "must_include": [
+    "账户限制或大额转账提醒",
+    "婚房首付流水",
+    "装修转账记录",
+    "鸽舍股权代持协议",
+    "赔偿金下周才能动的短信"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成母亲自述计划书",
+    "不要出现非法设局",
+    "不要省略具体文件",
+    "不要让律师替母亲完成全部行动"
+  ]
+}

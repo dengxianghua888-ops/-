@@ -1,0 +1,370 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "装穷闺蜜偷走我唯一的名额，重生后我让她全吐出来",
+  "genre": "重生复仇+家庭伦理+闺蜜背叛",
+  "mechanisms": ["M3因果回旋", "M5温度曲线", "M6多层递进"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.55,
+    "short_line_rate_lte_16_max": 0.70,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.0,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 580,
+      "target_char_count": [750, 900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.8,
+          "comma_period_ratio": 0.55,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "震惊-觉醒",
+          "emotion_arc": "期待 → 震惊 → 冰冷清醒 → 决意",
+          "emotion_intensity": 9
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["信息压缩弹", "身体本能反差", "物件锚定悬念"],
+        "golden_lines": ["否定常识+揭露真相一句话颠覆", "施害者冷漠宣判式短句"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "用物件特写制造时空跳跃的眩晕感",
+        "target_description": "苏念重生回到18岁，面前是在线志愿系统确认页，密码还没被改"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 780,
+      "target_char_count": [850, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.4,
+          "comma_period_ratio": 0.48,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "冷清醒-嘲讽",
+          "emotion_arc": "冷静审视 → 识破表演 → 嘲讽回忆 → 决绝行动",
+          "emotion_intensity": 7.5
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["上帝视角回忆对比", "细节炸弹", "反话解码"],
+        "golden_lines": ["冷静陈述+隐含讽刺的细节指控", "自我认知翻转的单句成段"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "用身体信号暗示真相但不明说，让读者自己推理",
+        "target_description": "顾瑶听到苏念揭穿后脸色剧变，苏念冷笑转身——密码已改，志愿已锁"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 820,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.2,
+          "comma_period_ratio": 0.52,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "恶心-痛快",
+          "emotion_arc": "恶心（顾瑶炫耀）→ 愤怒 → 痛快（冷静碾压）",
+          "emotion_intensity": 8.5
+        },
+        "highlights": {
+          "peak_type": "physical_violence",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["面具撕裂对比", "物理化反击", "冷句收尾", "跪姿转换"],
+        "golden_lines": ["表面体贴语气+实质羞辱内容", "对方炫耀词+反向回敬", "物理动作后的挑衅式反问"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "从冷静对峙切到温暖家庭的极端反差——坚强外壳在父母面前碎裂",
+        "target_description": "苏念跑回家看到父母在收拾东西准备去县城送她确认志愿，眼泪瞬间决堤"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 850,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.5,
+          "comma_period_ratio": 0.62,
+          "sentence_avg_len": 18.2
+        },
+        "emotion": {
+          "dominant_emotion": "恐惧-守护",
+          "emotion_arc": "温暖（父母在）→ 恐惧（回忆上辈子）→ 悲痛 → 坚定守护",
+          "emotion_intensity": 9
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["时间线对比悲剧", "细节种因果", "高烧中的执念"],
+        "golden_lines": ["亲人在极痛中说出最伤人的话", "时间词+极端损失的平静陈述"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用道德绑架施压——读者愤怒但好奇苏念会不会被动摇",
+        "target_description": "叶东辰追到家门口，说顾瑶割腕了，逼苏念去看她"
+      },
+      "scenes": ["scene-04"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 780,
+      "target_char_count": [850, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.42,
+          "sentence_avg_len": 13.5
+        },
+        "emotion": {
+          "dominant_emotion": "荒谬-坚定",
+          "emotion_arc": "被攻击 → 荒谬感 → 冷静拒绝 → 母亲护犊 → 新危机",
+          "emotion_intensity": 8
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["道德反弹", "母亲一句话破局", "上辈子解码当下"],
+        "golden_lines": ["日常安慰语气+精准判断", "先否定指控+再反向定性"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "刚喘一口气立刻砸下新危机——不给读者和女主任何休息时间",
+        "target_description": "班主任电话打来：有人举报苏念伪造贫困证明骗取助学金，审计组明天到校"
+      },
+      "scenes": ["scene-05"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 1050,
+      "target_char_count": [1100, 1200],
+      "is_climax_zone": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.5,
+          "comma_period_ratio": 0.58,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "窒息-愤怒",
+          "emotion_arc": "紧张 → 被围攻 → 绝望 → 愤怒爆发 → 父亲倒下",
+          "emotion_intensity": 9.5
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["递进式围攻", "伪证的表演感", "问句连击", "父亲的热血"],
+        "golden_lines": ["两个并列短句先品性后能力双重否定", "动作停顿+认知落差揭示"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "最恐惧的事正在发生——上辈子的悲剧轨迹正在重叠",
+        "target_description": "苏建国被当众羞辱后脸色通红，手剧烈颤抖，直挺挺倒在脚手架下"
+      },
+      "scenes": ["scene-06", "scene-07"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 880,
+      "target_char_count": [1050, 1200],
+      "is_climax_zone": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.2,
+          "comma_period_ratio": 0.40,
+          "sentence_avg_len": 13.8
+        },
+        "emotion": {
+          "dominant_emotion": "绝望-反击",
+          "emotion_arc": "绝望谷底 → 冰冷清醒 → 精准反击 → 孤独等待",
+          "emotion_intensity": 10
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["绝望中的冷静反差", "疯女人式打脸", "三连定性", "上辈子信息武器化"],
+        "golden_lines": ["并列贬义词+礼貌式反问", "反将一军式宣言", "极正式称呼+极简求助"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "全篇最坚强的女主跪下了——这个姿态本身就是最大的悬念",
+        "target_description": "苏念跪在ICU门口，手机里韩致远教授说'我已经联系了省教育厅，你等着'"
+      },
+      "scenes": ["scene-08", "scene-09"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 920,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.50,
+          "sentence_avg_len": 16.5
+        },
+        "emotion": {
+          "dominant_emotion": "释放-温暖",
+          "emotion_arc": "等待焦虑 → 获救释放 → 身世揭晓 → 温暖感恩",
+          "emotion_intensity": 8
+        },
+        "highlights": {
+          "peak_type": "identity_reveal",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["释放式短句", "身世信息的克制处理", "感恩三连举杯"],
+        "golden_lines": ["时间线对比+极端对照物", "他人评价式两字金句"],
+        "rhythm_shape": "前快后慢"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "温暖收束——但读者知道外面还有未解决的敌人",
+        "target_description": "韩致远说'你很勇敢'，苏念第一次在长辈面前笑了——但顾瑶和叶东辰的审判还没开始"
+      },
+      "scenes": ["scene-10"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 850,
+      "target_char_count": [1050, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.45,
+          "sentence_avg_len": 14.2
+        },
+        "emotion": {
+          "dominant_emotion": "痛快-警惕",
+          "emotion_arc": "痛快（判刑）→ 唏嘘 → 警惕（顾瑶纠缠）→ 坚定",
+          "emotion_intensity": 8
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["恐怖化跟踪描写", "金句回旋", "精神崩溃的独白暴露"],
+        "golden_lines": ["常识反问+关系否定", "俗语+定性判决"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "自杀未遂比死亡更残忍——'但没有死'三个字比'死了'更让人发凉",
+        "target_description": "顾瑶从教学楼跳下，没有死，脖子以下完全瘫痪"
+      },
+      "scenes": ["scene-11", "scene-12"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 850,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 0.38,
+          "sentence_avg_len": 13.2
+        },
+        "emotion": {
+          "dominant_emotion": "冷淡-唏嘘",
+          "emotion_arc": "冷淡面对 → 被触动 → 回归冷静 → 微微唏嘘",
+          "emotion_intensity": 8
+        },
+        "highlights": {
+          "peak_type": "identity_reveal",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["身份坍塌描写", "冷句封杀", "日常化降格"],
+        "golden_lines": ["定义对方想念对象+否定自我等同", "过去身份+现在身份极端并列", "终结式陈述"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "突然的命运转折——不是被惩罚而是自我救赎式的消亡",
+        "target_description": "叶东辰送外卖途中为救闯入车道的小女孩被卡车撞飞，那个女孩也叫念念"
+      },
+      "scenes": ["scene-13"]
+    },
+    {
+      "chapter_id": 11,
+      "source_chapter_id": 11,
+      "source_char_count": 520,
+      "target_char_count": [600, 700],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.2,
+          "comma_period_ratio": 0.35,
+          "sentence_avg_len": 12.8
+        },
+        "emotion": {
+          "dominant_emotion": "平静-轻盈",
+          "emotion_arc": "唏嘘 → 接受 → 释然 → 轻盈幸福",
+          "emotion_intensity": 6.5
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["命运呼应", "一句话收束全篇", "童年画面回溯"],
+        "golden_lines": ["抽象判断+具体选择", "冷静的价值计算式判断"],
+        "rhythm_shape": "匀速舒缓"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "全篇收束句——不是爆点而是态度宣言",
+        "target_description": "苏念和父母坐大巴去省城报到，手里攥着录取通知书：'世界再穷，也穷不掉我了。'"
+      },
+      "scenes": ["scene-14"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 11,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

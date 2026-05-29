@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_3bd829101f",
+  "title": "他签的手术单杀了我",
+  "genre": "urban_sweet_ceo",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "穿书财阀文中被养妹和丈夫联手害死的女主，死后用证据清算二人",
+    "new_setting": "豪门合同婚姻中被丈夫和白月光联手逼死的女主，死后灵魂旁观丈夫悔疯自毁",
+    "character_map": {
+      "祝南星→沈念": "女主，合同妻子，被丈夫签错手术单害死后灵魂旁观清算",
+      "贺聿臣→陆时砚": "豪门丈夫，偏袒白月光导致妻子死亡，真相大白后疯魔",
+      "贺音→姜柠": "白月光/养妹，表面柔弱实则恶毒，设计害死女主",
+      "医生→医生": "抢救时打电话被拉黑的证人"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "错签手术单赴死", "min_impacts": 4, "must_include": ["姜柠设计车祸", "陆时砚签错手术同意书后离开", "女主接受死亡流程"]},
+    {"beat_id": "B2", "title": "病房偏袒羞辱", "min_impacts": 3, "must_include": ["陆时砚带姜柠回病房", "指责女主装病争宠", "女主冷句回击"]},
+    {"beat_id": "B3", "title": "姜柠独处作恶", "min_impacts": 3, "must_include": ["姜柠篡改医疗设备嫁祸", "陆时砚逼女主道歉", "女主反骂"]},
+    {"beat_id": "B4", "title": "打包证据设定时发送", "min_impacts": 3, "must_include": ["女主整理姜柠犯罪证据", "设定死后自动发送", "倒计时逼近"]},
+    {"beat_id": "B5", "title": "拉黑医院电话，死亡完成", "min_impacts": 4, "must_include": ["濒死时陆时砚拉黑医院电话", "女主死亡", "灵魂脱离"]},
+    {"beat_id": "B6", "title": "死亡证明打脸", "min_impacts": 3, "must_include": ["陆时砚得知妻子死亡", "医生指出签错手术单", "电话被拉黑证据"]},
+    {"beat_id": "B7", "title": "证据全网引爆", "min_impacts": 3, "must_include": ["定时邮件发出", "姜柠犯罪曝光", "陆时砚被反噬"]},
+    {"beat_id": "B8", "title": "姜柠被捕反咬", "min_impacts": 3, "must_include": ["姜柠审讯室反咬陆时砚", "所有包庇变成共犯证据"]},
+    {"beat_id": "B9", "title": "男主疯魔", "min_impacts": 3, "must_include": ["陆时砚试图挽回", "发现一切不可逆", "精神崩溃"]},
+    {"beat_id": "B10", "title": "女主脱身不回头", "min_impacts": 2, "must_include": ["女主回归自己的生活", "拒绝迟来深情"]}
+  ]
+}

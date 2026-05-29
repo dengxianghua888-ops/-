@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 650,
+  "target_chars_max": 820,
+  "location": "云衡医学院校门与返程车内",
+  "time": "第七天清晨",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "刘队", "匿名馆长"],
+  "character_goal": "封存云衡医学院阶段性案件，并判断真正馆长是否仍在观察她。",
+  "opposition_goal": "馆长要证明纪白和江砚落网并未伤到核心组织，并把林照纳入下一轮编号。",
+  "conflict_action": "林照把受害者姓名和证据箱交给刘队，刚上车就收到匿名账号发来的早年病例扫描件和校门偷拍图。",
+  "information_gap": "馆长如何拿到林照早年病例，下一次编号会落在哪里。",
+  "emotional_debt_delta": "校园安全债阶段性偿还，黑网悬念债+2。",
+  "payoff_or_hook": "个案闭合，更大犯罪网络打开；寒灯被真正馆长反向盯上。",
+  "chapter_end_hook": "匿名账号发来林照儿时病例扫描件：寒灯，欢迎归档。",
+  "paywall_card": true,
+  "must_include": [
+    "受害者姓名归档",
+    "证据箱交接",
+    "林照离开校门",
+    "早年病例扫描件",
+    "署名馆长"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完全大团圆",
+    "不要让馆长只发一句空话",
+    "不要删除主角冷静克制的胜利姿态"
+  ]
+}

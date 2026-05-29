@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "白雀寺外斋市豆腐摊",
+  "time": "同日上午",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "常顺",
+    "王府护卫",
+    "柳含霜"
+  ],
+  "character_goal": "阿眠要护住摊上的银袋和豆腐板",
+  "opposition_goal": "常顺要找回脸面，把沈素娘连人带摊带回王府",
+  "conflict_action": "常顺带护卫砸秤抢豆腐，阿眠扑上去护银袋被踩住手",
+  "information_gap": "车帘后的柳含霜是否认出沈家母女",
+  "emotional_debt_delta": "新增砸摊债和踩手债，王府正式入局",
+  "payoff_or_hook": "王府从幕后权力变成现场威胁",
+  "chapter_end_hook": "肃王府的车停在摊前，帘后传出柳含霜的声音：“这味儿，我像是闻过。”",
+  "paywall_card": true,
+  "must_include": [
+    "砸秤",
+    "阿眠护银袋",
+    "沈素娘不跪",
+    "柳含霜在车中开口"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把砸摊写成结果概述",
+    "不要连续解释王府多有权",
+    "不要让阿眠发表复仇宣言"
+  ],
+  "rhythm_job": {
+    "shape": "动作密度高于对白，踩手后用一行低压呼吸写沈素娘扶起阿眠",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白二成半，动作五成，呼吸点两成半，章尾用车帘声音卡住"
+  }
+}

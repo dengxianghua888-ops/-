@@ -1,0 +1,131 @@
+{
+  "story_slug": "prod_batch_01_autopsy_vow",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M4", "M3", "M6", "M5"],
+  "target_length": {
+    "min": 12000,
+    "max": 15000
+  },
+  "final_length": 13180,
+  "quality_scores": {
+    "platform": 7.4,
+    "emotion": 8.0,
+    "style": 7.5,
+    "logic": 7.4
+  },
+  "failure_types": [
+    {
+      "type": "ending_judgment_line_repetition",
+      "chapter": "第十五章-第十六章",
+      "evidence": "结尾连续使用“不是原谅/不是补偿/不是赎罪成果”等判词式短句，情绪方向正确但句式可再收敛。",
+      "reuse_lesson": "BE赎罪尾应让物件和动作承担判断，减少作者判词密度。"
+    }
+  ],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "hook": "丈夫陆谨言在尸检间门口签下主刀申请，妻子魂魄旁观自己和胎儿被送上解剖台。",
+      "reusable_fact": "现代复仇开篇可在300字内同时交代死亡、怀孕、灵魂视角、亲密关系背刺和职业程序冲突。"
+    },
+    {
+      "chapter": "第四章",
+      "hook": "指甲缝里发现不属于死者车辆的蓝色车漆。",
+      "reusable_fact": "受害者尸体自身可作为反杀证据载体，物证比口头控诉更有平台爽点。"
+    },
+    {
+      "chapter": "第七章",
+      "hook": "尸检中陆谨言发现胎儿存在。",
+      "reusable_fact": "亲手发现被自己忽视的孩子，能把职业冷静反转为情绪刑罚。"
+    },
+    {
+      "chapter": "第九章",
+      "hook": "胎心钥匙扣恢复出未送出的胎心声。",
+      "reusable_fact": "温柔礼物转为司法证物，可同时偿还爱情债、孩子债和迟到债。"
+    },
+    {
+      "chapter": "第十一章",
+      "hook": "许知遥电话里说漏公开通报没有的第二道闸。",
+      "reusable_fact": "诱导线索不直接认罪，先让反派暴露非公开现场知识，逻辑更稳。"
+    },
+    {
+      "chapter": "第十三章",
+      "hook": "车漆、监控残帧、车辆控制数据、闸机日志、助燃残留形成闭环。",
+      "reusable_fact": "现代刑侦复仇爽点应由多源证据合围，而非单一口供翻盘。"
+    },
+    {
+      "chapter": "第十六章",
+      "hook": "女主不原谅也不回头，只在胎心录音停下后离开收费站。",
+      "reusable_fact": "BE收束可给真相和离开，不给现实团圆或廉价宽恕。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "第一章",
+      "card": "陆谨言亲手签下主刀申请，并说由我主刀。"
+    },
+    {
+      "chapter": "第三章",
+      "card": "第一刀落下前，他把结婚戒指摘进证物袋。"
+    },
+    {
+      "chapter": "第四章",
+      "card": "他在我的指甲缝里看见一抹不属于我的蓝色车漆。"
+    },
+    {
+      "chapter": "第七章",
+      "card": "陆谨言看见了孩子。"
+    },
+    {
+      "chapter": "第九章",
+      "card": "钥匙扣里传出我没来得及发给他的胎心声。"
+    },
+    {
+      "chapter": "第十一章",
+      "card": "许知遥在电话那头说漏了隧道第二道闸。"
+    },
+    {
+      "chapter": "第十三章",
+      "card": "许知遥被带走时，还在喊陆谨言会原谅她。"
+    },
+    {
+      "chapter": "第十六章",
+      "card": "胎心录音停下时，我终于看见，收费站外有了光。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "终于",
+      "genre": "modern_reversal",
+      "reason": "终章和证据偿还段容易高频出现，造成判词式推进感。",
+      "chapters": ["第七章", "第九章", "第十三章", "第十六章"]
+    },
+    {
+      "candidate": "没有……也没有……",
+      "genre": "modern_reversal",
+      "reason": "用于BE非原谅尾有效，但连续使用会削弱物件动作的承载力。",
+      "chapters": ["第十五章", "第十六章"]
+    }
+  ],
+  "retrieval_tags": [
+    "modern_reversal",
+    "female_ghost_pov",
+    "autopsy_room",
+    "pregnancy_truth",
+    "unborn_child_debt",
+    "husband_forensic_doctor",
+    "evidence_chain_revenge",
+    "blue_car_paint",
+    "fetal_heartbeat_keychain",
+    "call_recording_trap",
+    "vehicle_control_data",
+    "non_forgiveness_ending",
+    "paywall_autopsy_reveal",
+    "paywall_heartbeat_audio",
+    "M4_soul_pov",
+    "M3_delayed_evidence_irony",
+    "M6_layered_reversal",
+    "M5_temperature_collapse"
+  ],
+  "manual_revision_delta": []
+}

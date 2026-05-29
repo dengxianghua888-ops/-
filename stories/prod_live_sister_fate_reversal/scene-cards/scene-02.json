@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "隔音琴房内与门外宴会厅",
+  "time": "复演宴开场后",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "调音师",
+    "林父",
+    "林母",
+    "宾客"
+  ],
+  "character_goal": "晚萤受伤后想让门外的人听见自己还活着。",
+  "opposition_goal": "门外众人要维持宴会秩序，父母要把任何杂音压下去。",
+  "conflict_action": "晚萤爬向门口，扯倒琴凳，敲击地板；调音师推走音箱，林父让人把走廊音乐开大。",
+  "information_gap": "家人以为门内只是发脾气，读者和晚萤看见她已经倒在钢琴脚边。",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "死亡前置落地，灵魂旁观正式开始。",
+  "chapter_end_hook": "林晚萤看见自己的身体趴在钢琴脚边，门外掌声正好响起。",
+  "paywall_card": false,
+  "must_include": [
+    "隔音墙吞掉求救",
+    "晚萤看见自己的身体",
+    "外面复演宴掌声与门内死亡并置",
+    "不写抢救成功可能"
+  ],
+  "must_not_write_as_exposition": [
+    "不要血腥描写伤口",
+    "不要用大段心理独白控诉",
+    "不要让灵魂能碰动物品",
+    "不要把死亡写成昏迷悬念"
+  ]
+}

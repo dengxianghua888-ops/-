@@ -1,0 +1,350 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10620
+  },
+  "title": "天生像喝了半杯的我，怀孕后被他藏进钟表世家",
+  "genre": "urban_sweet_ceo / 带球跑 / 弹幕剧透 / 百年钟表世家 / 先离后爱甜宠",
+  "mechanisms": [
+    "H3_H4_opening_hook: 怀孕报告、离婚协议、弹幕白月光三连爆",
+    "M2_identity_contrast: 破产修表匠到海城裴家继承人",
+    "M3_causal_echo: 三年前捡到醉酒男人，结尾捡回一辈子的报时人",
+    "M5_temperature_curve: 离婚降温、送汤回温、产检误会坠底、坦白复婚升温",
+    "M6_layered_reversal: 白月光误导、孩子没了误会、假破产真相、裴家身份、旧婚约被否"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 720,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "弹幕刷出：白月光已经下飞机了。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 760,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "离婚协议最后一页夹着一张陌生女人的登机牌。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 720,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "裴时砚的夜班工资到账，备注只有四个字：给漾漾。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 780,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "沈知遥把祖传怀表放到柜台上，说：这是裴家给我的聘礼。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 760,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "温漾把鸡汤推过去，裴时砚却先看见她包里的产检袋。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 820,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "B超单滑到地上，裴时砚脸色一点点白下去。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 780,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "他说完“孩子还在”，血从唇角落了下来。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "病房门外，裴家的黑伞停了一整排。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 800,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "裴时砚把钟楼钥匙塞进她手心：跟我回家，听我说完。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 760,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "老宅长钟响起，所有人都看向温漾的肚子。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 780,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "沈知遥当着裴家人的面，打开那块旧怀表。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 760,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "怀表里掉出的不是沈知遥照片，是三年前温漾写的便利贴。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 760,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "裴时砚单膝跪在钟楼下，问她愿不愿意再嫁一次。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 780,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "新生儿哭声里，温漾慢吞吞说：这次，我把你爸爸捡稳了。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars": 720,
+      "scene_location": "江边公寓餐桌",
+      "character_goal": "温漾想把孕八周报告告诉裴时砚",
+      "conflict_action": "裴时砚把离婚协议推到她手边，她把报告袋压在膝上没来得及开口",
+      "information_gap": "读者只知道白月光回国传闻，不知道离婚协议是保护安排",
+      "emotion_debt_balance": "+怀孕未告知即被离婚的委屈债",
+      "chapter_end_hook": "弹幕刷出：白月光已经下飞机了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把男主写成真渣",
+        "不要解释裴家背景"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars": 760,
+      "scene_location": "江边公寓玄关",
+      "character_goal": "温漾想确认协议里为什么把财产都给她",
+      "conflict_action": "她翻协议，裴时砚按住最后一页催她签字，弹幕把登机牌和白月光联系起来",
+      "information_gap": "协议条款异常优厚但男主拒绝解释",
+      "emotion_debt_balance": "+替身误会债，+隐瞒保护债",
+      "chapter_end_hook": "离婚协议最后一页夹着一张陌生女人的登机牌。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述协议条款",
+        "不能让女主自卑讨好",
+        "禁止大段心理独白"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars": 720,
+      "scene_location": "民政局外与老城区街口",
+      "character_goal": "温漾想体面离开并决定留下孩子",
+      "conflict_action": "她签字后买酸梅糖，拒绝朋友劝酒，收到裴时砚修表铺夜班工资转账",
+      "information_gap": "他为什么破产后还坚持给她转钱",
+      "emotion_debt_balance": "+孕期委屈债，-男主实际补偿一点",
+      "chapter_end_hook": "裴时砚的夜班工资到账，备注只有四个字：给漾漾。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要把留下孩子写成冲动赌气",
+        "不能写流产威胁",
+        "不要解释民政流程"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars": 780,
+      "scene_location": "老城区钟表修复铺",
+      "character_goal": "温漾想送鸡汤并看裴时砚过得好不好",
+      "conflict_action": "她拎保温桶进铺子，撞见沈知遥递上祖传怀表并用婚约挑衅",
+      "information_gap": "怀表是否真代表婚约，沈知遥和裴家到底什么关系",
+      "emotion_debt_balance": "+白月光挑衅债，+替身误会债",
+      "chapter_end_hook": "沈知遥把祖传怀表放到柜台上，说：这是裴家给我的聘礼。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让白月光有道德高地",
+        "不要写钟表专业科普",
+        "不要让女主雌竞"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars": 760,
+      "scene_location": "修表铺后门雨棚",
+      "character_goal": "温漾想把鸡汤给裴时砚后离开",
+      "conflict_action": "裴时砚替她挡雨、塞酸梅糖，沈知遥故意撞落她包里的检查袋",
+      "information_gap": "男主看见产检袋前是否知道她怀孕",
+      "emotion_debt_balance": "-照顾动作回温，+产检暴露风险",
+      "chapter_end_hook": "温漾把鸡汤推过去，裴时砚却先看见她包里的产检袋。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把送汤写成纯日常",
+        "不要连续解释孕反",
+        "不能让男主对白月光暧昧"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars": 820,
+      "scene_location": "私立妇产医院走廊",
+      "character_goal": "温漾想独自完成产检",
+      "conflict_action": "她排队缴费，沈知遥把报告袋踢到电梯口，裴时砚捡起缺页B超单误读为孩子没了",
+      "information_gap": "报告缺页造成误会，孩子真实情况未被男主完整看到",
+      "emotion_debt_balance": "+产检独自面对债，+孩子没了误会债",
+      "chapter_end_hook": "B超单滑到地上，裴时砚脸色一点点白下去。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写医疗细节教学",
+        "不能让男主辱骂女主",
+        "不要让弹幕长篇解释报告"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars": 780,
+      "scene_location": "医院电梯口",
+      "character_goal": "温漾想说清孩子还在",
+      "conflict_action": "裴时砚攥皱B超单向她确认，她慢半拍补出关键一句，男主听见后吐血昏倒",
+      "information_gap": "他昏倒前是否听清孩子还在",
+      "emotion_debt_balance": "+男主崩溃自责债，-孩子误会部分解除",
+      "chapter_end_hook": "他说完“孩子还在”，血从唇角落了下来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成男主审判女主",
+        "不要堆强压词",
+        "不要把吐血写血腥"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars": 760,
+      "scene_location": "医院病房",
+      "character_goal": "温漾想确认裴时砚为什么怕成这样",
+      "conflict_action": "她守床边吃酸梅糖，裴时砚醒来先按铃叫医生确认她和孩子，门外裴家人递来资产冻结通知",
+      "information_gap": "裴家为什么能冻结他的资产并逼他回去",
+      "emotion_debt_balance": "-男主照顾动作回温，+裴家外部压力债",
+      "chapter_end_hook": "病房门外，裴家的黑伞停了一整排。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释豪门权谋",
+        "不要旁观者反应清单",
+        "不能让孩子成为谈判筹码"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars": 800,
+      "scene_location": "病房与医院停车场",
+      "character_goal": "裴时砚想坦白离婚动机，温漾想判断能不能信他",
+      "conflict_action": "裴时砚拿出信托文件、修表铺工资记录和钟楼钥匙，承认假破产与离婚是为了隔离裴家风险",
+      "information_gap": "裴家继承人身份揭开，但三年前暗恋和白月光真相未说完",
+      "emotion_debt_balance": "-隐瞒保护债部分偿还，+身份震惊债",
+      "chapter_end_hook": "裴时砚把钟楼钥匙塞进她手心：跟我回家，听我说完。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要大段商业背景",
+        "不能把离婚洗成完全无错",
+        "不要让女主立刻无条件原谅"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars": 760,
+      "scene_location": "海城裴家听钟楼老宅",
+      "character_goal": "温漾想进老宅听完整解释，同时保护孩子",
+      "conflict_action": "她跟裴时砚进门，裴家二房和拍卖行董事用婚约、继承权审视她",
+      "information_gap": "裴老爷子和沈知遥是否还握着旧婚约证据",
+      "emotion_debt_balance": "+家族压力债，-男主公开护妻一点",
+      "chapter_end_hook": "老宅长钟响起，所有人都看向温漾的肚子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要宅斗展开",
+        "不要写羞辱生育价值",
+        "不要介绍老宅陈设清单"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars": 780,
+      "scene_location": "听钟楼会客厅",
+      "character_goal": "沈知遥想坐实婚约，温漾想不被牵着走",
+      "conflict_action": "沈知遥当众亮出怀表和旧照，温漾让她先把表修准，裴时砚要求拆开表盖验夹层",
+      "information_gap": "怀表夹层里到底是谁的痕迹",
+      "emotion_debt_balance": "+白月光终局挑衅债，+替身误会最后一层",
+      "chapter_end_hook": "沈知遥当着裴家人的面，打开那块旧怀表。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让白月光抢女主光环",
+        "不要解释怀表工艺",
+        "不要连续逼问"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars": 760,
+      "scene_location": "听钟楼会客厅",
+      "character_goal": "裴时砚想公开切割白月光并补上三年前真相",
+      "conflict_action": "他拆开怀表夹层，拿出温漾三年前便利贴，当众否认旧情、婚约和替身说法",
+      "information_gap": "温漾是否愿意重新相信他",
+      "emotion_debt_balance": "-白月光挑衅债清算，-替身误会债大额偿还",
+      "chapter_end_hook": "怀表里掉出的不是沈知遥照片，是三年前温漾写的便利贴。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把男主告白写成演讲",
+        "不要让白月光洗白",
+        "不要抽象抒情"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars": 760,
+      "scene_location": "钟楼整点报时台阶",
+      "character_goal": "裴时砚想重新求婚，温漾想确认自己不是被孩子绑定",
+      "conflict_action": "他交出修表铺工资卡、信托文件和戒指，温漾慢吞吞提出先补三个月酸梅糖",
+      "information_gap": "她答应前最后一句话卡住读者",
+      "emotion_debt_balance": "-隐瞒保护债偿还，+复婚期待",
+      "chapter_end_hook": "裴时砚单膝跪在钟楼下，问她愿不愿意再嫁一次。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要纯撒糖无冲突",
+        "不要把求婚写成豪门炫富",
+        "不要让女主失去主动选择"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars": 780,
+      "scene_location": "医院产房外与病房",
+      "character_goal": "温漾和裴时砚完成家庭闭环",
+      "conflict_action": "生产后裴时砚先看她再看孩子，温漾把龙凤胎小手放进他掌心，弹幕陪跑完结",
+      "information_gap": "无新悬念，完成婚姻、孩子、捡人三重闭环",
+      "emotion_debt_balance": "-全部核心情绪债结清",
+      "chapter_end_hook": "新生儿哭声里，温漾慢吞吞说：这次，我把你爸爸捡稳了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要开放式结局",
+        "不要生产血腥细节",
+        "不要总结式升华"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_chars": 10000,
+    "min_chapters": 10,
+    "min_paywall_cards": 5,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      15,
+      22
+    ],
+    "short_line_rate_lte_16_min": 0.45,
+    "short_line_rate_lte_16_max": 0.62,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.12,
+    "barrage_line_rate_max": 0.24,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 7.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "林家客厅",
+  "time": "重生第一天上午",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "顾念慈"
+  ],
+  "character_goal": "当面拆穿表姐第一层伪装",
+  "opposition_goal": "表姐维持人设",
+  "conflict_action": "表姐来送早餐献殷勤→女主指出吻痕→表姐否认→女主说出只有偷情者才知道的细节",
+  "information_gap": "表姐不知女主已重生",
+  "emotional_debt_delta": "+1(表姐伪善加深)/-1(第一次打脸)",
+  "payoff_or_hook": "表姐人设裂缝",
+  "chapter_end_hook": "顾念慈的笑容僵在脸上，声音变了调：\"你怎么会知道……\"",
+  "paywall_card": false,
+  "must_include": [
+    "表姐的绿茶表演",
+    "女主一句话KO的金句",
+    "表姐面具裂开的瞬间"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写女主的前世回忆长段",
+    "不要让对峙变成解释"
+  ],
+  "rhythm_job": {
+    "shape": "假温暖→刺探→撕裂",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

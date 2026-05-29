@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "法院外、鲸跃旧直播间",
+  "time": "离婚和诉讼阶段后期",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "离婚律师", "王珩"],
+  "character_goal": "许闻溪完成情感断舍离，不让迟来忏悔改写结果",
+  "opposition_goal": "周砚礼寄忏悔信求原谅，想用共同创业和十年婚姻换复合",
+  "conflict_action": "许闻溪签完离婚文件，当着律师面把忏悔信扔进垃圾桶",
+  "information_gap": "周砚礼以为她会在最后一刻心软",
+  "emotional_debt_delta": "-背叛后求原谅债 -离婚对抗债",
+  "payoff_or_hook": "男主悔恨无效，女主不回头",
+  "chapter_end_hook": "垃圾桶盖合上，许闻溪转身走进重新亮灯的旧直播间。",
+  "paywall_card": false,
+  "must_include": ["离婚文件签字", "忏悔信", "垃圾桶", "旧直播间灯光", "不复合态度"],
+  "must_not_write_as_exposition": ["不要安排复合", "不要让新男主代替她拒绝", "不要把忏悔写得过度深情"]
+}

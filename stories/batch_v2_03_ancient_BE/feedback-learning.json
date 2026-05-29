@@ -1,0 +1,41 @@
+{
+  "slug": "batch_v2_03_ancient_BE",
+  "source_slug": "hot_7910425011",
+  "issues_encountered": [
+    {
+      "issue": "首次生成字数严重不足且rhythm多项fail",
+      "detail": "5064 chars, short_rate=0.563(vs source 0.457), question_marks_per_k=6.83(over-crank)",
+      "root_cause": "对'短碎快'风格的过度执行——每行碎到10字级别且大量反问句",
+      "fix": "合并碎行为18-20字叙事句，删掉过量反问，增加细节描写和物象叙事"
+    },
+    {
+      "issue": "多轮扩展才达到字数下限",
+      "detail": "经历多次扩展：5064→6825→8800→9225→9426→9648→9747→9824→9916→9964→10002",
+      "root_cause": "beat-bible各beat的target_chars_min合理(总和~11200)但写作时实际产出偏低，需要更多细节填充",
+      "fix": "写作时应以单beat 1000字为硬下限(非climax)，climax beats 1200字为硬下限"
+    },
+    {
+      "issue": "question_marks density边缘fail后边缘pass",
+      "detail": "1.20/k vs floor 1.28 → 添加3个反问后升至1.4+通过",
+      "root_cause": "该源文实际question density较低(1.28 floor)，容错空间极窄",
+      "fix": "写作时每千字保证1-2个反问即可，不需要刻意多加"
+    }
+  ],
+  "genre_specific_notes": [
+    "ancient_BE(虐恋火葬场)的爽点在'火葬场'——必须有足够的'施害者追悔'篇幅",
+    "温度反转是最核心机制：暖记忆必须具体到物件级别(野花/暖宝宝/背着走)才能与冷现实形成落差",
+    "该genre对白占比中等(source 0.275)但大量对白是控诉/质问式，不是日常对话",
+    "BE结尾不能写成HE——女主必须不回头，男主必须付出余生级代价",
+    "旧物引爆(家书/情书)是火葬场genre的标配桥段——必须有从'爱'到'恨'的情绪递进"
+  ],
+  "pipeline_improvements": [
+    "为首次生成设定hard_floor：单次生成如果低于7000字应立即重写而非逐段扩展",
+    "question_marks density检查应在写作中期就跑一次，避免最后微调",
+    "古言/军旅BE genre的short_line_rate目标应设为source * 0.8~1.0而非固定范围"
+  ],
+  "rhythm_fit_trajectory": [
+    {"version": "v1", "chars": 5064, "status": "fail", "notes": "short过高+question过多"},
+    {"version": "v2_rewrite", "chars": 6825, "status": "pass", "notes": "rhythm pass但字数不足"},
+    {"version": "v3_expanded", "chars": 10002, "status": "pass", "notes": "多轮微调达标"}
+  ]
+}

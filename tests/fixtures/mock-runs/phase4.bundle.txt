@@ -1,0 +1,38 @@
+<<<FILE: review.md>>>
+# Review
+
+```yaml
+gate_status: pass
+critical_failures: []
+important_failures: []
+```
+
+质量门通过。
+<<<END FILE>>>
+<<<FILE: quality-report.json>>>
+{
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "hard_checks": {
+    "required_artifacts": "pass",
+    "forbidden_words": {
+      "status": "pass",
+      "hits": {}
+    }
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": []
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": []
+  }
+}
+<<<END FILE>>>
+<<<FILE: diff.md>>>
+# Diff
+
+无需 Critical 修改。
+<<<END FILE>>>

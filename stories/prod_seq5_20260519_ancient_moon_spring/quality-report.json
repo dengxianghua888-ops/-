@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260519_ancient_moon_spring/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 14901,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 18,
+      "hook_hits": 18,
+      "hook_coverage": 1.0,
+      "lengths": [
+        794,
+        747,
+        843,
+        889,
+        814,
+        795,
+        829,
+        781,
+        778,
+        800,
+        795,
+        837,
+        755,
+        798,
+        804,
+        877,
+        841,
+        896
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 5,
+      "actual": 12,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 194,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 5,
+        "actual": 6,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 14901,
+      "sentence_count": 773,
+      "avg_sentence_length": 18.277,
+      "dialogue_ratio": 0.0405,
+      "question_marks": 13,
+      "question_marks_per_k": 0.872,
+      "physical_emotion_hits": {
+        "耳鸣": 1,
+        "指尖": 9,
+        "发麻": 1,
+        "青筋": 1,
+        "喉咙": 2,
+        "指甲": 5,
+        "掌心": 17
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.193
+    },
+    "semantic_repetition": {
+      "sentence_count": 755,
+      "unique_sentence_skeletons": 755,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0013
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.7,
+    "style": 8.1,
+    "logic": 7.7
+  },
+  "evidence": [
+    {
+      "route": "platform",
+      "location": "draft.md 第1章",
+      "evidence": "出药狱后直问小舟，随后撞见林若鸢披陆沉舟外袍，旧实验室变婴儿房，章末落到“小舟不适合再见你”。"
+    },
+    {
+      "route": "platform",
+      "location": "draft.md 第4/6/9/12/14/16章",
+      "evidence": "小舟死亡、红印封口、坠江爆炸、留声机血脉反噬、失忆归来、火场记忆均可作为强卡点。"
+    },
+    {
+      "route": "emotion",
+      "location": "draft.md 第3-4章",
+      "evidence": "医院封楼拒救，小舟问“爹是不是不要我了”，雨夜临终说“我想让爹抱一抱”，母子债现场化完成。"
+    },
+    {
+      "route": "emotion",
+      "location": "draft.md 第18章",
+      "evidence": "沈南星撕婚书、拒绝周砚钥匙、带小舟旧药箱登船，完成不复合不另嫁的情绪偿还。"
+    },
+    {
+      "route": "style",
+      "location": "draft.md 多章",
+      "evidence": "药盒、银匙、红印、旧扣、血样单、旧药箱反复承担情绪和证据功能，避免纯旁白控诉。"
+    },
+    {
+      "route": "logic",
+      "location": "draft.md 第6/11/13章",
+      "evidence": "伪诊断、封院令、空病房账册、血样报告形成闭环，陆沉舟的签名被反复作为主动罪证。"
+    }
+  ]
+}

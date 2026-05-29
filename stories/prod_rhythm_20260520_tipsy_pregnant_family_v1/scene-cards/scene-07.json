@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 760,
+  "target_chars_max": 880,
+  "location": "B超室门口与急诊观察区",
+  "time": "同日上午稍后",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "护士",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想把孩子还在的证据交到陆砚辞手里",
+  "opposition_goal": "陆砚辞被误会击穿，短时间内不敢看她",
+  "conflict_action": "温瓷追到急诊观察区，把B超单塞进陆砚辞掌心，按着他看胎心数值",
+  "information_gap": "孩子安全释放，但陆砚辞那句“又没护住”暴露更深旧事",
+  "emotional_debt_delta": "孩子债部分偿还，离婚保护债和三年前旧债升级",
+  "payoff_or_hook": "B超单成为行动证据，男主从崩溃转为后怕落泪",
+  "chapter_end_hook": "陆砚辞攥着B超单，低声说：“我差点又没护住你们。”",
+  "paywall_card": false,
+  "must_include": [
+    "B超单",
+    "胎心数值",
+    "温瓷按住他的手",
+    "陆砚辞不敢抬眼",
+    "弹幕从误导转为震惊"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段心理剖白",
+    "不要让误会一句话轻飘飘结束",
+    "不要让温瓷无条件立刻复合"
+  ],
+  "rhythm_job": "2轮短对白+1张B超单证据翻转+章尾用“又”字埋旧债"
+}

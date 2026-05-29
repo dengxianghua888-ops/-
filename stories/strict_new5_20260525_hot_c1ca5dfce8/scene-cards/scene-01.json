@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "奉天殿册后礼",
+  "time": "清晨到朝贺正时",
+  "pov": "我",
+  "characters": ["我", "新帝", "太史令", "百官", "内侍"],
+  "character_goal": "保住册后礼与我和新帝的承诺",
+  "opposition_goal": "太史令与新帝要当殿坐实我祸国失仪的名头",
+  "conflict_action": "太史令举奏疏指凤钟三裂，新帝先扶我起身说会保我性命，转头下旨把我削去册后资格、押入罪乐署三年",
+  "information_gap": "他到底是临场变心，还是从一开始就在等这一刻？",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "封后变定罪，旧情瞬间成刀",
+  "chapter_end_hook": "他抱着我说保命，下一句却是：打入罪乐署，三年。",
+  "paywall_card": false,
+  "must_include": ["凤钟三裂", "玄鸟坠阶", "新帝先抱后弃", "百官低声议论像评论区", "册后金册被收走"],
+  "must_not_write_as_exposition": ["不要复述册后礼流程", "不要长篇解释凤仪失律命盘", "不要把众人震惊写成一句带过"],
+  "rhythm_job": {
+    "shape": "对白4段/动作3段/百官议论1段/呼吸点1段/章尾钩1刀",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

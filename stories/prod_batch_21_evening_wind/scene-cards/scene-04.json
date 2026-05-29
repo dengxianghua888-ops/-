@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B4",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "主角办公室→公寓",
+  "time": "一周后~一个月",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "陆承衍（电话/语音）"
+  ],
+  "character_goal": "陆承衍施压+悔过语音开始累积",
+  "opposition_goal": "陆承衍想逼主角低头，同时又因表姐的粘人开始后悔",
+  "conflict_action": "陆承衍撤资合作方，项目停摆；但不久后开始发语音抱怨表姐",
+  "information_gap": "语音内容=未来武器（伏笔）",
+  "emotional_debt_delta": "+4（威胁）-2（语音暴露弱点）",
+  "payoff_or_hook": "手机震了：一条语音，他说他想我了",
+  "chapter_end_hook": "手机震了：一条语音，他说他想我了",
+  "paywall_card": true,
+  "must_include": [
+    "撤资威胁的具体动作",
+    "至少一段语音内容摘要",
+    "主角冷静保存语音的细节"
+  ],
+  "must_not_write_as_exposition": [
+    "不能概括为他开始后悔"
+  ]
+}

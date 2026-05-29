@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "hard_checks": {
+    "required_artifacts": "pass",
+    "review_gate_block": "pass",
+    "title_length": {
+      "status": "pass",
+      "chars": 17
+    },
+    "forbidden_words": {
+      "status": "pass",
+      "hits": {}
+    },
+    "soft_forbidden_words": {
+      "status": "pass",
+      "hits": {}
+    }
+  },
+  "similarity": {
+    "status": "pass",
+    "max_continuous_overlap_chars": 0,
+    "notes": [
+      "结构借鉴多层反转与规则回旋，载体、人物、关键道具、结尾话术已替换。"
+    ]
+  },
+  "style_metrics": {
+    "status": "pass",
+    "avg_sentence_length": 13.06,
+    "dialogue_ratio": 0.2265,
+    "question_marks_per_k": 5.698,
+    "physical_emotion_hits": {
+      "手心": 1
+    }
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "mechanism": "M1",
+        "check": "反派留下退助协议，主角用同一协议审计条款反杀",
+        "status": "pass",
+        "evidence": "第十七条专项审计触发清算"
+      },
+      {
+        "mechanism": "M6",
+        "check": "多层递进反转",
+        "status": "pass",
+        "evidence": "第一名被退助、侄女顶替、父亲捐款被挪用"
+      },
+      {
+        "mechanism": "M3",
+        "check": "因果回旋反讽",
+        "status": "pass",
+        "evidence": "人情压规则回旋为规则比人情干净"
+      }
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "contract_item": "好消息撞上剥夺通知",
+        "status": "pass",
+        "evidence": "助学金第一名后收到退助协议"
+      },
+      {
+        "contract_item": "主角主动触发审计",
+        "status": "pass",
+        "evidence": "主角写下不同意退出，申请审计"
+      },
+      {
+        "contract_item": "结尾话术回旋",
+        "status": "pass",
+        "evidence": "规则比人情干净"
+      }
+    ]
+  },
+  "tomato_fit": {
+    "status": "pass",
+    "first_chapter_hook_score": 9,
+    "paywall_card_count": 1,
+    "chapter_hook_coverage": 1
+  }
+}

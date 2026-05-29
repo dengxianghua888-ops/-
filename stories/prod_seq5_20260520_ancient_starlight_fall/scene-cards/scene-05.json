@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "医院地下停车场",
+  "time": "医院离开时",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "谢砚司机", "保安"],
+  "character_goal": "林晚宜要带着报告离开医院，不让陆沉舟抢到信息。",
+  "opposition_goal": "陆沉舟要抢报告袋，逼她承认怀孕检查是为了逼他公开。",
+  "conflict_action": "陆沉舟堵住车门伸手抢报告袋，林晚宜后退半步，把报告袋递给谢砚司机锁进车载保险箱。",
+  "information_gap": "陆沉舟只看到报告袋，没看到谢砚的家属签字回执。",
+  "emotional_debt_delta": "+误判追责债；+人格贬低债",
+  "payoff_or_hook": "陆沉舟第二次误判，把女主所有行动解释成逼婚。",
+  "chapter_end_hook": "陆沉舟盯着她手里的报告袋，笃定道：“你去医院，是为了逼我？”",
+  "paywall_card": false,
+  "must_include": ["车门拦截", "抢报告袋", "林晚宜不解释", "陆沉舟误判医院行为"],
+  "must_not_write_as_exposition": ["不要吵成长篇对账", "不要让陆沉舟看到孩子父亲信息", "不要写成女主求他负责"]
+}

@@ -1,0 +1,397 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 11200,
+    "max": 14400,
+    "planned": 12800
+  },
+  "title": "他把救援基金给白月光后，我带外婆离开",
+  "genre": "都市追妻火葬场 / 白月光替身 / 带娃虐恋 / 亲情补偿",
+  "mechanisms": {
+    "M5_temperature_reversal": "叶昭从期待领证、求全家福，到拿赔偿、断联、冷拒追妻；陆闻舟在她离开后才升温追悔。",
+    "M3_causal_irony": "80%救援基金收益权和集团表决权三次回旋：先给林舒禾、再试探林舒禾、最后补偿叶昭但失效。",
+    "M6_layered_reversal": "羞辱醒悟、职场剥夺、亲情失约、孩子二次伤害、现实离境、真相反噬、追妻失败、公益重建逐层递进。"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "叶昭在消防通道里听见陆闻舟说：她懂事，不会闹。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "周毓兰把全家福预约单压在病历下，日期只剩三天。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "叶昭的调度权限被当众转给林舒禾。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "叶昭签下清算单，第一次把离开变成钱。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "陆星澈捂着鼻子说，太婆和妈妈都脏。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "叶昭把陆星澈的新加坡同行签证申请撕掉。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "陆闻舟把北桥救援站股权赠与书递给她，以为她会哭着答应。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "叶昭把股权协议交给中介，换成外婆治疗保证金。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "家属区门禁响起红灯：无权限进入。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "周毓兰删掉托付视频，只留下一句：昭昭自己就是依靠。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "陆闻舟在民政局门口等到天黑，等来的是空病房照片。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "国内SIM卡被叶昭掰断，落进机场垃圾桶。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "旧相机亮起，屏幕里是周毓兰迟到的遗言。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "林舒禾听见80%要给叶昭，脸色当场变了。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "陆闻舟追到新加坡，却看见叶昭牵着外婆从诊室出来。",
+      "paywall_card": true
+    },
+    {
+      "chapter_id": 16,
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "叶昭收下感谢，不收爱情。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "海城急救航空基金发布会后台消防通道",
+      "character_goal": "叶昭想确认陆闻舟公开求婚是否终于给她七年名分。",
+      "conflict_action": "叶昭推开消防门，听见陆闻舟把婚前80%救援基金收益权和集团表决权留给林舒禾。",
+      "information_gap": "陆闻舟不知道叶昭在门后，林舒禾不知道叶昭已经听完整段安排。",
+      "emotion_debt_balance": "七年无名分债+替身羞辱债首次爆开，叶昭期待值从正峰跌到零。",
+      "chapter_end_hook": "叶昭在消防通道里听见陆闻舟说：她懂事，不会闹。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能只概述求婚羞辱，必须写发布会灯牌、消防门、律师文件和叶昭停在门把上的手。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "呼吸科病房",
+      "character_goal": "叶昭想让陆闻舟和陆星澈兑现外婆全家福心愿。",
+      "conflict_action": "叶昭拨通陆闻舟电话，把预约单拍给他；陆闻舟切断通话，转去接林苗的学校电话。",
+      "information_gap": "叶昭还不知道这会是外婆治疗窗口前最后一次完整摄影预约。",
+      "emotion_debt_balance": "亲情债建立，外婆的温柔与男主的冷处理形成第一轮对照。",
+      "chapter_end_hook": "周毓兰把全家福预约单压在病历下，日期只剩三天。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能长篇解释病情，必须用氧气管、病历页、预约单和电话忙音承接。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "海城急救航空调度中心任命会",
+      "character_goal": "叶昭想保住自己七年搭建的调度中心权限。",
+      "conflict_action": "林舒禾拿着任命书坐上主位，陆闻舟当众收回叶昭的调度总监续聘合同。",
+      "information_gap": "林舒禾以为叶昭会当场失控，陆闻舟以为撤职只是给她冷静的惩罚。",
+      "emotion_debt_balance": "职场剥夺债新增，白月光侵占不再停留在感情层。",
+      "chapter_end_hook": "叶昭的调度权限被当众转给林舒禾。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成会议说明，必须让门禁卡、席卡、续聘合同被具体拿走。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_location": "集团人事财务办公室",
+      "character_goal": "叶昭想把被撤职转化成外婆出境治疗的现金。",
+      "conflict_action": "叶昭把续聘合同放进碎纸机，按清算流程逼财务当天打出竞业赔偿和项目奖金。",
+      "information_gap": "陆闻舟以为赔偿是她赌气要价，不知道她在凑治疗保证金。",
+      "emotion_debt_balance": "女主从忍耐转向现实抽身，第一次把伤害兑换成离开资源。",
+      "chapter_end_hook": "叶昭签下清算单，第一次把离开变成钱。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把离开写成口号，必须写签字、到账短信、合同碎片。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "旧照相馆临时摄影棚",
+      "character_goal": "叶昭想完成外婆的全家福，给外婆一个安心。",
+      "conflict_action": "陆星澈被陆闻舟带到门口又被林苗叫走，临走前甩开周毓兰的手并捂鼻嫌脏。",
+      "information_gap": "陆星澈不知道这句话会让叶昭取消他的新加坡同行安排。",
+      "emotion_debt_balance": "孩子二次伤害债落地，母子幻想被刺穿。",
+      "chapter_end_hook": "陆星澈捂着鼻子说，太婆和妈妈都脏。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把孩子伤害轻描淡写成童言无忌，必须写外婆缩回的手和空相机架。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "签证中心自助打印区",
+      "character_goal": "叶昭想切断孩子对她离开计划的情感绑架。",
+      "conflict_action": "叶昭把陆星澈的同行签证申请从资料袋抽出，当场撕碎，只保留教育信托文件。",
+      "information_gap": "陆闻舟不知道叶昭已经把母亲身份从日常照料改成有限责任。",
+      "emotion_debt_balance": "母子债从忍受转为设边界，叶昭仍负责但不再被母职捆绑。",
+      "chapter_end_hook": "叶昭把陆星澈的新加坡同行签证申请撕掉。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成报复孩子，必须同时写她保留教育信托。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "基金律师办公室",
+      "character_goal": "陆闻舟想用股权和领证日期稳住叶昭，叶昭想拿到可变现资产。",
+      "conflict_action": "陆闻舟把北桥救援站股权赠与协议推到叶昭面前，叶昭逐页拍照并签收原件。",
+      "information_gap": "陆闻舟以为她收下协议代表妥协，叶昭已经联系资产中介。",
+      "emotion_debt_balance": "男主第一次迟到补救，女主把补偿改造成离开工具。",
+      "chapter_end_hook": "陆闻舟把北桥救援站股权赠与书递给她，以为她会哭着答应。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写叶昭情绪崩溃求爱，必须写她核对页码、签收、留痕。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_location": "银行贵宾室与医院缴费窗口",
+      "character_goal": "叶昭想把股权折现为周毓兰的新加坡临床试验保证金。",
+      "conflict_action": "叶昭把股权协议交给中介托管，拿到保证金回执后立刻交到医院国际转诊窗口。",
+      "information_gap": "陆闻舟不知道自己给的补偿正在推远叶昭。",
+      "emotion_debt_balance": "因果回旋第一层完成，男主给的资产成为离开燃料。",
+      "chapter_end_hook": "叶昭把股权协议交给中介，换成外婆治疗保证金。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能空泛说她准备出国，必须写托管章、缴费回执、转诊联系人。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "救援基地家属区门口",
+      "character_goal": "叶昭想回家取外婆旧相机和自己的证件。",
+      "conflict_action": "叶昭刷门禁失败，保安按林舒禾的新名单拦她，陆星澈在楼上关掉对讲。",
+      "information_gap": "林舒禾不知道旧相机里藏着周毓兰录好的视频遗言。",
+      "emotion_debt_balance": "住所归属债新增，家庭位置被制度化删除。",
+      "chapter_end_hook": "家属区门禁响起红灯：无权限进入。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能只写被赶出家门，必须写门禁红灯、权限名单、对讲机黑屏。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "旧照相馆暗房",
+      "character_goal": "周毓兰想把叶昭从托付给男人的旧念头里拉出来。",
+      "conflict_action": "周毓兰取出旧相机，删掉托付陆闻舟的视频，重新录下让叶昭自己做依靠的遗言。",
+      "information_gap": "叶昭不知道外婆还在病历夹背面写下她生产和七年等待的真相。",
+      "emotion_debt_balance": "亲情债由求托付转为给力量，女主获得精神断根。",
+      "chapter_end_hook": "周毓兰删掉托付视频，只留下一句：昭昭自己就是依靠。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成外婆鸡汤，必须用删除键、录制红点、暗房灯写行动。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "民政局门口与呼吸科病房",
+      "character_goal": "陆闻舟想按原计划领证，叶昭想完成出境前最后一次病房交接。",
+      "conflict_action": "陆闻舟拿着号牌等叶昭，叶昭在病房办理转院，留下监护安排变更书和探视限制协议。",
+      "information_gap": "陆闻舟还以为叶昭迟到是闹脾气，不知道她已经签完抚养权边界。",
+      "emotion_debt_balance": "婚姻误判反噬，女主完成法律切割。",
+      "chapter_end_hook": "陆闻舟在民政局门口等到天黑，等来的是空病房照片。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能只写民政局扑空，必须交叉写号牌、转院单、监护安排变更书。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_location": "海城机场国际出发口",
+      "character_goal": "叶昭想带外婆登上最早去新加坡的航班并彻底断联。",
+      "conflict_action": "叶昭推着周毓兰过安检，拔出国内SIM卡掰断，换上新加坡临时号码。",
+      "information_gap": "陆闻舟赶去旧照相馆，错过机场最后一通国内号码。",
+      "emotion_debt_balance": "现实离境完成，所有迟到补救正式失效。",
+      "chapter_end_hook": "国内SIM卡被叶昭掰断，落进机场垃圾桶。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成抽象远走，必须写登机牌、轮椅、SIM卡、安检口。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "旧照相馆与陆闻舟车内",
+      "character_goal": "陆闻舟想找到叶昭离开的原因。",
+      "conflict_action": "陆闻舟撬开旧相机存储卡，在车里看完周毓兰的视频和病历夹背面的遗书。",
+      "information_gap": "陆闻舟第一次知道叶昭生产险情、七年等待和外婆全家福心愿。",
+      "emotion_debt_balance": "真相滞后债引爆，男主追悔开始但已错过离境节点。",
+      "chapter_end_hook": "旧相机亮起，屏幕里是周毓兰迟到的遗言。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用旁白解释真相，必须通过视频播放、暂停键、病历背面字迹引爆。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 650,
+      "target_chars_max": 900,
+      "scene_location": "集团董事会议室",
+      "character_goal": "陆闻舟想用同一个80%条件看清林舒禾。",
+      "conflict_action": "陆闻舟当众宣布若结婚就把80%救援基金收益权给叶昭，林舒禾抓皱协议并要求他撤回。",
+      "information_gap": "董事们才意识到林舒禾要的不是公益名义，而是实权和收益。",
+      "emotion_debt_balance": "80%因果回旋第二次落地，白月光特权被利益测试拆穿。",
+      "chapter_end_hook": "林舒禾听见80%要给叶昭，脸色当场变了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把林舒禾写成单纯发疯，必须让她围绕收益权、表决权失态。"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_location": "新加坡临床试验中心外",
+      "character_goal": "陆闻舟想用80%股权和孩子哭求换叶昭回头，叶昭想守住新生活边界。",
+      "conflict_action": "陆闻舟带陆星澈拦住叶昭，把80%股权转让文件递过去；叶昭只接过孩子的药盒，不接文件。",
+      "information_gap": "陆闻舟不知道叶昭已经决定把旧资产全部转入偏远地区急救基金。",
+      "emotion_debt_balance": "迟到补偿第三次失败，孩子后悔也不能恢复母亲陪伴。",
+      "chapter_end_hook": "陆闻舟追到新加坡，却看见叶昭牵着外婆从诊室出来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写孩子哭一场就和解，必须写叶昭照顾但拒绝恢复旧母职。"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 700,
+      "target_chars_max": 950,
+      "scene_location": "新加坡救援演练现场与海边照相点",
+      "character_goal": "陆闻舟想用救命补偿最后一次证明自己，叶昭想完成价值重建。",
+      "conflict_action": "演练现场吊装设备滑落，陆闻舟推开叶昭受伤；叶昭叫急救、签基金文件、带外婆去海边拍新照片。",
+      "information_gap": "陆闻舟终于明白感激不等于爱，救命不能抵消七年亏欠。",
+      "emotion_debt_balance": "终局清算完成，叶昭保留善意但不复合，旧关系彻底断开。",
+      "chapter_end_hook": "叶昭收下感谢，不收爱情。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让救援事故成为复合理由，不能用男主受伤洗白前债。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "max_total_chars": 18000,
+    "min_chapters": 14,
+    "planned_chapters": 16,
+    "min_paywall_cards": 4,
+    "planned_paywall_cards": 4,
+    "chapter_end_hook_coverage_required": 1.0,
+    "micro_hooks_per_1000_chars_min": 1,
+    "major_cards_per_3000_chars_min": 1,
+    "first_300_chars_requirement": "必须直接写发布会后台偷听羞辱：陆闻舟偏爱林舒禾，叶昭被定义为懂事替身。",
+    "style_floor": {
+      "pov": "第一人称冷叙述",
+      "avg_sentence_length_chars": "12-18",
+      "dialogue_ratio": "0.25-0.32",
+      "question_density_per_1000_chars": "3.0-4.5",
+      "short_line_ratio_le_16_chars": ">=0.55",
+      "required_object_anchor_per_scene": true,
+      "forbid_long_expository_grief": true,
+      "forbid_easy_reconciliation": true
+    }
+  }
+}

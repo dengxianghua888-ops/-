@@ -1,0 +1,34 @@
+pipeline_mode: production
+status: final
+title: 急诊科主任说我在装病
+source: corpus/hot_623b1cb2b5/source.md
+source_title: 火场求救时，老婆说我在闹脾气
+genre: family_ethics
+mechanisms:
+  - M1
+  - M3
+  - M5
+hook_type: H1
+target_length:
+  min: 10000
+  max: 18000
+actual_length: 10016
+chapters: 16
+paywall_cards: 4
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  scores:
+    C0_soul_contract: pass
+    C1_emotion_curve: 90
+    C2_style_dna: 87
+    C3_source_overlap: pass
+    C4_forbidden_words: pass
+    C4_physical_emotion: pass
+    C5_mechanism_fidelity: pass
+runner_policy:
+  external_allowed: false
+  provider: claude
+  source: manual_production
+created: "2026-05-22"

@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "score_scale": "0-10",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "hard_checks": {
+    "word_count": {"status": "pass", "value": 10500},
+    "chapter_count": {"status": "pass", "value": 15},
+    "source_overlap": {"status": "pass", "value": 9},
+    "meta_leak": {"status": "pass", "value": 0}
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {"id": "M1_dead_loop_reversal", "status": "pass", "evidence": "Ch9: 二选一逼问 — 是→无数据来源 / 不是→文书造假"},
+      {"id": "M3_causal_boomerang", "status": "pass", "evidence": "Ch8-9: 用对方盖的300万章反向索赔3亿"},
+      {"id": "M6_progressive_escalation", "status": "pass", "evidence": "PPT→视频→封条→笔→计算器→汗→流水→法槌"}
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {"id": "tone_match", "status": "pass", "evidence": "第一人称冷硬叙述，短声明句为主"},
+      {"id": "rhythm_match", "status": "pass", "evidence": "rhythm_fit PASS; avg_line_chars 23.2 (source 23.4), delta 0.9%"},
+      {"id": "opening_structure", "status": "pass", "evidence": "结论前置9行摘要 + 分隔线后进入时间线叙事"}
+    ]
+  },
+  "machine_metrics": {
+    "target_length": {"min": 10000, "max": 14000, "actual": 10500, "status": "pass"},
+    "chapters": {"count": 15, "status": "pass"},
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {"chars": 9793, "line_count": 418, "avg_line_chars": 23.428, "long_line_rate": 0.122, "quote_line_rate": 0.3469, "question_marks_per_k": 5.106},
+      "candidate": {"chars": 10327, "line_count": 445, "avg_line_chars": 23.207, "long_line_rate": 0.1506, "quote_line_rate": 0.3888, "question_marks_per_k": 2.615},
+      "failures": []
+    }
+  },
+  "comparison_with_v1": {
+    "note": "v2 优化后与 v1(manual_run_modern_20260522_1802) 对比",
+    "avg_line_chars": {"v1": 30.188, "v2": 23.207, "source": 23.428, "delta_improvement": "29% → 0.9%"},
+    "long_line_rate": {"v1": 0.322, "v2": 0.151, "source": 0.122, "delta_improvement": "164% → 23%"},
+    "quote_line_rate": {"v1": 0.515, "v2": 0.389, "source": 0.347, "delta_improvement": "48% → 12%"},
+    "question_marks_per_k": {"v1": 2.437, "v2": 2.615, "source": 5.106, "delta_improvement": "52% → 49% (minimal)"},
+    "rhythm_fit_status": {"v1": "FAIL (2 failures)", "v2": "PASS (0 failures)"}
+  }
+}

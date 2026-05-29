@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 480,
+  "target_chars_max": 640,
+  "location": "江南药学讲堂、商报旧档室",
+  "time": "讲学当日傍晚",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "温砚清",
+    "报馆伙计",
+    "听讲商户"
+  ],
+  "character_goal": "沈照棠要查清陆衡舟为何纠缠自己。",
+  "opposition_goal": "陆衡舟想亲口解释，温砚清想把她带回南洋避开旧案。",
+  "conflict_action": "沈照棠在讲堂避开陆衡舟递来的并蒂药囊，转身进商报旧档室，自己翻出三年前头版，逐字读到沈照棠、阿砚、封锁药堂、认罪。",
+  "information_gap": "她知道事实文本，却还没完整想起雪夜和采药崖。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "女主主动查旧案",
+      "男主认罪被女主本人读到",
+      "阿砚死期压回女主意识"
+    ],
+    "balance_after": "失忆保护层破裂。"
+  },
+  "payoff_or_hook": "商报把她和阿砚的名字并排印出来。",
+  "chapter_end_hook": "沈照棠翻开旧商报，看见自己的名字和阿砚的死期并排印着。",
+  "paywall_card": true,
+  "must_include": [
+    "讲堂避开陆衡舟",
+    "并蒂药囊",
+    "商报旧档室",
+    "沈照棠亲手翻报",
+    "她和阿砚名字并排"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让陆衡舟口述替代女主查证。",
+    "不要摘抄整篇报纸。",
+    "不要让认罪触发原谅。"
+  ],
+  "target_chars": 500,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

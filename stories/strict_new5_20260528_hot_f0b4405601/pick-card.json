@@ -1,0 +1,16 @@
+{
+  "slug": "strict_new5_20260528_hot_f0b4405601",
+  "corpus_slug": "hot_f0b4405601",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M2",
+    "M3",
+    "M5",
+    "M6"
+  ],
+  "hook_type": "H1",
+  "title_formula": "T1",
+  "tomato_fit_score": 8.4,
+  "picked_at": "2026-05-28T16:54:27",
+  "run_id": "20260528_165427"
+}

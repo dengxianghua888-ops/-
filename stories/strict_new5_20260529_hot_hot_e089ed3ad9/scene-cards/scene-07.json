@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 760,
+  "target_chars_max": 930,
+  "location": "急诊留观病房外走廊",
+  "time": "同日中午",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "急诊护士",
+    "患者家属"
+  ],
+  "character_goal": "林望逼沈岚按病历顺序看完父亲死亡链条。",
+  "opposition_goal": "沈岚要把责任推给不知道、被隐瞒、工作忙。",
+  "conflict_action": "林望把术后感染记录、病危通知、取消排期单逐张贴上走廊玻璃。",
+  "information_gap": "每张单据都有沈岚可查询的权限痕迹，击穿她的不知情。",
+  "emotional_debt_delta": "母亲的罪从误会升级为懒于求证、不在乎。",
+  "payoff_or_hook": "秦砚舟来电前置。",
+  "chapter_end_hook": "电话接通，秦砚舟笑着问：那对父子还没死心？",
+  "paywall_card": false,
+  "must_include": [
+    "术后感染记录",
+    "病危通知",
+    "取消排期单",
+    "林望判词：你不是不知道，你是不在乎"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释时间线",
+    "不要写医疗流程科普",
+    "不要让沈岚被秦砚舟完全洗成受害者"
+  ],
+  "rhythm_job": {
+    "shape": "证据一张一问，对白和动作各半，中段留一次走廊静音",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 7,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用护士推药车经过、林望重新贴平单角缓一拍"
+  }
+}

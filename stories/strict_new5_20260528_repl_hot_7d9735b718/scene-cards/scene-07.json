@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 900,
+  "target_chars_max": 1020,
+  "location": "陪读房玄关和客厅",
+  "time": "傍晚",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "林栀", "男孩"],
+  "character_goal": "进入陪读房并拍下能证明第二个家的物证。",
+  "opposition_goal": "林栀想用女主人姿态压住许清辞，试探她知道多少。",
+  "conflict_action": "许清辞进门拍下孕妇枕、男童校服、亲子照、租赁合同和沈泊舟拖鞋。",
+  "information_gap": "沈泊舟在这里完整扮演丈夫和父亲。",
+  "emotional_debt_delta": "父职债+2，财产债+1，空间羞辱兑现。",
+  "payoff_or_hook": "第二个家实体曝光，第二次付费级卡点。",
+  "chapter_end_hook": "墙上那张合照里，沈泊舟抱着男孩，背后写着：我们的新家。",
+  "paywall_card": true,
+  "must_include": ["孕妇枕", "男童校服", "沈泊舟拖鞋", "租赁合同", "亲子合照"],
+  "must_not_write_as_exposition": ["不要把房间写成物品清单", "不要写女主痛哭", "不要让林栀马上认输"],
+  "rhythm_job": {
+    "shape": "视觉证据场，每样物件只落一个短动作；用亲子照压到章尾。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "拍照、换鞋、放下包这些证据动作承接强压。",
+    "dialogue_action_hook_ratio": "对白约28%，动作约52%，呼吸点约15%，章尾钩约5%。"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "发布会投屏区与主舞台",
+  "time": "冷柜进场后十分钟",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "主持人",
+    "董事代表",
+    "交易所问询组来电人"
+  ],
+  "character_goal": "沈听澜要把退婚转成公司控制权事件。",
+  "opposition_goal": "江砚舟要把她的动作定义成吃醋和欲擒故纵。",
+  "conflict_action": "沈听澜把董事会投票权委托书推到江砚舟面前，摘下婚戒放进冷柜托盘。",
+  "information_gap": "江砚舟不知道交易所已经收到审查风险提示。",
+  "emotional_debt_delta": {
+    "added": [
+      "拖婚五年尊严债"
+    ],
+    "paid": [
+      "公开退婚",
+      "揭第二大表决权人身份"
+    ]
+  },
+  "payoff_or_hook": "沈听澜不靠联姻进董事会，她本来就能让上市停摆。",
+  "chapter_end_hook": "截断句：江砚舟手机响了，来电显示是交易所问询组。",
+  "paywall_card": false,
+  "must_include": [
+    "江砚舟误判她在闹",
+    "沈听澜短句回应：所以我们退婚",
+    "婚戒与冷柜托盘形成视觉回收",
+    "投票权委托书只用一句短因果说明"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述股权结构",
+    "不要写董事会规则长段",
+    "不要让沈听澜解释自己多委屈"
+  ],
+  "rhythm_job": {
+    "shape": "文件翻牌，短句断情，电话钩子截章",
+    "dialogue_action_breathing_ratio": "对白约40%，动作约45%，呼吸点约15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用婚戒落在金属托盘的轻声响承接身份揭牌",
+    "chapter_tail_action": "手机来电打断江砚舟的冷笑"
+  }
+}

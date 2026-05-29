@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "老戏楼雨廊",
+  "time": "公开切割后夜里",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想确认自己到底是不是替身，以及三年前为什么捡到陆砚辞",
+  "opposition_goal": "陆砚辞想坦白但怕温瓷觉得自己被设计",
+  "conflict_action": "温瓷把旧戏照塞回陆砚辞手里，要求他说清三年前暴雨巷口",
+  "information_gap": "陆砚辞承认故意让她捡到自己，正式求婚与未来承诺还没给",
+  "emotional_debt_delta": "替身债偿还，真爱债释放，仪式债最后悬起",
+  "payoff_or_hook": "女主不是替身，是男主蓄意靠近的唯一选择",
+  "chapter_end_hook": "陆砚辞说：“不是你挡了谁，是我走了很久，才敢倒在你门口。”",
+  "paywall_card": true,
+  "must_include": [
+    "雨廊",
+    "旧戏照被还回去",
+    "三年前暴雨巷口",
+    "陆砚辞承认故意被捡",
+    "弹幕承认看错"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成长篇回忆",
+    "不要用命运感抒情",
+    "不要洗白陆家长辈压迫",
+    "不要把温瓷写成马上全盘原谅"
+  ],
+  "rhythm_job": "2轮逼问+1句真相承认+章尾用被捡反转卡付费点"
+}

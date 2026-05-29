@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 1000,
+  "target_chars_max": 1200,
+  "location": "沈家册封典礼正厅·众目睽睽",
+  "time": "紧接上章·正午",
+  "pov": "阿昭",
+  "characters": ["阿昭", "沈砚卿", "裴若霜", "素笺", "众宾客"],
+  "character_goal": "阿昭要逐条清算六层罪行，让所有人听到真相",
+  "opposition_goal": "沈砚卿想求原谅/解释/跪地，但每一次开口都被事实堵回",
+  "conflict_action": "阿昭冷静逐条列举六笔债（毒墨杀子→不请太医→灌绝育毒→逼画寿字→焚画→囚禁）→每条用原话回旋打脸→沈砚卿跪地哭说对不起→阿昭不哭不怒只用事实碾压→裴若霜突然扑过来抱腿",
+  "information_gap": "全部信息公开化——众人从不知到全知，沈砚卿从'体面族长'变为'杀子凶手'",
+  "emotional_debt_delta": "大规模偿还：六层债在一段话内清算",
+  "payoff_or_hook": "裴若霜扑过来抱腿——还有更大的秘密即将揭露",
+  "chapter_end_hook": "裴若霜见沈砚卿怨恨地望着她，突然扑过来抱住阿昭的腿——她要说什么？",
+  "paywall_card": true,
+  "must_include": [
+    "六笔债的清单式列举（必须一口气不停歇，像宣读判决书）",
+    "至少一句原话回旋（引用沈砚卿/裴若霜说过的话反击）",
+    "阿昭全程不哭——'眼眶红了但没有一滴泪'",
+    "沈砚卿跪地的物理动作",
+    "最后裴若霜扑过来的动作作为章末"
+  ],
+  "must_not_write_as_exposition": [
+    "六笔债不得写成回忆段，必须是当面控诉的现在时",
+    "不得用叙述者视角解释'为什么不原谅'",
+    "不得写旁观者的冗长反应——一两句带过即可"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 20.2,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "冷静碾压",
+    "emotion_arc": "冷静控诉 → 层层加码 → 极致碾压",
+    "emotion_intensity": 10.0,
+    "reader_feeling_target": "爽到起鸡皮疙瘩，每一句话都想叫好",
+    "required_techniques": [
+      {
+        "technique": "清单式控诉节奏",
+        "instruction": "像宣读判决书一样逐条列举罪行：毒墨→不请太医→灌药→逼画寿字→焚画→囚禁。每条用一到两个短句，中间不插入沈砚卿的反应（他只能跪着听），一气呵成"
+      },
+      {
+        "technique": "原话回旋打脸",
+        "instruction": "必须至少引用一句沈砚卿/裴若霜之前说过的原话反击，如：'小产死不了人，你就是这么爱我的？'或'乡野丫头不配做沈家宗妇，那昭阳长公主呢？'"
+      },
+      {
+        "technique": "不哭的控诉更有力",
+        "instruction": "明确写出'眼眶红了但没有一滴泪掉下来'——哭=弱者，不哭=已超越伤痛的强者。控诉时语气越平静，碾压感越强"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问句式并列（你能X吗？你能Y吗？）+ 不可逆性强调",
+        "example": "本公主的孩子你能让他复生吗？灌下我肚子的红花，你能让她消失吗",
+        "instruction": "用两个反问确认伤害不可逆——结构为'A你能复原吗？B你能消除吗？'，用以表达'你永远赔不起'"
+      },
+      {
+        "structure": "假设句+省略号（话被打断/自知说不出口）",
+        "example": "我若早些知道你的身份，我……",
+        "instruction": "沈砚卿的未完成句——他自己都说不下去，因为潜台词太丑陋（知道身份就不会这样做=一切因为看不起她）"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "累积式",
+    "source_excerpt": "本公主的孩子你能让他复生吗？灌下我肚子的红花，你能让她消失吗……你杀死我的孩子，连大夫也不肯请，只留下一句，流产死不了人……流产死不了人，你就是这么爱我的？……我若早些知道你的身份，我……我看着他眼眶发红，却没有一滴泪掉下来。"
+  }
+}

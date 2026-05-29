@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 780,
+  "target_chars_max": 860,
+  "location": "内堂对质处，转入私牢门前",
+  "time": "次日",
+  "pov": "霍池渊",
+  "characters": [
+    "霍池渊",
+    "贺婉书",
+    "老账房",
+    "管家",
+    "霍承舟"
+  ],
+  "character_goal": "把真相彻底钉死，并亲口承认自己害死了贺晚棠。",
+  "opposition_goal": "贺婉书要继续装柔弱，把一切推成误会和下人擅作主张。",
+  "conflict_action": "霍池渊当众摊开底稿、手令和供词，一句句逼问，最后亲手把贺婉书拖进私牢。",
+  "information_gap": "自己亲手把她送进了死局。",
+  "emotional_debt_delta": "+2 因果开始回到加害者身上，但女主已不在场领取",
+  "payoff_or_hook": "他终于承认，真正该被问罪的第一个人其实是自己。",
+  "chapter_end_hook": "自己亲手把她送进了死局。",
+  "paywall_card": true,
+  "must_include": [
+    "霍承舟最好在场听见一次，形成亲子裂缝",
+    "拖进私牢是动作，不是口头发落"
+  ],
+  "must_not_write_as_exposition": [
+    "不要刑罚展示化",
+    "不要让贺婉书的认罪替霍池渊脱责"
+  ],
+  "rhythm_job": {
+    "shape": "证据摊开30%+逼问对白35%+价值反咬20%+拖行收尾15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.53,
+    "action_ratio_target": 0.3,
+    "hook_drop": "以自我定罪收尾，不靠反派惨叫",
+    "low_pressure_bridge": "摊纸、指痕、拖椅这些证据动作承接高压对质"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "谢氏影业发布会签到区",
+  "time": "三天后傍晚",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "苏明霜", "媒体记者", "谢氏工作人员"],
+  "character_goal": "林晚宜要进入谢氏发布会，与谢砚确认婚约和报告后续。",
+  "opposition_goal": "陆沉舟要当众证明林晚宜参加发布会是为了刺激他。",
+  "conflict_action": "陆沉舟拽住她的腕带，在媒体镜头前念出她旧经纪人身份，谢氏工作人员刷卡改签贵宾通道。",
+  "information_gap": "林晚宜的座次已经被改到谢家席，但陆沉舟还不知道。",
+  "emotional_debt_delta": "+公开误判债；+身份低估债",
+  "payoff_or_hook": "林晚宜身份栏变化，发布会正名即将发生。",
+  "chapter_end_hook": "谢氏发布会名单上，林晚宜的身份一栏忽然变成了“谢家贵宾”。",
+  "paywall_card": false,
+  "must_include": ["签到系统", "贵宾腕带", "陆沉舟第三次误判", "媒体镜头围观"],
+  "must_not_write_as_exposition": ["不要让林晚宜主动炫耀", "不要提前讲完谢家安排", "不要让媒体无动作旁观"]
+}

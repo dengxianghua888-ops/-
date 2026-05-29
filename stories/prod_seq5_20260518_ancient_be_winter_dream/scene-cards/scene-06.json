@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 680,
+  "target_chars_max": 840,
+  "location": "沈澜星私人悬浮车",
+  "time": "归零前后交界",
+  "pov": "第三人称贴沈澜星，夹纪寒舟冷感旁观预热",
+  "characters": [
+    "沈澜星",
+    "纪寒舟",
+    "司机",
+    "沈氏法务"
+  ],
+  "character_goal": "沈澜星想定位纪寒舟，把他带回家软禁到加冕发布会结束。",
+  "opposition_goal": "纪寒舟的死亡触发证据包开始自动发送，打断她的控制。",
+  "conflict_action": "沈澜星调取婚姻定位，车窗屏却弹出报案包第一页：第一枚胚囊死亡确认。",
+  "information_gap": "她还不知道后面八份记录和伪神谕源码都会陆续打开。",
+  "emotional_debt_delta": "妻子悔悟线启动，但仍停在拒认阶段。",
+  "payoff_or_hook": "她第一次被证据逼着看见孩子不是样本。",
+  "chapter_end_hook": "沈澜星终于打开他留下的报案包，里面第一份证据写着：第一枚胚囊死亡确认。",
+  "paywall_card": false,
+  "must_include": [
+    "婚姻定位权限",
+    "报案包自动弹出",
+    "第一枚胚囊死亡确认",
+    "沈澜星命令法务封锁失败"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让沈澜星立刻彻底醒悟",
+    "不要洗白她此前不知道",
+    "不要写成普通邮件阅读"
+  ]
+}

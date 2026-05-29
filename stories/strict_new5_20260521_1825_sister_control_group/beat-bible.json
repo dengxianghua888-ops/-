@@ -1,0 +1,289 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10690
+  },
+  "title": "姐姐把她的舔狗介绍给我后，我重生了",
+  "genre": "family_ethics / rebirth / sister-contrast / marriage-betrayal / female-awakening",
+  "mechanisms": [
+    "M5 温度反转曲线",
+    "M6 多层递进反转",
+    "M3 因果回旋反讽"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 760,
+      "scene_range": ["scene-01", "scene-01"],
+      "chapter_end_hook": "我刚从病床上咽下那句‘将就’，下一秒，沈蔓就把周叙川推到了我面前。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 740,
+      "scene_range": ["scene-02", "scene-02"],
+      "chapter_end_hook": "我改填了影视技术线，抬头时，周叙川正盯着我，像是也认识这个结局。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 760,
+      "scene_range": ["scene-03", "scene-03"],
+      "chapter_end_hook": "周叙川说他也做过一个梦，可他梦里的新娘，分明是我和我姐两张脸。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 780,
+      "scene_range": ["scene-04", "scene-04"],
+      "chapter_end_hook": "祁渡把海鲜汤从我手边拿走时，周叙川却连我会过敏都忘了。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 730,
+      "scene_range": ["scene-05", "scene-05"],
+      "chapter_end_hook": "那张被改过的专业志愿确认单，最后一个笔画，和沈蔓的一模一样。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 760,
+      "scene_range": ["scene-06", "scene-06"],
+      "chapter_end_hook": "校园影像节后台，周叙川当众拦住我，说这次他不会再把我让出去。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 760,
+      "scene_range": ["scene-07", "scene-07"],
+      "chapter_end_hook": "沈蔓贴着我耳边笑，说她也回来了，而且这次，她要把人和名都一起拿走。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 800,
+      "scene_range": ["scene-08", "scene-08"],
+      "chapter_end_hook": "妇产医院门外，我听见周叙川说：‘她只是更适合结婚。’"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 760,
+      "scene_range": ["scene-09", "scene-09"],
+      "chapter_end_hook": "我推门进去时，沈蔓捂着肚子看我，像在看一个终于知道自己排第几的人。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 760,
+      "scene_range": ["scene-10", "scene-10"],
+      "chapter_end_hook": "项目发布会后台，周叙川伸手抓我，我反手把录音发给了评审组。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 780,
+      "scene_range": ["scene-11", "scene-11"],
+      "chapter_end_hook": "署名置换邮件、送礼录音、经费流水，一份不少，全都到了举报邮箱。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 720,
+      "scene_range": ["scene-12", "scene-12"],
+      "chapter_end_hook": "行业通报出来那天，沈蔓的婚礼直播突然黑掉了。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 760,
+      "scene_range": ["scene-13", "scene-13"],
+      "chapter_end_hook": "周叙川在公司楼下失控拉扯我时，祁渡已经替我拨通了报警电话。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 820,
+      "scene_range": ["scene-14", "scene-14"],
+      "chapter_end_hook": "祁渡说他不是恰好赶上我重来，而是陪我重来过一次。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 760,
+      "scene_location": "疗养病房 / 艺考集训报名点",
+      "character_goal": "沈栀想弄明白自己临终前听到的婚姻真相，并立刻避开旧命运入口。",
+      "conflict_action": "周叙川在病床前说出婚姻只是代替姐姐收尾；重生后的沈蔓当场把他介绍给沈栀做作品搭子。",
+      "information_gap": "周叙川当年到底是被谁推给她的，沈蔓是否也参与设计了这段婚姻？",
+      "emotion_debt_balance": "爆开核心债务：幸福婚姻是骗局；新增债务：姐姐在起点就动过手脚。",
+      "chapter_end_hook": "我刚从病床上咽下那句‘将就’，下一秒，沈蔓就把周叙川推到了我面前。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能把临终真相写成温吞回忆", "不能弱化姐姐亲手递人的反讽"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 740,
+      "scene_location": "专业分流办公室",
+      "character_goal": "沈栀要改掉前世绑定周叙川的导演创作线，夺回人生路线按钮。",
+      "conflict_action": "她当场改填影视技术线，沈蔓试图抢表阻拦，老师要求立即落笔确认。",
+      "information_gap": "前世的专业去向究竟是谁动过，为什么所有人都默认她该跟周叙川一路？",
+      "emotion_debt_balance": "偿还部分路线债：女主第一次主动改命；新增怀疑债：旧轨道可能从志愿单就被安排。",
+      "chapter_end_hook": "我改填了影视技术线，抬头时，周叙川正盯着我，像是也认识这个结局。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用流程化填表说明", "不要复述专业介绍", "不能把冲突写成单纯嘴仗"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 760,
+      "scene_location": "集训楼走廊",
+      "character_goal": "沈栀试探周叙川是否也带着前世记忆。",
+      "conflict_action": "她故意说出前世节点试探，周叙川回以半明半暗的‘梦境’，并堵住去路追问她为何突然变了。",
+      "information_gap": "周叙川是不是也重生了，如果是，他为什么还想抓住沈栀？",
+      "emotion_debt_balance": "升级债务：从单向先知变成双向信息战。",
+      "chapter_end_hook": "周叙川说他也做过一个梦，可他梦里的新娘，分明是我和我姐两张脸。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要长篇解释重生机制", "不要写成玄学讨论", "不能省略堵路和逼近动作"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 780,
+      "scene_location": "食堂 / 机房门口",
+      "character_goal": "沈栀要验证前世温情是否只是错觉，并建立祁渡的对照价值。",
+      "conflict_action": "食堂有人递来海鲜汤，祁渡先一步拿走并换成热面；周叙川脱口而出‘你不是一直都吃这个’。",
+      "information_gap": "前世周叙川到底记得谁、在意谁，祁渡为什么会准确知道她海鲜过敏？",
+      "emotion_debt_balance": "偿还认知债一截：周叙川的温情开始塌；新增情感债：祁渡的记忆从哪来？",
+      "chapter_end_hook": "祁渡把海鲜汤从我手边拿走时，周叙川却连我会过敏都忘了。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成温柔日常散文", "不要罗列食堂环境", "不能用旁白替代物证对照"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 730,
+      "scene_location": "办公室 / 楼梯间",
+      "character_goal": "沈栀要拿到前世路线被人动过的第一件实物证据。",
+      "conflict_action": "她借口补签翻出旧确认单复印件，当场发现涂改痕迹；沈蔓追进楼梯间夺纸。",
+      "information_gap": "改表的人究竟是沈蔓一个，还是周叙川也参与了？",
+      "emotion_debt_balance": "偿还物证债：旧命不是错觉；新增共谋债：姐姐和前夫可能早就站一边。",
+      "chapter_end_hook": "那张被改过的专业志愿确认单，最后一个笔画，和沈蔓的一模一样。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要复述纸面内容清单", "不能长讲学校制度", "不要把追夺写成静态发现"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 760,
+      "scene_location": "校园影像节后台",
+      "character_goal": "沈栀要保住自己的作品位置，不再给周叙川和沈蔓做隐形执行者。",
+      "conflict_action": "周叙川在后台强行拦人，要求她继续替他补剪素材；沈栀当众拒绝并点出前世自己替人擦屁股的旧命。",
+      "information_gap": "周叙川到底是舍不得她的能力，还是舍不得这个低成本婚配模板？",
+      "emotion_debt_balance": "偿还主体性债：她第一次公开拒绝旧分工；新增占有债：周叙川开始明牌纠缠。",
+      "chapter_end_hook": "校园影像节后台，周叙川当众拦住我，说这次他不会再把我让出去。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释剪辑流程", "不能把冲突写成回忆账本", "不要列围观者反应清单"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 760,
+      "scene_location": "放学路 / 小区门口",
+      "character_goal": "沈栀要确认沈蔓是否也重生，并看清姐姐这一世的真实意图。",
+      "conflict_action": "沈蔓挡在小区门口，直接说出前世才会知道的细节，明牌挑衅她别再碰周叙川。",
+      "information_gap": "沈蔓为什么重来后还执意抢回周叙川，她到底图的是爱、赢，还是名利绑定？",
+      "emotion_debt_balance": "升级债务：三方全员博弈成形；读者判断从‘姐姐偏心’升级到‘姐姐主动侵害’。",
+      "chapter_end_hook": "沈蔓贴着我耳边笑，说她也回来了，而且这次，她要把人和名都一起拿走。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把姐姐写成单纯恋爱脑", "不能大段总结前世恩怨", "不要削弱她的主动攻击性"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 800,
+      "scene_location": "妇产医院病房外走廊",
+      "character_goal": "沈栀要确认沈蔓和周叙川现在到底走到哪一步，同时寻找前世婚姻本质的答案。",
+      "conflict_action": "她在病房外偷听到两人争吵，周叙川说出‘她更适合结婚’，沈蔓则拿怀孕和前世旧账逼他站队。",
+      "information_gap": "前世婚姻是否从一开始就是替姐姐兜底的工具局，周叙川到底把沈栀摆在什么位置？",
+      "emotion_debt_balance": "核爆偿债：幸福婚姻本质被正式命名为低成本模板；新增羞辱债：备胎排序即将揭晓。",
+      "chapter_end_hook": "妇产医院门外，我听见周叙川说：‘她只是更适合结婚。’",
+      "paywall_card": true,
+      "forbidden_summary": ["不能把偷听写成旁白总结", "不要细描医疗过程", "不能省略争吵中的利益交换"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 760,
+      "scene_location": "妇产医院病房内",
+      "character_goal": "沈栀要当面切断旧关系命名权，把‘备胎的备胎’砸回去。",
+      "conflict_action": "她推门进入病房，当面拆穿两人的前世与今生逻辑，甩开周叙川拉扯，并对沈蔓说出关系降格判断。",
+      "information_gap": "沈蔓会不会继续拿家人、道德和怀孕绑她，周叙川是否会立刻翻脸？",
+      "emotion_debt_balance": "高强度偿债：语言落锤，羞辱正式回敬；新增反扑债：两人不会轻易放手。",
+      "chapter_end_hook": "我推门进去时，沈蔓捂着肚子看我，像在看一个终于知道自己排第几的人。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成价值观演讲", "不能复述病房布置", "不要把核心快感变成哭诉"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 760,
+      "scene_location": "项目发布会后台",
+      "character_goal": "沈栀要守住自己新项目的核心署名，不让周叙川再用情感和拉扯夺回控制权。",
+      "conflict_action": "周叙川在发布会后台堵她、抓她手腕求复合又翻脸施压；沈栀甩开他，把偷拍视频和录音同步发出。",
+      "information_gap": "光有私下录音够不够打穿他，还是需要更完整的行业证据链？",
+      "emotion_debt_balance": "偿还切割债：旧情彻底撕破脸；新增实操债：反杀必须进入证据化阶段。",
+      "chapter_end_hook": "项目发布会后台，周叙川伸手抓我，我反手把录音发给了评审组。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成拉扯回忆杀", "不能长讲发布会流程", "不要弱化女主先动手发证据"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 780,
+      "scene_location": "工作室 / 电脑前",
+      "character_goal": "沈栀要完成对周叙川职业面的主动一击，而不是旁观他们自爆。",
+      "conflict_action": "她和祁渡一起核对送礼录音、经费流水、署名置换邮件，亲手打包举报材料并提交。",
+      "information_gap": "举报能否真正生效，祁渡为什么总能补上她还没说出口的证据缺口？",
+      "emotion_debt_balance": "高额偿债：女主亲手发动因果回旋；新增情感债：祁渡的熟悉感更重。",
+      "chapter_end_hook": "署名置换邮件、送礼录音、经费流水，一份不少，全都到了举报邮箱。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要把材料列成清单式说明", "不能靠祁渡代做全部动作", "不要写成技术教程"]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 720,
+      "scene_location": "婚礼直播现场 / 手机屏幕前",
+      "character_goal": "沈栀要见证姐姐和周叙川被自己的关系逻辑反噬，而不是再次卷入救火。",
+      "conflict_action": "行业通报与项目撤奖同时爆出，婚礼直播现场失控，沈蔓当众质问周叙川之前给过谁署名和承诺。",
+      "information_gap": "沈蔓彻底塌房后会不会反咬沈家，还是会继续把错往沈栀身上推？",
+      "emotion_debt_balance": "偿还反噬债：抢来的关系开始互咬；保留亲情残债：姐妹关系如何收尾仍未结算。",
+      "chapter_end_hook": "行业通报出来那天，沈蔓的婚礼直播突然黑掉了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成吃瓜帖汇总", "不能长讲网络评论", "不要让女主只站着看热闹"]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 760,
+      "scene_location": "公司楼下 / 派出所",
+      "character_goal": "沈栀要完成法律层面的边界建立，让周叙川再无洗白出口。",
+      "conflict_action": "周叙川在公司楼下失控拉扯、推搡，祁渡报警，沈栀配合留档并提交此前证据。",
+      "information_gap": "周叙川会不会还试图用旧情和家人施压翻盘，沈家会不会逼她息事宁人？",
+      "emotion_debt_balance": "偿还安全债：失控行为落地成现实后果；新增终局债：她如何给姐姐留最后一句话。",
+      "chapter_end_hook": "周叙川在公司楼下失控拉扯我时，祁渡已经替我拨通了报警电话。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要渲染暴力快感", "不能大段普法", "不要让祁渡抢走报警主体性"]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 820,
+      "scene_location": "文旅影像项目现场 / 河堤夜风里",
+      "character_goal": "沈栀要完成价值回收，把幸福重心从男人身上移回自己，同时接住祁渡的最终代偿。",
+      "conflict_action": "她在项目现场拿到核心署名与主导权，回头扶起狼狈的沈蔓说出女性自立立场；祁渡随后坦白自己也重生过。",
+      "information_gap": "祁渡究竟从什么时候开始记得她，这份感情会不会越界成新的依赖？",
+      "emotion_debt_balance": "完成核心偿债：人生路线、事业主导、价值观全部收回；留下温暖尾债：新的并肩关系可以慢慢开始。",
+      "chapter_end_hook": "祁渡说他不是恰好赶上我重来，而是陪我重来过一次。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把结尾收成恋爱圆满宣言", "不能口号化输出女性成长", "不要淡化女主事业主导权"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [20, 27],
+    "short_line_rate_lte_16_min": 0.28,
+    "short_line_rate_lte_16_max": 0.4,
+    "direct_dialogue_line_rate_min": 0.22,
+    "direct_dialogue_line_rate_max": 0.33,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 5.5,
+    "explanatory_long_paragraph_cap_per_chapter": 120
+  }
+}

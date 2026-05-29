@@ -1,0 +1,386 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "心梗求救时，急诊科主任老婆说我是焦虑症发作",
+  "genre": "family_ethics",
+  "mechanisms": ["M1死环反杀", "M3因果回旋反讽", "M5温度反转曲线", "M6多层递进反转"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 20],
+    "short_line_rate_lte_16_min": 0.55,
+    "short_line_rate_lte_16_max": 0.75,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.45,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 7.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 2100,
+      "target_char_count": [1900, 2150],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 4.3,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.64,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "窒息-绝望",
+          "emotion_arc": "紧张 → 求救 → 被拒 → 再求救 → 再被拒 → 恐惧升级 → 孤注一掷",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "感受'所有出口被堵死'的窒息，同时为主角的求生意志揪心"
+        },
+        "highlights": {
+          "peak_moment": "120电话转接后，调度员说'您爱人提前说过，您最近情绪不太好'",
+          "peak_type": "public_humiliation",
+          "emotional_bomb": "三次求救三次被降级，最后一次是妻子本人的专业身份碾压"
+        },
+        "techniques": ["三段递进封锁", "画外音侵入", "感官过载叠加", "悬疑嫁接", "视觉定格收尾"],
+        "golden_lines": [
+          "心梗是真的。我也是真的快死了。可没有人当回事。",
+          "不是没人信。是沈知微先一步，把我从'急性心梗'变成了'焦虑症发作'。",
+          "不是单纯心梗。家里的燃气阀，有人动过。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "以静写动：在混乱中定格手机屏幕画面，用安静对比制造余音",
+        "target_description": "主角意识模糊倒地，手机屏幕停在妻子的微信对话框'吃了安定就睡吧'，同时暗示厨房方向有异常响动"
+      },
+      "scenes": ["scene-01", "scene-02", "scene-03"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 1200,
+      "target_char_count": [1050, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.5,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 5.8,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.58,
+          "sentence_avg_len": 17.0
+        },
+        "emotion": {
+          "dominant_emotion": "冷痛-决绝",
+          "emotion_arc": "苏醒 → 诊断打击 → 回忆温情 → 电话被羞辱 → 冷静决断",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "在不育诊断和妻子冷漠的双重打击下，为主角的决绝感到心疼且解气"
+        },
+        "highlights": {
+          "peak_moment": "妻子说'你现在连这种话都编得出来了？'——得知丈夫可能不育后的反应是不信+嘲讽",
+          "peak_type": "emotional_bomb",
+          "emotional_bomb": "丈夫偷偷体检准备惊喜 vs 现在终身药物致不育"
+        },
+        "techniques": ["诊断冷语术", "回忆闪回刺刀", "背景音对比", "朋友圈证据"],
+        "golden_lines": [
+          "你现在连这种话都编得出来了？",
+          "帮我准备离婚材料。越快越好。",
+          "你现在不是没死吗？"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "从被害者到行动者的身份切换，用极简短句传递不可逆决心",
+        "target_description": "主角挂断电话后联系律师，只说四个字'越快越好'——从受害者变为行动者"
+      },
+      "scenes": ["scene-04", "scene-05"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 1350,
+      "target_char_count": [1150, 1350],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.0,
+          "comma_period_ratio": 0.5,
+          "question_mark_density_per_1k": 6.2,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.6,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "对峙-冷硬",
+          "emotion_arc": "挑衅登场 → 双方对峙 → 撕协议 → 主角更冷 → 身份否认",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "替主角愤怒于撕协议的侮辱，同时被'法院见'的冷静震到"
+        },
+        "highlights": {
+          "peak_moment": "沈知微当面把离婚协议撕成八半",
+          "peak_type": "power_shift",
+          "emotional_bomb": "她以为撕纸能阻止离婚——不知道主角早有法律准备"
+        },
+        "techniques": ["物理化递进（撕纸）", "冷静反差句", "第三人称打圆场术", "身份否认作为武器"],
+        "golden_lines": [
+          "不是威胁。是通知。",
+          "那就法院见。",
+          "原来在她眼里，我差点死在家里，换来的也不过是一句'别总觉得自己要死'。"
+        ],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "以施害者的表情变化暗示权力天平已经倾斜",
+        "target_description": "主角对医生说'她不是我家属'，沈知微的脸色瞬间难看到极点——第一次意识到她可能真的会失去一切"
+      },
+      "scenes": ["scene-06", "scene-07"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 2000,
+      "target_char_count": [1750, 2000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.2,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 4.5,
+          "direct_dialogue_rate": 0.32,
+          "short_line_rate_lte16": 0.55,
+          "sentence_avg_len": 18.5
+        },
+        "emotion": {
+          "dominant_emotion": "侵占-愤怒",
+          "emotion_arc": "回忆温情 → 发现侵占 → 层层加码 → 遗物被亵渎 → 愤怒爆发",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "从'可笑'到'忍无可忍'的共情愤怒，尤其是亡父听诊器被别人戴着的刺痛"
+        },
+        "highlights": {
+          "peak_moment": "方逸宁穿着主角白大褂查房，脖子上挂着亡父的听诊器",
+          "peak_type": "identity_reveal",
+          "emotional_bomb": "胎心监护仪钥匙扣碎裂 + 父亲听诊器被占 + 生育能力丧失——三重象征叠加"
+        },
+        "techniques": ["空间回忆嵌套", "物件递进侵占", "挑衅式低语", "伤口撕裂叙事"],
+        "golden_lines": [
+          "你现在还有资格叫我滚吗？",
+          "这里早就不是家了。",
+          "我差点死在这套房子里，你转头就让他住进来了，是吗？"
+        ],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "权威第三方（警方）突然介入，暗示将有新真相揭露",
+        "target_description": "警方上门通知：心梗发作当晚，家中燃气阀有人为开启痕迹——'你当时的处境比心梗本身更危险'"
+      },
+      "scenes": ["scene-08", "scene-09"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 800,
+      "target_char_count": [720, 850],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 18.5,
+          "comma_period_ratio": 0.58,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.5,
+          "sentence_avg_len": 19.2
+        },
+        "emotion": {
+          "dominant_emotion": "真相-寒意",
+          "emotion_arc": "听取报告 → 闪回碎片 → 危险升级确认 → 冷静离场",
+          "emotion_intensity": 8.0,
+          "reader_feeling_target": "从'原来不只是延误'的震惊转为'如果她信了他就不会遇到燃气泄漏'的后怕+愤怒"
+        },
+        "highlights": {
+          "peak_moment": "民警说'燃气阀指纹比对结果出来了——不是你的'",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "燃气阀被人为开启+方逸宁当晚来过=不只是延误救治，可能是蓄意谋害"
+        },
+        "techniques": ["官方叙述冷感", "闪回碎片拼接", "反问升级术"],
+        "golden_lines": [
+          "不是意外。那晚，有人拧开了燃气阀。",
+          "如果那天她肯信我一次，事情都不会走到这一步。"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "以最平静的语气说出最沉重的因果——暗示接下来要让她为'不信'付出代价",
+        "target_description": "主角平静地说'如果那天她肯信我一次，事情都不会走到这一步'——读者明白追责即将开始"
+      },
+      "scenes": ["scene-10"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 750,
+      "target_char_count": [800, 950],
+      "is_climax_section": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 5.3,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 15.5
+        },
+        "emotion": {
+          "dominant_emotion": "证据-冷锋",
+          "emotion_arc": "证据展示 → 系统性伤害确认 → 追责决断 → 宣战",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "看到三条消息时的'铁证如山'快感，以及'终于要收网了'的期待"
+        },
+        "highlights": {
+          "peak_moment": "三条急救调度群消息逐条展示——20:07/20:08/20:11的时间戳精确到分",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "消息内容和心梗发作时间线完全吻合——这不是失误是蓄意"
+        },
+        "techniques": ["时间戳证据锤", "原文引用式揭露", "冷静宣战金句"],
+        "golden_lines": [
+          "她最在意的，不就是那身白大褂吗？那就让她自己看看，她到底配不配穿。",
+          "120第一次不是故意拖延，是看见这几条后按'低优先级'处理了。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "death_declaration",
+        "hook_technique": "以第一人称宣战句结尾——读者知道清算要开始了",
+        "target_description": "主角说'那就让她自己看看，她到底配不配穿那身白大褂'——宣告制度性清算正式启动"
+      },
+      "scenes": ["scene-11"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 900,
+      "target_char_count": [920, 1100],
+      "is_climax_section": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.4,
+          "question_mark_density_per_1k": 6.7,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 14.0
+        },
+        "emotion": {
+          "dominant_emotion": "审判-快感",
+          "emotion_arc": "证据呈堂 → 逐项承认 → 同意离婚 → 追悔 → 诛心反击",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "听她一声声'承认'的解气，和最后那句'你掐掉了那个可能'的痛快"
+        },
+        "highlights": {
+          "peak_moment": "主角说'你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能'",
+          "peak_type": "cold_revenge",
+          "emotional_bomb": "'如果那天我信你一次'——她的追悔在他面前一文不值"
+        },
+        "techniques": ["法庭问答体", "省略号递进", "诛心反击术"],
+        "golden_lines": [
+          "你现在终于想起来，我们原本可能会有个孩子了？",
+          "你堵死我求救电话的那一刻，就已经亲手掐掉了那个可能。"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "'没有回头'是物理化的决绝——与第一章她'不接电话'的镜像",
+        "target_description": "主角转身离开法庭，没有再回头。她在身后喊他名字，回声消失在走廊尽头"
+      },
+      "scenes": ["scene-12", "scene-13"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 1600,
+      "target_char_count": [1700, 1950],
+      "is_climax_section": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.45,
+          "question_mark_density_per_1k": 3.1,
+          "direct_dialogue_rate": 0.3,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 16.0
+        },
+        "emotion": {
+          "dominant_emotion": "清算-痛快",
+          "emotion_arc": "舆论引爆 → 停止执业 → 吊销执照 → 对方逸宁最终审判 → 拉黑收束",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "四层清算如多米诺骨牌倒下的爽感，尤其是'不配穿白大褂'的制度正义快感"
+        },
+        "highlights": {
+          "peak_moment": "卫健委处分通报：'对患者求救置之不理的人，不配穿这身白大褂'",
+          "peak_type": "cold_revenge",
+          "emotional_bomb": "M3金句回旋最终兑现——她用白大褂身份压人，现在被白大褂抛弃"
+        },
+        "techniques": ["舆论引爆展示", "制度文书金句", "四层递进清算", "冷杀最终审判", "拉黑作为终极武器"],
+        "golden_lines": [
+          "对患者求救置之不理的人，不配穿这身白大褂。",
+          "你最该庆幸的，是我没死。我如果死了，你今天面对的就不是赔偿。是刑责。",
+          "都是他们应得的。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "以终极宣判式短句收束所有清算",
+        "target_description": "拉黑妻子最后一条求救消息后，主角说'都是他们应得的'——六字收束全部清算"
+      },
+      "scenes": ["scene-14", "scene-15"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 700,
+      "target_char_count": [620, 750],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 18.0,
+          "comma_period_ratio": 0.6,
+          "question_mark_density_per_1k": 1.4,
+          "direct_dialogue_rate": 0.15,
+          "short_line_rate_lte16": 0.45,
+          "sentence_avg_len": 20.0
+        },
+        "emotion": {
+          "dominant_emotion": "释然-新生",
+          "emotion_arc": "告别旧屋 → 物象收束 → 新生活 → 平静结尾",
+          "emotion_intensity": 6.0,
+          "reader_feeling_target": "为他松一口气，感觉'结束了，他会好的'的温暖余韵"
+        },
+        "highlights": {
+          "peak_moment": "关上门的那一声脆响——与全篇'被堵死求救通道'的首尾呼应",
+          "peak_type": "power_shift",
+          "emotional_bomb": "无——这章是纯释放"
+        },
+        "techniques": ["首尾门/通道呼应", "光影收束", "日常复归"],
+        "golden_lines": [
+          "门锁合拢，发出一声很轻的脆响。",
+          "我的生活终于一点一点，回到了自己手里。"
+        ],
+        "rhythm_shape": "匀速舒缓"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "以平静的生活宣言收束——与全篇惊涛骇浪形成最终对比",
+        "target_description": "主角在新租的房子里打开窗，阳光照进来。'我的生活终于一点一点，回到了自己手里。'"
+      },
+      "scenes": ["scene-16"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 9,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

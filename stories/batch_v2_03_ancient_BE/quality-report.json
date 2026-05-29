@@ -1,0 +1,51 @@
+{
+  "slug": "batch_v2_03_ancient_BE",
+  "source_slug": "hot_7910425011",
+  "title": "骨灰",
+  "genre": "ancient_BE",
+  "status": "pass",
+  "validation": {
+    "nonspace_chars": 10002,
+    "nonspace_target": {"min": 10000, "max": 14000},
+    "chapters": 12,
+    "chapters_min": 10,
+    "rhythm_fit": "pass",
+    "rhythm_metrics": {
+      "source_avg_line_chars": 19.626,
+      "candidate_avg_line_chars": 19.675,
+      "source_short_line_rate": 0.4568,
+      "candidate_short_line_rate": 0.3532,
+      "source_quote_line_rate": 0.2752,
+      "candidate_quote_line_rate": 0.1786,
+      "source_barrage_rate": 0.0144,
+      "candidate_barrage_rate": 0.0
+    },
+    "ai_taste_words": 0,
+    "source_overlap": "pass",
+    "meta_leak": 0
+  },
+  "mechanisms": {
+    "M3_causal_boomerang": {
+      "status": "implemented",
+      "detail": "男主靠林家旧部关系升迁→女主远走→旧部全断→被架空冻结；闺蜜被救离矿区→背叛→被遣返原籍回到恐惧命运"
+    },
+    "M5_temperature_reversal": {
+      "status": "implemented",
+      "detail": "暖记忆(零下20度等她/背她走三里山路/野花/暖宝宝) vs 冷现实(三年出轨/偷军功/嫌她脏/拒接电话害父死)"
+    },
+    "M6_multi_layer_escalation": {
+      "status": "implemented",
+      "detail": "L1出轨坦白→L2军功被偷→L3病房撞破→L4安排流氓嫌脏→L5拒接电话父亲死亡→L6全部真相引爆"
+    },
+    "M8_moral_ambiguity_ending": {
+      "status": "implemented",
+      "detail": "女主拒绝复合但没有主动复仇；男主余生困在旧屋像死水；没有圆满结局只有各自的代价"
+    }
+  },
+  "rework_count": 2,
+  "rework_notes": [
+    "首次生成字数不足(5064)且rhythm fail(short_rate过高0.563/question_marks过多6.83)。完全重写加长行、减少碎行、减少问句。",
+    "第二版6825字rhythm pass但字数仍不足。逐章节扩展细节(B4病房/B6骨灰/B7厌/B9债/B10死水/B11不渡/B12散)经多轮微调到10002。"
+  ],
+  "final_date": "2026-05-26"
+}

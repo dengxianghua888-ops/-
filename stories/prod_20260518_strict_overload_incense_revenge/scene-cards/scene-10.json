@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "药监调查室与平台复核电话",
+  "time": "第三天上午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "药监调查员",
+    "平台复核专员",
+    "蒋总"
+  ],
+  "character_goal": "把蒋总和违规收货地址纳入证据链。",
+  "opposition_goal": "蒋总否认收货安排，平台仍按异常路线质疑主角。",
+  "conflict_action": "主角提交蒋总催货短信、通话记录和导航偏航记录，调查员调取冷链轨迹。",
+  "information_gap": "蒋总与周骁的交易金额和批号套用关系还未坐实。",
+  "emotional_debt_delta": "个人纠纷升级到私人机构牵连，平台判责开始松动。",
+  "payoff_or_hook": "违规交货地址浮出水面，后续牵出账本。",
+  "chapter_end_hook": "蒋总的名字，第一次出现在冷链记录里。",
+  "paywall_card": false,
+  "must_include": [
+    "蒋总短信",
+    "私人美容院地址",
+    "冷链轨迹",
+    "平台要求解释偏航",
+    "主角把偏航和举报路线对上"
+  ],
+  "must_not_write_as_exposition": [
+    "不要污名化正规医美机构",
+    "不要写针剂交易渠道细节",
+    "不要让蒋总立刻全盘招供"
+  ]
+}

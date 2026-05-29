@@ -1,0 +1,460 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned": 14200
+  },
+  "title": "出药狱那日，夫君为义妹封了医院",
+  "genre": "架空民国海城医药财阀虐恋追妻火葬场 / BE",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "陆沉舟曾为沈南星建实验室、抱小舟许诺一家三口，后续亲手签字送子入戒训药试所、封院拒救、伪造诊断封口。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "出药狱夺位、药试所虐童、医院封楼拒救、诊断封口、码头爆炸假死、私生血脉曝光、南洋失忆归来、药厂火场恢复记忆。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "陆沉舟为所谓药脉继承人牺牲亲子，最终发现林若鸢腹中孩子非陆家血脉，小舟才是唯一亲子。"
+    },
+    {
+      "id": "M8",
+      "name": "道德模糊结尾",
+      "execution": "周砚救命但隐瞒过去，陆沉舟火场救命但灾祸由他纵容而起，沈南星恢复记忆后不复合、不另嫁，独自离开。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 780,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "沈南星在被改成婴儿房的实验台下，摸到小舟写着“娘，药好苦”的药盒纸条。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 760,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "药试所守卫递出新文书，落款是陆沉舟亲笔：戒训延期三月。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 800,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "陆沉舟隔着医院铁门说，若鸢腹中孩子出事，他绝不会再认沈南星这个妻子。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 860,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "小舟在雨里攥着空药盒断了气，最后一句是想让爹抱一抱。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 780,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "沈南星抱着小舟遗物闯进商会，当众摊开病历，却被陆沉舟扣住手腕。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 760,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "诊断书盖下红印，通稿写明：沈南星患药物性癔症，所言皆为臆想。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 820,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "沈南星在疗养院窗缝里递出半张血样单，转身对陆沉舟说她认命了。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "林若鸢临盆夜，小舟旧药箱被人送到沈南星门口，箱底多了一张码头货单。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 820,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "码头枪响后，沈南星抱着药棉假婴坠向江面，药船随即炸开。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 780,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "陆沉舟从残襁褓扣上认出，那是他当年亲手缝给小舟的扣子。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 780,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "老药工交出账册，说小少爷死前那日，医院明明还有一间空病房。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 820,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "留声机里传出林若鸢的笑声：陆家的种，早就被他自己害死了。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 760,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "血样报告落地，林若鸢腹中孩子与陆家无亲缘。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 760,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "南洋码头，失忆的沈南星被周砚牵下船，陆沉舟在人群里喊出她旧名。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 780,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "沈南星打开周砚锁住的皮箱，里面全是她和小舟的旧照片。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 840,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "陆氏旧药厂起火，沈南星闻到熟悉药味，脑中闪过小舟死在雨里的脸。"
+    },
+    {
+      "chapter_id": 17,
+      "target_chars": 820,
+      "scene_range": "scene-17",
+      "chapter_end_hook": "陆沉舟从火里把她推出来，沈南星却想起了他封院那一夜。"
+    },
+    {
+      "chapter_id": 18,
+      "target_chars": 850,
+      "scene_range": "scene-18",
+      "chapter_end_hook": "沈南星带着小舟的旧药箱登船，身后陆沉舟跪在码头，却再也追不上。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "陆氏药厂地下药狱出口、陆氏公馆主楼",
+      "character_goal": "沈南星出药狱后立刻回家见小舟。",
+      "conflict_action": "她推开主楼卧房，撞见林若鸢穿着陆沉舟外袍养胎，又砸开被改成婴儿房的旧实验室抽屉。",
+      "information_gap": "小舟不在公馆，林若鸢声称孩子被送去改性子，陆沉舟避而不答。",
+      "emotion_debt_balance": "+亲密背叛、+母子分离、+女主身份被夺",
+      "chapter_end_hook": "沈南星在实验台下摸到小舟药盒纸条：娘，药好苦。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能用回忆替代开篇撞见背叛",
+        "不能洗白陆沉舟"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "戒训药试所外门与探视室",
+      "character_goal": "沈南星要带小舟离开药试所。",
+      "conflict_action": "她抢过探视簿闯进隔间，揭开小舟袖口看见药疹和夹板，却被守卫按回铁门外。",
+      "information_gap": "药试所只给她看片刻孩子，真正的训练记录被锁进所长抽屉。",
+      "emotion_debt_balance": "+孩子受害证据、+父亲签字伤害",
+      "chapter_end_hook": "新文书落款是陆沉舟亲笔：戒训延期三月。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁写药试具体流程",
+        "不能把孩子受害写成猎奇",
+        "不能让小舟立刻获救"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 740,
+      "target_chars_max": 860,
+      "scene_location": "陆氏私立医院封楼门口",
+      "character_goal": "沈南星抱着发热的小舟求医院急救。",
+      "conflict_action": "她跪在医院铁门前拍门，陆沉舟却让护院抬走急救担架，优先给林若鸢保胎。",
+      "information_gap": "医院有空病房，但沈南星当场不知道，是陆沉舟下令封锁。",
+      "emotion_debt_balance": "+拒救、+男主主动选择义妹与继承胎",
+      "chapter_end_hook": "陆沉舟隔门警告她：若鸢腹中孩子出事，他不再认她这个妻子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把陆沉舟写成无奈",
+        "不能弱化封院拒救",
+        "禁用真实药名剂量"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 800,
+      "target_chars_max": 920,
+      "scene_location": "暴雨巷口、临时药棚",
+      "character_goal": "沈南星要用最后的人脉和药箱救回小舟。",
+      "conflict_action": "她砸开旧药棚门找器械，撕下衣摆给小舟挡雨，随后抱着孩子冲向商会医馆。",
+      "information_gap": "小舟死前还不知道父亲拒绝见他，沈南星暂时不知道林若鸢命人延误马车。",
+      "emotion_debt_balance": "+孩子死亡不可逆、+母亲彻底崩塌",
+      "chapter_end_hook": "小舟攥着空药盒断气，最后一句是想让爹抱一抱。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得复活小舟",
+        "避免过度血腥细节",
+        "不能让死亡变成意外"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "海城商会大厅",
+      "character_goal": "沈南星公开病历和药疹照片，为小舟讨说法。",
+      "conflict_action": "她闯入商会宴席，把病历、骨折片和药盒纸条摊在会长桌上。",
+      "information_gap": "商会宾客只看到她失控，不知道陆家已备好伪造诊断。",
+      "emotion_debt_balance": "+公开求 justice 被压制、+证据第一次亮相",
+      "chapter_end_hook": "陆沉舟扣住她手腕，当众命人把她带去医院检查。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成空泛控诉",
+        "必须有病历照片纸条等证据",
+        "不能让商会立刻相信女主"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "陆氏医院诊断室、商会告示栏",
+      "character_goal": "沈南星要证明自己清醒、证据真实。",
+      "conflict_action": "她夺笔划掉诊断书上的假症状，陆沉舟却按住纸页签字，命人贴出商会通稿。",
+      "information_gap": "诊断书上的用药记录被调包，调包人暂未暴露。",
+      "emotion_debt_balance": "+污名封口、+社会性死亡",
+      "chapter_end_hook": "红印盖下：沈南星患药物性癔症，所言皆为臆想。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不得污名化真实精神疾病",
+        "必须写伪造病历与权力滥用",
+        "不能让男主只是不知情"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 760,
+      "target_chars_max": 880,
+      "scene_location": "药物性癔症疗养院",
+      "character_goal": "沈南星在被囚环境中保住关键血样单。",
+      "conflict_action": "她假装服从吃药，趁护士换班把半张血样单缝进衣角并递给旧药工。",
+      "information_gap": "读者知道她开始布局，陆沉舟以为她终于认命。",
+      "emotion_debt_balance": "-女主反杀入口微开启、+男主迟钝债",
+      "chapter_end_hook": "沈南星转身对陆沉舟说：我认命了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成纯受虐停滞",
+        "不能解释计划全貌",
+        "女主沉默必须藏行动"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "陆氏公馆偏院、林若鸢产房外",
+      "character_goal": "沈南星借林若鸢生产乱局取回小舟旧药箱。",
+      "conflict_action": "她避开护院翻进偏院，撬开库房木箱，拿走小舟药盒背面的三口之家画。",
+      "information_gap": "码头货单暗示爆炸局，但读者暂不知她要假死。",
+      "emotion_debt_balance": "-女主掌握主动证物、+生产局危险",
+      "chapter_end_hook": "药箱底多出一张今晚启航的码头货单。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把行动写成回忆铺垫",
+        "不得让林若鸢生产线变喜庆",
+        "不能泄露完整假死方案"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "暴雨码头、陆氏药船",
+      "character_goal": "沈南星要用绑架局反制林若鸢并脱离陆家。",
+      "conflict_action": "她抱着药棉假婴冲上药船，引陆沉舟和林若鸢追至码头，随后割断缆绳跳向江面。",
+      "information_gap": "陆沉舟以为她抱走林若鸢孩子，实际襁褓里是空扣与药棉。",
+      "emotion_debt_balance": "-女主假死离场、+男主开枪追逼新债",
+      "chapter_end_hook": "枪响后药船爆炸，沈南星连同襁褓坠入江水。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让男主开枪被洗成纯误伤",
+        "不能写明女主已安全",
+        "爆炸细节不写技术流程"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "码头废墟、陆氏停尸房",
+      "character_goal": "陆沉舟要确认沈南星和孩子是否死亡。",
+      "conflict_action": "他徒手翻开烧焦货箱，捡起残襁褓扣，又逼仵作打开无名女尸记录。",
+      "information_gap": "他仍不知道沈南星生死，也不知道小舟早已死亡。",
+      "emotion_debt_balance": "+男主迟来恐惧、+不可逆真相逼近",
+      "chapter_end_hook": "残扣是他当年亲手给小舟缝上的那一枚。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让男主悔悟抵债",
+        "不能确认女主死亡",
+        "不能让林若鸢立即全盘暴露"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "陆氏旧药库、戒训药试所档案室",
+      "character_goal": "陆沉舟追查小舟药试记录。",
+      "conflict_action": "他砸开档案柜，逼所长交出探视簿和病历，又把所长按在小舟床位前问话。",
+      "information_gap": "旧药工交出的账册显示医院有空病房，但谁改了记录仍未揭开。",
+      "emotion_debt_balance": "+男主看见主动罪证、+悔悟启动但无补偿",
+      "chapter_end_hook": "老药工说：小少爷死前那夜，医院明明还有空病房。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把罪全推给所长",
+        "必须保留陆沉舟签字证据",
+        "不能让调查替代情绪后果"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 760,
+      "target_chars_max": 880,
+      "scene_location": "陆氏公馆留声机房",
+      "character_goal": "陆沉舟要从林若鸢口中逼出血脉真相。",
+      "conflict_action": "他锁门播放账房藏下的留声机蜡筒，把血样账册摔到林若鸢面前。",
+      "information_gap": "录音证明林若鸢和账房有私情，但孩子血样报告还未公开。",
+      "emotion_debt_balance": "+反派伪善破裂、+唯一亲子反噬临门",
+      "chapter_end_hook": "录音里林若鸢笑道：陆家的种，早就被他自己害死了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让林若鸢只是被误会",
+        "不能让陆沉舟用被骗开脱",
+        "必须有录音账册证据"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "商会公审厅、陆氏医院血样室",
+      "character_goal": "陆沉舟公开撕开林若鸢骗局并面对自己的罪。",
+      "conflict_action": "他当众调取血样报告，命人封存医院账册，又亲手撤下沈南星的癔症通稿。",
+      "information_gap": "他以为公开认罪能给沈南星一个交代，却不知道她还活着。",
+      "emotion_debt_balance": "-反派被清算、+男主认罪无处送达",
+      "chapter_end_hook": "血样报告落地，林若鸢腹中孩子与陆家无亲缘。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把公开撤稿写成赎罪完成",
+        "不能让林若鸢只受道德谴责",
+        "不能复活小舟"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "南洋码头、海城疫病研究会",
+      "character_goal": "失忆的沈南星以南洋医学院研究员身份回海城办药材检验。",
+      "conflict_action": "她下船后拒绝陆沉舟靠近，转身挽住周砚递来的证件，冷静签下新名字。",
+      "information_gap": "沈南星不记得陆沉舟和小舟，周砚知道却隐瞒。",
+      "emotion_debt_balance": "-女主重获身份、+双男对峙张力",
+      "chapter_end_hook": "陆沉舟在人群中喊她旧名，她只问：先生认错人了吗？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把失忆写成甜宠",
+        "周砚不能无瑕",
+        "陆沉舟不能凭旧情带走她"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "周砚诊所、锁住的皮箱旁",
+      "character_goal": "沈南星要弄清周砚为何阻止她接触陆家旧案。",
+      "conflict_action": "她趁周砚出诊撬开皮箱，翻出小舟照片、旧病历和一张写着沈南星的船票。",
+      "information_gap": "周砚救她是真，隐瞒她的丧子与婚史也是真。",
+      "emotion_debt_balance": "+温柔控制揭开、+女主自我怀疑",
+      "chapter_end_hook": "皮箱里全是她和小舟的旧照片，照片背面写着：别让她想起来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把周砚写成完美归宿",
+        "不能让女主依附周砚判断",
+        "不能用长篇说明替代翻箱动作"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 780,
+      "target_chars_max": 900,
+      "scene_location": "陆氏旧药厂火场外",
+      "character_goal": "沈南星要抢救被困工人并查明火源。",
+      "conflict_action": "她披湿毯冲进药厂取走试剂账本，林若鸢趁乱推倒药架封住出口。",
+      "information_gap": "火味触发记忆碎片，但她尚未完整想起小舟死亡全貌。",
+      "emotion_debt_balance": "+生命危险、+记忆恢复入口、+反派最后作恶",
+      "chapter_end_hook": "熟悉药味钻进鼻腔，她脑中闪过小舟雨夜求抱的脸。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "火灾不能写成浪漫救赎",
+        "不能让林若鸢无具体行动",
+        "不写危险可模仿细节"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "target_chars_min": 760,
+      "target_chars_max": 880,
+      "scene_location": "陆氏旧药厂火场内外",
+      "character_goal": "陆沉舟要救沈南星，沈南星要从火场和旧记忆中活着出来。",
+      "conflict_action": "陆沉舟踹开火门把她推向窗口，她抓住小舟旧药箱，记忆在浓烟中全部回到雨夜医院。",
+      "information_gap": "陆沉舟不知道她已完全记起所有伤害，仍以为救命能换来一次开口。",
+      "emotion_debt_balance": "+救命与害命并置、+终局审判准备",
+      "chapter_end_hook": "她看着陆沉舟烧伤的手，想起他当年按下封院令的那只手。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用救命抵消害命",
+        "不能让女主被火场软化",
+        "必须记起医院拒救"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "target_chars_min": 800,
+      "target_chars_max": 920,
+      "scene_location": "海城码头、离港客船",
+      "character_goal": "沈南星在全部真相后决定自己的去处。",
+      "conflict_action": "她把陆沉舟递来的婚书撕成两半，把周砚归还的船票放进药箱，独自登上离港客船。",
+      "information_gap": "无核心悬疑，落点是选择完成：她不再需要任何男人批准她活下去。",
+      "emotion_debt_balance": "-女主自我命名完成、+男主终身悔恨、+周砚退场",
+      "chapter_end_hook": "陆沉舟跪在码头喊她名字，船笛盖过他的声音。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不得复合",
+        "不得嫁给周砚",
+        "不得让小舟死亡被淡化"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapters": 12,
+    "planned_chapters": 18,
+    "minimum_paywall_cards": 5,
+    "planned_paywall_cards": 6,
+    "chapter_end_hook_coverage": "18/18",
+    "micro_hook_interval_chars": "每800-1200字至少一次证据、选择或危险升级",
+    "forbidden_summary_rule": "beats[*].forbidden_summary 必须为非空数组"
+  }
+}

@@ -1,0 +1,113 @@
+pipeline_mode: production
+status: final
+title: 影帝嫌我只是经纪人，谢家连夜下聘
+language: zh-CN
+genre:
+  - 现代言情
+  - 娱乐圈
+  - 追妻火葬场
+  - 豪门反击
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source_materials:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+quality_gate:
+  pass
+  source_quality_report: story/quality-report.json
+  gate_status: pass
+  score_scale: "0-10"
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 8.6
+    style: 8.1
+    logic: 7.4
+  final_machine_metrics:
+    target_length:
+      min: 11200
+      max: 13600
+      actual_estimate: 12900
+      status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+revision_notes:
+  - 补入谢砚与林晚宜三个月前婚约保全铺垫。
+  - 增强第十三章和第十四章女主主动判断与主动参与证据链动作。
+  - 保持十六章顺序拆分，章末均有明确钩子。
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+total_chars: 13019
+chapter_count: 16
+paywall_cards: 8
+critic_scores:
+  logic: 7.4
+  style: 8.1
+  emotion: 8.6
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260520_strict_seq5_01f
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

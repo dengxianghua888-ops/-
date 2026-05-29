@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-20",
+  "beat_id": "B20",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "含章宫产房外与满月宴",
+  "time": "数月后",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "女儿",
+    "萧明棠",
+    "温其正",
+    "乌兰珠"
+  ],
+  "character_goal": "温照晚想按自己的节奏留下，并确认萧珩真的学会尊重边界。",
+  "opposition_goal": "萧珩想求她重新收下凤印，但不敢催她。",
+  "conflict_action": "温照晚把三匣苦参蜜丸推到萧珩面前，萧珩抱着女儿坐在榻边一颗颗吃完，再把凤玺递给女儿抓着玩。",
+  "information_gap": "无，收束情绪债。",
+  "emotional_debt_delta": "苦参蜜丸、凤玺、妻女奴圆满回旋，主情绪债清零。",
+  "payoff_or_hook": "萧珩从冷帝彻底反转成妻女奴，温照晚自愿留下。",
+  "chapter_end_hook": "女儿哭声响起，萧珩抱着襁褓问能不能把凤玺给她玩。",
+  "paywall_card": false,
+  "must_include": [
+    "女儿出生",
+    "苦参蜜丸自罚回旋",
+    "凤玺给女儿玩",
+    "乌兰珠从北境送来贺礼"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把生产写成女主价值终点",
+    "不要让萧珩一秒变完美",
+    "不要沉重煽情收尾"
+  ]
+}

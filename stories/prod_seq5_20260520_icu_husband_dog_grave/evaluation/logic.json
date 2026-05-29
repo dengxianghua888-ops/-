@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "score": 7.7,
+  "evidence": [
+    {
+      "ref": "draft-scenes/scene-04.md",
+      "quote": "声明没有授权任何人代领",
+      "finding": "赔偿金争夺通过本人声明和经办留痕推进，逻辑较稳。"
+    },
+    {
+      "ref": "draft-scenes/scene-06.md",
+      "quote": "任何超过一万元的转出都必须本人柜台确认",
+      "finding": "母亲保护赔偿金的动作合规且可执行。"
+    },
+    {
+      "ref": "draft-scenes/scene-09.md",
+      "quote": "限制处分，先保全争议出资权益",
+      "finding": "婚房线没有直接写成无依据改名，采取限制处分更稳。"
+    },
+    {
+      "ref": "draft-scenes/scene-10.md",
+      "quote": "债主带着搬运工进进出出，先拆走电子计时器。",
+      "finding": "私人债主执行色彩偏重，建议改成担保物清点或法院保全流程。"
+    },
+    {
+      "ref": "draft-scenes/scene-11.md",
+      "quote": "我从文件袋里取出亲子鉴定报告纸质件。",
+      "finding": "报告作为反转有效，但样本来源和合规性需补一句。"
+    },
+    {
+      "ref": "draft-scenes/scene-13.md",
+      "quote": "我站在门口，没有喊加油，也没有冲进去拉人。",
+      "finding": "主角未组织暴力，伦理边界明确。"
+    },
+    {
+      "ref": "draft-scenes/scene-13.md",
+      "quote": "民警把来源也补进笔录里。",
+      "finding": "证据来源被记录，程序感有效。"
+    }
+  ],
+  "notes": [
+    "逻辑主链可通过，但债主执行和亲子鉴定来源是 Phase 7 最应优先修的两处。",
+    "敏感议题处理总体克制，没有把动物或孩子作为攻击对象。"
+  ]
+}

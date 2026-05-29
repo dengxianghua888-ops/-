@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "西川王府受册厅",
+  "time": "回西川后三日",
+  "pov": "我",
+  "characters": [
+    "我",
+    "谢珩",
+    "老王妃",
+    "王府女官"
+  ],
+  "character_goal": "在被接住后，自己决定要不要迈进新婚与新身份",
+  "opposition_goal": "旧伤、旧羞辱记忆仍在拖拽我，让我不敢立刻相信新秩序",
+  "conflict_action": "王妃命人当场销去我在罪乐署的籍档，谢珩没有替我做决定，只把婚书放到我手里等我亲自点头",
+  "information_gap": "我若答应这门婚，能不能不再做谁的弃子，而是真正成为被郑重相待的人？",
+  "emotional_debt_delta": -2,
+  "payoff_or_hook": "救援转向托底，不止是被夺回而是被尊重",
+  "chapter_end_hook": "谢珩替我理好袖口，只问一句：这门婚，你愿不愿意？",
+  "paywall_card": false,
+  "must_include": [
+    "销去罪籍档案",
+    "婚书交到我手里",
+    "谢珩不逼问只等待"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列王府规制",
+    "不要让谢珩替我回答婚事"
+  ],
+  "rhythm_job": {
+    "shape": "对白4段/动作3段/呼吸点2段/章尾钩1刀",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 660,
+  "target_chars_max": 700,
+  "location": "小区自助洗衣房",
+  "time": "傍晚，女儿放学后",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "念念", "沈泊舟电话声", "洗衣房店员"],
+  "character_goal": "给念念洗校服，并弄清丈夫远程开的会员机为什么有陌生备注。",
+  "opposition_goal": "沈泊舟想随手帮忙后继续隐瞒另一个女人的洗护偏好。",
+  "conflict_action": "沈泊舟远程开机时点出“别放柔顺剂，她闻了会吐”的备注，许清辞立刻截屏、拍机器编号和付款时间。",
+  "information_gap": "“她”到底是谁，为什么沈泊舟记得她闻柔顺剂会吐。",
+  "emotional_debt_delta": "婚姻欺骗债+1，女主从生活错位感进入取证。",
+  "payoff_or_hook": "小偏好异常开钩。",
+  "chapter_end_hook": "屏幕上那行备注还亮着：别放柔顺剂，她闻了会吐。",
+  "paywall_card": false,
+  "must_include": ["校服上的颜料", "远程开机提示音", "柔顺剂备注截图", "许清辞没有当场追问"],
+  "must_not_write_as_exposition": ["不要交代完整婚姻史", "不要解释洗衣机操作流程", "不要写女主大段心理崩溃"],
+  "rhythm_job": {
+    "shape": "生活动作开场，2段短动作后接3轮电话对白，结尾用屏幕文字卡住。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "dialogue_action_hook_ratio": "对白约35%，动作约45%，留白约15%，章尾钩约5%。"
+  }
+}

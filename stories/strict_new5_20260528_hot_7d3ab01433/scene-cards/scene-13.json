@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "废弃斋房石磨间",
+  "time": "天将亮",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "柳含霜",
+    "贺嬷嬷",
+    "王府护卫"
+  ],
+  "character_goal": "阿眠要亲眼看见石磨债落回柳含霜身上",
+  "opposition_goal": "柳含霜要用侧妃身份逃出废斋房",
+  "conflict_action": "沈素娘让护卫打开废斋房，把柳含霜推到空磨前，回敬她当年的干净话术",
+  "information_gap": "阿眠能不能不再被磨声击倒",
+  "emotional_debt_delta": "石磨杀父债得到具体返还",
+  "payoff_or_hook": "施害者被自己的石磨意象吞回去",
+  "chapter_end_hook": "第二圈响起时，柳含霜的骂声卡在门缝里。",
+  "paywall_card": false,
+  "must_include": [
+    "废斋房灰尘",
+    "空石磨",
+    "柳含霜当年原话回敬",
+    "阿眠没有再喊爹"
+  ],
+  "must_not_write_as_exposition": [
+    "不要猎奇写身体细节",
+    "不要写柳含霜童年苦衷",
+    "不要让沈素娘兴奋狂笑"
+  ],
+  "rhythm_job": {
+    "shape": "低声动作推进，强压只放在锁门一刻，之后用阿眠稳住呼吸降半拍",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白二成半，动作四成半，呼吸点三成，章尾用空磨声卡住"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "story": "batch_v2_05_apocalypse",
+  "genre": "apocalypse_heroine",
+  "source_slug": "hot_2421a56ed0",
+  "lessons": [
+    {
+      "issue": "quote_over_crank_on_first_draft",
+      "description": "First draft had quote_line_rate 0.371 vs source 0.258 — too much direct dialogue. apocalypse_heroine genre is more internal monologue/narration driven than it seems.",
+      "fix": "Full rewrite with emphasis on short narrative fragments over dialogue exchanges.",
+      "applicable_to": ["apocalypse_heroine", "any genre with source quote_line_rate < 0.28"]
+    },
+    {
+      "issue": "question_marks_over_crank",
+      "description": "First draft question_marks_per_k was 7.33 (over threshold). Too many rhetorical questions in internal monologue.",
+      "fix": "Replace rhetorical questions with declarative emotional statements. Use questions only at key plot moments.",
+      "applicable_to": ["all genres"]
+    },
+    {
+      "issue": "persistent_char_shortfall",
+      "description": "Rhythm-passing draft was only 8800 chars. Required 50+ individual line additions to reach 10000. Each addition had to be ≤12 chars to not break avg_line_chars ceiling.",
+      "fix": "When source avg_line_chars is ~17 and candidate needs to stay ≤21.7, expansion must be done via short standalone fragments (3-10 chars per line). Budget: ~8 lines needed per 100 chars added.",
+      "applicable_to": ["any genre with source avg_line_chars < 20"]
+    },
+    {
+      "issue": "avg_line_chars_ceiling_sensitivity",
+      "description": "Source avg=17.35 → ceiling ~21.69 (source*1.25). Any expansion line longer than ~19 chars pushes avg up. Need to track this carefully during expansion.",
+      "fix": "Track avg after every batch of edits. When avg approaches 21, only add lines under 15 chars.",
+      "applicable_to": ["all genres with short-line sources"]
+    }
+  ],
+  "genre_characteristics": {
+    "apocalypse_heroine": {
+      "key_traits": "Internal monologue heavy, declarative fragments, minimal dialogue, strong short-line density",
+      "rhythm_profile": "avg ~17-19, short ~0.50-0.55, quote ~0.21-0.26",
+      "pitfalls": "Easy to over-dialogue (the genre feels dialogue-heavy because of short lines, but actual quote rate is low)",
+      "expansion_strategy": "Add physical detail fragments, environmental observations, emotional single-clause lines"
+    }
+  }
+}

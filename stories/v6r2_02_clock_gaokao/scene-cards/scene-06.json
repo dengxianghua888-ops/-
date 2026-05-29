@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-05a",
+  "chapter_id": 4,
+  "is_chapter_end": false,
+  "target_chars_min": 520,
+  "target_chars_max": 600,
+  "location": "场馆内部→太平门→工厂外空地",
+  "time": "晚上8:07，充能最后一分钟",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "安保", "玩家群体"],
+  "character_goal": "沈听澜必须在三分钟内逃出工厂——哪怕只有自己一个人",
+  "opposition_goal": "安保试图拦截她，玩家挡路",
+  "conflict_action": "沈听澜挣脱陈栩，砸开太平门的消防闸锁冲出工厂",
+  "information_gap": "沈听澜知道只有逃出建筑才能存活，但来不及带所有人",
+  "emotional_debt_delta": "牺牲债——她选择了自己先逃（实际是唯一理性选择），将被群体视为抛弃",
+  "payoff_or_hook": "过渡：冲出工厂，发现外面时间正常——短暂虚假释放",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["砸开太平门的物理动作", "奔跑中的身体感受", "冲出后发现时间正常的短暂安心"],
+  "must_not_write_as_exposition": ["她为什么不回去救人的心理辩解", "逃跑路线的详细描述"],
+  "rhythm_job": {
+    "shape": "前快",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "亡命-孤勇",
+    "emotion_arc": "绝望行动 → 身体代价 → 短暂自由",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "看她砸门时揪心，冲出来时短暂松一口气",
+    "required_techniques": [
+      {
+        "technique": "行动描写极简化",
+        "instruction": "用最平淡语气写最极端行为——'我砸开消防闸锁冲了出去'，不渲染不修饰，反差让行动更有力"
+      },
+      {
+        "technique": "时间正常化作为虚假释放",
+        "instruction": "先给一个好消息（外面时间正常=自己安全了），然后立刻用新危险打碎喘息"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "她不知道+事实+但我不后悔",
+        "example": "妈妈不知道，我已经放弃高考。而且因为扰乱考场秩序，我再也不能参加高考了。但我不后悔。",
+        "instruction": "用'不后悔'三个字完成对所有牺牲的肯定——此刻她知道自己毁了生日趴、毁了友情，但不后悔"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "累积式",
+    "source_excerpt": "趁着警察不注意，我拉开窗户就跳了下去。暴雨倾盆，衣服瞬间湿透。我什么都顾不上了，只知道拼命往外跑。爬起身，我惊喜地发现，时间正常了！手表上的指针正常运行着。可考场里的人……"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["跑"],
+      "句式": "极短动作句，无对话，纯行动",
+      "单句上限": 12,
+      "禁止": "内心独白超过两句"
+    }
+  }
+}

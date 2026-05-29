@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-09a",
+  "chapter_id": 8,
+  "is_chapter_end": false,
+  "target_chars_min": 520,
+  "target_chars_max": 600,
+  "location": "工厂外·特警指挥车内",
+  "time": "晚上8:25，开始讲述真相",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "特警队长"],
+  "character_goal": "沈听澜讲述五年前的真相——让对方理解为什么只有她知道",
+  "opposition_goal": "特警队长需要快速获取可操作信息",
+  "conflict_action": "沈听澜用讲述五年前经历的方式解释规则——不是说明文，是故事",
+  "information_gap": "读者终于知道完整真相：量子共振器+父亲+时间乱流的关系",
+  "emotional_debt_delta": "父亲牺牲的沉重——五年前的童年创伤终于浮出水面",
+  "payoff_or_hook": "过渡：规则解释到一半（建立父亲和实验室的关系）",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["五年前量子实验室事件", "父亲沈教授的身份", "量子共振器=道具钟", "钟慢一分钟=充能完成的规则", "6岁的她是唯一幸存者"],
+  "must_not_write_as_exposition": ["量子物理的学术解释", "完整的科学论文式阐述"],
+  "rhythm_job": {
+    "shape": "前慢（回忆节奏稍缓）",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.2,
+    "comma_period_ratio": 0.62,
+    "sentence_avg_len": 17.8,
+    "dominant_emotion": "揭秘-沉重",
+    "emotion_arc": "平静叙述 → 五年前回忆 → 父亲的身影",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "智力上满足（终于知道真相），情感上跟着她回到五年前",
+    "required_techniques": [
+      {
+        "technique": "规则解释嵌入故事",
+        "instruction": "不用说明文解释量子坍缩，而是通过沈听澜叙述五年前亲历来'展示'规则——信息释放伴随情感"
+      },
+      {
+        "technique": "细节锚定真实感",
+        "instruction": "用一个具体物件（父亲实验室的照片/手机里的旧照片）锚定'五年前真的发生过'的可信度"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "不是A+是B重新定义",
+        "example": "他们不是自杀，他们是被时间杀死了。",
+        "instruction": "把'实验事故'重定义为'被时间杀死'——恐怖不来自意志而来自规则"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "\"我爷爷曾经是物理学界的泰斗，他的科研项目是时光机。\"所有人看着我，像看外星人。\"十二年前，就是在我六岁那年。研究基地发生了一次事故。不止是爷爷，整个科研基地的人全部自杀。我是唯一的幸存者。\""
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["五年前", "我父亲", "量子共振器"],
+      "句式": "叙述式中长句（本章例外允许稍长），穿插短句断言",
+      "单句上限": 22,
+      "禁止": "学术黑话、情绪失控"
+    }
+  }
+}

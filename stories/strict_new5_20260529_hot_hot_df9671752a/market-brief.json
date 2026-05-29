@@ -1,0 +1,118 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "market_positioning": {
+    "genre": "apocalypse_heroine",
+    "core_sell": "被当成末世吉祥物的娇软女主，受辱后觉醒为丧尸女王，反向审判全基地",
+    "reader_promise": "读者要看到一个被误认为娇气废物的末世庇护核心，在被毁掉封印后觉醒为真正女王，用施害者的弱肉强食规则完成降维清算。",
+    "dominant_s爽点": "身份反差爆发 + 末世女王降维审判",
+    "recommended_mechanisms": ["M3", "M6", "M7", "M8"],
+    "recommended_hook_type": "H1",
+    "emotion_curve_shape": "阶梯递进型：被轻辱-被群体背叛-封印破裂-身份爆开-反派原规则反噬-女王新秩序"
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "tomato_preferred_range": [500, 800],
+    "median_chars": 650,
+    "chapter_count_target": [14, 24],
+    "chapter_end_requirement": "每章末必须落在新危险、新证据、新身份信息、新惩罚或反派误判升级上，禁止平收。"
+  },
+  "hook_policy": {
+    "first_300_chars": "强Hook必须直接给出末世、吉祥物特权、新人女教官不服、奶茶/裙子被毁、被推出安全区的核心冲突。",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "paywall_card_targets": [
+      "女主媒介被毁，圣域熄灭，尸潮第一次反扑",
+      "女主被挂上旗杆祭尸，陆野赶回看到惨状",
+      "陆野揭开零号/女王真相，万尸下跪",
+      "女主用反派的弱肉强食规则审判基地"
+    ],
+    "hook_density_rule": "每800-1200字至少一个微悬念或危机升级；每2500-3500字必须出现一次足以驱动付费的身份、规则或生死卡点。"
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短篇爽文读者",
+      "偏好末世大女主、异能反差、团体背叛后清算的读者",
+      "喜欢娇软外壳与高位女王身份反转的读者"
+    ],
+    "emotional_needs": [
+      "替被轻视、被道德绑架、被群体排挤的人完成反杀",
+      "看反派把保护机制误判成特权后亲手释放灾难",
+      "获得身份爆开、万众跪伏、反派求饶无效的强爽感",
+      "保留陆野护主、女王被供奉的新秩序补偿"
+    ],
+    "topic_taboos": [
+      "不要把女主写成真正无能且靠男主救全程",
+      "不要让雷铁男有合理洗白或和解",
+      "不要用恋爱线稀释女王觉醒主线",
+      "不要让群体背叛轻易免责，必须区分起哄者、施暴者、沉默者和少数善意者",
+      "避免过度血腥堆砌导致爽点钝化，惩罚要服务因果回旋"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula": "T1_冲突直给",
+        "examples": [
+          "新人把末世吉祥物扔进尸潮后悔疯了",
+          "她嫌我娇气，把丧尸女王亲手放出来了"
+        ]
+      },
+      {
+        "formula": "T2_身份反差",
+        "examples": [
+          "全基地嫌我没用，可我是丧尸女王",
+          "他们供养的废物，其实镇着整座尸潮"
+        ]
+      },
+      {
+        "formula": "T3_后果预告",
+        "examples": [
+          "她打翻我的奶茶后，万尸跪下了",
+          "裙子被剪碎那天，末世真正醒了"
+        ]
+      },
+      {
+        "formula": "T5_规则回旋",
+        "examples": [
+          "她说末世不养闲人，我让她自己活下去",
+          "她让我见现实，我让她见尸潮"
+        ]
+      }
+    ]
+  },
+  "success_metrics": {
+    "完读欲": {
+      "target_score": 9.2,
+      "scale": "0-10",
+      "key_driver": "女主被辱后的身份爆点必须延迟到读者情绪债拉满后释放。"
+    },
+    "付费点": {
+      "target_score": 9.0,
+      "scale": "0-10",
+      "key_driver": "每个付费卡点都绑定生死危机或身份真相，不能只靠口角停章。"
+    },
+    "情绪释放": {
+      "target_score": 9.4,
+      "scale": "0-10",
+      "key_driver": "雷铁男、起哄幸存者、冷漠旁观者必须按参与程度分层清算。"
+    },
+    "AI味": {
+      "target_score": 0.5,
+      "scale": "0-10，越低越好",
+      "hard_requirement": "禁用空泛总结、套话式心理描写和万能转折词；动作、道具、身体反应优先。"
+    },
+    "爆点密度": {
+      "target_score": 9.1,
+      "scale": "0-10",
+      "key_driver": "奶茶、裙子、圣域、旗杆、万尸下跪、红色女王袍必须形成连续回旋。"
+    }
+  }
+}

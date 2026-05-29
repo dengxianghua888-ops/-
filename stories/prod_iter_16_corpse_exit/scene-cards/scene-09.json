@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "无人化码头发布会主厅",
+  "time": "倒计时11小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "贺景衡", "沈清禾", "江童", "江栀", "江父", "江母", "媒体"],
+  "character_goal": "江沉闯入发布会，阻止贺景衡夺走继承人、妻子和孩子名分。",
+  "opposition_goal": "贺景衡要在媒体面前把江沉钉成冒名者和骚扰者。",
+  "conflict_action": "贺景衡投出登记资料、监护公证和继承文件，沈清禾挽着他接受媒体拍照，江栀让主持人切换大屏。",
+  "information_gap": "江沉不知道自己的旧婚姻与亲子资料已被伪造成精神异常纠纷。",
+  "emotional_debt_delta": "+公开名分被夺；+真少爷被定义为冒名者；+妻儿站到贺景衡身侧",
+  "payoff_or_hook": "第二付费级卡点：公开处刑与身份夺取。",
+  "chapter_end_hook": "主持人当众宣布：江沉是六年前被除名的冒名者。",
+  "paywall_card": true,
+  "must_include": ["无人化码头模型", "登记资料大屏", "监护公证", "继承文件", "媒体闪光灯", "沈清禾挽贺景衡"],
+  "must_not_write_as_exposition": ["不要摘要发布会流程", "不要让文件反转含糊", "不要让公开羞辱弱化成私下争执"]
+}

@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "犒军宴主厅",
+  "time": "宴至中段",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "裴承骁",
+    "传旨内侍",
+    "海防将校"
+  ],
+  "character_goal": "逼皇帝的灭口意志当场落字，让裴承骁无法再装成私人恩怨",
+  "opposition_goal": "内侍和裴承骁要把杀局包装成违令处置，继续借程序压死顾家",
+  "conflict_action": "内侍宣口谕，裴承骁拔刀逼席，沈灼宁反手把供药账册砸上桌案",
+  "information_gap": "皇帝为什么对顾氏血脉如此忌惮，旧监国案里还埋着什么名字",
+  "emotional_debt_delta": "皇权绞杀债坐实+4，反派升级到顶",
+  "payoff_or_hook": "‘一个不留’把整场清算从私仇拉到国仇",
+  "chapter_end_hook": "那句‘一个不留’落下时，顾临渊眼底最后一点温色也没了。",
+  "paywall_card": false,
+  "must_include": [
+    "口谕原句的高压感",
+    "账册砸桌的动作",
+    "裴承骁拔刀前后的气势变化",
+    "一名将校短暂迟疑，证明军心并非铁板一块"
+  ],
+  "must_not_write_as_exposition": [
+    "不要列席位次序",
+    "不要堆砌众人震惊描写",
+    "不要把口谕写成纯背景信息"
+  ],
+  "rhythm_job": {
+    "shape": "一宣旨，一拔刀，一砸证据，三下完成层级跃迁",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

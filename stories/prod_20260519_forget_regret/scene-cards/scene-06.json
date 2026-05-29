@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "别庄→窗外",
+  "time": "夜晚",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊",
+    "韩若"
+  ],
+  "character_goal": "女主布局反击（引韩若放灯笼）",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "女主以公主喜好为饵诱韩若放信号",
+  "information_gap": "三盏红灯笼=沈府暗卫联络信号",
+  "emotional_debt_delta": "0（反击启动）",
+  "payoff_or_hook": "三盏红灯笼同时亮起——她的人来了",
+  "chapter_end_hook": "三盏红灯笼同时亮起——她的人来了",
+  "paywall_card": false,
+  "must_include": [
+    "女主以公主喜好为饵诱韩若放信号"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "偏殿暖阁外廊",
+  "time": "同夜更深",
+  "pov": "我",
+  "characters": [
+    "我",
+    "新帝",
+    "裴家使者",
+    "近侍"
+  ],
+  "character_goal": "确认真相，决定还要不要等他",
+  "opposition_goal": "新帝要把我当稳朝局的棋子，继续蒙住我的眼",
+  "conflict_action": "我躲在屏风外听见新帝亲口承认买通太史、拿我压旧案稳裴家，回到住处后立刻拆簪写雁书求援西川",
+  "information_gap": "我捏碎鸾尾簪上的暗格，把求援雁书塞了进去。",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "爱意当场断裂，女主第一次主动求生",
+  "chapter_end_hook": "我捏碎鸾尾簪上的暗格，把求援雁书塞了进去。",
+  "paywall_card": true,
+  "must_include": [
+    "偷听真相",
+    "买通太史的明话",
+    "鸾尾簪暗格",
+    "雁书求援",
+    "一句截屏金句"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇讲政治格局",
+    "不要把偷听写成含糊误会",
+    "不要让女主偷听后还自我安慰"
+  ],
+  "rhythm_job": {
+    "shape": "对白3段/动作4段/留白1段/章尾钩1刀",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

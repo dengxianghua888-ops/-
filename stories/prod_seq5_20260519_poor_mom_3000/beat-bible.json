@@ -1,0 +1,422 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 11000,
+    "max": 13500,
+    "market_min": 10000,
+    "market_max": 18000
+  },
+  "title": "我在医院晕倒时，妈妈说每月给我三千",
+  "genre": "family_ethics",
+  "mechanisms": {
+    "M1": "母亲转账成功截图与主角余额冲突，再由银行流水、定时划扣协议、尾号9087、车行记录和设备采购合同形成证据闭环。",
+    "M3": "前期主角只剩三十几块、靠医院食堂汤泡饭撑着；结尾父亲失去岗位和家庭后一天挣不到三十，只能吃同样的汤泡饭。",
+    "M5": "母亲从自认按月给钱的强势误判，到公开羞辱主角，再到被证据击穿后内审、报警和补偿，但无法立刻获得原谅。",
+    "M6": "生活费失踪升级为父亲侄子豪车、诊所设备、医院采购回扣和父系亲戚占岗寄生链。"
+  },
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "母亲把三千转账截图甩来，我手机余额却只剩三十二块六。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 820,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "父亲温柔劝我别闹，可我第一次觉得，他太急着让我闭嘴了。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "收费大厅里，母亲要我跪下承认私吞学费。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 880,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "我听见办卡人是父亲时，忽然明白钱可能不是没到账。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 850,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "流水上写着：到账后三分钟，钱被划到尾号9087。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 930,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "父亲脸色发白，而母亲第一次没再骂我撒谎。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 870,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "杨驰新提的限量保时捷，付款日期和我的生活费转出日重合。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 860,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "车行经理说，全款不是杨驰付的，是一张尾号9087的卡。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 950,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "母亲翻到进口牙椅采购合同，签收人还是父亲的亲戚。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 870,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "亲戚们堵在医院门口开直播，喊出一句让所有镜头都安静的话。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 920,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "直播里，他们亲口承认，拿女儿生活费补贴自家人不算偷。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 900,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "母亲把报警回执放到父亲面前，问他还要不要我跪下认错。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 820,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "父亲在临时工市场站了一天，手里只有二十八块。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 860,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "母亲说想重新当我的妈妈，我只把赔偿收下，没把钥匙交回去。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "急诊输液室与医院食堂",
+      "character_goal": "白栀想补缴药费并证明自己真的没钱。",
+      "conflict_action": "护士催缴药费时，母亲打电话质问白栀把每月三千花到哪里，白栀当场打开手机银行余额给旁边护士看。",
+      "information_gap": "母亲转账成功截图存在，白栀余额却只有三十二块六，钱去向未知。",
+      "emotion_debt_balance": {
+        "生存压迫债": "+2",
+        "亲情误解债": "+2",
+        "公开羞辱债": "0",
+        "父亲背叛债": "埋伏"
+      },
+      "chapter_end_hook": "母亲把三千转账截图甩来，我手机余额却只剩三十二块六。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能弱化前三段饥饿、余额和电话辱骂",
+        "不能写成母亲没转钱"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "实习宿舍走廊与食堂后门",
+      "character_goal": "白栀想借五百元药费和住宿费缓过眼前危机。",
+      "conflict_action": "白栀向父亲求助，父亲一边温声安抚一边让她向母亲认错，随后转头给杨驰订庆功宴座位。",
+      "information_gap": "父亲表现得像调停者，却回避查看白栀银行卡明细。",
+      "emotion_debt_balance": {
+        "生存压迫债": "+1",
+        "亲情误解债": "+1",
+        "父亲背叛债": "+1"
+      },
+      "chapter_end_hook": "父亲温柔劝我别闹，可我第一次觉得，他太急着让我闭嘴了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "父亲不能提前露馅",
+        "不能让白栀无证据撒泼",
+        "不能把贫穷写成轻飘飘的抱怨"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_location": "医院收费大厅",
+      "character_goal": "白栀想让母亲看见欠费单和余额，承认她没有败家。",
+      "conflict_action": "母亲带着杨驰冲进收费大厅，举着转账截图逼白栀交代学费去向，并当众命令她跪下认错。",
+      "information_gap": "母亲证据看似铁，白栀无法解释三千到账后为何余额消失。",
+      "emotion_debt_balance": {
+        "公开羞辱债": "+3",
+        "亲情误解债": "+2",
+        "堂哥吸血债": "+1"
+      },
+      "chapter_end_hook": "收费大厅里，母亲要我跪下承认私吞学费。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能洗白公开罚跪",
+        "不能让母亲轻声细语带过羞辱",
+        "不能让杨驰缺席挑拨"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 780,
+      "target_chars_max": 940,
+      "scene_location": "收费大厅自助机旁",
+      "character_goal": "白栀想抓住现场能查的线索，阻止自己被定罪。",
+      "conflict_action": "白栀跪到一半撑着自助机站起来，要求母亲当场打印近半年流水，父亲伸手去抢她的身份证。",
+      "information_gap": "当年办卡绑定过亲属授权，但谁有权限、钱流向哪张卡还未揭开。",
+      "emotion_debt_balance": {
+        "公开羞辱债": "+1",
+        "证据反击债": "-1",
+        "父亲背叛债": "+1"
+      },
+      "chapter_end_hook": "我听见办卡人是父亲时，忽然明白钱可能不是没到账。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "冲突动作必须发生在现场",
+        "不能用回忆替代查证",
+        "不能让父亲直接承认"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 780,
+      "target_chars_max": 930,
+      "scene_location": "银行网点与医院门口",
+      "character_goal": "白栀想拿到完整流水，确认钱是否被自动划扣。",
+      "conflict_action": "白栀拖着输液后的手去银行柜台打印流水，柜员核验身份后标出每月到账后三分钟的固定转出记录。",
+      "information_gap": "尾号9087出现，但收款人全名暂未打印出来。",
+      "emotion_debt_balance": {
+        "证据反击债": "-2",
+        "父亲背叛债": "+2",
+        "生存压迫债": "+1"
+      },
+      "chapter_end_hook": "流水上写着：到账后三分钟，钱被划到尾号9087。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让流水来得过于玄幻",
+        "必须写清到账后三分钟",
+        "不能跳过银行柜台核验"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 850,
+      "target_chars_max": 1040,
+      "scene_location": "医院收费大厅回访现场",
+      "character_goal": "白栀想把9087尾号摆到母亲和父亲面前，逼他们停止污蔑。",
+      "conflict_action": "白栀回到收费大厅，把流水一页页贴在缴费窗口玻璃上，当众问父亲9087是谁的卡。",
+      "information_gap": "父亲的反应暴露异常，但他仍用亲属授权和家庭内部转账搪塞。",
+      "emotion_debt_balance": {
+        "亲情误解债": "-1",
+        "父亲背叛债": "+2",
+        "公开羞辱债": "-1"
+      },
+      "chapter_end_hook": "父亲脸色发白，而母亲第一次没再骂我撒谎。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让主角靠喊叫赢",
+        "必须用流水公开压迫反派",
+        "母亲不能马上彻底悔悟"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 790,
+      "target_chars_max": 950,
+      "scene_location": "医院地下停车场",
+      "character_goal": "白栀想确认杨驰是否享受了她失踪的钱。",
+      "conflict_action": "杨驰开着限量保时捷来接父亲，故意按喇叭嘲笑白栀交不起药费，白栀拍下车牌并拨通车行电话。",
+      "information_gap": "豪车付款人与付款日期尚未核实。",
+      "emotion_debt_balance": {
+        "堂哥吸血债": "+3",
+        "证据反击债": "-1",
+        "生存压迫债": "+1"
+      },
+      "chapter_end_hook": "杨驰新提的限量保时捷，付款日期和我的生活费转出日重合。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "杨驰必须主动挑衅",
+        "不能只写看见豪车",
+        "不能把奢侈锚点写虚"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 780,
+      "target_chars_max": 940,
+      "scene_location": "保时捷车行与电话录音",
+      "character_goal": "白栀想拿到豪车付款证明，补全钱款去向。",
+      "conflict_action": "白栀用车牌和母亲公司采购名义联系车行，车行经理回电确认全款付款尾号，白栀开录音并让母亲同步听见。",
+      "information_gap": "9087与父亲账户高度重合，但父亲如何把生活费变成杨驰资产仍差采购线。",
+      "emotion_debt_balance": {
+        "堂哥吸血债": "-1",
+        "父亲背叛债": "+2",
+        "亲情误解债": "-1"
+      },
+      "chapter_end_hook": "车行经理说，全款不是杨驰付的，是一张尾号9087的卡。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能非法取证",
+        "必须让录音来源合理",
+        "不能让母亲立刻替主角说尽好话"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 860,
+      "target_chars_max": 1080,
+      "scene_location": "白氏口腔总部财务室",
+      "character_goal": "白栀想证明这不是单纯偷生活费，而是父亲一系寄生母亲公司。",
+      "conflict_action": "母亲调出采购系统，白栀逐项对照进口牙椅合同、仓储签收单和父亲审批记录，发现杨驰诊所设备与医院采购批次相同。",
+      "information_gap": "亲戚占岗链条开始浮出，但谁参与、金额多少还需内审。",
+      "emotion_debt_balance": {
+        "杨家寄生债": "+3",
+        "母亲失察债": "+2",
+        "证据反击债": "-2"
+      },
+      "chapter_end_hook": "母亲翻到进口牙椅采购合同，签收人还是父亲的亲戚。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "医疗问题必须限定为家族企业内控",
+        "不能泛化行业黑幕",
+        "采购线必须用合同和签收单推进"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 790,
+      "target_chars_max": 950,
+      "scene_location": "连锁口腔医院门口",
+      "character_goal": "白栀想协助母亲稳住现场并保留亲戚闹事证据。",
+      "conflict_action": "父亲亲戚带短视频博主堵门，举牌骂母亲翻脸不认家人，白栀站到镜头外打开录音和直播录屏。",
+      "information_gap": "亲戚以为自己在卖惨，尚未意识到直播会反向坐实侵占。",
+      "emotion_debt_balance": {
+        "杨家寄生债": "+2",
+        "公开羞辱债": "-1",
+        "母亲失察债": "+1"
+      },
+      "chapter_end_hook": "亲戚们堵在医院门口开直播，喊出一句让所有镜头都安静的话。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把直播写成无动作旁观",
+        "不能让主角私刑报复",
+        "不能让亲戚只会空骂"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 840,
+      "target_chars_max": 1040,
+      "scene_location": "医院门口直播现场",
+      "character_goal": "白栀想让亲戚自爆的每一句都进入公开记录。",
+      "conflict_action": "亲戚抢母亲手机时吼出生活费和采购款都是一家人该用，白栀当场把流水、合同编号和直播画面同屏展示。",
+      "information_gap": "公众已看见自爆，但法律清算和公司处理尚未落地。",
+      "emotion_debt_balance": {
+        "杨家寄生债": "-2",
+        "亲情误解债": "-2",
+        "公开羞辱债": "-2"
+      },
+      "chapter_end_hook": "直播里，他们亲口承认，拿女儿生活费补贴自家人不算偷。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用旁白总结自爆",
+        "必须有亲戚原话性质的价值观暴露",
+        "不能让白栀替他们解释犯罪逻辑"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 830,
+      "target_chars_max": 1030,
+      "scene_location": "医院会议室与派出所接警区",
+      "character_goal": "白栀想推动报警、内审和追偿，不让父亲用家事遮掩。",
+      "conflict_action": "母亲带律师把流水、录音、直播录屏、采购合同装订成册，白栀签字提交材料，父亲冲进会议室撕文件被保安拦下。",
+      "information_gap": "父亲和杨驰的代价将落地，但母亲是否能获得白栀信任仍悬着。",
+      "emotion_debt_balance": {
+        "父亲背叛债": "-3",
+        "杨家寄生债": "-2",
+        "母亲失察债": "+1"
+      },
+      "chapter_end_hook": "母亲把报警回执放到父亲面前，问他还要不要我跪下认错。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让家事私了",
+        "必须出现法律和内审动作",
+        "不能让母亲一句道歉抵消责任"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 760,
+      "target_chars_max": 920,
+      "scene_location": "临时工市场与医院食堂后门",
+      "character_goal": "白栀想看见父亲承担同态处境，但不主动施舍或和解。",
+      "conflict_action": "父亲失去岗位和家庭账户后去临时工市场找活，白栀在食堂后门看见他攥着二十八块，向窗口讨一碗不要钱的汤。",
+      "information_gap": "父亲体验三十块困境，但母女关系还没有结论。",
+      "emotion_debt_balance": {
+        "生存压迫债": "-2",
+        "父亲背叛债": "-1",
+        "回旋惩罚债": "-3"
+      },
+      "chapter_end_hook": "父亲在临时工市场站了一天，手里只有二十八块。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让白栀圣母心疼父亲",
+        "不能只写父亲后悔",
+        "必须回扣三十块和汤泡饭"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 800,
+      "target_chars_max": 980,
+      "scene_location": "实习宿舍与医院门禁口",
+      "character_goal": "白栀想收下赔偿和道歉，同时保留边界。",
+      "conflict_action": "母亲把补偿款、学费缴清凭证和宿舍门禁卡交给白栀，白栀核对后只收下文件和钱，把家里钥匙推回去。",
+      "information_gap": "清算完成，但亲情信任无法立即恢复。",
+      "emotion_debt_balance": {
+        "亲情误解债": "-2",
+        "母亲失察债": "保留未清",
+        "主角边界债": "兑现"
+      },
+      "chapter_end_hook": "母亲说想重新当我的妈妈，我只把赔偿收下，没把钥匙交回去。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止强行母女和解",
+        "禁止写我释怀了",
+        "不能让血缘话术消解伤害"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars_min": 11040,
+    "planned_total_chars_max": 13510,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "paywall_card_beats": [
+      "B03",
+      "B06",
+      "B09",
+      "B12"
+    ],
+    "chapter_end_hook_coverage": "14/14",
+    "required_opening_hook": "前300字必须同时出现急诊醒来、余额三十二块六、护士催缴药费、母亲质问每月三千去向。",
+    "forbidden_global": [
+      "禁止把主角写成圣母式原谅父亲或亲戚",
+      "禁止用都是一家人、血浓于水消解伤害",
+      "禁止让母亲轻飘飘道歉后立刻修复母女关系",
+      "禁止主角无证据吵闹，反击必须依靠流水、录音、公开场合和法律手段",
+      "禁止把医疗场景扩写成行业黑幕"
+    ]
+  }
+}

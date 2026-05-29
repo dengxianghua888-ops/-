@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 630,
+  "target_chars_max": 830,
+  "location": "昼光影业楼下",
+  "time": "产权反转后一周",
+  "pov": "第一人称：许闻笙",
+  "characters": [
+    "许闻笙",
+    "陆呈",
+    "前台",
+    "保安",
+    "顾凛"
+  ],
+  "character_goal": "许闻笙切断陆呈纠缠，维护公司秩序。",
+  "opposition_goal": "陆呈误以为许闻笙撤资和起诉都是为了逼他低头恋爱。",
+  "conflict_action": "陆呈抱花堵在公司楼下，说愿意给许闻笙女朋友名分；许闻笙通知前台叫保安，向物业发送禁入通知，并当面说对他没兴趣。",
+  "information_gap": "陆呈不知道自己已经进入昼光合作黑名单，所有商务邮件会自动退回。",
+  "emotional_debt_delta": "+1：复合施舍羞辱；-2：禁入通知和合作黑名单彻底切断幻想。",
+  "payoff_or_hook": "顾凛从路演回来撞见陆呈纠缠，默默站到许闻笙身侧。",
+  "chapter_end_hook": "陆呈堵在公司门口，说他愿意给我一个复合机会。",
+  "paywall_card": false,
+  "must_include": [
+    "陆呈抱花堵门",
+    "女朋友名分施舍",
+    "前台叫保安",
+    "物业禁入通知",
+    "许闻笙明确说没兴趣"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让女主动摇",
+    "不要写虐恋拉扯",
+    "不要让顾凛替女主做决定"
+  ]
+}

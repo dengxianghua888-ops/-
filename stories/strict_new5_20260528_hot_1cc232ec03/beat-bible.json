@@ -1,0 +1,405 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_min": 10540,
+    "planned_total_max": 10840
+  },
+  "title": "女儿一百万买断我五年陪诊后，她妈悔疯了",
+  "genre": "family_ethics / 婚姻背叛 / 亲子误解 / 专利证据复仇 / 不原谅火葬场",
+  "mechanisms": [
+    "M3 因果回旋反讽：护工工资、一百万、没工作、共同债务，逐一回收为账单、专利、未受益证据",
+    "M2 身份价值反差：落魄陪诊父亲反转为肺康系统原始专利持有人",
+    "M5 温度反转曲线：早年托付与后期一句我又没逼你形成冷回旋",
+    "M6 六级递进：缴费窗口背刺、集团羞辱、康复营断亲、发布会塌房、庭审债务反杀、结尾不原谅",
+    "M1 证据死环：发布会公开担保后被专利底稿、云端日志、录音和资金流反锁"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 760,
+      "scene_range": "scene-01",
+      "phase": "opening",
+      "chapter_end_hook": "顾念安把签字笔推到我掌心，说一百万已经算她对我仁慈。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 720,
+      "scene_range": "scene-02",
+      "phase": "opening",
+      "chapter_end_hook": "沈知宁没有看缴费单，只问我是不是又想拿孩子要钱。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 780,
+      "scene_range": "scene-03",
+      "phase": "pressure",
+      "chapter_end_hook": "陆承安当着前台笑着说，陪诊家属不要进集团核心区。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 820,
+      "scene_range": "scene-04",
+      "phase": "pressure",
+      "chapter_end_hook": "我在垃圾桶边捡起被踩脏的康复记录，第一次拨通专利律师电话。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 840,
+      "scene_range": "scene-05",
+      "phase": "pressure",
+      "chapter_end_hook": "顾念安哭着说是我忘带急救药，陆爸爸才是救她的人。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 760,
+      "scene_range": "scene-06",
+      "phase": "pressure",
+      "chapter_end_hook": "我在撤回抚养权申请上签名，只留下一句：她，连同你，我都不要了。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 960,
+      "scene_range": "scene-07",
+      "phase": "climax_reversal",
+      "is_climax_chapter": true,
+      "chapter_end_hook": "发布会后台，沈知宁把话筒递给陆承安，让他替集团担保原创。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 1180,
+      "scene_range": "scene-08",
+      "phase": "climax_reversal",
+      "is_climax_chapter": true,
+      "chapter_end_hook": "大屏亮起的第一张图，是我五年前写下的雾化节律模型底稿。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 1160,
+      "scene_range": "scene-09",
+      "phase": "climax_reversal",
+      "is_climax_chapter": true,
+      "chapter_end_hook": "资产冻结通知递到沈知宁手里时，陆承安先松开了她的手。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 930,
+      "scene_range": "scene-10",
+      "phase": "climax_reversal",
+      "is_climax_chapter": true,
+      "chapter_end_hook": "沈知宁在庭前调解室说：集团债务，夫妻也该一起扛。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 860,
+      "scene_range": "scene-11",
+      "phase": "climax_reversal",
+      "is_climax_chapter": true,
+      "chapter_end_hook": "法官翻到我五年缴费流水，问沈知宁：这些钱，你出过哪一笔？"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 820,
+      "scene_range": "scene-12",
+      "phase": "settlement",
+      "chapter_end_hook": "判决书最后一页落下，沈知宁才知道一百万买不走我的五年。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 760,
+      "scene_range": "scene-13",
+      "phase": "settlement",
+      "chapter_end_hook": "顾念安抱着作业本堵在门口，喊我爸爸，我没有开门。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 790,
+      "scene_range": "scene-14",
+      "phase": "settlement",
+      "chapter_end_hook": "天气很好，我把探视协议收进抽屉，关上了那扇旧门。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 730,
+      "target_chars_max": 790,
+      "scene_location": "儿童康复医院缴费窗口",
+      "phase": "opening",
+      "character_goal": "顾砚舟给女儿续康复疗程，并确认离婚案中继续争取抚养权",
+      "conflict_action": "顾念安把离婚协议塞进缴费单，要求他签字放弃抚养权和财产",
+      "information_gap": "读者只知道女儿认定父亲图钱，还不知道五年缴费和照护全由顾砚舟承担",
+      "emotion_debt_balance": "-亲情背刺启动：女儿用一百万估价五年陪诊",
+      "chapter_end_hook": "顾念安把签字笔推到我掌心，说一百万已经算她对我仁慈。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能解释型回忆五年辛苦",
+        "不能洗白女儿递协议的主动伤害"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 690,
+      "target_chars_max": 750,
+      "scene_location": "医院走廊与缴费窗口旁",
+      "phase": "opening",
+      "character_goal": "顾砚舟让沈知宁看见缴费单，停止污名他拿孩子要钱",
+      "conflict_action": "沈知宁赶到后撕掉复印缴费单，用一百万补偿和护工工资羞辱他",
+      "information_gap": "沈知宁为什么急着逼离婚、陆承安为什么能插手孩子治疗仍未揭开",
+      "emotion_debt_balance": "-婚姻背刺加深：妻子归零五年照护",
+      "chapter_end_hook": "沈知宁没有看缴费单，只问我是不是又想拿孩子要钱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成夫妻冷战流水账",
+        "不要大段介绍医疗流程",
+        "不能让主角当场口嗨证明身份"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 750,
+      "target_chars_max": 810,
+      "scene_location": "知宁康复集团总部前台",
+      "phase": "pressure",
+      "character_goal": "顾砚舟送来女儿康复设备异常记录，要求集团停用涉嫌侵权模型",
+      "conflict_action": "前台和护士站按陆承安授意拦他，陆承安当众称他是闹事陪诊家属",
+      "information_gap": "顾砚舟为何认得肺康系统底层问题，集团产品与他旧成果的关系暂不明说",
+      "emotion_debt_balance": "-尊严债增加：专业价值被当成陪诊废话",
+      "chapter_end_hook": "陆承安当着前台笑着说，陪诊家属不要进集团核心区。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释集团组织架构",
+        "不要把前台羞辱写成围观清单",
+        "不能提前揭开全部专利底牌"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 790,
+      "target_chars_max": 850,
+      "scene_location": "集团外垃圾桶与路边停车位",
+      "phase": "pressure",
+      "character_goal": "顾砚舟保住女儿康复记录，并开始把羞辱转成证据",
+      "conflict_action": "陆承安把康复训练表丢进垃圾桶，沈知宁电话里说她当年没有逼他退圈",
+      "information_gap": "当年退圈真相只露一角：早产病女、融资窗口、沈知宁哭求",
+      "emotion_debt_balance": "-旧情债断裂：一句我没逼你刺穿早年托付",
+      "chapter_end_hook": "我在垃圾桶边捡起被踩脏的康复记录，第一次拨通专利律师电话。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能长篇闪回恋爱史",
+        "不要复述专利法概念",
+        "不能把律师出现写成天降救场"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 810,
+      "target_chars_max": 870,
+      "scene_location": "儿童康复营训练馆",
+      "phase": "pressure",
+      "character_goal": "顾砚舟按医嘱送急救包并阻止陆承安错误甩锅",
+      "conflict_action": "顾念安急性哮喘后为护陆承安，当众指认顾砚舟忘带急救药",
+      "information_gap": "女儿是否知道陆承安私下换掉急救包，现场只留下监控死角疑点",
+      "emotion_debt_balance": "-亲子债峰值：孩子用病情反咬亲生父亲",
+      "chapter_end_hook": "顾念安哭着说是我忘带急救药，陆爸爸才是救她的人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写具体急救药物剂量",
+        "不要猎奇描写病痛",
+        "不要让旁观者逐个发言拖慢节奏"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 730,
+      "target_chars_max": 790,
+      "scene_location": "律师事务所会客室",
+      "phase": "pressure",
+      "character_goal": "顾砚舟从争抚养权转为证据清算，保护自己不被继续消耗",
+      "conflict_action": "他撤回抚养权争夺，交出缴费单、卖房流水、金镯典当记录和云端日志目录",
+      "information_gap": "读者知道他要反击，但发布会公开担保这一死环还没启动",
+      "emotion_debt_balance": "+边界建立：不再把亲情当无限责任",
+      "chapter_end_hook": "我在撤回抚养权申请上签名，只留下一句：她，连同你，我都不要了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写成长律师讲课",
+        "不要抽象总结主角心死",
+        "不能把撤回抚养权写成报复儿童"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 930,
+      "target_chars_max": 990,
+      "scene_location": "B轮融资发布会后台",
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "character_goal": "顾砚舟让沈知宁和陆承安在公开场合主动担保，锁死后续证据链",
+      "conflict_action": "沈知宁要求顾砚舟离场，并把话筒递给陆承安证明产品原创",
+      "information_gap": "顾砚舟已经安排律师与大屏材料，但现场观众尚不知内容",
+      "emotion_debt_balance": "+反杀蓄力：反派亲手写下公开担保",
+      "chapter_end_hook": "发布会后台，沈知宁把话筒递给陆承安，让他替集团担保原创。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写商业发布会流程清单",
+        "不要把投资人反应铺太长",
+        "不能让主角提前宣告胜利"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 1150,
+      "target_chars_max": 1210,
+      "scene_location": "融资发布会主舞台",
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "character_goal": "顾砚舟投出第一组专利和日志证据，打掉自研谎言",
+      "conflict_action": "大屏切入专利底稿、提交时间、云端版本记录，律师同步送达侵权告知",
+      "information_gap": "同居、转账和家庭资产挪用证据尚未放出，先锁专业线",
+      "emotion_debt_balance": "+事业债回收：陪诊废物反转为原始研发人",
+      "chapter_end_hook": "大屏亮起的第一张图，是我五年前写下的雾化节律模型底稿。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要展开技术原理教学",
+        "不要让舆论辱骂替代证据",
+        "不能把证据写成偶然弹屏"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 1130,
+      "target_chars_max": 1190,
+      "scene_location": "融资发布会主舞台与媒体区",
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "character_goal": "顾砚舟继续公开同居转账、资产转移和律师冻结申请",
+      "conflict_action": "他让律师递交资产冻结回执，大屏切出陆承安别墅物业、车辆通行和孕产护理账单",
+      "information_gap": "债务是否会反咬到顾砚舟身上，留给庭审解决",
+      "emotion_debt_balance": "+财产债回收：妻子转移给情夫的钱被钉在公开场",
+      "chapter_end_hook": "资产冻结通知递到沈知宁手里时，陆承安先松开了她的手。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要露骨写出轨细节",
+        "不要堆满账单不推进人物动作",
+        "不能让陆承安只被网友骂而无现实代价"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 900,
+      "target_chars_max": 960,
+      "scene_location": "法院庭前调解室",
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "character_goal": "顾砚舟拒绝共同承担集团债务和违规项目赔偿",
+      "conflict_action": "沈知宁拿集团融资债务、侵权赔偿和医疗纠纷单据逼他一起签调解",
+      "information_gap": "顾砚舟手里未受益证据还未全部进入庭审",
+      "emotion_debt_balance": "+规则反杀蓄势：反派把刀递到规则桌上",
+      "chapter_end_hook": "沈知宁在庭前调解室说：集团债务，夫妻也该一起扛。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要引用具体不确定法条",
+        "不要长篇解释债务概念",
+        "不能把沈知宁写成只是慌乱求饶"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 830,
+      "target_chars_max": 890,
+      "scene_location": "离婚财产分割庭",
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "character_goal": "顾砚舟用家庭账单和资金流证明五年未受益",
+      "conflict_action": "他提交急诊缴费、康复账单、卖房流水、金镯典当和沈知宁零家用记录",
+      "information_gap": "最终判决金额暂不落下，先让沈知宁当庭失语",
+      "emotion_debt_balance": "+家庭债回收：所有被污名的钱都有来源",
+      "chapter_end_hook": "法官翻到我五年缴费流水，问沈知宁：这些钱，你出过哪一笔？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写庭审成普法讲座",
+        "不要连续解释时间线",
+        "不能用主角哭诉替代证据"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 790,
+      "target_chars_max": 850,
+      "scene_location": "法院外台阶",
+      "phase": "settlement",
+      "character_goal": "顾砚舟拿到财产和专利方向的现实清算结果",
+      "conflict_action": "律师宣读判决要点：返还资产、赔偿专利收益、主角不承担未受益债务",
+      "information_gap": "妻女悔意如何出现、主角是否原谅还未回答",
+      "emotion_debt_balance": "+金钱和规则债兑现：一百万对照巨额返还",
+      "chapter_end_hook": "判决书最后一页落下，沈知宁才知道一百万买不走我的五年。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写万能判决一句解决全部",
+        "不要把现实代价只写成舆论翻车",
+        "不能忘记专利和债务两条线"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 730,
+      "target_chars_max": 790,
+      "scene_location": "顾砚舟新住处门口",
+      "phase": "settlement",
+      "character_goal": "顾砚舟执行探视边界，不让女儿用悔意立刻重置伤害",
+      "conflict_action": "顾念安抱着作业本和旧雾化记录来道歉，顾砚舟只通过门缝递出探视时间表",
+      "information_gap": "女儿未来能否修复关系不作承诺，只留下长期补偿空间",
+      "emotion_debt_balance": "+亲情边界确立：不报复，也不即时原谅",
+      "chapter_end_hook": "顾念安抱着作业本堵在门口，喊我爸爸，我没有开门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能一句被骗就免除女儿情感债",
+        "不要写主角羞辱未成年人",
+        "不要用孩子病情逼复合"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 760,
+      "target_chars_max": 820,
+      "scene_location": "民政局外与顾砚舟新工作室",
+      "phase": "settlement",
+      "character_goal": "顾砚舟完成离婚手续，回到自己的事业和生活",
+      "conflict_action": "沈知宁带着复婚协议求他回头，他撕下探视安排副本，只签离婚确认",
+      "information_gap": "主角未来重新研发，但不以新欢或豪门救场收尾",
+      "emotion_debt_balance": "+终局兑现：悔恨存在，但不能重新拥有他",
+      "chapter_end_hook": "天气很好，我把探视协议收进抽屉，关上了那扇旧门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止复合团圆",
+        "不要抽象原谅拔高主题",
+        "不能让胜利依赖新伴侣救场"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 10,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage_rate": 1.0,
+    "min_public_execution_scenes": 2,
+    "min_evidence_reversal_per_3000_chars": 1
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      18,
+      25
+    ],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.55,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.52,
+    "barrage_line_rate_min": 0.02,
+    "barrage_line_rate_max": 0.08,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 7.0,
+    "explanatory_long_paragraph_cap_per_chapter": 90
+  }
+}

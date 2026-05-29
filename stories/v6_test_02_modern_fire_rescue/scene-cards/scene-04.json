@@ -1,0 +1,68 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 2,
+  "is_chapter_end": false,
+  "is_climax_beat": false,
+  "target_chars_min": 500,
+  "target_chars_max": 620,
+  "location": "CCU（心脏重症监护室）",
+  "time": "次日/数日后，苏醒",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "主治医生"],
+  "character_goal": "了解自己的身体状况",
+  "opposition_goal": "医学事实冷酷无情——心功能III级+终身用药致不育",
+  "conflict_action": "医生用克制的专业语气告知：心肌大面积坏死，需终身服用抗凝药+β受体阻滞剂，自然受孕概率低于5%",
+  "information_gap": "主角不知道妻子至今没来过医院（她忙着处理庆功宴后续）；读者即将知道",
+  "emotional_debt_delta": "+3：不可逆伤害确认——'我以后很难有自己的孩子了'",
+  "payoff_or_hook": "回忆闪回：上个月她说'等我评完副高，咱们就认真备孕'→ 他偷偷去做了精液检测，A+B>65%",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "医生的诊断原话（冷静客观，不带感情）",
+    "心功能III级的具体含义（终身药物依赖）",
+    "药物致不育的因果链（简洁准确）",
+    "回忆闪回：她说'等忙完认真备孕'+他偷偷做精液检测的细节",
+    "胎心监护仪钥匙扣的存在（暗示他已准备好当父亲）"
+  ],
+  "must_not_write_as_exposition": [
+    "医学知识不能科普化",
+    "备孕话题不能煽情——痛的是信任被辜负，不是'不是男人了'"
+  ],
+  "rhythm_job": {
+    "shape": "沉重缓行",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 17.0,
+    "dominant_emotion": "冷痛-打击",
+    "emotion_arc": "苏醒 → 诊断打击 → 回忆温情形成对比",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "诊断的不可逆性+回忆中温情承诺的对比，让读者'心被揪住'",
+    "required_techniques": [
+      {
+        "technique": "诊断冷语术",
+        "instruction": "医生的客观语气与毁灭性内容的反差——用最平淡的口吻说最残忍的事。写出原话，不加情绪修饰"
+      },
+      {
+        "technique": "回忆闪回刺刀",
+        "instruction": "在诊断最痛处插入一个温柔回忆——她说'等忙完就备孕'。只用一两句话，短到读者来不及暖就被现实刺穿"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对比概括句（承诺 vs 结果）",
+        "example": "体检报告压在床头柜底层——他准备告诉她'我们可以了'",
+        "instruction": "用一个具体物件（精液检测报告/钥匙扣）承载'本来要给她的惊喜'，让'永远给不出了'不言自明"
+      }
+    ],
+    "peak_type": "irreversible_damage",
+    "bomb_technique": "对比式",
+    "source_excerpt": "医生说：'从目前检查结果看，你以后自然生育的概率，会很低。'我没说话。脑子里闪过上个月她难得温和的语气：'等我评完副高，咱们就认真准备。'床头柜最底层压着一份精液检测报告。A级+B级活力超过65%。我本来打算这周末告诉她——我们可以了。"
+  }
+}

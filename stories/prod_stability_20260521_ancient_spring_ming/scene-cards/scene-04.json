@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海上纪录片庆功宴包厢",
+  "time": "当晚",
+  "pov": "沈惊棠",
+  "characters": ["沈惊棠", "裴砚潮", "杨昭宁", "宾客", "服务生"],
+  "character_goal": "避开甲壳类浓汤，保住呼吸，不要在包厢里倒下。",
+  "opposition_goal": "杨昭宁要把她逼到过敏失态，裴砚潮要她当众顺从。",
+  "conflict_action": "杨昭宁笑着给她盛甲壳浓汤，裴砚潮盯着她喝；她咽下后喉头立刻收紧，撑着桌沿呕血窒息。",
+  "information_gap": "裴砚潮记不记得她严重过敏；甲壳味为何会勾连更深的海上记忆。",
+  "emotional_debt_delta": {
+    "add": ["他对她身体底线的践踏已经到了哪一步"],
+    "pay": ["具体兑现二次误判与身体伤害", "把‘恶心’感从关系推进到生理层面"]
+  },
+  "payoff_or_hook": "她快喘不过气时，裴砚潮仍把她当成演戏。",
+  "chapter_end_hook": "截断句：她满口血腥味，听见他问，演够了吗？",
+  "paywall_card": true,
+  "must_include": ["甲壳类浓汤", "吞咽后的喉头收紧", "杨昭宁表面关心", "裴砚潮逼她喝完"],
+  "must_not_write_as_exposition": ["不要写宴席菜品说明", "不要长篇解释过敏知识", "不要把濒死反应写得轻描淡写"],
+  "rhythm_job": {
+    "shape": "对白3成，动作4成，呼吸点2成，闪回刀口1成；一口汤就是扳机，章尾留在错判上",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

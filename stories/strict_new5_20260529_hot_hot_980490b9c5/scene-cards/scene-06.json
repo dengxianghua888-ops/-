@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 750,
+  "target_chars_max": 830,
+  "location": "沈家绣厅",
+  "time": "万寿贡缎宴前夜",
+  "pov": "沈知微第一人称",
+  "characters": ["沈知微", "沈明珠", "沈嵘", "绣娘"],
+  "character_goal": "稳住局面，让沈明珠把凤冠样纸和太子赐线公开带去万寿宴",
+  "opposition_goal": "沈明珠要逼女主缝垂带并承认自己只是陪衬",
+  "conflict_action": "沈明珠把凤冠样纸摊到地上，沈嵘命女主穿粗布衣随行入宴",
+  "information_gap": "反派不知道凤冠样纸与龙袍暗线会成为御前证据",
+  "emotional_debt_delta": {
+    "collect": ["继妹夺荣耀", "父亲命令女主献丑"],
+    "payoff": ["反派把炫耀物带向公开清算场"]
+  },
+  "payoff_or_hook": "万寿宴舞台就位，女主仍以最低身份入场",
+  "chapter_end_hook": "万寿贡缎宴前夜，沈明珠把凤冠样纸摊在沈知微脚边：明日，你跪着看我入东宫。",
+  "paywall_card": false,
+  "must_include": ["凤冠样纸", "太子赐线", "粗布衣", "沈明珠炫耀赐婚"],
+  "must_not_write_as_exposition": ["不要写绣法教学", "不要扩写女主悲伤独白", "不要让沈知微提前翻牌"],
+  "rhythm_job": {
+    "shape": "绣厅低位羞辱，女主用短对白藏锋，最后用继妹预告入东宫截断",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_lines_target": [10, 14],
+    "action_beats_min": 5,
+    "evidence_turn_min": 1,
+    "low_pressure_carry": "写沈知微穿针、线头断开、她重新打结"
+  }
+}

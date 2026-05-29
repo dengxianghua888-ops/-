@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 810,
+  "target_chars_max": 870,
+  "location": "地堡中央通道",
+  "time": "审判延伸到地堡内部",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "许伯", "祁砚", "起哄居民", "沉默居民", "虫群"],
+  "character_goal": "沈梨雾要分层处理参与献祭的人",
+  "opposition_goal": "起哄者想混进沉默人群逃责",
+  "conflict_action": "沈梨雾让虫群按监控画面把推手、起哄者、沉默者和阻拦者分开",
+  "information_gap": "清算有边界，但旧地堡免责逻辑结束",
+  "emotional_debt_delta": "-2 群体背叛债分层偿还",
+  "payoff_or_hook": "许伯被送到暖灯下，推笼者被赶出安全线试守一夜",
+  "chapter_end_hook": "虫群退开一条线，哭的人和推手站成两边。",
+  "paywall_card": false,
+  "must_include": ["许伯被保下", "监控画面定格推笼者", "沉默者需要承担守夜"],
+  "must_not_write_as_exposition": ["不要列名单", "不要一句群众后悔带过", "不要把沉默者全写成无辜"],
+  "rhythm_job": {
+    "shape": "证据动作，分层短判，章尾用站位画面",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "许伯喝热水的动作穿插在审判之间"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 860,
+  "target_chars_max": 1000,
+  "location": "肃王府正厅",
+  "time": "同日傍晚",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "萧玄祁",
+    "柳含霜",
+    "贺嬷嬷",
+    "常顺"
+  ],
+  "character_goal": "沈素娘要让萧玄祁亲口否定柳含霜的真话",
+  "opposition_goal": "柳含霜要用下毒证据处死沈素娘母女",
+  "conflict_action": "柳含霜递上证据，萧玄祁当众吃下同一碗豆腐，并命人掌她的嘴",
+  "information_gap": "萧玄祁为何宁肯吞下风险也要护住这碗豆腐",
+  "emotional_debt_delta": "柳含霜权势开始反咬自身，萧玄祁依赖到不可退",
+  "payoff_or_hook": "真话失效爽点：反派说中事实，却没人信",
+  "chapter_end_hook": "萧玄祁当着众人又吃一口，说：“这不是毒。”",
+  "paywall_card": false,
+  "must_include": [
+    "正厅对峙",
+    "柳含霜递证据",
+    "萧玄祁吃豆腐",
+    "贺嬷嬷沉默看供单"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写宫斗辩论",
+    "不要让沈素娘说太多辩词",
+    "不要把萧玄祁写成公正明主"
+  ],
+  "rhythm_job": {
+    "shape": "对白交锋与入口动作交替，掌嘴只写一下，随后用豆腐碗落桌降压",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白四成，动作四成，呼吸点两成，章尾用否定句卡住"
+  }
+}

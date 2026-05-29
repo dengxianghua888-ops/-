@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "林家庆功宴兼平台招商饭局",
+  "time": "当晚，开篇",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "顾淮川",
+    "林薇薇",
+    "苏曼",
+    "林振宏",
+    "平台方代表"
+  ],
+  "character_goal": "推进本场目标并迫使关系或证据发生变化。",
+  "opposition_goal": "顾淮川和林薇薇要借饭局切断她的体面，把她钉成倒贴的老女人。",
+  "conflict_action": "顾淮川当众说“不认识”，林薇薇顺势拿年龄和身份挤兑她，席间所有目光都压过来。",
+  "information_gap": "没人知道桌上这位被嫌老的女人，才是顾淮川资源盘的开关。",
+  "emotional_debt_delta": "新增最大主债：三年近千万投入被一句“不认识”抹掉。",
+  "payoff_or_hook": "羞辱先做满，为后续撤资源提供强账单。",
+  "chapter_end_hook": "截断在她低头划手机，把顾淮川名字从主演名单删掉。",
+  "paywall_card": false,
+  "must_include": [
+    "前300字内同时交代公开羞辱、林见棠高额投入、顾淮川公开否认",
+    "林薇薇借酒局补刀",
+    "至少1处饭桌细小动作制造窒息感，比如酒杯停住、筷子落下",
+    "一句可回旋的狠话：不认识/你不就是砸了点钱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述三年捧人完整经过",
+    "不要解释短剧行业规则",
+    "不要写旁观者轮流介绍人物背景"
+  ],
+  "rhythm_job": {
+    "shape": "羞辱3拍+冷处理1拍+删名截断1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": ""
+  }
+}

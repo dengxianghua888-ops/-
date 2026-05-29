@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 658,
+  "target_chars_max": 658,
+  "location": "公益项目大厅",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "拒绝买名声的捐赠",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "公益项目上线三个月后，顾砚臣又通过律师送来一份捐赠协议。  金额很大，足够康复中心新",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "匿名捐赠债",
+  "payoff_or_hook": "那晚我睡得很好，没有梦见雨，也没有梦见顾砚臣。",
+  "chapter_end_hook": "那晚我睡得很好，没有梦见雨，也没有梦见顾砚臣。",
+  "paywall_card": false,
+  "must_include": [
+    "拒绝买名声的捐赠",
+    "匿名捐赠债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

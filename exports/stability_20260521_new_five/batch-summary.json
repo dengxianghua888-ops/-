@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-05-21T16:43:39",
+  "story_count": 5,
+  "rows": [
+    {
+      "slug": "prod_stability_20260521_ancient_forget_regret",
+      "status": "pass",
+      "total_chars": 10124,
+      "chapters": 14,
+      "rubric_score": 9.8,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "prod_stability_20260521_gaokao_inheritance_brother",
+      "status": "pass",
+      "total_chars": 10005,
+      "chapters": 14,
+      "rubric_score": 9.82,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "prod_stability_20260521_live_streamer_age_revenge",
+      "status": "pass",
+      "total_chars": 10007,
+      "chapters": 14,
+      "rubric_score": 9.63,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "prod_stability_20260521_ancient_tang_flower",
+      "status": "pass",
+      "total_chars": 10538,
+      "chapters": 14,
+      "rubric_score": 9.78,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "prod_stability_20260521_ancient_spring_ming",
+      "status": "pass",
+      "total_chars": 10319,
+      "chapters": 15,
+      "rubric_score": 9.8,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    }
+  ]
+}

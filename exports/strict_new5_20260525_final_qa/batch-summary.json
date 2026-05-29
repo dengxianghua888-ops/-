@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-05-25T19:21:53",
+  "story_count": 5,
+  "rows": [
+    {
+      "slug": "strict_new5_20260525_hot_d0e0f27d3f",
+      "status": "pass",
+      "total_chars": 10636,
+      "chapters": 14,
+      "rubric_score": 9.83,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "strict_new5_20260525_hot_c1ca5dfce8",
+      "status": "pass",
+      "total_chars": 10546,
+      "chapters": 15,
+      "rubric_score": 9.88,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "strict_new5_20260525_hot_970726f917",
+      "status": "pass",
+      "total_chars": 10314,
+      "chapters": 12,
+      "rubric_score": 9.57,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "strict_new5_20260525_hot_1893bcf076",
+      "status": "pass",
+      "total_chars": 10508,
+      "chapters": 14,
+      "rubric_score": 9.62,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    },
+    {
+      "slug": "strict_new5_20260525_hot_a4755075e8",
+      "status": "pass",
+      "total_chars": 10445,
+      "chapters": 14,
+      "rubric_score": 9.57,
+      "rubric_status": "pass",
+      "validator_failures": [],
+      "repair_blocking": [],
+      "last_completed_phase": null,
+      "last_failure": null
+    }
+  ]
+}

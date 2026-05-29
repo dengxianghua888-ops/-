@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "旧校区监控室",
+  "time": "次日上午稍后",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "秦律师"],
+  "character_goal": "查清母亲是不是提前来销毁过线索",
+  "opposition_goal": "秦律师不想动姥爷留档，怕触发更大冲突",
+  "conflict_action": "我强行恢复监控备份，逐帧截出母亲深夜出入后仓画面",
+  "information_gap": "母亲在后仓动了什么，那里和弟弟之间是什么关系",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "母亲从阻挠者升级为主动遮掩关键事实的人",
+  "chapter_end_hook": "监控里，母亲半夜独自走进心理辅导中心后仓。",
+  "paywall_card": false,
+  "must_include": [
+    "恢复监控不是炫技，而是为了抢在母亲再次毁证前拿到截屏",
+    "画面里母亲神色失控，不像普通清理现场",
+    "秦律师态度从冷处理转向默认我继续查"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写技术说明",
+    "不要复述每一段监控时间线",
+    "不要写旁观保安名单"
+  ],
+  "rhythm_job": {
+    "shape": "操作动作 30% + 截图确认 30% + 对话试探 25% + 母亲异常钩 15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "进度条加载和屏幕卡顿形成慢半拍"
+  }
+}

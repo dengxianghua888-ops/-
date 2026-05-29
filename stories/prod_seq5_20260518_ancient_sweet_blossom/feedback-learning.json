@@ -1,0 +1,107 @@
+{
+  "story_slug": "license_day_boarding_qi_ceo",
+  "pipeline_mode": "production",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": ["M3", "M5", "M6"],
+  "target_length": {
+    "min": 12000,
+    "max": 15000
+  },
+  "final_length": 13107,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 9.0,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "scene-01",
+      "hook_type": "active_cutoff",
+      "reusable_fact": "女主在领证前偷听到工具婚、信托和医疗航线被分给白月光母女后，当场取消民政局预约，主动切断婚姻流程。"
+    },
+    {
+      "scene_id": "scene-02",
+      "hook_type": "absent_family_member",
+      "reusable_fact": "照相馆全家福用空椅子和外婆提前准备的薄荷糖承载男主缺席，比直接哭诉更有情绪重量。"
+    },
+    {
+      "scene_id": "scene-04",
+      "hook_type": "child_humiliation",
+      "reusable_fact": "儿子在机场公共场合嫌弃外婆轮椅旧、有药味，薄荷糖滚落形成可视化情绪债。"
+    },
+    {
+      "scene_id": "scene-08",
+      "hook_type": "life_or_choice",
+      "reusable_fact": "外婆抢救观察需要担保时，男主转去照顾白月光女儿过敏，女主划掉男主名字并改填自己。"
+    },
+    {
+      "scene_id": "scene-11",
+      "hook_type": "crosscut_absence",
+      "reusable_fact": "民政局叫号与机场登机交叉剪辑，男主等不到领证对象，女主推外婆通过登机闸机。"
+    },
+    {
+      "scene_id": "scene-13",
+      "hook_type": "late_truth_no_delivery",
+      "reusable_fact": "男主读到外婆信和产后病危告知书后想补偿信托，但送达栏空着，形成迟来补偿无处送达的反讽。"
+    },
+    {
+      "scene_id": "scene-14",
+      "hook_type": "clean_refusal",
+      "reusable_fact": "女主只接受可执行医疗费用，退回婚戒、私人赠与和复合承诺，明确钱能救人但不能买回过去。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-04",
+      "card_type": "emotion_debt_peak",
+      "reusable_fact": "儿子当众说不想让同学知道自己有这样的太婆，女主开始移出他的随行资料。"
+    },
+    {
+      "scene_id": "scene-08",
+      "card_type": "abandonment_proof",
+      "reusable_fact": "男主挂断外婆抢救担保电话去白月光女儿诊所，袖扣细节证明他本来准备领证却临时转向。"
+    },
+    {
+      "scene_id": "scene-11",
+      "card_type": "title_payoff",
+      "reusable_fact": "领证当天女主登机，民政局和机场两条流程同时推进，标题承诺兑现。"
+    },
+    {
+      "scene_id": "scene-13",
+      "card_type": "truth_reveal",
+      "reusable_fact": "外婆信揭出女主产后病危、进修机票退票等旧债，男主迟来的信托补偿无法送达。"
+    },
+    {
+      "scene_id": "scene-14",
+      "card_type": "chase_refusal",
+      "reusable_fact": "海外重逢中女主用法律和医疗边界区分救命费用与婚姻复合，拒绝被补偿方案改写选择。"
+    },
+    {
+      "scene_id": "scene-15",
+      "card_type": "false_redemption_blocked",
+      "reusable_fact": "男主替女主挡冲撞后，女主结清费用并送感谢函，救命情节不转化为复合义务。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代追妻火葬场",
+    "领证当天离开",
+    "医疗转运",
+    "外婆病危",
+    "白月光母女",
+    "工具婚",
+    "信托补偿无处送达",
+    "空病床",
+    "空椅子全家福",
+    "薄荷糖情绪物",
+    "家属权限删除",
+    "取消民政局预约",
+    "海外拒婚",
+    "救命不复合",
+    "女性清醒离场",
+    "基金事业收束"
+  ],
+  "manual_revision_delta": []
+}

@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "metric": "avg_visual_line_chars",
+      "source": 18.7,
+      "candidate": 17.9,
+      "finding": "平均可视行长接近源文，没有变成长段说明，也没有明显低于源文成为机械碎行。"
+    },
+    {
+      "metric": "short_line_rate_lte_16",
+      "source": 0.47,
+      "candidate": 0.49,
+      "finding": "短行率贴近源文短行驱动区间，符合 beat-bible rhythm_contract。"
+    },
+    {
+      "metric": "direct_dialogue_line_rate",
+      "source": 0.33,
+      "candidate": 0.31,
+      "finding": "直接对白行率接近源文，冲突主要靠现场对白和动作推进。"
+    },
+    {
+      "metric": "question_mark_density_per_1000_chars",
+      "source": 2.4,
+      "candidate": 2.7,
+      "finding": "问号密度略高但未明显超过源文，不构成强压迫式失真。"
+    },
+    {
+      "metric": "long_explanatory_paragraphs",
+      "source": 3,
+      "candidate": 1,
+      "finding": "draft 未变成长流程说明或证据清单式复盘。"
+    },
+    {
+      "metric": "narrative_crutch_hits",
+      "candidate": 0,
+      "finding": "未检出“她知道/他明白/她意识到/他清楚/她心想/他暗忖”等叙述拐杖。"
+    },
+    {
+      "metric": "aphorism",
+      "candidate": true,
+      "examples": [
+        "民妇手还在自己腕上。",
+        "后悔的日子，王府已经替我给过了。"
+      ],
+      "finding": "存在可脱离上下文传播的短句。"
+    },
+    {
+      "metric": "summary_sentence_candidates",
+      "candidate": 2,
+      "finding": "总结句候选低于 3 处 fail 线。"
+    },
+    {
+      "metric": "simile_metaphor_density_per_k",
+      "candidate": 0.51,
+      "finding": "比喻密度低于 warning/fail 线，未见“如同/恰似/仿若”式过度雕琢。"
+    }
+  ]
+}

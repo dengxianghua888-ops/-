@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "0号尸检间腹部检查区域",
+  "time": "深夜至凌晨",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "记录员",
+    "检方旁证",
+    "助理法医"
+  ],
+  "character_goal": "沈栀想阻止陆谨言靠近孩子。",
+  "opposition_goal": "陆谨言要确认腹部撞击伤与致死链条。",
+  "conflict_action": "陆谨言调整无影灯、检查腹部伤痕、把刀移向下腹，记录员发现数据与表面伤不一致。",
+  "information_gap": "陆谨言认为异常来自撞击损伤，沈栀知道那里是孩子。",
+  "emotional_debt_delta": "最大身体债爆点进入前一拍。",
+  "payoff_or_hook": "付费卡在子宫剖验前，读者等待胎儿真相爆开。",
+  "chapter_end_hook": "他的刀停在我的下腹，记录员忽然抬头。",
+  "paywall_card": true,
+  "must_include": [
+    "无影灯角度被重新调亮",
+    "沈栀灵魂挡在下腹前却被穿过",
+    "陆谨言的记录笔停顿",
+    "检方旁证提醒继续录像",
+    "短句：现在，证据来了"
+  ],
+  "must_not_write_as_exposition": [
+    "不要直接跳到胎儿发现",
+    "不要写具体可模仿尸检流程",
+    "不要让陆谨言主动猜到怀孕"
+  ]
+}

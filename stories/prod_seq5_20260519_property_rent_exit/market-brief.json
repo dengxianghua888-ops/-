@@ -1,0 +1,133 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "tomato_preferred_median": 650,
+    "chapter_end_hook_required": true
+  },
+  "hook_policy": {
+    "opening_hook": {
+      "position": "前300字",
+      "strength_target": 9,
+      "must_include": ["涨租40%", "物业羞辱", "主角一句话反杀预告"]
+    },
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "preferred_paywall_positions": [3000, 6000, 9000, 12000]
+  },
+  "market_positioning": {
+    "genre": "modern_reversal",
+    "subgenre": "商业经营反杀 / 物业压迫爽文 / 家庭资源联动",
+    "benchmark_alignment": ["hermes_customs_package", "overload_incense_revenge", "top_scorer_disown_revenge"],
+    "core_reader_promise": "看被物业涨租、断电、锁货梯逼走的老商户，不哭不求，带着全家核心店铺撤场，用客流、证据、股权和产业联动把傲慢物业与背后操盘者一起反杀。",
+    "dominant_s爽点": "死环反杀 + 多层递进反转",
+    "emotional_debt_type": ["规则压迫债", "老商户背刺债", "女性事业尊严债", "家族资源低估债"]
+  },
+  "audience": {
+    "target_readers": [
+      "25-45岁女性读者",
+      "做过生意、租过店铺、被物业或甲方刁难过的读者",
+      "偏好现代反转、家庭联手、女性事业独立的番茄短故事用户"
+    ],
+    "emotion_needs": [
+      "被规则欺负后的即时反击快感",
+      "优质普通人被低估后亮牌的身份反差",
+      "一家人资源互相托举的安全感",
+      "坏人公开崩盘、利益反噬、求回头被拒的情绪释放"
+    ],
+    "topic_forbidden_zones": [
+      "不要把女主胜利写成单纯靠丈夫或父权资源",
+      "不要让女主圣母和解、原谅物业或陆父",
+      "不要长篇讲商业术语和招商流程",
+      "不要弱化王强断电、锁货梯、扣押金等明确恶行",
+      "不要把结尾落成鸡汤式励志散文"
+    ]
+  },
+  "title_strategy": {
+    "platform_constraints": {
+      "max_chars": 30,
+      "must_signal": ["冲突", "反杀", "撤场后果"]
+    },
+    "formula_candidates": [
+      {
+        "formula_id": "T1",
+        "formula": "具体压迫 + 我撤走核心资源 + 对方崩溃",
+        "examples": [
+          "物业涨租逼我走，全家撤场让他慌",
+          "嫌我租金低？我带全家搬空商场",
+          "物业断我电后，我让整栋楼空了"
+        ]
+      },
+      {
+        "formula_id": "T4",
+        "formula": "反派羞辱语 + 主角冷处理 + 结果反噬",
+        "examples": [
+          "他说我占位置，我让商场没客流",
+          "物业让我滚，我把人气一起带走",
+          "他嫌我店低端，转头求我回来"
+        ]
+      },
+      {
+        "formula_id": "T5",
+        "formula": "关系牌揭示 + 商业撤场 + 追悔",
+        "examples": [
+          "赶走我后，物业才知四层店都是我家的",
+          "我搬走小店，老商场破产了",
+          "他逼我退租，我成了对面股东"
+        ]
+      }
+    ]
+  },
+  "conflict_design": {
+    "antagonist_violation": [
+      "王强利用物业权力涨租40%、断电、锁货梯、扣押金，试图把老商户当垫脚石",
+      "林娇娇用新品牌优越感羞辱女主，踩原店口碑抢位置",
+      "周总只看客流报表，不保护优质商户，事后用钱和威胁要求女主回流",
+      "陆振国以家族体面为名，暗中买通物业打压女主事业"
+    ],
+    "protagonist_stance": "冷静、硬气、证据型反击，不哭闹，不求情，不依附丈夫，以经营能力和资源整合完成反杀。",
+    "payoff_pattern": [
+      "物业以租金和断电逼迁，女主反手带走一楼金店、四楼健身、五楼电竞，抽空老商场客流",
+      "货梯被锁，烤箱留在走廊，形成反向卡位羞辱",
+      "扣押金被陆沉证据链击穿，王强当场转钱",
+      "星茶高调入场却无客流，网红流量失效",
+      "王强贪污和回扣被查，周总求回遭拒",
+      "陆父幕后黑手曝光，女主以万象城股东身份完成终局升维"
+    ]
+  },
+  "rhythm_constraints": {
+    "opening_300_chars": "必须完成旧商场无人愿来、女主养活三楼、物业涨租羞辱、女主宣布全家撤场四连击。",
+    "action_density_target_per_1000_chars": 8,
+    "dialogue_ratio_target": [0.35, 0.45],
+    "sentence_length_target_chars": [15, 20],
+    "major_turn_interval_chars": [900, 1200],
+    "required_turns": [
+      "断电逼迁",
+      "母亲金店一起撤",
+      "丈夫健身房一起撤",
+      "弟弟电竞馆一起撤",
+      "新品牌羞辱原店",
+      "货梯锁死",
+      "证据逼退押金",
+      "万象城联合开业",
+      "老商场客流暴跌",
+      "陆父幕后曝光",
+      "女主股东身份亮牌"
+    ]
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.2,
+    "paywall_point_target": 9.0,
+    "emotional_release_target": 9.3,
+    "ai_flavor_absence_target": 9.5,
+    "explosive_point_density_target": 9.0,
+    "tomato_fit_target": 8.8
+  }
+}

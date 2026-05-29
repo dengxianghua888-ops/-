@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 660,
+  "target_chars_max": 780,
+  "location": "私立妇产中心走廊",
+  "time": "次日上午",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "护士", "陆沉舟助理", "谢砚"],
+  "character_goal": "林晚宜要取孕检确认单，并联系谢砚说明孩子的事。",
+  "opposition_goal": "陆沉舟助理要拍下她的挂号信息，替陆沉舟确认她是否怀孕。",
+  "conflict_action": "助理堵在缴费窗口拍她的挂号单，林晚宜伸手按下他的手机，护士同时叫她进诊室。",
+  "information_gap": "父亲栏暂时空着，读者还不知道谢砚和孩子的确切关系。",
+  "emotional_debt_delta": "+掌控羞辱债；陆沉舟医院误判埋点",
+  "payoff_or_hook": "谢砚第一次在医院出现，打断陆沉舟的远程监控。",
+  "chapter_end_hook": "护士刚叫出林晚宜的名字，走廊尽头的谢砚抬起了眼。",
+  "paywall_card": false,
+  "must_include": ["私立妇产中心", "孕检确认单", "助理偷拍视频", "谢砚在走廊尽头出现"],
+  "must_not_write_as_exposition": ["不要医疗科普", "不要写女主靠怀孕求名分", "不要让助理拿到完整报告"]
+}

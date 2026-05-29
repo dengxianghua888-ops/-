@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "工厂办公室·相框前",
+  "time": "案发后两周，午后阳光斜入",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "相框（破包+鉴定书截屏+销毁单截屏）"],
+  "character_goal": "把破包+鉴定书截屏+销毁单截屏一起裱进相框",
+  "opposition_goal": "无具体对手，对手是时间与回响",
+  "conflict_action": "徐阳裁纸→把三件物证依次贴进相框→拧紧四个角螺丝→挂上墙→后退一步看",
+  "information_gap": "无——静物收尾留白",
+  "emotional_debt_delta": "0（清零留淡淡余韵）",
+  "payoff_or_hook": "阳光斜进相框的静物镜头",
+  "chapter_end_hook": "阳光斜进来，相框里那只破包安静得像一句脏话",
+  "paywall_card": false,
+  "must_include": ["相框装裱的具体动作（裁纸/螺丝/挂钉）", "三件物证依次入框的细节", "阳光斜进的物理光感", "结尾静物比喻句"],
+  "must_not_write_as_exposition": ["主角抒情独白", "未来展望式收尾", "煽情比喻堆叠", "收尾再开新事件"]
+}

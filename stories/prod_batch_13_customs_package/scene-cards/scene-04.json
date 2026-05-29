@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 570,
+  "target_chars_max": 770,
+  "location": "监管仓收费窗口",
+  "time": "傍晚六点",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "赵启明",
+    "收费窗口文员",
+    "仓管"
+  ],
+  "character_goal": "林照要赵启明在确认单上写清两千万茶王、三十斤、八百万已收和经办人签名。",
+  "opposition_goal": "赵启明想只给模糊收据，避免承担货物估值和保管责任。",
+  "conflict_action": "林照按住被删减的确认单要求重打，逐项念出缺失字段，并录下赵启明确认系统估值。",
+  "information_gap": "红章确认单下一步将指向乱收费还是调包案。",
+  "emotional_debt_delta": "压迫开始转化为证据，林照从被动缴费进入主动布证。",
+  "payoff_or_hook": "赵启明当众盖章，完成死环凭证。",
+  "chapter_end_hook": "赵启明当众盖下红章，林照把单据拍照备份，转身走向大厅警务联络台。",
+  "paywall_card": false,
+  "must_include": [
+    "入库估价及特殊保价缴费确认单",
+    "百年古树茶王春采头批",
+    "三十斤",
+    "系统估值两千万",
+    "已收费用八百万",
+    "平台华东智能监管仓红章",
+    "赵启明签名"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让盖章太顺利",
+    "不要遗漏林照录音和拍照备份动作",
+    "不要写成普通收据"
+  ]
+}

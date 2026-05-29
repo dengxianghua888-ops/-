@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": false,
+  "target_chars_min": 500,
+  "target_chars_max": 700,
+  "location": "沈绮云的社区烘焙店，凌晨，面粉气味，操作台灯光",
+  "time": "凌晨三点半",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "等蛋糕的客人（张锐城供应商伙伴）"],
+  "character_goal": "沈绮云正在揉面团准备当天的面包，毫无防备",
+  "opposition_goal": "客人无意中通过电话泄露张锐城再婚的信息",
+  "conflict_action": "客人接电话谈论'张总结婚'和'前面那位走了'，沈绮云从面团塌陷到冷静确认信息",
+  "information_gap": "沈绮云突然得知自己被'宣告死亡'且丈夫即将再婚——而她每天都在正常生活",
+  "emotional_debt_delta": "从0到爆表：活人被法律程序杀死的荒诞感瞬间建立",
+  "payoff_or_hook": "开篇即建立核心信息差：活人被宣告死亡+丈夫再婚",
+  "paywall_card": false,
+  "must_include": [
+    "凌晨揉面团的日常开场",
+    "客人电话中的关键词：张总、结婚、前面那位走了",
+    "面团塌陷的物理反应",
+    "结婚证仍在手中的事实确认",
+    "法院宣告死亡判决的存在"
+  ],
+  "must_not_write_as_exposition": [
+    "沈绮云的烘焙店经营背景",
+    "张锐城的职业信息",
+    "两人婚姻历史"
+  ],
+  "rhythm_job": {
+    "shape": "平缓-骤紧",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "震惊-压抑",
+    "emotion_arc": "平静 → 震惊 → 愕然",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "和女主同步震惊，对丈夫产生强烈厌恶",
+    "required_techniques": [
+      {
+        "technique": "偷听式信息获取",
+        "instruction": "客人接电话时自然泄露信息，女主以旁听者身份获取——不是主动追问，而是被动撞见。电话只有客人这一侧的声音，关键信息通过客人的附和和转述流出"
+      },
+      {
+        "technique": "冷幽默破冰",
+        "instruction": "在极端荒诞的处境中，女主的内心独白用黑色幽默化解第一波震惊——不是崩溃哭泣，而是冷笑式的自嘲。用一句带杀气的幽默建立'不好惹'人设"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "事实陈述+荒诞反问",
+        "example": "明明我活得好好的，怎么就死了？",
+        "instruction": "用最朴素的逻辑质疑建立全文核心荒诞感——'我每天三点揉面/我儿子上周打疫苗/我活着'与'法院判我死亡'的直接碰撞"
+      },
+      {
+        "structure": "极端身份标签+黑色幽默自指",
+        "example": "就写「诈尸的前妻。」",
+        "instruction": "女主给自己贴上一个攻击性的标签——将'被宣告死亡'的痛苦转化为'那我就以死人姿态来收割'的杀气"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "累积式",
+    "source_excerpt": "刚想打招呼，就听见他俩的对话。'瑞阳终于苦尽甘来要再婚了。''谁说不是，前妻是个短命的'。我愣在原地。明明我活得好好的，怎么就死了？代笔先生问我记谁的名字。我呲了呲牙告诉他：就写「诈尸的前妻。」"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["凭什么", "原来"],
+      "句式": "极短内心独白、冷静陈述事实、偶尔一句自嘲式黑色幽默",
+      "单句上限": 15,
+      "禁止": "哭泣、崩溃、长句抒情"
+    }
+  }
+}

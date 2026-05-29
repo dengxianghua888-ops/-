@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 700,
+  "target_chars_max": 840,
+  "location": "病理实验室",
+  "time": "第四天下午实验课",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "纪白", "护理班同学"],
+  "character_goal": "近距离试探纪白，确认他和冷库标签、蜡封切片的关系。",
+  "opposition_goal": "纪白要确认林照是否真晕血、是否适合作为第七例，并观察她的恐惧反应。",
+  "conflict_action": "纪白递来染色玻片试探她，林照故意打翻托盘装慌，趁他俯身捡玻片时拍下手背封蜡烫痕。",
+  "information_gap": "纪白是否已经识破寒灯身份，还是仍把她当普通护理生。",
+  "emotional_debt_delta": "身份低估债+1，纪白证据债+1。",
+  "payoff_or_hook": "林照用弱者姿态换来纪白靠近，拿到烫痕证据。",
+  "chapter_end_hook": "纪白手背的封蜡烫痕，和第七例标签边缘完全吻合。",
+  "paywall_card": false,
+  "must_include": [
+    "染色玻片",
+    "纪白试探晕血",
+    "林照打翻托盘",
+    "手背封蜡烫痕",
+    "同学继续误会她胆小"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写血腥医学细节",
+    "不要让纪白说长篇犯罪美学",
+    "不要让林照直接暴露寒灯身份"
+  ]
+}

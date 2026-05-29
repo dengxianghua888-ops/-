@@ -1,0 +1,90 @@
+{
+  "story_slug": "prod_seq5_20260519_poor_mom_3000",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M1", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 11000,
+    "max": 13500
+  },
+  "final_length": 11559,
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 8.3,
+    "logic": 7.7
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": "CH01",
+      "hook": "母亲把三千转账截图甩来，我手机余额却只剩三十二块六。",
+      "reuse_fact": "开篇用急诊欠费、低余额、亲属转账截图构成强信息差。"
+    },
+    {
+      "chapter": "CH03",
+      "hook": "收费大厅里，母亲要我跪下承认私吞生活费和药费。",
+      "reuse_fact": "公开场合罚跪适合作为早段付费前羞辱峰值。"
+    },
+    {
+      "chapter": "CH05",
+      "hook": "流水上写着：到账后三分钟，钱被划到尾号9087。",
+      "reuse_fact": "固定时间差和重复尾号能把口头委屈转成可追查证据。"
+    },
+    {
+      "chapter": "CH08",
+      "hook": "车行经理只确认一件事，我报出的9087与全款支付尾号一致。",
+      "reuse_fact": "第三方只能做尾号匹配确认，比直接泄露车主信息更稳。"
+    },
+    {
+      "chapter": "CH11",
+      "hook": "直播里，他们亲口承认，拿女儿生活费补贴自家人不算偷。",
+      "reuse_fact": "反派在自以为占理的直播场景中自爆，适合完成舆论反转。"
+    },
+    {
+      "chapter": "CH14",
+      "hook": "母亲说想重新当我的妈妈，我只把赔偿收下，没把钥匙交回去。",
+      "reuse_fact": "家庭伦理结尾可收下应得赔偿但保留关系边界，避免强行和解。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "CH03",
+      "card": "公开罚跪",
+      "evidence": "收费大厅里，母亲要我跪下承认私吞生活费和药费。"
+    },
+    {
+      "chapter": "CH06",
+      "card": "流水反转",
+      "evidence": "我只是把纸一张一张贴平，让所有月份排成一列。"
+    },
+    {
+      "chapter": "CH09",
+      "card": "公司采购寄生链",
+      "evidence": "签收单弹出来，收货地址却不是总院库房，而是杨驰新开的高端口腔诊所。"
+    },
+    {
+      "chapter": "CH12",
+      "card": "报警回执落地",
+      "evidence": "接警窗口打印出回执，白纸黑字写着受理时间。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "hospital_opening",
+    "medical_fee_debt",
+    "monthly_allowance_missing",
+    "bank_statement_reversal",
+    "tail_number_evidence",
+    "public_humiliation",
+    "father_betrayal",
+    "relatives_parasitic_chain",
+    "company_procurement_fraud",
+    "livestream_self_exposure",
+    "legal_receipt_payoff",
+    "no_forced_reconciliation",
+    "boundary_ending"
+  ],
+  "manual_revision_delta": []
+}

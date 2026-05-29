@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "模拟客舱楼门禁室",
+  "time": "第二天下午",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "门禁管理员",
+    "蒋晴",
+    "韩停"
+  ],
+  "character_goal": "查到谁在失踪当晚进入模拟客舱。",
+  "opposition_goal": "管理员拒绝提供记录，韩停在旁边观察林雾反应，蒋晴试图离开。",
+  "conflict_action": "林雾故意以新生身份问错训练舱编号，诱导管理员说出备用卡管理规则，再拿广播时间差逼他承认当晚蒋晴卡号出现过。",
+  "information_gap": "蒋晴刷卡记录真实存在，但她本人是否使用未知。",
+  "emotional_debt_delta": "蒋晴嫌疑债扩大，韩停执行者阴影初现。",
+  "payoff_or_hook": "门禁记录显示蒋晴在失踪当晚刷开模拟舱。",
+  "chapter_end_hook": "林雾抬头时，看见韩停正对着门禁屏幕笑。",
+  "paywall_card": false,
+  "must_include": [
+    "门禁记录",
+    "备用卡疑点",
+    "韩停第一次明显观察林雾",
+    "蒋晴嫌疑被推高"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写绕过门禁的方法",
+    "不要让管理员长篇解释制度",
+    "不要让林雾暴露真实身份"
+  ]
+}

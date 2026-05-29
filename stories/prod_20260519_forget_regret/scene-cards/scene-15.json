@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "镇国公府→府门外",
+  "time": "夜晚",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁"
+  ],
+  "character_goal": "男主跪府门求见",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "大雨中跪一夜被拒；女主拒见",
+  "information_gap": "镜像对比：他曾逼她爬天梯，现在他跪门被拒",
+  "emotional_debt_delta": "-5（镜像回旋）",
+  "payoff_or_hook": "他爱跪便跪，与我何干",
+  "chapter_end_hook": "他爱跪便跪，与我何干",
+  "paywall_card": false,
+  "must_include": [
+    "大雨中跪一夜被拒；女主拒见"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

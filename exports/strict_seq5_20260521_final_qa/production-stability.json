@@ -1,0 +1,1338 @@
+{
+  "stories": [
+    {
+      "story": "stories/prod_stability_20260521_ancient_forget_regret",
+      "runs": [
+        {
+          "run_id": "20260521_181633",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/20260521_181633",
+          "status": "completed",
+          "started_at": "2026-05-21 18:16:33",
+          "ended_at": "2026-05-21 18:17:08",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-21 18:16:33",
+              "ended": "2026-05-21 18:17:08",
+              "duration": "35s",
+              "retries": "0",
+              "runner": "agent",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase1_4",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/phase1_4",
+          "status": "unknown",
+          "started_at": "2026-05-21 14:12:14",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-21 14:12:14",
+              "ended": "2026-05-21 14:12:51",
+              "duration": "36s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-21 14:12:51",
+              "ended": "2026-05-21 14:16:24",
+              "duration": "213s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-21 14:16:24",
+              "ended": "2026-05-21 14:18:15",
+              "duration": "110s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "failed",
+              "started": "2026-05-21 14:18:15",
+              "ended": "2026-05-21 14:23:22",
+              "duration": "306s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [],
+              "validator_failures": [
+                "beat-bible.json rhythm_contract missing keys: avg visual line chars, short line min, short line max, dialogue min, dialogue max, barrage min, barrage max, question density min, question density max"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "phase6",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/phase6",
+          "status": "unknown",
+          "started_at": "2026-05-21 14:40:07",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-21 14:40:07",
+              "ended": "2026-05-21 14:41:40",
+              "duration": "92s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [
+                "machine_metrics_refreshed",
+                "review_gate_yaml_synced"
+              ],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            },
+            {
+              "phase": 5,
+              "status": "failed",
+              "started": "2026-05-21 14:41:40",
+              "ended": "2026-05-21 14:42:28",
+              "duration": "47s",
+              "retries": "1",
+              "runner": "codex",
+              "provider": "-",
+              "notes": "runner failed; see phase5.runner.log",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase6_clean",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/phase6_clean",
+          "status": "unknown",
+          "started_at": "2026-05-21 14:47:16",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-21 14:47:16",
+              "ended": "2026-05-21 14:48:47",
+              "duration": "90s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [
+                "machine_metrics_refreshed",
+                "review_gate_yaml_synced"
+              ],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "phase6_no_cards",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/phase6_no_cards",
+          "status": "unknown",
+          "started_at": "2026-05-21 14:51:01",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-21 14:51:01",
+              "ended": "2026-05-21 14:52:51",
+              "duration": "110s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [
+                "machine_metrics_refreshed",
+                "review_gate_yaml_synced"
+              ],
+              "validator_failures": [
+                "scene-cards/scene-10.json missing required keys: emotional_debt_delta",
+                "scene-cards/scene-12.json missing required keys: emotional_debt_delta",
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "phase6_rerun",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/phase6_rerun",
+          "status": "unknown",
+          "started_at": "2026-05-21 14:43:27",
+          "ended_at": "",
+          "phases": [
+            {
+              "phase": 6,
+              "status": "failed",
+              "started": "2026-05-21 14:43:27",
+              "ended": "2026-05-21 14:46:07",
+              "duration": "159s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "validator failed",
+              "normalizer_changes": [
+                "machine_metrics_refreshed",
+                "review_gate_yaml_synced"
+              ],
+              "validator_failures": [
+                "quality gate failed: gate_status=fail"
+              ]
+            }
+          ]
+        },
+        {
+          "run_id": "split_scenes",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/split_scenes",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "split_scenes_continue",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/split_scenes_continue",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "split_scenes_tail_repair",
+          "path": "stories/prod_stability_20260521_ancient_forget_regret/runs/split_scenes_tail_repair",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_stability_20260521_ancient_forget_regret/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10124,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            662,
+            709,
+            663,
+            723,
+            755,
+            689,
+            777,
+            727,
+            772,
+            738,
+            756,
+            744,
+            722,
+            571
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 88,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 4,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 8,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 22,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10124,
+          "sentence_count": 689,
+          "avg_sentence_length": 13.694,
+          "dialogue_ratio": 0.3068,
+          "question_marks": 68,
+          "question_marks_per_k": 6.717,
+          "physical_emotion_hits": {
+            "指尖": 17,
+            "发麻": 1,
+            "青筋": 2,
+            "手心": 1,
+            "后背": 2,
+            "冷汗": 4,
+            "喉咙": 2,
+            "眼眶": 1,
+            "指甲": 2,
+            "掌心": 6
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 23.607
+        },
+        "source_rhythm_fit": {
+          "status": "pass",
+          "applicable": true,
+          "source": {
+            "chars": 9476,
+            "line_count": 380,
+            "avg_line_chars": 24.937,
+            "median_line_chars": 23.0,
+            "short_line_rate": 0.2632,
+            "long_line_rate": 0.1237,
+            "quote_line_rate": 0.4158,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 4.538
+          },
+          "candidate": {
+            "chars": 9947,
+            "line_count": 447,
+            "avg_line_chars": 22.253,
+            "median_line_chars": 19.0,
+            "short_line_rate": 0.3848,
+            "long_line_rate": 0.0671,
+            "quote_line_rate": 0.5347,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 6.836
+          },
+          "failures": []
+        },
+        "semantic_repetition": {
+          "sentence_count": 531,
+          "unique_sentence_skeletons": 531,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0019
+        },
+        "production_meta_leak": {
+          "count": 0,
+          "examples": [],
+          "status": "pass"
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_stability_20260521_gaokao_inheritance_brother",
+      "runs": [
+        {
+          "run_id": "20260521_181719",
+          "path": "stories/prod_stability_20260521_gaokao_inheritance_brother/runs/20260521_181719",
+          "status": "completed",
+          "started_at": "2026-05-21 18:17:19",
+          "ended_at": "2026-05-21 18:17:45",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-21 18:17:19",
+              "ended": "2026-05-21 18:17:45",
+              "duration": "25s",
+              "retries": "0",
+              "runner": "agent",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase1_4_20260521_145854",
+          "path": "stories/prod_stability_20260521_gaokao_inheritance_brother/runs/phase1_4_20260521_145854",
+          "status": "completed",
+          "started_at": "2026-05-21 14:58:54",
+          "ended_at": "2026-05-21 15:08:59",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-21 14:58:54",
+              "ended": "2026-05-21 14:59:27",
+              "duration": "33s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-21 14:59:27",
+              "ended": "2026-05-21 15:03:32",
+              "duration": "244s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-21 15:03:32",
+              "ended": "2026-05-21 15:05:07",
+              "duration": "95s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-21 15:05:07",
+              "ended": "2026-05-21 15:08:59",
+              "duration": "232s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "15 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "split_scenes",
+          "path": "stories/prod_stability_20260521_gaokao_inheritance_brother/runs/split_scenes",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_stability_20260521_gaokao_inheritance_brother/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10005,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            702,
+            580,
+            696,
+            718,
+            664,
+            750,
+            679,
+            706,
+            679,
+            796,
+            692,
+            710,
+            726,
+            774
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 6,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 100,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 5,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 3,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 8,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 17,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10005,
+          "sentence_count": 714,
+          "avg_sentence_length": 13.014,
+          "dialogue_ratio": 0.2731,
+          "question_marks": 71,
+          "question_marks_per_k": 7.096,
+          "physical_emotion_hits": {
+            "指尖": 3,
+            "发麻": 2,
+            "太阳穴": 1,
+            "手心": 3,
+            "后背": 6,
+            "冷汗": 1,
+            "喉咙": 4,
+            "眼眶": 1,
+            "指甲": 1,
+            "掌心": 6
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 29.485
+        },
+        "source_rhythm_fit": {
+          "status": "pass",
+          "applicable": true,
+          "source": {
+            "chars": 10153,
+            "line_count": 511,
+            "avg_line_chars": 19.869,
+            "median_line_chars": 19.0,
+            "short_line_rate": 0.4012,
+            "long_line_rate": 0.0391,
+            "quote_line_rate": 0.2779,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 5.811
+          },
+          "candidate": {
+            "chars": 9811,
+            "line_count": 522,
+            "avg_line_chars": 18.795,
+            "median_line_chars": 17.0,
+            "short_line_rate": 0.4751,
+            "long_line_rate": 0.0249,
+            "quote_line_rate": 0.4291,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 7.237
+          },
+          "failures": []
+        },
+        "semantic_repetition": {
+          "sentence_count": 474,
+          "unique_sentence_skeletons": 474,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0021
+        },
+        "production_meta_leak": {
+          "count": 0,
+          "examples": [],
+          "status": "pass"
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_stability_20260521_live_streamer_age_revenge",
+      "runs": [
+        {
+          "run_id": "20260521_181753",
+          "path": "stories/prod_stability_20260521_live_streamer_age_revenge/runs/20260521_181753",
+          "status": "completed",
+          "started_at": "2026-05-21 18:17:53",
+          "ended_at": "2026-05-21 18:18:30",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-21 18:17:53",
+              "ended": "2026-05-21 18:18:30",
+              "duration": "36s",
+              "retries": "0",
+              "runner": "agent",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase1_4_20260521_151733",
+          "path": "stories/prod_stability_20260521_live_streamer_age_revenge/runs/phase1_4_20260521_151733",
+          "status": "completed",
+          "started_at": "2026-05-21 15:17:33",
+          "ended_at": "2026-05-21 15:27:01",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-21 15:17:33",
+              "ended": "2026-05-21 15:18:08",
+              "duration": "34s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-21 15:18:08",
+              "ended": "2026-05-21 15:21:23",
+              "duration": "195s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-21 15:21:23",
+              "ended": "2026-05-21 15:22:49",
+              "duration": "86s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-21 15:22:49",
+              "ended": "2026-05-21 15:27:01",
+              "duration": "251s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "15 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "split_scenes",
+          "path": "stories/prod_stability_20260521_live_streamer_age_revenge/runs/split_scenes",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_stability_20260521_live_streamer_age_revenge/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10007,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            637,
+            698,
+            701,
+            800,
+            666,
+            750,
+            679,
+            818,
+            631,
+            762,
+            761,
+            564,
+            764,
+            661
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 77,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 4,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 7,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 10,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10007,
+          "sentence_count": 589,
+          "avg_sentence_length": 15.99,
+          "dialogue_ratio": 0.3056,
+          "question_marks": 31,
+          "question_marks_per_k": 3.098,
+          "physical_emotion_hits": {
+            "指尖": 4,
+            "手心": 1,
+            "指甲": 1,
+            "掌心": 2
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 27.081
+        },
+        "source_rhythm_fit": {
+          "status": "pass",
+          "applicable": true,
+          "source": {
+            "chars": 10059,
+            "line_count": 420,
+            "avg_line_chars": 23.95,
+            "median_line_chars": 19.0,
+            "short_line_rate": 0.3833,
+            "long_line_rate": 0.1571,
+            "quote_line_rate": 0.431,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 7.058
+          },
+          "candidate": {
+            "chars": 9831,
+            "line_count": 496,
+            "avg_line_chars": 19.821,
+            "median_line_chars": 18.5,
+            "short_line_rate": 0.375,
+            "long_line_rate": 0.0403,
+            "quote_line_rate": 0.4012,
+            "barrage_line_rate": 0.0202,
+            "question_marks_per_k": 3.153
+          },
+          "failures": []
+        },
+        "semantic_repetition": {
+          "sentence_count": 468,
+          "unique_sentence_skeletons": 468,
+          "max_sentence_repeats": 1,
+          "max_sentence_repeat_ratio": 0.0021
+        },
+        "production_meta_leak": {
+          "count": 0,
+          "examples": [],
+          "status": "pass"
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_stability_20260521_ancient_tang_flower",
+      "runs": [
+        {
+          "run_id": "20260521_181842",
+          "path": "stories/prod_stability_20260521_ancient_tang_flower/runs/20260521_181842",
+          "status": "completed",
+          "started_at": "2026-05-21 18:18:42",
+          "ended_at": "2026-05-21 18:19:10",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-21 18:18:42",
+              "ended": "2026-05-21 18:19:10",
+              "duration": "27s",
+              "retries": "0",
+              "runner": "agent",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase1_4_20260521_153349",
+          "path": "stories/prod_stability_20260521_ancient_tang_flower/runs/phase1_4_20260521_153349",
+          "status": "unknown",
+          "started_at": "2026-05-21 15:33:49",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "phase1_4_20260521_153424",
+          "path": "stories/prod_stability_20260521_ancient_tang_flower/runs/phase1_4_20260521_153424",
+          "status": "completed",
+          "started_at": "2026-05-21 15:34:24",
+          "ended_at": "2026-05-21 15:45:01",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-21 15:34:24",
+              "ended": "2026-05-21 15:35:01",
+              "duration": "36s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-21 15:35:01",
+              "ended": "2026-05-21 15:38:29",
+              "duration": "207s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-21 15:38:29",
+              "ended": "2026-05-21 15:39:55",
+              "duration": "86s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-21 15:39:55",
+              "ended": "2026-05-21 15:45:01",
+              "duration": "305s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "15 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "split_scenes",
+          "path": "stories/prod_stability_20260521_ancient_tang_flower/runs/split_scenes",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "split_scenes_repair",
+          "path": "stories/prod_stability_20260521_ancient_tang_flower/runs/split_scenes_repair",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_stability_20260521_ancient_tang_flower/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10538,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 14,
+          "hook_hits": 14,
+          "hook_coverage": 1.0,
+          "lengths": [
+            663,
+            676,
+            766,
+            789,
+            741,
+            739,
+            724,
+            818,
+            731,
+            717,
+            762,
+            780,
+            822,
+            720
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 4,
+          "actual": 8,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 68,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 3,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 4,
+            "actual": 4,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 11,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 17,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10538,
+          "sentence_count": 666,
+          "avg_sentence_length": 14.824,
+          "dialogue_ratio": 0.2902,
+          "question_marks": 16,
+          "question_marks_per_k": 1.518,
+          "physical_emotion_hits": {
+            "指尖": 10,
+            "青筋": 2,
+            "手心": 2,
+            "喉咙": 1,
+            "掌心": 8
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 25.242
+        },
+        "source_rhythm_fit": {
+          "status": "pass",
+          "applicable": true,
+          "source": {
+            "chars": 22440,
+            "line_count": 1117,
+            "avg_line_chars": 20.09,
+            "median_line_chars": 18.0,
+            "short_line_rate": 0.4109,
+            "long_line_rate": 0.0528,
+            "quote_line_rate": 0.3474,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 4.055
+          },
+          "candidate": {
+            "chars": 10387,
+            "line_count": 588,
+            "avg_line_chars": 17.665,
+            "median_line_chars": 17.0,
+            "short_line_rate": 0.466,
+            "long_line_rate": 0.0085,
+            "quote_line_rate": 0.4082,
+            "barrage_line_rate": 0.0,
+            "question_marks_per_k": 1.54
+          },
+          "failures": []
+        },
+        "semantic_repetition": {
+          "sentence_count": 576,
+          "unique_sentence_skeletons": 575,
+          "max_sentence_repeats": 2,
+          "max_sentence_repeat_ratio": 0.0035
+        },
+        "production_meta_leak": {
+          "count": 0,
+          "examples": [],
+          "status": "pass"
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    },
+    {
+      "story": "stories/prod_stability_20260521_ancient_spring_ming",
+      "runs": [
+        {
+          "run_id": "20260521_181916",
+          "path": "stories/prod_stability_20260521_ancient_spring_ming/runs/20260521_181916",
+          "status": "completed",
+          "started_at": "2026-05-21 18:19:16",
+          "ended_at": "2026-05-21 18:19:45",
+          "phases": [
+            {
+              "phase": 8,
+              "status": "completed",
+              "started": "2026-05-21 18:19:16",
+              "ended": "2026-05-21 18:19:45",
+              "duration": "28s",
+              "retries": "0",
+              "runner": "agent",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "phase1_4_20260521_155739",
+          "path": "stories/prod_stability_20260521_ancient_spring_ming/runs/phase1_4_20260521_155739",
+          "status": "completed",
+          "started_at": "2026-05-21 15:57:39",
+          "ended_at": "2026-05-21 16:09:22",
+          "phases": [
+            {
+              "phase": 1,
+              "status": "completed",
+              "started": "2026-05-21 15:57:39",
+              "ended": "2026-05-21 15:58:13",
+              "duration": "33s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "1 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 2,
+              "status": "completed",
+              "started": "2026-05-21 15:58:13",
+              "ended": "2026-05-21 16:02:22",
+              "duration": "249s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "7 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 3,
+              "status": "completed",
+              "started": "2026-05-21 16:02:22",
+              "ended": "2026-05-21 16:04:25",
+              "duration": "123s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "2 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            },
+            {
+              "phase": 4,
+              "status": "completed",
+              "started": "2026-05-21 16:04:25",
+              "ended": "2026-05-21 16:09:22",
+              "duration": "296s",
+              "retries": "0",
+              "runner": "codex",
+              "provider": "codex",
+              "notes": "16 artifacts ok",
+              "normalizer_changes": [],
+              "validator_failures": []
+            }
+          ]
+        },
+        {
+          "run_id": "split_scenes",
+          "path": "stories/prod_stability_20260521_ancient_spring_ming/runs/split_scenes",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        },
+        {
+          "run_id": "split_scenes_repair",
+          "path": "stories/prod_stability_20260521_ancient_spring_ming/runs/split_scenes_repair",
+          "status": "unknown",
+          "started_at": "",
+          "ended_at": "",
+          "phases": []
+        }
+      ],
+      "final_machine_metrics": {
+        "text_path": "stories/prod_stability_20260521_ancient_spring_ming/final.md",
+        "target_length": {
+          "min": 10000,
+          "max": 18000,
+          "actual": 10319,
+          "status": "pass"
+        },
+        "chapters": {
+          "count": 15,
+          "hook_hits": 15,
+          "hook_coverage": 1.0,
+          "lengths": [
+            655,
+            636,
+            641,
+            719,
+            605,
+            670,
+            694,
+            713,
+            646,
+            648,
+            691,
+            725,
+            717,
+            711,
+            739
+          ],
+          "status": "pass"
+        },
+        "paywall_cards": {
+          "required": 3,
+          "actual": 6,
+          "status": "pass"
+        },
+        "direct_submission": {
+          "status": "pass",
+          "opening_guide": {
+            "present": true,
+            "paragraphs": 3,
+            "chars": 78,
+            "status": "pass"
+          },
+          "mobile_paragraphs": {
+            "offending_paragraphs": 0,
+            "max_sentence_endings": 4,
+            "examples": [],
+            "status": "pass"
+          },
+          "submission_paywall_map": {
+            "required": 3,
+            "actual": 3,
+            "present": true,
+            "status": "pass"
+          },
+          "visible_paywall_labels": {
+            "hits": [],
+            "count": 0,
+            "status": "pass"
+          }
+        },
+        "source_overlap": {
+          "max_continuous_overlap_chars": 16,
+          "status": "pass"
+        },
+        "repeated_ngram": {
+          "max_repeated_substring_chars": 12,
+          "status": "pass"
+        },
+        "style_metrics": {
+          "char_count": 10319,
+          "sentence_count": 664,
+          "avg_sentence_length": 14.541,
+          "dialogue_ratio": 0.187,
+          "question_marks": 21,
+          "question_marks_per_k": 2.035,
+          "physical_emotion_hits": {
+            "指尖": 10,
+            "发麻": 1,
+            "太阳穴": 1,
+            "青筋": 4,
+            "后背": 3,
+            "冷汗": 2,
+            "喉咙": 9,
+            "指甲": 2,
+            "掌心": 15
+          },
+          "forbidden_hits": {},
+          "soft_forbidden_hits": {},
+          "action_density_per_k": 25.487
+        },
+        "source_rhythm_fit": {
+          "status": "pass",
+          "applicable": true,
+          "source": {
+            "chars": 26171,
+            "line_count": 1281,
+            "avg_line_chars": 20.43,
+            "median_line_chars": 18.0,
+            "short_line_rate": 0.4239,
+            "long_line_rate": 0.0656,
+            "quote_line_rate": 0.2459,
+            "barrage_line_rate": 0.0125,
+            "question_marks_per_k": 4.623
+          },
+          "candidate": {
+            "chars": 10144,
+            "line_count": 558,
+            "avg_line_chars": 18.179,
+            "median_line_chars": 17.0,
+            "short_line_rate": 0.4606,
+            "long_line_rate": 0.0251,
+            "quote_line_rate": 0.2885,
+            "barrage_line_rate": 0.0036,
+            "question_marks_per_k": 2.07
+          },
+          "failures": []
+        },
+        "semantic_repetition": {
+          "sentence_count": 511,
+          "unique_sentence_skeletons": 510,
+          "max_sentence_repeats": 2,
+          "max_sentence_repeat_ratio": 0.0039
+        },
+        "production_meta_leak": {
+          "count": 0,
+          "examples": [],
+          "status": "pass"
+        },
+        "forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "soft_forbidden_words": {
+          "hits": {},
+          "status": "pass"
+        },
+        "failures": []
+      }
+    }
+  ]
+}

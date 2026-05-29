@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "scene": "scene-01",
+      "quote": "旧戒指滚到椅脚旁，撞出一声脆响",
+      "assessment": "背叛冲击通过实物动作表达，不靠抽象哭诉。"
+    },
+    {
+      "scene": "scene-05",
+      "quote": "红色录制灯一盏接一盏亮着",
+      "assessment": "现场感强，直播行业场景被物理化。"
+    },
+    {
+      "scene": "scene-10",
+      "quote": "绿色变成黄色。黄色又变成灰色",
+      "assessment": "权限失效写成可视动作，爽点清晰。"
+    },
+    {
+      "scene": "scene-12",
+      "quote": "红灯一次比一次刺眼",
+      "assessment": "男主权力坠落具象化，有画面。"
+    },
+    {
+      "scene": "scene-15",
+      "quote": "纸页砸到桶底，声音很轻",
+      "assessment": "情感断舍离收得克制，没有AI式大段宣言。"
+    }
+  ],
+  "non_blocking_risks": [
+    "“不是……是……”结构出现偏多，Phase 7 可删减一到两处。",
+    "中段合规术语密集，但动作和对话能托住节奏，未构成失败。"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "scene": "scene-01",
+      "quote": "盒子里是一枚重新打磨过的旧戒指",
+      "assessment": "惊喜债先以实物落地，后续背叛才有痛感。"
+    },
+    {
+      "scene": "scene-02",
+      "quote": "你告诉他们，我是谁",
+      "assessment": "公开羞辱债被正妻身份当场偿还。"
+    },
+    {
+      "scene": "scene-07",
+      "quote": "第二笔，一百二十万。转出账户，许闻溪母亲的遗产专户",
+      "assessment": "创始贡献被抹除债以启动资金记录现场偿还。"
+    },
+    {
+      "scene": "scene-11",
+      "quote": "纸张压住那枚旧戒指",
+      "assessment": "迟来忏悔被制度文件压住，情绪偿还具象。"
+    },
+    {
+      "scene": "scene-15",
+      "quote": "我把整封信扔进去",
+      "assessment": "男主求原谅债被明确拒绝，女主不复合。"
+    },
+    {
+      "scene": "scene-16",
+      "quote": "这一次，是我的惊喜专场",
+      "assessment": "惊喜母题完成回旋，落点不是爱情补偿而是自我主场。"
+    }
+  ],
+  "non_blocking_risks": [
+    "后半清算推进很快，若 Phase 7 扩写，可给女主短暂疲惫或团队压力一两笔，使胜利更有代价感。"
+  ]
+}

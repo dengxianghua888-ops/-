@@ -1,0 +1,309 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260518_overload_incense_revenge",
+  "title": "客户用合同坑我超载罚三千二，我开车拉走他一吨沉香报警了",
+  "genre": "modern_reversal",
+  "target_length": {
+    "min": 10000,
+    "max": 13500,
+    "sweet_spot": [10500, 12500]
+  },
+  "emotion_curve_shape": "U 型 + 职业升级补偿尾",
+  "u_curve": {
+    "valley_beats": ["B9", "B10"],
+    "compensation_beats": ["B17"]
+  },
+  "mechanisms_used": ["M1", "M3"],
+  "beats": [
+    {
+      "beat_id": "B1",
+      "beat_label": "接单砍价",
+      "scene_location": "云南装货点货场",
+      "character_goal": "接一单顺路货回程不空跑",
+      "conflict_action": "李凯磨两小时把运费从 2000 砍到 500+主角认下",
+      "information_gap": "李凯口口声声只两吨，主角不知装车实际几吨",
+      "emotion_debt_balance": "+被欺骗债·开局",
+      "chapter_end_hook": "我想着顺路不空跑——就当交个朋友——认了",
+      "paywall_card": false,
+      "target_chars_min": 180,
+      "target_chars_max": 280,
+      "forbidden_summary": [
+        "禁直白说'我已经预感不对'",
+        "禁鸡汤词如'底层苦命人'",
+        "禁古言遗痕词"
+      ]
+    },
+    {
+      "beat_id": "B2",
+      "beat_label": "过磅被罚",
+      "scene_location": "高速过磅站",
+      "character_goal": "把货顺利拉到广州",
+      "conflict_action": "过磅显示三吨+被罚 3200+扣 6 分",
+      "information_gap": "李凯为何故意让车超载未明",
+      "emotion_debt_balance": "+被欺骗债·叠加",
+      "chapter_end_hook": "我因为超载被罚款 3200——扣 6 分",
+      "paywall_card": false,
+      "target_chars_min": 220,
+      "target_chars_max": 320,
+      "forbidden_summary": [
+        "禁主角'颤抖着说道'",
+        "禁'似乎'软描写"
+      ]
+    },
+    {
+      "beat_id": "B3",
+      "beat_label": "电话嘲讽",
+      "scene_location": "高速服务区",
+      "character_goal": "电话理论让对方承担多出运费",
+      "conflict_action": "李凯笑'女司机就是女司机'+'连货都不会验是你自己蠢'+旁边男的起哄",
+      "information_gap": "李凯到底装了什么货为何怕主角验",
+      "emotion_debt_balance": "+公开矮化债·开局",
+      "chapter_end_hook": "得到朋友的肯定——他更是得寸进尺——再说了——白字黑字的合同",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 400,
+      "forbidden_summary": [
+        "禁主角内心戏过长",
+        "禁'眼中闪过一丝'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B4",
+      "beat_label": "卸两吨开走",
+      "scene_location": "广州物流园收货点",
+      "character_goal": "按合同字面卸两吨开车走",
+      "conflict_action": "卸到两吨整+车门一关挂挡就走",
+      "information_gap": "多出的一吨到底是什么、值多少钱、为什么没在合同里",
+      "emotion_debt_balance": "+被欺骗债·反咬",
+      "chapter_end_hook": "后照镜里——收货点的几个工人还在原地发愣",
+      "paywall_card": false,
+      "target_chars_min": 280,
+      "target_chars_max": 400,
+      "forbidden_summary": [
+        "禁主角'冷艳一笑'AI 腔",
+        "禁血腥具象描写"
+      ]
+    },
+    {
+      "beat_id": "B5",
+      "beat_label": "路虎堵截砸车",
+      "scene_location": "物流园省道口",
+      "character_goal": "保住车门拨打 110",
+      "conflict_action": "路虎横停+三个壮汉提铝合金棒球棍砸车窗+主角锁死四门拨 110",
+      "information_gap": "李凯为何不报警先动手",
+      "emotion_debt_balance": "+被欺骗债·峰值",
+      "chapter_end_hook": "防爆玻璃被砸出蛛网般的裂纹",
+      "paywall_card": true,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁血腥具象描写",
+        "禁'仿佛末日'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B6",
+      "beat_label": "警笛响起",
+      "scene_location": "省道口",
+      "character_goal": "把对方交给警察",
+      "conflict_action": "巡警喝止三人+疏散人群+按下车窗",
+      "information_gap": "派出所会怎么定性",
+      "emotion_debt_balance": "+被欺骗债·小释放",
+      "chapter_end_hook": "警察走过来——看了看我——又看看李凯",
+      "paywall_card": false,
+      "target_chars_min": 240,
+      "target_chars_max": 360,
+      "forbidden_summary": [
+        "禁直接说'警察站在我这边'",
+        "禁'似乎'"
+      ]
+    },
+    {
+      "beat_id": "B7",
+      "beat_label": "调解室合同字面战",
+      "scene_location": "派出所调解室",
+      "character_goal": "用合同字面反咬",
+      "conflict_action": "李凯翘二郎腿+撕第七条+赵总免提威胁'你开不上一寸沥青路'+警察'合同纠纷不予立案'",
+      "information_gap": "派出所走人之后那一吨何去何从",
+      "emotion_debt_balance": "+公开矮化债·峰值",
+      "chapter_end_hook": "他站起来——把烟气吐在我脸上——法盲——就你这种底层货色",
+      "paywall_card": false,
+      "target_chars_min": 600,
+      "target_chars_max": 820,
+      "forbidden_summary": [
+        "禁主角内心鸡汤",
+        "禁'值得我们'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B8",
+      "beat_label": "平台封号+群里污蔑",
+      "scene_location": "三十块快捷酒店+物流大群",
+      "character_goal": "申诉账号+反咬群里",
+      "conflict_action": "平台封号+冻结五万押金+李凯发律师函+群里被发身份证",
+      "information_gap": "平台为何明显偏袒大客户",
+      "emotion_debt_balance": "+平台不公债·峰值",
+      "chapter_end_hook": "我握着手机——强压下砸键盘的冲动",
+      "paywall_card": true,
+      "target_chars_min": 600,
+      "target_chars_max": 820,
+      "forbidden_summary": [
+        "禁主角'颤抖着说道'",
+        "禁'仿佛被全世界抛弃'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B9",
+      "beat_label": "老家被堵门",
+      "scene_location": "运管局大厅+老家村口（电话连线）",
+      "character_goal": "保护母亲",
+      "conflict_action": "运管局推诿+母亲电话哭喊+面包车堵门+混混尾随+红油漆威胁+主角微信转村长两千块",
+      "information_gap": "李凯还会用什么招",
+      "emotion_debt_balance": "+家人受惊债·谷底",
+      "chapter_end_hook": "李凯最好祈祷你这辈子别落在我手里",
+      "paywall_card": false,
+      "target_chars_min": 600,
+      "target_chars_max": 820,
+      "forbidden_summary": [
+        "禁母亲'晕倒在地'血腥具象",
+        "禁'声泪俱下'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "beat_label": "网吧调记录仪",
+      "scene_location": "网吧",
+      "character_goal": "找出装车录像里的破绽",
+      "conflict_action": "插读卡器+逐帧检查云南装车录像+发现李凯亲手把第三排木材塞进车厢底层",
+      "information_gap": "主角到底掌握了什么底牌",
+      "emotion_debt_balance": "+情绪债铺设峰值",
+      "chapter_end_hook": "我从口袋里掏出一个微小的内存卡",
+      "paywall_card": true,
+      "target_chars_min": 480,
+      "target_chars_max": 660,
+      "forbidden_summary": [
+        "禁直白说'我看出李凯走私'",
+        "禁'仿佛'"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "beat_label": "执法大队自报",
+      "scene_location": "市林业执法大队大门",
+      "character_goal": "把车开进执法大队主动自报",
+      "conflict_action": "拔下内存卡+冲进执法大门+对执法人员喊'我举报我自己''整整一吨来源不明的特级沉香木'",
+      "information_gap": "M1 同规则反杀启动",
+      "emotion_debt_balance": "+情绪债开始释放",
+      "chapter_end_hook": "你……你在哪——你在胡说什么",
+      "paywall_card": false,
+      "target_chars_min": 600,
+      "target_chars_max": 820,
+      "forbidden_summary": [
+        "禁'豪情万丈'AI 腔",
+        "禁主角内心鸡汤"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "beat_label": "一吨被定级",
+      "scene_location": "执法大队院子",
+      "character_goal": "等检测结果",
+      "conflict_action": "撬开后厢+放大镜+药水+主任脸色严峻+定级国家二级重点保护野生植物+对讲机呼叫支援",
+      "information_gap": "李凯的反应将如何",
+      "emotion_debt_balance": "+情绪债释放·一",
+      "chapter_end_hook": "通知队长——里面最深处的那一吨——国家二级重点保护野生植物",
+      "paywall_card": true,
+      "target_chars_min": 600,
+      "target_chars_max": 820,
+      "forbidden_summary": [
+        "禁主角'终于松了一口气'AI 腔"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "beat_label": "下跪反录音",
+      "scene_location": "招待所大厅+执法大队门口",
+      "character_goal": "拒收十万+留证",
+      "conflict_action": "李凯哆嗦塞十万牛皮纸袋+主角抬手一拨砸地+录像留存+'你这钱太脏我嫌烫手'",
+      "information_gap": "李凯还会狗急跳墙吗",
+      "emotion_debt_balance": "+公开矮化债·释放",
+      "chapter_end_hook": "我指着执法局门楼上悬挂的大红国徽——你自己进去跟国徽解释你的合同去",
+      "paywall_card": false,
+      "target_chars_min": 480,
+      "target_chars_max": 660,
+      "forbidden_summary": [
+        "禁'眼眶发酸'AI 腔",
+        "禁'解恨'描写过白"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "beat_label": "赵总反水",
+      "scene_location": "经侦大队",
+      "character_goal": "看证据链闭合",
+      "conflict_action": "赵总为立功减罚交黑账+三年走私流水千万",
+      "information_gap": "判决量刑会落到什么档",
+      "emotion_debt_balance": "+情绪债释放·二",
+      "chapter_end_hook": "这本黑账——成了钉死李凯的最后一颗棺材钉",
+      "paywall_card": false,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁'命运的报应'抒情",
+        "禁'不禁'"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "beat_label": "撤罚撤分+表彰",
+      "scene_location": "交管局+网络",
+      "character_goal": "拿回干净身份",
+      "conflict_action": "交管局撤 3200+撤 6 分+林业局公开表彰+平台双倍退押金+十万风控奖励+全国群点赞",
+      "information_gap": "庭审最终量刑",
+      "emotion_debt_balance": "+行业污名债·释放",
+      "chapter_end_hook": "我妈红着眼眶——握着我那因为常年开车长满老茧的手——大丫头——没给咱家丢人",
+      "paywall_card": true,
+      "target_chars_min": 480,
+      "target_chars_max": 660,
+      "forbidden_summary": [
+        "禁'阳光照在身上'AI 腔",
+        "禁'风吹云散'"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "beat_label": "法庭判决",
+      "scene_location": "市中院第三审判庭",
+      "character_goal": "看一审判决",
+      "conflict_action": "李凯戴铐+赵总低头+法官重锤+李凯五年六个月+五百万罚金+赵总缓刑四年",
+      "information_gap": "证据链已闭合",
+      "emotion_debt_balance": "+情绪债释放·完全",
+      "chapter_end_hook": "李凯当庭跪地砸头——苏柠我错了——我面无表情看着他不发一言",
+      "paywall_card": false,
+      "target_chars_min": 480,
+      "target_chars_max": 660,
+      "forbidden_summary": [
+        "禁鸡汤式宣判抒情",
+        "禁'宛如命运'"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "beat_label": "高速回甘",
+      "scene_location": "物流园区+高速公路",
+      "character_goal": "签下大型国企长约重新出发",
+      "conflict_action": "保养货车+签长约+核对植物检疫单+踩油门驶上高速",
+      "information_gap": "回甘补偿尾",
+      "emotion_debt_balance": "回甘",
+      "chapter_end_hook": "卡车如同一艘坚固的巨轮——向着前方更广阔、更干净的未来全速驶去",
+      "paywall_card": false,
+      "target_chars_min": 320,
+      "target_chars_max": 460,
+      "forbidden_summary": [
+        "禁'正能量''加油'鸡汤词",
+        "禁'走出阴影'套语"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "祭河大典高台，转入府中家宴前厅",
+  "time": "婚后五周年当日黄昏",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "霍池渊",
+    "贺婉书",
+    "宾客",
+    "府中管事"
+  ],
+  "character_goal": "推进本场目标并迫使关系或证据发生变化。",
+  "opposition_goal": "霍池渊要先压住贺婉书卷入的私盐风波，不让外头把事闹大。",
+  "conflict_action": "霍池渊在众目睽睽下转身去护贺婉书，留下贺晚棠独自主持祭仪和承受议论。",
+  "information_gap": "她为什么不发作，反而比谁都冷静？",
+  "emotional_debt_delta": "+2 丈夫公开失约，旧誓第一次被放到众人眼前踩碎",
+  "payoff_or_hook": "她没闹，只在散席后开口要见水殓档。",
+  "chapter_end_hook": "替我约水殓档，我要一份溺亡契。",
+  "paywall_card": false,
+  "must_include": [
+    "贺晚棠的平静要让周围人不安"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述祭河仪式条款",
+    "不要长篇介绍漕盐制度",
+    "不要用内心总结代替现场社交压迫"
+  ],
+  "rhythm_job": {
+    "shape": "公开场域起势40%+当面失约35%+冷静反常15%+章尾钩10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.48,
+    "action_ratio_target": 0.3,
+    "hook_drop": "以一句极静的要求切断喧闹",
+    "low_pressure_bridge": "宾客吐槽和管事递茶的生活动作承接高台失约"
+  }
+}

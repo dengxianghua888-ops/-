@@ -1,0 +1,162 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "单章长度普遍低于 beat-bible 900-1100 字规划，虽满足 production template 10000-18000 总长门槛，但番茄单章饱满度偏薄。",
+    "中后段网络证据链密集，部分反转依赖第三方账号/匿名实习生/监管推进，现场阻力可再加厚。"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_11_drowning_divorce/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 13000,
+      "actual": 12211,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        695,
+        782,
+        801,
+        709,
+        656,
+        721,
+        690,
+        736,
+        730,
+        940,
+        734,
+        845,
+        739,
+        662,
+        944,
+        714
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 84,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12211,
+      "sentence_count": 665,
+      "avg_sentence_length": 17.362,
+      "dialogue_ratio": 0.195,
+      "question_marks": 61,
+      "question_marks_per_k": 4.995,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "胸腔": 1,
+        "喉咙": 3,
+        "眼眶": 1,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 1
+      },
+      "action_density_per_k": 22.766
+    },
+    "semantic_repetition": {
+      "sentence_count": 504,
+      "unique_sentence_skeletons": 504,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.002
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.0,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "evidence": [
+    {
+      "category": "opening_hook",
+      "quote": "落海那晚，我的丈夫傅寒舟先救了假千金许明珠。第二天上午，我把离婚协议放到他面前。",
+      "assessment": "首段完成强冲突、人物关系、生死危机和离婚动作。"
+    },
+    {
+      "category": "chapter_hook",
+      "quote": "傅寒舟第一次找不到护具记录，伤腿在雨夜疼到站不稳。",
+      "assessment": "章末钩把婚内隐形劳动转为男主即时反噬。"
+    },
+    {
+      "category": "paywall_card",
+      "quote": "我的账号首页，只挂着三张图。替嫁聊天记录，结婚证，离婚证。",
+      "assessment": "scene-06 付费卡点明确，以硬证据扭转插足叙事。"
+    },
+    {
+      "category": "emotion_debt",
+      "quote": "我把手腕的纱布压在桌面上，血色从边缘渗出。“我差点死了，所以我不要你。”",
+      "assessment": "生死抛弃债被物理伤口和短台词现场化。"
+    },
+    {
+      "category": "style",
+      "quote": "裂纹也是证据，不必遮掉。",
+      "assessment": "金句与文保职业线、女主创伤修复主题绑定，非空泛抒情。"
+    },
+    {
+      "category": "logic",
+      "quote": "三份材料均已完成证据保全，针对剪辑造谣、网暴和商业诋毁，保留追责权。",
+      "assessment": "女主反击通过证据保全和律师声明推进，风险表达相对稳妥。"
+    },
+    {
+      "category": "boundary",
+      "quote": "傅寒舟，我不会复婚，也不会做你的私人修复师。你和许明珠有没有什么，不影响这个结果。",
+      "assessment": "拒复婚边界清楚，不把前夫解释当作赎罪。"
+    }
+  ]
+}

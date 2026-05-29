@@ -1,0 +1,82 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04a",
+  "chapter_id": 4,
+  "is_chapter_end": false,
+  "target_chars_min": 400,
+  "target_chars_max": 600,
+  "location": "矿区示众路/烈日下的碎石道",
+  "time": "被铁索拖出矿坊后当即",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["苏若棠", "矿工群众", "矿监"],
+  "character_goal": "苏若棠维持精神不屈——不跪、不求、不哭",
+  "opposition_goal": "矿监执行楚怀璟命令公开羞辱；群众以围观审判为乐",
+  "conflict_action": "苏若棠被铁索拖行在碎石路上，被迫烈日下负石行走，矿工群围观唾骂投掷烂叶",
+  "information_gap": "读者知道大漠烽火已升（援兵在路上），但苏若棠不知何时能到",
+  "emotional_debt_delta": "公开羞辱债——从私下受虐升级为公众围观的极致屈辱",
+  "payoff_or_hook": "群众声浪堆砌到极致后切入下一段物理暴力",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "铁索拖行在碎石路上的物理描写",
+    "烈日下负石行走",
+    "至少三个不同矿工的嘲讽声（声浪堆砌）",
+    "烂叶/石子投掷",
+    "苏若棠不开口、不哭、咬紧牙关"
+  ],
+  "must_not_write_as_exposition": [
+    "苏若棠的痛感（用具体感官替代'很疼'）",
+    "群众的恶意（用具体对话替代'他们很坏'）",
+    "屈辱感（用物理动作替代'我很屈辱'）"
+  ],
+  "rhythm_job": {
+    "shape": "持续加压",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.5,
+    "comma_period_ratio": 1.1,
+    "sentence_avg_len": 14.8,
+    "dominant_emotion": "极致屈辱-麻木",
+    "emotion_arc": "羞辱 → 更深的羞辱 → 群嘲声浪",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "窒息于群体暴力的无力感，被苏若棠的沉默坚韧震撼",
+    "required_techniques": [
+      {
+        "technique": "群众暴力的声浪堆砌",
+        "instruction": "至少3个不同声音依次嘲讽：'哟这不是王妃娘娘吗'/'果真是克夫命的煞星'/'不知是谁起了头，拼命往她身上砸烂叶'——多声道围剿"
+      },
+      {
+        "technique": "物理感官叠加",
+        "instruction": "碎石路磨穿脚底+铁索磨踝出血+烈日灼背——至少三重感官叠加，让读者身体产生共鸣痛感"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "感官混淆句（分不清A和B）",
+        "example": "我早已分不清身后哪些是雨，哪些是血。",
+        "instruction": "用'分不清汗与血/泥与肉'表达痛觉麻木——比直接写'很疼'有力百倍"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "累积式",
+    "source_excerpt": "「哟，这不是上京出了名的姜头牌吗？」\n「果真是上不得台面的狐媚子！」\n不知是谁起了头，拼命往我的身上砸烂叶。\n脚下碎石遍地。铁链拖过，膝盖已磨出血肉。"
+  },
+  "character_voices": {
+    "苏若棠": {
+      "口癖": [],
+      "句式": "本场不开口说话，只有感官描写和内心极简独白",
+      "单句上限": 15,
+      "禁止": "求饶、哭泣、长内心独白"
+    },
+    "矿工群众": {
+      "口癖": ["哟", "果真是", "啧"],
+      "句式": "口语化嘲讽短句，八卦审判语气",
+      "单句上限": 18,
+      "禁止": "文绉绉长句"
+    }
+  }
+}

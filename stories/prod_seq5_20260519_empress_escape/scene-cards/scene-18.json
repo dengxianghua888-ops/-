@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "B18",
+  "target_chars_min": 900,
+  "target_chars_max": 1100,
+  "location": "京城南门城楼",
+  "time": "围京当夜",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "乌兰珠",
+    "拓跋烬",
+    "北境旧部"
+  ],
+  "character_goal": "温照晚想救下萧珩，并确认乌兰珠到底是敌是友。",
+  "opposition_goal": "北境旧部想借假围京夺权，乌兰珠要反手收网。",
+  "conflict_action": "温照晚登城替萧珩止血，乌兰珠带拓跋烬押着旧部首领到城门下，当众摘下面纱亮出北境王印。",
+  "information_gap": "萧珩是否又把温照晚的回宫算进局里。",
+  "emotional_debt_delta": "偿还乌兰珠盟友反转和拓跋烬身份反转，留下最终公开清算。",
+  "payoff_or_hook": "假围京真相落地，危机转向夫妻清算。",
+  "chapter_end_hook": "乌兰珠当众摘下面纱，宣布北境旧部已入她掌中。",
+  "paywall_card": false,
+  "must_include": [
+    "女主亲手止血",
+    "乌兰珠摘面纱",
+    "拓跋烬押人",
+    "北境王印"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开大战",
+    "不要让乌兰珠抢走情感高潮",
+    "不要让萧珩装成全知全对"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "舞台台阶、亲友围拢区",
+  "time": "白天，冲突升级后",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "周瑞阳",
+    "邱淑芬",
+    "周建国",
+    "沈月然"
+  ],
+  "character_goal": "把“我还活着”进一步升级成“我儿子也还活着”，彻底砸碎周家叙事。",
+  "opposition_goal": "公婆要把她骂成冒充者，周瑞阳要压住亲子和婚姻证据不扩散。",
+  "conflict_action": "林晚晴连砸结婚证、旧合照、孩子出生证明三样证据，把周家堵在台阶上。",
+  "information_gap": "截断在出生证明被举到直播镜头最前面。",
+  "emotional_debt_delta": "第二笔重债抬出：父亲把亲儿子也写死了。",
+  "payoff_or_hook": "“死人怎么给你生的儿子？”这一问把周瑞阳当场钉住。",
+  "chapter_end_hook": "截断在出生证明被举到直播镜头最前面。",
+  "paywall_card": false,
+  "must_include": [
+    "婆婆骂人要显共谋，不只是情绪失控",
+    "孩子信息出现时要有一瞬全场倒吸气",
+    "女主仍旧是算账姿态，不哭求父爱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇母爱独白",
+    "不要复述完整生育史",
+    "不要把围观反应拉太长"
+  ],
+  "rhythm_job": {
+    "shape": "2件旧证据铺垫+1件孩子证据绝杀+章尾发问",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "5:5",
+    "low_pressure_bridge": "翻包、抽纸页、按平证件这些慢半拍动作承接重问",
+    "chapter_tail_cut": "问句落下即断"
+  }
+}

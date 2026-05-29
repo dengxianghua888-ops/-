@@ -1,0 +1,89 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-06a",
+  "chapter_id": 6,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 700,
+  "location": "矿坊外/靖安王府城门",
+  "time": "利箭射出后立即",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["苏若棠", "凌霄寒", "楚怀璟", "赤鹰骑兵", "王府幕僚"],
+  "character_goal": "凌霄寒以绝对武力震慑楚怀璟，逼其交出苏若棠",
+  "opposition_goal": "楚怀璟企图稳住局面、不交人",
+  "conflict_action": "赤鹰骑兵传报'八万铁骑已断绝靖安城盐铁商路，逼靖安王交出首领夫人'——身份炸弹引爆",
+  "information_gap": "楚怀璟不知苏若棠就是'首领夫人'；王府幕僚慌乱不知所措",
+  "emotional_debt_delta": "屈辱清偿开始——'矿奴=首领夫人'的反差让帝王三年的践踏成为笑话",
+  "payoff_or_hook": "身份炸弹引爆+楚怀璟面色惨白=权力关系瞬间反转",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "凌霄寒身披铠甲的登场描写（视觉冲击）",
+    "赤鹰骑兵的数字化展示（八万铁骑+断盐铁商路）",
+    "'交出首领夫人'的身份炸弹",
+    "楚怀璟'面色惨白'的反应",
+    "王府幕僚慌乱（'王爷，请以大局为重'）",
+    "凌霄寒的利箭擦过楚怀璟手臂的物理威慑"
+  ],
+  "must_not_write_as_exposition": [
+    "凌霄寒和苏若棠的关系前史（此刻不解释，只展示力量）",
+    "赤鹰部的来历（不做科普）",
+    "为什么八万骑兵能碾压（数字自己说话）"
+  ],
+  "rhythm_job": {
+    "shape": "爆发",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.8,
+    "comma_period_ratio": 1.5,
+    "sentence_avg_len": 16.5,
+    "dominant_emotion": "震撼-酣畅",
+    "emotion_arc": "震惊 → 狂喜 → 解气",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "'终于等到了'的畅快释放感",
+    "required_techniques": [
+      {
+        "technique": "权力碾压的数字化展示",
+        "instruction": "'八万赤鹰铁骑已兵临城下'+'以断绝盐铁商路相胁'——数字+经济绞杀双重碾压"
+      },
+      {
+        "technique": "群臣反应作为恐惧放大器",
+        "instruction": "王府幕僚瞬间慌乱+'王爷，万万不可硬抗，赤鹰部断了盐铁，不出三月城中断粮'——连幕僚都怕了=碾压级差距"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "条件句威胁（若A→则B），B是毁灭级后果",
+        "example": "若你再向前一步，城墙外的三十万铁骑便会立即踏平北国！",
+        "instruction": "凌霄寒：'若你再动她一根手指，城外八万赤鹰铁骑便会踏平靖安城'——简单直接的力量宣言"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "突变式",
+    "source_excerpt": "「报——！南疆三十万铁骑已兵临城下，逼陛下交出将军夫人！」\n傅临渊面色惨白。\n北国的文武百官瞬间慌了。\n「臣斗胆，恳请陛下以大局为重！」\n身披铠甲、手持弓箭的萧烬辞。\n利箭擦过傅临渊手臂。\n「若你再向前一步，城墙外的三十万铁骑便会立即踏平北国！」"
+  },
+  "character_voices": {
+    "苏若棠": {
+      "口癖": [],
+      "句式": "此处以旁观视角描述，极少说话",
+      "单句上限": 15,
+      "禁止": "长内心独白"
+    },
+    "凌霄寒": {
+      "口癖": ["若棠", "若你再"],
+      "句式": "极简短句+条件威胁，不废话不解释",
+      "单句上限": 16,
+      "禁止": "长句解释、温柔语气（对敌时）"
+    },
+    "楚怀璟": {
+      "口癖": ["不可能", "本王"],
+      "句式": "震惊+不甘+虚张声势",
+      "单句上限": 18,
+      "禁止": "冷静分析"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_06_modern_reversal",
+  "title": "她不需要被看见了",
+  "source_slug": "hot_6d1ab9400b",
+  "genre": "modern_reversal",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10012, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 20.3, "long_line_rate": 0.004, "question_marks_per_k": 7.74, "status": "pass"},
+    "structure_metrics": {"impact_density": 2.0, "watermark_count": 2, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 0, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

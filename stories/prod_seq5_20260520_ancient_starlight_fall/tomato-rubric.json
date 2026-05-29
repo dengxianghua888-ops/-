@@ -1,0 +1,50 @@
+{
+  "story": "stories/prod_seq5_20260520_ancient_starlight_fall",
+  "overall_score": 8.91,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 13019,章节方差 58.6"
+    },
+    "hook_density": {
+      "score": 5.62,
+      "evidence": "9/16 强钩,弱钩章: ch02,ch04,ch05,ch09,ch10,ch13,ch15",
+      "weak_chapters": [
+        "ch02",
+        "ch04",
+        "ch05",
+        "ch09",
+        "ch10",
+        "ch13",
+        "ch15"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 29.956/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 13.338,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch02",
+    "ch04",
+    "ch05",
+    "ch09",
+    "ch10",
+    "ch13",
+    "ch15"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

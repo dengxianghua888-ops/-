@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "夜间模拟客舱楼",
+  "time": "第六天凌晨前",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "纪闻",
+    "外围警力",
+    "塔台频道声音"
+  ],
+  "character_goal": "主动赴约，让纪闻进入自证其罪的位置。",
+  "opposition_goal": "纪闻想把林雾变成最后一名乘客，完成自己的清舱仪式。",
+  "conflict_action": "林雾按纪闻短信走进模拟舱，逐排翻看登机牌，暗中确认舱内录音、门禁日志和外围布控启动；纪闻亲手关闭舱门。",
+  "information_gap": "纪闻是否会说出旧案核心细节，塔台是否会中途干预未知。",
+  "emotional_debt_delta": "诱饵债来到兑现点，凶手傲慢债压到最高。",
+  "payoff_or_hook": "林雾不是被抓进局，而是带着证据设备走进局。",
+  "chapter_end_hook": "纪闻关上舱门，说：最后一名乘客，到齐了。",
+  "paywall_card": true,
+  "must_include": [
+    "夜间模拟舱",
+    "林雾确认录音和门禁日志",
+    "纪闻亲自关舱门",
+    "最后一名乘客"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写锁舱操作步骤",
+    "不要让林雾没有安全预案",
+    "不要让纪闻像浪漫邀约者"
+  ]
+}

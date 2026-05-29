@@ -1,0 +1,124 @@
+pipeline_mode: production
+status: final
+title: 丈夫拿我孩子救她儿子，我送他坐牢
+provider: openai
+model: GPT-5
+source: user_provided_phase7_source_materials
+runner_policy:
+  external_allowed: false
+audit:
+  provider: openai
+  model: GPT-5
+  source:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+quality_gate:
+  pass
+  pipeline_mode: production
+  score_scale: 0-10
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.4
+    emotion: 9.2
+    style: 8.6
+    logic: 8.5
+  machine_metrics:
+    target_length:
+      min: 12800
+      max: 15200
+      source_actual: 12802
+      final_status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraphs: 4
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels:
+        status: pass
+        count: 0
+final_outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+submission:
+  title_options:
+    A: 丈夫拿我孩子救她儿子，我送他坐牢
+    B: 流产后，他签字把我的孩子送进实验室
+    C: 亡女样本被偷那天，我让沈氏全员受审
+  tags:
+    - 复仇虐渣
+    - 医疗悬疑
+    - 豪门
+    - 女强
+    - 证据链
+    - 追妻火葬场不回头
+    - 法庭清算
+    - 亲情背叛
+  paywall_node_chapters:
+    - 4
+    - 8
+    - 12
+    - 16
+total_chars: 13112
+chapter_count: 16
+paywall_cards: 8
+critic_scores:
+  logic: 8.5
+  style: 8.6
+  emotion: 9.2
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260520_strict_seq5_02c
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

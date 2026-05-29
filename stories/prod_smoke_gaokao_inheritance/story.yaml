@@ -1,0 +1,20 @@
+slug: prod_smoke_gaokao_inheritance
+pipeline_mode: production
+target_platform: tomato
+genre: family_ethics
+status: final
+quality_gate:
+  gate_status: pass
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: prod_mock_scene_20260430_01
+  runner: mock
+  provider: mock
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

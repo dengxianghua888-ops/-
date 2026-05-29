@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "医院产房外与病房",
+  "time": "数月后，清晨",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "龙凤胎",
+    "裴老爷子",
+    "弹幕"
+  ],
+  "character_goal": "温漾想确认一家人平安，把捡人回旋说完",
+  "opposition_goal": "裴时砚紧张到只顾看她，差点忘了看孩子",
+  "conflict_action": "产房门开后，裴时砚先握住温漾的手，温漾把两个孩子的小手放进他掌心",
+  "information_gap": "无新悬念，完成婚姻、孩子、捡人闭环",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "复婚、生产、钟声、捡人回旋完成圆满",
+  "chapter_end_hook": "截断句：我慢吞吞说：“这次，我把你爸爸捡稳了。”",
+  "paywall_card": false,
+  "must_include": [
+    "龙凤胎",
+    "裴时砚先看温漾",
+    "钟声和新生儿哭声",
+    "弹幕/评论完结撒花"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写生产血腥细节",
+    "不要开放式结局",
+    "不要总结式升华"
+  ],
+  "rhythm_job": {
+    "shape": "温暖收束；对白约30%，动作约42%，弹幕/评论约14%，呼吸点约14%",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 4,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "握手、钟声、小手放进掌心、弹幕祝福"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "青年古乐试演厅 / 后台候场区",
+  "time": "一周后",
+  "pov": "沈念歌",
+  "characters": ["沈念歌", "沈父", "评审老师", "候场演者"],
+  "character_goal": "靠自己拿回古琴修复与演奏双线入口。",
+  "opposition_goal": "手伤、旧伤和流言都在压她失手。",
+  "conflict_action": "她接过父亲修好的老杉木断琴上台试演，用稳定演奏和一句自我介绍扳回位置。",
+  "information_gap": "她能不能在没有男人补偿的情况下，独立完成命运回收。",
+  "emotional_debt_delta": "事业线开始正向清账，家人接住兑现。",
+  "payoff_or_hook": "她把自己从最低处重新弹回舞台。",
+  "chapter_end_hook": "截断动作：评审翻到名单，笔尖停在她名字旁边。",
+  "paywall_card": true,
+  "must_include": [
+    "父亲递琴的动作",
+    "手指或护指的小身体反应",
+    "试演不写炫技，写稳准和现场气息",
+    "评审改口留下她的瞬间"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开古琴专业知识课",
+    "不要把试演写成完整流程说明",
+    "不要把成功写得太轻飘"
+  ],
+  "rhythm_job": {
+    "shape": "候场压气-递琴接住-上台回收",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": "动作和呼吸点更重，对白克制，章尾钩用名单停笔动作截断。"
+  }
+}

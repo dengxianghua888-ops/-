@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "旧照相馆临时摄影棚",
+  "time": "第三天午后",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "周毓兰", "陆闻舟", "陆星澈", "林苗"],
+  "character_goal": "叶昭想完成外婆心心念念的全家福。",
+  "opposition_goal": "陆星澈想去陪林苗，陆闻舟想先安抚林舒禾母女。",
+  "conflict_action": "陆闻舟带陆星澈到门口又转身离开，陆星澈甩开周毓兰的手，捂着鼻子嫌她和叶昭脏。",
+  "information_gap": "陆星澈不知道这句话会让叶昭切断同行安排；陆闻舟低估了孩子伤害的重量。",
+  "emotional_debt_delta": "亲情债和孩子二次伤害债叠加，叶昭的母子幻想被刺穿。",
+  "payoff_or_hook": "外婆把准备好的三脚架放回角落，镜头里只剩两个人。",
+  "chapter_end_hook": "陆星澈捂着鼻子说，太婆和妈妈都脏。",
+  "paywall_card": false,
+  "must_include": [
+    "旧相机三脚架",
+    "外婆新换的绸衫",
+    "陆星澈甩手",
+    "林苗在车里招手",
+    "叶昭按下未拍摄的快门"
+  ],
+  "must_not_write_as_exposition": [
+    "不要替孩子开脱成童言无忌",
+    "不要让外婆当场崩溃控诉",
+    "不要让陆闻舟立刻真诚道歉"
+  ]
+}

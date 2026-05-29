@@ -1,0 +1,40 @@
+title: 将门毒女
+source_slug: ancient_mojo_revenge
+genre: ancient_sweet
+pipeline_version: v5
+status: final
+target_platform: tomato
+generated_at: "2026-05-26"
+
+adaptation:
+  source_setting: "端王府魔丸郡主为爱收敛，夫家被欺后带爹娘杀疯，夫君隐藏太子身份"
+  new_setting: "镇北将军府毒女为爱收敛，夫家被害后带爹娘杀疯，夫君隐藏废太子身份"
+  character_map:
+    赵明缨: 裴青棠 (女主，镇北将军府嫡女，擅毒术)
+    谢晏辞: 沈临渊/萧临渊 (夫君，表面文弱侯爷，实为废太子遗孤)
+    谢明姝: 沈知意 (小姑，被害流产)
+    宋璟: 王崇 (反派，荣安侯世子)
+    宋渊: 王鹤年 (终极反派，荣安侯)
+    萧景: 当今皇帝 (篡位者)
+
+metrics:
+  nonspace_chars: 10015
+  rhythm_status: pass
+  structure_gate: pass
+  impact_density: 10.08
+  avg_line_chars: 21.938
+  quote_line_rate: 0.399
+
+quality_gate:
+  nonspace_in_range: true
+  rhythm_pass: true
+  structure_pass: true
+  source_overlap_lte_5pct: true
+  meta_leak_zero: true
+  ai_forbidden_zero: true
+
+required_artifacts:
+  - beat-bible.json
+  - final.md
+  - quality-report.json
+  - story.yaml

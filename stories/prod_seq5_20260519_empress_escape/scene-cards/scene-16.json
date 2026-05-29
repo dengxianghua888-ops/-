@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "长公主府暖阁",
+  "time": "离宫后半月",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧明棠",
+    "裴砚"
+  ],
+  "character_goal": "温照晚想向长公主确认萧珩少年旧事和药王谷渊源。",
+  "opposition_goal": "萧明棠想替弟弟交出证据，但不替他求原谅。",
+  "conflict_action": "萧明棠打开旧药囊，抖出药方夹层、五年前旧信和被磨平的草药残片。",
+  "information_gap": "萧珩多年暗恋是真的，但他是否能承担欺骗后果还未确定。",
+  "emotional_debt_delta": "偿还暗恋线，保留女主清算权。",
+  "payoff_or_hook": "女主重新评估萧珩，却仍不回宫。",
+  "chapter_end_hook": "长公主旧药囊里掉出萧珩五年前写给她的第一封信。",
+  "paywall_card": false,
+  "must_include": [
+    "旧药囊",
+    "药方夹层",
+    "萧珩旧信",
+    "长公主不道德绑架女主"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段抄信",
+    "不要写成长公主替男主辩白",
+    "不要让女主马上心软回宫"
+  ]
+}

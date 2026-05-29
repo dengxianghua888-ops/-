@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-19",
+  "beat_id": "beat-19",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "港务集团亲子鉴定中心外",
+  "time": "江沉死亡脱离后次日清晨",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "沈清禾", "江童", "律师", "江栀", "贺景衡"],
+  "character_goal": "沈清禾和孩子被迫面对亲子鉴定与监护公证造假的后果。",
+  "opposition_goal": "贺景衡要利用孩子拖延调查，并继续占住继承人名分。",
+  "conflict_action": "律师撤销孩子继承展示资格，沈清禾撕扯监护公证，江童追着担架车喊江沉爸爸却被隔离线拦下。",
+  "information_gap": "众人不知道贺景衡已经准备发布声明，把所有罪推回江沉身上。",
+  "emotional_debt_delta": "-孩子认贼作父反噬；-沈清禾夺名分反噬；+贺景衡最后反扑",
+  "payoff_or_hook": "妻儿线开始偿还，但主角不接收迟来的称呼。",
+  "chapter_end_hook": "贺景衡发布声明，反咬江沉自导自演勒索全家。",
+  "paywall_card": false,
+  "must_include": ["亲子鉴定结果", "监护公证撤销", "继承展示资格取消", "江童隔离线外喊爸爸", "贺景衡伪造声明"],
+  "must_not_write_as_exposition": ["不要让孩子一句爸爸获得原谅", "不要让沈清禾只哭不承担后果", "不要过度惩罚儿童身体"]
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 820,
+  "target_chars_max": 980,
+  "location": "护理楼417宿舍",
+  "time": "第四天深夜二十三点前",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "纪白", "许曼", "刘队"],
+  "character_goal": "利用宿舍入侵收集纪白威胁、门禁和许曼配合证据。",
+  "opposition_goal": "纪白要把林照带离宿舍，完成第七例入库前的心理压制。",
+  "conflict_action": "纪白刷卡进门，把冷库腕带套向林照手腕，林照按下床架报警器，录音笔记录他要求她去冷库的威胁。",
+  "information_gap": "门外第二张刷卡记录属于许曼还是更高层，纪白为何敢在宿舍动手。",
+  "emotional_debt_delta": "安全侵入债+2，生命威胁债+1，身份爆发预备+1。",
+  "payoff_or_hook": "林照不是被拖走的猎物，她让纪白亲手把威胁录成证据。",
+  "chapter_end_hook": "纪白摘下口罩，低声说：第七例，跟我去冷库。",
+  "paywall_card": true,
+  "must_include": [
+    "床架报警器",
+    "录音笔",
+    "冷库腕带",
+    "纪白夜闯宿舍",
+    "许曼的门禁卡痕迹"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角毫无后手",
+    "不要写成恋爱化近身压迫",
+    "不要细写可复制伤害动作"
+  ]
+}

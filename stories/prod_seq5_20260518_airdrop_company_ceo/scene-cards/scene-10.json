@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "发布会后台公告区",
+  "time": "苏曼宁流水曝光后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "苏曼宁", "周砚礼", "李屿", "品牌方代表", "员工"],
+  "character_goal": "许闻溪正式撤销苏曼宁任命，稳定品牌方",
+  "opposition_goal": "周砚礼要保住苏曼宁的直播账号和招商席位",
+  "conflict_action": "许闻溪签发临时决议，冻结苏曼宁招商、直播、合同和财务权限，并向品牌方发布合规澄清",
+  "information_gap": "品牌方等待鲸跃是否敢动CEO公开力捧的人",
+  "emotional_debt_delta": "-小三高位债 -品牌信任债第一笔",
+  "payoff_or_hook": "官宣总裁在同一场发布会里被撤任",
+  "chapter_end_hook": "苏曼宁胸前的新工牌亮了一下，随即变成灰色失效。",
+  "paywall_card": false,
+  "must_include": ["撤销任命", "冻结招商权限", "冻结直播账号", "合规澄清", "工牌失效"],
+  "must_not_write_as_exposition": ["不要让撤任只靠一句话", "不要让周砚礼成功保人", "不要把品牌方写成背景板"]
+}

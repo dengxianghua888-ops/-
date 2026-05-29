@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "看守所探视室",
+  "time": "第七日上午",
+  "pov": "限知第三人称，贴近许念",
+  "characters": [
+    "许念",
+    "许国成",
+    "邵明",
+    "看守所工作人员"
+  ],
+  "character_goal": "许念要让许国成承担法律和亲情双重代价",
+  "opposition_goal": "许国成试图用父女关系和养育名义逼许念心软",
+  "conflict_action": "许念隔着玻璃展示警方笔录、追偿清单和认罪情况说明，要求许国成签字，并亲口断绝父女关系",
+  "information_gap": "清算完成后，林素琴能不能亲眼知道许念已经不再恨她",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "-4",
+    "father_malice_debt": "-5",
+    "time_debt": "+8"
+  },
+  "payoff_or_hook": "父亲被法律追责，女儿反向完成不认父亲的因果回旋",
+  "chapter_end_hook": "探视室里，许念隔着玻璃说：你这辈子，都别说我是我爸。",
+  "paywall_card": true,
+  "must_include": [
+    "警方笔录",
+    "追偿清单",
+    "认罪情况说明",
+    "隔着玻璃断亲",
+    "许国成失控拍玻璃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让父亲悔过洗白",
+    "不要让许念替父亲找理由",
+    "不要只停留在口头道歉"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 720,
+  "target_chars_max": 820,
+  "location": "老宅廊下与新年夜色中",
+  "time": "除夕夜稍后",
+  "pov": "沈知微 第一人称",
+  "characters": ["沈知微", "裴砚衡", "裴承屿"],
+  "character_goal": "把胜利落在平静上岸，不再回头确认任何人。",
+  "opposition_goal": "裴承屿只剩最后一点体面，想通过那声称呼换她一个回头。",
+  "conflict_action": "裴承屿低声叫出‘大嫂’，沈知微没有回头；裴砚衡替她拢好披肩，带她去看新一季样稿和院外灯火。",
+  "information_gap": "无新悬念，重点是终局温度兑现。",
+  "emotional_debt_delta": "总账结清，情绪从锋利转入安静。",
+  "payoff_or_hook": "她终于不用再等，他也终于只能停在那一声称呼里。",
+  "chapter_end_hook": "她没回头，风把那声‘大嫂’吹散在身后。",
+  "paywall_card": false,
+  "must_include": [
+    "低声改口",
+    "沈知微不回头",
+    "裴砚衡的生活动作式偏爱",
+    "新一季样稿或事业未来的轻触点"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写狂欢式庆功",
+    "不要补一段前任忏悔长独白",
+    "不要把结尾写成总结陈词"
+  ],
+  "rhythm_job": {
+    "shape": "一声称呼落地后迅速降压，以生活动作和夜色收尾",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  }
+}

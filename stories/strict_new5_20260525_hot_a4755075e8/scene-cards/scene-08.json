@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "陆晚月直播拍摄点 / 停车区",
+  "time": "次日下午",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "陆晚月",
+    "齐衍深",
+    "拍摄助理",
+    "围观路人"
+  ],
+  "character_goal": "拿回琴轸玉饰，至少留下不可抵赖的物证。",
+  "opposition_goal": "陆晚月要借直播和镜头把她再踩一遍，齐衍深要她别闹大。",
+  "conflict_action": "沈念歌当众拦拍，伸手去夺玉饰，拉扯中玉饰坠地碎裂，现场镜头全拍下来。",
+  "information_gap": "截断动作：三截碎玉在地上滚开，齐衍深站着没动。",
+  "emotional_debt_delta": "旧物债迎来回旋，但以不可复原的代价兑现。",
+  "payoff_or_hook": "玉饰碎了，关系也没了补口。",
+  "chapter_end_hook": "截断动作：三截碎玉在地上滚开，齐衍深站着没动。",
+  "paywall_card": true,
+  "must_include": [
+    "直播或拍摄中的具体镜头动作",
+    "玉饰碎裂的声音或视觉细节",
+    "围观者至少一句短吐槽",
+    "齐衍深伸手却晚一步"
+  ],
+  "must_not_write_as_exposition": [
+    "不要省略玉饰从脖颈到地面的过程",
+    "不要把围观反应写成杂乱清单"
+  ],
+  "rhythm_job": {
+    "shape": "拦截-争抢-碎裂定格",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "ratio_note": "动作主导，对白短促，留1句围观吐槽降压，章尾用碎裂定格硬切。"
+  }
+}

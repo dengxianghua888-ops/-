@@ -1,0 +1,110 @@
+{
+  "story_slug": "prod_seq5_20260520_icu_husband_dog_grave",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": [
+    "M1: 死环反杀",
+    "M3: 因果回旋反讽",
+    "M6: 多层递进反转"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 13239,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.7
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "scene-01",
+      "hook": "矿区医院三十万救命费不到账，儿子却把同额钱转去给冠军鸽办恒温灵堂。",
+      "reusable_fact": "家庭伦理开篇可用“医院催费单+奢侈宠物丧葬图”制造强烈金额对照，三百字内完成救命钱被挪用的点击冲突。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "scene-03",
+      "hook": "廉价骨灰盒前，儿子递赔偿金委托书，母亲按下录音键。",
+      "reusable_fact": "主角从哀求切换到取证的动作要有明确物件触发，录音键适合作为反击起点。"
+    },
+    {
+      "chapter": 4,
+      "scene_id": "scene-04",
+      "hook": "矿务经办人发现儿子已带伪造委托书来过。",
+      "reusable_fact": "赔偿金争夺线最稳的死环载体是“本人声明+系统备注+材料来源章”，能把家庭争吵转为可追溯流程。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "scene-07",
+      "hook": "儿子在鸽舍办公室签下担保贷，合同约定逾期可申请保全鸽舍设备。",
+      "reusable_fact": "反派自缚债务时，应让其亲手签名按印，并把风险留在本人名下，把利益留给挑唆方。"
+    },
+    {
+      "chapter": 10,
+      "scene_id": "scene-10",
+      "hook": "鸽舍资产清点现场，亲子鉴定短信弹出排除亲生关系。",
+      "reusable_fact": "香火勒索线可在财产清点场景中爆雷，能同时打断“孙子养老”和“卖房救债”两条逼迫链。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "scene-13",
+      "hook": "警察问母亲是否谅解，母亲回答不。",
+      "reusable_fact": "家庭伦理反杀的终局要交给公权流程，拒绝谅解比私刑更稳，也能完成母亲切割。"
+    },
+    {
+      "chapter": 15,
+      "scene_id": "scene-15",
+      "hook": "母亲把养老社区门卡放进口袋，再没有回头。",
+      "reusable_fact": "结尾用门卡、墓地、捐赠回执等生活物件闭合情绪债，避免空泛宣言。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 3,
+      "scene_id": "scene-03",
+      "card": "儿子把赔偿金委托书塞到我面前，我按下了手机录音键。",
+      "function": "主角从受害转为取证，开启反击线。"
+    },
+    {
+      "chapter": 7,
+      "scene_id": "scene-07",
+      "card": "儿子在鸽舍办公室签下担保贷，合同上写着逾期可申请保全鸽舍设备。",
+      "function": "儿子自愿背债，岳家利益与个人风险分离。"
+    },
+    {
+      "chapter": 10,
+      "scene_id": "scene-10",
+      "card": "鉴定中心短信弹出来：排除亲生关系。",
+      "function": "孙子筹码崩塌，学区房和香火勒索失效。"
+    },
+    {
+      "chapter": 13,
+      "scene_id": "scene-13",
+      "card": "警察问我要不要谅解，我说不。",
+      "function": "母亲拒绝兜底，刑责和赔偿流程进入终局。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "mine_accident_compensation",
+    "hospital_fee_crisis",
+    "son_betrayal",
+    "pet_funeral_contrast",
+    "pigeon_loft_debt",
+    "fake_authorization",
+    "recording_evidence",
+    "bank_transfer_lock",
+    "property_disposition_restriction",
+    "paternity_reversal",
+    "refuse_settlement",
+    "elderly_self_protection",
+    "public_process_revenge"
+  ],
+  "manual_revision_delta": []
+}

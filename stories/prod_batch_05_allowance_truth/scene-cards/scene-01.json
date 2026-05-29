@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "林素琴县城小餐馆后厨",
+  "time": "清晨备菜时",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "陈橙",
+    "视频里的许念"
+  ],
+  "character_goal": "林素琴确认视频里的瘦弱女孩是不是许念",
+  "opposition_goal": "陈橙只想把旧视频交出去，不愿卷入许家旧事；视频本身把林素琴的认知撕开",
+  "conflict_action": "林素琴停下切菜，擦手点开视频，反复放大许念啃冷馒头的画面，再翻出手机银行三年前的4000转账记录",
+  "information_gap": "4000营养费为什么对应楼梯间冷馒头",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+2",
+    "mother_negligence_debt": "+1",
+    "time_debt": "+1"
+  },
+  "payoff_or_hook": "开局并置4000与冷馒头，抛出钱去哪了的核心谜题",
+  "chapter_end_hook": "林素琴点开转账记录，三年前每月四千的备注全在。",
+  "paywall_card": false,
+  "must_include": [
+    "陈橙发来的旧视频",
+    "楼梯间冷馒头和袋装咸菜",
+    "林素琴手机银行4000转账备注",
+    "后厨灶火和被切断的青菜作为动作压迫"
+  ],
+  "must_not_write_as_exposition": [
+    "不要概述许念三年受苦",
+    "不要提前说父亲截流",
+    "不要用长段心理独白解释母女关系"
+  ]
+}

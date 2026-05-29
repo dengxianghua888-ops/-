@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 690,
+  "target_chars_max": 770,
+  "location": "家中书房",
+  "time": "当晚九点",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "父亲", "母亲"],
+  "character_goal": "验证父亲私生子假说，拿到第一个外部追查方向",
+  "opposition_goal": "父亲想把一切归咎于姥爷精神失常，母亲想终止翻档",
+  "conflict_action": "我翻开户籍档和转账流水，当面拿证据质问父亲",
+  "information_gap": "所谓弟弟究竟是父亲藏起来的人，还是家里曾被抹掉的孩子",
+  "emotional_debt_delta": 1,
+  "payoff_or_hook": "私生子假说被暂时扶正，但父亲一句失言把谜题推深",
+  "chapter_end_hook": "父亲避开我的眼：'你真不记得，家里以前还丢过一个孩子吗？'",
+  "paywall_card": false,
+  "must_include": [
+    "有一笔长期教育类转账，足够误导成养在外面的孩子",
+    "父亲先否认再失言",
+    "主角不是被动偷听，而是主动翻档、主动逼问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要逐项解释账单",
+    "不要回忆太多童年温馨",
+    "不要把父亲直接写成反派供认"
+  ],
+  "rhythm_job": {
+    "shape": "翻档动作 25% + 证据对撞 45% + 失言反证 20% + 截断钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "翻页和抽屉卡顿的动作给一口气"
+  }
+}

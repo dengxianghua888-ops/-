@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "戒训药试所外门与探视室",
+  "time": "当日傍晚",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "小舟",
+    "药试所所长",
+    "守卫"
+  ],
+  "character_goal": "沈南星要带小舟离开药试所。",
+  "opposition_goal": "所长要按陆家文书继续关押小舟，并遮住药试痕迹。",
+  "conflict_action": "沈南星抢过探视簿闯进隔间，揭开小舟袖口看药疹和夹板，随即被守卫拖出铁门。",
+  "information_gap": "药试所只展示孩子片刻，完整训练记录被所长锁起。",
+  "emotional_debt_delta": "+孩子受害证据、+父亲签字伤害",
+  "payoff_or_hook": "新文书显示戒训延期三月，落款是陆沉舟。",
+  "chapter_end_hook": "守卫把文书贴到门上，红印正压着陆沉舟的名字。",
+  "paywall_card": false,
+  "must_include": [
+    "小舟瘦弱、袖口药疹、手臂夹板",
+    "小舟叫娘但被堵住继续说话",
+    "沈南星抢探视簿",
+    "陆沉舟亲笔延期文书"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写药试具体操作过程",
+    "不要用旁白总结孩子受虐",
+    "不要让所长解释所有规则"
+  ]
+}

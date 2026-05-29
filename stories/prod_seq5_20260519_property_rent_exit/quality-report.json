@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260519_property_rent_exit/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 15000,
+      "actual": 12237,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        809,
+        783,
+        835,
+        730,
+        769,
+        879,
+        795,
+        828,
+        760,
+        804,
+        836,
+        769,
+        748,
+        828,
+        878
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 157,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 11,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12237,
+      "sentence_count": 660,
+      "avg_sentence_length": 17.541,
+      "dialogue_ratio": 0.0218,
+      "question_marks": 9,
+      "question_marks_per_k": 0.735,
+      "physical_emotion_hits": {},
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 36.61
+    },
+    "semantic_repetition": {
+      "sentence_count": 572,
+      "unique_sentence_skeletons": 572,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0017
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.7,
+    "style": 8.1,
+    "logic": 8.5
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "chapter": 1,
+      "evidence": "开篇先写东区死场，再写女主三年经营价值，随后用涨租40%和白蔓招商海报引爆冲突。"
+    },
+    {
+      "dimension": "platform",
+      "chapter": 4,
+      "evidence": "车队被卡出门单，顾砚把是否全线改线的选择权交回许知夏，形成付费卡点。"
+    },
+    {
+      "dimension": "emotion",
+      "chapter": 2,
+      "evidence": "马成断冷库电，温控报警、货损清单、客户群回应同时出现，情绪债现场化。"
+    },
+    {
+      "dimension": "emotion",
+      "chapter": 8,
+      "evidence": "手写账单、收款码、对公凭证形成证据死环，开始偿还扣费和卡保证金的债。"
+    },
+    {
+      "dimension": "style",
+      "chapter": 7,
+      "evidence": "月台检修牌、叉车钥匙、白线、冷柜待检标签让冲突落在可见物件上。"
+    },
+    {
+      "dimension": "logic",
+      "chapter": 9,
+      "evidence": "新港通过采购名单、扫码分拣、封签拍照、温控上传完成履约证明，支撑老市场断供因果。"
+    },
+    {
+      "dimension": "logic",
+      "chapter": 14,
+      "evidence": "联合运营协议、订单数据、履约赔付记录解释股东身份来源，避免纯天降反杀。"
+    }
+  ]
+}

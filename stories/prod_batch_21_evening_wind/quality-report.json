@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_21_evening_wind/draft.md",
+    "target_length": {
+      "min": 10000,
+      "max": 14000,
+      "actual": 10944,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 12,
+      "hook_hits": 12,
+      "hook_coverage": 1.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 3,
+        "actual": 3
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 13,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10944,
+      "sentence_count": 650,
+      "avg_sentence_length": 16.68,
+      "dialogue_ratio": 0.2726,
+      "question_marks": 31,
+      "question_marks_per_k": 3.1,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "太阳穴": 1,
+        "后背": 1,
+        "眼眶": 2,
+        "指甲": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.6
+    },
+    "semantic_repetition": {
+      "sentence_count": 393,
+      "unique_sentence_skeletons": 393,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0025
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "仿佛": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.5,
+    "emotion": 8.7,
+    "style": 8.3,
+    "logic": 8.4
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "鞋柜上多了一双不属于我的棉拖鞋，粉色的，绒毛还没被压平过，新得像刚从包装盒里取出来。",
+      "supports": [
+        "opening_hook",
+        "information_gap"
+      ]
+    },
+    {
+      "id": "E02",
+      "path": "story/draft-scenes/scene-02.md",
+      "quote": "她没有我根本活不了。",
+      "supports": [
+        "M3_seed",
+        "emotional_debt_D3"
+      ]
+    },
+    {
+      "id": "E03",
+      "path": "story/draft-scenes/scene-06.md",
+      "quote": "因为那音频里的声音是陆承衍的。不是我编的，不是拼接的，每一个字都是他自己在深夜酒后一句一句亲口说的。",
+      "supports": [
+        "evidence_chain_logic",
+        "paywall_climax"
+      ]
+    },
+    {
+      "id": "E04",
+      "path": "story/draft-scenes/scene-10.md",
+      "quote": "那是你自己选的。",
+      "supports": [
+        "M3_golden_line",
+        "cause_effect_reversal"
+      ]
+    },
+    {
+      "id": "E05",
+      "path": "story/draft-scenes/scene-12.md",
+      "quote": "我跟着他往外走。脚步落在大理石上。没有回声。",
+      "supports": [
+        "M5_closure",
+        "value_elevation"
+      ]
+    }
+  ]
+}

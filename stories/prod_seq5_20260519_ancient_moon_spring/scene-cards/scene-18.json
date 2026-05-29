@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "B18",
+  "target_chars_min": 800,
+  "target_chars_max": 920,
+  "location": "海城码头、离港客船",
+  "time": "火灾后一周，清晨",
+  "pov": "沈南星",
+  "characters": [
+    "沈南星",
+    "陆沉舟",
+    "周砚",
+    "码头客"
+  ],
+  "character_goal": "沈南星在知道全部真相后决定自己的去处。",
+  "opposition_goal": "陆沉舟想用悔恨和救命求她留下，周砚想用陪伴求她去南洋继续被保护。",
+  "conflict_action": "沈南星把陆沉舟递来的婚书撕成两半，把周砚归还的船票放进药箱，独自登上离港客船。",
+  "information_gap": "无核心悬疑，落点是选择完成：她不再需要任何男人批准她活下去。",
+  "emotional_debt_delta": "-女主自我命名完成、+男主终身悔恨、+周砚退场",
+  "payoff_or_hook": "陆沉舟跪在码头喊她名字，船笛盖过他的声音。",
+  "chapter_end_hook": "客船离岸，沈南星抱着小舟的旧药箱，没有回头。",
+  "paywall_card": false,
+  "must_include": [
+    "撕婚书",
+    "归还或收起船票",
+    "小舟旧药箱",
+    "明确不复合",
+    "明确不选择周砚",
+    "沈南星继续行医制药的方向"
+  ],
+  "must_not_write_as_exposition": [
+    "不得复合",
+    "不得嫁给周砚",
+    "不得把小舟死亡淡化成成长代价",
+    "不要用空泛宿命感收尾"
+  ]
+}

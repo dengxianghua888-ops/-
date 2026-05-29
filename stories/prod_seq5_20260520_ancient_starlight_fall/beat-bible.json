@@ -1,0 +1,415 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 11200,
+    "max": 13600,
+    "planned_total_chars": 12480
+  },
+  "title": "影帝嫌我只是经纪人，谢家连夜下聘",
+  "genre": "urban_sweet_ceo / 追妻火葬场 / 先孕后婚 / 豪门撑腰 / 影业资本局",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "林晚宜从被陆沉舟否认的幕后经纪人，变成谢家公开认下的未婚妻和孩子母亲；谢砚从玩票少爷显露为掌控院线、海外发行和版权资本的人。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "陆沉舟先用“这场冷战你赢了”羞辱林晚宜，后由谢砚在公开场合回敬“她只是要跟我结婚了，冷战你赢了，应该高兴”。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "七年从十八线陪到影帝的旧情，在公开否认、护白月光、人格贬低和误判求和里跌到负值。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "医院孕检、谢砚拿报告、谢家全族发布会下聘、婚礼资本战反杀、陆沉舟事业与陆家基金清算。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 720,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "陆沉舟把苏明霜护到身后，反手扣住林晚宜的腕骨。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 760,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "林晚宜把辞职信推过去，陆沉舟却笑了：“这场冷战你赢了。”"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 720,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "护士刚叫出林晚宜的名字，走廊尽头的谢砚抬起了眼。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 800,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "谢砚把孕检报告压在掌心：“陆沉舟还不知道，对吗？”"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 760,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "陆沉舟盯着她手里的报告袋，笃定道：“你去医院，是为了逼我？”"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 780,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "林晚宜摘下陆沉舟送的旧戒指，扔进了片场垃圾桶。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 760,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "谢氏发布会名单上，林晚宜的身份一栏忽然变成了“谢家贵宾”。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 840,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "谢家老太太亲手打开婚书，全场镜头同时转向林晚宜。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 780,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "陆沉舟冲上台，话筒却先传出谢砚的声音：“她要嫁的人是我。”"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 780,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "谢砚当着直播镜头回敬：“冷战你赢了，陆影帝应该高兴。”"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 760,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "婚礼前夜，林晚宜收到一张撤档截图，发件人是陆沉舟。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 840,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "婚礼大屏忽然黑下去，热搜第一跳出：谢氏影业全线崩盘。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 800,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "谢砚按下通话免提：“二十分钟，把海外发行盘调回来。”"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 780,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "陆沉舟脸上的笑僵住，税务调查函盖着红章投上了大屏。"
+    },
+    {
+      "chapter_id": "CH15",
+      "target_chars": 780,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "陆沉舟跪在婚礼门外，林晚宜没有回头。"
+    },
+    {
+      "chapter_id": "CH16",
+      "target_chars": 800,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "谢砚牵着她走向晨光，身后陆家影视基金清算公告正式生效。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "电影节后台贵宾通道",
+      "character_goal": "林晚宜要把苏明霜临时换下来的红毯危机压住，并和陆沉舟切割经纪合同。",
+      "conflict_action": "陆沉舟当众推开林晚宜，扶住苏明霜，又把投资人递来的通行证塞给苏明霜。",
+      "information_gap": "读者先不知道林晚宜已经怀孕，也不知道她今晚真正要找谢砚。",
+      "emotion_debt_balance": {
+        "incurred": ["公开羞辱债", "七年无名分债"],
+        "paid": [],
+        "balance": "陆沉舟把七年托举压成一句“只是经纪人”，读者愤怒值建立。"
+      },
+      "chapter_end_hook": "陆沉舟把苏明霜护到身后，反手扣住林晚宜的腕骨。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能让林晚宜长篇哭诉", "不能把苏明霜写成无辜受害者"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "电影节后台临时化妆间",
+      "character_goal": "林晚宜要交还陆沉舟团队权限和辞职信。",
+      "conflict_action": "陆沉舟撕掉辞职信，拦门逼她承认是在吃苏明霜的醋。",
+      "information_gap": "陆沉舟不知道林晚宜辞职不是闹脾气，而是要从他的事业盘里撤离。",
+      "emotion_debt_balance": {
+        "incurred": ["误判追责债", "情感替身债"],
+        "paid": [],
+        "balance": "陆沉舟第一次误判林晚宜求和，并说出回旋金句。"
+      },
+      "chapter_end_hook": "林晚宜把辞职信推过去，陆沉舟却笑了：“这场冷战你赢了。”",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用散文化感悟", "不能让林晚宜解释七年委屈", "不能提前暴露谢砚身份底牌"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 660,
+      "target_chars_max": 780,
+      "scene_location": "私立妇产中心走廊",
+      "character_goal": "林晚宜要取孕检确认单，并联系谢砚说明孩子的事。",
+      "conflict_action": "陆沉舟派来的助理堵住缴费窗口，拍下她挂号单发给陆沉舟。",
+      "information_gap": "报告显示孩子相关风险指标需家属确认，但父亲栏还空着。",
+      "emotion_debt_balance": {
+        "incurred": ["掌控羞辱债"],
+        "paid": [],
+        "balance": "陆沉舟把医院行踪也当成求和证据，误判升级。"
+      },
+      "chapter_end_hook": "护士刚叫出林晚宜的名字，走廊尽头的谢砚抬起了眼。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用医疗细节堆砌", "不能写成女主用孩子逼婚", "不能让陆沉舟直接拿到报告"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "私立妇产中心VIP诊室",
+      "character_goal": "谢砚要确认报告真实性，并主动承担家属签字责任。",
+      "conflict_action": "谢砚从医生手中接过纸质确认单，签下家属联系人，又派人拦住陆沉舟助理。",
+      "information_gap": "谢砚为什么早知道林晚宜在医院，以及孩子是否与他有关，暂时只露半截。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["被掌控债部分偿还"],
+        "balance": "谢砚先于前任掌握孕检报告，建立第一张信息差爽点。"
+      },
+      "chapter_end_hook": "谢砚把孕检报告压在掌心：“陆沉舟还不知道，对吗？”",
+      "paywall_card": true,
+      "forbidden_summary": ["禁用霸总油腻宣言", "不能让谢砚质疑女主价值", "不能把孩子写成交易筹码"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "医院地下停车场",
+      "character_goal": "林晚宜要离开医院，避免陆沉舟拿到报告。",
+      "conflict_action": "陆沉舟拦住她的车门，伸手抢报告袋，逼她承认怀孕传闻是为了让他公开。",
+      "information_gap": "陆沉舟只看见报告袋，没看见谢砚留在袋底的名片和家属签字回执。",
+      "emotion_debt_balance": {
+        "incurred": ["误判追责债", "人格贬低债"],
+        "paid": [],
+        "balance": "第二次误判形成强冲突，林晚宜短句切割。"
+      },
+      "chapter_end_hook": "陆沉舟盯着她手里的报告袋，笃定道：“你去医院，是为了逼我？”",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让林晚宜跪求解释", "不能让陆沉舟抢走完整报告", "不能把冲突写成普通吵架"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "影视城夜戏片场",
+      "character_goal": "林晚宜要完成最后一次交接，把陆沉舟商务合同和危机预案移交给新团队。",
+      "conflict_action": "苏明霜当众戴上陆沉舟给林晚宜订过的同款戒指，陆沉舟默许记者拍照。",
+      "information_gap": "记者不知道这枚戒指原本属于林晚宜，也不知道她已把陆沉舟团队权限全部注销。",
+      "emotion_debt_balance": {
+        "incurred": ["替身羞辱债", "七年托举债"],
+        "paid": ["女主离场姿态初步释放"],
+        "balance": "旧情温度跌到负值，女主用动作断开关系。"
+      },
+      "chapter_end_hook": "林晚宜摘下陆沉舟送的旧戒指，扔进了片场垃圾桶。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能雌竞拉扯", "不能让女主辱骂苏明霜", "不能大段回忆七年苦劳"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "谢氏影业发布会签到区",
+      "character_goal": "林晚宜要以嘉宾身份进入谢氏发布会，和谢砚确认后续安排。",
+      "conflict_action": "陆沉舟拽住她的入场腕带，当着媒体说她是借谢氏发布会刺激自己。",
+      "information_gap": "签到系统已经把林晚宜从普通来宾改为谢家贵宾，但陆沉舟还未看见内场座次。",
+      "emotion_debt_balance": {
+        "incurred": ["公开误判债"],
+        "paid": [],
+        "balance": "第三次误判发生在公开媒体前，等待发布会正名偿还。"
+      },
+      "chapter_end_hook": "谢氏发布会名单上，林晚宜的身份一栏忽然变成了“谢家贵宾”。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让女主主动炫耀身份", "不能把发布会写成微博官宣替代", "不能缺少媒体围观"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "谢氏影业年度片单发布会主厅",
+      "character_goal": "谢家要在直播和行业嘉宾面前公开认下林晚宜与孩子。",
+      "conflict_action": "谢家长辈依次递出婚书、信托文件、海景婚房产权书、母婴医疗基金和版权分红协议。",
+      "information_gap": "谢砚还没说明自己在谢氏真正负责的发行盘，陆沉舟仍以为他只是小少爷。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["公开羞辱债", "身份低估债", "七年不婚债部分偿还"],
+        "balance": "谢家全族正名，用实体资产和公开承诺补偿林晚宜。"
+      },
+      "chapter_end_hook": "谢家老太太亲手打开婚书，全场镜头同时转向林晚宜。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能只写口头宠爱", "必须有长辈和资产", "不能让谢家审判女主是否配得上"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "发布会主舞台",
+      "character_goal": "陆沉舟要破坏官宣，证明林晚宜仍在用谢砚刺激他。",
+      "conflict_action": "陆沉舟抢走主持人话筒，质问林晚宜孩子是谁的，并试图把话题引向她私生活。",
+      "information_gap": "谢砚手里有完整孕检确认链和家属签字，但先不全部展示。",
+      "emotion_debt_balance": {
+        "incurred": ["人格贬低债", "公开羞辱债二次叠加"],
+        "paid": [],
+        "balance": "陆沉舟在公众面前失控，给谢砚反打铺设靶心。"
+      },
+      "chapter_end_hook": "陆沉舟冲上台，话筒却先传出谢砚的声音：“她要嫁的人是我。”",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成狗血验父闹剧", "不能让女主被迫自证", "不能让陆沉舟占据道德高地"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "发布会直播镜头前",
+      "character_goal": "谢砚要用回旋金句击穿陆沉舟的自信误判，并宣布婚期。",
+      "conflict_action": "谢砚拿起话筒，调出八天后婚礼备案文件，公开回敬陆沉舟的冷战羞辱。",
+      "information_gap": "陆沉舟还不知道谢砚已接管谢氏海外发行和院线排片权。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["误判追责债", "七年不婚债", "金句回旋债"],
+        "balance": "冷战金句完成反讽，陆沉舟赢了冷战却失去人。"
+      },
+      "chapter_end_hook": "谢砚当着直播镜头回敬：“冷战你赢了，陆影帝应该高兴。”",
+      "paywall_card": false,
+      "forbidden_summary": ["不能改掉冷战回旋句", "不能让林晚宜回头看陆沉舟求确认", "不能让婚期显得草率无承诺"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "谢家婚房试衣间",
+      "character_goal": "林晚宜要试婚纱并签署属于自己的资产文件，不让孩子成为筹码。",
+      "conflict_action": "陆沉舟发送撤档截图和黑热搜预告，威胁她取消婚礼否则毁掉谢氏片单。",
+      "information_gap": "谢砚没有立刻反击，林晚宜也不知道他已调动法务和海外发行团队。",
+      "emotion_debt_balance": {
+        "incurred": ["婚礼破坏债"],
+        "paid": ["女主不回头姿态强化"],
+        "balance": "终局危机启动，陆沉舟从误判转入破坏。"
+      },
+      "chapter_end_hook": "婚礼前夜，林晚宜收到一张撤档截图，发件人是陆沉舟。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让林晚宜求谢家保护", "不能写违法黑客反击", "不能弱化陆沉舟破坏婚礼的恶意"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "海岛婚礼现场",
+      "character_goal": "陆沉舟要用撤档、撤资和黑热搜让谢家婚礼当场失控。",
+      "conflict_action": "婚礼大屏被合作方撤资函、院线撤档通知和热搜指数刷屏，陆沉舟带记者闯入观礼区。",
+      "information_gap": "陆沉舟以为谢氏排片盘已断，却不知道谢砚等的就是对赌违约证据成链。",
+      "emotion_debt_balance": {
+        "incurred": ["婚礼破坏债顶点"],
+        "paid": [],
+        "balance": "危机最大化，读者等待谢砚展示真实能力。"
+      },
+      "chapter_end_hook": "婚礼大屏忽然黑下去，热搜第一跳出：谢氏影业全线崩盘。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能停在网络骂战", "必须有撤档撤资等实体危机", "不能让婚礼只靠嘴炮解决"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "婚礼后台临时指挥室",
+      "character_goal": "谢砚要在婚礼继续进行的同时稳住谢氏发行盘。",
+      "conflict_action": "谢砚拨通海外发行负责人、院线总裁和版权代理，逐项调回排片、反买版权、锁定备用资金。",
+      "information_gap": "陆沉舟还不知道自己的偷税和对赌违约材料已经被法务递交。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["男二能力债", "婚礼破坏债部分偿还"],
+        "balance": "谢砚用行业动作证明不是玩票少爷。"
+      },
+      "chapter_end_hook": "谢砚按下通话免提：“二十分钟，把海外发行盘调回来。”",
+      "paywall_card": false,
+      "forbidden_summary": ["不能只写谢砚有钱", "不能使用黑客入侵", "不能让林晚宜被动哭等结果"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 720,
+      "target_chars_max": 860,
+      "scene_location": "婚礼主厅大屏前",
+      "character_goal": "谢家法务要公开陆沉舟的违约链，让破坏者承担商业后果。",
+      "conflict_action": "法务总监把税务调查函、对赌违约书、商务索赔清单和陆家影视基金清算预通知投上大屏。",
+      "information_gap": "陆沉舟以为还能求林晚宜撤手，但清算主体是合同和监管，不由她决定。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["婚礼破坏债", "财富身份清算债"],
+        "balance": "陆沉舟事业、财富和家族资本链开始崩塌。"
+      },
+      "chapter_end_hook": "陆沉舟脸上的笑僵住，税务调查函盖着红章投上了大屏。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能伪造证据", "不能用暴力威胁", "不能把惩罚降级成掉粉"]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "婚礼礼堂门口",
+      "character_goal": "陆沉舟要用七年旧情拖住林晚宜，让她承认自己曾爱过他。",
+      "conflict_action": "陆沉舟跪在门口抓住婚纱裙摆，谢砚弯腰替林晚宜把裙摆从他手里抽出。",
+      "information_gap": "陆沉舟不知道林晚宜最后保留的不是恨，而是彻底无关。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["七年错付债", "人格贬低债", "误判追责债"],
+        "balance": "追妻火葬场情绪释放，女主不回头完成切割。"
+      },
+      "chapter_end_hook": "陆沉舟跪在婚礼门外，林晚宜没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让女主心软复合", "不能让谢砚替女主做所有决定", "不能写成虐恋循环"]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "婚礼后清晨的海边与新闻屏",
+      "character_goal": "林晚宜要完成婚礼，接住新身份，同时保持自我选择感。",
+      "conflict_action": "林晚宜签下属于自己的版权收益确认书，关掉陆沉舟封杀新闻，牵着谢砚走向仪式台。",
+      "information_gap": "开放余味留给新生，不再围绕陆沉舟解释。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["全部核心情绪债清偿"],
+        "balance": "身份、财富、尊严、情感四重反杀完成。"
+      },
+      "chapter_end_hook": "谢砚牵着她走向晨光，身后陆家影视基金清算公告正式生效。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能结尾模糊和解", "不能精神胜利无实质惩罚", "不能让孩子成为唯一幸福证明"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars": 12480,
+    "min_chapters": 12,
+    "planned_chapters": 16,
+    "min_paywall_cards": 4,
+    "planned_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0,
+    "action_density_per_1000_chars_min": 8,
+    "forbidden_ai_phrase_tolerance": 0
+  }
+}

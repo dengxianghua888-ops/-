@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "家属等候区",
+  "time": "终选开始前1分半",
+  "pov": "第一人称",
+  "characters": [
+    "陆昭",
+    "母亲",
+    "父亲",
+    "围观家属"
+  ],
+  "character_goal": "挣脱父母阻拦，把他们先推出旧航站楼。",
+  "opposition_goal": "对方试图维持旧秩序、压住证据或拖延真相落地。",
+  "conflict_action": "母亲抱住她的胳膊，父亲挡在出口前；陆昭甩开两人，拖着母亲往门边走。",
+  "information_gap": "她为什么对门外有绝对执念，像只要踏出去就能活？",
+  "emotional_debt_delta": "亲情误判债骤增。",
+  "payoff_or_hook": "最该站她这边的人，反而成了拖住她的人。",
+  "chapter_end_hook": "截断动作：我推开父亲时，玻璃门外的风像突然停了。",
+  "paywall_card": false,
+  "must_include": [
+    "母亲现实地提终选名额",
+    "父亲要求她认错",
+    "陆昭不是哭求而是硬拽人走",
+    "门外异常先以细小停顿出现"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写家庭成长史",
+    "不要写父母内心独白",
+    "不要把冲突拖成伦理争吵"
+  ],
+  "rhythm_job": {
+    "shape": "父母拦-硬拽-门外异样",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "低压反应：手腕发红、风停、玻璃轻颤"
+  }
+}

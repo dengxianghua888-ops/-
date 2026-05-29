@@ -1,0 +1,84 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 4,
+  "is_chapter_end": false,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄外/停车场/电话中",
+  "time": "婚礼仪式前最后时刻",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张母（电话）"],
+  "character_goal": "沈绮云消化完所有信息，做出行动决定",
+  "opposition_goal": "张母打来电话火上浇油——要求转钱（改口费66000）",
+  "conflict_action": "张母电话索要66000改口费，沈绮云立刻拼上最后一块拼图：当年自己的改口费只有2000，旺铺经营权正是用自己老店换的",
+  "information_gap": "张母不知道沈绮云已经在婚礼现场，还以为她被蒙在鼓里",
+  "emotional_debt_delta": "公婆也是合谋者——不是被蒙骗，是主动参与算计",
+  "payoff_or_hook": "所有拼图拼完，女主做出行动决定",
+  "paywall_card": false,
+  "must_include": [
+    "张母电话要66000改口费",
+    "改口费对比：2000 vs 66000",
+    "旺铺=用女主老店换来的真相浮现",
+    "女主冷静预告式内心独白：'笑吧，一会儿哭得有多难看'"
+  ],
+  "must_not_write_as_exposition": [
+    "改口费的风俗解释",
+    "老店和旺铺的具体位置"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.0,
+    "comma_period_ratio": 0.5,
+    "sentence_avg_len": 17.2,
+    "dominant_emotion": "怒火压制-行动触发",
+    "emotion_arc": "极怒 → 被张母火上浇油 → 确认旺铺真相 → 决定行动",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "愤怒到达顶点，迫不及待想看女主出手",
+    "required_techniques": [
+      {
+        "technique": "电话场景双线信息",
+        "instruction": "一通电话同时完成两件事：暴露张母的算计（要钱）+ 让女主获得最后一块拼图（66000改口费→旺铺→老店的连锁关系）。电话里张母的语气必须是理所应当的命令式"
+      },
+      {
+        "technique": "数字精确对应",
+        "instruction": "用'数字对得上'的推理瞬间建立因果——旺铺价值约50万，正是之前丈夫名义上'补给'女主的那笔钱的去处。读者和女主同时完成拼图"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "现在时态+将来时态对比预告",
+        "example": "笑吧，现在笑得有多欢，一会儿哭得就有多难看。",
+        "instruction": "女主的内心独白从'被动承受'切换为'猎手就位'——冷静地预告即将到来的反击。用'现在…一会儿…'的对比句式"
+      },
+      {
+        "structure": "递进否定+拟物化",
+        "example": "他的剧本不但把我写死了，连我儿子都没放过。",
+        "instruction": "用'剧本/剧情/编排'等词拟物化丈夫的欺骗——强调这不是一个错误，是精心设计的系统性谋杀"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "突变式",
+    "source_excerpt": "婆婆打来电话，'赶紧给我转八万八，我有急用。'五根金条，这不正好是周瑞阳这几年补给我的那几根吗？数字恰好对得上。笑吧，现在笑得有多欢，一会儿哭得就有多难看。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["原来", "我倒要看看"],
+      "句式": "冷静推理+预告式内心独白，猎手口吻",
+      "单句上限": 16,
+      "禁止": "崩溃、犹豫"
+    },
+    "张母": {
+      "口癖": ["我跟你说", "赶紧", "急用"],
+      "句式": "命令式短句，理所应当的语气",
+      "单句上限": 20,
+      "禁止": "客气、商量"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B8",
+  "scene_label": "玉笄反握·把命还回去",
+  "location": "礼安王府廊柱下",
+  "time": "申时三刻",
+  "pov": "谢长卿",
+  "characters": [
+    "谢长卿",
+    "漱玉郡主",
+    "谢明姝"
+  ],
+  "character_goal": "用最决绝的死把命还给她们",
+  "opposition_goal": "谢明姝丢下成礼玉笄,逼谢长卿刺血断亲",
+  "conflict_action": "谢长卿反握玉笄,笄尖刺心,血溅二人脸",
+  "information_gap": "M4 灵魂线即将启动,读者尚不知",
+  "emotional_debt_delta": "+死局债:'把命还给你们'金句砸入二人面庞",
+  "payoff_or_hook": "笄尖刺入跳动的心脏,血如喷泉",
+  "chapter_end_hook": "'何须刺血——我把命还给你们便是。'主角栽入血泊",
+  "paywall_card": true,
+  "target_chars_min": 680,
+  "target_chars_max": 920,
+  "must_include": [
+    "成礼玉笄被扔在脚边",
+    "卜骨倒数'二,一'",
+    "反握笄柄,笄尖直刺跳动的心脏",
+    "'何须刺血,我把命还给你们便是'"
+  ],
+  "must_not_write_as_exposition": [
+    "禁说出'这是反抗''这是复仇'等议论",
+    "禁内心独白解释'我要去死'"
+  ]
+}

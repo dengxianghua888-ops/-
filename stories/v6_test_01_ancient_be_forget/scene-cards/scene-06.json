@@ -1,0 +1,83 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 930,
+  "target_chars_max": 1130,
+  "location": "锦川码头 → 沈家册封典礼正厅",
+  "time": "册封典礼当日·正午",
+  "pov": "阿昭",
+  "characters": ["阿昭", "沈砚卿", "裴若霜", "素笺", "锦川众画师", "宾客"],
+  "character_goal": "阿昭要以最高规格公开碾压，让全锦川见证身份反转",
+  "opposition_goal": "沈砚卿正在完成对裴若霜的册封仪式（不知即将发生什么）",
+  "conflict_action": "五凤画舫驶入锦川码头→'昭阳长公主驾到'宣号→阿昭身着五凤朝阳冠服从画舫走下→沈砚卿手中合卺杯落地→裴若霜掀盖头以为是自己请来的公主→素笺冷声宣威→阿昭拿出昭阳玉印确认身份",
+  "information_gap": "裴若霜以为自己'请来了公主'（因为暗号画）而得意→才知道这就是阿昭→信息差在此刻归零",
+  "emotional_debt_delta": "开始偿还：身份反差爆发，碾压模式开启",
+  "payoff_or_hook": "'怎么，乡野丫头摇身一变成了公主，二位这么惊讶？'——用原话反讽",
+  "chapter_end_hook": "阿昭用沈砚卿曾经骂她的'乡野丫头'反问，确认碾压——读者等着看清算",
+  "paywall_card": true,
+  "must_include": [
+    "五凤画舫从远处驶来的视觉描写（龙旗/宫女/排场）",
+    "'昭阳长公主驾到'的四字宣号",
+    "沈砚卿的物理失控反应（杯落地/脸色惨白）",
+    "裴若霜先得意再崩塌的两阶段反应",
+    "素笺替主宣威的台词（关于冠服/玉印的唯一性）",
+    "阿昭用'乡野丫头'原词反讽的收束句"
+  ],
+  "must_not_write_as_exposition": [
+    "画舫来源/禁军安排不得用解释段交代",
+    "不得写阿昭的内心独白解释'为什么选这个时机'",
+    "五凤冠服的规制不得用科普段说明"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.4,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "碾压-爽快",
+    "emotion_arc": "期待 → 震撼 → 爽到颅内高潮",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "爽到鸡皮疙瘩，终于等到这一刻",
+    "required_techniques": [
+      {
+        "technique": "延迟揭露吊胃口",
+        "instruction": "裴若霜先看到画舫来了很得意（以为是自己的面子），掀盖头含笑迎接——让不知情者先得意，再崩塌"
+      },
+      {
+        "technique": "短句砸脸连击",
+        "instruction": "身份揭露的关键3-4句必须每句≤12字，每句一击：'阿昭？' / 他不可置信地唤着。/ '怎么会是你？' 不给喘息空间"
+      },
+      {
+        "technique": "物件碾压对照",
+        "instruction": "裴若霜用军功/关系换来的假凤冠 vs 阿昭头上御赐真品——同类物件真假对比，让'费尽心机的赝品'灰飞烟灭"
+      },
+      {
+        "technique": "侍女替主宣威",
+        "instruction": "阿昭本人不解释身份，由素笺愤怒出声说明冠服/玉印的唯一性——'这方昭阳印，天下仅此一枚'。女主越沉默越有气势"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "四字宣告（身份+尊称+动作）",
+        "example": "公主殿下驾到",
+        "instruction": "全文最爽的宣号。改写为'昭阳长公主驾到'——六字版本，保持宣号的仪式感和冲击力"
+      },
+      {
+        "structure": "物件脱落（杯/绸散落）+ 面色变化（惨白）——身体失控写心理崩塌",
+        "example": "陆北辰手里的红绸散落在地，脸色惨白的吓人",
+        "instruction": "不写沈砚卿在想什么，只写物理反应：手中物件脱落+面色变化。用身体失控代替心理描写"
+      }
+    ],
+    "peak_type": "identity_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "公主殿下驾到——……林楚楚手里的红绸一抖，嘴角含笑，她没想到，公主竟然真的来了喜宴……阿宁？他不可置信的唤着我。怎么会是你？……陆北辰手里的红绸散落在地，脸色惨白的吓人……秀着金凤纹的冠服有几个人敢穿，凤冠上的东珠，世间仅此一颗。"
+  }
+}

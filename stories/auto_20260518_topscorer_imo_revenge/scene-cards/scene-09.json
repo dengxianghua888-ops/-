@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B15",
+  "scene_label": "死刑当庭",
+  "location": "市中院第三审判庭",
+  "time": "宣判时刻",
+  "pov": "林初",
+  "characters": ["林初", "假家人五人", "法官", "裴恒队长"],
+  "character_goal": "看到一审死刑落锤",
+  "opposition_goal": "五人申请上诉拖延",
+  "conflict_action": "法官宣读判决+五人面色由嚣张转灰败+申请上诉无效+裴队当庭抛出真名证据",
+  "information_gap": "为什么死刑能当庭定案",
+  "emotional_debt_delta": "情绪债·释放·四",
+  "payoff_or_hook": "'被告五人涉嫌故意杀人罪，情节恶劣，属于重大犯罪。一审判决，五人全部死刑。'",
+  "chapter_end_hook": "法槌再落，判决书墨迹未干",
+  "paywall_card": false,
+  "target_chars_min": 600,
+  "target_chars_max": 850,
+  "must_include": [
+    "法官宣判原文（核心金句）",
+    "五人面色变化",
+    "申请上诉",
+    "裴队拿出真名证据袋"
+  ],
+  "must_not_write_as_exposition": [
+    "禁'宛如命运'AI 腔",
+    "禁鸡汤式抒情'正义到来'"
+  ]
+}

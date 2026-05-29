@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 620,
+  "target_chars_max": 700,
+  "location": "老戏楼正厅",
+  "time": "次日早晨",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "陆老爷子", "家族成员若干", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想确认陆家的接纳不是临时演给她看。",
+  "opposition_goal": "残余家族阻力还想再试一次边界，但陆老爷子要当场定调。",
+  "conflict_action": "陆老爷子把股权文件、基金授权书和安胎安排一并拍板，直接按死家族杂音。",
+  "information_gap": "陆砚辞何时正式接掌；温瓷是否愿意留下成为陆家女主人。",
+  "emotional_debt_delta": {
+    "阶层债": "-3",
+    "安全感债": "-2"
+  },
+  "payoff_or_hook": "身份兑现不能只说有钱，要落到家族表态和资源归属。",
+  "chapter_end_hook": "陆老爷子把文件推到温瓷面前：‘以后谁让你受气，谁自己滚出去。’",
+  "paywall_card": false,
+  "must_include": [
+    "股权文件、基金授权书或安胎安排",
+    "长辈公开站队",
+    "温瓷仍保留慢半拍观察",
+    "至少2条弹幕/评论"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释资产结构",
+    "不要做家族会议纪要",
+    "不要写成所有人突然集体慈爱"
+  ],
+  "rhythm_job": {
+    "shape": "余波试探-长辈拍板-低压反应-强力护短落点",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "对白3成，动作3成，弹幕2成，呼吸点2成"
+  }
+}

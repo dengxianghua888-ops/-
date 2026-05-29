@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "0号尸检间",
+  "time": "凌晨",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "记录员",
+    "助理法医",
+    "检方旁证"
+  ],
+  "character_goal": "陆谨言要完成程序确认损伤，沈栀要让真相终于抵达他眼前。",
+  "opposition_goal": "陆谨言的理性防线要把一切继续归为证据和程序。",
+  "conflict_action": "陆谨言进行子宫剖验，器械在他手中失控掉落，记录员被迫中断记录。",
+  "information_gap": "怀孕真相从女主独知转为全场可见证据。",
+  "emotional_debt_delta": "孩子债爆开，男主理性信条被亲手发现的事实击穿。",
+  "payoff_or_hook": "核心爆点落地：他终于看见孩子。",
+  "chapter_end_hook": "陆谨言看见了孩子。",
+  "paywall_card": false,
+  "must_include": [
+    "器械落地声",
+    "陆谨言手套被撕裂",
+    "记录停顿",
+    "不猎奇地写小小生命",
+    "陆谨言低声重复不可能"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写胎儿猎奇细节",
+    "不要让沈栀原谅他",
+    "不要让陆谨言一句对不起结束债务"
+  ]
+}

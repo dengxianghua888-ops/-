@@ -1,0 +1,168 @@
+pipeline_mode: production
+status: final
+title: 嫌我五一全包五百贵，老客户退房后求我救场
+source:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+provider:
+  name: OpenAI
+  model: GPT-5
+  role: Final Packager
+runner_policy:
+  external_allowed: false
+  filesystem_write: false
+  output_protocol: artifact_bundle_only
+audit:
+  generated_at: 2026-05-20
+  timezone: Asia/Shanghai
+  phase: 7
+  required_outputs:
+    - final.md
+    - craft-notes.md
+    - tomato-submission.md
+    - final-chapters/_chapters-map.md
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - story.yaml
+quality_gate:
+  pass
+  score_scale: 0-10
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.8
+    emotion: 8.6
+    style: 8.5
+    logic: 8.7
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 14500
+      status: pass
+    chapters:
+      count: 14
+      hook_hits: 14
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 5
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 5
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+chapters:
+  - id: ch01
+    title: 第一章
+    hook: 红灯还亮着。
+  - id: ch02
+    title: 第二章
+    hook: 我说：周姨，你们那一百人还上岛吗？
+  - id: ch03
+    title: 第三章
+    hook: 她问：五百块，真把门票接送和向导都包了？
+  - id: ch04
+    title: 第四章
+    hook: 身后有人追问：方总，那今晚我们住哪？
+  - id: ch05
+    title: 第五章
+    hook: 方越只回了两个字：继续。
+  - id: ch06
+    title: 第六章
+    hook: 许宁发出一张预算表。
+  - id: ch07
+    title: 第七章
+    hook: 他说：你不是会算账吗，晚上去前台把登记补了。
+  - id: ch08
+    title: 第八章
+    hook: 老板最后只拿出一张过期复印件。
+  - id: ch09
+    title: 第九章
+    hook: 他说：林老板，还有房吗？
+  - id: ch10
+    title: 第十章
+    hook: 方越接起电话时，雨棚下所有人都安静了。
+  - id: ch11
+    title: 第十一章
+    hook: 方越把手机举起来，砸在雨棚水泥地上。
+  - id: ch12
+    title: 第十二章
+    hook: 他说：林棠，你撤了我就没事了。
+  - id: ch13
+    title: 第十三章
+    hook: 方越公司的正式解聘通知已经盖章。
+  - id: ch14
+    title: 第十四章
+    hook: 情分可以给，规矩不能被拿来打人。
+submission:
+  titles:
+    A: 嫌我五一全包五百贵，老客户退房后求我救场
+    B: 老客户嫌我五百全包杀熟，我转手接下百人团
+    C: 他逼我四百接团建还动手，我退房后让他自找住处
+  tags:
+    - 爽文
+    - 现实反击
+    - 民宿经营
+    - 证据链
+    - 职场追责
+    - 女性成长
+    - 合同边界
+    - 五一旅游
+  paywall_nodes:
+    - chapter: ch03
+      hook: 她问：五百块，真把门票接送和向导都包了？
+    - chapter: ch06
+      hook: 许宁发出一张预算表。
+    - chapter: ch08
+      hook: 老板最后只拿出一张过期复印件。
+    - chapter: ch10
+      hook: 方越接起电话时，雨棚下所有人都安静了。
+    - chapter: ch12
+      hook: 他说：林棠，你撤了我就没事了。
+total_chars: 12462
+chapter_count: 14
+paywall_cards: 10
+critic_scores:
+  logic: 8.7
+  style: 8.5
+  emotion: 8.6
+  platform: 8.8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260520_strict_seq5_03b
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

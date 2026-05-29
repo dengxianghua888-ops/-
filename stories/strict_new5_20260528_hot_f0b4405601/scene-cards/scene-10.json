@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 970,
+  "target_chars_max": 1100,
+  "location": "样板间门口与派出所调解室",
+  "time": "同日下午到傍晚",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "林知夏", "林泽宇", "民警", "项目经理", "销售顾问"],
+  "character_goal": "沈砚把林知夏动手和旧伤证据一次性推进法律清算。",
+  "opposition_goal": "林知夏想用旧夫妻身份压他撤案，林泽宇想把事推成误会。",
+  "conflict_action": "林知夏失控扇沈砚，沈砚报警并提交验伤报告、楼道监控、样板间视频。",
+  "information_gap": "处罚和赔偿结果不细写，重点卡在不和解态度。",
+  "emotional_debt_delta": "妻子暴力债-2；一家人别报警回旋+2。",
+  "payoff_or_hook": "法律层爽点落地，男主边界彻底明确。",
+  "chapter_end_hook": "民警问是否调解，沈砚看着林知夏说：不和解。",
+  "paywall_card": false,
+  "must_include": ["样板间视频", "验伤报告", "楼道监控", "一家人别报警回旋", "不和解"],
+  "must_not_write_as_exposition": ["不要写普法讲解", "不要写亲戚劝和长段", "不要让男主主动暴力报复"],
+  "rhythm_job": {
+    "shape": "动作冲突后快速转证据，派出所对白短促，章尾冷拒",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白3，动作4，证据2，章尾钩1",
+    "low_pressure_carry": "民警整理材料、打印机出纸、沈砚按住验伤袋"
+  }
+}

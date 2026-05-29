@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "女学回廊与檐下雨棚",
+  "time": "当晚小雨",
+  "pov": "贺晚棠",
+  "characters": [
+    "贺晚棠",
+    "霍池渊",
+    "沈执"
+  ],
+  "character_goal": "把认与不认的权力握回自己手里，先把人挡在回廊外。",
+  "opposition_goal": "霍池渊要当面确认她就是贺晚棠，至少逼出一句回应。",
+  "conflict_action": "霍池渊追到回廊叫她名字，贺晚棠停了一瞬后直接否认身份，沈执上前把她带走。",
+  "information_gap": "这位大人，认错人了。",
+  "emotional_debt_delta": "-1 她第一次把旧关系直接从现实里剔除",
+  "payoff_or_hook": "否认身份不是逃，而是价值反转的第一刀。",
+  "chapter_end_hook": "这位大人，认错人了。",
+  "paywall_card": false,
+  "must_include": [
+    "沈执要做安静的可靠，不替她宣战"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释她新身份的全部背景",
+    "不要让否认身份显得像试探"
+  ],
+  "rhythm_job": {
+    "shape": "追上拦路30%+名字落地20%+否认身份35%+被带走15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_target": 0.5,
+    "action_ratio_target": 0.28,
+    "hook_drop": "用最短的否认句切掉重逢热度",
+    "low_pressure_bridge": "雨檐、收伞、移步这些慢动作承接"
+  }
+}

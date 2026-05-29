@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "办公室资料柜 / 楼梯间",
+  "time": "同周下午",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "沈蔓",
+    "老师"
+  ],
+  "character_goal": "沈栀要拿到专业志愿被改动的实物证据。",
+  "opposition_goal": "沈蔓要抢回复印件，继续把动手脚包装成照顾妹妹。",
+  "conflict_action": "沈栀借补签翻资料柜，找到旧单复印件；沈蔓追到楼梯间夺纸，两人拉扯中露出笔迹痕迹。",
+  "information_gap": "改单是沈蔓单独所为，还是她和周叙川共同设计？",
+  "emotional_debt_delta": "旧命被安排从猜测升级为可触摸证据。",
+  "payoff_or_hook": "确认单上的涂改痕迹，让‘被放错位置’第一次有了实体。",
+  "chapter_end_hook": "那张被改过的专业志愿确认单，最后一个笔画，和沈蔓的一模一样。",
+  "paywall_card": false,
+  "must_include": [
+    "旧确认单复印件",
+    "楼梯间夺纸动作",
+    "沈栀对笔迹的即时辨认"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释行政流程",
+    "不要大段对比字迹学",
+    "不要写旁观者围观清单"
+  ],
+  "rhythm_job": {
+    "shape": "找证据短促推进，夺纸后落在一笔细节",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

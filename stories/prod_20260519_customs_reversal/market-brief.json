@@ -1,0 +1,64 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 14000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 650,
+    "end_hook_required": true,
+    "chapter_count_estimate": [14, 20]
+  },
+  "hook_policy": {
+    "golden_300": "前300字必须完成极端冲突陈述+身份+悬念钩子",
+    "hook_type_priority": ["H1", "H4"],
+    "micro_hook_interval": 1000,
+    "paywall_card_interval": 3500
+  },
+  "audience": {
+    "primary": "25-40岁女性，偏好现代都市爽文、反转逆袭、小人物反杀",
+    "emotional_needs": ["压迫后的释放快感", "逻辑型反击的智力爽", "正义战胜权力的道德满足"],
+    "genre_taboo": ["纯言情甜宠", "过度说教", "法制节目式平铺"]
+  },
+  "title_strategy": {
+    "formulas": ["T1_extreme_event", "T4_reversal_consequence"],
+    "candidates": [
+      "教育局说我的论文抄袭，那就按抄袭赔吧",
+      "税务局说我偷税三千万，我转头报警被盗",
+      "质检说我的零件是军工品，那就按军工价赔吧"
+    ],
+    "max_chars": 30,
+    "must_contain": "情绪词+具体数字/对象+反转暗示"
+  },
+  "success_metrics": {
+    "completion_desire": 9,
+    "paywall_strength": 9,
+    "emotional_release": 9,
+    "ai_flavor_score": 0,
+    "reversal_density": 9
+  },
+  "core_selling_points": [
+    "小人物被系统性压迫后的证据型反杀",
+    "死环逻辑: 承认A则犯罪X，否认A则犯罪Y",
+    "金句回旋: 施害者的傲慢原话变成最后审判词",
+    "社会情绪共鸣: 普通人vs制度漏洞/权力寻租"
+  ],
+  "emotion_debt_chain": [
+    "普通人被某种制度/权力以合法外衣压迫到生存线",
+    "主角忍辱求饶被拒，积累最大情绪债",
+    "主角冷静后布局，用对方确认的规则/文件设陷",
+    "公开场合逻辑反杀，施害者陷入死环",
+    "权力介入扩大战果，施害者全面崩溃",
+    "主角收获意外回报，金句回旋收尾"
+  ],
+  "forbidden_topics": [
+    "不能直接套用海关场景(需换设定)",
+    "不能写成法制教育片",
+    "不能让主角靠暴力或关系取胜",
+    "不能让施害者良心发现而非被逻辑杀死"
+  ]
+}

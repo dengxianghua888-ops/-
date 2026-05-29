@@ -1,0 +1,23 @@
+{
+  "story_slug": "prod_batch_15_drug_mom_revenge",
+  "pipeline_mode": "production",
+  "failure_types": [
+    "manual artifact completion after no phase runner"
+  ],
+  "successful_hooks": [
+    "老公给我妈加料后，我用水机日志送他坐牢",
+    "匿名帖与母亲病倒连锁",
+    "水机日志证据反杀"
+  ],
+  "manual_revision_delta": [
+    "Removed actionable drug detail",
+    "Added legal evidence chain",
+    "Kept child and elder protection first"
+  ],
+  "quality_scores": {
+    "platform": 8.5,
+    "emotion": 8.4,
+    "style": 8.1,
+    "logic": 8.0
+  }
+}

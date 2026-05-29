@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "chapter_id": 4,
+  "is_chapter_end": false,
+  "is_climax_beat": false,
+  "target_chars_min": 850,
+  "target_chars_max": 1000,
+  "location": "顾承安与沈知微的婚房",
+  "time": "出院后回家取物品",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安"],
+  "character_goal": "回家取个人物品",
+  "opposition_goal": "空间本身成为武器——每一处都是侵占的证据",
+  "conflict_action": "回到家中发现处处被方逸宁侵占：玄关多了男士皮鞋、卧室换了新床单、洗手间多了男性洗漱用品；想起当初这套房子每一处为'未来孩子'设计的细节——现在全被践踏",
+  "information_gap": "主角此前不知道方逸宁已实质入住；读者第一次看到侵占全貌",
+  "emotional_debt_delta": "+3：空间侵占的持续加码",
+  "payoff_or_hook": "空间回忆与现实侵占的对比——'本该放婴儿车的玄关，放着另一个男人的皮鞋'",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "曾经的设计细节（玄关留宽放儿童车、书房低柜放绘本）",
+    "侵占物件的递进发现（皮鞋→床单→洗漱品→衣柜里的西装）",
+    "胎心监护仪钥匙扣被碰碎在茶几脚下（三重象征叠加）",
+    "主角身体伤口被牵扯的生理疼痛"
+  ],
+  "must_not_write_as_exposition": [
+    "回忆不能写成闪回大段——一两句即插即走",
+    "侵占发现不能变成清单罗列——用行动串联"
+  ],
+  "rhythm_job": {
+    "shape": "沉压蓄力",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 18.5,
+    "dominant_emotion": "侵占-压抑愤怒",
+    "emotion_arc": "回忆温情 → 发现侵占 → 层层加码",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "跟随主角一间间走过，每发现一样东西就更愤怒——从'可笑'到'忍无可忍'",
+    "required_techniques": [
+      {
+        "technique": "空间回忆嵌套",
+        "instruction": "用曾经的设计细节构建'本来应该的未来'——'玄关留宽了是为了儿童车，现在放着双43的皮鞋'。每个空间一句回忆+一句现实"
+      },
+      {
+        "technique": "物件递进侵占",
+        "instruction": "从日用品（皮鞋、牙刷）→ 私密物品（换了床单）→ 精神象征物（钥匙扣碎了）。每一层都刺得更深，节奏不能均匀——越往后越密"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "因果对比+确认式反问",
+        "example": "我差点死在这套房子里，你转头就让他住进来了，是吗？",
+        "instruction": "把两个事实并置让荒谬性自己说话——'我在这里差点死了'和'他在这里住下了'。用确认式反问收尾，不需要回答"
+      }
+    ],
+    "peak_type": "occupation_discovery",
+    "bomb_technique": "累积式",
+    "source_excerpt": "玄关留了宽一点的位置，方便以后放儿童车。现在那个位置放着一双43码的棕色皮鞋。书房柜体特意做低了一层，以后可以放绘本。现在那层柜子里是一套叠得整整齐齐的男士西装。我蹲下来，看见茶几腿旁边，胎心监护仪钥匙扣的小屏幕裂了。"
+  }
+}

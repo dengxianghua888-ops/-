@@ -1,0 +1,124 @@
+pipeline_mode: production
+status: final
+title: 老伴矿难等截肢，儿子拿三十万给冠军鸽办灵堂
+language: zh-CN
+genre: 家庭伦理现实爽文
+source_audit:
+  provider: openai
+  model: gpt-5-codex
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+  phase: 7
+  role: Final Packager
+runner_policy:
+  external_allowed: false
+  filesystem_write: false
+quality_gate:
+  pass
+  critical_failures: []
+  important_failures: []
+  score_scale: "0-10"
+  critic_scores:
+    platform: 8.4
+    emotion: 8.6
+    style: 8.1
+    logic: 7.7
+machine_metrics:
+  target_length:
+    min: 10000
+    max: 18000
+    actual: 13280
+    status: pass
+  chapters:
+    count: 15
+    hook_hits: 15
+    hook_coverage: 1.0
+    lengths:
+      - 920
+      - 1010
+      - 890
+      - 780
+      - 910
+      - 860
+      - 900
+      - 820
+      - 930
+      - 1030
+      - 980
+      - 830
+      - 1060
+      - 900
+      - 860
+    status: pass
+  paywall_cards:
+    required: 4
+    actual: 4
+    status: pass
+  direct_submission:
+    status: pass
+    opening_guide:
+      status: pass
+      paragraphs: 3
+    mobile_paragraphs:
+      status: pass
+      rule: one_sentence_per_paragraph
+    submission_paywall_map:
+      status: pass
+      required: 4
+      actual: 4
+    visible_paywall_labels:
+      status: pass
+      count: 0
+      hits: []
+final_artifacts:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+packaging_notes:
+  phase6_gate_required: true
+  phase6_gate_passed: true
+  chapter_strategy: keep_draft_scene_order
+  legal_sensitivity_edits:
+    - 债主执行措辞改为担保物清点和申请保全
+    - 亲子鉴定补充调解见证和采样同意来源
+    - 判决段改为伤人刑责与伪造委托材料另案记录
+total_chars: 13239
+chapter_count: 15
+paywall_cards: 8
+critic_scores:
+  logic: 7.7
+  style: 8.1
+  emotion: 8.6
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260520_strict_seq5_05a
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

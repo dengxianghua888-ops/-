@@ -1,0 +1,68 @@
+{
+  "story_slug": "prod_live_sister_fate_reversal",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": [
+    "M4",
+    "M5",
+    "M3"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 12430,
+  "failure_types": [
+    "phase3_selected_candidate_shape",
+    "phase4_forbidden_summary_shape",
+    "phase5_scene_length_shortfall",
+    "phase6_numeric_score_and_logic_evidence_shape"
+  ],
+  "successful_hooks": [
+    "绿灯计划把妹妹定义成变量并锁进隔音琴房",
+    "姐姐门前心率报警打断开门",
+    "备用钥匙打开门缝露出钢琴下裙角",
+    "尸检报告落锤早期送医有存活可能",
+    "转世女孩喊妈妈后立刻有人回应"
+  ],
+  "paywall_cards": [
+    {
+      "beat_id": "B03",
+      "hook": "门锁刚亮，心率报警突然尖叫"
+    },
+    {
+      "beat_id": "B08",
+      "hook": "门缝露出钢琴下裙角"
+    },
+    {
+      "beat_id": "B10",
+      "hook": "尸检报告显示早期送医有存活可能"
+    },
+    {
+      "beat_id": "B12",
+      "hook": "头七夜旧钢琴无人触碰落音"
+    }
+  ],
+  "quality_scores": {
+    "platform": 8.7,
+    "emotion": 9.1,
+    "style": 8.5,
+    "logic": 8.3
+  },
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "soul_pov",
+    "sacrifice_debt",
+    "locked_room",
+    "late_regret",
+    "reincarnation_payoff"
+  ],
+  "manual_revision_delta": [
+    "将 selected_candidate 从对象修为候选 id，匹配产线 schema。",
+    "将 beat-bible forbidden_summary 规范为非空数组。",
+    "补齐 14 个 scene 到场景卡最低字符数，并清除软违禁词超限。",
+    "修复八音盒录音来源、转世年龄时间线和法医指代。",
+    "手动按已通过 Phase 5 的 draft 打包 final 与 14 章，保证 final 机器指标与 quality-report 同步。"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "check": "audio_evidence_chain",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-04.md",
+      "quote": "收藏夹里整整齐齐地排着十一条语音——他主动发送，主角被动保存，证据来源合法。"
+    },
+    {
+      "check": "venue_access_logic",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-06.md",
+      "quote": "证婚人身份上台，有话筒和音响接入的物理条件——场景设计自洽。"
+    },
+    {
+      "check": "timeline_consistency",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "发现(当天)→花店对质(次日)→2月后请帖→订婚宴→1年后回国——时间线无矛盾。"
+    },
+    {
+      "check": "sensitive_content",
+      "status": "pass",
+      "path": "story/draft.md",
+      "quote": "无涉及未成年/暴力犯罪/政治敏感/自杀美化内容。"
+    },
+    {
+      "check": "privacy_boundary",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-06.md",
+      "quote": "音频为对方主动发送的求复合语音——非窃听/偷录，不构成侵犯隐私叙事风险。"
+    }
+  ],
+  "notes": [
+    "公开播放私密语音在现实中可能涉及争议，但在番茄'爽文'框架内属于可接受的戏剧手法。"
+  ]
+}

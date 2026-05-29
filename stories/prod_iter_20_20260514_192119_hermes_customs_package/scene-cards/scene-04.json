@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B4",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定主管办公室",
+  "time": "同日上午十一点二十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "周明远", "财务专员"],
+  "character_goal": "退寄撤鉴，把包原样拿回去",
+  "opposition_goal": "周明远摔出'强制销毁倒计时单'，48小时不交三千万销毁费就封厂冻征信",
+  "conflict_action": "徐阳要求撤鉴退寄→周明远转身从打印机抽出红章销毁倒计时单→甩在徐阳面前→财务专员附和'流程到位你就交'",
+  "information_gap": "销毁单的电子签和鉴定书是同一个签——M1关键道具到位（暗写不点破）",
+  "emotional_debt_delta": "+1（累积至+4）峰值压抑",
+  "payoff_or_hook": "红章砸下、48小时倒计时启动",
+  "chapter_end_hook": "'48小时内不交，工厂封厂、保证金冻结、征信拉黑。'红章单据砸在我面前",
+  "paywall_card": false,
+  "must_include": ["销毁单红章细节", "倒计时48小时数字", "封厂/冻征信三连打击", "电子签栏位（不点破）"],
+  "must_not_write_as_exposition": ["反派狞笑廉价描写", "主角下跪求情", "插叙工厂家底", "心声爆金句剧透"]
+}

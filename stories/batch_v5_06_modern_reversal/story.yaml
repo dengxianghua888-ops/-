@@ -1,0 +1,22 @@
+title: 她不需要被看见了
+source_slug: hot_6d1ab9400b
+genre: modern_reversal
+pipeline: v5_structure_fidelity
+batch: batch_v5_part2_20260527
+status: final
+nonspace_chars: 10012
+chapters: 9
+characters:
+  - name: 苏晚
+    role: 女主
+    description: 被轻视八年后成为顶级设计公司创意总监
+  - name: 陈屿舟
+    role: 前男友/反派
+    description: 抄袭女主创意开公司，现濒临破产求合作
+  - name: 苏柔
+    role: 闺蜜/反派
+    description: 篡改女主人设，嫁给前男友
+  - name: 母亲
+    role: 配角
+    description: 偏心闺蜜，贬低女主
+logline: 被前男友和闺蜜看轻八年的女设计师，以甲方总监身份面对求合作的前男友，用专业流程拆穿抄袭，完成情感脱钩。

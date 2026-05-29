@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "summary": "证据链由信件、脉案、军医簿、御史台封存构成，边界可接受。",
+  "evidence": [
+    {
+      "type": "evidence",
+      "quote": "我说：裴景明，我再也不会喜欢你。"
+    },
+    {
+      "type": "evidence",
+      "quote": "命灯跳了三下，可我已经不想回头。"
+    }
+  ],
+  "failures": []
+}

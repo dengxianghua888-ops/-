@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "发布会现场入口与主舞台",
+  "time": "证据包锁定后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "李屿", "周砚礼", "苏曼宁", "品牌方代表", "员工"],
+  "character_goal": "许闻溪让合规流程正式介入，保护品牌合作和公司秩序",
+  "opposition_goal": "周砚礼要把事件压成夫妻矛盾，要求关闭直播和请品牌方离场",
+  "conflict_action": "李屿带风控人员进场，封存账号权限、招商合同柜和直播间后台",
+  "information_gap": "品牌方不知道苏曼宁接手的项目已触发平台风控预警",
+  "emotional_debt_delta": "-职权滥用债第一笔 +品牌信任危机",
+  "payoff_or_hook": "发布会从官宣现场变成合规听证前置场",
+  "chapter_end_hook": "李屿把封存清单递给周砚礼：周总，请交出管理端密钥。",
+  "paywall_card": false,
+  "must_include": ["风控人员进场", "封存账号权限", "招商合同柜", "管理端密钥", "周砚礼试图压成家事"],
+  "must_not_write_as_exposition": ["不要把风控写成警察", "不要提前宣判犯罪", "不要用行业黑话拖慢节奏"]
+}

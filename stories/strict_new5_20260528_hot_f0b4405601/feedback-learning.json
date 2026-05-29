@@ -1,0 +1,128 @@
+{
+  "story_slug": "strict_new5_20260528_hot_f0b4405601",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": [
+    "M2_identity_reversal",
+    "M3_causal_irony",
+    "M5_temperature_reversal",
+    "M6_multi_layer_reversal"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10959,
+  "quality_scores": {
+    "platform": 8.1,
+    "emotion": 8.4,
+    "style": 7.2,
+    "logic": 7.6
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "scene-01",
+      "type": "opening_humiliation_recording",
+      "reusable_fact": "前150字内用醉酒妻子当外人面羞辱丈夫，并让男主默默开启录音，羞辱债和证据债同步成立。"
+    },
+    {
+      "scene_id": "scene-04",
+      "type": "family_violence_evidence",
+      "reusable_fact": "岳父掌掴男主时同步露出客厅监控红点，为后续派出所拒绝和解提供闭环证据。"
+    },
+    {
+      "scene_id": "scene-07",
+      "type": "false_accusation_reversal",
+      "reusable_fact": "岳母当众诬陷偷助听器，男主用绑定编号、后台记录和定位蜂鸣把赃物锁回小舅公文包。"
+    },
+    {
+      "scene_id": "scene-08",
+      "type": "ability_reveal_evidence_chain",
+      "reusable_fact": "旧图纸、U盘原始日志、邮件时间戳先铺权属，再落三百万授权合同，避免天降暴富感。"
+    },
+    {
+      "scene_id": "scene-10",
+      "type": "legal_boundary",
+      "reusable_fact": "前妻再次动手后，男主当场报警并提交验伤、旧监控、新视频、证人说明，拒绝被一家人话术消解。"
+    },
+    {
+      "scene_id": "scene-12",
+      "type": "relationship_cutoff",
+      "reusable_fact": "男主支付抚养费和医药费，但明确拒绝回家，把法定责任和情感劳动切开。"
+    },
+    {
+      "scene_id": "scene-14",
+      "type": "final_disconnection",
+      "reusable_fact": "高铁离城、新手机号备案、旧卡掰断，完成物理迁移和社交关系切断。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-01",
+      "chapter": 1,
+      "hook": "男主保存醉酒羞辱录音后说“明早九点，民政局”。",
+      "function": "用离婚决断制造首个付费追读点。"
+    },
+    {
+      "scene_id": "scene-04",
+      "chapter": 4,
+      "hook": "岳父掌掴后，男主手机停在报警页面，客厅监控红点还在闪。",
+      "function": "把家庭暴力转成证据期待。"
+    },
+    {
+      "scene_id": "scene-07",
+      "chapter": 7,
+      "hook": "助听器定位显示在林泽宇公文包里，蜂鸣声当众响起。",
+      "function": "完成诬陷反杀并引出小舅败露。"
+    },
+    {
+      "scene_id": "scene-08",
+      "chapter": 8,
+      "hook": "三百万首期款到账，项目经理安排男主明天进组验收样板间。",
+      "function": "从护工羞辱转入身份反差爆发。"
+    },
+    {
+      "scene_id": "scene-09",
+      "chapter": 9,
+      "hook": "项目经理当众把样板间钥匙交给“沈工”。",
+      "function": "用公开场合打脸前妻和小舅。"
+    },
+    {
+      "scene_id": "scene-10",
+      "chapter": 10,
+      "hook": "派出所里男主提交多份证据并回答“不和解”。",
+      "function": "把旧债集中清算，强化爽点。"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": 12,
+      "hook": "男主转账五万后拒绝复合，称“丈夫这份关系，我不要了”。",
+      "function": "制造情感边界反爽点。"
+    },
+    {
+      "scene_id": "scene-14",
+      "chapter": 14,
+      "hook": "男主掰断旧号码卡，换号离城。",
+      "function": "用不可逆断联完成结尾闭合。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "divorce_reversal",
+    "free_caregiver_humiliation",
+    "son_sides_with_uncle",
+    "brother_in_law_frameup",
+    "hearing_aid_location_reversal",
+    "care_work_handover",
+    "medical_device_engineer",
+    "three_million_authorization",
+    "smart_eldercare_sample_room",
+    "domestic_violence_police_report",
+    "refuse_reconciliation",
+    "legal_child_support_boundary",
+    "change_number_leave_city"
+  ],
+  "manual_revision_delta": []
+}

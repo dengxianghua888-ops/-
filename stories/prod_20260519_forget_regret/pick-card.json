@@ -1,0 +1,9 @@
+{
+  "run_id": "20260519_manual",
+  "corpus_slug": "ancient_forget_regret",
+  "genre": "ancient_BE",
+  "filename": "《东瓶西镜放，恨不能遗忘》.txt",
+  "word_count": 9762,
+  "mechanisms": ["M5", "M3", "M8"],
+  "picked_at": "2026-05-19T19:00:00"
+}

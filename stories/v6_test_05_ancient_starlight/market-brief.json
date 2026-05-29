@@ -1,0 +1,99 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "end_hook_required": true,
+    "median_target": 650
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "前300字必须建立核心冲突张力——女主被旧爱当众轻贱的场景或新男主身份反差的第一击",
+    "micro_hook_interval": [800, 1200],
+    "micro_hook_description": "每800-1200字设置一个信息差揭露、身份误判或权力位移的微悬念",
+    "paywall_hook_interval": [2500, 3500],
+    "paywall_hook_description": "每2500-3500字设置付费级卡点：身份揭露前一秒/旧爱撞见新关系/财力碾压即将落地但未完成"
+  },
+  "audience": {
+    "primary_demographic": "18-35岁女性，番茄小说核心用户",
+    "emotional_needs": [
+      "被轻视后获得更高价值认可的补偿感",
+      "旧爱追悔莫及的痛快",
+      "新男主用行动（而非嘴炮）证明珍视的安全感",
+      "不靠哭闹靠实力/身份/资源的体面反杀"
+    ],
+    "genre_preference": "都市甜宠/霸总/身份反差，偏好快节奏、高密度爽点",
+    "taboo_topics": [
+      "女主卑微求复合",
+      "旧爱洗白复合",
+      "无逻辑暴富（需因果链）",
+      "男主无底线霸道（需有边界感）",
+      "AI味叠词和空洞抒情"
+    ]
+  },
+  "title_strategy": {
+    "formulas": [
+      {
+        "id": "T1",
+        "template": "[旧爱动作]+[女主反应/新男主登场]",
+        "examples": ["他当众嫌弃我，转身被百亿少爷求婚", "前男友封锁全城找我，我已嫁入顶级豪门"]
+      },
+      {
+        "id": "T4",
+        "template": "[反常识冲突点]+[悬念后果]",
+        "examples": ["认识一个月就结婚，前任悔疯了", "七年不肯娶我的人，看我嫁别人当场破产"]
+      },
+      {
+        "id": "T5",
+        "template": "[情绪/状态短句]+[身份反转暗示]",
+        "examples": ["星光坠落时，他才知道我有多贵", "纵有星光坠落，照亮的从来不是你"]
+      }
+    ],
+    "constraints": {
+      "max_chars": 30,
+      "must_contain_conflict": true,
+      "must_imply_reversal": true
+    }
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 8.5,
+      "scale": 10,
+      "note": "每章结尾必须让读者无法停下，核心驱动力是身份信息差和旧爱的认知崩塌"
+    },
+    "paywall_conversion": {
+      "target": 8.0,
+      "scale": 10,
+      "note": "付费卡点设置在新男主身份/财力即将公开展示但未完成的瞬间"
+    },
+    "emotional_release": {
+      "target": 9.0,
+      "scale": 10,
+      "note": "核心爽点：旧爱亲眼看见女主被更强者珍视并当众碾压自己"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "scale": 10,
+      "note": "零容忍违禁词，情绪物理化，对话不超过15字/句，禁止空洞内心独白"
+    },
+    "explosive_density": {
+      "target": 8.5,
+      "scale": 10,
+      "note": "每千字至少8个动作/冲突节拍，拒绝铺垫过长的慢热段落"
+    }
+  },
+  "genre": "urban_sweet_ceo",
+  "source_slug": "ancient_starlight_fall",
+  "core_mechanisms": ["M2", "M3", "M5"],
+  "dominant_payoff": "身份反差爆发 + 旧爱公开碾压",
+  "reader_promise": "让被旧爱轻贱的女主，不靠哭求挽回，而是被更强、更体面的新关系公开接住，并让旧爱亲眼崩塌",
+  "emotional_debt_seed": "七年不肯娶 + 当众贬低女主价值 + 用第三者持续压迫",
+  "protagonist_stance": "清醒、克制、离场型——不争不抢，用沉默和选择完成最大反击",
+  "antagonist_violation": "旧爱违反亲密关系中的尊重规则，既想占有又公开轻贱，用第三者持续试探底线"
+}

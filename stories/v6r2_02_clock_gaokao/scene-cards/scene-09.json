@@ -1,0 +1,72 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-07a",
+  "chapter_id": 6,
+  "is_chapter_end": false,
+  "target_chars_min": 530,
+  "target_chars_max": 620,
+  "location": "工厂大铁门前→工厂外围",
+  "time": "晚上8:12，有人发现进不去",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "陈栩", "玩家家属", "巡警"],
+  "character_goal": "沈听澜试图警告所有人不要接近工厂",
+  "opposition_goal": "陈栩要冲进去找周予安，发现撞到了看不见的墙",
+  "conflict_action": "陈栩全力冲向工厂大门却被弹回——量子力场穹顶已经形成",
+  "information_gap": "沈听澜知道这是量子力场（和五年前一样），其他人完全无法理解发生了什么",
+  "emotional_debt_delta": "态度反转的序曲——陈栩从暴怒转为恐慌",
+  "payoff_or_hook": "过渡：穹顶的存在被确认——从看不见到所有人都能感知",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["陈栩撞墙被弹回", "沿着工厂走一圈摸到完整球形", "半透明乳白色穹顶的视觉呈现", "巡警到场也无计可施"],
+  "must_not_write_as_exposition": ["量子力场的科学原理", "沈听澜的内心科学分析"],
+  "rhythm_job": {
+    "shape": "前慢（探索发现）",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 16.0,
+    "dominant_emotion": "恐惧-证实",
+    "emotion_arc": "撞墙 → 恐慌升级",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "终于！她说的是对的！——但恐惧和释然交织",
+    "required_techniques": [
+      {
+        "technique": "物理探索呈现异常",
+        "instruction": "用一个人的身体动作让读者'看到'看不见的墙——陈栩沿着工厂走，越走越快，脸色越来越难看"
+      },
+      {
+        "technique": "升维式规模揭露",
+        "instruction": "从'一面墙'到'半球形穹顶'的认知升级——问题比想象的严重得多"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "不是A+而是B认知升级",
+        "example": "围绕第二中学的不是一面墙，而是一个半球形的罩子。",
+        "instruction": "把读者以为的（墙）打破替换为更恐怖的（穹顶罩子）——恐惧升维"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "闺蜜妈妈冲向考场大门——砰！她整个人被弹了回来。她举着手臂围绕第二中学大门走起来。她越走越快，脸色越来越难看。终于，她停下了脚步。在原地上下抚摸。围绕第二中学的不是一面墙，而是一个半球形的罩子。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["别靠近", "进不去的"],
+      "句式": "冷静事实陈述",
+      "单句上限": 14,
+      "禁止": "长篇解释"
+    },
+    "陈栩": {
+      "口癖": ["予安", "怎么回事", "开门"],
+      "句式": "从暴怒变为恐慌，短促",
+      "单句上限": 12,
+      "禁止": "冷静分析"
+    }
+  }
+}

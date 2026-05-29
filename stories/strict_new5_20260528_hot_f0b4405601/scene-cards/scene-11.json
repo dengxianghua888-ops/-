@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "医院急诊走廊",
+  "time": "夜里",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "林承安", "林知夏", "林泽宇", "医生", "护士"],
+  "character_goal": "沈砚按安全底线确认儿子脱险，并收集照护失职证据。",
+  "opposition_goal": "林泽宇想把哮喘发作推给孩子体质，林知夏想让沈砚重新接管照护。",
+  "conflict_action": "沈砚要求调急诊监控，画面显示林泽宇带孩子进密闭VR馆并递坚果能量棒。",
+  "information_gap": "林承安求原谅的话被医生打断，留到停车场。",
+  "emotional_debt_delta": "小舅失职债-2；儿子盲目信任小舅反噬+2。",
+  "payoff_or_hook": "第三付费卡点：亲子背刺反噬和照护证据反转。",
+  "chapter_end_hook": "急诊监控里，林泽宇把坚果能量棒塞进林承安手里。",
+  "paywall_card": true,
+  "must_include": ["哮喘急救", "密闭VR馆", "坚果能量棒", "急诊监控", "沈砚只确认安全不接管生活"],
+  "must_not_write_as_exposition": ["不要写医疗奇迹", "不要讲疾病科普长段", "不要让沈砚变回家庭管家"],
+  "rhythm_job": {
+    "shape": "医院动作快切，监控证据落点，孩子反应慢半拍",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白2，动作4，证据3，章尾钩1",
+    "low_pressure_carry": "雾化声、护士换药、沈砚递急救卡复印件"
+  }
+}

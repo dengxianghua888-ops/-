@@ -1,0 +1,208 @@
+{
+  "_meta": {
+    "version": 2,
+    "description": "跨案例 Style DNA 定量字段聚合。",
+    "source": "corpus/ + stories/ 下各 analysis/style-dna.md 与 dissection.md",
+    "updated_by": "scripts/aggregate-style-stats.py"
+  },
+  "by_genre": {
+    "apocalypse_heroine": {
+      "avg_sentence_length": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "dialogue_ratio": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    },
+    "urban_sweet_ceo": {
+      "avg_sentence_length": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "dialogue_ratio": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    },
+    "ancient_BE": {
+      "avg_sentence_length": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "dialogue_ratio": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    },
+    "ancient_sweet": {
+      "avg_sentence_length": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "dialogue_ratio": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    },
+    "modern_reversal": {
+      "avg_sentence_length": {
+        "mean": 17.75,
+        "std": 0.354,
+        "n": 2,
+        "samples": [
+          17.5,
+          18.0
+        ]
+      },
+      "dialogue_ratio": {
+        "mean": 20.2,
+        "std": 28.001,
+        "n": 2,
+        "samples": [
+          40.0,
+          0.4
+        ]
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    },
+    "family_ethics": {
+      "avg_sentence_length": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "dialogue_ratio": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "rhetorical_question_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "physical_emotion_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      },
+      "couplet_per_k": {
+        "mean": null,
+        "std": null,
+        "n": 0,
+        "samples": []
+      }
+    }
+  }
+}

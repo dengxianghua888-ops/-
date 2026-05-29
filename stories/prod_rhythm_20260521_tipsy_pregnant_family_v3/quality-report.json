@@ -1,0 +1,152 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_rhythm_20260521_tipsy_pregnant_family_v3/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11176,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        696,
+        662,
+        671,
+        727,
+        681,
+        845,
+        851,
+        677,
+        769,
+        667,
+        806,
+        776,
+        683,
+        830,
+        722
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 97,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 2,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 15,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11176,
+      "sentence_count": 658,
+      "avg_sentence_length": 15.986,
+      "dialogue_ratio": 0.1835,
+      "question_marks": 34,
+      "question_marks_per_k": 3.042,
+      "physical_emotion_hits": {
+        "指尖": 6,
+        "青筋": 2,
+        "手心": 1,
+        "眼眶": 1,
+        "掌心": 10
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 31.317
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 12267,
+        "line_count": 828,
+        "avg_line_chars": 14.815,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.6643,
+        "long_line_rate": 0.0121,
+        "quote_line_rate": 0.2403,
+        "barrage_line_rate": 0.2162,
+        "question_marks_per_k": 7.174
+      },
+      "candidate": {
+        "chars": 10982,
+        "line_count": 666,
+        "avg_line_chars": 16.489,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.6411,
+        "long_line_rate": 0.0,
+        "quote_line_rate": 0.3093,
+        "barrage_line_rate": 0.1126,
+        "question_marks_per_k": 3.096
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 606,
+      "unique_sentence_skeletons": 605,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0033
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 8,
+    "logic": 7.5
+  },
+  "evidence": [
+    "final.md 通过投稿格式、章节钩子、移动端段落、付费节点地图和可见标签检查。",
+    "final source_rhythm_fit 通过：candidate avg_line_chars=16.489、short_line_rate=0.6411、barrage_line_rate=0.1126，较返修前碎行问题已修复。",
+    "tomato rubric overall_score=9.15，source_rhythm_fit=9.79，mobile_readability=10。",
+    "软违禁与硬违禁均为 0，重复 ngram 与语义重复指标通过。"
+  ]
+}

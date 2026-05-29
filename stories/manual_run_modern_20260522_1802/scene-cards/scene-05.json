@@ -1,0 +1,37 @@
+{
+  "scene_id": "S05",
+  "beat_id": "B5",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "工业园林承工坊+银行小微企业部办公室",
+  "time": "次日上午九点至十一点",
+  "pov": "first_person_林承(留置中通过律师转述)",
+  "characters": ["林承(意识/转述)", "孙律师", "供应商老周", "银行客户经理"],
+  "character_goal": "通过孙律师协调供应商再撑两周、银行展期五十万",
+  "opposition_goal": "供应商集体要求三天内退货退款,银行直接抽贷,封条贴上工坊大门",
+  "conflict_action": "孙律师把电话从供应商打到银行,听筒里一句'抱歉,合规说不行'连听三次,工坊封条被工作人员手起手落贴上",
+  "information_gap": "供应商背后被'某网红品牌渠道'施压——B11 揭",
+  "emotional_debt_delta": "+3 事业崩塌",
+  "payoff_or_hook": "封条边角翘起,孙律师弯腰抚平,顺手把被踢飞的 PH 试纸盒捡起来放进口袋",
+  "chapter_end_hook": "工坊大门贴上封条，PH试纸盒被踢到水沟里。",
+  "paywall_card": false,
+  "must_include": [
+    "孙律师电话三连('合规说不行'重复 3 次承担节奏拍点)",
+    "封条物件特写:红字'封'+ 日期",
+    "PH 试纸盒承接 S01 的伏笔,被踢飞到水沟",
+    "供应商老周一条只发一半的微信:'兄弟,实在...'"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写'终于'类总结",
+    "不要让供应商解释为什么撤资",
+    "不要让任何一段超过 4 行"
+  ],
+  "rhythm_job": {
+    "shape": "电话三连 3 拍→封条动作 1 拍→物件特写收尾",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "孙律师抚平封条 + 捡起 PH 试纸盒"
+  }
+}

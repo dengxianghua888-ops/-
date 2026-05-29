@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "军宴高台与御前传令船",
+  "time": "掉马后同场",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊",
+    "沈烈川",
+    "裴照棠",
+    "传令内侍",
+    "海防诸将"
+  ],
+  "character_goal": "把毒证、供词、旧案三证合一，当众把皇帝钉成真凶",
+  "opposition_goal": "传令内侍想毁密旨，裴承骁残党想把局面拖成兵变不清",
+  "conflict_action": "沈灼宁甩供词上案，沈烈川扣住内侍，顾临渊当众宣监国旧案并下令扣船",
+  "information_gap": "沈灼宁指着密旨冷笑：\"狗皇帝，轮到你还债。\"",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "皇帝从幕后黑手被拖到明面接受审判",
+  "chapter_end_hook": "沈灼宁指着密旨冷笑：\"狗皇帝，轮到你还债。\"",
+  "paywall_card": true,
+  "must_include": [
+    "密旨或供词实物落案",
+    "沈烈川扣人动作",
+    "顾临渊对旧案的短句揭牌",
+    "诸将立场开始倒向少主"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲完整夺嫡年表",
+    "不要把证据来源说成空口传闻"
+  ],
+  "rhythm_job": {
+    "shape": "证据一件件砸脸，但每件只用一句话带过，尾端留给皇帝清算",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

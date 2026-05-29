@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "集团董事会议室",
+  "time": "陆闻舟看完真相后第三天",
+  "pov": "第三人称贴陆闻舟",
+  "characters": ["陆闻舟", "林舒禾", "董事", "基金律师"],
+  "character_goal": "陆闻舟想用80%条件验证林舒禾要的是人还是资源。",
+  "opposition_goal": "林舒禾想继续保住基金收益权和集团表决权。",
+  "conflict_action": "陆闻舟让律师宣读新方案：若他结婚，80%救援基金收益权和表决权全部转给叶昭；林舒禾当场抓皱协议要求撤回。",
+  "information_gap": "董事们第一次看清林舒禾的公益名义背后是资源占有。",
+  "emotional_debt_delta": "80%因果回旋第二次落地，白月光特权被同一条件反噬。",
+  "payoff_or_hook": "陆闻舟终于承认，最该被清算的人是他自己。",
+  "chapter_end_hook": "林舒禾听见80%要给叶昭，脸色当场变了。",
+  "paywall_card": false,
+  "must_include": [
+    "80%救援基金收益权",
+    "集团表决权",
+    "林舒禾抓皱协议",
+    "董事沉默",
+    "陆闻舟承认自己才是责任人"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把过错全推给林舒禾",
+    "不要写林舒禾脸谱化发疯",
+    "不要让80%只成为一句口号"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-11",
+  "target_chars_min": 850,
+  "target_chars_max": 930,
+  "location": "旧航站楼外与任务播报层",
+  "time": "封控层消失后数分钟",
+  "pov": "第一人称",
+  "characters": ["陆昭", "宋棠", "母亲", "韩岚", "获救众人"],
+  "character_goal": "确认所有人脱困，并压住众人的追问离开现场。",
+  "opposition_goal": "众人终于想问清真相，韩岚想留下她配合说明，任务播报则强行打断她的喘息。",
+  "conflict_action": "陆昭带着最后一批人冲出旧航站楼，封控层在身后散掉；她刚站稳，只有她能听见的新任务播报响起。",
+  "information_gap": "下一处灾变在哪里，她到底还经历过多少次这样的回收？",
+  "emotional_debt_delta": "本轮救人完成，新任务债立刻接上。",
+  "payoff_or_hook": "正名只是短暂结果，更大的局已经接手她的人生。",
+  "chapter_end_hook": "截断句：播报说，下一处时间灾变，四十八小时后开启。",
+  "paywall_card": true,
+  "must_include": ["众人脱困不是大团圆，而是余悸中看她", "宋棠想说对不起却被打断", "任务播报只对陆昭可闻", "收尾带短暂松气但不能安稳"],
+  "must_not_write_as_exposition": ["不要写长篇感谢和忏悔", "不要开系统说明会", "不要把尾声写成新闻总结"],
+  "rhythm_job": {
+    "shape": "带人出墙-短松气-追问未答-新任务砸下",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "低压反应与留白：风重新动起来、有人咳一声、播报贴耳响起"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "index": {
+    "document_id": "F2KXdyTfbob1qIxCocJccuWYnwh",
+    "url": "https://my.feishu.cn/docx/F2KXdyTfbob1qIxCocJccuWYnwh"
+  },
+  "stories": [
+    {
+      "idx": 1,
+      "slug": "batch_v2_01_modern_reversal",
+      "title": "镜厅",
+      "doc_title": "短篇仿写终稿｜镜厅",
+      "chars": 10004,
+      "chapters": 12,
+      "document_id": "VVI0dnPEOoXZTLx6knZcZTLQnrb",
+      "url": "https://my.feishu.cn/docx/VVI0dnPEOoXZTLx6knZcZTLQnrb"
+    },
+    {
+      "idx": 2,
+      "slug": "batch_v2_02_family_ethics",
+      "title": "产房",
+      "doc_title": "短篇仿写终稿｜产房",
+      "chars": 10001,
+      "chapters": 12,
+      "document_id": "ATHDdjBa5oXqFYx1CLacLYiXnGJ",
+      "url": "https://my.feishu.cn/docx/ATHDdjBa5oXqFYx1CLacLYiXnGJ"
+    },
+    {
+      "idx": 3,
+      "slug": "batch_v2_03_ancient_BE",
+      "title": "骨灰",
+      "doc_title": "短篇仿写终稿｜骨灰",
+      "chars": 10002,
+      "chapters": 12,
+      "document_id": "NUmzd45NdoItM3xIABkc1ydynaf",
+      "url": "https://my.feishu.cn/docx/NUmzd45NdoItM3xIABkc1ydynaf"
+    },
+    {
+      "idx": 4,
+      "slug": "batch_v2_04_ancient_sweet",
+      "title": "忠仆",
+      "doc_title": "短篇仿写终稿｜忠仆",
+      "chars": 10001,
+      "chapters": 12,
+      "document_id": "ZhrNdRgO9oGcJkxiuQScLzk0n1c",
+      "url": "https://my.feishu.cn/docx/ZhrNdRgO9oGcJkxiuQScLzk0n1c"
+    },
+    {
+      "idx": 5,
+      "slug": "batch_v2_05_apocalypse",
+      "title": "死水",
+      "doc_title": "短篇仿写终稿｜死水",
+      "chars": 10004,
+      "chapters": 12,
+      "document_id": "Fv57dSQe1oF3W5xFswbceDLmnbd",
+      "url": "https://my.feishu.cn/docx/Fv57dSQe1oF3W5xFswbceDLmnbd"
+    }
+  ],
+  "exported_at": "2026-05-26T11:21:12",
+  "result_file": "/Users/d-work/Documents/短篇仿写/exports/feishu/feishu-docs.batch_v2_20260526.json"
+}

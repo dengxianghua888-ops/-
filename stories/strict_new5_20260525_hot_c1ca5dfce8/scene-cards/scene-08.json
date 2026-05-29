@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "帝后再立大典外廷",
+  "time": "三日后吉时",
+  "pov": "我",
+  "characters": [
+    "我",
+    "新帝",
+    "裴含霜",
+    "礼官",
+    "百官",
+    "乐伎"
+  ],
+  "character_goal": "撑过最后一次羞辱，别在他们的大婚礼上倒下",
+  "opposition_goal": "裴含霜要当众踩断我最后一点尊严，新帝要看着我成为她凤冠下的陪衬",
+  "conflict_action": "我被逼穿罪舞衣跪在红毯边献舞，裴含霜命我抬头看新帝亲手替她戴上凤冠",
+  "information_gap": "凤乐正响，宫门外却传来甲胄震地的声音。",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "谷底压脸之后立刻切入大翻盘前奏",
+  "chapter_end_hook": "凤乐正响，宫门外却传来甲胄震地的声音。",
+  "paywall_card": true,
+  "must_include": [
+    "罪舞衣",
+    "红毯边跪舞",
+    "新帝亲手加冠",
+    "百官静默里的窃语",
+    "外面甲声闯入"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写婚礼礼制说明",
+    "不要用一句话带过献舞羞辱",
+    "不要把压脸改成心理描写"
+  ],
+  "rhythm_job": {
+    "shape": "对白3段/动作4段/议论1段/留白1段/章尾钩1刀",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

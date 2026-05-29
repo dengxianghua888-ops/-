@@ -1,0 +1,26 @@
+phase: 2
+key: phase2
+role: Adapter
+title: 神髓等价映射
+system_prompt: prompts/adapter.md
+human_gate: phase2_blueprint_review
+retryable: false
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/title-formulas.md
+  - prompts/patterns/forbidden-and-preferred.md
+  - corpus/_index.json
+  - story/dissection.md
+  - story/analysis/beat-sheet.md
+  - story/analysis/style-dna.md
+  - story/analysis/characters.md
+  - story/analysis/theme.md
+  - story/analysis/soul-contract.md
+  - story/analysis/reader-engine.md
+  - story/analysis/tension-ledger.md
+  - story/analysis/platform-fit.md
+required_outputs:
+  - adaptation.md
+  - blueprint.md
+validators:
+  - validate-story:phase2

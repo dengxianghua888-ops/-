@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "score": 8.3,
+  "evidence": [
+    {
+      "path": "story/draft.md#01",
+      "type": "title_intro",
+      "quote": "我娘不再替汗王生子后，他悔疯了",
+      "assessment": "标题直接承诺离场与追悔。"
+    },
+    {
+      "path": "story/draft.md#01",
+      "type": "front_hook",
+      "quote": "三枚铃，三日。",
+      "assessment": "倒计时在开篇成立。"
+    }
+  ]
+}

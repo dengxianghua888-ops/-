@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "跨江隧道旁废弃收费站",
+  "time": "案件结束后数月到第一年冬",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "来访家属",
+    "施工工人"
+  ],
+  "character_goal": "陆谨言要把废弃收费站改成二十四小时夜灯档案室。",
+  "opposition_goal": "沈栀的冷眼和不可逆事实拒绝把赎罪变成求原谅表演。",
+  "conflict_action": "陆谨言搬卷宗柜、装夜灯、交出鉴定资格证，把空儿童安全座椅放到窗边。",
+  "information_gap": "他每天整理孕亡者卷宗，却始终不敢播放胎心钥匙扣。",
+  "emotional_debt_delta": "余生偿债开始，男主失去事业与正常生活。",
+  "payoff_or_hook": "付费卡在五年自囚展开前。",
+  "chapter_end_hook": "废弃收费站的第一盏夜灯亮起，他把空儿童安全座椅放在窗边。",
+  "paywall_card": true,
+  "must_include": [
+    "废弃收费站",
+    "二十四小时夜灯",
+    "空儿童安全座椅",
+    "鉴定资格证被交出",
+    "沈栀说不是原谅"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把赎罪空间写成成功公益项目",
+    "不要让沈栀心软安慰",
+    "不要让陆谨言重新获得体面职业"
+  ]
+}

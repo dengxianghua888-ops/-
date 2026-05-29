@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "码头监控室",
+  "time": "倒计时7小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "贺景衡", "贺景衡助理"],
+  "character_goal": "江沉保住云端证据，不再求任何人相信。",
+  "opposition_goal": "贺景衡要逼江沉录下认错视频，反过来证明自己清白。",
+  "conflict_action": "贺景衡关掉监控室灯，按着江沉面对镜头认错，威胁注销孩子名下所有江沉痕迹。",
+  "information_gap": "贺景衡不知道安全帽暗录仍在运行，并同步到云端。",
+  "emotional_debt_delta": "+被逼认错；+孩子身份被当威胁；-贺景衡威胁被录下",
+  "payoff_or_hook": "同一句威胁后文会被视频反咬。",
+  "chapter_end_hook": "江沉看着贺景衡的威胁镜头，说：不用你逼，我帮你发。",
+  "paywall_card": false,
+  "must_include": ["监控室黑屏", "认错视频", "注销孩子痕迹威胁", "安全帽暗录", "云端同步图标"],
+  "must_not_write_as_exposition": ["不要把威胁写得抽象", "不要给贺景衡可怜动机", "不要让江沉再求和"]
+}

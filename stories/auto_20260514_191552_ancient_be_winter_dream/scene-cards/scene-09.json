@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B15b-B16",
+  "scene_label": "易容·灌酸·樊笼",
+  "location": "紫云楼半山别馆顶层 / 王府地牢",
+  "time": "旬日后世纪大婚 / 半月后",
+  "pov": "谢长卿(灵魂线)",
+  "characters": [
+    "漱玉郡主",
+    "萧迟",
+    "易容方士",
+    "玄衣死士"
+  ],
+  "character_goal": "(灵)见证镜像清算与道德崩塌",
+  "opposition_goal": "漱玉将萧迟易容成谢长卿、灌鬼参液烧声带、关入压声樊笼",
+  "conflict_action": "金针刻刀划脸、暗哨传影至京畿三十六行行会、青铜镜片自划脸自毁",
+  "information_gap": "M8 双向道德崩塌:加害者皆失人形,受害者灵魂线冷眼俯瞰",
+  "emotional_debt_delta": "+M5 终极反讽:漱玉宁要替身脸,不要原配命",
+  "payoff_or_hook": "'听好,从今日起,你便是谢长卿'",
+  "chapter_end_hook": "漱玉拔短弩,四发弩矢洞穿萧迟双肩与膝盖骨",
+  "paywall_card": true,
+  "target_chars_min": 1230,
+  "target_chars_max": 1550,
+  "must_include": [
+    "金针刻刀划开萧迟脸皮",
+    "京畿三十六行行会私下传影",
+    "鬼参液烧声带",
+    "压声樊笼咒印玉牌",
+    "青铜镜片自划脸",
+    "短弩四矢"
+  ],
+  "must_not_write_as_exposition": [
+    "禁现代手术/直播/网络词汇",
+    "禁出现具体血腥解剖细节"
+  ]
+}

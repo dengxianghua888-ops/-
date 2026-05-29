@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "老债主门口 / 茶馆角落",
+  "time": "两天后傍晚",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "老债主",
+    "当年中间人"
+  ],
+  "character_goal": "查清陆晚月所谓‘替他家挡债保前程’的恩情真相。",
+  "opposition_goal": "当事人都想少沾麻烦，不愿多说旧事。",
+  "conflict_action": "她拿着年份和名字逐项核对，逼出两份前后对不上的口供与聊天记录。",
+  "information_gap": "齐衍深当年知道多少，是被骗还是自我美化。",
+  "emotional_debt_delta": "男主赖以自我合理化的旧恩情开始塌方。",
+  "payoff_or_hook": "所谓大恩，连时间都对不上。",
+  "chapter_end_hook": "截断句：‘她那年根本不在场。’",
+  "paywall_card": false,
+  "must_include": [
+    "年份、地点或债务细节至少落一个实锚",
+    "两份口供前后矛盾的直接呈现",
+    "女主不是审讯口气，而是冷静对时线"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇回顾旧案背景",
+    "不要靠巧合突然有人全盘托出"
+  ],
+  "rhythm_job": {
+    "shape": "低压查证-时线错位-一句掀翻",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0,
+    "ratio_note": "以问答和物证交替推进，中段留生活动作缓冲，章尾用一句口供翻案。"
+  }
+}

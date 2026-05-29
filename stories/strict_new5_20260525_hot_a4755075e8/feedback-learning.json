@@ -1,0 +1,131 @@
+{
+  "story_slug": "strict_new5_20260525_hot_a4755075e8",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "evidence": "核心证据链由医疗票据、银行流水、典当单、视频后台组成，形成“医疗+金流+遗物”闭锁。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "evidence": "开篇男方骗钱卖玉，结尾女主用“我原谅你，但我不会回来了”完成关系回旋式反杀。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "evidence": "男方从装病求助、假意递豆浆、试图补偿，到最终被明确拒绝，温和姿态持续反衬前期伤害。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "evidence": "反转层级依次为骗医药费、卖祖传玉饰、偷拍视频毁试岗、假孕、项目投流实锤、女主事业复位。"
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10445,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "ch1_club_transfer_exposure",
+      "hook": "祖传琴轸玉饰出现在小三耳边，同时转账记录当场曝光。",
+      "reusable_fact": "首章把“情感背叛+金钱背叛+祖传遗物”三件事捆在一个包厢场景里，能快速抬高读者愤怒值。"
+    },
+    {
+      "chapter": 5,
+      "scene_id": "ch5_dinner_fake_pregnancy",
+      "hook": "饭局抢回遗物时，小三抛出“我怀了”。",
+      "reusable_fact": "在公开场合抢物证后立刻抛出更高等级筹码，适合做中段付费拐点。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch8_live_broadcast_jade_break",
+      "hook": "直播镜头下祖传玉饰断成三截，旧刻痕暴露。",
+      "reusable_fact": "让关键物证在公开场面碎裂，可同时完成情绪爆点、视觉记忆点、真伪坐实。"
+    },
+    {
+      "chapter": 10,
+      "scene_id": "ch10_hospital_fake_record_check",
+      "hook": "医院导诊台当场指出孕检单编号、印章、校验码全错。",
+      "reusable_fact": "专业机构一句话核验，比主角单向猜测更有公信力，适合快速击穿谎言。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "ch11_ad_account_exposure",
+      "hook": "偷拍视频投流后台被投屏，备注写着“把她先做脏，再换人”。",
+      "reusable_fact": "后台账号、充值主体、设备清单三件套，适合把“谣言”升级为“蓄意操作”。"
+    },
+    {
+      "chapter": 14,
+      "scene_id": "ch14_final_rejection",
+      "hook": "“我原谅你，但我不会回来了。”",
+      "reusable_fact": "结尾金句要同时给出情感结案和关系终局，能提高闭环感。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 1,
+      "card_type": "首章爆点",
+      "moment": "陆晚月亮出转账记录并说“你唱一晚的钱，一半都在我卡里”。",
+      "function": "直接锁定渣男骗钱与第三者受益。"
+    },
+    {
+      "chapter": 5,
+      "card_type": "中段升级",
+      "moment": "饭局对峙中陆晚月宣称怀孕。",
+      "function": "把财物争夺升级为婚姻合法性威胁。"
+    },
+    {
+      "chapter": 8,
+      "card_type": "物证爆裂",
+      "moment": "直播现场祖传玉饰断裂，背面旧刻痕曝光。",
+      "function": "将遗物归属争议转为可传播画面。"
+    },
+    {
+      "chapter": 10,
+      "card_type": "伪证击穿",
+      "moment": "妇幼医院核验出孕检单为假。",
+      "function": "打掉小三核心护身符。"
+    },
+    {
+      "chapter": 11,
+      "card_type": "幕后实锤",
+      "moment": "投放后台显示偷拍视频由陆晚月上传、项目账户付费、齐衍深账号协同。",
+      "function": "把情感冲突升级为职场与项目层面的责任追究。"
+    },
+    {
+      "chapter": 14,
+      "card_type": "结尾回绝",
+      "moment": "女主收下“原谅”但拒绝“回来”。",
+      "function": "完成情绪释放与终局封口。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代反转",
+    "婚恋背叛",
+    "祖传遗物被卖",
+    "医疗票据造假",
+    "银行流水对账",
+    "偷拍视频毁事业",
+    "直播翻车",
+    "假怀孕",
+    "项目投流实锤",
+    "公开场合碎玉",
+    "女主职业复位",
+    "结尾明确不复合"
+  ],
+  "manual_revision_delta": []
+}

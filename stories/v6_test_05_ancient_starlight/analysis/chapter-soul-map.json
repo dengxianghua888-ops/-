@@ -1,0 +1,441 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [1, 22],
+      "char_count": 680,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 2.9,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.75,
+        "sentence_avg_len": 11.2
+      },
+      "emotion": {
+        "dominant_emotion": "紧张-暧昧",
+        "emotion_arc": "对峙紧张 → 暧昧暗示 → 得意离场",
+        "emotion_intensity": 7,
+        "reader_feeling_target": "好奇他们关系的同时被傅宴的嚣张气场吸引"
+      },
+      "highlights": {
+        "peak_moment": "傅宴用女主换江盈盈逼顾呈阳放人，顾呈阳被迫就范",
+        "peak_type": "power_shift",
+        "emotional_bomb": "顾呈阳把江盈盈推出去又拽回来的瞬间——暴露他对女主无所谓但不能失去江盈盈",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "傅宴把'交换'当游戏玩的轻佻态度——到底谁才是猎物？"
+      },
+      "techniques": [
+        {
+          "technique": "交换要挟的权力博弈",
+          "example": "\"也不错。这样，我把沈闻还给你，你把她给我，顾总，好事总不能全让你占了吧？\"",
+          "effect": "把女性角色当筹码的话语方式制造读者不适感，同时暗示傅宴的真实意图（他是故意的）"
+        },
+        {
+          "technique": "推-拽矛盾动作暴露真实优先级",
+          "example": "顾呈阳想都没想，把她推了出去。/在傅宴伸手的时候，顾呈阳又毫不犹豫的把人拽回怀里。",
+          "effect": "两个矛盾动作瞬间暴露：江盈盈 > 沈闻在顾呈阳心中的排序，无需任何解释"
+        },
+        {
+          "technique": "冷静反差——情绪零度的叙述者",
+          "example": "顾呈阳说的也不全错。年轻人的滋味，确实不错。",
+          "effect": "女主用最轻描淡写的两句话确认了与傅宴的关系，冷静到读者替顾呈阳慌"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "好事总不能全让你占了吧？",
+          "structure": "反问+利益分配逻辑的游戏化表达",
+          "why_it_works": "把严肃对峙降格为商业谈判的口吻，显示傅宴完全不在乎对方的威胁"
+        },
+        {
+          "text": "年轻人的滋味，确实不错。",
+          "structure": "肯定句+评价语气+单一形容词",
+          "why_it_works": "女主用评价美食的口吻评价性关系，冷静到近乎挑衅，打破读者对受害者的预期"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话频率和动作密度维持张力，零描写零心理",
+      "chapter_end_hook": {
+        "text": "不是变化快，而是我怀孕了。",
+        "hook_type": "revelation_half",
+        "hook_technique": "用否定+转折的极短句投下炸弹，信息量巨大但不展开",
+        "suspense_mechanism": "孩子是谁的？她会怎么处理？对方知道吗？三个问号同时炸开"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [23, 42],
+      "char_count": 720,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 16.2,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 4.2,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.55,
+        "impact_density": 0.60,
+        "sentence_avg_len": 14.5
+      },
+      "emotion": {
+        "dominant_emotion": "隐忍-孤独",
+        "emotion_arc": "平静出发 → 意外怀孕 → 被拦截的无奈 → 对旧爱的疲惫",
+        "emotion_intensity": 5.5,
+        "reader_feeling_target": "心疼女主的独自承担，同时对江盈盈出现感到警觉"
+      },
+      "highlights": {
+        "peak_moment": "车门拉开不是顾呈阳而是江盈盈——预期颠覆",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "江盈盈反过来替顾呈阳求女主去看他——施虐者的帮凶在扮演善意",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "\"他出车祸了，人刚醒\"——这是真的还是套路？"
+      },
+      "techniques": [
+        {
+          "technique": "一句话时间压缩",
+          "example": "一个月左右，我就回来了。不是变化快，而是我怀孕了。",
+          "effect": "跳过一个月的时间流只用两句话，节奏不拖泥带水，同时制造信息冲击"
+        },
+        {
+          "technique": "第三者的善意伪装",
+          "example": "\"他很想你，姐姐跟我去看看吧？\"看似是询问，可江盈盈也并没有要停车的打算。",
+          "effect": "一句叙述揭穿善意的虚假性：嘴上问你要不要去，车已经在开了——读者对江盈盈产生警惕"
+        },
+        {
+          "technique": "身体反应替代情绪词",
+          "example": "过去一个月，原本灵动的眼睛，此刻都是疲倦。",
+          "effect": "不说江盈盈\"过得不好\"，用眼睛的前后对比让读者自己感知——暗示顾呈阳也在折磨她"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我没时间跟你在这叙旧。",
+          "structure": "主语+否定+具体动作+场景定位",
+          "why_it_works": "女主用最日常的拒绝方式表达对整段关系的不在乎，'叙旧'一词把过去七年降格为无关紧要"
+        },
+        {
+          "text": "看似是询问，可江盈盈也并没有要停车的打算。",
+          "structure": "表象陈述+转折+行为揭穿",
+          "why_it_works": "用一句叙述就完成了对一个角色虚伪性的定性，不需要任何评价词"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半段用时间压缩快速推进，后半段用江盈盈的对话拉起新悬念",
+      "chapter_end_hook": {
+        "text": "捏着怀孕五周的检验报告，手有点凉。坐在走廊，我看着傅宴的电话，始终没打过去。",
+        "hook_type": "silent_threat",
+        "hook_technique": "物理化情绪（手凉）+ 悬而未决的动作（没打电话）构成双重悬念",
+        "suspense_mechanism": "她为什么不打？傅宴知不知道？她接下来要怎么办？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [43, 72],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.0,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 5.9,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.82,
+        "sentence_avg_len": 12.0
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-压制",
+        "emotion_arc": "到场 → 看见顾呈阳的荒唐 → 被当众贬低 → 隐忍到极限",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "替女主愤怒到窒息，恨不得冲进去替她说话"
+      },
+      "highlights": {
+        "peak_moment": "顾呈阳当众说\"是，为什么不是？你现在说这么多，难道不丢人吗？\"",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "女主问\"在你眼里我是个很差的人么\"——这是她七年来最脆弱的一次开口，换来的是最狠的一刀",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "顾呈阳连续五层贬低，女主只说\"算了\"——沉默比爆发更让人心碎"
+      },
+      "techniques": [
+        {
+          "technique": "五层递进贬低的情绪债叠加",
+          "example": "\"别演了\"→\"他傅宴再不济也不是不挑不拣的\"→\"是，为什么不是？你现在说这么多，难道不丢人吗？\"",
+          "effect": "每层贬低都比上一层更针对核心人格价值，让读者的愤怒从不满→愤怒→暴怒阶梯式升级"
+        },
+        {
+          "technique": "沉默反击——用\"算了\"代替爆发",
+          "example": "虽然猜到了这个答案，可真真切切听见后，还是觉得伤人。算了。",
+          "effect": "女主越不反击，读者替她出气的欲望越强——沉默制造的张力远超吵架"
+        },
+        {
+          "technique": "泳池视觉对比——伤员在玩乐",
+          "example": "顾呈阳蒙着眼睛，在泳池上下抓着年轻的小姑娘。他脚踝上的纱布渗着血。",
+          "effect": "\"出车祸住院\"的谎言被泳池玩乐瞬间戳破，纱布渗血的细节暗示他完全不在乎自己（更不在乎女主）"
+        },
+        {
+          "technique": "错误解读的喜剧性——他以为她来找自己",
+          "example": "\"刚回来就找我的人，不好吧？\"",
+          "effect": "顾呈阳的自信建立在完全错误的前提上，读者知道真相后这种自信变得可笑，为后续打脸蓄力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "在你眼里，我是个很差的人么？",
+          "structure": "\"在你眼里\"+疑问句+自我价值定位",
+          "why_it_works": "全文唯一一次女主主动询问自我价值，是最脆弱的一刻——得到的否定答案成为全文最强情绪债"
+        },
+        {
+          "text": "虽然猜到了这个答案，可真真切切听见后，还是觉得伤人。算了。",
+          "structure": "让步从句+转折+情绪词+两字收束",
+          "why_it_works": "\"算了\"两个字比任何长段独白都有力——它宣告了七年感情的终结，不是爆发式的，是放下式的"
+        },
+        {
+          "text": "他傅宴再不济，也不是不挑不拣的。",
+          "structure": "第三人称+双重否定+隐含贬低",
+          "why_it_works": "不直说\"你不配\"而用\"他不会选你\"来贬低，间接比直接更伤人——同时为傅宴后面\"偏偏选她\"埋下反差"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠对话频率和连续质问推动张力，每一轮对话都升级一层冲突",
+      "chapter_end_hook": {
+        "text": "我干脆转身往外走。一道慵懒的声音从远处传来。\"来找我？\"",
+        "hook_type": "power_reversal",
+        "hook_technique": "在女主最无力的时刻，用一个声音打破僵局——慵懒的语气与紧张氛围形成极致反差",
+        "suspense_mechanism": "傅宴什么时候来的？他听到了多少？他会怎么做？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [73, 100],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.88,
+        "sentence_avg_len": 13.8
+      },
+      "emotion": {
+        "dominant_emotion": "反转-震撼",
+        "emotion_arc": "傅宴登场 → 真相揭示 → 顾呈阳困惑 → 权力倒转",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "爽感第一波——终于有人替她说话了，而且是用最轻描淡写的方式"
+      },
+      "highlights": {
+        "peak_moment": "傅宴说\"从你出医院开始，你的检验报告就已经在我的桌上了\"——揭示他早已掌控一切",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "\"把人放进来\"一句话全场让路——傅宴的权力辐射瞬间具象化",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "\"告诉他，你去医院干什么了\"——傅宴替女主开口的瞬间"
+      },
+      "techniques": [
+        {
+          "technique": "一句话权力展示——环境反应替代能力描述",
+          "example": "傅宴抬抬下巴，\"把人放进来。\"乌泱泱的地方，突然腾出空地。",
+          "effect": "不说\"他很有权势\"，用全场人的身体反应（让路）来证明权力——视觉化>语言化"
+        },
+        {
+          "technique": "信息掌控的碾压感",
+          "example": "\"知道。从你出医院开始，你的检验报告就已经在我的桌上了。\"",
+          "effect": "一句话揭示傅宴的信息网络远超预期，女主以为的\"秘密\"对他完全透明——掌控者姿态确立"
+        },
+        {
+          "technique": "慵懒语气与紧张场面的反差",
+          "example": "一道慵懒的声音从远处传来。\"来找我？\"",
+          "effect": "所有人都在紧张（女主被困、顾呈阳在吼），只有傅宴是松弛的——松弛=绝对自信=绝对实力"
+        },
+        {
+          "technique": "不完整信息的悬念保留",
+          "example": "\"告诉他，你去医院干什么了。\"顾呈阳肯定的说着，\"她去医院见我。\"傅宴也跟着笑了，\"行，你就当是吧。\"",
+          "effect": "傅宴不揭穿、不解释，只留一个笑——让顾呈阳的错误自信继续维持，为后续更大打脸蓄力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "从你出医院开始，你的检验报告就已经在我的桌上了。",
+          "structure": "时间起点+信息掌控事实陈述",
+          "why_it_works": "时间差揭示——女主还在犹豫要不要告诉他，他已经知道了全部，这种信息不对称产生安全感和掌控感"
+        },
+        {
+          "text": "行，你就当是吧。",
+          "structure": "肯定词+让步+语气词",
+          "why_it_works": "五个字的让步比任何反驳都有杀伤力——\"你爱怎么想怎么想，真相我不屑跟你说\"的姿态"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "突变-余震",
+      "pacing_note": "傅宴出场是一个突变点，之后的节奏靠信息逐步释放维持——不是对抗，是降维",
+      "chapter_end_hook": {
+        "text": "\"你这回国检查的还真会挑时候，我这一口酒都没喝上呢。\"",
+        "hook_type": "contrast_shock",
+        "hook_technique": "用抱怨没喝酒的玩笑口吻处理\"你怀了我的孩子\"这件大事——极致反差",
+        "suspense_mechanism": "他对怀孕什么态度？他接下来要做什么？\"更顺理成章\"是什么意思？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [101, 135],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 16.8,
+        "comma_period_ratio": 0.60,
+        "question_mark_density_per_1k": 5.7,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.52,
+        "impact_density": 0.90,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "震撼-温暖",
+        "emotion_arc": "协商冷静 → 走入正厅 → 震撼 → 被接住的温暖 → 官宣的爽快",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "被傅家的全员接纳震到起鸡皮疙瘩，替女主觉得\"终于被人当回事了\""
+      },
+      "highlights": {
+        "peak_moment": "走入正厅，全家老小站起来看她肚子，桌上红纸字迹还没干透，老太爷奋笔疾书",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "七年不被娶 vs 认识一月就全家红纸备彩礼——时间对比的极致羞辱性反差",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "\"认识江盈盈不过三天，他就求了婚，我们的一个月，还算早么？\"——用顾呈阳的标准打脸顾呈阳"
+      },
+      "techniques": [
+        {
+          "technique": "仪式感碾压——用具象物件堆叠价值认可",
+          "example": "桌上全是红纸，上面的字迹还没有完全干透。最里面拿着毛笔奋笔疾书的，是傅家的老太爷。",
+          "effect": "\"字迹没干透\"说明是刚写的（为她准备的），\"老太爷亲自写\"说明规格最高——不用说\"重视\"，物件自己说话"
+        },
+        {
+          "technique": "超预期清单——用服务项目量化珍视程度",
+          "example": "月子营养单，月嫂，营养师，厨师，恢复教练，还有一份不动产变更协议",
+          "effect": "名词堆叠制造\"考虑得比你自己还周全\"的冲击感——每多一项，读者的感动就多一层"
+        },
+        {
+          "technique": "回旋打脸——用对方的标准反证对方的失败",
+          "example": "\"认识江盈盈不过三天，他就求了婚，我们的一个月，还算早么？\"",
+          "effect": "M3因果回旋的经典应用：不是我在炫耀有人娶我，是用你自己的行为证明你有多失败"
+        },
+        {
+          "technique": "当众宣告——舞台化公开",
+          "example": "\"我跟沈闻订婚，八天后请大家喝喜酒。希望大家以后对我太太尊重一点，谢谢。\"",
+          "effect": "公开场合+\"我太太\"+\"尊重\"三个关键词——既是宣誓主权也是给旧爱当众打脸"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "认识江盈盈不过三天，他就求了婚，我们的一个月，还算早么？",
+          "structure": "对方案例+时间数字+反问",
+          "why_it_works": "用顾呈阳自己的行为逻辑反驳女主的犹豫——不是傅宴在说\"我多爱你\"，而是\"你前任比我更离谱你还觉得我快？\""
+        },
+        {
+          "text": "她只是要跟我结婚了，但冷战你赢了，你应该高兴的。",
+          "structure": "让步句+转折+反讽建议",
+          "why_it_works": "傅宴把\"娶走你女人\"说得像小事，把\"冷战赢了\"说成安慰——降格处理是最高级的嘲讽"
+        },
+        {
+          "text": "桌上全是红纸，上面的字迹还没有完全干透。",
+          "structure": "视觉描写+时间状态细节",
+          "why_it_works": "\"没干透\"三个字承载了全部叙事功能：刚写的=为她准备的=她被等待的=她被重视的——一个物理细节做了五句话的工作"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发-余韵",
+      "pacing_note": "前半段用协商对话蓄力（女主还在犹豫），走入正厅是爆发点，官宣后是余韵",
+      "chapter_end_hook": {
+        "text": "我走的远了，后面的话，我一句没听清。也不知道他们说了什么。直到结婚那天，才有了顾呈阳的消息。",
+        "hook_type": "cliff_action",
+        "hook_technique": "用\"没听清\"切断信息流+\"直到结婚那天\"的时间跳跃，制造\"顾呈阳要搞事\"的预感",
+        "suspense_mechanism": "顾呈阳会做什么？他有能力阻止婚礼吗？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [136, 165],
+      "char_count": 750,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 1.3,
+        "direct_dialogue_rate": 0.30,
+        "short_line_rate_lte16": 0.60,
+        "impact_density": 0.95,
+        "sentence_avg_len": 13.5
+      },
+      "emotion": {
+        "dominant_emotion": "碾压-圆满",
+        "emotion_arc": "危机出现 → 傅宴轻描淡写 → 反杀碾压 → 温柔收束",
+        "emotion_intensity": 10,
+        "reader_feeling_target": "极致爽感——所有情绪债在此刻全部兑现，读者应有\"太爽了\"的脱口而出感"
+      },
+      "highlights": {
+        "peak_moment": "十五分钟填窟窿，二十分钟让顾家破产——屏幕从红变绿",
+        "peak_type": "power_shift",
+        "emotional_bomb": "婚礼屏幕从婚纱照变成股市数字再变绿——视觉化碾压的极致表达",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "\"几个亿而已，亏就亏了\"——傅宴在婚礼上说这话的松弛感"
+      },
+      "techniques": [
+        {
+          "technique": "数字阶梯碾压——用精确数据替代形容词",
+          "example": "从六十万，亏到十三个亿。红色的数字不断增长。/十五分钟时间，硬是将窟窿填满。二十分钟，让顾家破产。",
+          "effect": "60万→13亿的数字跳跃比\"损失惨重\"有力100倍；15分钟→20分钟的精确时间比\"很快\"有力100倍"
+        },
+        {
+          "technique": "轻描淡写面对危机——松弛感=绝对实力",
+          "example": "\"吉时快到了，要敬茶了，几个亿而已，亏就亏了，你们管他干什么\"",
+          "effect": "别人蒸发几个亿慌得要死，傅宴在意的是敬茶吉时——优先级的反差直接定义了能力量级"
+        },
+        {
+          "technique": "屏幕视觉化——把金融数据变成婚礼布景",
+          "example": "我们婚礼的屏幕上，也从婚纱照变成了股市蒸发金额。",
+          "effect": "婚礼幸福场景被敌意入侵→再被碾压翻转，同一块屏幕承载了\"攻击-防御-反杀\"的全过程"
+        },
+        {
+          "technique": "身份标签反转——\"二世祖\"的重新定义",
+          "example": "今天来的人，都对这个傅家二世祖，有了新的看法。",
+          "effect": "一句叙述完成M2的最终落地：所有人（包括读者）对傅宴的认知彻底刷新——不是纨绔，是藏锋"
+        },
+        {
+          "technique": "温柔收束——碾压后的轻盈",
+          "example": "他随口说着，\"今天赚的钱，都算你的彩礼。\"我歪头笑笑，\"好啊。\"",
+          "effect": "刚碾压完对手就转头温柔撒糖——\"随口\"和\"歪头笑笑\"的松弛把暴力级别的金融战降格为情侣间的日常，反差制造甜感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "几个亿而已，亏就亏了，你们管他干什么，我的账户融进去了，他想玩，慢慢玩去。",
+          "structure": "量化轻描+让步+主动迎战的松弛句式",
+          "why_it_works": "\"几个亿而已\"四个字完成了身份反差的最终证明——能说出这话的人，已经不需要任何其他证明"
+        },
+        {
+          "text": "今天赚的钱，都算你的彩礼。",
+          "structure": "时间限定+全量归属+关系定位词",
+          "why_it_works": "把碾压对手赚来的钱直接命名为\"彩礼\"——让金融战的意义从\"报复\"变成\"宠爱\"，升华了全文主题"
+        },
+        {
+          "text": "等婚礼结束，我让他知道，傅家为什么百年不衰。",
+          "structure": "时间条件+因果预告+家族宣言",
+          "why_it_works": "既是傅宴个人能力的预告也是家族底蕴的亮相——\"百年不衰\"四字的分量让顾呈阳的挑衅显得可笑"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "匀速高压-爆发-温柔着陆",
+      "pacing_note": "前半靠数字跳动维持紧张感，反杀是爆发点，收尾用两句轻松对话完成情绪着陆",
+      "chapter_end_hook": {
+        "text": "无论我们再怎么渺小，阳光都会一般无二的照过来。不惧风雨，不畏狂风。种子总会生根发芽，愿我光芒万丈。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "全文以抒情收束，与前文的极度克制形成收尾反差——全文唯一允许的抒情段放在最后",
+        "suspense_mechanism": "N/A（全文完结，情绪满足式收束）"
+      }
+    }
+  ],
+  "global_soul_signature": "用极短句+零解释+行动碾压的叙事方式，让被轻贱的女主不靠一句辩解、只靠身边人的行动级别差异，完成从屈辱到被尊重的全过程——沉默是最强的反击，数字是最强的情话。"
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260520_ancient_starlight_fall/final.md",
+    "target_length": {
+      "min": 11200,
+      "max": 13600,
+      "actual": 13019,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        768,
+        770,
+        723,
+        874,
+        743,
+        791,
+        741,
+        906,
+        725,
+        814,
+        823,
+        918,
+        825,
+        810,
+        835,
+        763
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 157,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13019,
+      "sentence_count": 908,
+      "avg_sentence_length": 13.338,
+      "dialogue_ratio": 0.1437,
+      "question_marks": 39,
+      "question_marks_per_k": 2.996,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "喉咙": 1,
+        "眼眶": 1,
+        "掌心": 9
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.956
+    },
+    "semantic_repetition": {
+      "sentence_count": 642,
+      "unique_sentence_skeletons": 642,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0016
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.4
+  },
+  "evidence": [
+    {
+      "route": "platform",
+      "scene": "scene-01",
+      "quote": "“她只是经纪人。”",
+      "assessment": "开篇公开羞辱直接入局，首屏点击欲成立。"
+    },
+    {
+      "route": "platform",
+      "scene": "scene-04",
+      "quote": "谢砚把孕检报告压在掌心：“陆沉舟还不知道，对吗？”",
+      "assessment": "孕检报告与信息差形成第一处付费卡点。"
+    },
+    {
+      "route": "emotion",
+      "scene": "scene-08",
+      "quote": "孩子随母亲受谢家保障，母亲本人更该受谢家礼待。",
+      "assessment": "公开羞辱债与身份低估债得到公开偿还。"
+    },
+    {
+      "route": "style",
+      "scene": "scene-06",
+      "quote": "我摘下陆沉舟送的旧戒指，扔进了片场垃圾桶。",
+      "assessment": "用物理动作完成切割，少解释、强画面。"
+    },
+    {
+      "route": "logic",
+      "scene": "scene-14",
+      "quote": "证据来自各合作方自愿提交，原件已同步监管和公证处。",
+      "assessment": "终局反击落在合同、监管、公证链上，避免非法报复。"
+    }
+  ]
+}

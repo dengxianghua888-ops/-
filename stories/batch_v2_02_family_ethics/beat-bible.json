@@ -1,0 +1,104 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 12000},
+  "title": "产房",
+  "genre": "family_ethics",
+  "mechanisms": ["M3_causal_boomerang", "M5_temperature_reversal", "M6_multi_layer_escalation"],
+  "opening_structure": "conflict_first",
+  "climax_budget_note": "B6-B7-B8 are climax beats, get 35% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "急诊夜",
+      "budget_role": "opening", "budget_pct": "8%",
+      "target_chars_min": 800, "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "must_include": ["女主怀孕六个月值夜班", "车祸伤者送进来是丈夫的小三", "丈夫比女主先到急诊大厅", "女主认出丈夫声音"]
+    },
+    {
+      "beat_id": "B2", "title": "热粥冷水",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["丈夫在急诊厅搂着小三哭", "女主回忆婚前他等她下夜班送粥", "温度对照：那时多暖现在多冷", "女主发现小三怀孕四个月"]
+    },
+    {
+      "beat_id": "B3", "title": "电话谎言",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 800, "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "must_include": ["丈夫发消息说出差", "女主不揭穿只说'知道了'", "回忆孕期他嫌她值班多不顾家", "其实都是去陪小三的借口"]
+    },
+    {
+      "beat_id": "B4", "title": "全家知情",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["小三在女主医院产检全科都知道", "公婆知情帮隐瞒", "婆婆让女主忍着说男人都这样", "女主在休息室听到同事议论"]
+    },
+    {
+      "beat_id": "B5", "title": "病历",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 900, "target_chars_max": 1100,
+      "is_climax_beat": false,
+      "must_include": ["女主查自己的孕检病历发现异常", "有人用丈夫工号改过她的用药记录", "改的是孕期禁用药", "女主对丈夫最后一丝希望破灭"]
+    },
+    {
+      "beat_id": "B6", "title": "流产",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1100, "target_chars_max": 1400,
+      "is_climax_beat": true,
+      "must_include": ["女主提前终止妊娠保命", "手术日正好是结婚纪念日", "丈夫打电话来问为什么不接他消息", "护士喊她进手术室那一刻丈夫在电话里听见了"]
+    },
+    {
+      "beat_id": "B7", "title": "摊牌",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1100, "target_chars_max": 1400,
+      "is_climax_beat": true,
+      "must_include": ["女主出院搬离", "丈夫追来被当面揭穿", "病历证据摔在他脸上", "他崩溃说不是故意的", "女主反问句连击打脸"]
+    },
+    {
+      "beat_id": "B8", "title": "开怼",
+      "budget_role": "climax", "budget_pct": "11%",
+      "target_chars_min": 1000, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["丈夫仍想PUA说她小题大做", "女主语言姿态从隐忍变锋利", "连续反问短句打脸", "宣布离婚不可逆"]
+    },
+    {
+      "beat_id": "B9", "title": "公婆",
+      "budget_role": "resolution", "budget_pct": "8%",
+      "target_chars_min": 800, "target_chars_max": 1000,
+      "is_climax_beat": false,
+      "must_include": ["公婆上门劝和", "婆婆哭说家丑不外扬", "女主把病历证据给公婆看", "公公沉默婆婆说不出话"]
+    },
+    {
+      "beat_id": "B10", "title": "断粮",
+      "budget_role": "resolution", "budget_pct": "7%",
+      "target_chars_min": 700, "target_chars_max": 900,
+      "is_climax_beat": false,
+      "must_include": ["M3因果回旋：女主离职丈夫医药代表断了关系", "医院取消他的准入资格", "客户流失业绩归零", "他求女主帮忙被拒"]
+    },
+    {
+      "beat_id": "B11", "title": "反噬",
+      "budget_role": "resolution", "budget_pct": "5%",
+      "target_chars_min": 500, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "must_include": ["小三怀孕后丈夫故技重施", "小三发现他本性后和他互撕", "因果闭环：害人者被同样的方式伤害"]
+    },
+    {
+      "beat_id": "B12", "title": "新生",
+      "budget_role": "closure", "budget_pct": "3%",
+      "target_chars_min": 300, "target_chars_max": 500,
+      "is_climax_beat": false,
+      "must_include": ["半年后女主跳槽三甲医院护士长", "离婚证办好", "不原谅不回头", "人生还很长"]
+    }
+  ],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [14, 20],
+    "long_line_rate_max": 0.15,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.55,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 10.0
+  }
+}

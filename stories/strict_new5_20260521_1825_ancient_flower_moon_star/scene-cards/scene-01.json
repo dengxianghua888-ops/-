@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "港区医院急救走廊",
+  "time": "爆燃事故当夜",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "闻砚舟",
+    "医生",
+    "护士"
+  ],
+  "character_goal": "确认孩子是否还在，并听清手术背后的真实决定。",
+  "opposition_goal": "闻砚舟要让她继续相信一切只是抢救意外。",
+  "conflict_action": "岑砚灯拔掉输液针偷听，正撞见闻砚舟与医生谈是否保留她的子宫。",
+  "information_gap": "她只知道失去孩子，不知道摘宫是被选择出来的结果。",
+  "emotional_debt_delta": "从依赖闻砚舟转为第一次真正发冷。",
+  "payoff_or_hook": "闻砚舟没有先问她疼不疼，而是先问宋知澜那边压下去没有。",
+  "chapter_end_hook": "截断在医生那句‘闻总，您确定不保子宫？’",
+  "paywall_card": false,
+  "must_include": [
+    "术后踉跄偷听",
+    "闻砚舟一句控制型安抚",
+    "风暴/压舱石意象第一次反向发冷"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇解释爆燃事故原因",
+    "不要复盘两人恋爱史",
+    "不要写医疗常识说明"
+  ],
+  "rhythm_job": {
+    "shape": "动作切入-两句冷对白-短回忆反刺-硬截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海上纪录片首映直播与海运中心大屏前厅",
+  "time": "当晚",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "杨昭宁",
+    "裴砚潮",
+    "主持人",
+    "来宾",
+    "直播观众"
+  ],
+  "character_goal": "拿回值班簿后离场，不再被公开展示。",
+  "opposition_goal": "杨昭宁要借直播把她彻底打成脏人，裴砚潮要她别再闹事。",
+  "conflict_action": "杨昭宁放出剪过的黑港片段，暗示她靠男人活下来；现场大屏、主持串词和评论区一起围剿她，裴砚潮默认这一切继续。",
+  "information_gap": "原始影像里被剪掉的部分是什么；裴砚潮是不是知道画面被动过手脚。",
+  "emotional_debt_delta": {
+    "add": [
+      "公开舆论会把她逼到哪一步",
+      "原始影像能否翻案"
+    ],
+    "pay": [
+      "把私人羞辱升级为公众定罪"
+    ]
+  },
+  "payoff_or_hook": "她看着自己被定格在大屏上，像看一具提前公开的尸体。",
+  "chapter_end_hook": "截断句：直播大屏上，她被钉成一个疯子。",
+  "paywall_card": true,
+  "must_include": [
+    "弹幕/评论/吐槽",
+    "剪过的黑港片段",
+    "杨昭宁温柔措辞里的陷害",
+    "裴砚潮沉默默认"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述纪录片剧情",
+    "不要让弹幕消失"
+  ],
+  "rhythm_job": {
+    "shape": "弹幕3成，对白2成，动作3成，呼吸点2成；弹幕负责误导，动作负责压迫，章尾卡在大屏定格",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 4,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

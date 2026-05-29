@@ -1,0 +1,163 @@
+pipeline_mode: production
+status: final
+title: 火场他抱走姐姐后，我撤回了救命声源
+genre: 现代言情
+primary_tags:
+  - 追妻火葬场
+  - 替嫁
+  - 离婚后
+  - 证据流
+  - 豪门虐渣
+  - 事业逆袭
+  - 不复婚
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source: user_supplied_phase6_materials
+  generated_date: '2026-05-19'
+  source_files:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+quality_gate:
+  pass
+  score_scale: 0-10
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.6
+    emotion: 8.8
+    style: 7.7
+    logic: 7.5
+  machine_metrics:
+    target_length:
+      min: 11000
+      max: 15000
+      actual_estimate: 12350
+      status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      length_status: pass
+    paywall_cards:
+      required: 4
+      actual: 4
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      one_sentence_per_paragraph:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 4
+      visible_paywall_labels_in_body:
+        status: pass
+        count: 0
+revision_applied:
+  - 修正第二章离婚法律流程为法院调解书生效。
+  - 将章末第三人称提要改为正文内第一人称钩子。
+  - 统一第十六章视角并明确三年后转场。
+  - 保留正文无内部节点标记。
+chapters:
+  - id: ch01
+    file: final-chapters/ch01.md
+    hook: 这一次，我不打算再等他松手。
+  - id: ch02
+    file: final-chapters/ch02.md
+    hook: 热搜第一，是沈明姝的哭诉视频。
+  - id: ch03
+    file: final-chapters/ch03.md
+    hook: 他终于发现，所有备份权限都被我撤走了。
+  - id: ch04
+    file: final-chapters/ch04.md
+    hook: 下一秒，他的直播间被满屏问号淹没。
+  - id: ch05
+    file: final-chapters/ch05.md
+    hook: 这一次，门外的人才是进不来的人。
+  - id: ch06
+    file: final-chapters/ch06.md
+    hook: 我把登机牌递出去，没有再回头。
+  - id: ch07
+    file: final-chapters/ch07.md
+    hook: 他只是听见了我的求救，也选择了离开。
+  - id: ch08
+    file: final-chapters/ch08.md
+    hook: 她转身喊来了陆景辞。
+  - id: ch09
+    file: final-chapters/ch09.md
+    hook: 收件人一栏，清清楚楚写着沈知晚。
+  - id: ch10
+    file: final-chapters/ch10.md
+    hook: 陆景辞用了两年的康复系统，署名也是沈知晚。
+  - id: ch11
+    file: final-chapters/ch11.md
+    hook: 弹幕却替她倒放了那句没人会信。
+  - id: ch12
+    file: final-chapters/ch12.md
+    hook: 沈父这才给我打来电话，开口却还是让我把事情压下去。
+  - id: ch13
+    file: final-chapters/ch13.md
+    hook: 沈家终于跪在门外，可我已经不需要任何人把门打开。
+  - id: ch14
+    file: final-chapters/ch14.md
+    hook: 他手里的复婚协议，被攥出一道深深的折痕。
+  - id: ch15
+    file: final-chapters/ch15.md
+    hook: 我停了一秒，一字一句告诉他，不会复婚，也不会回头。
+  - id: ch16
+    file: final-chapters/ch16.md
+    hook: 而我向前走时，已经听不见身后任何人的呼喊。
+submission:
+  selected_title: 火场他抱走姐姐后，我撤回了救命声源
+  title_options:
+    A: 火场他抱走姐姐后，我撤回了救命声源
+    B: 丈夫火场救姐姐后，我让他失去止痛声源
+    C: 他让我自己找路，我把余生还给自己
+  paywall_node_count: 4
+  paywall_nodes:
+    - chapter: 4
+      type: 证据半露
+      summary: 第一批公证材料上线。
+    - chapter: 8
+      type: 真相卡住
+      summary: 消防时间轴定格沈明姝装困。
+    - chapter: 12
+      type: 交易坐实
+      summary: 保姆证词、旧录音和群聊坐实替嫁。
+    - chapter: 15
+      type: 反击兑现
+      summary: 陆景辞求复婚被明确拒绝。
+total_chars: 12172
+chapter_count: 16
+paywall_cards: 8
+critic_scores:
+  logic: 7.5
+  style: 7.7
+  emotion: 8.8
+  platform: 8.6
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260519_215143
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

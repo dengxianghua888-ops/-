@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 471,
+  "target_chars_max": 631,
+  "location": "陆家家庙外、陆宅药房",
+  "time": "初冬清晨，沈照棠被放出家庙当日",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "苏云屏",
+    "陆家嬷嬷",
+    "药房小厮"
+  ],
+  "character_goal": "沈照棠只求带阿砚离开陆家。",
+  "opposition_goal": "陆衡舟要她安分回宅，苏云屏要正式占住阿砚的位置。",
+  "conflict_action": "沈照棠走出家庙后直奔药房，撞见陆衡舟扶着苏云屏试安胎药；她提出带阿砚离开，陆衡舟当众拒绝，苏云屏命人把阿砚小屋里的小药杵丢进火盆。",
+  "information_gap": "阿砚被送去童药堂后的真实伤情暂不揭开。",
+  "emotional_debt_delta": {
+    "added": [
+      "三年囚禁后的公开背刺",
+      "孩子房间被反派占走",
+      "男主拒绝母子离开"
+    ],
+    "paid": [],
+    "balance_after": "女主异常平静与读者愤怒同时建立。"
+  },
+  "payoff_or_hook": "火盆里的小药杵证明阿砚的位置已经被抹掉。",
+  "chapter_end_hook": "火盆里烧着阿砚的小药杵，沈照棠第一次没有哭。",
+  "paywall_card": false,
+  "must_include": [
+    "前300字内出现沈照棠被释放后的异常平静",
+    "陆衡舟扶苏云屏试安胎药的公开越界",
+    "沈照棠说出要带阿砚离开",
+    "阿砚被送进童药堂的爆雷",
+    "小药杵被丢进火盆"
+  ],
+  "must_not_write_as_exposition": [
+    "不要概述三年囚禁史，要用手腕勒痕、旧僧衣、家庙门闩呈现。",
+    "不要解释陆家药脉制度，用苏云屏占屋和陆衡舟拒绝体现。",
+    "不要把苏云屏写成无辜孕妇，她必须主动夺屋毁物。"
+  ],
+  "target_chars": 491,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

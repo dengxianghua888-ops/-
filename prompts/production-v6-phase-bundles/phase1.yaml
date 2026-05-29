@@ -1,0 +1,15 @@
+phase: 1
+key: market_brief
+role: Market Strategist
+title: 番茄短故事市场简报
+system_prompt: prompts/production/market-brief.md
+human_gate: none
+retryable: false
+required_inputs:
+  - workspace.yaml
+  - corpus/_index.json
+  - story/source.md
+required_outputs:
+  - market-brief.json
+validators:
+  - validate-production-story:phase1

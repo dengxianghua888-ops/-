@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 620,
+  "target_chars_max": 750,
+  "location": "林家门口/街道",
+  "time": "一年后",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "沈墨白"
+  ],
+  "character_goal": "拒绝廉价忏悔",
+  "opposition_goal": "沈墨白求原谅",
+  "conflict_action": "沈墨白出狱跪门口→女主拉行李箱经过→说了一句话→走了",
+  "information_gap": "沈墨白以为还有机会",
+  "emotional_debt_delta": "-1(M5温度终点)",
+  "payoff_or_hook": "绝对零度=最终姿态",
+  "chapter_end_hook": "我拉着行李箱从他面前走过，没有停下。",
+  "paywall_card": false,
+  "must_include": [
+    "沈墨白的惨状",
+    "女主的一句金句",
+    "毫不犹豫的背影"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写沈墨白的忏悔长段",
+    "不要让女主内心有波动"
+  ],
+  "rhythm_job": {
+    "shape": "跪求→冷拒→离开",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  }
+}

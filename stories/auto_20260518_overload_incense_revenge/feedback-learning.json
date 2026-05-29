@@ -1,0 +1,110 @@
+{
+  "story_slug": "auto_20260518_overload_incense_revenge",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "同规则反杀",
+      "execution": "李凯用合同字面坑苏柠超载罚三千二+扣六分；苏柠以同一份合同字面只卸两吨开车走人，多出那一吨按法律走林业局-海关-公安-法庭，把他自己送进监狱五年六个月+五百万罚金。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "李凯电话原话'女司机就是女司机''你这辈子别想再开一公里'——结尾女主拒收平台五万双倍退款的同时签下大型国企长约，重新驶上高速。"
+    }
+  ],
+  "target_length": {"min": 10000, "max": 13500},
+  "final_length": 10603,
+  "quality_scores": {
+    "platform": 8.5,
+    "emotion": 8.3,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "过磅显示三吨——合同写两吨——李凯笑'女司机就是女司机'——三千二罚款扣六分。",
+      "reuse_fact": "现代反转开篇 1100 字内可叠加'合同陷阱+过磅作弊+电话嘲讽+罚款扣分+卸两吨开走'五重反差,无需金手指。"
+    },
+    {
+      "chapter": 2,
+      "hook": "防爆玻璃裂成蛛网——铝合金棒球棍砸下第二下——行车记录仪的红点已经闪起。",
+      "reuse_fact": "暴力威胁场景用物理细节(玻璃裂痕+棒球棍声+红点)替代心理描写,移动端首屏冲击足够。"
+    },
+    {
+      "chapter": 4,
+      "hook": "平台直接封号——五万押金冻结——货运群里全是'女司机黑吃货主'——但我不能认输。",
+      "reuse_fact": "U-曲线最低点(行业污名+经济损失+被动)用单句一段堆叠出窒息感,末句反弹钩成立。"
+    },
+    {
+      "chapter": 6,
+      "hook": "我把内存卡和车钥匙——一并交到了执法值班警官的手心。",
+      "reuse_fact": "把'报警'升级为'主动到执法大队自报'——主角职业身份+法律意识同时点亮,警方非工具人。"
+    },
+    {
+      "chapter": 8,
+      "hook": "海关来电——这一吨货被定级为国家二级保护——李凯瞬间成了四面楚歌的孤家寡人。",
+      "reuse_fact": "把'多收一吨货'升级为'国家二级保护植物走私'——单一物证打开整条产业链,司法清算自动展开。"
+    },
+    {
+      "chapter": 10,
+      "hook": "法槌落下——五年六个月——五百万罚金——没有怜悯——也没有报复后的快感。",
+      "reuse_fact": "判决场景用'没有怜悯也没有快感'的克制单句替代爽文式宣泄,符合现代反转结尾不私了规则。"
+    },
+    {
+      "chapter": 11,
+      "hook": "向着前方更广阔、更干净的未来——全速驶去。",
+      "reuse_fact": "拒收双倍退款+签国企长约+驶上高速,用职业升级替代私刑或复合,完成 M3 因果回旋闭环。"
+    }
+  ],
+  "paywall_cards": [
+    {"chapter": 2, "card": "防爆玻璃裂成蛛网+棒球棍砸下+行车记录仪红点闪起", "function": "暴力威胁制造下一秒不知能否报警的悬念"},
+    {"chapter": 4, "card": "平台封号+五万冻结+全行业污名", "function": "经济+名誉+情绪三重压制制造看她怎么翻盘的追读"},
+    {"chapter": 6, "card": "内存卡+车钥匙交执法值班警官", "function": "把被动报警升级为主动自报+证据齐全的转折"},
+    {"chapter": 8, "card": "一吨货被定级国家二级保护+海关介入", "function": "单一物证打开整条走私产业链"},
+    {"chapter": 10, "card": "法槌落下5.5年+500万罚金", "function": "判决场景用克制收尾替代宣泄"}
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "trucker_overload",
+    "contract_loophole",
+    "weighbridge_fraud",
+    "platform_ban",
+    "dashcam_evidence",
+    "forestry_bureau_self_report",
+    "national_protected_plant",
+    "customs_smuggling_chain",
+    "court_sentencing",
+    "highway_recovery_ending",
+    "no_private_revenge",
+    "no_reconciliation_ending"
+  ],
+  "manual_revision_delta": [
+    {
+      "type": "mobile_paragraph_split",
+      "items": [
+        "scene-02: '臭娘们！你敢私吞我的货？' → 拆为两段单句",
+        "scene-03: '你放屁！装上的货就是我的货——你少在这抠字眼！' → 拆为两段单句",
+        "scene-04: '【这女的为了贪点红利疯了吧？敢吞货主几百万的货？】' → 拆为两段单句"
+      ]
+    },
+    {
+      "type": "soft_forbidden_cleanup",
+      "items": [
+        "scene-10: 红色大卡车缓缓驶出园区大门 → 红色大卡车驶出园区大门"
+      ]
+    },
+    {
+      "type": "structural_rebuild",
+      "items": [
+        "draft.md 重建为 draft-scenes 顺序拼接（剔除原 1-10 小节序号以通过 scene_draft_consistency 校验）",
+        "final.md 在 draft.md 前补导语+引子，并在每场前插入小节序号 1-10 作为 split-to-chapters A 级切点标记",
+        "final-chapters 11 章重新生成，钩子覆盖率 100%"
+      ]
+    }
+  ]
+}

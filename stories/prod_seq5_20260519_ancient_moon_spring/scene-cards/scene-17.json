@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "B17",
+  "target_chars_min": 760,
+  "target_chars_max": 880,
+  "location": "陆氏旧药厂火场内外",
+  "time": "火势最盛时",
+  "pov": "沈南星为主，短切陆沉舟",
+  "characters": [
+    "沈南星",
+    "陆沉舟",
+    "周砚",
+    "林若鸢"
+  ],
+  "character_goal": "沈南星要带着账本和小舟旧药箱活着出去。",
+  "opposition_goal": "火势和封死的出口要困住她，陆沉舟想用救命换一次开口机会。",
+  "conflict_action": "陆沉舟踹开火门把她推向窗口，沈南星抓住小舟旧药箱，记忆在浓烟中回到雨夜医院和诊断室。",
+  "information_gap": "陆沉舟不知道她已经完整想起所有伤害。",
+  "emotional_debt_delta": "+救命与害命并置、+终局审判准备",
+  "payoff_or_hook": "她看着陆沉舟烧伤的手，想起他按下封院令的同一只手。",
+  "chapter_end_hook": "沈南星开口第一句不是谢他，而是问：小舟死那夜，医院是不是有空病房？",
+  "paywall_card": false,
+  "must_include": [
+    "陆沉舟火场救人",
+    "小舟旧药箱",
+    "封院令记忆",
+    "诊断书记忆",
+    "沈南星恢复记忆后的平静质问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用救命抵消害命",
+    "不要让女主被火场软化",
+    "不要写成长篇哭诉"
+  ]
+}

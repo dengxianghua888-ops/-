@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260518_ancient_sweet_blossom/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 15000,
+      "actual": 13107,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        831,
+        768,
+        788,
+        829,
+        773,
+        812,
+        785,
+        842,
+        790,
+        769,
+        855,
+        802,
+        853,
+        816,
+        810,
+        771
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 183,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 6,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13107,
+      "sentence_count": 744,
+      "avg_sentence_length": 16.617,
+      "dialogue_ratio": 0.0447,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "冷汗": 1,
+        "喉咙": 1,
+        "眼眶": 1,
+        "掌心": 9
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 39.75
+    },
+    "semantic_repetition": {
+      "sentence_count": 631,
+      "unique_sentence_skeletons": 631,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0016
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 9.0,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "location": "scene-01",
+      "quote": "我点进预约详情，输入短信验证码，按下取消。",
+      "claim": "开篇钩子从被动偷听转为主动取消领证，具备点击和追读动力。"
+    },
+    {
+      "dimension": "platform",
+      "location": "scene-11",
+      "quote": "民政局大厅的叫号屏跳到A039。",
+      "claim": "领证节点与登机节点交叉剪辑，形成强平台卡点。"
+    },
+    {
+      "dimension": "emotion",
+      "location": "scene-04",
+      "quote": "糖盒摔在地上，薄荷糖滚到休息室中央。",
+      "claim": "儿子羞辱外婆被现场物件承载，情绪债可定位。"
+    },
+    {
+      "dimension": "emotion",
+      "location": "scene-09",
+      "quote": "她从枕头下摸出一张折了四折的纸。纸上写着祁砚舟三个字。",
+      "claim": "外婆主动撕掉托付草稿，完成亲情线反转。"
+    },
+    {
+      "dimension": "style",
+      "location": "scene-06",
+      "quote": "公证回执、基金转让协议、押金单，一张一张盖上章。",
+      "claim": "用流程动作替代解释性心理独白，物理化较强。"
+    },
+    {
+      "dimension": "logic",
+      "location": "scene-05",
+      "quote": "律师打开录音笔，按流程问我是否被胁迫。",
+      "claim": "抚养权敏感议题有法律确认，避免写成冲动遗弃。"
+    },
+    {
+      "dimension": "logic",
+      "location": "scene-15",
+      "quote": "感谢函写得很清楚，感谢他在公共冲突中提供保护。",
+      "claim": "救命情节被限定为感谢与费用结清，没有转化成复合勒索。"
+    }
+  ],
+  "advisory_notes": [
+    "Phase 7 需补标题、简介、导语和投稿付费节点地图；本轮不因此扣 gate。",
+    "scene-11 家属通行证剪角的执行人建议从地勤调整为航站服务台或通行证管理处。",
+    "scene-12 去照相馆动作有轻微重复，可在精修时压缩。",
+    "scene-15 '短切的病房玻璃里'措辞不够自然，建议改写。"
+  ]
+}

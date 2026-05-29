@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "疗养病房转艺考集训报名点",
+  "time": "前世临终夜 / 重生当日下午",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "周叙川",
+    "沈蔓"
+  ],
+  "character_goal": "沈栀要确认临终真相并立刻避开旧婚姻入口。",
+  "opposition_goal": "周叙川要把‘将就婚姻’说完，沈蔓要把周叙川重新推到沈栀面前。",
+  "conflict_action": "病床前真相落锤后立切重生现场，沈蔓把周叙川往前一推，沈栀当场后退并改口拒绝。",
+  "information_gap": "这段婚姻是不是从起点就被姐姐安排成收尾方案？",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "临终幸福幻觉被一句‘将就’刺穿，重生后立刻撞上介绍现场反讽。",
+  "chapter_end_hook": "我刚从病床上咽下那句‘将就’，下一秒，沈蔓就把周叙川推到了我面前。",
+  "paywall_card": false,
+  "must_include": [
+    "周叙川明确说出婚姻是替姐姐收尾",
+    "沈蔓亲手介绍周叙川给沈栀",
+    "沈栀身体性后退或僵住的反应"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长讲前世婚姻日常",
+    "不要复述病史",
+    "不要把介绍现场写成平铺背景说明"
+  ],
+  "rhythm_job": {
+    "shape": "前20%临终落锤，后80%重生现场硬切对撞",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

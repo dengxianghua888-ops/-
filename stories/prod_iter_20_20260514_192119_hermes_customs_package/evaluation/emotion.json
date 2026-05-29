@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {"path": "draft-scenes/scene-02.md", "quote": "我妈现在医院。呼吸机一天两千", "note": "亲情债现场化"},
+    {"path": "draft-scenes/scene-03.md", "quote": "活该被坑，现在都是AI鉴定，你糊弄谁呢", "note": "围观羞辱叠加"},
+    {"path": "draft-scenes/scene-05.md", "quote": "冷到骨头缝里的清醒", "note": "转折点情绪锚点"},
+    {"path": "draft-scenes/scene-06.md", "quote": "老李，把厂里这个月的流动资金转我账户。八百万", "note": "生计债现场化"},
+    {"path": "draft-scenes/scene-13.md", "quote": "她说原料先垫，结款下个月", "note": "二级支援网络偿还"},
+    {"path": "draft-scenes/scene-14.md", "quote": "她以为这只包还在她樟木箱底。她什么都不用知道", "note": "亲情债收束·静物收尾"}
+  ]
+}

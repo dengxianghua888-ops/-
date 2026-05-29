@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 810,
+  "target_chars_max": 870,
+  "location": "儿童康复营训练馆",
+  "time": "一周后下午训练课",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "顾念安",
+    "陆承安",
+    "康复营老师",
+    "同营家长"
+  ],
+  "character_goal": "把急救包交到老师手里，并纠正陆承安甩锅",
+  "opposition_goal": "顾念安和陆承安要把失误推给顾砚舟，维护陆爸爸形象",
+  "conflict_action": "顾念安发作后抓住陆承安衣袖，当众说顾砚舟忘带急救药",
+  "information_gap": "急救包被谁换走只露出包带颜色和监控死角，不现场揭穿",
+  "emotional_debt_delta": "亲子债-3：女儿为护外人栽赃父亲",
+  "payoff_or_hook": "逼出顾砚舟放弃抚养权的不可逆理由",
+  "chapter_end_hook": "截断句：顾念安哭着说是我忘带急救药，陆爸爸才是救她的人。",
+  "paywall_card": false,
+  "must_include": [
+    "急救包交接动作",
+    "顾念安喊陆爸爸",
+    "同营家长评论/吐槽他这个爸爸不负责",
+    "顾砚舟看见包带颜色不对"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写具体药物剂量",
+    "不要猎奇描写喘息痛苦",
+    "不要让家长围观发言超过三轮"
+  ],
+  "rhythm_job": {
+    "shape": "急促动作开场，孩子一句刀口对白，尾声落监控疑点",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "mix": "动作约45%，对白约35%，评论/吐槽约10%，证据疑点约10%；强压词只用一次指认，后接包带颜色的低压证据动作"
+  }
+}

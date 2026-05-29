@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "point": "opening_click",
+      "quote": "三年来，我给陆呈砸了九百万宣发买量；这顿饭上，他却给许念试戴高奢珠宝，转头说和我不熟，还笑我这个年纪别往镜头前凑。",
+      "assessment": "前300字完成投入、双标、羞辱、否认熟识和撤换男主，点击欲强。"
+    },
+    {
+      "point": "chapter_hooks",
+      "quote": "项目群里最后一行字弹出：S+ 男主，换顾凛。",
+      "assessment": "第1章钩子直接给资源反转，适合继续阅读。"
+    },
+    {
+      "point": "paywall_cards",
+      "quote": "顾凛把两万字分镜笔记推到我面前，第一页写着：许总，请验收。",
+      "assessment": "第3章形成男二接盘能力验证，是可付费卡点。"
+    },
+    {
+      "point": "commercial_reversal",
+      "quote": "品牌官微准点更新。海报上站着的人不是陆呈。",
+      "assessment": "第7章官宣反转具备平台爽点与传播截图感。"
+    },
+    {
+      "point": "chapter_10_hook_fixed",
+      "quote": "门口的司机敲了敲门：“许小姐，搬家公司到了。”",
+      "assessment": "第10章末已改为新动作钩子，继续推动搬离后果。"
+    }
+  ]
+}

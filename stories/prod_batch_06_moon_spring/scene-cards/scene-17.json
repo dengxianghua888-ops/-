@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "B17",
+  "target_chars_min": 482,
+  "target_chars_max": 642,
+  "location": "研究院临时住处、旧陆宅客房",
+  "time": "当夜",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "温砚清",
+    "陆衡舟",
+    "女医学生"
+  ],
+  "character_goal": "沈照棠要拿回旧物，并逼温砚清说出隐瞒真相。",
+  "opposition_goal": "陆衡舟想用旧物唤回她，温砚清想保住与她的新生活。",
+  "conflict_action": "陆衡舟送来阿砚炭笔画和并蒂药囊，温砚清拦门不让进，沈照棠从两人中间拿走药囊，打开温砚清的抽屉，翻出被藏的旧商报。",
+  "information_gap": "温砚清救她时的私心只承认一半，终局选择暂不落定。",
+  "emotional_debt_delta": {
+    "added": [
+      "温砚清隐瞒伤害女主自主权"
+    ],
+    "paid": [
+      "沈照棠开始拒绝被陆衡舟和温砚清安排"
+    ],
+    "balance_after": "女主从失忆受保护转为主动夺回过去。"
+  },
+  "payoff_or_hook": "她把药囊放回桌上，不让任何人替她保管命运。",
+  "chapter_end_hook": "温砚清承认隐瞒旧事，沈照棠把并蒂药囊放回桌上。",
+  "paywall_card": false,
+  "must_include": [
+    "阿砚炭笔画",
+    "并蒂药囊",
+    "温砚清拦门",
+    "抽屉旧商报",
+    "沈照棠质问两人"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让温砚清完美化。",
+    "不要让陆衡舟用旧物博同情成功。",
+    "不要让女主被动听两男争执。"
+  ],
+  "target_chars": 502,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

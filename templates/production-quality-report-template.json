@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "target_length": {"min": 10000, "max": 18000, "actual": 0, "status": "fail"},
+    "chapters": {"count": 0, "hook_coverage": 0, "status": "fail"},
+    "paywall_cards": {"required": 0, "actual": 0, "status": "fail"},
+    "direct_submission": {
+      "status": "fail",
+      "opening_guide": {"present": false, "paragraphs": 0, "chars": 0, "status": "fail"},
+      "mobile_paragraphs": {"offending_paragraphs": 0, "max_sentence_endings": 0, "examples": [], "status": "fail", "policy": "source_like_short_paragraphs"},
+      "submission_paywall_map": {"required": 0, "actual": 0, "present": false, "status": "fail"},
+      "visible_paywall_labels": {"hits": [], "count": 0, "status": "pass"}
+    },
+    "source_overlap": {"max_continuous_overlap_chars": 0, "status": "pass"},
+    "repeated_ngram": {"max_repeated_substring_chars": 0, "status": "pass"},
+    "style_metrics": {"avg_sentence_length": 0, "dialogue_ratio": 0, "action_density_per_k": 0},
+    "source_rhythm_fit": {"status": "pass", "applicable": false, "source": {}, "candidate": {}, "failures": []},
+    "forbidden_words": {"hits": {}, "status": "pass"},
+    "soft_forbidden_words": {"hits": {}, "status": "pass"}
+  },
+  "critic_scores": {
+    "platform": 0,
+    "emotion": 0,
+    "style": 0,
+    "logic": 0
+  },
+  "evidence": []
+}

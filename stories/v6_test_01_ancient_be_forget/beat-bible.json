@@ -1,0 +1,454 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "画骨成灰终不悔",
+  "genre": "ancient_BE",
+  "mechanisms": [
+    "M2·身份反差爆发：昭阳长公主隐身画坊学徒三年，册封典礼上画舫驾临三层揭露碾压",
+    "M5·温度反转曲线：沈砚卿从深情教画→冷漠杀子→跪画院→自毁双手追随",
+    "M3·因果回旋反讽：沈砚卿对裴若霜逐条复刻对阿昭的全部伤害"
+  ],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [18, 26],
+    "short_line_rate_lte_16_min": 0.28,
+    "short_line_rate_lte_16_max": 0.42,
+    "direct_dialogue_line_rate_min": 0.32,
+    "direct_dialogue_line_rate_max": 0.45,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.0,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 780,
+      "target_char_count": [700, 900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 21.4,
+          "comma_period_ratio": 0.62,
+          "question_mark_density_per_1k": 2.6,
+          "direct_dialogue_rate": 0.54,
+          "short_line_rate_lte16": 0.31,
+          "sentence_avg_len": 18.8
+        },
+        "emotion": {
+          "dominant_emotion": "震惊-恳求",
+          "emotion_arc": "平静 → 震惊 → 不信 → 恳求",
+          "emotion_intensity": 7.0,
+          "reader_feeling_target": "替女主愤怒，同时好奇她隐藏的身份是什么"
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["对称隐瞒设计", "怀孕时刻的残忍对冲", "悬念尾句暗示"],
+        "golden_lines": ["若我说，我也可以与你门第相当呢？", "除了名分我可以给你和孩子一切"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "用反问暗示身份但不揭露，留半个悬念",
+        "target_description": "阿昭反问'若我说，我也配得上沈家门楣呢'，暗示身份远超画坊学徒"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 820,
+      "target_char_count": [740, 940],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 22.1,
+          "comma_period_ratio": 0.58,
+          "question_mark_density_per_1k": 6.1,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.28,
+          "sentence_avg_len": 20.2
+        },
+        "emotion": {
+          "dominant_emotion": "卑微-绝望",
+          "emotion_arc": "恳求 → 被蔑视 → 强撑 → 绝望",
+          "emotion_intensity": 8.0,
+          "reader_feeling_target": "恨铁不成钢地心疼女主，对沈砚卿的厌恶值急剧攀升"
+        },
+        "highlights": {
+          "peak_type": "public_humiliation",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["降格比喻打脸预埋", "特殊日期绑定背叛", "物件反转叙事"],
+        "golden_lines": ["一个连宣纸和皮纸都分不清的乡野丫头，怎配为沈家宗妇", "难道你非要逼我说难听的话吗"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用'你才安全'暗示女主孩子会被处理",
+        "target_description": "沈砚卿告知裴若霜可能有孕，暗示阿昭的孩子必须消失"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 850,
+      "target_char_count": [830, 1030],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 19.6,
+          "comma_period_ratio": 0.71,
+          "question_mark_density_per_1k": 3.5,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.38,
+          "sentence_avg_len": 17.3
+        },
+        "emotion": {
+          "dominant_emotion": "绝望-崩溃",
+          "emotion_arc": "恐惧 → 哀求 → 被拒 → 生理崩溃",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "窒息、愤怒到想摔手机，同时被'杀子'的不可逆性震住"
+        },
+        "highlights": {
+          "peak_type": "physical_violence",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["哀求递进三连拒", "身份提前揭露但不被信", "冷句杀人"],
+        "golden_lines": ["小产死不了人，你好自为之吧", "那个我曾日夜期盼的孩子，在他父亲刚知晓的第一天，就亲手杀了他"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "女主最脆弱时新的威胁闯入",
+        "target_description": "阿昭刚失去孩子，房门被踹开，裴若霜带人闯入——更大的羞辱即将降临"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 830,
+      "target_char_count": [800, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 20.8,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 2.4,
+          "direct_dialogue_rate": 0.44,
+          "short_line_rate_lte16": 0.36,
+          "sentence_avg_len": 18.1
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-恨意生长",
+          "emotion_arc": "被踩在脚下 → 愤怒无力 → 冷恨萌芽",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "恨裴若霜恨到牙痒，同时开始期待报复"
+        },
+        "highlights": {
+          "peak_type": "public_humiliation",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["俯视体位的物理羞辱", "有意无意的物件展示", "讽刺式转身告别", "女主的冷静反制伏笔"],
+        "golden_lines": ["免得日后再有子嗣，争来争去麻烦", "在我的画坊里住的，记得要守我的规矩哦"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "女主在最弱势时反向利用裴若霜的虚荣心布局",
+        "target_description": "阿昭设计让裴若霜将暗藏密码的画作送出——复仇布局启动"
+      },
+      "scenes": ["scene-04"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 780,
+      "target_char_count": [740, 940],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 24.3,
+          "comma_period_ratio": 0.68,
+          "question_mark_density_per_1k": 2.6,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.22,
+          "sentence_avg_len": 21.5
+        },
+        "emotion": {
+          "dominant_emotion": "麻木-决绝",
+          "emotion_arc": "肉体折磨 → 麻木 → 最后的希望 → 决绝",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "心疼到无法呼吸，同时因暗号画流出而燃起期待"
+        },
+        "highlights": {
+          "peak_type": "physical_violence",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["肉体折磨数字化", "因果讽刺并置", "希望信号物象化"],
+        "golden_lines": ["手指磨穿了，血混进墨里，她说这才是诚心", "这话若在三天前说我也许会信，现在我只觉恶心"],
+        "rhythm_shape": "前重后轻"
+      },
+      "chapter_end_hook": {
+        "hook_type": "death_declaration",
+        "hook_technique": "从被动受难者变为主动布局者，一句话翻转全局势",
+        "target_description": "阿昭冷静说出'希望明日，你们不要后悔'——暗示明日册封典礼将有变故"
+      },
+      "scenes": ["scene-05"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 820,
+      "target_char_count": [930, 1130],
+      "is_climax_beat": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 18.4,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 5.5,
+          "direct_dialogue_rate": 0.52,
+          "short_line_rate_lte16": 0.42,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "碾压-爽快",
+          "emotion_arc": "期待 → 震撼 → 爽到颅内高潮",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "爽到鸡皮疙瘩，终于等到这一刻"
+        },
+        "highlights": {
+          "peak_type": "identity_reveal",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["延迟揭露吊胃口", "短句砸脸连击", "物件碾压对照", "侍女替主宣威"],
+        "golden_lines": ["昭阳长公主驾到", "沈砚卿手中的合卺杯落地碎裂，脸色惨白"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "用对方曾经骂她的词反讽，确认身份反转",
+        "target_description": "阿昭用'乡野丫头'原话反问，身份碾压确认——读者等着看清算"
+      },
+      "scenes": ["scene-06"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 880,
+      "target_char_count": [1000, 1200],
+      "is_climax_beat": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 20.2,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 7.8,
+          "direct_dialogue_rate": 0.58,
+          "short_line_rate_lte16": 0.38,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "冷静碾压",
+          "emotion_arc": "冷静控诉 → 层层加码 → 极致碾压",
+          "emotion_intensity": 10.0,
+          "reader_feeling_target": "爽到起鸡皮疙瘩，每一句话都想叫好"
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["清单式控诉节奏", "原话回旋打脸", "不哭的控诉更有力"],
+        "golden_lines": ["本宫的孩子你能让他复生吗？灌下我肚子的绝嗣药，你能让它消失吗", "我若早些知道你的身份，我……"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "裴若霜的反应暗示还有更大的秘密即将揭露",
+        "target_description": "裴若霜突然扑过来抱住阿昭的腿求饶——她要说出什么秘密？"
+      },
+      "scenes": ["scene-07"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 790,
+      "target_char_count": [880, 1080],
+      "is_climax_beat": true,
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 21.5,
+          "comma_period_ratio": 0.6,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.4,
+          "short_line_rate_lte16": 0.3,
+          "sentence_avg_len": 19.4
+        },
+        "emotion": {
+          "dominant_emotion": "讽刺-冷笑",
+          "emotion_arc": "震惊（裴若霜自爆）→ 讽刺高潮 → 冷静离场",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "黑色幽默的快感——沈砚卿杀了唯一亲生的孩子去保一个别人的种"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["自证陷阱式反转", "全知视角的讽刺总结", "轻描淡写的致命离场"],
+        "golden_lines": ["如果他从头到尾都坚信的选择我，他想要的一切，画名、孩子、身份地位，全部都有了", "你焚毁我的画，杀死我孩子的时候可曾见过旧情"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "从极致冲突切到极致平静——轻松感本身就是最强的态度",
+        "target_description": "踏出沈家大门时无比轻松，三年荒唐烟消云散——不回头"
+      },
+      "scenes": ["scene-08"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 820,
+      "target_char_count": [720, 920],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 23.8,
+          "comma_period_ratio": 0.72,
+          "question_mark_density_per_1k": 2.4,
+          "direct_dialogue_rate": 0.32,
+          "short_line_rate_lte16": 0.24,
+          "sentence_avg_len": 22.1
+        },
+        "emotion": {
+          "dominant_emotion": "温暖-释然",
+          "emotion_arc": "紧张（见父皇）→ 心酸 → 大哭 → 被温暖包裹",
+          "emotion_intensity": 8.0,
+          "reader_feeling_target": "跟着女主一起哭，感受到'终于有人心疼她了'的安慰"
+        },
+        "highlights": {
+          "peak_type": "emotional_bomb",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["严厉外壳包裹深情内核", "物理细节传递时间流逝", "日常物件的情感重量"],
+        "golden_lines": ["你还知道回来？", "泪水晕湿了龙袍，父皇也只是慢慢拍着我的后背，和小时候一样"],
+        "rhythm_shape": "前紧后松"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用不可逆的身体代价提醒读者：伤害永远不会真的过去",
+        "target_description": "太医诊脉后告知小产伤根本，日后难再有孕——父皇摔了杯盏"
+      },
+      "scenes": ["scene-09"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 850,
+      "target_char_count": [680, 880],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 22.5,
+          "comma_period_ratio": 0.63,
+          "question_mark_density_per_1k": 3.5,
+          "direct_dialogue_rate": 0.28,
+          "short_line_rate_lte16": 0.26,
+          "sentence_avg_len": 20.8
+        },
+        "emotion": {
+          "dominant_emotion": "冷漠-自愈",
+          "emotion_arc": "决断（不杀留着受苦）→ 平静 → 淡漠 → 自我疗愈",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "佩服女主的清醒，同时享受沈砚卿受苦的旁观快感"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["惩罚哲学的升维", "物象隐喻替代抒情", "旁观式叙述制造距离感"],
+        "golden_lines": ["活着远比死去要痛苦的多", "这些画连片刻的温暖都给不了我，我要它何用"],
+        "rhythm_shape": "匀速低压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "他在门外昏倒vs她在门内平静——物理距离即情感距离",
+        "target_description": "素笺来报沈砚卿昏倒在画院门外——她只说'知道了'"
+      },
+      "scenes": ["scene-10"]
+    },
+    {
+      "chapter_id": 11,
+      "source_chapter_id": 11,
+      "source_char_count": 830,
+      "target_char_count": [680, 880],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 23.2,
+          "comma_period_ratio": 0.65,
+          "question_mark_density_per_1k": 4.8,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.28,
+          "sentence_avg_len": 20.5
+        },
+        "emotion": {
+          "dominant_emotion": "平静-释然",
+          "emotion_arc": "日常温暖 → 感悟 → 因果回旋揭露 → 冷硬不软",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "满足的叹息——她过得好，他们过得烂，因果不爽"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["因果回旋显式对照", "拒绝施恩的冷硬", "父爱物象化延续"],
+        "golden_lines": ["从前我真心以待的人，还我遍体鳞伤，可不管什么时候回头，家里都会为我撑伞", "这难道不是你自找的吗"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "信息简短抛出，暗示故事还没结束",
+        "target_description": "素笺告知沈砚卿自废双手后离开了锦川——他要去哪？"
+      },
+      "scenes": ["scene-11"]
+    },
+    {
+      "chapter_id": 12,
+      "source_chapter_id": 12,
+      "source_char_count": 890,
+      "target_char_count": [780, 980],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 21.8,
+          "comma_period_ratio": 0.58,
+          "question_mark_density_per_1k": 3.4,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.32,
+          "sentence_avg_len": 19.6
+        },
+        "emotion": {
+          "dominant_emotion": "淡然-余韵",
+          "emotion_arc": "独立生活 → 他归来 → 拒绝 → 彻底放下的平静",
+          "emotion_intensity": 7.0,
+          "reader_feeling_target": "唏嘘但释然——她好好的，他活该"
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["物理落差具象化", "一碗粥的温度计", "开放式留白结尾"],
+        "golden_lines": ["没有了谁，太阳都会照常升起", "我从来不属于你", "吃了就走吧"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "以全文最冷的定性收束——不是恨，是'无关紧要'",
+        "target_description": "无关紧要的人，对我造不成任何影响——她转身浇花，不再回头"
+      },
+      "scenes": ["scene-12"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 9480,
+    "min_chapters": 12,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

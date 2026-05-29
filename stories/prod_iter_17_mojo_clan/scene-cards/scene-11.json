@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 653,
+  "target_chars_max": 653,
+  "location": "侯府书房",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "顾明昭",
+    "谢无涯",
+    "谢清宁",
+    "长公主",
+    "镇北王",
+    "楚曜",
+    "楚闻"
+  ],
+  "character_goal": "建立女学章程",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "谢无涯养伤的三个月里，侯府书房总亮到后半夜。  他右手再也握不稳笔，就用左手一笔一划",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "陪伴债",
+  "payoff_or_hook": "我忽然觉得这座曾经只求安稳的侯府，终于有了新的骨头。",
+  "chapter_end_hook": "我忽然觉得这座曾经只求安稳的侯府，终于有了新的骨头。",
+  "paywall_card": false,
+  "must_include": [
+    "建立女学章程",
+    "陪伴债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

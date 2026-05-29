@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 7.4,
+  "evidence": [
+    {
+      "scene": "scene-04",
+      "type": "medical_boundary",
+      "quote": "目前只是确认风险告知，需要一个稳定联系人。",
+      "assessment": "家属签字被限定为稳定联系人，避免把孩子直接写成逼婚筹码。"
+    },
+    {
+      "scene": "scene-09",
+      "type": "ethical_boundary",
+      "quote": "谢家的发布会，不审女人的私事。",
+      "assessment": "公开场合不让女主被迫自证私生活，伦理边界清楚。"
+    },
+    {
+      "scene": "scene-13",
+      "type": "business_causality",
+      "quote": "不是撒钱，是锁证据和锁通道。",
+      "assessment": "商战反击有合同、院线、发行、版权路径，不是单纯霸总砸钱。"
+    },
+    {
+      "scene": "scene-08",
+      "type": "logic_risk",
+      "quote": "那份婚书的日期是三个月前，不是发布会临时补的戏。",
+      "assessment": "该信息有爽点，但前文铺垫不足；建议补谢砚与林晚宜早有婚约或法律安排的因果。"
+    }
+  ],
+  "notes": "逻辑可通过，但三个月前婚书与当前脱离陆沉舟团队的关系需要 Phase 7 前补一针。"
+}

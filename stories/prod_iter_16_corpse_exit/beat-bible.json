@@ -1,0 +1,511 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 14700,
+    "chapter_target_chars_range": [600, 950]
+  },
+  "title": "下井六年救姐姐，我死后她疯了",
+  "genre": "family_ethics / 追悔火葬场 / 系统脱离 / 身份错位虐文",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋",
+      "execution": "前半段所有羞辱话术都要被后半段证据反咬：欠命、赎罪、臭水鬼、不配上岸，最终都落回施害者身上。"
+    },
+    {
+      "id": "M4",
+      "name": "死后旁观",
+      "execution": "江沉在中点死亡脱离，后半段只以灵魂旁观，不复活、不托梦、不原谅。"
+    },
+    {
+      "id": "M5",
+      "name": "迟来悔悟",
+      "execution": "江栀、沈清禾、父母和孩子的悔悟必须发生在江沉不可追回之后，悔悟只构成惩罚。"
+    },
+    {
+      "id": "M6",
+      "name": "身份反转",
+      "execution": "真继承人被污名化成冒名者，养弟贺景衡夺走妻子、孩子、继承权和公开名分，后文用文件与录像翻转。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 650,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "防爆安全帽内屏亮起：【脱离倒计时：24小时。】"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 650,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "孩子躲到贺景衡身后，喊江沉：臭水鬼别碰我。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 650,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "父亲把精神异常承诺书推到江沉面前，要他签字放弃继承权。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 650,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "包工头抽走工伤单，低声说：这些活，都是你姐姐点名派给你的。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 700,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "贺景衡发来发布会请柬，落款是：继承人贺景衡、爱妻沈清禾、长子江童。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 650,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "沈清禾让安保把江沉从公司拖出去，门内正滚动播放她给贺景衡的融资庆功片。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 650,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "江沉在档案袋底部摸到一份盖章精神鉴定，申请人是他的父母。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 700,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "倒计时跳到【14小时】，发布会入场码自动弹进江沉手机。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 750,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "主持人当众宣布：江沉是六年前被除名的冒名者。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 650,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "系统弹窗：【是否上传全部证据？倒计时：8小时。】"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 700,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "江沉看着贺景衡的威胁镜头，说：不用你逼，我帮你发。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 700,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "江栀把最后一张下井派工单拍在桌上，派工地点是封闭排洪井。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 850,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "倒计时归零后，江沉的灵魂飘在井口，看见救援绳空了。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 650,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "安全主管撞进发布会大厅，脸色惨白地喊：江沉出事了。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 700,
+      "scene_range": ["scene-15"],
+      "chapter_end_hook": "担架推到厅门口，白布下露出江沉那顶裂开的安全帽。"
+    },
+    {
+      "chapter_id": "chapter-16",
+      "target_chars": 750,
+      "scene_range": ["scene-16"],
+      "chapter_end_hook": "安全帽录像自动播放，第一帧就是贺景衡按住江沉的脸。"
+    },
+    {
+      "chapter_id": "chapter-17",
+      "target_chars": 750,
+      "scene_range": ["scene-17"],
+      "chapter_end_hook": "包工头被带进监控室，说：江总只让我羞辱他，开毒阀是贺少吩咐的。"
+    },
+    {
+      "chapter_id": "chapter-18",
+      "target_chars": 750,
+      "scene_range": ["scene-18"],
+      "chapter_end_hook": "贺景衡把孩子推到镜头前，孩子第一次问：我亲爸是不是死了？"
+    },
+    {
+      "chapter_id": "chapter-19",
+      "target_chars": 850,
+      "scene_range": ["scene-19"],
+      "chapter_end_hook": "贺景衡发布声明，反咬江沉自导自演勒索全家。"
+    },
+    {
+      "chapter_id": "chapter-20",
+      "target_chars": 700,
+      "scene_range": ["scene-20"],
+      "chapter_end_hook": "云盘最后一个视频开始倒计时，标题是《如果我死了，请别替他们说情》。"
+    },
+    {
+      "chapter_id": "chapter-21",
+      "target_chars": 700,
+      "scene_range": ["scene-21"],
+      "chapter_end_hook": "从此，港城再没有那个被她们赶下井的大少爷。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 650,
+      "scene_location": "港务集团旧检修站门口",
+      "character_goal": "江沉交出六年下井工资卡，想换江栀的肾源排期和沈清禾公司的生路。",
+      "conflict_action": "江栀当众刷走余额，沈清禾剪断工资卡，江父江母从车里走下来撕掉假死亡告知书。",
+      "information_gap": "江沉还不知道肾衰、父母死亡、妻子破产全是惩罚骗局。",
+      "emotion_debt_balance": {
+        "added": ["六年高危下井工资被夺", "亲姐假病", "父母假死", "妻子假破产"],
+        "paid": [],
+        "running_balance": "+4项核心债"
+      },
+      "chapter_end_hook": "防爆安全帽内屏亮起：【脱离倒计时：24小时。】",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能把地下管网潜工写成低贱", "不能洗白江栀的假病骗局"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 650,
+      "scene_location": "旧检修站外的黑色商务车旁",
+      "character_goal": "江沉追问早产夭折的儿子是否还活着。",
+      "conflict_action": "沈清禾拿出亲子监护公证，贺景衡抱着孩子下车，孩子甩开江沉沾泥的手。",
+      "information_gap": "江沉不知道孩子被登记成贺景衡继承人，也不知道沈清禾主动参与更名。",
+      "emotion_debt_balance": {
+        "added": ["儿子未死却认贺景衡为父", "妻子主动转移孩子名分"],
+        "paid": [],
+        "running_balance": "+6项核心债"
+      },
+      "chapter_end_hook": "孩子躲到贺景衡身后，喊江沉：臭水鬼别碰我。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用空泛悲伤", "不能让孩子一句怕脏就获得谅解", "不能把沈清禾写成被动受骗"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 650,
+      "scene_location": "江家老宅祠堂",
+      "character_goal": "江沉要求父母解释六年前海堤事故和自己被赶下井的真相。",
+      "conflict_action": "江父按着他跪到祠堂地砖上，江母把放弃继承权和精神异常承诺书推到他面前。",
+      "information_gap": "江沉不知道父母早已配合贺景衡改掉继承档案。",
+      "emotion_debt_balance": {
+        "added": ["父母假死后继续审判江沉", "继承权被亲手转移", "精神异常污名预埋"],
+        "paid": [],
+        "running_balance": "+9项核心债"
+      },
+      "chapter_end_hook": "父亲把精神异常承诺书推到江沉面前，要他签字放弃继承权。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能用父母苦衷减轻责任", "不能写成误会", "必须保留具体文件证据"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 650,
+      "scene_location": "地下管网项目办公室",
+      "character_goal": "江沉去拿六年工伤记录，证明自己不是装可怜。",
+      "conflict_action": "包工头抢走工伤单，用沾泥手套拍他脸，逼他接新的下井派工。",
+      "information_gap": "江沉只知道被羞辱，不知道派工名单来自江栀，危险加码来自贺景衡。",
+      "emotion_debt_balance": {
+        "added": ["工伤证据被抢", "职业尊严被公开踩踏"],
+        "paid": [],
+        "running_balance": "+11项核心债"
+      },
+      "chapter_end_hook": "包工头抽走工伤单，低声说：这些活，都是你姐姐点名派给你的。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能只写回忆", "不能把羞辱写成泛泛辱骂", "不能模糊工伤证据"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars": 700,
+      "scene_location": "江栀办公室",
+      "character_goal": "江沉逼江栀承认她是否安排了六年的包工项目。",
+      "conflict_action": "江栀翻开派工名单，逐页点给他看，还把他的工资流水转入贺景衡慈善基金。",
+      "information_gap": "江栀以为自己只是磨炼江沉，不知道贺景衡把羞辱升级成毒气陷害和殴打。",
+      "emotion_debt_balance": {
+        "added": ["姐姐亲自筛选羞辱任务", "工资被包装成贺景衡善款"],
+        "paid": [],
+        "running_balance": "+13项核心债"
+      },
+      "chapter_end_hook": "贺景衡发来发布会请柬，落款是：继承人贺景衡、爱妻沈清禾、长子江童。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能洗白姐姐控制欲", "不能让承认变成解释", "必须形成第一付费级反转"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars": 650,
+      "scene_location": "沈清禾救援公司总部",
+      "character_goal": "江沉确认沈清禾所谓破产是否真实。",
+      "conflict_action": "沈清禾当着董事会刷掉他的门禁，签下给贺景衡的融资文件，命令安保拖走江沉。",
+      "information_gap": "江沉不知道自己六年补的窟窿全变成贺景衡上位资本。",
+      "emotion_debt_balance": {
+        "added": ["妻子假破产吸血", "夫妻共同财产被转给贺景衡"],
+        "paid": [],
+        "running_balance": "+15项核心债"
+      },
+      "chapter_end_hook": "沈清禾让安保把江沉从公司拖出去，门内正滚动播放她给贺景衡的融资庆功片。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让沈清禾只是被蒙蔽", "不能用商业术语稀释背叛", "必须有当场动作"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars": 650,
+      "scene_location": "江家老宅档案室",
+      "character_goal": "江沉寻找自己出生档案和继承文件。",
+      "conflict_action": "江母锁门夺档案，江父用拐杖砸碎旧相框，逼他承认自己害了贺景衡。",
+      "information_gap": "江沉不知道精神鉴定已被送去发布会备案。",
+      "emotion_debt_balance": {
+        "added": ["出生身份被篡改", "父母以亲情名义制造罪感"],
+        "paid": [],
+        "running_balance": "+17项核心债"
+      },
+      "chapter_end_hook": "江沉在档案袋底部摸到一份盖章精神鉴定，申请人是他的父母。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成口头争吵", "不能让父母显得只是心疼养子", "必须落到档案证据"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars": 700,
+      "scene_location": "旧排水泵站外",
+      "character_goal": "江沉上传第一段安全帽录像，给自己留下证据。",
+      "conflict_action": "贺景衡带人抢他的安全帽，江沉把备用存储卡塞进排水缝，反手开直播。",
+      "information_gap": "江沉还不知道系统倒计时归零将直接完成死亡脱离。",
+      "emotion_debt_balance": {
+        "added": ["证据被抢夺", "生命威胁升级"],
+        "paid": ["江沉保住一份备用录像"],
+        "running_balance": "+18项核心债"
+      },
+      "chapter_end_hook": "倒计时跳到【14小时】，发布会入场码自动弹进江沉手机。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让证据凭空出现", "不能写成长篇心理独白", "必须保留倒计时节奏"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars": 750,
+      "scene_location": "无人化码头发布会主厅",
+      "character_goal": "江沉闯进发布会，阻止贺景衡公开夺走继承人、妻子和孩子名分。",
+      "conflict_action": "贺景衡在大屏投出登记资料、监护公证和继承文件，沈清禾挽着他接受媒体拍照。",
+      "information_gap": "江沉不知道自己的旧婚姻和亲子资料已被伪造成精神异常纠纷。",
+      "emotion_debt_balance": {
+        "added": ["公开名分被夺", "真少爷被定义为冒名者", "妻子孩子站到贺景衡身侧"],
+        "paid": [],
+        "running_balance": "+21项核心债"
+      },
+      "chapter_end_hook": "主持人当众宣布：江沉是六年前被除名的冒名者。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能弱化公开羞辱", "不能让文件反转含糊", "不能把发布会写成摘要"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars": 650,
+      "scene_location": "发布会台前",
+      "character_goal": "江沉拿出旧结婚证和孩子出生腕带，证明自己才是丈夫和父亲。",
+      "conflict_action": "沈清禾把旧证件摔进水景池，孩子用安全帽砸江沉膝盖，江栀让保安按住他。",
+      "information_gap": "江沉不知道旧证件被沈清禾提前申请作废。",
+      "emotion_debt_balance": {
+        "added": ["亲子证据被毁", "孩子当众否认亲父", "姐姐当众镇压"],
+        "paid": [],
+        "running_balance": "+24项核心债"
+      },
+      "chapter_end_hook": "系统弹窗：【是否上传全部证据？倒计时：8小时。】",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让孩子道歉", "不能用旁白代替砸帽动作", "不能让沈清禾显得犹豫无辜"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars": 700,
+      "scene_location": "码头监控室",
+      "character_goal": "江沉保住云端证据，不再向任何人求信任。",
+      "conflict_action": "贺景衡关掉监控室灯，逼江沉录认错视频，威胁注销孩子名下所有江沉痕迹。",
+      "information_gap": "贺景衡不知道江沉安全帽仍在录音并同步云端。",
+      "emotion_debt_balance": {
+        "added": ["被逼录认错视频", "孩子身份被当作威胁筹码"],
+        "paid": ["贺景衡威胁被完整录下"],
+        "running_balance": "+25项核心债"
+      },
+      "chapter_end_hook": "江沉看着贺景衡的威胁镜头，说：不用你逼，我帮你发。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成江沉求饶拖沓", "不能给贺景衡可怜动机", "必须让录音成为后文证据"]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars": 700,
+      "scene_location": "码头医务室外走廊",
+      "character_goal": "江沉想在倒计时结束前离开她们的审判。",
+      "conflict_action": "江栀撕掉他的离岗申请，把封闭排洪井派工单拍到他胸口，命令他最后一次下井赎罪。",
+      "information_gap": "江栀不知道这张派工单会成为压死她的证据。",
+      "emotion_debt_balance": {
+        "added": ["姐姐继续派高危任务", "赎罪话术推向死亡临界"],
+        "paid": [],
+        "running_balance": "+27项核心债"
+      },
+      "chapter_end_hook": "江栀把最后一张下井派工单拍在桌上，派工地点是封闭排洪井。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把死亡写成求关注", "不能让江栀突然心软", "必须保留派工单物证"]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars": 850,
+      "scene_location": "港务封闭排洪井井口",
+      "character_goal": "江沉上传全部安全帽录像和毒气报告，完成系统脱离。",
+      "conflict_action": "他把存储卡插进应急终端，按下公开上传，随后在救援混乱中与系统倒计时一起消失在井口事故里。",
+      "information_gap": "施害者以为江沉只是躲起来闹事，不知道他已死亡脱离。",
+      "emotion_debt_balance": {
+        "added": ["死亡不可追回"],
+        "paid": ["江沉退出审判体系", "全部证据进入公开倒计时"],
+        "running_balance": "+27项债转入追悔清算"
+      },
+      "chapter_end_hook": "倒计时归零后，江沉的灵魂飘在井口，看见救援绳空了。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁止渲染可模仿死亡细节", "不能复活", "不能让死亡变成求关注"]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars": 650,
+      "scene_location": "无人化码头发布会后台",
+      "character_goal": "江沉灵魂旁观众人对他失踪的第一反应。",
+      "conflict_action": "江栀命人继续发布会，沈清禾删掉未接来电，贺景衡让公关写江沉畏罪潜逃。",
+      "information_gap": "众人不知道安全主管已经收到死亡确认。",
+      "emotion_debt_balance": {
+        "added": ["死后仍被污名为闹事潜逃"],
+        "paid": [],
+        "running_balance": "追悔尚未启动"
+      },
+      "chapter_end_hook": "安全主管撞进发布会大厅，脸色惨白地喊：江沉出事了。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让灵魂旁观替她们开脱", "不能写大段悔悟", "必须先写迟钝和误判"]
+    },
+    {
+      "beat_id": "beat-15",
+      "target_chars": 700,
+      "scene_location": "发布会大厅",
+      "character_goal": "安全主管要宣布事故结果，江栀等人要压住消息。",
+      "conflict_action": "江栀扇安全主管，沈清禾让律师封口，江父命保镖拦住担架车。",
+      "information_gap": "他们仍以为白布下只是伤员，不愿承认江沉已死。",
+      "emotion_debt_balance": {
+        "added": ["死亡确认被继续压制"],
+        "paid": [],
+        "running_balance": "追悔临界"
+      },
+      "chapter_end_hook": "担架推到厅门口，白布下露出江沉那顶裂开的安全帽。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能直接让全员哭崩", "不能跳过死亡确认动作", "必须让压消息行为加债"]
+    },
+    {
+      "beat_id": "beat-16",
+      "target_chars": 750,
+      "scene_location": "码头临时停尸间",
+      "character_goal": "沈清禾、江栀和父母确认白布下的人是不是江沉。",
+      "conflict_action": "沈清禾掀开白布认出旧伤疤，江栀抓着安全帽编号核对，江母翻出早年照片崩溃对照。",
+      "information_gap": "她们还不知道安全帽内存即将自动播放贺景衡的施暴录像。",
+      "emotion_debt_balance": {
+        "added": ["迟到的确认变成精神惩罚"],
+        "paid": ["死亡事实坐实"],
+        "running_balance": "追悔启动"
+      },
+      "chapter_end_hook": "安全帽录像自动播放，第一帧就是贺景衡按住江沉的脸。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让确认变成和解", "不能写主角灵魂心软", "不能用宏大抒情替代伤疤和编号"]
+    },
+    {
+      "beat_id": "beat-17",
+      "target_chars": 750,
+      "scene_location": "码头监控室",
+      "character_goal": "众人查看安全帽录像，想找出江沉死亡前发生了什么。",
+      "conflict_action": "录像播放贺景衡威胁、包工头殴打和毒气报警红闪，安全主管把浓度报告拍在桌上。",
+      "information_gap": "江栀才意识到她安排的羞辱被贺景衡加码成真实伤害。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": ["主角控诉被第一批硬证据坐实", "江栀磨炼话术反噬"],
+        "running_balance": "开始偿还核心委屈"
+      },
+      "chapter_end_hook": "包工头被带进监控室，说：江总只让我羞辱他，开毒阀是贺少吩咐的。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能让证据只停留在口供", "不能洗白姐姐", "必须同时钉住贺景衡和江栀"]
+    },
+    {
+      "beat_id": "beat-18",
+      "target_chars": 750,
+      "scene_location": "港务集团审讯室",
+      "character_goal": "江栀要从包工头口中确认贺景衡到底加码了多少。",
+      "conflict_action": "包工头交出转账记录、伤情照片和派工聊天截图，江栀砸碎玻璃冲向贺景衡。",
+      "information_gap": "孩子还不知道自己亲生父亲已经死于这条伤害链。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": ["毒气陷害坐实", "工伤记录坐实", "贺景衡主动施害坐实"],
+        "running_balance": "清算转向假少爷"
+      },
+      "chapter_end_hook": "贺景衡把孩子推到镜头前，孩子第一次问：我亲爸是不是死了？",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把包工头供词写成一笔带过", "不能让贺景衡躲在误会后面", "不能伤害儿童血腥化"]
+    },
+    {
+      "beat_id": "beat-19",
+      "target_chars": 850,
+      "scene_location": "港务集团亲子鉴定中心外",
+      "character_goal": "沈清禾和孩子被迫面对亲子鉴定与监护公证造假的后果。",
+      "conflict_action": "律师当场撤销孩子继承展示资格，沈清禾撕扯监护公证，孩子追着担架车喊江沉爸爸却被隔离线拦下。",
+      "information_gap": "众人不知道贺景衡准备发布伪造声明，把所有罪推回江沉身上。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": ["孩子认贼作父反噬", "沈清禾夺名分反噬"],
+        "running_balance": "妻儿线开始偿还"
+      },
+      "chapter_end_hook": "贺景衡发布声明，反咬江沉自导自演勒索全家。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让孩子一句爸爸换取原谅", "不能让沈清禾崩溃替代清算", "必须落到监护与继承后果"]
+    },
+    {
+      "beat_id": "beat-20",
+      "target_chars": 700,
+      "scene_location": "港务集团数据中心",
+      "character_goal": "江沉的云端程序按死亡触发条件公开最终证据包。",
+      "conflict_action": "数据屏依次弹出工资流水、江栀筛选名单、沈清禾转账记录、父母精神鉴定申请和贺景衡毒气指令。",
+      "information_gap": "最后一段视频还没播放，众人不知道江沉死前已经拒绝所有替他们说情的可能。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": ["六年经济剥削坐实", "全家共同参与坐实"],
+        "running_balance": "终极清算预备"
+      },
+      "chapter_end_hook": "云盘最后一个视频开始倒计时，标题是《如果我死了，请别替他们说情》。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能用旁白总结证据", "不能遗漏父母和妻子的责任", "不能让证据链断裂"]
+    },
+    {
+      "beat_id": "beat-21",
+      "target_chars": 700,
+      "scene_location": "港务集团公开听证会",
+      "character_goal": "最终证据公开，所有施害者承受不可逆代价。",
+      "conflict_action": "最后视频播放江沉拒绝原谅，警方带走贺景衡，董事会罢免江栀，沈清禾失去监护资格，父母的赎罪申请被驳回。",
+      "information_gap": "没有新的误会可以翻案，江沉也不会回来听任何道歉。",
+      "emotion_debt_balance": {
+        "added": [],
+        "paid": ["假少爷被钉死", "姐姐精神惩罚启动", "妻子和父母赎罪无效", "主角不可追回"],
+        "running_balance": "情绪债闭环"
+      },
+      "chapter_end_hook": "从此，港城再没有那个被她们赶下井的大少爷。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁止大团圆", "禁止复活复合", "禁止用忏悔洗白核心施害者"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars": 14700,
+    "min_chapters": 16,
+    "planned_chapters": 21,
+    "min_paywall_cards": 5,
+    "planned_paywall_cards": 5,
+    "chapter_end_hook_coverage": 1.0,
+    "paywall_card_positions": ["scene-05", "scene-09", "scene-13", "scene-17", "scene-21"],
+    "scene_action_requirement": "每个场景必须以可见动作推进，不允许只写解释、回忆或铺垫。",
+    "forbidden_summary_requirement": "beats[*].forbidden_summary 必须为非空数组。"
+  }
+}

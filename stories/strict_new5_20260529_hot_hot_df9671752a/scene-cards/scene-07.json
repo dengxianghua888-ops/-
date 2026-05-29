@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 790,
+  "target_chars_max": 850,
+  "location": "信号塔底座",
+  "time": "深夜风雪中",
+  "pov": "沈梨雾",
+  "characters": [
+    "沈梨雾",
+    "秦岚",
+    "外墙士兵",
+    "地堡居民"
+  ],
+  "character_goal": "沈梨雾想挣脱吊笼，不让母巢坐标暴露",
+  "opposition_goal": "秦岚要把她挂上信号塔吸引虫潮",
+  "conflict_action": "秦岚命士兵锁住吊笼，把沈梨雾升向信号塔半空",
+  "information_gap": "公开献祭会触发虫巢原初节点苏醒",
+  "emotional_debt_delta": "+3 公开献祭债",
+  "payoff_or_hook": "吊笼升起时，地堡无人上前解锁",
+  "chapter_end_hook": "吊笼离地，所有人都看见她在风雪里发抖。",
+  "paywall_card": true,
+  "must_include": [
+    "铁笼锁扣声",
+    "秦岚说为集体牺牲",
+    "人群沉默和少数移开眼"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让群体背叛一笔带过",
+    "不要让女主主动伟大牺牲"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "一个小孩想递手套，被母亲按住手"
+  }
+}

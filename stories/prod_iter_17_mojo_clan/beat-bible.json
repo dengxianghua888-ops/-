@@ -1,0 +1,298 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10640
+  },
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "scene_location": "靖安侯府",
+      "target_chars": 751,
+      "target_chars_min": 751,
+      "target_chars_max": 751,
+      "character_goal": "立下复仇宣言",
+      "conflict_action": "谢无涯被抬回靖安侯府时，右手垂在木板外，指骨像被人一节一节捏碎过。  婆母怀里还抱着",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "断手债",
+      "chapter_end_hook": "我换上嫁来时藏起的红色骑装，第一次不再遮住腰间那柄骨鞭。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "scene_location": "承恩国公府门前",
+      "target_chars": 678,
+      "target_chars_min": 678,
+      "target_chars_max": 678,
+      "character_goal": "逼出药渣源头",
+      "conflict_action": "承恩国公府门前的石阶被雨冲得发亮，门房却倚着朱漆大门嗑瓜子。  他看见我独自下马，先",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "失子债",
+      "chapter_end_hook": "“谁煎的药，谁先跪出来。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "scene_location": "国公府前院",
+      "target_chars": 667,
+      "target_chars_min": 667,
+      "target_chars_max": 667,
+      "character_goal": "护住真实身份",
+      "conflict_action": "楚曜出来时还披着狐裘，腰间玉佩撞得叮当响，身后跟着一排提刀护院。  他先看我的脸，又",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "护妻债",
+      "chapter_end_hook": "“她是我妻，不是你嘴里的东西。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "scene_location": "国公府箭雨",
+      "target_chars": 663,
+      "target_chars_min": 663,
+      "target_chars_max": 663,
+      "character_goal": "引出长公主压场",
+      "conflict_action": "墙上弓弦拉满，雨珠挂在箭尖，像一排等着落下的冷牙。  谢无涯站不稳，却仍想替我挡第一",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "身份羞辱债",
+      "chapter_end_hook": "“今天谁敢关门，谁就躺在这扇门上出去。”",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "scene_location": "国公府正院",
+      "target_chars": 673,
+      "target_chars_min": 673,
+      "target_chars_max": 673,
+      "character_goal": "把家仇连到账册",
+      "conflict_action": "承恩国公楚闻赶来时，朝服都没换，身后还跟着两名内阁属官。  他一进门便训楚曜糊涂，又",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "账册债",
+      "chapter_end_hook": "“谁碰我女婿的账册，谁就是叛军同党。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "scene_location": "公开听证院",
+      "target_chars": 678,
+      "target_chars_min": 678,
+      "target_chars_max": 678,
+      "character_goal": "公开证词破局",
+      "conflict_action": "父亲没有像京城传言里那样一来就杀人。  他让黑甲卫围住承恩国公府，又命人把街坊、御史",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "证词债",
+      "chapter_end_hook": "他是带着断手，把楚家送上断头台。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "scene_location": "国公府密库",
+      "target_chars": 668,
+      "target_chars_min": 668,
+      "target_chars_max": 668,
+      "character_goal": "查实军粮贪墨",
+      "conflict_action": "账册被摊开后，楚闻再也没办法把案子藏成后宅争风。  谢无涯查到的不是一笔亏空，而是三",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "军粮债",
+      "chapter_end_hook": "我望着密库被打开，知道这场账终于从孩子的血算到了天下的粮。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "scene_location": "国公府院心",
+      "target_chars": 621,
+      "target_chars_min": 621,
+      "target_chars_max": 621,
+      "character_goal": "让夫君共同反击",
+      "conflict_action": "密库门开的瞬间，楚曜忽然撞开护卫，朝谢无涯扑过去。  他以为断手的人最好制住，也以为",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "尊严债",
+      "chapter_end_hook": "那一刻我知道，我藏了三年的鞭，终于不必再藏。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "scene_location": "侯府内室",
+      "target_chars": 665,
+      "target_chars_min": 665,
+      "target_chars_max": 665,
+      "character_goal": "修复幸存者尊严",
+      "conflict_action": "谢清宁醒来时，天边刚露出一点灰白。  她第一句话不是问楚曜怎样，而是摸着空掉的小腹问",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "幸存债",
+      "chapter_end_hook": "复仇是让该跪的人跪，让活下来的人能重新抬头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "scene_location": "午门朝堂",
+      "target_chars": 640,
+      "target_chars_min": 640,
+      "target_chars_max": 640,
+      "character_goal": "完成朝堂清算",
+      "conflict_action": "楚家案入宫那日，京城所有马车都停在午门外。  承恩国公府三代受封，新帝也曾因从龙旧功",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "国法债",
+      "chapter_end_hook": "午门风大，我扶住谢无涯，他却反手握住我的衣袖。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "scene_location": "侯府书房",
+      "target_chars": 653,
+      "target_chars_min": 653,
+      "target_chars_max": 653,
+      "character_goal": "建立女学章程",
+      "conflict_action": "谢无涯养伤的三个月里，侯府书房总亮到后半夜。  他右手再也握不稳笔，就用左手一笔一划",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "陪伴债",
+      "chapter_end_hook": "我忽然觉得这座曾经只求安稳的侯府，终于有了新的骨头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "scene_location": "明昭女学",
+      "target_chars": 640,
+      "target_chars_min": 640,
+      "target_chars_max": 640,
+      "character_goal": "让受害者站到门前",
+      "conflict_action": "女学开门那天，京城来了许多看热闹的人。  有人说镇北王府的疯女儿要教贵女打夫君，有人",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "新生债",
+      "chapter_end_hook": "风吹过新漆，我听见门内有人第一次大声念自己的名字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "scene_location": "京城茶楼",
+      "target_chars": 647,
+      "target_chars_min": 647,
+      "target_chars_max": 647,
+      "character_goal": "反杀流言",
+      "conflict_action": "京城流言没有立刻停。  茶楼说书人把我讲成三头六臂的恶女，说我一鞭抽碎国公府半条街。",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "流言债",
+      "chapter_end_hook": "谢无涯也笑，眼底暖得不像这个多事的春天。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "scene_location": "女学夜院",
+      "target_chars": 644,
+      "target_chars_min": 644,
+      "target_chars_max": 644,
+      "character_goal": "训练证据链能力",
+      "conflict_action": "女学真正被人盯上，是在第一批学生学会查账之后。  她们从抚恤银名册里找出十七处缺口，",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "女学债",
+      "chapter_end_hook": "他知道从这一夜起，女学自己也能守住门了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-15",
+      "scene_location": "宫门外",
+      "target_chars": 663,
+      "target_chars_min": 663,
+      "target_chars_max": 663,
+      "character_goal": "补齐边关证词",
+      "conflict_action": "边关送来最后一批证词时，谢无涯已经能骑马走短途。  他坚持陪我去城外接人，说那些军户",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "边军债",
+      "chapter_end_hook": "我望着宫墙外的天，第一次觉得疯名也可以被写成清白。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-16",
+      "scene_location": "女学马场",
+      "target_chars": 689,
+      "target_chars_min": 689,
+      "target_chars_max": 689,
+      "character_goal": "甜爽收束",
+      "conflict_action": "又一年春，侯府桂花树还没开，女学的马场已经热闹起来。  谢清宁穿着窄袖骑装，带着新来",
+      "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+      "emotion_debt_balance": "自我债",
+      "chapter_end_hook": "“那以后别藏了，明昭，我喜欢你赢。”",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    }
+  ]
+}

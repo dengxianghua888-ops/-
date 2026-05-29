@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "路边/方颖的车内",
+  "time": "紧接上场，苏念在路上被方颖拦截",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "方颖"],
+  "character_goal": "苏念要继续自己的路，不想被旧关系纠缠",
+  "opposition_goal": "方颖以'陈奕出事了'为由把苏念骗上车，执行的是陈奕的控制欲",
+  "conflict_action": "方颖用温柔话术拦截苏念上车，车已经开了才暴露真实目的——看似善意实为强制",
+  "information_gap": "陈奕真的出事了吗？方颖为什么要替他来？苏念会被带去哪里？",
+  "emotional_debt_delta": "中等叠加——方颖'三天被官宣合伙人'的信息再次刺痛，但苏念外表不动声色",
+  "payoff_or_hook": "章末悬念：苏念坐在医院走廊捏着报告没打电话——双重悬念（为什么不打？接下来怎么办？）",
+  "chapter_end_hook": "苏念捏着验孕报告手有点凉，看着季霄的电话始终没打过去——物理化的犹豫",
+  "paywall_card": true,
+  "must_include": [
+    "方颖的'善意'话语（让苏念去看陈奕）",
+    "方颖已经发动车/不打算停的细节揭穿虚假善意",
+    "方颖眼睛的前后对比描写",
+    "章末：验孕报告+手凉+没打电话"
+  ],
+  "must_not_write_as_exposition": [
+    "方颖和陈奕的关系细节",
+    "苏念对方颖的心理评价",
+    "陈奕到底有没有出事的真相"
+  ],
+  "rhythm_job": {
+    "shape": "平缓→骤紧→悬置",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.0,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "警觉-疲惫",
+    "emotion_arc": "意外遭遇 → 被动上车 → 疲惫拒绝 → 悬置收束",
+    "emotion_intensity": 6,
+    "reader_feeling_target": "对方颖产生警惕和厌恶——明明是帮凶还装好人",
+    "required_techniques": [
+      {
+        "technique": "第三者的善意伪装",
+        "instruction": "方颖嘴上说'去看看吧'但车已经在开了——用一句叙述揭穿善意的虚假性"
+      },
+      {
+        "technique": "身体反应替代情绪词",
+        "instruction": "用'手有点凉''看着电话没打'这样的物理动作描写犹豫和孤独，不用任何情绪词"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "表象陈述+转折+行为揭穿",
+        "example": "看似是询问，可方颖也并没有要停车的打算。",
+        "instruction": "用一句叙述完成对虚伪的定性——不评价，让行为自己说话"
+      }
+    ],
+    "peak_type": "silent_threat",
+    "bomb_technique": "物理化+悬置",
+    "source_excerpt": "\"他很想你，姐姐跟我去看看吧？\"看似是询问，可江盈盈也并没有要停车的打算。捏着怀孕五周的检验报告，手有点凉。坐在走廊，我看着傅宴的电话，始终没打过去。"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "旧检修站外的黑色商务车旁",
+  "time": "同夜，倒计时启动后十分钟",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "沈清禾", "贺景衡", "江童", "江栀"],
+  "character_goal": "江沉确认早产夭折的儿子是否还活着。",
+  "opposition_goal": "沈清禾要用监护公证证明孩子已属于贺景衡一方，让江沉彻底失去父亲位置。",
+  "conflict_action": "沈清禾抽出亲子监护公证，贺景衡抱着江童下车，江童甩开江沉伸过去的手。",
+  "information_gap": "江沉不知道沈清禾主动把孩子登记到贺景衡名下，并把他描述成危险父亲。",
+  "emotional_debt_delta": "+孩子未死却认贺景衡为父；+妻子主动剥夺亲子名分",
+  "payoff_or_hook": "亲子信息差升级，江沉从被榨干钱财推进到被夺走孩子。",
+  "chapter_end_hook": "江童躲到贺景衡身后，喊江沉：臭水鬼别碰我。",
+  "paywall_card": false,
+  "must_include": ["亲子监护公证", "江童活着", "孩子喊贺景衡爸爸", "江沉手套上的污泥", "沈清禾冷声阻拦"],
+  "must_not_write_as_exposition": ["不要让孩子立刻理解真相", "不要用旁白解释监护权", "不要让沈清禾显得被迫"]
+}

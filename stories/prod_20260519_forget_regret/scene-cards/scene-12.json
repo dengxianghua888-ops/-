@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "裴府正堂",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "韩若"
+  ],
+  "character_goal": "韩若自爆+镇国公表态",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "韩若爆出孩子是表兄的，裴长渊双重崩溃",
+  "information_gap": "他为了嫡子杀了自己唯一的孩子",
+  "emotional_debt_delta": "-20（因果反噬）",
+  "payoff_or_hook": "他唯一的孩子，被自己亲手杀了",
+  "chapter_end_hook": "他唯一的孩子，被自己亲手杀了",
+  "paywall_card": false,
+  "must_include": [
+    "韩若爆出孩子是表兄的，裴长渊双重崩溃"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

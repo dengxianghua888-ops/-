@@ -1,0 +1,463 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 12500,
+    "planned_total_chars": 10122
+  },
+  "title": "他签下交换同意书后，我受保护离开",
+  "genre": "都市豪门追妻火葬场 / 重生安全转移爽虐 / 女性自救新生",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "陆沉舟曾用一双救命的手把许知棠从车祸里救出来，后来却一次次以医生理性为名把她排在林若宁之后，直到转运车交换成为温度最低点。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "重生不闹、签白塔计划、公益资源被挪用、慈善晚宴被审判、转运车一换一、坠崖保护性失联、真相迟到、海外新生、旧爱被拒。"
+    },
+    {
+      "id": "M8",
+      "name": "道德模糊结尾",
+      "carrier": "陆沉舟最后确实救了许知棠，也付出代价，但许知棠只承认感激，不再把感激误认为爱。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "陆沉舟反复说救人有优先级、我会回来救你，终局被许知棠回收为我的命不再排在你的手术台上。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 705,
+      "scene_range": [
+        "scene-01"
+      ],
+      "chapter_end_hook": "许知棠在纪念日晚宴外签下白塔计划，预约自己的安全转移。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 645,
+      "scene_range": [
+        "scene-02"
+      ],
+      "chapter_end_hook": "陆沉舟把母亲纪念基金唯一名额转给林若宁。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 643,
+      "scene_range": [
+        "scene-03"
+      ],
+      "chapter_end_hook": "许知棠看见林若宁把白百合摆进母亲病房。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 706,
+      "scene_range": [
+        "scene-04"
+      ],
+      "chapter_end_hook": "陆星野推开许知棠，说他要小姨当妈妈。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 597,
+      "scene_range": [
+        "scene-05"
+      ],
+      "chapter_end_hook": "台风夜，陆沉舟松开许知棠的手，转身去救林若宁。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 635,
+      "scene_range": [
+        "scene-06"
+      ],
+      "chapter_end_hook": "大屏亮起，所有人都看见许知棠撤资害病童的剪辑视频。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 634,
+      "scene_range": [
+        "scene-07"
+      ],
+      "chapter_end_hook": "程越提醒她，白塔计划一旦执行，许知棠就必须彻底退出陆家生活。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 647,
+      "scene_range": [
+        "scene-08"
+      ],
+      "chapter_end_hook": "劫持者点名要交换，林若宁哭着躲到陆沉舟身后。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 567,
+      "scene_range": [
+        "scene-09"
+      ],
+      "chapter_end_hook": "陆沉舟和陆星野同时说好，用许知棠换林若宁。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 588,
+      "scene_range": [
+        "scene-10"
+      ],
+      "chapter_end_hook": "救援车坠崖，断裂袖扣被打捞上来。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 630,
+      "scene_range": [
+        "scene-11"
+      ],
+      "chapter_end_hook": "陆沉舟拿到保护令隔离档案，第一次听见自己心口塌陷的声音。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 661,
+      "scene_range": [
+        "scene-12"
+      ],
+      "chapter_end_hook": "林若宁在录音里笑着承认，她就是要许知棠死。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 609,
+      "scene_range": [
+        "scene-13"
+      ],
+      "chapter_end_hook": "冰岛海边，许知棠以新身份接过第一份庇护档案。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 625,
+      "scene_range": [
+        "scene-14"
+      ],
+      "chapter_end_hook": "陆沉舟追到冰岛，却看见她站在别人的光里。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 568,
+      "scene_range": [
+        "scene-15"
+      ],
+      "chapter_end_hook": "林若宁纵火报复，陆沉舟挡在许知棠身前倒下。"
+    },
+    {
+      "chapter_id": "chapter-16",
+      "target_chars": 662,
+      "scene_range": [
+        "scene-16"
+      ],
+      "chapter_end_hook": "许知棠说，陆医生，我的命不再排在你的手术台上。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "陆氏医院慈善纪念日晚宴与手术区外走廊",
+      "character_goal": "许知棠要在丈夫破戒救林若宁时保持平静，并完成白塔计划签约。",
+      "conflict_action": "陆沉舟当众摘下纪念日袖扣、冲进手术室；许知棠离席，在走廊签下身份保密授权。",
+      "information_gap": "读者先知道她反常冷静，却暂不知道她已经重生并预约保护性失联。",
+      "emotion_debt_balance": "婚姻背叛债+1，救赎失约债+1。",
+      "chapter_end_hook": "她在手术室红灯下写下自己的安全转移预约日期。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把女主写成撒泼质问",
+        "不能洗白陆沉舟破戒偏袒"
+      ],
+      "target_chars": 705
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "陆氏医院基金办公室",
+      "character_goal": "许知棠要确认母亲纪念基金是否仍按遗愿救助原定患者。",
+      "conflict_action": "陆沉舟签署调拨单，把唯一救援名额挪给林若宁；许知棠拍下调拨单却不阻拦。",
+      "information_gap": "陆沉舟以为她默认成全，读者知道她是在留证据。",
+      "emotion_debt_balance": "原生家庭债+1，身份替代债+1。",
+      "chapter_end_hook": "调拨单最后一栏，陆沉舟亲笔写下林若宁优先。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用大段医疗科普",
+        "不能让基金调拨显得完全合理",
+        "不能污名化罕见病"
+      ],
+      "target_chars": 645
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "母亲纪念病房",
+      "character_goal": "许知棠要取回母亲遗物，切断被陆家占用的纪念空间。",
+      "conflict_action": "林若宁把病房改成康复直播间，摆满白百合；许知棠拔掉直播补光灯，拿走母亲名牌。",
+      "information_gap": "林若宁故意挑衅的动机未全揭露，只露出她对替代身份的贪婪。",
+      "emotion_debt_balance": "亡母羞辱债+1，女配设局债+1。",
+      "chapter_end_hook": "林若宁对镜头哭，说姐姐不许她活下去。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成单纯雌竞",
+        "不能让女主长篇控诉",
+        "不能把直播舆论写成摘要"
+      ],
+      "target_chars": 643
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "陆家儿童房与楼梯口",
+      "character_goal": "许知棠要带陆星野离开林若宁的病房直播。",
+      "conflict_action": "陆星野抱住林若宁的药盒，推开许知棠；许知棠扶住楼梯扶手，松开给儿子准备的生日模型。",
+      "information_gap": "孩子为何如此恨母亲只露出被挑拨痕迹，不立即解释。",
+      "emotion_debt_balance": "亲子伤害债+1。",
+      "chapter_end_hook": "陆星野说，他宁愿林若宁做他的妈妈。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让孩子成为逼女主回归工具",
+        "不能让女主报复孩子",
+        "不能用旁白解释亲情刀"
+      ],
+      "target_chars": 706
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "台风夜山区义诊返程路",
+      "character_goal": "许知棠要测试陆沉舟是否会像前世一样抛下她。",
+      "conflict_action": "山路塌方，陆沉舟先把外套披给许知棠，接到林若宁求救电话后松手跑向另一辆车。",
+      "information_gap": "许知棠知道这条路前世会出事，但不说破。",
+      "emotion_debt_balance": "救赎失约债+1，温度反转加深。",
+      "chapter_end_hook": "雨水冲掉她掌心的血，陆沉舟没有回头。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成自然灾害流水账",
+        "不能让男主从头纯恶",
+        "不能用回忆替代现场动作"
+      ],
+      "target_chars": 597
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "医院年度慈善晚宴大厅",
+      "character_goal": "许知棠要公开提交基金账目，却被林若宁抢先设局。",
+      "conflict_action": "大屏播放剪辑视频，宾客围住许知棠质问；许知棠把完整U盘塞进手包，主动走向出口。",
+      "information_gap": "完整证据在女主手里，但她不急着辩白。",
+      "emotion_debt_balance": "舆论误判债+1，婚姻背叛债+1。",
+      "chapter_end_hook": "陆沉舟挡在林若宁身前，对许知棠说先向若宁道歉。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让真相过早大白",
+        "不能写成摘要表",
+        "不能让陆沉舟无责被骗"
+      ],
+      "target_chars": 635
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "白塔计划临时办公室",
+      "character_goal": "许知棠要补齐保护性失联身份保密材料，确认离场不可逆。",
+      "conflict_action": "程越递出司法协作医疗庇护协议，许知棠亲手销毁旧手机备份，只留下陆沉舟袖扣。",
+      "information_gap": "白塔计划的具体执行点仍未公开，只确定她会死在某次医疗转运事故里。",
+      "emotion_debt_balance": "自救自由值+1，旧情切割准备+1。",
+      "chapter_end_hook": "程越说，计划启动后，陆太太这个身份会先死。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把程越写成霸总拯救",
+        "不能解释过多身份注销技术",
+        "不能让女主离开显得赌气"
+      ],
+      "target_chars": 634
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "山区医疗转运车内",
+      "character_goal": "许知棠要护住车内病患资料并等待白塔计划窗口。",
+      "conflict_action": "医闹家属持刀逼停转运车，点名要用许知棠换林若宁；林若宁抓住陆沉舟袖口哭求。",
+      "information_gap": "劫持者为何准确知道车内人员安排暂不揭露。",
+      "emotion_debt_balance": "生死交换债预热+1。",
+      "chapter_end_hook": "绑匪把刀尖转向许知棠，要陆沉舟马上选。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止猎奇暴力细节",
+        "不能写性威胁",
+        "不能让冲突停留在解释"
+      ],
+      "target_chars": 647
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "山区废弃急救站外",
+      "character_goal": "许知棠要亲耳听见陆沉舟和陆星野的选择，完成情感断点。",
+      "conflict_action": "绑匪推林若宁和许知棠分别站到两边，陆沉舟签交换同意，陆星野哭着选择小姨。",
+      "information_gap": "陆沉舟承诺会回来救她，但读者知道这句话前世也没有兑现。",
+      "emotion_debt_balance": "生死交换债+3，亲子伤害债+2，婚姻背叛债+2。",
+      "chapter_end_hook": "许知棠笑了一下，说这次不用回来救我了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "必须保留丈夫和孩子共同选择养妹",
+        "不能让女主求饶",
+        "不能弱化交换责任"
+      ],
+      "target_chars": 567
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "盘山公路与坠崖现场",
+      "character_goal": "许知棠要借事故窗口完成保护性失联脱身。",
+      "conflict_action": "救援车失控冲下山崖，许知棠割断袖扣留在座椅缝，跟随白塔接应人员转入隔离车。",
+      "information_gap": "现场只留下误认遗体和断裂袖扣，陆家不知道她已被接走。",
+      "emotion_debt_balance": "不可逆离场达成，旧身份封存。",
+      "chapter_end_hook": "搜救队把断裂袖扣交到陆沉舟掌心。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写普通医生伪造死亡，必须改成合法保护令与失联误判",
+        "不能血腥描写坠崖",
+        "不能让保护性失联显得临时起意"
+      ],
+      "target_chars": 588
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "陆氏医院停尸区外与陆沉舟办公室",
+      "character_goal": "陆沉舟要否认许知棠死亡，并寻找她还活着的证据。",
+      "conflict_action": "陆沉舟撕开保护令隔离档案、调监控、翻找她旧手机，却只找到白塔计划自动发送的告别授权。",
+      "information_gap": "他不知道白塔计划保护的是活人还是死者。",
+      "emotion_debt_balance": "真相迟到债启动，男主火葬场+1。",
+      "chapter_end_hook": "档案最后一页写着：许知棠已自愿放弃陆氏家属身份。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让男主立刻找到女主",
+        "不能用哭戏替代行动",
+        "不能淡化他此前签字责任"
+      ],
+      "target_chars": 630
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "林若宁病房与基金审计会",
+      "character_goal": "陆沉舟要追查劫持者信息和基金账目，林若宁要继续装病脱身。",
+      "conflict_action": "陆沉舟播放转运车录音，逼林若宁对账；林若宁抢夺手机时误点外放，暴露自导自演录音。",
+      "information_gap": "陆沉舟终于知道真相，但许知棠已经保护令隔离。",
+      "emotion_debt_balance": "女配设局债清算，男主悔恨债+2。",
+      "chapter_end_hook": "林若宁尖叫：我就是要她死，她死了你们才都会看我。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能洗白林若宁",
+        "不能只惩罚女配不追究男主",
+        "不能用疾病解释恶行"
+      ],
+      "target_chars": 661
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "冰岛海边医疗庇护中心",
+      "character_goal": "许知棠要用新身份接手第一位受助女性，证明她不是只为逃离而活。",
+      "conflict_action": "她摘下旧婚戒，签下项目负责人任命书，陪一名被家庭控制病历的女性进入庇护中心。",
+      "information_gap": "她没有告诉任何人过去，只把旧名封进白塔档案。",
+      "emotion_debt_balance": "新生价值+2，自我修复+1。",
+      "chapter_end_hook": "程越叫她许主任，她回头时没有再应陆太太。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能只靠新男人治愈",
+        "不能让新生线变恋爱线",
+        "不能用总结代替工作行动"
+      ],
+      "target_chars": 609
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "冰岛庇护中心开放日",
+      "character_goal": "陆沉舟要见到许知棠并请求她回去，许知棠要守住新身份边界。",
+      "conflict_action": "陆沉舟在开放日递出断裂袖扣和陆星野的道歉信；许知棠没有接信，只把访客登记表推回给他。",
+      "information_gap": "陆星野的悔悟存在，但不会成为女主回归母职的理由。",
+      "emotion_debt_balance": "旧爱追悔+1，边界重建+1。",
+      "chapter_end_hook": "许知棠在访客栏写下四个字：无探视权。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让孩子悔悟绑架女主",
+        "不能让女主态度暧昧",
+        "不能让程越替女主决定"
+      ],
+      "target_chars": 625
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "庇护中心资料库与火警走廊",
+      "character_goal": "林若宁要毁掉白塔证据报复许知棠，陆沉舟要阻止迟来的伤害。",
+      "conflict_action": "林若宁纵火冲进资料库，许知棠抢救受助者档案；陆沉舟撞开防火门，挡下林若宁挥来的手术刀并吸入浓烟。",
+      "information_gap": "陆沉舟救了她，但这次救命是否能改变结局仍悬着。",
+      "emotion_debt_balance": "迟来赎罪+1，但爱情债不抵消。",
+      "chapter_end_hook": "陆沉舟倒下前说，这次我先救你。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把救命写成复合通行证",
+        "不能血腥猎奇",
+        "不能让林若宁获得无成本退场"
+      ],
+      "target_chars": 568
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "冰岛医院病房与海边步道",
+      "character_goal": "陆沉舟要用赎罪请求复合，许知棠要完成终局清算并走向未来。",
+      "conflict_action": "陆沉舟签下放弃非授权接触与基金赔偿文件，许知棠把断裂袖扣放回病床边，转身走向庇护中心新车。",
+      "information_gap": "她未来是否爱上程越不明说，只明确旧爱关闭。",
+      "emotion_debt_balance": "赎罪无效，女主自由完成。",
+      "chapter_end_hook": "她说，陆医生，我的命不再排在你的手术台上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止复合",
+        "禁止为了孩子回家",
+        "不能把感激写成爱"
+      ],
+      "target_chars": 662
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "planned_total_chars": 12800,
+    "min_chapter_count": 12,
+    "planned_chapter_count": 16,
+    "min_paywall_card_count": 4,
+    "planned_paywall_card_count": 6,
+    "chapter_end_hook_coverage": 1.0,
+    "scene_action_coverage": 1.0,
+    "forbidden_summary_array_required": true
+  }
+}

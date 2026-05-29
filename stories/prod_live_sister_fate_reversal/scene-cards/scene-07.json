@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 850,
+  "target_chars_max": 1100,
+  "location": "林家玄关、物业值班室、琴房走廊",
+  "time": "第三天上午",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "物业经理",
+    "林父",
+    "林知夏",
+    "林母"
+  ],
+  "character_goal": "晚萤想让物业记录和门禁日志逼父母承认异常。",
+  "opposition_goal": "林父想关闭记录，把投诉压成设备误报。",
+  "conflict_action": "物业经理带投诉单上门，调出异常湿度和跌倒警报；林父伸手关平板，林知夏抢过来逐页查看。",
+  "information_gap": "系统一直留下警报，家人过去选择忽视，现在才被迫面对。",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "证据链收束，门必须被打开的压力形成。",
+  "chapter_end_hook": "物业拿来投诉记录，最后一页写着：琴房方向持续异味，请立刻开门。",
+  "paywall_card": false,
+  "must_include": [
+    "邻居投诉",
+    "异常湿度记录",
+    "室内跌倒警报",
+    "知夏抢平板"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把系统写成全知预言",
+    "不要讲技术细节",
+    "不要让物业替家庭完成情绪审判",
+    "不要让父亲成功删记录"
+  ]
+}

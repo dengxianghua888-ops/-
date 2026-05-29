@@ -1,0 +1,87 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "unit": "chars",
+    "min": 500,
+    "max": 1200,
+    "tomato_preferred": [500, 800],
+    "median_target": 650,
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强 Hook：公主隐瞒身份与丈夫三年恩爱 + 丈夫突然宣布另娶 + 亲手毒杀腹中胎儿",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "chapter_end_hook": "每章末必须留下新背叛证据、新身份信息、新反击线索或旧情境的残忍反差",
+    "preferred_hook_types": ["H3", "H2"],
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短故事女性向读者",
+      "偏好古言虐恋BE、错付清算、温度反转的读者",
+      "喜欢公主身份反差、隐忍后决绝离去、施害者悔恨终生的读者"
+    ],
+    "emotion_needs": [
+      "开局即心疼女主被抛弃的委屈与震惊",
+      "持续追问：她什么时候揭身份反杀",
+      "看施害者亲手毁掉自己唯一孩子后的信息差爆裂",
+      "看男主悔恨不可逆、永远失去的惩罚快感",
+      "大婚现场公主身份揭开时的极致反差爽感",
+      "结尾哀而不恨、冷静远离的余韵留白"
+    ],
+    "genre_zones": [
+      "ancient_BE",
+      "identity_reversal",
+      "temperature_reversal"
+    ],
+    "forbidden_zones": [
+      "不要写成纯甜回头、和好如初",
+      "不要让男主被原谅或复合",
+      "不要弱化杀子行为的残忍性",
+      "不要让女主哭求男主超过两次",
+      "不要加入第三方情敌三角恋展开",
+      "不要出现现代用语或现代场景"
+    ]
+  },
+  "market_positioning": {
+    "core_reader_promise": "看隐瞒身份的公主在三年恩爱后被丈夫以'身份不配'抛弃、杀子、囚禁，最终在大婚当日以真实身份碾压全场，让男主在不可逆的失去中悔恨终生。",
+    "dominant_selling_points": [
+      "公主隐居田园 + 丈夫另娶门第女的极致错付",
+      "亲手给妻子糕点下药杀子的残忍反转",
+      "大婚现场公主驾到、身份碾压的爽感爆发",
+      "男主失去一切（爵位、孩子、爱人）的多重惩罚",
+      "结尾不和解、不回头的决绝留白"
+    ],
+    "competitive_diff": "不同于常见古言BE的灵魂线视角，本篇以活人视角经历完整的被背叛-反杀-离去曲线，读者代入感更强；大婚现场的公开揭露场景具有强烈戏剧张力和传播性"
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "ancient_couplet",
+        "example": "东瓶西镜放，恨不能遗忘"
+      },
+      {
+        "formula": "T3",
+        "example": "我隐瞒公主身份嫁他三年，他却为门第另娶杀我孩子"
+      },
+      {
+        "formula": "T1",
+        "example": "他嫌我村妇不配，大婚当日公主驾到"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": 9,
+    "paywall_punch": 9,
+    "emotional_release": 9,
+    "ai_flavor": 0,
+    "hook_density": 9
+  }
+}

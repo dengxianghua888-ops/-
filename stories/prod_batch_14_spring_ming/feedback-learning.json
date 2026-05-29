@@ -1,0 +1,22 @@
+{
+  "story_slug": "prod_batch_14_spring_ming",
+  "pipeline_mode": "production",
+  "failure_types": [
+    "phase2 runner hang avoided by manual artifacts"
+  ],
+  "successful_hooks": [
+    "他弃我北境三年后，我回到爹娘尚在时",
+    "我说：裴景明，我再也不会喜欢你。",
+    "这一回，我回家了。"
+  ],
+  "manual_revision_delta": [
+    "Removed explicit harm detail",
+    "Built evidence chain around letters and pulse records"
+  ],
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.5,
+    "style": 8.0,
+    "logic": 7.6
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "苏念公寓/陆衍的办公室",
+  "time": "领证后一周至婚礼前一天",
+  "pov": "苏念",
+  "characters": ["苏念", "陆衍", "方怡"],
+  "character_goal": "苏念忍耐陆衍的层层剥夺",
+  "opposition_goal": "陆衍要抢走苏念的一切给方怡：礼服、算法授权、尊严",
+  "conflict_action": "陆衍强行拿走礼服给方怡→转移核心算法授权→要求苏念穿公司文化衫以'前同事'身份出席他的商业婚礼",
+  "information_gap": "苏念已经领了真证——陆衍的一切剥夺都是空拳打影子",
+  "emotional_debt_delta": "剥夺债务层层加码：礼服被抢+算法被转+身份被贬",
+  "payoff_or_hook": "公司文化衫——从技术VP降格到'前同事'的极致压迫临界点",
+  "chapter_end_hook": "陆衍递出公司文化衫：'商业婚礼你穿这个来就行，前同事嘛'",
+  "paywall_card": true,
+  "must_include": [
+    "陆衍粗暴拿走礼服（具体动作）",
+    "'方怡身材刚好'的双重打击句",
+    "算法授权被转移（核心技术被夺）",
+    "画饼话术（'等方怡生完再补'）",
+    "公司文化衫作为终极降格道具",
+    "LED屏循环播PPT的廉价婚礼场地描写"
+  ],
+  "must_not_write_as_exposition": [
+    "苏念的反击计划",
+    "真正的婚礼准备进度",
+    "沈砚在做什么"
+  ],
+  "rhythm_job": {
+    "shape": "层层加压——压到极致不释放",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 17.5,
+    "dominant_emotion": "被压迫-极致忍耐",
+    "emotion_arc": "礼服被抢 → 算法被转 → 婚礼降格 → 文化衫降格",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "暴怒到想冲进屏幕，同时因为知道苏念有底牌而产生'等着看好戏'的期待",
+    "required_techniques": [
+      {
+        "technique": "递进剥夺法",
+        "instruction": "抢礼服→转算法→廉价场地→文化衫——四层剥夺每层加码，每多一层读者怒气值加一档"
+      },
+      {
+        "technique": "甜枣话术还原",
+        "instruction": "精准还原PUA画饼：'回头给你买件更贵的''等方怡生完再补''以后公司上市了还是你的'——读者因太真实而愤怒"
+      },
+      {
+        "technique": "降格比喻",
+        "instruction": "廉价婚礼场地用降格意象——'LED屏循环播PPT，廉价得像科技园年会抽奖现场'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定你+肯定第三者=双重打击",
+        "example": "你穿这种收腰的不好看，柔柔身材刚好。",
+        "instruction": "不只是抢东西而是否定你的身体——触发读者最本能的自尊防御"
+      },
+      {
+        "structure": "[道德绑架的俗语]+[强加身份等级]",
+        "example": "你是技术合伙人，让着点行政的人，天经地义！",
+        "instruction": "用伪道德话术包装不合理要求——读者对这种逻辑极度反感"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "递进式——先给甜再一层层剥夺",
+    "source_excerpt": "陆衍动作粗暴地扯开礼服袋。\n“你穿这种极简的不合适，方怡身材刚好。”\n他抽出黑卡递给店员：'这件她要了。'\n……\n“核心算法授权变更一下，受益人改成方怡，她现在是公司联合创始人了。”\n“等方怡生完孩子，公司上市了，再补给你一份。”\n……\n他满意地点了下头，随手拿起一件公司文化衫。\n“商业婚礼你穿这个来就行。”\n“前同事嘛。”"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": [],
+      "句式": "沉默、不回应、用不说话表达不屑",
+      "单句上限": 12,
+      "禁止": "解释、争辩、流泪"
+    },
+    "陆衍": {
+      "口癖": ["放心", "乖一点", "别闹"],
+      "句式": "说教式+画饼式+命令式交替",
+      "单句上限": 18,
+      "禁止": "对不起"
+    }
+  }
+}

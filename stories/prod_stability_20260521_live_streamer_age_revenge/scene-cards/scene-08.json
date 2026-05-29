@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 780,
+  "target_chars_max": 900,
+  "location": "顶奢美妆联名短片首映夜主会场",
+  "time": "两天后晚间",
+  "pov": "林见棠 第一人称",
+  "characters": ["林见棠", "周既白", "顾淮川", "品牌负责人", "主持人", "媒体", "现场观众"],
+  "character_goal": "在最公开的场里完成换人官宣和侵权反杀。",
+  "opposition_goal": "顾淮川要拿假海报和现场人气逼品牌认下他。",
+  "conflict_action": "顾淮川冲上前质问，品牌负责人现场公布正式授权和替拍完成版，周既白从大屏男主位走出来。",
+  "information_gap": "现场所有人到揭屏前都默认顾淮川才是男主。",
+  "emotional_debt_delta": "公开商业场第一记重锤兑现，爽感大额释放。",
+  "payoff_or_hook": "换人不是私下撤，是当众翻盘。",
+  "chapter_end_hook": "大屏亮起，男主角名字写着周既白，顾淮川站在台下像个笑话。",
+  "paywall_card": true,
+  "must_include": [
+    "主持人口播或大屏揭屏动作",
+    "品牌蓝V/官博同步信息",
+    "顾淮川拿假海报冲场",
+    "周既白正式出场，但不要抢女主主位"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇写会场装修",
+    "不要解释品牌合作历史",
+    "不要用群像反应灌水"
+  ],
+  "rhythm_job": {
+    "shape": "默认误判1拍+冲场对峙2拍+揭屏反杀2拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白、动作、评论行都要有，评论只做围观承接，不替代现场冲突"
+  }
+}

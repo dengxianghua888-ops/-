@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "0号尸检间证物台",
+  "time": "胎儿发现后",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "助理法医",
+    "记录员"
+  ],
+  "character_goal": "陆谨言要补查所有被他错过的怀孕证据。",
+  "opposition_goal": "过往的傲慢和程序记录不断证明他曾拒绝相信沈栀。",
+  "conflict_action": "陆谨言撕开随身证物袋，翻出手机产检短信、纪念日礼盒和损坏的胎心钥匙扣。",
+  "information_gap": "胎心钥匙扣还未恢复，里面可能有事故前声音。",
+  "emotional_debt_delta": "生前委屈债回旋，陆谨言开始被证据逐条审判。",
+  "payoff_or_hook": "证物闭合怀孕真相，转入录音修复钩子。",
+  "chapter_end_hook": "他从我随身证物里翻出那枚胎心钥匙扣。",
+  "paywall_card": false,
+  "must_include": [
+    "产检短信日期",
+    "纪念日礼盒",
+    "损坏胎心钥匙扣",
+    "陆谨言翻证物时手抖",
+    "沈栀冷看他迟到"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段解释怀孕过程",
+    "不要写成温馨纪念日回忆",
+    "不要让助理替男主发现核心真相"
+  ]
+}

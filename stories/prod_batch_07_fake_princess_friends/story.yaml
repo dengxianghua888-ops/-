@@ -1,0 +1,173 @@
+schema_version: 2
+pipeline_mode: production
+status: final
+title: 假千金只会逛瓦舍，圣上却来找她
+genre: 古言爽文
+primary_platform: tomato
+final_outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters_glob: final-chapters/*.md
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  artifact_bundle_only: true
+provider_audit:
+  provider: openai
+  model: codex-cli
+  source: storyforge-production-phase7-final-packager
+  current_date: 2026-05-11
+  timezone: Asia/Shanghai
+source_materials:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+  evaluations:
+    platform: story/evaluation/platform.json
+    emotion: story/evaluation/emotion.json
+    style: story/evaluation/style.json
+    logic: story/evaluation/logic.json
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures:
+  - 'platform.synopsis_pending_phase7: 平台简介将在 Final Packager 投稿包中产出。'
+  critic_scores:
+    platform: 7.8
+    emotion: 8.6
+    style: 8.1
+    logic: 7.6
+  score_scale: 0-10
+  machine_metrics:
+    text_path: stories/prod_batch_07_fake_princess_friends/final.md
+    target_length:
+      min: 10000
+      max: 11500
+      actual: 10652
+      status: pass
+    chapters:
+      count: 14
+      hook_hits: 14
+      hook_coverage: 1.0
+      lengths:
+      - 727
+      - 786
+      - 785
+      - 715
+      - 655
+      - 890
+      - 709
+      - 720
+      - 769
+      - 764
+      - 782
+      - 756
+      - 752
+      - 727
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 8
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 85
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 4
+        actual: 4
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 11
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 9
+      status: pass
+    style_metrics:
+      char_count: 10652
+      sentence_count: 591
+      avg_sentence_length: 17.024
+      dialogue_ratio: 0.2894
+      question_marks: 76
+      question_marks_per_k: 7.135
+      physical_emotion_hits:
+        指尖: 4
+        发麻: 1
+        后背: 1
+        喉咙: 1
+        指甲: 3
+        掌心: 8
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 29.947
+    semantic_repetition:
+      sentence_count: 466
+      unique_sentence_skeletons: 466
+      max_sentence_repeats: 1
+      max_sentence_repeat_ratio: 0.0021
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  source_report: story/quality-report.json
+  schema_version: 2
+  pipeline_mode: production
+phase7_changes:
+- 补齐番茄投稿包简介、标题 A/B/C、标签、前三章钩子说明。
+- 补明灯帖调包：真帖藏在灯谜牌夹层，袖中旧帖为诱饵。
+- 补明迷香反放线：萧晏暗中盯梢，女主故意等沈母再动手。
+- 微调三连身份亮牌，改为人物声口更自然的反打。
+- 切分 14 个章节，章节末均设置续读钩子。
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+automation:
+  last_run_id: 20260511122838
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  revisions_applied:
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。

@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B4-B5",
+  "scene_label": "破门·鲁米诺·假哥哥递房产证",
+  "location": "梧桐里 3 号别墅入户大门",
+  "time": "傍晚七点零四",
+  "pov": "林初",
+  "characters": ["林初", "假哥哥", "裴恒队长", "刑侦队员"],
+  "character_goal": "把'冒牌哥哥'交给警方核查",
+  "opposition_goal": "假哥哥扮哀求妹妹的兄长，让警方撤离",
+  "conflict_action": "警察踹门入屋+全屋鲁米诺无血+警犬无异常+假哥哥替主角向警方求情",
+  "information_gap": "现场为什么干净到一滴血都没有",
+  "emotional_debt_delta": "+公开矮化债·开始",
+  "payoff_or_hook": "鲁米诺血液检测显示整幢房子干净如新",
+  "chapter_end_hook": "'空口无凭。'裴队长的目光在我手腕的菜刀上凝住",
+  "paywall_card": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1100,
+  "must_include": [
+    "警察踹门动作",
+    "鲁米诺检测仪具体名称",
+    "假哥哥抿唇的小动作'和我亲哥一模一样'",
+    "主角踢远菜刀",
+    "假哥哥递房产证（仅写主角一人姓名）"
+  ],
+  "must_not_write_as_exposition": [
+    "禁主角内心解说'警察怀疑我'",
+    "禁'颤抖着说道'",
+    "禁'似乎'软描写"
+  ]
+}

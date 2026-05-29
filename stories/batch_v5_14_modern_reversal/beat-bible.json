@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_7a61ef4bd5",
+  "title": "他说我是拖油瓶的那天，我看见了十年后他跪在我坟前的样子",
+  "genre": "modern_reversal",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "被竹马和闺蜜毁掉的女孩提前知晓命运后清醒逃离",
+    "new_setting": "被青梅竹马和室友联手背叛的女孩通过未来日记提前看见自己的悲惨结局后果断抽身，让迟来的悔恨永远追不上她",
+    "character_map": {
+      "乔知意→苏念": "女主，被竹马视为拖累的养女，提前逃离命运",
+      "陆修言→顾衍": "男主/反派，竹马，把恩情当枷锁，最终以命赎罪",
+      "宋昭→林薇": "伪闺蜜，表面直爽实则恶毒，抢夺男主",
+      "外婆→奶奶": "女主唯一亲人，被保护的情感锚点"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "未来信息刺破旧梦", "min_impacts": 3, "must_include": ["女主看到未来信息", "发现自己被称为拖累", "决定提前终结"]},
+    {"beat_id": "B2", "title": "恩情被改写为绑架", "min_impacts": 3, "must_include": ["竹马把救命恩情说成负担", "女主回忆父母牺牲", "信任崩塌"]},
+    {"beat_id": "B3", "title": "未来悲剧全揭露", "min_impacts": 4, "must_include": ["奶奶去世", "流产", "精神崩溃", "自杀结局"]},
+    {"beat_id": "B4", "title": "现世差别对待确认", "min_impacts": 3, "must_include": ["竹马对室友和女主的态度对比", "女主受伤被忽视", "室友一个电话就能召唤"]},
+    {"beat_id": "B5", "title": "切割宣言", "min_impacts": 3, "must_include": ["女主明确要求少来往", "保护奶奶出国", "归还信物"]},
+    {"beat_id": "B6", "title": "出逃与新生", "min_impacts": 3, "must_include": ["女主离开", "未来信息源消失", "竹马获得记忆"]},
+    {"beat_id": "B7", "title": "男主记忆回流与崩溃", "min_impacts": 3, "must_include": ["男主看见未来自己做的事", "崩溃悔恨", "室友真面目暴露"]},
+    {"beat_id": "B8", "title": "十年赎罪", "min_impacts": 3, "must_include": ["男主用十年弥补", "女主事业爱情圆满", "男主求复合被拒"]},
+    {"beat_id": "B9", "title": "命运代价", "min_impacts": 2, "must_include": ["男主以命换改命机会", "寿命只剩十年"]},
+    {"beat_id": "B10", "title": "彻底告别", "min_impacts": 2, "must_include": ["女主不回头", "新人生圆满"]}
+  ]
+}

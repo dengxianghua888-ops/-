@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 680,
+  "target_chars_max": 720,
+  "location": "辖区派出所接待窗口",
+  "time": "主线时间线 第5节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "民警"
+  ],
+  "character_goal": "立刑事案",
+  "opposition_goal": "用民事调解口径把刑案先卡在门外",
+  "conflict_action": "值班民警翻完红章对我摇头，说这是民事，先去市监局调解，他把笔放下推回我的身份证。",
+  "information_gap": "张磊以为报警就能立案，赵卫东已用‘正规收据’把案子先卡在民事口",
+  "emotional_debt_delta": "立案债",
+  "payoff_or_hook": "我把红章塞回怀里，门口的雨砸在卷帘上像砸我胸口。",
+  "chapter_end_hook": "我把红章塞回怀里，门口的雨砸在卷帘上像砸我胸口。",
+  "paywall_card": false,
+  "must_include": [
+    "民警摇头",
+    "民事调解口径",
+    "卷帘外的雨",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

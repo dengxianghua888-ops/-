@@ -1,0 +1,74 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "target_chars_min": 400,
+  "target_chars_max": 600,
+  "location": "酒庄宴会厅/舞台",
+  "time": "婚礼仪式进行中",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城（远景）", "许芷悦（远景）", "宾客"],
+  "character_goal": "沈绮云走上舞台完成角色转换：从潜伏者变为公开出击者",
+  "opposition_goal": "张锐城正在台上进行婚礼誓词，完全没有防备",
+  "conflict_action": "沈绮云穿过人群走上舞台，拿起话筒，说出那句话——'老公，结婚这么大的事怎么不告诉我一声？'",
+  "information_gap": "全场只有沈绮云知道真相，一句话让所有人的认知瞬间崩塌",
+  "emotional_debt_delta": "权力关系彻底反转：从'被抹杀的死人'变为'掌握全部证据的复仇者'",
+  "payoff_or_hook": "付费级卡点：全文最强一句话作为章末——读者必须翻页看后续",
+  "chapter_end_hook": "沈绮云拿起话筒说出'老公，结婚这么大的事怎么不告诉我一声？'——全场石化",
+  "paywall_card": true,
+  "must_include": [
+    "走上舞台的物理动作（穿过人群/上台阶）",
+    "拿起话筒的瞬间",
+    "那句话：'老公，结婚这么大的事怎么不告诉我一声？'",
+    "全场反应的瞬间静默"
+  ],
+  "must_not_write_as_exposition": [
+    "女主的心理建设过程",
+    "她走上去时的犹豫"
+  ],
+  "rhythm_job": {
+    "shape": "骤爆",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.0,
+    "comma_period_ratio": 0.5,
+    "sentence_avg_len": 17.2,
+    "dominant_emotion": "冰冷出击",
+    "emotion_arc": "冷静决定 → 穿过人群 → 拿起话筒 → 一句话引爆",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "全身汗毛竖起——她真的动手了！迫不及待翻页",
+    "required_techniques": [
+      {
+        "technique": "舞台夺麦式开场白",
+        "instruction": "用日常语调说出致命话语——'老公'是亲密称呼，'结婚这么大的事'是日常关切，但组合在这个场景里变成核弹。越平常越恐怖"
+      },
+      {
+        "technique": "冷静一句话转场",
+        "instruction": "从蓄力到行动只用一个动作句过渡——不写心理建设过程，直接'我站起来/我走上去/我拿起话筒'。行动本身就是最强的态度表达"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "亲密称呼+日常关切语气+致命内容",
+        "example": "老公，结婚这么大的事怎么不告诉我一声？",
+        "instruction": "必须原样使用这个句式结构——亲密称呼开头、日常问句语气、内容却是致命指控。这是全文最强一句"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "突变式",
+    "source_excerpt": "台上正在交换戒指。我站起来，穿过人群，走上舞台。他看见我，脸色瞬间煞白。我拿起话筒，笑了一下：'老公，结婚这么大的事怎么不告诉我一声？'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": [],
+      "句式": "此场只有一句台词但必须完美——日常语调+致命内容",
+      "单句上限": 20,
+      "禁止": "犹豫、解释、情绪铺垫"
+    }
+  }
+}

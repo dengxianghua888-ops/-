@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B9",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅",
+  "time": "同日下午五点",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "周明远", "民警", "围观卖家群"],
+  "character_goal": "锁死反派：要么吐货要么吐罪",
+  "opposition_goal": "周明远要求'退还销毁费私了'",
+  "conflict_action": "周明远凑近压低声音'退三千万行不行'→徐阳后退一步说'晚了'→围观卖家A站出来'我去年也被你们坑过'→另两人陆续开口→民警打电话调专案组",
+  "information_gap": "死环展开+围观觉悟，读者看到正义性叠加",
+  "emotional_debt_delta": "-1（累积至-4）",
+  "payoff_or_hook": "金句：'你罚我三千万，我就管你要三千万的货——货没了，就是你偷的'",
+  "chapter_end_hook": "'你罚我三千万，那我就管你要三千万的货——货没了，就是你偷的。'",
+  "paywall_card": false,
+  "must_include": ["三位围观者依次开口的具体内容", "周明远凑近的小动作", "民警打电话调专案组的动作", "金句原文"],
+  "must_not_write_as_exposition": ["反派立刻招供", "主角狂笑反讽", "旁白评注", "群众替主角说话喊口号"]
+}

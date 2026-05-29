@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "别墅客厅、地下室、院内取样点",
+  "time": "警方扩大检测时",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "技术员",
+    "警犬训导员",
+    "假家人"
+  ],
+  "character_goal": "沈棠要从常规检测结果中找到反常模式。",
+  "opposition_goal": "假家人要让无异常检测坐实她自导自演。",
+  "conflict_action": "技术员做鲁米诺、警犬搜索和DNA初筛，沈棠拿纸笔记录每个检测点位和无异常结果。",
+  "information_gap": "为什么连警犬和常规痕迹检测都找不到任何东西。",
+  "emotional_debt_delta": "全网嘲讽抵达第一波峰值，沈棠的可信度降到最低。",
+  "payoff_or_hook": "检测失败本身变成下一层证据缺口。",
+  "chapter_end_hook": "全息检查无异常，警犬搜索无异常，DNA初筛也无异常。",
+  "paywall_card": false,
+  "must_include": [
+    "鲁米诺检测无异常",
+    "警犬无反应",
+    "DNA初筛无异常",
+    "沈棠记录点位",
+    "假哥哥嘲笑她找证据"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲规避侦查方法",
+    "不要把检测流程写得教学化",
+    "不要让沈棠立刻解释全部原因"
+  ]
+}

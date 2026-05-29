@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "地下管网项目办公室",
+  "time": "倒计时21小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "包工头", "管网工友", "贺景衡的助理"],
+  "character_goal": "江沉拿回六年工伤记录，证明自己受过的伤不是撒谎。",
+  "opposition_goal": "包工头要销毁工伤单，继续把江沉推去高危下井任务。",
+  "conflict_action": "包工头抽走工伤单，用沾泥手套拍江沉脸，把新的下井派工单砸到桌上。",
+  "information_gap": "江沉只知道项目被刻意羞辱，不知道名单来自江栀，危险加码来自贺景衡。",
+  "emotional_debt_delta": "+工伤证据被抢；+职业羞辱具体化",
+  "payoff_or_hook": "工伤记录成为后文证据链预埋。",
+  "chapter_end_hook": "包工头低声说：这些活，都是你姐姐点名派给你的。",
+  "paywall_card": false,
+  "must_include": ["工伤单", "毒气超标记录", "新派工单", "包工头羞辱动作", "江沉偷偷按下录音"],
+  "must_not_write_as_exposition": ["不要只回忆六年苦役", "不要泛泛写被欺负", "不要把包工头写成无关路人"]
+}

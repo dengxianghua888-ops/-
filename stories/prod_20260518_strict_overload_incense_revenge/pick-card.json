@@ -1,0 +1,14 @@
+{
+  "slug": "prod_20260518_strict_overload_incense_revenge",
+  "corpus_slug": "overload_incense_revenge",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M1",
+    "M3"
+  ],
+  "hook_type": "H1",
+  "title_formula": "T1",
+  "tomato_fit_score": 8.7,
+  "picked_at": "2026-05-18T18:14:39",
+  "run_id": "20260518_181439"
+}

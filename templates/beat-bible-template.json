@@ -1,0 +1,66 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {"min": 10000, "max": 14000},
+  "structure_contract": {
+    "target_draft_chars": "target_length.max × 1.15",
+    "impact_density_floor": 3.4,
+    "cliffhanger_coverage": 1.0,
+    "watermark_rule": "禁止连续3行纯描写（无对话/无动作/无信息揭露）"
+  },
+  "impact_density_contract": {
+    "source_impacts_per_1000_chars": "(从 structure-skeleton.json 读取)",
+    "target_floor_ratio": 0.80,
+    "impact_definition": "对话攻击/物理暴力/秘密揭露/背叛行为/地位反转",
+    "per_beat_min_impacts": {
+      "setup_beats": 2,
+      "escalation_beats": 3,
+      "climax_beats": 4,
+      "resolution_beats": 2
+    }
+  },
+  "quality_floor": {
+    "chapter_hook_coverage": 1.0,
+    "paywall_card_every_chars": 3500,
+    "chapter_min_chars": 500,
+    "chapter_max_chars": 1200
+  },
+  "dialogue_distribution_guidance": {
+    "note": "climax beats 的对话密度应显著高于非climax beats，具体数值以源文实测为准",
+    "climax_quote_rate_floor": "source_quote_line_rate * 1.2",
+    "non_climax_quote_rate_ceiling": "source_quote_line_rate * 0.8"
+  },
+  "chapters": [],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "budget_role": "setup|escalation|climax|resolution",
+      "target_chars": 3000,
+      "scene_location": "",
+      "character_goal": "",
+      "conflict_action": "",
+      "information_gap": "",
+      "emotion_debt_balance": "",
+      "chapter_end_hook": "",
+      "paywall_card": false,
+      "forbidden_summary": [],
+      "opening_hook": "(beat-01 必填) 第一段必须包含的信息不对称或悬念要素",
+      "contradiction_moment": "(可选) 角色做出与读者预期相反的情绪反应",
+      "gold_sentence_slot": {
+        "position": "beat结尾",
+        "rhetoric_pattern": "boomerang_quote|contrast_pair|rhetorical_question|physical_metaphor",
+        "source_reference": "",
+        "generation_rule": "必须引用前文反派的具体措辞或使用源文同类修辞结构"
+      },
+      "cliffhanger_contract": {
+        "type": "action_cliff|revelation_half|threat_incoming|false_safety|emotional_peak_cut",
+        "rule": "必须在读者最想知道答案的瞬间断章",
+        "forbidden_ending": "不允许给读者小闭环再断章"
+      },
+      "min_impacts": 2,
+      "reversal_layers": {
+        "min_depth": null,
+        "pattern": "(仅 climax beats 填写) 读者以为A → 其实是B → 更深层是C"
+      }
+    }
+  ]
+}

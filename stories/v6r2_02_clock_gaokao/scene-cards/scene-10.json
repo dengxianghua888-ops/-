@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-07b",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "target_chars_min": 560,
+  "target_chars_max": 660,
+  "location": "工厂外围·穹顶边缘",
+  "time": "晚上8:15，穹顶被确认后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "巡警", "消防", "玩家家属群体"],
+  "character_goal": "沈听澜要让所有人明白只有她知道怎么解决",
+  "opposition_goal": "巡警/消防尝试各种物理手段打破穹顶——全部失败",
+  "conflict_action": "消防车被力场弹开，电锯无痕迹，巡警承认无能为力",
+  "information_gap": "外力穷尽后所有人终于开始看向沈听澜——她是唯一有答案的人",
+  "emotional_debt_delta": "M3反转的前奏——从'抓住她'到'看向她'",
+  "payoff_or_hook": "钩子：穹顶内完全寂静，没有一个人走出来——仿佛里面的一切被抹除了",
+  "chapter_end_hook": "穹顶内无声无人走出——不确认死亡但暗示最坏可能",
+  "paywall_card": true,
+  "must_include": ["消防车被弹开", "各种工具无效", "巡警的绝望表情", "态度反转第一声（有人喊'那个姑娘之前说过有危险'）", "穹顶内的死寂"],
+  "must_not_write_as_exposition": ["力场的物理构成", "沈听澜的解决方案"],
+  "rhythm_job": {
+    "shape": "后快（手段加速失败→绝望→寂静）",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 16.0,
+    "dominant_emotion": "恐惧-证实",
+    "emotion_arc": "物理手段失败 → 绝望 → 态度反转开始",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "看到消防车被弹开时绝望——但隐约期待反转时刻到来",
+    "required_techniques": [
+      {
+        "technique": "外力穷尽制造绝望",
+        "instruction": "用人类最强手段的逐一失败确认问题不可解——消防车/电锯/锤子，每个失败都让'唯一希望是主角'更确定"
+      },
+      {
+        "technique": "态度反转的第一声",
+        "instruction": "有一个家属突然想起'那个姑娘之前说过有危险'——M3反转的第一个音符轻轻响起"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "就好像+极端比喻暗示最坏结果",
+        "example": "就好像这堵墙把里面的一切都抹除了。",
+        "instruction": "用'抹除'而非'困住'——暗示里面可能已经没有人了，比明说更恐怖"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "直升机停在半空中飞不过去。挖掘机掘地三尺也挖不穿。最坚硬的砖石刀连一道痕迹都没能留下。爸妈终于意识到，我说的有危险都是真的。没有一个人走出考场，来到墙边。就好像这堵墙把里面的一切都抹除了。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["我说过了"],
+      "句式": "极简事实句，不带情绪",
+      "单句上限": 14,
+      "禁止": "指责、得意"
+    }
+  }
+}

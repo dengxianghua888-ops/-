@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 730,
+  "target_chars_max": 840,
+  "location": "升学宴舞台与当夜梦境",
+  "time": "第七天夜里",
+  "pov": "第一人称，沈知夏",
+  "characters": [
+    "沈知夏",
+    "母亲",
+    "父亲",
+    "秦律师",
+    "到场亲友",
+    "梦中的姥爷"
+  ],
+  "character_goal": "完成公开接纳，彻底终止轮回",
+  "opposition_goal": "对方试图维持旧秩序、压住证据或拖延真相落地。",
+  "conflict_action": "父母在台上以我的真实姓名和身份介绍我，并宣布股份与基金安排由我接管",
+  "information_gap": "这次公开承认能否真正结束姥爷留下的死局",
+  "emotional_debt_delta": -3,
+  "payoff_or_hook": "轮回终止，姥爷告别，主角获得被看见的社会性新生",
+  "chapter_end_hook": "梦里姥爷终于笑了：'这次，你们总算没再把他弄丢。'",
+  "paywall_card": false,
+  "must_include": [
+    "父母的介绍语要落在具体称呼和继承安排上",
+    "结尾给姥爷梦境告别，完成善意收束"
+  ],
+  "must_not_write_as_exposition": [
+    "不要空泛升华价值观",
+    "不要省略轮回终止的体感变化"
+  ],
+  "rhythm_job": {
+    "shape": "公开动作 35% + 现场短对白 20% + 情绪落地 25% + 梦境告别 20%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "掌声前的停顿、灯光落下、梦里一声慢慢的招呼"
+  }
+}

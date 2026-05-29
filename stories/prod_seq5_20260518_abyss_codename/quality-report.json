@@ -1,0 +1,147 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260518_abyss_codename/final.md",
+    "target_length": {
+      "min": 13000,
+      "max": 16500,
+      "actual": 14220,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 18,
+      "hook_hits": 18,
+      "hook_coverage": 1.0,
+      "lengths": [
+        743,
+        782,
+        769,
+        751,
+        711,
+        779,
+        796,
+        764,
+        789,
+        750,
+        744,
+        788,
+        797,
+        805,
+        859,
+        837,
+        836,
+        739
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 5,
+      "actual": 12,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 157,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 5,
+        "actual": 6,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 23,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 22,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 14220,
+      "sentence_count": 713,
+      "avg_sentence_length": 18.944,
+      "dialogue_ratio": 0.1538,
+      "question_marks": 3,
+      "question_marks_per_k": 0.211,
+      "physical_emotion_hits": {
+        "指尖": 5,
+        "指甲": 1,
+        "掌心": 4
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 36.639
+    },
+    "semantic_repetition": {
+      "sentence_count": 626,
+      "unique_sentence_skeletons": 625,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0032
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 8.4,
+    "style": 8.0,
+    "logic": 7.9
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "处分转学生；前三个失踪的可都住过这栋楼；代号黑匣",
+      "finding": "前300字内完成平台所需身份反差与案件入口"
+    },
+    {
+      "area": "hooks",
+      "quote": "三号乘客未登机；林雾，B312，今晚登机；黑匣，请登机",
+      "finding": "章节末钩持续递进，悬疑信息逐层升级"
+    },
+    {
+      "area": "paywall",
+      "quote": "最后一排发现林雾登机牌、货舱17C校牌、韩停夜闯、课件隐藏页、纪闻关舱门、塔台续案音频",
+      "finding": "六处正文付费卡点成立"
+    },
+    {
+      "area": "emotion",
+      "quote": "称呼决定你把她们当人，还是当可移动的座位号；你不是被留下来的证据，你是幸存者证人",
+      "finding": "受害者正名债与蒋晴幸存者债有现场偿还"
+    },
+    {
+      "area": "logic",
+      "quote": "门磁记录、床头录音波形、机库校牌、课件隐藏页、塔台频道回执",
+      "finding": "关键抓捕不靠口嗨，主要由物证和同步记录闭合"
+    }
+  ]
+}

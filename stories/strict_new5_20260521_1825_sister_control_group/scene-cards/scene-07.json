@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "放学路 / 小区门口",
+  "time": "当晚",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "沈蔓"
+  ],
+  "character_goal": "沈栀要确认沈蔓是否也重生，并摸清她这一世的底牌。",
+  "opposition_goal": "沈蔓要用先知优势和姐姐身份压制沈栀，提前宣战。",
+  "conflict_action": "沈蔓拦在门口，直接说出前世细节证明自己也重来过，并挑明她这次还要把周叙川和名声都拿回来。",
+  "information_gap": "沈蔓究竟是在抢爱，还是在抢一个能替她抬身份的人生工具？",
+  "emotional_debt_delta": "三层信息差成形，姐姐从偏心家人升级成主动侵害者。",
+  "payoff_or_hook": "沈蔓明牌重生，整个家庭关系从误会进入战争状态。",
+  "chapter_end_hook": "沈蔓贴着我耳边笑，说她也回来了，而且这次，她要把人和名都一起拿走。",
+  "paywall_card": false,
+  "must_include": [
+    "只有前世才会知道的细节",
+    "近距离挑衅动作",
+    "沈蔓把人和名捆在一起的价值观"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写姐妹小时候回忆录",
+    "不要把她写成单纯发疯",
+    "不要让冲突停在口头抱怨"
+  ],
+  "rhythm_job": {
+    "shape": "低压走路起势，门口短兵相接，最后一句明牌",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,51 @@
+slug: strict_new5_20260529_hot_hot_1f4bb8d89c
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_1f4bb8d89c
+genre: urban_sweet_ceo
+final_packaging:
+  title: 婚礼冷柜送到时，我撤回了专利
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  packager: scripts/package_from_draft_scenes.py
+total_chars: 11947
+chapter_count: 14
+paywall_cards: 6
+quality_gate: pass
+critic_scores:
+  logic: 7.8
+  style: 7.6
+  emotion: 8.4
+  platform: 8.2
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260529_185329
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

@@ -1,0 +1,34 @@
+{
+  "slug": "batch_v2_02_family_ethics",
+  "source_slug": "hot_0033ca75f8",
+  "issues_encountered": [
+    {
+      "issue": "style-dna对话占比描述与实际rhythm_metrics不一致",
+      "detail": "style-dna.md写'对话占比约43%'，但rhythm_metrics实测source_quote_line_rate=0.2335",
+      "root_cause": "style-dna的'对话占比'可能统计的是含引号的句子级占比，而rhythm_metrics统计的是整行含引号的行级占比。源文大量混合行(叙述+引号内容在同一行)被style-dna计为对话但rhythm_metrics不计。",
+      "fix": "写作时以rhythm_metrics实测值为准，不信style-dna的描述性百分比。rhythm_contract应锚定在source_quote ± 0.05。"
+    },
+    {
+      "issue": "AI味词'此刻'残留",
+      "detail": "两处'此刻'在首次AI味检查后才被发现",
+      "root_cause": "写作时对'此刻'的禁忌意识不够，其语感接近日常用语容易滑入",
+      "fix": "写作完成后立即运行forbidden words检查，不等到最终验收阶段"
+    }
+  ],
+  "genre_specific_notes": [
+    "family_ethics的爽点在'温度反转'和'因果回旋'的双线交织",
+    "该genre内心独白占比极高(>60%)，叙事节奏靠短句碎行+反问句群驱动",
+    "源文quote_line_rate偏低(0.234)，大量'对话'实际是回忆中的间接引语或内心独白中嵌套的他人话语",
+    "temperature_reversal需要暖记忆和冷现实在物理距离上紧密交替(不超过3行切换一次)才有效",
+    "结尾closure极短(3-5% budget)是该genre特色——爽文不需要长尾"
+  ],
+  "pipeline_improvements": [
+    "Phase 4构建rhythm_contract时，必须先实测source的rhythm_metrics，以实测值为准而非style-dna描述",
+    "增加'AI味词预检'步骤：写作完成后立即跑forbidden词表，不等Phase 6",
+    "family_ethics genre应设置quote_line_rate上限为source_quote * 1.2，避免过度对话化"
+  ],
+  "rhythm_fit_trajectory": [
+    {"version": "v1", "chars": 10200, "status": "fail", "quote_rate": 0.388, "note": "quote_line_rate超标，对话过多"},
+    {"version": "v2_rewrite", "chars": 10001, "status": "pass", "quote_rate": 0.186, "note": "完全重写，内心独白为主"}
+  ]
+}

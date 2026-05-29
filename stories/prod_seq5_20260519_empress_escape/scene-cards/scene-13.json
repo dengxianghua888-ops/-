@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "含章宫宫门与排水渠口",
+  "time": "软禁第三日清晨",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "宫人",
+    "禁军"
+  ],
+  "character_goal": "温照晚想用行动划出边界，阻止萧珩继续钻暗渠求和。",
+  "opposition_goal": "萧珩想见她、解释、求她别走。",
+  "conflict_action": "温照晚拔掉旧渠砖，指挥宫人用新石封死排水渠，又把宫门钥匙扔回萧珩脚边。",
+  "information_gap": "萧珩能否理解放手才是修复第一步。",
+  "emotional_debt_delta": "排水渠从亲密道具反转为边界道具。",
+  "payoff_or_hook": "萧珩第一次没有越界。",
+  "chapter_end_hook": "她亲手命人封死排水渠，萧珩站在宫门外一夜没有进去。",
+  "paywall_card": false,
+  "must_include": [
+    "封排水渠动作",
+    "归还钥匙",
+    "萧珩站门外",
+    "女主说强留只会永失所爱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让萧珩翻墙进来",
+    "不要让封渠变成任性撒娇",
+    "不要用旁白替边界做解释"
+  ]
+}

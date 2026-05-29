@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 568,
+  "target_chars_max": 768,
+  "location": "客服直播调解间",
+  "time": "当晚八点半",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "三名受害商户",
+    "平台客服",
+    "总部风控负责人",
+    "值班警员",
+    "赵启明"
+  ],
+  "character_goal": "林照推动类似单据进入调查，证明这不是单次误判。",
+  "opposition_goal": "赵启明要把其他商户赶出直播间，切断串案证据。",
+  "conflict_action": "三名商户冲进调解间，分别举起高估值保价缴费单，林照让他们按编号交给警员拍照登记。",
+  "information_gap": "这些单据是否连接同一个代缴账户和同一名假鉴定老师。",
+  "emotional_debt_delta": "沉默受害者债开始偿还，普通商户从害怕转为共同举证。",
+  "payoff_or_hook": "类似红章单据集体出现，案件金额扩大。",
+  "chapter_end_hook": "客服直播间里，三个商户同时举起类似的保价缴费单。",
+  "paywall_card": false,
+  "must_include": [
+    "三个不同商户",
+    "类似保价缴费单",
+    "警员拍照登记",
+    "赵启明阻拦",
+    "直播间围观人数上升"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让受害者讲长篇苦情史",
+    "不要让群像压过林照",
+    "不要空泛写很多人受害而无单据"
+  ]
+}

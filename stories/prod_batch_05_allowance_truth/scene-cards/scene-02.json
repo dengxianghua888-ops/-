@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "小餐馆后门与许念插画工作室电话两端",
+  "time": "同日上午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "许念"
+  ],
+  "character_goal": "林素琴要许念说清当年每月到底收了多少钱",
+  "opposition_goal": "许念拒绝重新谈旧账，想维持对母亲的冷淡距离",
+  "conflict_action": "林素琴连续拨打电话，许念挂断后发来旧余额截图，林素琴立刻把自己的4000转账截图回发过去",
+  "information_gap": "两张截图都是真的，中间是谁动了钱",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+2",
+    "mother_negligence_debt": "+2",
+    "father_malice_debt": "+1"
+  },
+  "payoff_or_hook": "母女第一次账面对撞，许念说自己一直只收到500",
+  "chapter_end_hook": "许念冷声说：你不是一直只给我五百吗？",
+  "paywall_card": false,
+  "must_include": [
+    "许念旧银行卡余额截图",
+    "林素琴回发4000转账截图",
+    "许念短句冷话",
+    "林素琴追问许念当年为什么不说"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让许念无故恶言伤人",
+    "不要让林素琴只哭不查",
+    "不要解释父亲动机"
+  ]
+}

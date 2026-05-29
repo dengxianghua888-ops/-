@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 900,
+  "target_chars_max": 1150,
+  "location": "隔音琴房门口与室内门缝",
+  "time": "第三天中午",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "林知夏",
+    "林父",
+    "林母",
+    "陆明砚",
+    "物业经理"
+  ],
+  "character_goal": "知夏要打开琴房门确认妹妹安危，晚萤想让所有人看见她不是赌气。",
+  "opposition_goal": "父母仍想拖延，维持晚萤只是闹脾气的说法。",
+  "conflict_action": "知夏逼父母交钥匙，陆明砚输入权限码失败，林母用机械钥匙开锁，门板慢慢露出倒翻琴凳和裙角。",
+  "information_gap": "家人以为将要面对争吵，读者知道他们将面对死亡。",
+  "emotional_debt_delta": 4,
+  "payoff_or_hook": "尸体发现前卡断，付费卡点最大化。",
+  "chapter_end_hook": "备用钥匙插进锁孔，门板开出一道缝，林母终于看见了钢琴下的裙角。",
+  "paywall_card": true,
+  "must_include": [
+    "权限码失败",
+    "机械钥匙开门",
+    "倒翻琴凳",
+    "裙角出现在门缝里",
+    "知夏比父母更先崩溃"
+  ],
+  "must_not_write_as_exposition": [
+    "不要提前完整写尸体状态",
+    "不要让父母马上痛哭洗白",
+    "不要写猎奇细节",
+    "不要让章节在开门后继续解释"
+  ]
+}

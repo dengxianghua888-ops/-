@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B7",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "萧家祠堂主祭台·假表弟登场",
+  "time": "亥时三刻",
+  "pov": "萧承时·第一人称",
+  "characters": ["萧承时", "萧言安", "江砚", "萧瑾时", "祠堂族人"],
+  "character_goal": "在身上被插一根叉子的状态下确认'我代孕生女六年'被全员抹除",
+  "opposition_goal": "假表弟当众宣布女儿登记为他亲生女、江砚是他的妻",
+  "conflict_action": "假表弟提鞋跨上主祭台→当众展开婚书+女儿出生证（盖了妇产医院钢印）→指节敲那张出生证→说出'妹夫'两个字→江砚低头不看主角",
+  "information_gap": "读者看到反派把M1反派一方的兑付凭证全部摆上桌",
+  "emotional_debt_delta": "+8 身份归零",
+  "payoff_or_hook": "他扎着叉子站着没动，听完三件事",
+  "chapter_end_hook": "假表弟亮出婚书和女儿的出生证：'妹夫，你六年代孕的女儿，现在叫我爸。'",
+  "paywall_card": false,
+  "must_include": ["婚书+出生证两件物证的物理细节", "'妹夫'两字必须由假表弟亲口说出", "江砚低头不看主角的动作", "祠堂大铜钟的回声"],
+  "must_not_write_as_exposition": ["主角崩溃流泪", "反派立刻起疑反向揭穿", "群众替主角说话", "旁白概括婚姻无效"]
+}

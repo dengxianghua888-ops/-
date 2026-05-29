@@ -1,0 +1,15 @@
+{
+  "phase": 8,
+  "mode": "production_v6",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

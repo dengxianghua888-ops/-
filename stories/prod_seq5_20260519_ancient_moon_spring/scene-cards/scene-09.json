@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "暴雨码头、陆氏药船",
+  "time": "同夜子时",
+  "pov": "沈南星为主，末段切陆沉舟",
+  "characters": [
+    "沈南星",
+    "陆沉舟",
+    "林若鸢",
+    "护院",
+    "码头工"
+  ],
+  "character_goal": "沈南星要利用绑架局反制林若鸢并脱离陆家。",
+  "opposition_goal": "陆沉舟要夺回所谓婴儿，林若鸢要让沈南星坐实绑架罪。",
+  "conflict_action": "沈南星抱着药棉假婴冲上药船，引众人追到码头，割断缆绳后跳向江面。",
+  "information_gap": "陆沉舟以为襁褓里是林若鸢孩子，实际是药棉假婴和空扣。",
+  "emotional_debt_delta": "-女主假死离场、+男主开枪追逼新债",
+  "payoff_or_hook": "枪响后药船爆炸，沈南星连同襁褓坠入江水。",
+  "chapter_end_hook": "火光吞没江面，陆沉舟只抓到一枚滚烫的襁褓扣。",
+  "paywall_card": true,
+  "must_include": [
+    "暴雨码头",
+    "药棉假婴",
+    "陆沉舟开枪或下令开枪的主动动作",
+    "药船爆炸",
+    "坠江假死"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写爆炸技术细节",
+    "不要确认沈南星生还",
+    "不要把陆沉舟开枪洗成完全误会"
+  ]
+}

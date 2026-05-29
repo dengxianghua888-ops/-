@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 550,
+  "target_chars_max": 680,
+  "location": "医院VIP病房→护士站",
+  "time": "紧接上场",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "沈知微", "护士"],
+  "character_goal": "宣告不可逆的决裂——法院见",
+  "opposition_goal": "沈知微试图维持现状——'别闹了，回头再说'",
+  "conflict_action": "主角看着满地碎纸反而彻底冷静，说'不是威胁，是通知，法院见'；随后对护士说'她不是我家属，联系人改为周衡'",
+  "information_gap": "沈知微不知道'法院见'意味着他已有律师和完整诉讼策略",
+  "emotional_debt_delta": "-1：主角第一次主动出击，读者获得微量快感",
+  "payoff_or_hook": "'法院见'+身份否认双重打击，权力天平第一次倾斜",
+  "chapter_end_hook": "沈知微的脸色，瞬间难看到了极点。",
+  "paywall_card": false,
+  "must_include": [
+    "'不是威胁。是通知。'这句必须出现",
+    "'那就法院见。'四字短句",
+    "对护士说'她不是我家属'的行政动作",
+    "沈知微表情变化——第一次意识到事态失控"
+  ],
+  "must_not_write_as_exposition": [
+    "不能解释为什么'法院见'比骂她更狠",
+    "不能在此处预告后续诉讼策略"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力→短句爆发",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.0,
+    "comma_period_ratio": 0.5,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "对峙-冷硬",
+    "emotion_arc": "主角彻底冷静 → 宣战 → 身份否认 → 施害者震惊",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "被'法院见'的冷静震到，'她不是我家属'的行政动作比任何指责都更有杀伤力",
+    "required_techniques": [
+      {
+        "technique": "冷静反差句",
+        "instruction": "施害者越暴烈（撕纸+大声），主角越平静（点头+'行'+'法院见'）。反差制造'这个人不会输'的信念感"
+      },
+      {
+        "technique": "身份否认作为武器",
+        "instruction": "不说重话，只做一个行政动作——改联系人。比任何指责都更有杀伤力：你连我家属的资格都没了"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定A+肯定B",
+        "example": "不是威胁。是通知。",
+        "instruction": "'通知'比'威胁'冷十倍——意味着你连反驳的资格都没有。两个短句，中间用句号而非逗号"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "反差式",
+    "source_excerpt": "我看着满地碎纸，胸口却反而彻底静了下来。我点点头。'行。'她皱眉：'你什么意思？'我说：'不是威胁。是通知。那就法院见。'转头对护士：'她不是我家属。联系人改成我朋友周衡。'沈知微的脸色，瞬间难看到了极点。"
+  }
+}

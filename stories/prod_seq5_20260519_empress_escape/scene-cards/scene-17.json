@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-17",
+  "beat_id": "B17",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "药王谷别院与回宫官道",
+  "time": "临产前一月，夜雨",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "裴砚",
+    "温其正",
+    "报信禁军"
+  ],
+  "character_goal": "温照晚想安稳待产，但在北境围京急报前决定是否主动回宫。",
+  "opposition_goal": "裴砚和温其正想拦她冒险，报信禁军要把萧珩被困消息送到。",
+  "conflict_action": "温照晚听完急报，把安胎药塞给父亲，拔下发簪当马鞭，逼车夫冒雨回京。",
+  "information_gap": "北境围京是真叛乱，还是萧珩和乌兰珠设下的高压局。",
+  "emotional_debt_delta": "女主主动选择回宫，兑现主体性。",
+  "payoff_or_hook": "第五张付费卡：假围京逼女主主动回宫。",
+  "chapter_end_hook": "北境军围京急报传来，温照晚摸着肚子上了回宫马车。",
+  "paywall_card": true,
+  "must_include": [
+    "北境围京急报",
+    "裴砚阻拦",
+    "女主主动上车",
+    "她说回去不是原谅，是她的人在里面"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让女主被绑回宫",
+    "不要让孩子成为唯一理由",
+    "不要写详细军事部署"
+  ]
+}

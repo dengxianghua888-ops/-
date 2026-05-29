@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 780,
+  "target_chars_max": 950,
+  "location": "沈知晚租住公寓与短视频平台页面",
+  "time": "离婚后第二天夜里",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "沈明姝", "网友", "律师"],
+  "character_goal": "沈知晚用公证证据打掉抢婚抢资源的污名。",
+  "opposition_goal": "沈明姝想把自己塑造成被真千金逼走的受害者。",
+  "conflict_action": "沈明姝发布哭诉短视频，粉丝刷屏辱骂；沈知晚把结婚证、离婚证、沈家群聊截图和律师函一次排好发布。",
+  "information_gap": "替嫁证据露出，但逃婚录音和沈家偏心细节仍保留。",
+  "emotional_debt_delta": "舆论污名债第一轮清算；替嫁剥夺债正式入场。",
+  "payoff_or_hook": "读者看到女主不吵架，直接上证据。",
+  "chapter_end_hook": "全网骂她抢婚时，沈知晚点开发送键，第一批公证材料上线。",
+  "paywall_card": true,
+  "must_include": [
+    "热搜词条：沈知晚抢婚",
+    "沈明姝哭着说对不起妹妹",
+    "结婚证与离婚证同框",
+    "替嫁群聊公证编号",
+    "律师函"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用作者口吻总结网友反应",
+    "不要让沈知晚骂战",
+    "不要一次性曝光全部黑料"
+  ]
+}

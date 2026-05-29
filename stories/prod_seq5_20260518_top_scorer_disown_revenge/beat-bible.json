@@ -1,0 +1,444 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 15000,
+    "target_chars": 13200
+  },
+  "title": "高考状元当天，我举报全家被封进墙里",
+  "genre": "现代反转 / 家庭伦理 / 悬疑破案 / 高智商女主爽文",
+  "mechanisms": [
+    "M6 多层递进反转：断亲书抛弃 -> 假家人现身 -> 搜查无果 -> 智能家居破绽 -> 墙体破拆 -> 身份组织曝光",
+    "M2 身份/能力反差爆发：被质疑崩溃的假千金 -> 省状元 -> 材料竞赛型破局者 -> 刑事科学技术候选人",
+    "M3 因果回旋反讽：断亲书从羞辱变成保护遗言；反派迷信无尸无证，最终被证据链钉死"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 720,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "我对着直播镜头拨通报警电话，说尸体就在云麓湾17号。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 720,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "警方破门后，别墅干净得像从没住过人。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 720,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "门铃夜视画面里，哥哥的伤疤长在了错误的手上。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 760,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "那四个本该死去的人，带着一个陌生女孩站在警戒线外。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 700,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "假父亲把亲子鉴定拍在我面前，问我还要疯到什么时候。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 720,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "我把准考证和录取意向书推给裴队，说我拿前途下注。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 720,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "鲁米诺没有亮，警犬也没有叫。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 760,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "智能后台里，甲醛传感器在同一晚集体爆过红。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 720,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "我敲到客厅照片墙时，回声忽然空了一下。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 720,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "验收单上的日期，比我爸最后一次给我发消息还晚三天。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 760,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "顾教授刮下墙粉，只看了一眼就让所有人后退。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 760,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "假哥哥隔着警戒线冲我笑：你拆啊，拆完也什么都没有。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 760,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "破拆锤落下后，新风夹层里滚出一枚我妈的婚戒。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 740,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "断亲书背面的压痕里，藏着我爸妈最后一句话。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 760,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "身份库比对结果弹出时，假父亲第一次变了脸。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 760,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "庭审屏幕亮起，所有人都看见了门锁日志里的最后一分钟。"
+    },
+    {
+      "chapter_id": 17,
+      "target_chars": 720,
+      "scene_range": "scene-17",
+      "chapter_end_hook": "死刑判决落下后，我才敢把那封断亲书抱进怀里。"
+    },
+    {
+      "chapter_id": 18,
+      "target_chars": 720,
+      "scene_range": "scene-18",
+      "chapter_end_hook": "我把清大京大的材料放回桌上，填下了公安大学刑事科学技术。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "校门口采访车与云麓湾17号客厅",
+      "character_goal": "沈棠想把748分省状元的喜讯告诉父母，并让记者拍到一家团圆。",
+      "conflict_action": "她推开家门，拆开断亲书和解除婚约通知，当着记者和直播镜头拨打报警电话。",
+      "information_gap": "断亲书为什么来得这么准，沈家人是否真的带真千金出国。",
+      "emotion_debt_balance": "新增高光日被抛弃债、亲情背刺债、婚约羞辱债。",
+      "chapter_end_hook": "她实名报警：云麓湾17号全家被灭门，尸体就在房子里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写成普通假千金争宠",
+        "不能让主角被动等待警方发现"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "云麓湾17号玄关、客厅、楼梯口",
+      "character_goal": "沈棠要让警方相信别墅内发生过灭门案。",
+      "conflict_action": "裴队带人搜查客厅、卧室、地下室，沈棠逐一指出家人生活痕迹缺失处。",
+      "information_gap": "为什么屋内没有尸体、血迹和打斗痕迹。",
+      "emotion_debt_balance": "警方质疑加重，主角孤立感上升。",
+      "chapter_end_hook": "别墅初查无异常，裴队反问她尸体在哪里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把警方写成无能恶意",
+        "不能用大段心理旁白代替搜查动作",
+        "不能提前解释墙体真相"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "智能家居中控屏前",
+      "character_goal": "沈棠要拿出第一枚可视化破绽证明昨夜有人伪装哥哥进门。",
+      "conflict_action": "她调出智能门铃夜视回放，暂停、放大、对比哥哥旧伤和袖口暗斑。",
+      "information_gap": "进门的人为什么像哥哥，却有反向伤疤和异常袖口。",
+      "emotion_debt_balance": "主角从绝望转入冷静举证，但仍被怀疑。",
+      "chapter_end_hook": "画面放大后，所有人看见那道伤疤长在错误的手上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能靠直觉断案",
+        "不能详细描写血迹处理方式",
+        "不能把证据一次性说透"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "别墅门外警戒线与直播镜头前",
+      "character_goal": "沈棠要当场辨认假家人并守住报警说法。",
+      "conflict_action": "假父母、假哥哥、假未婚夫带真千金现身，沈棠逐个用称呼、习惯和旧伤试探他们。",
+      "information_gap": "这些人为何能骗过外貌和身份核验，真千金又是真是假。",
+      "emotion_debt_balance": "假家人当面伪装造成认知恐怖，新增被逼认疯债。",
+      "chapter_end_hook": "假父亲冲进镜头抱住真千金，说沈棠只是接受不了被赶出沈家。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能弱化假家人的相似度",
+        "不能让真千金成为单纯雌竞工具",
+        "不能洗白施压者"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 620,
+      "target_chars_max": 760,
+      "scene_location": "别墅临时询问区",
+      "character_goal": "沈棠要拆穿假父母拿出的身份文件。",
+      "conflict_action": "假父亲递出亲子鉴定、出境记录和赠与合同，沈棠当场检查签名、纸张折痕和措辞。",
+      "information_gap": "文件看似齐全，为什么断亲书里会有只有家人才懂的异常措辞。",
+      "emotion_debt_balance": "亲情抛弃债加深，公众开始站向假家人。",
+      "chapter_end_hook": "亲子鉴定显示沈棠与沈家没有血缘。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能污名化收养和非血缘家庭",
+        "不能让主角因血缘崩溃失去行动力",
+        "不能把文件线写成纯程序说明"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "警车旁与直播采访区",
+      "character_goal": "沈棠要迫使警方继续立案核查。",
+      "conflict_action": "裴队警告她虚假报警后果，沈棠交出准考证、成绩截图和名校联系记录，要求以自己前途担保继续检测。",
+      "information_gap": "她为什么敢用刚到手的省状元前途下注。",
+      "emotion_debt_balance": "新增名誉与前途赌注，智性爽感开始抬头。",
+      "chapter_end_hook": "沈棠说如果我说谎，我亲手毁掉自己的录取资格。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角靠吵闹推进",
+        "不能把高考状元只当标签",
+        "不能让警方无程序地全盘相信"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "客厅、地下室、院内取样点",
+      "character_goal": "沈棠要从常规检测中找到反常而非结论。",
+      "conflict_action": "技术人员做鲁米诺、警犬搜索和DNA初筛，沈棠记录每个无异常结果对应的空间位置。",
+      "information_gap": "为什么所有常规检测都失败，失败本身是否是伪装痕迹。",
+      "emotion_debt_balance": "被全网嘲讽债达到第一波高点。",
+      "chapter_end_hook": "三项检测全部无异常，直播弹幕开始骂她自导自演。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能提供规避检测的可复制细节",
+        "不能用检测名词堆砌科普",
+        "不能让主角马上胜利"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "智能家居后台机房",
+      "character_goal": "沈棠要找到整栋别墅被重做过的系统证据。",
+      "conflict_action": "她登录父亲留下的智能后台，导出甲醛、湿度、新风和门锁日志，圈出同一夜集体异常的数据。",
+      "information_gap": "那一夜别墅内到底发生了什么工程级变动。",
+      "emotion_debt_balance": "第一次反压检测失败，偿还部分智商债。",
+      "chapter_end_hook": "后台显示凌晨三点，所有传感器同时爆红又被手动校准。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写黑客开挂",
+        "不能给出入侵系统教程",
+        "不能把智能家居数据写成万能证据"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "客厅照片墙、走廊瓷砖区",
+      "character_goal": "沈棠要用现场可感知细节证明墙体异常。",
+      "conflict_action": "她拿钥匙逐块敲墙和瓷砖，让裴队听空鼓声，并把照片墙色差指给镜头。",
+      "information_gap": "空鼓墙后藏的是施工问题还是灭门证据。",
+      "emotion_debt_balance": "公众嘲讽被动摇，主角掌控感上升。",
+      "chapter_end_hook": "照片墙背后的回声，比其他墙面慢了半拍。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成长篇建筑课堂",
+        "不能让线索凭空出现",
+        "不能提前描述遗骸"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "书房文件柜与工程验收群记录",
+      "character_goal": "沈棠要从工程文件里找到时间线矛盾。",
+      "conflict_action": "她翻出验收单、授权文件和施工群截图，逼假未婚夫解释签字日期为何晚于父亲失联时间。",
+      "information_gap": "假未婚夫是否参与伪造工程授权。",
+      "emotion_debt_balance": "婚约羞辱债转为共犯嫌疑，爽点推进。",
+      "chapter_end_hook": "解除婚约通知上的工程章，和验收单上的章来自同一枚电子印。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成恋爱纠缠",
+        "不能让未婚夫线稀释灭门案",
+        "不能以巧合找到关键文件"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "客厅取样台与临时技术封控区",
+      "character_goal": "沈棠要引入权威验证墙粉和涂层异常。",
+      "conflict_action": "她请裴队联系顾教授，顾教授现场刮取墙粉、对比涂层颗粒和施工残留。",
+      "information_gap": "墙体材料为何会干扰常规检测。",
+      "emotion_debt_balance": "警方态度开始转向，主角可信度获得外部认证。",
+      "chapter_end_hook": "顾教授低声说，这不是普通翻新材料。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能提供犯罪规避检测方法",
+        "不能让专家替主角抢走破局功劳",
+        "不能把材料名词写得晦涩"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "别墅门口、警戒线、直播热搜界面",
+      "character_goal": "沈棠要申请破拆并承受毁掉家的代价。",
+      "conflict_action": "假哥哥公开挑衅她无证拆家，沈棠签下破拆申请和损失承担书。",
+      "information_gap": "拆开墙后会找到真相，还是让她彻底身败名裂。",
+      "emotion_debt_balance": "主角赌上家和名誉，情绪债进入第二高点。",
+      "chapter_end_hook": "沈棠对裴队说，拆，出了事我负责。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把拆家写成任性泄愤",
+        "不能渲染私刑",
+        "不能让反派挑衅显得幼稚"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "客厅照片墙、新风夹层、装饰承重层",
+      "character_goal": "沈棠要让家人重见天日。",
+      "conflict_action": "破拆队砸开照片墙和新风夹层，沈棠在封控线外辨认滚出的婚戒和哥哥钥匙扣。",
+      "information_gap": "墙内遗骸数量与身份是否对应沈家人。",
+      "emotion_debt_balance": "亲情真相爆发，家人并未抛弃她的希望出现。",
+      "chapter_end_hook": "夹层深处露出父亲手表时，我跪在尘土里失声。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能细写尸体状态",
+        "不能渲染暴力过程",
+        "不能让发现遗骸变成猎奇"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 680,
+      "target_chars_max": 800,
+      "scene_location": "封控后的书房与断亲书鉴定台",
+      "character_goal": "沈棠要弄清断亲书真正含义。",
+      "conflict_action": "她把断亲书交给顾教授做压痕观察，并按家中暗号重读每句异常措辞。",
+      "information_gap": "断亲书是被迫羞辱，还是父母留下的保护信号。",
+      "emotion_debt_balance": "亲情抛弃债开始反转为保护债，悲痛回收。",
+      "chapter_end_hook": "压痕显出一句话：棠棠，别回家。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把反转写成突然洗白",
+        "不能让断亲书保护逻辑无铺垫",
+        "不能大段煽情拖慢节奏"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "刑侦队会议室与身份比对屏",
+      "character_goal": "沈棠要把假家人从伪装者钉成犯罪嫌疑人。",
+      "conflict_action": "她配合警方比对门锁日志、人脸盲区、材料采购记录和身份库，指认假父亲的真实前科身份。",
+      "information_gap": "假家人背后是否还有专门操控身份和工程伪装的组织。",
+      "emotion_debt_balance": "被污蔑疯子的债大幅偿还，反派压迫转入崩塌。",
+      "chapter_end_hook": "假父亲的脸和七年前失踪案嫌疑人重合了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能美化犯罪团伙",
+        "不能详细教学伪造身份",
+        "不能让警方成果脱离主角线索"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "公开庭审现场",
+      "character_goal": "沈棠要在制度正义中完成公开清算。",
+      "conflict_action": "检方播放门锁日志、传感器曲线、墙体取样和DNA鉴定，沈棠出庭指认假家人。",
+      "information_gap": "反派是否还能用无直接目击和程序漏洞脱罪。",
+      "emotion_debt_balance": "公开打脸债、证据链爽点集中兑现。",
+      "chapter_end_hook": "假父亲最后一次抬头看我，嘴唇终于抖了。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把庭审写成私刑审判",
+        "不能省略证据链",
+        "不能让反派靠嘴硬拖戏"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "法院外、墓园、沈家废墟前",
+      "character_goal": "沈棠要接受家人死亡并完成告别。",
+      "conflict_action": "她拿着判决书去墓园，把断亲书和婚戒放到父母墓前。",
+      "information_gap": "她的人生是否只剩受害者身份。",
+      "emotion_debt_balance": "亲情债、正义债完成主要偿还，留下价值选择问题。",
+      "chapter_end_hook": "我以为故事到这里结束，直到招生组把两份录取承诺摆到我面前。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能渲染处刑过程",
+        "不能让结尾停在报复快感",
+        "不能让家人和解逻辑倒退"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "学校会议室与公安大学招生咨询桌",
+      "character_goal": "沈棠要决定未来身份。",
+      "conflict_action": "清大京大递出专业承诺，沈棠把材料推回去，填写公安大学刑事科学技术方向申请。",
+      "information_gap": "她如何把个人悲剧转化为公共正义。",
+      "emotion_debt_balance": "价值升格完成，读者获得正义补偿。",
+      "chapter_end_hook": "终章收束：这一次，我要亲手把更多真相带回阳光下。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成甜宠补偿",
+        "不能让名校争抢喧宾夺主",
+        "不能用空泛口号替代具体选择"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "target_total_chars": 13200,
+    "min_chapters": 16,
+    "actual_chapters": 18,
+    "min_paywall_cards": 4,
+    "actual_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0,
+    "first_300_chars_hook_required": true,
+    "action_density_per_1k_chars_min": 8
+  }
+}

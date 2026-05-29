@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "chapter_id": 6,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "平台年度盛典直播现场——千人会场",
+  "time": "盛典进行中，苏念和季霄的婚礼环节",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "陈奕（远程操控）", "盛典参与者"],
+  "character_goal": "苏念想安静完成盛典/婚礼——她只要平静的幸福",
+  "opposition_goal": "陈奕远程做空季霄的平台/关联公司股价——试图在盛典上当众让季霄破产",
+  "conflict_action": "数据大屏突然从盛典数据变成异常数字——陈奕联合资本做空，数字在实时跳动，从六十万亏到十三个亿",
+  "information_gap": "谁在做空？能撑住吗？季霄为什么一脸松弛？",
+  "emotional_debt_delta": "短暂的危机感——但季霄的松弛态度让读者预感反杀即将到来",
+  "payoff_or_hook": "大屏视觉化的危机：红色数字不断攀升，全场骚动——但季霄在打电话说'吉时快到了'",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "盛典大屏从正常数据变成异常的瞬间",
+    "红色数字跳动的视觉描写（60万→13亿的数字阶梯）",
+    "全场紧张/骚动的反应",
+    "季霄完全不在乎的松弛态度（'几个亿而已'）",
+    "季霄优先关心'吉时'而非数字的反差"
+  ],
+  "must_not_write_as_exposition": [
+    "做空的金融机制解释",
+    "陈奕具体怎么操作的",
+    "季霄为什么不怕的内心独白"
+  ],
+  "rhythm_job": {
+    "shape": "骤变→数字跳动→松弛反差",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 13.5,
+    "dominant_emotion": "危机-松弛反差",
+    "emotion_arc": "幸福进行 → 突然异常 → 数字恐慌 → 季霄的极致松弛",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "短暂紧张后被季霄的松弛治愈——他不在乎=他能赢",
+    "required_techniques": [
+      {
+        "technique": "数字阶梯碾压——用精确数据替代形容词",
+        "instruction": "60万→13亿的数字跳跃比'损失惨重'有力100倍——精确数字制造冲击力"
+      },
+      {
+        "technique": "轻描淡写面对危机——松弛感=绝对实力",
+        "instruction": "别人蒸发几个亿慌得要死，季霄在意的是'吉时快到了'——优先级反差定义能力量级"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "量化轻描+让步+主动迎战的松弛句式",
+        "example": "几个亿的GMV而已，下架就下架了，你们管他干什么。",
+        "instruction": "'几个亿而已'四个字完成身份反差的最终证明——能说出这话的人不需要其他证明"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "累积式",
+    "source_excerpt": "从六十万，亏到十三个亿。红色的数字不断增长。\"吉时快到了，要敬茶了，几个亿而已，亏就亏了，你们管他干什么。\""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "港务调度室旧档案库与审讯室",
+  "time": "同日稍后",
+  "pov": "裴砚潮",
+  "characters": [
+    "裴砚潮",
+    "杨昭宁",
+    "调度员",
+    "外包安保负责人",
+    "船务总助"
+  ],
+  "character_goal": "抓杨昭宁出来对质，把责任推回她身上。",
+  "opposition_goal": "档案与口供要先证明他自己下过命令，杨昭宁要在崩溃前反咬他是主下令者。",
+  "conflict_action": "调度员调出封存靠泊记录和语音指令，外包安保补出口供；杨昭宁被带来后直接冲他笑，说是你让我把她留在海上磨掉心思。",
+  "information_gap": "截断句：港务记录里，白纸黑字写着他的命令。",
+  "emotional_debt_delta": {
+    "add": [
+      "他疯掉之后还有没有任何资格被同情"
+    ],
+    "pay": [
+      "主动下令弃置被白纸黑字坐实",
+      "杨昭宁主谋链条完整摊开"
+    ]
+  },
+  "payoff_or_hook": "他终于发现，自己不是被蒙蔽的旁观者，而是递刀的人。",
+  "chapter_end_hook": "截断句：港务记录里，白纸黑字写着他的命令。",
+  "paywall_card": false,
+  "must_include": [
+    "封存靠泊记录",
+    "语音指令",
+    "外包安保口供",
+    "杨昭宁反咬‘是你下的令’"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开审讯流程",
+    "不要讲档案调取步骤",
+    "不要把反噬写成猎奇报复戏"
+  ],
+  "rhythm_job": {
+    "shape": "证据3成，对白3成，动作2成，呼吸点2成；先档案再口供再反咬，最后只卡在那句命令上",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

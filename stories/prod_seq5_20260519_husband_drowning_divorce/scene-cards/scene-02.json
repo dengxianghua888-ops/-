@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "民政局与律师事务所",
+  "time": "事故次日下午",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "陆景辞", "律师", "民政局工作人员"],
+  "character_goal": "沈知晚把离婚办成法律事实，并放弃不必要的财产纠缠。",
+  "opposition_goal": "陆景辞想拖延签字，等她气消。",
+  "conflict_action": "沈知晚在财产分割书上签字，摘下婚戒放进证件托盘；陆景辞抢走签字笔又被律师递来备用笔。",
+  "information_gap": "她为什么宁可净身离开还未说明。",
+  "emotional_debt_delta": "止损爽点兑现；陆景辞关系特权第一次失效。",
+  "payoff_or_hook": "离婚证到手，但沈明姝开始抢舆论位置。",
+  "chapter_end_hook": "民政局门口，沈知晚拿到离婚证，手机弹出沈明姝卖惨热搜。",
+  "paywall_card": false,
+  "must_include": [
+    "离婚证",
+    "婚戒放下",
+    "律师见证财产切割",
+    "陆景辞说她离不开陆家",
+    "沈知晚回答：不用了"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写离婚流程科普",
+    "不要让陆景辞温柔挽留成功",
+    "不要写女主反复解释自己受伤"
+  ]
+}

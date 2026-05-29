@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "夜班护工休息室",
+  "time": "当晚换班前",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "护工领班",
+    "病区护士"
+  ],
+  "character_goal": "林望取走病历夹和旧护耳器，不让沈岚碰父亲遗物。",
+  "opposition_goal": "沈岚要找到林正年的住处，证明林望在撒谎。",
+  "conflict_action": "沈岚翻开林望储物柜，扯落旧护耳器和右耳听力鉴定报告。",
+  "information_gap": "沈岚不知道当年掌掴造成林望右耳听损，且毁掉钢琴升学路。",
+  "emotional_debt_delta": "耳伤旧债被物证钉住，沈岚的‘不知道’少一层退路。",
+  "payoff_or_hook": "右耳伤残鉴定让母亲第一次看见自己亲手留下的后果。",
+  "chapter_end_hook": "鉴定书摊开，结论栏写着：不可逆听力损伤。",
+  "paywall_card": false,
+  "must_include": [
+    "旧护耳器",
+    "半张钢琴考级准考证",
+    "右耳听力鉴定报告",
+    "林望把病历夹抱回胸前"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长写钢琴梦想",
+    "不要把听损写成奇观",
+    "不要让沈岚一句对不起抵消耳伤"
+  ],
+  "rhythm_job": {
+    "shape": "物件落地后短回忆三五行，对白短硬，动作和沉默占一半",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用林望擦护耳器灰尘的慢动作承接强压"
+  }
+}

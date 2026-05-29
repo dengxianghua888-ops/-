@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 680,
+  "target_chars_max": 780,
+  "location": "旧书铺后间 / 旧琴柜前",
+  "time": "次日上午",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "沈母",
+    "沈父"
+  ],
+  "character_goal": "稳住母亲急诊缴费缺口，同时确认家里旧物有没有被动过。",
+  "opposition_goal": "真相本身在对抗她，家人也不想她再看更难堪的细节。",
+  "conflict_action": "她翻旧盒、对典当单、对照片，最后确认琴轸玉饰已被换走。",
+  "information_gap": "齐衍深到底什么时候把旧物拿走，又是以什么理由。",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "婚姻背叛第一次变成可触摸的空盒和缺口。",
+  "chapter_end_hook": "截断句：‘盒子是空的。’随后沈母才发现最重要那件不见了。",
+  "paywall_card": false,
+  "must_include": [
+    "空盒、旧布、照片的具体物件描写",
+    "母亲摸盒子的动作",
+    "父亲一句压着火的短话",
+    "女主不哭喊，只用更冷的确认动作推进"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列全部旧物历史",
+    "不要连续解释家境",
+    "不要把寻找过程一笔带过"
+  ],
+  "rhythm_job": {
+    "shape": "静场找物-确认缺失-短句落锤",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "ratio_note": "动作与物件比对白稍高，用留白承接，章尾用空盒发现做硬切。"
+  }
+}

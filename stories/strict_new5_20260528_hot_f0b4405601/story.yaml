@@ -1,0 +1,34 @@
+slug: strict_new5_20260528_hot_f0b4405601
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_f0b4405601
+genre: modern_reversal
+final_packaging:
+  title: 老婆嫌我是免费护工，我离婚后她悔疯了
+  final_file: final.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+total_chars: 10959
+chapter_count: 14
+paywall_cards: 8
+quality_gate: pass
+critic_scores:
+  logic: 7.6
+  style: 7.2
+  emotion: 8.4
+  platform: 8.1
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_224340
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

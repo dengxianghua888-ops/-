@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "学院保卫处临时询问室",
+  "time": "第四天清晨",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "韩停",
+    "支队民警",
+    "保卫处老师"
+  ],
+  "character_goal": "从韩停口中逼出清舱名单的上层来源。",
+  "opposition_goal": "韩停想装成被蒋晴迷惑的普通学生，切断自己与纪闻的关系。",
+  "conflict_action": "林雾把门禁时间、广播源、机库校牌照片按时间线摆到桌上，逐项拆掉韩停的说辞，逼他承认纪闻掌握完整名单。",
+  "information_gap": "纪闻为什么选择这些女生，塔台频道是否由他控制未知。",
+  "emotional_debt_delta": "执行者债偿还一半，老师级操盘债启动。",
+  "payoff_or_hook": "韩停从猎手降格为被操控的执行者。",
+  "chapter_end_hook": "韩停低头说：纪老师才知道完整清舱名单。",
+  "paywall_card": false,
+  "must_include": [
+    "时间线证据",
+    "门禁与录音互证",
+    "韩停供出纪闻",
+    "林雾保持冷静"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写审讯技巧教程",
+    "不要让韩停长篇复盘全案",
+    "不要让民警替林雾完成推理"
+  ]
+}

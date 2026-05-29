@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "苏晴家/手机屏幕（知乎）",
+  "time": "婆婆入住后数日，接二连三的事情后",
+  "pov": "苏晴",
+  "characters": ["苏晴", "（知乎评论区群众）"],
+  "character_goal": "苏晴在精神濒临崩溃时做出转折决定——从被动忍耐转为主动寻找证据",
+  "opposition_goal": "陈北通过知乎回答更新炫耀战果（'丈母娘身体快废了'）",
+  "conflict_action": "知乎回答再次更新（幸灾乐祸内容）→评论区群体愤怒→苏晴精神触底→冷静转折→决定找证据",
+  "information_gap": "苏晴已知是谁但缺乏物证（匿名回答无法直接关联到陈北本人）",
+  "emotional_debt_delta": "绝望触底后反弹——从'情绪债积累'转为'准备清算'的转折点",
+  "payoff_or_hook": "章末钩子：'现在最重要的，是找到他给我妈下毒的证据！'——从被动到主动",
+  "chapter_end_hook": "苏晴冷静宣告目标——角色弧线从受害者转为猎手",
+  "paywall_card": false,
+  "must_include": [
+    "知乎回答最新编辑（'丈母娘身体快废了，她最近憔悴得跟鬼一样'）",
+    "评论区彻底炸锅的群体反应",
+    "苏晴'精神差点崩溃'的至暗时刻",
+    "冷静分析：'他只要否认，单凭匿名回答没有任何作用'",
+    "目标宣言收尾"
+  ],
+  "must_not_write_as_exposition": [
+    "不得写成'我分析了一下局势'的理性清单——用一句冷静判断带过",
+    "不得用流水账描述'接二连三的事'——用一句'接二连三'压缩",
+    "不得写长段情绪崩溃描写——'精神差点崩溃'一句足够"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "绝望-决断",
+    "emotion_arc": "焦头烂额 → 绝望加深 → 帖子再次确认 → 冷静决断",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "从绝望到'终于，她要动手了'的期待爆发",
+    "required_techniques": [
+      {
+        "technique": "帖子评论区的群体情绪转化",
+        "instruction": "评论区是读者情绪的镜像——'答主过分了吧''典型白眼狼''不念一点情分'。群众骂答主=读者骂陈北，完成情绪投射和确认"
+      },
+      {
+        "technique": "转折前的至暗时刻",
+        "instruction": "在决断宣言前必须有一句触底：'接二连三的事，让我精神差点崩溃'。触底越深，反弹越有力——这是情绪弹簧的力学"
+      },
+      {
+        "technique": "目标宣言式收尾",
+        "instruction": "末尾用一句明确的行动目标收章：'现在最重要的，是找到他给我妈下毒的证据！'从被动到主动的转折=读者获得方向感+期待"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "冷静逻辑判断+否定句",
+        "example": "他只要否认，单凭一个匿名贴，根本没有任何作用。",
+        "instruction": "展示苏晴的理性——她不是冲动角色，是计算型。一句冷静分析=读者信任她能赢"
+      },
+      {
+        "structure": "目标宣言+感叹号",
+        "example": "现在最重要的，是找到他给我妈下毒的证据！",
+        "instruction": "从被动到主动的转折点标志句。必须独立成段，用感叹号强化决心"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "突变式",
+    "source_excerpt": "接二连三的事儿，让我精神差点崩溃。帖子又更新了——'丈母娘身体快废了，她最近憔悴得像鬼一样。'评论区彻底炸了。【楼主过分了，一点情分都不念啊。】他只要否认，单凭一个匿名贴，根本没有任何作用。现在最重要的，是找到他给我妈下毒的证据！"
+  }
+}

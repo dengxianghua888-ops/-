@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "客厅取样台与临时技术封控区",
+  "time": "工程时间线矛盾暴露后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "顾教授",
+    "裴队",
+    "技术员",
+    "假父亲"
+  ],
+  "character_goal": "沈棠要让专业权威验证墙粉和涂层异常。",
+  "opposition_goal": "假父亲要阻止破拆前的材料判断，把异常说成普通环保涂层。",
+  "conflict_action": "顾教授赶到现场，沈棠标出检测无效点和空鼓区域，顾教授刮取墙粉、对比涂层颗粒和施工残留。",
+  "information_gap": "墙体材料为什么能解释检测失败，又是否足以支持破拆。",
+  "emotional_debt_delta": "警方态度明显转向，沈棠终于获得专业外援但仍需承担结果。",
+  "payoff_or_hook": "顾教授确认墙体涂层不是普通装修材料。",
+  "chapter_end_hook": "顾教授只看了一眼刮下来的墙粉，就让所有人后退三步。",
+  "paywall_card": false,
+  "must_include": [
+    "顾教授到场",
+    "沈棠标注点位",
+    "墙粉取样",
+    "异常吸附材料",
+    "裴队申请进一步搜查"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写可复制的检测规避方法",
+    "不要让顾教授抢走沈棠判断",
+    "不要写成论文式说明"
+  ]
+}

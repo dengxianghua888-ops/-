@@ -1,0 +1,25 @@
+phase: 4
+key: review
+role: Editor
+title: 双轨质量门审校
+system_prompt: prompts/editor.md
+human_gate: none
+retryable: true
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/forbidden-and-preferred.md
+  - templates/quality-report-template.json
+  - story/source.md
+  - story/draft.md
+  - story/blueprint.md
+  - story/analysis/beat-sheet.md
+  - story/analysis/style-dna.md
+  - story/analysis/soul-contract.md
+  - story/analysis/reader-engine.md
+  - story/analysis/tension-ledger.md
+required_outputs:
+  - review.md
+  - quality-report.json
+  - diff.md
+validators:
+  - validate-quality-report

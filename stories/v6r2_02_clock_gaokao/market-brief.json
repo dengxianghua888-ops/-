@@ -1,0 +1,114 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "end_hook_required": true,
+    "recommended_chapters": "12-20章，首章控制在800字以内快速建立悬念"
+  },
+  "hook_policy": {
+    "golden_hook_words": 300,
+    "golden_hook_requirement": "前300字必须完成：异常事件触发 + 主角做出反常识决定 + 读者产生'她为什么这样做'的疑问",
+    "micro_hook_interval": [800, 1200],
+    "micro_hook_type": "每个微钩必须是一个未解答的小悬念或即将揭晓的信息差",
+    "paywall_cliffhanger_interval": [2500, 3500],
+    "paywall_cliffhanger_type": "生死攸关/真相即将揭露/规则升级三选一"
+  },
+  "audience": {
+    "primary_demographic": "18-35岁女性，偏好悬疑+爽感+大女主",
+    "secondary_demographic": "男性读者中偏好末世/系统/规则类设定的群体",
+    "emotional_needs": [
+      "看'所有人都不信她'到'所有人都求她'的极致反转",
+      "被当疯子的压抑感在真相揭晓时获得宣泄",
+      "孤勇者对抗群体偏见的代入感",
+      "规则类悬疑的智力快感"
+    ],
+    "genre_appetite": "末世/异能/系统文在番茄有稳定高完读受众，尤其是'普通人觉醒+群体打脸'结构",
+    "topic_restrictions": [
+      "不碰政治敏感（高考制度批判需点到为止）",
+      "不写血腥肢解细节",
+      "不做反科学宣传（时间设定需保持内在逻辑自洽即可）",
+      "避免对教育系统的负面渲染过重"
+    ]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "T1",
+        "description": "动作+离谱后果",
+        "examples": [
+          "高考开考前我撕了闺蜜的卷子，全考场的人跪着求我",
+          "我放弃高考跳窗逃跑，一千名考生再也没出来",
+          "考场时钟慢了一分钟，我拼命往外跑后他们全消失了"
+        ]
+      },
+      {
+        "formula": "T3",
+        "description": "悬念+情绪对比",
+        "examples": [
+          "那一分钟的偏差，是一千条命的倒计时",
+          "所有人骂我疯了，直到他们再也出不来"
+        ]
+      },
+      {
+        "formula": "T1_variant",
+        "description": "因果反转型",
+        "examples": [
+          "只因时钟慢了一分钟，我放弃了高考",
+          "我被取消高考资格那天，救了整个考场的命"
+        ]
+      }
+    ],
+    "selection_criteria": "优先T1公式，标题必须在30字以内，包含反常识动作+可量化信息+悬念缺口"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 9,
+      "scale": 10,
+      "strategy": "每800字一个未解答问题驱动读者翻页：为什么时钟慢→为什么她知道→里面到底有什么→怎么救人"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "scale": 10,
+      "first_paywall_position": "空气墙出现/考生全部失联（约3000字处）",
+      "strategy": "第一个付费点设在'外面的人发现进不去'，读者已知危险但不知结果"
+    },
+    "emotional_release": {
+      "target": 9,
+      "scale": 10,
+      "peak_moments": [
+        "所有人从骂她变成求她",
+        "闺蜜妈妈下跪道歉",
+        "警察击杀反派的一枪",
+        "爸妈说'你是我们的骄傲'"
+      ]
+    },
+    "ai_flavor_score": {
+      "target": 0,
+      "scale": 10,
+      "note": "0分=无AI味，目标零违禁词，情绪用动作和生理反应呈现"
+    },
+    "explosion_density": {
+      "target": 9,
+      "scale": 10,
+      "required_per_thousand_chars": 8,
+      "types": ["悬念升级", "群体态度反转", "规则揭露", "身份/能力展示", "生死紧迫"]
+    }
+  },
+  "genre_profile": "apocalypse_heroine",
+  "core_mechanisms": ["M6_身份升维", "M7_降维打击", "M3_公开清算", "M8_因果回环"],
+  "dominant_payoff": "被当疯子→所有人求她→她自由行动拯救全场",
+  "reader_promise": "看一个被全世界当疯子的女孩，用一条微小异常规则救下一千条命，并让所有质疑者跪着道歉",
+  "emotional_debt_type": "群体否定债/孤勇者被污名债",
+  "pacing_notes": {
+    "act1_pressure": "0-3000字：考场内反复被否定、被取消资格、被闺蜜打耳光，压迫感层层加码",
+    "act2_escalation": "3000-8000字：空气墙出现、外界无能为力、家长从骂她到求她，信息差逐步释放",
+    "act3_payoff": "8000-结尾：重新进入、击杀反派、真相完整揭露、情感补偿落地"
+  }
+}

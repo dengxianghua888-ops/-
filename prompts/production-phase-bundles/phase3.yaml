@@ -1,0 +1,19 @@
+phase: 3
+key: adaptation_room
+role: Adaptation Room
+title: 高保真设定重置室
+system_prompt: prompts/production/adaptation-room.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/market-brief.json
+  - story/story-brief.json
+  - story/dissection.md
+  - story/analysis/beat-sheet.md
+  - story/analysis/soul-contract.md
+  - corpus/_index.json
+required_outputs:
+  - adaptation.md
+  - adaptation-room.json
+validators:
+  - validate-production-story:phase3

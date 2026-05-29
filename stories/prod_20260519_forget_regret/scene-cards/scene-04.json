@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "别庄内室",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "女主追问，想给男主最后机会",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "男主在糕点中下药杀子，拒绝请太医",
+  "information_gap": "女主喊出真实身份但男主不信",
+  "emotional_debt_delta": "+40（杀子极致债）",
+  "payoff_or_hook": "流产死不了人，你好自为之",
+  "chapter_end_hook": "流产死不了人，你好自为之",
+  "paywall_card": true,
+  "must_include": [
+    "男主在糕点中下药杀子，拒绝请太医"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

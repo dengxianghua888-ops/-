@@ -1,0 +1,68 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_chars": [500, 1200],
+    "preferred_chapter_chars": [600, 800],
+    "chapter_end_required": "每章末必须留下案件线索、身份风险、凶手逼近或新尸体级钩子"
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：普通转学生外壳与犯罪侧写专家身份反差必须在前 300 字内打出",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "first_chapter_hook_min_score": 9
+  },
+  "audience": {
+    "target_readers": ["番茄短篇女频悬疑读者", "大女主爽文读者", "身份反差控", "校园连环案/刑侦轻悬疑读者"],
+    "emotion_needs": ["主角被低估后的身份爆发", "高智商罪犯被专业碾压", "宿舍危机带来的贴身惊悚", "证据链闭环后的安全感释放"],
+    "genre_forbidden": ["重口尸检细节堆砌", "真实犯罪教程化描写", "主角依赖男警救场", "恋爱线抢夺主案线", "无证据强行开挂", "未成年人受害细节猎奇化"]
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "candidates": [
+      {
+        "formula": "身份误判 + 神秘代号 + 反差爆发",
+        "example": "全校以为我是乖乖女，其实我代号深渊",
+        "fit": "突出女主身份牌，适合首屏点击"
+      },
+      {
+        "formula": "危险场景 + 凶手挑衅 + 反杀预期",
+        "example": "凶手半夜进宿舍，我反手按住了刀",
+        "fit": "强动作钩子，适合短篇高完读"
+      },
+      {
+        "formula": "连环案 + 错认猎物 + 猎人反转",
+        "example": "连环杀手选中我后，猎物变猎人",
+        "fit": "明确爽点机制，降低理解成本"
+      },
+      {
+        "formula": "校园伪装 + 官方隐藏身份 + 案件升级",
+        "example": "我伪装成转学生，专抓校园连环凶手",
+        "fit": "平台安全表达更稳，刑侦感更强"
+      }
+    ]
+  },
+  "market_positioning": {
+    "primary_genre": "apocalypse_heroine",
+    "actual_market_label": "校园刑侦大女主/身份反差爽文",
+    "core_reader_promise": "看被全校当普通转学生的年轻侧写专家，用心理画像、证据链和近身反杀连续拆穿校园连环凶案。",
+    "dominant_s爽点": "身份反差爆发",
+    "secondary_s爽点": ["专业碾压", "猎物反转猎人", "多层凶手递进", "尾声续案钩子"],
+    "recommended_emotion_curve": "阶梯递进型"
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.2,
+    "paywall_point_target": 9.0,
+    "emotion_release_target": 8.8,
+    "ai_flavor_target": {
+      "absence_score": 9.3,
+      "max_forbidden_words": 0
+    },
+    "plot_burst_density_target": 9.0
+  }
+}

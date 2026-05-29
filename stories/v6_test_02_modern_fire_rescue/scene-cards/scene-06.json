@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 3,
+  "is_chapter_end": false,
+  "is_climax_beat": false,
+  "target_chars_min": 550,
+  "target_chars_max": 680,
+  "location": "医院VIP病房",
+  "time": "离婚协议送达当日",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "沈知微", "方逸宁"],
+  "character_goal": "让沈知微签署离婚协议",
+  "opposition_goal": "沈知微拒绝离婚——认为主角'闹脾气'，当面撕毁协议",
+  "conflict_action": "沈知微接过离婚协议，冷笑一声当面撕成八半；方逸宁从走廊出现'打圆场'，暴露二人关系亲密",
+  "information_gap": "主角不知道方逸宁已住进他家；沈知微不知道主角已有律师和证据准备",
+  "emotional_debt_delta": "+2：撕协议的侮辱+方逸宁出现的恶心",
+  "payoff_or_hook": "撕纸是她最后一次以为自己有控制权的时刻",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "撕协议的物理化细节（两半→四半→八半→碎纸落地）",
+    "沈知微的居高临下台词（'有完没完''事情已经这样了'）",
+    "方逸宁以'关心者'姿态出现的虚伪",
+    "主角全程沉默观察——不争辩不解释"
+  ],
+  "must_not_write_as_exposition": [
+    "方逸宁的身份背景不能此处完整介绍",
+    "主角的法律准备不能提前透露"
+  ],
+  "rhythm_job": {
+    "shape": "对话驱动升温",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.0,
+    "comma_period_ratio": 0.5,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "对峙-蓄力",
+    "emotion_arc": "挑衅登场 → 撕纸侮辱 → 方逸宁出现",
+    "emotion_intensity": 8.0,
+    "reader_feeling_target": "替主角愤怒于撕协议的侮辱，厌恶方逸宁的伪善",
+    "required_techniques": [
+      {
+        "technique": "物理化递进（撕纸）",
+        "instruction": "用撕纸的物理过程可视化她的暴力控制欲：'两半。紧接着，四半，八半。'让读者'听见'那个声音"
+      },
+      {
+        "technique": "第三人称打圆场术",
+        "instruction": "方逸宁以'劝和'姿态出场——'承安，何必闹到这一步'。伪善的关心比直接挑衅更让人恶心"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对比概括句（代价 vs 评价）",
+        "example": "原来在她眼里，我从火里捡回一条命，换来的也不过是一句'事情已经这样了'。",
+        "instruction": "把读者累积的愤怒用一句话精确命名——'我差点死了+终身残疾，你说有完没完'——代价和评价的落差就是最好的控诉"
+      }
+    ],
+    "peak_type": "humiliation",
+    "bomb_technique": "积蓄式",
+    "source_excerpt": "沈知微接过那份离婚协议，看了两眼，冷笑了一声。然后当着我的面，两半。紧接着，是四半，八半。碎纸落了一地。'顾承安，你有完没完？我说了，等事情忙完再说。'走廊里传来脚步声，方逸宁端着一杯咖啡走过来：'承安，何必呢？都是一家人。'"
+  }
+}

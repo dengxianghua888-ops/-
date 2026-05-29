@@ -1,0 +1,40 @@
+{
+  "slug": "batch_v2_01_modern_reversal",
+  "source_slug": "hot_027a4f9448",
+  "issues_encountered": [
+    {
+      "issue": "首次生成字数严重不足",
+      "detail": "4401 chars vs 目标 10000-14000",
+      "root_cause": "短/碎/快 style anchor 对 avg_line_chars=22 的源文过度执行，每行碎到10字级别",
+      "fix": "合并碎行为20-25字紧凑叙事句，增加对白轮次和旁观者反应"
+    },
+    {
+      "issue": "short_line_rate 过高",
+      "detail": "0.500 vs source 0.318",
+      "root_cause": "同上，误把'短'理解为诗歌级断行而非紧凑句",
+      "fix": "将 short_line_rate 目标从'越低越好'调整为'接近源文值±0.05'"
+    },
+    {
+      "issue": "多次返工才达到字数下限",
+      "detail": "经历3次扩展：4401→7621→8718→10004",
+      "root_cause": "beat-bible 的 target_chars 设得合理(总和~10200)但写作时每beat实际产出偏低",
+      "fix": "写作时应以 beat target_chars_min 为硬下限，不到不停"
+    }
+  ],
+  "genre_specific_notes": [
+    "modern_reversal 的爽点在层层递进+身份反转，需要足够的'受虐'篇幅才能让反转爽感到位",
+    "该genre对白占比高(源文37.6%)，扩字应优先增加对白轮次而非纯叙事描写",
+    "婆婆/小三/丈夫三条羞辱线需要独立空间，合并会削弱层次感"
+  ],
+  "pipeline_improvements": [
+    "写作phase增加'字数checkpoint'：每3个beat检查累计字数是否达标",
+    "对 avg_line_chars > 20 的源文，short_line_rate 锚定不应低于 0.28",
+    "beat-bible 增加 hard_floor 字段：低于此值该beat必须返工扩展"
+  ],
+  "rhythm_fit_trajectory": [
+    {"version": "v1", "chars": 4401, "status": "fail", "short_rate": 0.500},
+    {"version": "v2", "chars": 7621, "status": "pass", "short_rate": 0.334},
+    {"version": "v3", "chars": 8718, "status": "pass", "short_rate": 0.331},
+    {"version": "final", "chars": 10004, "status": "pass", "short_rate": 0.303}
+  ]
+}

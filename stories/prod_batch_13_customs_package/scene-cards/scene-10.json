@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "target_chars_min": 615,
+  "target_chars_max": 815,
+  "location": "平台总部远程风控会议屏与监管仓调查桌",
+  "time": "当晚八点",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "平台总部风控负责人",
+    "网安人员",
+    "值班警员",
+    "赵启明"
+  ],
+  "character_goal": "林照要求封存智能仓评级后台和收费接口，证明问题来自人为篡改。",
+  "opposition_goal": "赵启明要以权限故障和系统误报拖延调查。",
+  "conflict_action": "总部风控远程接入后台，网安要求赵启明交出口令并导出入库前后的评级日志。",
+  "information_gap": "谁在林照货物入库前改了 A 级珍品阈值。",
+  "emotional_debt_delta": "个人案件升级为后台篡改线索，反派背锅话术失效。",
+  "payoff_or_hook": "第一条人工改写日志出现。",
+  "chapter_end_hook": "平台总部风控接入后台，第一条异常记录显示：A 级珍品阈值在入库前十分钟被人工改过。",
+  "paywall_card": false,
+  "must_include": [
+    "后台日志投屏",
+    "赵启明主管口令",
+    "A级珍品阈值",
+    "入库前十分钟",
+    "网安封存镜像"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林照黑进系统",
+    "不要妖魔化算法",
+    "不要把平台总部写成主动包庇"
+  ]
+}

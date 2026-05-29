@@ -1,0 +1,792 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [1, 15],
+      "char_count": 480,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 22.5,
+        "comma_period_ratio": 1.8,
+        "question_mark_density_per_1k": 0,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.45,
+        "impact_density": 0.90,
+        "sentence_avg_len": 19.2
+      },
+      "emotion": {
+        "dominant_emotion": "震惊-绝望-觉醒",
+        "emotion_arc": "期待 → 震惊 → 绝望 → 冷静决断",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "在极速信息冲击中被震撼，立刻产生'她该怎么办'的紧迫代入"
+      },
+      "highlights": {
+        "peak_moment": "偷听到真相——三年屈辱全是帝王为讨心上人欢心的演戏",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "帝王曾以命相胁的'深情'全是表演，满京人尽皆知唯她被骗",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "飞鸽传书那一刻——她选择反击而非崩溃"
+      },
+      "techniques": [
+        {
+          "technique": "信息压缩弹",
+          "example": "从'封后大典当天'到'飞鸽传书送至南疆'，15行完成7个逻辑链要素的信息倾泻",
+          "effect": "读者被信息量淹没，来不及消化就被拖入下一个冲击，形成停不下来的阅读惯性"
+        },
+        {
+          "technique": "虚假深情对照",
+          "example": "'若她必死，朕也绝不苟活！' vs '陛下是为了讨心上人欢心才会演这出戏'",
+          "effect": "前后对照让读者产生'被骗'的愤怒感，与女主共情"
+        },
+        {
+          "technique": "冷静行动替代崩溃",
+          "example": "'我僵在原地，当即飞鸽传书送至南疆'——没有哭泣、没有崩溃，直接行动",
+          "effect": "女主的冷静让读者觉得'她值得更好的'，建立尊严认同"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "并在一夜之间，从高高在上的皇后沦为最低等的青楼舞妓。",
+          "structure": "时间极短+地位两极反差",
+          "why_it_works": "用'一夜之间'压缩时间，用'高高在上↔最低等'拉开落差，落差越大痛感越强"
+        },
+        {
+          "text": "北国人心薄凉，萧将军儿时允诺娶我的话，可还作数？",
+          "structure": "定性判断+旧约重提+反问收束",
+          "why_it_works": "'人心薄凉'四字定性后立即转向新出路，反问创造悬念"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠信息密度维持张力，每句都是新信息点，零废话",
+      "chapter_end_hook": {
+        "text": "北国人心薄凉，萧将军儿时允诺娶我的话，可还作数？",
+        "hook_type": "question_bomb",
+        "hook_technique": "用一句反问同时完成三件事：定性旧关系(薄凉)、引出新角色(萧将军)、制造悬念(他会来吗？)",
+        "suspense_mechanism": "激发读者对'萧将军是谁''他们什么关系''他会来救她吗'的三重好奇"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [16, 50],
+      "char_count": 920,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 1.2,
+        "question_mark_density_per_1k": 5.4,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.75,
+        "sentence_avg_len": 15.6
+      },
+      "emotion": {
+        "dominant_emotion": "暗讽-隐忍-对峙",
+        "emotion_arc": "冷静 → 暗讽 → 帝王暴怒 → 陆清沅搅局",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "为女主的冷静反击叫好，同时对帝王的虚伪愤怒升温"
+      },
+      "highlights": {
+        "peak_moment": "女主主动露出脖子上的红痕，用'取悦男人本就是我该做的事'刺激帝王",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "女主以自我贬低作为武器——'你把我变成这样，你有什么资格质问'",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "帝王气得'双目赤红充血'却拿她没办法的那一刻"
+      },
+      "techniques": [
+        {
+          "technique": "以退为攻的对话术",
+          "example": "'我如今不过是青楼贱妓，取悦男人，本就是我该做的事。'",
+          "effect": "表面自嘲实则控诉，让帝王无法反驳——因为这正是他造成的。读者为女主的智慧拍案"
+        },
+        {
+          "technique": "物理标记替代言语控诉",
+          "example": "'我特意露出脖子上的红痕'——不说委屈，展示委屈的物证",
+          "effect": "视觉冲击比语言更有力，一个红痕胜过千字的诉苦"
+        },
+        {
+          "technique": "帝王情绪的物理化描写",
+          "example": "'傅临渊双目赤红充血，气得死死握拳'",
+          "effect": "用身体反应替代'他很生气'的抽象描述，读者能'看见'他的愤怒"
+        },
+        {
+          "technique": "第三者的突然闯入打断节奏",
+          "example": "他身旁的美人却轻启朱唇，淡淡斜睨我一眼",
+          "effect": "在女主占上风时引入新威胁，防止节奏单调，同时升级冲突层级"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "若不脱衣起舞，他们又怎能醉生梦死，为我一掷千金？",
+          "structure": "反问+因果倒置（把屈辱合理化为'职业需要'）",
+          "why_it_works": "用商业逻辑包装屈辱，表面平静实则刀刀见骨，让帝王无法反驳"
+        },
+        {
+          "text": "陛下怕是贵人多忘事",
+          "structure": "敬称+讽刺成语",
+          "why_it_works": "'陛下'的恭敬和'忘事'的讽刺形成张力，一句话把帝王的虚伪戳穿"
+        }
+      ],
+      "narrative_mode": "dialogue_driven",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠对话节奏维持张力，每轮对话都在升级冲突温度",
+      "chapter_end_hook": {
+        "text": "她便是傅临渊宠了三年的心上人陆清沅。",
+        "hook_type": "identity_reveal",
+        "hook_technique": "用回忆补充身份信息，同时暗示三人关系的历史渊源",
+        "suspense_mechanism": "激发读者对'陆清沅到底做了什么''她怎么从首饰铺掌柜变成宠妃'的好奇"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [51, 85],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.2,
+        "comma_period_ratio": 1.4,
+        "question_mark_density_per_1k": 3.4,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.92,
+        "sentence_avg_len": 16.1
+      },
+      "emotion": {
+        "dominant_emotion": "愤怒-窒息",
+        "emotion_arc": "紧张 → 愤怒 → 极度不公 → 窒息",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "对陆清沅的碰瓷怒不可遏，同时因女主知道真相却无法揭穿而焦灼"
+      },
+      "highlights": {
+        "peak_moment": "陆清沅假装被推倒、假流产，成功栽赃女主'残害龙嗣'",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "女主内心独白'陛下不能人道'——读者知道孩子是假的，但帝王不知",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "帝王扇女主耳光、怒喝'蛇蝎心肠'的那一刻——信息差带来的极致不公感"
+      },
+      "techniques": [
+        {
+          "technique": "碰瓷三连击",
+          "example": "'陆清沅顺着力道尖叫倒地' → '死死捂住小腹' → '孩子...我们的孩子...' → '身下淌过一摊鲜血'",
+          "effect": "4个动作连续递进，每一步都在加码陷害的严重程度，读者眼睁睁看着阴谋得逞的窒息感"
+        },
+        {
+          "technique": "信息差独白切入",
+          "example": "'可得到的结果...却是陛下不能人道。如今看来，陆清沅腹中的孩子，也断不是陛下的。'",
+          "effect": "读者获得关键信息（不能人道），产生强烈的'你怎么还不揭穿'的焦灼感，推动继续阅读"
+        },
+        {
+          "technique": "施害者的'圣母话术'",
+          "example": "'姐姐，你何故残害龙嗣？若你厌我，我大可以寻死成全你与陛下。'",
+          "effect": "把加害者包装成受害者的经典PUA话术，读者识别后愤怒值翻倍"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "可得到的结果...却是陛下不能人道。",
+          "structure": "省略号悬念+却字反转+短句炸弹",
+          "why_it_works": "省略号制造停顿期待，'却'字转折，'不能人道'四字像冷箭——信息量极大但字数极少"
+        },
+        {
+          "text": "清沅性格纯善，哪似你这般蛇蝎心肠！",
+          "structure": "对比判断句（A是X，你是Y）",
+          "why_it_works": "帝王用'纯善vs蛇蝎'的二元判断，恰恰判断反了，讽刺效果拉满——读者知道真相"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度维持张力，碰瓷-栽赃-暴力-侮辱连续不断",
+      "chapter_end_hook": {
+        "text": "仅是一个眼神。傅临渊身后的侍卫便当即会意，以锁链束缚我的手足，强行拽至街上。",
+        "hook_type": "cliff_action",
+        "hook_technique": "从'眼神'到'锁链'的速度感——暴力即将升级的物理预告",
+        "suspense_mechanism": "读者想知道'她会被怎么对待''街上会发生什么'"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [86, 120],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.5,
+        "comma_period_ratio": 1.1,
+        "question_mark_density_per_1k": 2.4,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.75,
+        "impact_density": 0.95,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "极致屈辱-麻木",
+        "emotion_arc": "羞辱 → 更深的羞辱 → 物理痛感 → 意识模糊",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "窒息到想摔手机，同时被女主的坚韧震撼"
+      },
+      "highlights": {
+        "peak_moment": "雨中被盐水藤条抽打，分不清雨和血",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "帝王明明心疼但嘴上还在伤害——'阿妩，你还要执迷不悟至何时'",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "女主宁死不道歉、口吐鲜血那一刻——精神的不可屈服"
+      },
+      "techniques": [
+        {
+          "technique": "群众暴力的声浪堆砌",
+          "example": "'哟，这不是上京出了名的姜头牌吗？' / '果真是上不得台面的狐媚子！' / '不知是谁起了头，拼命往我的身上砸烂叶'",
+          "effect": "多声道群嘲形成声浪围剿，让读者体会'众口铄金'的窒息，比单人施暴更绝望"
+        },
+        {
+          "technique": "帝王的'关心即伤害'矛盾",
+          "example": "'阿妩，你莫怪朕心狠' + '若她死了，朕要你们所有人一同陪葬！'",
+          "effect": "帝王同时施暴和不允许她死的矛盾，制造最深层的讽刺——你的'爱'就是她的刑"
+        },
+        {
+          "technique": "物理感官叠加",
+          "example": "'雨水淅淅沥沥，亦模糊了我的眼睛。我早已分不清身后哪些是雨，哪些是血。'",
+          "effect": "雨+血+视觉模糊三重感官，让读者的身体产生共鸣式痛感"
+        },
+        {
+          "technique": "意识模糊时的'最后一剑'",
+          "example": "意识模糊之际。傅临渊疯了般怒吼：'来人，给朕拿药吊着姜妩。若她死了，朕要你们所有人一同陪葬！'",
+          "effect": "女主快死了帝王才急——但'吊着'这个词暴露了他的自私：不是救她，是不让她'逃走'"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我早已分不清身后哪些是雨，哪些是血。",
+          "structure": "感官混淆句（分不清A和B）",
+          "why_it_works": "用'分不清'表达痛觉麻木，比直接写'我很疼'有力一百倍"
+        },
+        {
+          "text": "如果傅临渊的爱是买通国师诓造我是亡国灾星。如果傅临渊的爱是将我发卖青楼三年。如果傅临渊的爱是一次次伤我至深。那这样的爱，我宁可不要。",
+          "structure": "如果...如果...如果...+那X我宁可不要（三段排比+否定收束）",
+          "why_it_works": "排比列举把帝王所有'以爱为名的伤害'压缩成控诉清单，最后的'宁可不要'是决裂宣言"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "持续加压至爆裂",
+      "pacing_note": "靠物理痛感的递进（游街→藤条→雨中→吐血）维持压迫感",
+      "chapter_end_hook": {
+        "text": "傅临渊疯了般怒吼：'来人，给朕拿药吊着姜妩。若她死了，朕要你们所有人一同陪葬！'",
+        "hook_type": "silent_threat",
+        "hook_technique": "'吊着'一词暗示女主命悬一线，但帝王的'不让死'比'让死'更恐怖",
+        "suspense_mechanism": "读者想知道'她能撑过去吗''接下来还会发生什么'"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [121, 155],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.0,
+        "comma_period_ratio": 1.3,
+        "question_mark_density_per_1k": 3.7,
+        "direct_dialogue_rate": 0.50,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.85,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "讽刺-冷笑-爆发前夜",
+        "emotion_arc": "震惊(封后) → 冷眼旁观 → 讽刺 → 临界点",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "对陆清沅的阴毒愤怒到极点，同时感受到'暴风雨前的宁静'"
+      },
+      "highlights": {
+        "peak_moment": "陆清沅当面撕下伪装：'凭什么陛下连婚服都不愿亲试！'暴露本性",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "帝王连新婚夜都在想女主——但他的'想'换来的是对女主更多的伤害",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "嬷嬷拿起大板的那一刻——屈辱即将再升级，但利剑突然刺入"
+      },
+      "techniques": [
+        {
+          "technique": "反派自我暴露",
+          "example": "'凭什么陛下与你分隔三年，却成日念叨你的名字，昨夜，陛下连婚服都不愿亲试！'",
+          "effect": "陆清沅在愤怒中暴露真实动机（嫉妒），读者得到'她果然是恶人'的确认快感"
+        },
+        {
+          "technique": "栽赃嫁祸的物理道具",
+          "example": "陆清沅将头上的凤冠扯下，狠狠扔至地上→帝王恰好撞见→以为是女主砸的",
+          "effect": "用'凤冠'这一具体物件作为栽赃道具，让阴谋变得可视化，读者看得见但帝王看不见"
+        },
+        {
+          "technique": "帝王误判的累积讽刺",
+          "example": "'姜妩，亏朕昨夜还担心你至一夜未眠，朕没怪你在青楼找情郎，你却反倒心生妒意'",
+          "effect": "帝王每一句'为你好'都是错判，累积到读者忍无可忍——为后续女主离去的爽感蓄力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "如果傅临渊的爱是买通国师诓造我是亡国灾星。如果傅临渊的爱是将我发卖青楼三年。那这样的爱，我宁可不要。",
+          "structure": "排比假设+否定结论",
+          "why_it_works": "将抽象的'他对我不好'具象化为一条条罪状，排比的节奏感让决裂掷地有声"
+        },
+        {
+          "text": "侍卫的话像是一把利刃：'真把自己当皇后娘娘了？'",
+          "structure": "小人物的嘲讽句（反问+降格称呼）",
+          "why_it_works": "连底层侍卫都敢嘲笑曾经的皇后，地位反差的极致体现"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半段用陆清沅的言语攻击慢慢加温，后半段物理暴力快速升级",
+      "chapter_end_hook": {
+        "text": "可她刚拿起大板。一柄利剑便突然刺穿她的心脏。",
+        "hook_type": "cliff_action",
+        "hook_technique": "在暴力将要落下的最后一秒突变——利剑从天而降，完全出乎意料",
+        "suspense_mechanism": "读者爆发性好奇：谁来了？萧将军？怎么来的？"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [156, 195],
+      "char_count": 1050,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 1.5,
+        "question_mark_density_per_1k": 4.8,
+        "direct_dialogue_rate": 0.52,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.90,
+        "sentence_avg_len": 16.5
+      },
+      "emotion": {
+        "dominant_emotion": "震撼-酣畅-解气",
+        "emotion_arc": "震惊 → 狂喜 → 解气 → 酣畅",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "读者应该有'终于等到了'的畅快释放感，想拍手叫好"
+      },
+      "highlights": {
+        "peak_moment": "'南疆三十万铁骑已兵临城下，逼陛下交出将军夫人！'——身份炸弹引爆",
+        "peak_type": "power_shift",
+        "emotional_bomb": "青楼贱妓=将军夫人，帝王三年来践踏的人背后站着碾压他的力量",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "帝王'面色瞬间惨白'的那一刻——权力关系瞬间反转"
+      },
+      "techniques": [
+        {
+          "technique": "权力碾压的数字化展示",
+          "example": "'三十万铁骑已兵临城下' + '以十座城池相胁'",
+          "effect": "具体数字让权力不抽象——三十万铁骑是可想象的画面，十座城池是可衡量的筹码"
+        },
+        {
+          "technique": "群臣反应作为恐惧放大器",
+          "example": "'北国的文武百官瞬间慌了' + '臣斗胆，恳请陛下以大局为重！'",
+          "effect": "连群臣都怕了→说明权力差距真的碾压级，不是虚张声势"
+        },
+        {
+          "technique": "百姓舆论的180度翻转",
+          "example": "前：'果真是上不得台面的狐媚子！' → 后：'呸！就他还北国皇帝呢？'",
+          "effect": "同一群百姓态度翻转=世态炎凉的极致讽刺，M3因果回旋的群众版"
+        },
+        {
+          "technique": "男主的物理行动力展示",
+          "example": "'身披铠甲，手持弓箭的萧烬辞' + 利箭擦过帝王手臂 + 马蹄踏帝王腹部",
+          "effect": "萧烬辞不是口头威胁，是直接动手——对比帝王只会扇女主耳光，男主力量感碾压"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "阿妩可从未嫁予你，三年前你这狗皇帝本能有机会娶她，是你没有珍惜！",
+          "structure": "否定事实+降格称呼+反向归责",
+          "why_it_works": "'从未嫁予你'否定帝王的所有权，'狗皇帝'降格，'是你没珍惜'把责任拍回去——三连击"
+        },
+        {
+          "text": "若你再向前一步，城墙外的三十万铁骑便会立即踏平北国！",
+          "structure": "条件句威胁（若A→则B），B是毁灭级后果",
+          "why_it_works": "简单直接的力量宣言，不废话不解释，权力的底气让威胁可信"
+        },
+        {
+          "text": "有福女不进无福之门，将军夫人的好日子还在后头，而他的好日子，已经到头了！",
+          "structure": "俗语引入+双向对比预言（A好日子在后头/B好日子到头了）",
+          "why_it_works": "用民间智慧包装命运反转的预言，通俗但有力，读者产生认同感"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "爆发-持续高位",
+      "pacing_note": "靠事件密度和权力碾压的层层展示维持爽感高位",
+      "chapter_end_hook": {
+        "text": "转身之际。他紧扯缰绳，带我离开了这座吃人不吐骨头的皇城。而下一秒，一位身着锦衣华服的男人却被五花大绑扔至傅临渊面前。",
+        "hook_type": "revelation_half",
+        "hook_technique": "女主离场后抛出新炸弹——'大礼'是什么？五花大绑的男人是谁？",
+        "suspense_mechanism": "读者已爽但还没爽完：陆清沅的下场还没到，新的揭露即将开始"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [196, 235],
+      "char_count": 950,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.2,
+        "comma_period_ratio": 1.6,
+        "question_mark_density_per_1k": 4.2,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.88,
+        "sentence_avg_len": 17.0
+      },
+      "emotion": {
+        "dominant_emotion": "真相大白-解气",
+        "emotion_arc": "揭露 → 帝王崩塌 → 暴力审判 → 迟来的醒悟",
+        "emotion_intensity": 9.0,
+        "reader_feeling_target": "看着陆清沅被揭穿的解气感，以及对帝王'早干嘛去了'的讽刺快感"
+      },
+      "highlights": {
+        "peak_moment": "奸夫当场揭露陆清沅的所有阴谋——偷梁换柱、指使老鸨苛待女主",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "帝王终于知道'三年苛待'是陆清沅在背后操纵的——但为时已晚",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "帝王挑断奸夫手筋脚筋但说'放你一条生路'的冷暴力时刻"
+      },
+      "techniques": [
+        {
+          "technique": "奸夫的'求生式供述'",
+          "example": "'陛下，她就是个贱妇！您莫要被她骗了！她是我的老相好...'",
+          "effect": "用求生本能驱动的供述比审问更自然、更有冲击力——人在死亡面前什么都说"
+        },
+        {
+          "technique": "物证一击必杀",
+          "example": "'侍卫夺下玉佩...仅此一眼。傅临渊便气得满脸涨红。毕竟同样的玉佩，他也有一枚！'",
+          "effect": "一个物件就把所有谎言击碎——比千言万语的控诉更有效。读者'爽'在证据链的完整"
+        },
+        {
+          "technique": "施暴者话术的180度翻转",
+          "example": "陆清沅从'陛下你不仅掐我还要动手'到被关入大牢——从施暴者变成受害者话术翻车",
+          "effect": "她试图用同一套PUA话术但已失效——读者看着她的'伎俩'在证据面前瓦解的快感"
+        },
+        {
+          "technique": "帝王的'迟到的暴力'讽刺",
+          "example": "'朕说过放你一条生路，但没说过让你舒服活着！'——挑断手筋脚筋",
+          "effect": "帝王对奸夫用了比对女主更重的暴力，但讽刺在于：他之前把这暴力用在了错误的人身上"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "朕说过放你一条生路，但没说过让你舒服活着！",
+          "structure": "承诺+但字反转（给A不给B）",
+          "why_it_works": "逻辑严密的残忍——帝王的冷酷在此展现，读者在解气中感受到他的'帝王气'回归"
+        },
+        {
+          "text": "阿妩...那些伤害过你的人，朕一个都不会放过。",
+          "structure": "呼唤名字+全称承诺",
+          "why_it_works": "感人但讽刺——因为最伤害她的人恰恰是他自己。这句话越深情，讽刺越深"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "揭露-反应-揭露-反应的波浪节奏，每次揭露都升级冲击力",
+      "chapter_end_hook": {
+        "text": "可远在马车上的我，却不知宫中发生的一切。彼时，萧烬辞正坐在我身旁，小心翼翼地替我上药。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "视角切换制造对比——宫中的暴力审判vs马车上的温柔疗伤，两个世界的反差",
+        "suspense_mechanism": "读者好奇女主接下来的新生活会怎样，同时对帝王的结局仍有期待"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [236, 275],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 1.7,
+        "question_mark_density_per_1k": 2.3,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.60,
+        "sentence_avg_len": 17.8
+      },
+      "emotion": {
+        "dominant_emotion": "温暖-释然-幸福",
+        "emotion_arc": "忐忑 → 被接纳 → 感动落泪 → 甜蜜期待",
+        "emotion_intensity": 7.0,
+        "reader_feeling_target": "被温暖包裹的安全感，为女主终于被好好对待而感动"
+      },
+      "highlights": {
+        "peak_moment": "南疆皇帝称她'孩子'并封异姓公主、公主制度出嫁——被彻底接纳和珍视",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "曾经孤女身份的她，此刻拥有了完整的家（父亲角色+爱人+公主身份）",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "'强忍多年的委屈彻底宣泄而出。我哭得泣不成声'——唯一一次落泪，全文情绪释放点"
+      },
+      "techniques": [
+        {
+          "technique": "父爱补偿场景",
+          "example": "'孩子，回来就好，回来就好啊！你若在北国出了什么事，朕当如何向死去的丞相与丞相夫人交代啊！'",
+          "effect": "南疆皇帝用'孩子'称呼+对亡父母的交代，填补女主'失父母'的情感空洞，读者被戳中泪点"
+        },
+        {
+          "technique": "公主的'道歉式解围'",
+          "example": "'其实当年我是为了气状元郎，才会向父皇讨要圣旨，却不知这么做，竟害了你与萧将军。'",
+          "effect": "用一个善意的'阴差阳错'解释两人分离的原因，让萧烬辞的等待更合理、更深情"
+        },
+        {
+          "technique": "甜宠补偿的物质化展示",
+          "example": "'嫁妆堆满了整个将军府' + '婚服和首饰由他亲自挑选'",
+          "effect": "用物质丰盛度对标前期的物质匮乏（青楼饭都吃不饱），视觉化的'翻身'快感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你们错过多年，莫再要负了这段姻缘。",
+          "structure": "时间叹息+祈使劝勉",
+          "why_it_works": "长辈的祝福让爱情获得'正名'——不是偷情私奔，是名正言顺"
+        },
+        {
+          "text": "从今往后，将军府所有资产皆交予你一人管理，我的阿妩，从不需要靠别人的脸色而活。",
+          "structure": "物质承诺+昵称+独立宣言",
+          "why_it_works": "满足读者对'经济独立+被珍视'的双重幻想，'不需要靠别人脸色'直击打工人痛点"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "平缓上升",
+      "pacing_note": "靠甜蜜细节的递进维持阅读愉悦感，节奏主动放慢让读者'喘口气'",
+      "chapter_end_hook": {
+        "text": "我身着赤红婚服，稳坐在婚轿上。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "婚礼进行时的平静——但读者知道帝王还在外面，暴风雨即将再来",
+        "suspense_mechanism": "读者预感帝王会来搅局，期待看他被拒绝的名场面"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [276, 320],
+      "char_count": 1020,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 1.2,
+        "question_mark_density_per_1k": 6.9,
+        "direct_dialogue_rate": 0.55,
+        "short_line_rate_lte16": 0.73,
+        "impact_density": 0.92,
+        "sentence_avg_len": 14.5
+      },
+      "emotion": {
+        "dominant_emotion": "极致爽感-冷酷-决绝",
+        "emotion_arc": "对峙 → 帝王求饶 → 女主冷静 → 终极拒绝",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "全文最爽的一刻——看着帝王跪在轿前被冷酷拒绝，读者内心欢呼"
+      },
+      "highlights": {
+        "peak_moment": "女主撩开帘子：'我早已知晓...你不能人道' + '我们之间，早就结束了'",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "'不能人道'信息炸弹终于当面引爆+马蹄踏帝王腹部的物理惩罚",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "帝王说'是啊...我本能有机会娶你'承认错误但女主毫无动摇的那一刻"
+      },
+      "techniques": [
+        {
+          "technique": "帝王跪姿的戏剧反讽",
+          "example": "'他拦住婚轿，跌跌撞撞跪在我的轿前。'",
+          "effect": "曾经让女主跪的帝王如今自己跪下——M3因果回旋的肉身版，位置翻转的视觉冲击"
+        },
+        {
+          "technique": "冷静揭秘代替情绪宣泄",
+          "example": "'我早已知晓陆清沅腹中子嗣并非龙嗣，毕竟你不能人道，又岂会让妃子有孕？'",
+          "effect": "女主用逻辑而非情绪反击——比哭喊更有力量，一句话让帝王所有伪装崩塌"
+        },
+        {
+          "technique": "百姓议论作为'公审效果'",
+          "example": "'这不是北国皇帝傅临渊吗？' / '北国皇帝在封后大典那天，将皇后发卖青楼三年'",
+          "effect": "百姓的议论让帝王的丑闻公开化，从私人恩怨升级为公共审判"
+        },
+        {
+          "technique": "萧烬辞的物理暴力作为'句号'",
+          "example": "'萧烬辞勒紧缰绳，马蹄重重落至傅临渊的腹中。'",
+          "effect": "语言的对峙最终用物理暴力画句号——不是讲道理，是直接踩。简单粗暴的爽"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "傅临渊，你凭什么觉得我会一直停在原地等你？！",
+          "structure": "呼名+凭什么反问+动态隐喻（停在原地等）",
+          "why_it_works": "'停在原地等'精确描述了帝王的预设——他以为她永远在那里。反问击碎这个预设"
+        },
+        {
+          "text": "你曾经救过我一命，如今，也算是两清。",
+          "structure": "过去事实+如今判断+短句定性（两清）",
+          "why_it_works": "'两清'比'我恨你'更冷更绝——恨还有余情，两清是彻底清零。读者被这份决绝震撼"
+        },
+        {
+          "text": "我不是你的妻，也从未嫁与你。",
+          "structure": "否定句+也字加码否定",
+          "why_it_works": "在法理上否定婚姻关系——彻底剥夺帝王的'所有权'话语"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话对峙的一来一回维持张力，每轮交锋都在升级",
+      "chapter_end_hook": {
+        "text": "报！燕国十万铁骑已围满北国城墙！陛下，您断不可儿女情长，请尽快回去主持大局！",
+        "hook_type": "power_reversal",
+        "hook_technique": "在情感对峙最高潮突然引入国家危机——帝王连最后的退路都没了",
+        "suspense_mechanism": "读者想知道帝王最终结局——失国+失爱的双重崩塌如何收场"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "source_line_range": [321, 380],
+      "char_count": 920,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 1.4,
+        "question_mark_density_per_1k": 1.1,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.63,
+        "impact_density": 0.70,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "唏嘘-释然-圆满",
+        "emotion_arc": "帝王惨死(唏嘘) → 女主新婚(甜蜜) → 发簪赏赐(彻底归零) → 怀孕(新生)",
+        "emotion_intensity": 8.0,
+        "reader_feeling_target": "满足感——一切尘埃落定，坏人有报应，好人有好结局，心中安宁"
+      },
+      "highlights": {
+        "peak_moment": "女主将帝王临终托付的发簪随手赏赐给婢女——'夫君已给了我世上最好的簪子，这枚，便送你了'",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "帝王用生命最后的力气传递的深情遗物，在女主眼中一文不值",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'轻点，小心伤了孩子'——怀孕消息作为'人生翻篇'的最终标记"
+      },
+      "techniques": [
+        {
+          "technique": "帝王之死的'抓不住'意象",
+          "example": "'傅临渊伸出手，想抓住这一瞬间。可无论他怎么努力，都终究抓不住。'",
+          "effect": "将帝王毕生的悔恨浓缩为一个物理动作——'伸手但抓空'，比任何台词都有力"
+        },
+        {
+          "technique": "遗物的'降格处理'",
+          "example": "'我将那枚兰花发簪随意赏赐给身旁的婢女。'",
+          "effect": "'随意赏赐'比'扔掉'更冷——扔掉还有愤怒，赏赐是真的不在乎。M3的终极回旋"
+        },
+        {
+          "technique": "怀孕作为'新生'符号",
+          "example": "'轻点，小心伤了孩子。'——轻描淡写地揭露怀孕",
+          "effect": "用最日常的语气说出最重要的消息——她的人生已经完全翻篇，新生命代表新开始"
+        },
+        {
+          "technique": "自然意象收束",
+          "example": "'微风轻拂，裹挟着淡淡的花香。至于那些不堪回首的往事。便让它随风消散。'",
+          "effect": "用风和花香结尾，将沉重的故事归于平静——不是复仇的快意，而是真正的释然"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "可无论他怎么努力，都终究抓不住。",
+          "structure": "无论...都...+否定结果",
+          "why_it_works": "'抓不住'是全文帝王命运的一句话总结——他什么都抓不住，因为他亲手放开了"
+        },
+        {
+          "text": "夫君已给了我世上最好的簪子，这枚，便送你了。",
+          "structure": "对比判断（A已有最好的）+轻描淡写的处置",
+          "why_it_works": "帝王毕生悔恨凝结的遗物=婢女的首饰。轻描淡写比愤怒更残忍——你已不值得我有情绪"
+        },
+        {
+          "text": "而风落时，万事皆会得以好转。",
+          "structure": "自然意象+万事好转的祝愿式收束",
+          "why_it_works": "用古言语感的祝福句收全文，留白而不说透，余韵悠长"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "由急转缓",
+      "pacing_note": "前半段帝王之死仍有节奏感，后半段主动放慢至静止——故事落幕",
+      "chapter_end_hook": {
+        "text": "而风落时，万事皆会得以好转。——全文完——",
+        "hook_type": "contrast_shock",
+        "hook_technique": "不设悬念，以平静收束——最后的'反差'是全文的暴烈与结尾的宁静之间的对比",
+        "suspense_mechanism": "无悬念，是情绪的完满闭合——读者在平静中回味全文"
+      }
+    }
+  ],
+  "global_soul_signature": "用物理化的极致屈辱堆叠到读者窒息，再用碾压级权力救赎让读者酣畅呼出——全程以女主的冷静/不崩溃作为尊严锚点，让爽感不是'报复'而是'不在乎'",
+  "character_voices": [
+    {
+      "role": "女主（姜妩/阿妩）",
+      "speech_pattern": {
+        "avg_utterance_length": 18,
+        "口癖": ["本就是", "又何谈", "又何必", "凭什么", "早就"],
+        "语气词": [],
+        "句式特征": "冷静陈述句为主，极少用感叹号，用逻辑反驳而非情绪宣泄，擅长反问",
+        "禁用词": ["求求你", "我错了", "为什么对我这么残忍", "呜呜", "嘤"],
+        "情绪表达方式": "不直说情绪，通过'冷笑''垂眸''别过头'等动作传达；即使最痛时也只是'苦笑'而非哭泣",
+        "典型台词示例": [
+          "我如今不过是青楼贱妓，取悦男人，本就是我该做的事。",
+          "傅临渊，你凭什么觉得我会一直停在原地等你？！",
+          "你曾经救过我一命，如今，也算是两清。"
+        ]
+      }
+    },
+    {
+      "role": "帝王（傅临渊）",
+      "speech_pattern": {
+        "avg_utterance_length": 22,
+        "口癖": ["阿妩", "朕", "莫要", "你可知", "朕给过你"],
+        "语气词": [],
+        "句式特征": "帝王式居高临下口吻，大量祈使句和质问句，前期盛气凌人后期哀求卑微，句子较长有解释欲",
+        "禁用词": ["对不起", "请", "拜托", "哥求你"],
+        "情绪表达方式": "暴怒时用物理动作（扇耳光、握拳、砸东西），悔恨时用'疯了般''死死揽住'等失控动作",
+        "典型台词示例": [
+          "姜妩，你的命是朕救的，朕的后宫不可能仅有你一人！",
+          "阿妩，朕再也不贪图一时的新鲜感，更不会再负你。",
+          "阿妩…朕…知错了。"
+        ]
+      }
+    },
+    {
+      "role": "反派女（陆清沅）",
+      "speech_pattern": {
+        "avg_utterance_length": 25,
+        "口癖": ["姐姐", "陛下", "沅儿", "莫要因我", "是沅儿的错"],
+        "语气词": [],
+        "句式特征": "伪装柔弱的长句+自我牺牲式话术（'是我的错''我愿寻死'），暗含挑拨离间的信息，独处时暴露真实的尖锐短句",
+        "禁用词": ["滚", "贱人", "呸"],
+        "情绪表达方式": "人前用眼泪和自虐式言语操纵男人，人后暴露嫉妒和控制欲，被揭穿时用'你不仅掐我还要动手'的受害者话术",
+        "典型台词示例": [
+          "姐姐，你与陛下结识七年，莫要因我生了嫌隙。倘若姐姐心觉膈应，清沅愿意伏低做小。",
+          "凭什么陛下与你分隔三年，却成日念叨你的名字！",
+          "陛下，今日你我大婚，理当好好治治姐姐的脾气。"
+        ]
+      }
+    },
+    {
+      "role": "男主（萧烬辞）",
+      "speech_pattern": {
+        "avg_utterance_length": 16,
+        "口癖": ["阿妩", "我断不会", "别怕", "你受了太多"],
+        "语气词": [],
+        "句式特征": "温柔但坚定的短句，对女主用'我'对帝王用'本将军'，威胁时直接用条件句（'若你再...便...'），不废话不解释",
+        "禁用词": ["朕", "本王", "任何文绉绉的古语长句"],
+        "情绪表达方式": "对女主温柔通过动作（吻脸颊、握手、颤抖上药），对敌人冷酷通过物理行动（射箭、马蹄踏人）",
+        "典型台词示例": [
+          "阿妩，若早知傅临渊会负你，当初我便不该放心将你交予给他！",
+          "若你再向前一步，城墙外的三十万铁骑便会立即踏平北国！",
+          "除了你，我萧烬辞此生不娶。"
+        ]
+      }
+    },
+    {
+      "role": "百姓/群众（弹幕功能）",
+      "speech_pattern": {
+        "avg_utterance_length": 20,
+        "口癖": ["你们没看见", "听说了吗", "果真是", "呸"],
+        "语气词": ["哟", "诶", "啧"],
+        "句式特征": "口语化议论句，带有八卦和审判意味，态度随权力变化而变化（墙头草），善用反问和感叹",
+        "禁用词": ["然而", "况且", "诚然"],
+        "情绪表达方式": "通过议论表达立场，群体性的声浪可以是帮凶也可以是正义",
+        "典型台词示例": [
+          "哟，这不是上京出了名的姜头牌吗？勾得男人心欢又如何？",
+          "呸！就他还北国皇帝呢？",
+          "有福女不进无福之门，将军夫人的好日子还在后头，而他的好日子，已经到头了！"
+        ]
+      }
+    }
+  ]
+}

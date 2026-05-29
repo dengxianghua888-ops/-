@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 860,
+  "target_chars_max": 1030,
+  "location": "潮汐湾仓库门、安保岗、监控室",
+  "time": "第四天凌晨前",
+  "pov": "林棠第一人称",
+  "characters": [
+    "林棠",
+    "方越",
+    "安保老赵",
+    "前台小陈",
+    "民警"
+  ],
+  "character_goal": "林棠要保护员工和客人，把方越的暴力报复交给法律处理。",
+  "opposition_goal": "方越要逼林棠撤证据、撤投诉，挽回工作。",
+  "conflict_action": "方越拿水果刀闯到仓库门口砸门，安保按预案拦截，小陈锁住前台，林棠报警并调出掌掴、退房、闯入三段监控。",
+  "information_gap": "警方会如何定性处理，留到下一场。",
+  "emotional_debt_delta": "暴力报复债进入最终清算；掌掴债与持刀未遂形成证据闭环。",
+  "payoff_or_hook": "方越的失控不再只是职场事故，而是法律问题。",
+  "chapter_end_hook": "警灯扫过栈道时，方越还在喊：林棠，你撤了我就没事了。",
+  "paywall_card": true,
+  "must_include": [
+    "持刀为未遂",
+    "安保拦截、前台锁门、报警流程清楚",
+    "监控、退款单、伤情证明准备齐全",
+    "不描写血腥伤害"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写私刑",
+    "不要渲染暴力细节",
+    "不要让林棠单独冲上去制服方越"
+  ]
+}

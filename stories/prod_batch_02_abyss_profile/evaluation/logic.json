@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "path": "story/draft.md#03",
+      "type": "authorization_boundary",
+      "quote": "按专案组给出的取证窗口。",
+      "assessment": "旧楼行动不再像私闯。"
+    },
+    {
+      "path": "story/draft.md#10",
+      "type": "procedure_boundary",
+      "quote": "专案组同步录像的取证窗口。",
+      "assessment": "许曼操作全程录像。"
+    },
+    {
+      "path": "story/draft.md#13",
+      "type": "field_control",
+      "quote": "外场两组人在楼下，商厦物业也留了备用钥匙。",
+      "assessment": "工作室行动有场外布控。"
+    },
+    {
+      "path": "story/draft.md#15",
+      "type": "trap_setup",
+      "quote": "提前布下的警戒位。",
+      "assessment": "红外定位不再临时便利。"
+    }
+  ],
+  "risks": [
+    "保持取证抽象表达，不补可复制技术细节。"
+  ]
+}

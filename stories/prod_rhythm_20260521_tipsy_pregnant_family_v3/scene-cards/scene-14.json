@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "修复后的老戏台灯下",
+  "time": "数周后，夜晚",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "陆家众人少量在远处", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想确认这次被留下不是因为孩子，而是因为她本身。",
+  "opposition_goal": "陆砚辞要补掉草率结婚和离婚留下的仪式亏空，让她再信一次。",
+  "conflict_action": "陆砚辞在戏台灯牌下取出藏在修复暗纹里的戒指，正式单膝求婚。",
+  "information_gap": "温瓷会不会立刻点头；陆砚辞如何把保护造成的伤口真正补平。",
+  "emotional_debt_delta": {
+    "仪式债": "-3",
+    "解释债": "-1",
+    "圆满债": "+1"
+  },
+  "payoff_or_hook": "正式求婚必须偿还仪式债，不可用一句复婚带过。",
+  "chapter_end_hook": "温瓷摸着戒指盒上的针脚，轻声问：‘这次还推不推我走？’",
+  "paywall_card": false,
+  "must_include": [
+    "戏台灯牌与修复暗纹戒指盒",
+    "陆砚辞明确补偿离婚的错位",
+    "温瓷的问题要落在‘还会不会推开’",
+    "至少2条弹幕/评论，其中1条吐槽甜度"
+  ],
+  "must_not_write_as_exposition": [
+    "不要空泛表白连篇",
+    "不要只写场面布置",
+    "不要让众人围观抢戏"
+  ],
+  "rhythm_job": {
+    "shape": "场景亮相-动作求婚-一句旧伤回提-高甜停顿",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "动作4成，对白3成，弹幕2成，留白1成"
+  }
+}

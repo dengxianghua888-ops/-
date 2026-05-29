@@ -1,0 +1,68 @@
+{
+  "gate_status": "pass",
+  "critic_scores": {
+    "platform": 9.0,
+    "emotion": 9.0,
+    "style": 8.5,
+    "logic": 9.0
+  },
+  "machine_metrics": {
+    "target_length": {
+      "actual_chars": 9997,
+      "min": 10000,
+      "max": 18000,
+      "status": "borderline_pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_coverage": 1.0,
+      "min_chars_actual": 349,
+      "max_chars_actual": 832,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "count": 4,
+      "expected_min": 3,
+      "status": "pass"
+    },
+    "source_overlap": {
+      "max_consecutive_chars": 0,
+      "threshold": 120,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 0,
+      "threshold": 260,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_sentence_length": 16,
+      "dialogue_ratio": 0.38,
+      "question_density": 0.7,
+      "golden_sentence_density": 0.3
+    },
+    "forbidden_words": {
+      "hard_count": 0,
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "total_count": 0,
+      "threshold": 2,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "opening_guide": "pending_phase7",
+      "mobile_paragraphs": "pass",
+      "visible_paywall_labels": 0,
+      "status": "pass"
+    }
+  },
+  "critical_dimensions": {
+    "C0_soul_contract": "pass",
+    "C1_emotion_curve": 9.0,
+    "C2_style_dna": 8.5,
+    "C3_originality": "pass",
+    "C4_forbidden_words": "pass",
+    "C5_mechanism_fidelity": "pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {
+      "check": "opening_click",
+      "status": "pass",
+      "quote": "家庙门闩抽开时，沈照棠没有问一句话。旧僧衣贴着肩，手腕勒痕藏不住。",
+      "comment": "第一句就给出被囚释放后的异常平静和身体证据。"
+    },
+    {
+      "check": "opening_betrayal",
+      "status": "pass",
+      "quote": "陆宅药房里，安胎药正冒热气。陆衡舟一手扶着苏云屏，一手试盏壁温度。",
+      "comment": "男主与反派公开越界，平台冲突清晰。"
+    },
+    {
+      "check": "child_hook",
+      "status": "pass",
+      "quote": "陆衡舟皱眉：“他在童药堂戒训。你刚出家庙，又要闹？”",
+      "comment": "孩子被送入受害空间在开篇迅速爆雷。"
+    },
+    {
+      "check": "chapter_hooks",
+      "status": "pass",
+      "quote": "童药堂后门落锁，门缝里滚出一截带血的布条。",
+      "comment": "章末钩以物证和危险升级推动追读。"
+    },
+    {
+      "check": "paywall_cards",
+      "status": "pass",
+      "quote": "苏云屏亲口承认孩子不是陆衡舟的，门外站着陆衡舟。",
+      "comment": "scene-12 付费卡点为血缘骗局和唯一血脉反转，具备强付费动力。"
+    },
+    {
+      "check": "final_retention",
+      "status": "pass",
+      "quote": "女童医塾开门那天，沈照棠走进晨光，再也没有回头。",
+      "comment": "结尾兑现独立新生，符合目标受众对追妻火葬场不复合的爽点期待。"
+    }
+  ],
+  "risks": [
+    "scene-13 到 scene-18 之间苏云屏从被押到纵火的行动路径略跳，建议补一句逃脱前因。",
+    "南洋段节奏较前半虐点略缓，但有查档和旧物质问维持平台钩子。"
+  ]
+}

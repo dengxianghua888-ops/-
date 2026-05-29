@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 2,
+  "is_chapter_end": false,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "苏念的住处/出门路上",
+  "time": "一个月后，苏念刚回到这个城市",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念"],
+  "character_goal": "苏念独自消化怀孕的事实，决定回来面对一切",
+  "opposition_goal": "无直接对手——这是过渡场，为后续被拦截蓄力",
+  "conflict_action": "苏念在独处中做出不联系季霄的选择——这个选择本身就是冲突（为什么不说？）",
+  "information_gap": "季霄是否已经知道怀孕？苏念为什么不打电话？",
+  "emotional_debt_delta": "微量叠加——通过苏念的疲惫感强化'六年独自承担'的认知",
+  "payoff_or_hook": "苏念的独立性确认——她不靠任何人做决定",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "一句话完成一个月时间跳跃",
+    "怀孕状态的物理化描写（不超过2句）",
+    "苏念决定不联系季霄的内心动作",
+    "为下一场方颖出现做铺垫（出门/在路上）"
+  ],
+  "must_not_write_as_exposition": [
+    "这一个月发生了什么",
+    "苏念对怀孕的长段心理分析",
+    "季霄这一个月的动向"
+  ],
+  "rhythm_job": {
+    "shape": "舒缓推进",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.2,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 14.5,
+    "dominant_emotion": "隐忍-孤独",
+    "emotion_arc": "平静 → 微孤独 → 决断",
+    "emotion_intensity": 5,
+    "reader_feeling_target": "心疼苏念的独自承担——明明有人可以靠，为什么不说？",
+    "required_techniques": [
+      {
+        "technique": "一句话时间压缩",
+        "instruction": "用'一个月左右，我就回来了'这样的单句完成时间跳跃，不铺垫不解释"
+      },
+      {
+        "technique": "身体反应替代情绪词",
+        "instruction": "用身体感觉（困倦、手凉、走路慢了）替代'孤独'或'纠结'等抽象词"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "主语+否定+具体动作+场景定位",
+        "example": "我没时间跟你在这叙旧。",
+        "instruction": "用拒绝的动作定义态度——不解释原因，不给对方讨价还价的余地"
+      }
+    ],
+    "peak_type": "emotion_buildup",
+    "bomb_technique": "留白式",
+    "source_excerpt": "一个月左右，我就回来了。不是变化快，而是我怀孕了。捏着怀孕五周的检验报告，手有点凉。"
+  }
+}

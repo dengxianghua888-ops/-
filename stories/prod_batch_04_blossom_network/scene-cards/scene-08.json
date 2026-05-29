@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 700,
+  "target_chars_max": 950,
+  "location": "银行贵宾室与医院国际转诊窗口",
+  "time": "第四天下午",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "资产中介", "银行经理", "转诊护士", "周毓兰"],
+  "character_goal": "叶昭想把股权协议变成外婆临床试验保证金。",
+  "opposition_goal": "时间和流程想拖住她，资产中介想压价。",
+  "conflict_action": "叶昭把股权协议托管给资产中介，压着对方当天放款，再去医院窗口缴清新加坡临床试验保证金。",
+  "information_gap": "陆闻舟不知道他给的补偿已经变成叶昭离开的通行证。",
+  "emotional_debt_delta": "男主的迟到补偿被女主反向利用，现实抽身完成一大步。",
+  "payoff_or_hook": "缴费回执打印出来，外婆的入组资料第一次显示待确认。",
+  "chapter_end_hook": "叶昭把股权协议交给中介，换成外婆治疗保证金。",
+  "paywall_card": true,
+  "must_include": [
+    "股权托管章",
+    "银行放款短信",
+    "医院国际转诊窗口",
+    "临床试验保证金回执",
+    "周毓兰问她是不是太累"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把新加坡治疗写成神药",
+    "不要跳过变现动作",
+    "不要让流程过度商业阴谋化"
+  ]
+}

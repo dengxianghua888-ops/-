@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 750,
+  "target_chars_max": 830,
+  "location": "礼账台、礼盒区、新娘休息位之间",
+  "time": "白天，婚礼停摆后半段",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "沈月然",
+    "周瑞阳",
+    "礼账员",
+    "邱淑芬"
+  ],
+  "character_goal": "把偏爱和财产背叛落到具体流水，开启财产追回主线。",
+  "opposition_goal": "周瑞阳想把礼物和收益说成自己个人能力，沈月然还想守住体面。",
+  "conflict_action": "林晚晴翻出自己留存的转账截图，对照礼单、商铺收益承诺和民宿分红时间点逐笔点名。",
+  "information_gap": "周瑞阳究竟转走了多少夫妻共同财产，沈月然身上哪些体面是踩着她来的。",
+  "emotional_debt_delta": "新增债：他不是不会爱，是把会爱的那份精准给了别人。",
+  "payoff_or_hook": "沈月然摘下金锁时，才知道连这件改口礼都是林晚晴的钱。",
+  "chapter_end_hook": "截断在金锁从沈月然手里滑下来那一下。",
+  "paywall_card": true,
+  "must_include": [
+    "至少点出三项具体财产：民宿分红、商铺租金收益、金器改口礼",
+    "沈月然从优越位开始松动，但此时仍先顾自己",
+    "女主的话要像记账，不像哭诉"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把截图内容整页抄出来",
+    "不要堆古镇奢华描写"
+  ],
+  "rhythm_job": {
+    "shape": "1个物件近景+3笔短账连击+1个礼物脱手钩子",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "6:4",
+    "low_pressure_bridge": "翻礼单、放大截图、摘金锁这些细动作托住财产重锤",
+    "chapter_tail_cut": "停在金锁脱手"
+  }
+}

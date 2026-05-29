@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "岔路口到药监部门门前",
+  "time": "中午后",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "周骁",
+    "门卫",
+    "药监受理人员"
+  ],
+  "character_goal": "保全两箱货、温控数据和装车视频，启动实名举报。",
+  "opposition_goal": "周骁逼她把车开去私人美容院，避免两箱进入监管视野。",
+  "conflict_action": "主角拔下车厢摄像头备份卡，打印温控曲线，调头开进药监部门。",
+  "information_gap": "两箱货具体是什么仍未打开，只能凭扫码失败、批号遮挡和违规路线申请封存。",
+  "emotional_debt_delta": "主角开始偿还规则债，反派追货压力升高。",
+  "payoff_or_hook": "付费卡点：主角没有送货，而是把两箱带进监管机关。",
+  "chapter_end_hook": "我没去美容院，直接把车开向药监大楼。",
+  "paywall_card": true,
+  "must_include": [
+    "岔路口一边是美容院一边是药监",
+    "主角备份车厢视频",
+    "温控记录仪导出数据",
+    "实名举报登记",
+    "周骁连续来电"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角拆封判断货物",
+    "不要让举报变成威胁周骁的筹码",
+    "不要写药监立刻认定违法"
+  ]
+}

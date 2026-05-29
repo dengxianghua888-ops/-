@@ -1,0 +1,60 @@
+{
+  "index": {
+    "document_id": "QQNddzKVSoWvcxxmyb6cMsH5n0f",
+    "url": "https://my.feishu.cn/docx/QQNddzKVSoWvcxxmyb6cMsH5n0f"
+  },
+  "stories": [
+    {
+      "idx": 1,
+      "slug": "batch_v3_01_modern_reversal",
+      "title": "录音笔",
+      "doc_title": "短篇仿写终稿｜录音笔",
+      "chars": 10000,
+      "chapters": 12,
+      "document_id": "UOVydNsyXoedutx5NlycdwKWnGF",
+      "url": "https://my.feishu.cn/docx/UOVydNsyXoedutx5NlycdwKWnGF"
+    },
+    {
+      "idx": 2,
+      "slug": "batch_v3_02_family_ethics",
+      "title": "骨灰盒",
+      "doc_title": "短篇仿写终稿｜骨灰盒",
+      "chars": 10000,
+      "chapters": 12,
+      "document_id": "JSZ7dedjRobRPgxNbCYc9Yoinwd",
+      "url": "https://my.feishu.cn/docx/JSZ7dedjRobRPgxNbCYc9Yoinwd"
+    },
+    {
+      "idx": 3,
+      "slug": "batch_v3_03_ancient_BE",
+      "title": "长明灯",
+      "doc_title": "短篇仿写终稿｜长明灯",
+      "chars": 10001,
+      "chapters": 12,
+      "document_id": "EldMduIkFokKmcxmtdEcEW2Dnbh",
+      "url": "https://my.feishu.cn/docx/EldMduIkFokKmcxmtdEcEW2Dnbh"
+    },
+    {
+      "idx": 4,
+      "slug": "batch_v3_04_ancient_sweet",
+      "title": "满城笑我不读书",
+      "doc_title": "短篇仿写终稿｜满城笑我不读书",
+      "chars": 10007,
+      "chapters": 12,
+      "document_id": "YK7KdIHsWoRXyFxKfIDcIT5AnPr",
+      "url": "https://my.feishu.cn/docx/YK7KdIHsWoRXyFxKfIDcIT5AnPr"
+    },
+    {
+      "idx": 5,
+      "slug": "batch_v3_05_apocalypse",
+      "title": "她们说我是废物",
+      "doc_title": "短篇仿写终稿｜她们说我是废物",
+      "chars": 11684,
+      "chapters": 12,
+      "document_id": "XNIxdpHtjob9wGxu5o8cULACnFc",
+      "url": "https://my.feishu.cn/docx/XNIxdpHtjob9wGxu5o8cULACnFc"
+    }
+  ],
+  "exported_at": "2026-05-26T19:12:25",
+  "result_file": "/Users/d-work/Documents/短篇仿写/exports/feishu/feishu-docs.batch_v3_20260526.json"
+}

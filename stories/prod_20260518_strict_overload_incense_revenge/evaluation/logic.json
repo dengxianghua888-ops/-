@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "score": 8.5,
+  "evidence": [
+    {
+      "item": "no_illegal_handling_by_protagonist",
+      "quote": "两箱有没有拆开？我摇头：没有。",
+      "assessment": "主角没有拆箱、转卖或私吞。"
+    },
+    {
+      "item": "procedure",
+      "quote": "你陈述事实，不需要判断性质。",
+      "assessment": "执法机关没有被写成主角私人工具。"
+    },
+    {
+      "item": "regulatory_progression",
+      "quote": "他说还要继续查套用来源，今天只是初步异常说明。",
+      "assessment": "没有当天秒判，流程递进合理。"
+    },
+    {
+      "item": "sensitive_boundary",
+      "quote": "他没有说成分，也没有说用途。",
+      "assessment": "规避药品成分、疗效、剂量和使用方法。"
+    },
+    {
+      "item": "cause_effect",
+      "quote": "系统只认四箱，你就该替我背锅。",
+      "assessment": "同一句规则后续反咬周骁，死环逻辑成立。"
+    }
+  ],
+  "notes": [
+    "私人美容院只作为违规收货点，没有污名化正规医药或正规医美行业。",
+    "平台纠错有复核、编号、书面结果，不是空降贵人解决。"
+  ]
+}

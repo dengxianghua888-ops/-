@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 500,
+  "target_chars_max": 660,
+  "location": "陆氏家族公所、江南商报馆",
+  "time": "血缘真相爆开后三日",
+  "pov": "第三人称近距离，贴陆衡舟",
+  "characters": [
+    "陆衡舟",
+    "苏云屏",
+    "商会长老",
+    "接生婆",
+    "报馆编辑"
+  ],
+  "character_goal": "陆衡舟要把证据交公堂并公开陆氏药堂罪责。",
+  "opposition_goal": "苏云屏要保住孩子和陆家名分，商会长老要压下丑闻。",
+  "conflict_action": "陆衡舟把账册、密信、接生婆供词摊在公所桌上，按下苏云屏抓衣求饶的手，转身到报馆签下认罪稿和封堂公告。",
+  "information_gap": "沈照棠没有回来读这份认罪，男主的公开承担无法换回妻儿。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "苏云屏被证据链清算",
+      "童药堂封堂",
+      "陆衡舟公开承认病名和家规压迫"
+    ],
+    "balance_after": "社会清算发生，情感债仍未清。"
+  },
+  "payoff_or_hook": "商报头版把陆衡舟罪名印到全城。",
+  "chapter_end_hook": "江南商报头版刊出陆衡舟认罪，陆氏药堂全城封堂。",
+  "paywall_card": false,
+  "must_include": [
+    "账册",
+    "密信",
+    "接生婆供词",
+    "苏云屏求饶",
+    "商报认罪和封堂公告"
+  ],
+  "must_not_write_as_exposition": [
+    "不要私刑爽感。",
+    "不要让商会替陆家遮丑成功。",
+    "不要把公开认罪写成赎清。"
+  ],
+  "target_chars": 520,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

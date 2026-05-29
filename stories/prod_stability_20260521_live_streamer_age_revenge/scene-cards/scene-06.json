@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "会议室投屏与饭局续场",
+  "time": "次日",
+  "pov": "林见棠 第一人称",
+  "characters": ["林见棠", "顾淮川", "林薇薇", "平台代表", "助理"],
+  "character_goal": "用流水和合同撕碎“她只是倒贴”的舆论。",
+  "opposition_goal": "顾淮川要把她的投入缩成正常商务，不承认私人背刺。",
+  "conflict_action": "林见棠当场投屏银行流水、投流合同、片酬保底单，逼顾淮川对着众人解释。",
+  "information_gap": "围观者第一次看到顾淮川爆红的成本都写着她的名字。",
+  "emotional_debt_delta": "公开羞辱债开始被证据回旋。",
+  "payoff_or_hook": "她不用吵，证据自己会扇人耳光。",
+  "chapter_end_hook": "林见棠看着顾淮川：既然你说靠实力，那就别碰我买来的曝光位。",
+  "paywall_card": false,
+  "must_include": [
+    "投屏动作与现场沉默",
+    "至少两项具体证据名称",
+    "顾淮川试图把投入说成“正常商务”",
+    "一句回旋金句"
+  ],
+  "must_not_write_as_exposition": [
+    "不要逐字念合同",
+    "不要用长段分析人性",
+    "不要插入大量过去甜蜜回忆"
+  ],
+  "rhythm_job": {
+    "shape": "证据亮相2拍+顾淮川狡辩1拍+回旋台词1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白为主，证据动作要短狠，不做程序化说明"
+  }
+}

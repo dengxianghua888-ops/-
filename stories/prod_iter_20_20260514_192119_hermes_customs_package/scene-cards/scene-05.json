@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B5",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅外台阶",
+  "time": "同日中午十二点",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "手机屏幕（PDF原件）"],
+  "character_goal": "把鉴定书+销毁单PDF同时存到三个邮箱+一份U盘+一份云盘",
+  "opposition_goal": "无具体对手，对手是时间和自我崩溃",
+  "conflict_action": "徐阳坐在台阶上→打开邮箱app→把PDF原件转发到三个邮箱→插U盘存一份→上传云盘→截图电子签栏位放大保存",
+  "information_gap": "读者第一次嗅到反转气息但不知具体怎么反——抓最紧的悬念点",
+  "emotional_debt_delta": "0（持平+4，但心理逆转开始）",
+  "payoff_or_hook": "心理拐点金句'冷到骨头缝里的清醒'",
+  "chapter_end_hook": "我突然不愤怒了。取而代之的，是一种冷到骨头缝里的清醒",
+  "paywall_card": false,
+  "must_include": ["三个邮箱+U盘+云盘的多重备份具体动作", "电子签栏位截图细节", "台阶环境的冷物理感", "心理拐点单句"],
+  "must_not_write_as_exposition": ["心声剧透下一步打算", "回忆从前", "突然显灵贵人", "向天发誓"]
+}

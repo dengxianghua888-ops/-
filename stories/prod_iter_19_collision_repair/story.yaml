@@ -1,0 +1,22 @@
+slug: prod_iter_19_collision_repair
+status: final
+pipeline_mode: production
+target_platform: tomato
+genre: modern_reversal
+title: "汽修厂说我的货车是D级报废，我交了三十万他们坐了牢"
+mechanisms: [M1, M3]
+soul_contract_locked: true
+forbidden_to_change_kept: 6
+adaptation_changed: 14
+total_chars: 11482
+chapter_count: 15
+paywall_cards: 10
+quality_gate: pass
+critic_scores:
+  platform: 8.7
+  emotion: 8.9
+  style: 8.6
+  logic: 8.8
+automation:
+  runner: manual-prompt-pack
+  human_gates: skipped

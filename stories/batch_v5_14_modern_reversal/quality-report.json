@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_14_modern_reversal",
+  "title": "他说我是拖油瓶的那天，我看见了十年后他跪在我坟前的样子",
+  "source_slug": "hot_7a61ef4bd5",
+  "genre": "modern_reversal",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10140, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 21.5, "long_line_rate": 0.0, "question_marks_per_k": 3.677, "status": "pass"},
+    "structure_metrics": {"impact_density": 7.4, "watermark_count": 2, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 11, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

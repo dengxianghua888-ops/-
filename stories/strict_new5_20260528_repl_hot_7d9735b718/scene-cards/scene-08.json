@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 940,
+  "target_chars_max": 1060,
+  "location": "陪读房客厅",
+  "time": "同晚",
+  "pov": "许清辞第一人称",
+  "characters": [
+    "许清辞",
+    "林栀",
+    "男孩"
+  ],
+  "character_goal": "逼出林栀是否明知许清辞存在。",
+  "opposition_goal": "林栀想把许清辞逼到离婚位置，好让沈泊舟兑现承诺。",
+  "conflict_action": "林栀关门、拿出录音笔、承认自己故意把洗衣标签留在公共柜。",
+  "information_gap": "林栀早知道沈泊舟没离婚，洗衣房偶遇不是巧合。",
+  "emotional_debt_delta": "小三逼宫债+2，身份债进入反转。",
+  "payoff_or_hook": "小三从甜切狠，主动设局实锤。",
+  "chapter_end_hook": "她笑着按下录音键：沈太太，这场戏我等你很久了。",
+  "paywall_card": false,
+  "must_include": [
+    "林栀关门",
+    "录音笔",
+    "故意留下的洗衣标签",
+    "她叫许清辞沈太太"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释林栀全部计划",
+    "不要写她无辜哭诉",
+    "不要把对峙写成连续逼问"
+  ],
+  "rhythm_job": {
+    "shape": "短对白互推，林栀一句甜一句狠，许清辞用沉默和录音动作稳住。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "",
+    "dialogue_action_hook_ratio": "对白约45%，动作约35%，呼吸点约15%，章尾钩约5%。"
+  }
+}

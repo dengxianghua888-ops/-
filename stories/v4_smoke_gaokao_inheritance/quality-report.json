@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "hard_checks": {
+    "required_artifacts": "pass",
+    "review_gate_block": "pass",
+    "title_length": {
+      "status": "pass",
+      "title": "高考前遗嘱让我找回失踪哥哥",
+      "chars": 15,
+      "limit": 30
+    },
+    "forbidden_words": {
+      "status": "pass",
+      "hits": {}
+    },
+    "soft_forbidden_words": {
+      "status": "pass",
+      "hits": {},
+      "limit_total": 2
+    }
+  },
+  "similarity": {
+    "status": "pass",
+    "max_continuous_overlap_chars": 4,
+    "paragraph_structure_similarity": "medium",
+    "golden_sentence_risk": "low",
+    "notes": [
+      "保留遗嘱死局和身份反转神髓，角色名、道具、密室触发物、事故链、结尾动作均已替换。"
+    ]
+  },
+  "style_metrics": {
+    "status": "pass",
+    "char_count": 4609,
+    "sentence_count": 381,
+    "avg_sentence_length": 11.1,
+    "dialogue_ratio": 0.2664,
+    "question_marks": 25,
+    "question_marks_per_k": 5.424,
+    "physical_emotion_hits": {
+      "指尖": 2,
+      "发麻": 1,
+      "太阳穴": 1,
+      "手心": 1,
+      "后背": 1,
+      "喉咙": 3,
+      "眼眶": 2,
+      "头皮": 1,
+      "指甲": 2,
+      "掌心": 3
+    }
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "mechanism": "M6",
+        "check": "多层递进反转",
+        "status": "pass",
+        "evidence": "哥哥不存在、父母隐瞒、暗房照片、催眠记录、闻舟身份逐层揭开。"
+      },
+      {
+        "mechanism": "M5",
+        "check": "亲情温度反转",
+        "status": "pass",
+        "evidence": "父母从保护到阻止再到二次催眠，最后用称呼和签字完成修复。"
+      },
+      {
+        "mechanism": "M3",
+        "check": "关键词回旋",
+        "status": "pass",
+        "evidence": "开篇外公要求找回哥哥，结尾主角说把哥哥找回来了，外公回敬为找回自己。"
+      }
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "contract_item": "读者承诺",
+        "status": "pass",
+        "evidence": "遗嘱谜题最终导向主角真实自我的找回。"
+      },
+      {
+        "contract_item": "情绪债",
+        "status": "pass",
+        "evidence": "死亡威胁、亲情隐瞒、身份否定均在签字和新称呼处偿还。"
+      },
+      {
+        "contract_item": "神髓禁改项",
+        "status": "pass",
+        "evidence": "保留荒诞条件、错误解法、老宅暗房、催眠记忆、名字闭环。"
+      }
+    ]
+  },
+  "tomato_fit": {
+    "status": "pass",
+    "first_chapter_hook_score": 9,
+    "paywall_card_count": 3,
+    "chapter_hook_coverage": 0.9
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "tomato_preferred_chars": 650,
+    "chapter_end_requirement": "每章末必须留下未解决信息、反咬证据或关系爆点，不允许平收。"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须直接给出贫富反差与亲情冤屈：父母声称每月给三千，主角卡里只有几十元，且被反咬败家。",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "required_hook_density": {
+      "strong_opening_hook": 1,
+      "micro_hooks_per_1000_chars": 1,
+      "paywall_cards_per_3000_chars": 1
+    },
+    "preferred_hook_types": ["H1", "H2", "H3"],
+    "hook_examples": [
+      "转账记录显示三千已到账，但主角卡里只有三十。",
+      "主角被当众罚跪时，突然发现钱消失的真正路径。",
+      "银行流水揭开定时转款，收款卡尾号指向父亲。",
+      "父亲克扣儿子生活费的背后，是整个婆家对母亲公司的寄生。"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "18-35岁偏爱家庭伦理复仇、亲情背刺、现实向打脸的番茄短篇读者",
+      "喜欢弱者被冤枉后靠证据链翻盘的爽文读者",
+      "对父母偏心、亲戚吸血、原生家庭压迫有强代入感的读者"
+    ],
+    "emotional_needs": [
+      "先让读者替主角憋屈：饿肚子、交不起学费、被父母误会、被亲戚污蔑。",
+      "中段用银行流水和转账尾号完成认知反转，让冤屈有铁证支撑。",
+      "后段必须给足清算：父亲、堂哥、杨家亲戚、失职母亲都要承担不同层级代价。",
+      "结尾保留主角边界感，不强行和解，用母亲悔悟和父亲落魄完成情绪释放。"
+    ],
+    "genre_forbidden_zones": [
+      "禁止把主角写成圣母式原谅父亲或亲戚。",
+      "禁止用“都是一家人”“血浓于水”等话术消解伤害。",
+      "禁止让母亲轻飘飘道歉后立刻修复母子关系。",
+      "禁止削弱贫穷细节，前期必须让读者感到真实生存压力。",
+      "禁止主角无证据吵闹，反击必须依靠流水、录音、公开场合和法律手段。"
+    ]
+  },
+  "market_positioning": {
+    "genre": "family_ethics",
+    "core_reader_promise": "看被父母误认为败家的穷学生，查出生活费被父亲长期转走给堂哥买跑车后，用银行流水和公开舆论让吸血亲戚全线反噬。",
+    "dominant_s爽点": "亲情背刺后的证据型清算",
+    "emotional_debt_type": ["亲情误解债", "生存压迫债", "吸血亲戚债"],
+    "antagonist_violation": "父亲盗走儿子生活费补贴侄子，堂哥享受资源还反咬主角，母亲长期不查证就羞辱亲生儿子，杨家亲戚寄生白家资源。",
+    "protagonist_stance": "隐忍但不软弱，受够后以证据说话，不撒泼、不求和、不替施害者找理由。"
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula_id": "T1",
+        "formula": "极端委屈 + 反常真相",
+        "candidate_titles": [
+          "我穷得吃不起饭，妈妈却说每月给我三千",
+          "爸妈每月转我三千，我卡里只剩三十",
+          "我交不起学费后，才知生活费被爸爸偷走"
+        ]
+      },
+      {
+        "formula_id": "T3",
+        "formula": "亲情伤害 + 悔疯结果",
+        "candidate_titles": [
+          "我吃汤泡饭两年后，爸妈终于悔疯了",
+          "我被骂败家子后，全家转账记录曝光了",
+          "我倒在医务室那天，爸爸的秘密藏不住了"
+        ]
+      },
+      {
+        "formula_id": "T4",
+        "formula": "公开羞辱 + 当场反杀",
+        "candidate_titles": [
+          "妈妈当众罚我跪下，我甩出银行流水",
+          "他们骂我私吞学费，我查出千万跑车真相",
+          "亲戚说我败家，我让他们全被赶出公司"
+        ]
+      }
+    ]
+  },
+  "plot_pressure_targets": {
+    "opening_pressure": "主角必须在前三段同时遭遇饥饿、余额两位数、父母晒富、电话辱骂。",
+    "midpoint_reversal": "转账确实成功，但钱被定时转走；主角从被怀疑者变成证据持有人。",
+    "payoff_sequence": [
+      "银行流水确认父亲卡号。",
+      "跑车全款付款打脸堂哥。",
+      "母亲调查公司寄生链。",
+      "杨家亲戚闹事时自爆。",
+      "父亲净身出户并体验三十块困境。"
+    ],
+    "ending_tone": "清算完成，主角不立刻原谅母亲，保留现实伤痕和边界。"
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.0,
+    "paid_card_target": 8.8,
+    "emotional_release_target": 9.2,
+    "anti_ai_flavor_target": 9.0,
+    "viral_point_density_target": 8.7,
+    "overall_tomato_fit_target": 8.8
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": "S03",
+  "beat_id": "B3",
+  "target_chars_min": 700,
+  "target_chars_max": 860,
+  "location": "稽查所走廊+工坊直播间(双线)",
+  "time": "同一日上午十一点二十",
+  "pov": "first_person_林承",
+  "characters": ["林承", "稽查员小李", "稽查员老陶", "直播间主播阿德"],
+  "character_goal": "让正在直播切皂的伙计阿德调取原料采购视频自证",
+  "opposition_goal": "稽查队中断直播,带走录像设备,把林承押出查验间",
+  "conflict_action": "两名稽查从左右按住林承胳膊,老陶拔走直播话筒,阿德的镜头被一只手盖黑",
+  "information_gap": "弹幕里有一条'我之前买过他家皂,真的好用'被快速切走——B9 死环时回响",
+  "emotional_debt_delta": "+3 暴力控制+公共污名",
+  "payoff_or_hook": "黑屏前最后一行弹幕:'这种人就该判十年'",
+  "chapter_end_hook": "直播间弹幕飘过一行：'这种人就该判十年'。",
+  "paywall_card": false,
+  "must_include": [
+    "至少 6 条具体弹幕原文(2 条同情/4 条嘲讽,保留信息差)",
+    "1 处生活化呼吸:阿德下意识摸围裙口袋找 PH 试纸",
+    "走廊光线变化(查验间白光→走廊冷光),作为视觉节拍",
+    "结尾一行黑屏前的同情弹幕被快速切走"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把弹幕写成统一情绪",
+    "不要让林承怒砸器材",
+    "不要把直播解释成主角公关秀"
+  ],
+  "rhythm_job": {
+    "shape": "肢体动作 3 拍→弹幕飞过 6 行→黑屏",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 6,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "围裙口袋摸 PH 试纸 + 同情弹幕 2 条"
+  }
+}

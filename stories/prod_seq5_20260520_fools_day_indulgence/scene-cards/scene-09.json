@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 720,
+  "target_chars_max": 860,
+  "location": "衡川复健实验室",
+  "time": "假死后一周内",
+  "pov": "第一人称，许知意",
+  "characters": [
+    "许知意",
+    "衡川复健师",
+    "衡川工程师",
+    "许家法务负责人"
+  ],
+  "character_goal": "许知意要完成外骨骼初步适配，并解出婚戒芯片里的原始日志",
+  "opposition_goal": "身体疼痛、旧伤风险和被删改的系统权限阻碍她站起来和取证",
+  "conflict_action": "她绑上外骨骼反复摔倒后要求重启训练，同时指挥工程师用婚戒NFC备份恢复三年前原始测试参数",
+  "information_gap": "原始参数显示测试路线被人为改过，但完整授权链还要等黑匣子解封",
+  "emotional_debt_delta": "复健不抹平痛苦，而是把痛苦转化为下一步公开反击",
+  "payoff_or_hook": "她迈出第一步，同时屏幕跳出被删除的路线变更记录",
+  "chapter_end_hook": "复健室监控里，许知意扶着外骨骼迈出了第一步。",
+  "paywall_card": false,
+  "must_include": [
+    "外骨骼绑带",
+    "摔倒与重启训练",
+    "婚戒NFC备份",
+    "路线变更记录",
+    "复健师提醒不能急"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成奇迹痊愈",
+    "不要用鸡汤总结康复",
+    "不要让证据恢复没有阻力"
+  ]
+}

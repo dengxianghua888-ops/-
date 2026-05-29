@@ -1,0 +1,71 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-09b",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "target_chars_min": 540,
+  "target_chars_max": 620,
+  "location": "工厂外·特警指挥车内",
+  "time": "晚上8:28，继续讲述",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "特警队长"],
+  "character_goal": "沈听澜解释时间乱流的后果和三分钟规则",
+  "opposition_goal": "特警队长需要知道里面的人是否还活着",
+  "conflict_action": "沈听澜描述时间乱流中人的状态——不是死了，是被困在循环中",
+  "information_gap": "里面的人还活着但被困在时间循环里——这比死更恐怖",
+  "emotional_debt_delta": "恐怖升维——从'死了'到'比死更可怕的状态'",
+  "payoff_or_hook": "钩子：量子坍缩一旦启动，逃跑窗口只有三分钟——而三分钟已经过了",
+  "chapter_end_hook": "逃跑窗口只有充能的三分钟——已经过了。但有另一个办法。",
+  "paywall_card": false,
+  "must_include": ["时间乱流的具体描述（不可见的恐怖）", "人被困在循环中的状态", "三分钟逃跑窗口规则", "暗示有其他解决办法"],
+  "must_not_write_as_exposition": ["量子物理公式", "精确的科学机制"],
+  "rhythm_job": {
+    "shape": "后快（规则清晰后加速→结论句急促）",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.2,
+    "comma_period_ratio": 0.62,
+    "sentence_avg_len": 17.8,
+    "dominant_emotion": "揭秘-沉重",
+    "emotion_arc": "规则恐怖 → 三分钟解释 → 新问题浮现",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "三分钟的真正含义终于揭晓——然后紧迫感回来：怎么办？",
+    "required_techniques": [
+      {
+        "technique": "恐怖来自不可见",
+        "instruction": "否定所有可见恐怖后用'时间本身'作为敌人——里面没有怪物，只有乱掉的时间"
+      },
+      {
+        "technique": "规则解释嵌入故事",
+        "instruction": "继续通过叙述方式传递规则，不要变成设定百科"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "没有X+没有Y+只有Z排除式聚焦",
+        "example": "里面没有什么洪水猛兽，也没有任何超自然的事物。里面只有时间，乱掉的时间。",
+        "instruction": "排除所有常规恐惧后指向更高维的敌人——时间本身不可对抗"
+      },
+      {
+        "structure": "人类终究不能X哲学断言",
+        "example": "人类终究不能控制时间。",
+        "instruction": "一句话把故事主题拉到哲学高度——面对宇宙规则的无力"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "\"里面没有什么洪水猛兽，也没有任何超自然的事物。里面只有时间，乱掉的时间。\"\"这枚手表是爷爷从瑞士定制送给我的，十多年来准确到一秒都不差。\"\"人类终究不能控制时间。时间乱流一旦发生，留给我们的逃跑时间，只有倒计时三分钟。\""
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["时间乱流", "三分钟", "但还有一个办法"],
+      "句式": "叙述渐短，到结尾恢复极短断言",
+      "单句上限": 20,
+      "禁止": "不确定语气"
+    }
+  }
+}

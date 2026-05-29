@@ -1,0 +1,94 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": false,
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "民政局婚姻登记大厅",
+  "time": "上午十点，排号刚叫到",
+  "pov": "苏念",
+  "characters": ["苏念", "陆衍", "方怡", "沈砚"],
+  "character_goal": "苏念原本来领证，被羞辱后当场镜像反击",
+  "opposition_goal": "陆衍要把户口本给方怡领证，同时安抚苏念让她接受",
+  "conflict_action": "陆衍抢过苏念户口本递给方怡并捏后颈安抚，苏念一把拽过沈砚的手腕用镜像句回击",
+  "information_gap": "沈砚三个月前已填好结婚申请表——苏念和读者此刻不知道",
+  "emotional_debt_delta": "新增极大情绪债：四年付出被'你有什么用'一句否定",
+  "payoff_or_hook": "镜像句回击瞬间释放第一层即时爽感",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "陆衍抢户口本的具体动作",
+    "捏后颈的控制姿态",
+    "'反正你俩不是好闺蜜吗'原话",
+    "苏念拽过沈砚的物理动作",
+    "'反正你俩不是合伙人吗'镜像句",
+    "沈砚掏出三个月前填好的表"
+  ],
+  "must_not_write_as_exposition": [
+    "四年的付出历史（留给scene-02回忆）",
+    "沈砚和陆衍的合伙关系背景",
+    "方怡怀孕的来龙去脉"
+  ],
+  "rhythm_job": {
+    "shape": "急起——冲突爆发无铺垫",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 18.2,
+    "dominant_emotion": "屈辱-决绝",
+    "emotion_arc": "震惊 → 屈辱 → 冷静反击",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "替女主窒息愤怒，反击瞬间猛拍大腿",
+    "required_techniques": [
+      {
+        "technique": "镜像句式回旋",
+        "instruction": "陆衍的原话'反正你俩不是好闺蜜吗？我和谁领证不都一样？'在3行内被苏念用完全相同句式回敬，仅替换'好闺蜜→合伙人'"
+      },
+      {
+        "technique": "控制姿态具象化",
+        "instruction": "陆衍捏苏念后颈必须写出具体触感——'像安抚一条听话的狗'的降格感，让读者本能反感"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "[对方原话结构] + 替换一个关键名词 = 镜像回旋",
+        "example": "反正你俩不是亲兄弟吗？我和谁领证不都一样？",
+        "instruction": "读者在前3行已对原话产生强烈反感，同结构被反向使用时积累的厌恶瞬间转化为快感"
+      },
+      {
+        "structure": "[贬低定性]+[社会佐证] = 极致羞辱",
+        "example": "苏念，你以为你不给我写代码你还有什么用？全公司谁不知道你离了我活不了？",
+        "instruction": "不仅私下侮辱而是'全公司都知道'的公共化，触发读者的社死恐惧代入"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "镜像句瞬间反转——用施害者的原话结构完成反击",
+    "source_excerpt": "排号叫到我们那一刻，陆衍抢过我的户口本。\n递给了方怡。\n“反正你俩不是好闺蜜吗？我和谁领证不都一样？”\n他还捏了捏我后颈，像安抚一条听话的狗。\n四年。我的核心算法撑起他整个公司。\n一套汤臣一品卖了，没要过一张借条。\n我转头看向他身后的沈砚。\n一把拽过他的手腕。\n“反正你俩不是合伙人吗？我和谁领证不都一样？”\n沈砚没挣开。\n他从西装内袋掏出一张表——\n三个月前就填好了。"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": ["反正"],
+      "句式": "极短、平静陈述、不带感情色彩",
+      "单句上限": 12,
+      "禁止": "求你了、为什么、我好难过"
+    },
+    "陆衍": {
+      "口癖": ["放心", "别闹"],
+      "句式": "居高临下安抚语气、画饼式承诺",
+      "单句上限": 18,
+      "禁止": "对不起、请"
+    },
+    "沈砚": {
+      "口癖": [],
+      "句式": "极短、沉稳、行动多于言语",
+      "单句上限": 9,
+      "禁止": "求、拜托、你听我解释"
+    }
+  }
+}

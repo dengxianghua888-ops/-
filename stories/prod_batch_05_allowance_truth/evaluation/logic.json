@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "check": "legal_chain",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-08.md",
+      "quote": "依法调取的遮敏复印件，原件留在警方卷宗里。"
+    },
+    {
+      "check": "timeline",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-15.md",
+      "quote": "半个月后，许念去了看守所。"
+    }
+  ],
+  "notes": [
+    "Phase 6 fixes applied and validator metrics refreshed."
+  ]
+}

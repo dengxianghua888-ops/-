@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "主舞台前排、直播机位侧边",
+  "time": "白天，公开冲突刚起时",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "沈月然",
+    "周瑞阳",
+    "直播摄像",
+    "前排亲友"
+  ],
+  "character_goal": "拆掉对方“合法婚姻”的表皮，让沈月然从优越位掉下去。",
+  "opposition_goal": "沈月然要用已登记证明和高姿态把林晚晴打成疯子，周瑞阳则想顺势坐实这个版本。",
+  "conflict_action": "沈月然甩证压人，林晚晴当场指出签名、登记信息和证件细节错位，逼镜头推近。",
+  "information_gap": "这份证明到底是假证还是套用旧信息，沈月然是知情者还是被包装的受益人。",
+  "emotional_debt_delta": "新增债：第三者站在“合法妻子”位置羞辱原配。",
+  "payoff_or_hook": "镜头一推近，所有人都看到证明上的名字不对。",
+  "chapter_end_hook": "截断在沈月然第一次低头重新看那张证明的瞬间。",
+  "paywall_card": true,
+  "must_include": [
+    "破绽要具体可视，不要抽象说“这是假的”",
+    "周瑞阳要出现一瞬犹豫，露出被打乱的慌",
+    "镜头推进是公共见证感的关键"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普证件真假流程",
+    "不要让女主一口气说完法律后果",
+    "不要让沈月然马上变好人"
+  ],
+  "rhythm_job": {
+    "shape": "1次高位压人+1次近景识假+1拍沉默反噬",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "7:3",
+    "low_pressure_bridge": "镜头对焦、手指压住证件边角这些小动作给一句重话让路",
+    "chapter_tail_cut": "停在沈月然低头自检"
+  }
+}

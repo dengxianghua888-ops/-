@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "海崖别院廊下",
+  "time": "天将亮未亮",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "顾临渊"
+  ],
+  "character_goal": "逼顾临渊给她一句真话，确认敌人不止都督府",
+  "opposition_goal": "顾临渊要护她和镇海王府，不愿她过早卷进皇权旧案",
+  "conflict_action": "沈灼宁把海印拍回他掌心，压着他步步追问；顾临渊反手扣住她腕骨承认伪废不是自保，而是避杀",
+  "information_gap": "到底是谁在三年前就要顾临渊废掉，皇帝是否从一开始就下场",
+  "emotional_debt_delta": "夫妻信任债偿还+2，皇权绞杀债预热+1",
+  "payoff_or_hook": "夫妻关系由单向护转为并肩扛局",
+  "chapter_end_hook": "顾临渊低声道：\"要我废的，从来不是裴承骁。\"",
+  "paywall_card": false,
+  "must_include": [
+    "海印拍回掌心的动作",
+    "顾临渊握住她手腕的反制",
+    "一句前温柔后冷厉的男主转调对白",
+    "一处生活动作承接，比如海风吹灭半盏灯"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把对谈写成坦白局长会",
+    "不要详细梳理三年每一步布局",
+    "不要用大段心理分析代替对白"
+  ],
+  "rhythm_job": {
+    "shape": "近身对白带压迫感，句子短，中段用海风吹灭半盏灯的生活动作留白，尾端丢出更大黑手",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  }
+}

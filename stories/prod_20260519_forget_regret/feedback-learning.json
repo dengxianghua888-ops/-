@@ -1,0 +1,31 @@
+{
+  "story_slug": "prod_20260519_forget_regret",
+  "pipeline_mode": "production",
+  "genre": "ancient_BE",
+  "mechanisms": ["M5", "M3", "M2", "M8"],
+  "target_length": {"min": 10000, "max": 18000},
+  "final_length": 10283,
+  "quality_scores": {
+    "platform": 9.0,
+    "emotion": 9.2,
+    "style": 8.8,
+    "logic": 9.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {"scene": "scene-01", "hook": "若我说我也门第相当呢——身份悬念建立", "effectiveness": "high"},
+    {"scene": "scene-04", "hook": "流产死不了人——极致愤怒驱动", "effectiveness": "high"},
+    {"scene": "scene-08", "hook": "希望明日你们不要后悔——反杀倒计时", "effectiveness": "high"},
+    {"scene": "scene-09", "hook": "镇国公嫡长女驾到——身份碾压启动", "effectiveness": "high"}
+  ],
+  "paywall_cards": [
+    {"scene": "scene-01", "position_pct": 6, "type": "identity_tease"},
+    {"scene": "scene-04", "position_pct": 28, "type": "extreme_cruelty"},
+    {"scene": "scene-05", "position_pct": 40, "type": "signal_planted"},
+    {"scene": "scene-08", "position_pct": 52, "type": "countdown"},
+    {"scene": "scene-09", "position_pct": 58, "type": "identity_reveal"}
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": ["ancient_BE", "identity_reversal", "temperature_reversal", "M5_temperature", "M3_irony", "M2_identity", "M8_ambiguous_ending", "pilgrimage_torture", "wedding_confrontation", "heirloom_irony"],
+  "manual_revision_delta": []
+}

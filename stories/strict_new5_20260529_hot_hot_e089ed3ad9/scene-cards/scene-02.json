@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 660,
+  "target_chars_max": 760,
+  "location": "直播后台与员工通道",
+  "time": "直播事故后五分钟",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "保安",
+    "直播记者",
+    "秦砚舟远程来电"
+  ],
+  "character_goal": "林望带患者离开人群，保住工作和证据。",
+  "opposition_goal": "沈岚要逼林望改口，把死亡说成赌气撒谎。",
+  "conflict_action": "沈岚追到员工通道抓住林望工牌，命保安拦住出口。",
+  "information_gap": "沈岚仍把死讯当作父子勒索的新把戏。",
+  "emotional_debt_delta": "沈岚先管舆论不管死活，责任继续加深。",
+  "payoff_or_hook": "死亡证明编号第一次出现。",
+  "chapter_end_hook": "林望报出编号：不信，你现在查。",
+  "paywall_card": false,
+  "must_include": [
+    "员工通道白灯",
+    "被抓歪的护工工牌",
+    "保安挡门",
+    "死亡证明编号"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复盘第一场冲突",
+    "不要让沈岚长篇解释自己难处",
+    "不要写林望崩溃喊冤"
+  ],
+  "rhythm_job": {
+    "shape": "对白推进为主，动作插针，结尾用一串短编号制造硬证据感",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用电梯提示音和病床轮子卡住的细节降压"
+  }
+}

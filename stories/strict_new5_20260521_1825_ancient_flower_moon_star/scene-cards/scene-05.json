@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "国际航运论坛后台化妆间",
+  "time": "论坛开场前一小时",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "闻砚舟",
+    "宋知澜",
+    "主持助理"
+  ],
+  "character_goal": "确认离婚证是真是假，同时尽量守住体面。",
+  "opposition_goal": "闻砚舟要她在镜头前完整承担事故与私德污名。",
+  "conflict_action": "闻砚舟把认罪稿按到她手里，宋知澜现场修改措辞，把她往‘主动插足’上推。",
+  "information_gap": "她还不知道台前观众已经被舆论喂熟，等着看她下跪。",
+  "emotional_debt_delta": "她把最后一丝痛换成机械执行，准备只拿结果不拿感情。",
+  "payoff_or_hook": "后台预热屏出现评论滚动，先一步把她钉死。",
+  "chapter_end_hook": "第一条评论刷过去：‘让小三跪着念。’",
+  "paywall_card": false,
+  "must_include": [
+    "认罪稿实体道具",
+    "后台预热屏或直播弹幕/评论",
+    "宋知澜亲手改词"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释论坛流程",
+    "不要长篇写妆造",
+    "不要用旁白概括舆论风向"
+  ],
+  "rhythm_job": {
+    "shape": "后台压稿-两人逼位-评论误导-出场前截断",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

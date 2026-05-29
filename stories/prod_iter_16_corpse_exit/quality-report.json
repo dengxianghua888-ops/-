@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_iter_16_corpse_exit/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 14087,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 21,
+      "hook_hits": 21,
+      "hook_coverage": 1.0,
+      "lengths": [
+        617,
+        608,
+        605,
+        603,
+        698,
+        604,
+        604,
+        651,
+        737,
+        607,
+        653,
+        650,
+        803,
+        606,
+        654,
+        702,
+        740,
+        685,
+        700,
+        658,
+        786
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 5,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 101,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 5,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 14087,
+      "sentence_count": 937,
+      "avg_sentence_length": 14.034,
+      "dialogue_ratio": 0.1611,
+      "question_marks": 35,
+      "question_marks_per_k": 2.485,
+      "physical_emotion_hits": {
+        "指尖": 5,
+        "青筋": 1,
+        "胸腔": 1,
+        "喉咙": 1,
+        "眼眶": 1,
+        "指甲": 3,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.247
+    },
+    "semantic_repetition": {
+      "sentence_count": 656,
+      "unique_sentence_skeletons": 656,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0015
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.4,
+    "style": 7.8,
+    "logic": 8.1
+  },
+  "evidence": [
+    "Phase 5 validator pass: 13971 字，source overlap 7，repeated ngram 10，动作密度 29.49/千字。",
+    "对照原文保留六年污名苦役、亲密关系合谋、死亡脱离、死后证据反噬四个神髓禁改项。",
+    "返工后每个 draft scene 均落入 scene-card 目标区间，且 draft.md 与 draft-scenes 顺序拼接一致。"
+  ]
+}

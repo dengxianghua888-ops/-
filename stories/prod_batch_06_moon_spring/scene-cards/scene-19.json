@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-19",
+  "beat_id": "B19",
+  "target_chars_min": 548,
+  "target_chars_max": 708,
+  "location": "火后临时医棚、江边石阶",
+  "time": "火灾后清晨",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "温砚清",
+    "女医学生"
+  ],
+  "character_goal": "沈照棠要给过去、陆衡舟和温砚清一个清醒答案。",
+  "opposition_goal": "陆衡舟求两清，温砚清求她回南洋并继续由自己护着。",
+  "conflict_action": "陆衡舟带伤跪在医棚外求她给一个赎罪机会，温砚清递出南洋船票，沈照棠把船票和并蒂药囊都放回桌上，逐条点出家庙、童药堂、药堂铜锁、采药崖药弩。",
+  "information_gap": "最终新生活去向留到最后一章，但情感选择已经明确。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "拒绝陆衡舟复合",
+      "拒绝温砚清托管",
+      "确认火场救命不能两清"
+    ],
+    "balance_after": "价值层清算完成。"
+  },
+  "payoff_or_hook": "她把阿砚放在所有赎罪话术之前。",
+  "chapter_end_hook": "陆衡舟问能不能两清，沈照棠说：你拿什么跟阿砚清？",
+  "paywall_card": true,
+  "must_include": [
+    "陆衡舟带伤跪下",
+    "温砚清递船票",
+    "船票和药囊被放回桌上",
+    "逐条点罪",
+    "你拿什么跟阿砚清"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复合。",
+    "不要改嫁温砚清。",
+    "不要让女主长篇哭诉，关键句要短。"
+  ],
+  "target_chars": 568,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

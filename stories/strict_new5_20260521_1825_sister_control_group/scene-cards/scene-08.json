@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "妇产医院病房外走廊",
+  "time": "成年后某日上午",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "周叙川",
+    "沈蔓"
+  ],
+  "character_goal": "沈栀要在不暴露自己的情况下听清两人的真实关系和前世婚姻本质。",
+  "opposition_goal": "病房里的两人要把彼此绑进同一条船，顺手继续利用沈栀作为婚配托底。",
+  "conflict_action": "沈栀停在半掩的门外偷听，周叙川和沈蔓围绕怀孕、名利、前世婚姻爆发争吵，句句把她当工具人评估。",
+  "information_gap": "她在他们心里究竟排第几，前世是不是从头到尾都只是稳妥选项？",
+  "emotional_debt_delta": "最大真相池开闸，幸福幻觉彻底粉碎。",
+  "payoff_or_hook": "周叙川说出‘她只是更适合结婚’，把前世几十年的温吞婚姻改写成羞辱。",
+  "chapter_end_hook": "妇产医院门外，我听见周叙川说：‘她只是更适合结婚。’",
+  "paywall_card": true,
+  "must_include": [
+    "门外偷听的生理反应",
+    "怀孕与名利绑架的争吵",
+    "‘更适合结婚’这句落锤"
+  ],
+  "must_not_write_as_exposition": [
+    "不要旁白概括争吵内容",
+    "不要细描检查项目",
+    "不要提前把备胎判断全说尽"
+  ],
+  "rhythm_job": {
+    "shape": "静听起势，争吵递进，末句核爆",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

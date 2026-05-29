@@ -1,0 +1,87 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "beat-16",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "target_chars_min": 600,
+  "target_chars_max": 800,
+  "location": "酒庄宴会厅→门口",
+  "time": "紧接上一场",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "张母", "宾客群"],
+  "character_goal": "沈绮云完成死环逻辑的最终闭合，宣判人格死刑后转身离场",
+  "opposition_goal": "张锐城/张母做最后挣扎（否认/求情/威胁）",
+  "conflict_action": "沈绮云明确说出死环逻辑（'承认我活着=虚假诉讼，坚持我死了=人在这儿+保险诈骗'）→张锐城彻底瘫软→沈绮云说出'张锐城，你脏了'→转身走下舞台",
+  "information_gap": "死环闭合——无论张锐城选哪条路都是犯罪",
+  "emotional_debt_delta": "人格死刑宣判完毕+物理离场——从此切割",
+  "payoff_or_hook": "章末：'张锐城，你脏了'+转身离场——全文情绪最高点的收束",
+  "chapter_end_hook": "'张锐城，你脏了。'——一句话宣判人格死刑后潇洒转身",
+  "paywall_card": false,
+  "must_include": [
+    "死环逻辑的完整表述（二选一都死）",
+    "保险诈骗的具体提及（已领取配偶死亡赔付）",
+    "张锐城彻底瘫软的描写",
+    "'张锐城，你脏了'——最终定性",
+    "转身离场（不回头）",
+    "宾客反应作为最终道德盖章"
+  ],
+  "must_not_write_as_exposition": [
+    "法律程序的后续步骤",
+    "离场后的去向"
+  ],
+  "rhythm_job": {
+    "shape": "高压-骤停-静",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.2,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "冷静宣判-绝不退让",
+    "emotion_arc": "死环闭合 → 对方彻底瘫软 → 一句话定性 → 转身离场",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "极致爽感+一丝悲壮——她赢了，但这不是胜利，是止损",
+    "required_techniques": [
+      {
+        "technique": "缺席父亲的时间量化",
+        "instruction": "补充一句关于缺席的量化——'儿子三岁，你见过他几面？'让读者记住这不只是妻子的痛，还有孩子的。但点到为止不渲染"
+      },
+      {
+        "technique": "一句话定性（终极版）",
+        "instruction": "'张锐城，你脏了。'——这句话必须是本场最后的对白。说完转身。不给对方回应的机会。沉默就是最大的力量"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "全名称呼+极简定性",
+        "example": "周瑞阳，你脏了。",
+        "instruction": "'张锐城，你脏了。'全文最后的对白输出。说完沉默、转身、离场。不需要加任何后缀"
+      },
+      {
+        "structure": "替对方回答+定性总结",
+        "example": "你没有。我替他答了。",
+        "instruction": "不给对方开口机会——'你有过一次良心不安吗？你没有。我替你答了。'极致控场力展示"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "递进式",
+    "source_excerpt": "你心安理得让我陪你吃苦，却没打算跟我同甘。你没有。我替他答了。我看着台下那个已经缩成一团的男人：'周瑞阳，你脏了。'我转身走下舞台。身后是满堂沸腾的议论声。我没回头。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": [],
+      "句式": "每一句都像最后一句——极简、不可上诉",
+      "单句上限": 15,
+      "禁止": "犹豫、回望、给台阶"
+    },
+    "张锐城": {
+      "口癖": [],
+      "句式": "已无话可说——沉默或极短的'对不起'",
+      "单句上限": 6,
+      "禁止": "任何辩解"
+    }
+  }
+}

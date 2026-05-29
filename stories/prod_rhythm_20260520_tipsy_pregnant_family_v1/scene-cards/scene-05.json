@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "温瓷修复间与老城妇幼预约窗口",
+  "time": "第二天上午",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "护士",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想确认孩子安全，并决定暂时不把产检告诉秦月眠",
+  "opposition_goal": "秦月眠的消息继续骚扰，弹幕继续制造危险预感",
+  "conflict_action": "温瓷锁上修复间、拉黑秦月眠号码，拿早孕单去妇幼排队建档",
+  "information_gap": "弹幕卡在孩子危险预警处，不说明危险其实是误会",
+  "emotional_debt_delta": "孩子债悬起，温瓷主动保护自己和孩子",
+  "payoff_or_hook": "女主不是软包子，她能锁门、拉黑、独自产检",
+  "chapter_end_hook": "叫号屏亮起她的名字，弹幕却卡出半句：【孩子千万别被陆砚辞误会成……】",
+  "paywall_card": false,
+  "must_include": [
+    "锁修复间",
+    "拉黑秦月眠",
+    "早孕单",
+    "妇幼叫号屏",
+    "弹幕卡顿"
+  ],
+  "must_not_write_as_exposition": [
+    "不要连续解释孕检流程",
+    "不要写医学科普",
+    "不要把温瓷写成被动挨打"
+  ],
+  "rhythm_job": "3个保护孩子动作+1次弹幕卡顿+章尾半句未完截断"
+}

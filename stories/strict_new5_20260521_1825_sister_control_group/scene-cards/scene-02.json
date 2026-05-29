@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "专业分流办公室",
+  "time": "重生第一天傍晚",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "沈蔓",
+    "周叙川",
+    "老师"
+  ],
+  "character_goal": "沈栀要改填影视技术线，切断前世绑定。",
+  "opposition_goal": "沈蔓要阻止她改线，周叙川要把她拉回旧轨。",
+  "conflict_action": "沈栀抢先在确认单上改志愿，沈蔓伸手来夺，老师催她立刻落笔签字。",
+  "information_gap": "为什么所有人都默认她该走和周叙川贴近的路线？",
+  "emotional_debt_delta": "女主主动改命，路线债开始偿还，但旧轨被安排的疑点升高。",
+  "payoff_or_hook": "人生按钮第一次被沈栀亲手按下，周叙川却露出像认得这个选择的神情。",
+  "chapter_end_hook": "我改填了影视技术线，抬头时，周叙川正盯着我，像是也认识这个结局。",
+  "paywall_card": false,
+  "must_include": [
+    "专业志愿确认单",
+    "沈蔓实质性阻拦动作",
+    "沈栀落笔确认的决断感"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释专业课程设置",
+    "不要复述学校规章"
+  ],
+  "rhythm_job": {
+    "shape": "填表动作推进，中段夺表，尾段眼神留钩",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

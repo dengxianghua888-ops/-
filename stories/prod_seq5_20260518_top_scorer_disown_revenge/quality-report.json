@@ -1,0 +1,162 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260518_top_scorer_disown_revenge/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 15000,
+      "actual": 13554,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 18,
+      "hook_hits": 18,
+      "hook_coverage": 1.0,
+      "lengths": [
+        760,
+        741,
+        725,
+        778,
+        691,
+        719,
+        768,
+        756,
+        737,
+        728,
+        747,
+        757,
+        764,
+        715,
+        814,
+        782,
+        732,
+        726
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 152,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 10,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13554,
+      "sentence_count": 779,
+      "avg_sentence_length": 16.399,
+      "dialogue_ratio": 0.0,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "手心": 1,
+        "喉咙": 2,
+        "眼眶": 1,
+        "心脏": 1,
+        "指甲": 1,
+        "掌心": 3
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 36.225
+    },
+    "semantic_repetition": {
+      "sentence_count": 690,
+      "unique_sentence_skeletons": 690,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0014
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 8.2,
+    "logic": 7.6
+  },
+  "evidence": [
+    {
+      "criterion": "opening_hook",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "我查到748分那一刻，校门口采访车正把镜头推到我脸上。",
+      "finding": "首句同时给出省状元、公开镜头和即时压力。"
+    },
+    {
+      "criterion": "inciting_stack",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "断亲书三个字砸进眼里。",
+      "finding": "开篇完成断亲、退婚、报警三连爆。"
+    },
+    {
+      "criterion": "chapter_hooks",
+      "source": "draft-scenes/scene-03.md",
+      "quote": "夜视画面停住的一瞬间，我看见他右手无名指上有一道疤。",
+      "finding": "章末钩具备可视化证据和身份反转。"
+    },
+    {
+      "criterion": "paywall_card",
+      "source": "draft-scenes/scene-12.md",
+      "quote": "我把名字签完，对裴队说：拆，出了事我负责。",
+      "finding": "破拆前的公开赌注足以承接付费卡点。"
+    },
+    {
+      "criterion": "emotion_payoff",
+      "source": "draft-scenes/scene-14.md",
+      "quote": "侧光落下，纸背的压痕慢慢浮出来：棠棠，别回家。",
+      "finding": "断亲书从伤害反转为保护，偿还主情绪债。"
+    },
+    {
+      "criterion": "logic_chain",
+      "source": "draft-scenes/scene-16.md",
+      "quote": "门锁日志、传感器曲线、墙体取样和DNA鉴定",
+      "finding": "庭审段明确展示证据链，不靠主角口头定罪。"
+    }
+  ]
+}

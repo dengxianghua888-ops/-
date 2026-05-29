@@ -1,0 +1,18 @@
+slug: rerun_modern_20260525_v2
+source_slug: hot_14dd5cdefe
+title: 红章
+genre: modern_reversal
+pipeline_mode: production
+status: final
+run_date: "2026-05-25"
+optimization: v2_style_fidelity
+mechanisms:
+  - M1_dead_loop_reversal
+  - M3_causal_boomerang
+  - M6_progressive_escalation
+hooks:
+  - T1_procedural_intimidation
+  - H1_conclusion_first_opening
+target_length:
+  min: 10000
+  max: 14000

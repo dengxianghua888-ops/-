@@ -1,0 +1,33 @@
+{
+  "story_slug": "batch_v2_04_ancient_sweet",
+  "source_slug": "hot_5160748d13",
+  "genre": "ancient_sweet",
+  "lessons_learned": [
+    {
+      "issue": "persistent_char_shortfall",
+      "description": "First draft was 3780 chars (38% of minimum). Second full rewrite reached 5690. Required 3 rounds of incremental expansion across all 12 chapters to reach 10001.",
+      "root_cause": "ancient_sweet source has avg_line_chars=16.7 and short_line_rate=0.639, creating ultra-short lines. Writing to match this rhythm naturally produces very low char density per chapter.",
+      "fix": "For sources with avg_line_chars < 18, aim for 20+ more lines per chapter to compensate for low per-line density. Budget 1200-1500 chars per non-climax beat and 1500-2000 for climax beats.",
+      "applicable_genres": ["ancient_sweet", "any genre with avg_line_chars < 18"]
+    },
+    {
+      "issue": "short_line_rate_gap",
+      "description": "Source short_line_rate=0.639 but candidate=0.470. A 0.17 gap exists. Rhythm still passes but indicates the expansion added longer lines.",
+      "root_cause": "When expanding for char count, natural tendency is to add detail/context in longer sentences rather than maintaining the source's ultra-short fragmented style.",
+      "fix": "When expanding, prefer adding more SHORT lines (single-clause fragments, object descriptions, brief reactions) rather than lengthening existing lines.",
+      "applicable_genres": ["ancient_sweet", "any high-short-rate source"]
+    },
+    {
+      "issue": "AI_taste_word_slip",
+      "description": "One instance of '此刻' found during validation. Easily fixed by replacing with '现在'.",
+      "root_cause": "Natural language generation tendency toward formal temporal markers.",
+      "fix": "Always run AI forbidden word check before finalizing.",
+      "applicable_genres": ["all"]
+    }
+  ],
+  "pipeline_recommendations": [
+    "For ultra-short-line sources (avg < 18 chars), set initial writing target to 12000+ chars to allow for natural compression during editing",
+    "Add a pre-flight char estimate step: count beat budgets and verify total target is achievable before writing",
+    "The 3-round expansion pattern (full chapters -> key chapters -> scattered additions) is reliable but expensive; prefer getting closer on first draft"
+  ]
+}

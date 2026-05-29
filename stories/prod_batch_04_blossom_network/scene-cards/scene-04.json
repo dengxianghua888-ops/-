@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 700,
+  "target_chars_max": 950,
+  "location": "集团人事财务办公室",
+  "time": "第二天下午",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "人事经理", "财务主管", "陆闻舟"],
+  "character_goal": "叶昭想拿到竞业赔偿和项目奖金清算，为外婆治疗凑保证金。",
+  "opposition_goal": "人事和财务想拖流程，陆闻舟想把赔偿理解成叶昭闹脾气。",
+  "conflict_action": "叶昭把续聘合同放进碎纸机，按录音流程要求人事盖章，逼财务当天打款。",
+  "information_gap": "陆闻舟不知道她要钱不是妥协筹码，而是出境治疗资金。",
+  "emotional_debt_delta": "女主第一次把被伤害的现实后果兑换成离开资源。",
+  "payoff_or_hook": "到账短信亮起时，叶昭把陆闻舟打来的电话按掉。",
+  "chapter_end_hook": "叶昭签下清算单，第一次把离开变成钱。",
+  "paywall_card": true,
+  "must_include": [
+    "碎纸机吞掉续聘合同",
+    "竞业赔偿清算单",
+    "项目奖金到账短信",
+    "叶昭录音留证",
+    "陆闻舟来电被按掉"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成单纯要钱",
+    "不要省略清算动作",
+    "不要让陆闻舟理解她的真实目的"
+  ]
+}

@@ -1,0 +1,34 @@
+slug: strict_new5_20260528_hot_1cc232ec03
+status: final
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_1cc232ec03
+genre: family_ethics
+final_packaging:
+  title: 女儿一百万买断我五年陪诊后，她妈悔疯了
+  final_file: final.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 14
+total_chars: 12140
+chapter_count: 14
+paywall_cards: 10
+quality_gate: pass
+critic_scores:
+  logic: 7.3
+  style: 7.6
+  emotion: 8.2
+  platform: 8.1
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_192118
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

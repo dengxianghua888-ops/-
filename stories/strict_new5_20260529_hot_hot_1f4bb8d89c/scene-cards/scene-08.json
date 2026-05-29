@@ -1,0 +1,54 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 880,
+  "target_chars_max": 1080,
+  "location": "澜舟科技临时董事会",
+  "time": "退婚第三日",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "许知微",
+    "董事",
+    "法务"
+  ],
+  "character_goal": "沈听澜和许知微要把私人伤害转成可查证的公司风险。",
+  "opposition_goal": "江砚舟要用旧署名文件抹掉沈听澜贡献，并把许知微继续留在公益门面上。",
+  "conflict_action": "江砚舟投出旧署名文件，沈听澜投出原始提交记录，许知微当场签下公益肖像授权撤回函。",
+  "information_gap": "董事们以为只是前未婚夫妻纠纷，直到提交记录显示研发归属被改过。",
+  "emotional_debt_delta": {
+    "added": [
+      "署名被夺债",
+      "公益门面被消费债"
+    ],
+    "paid": [
+      "研发贡献公开回收",
+      "许知微正面断供"
+    ]
+  },
+  "payoff_or_hook": "第2个付费级卡点：许知微从白月光转成盟友，双线证据进入董事会。",
+  "chapter_end_hook": "截断句：江砚舟盯着两份撤回函，说，我要起诉你们两个。",
+  "paywall_card": true,
+  "must_include": [
+    "原始提交记录",
+    "许知微撤回公益肖像授权",
+    "沈听澜短句：不是情分，是归属",
+    "董事席位上有人合上电脑"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写法务条款长段",
+    "不要列董事反应",
+    "不要把许知微写成被沈听澜指挥"
+  ],
+  "rhythm_job": {
+    "shape": "董事会翻牌，双女递证，诉讼句截断",
+    "dialogue_action_breathing_ratio": "对白约42%，动作约43%，呼吸点约15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用董事合上电脑的低声动作承接两份撤回函",
+    "chapter_tail_action": "江砚舟的手压住撤回函边角"
+  }
+}

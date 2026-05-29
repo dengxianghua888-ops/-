@@ -1,0 +1,37 @@
+{
+  "scene_id": "S13",
+  "beat_id": "B13",
+  "target_chars_min": 580,
+  "target_chars_max": 740,
+  "location": "区人民法院门口台阶",
+  "time": "宣判后正午",
+  "pov": "first_person_林承",
+  "characters": ["林承", "孙律师", "陌生老姨(王嬷嬷)"],
+  "character_goal": "低头快步离开法院,避开记者",
+  "opposition_goal": "一位陌生老姨拦在台阶下,要把一份十年前的卷宗递给林承",
+  "conflict_action": "老姨从布包里掏出一份卷边的判决书复印件,讲她儿子十年前被定'卖假药'毁了一辈子,只说三句就抓住林承的手",
+  "information_gap": "老姨儿子的故事将在 B14 援助站第一案再起",
+  "emotional_debt_delta": "-2 共情泪点",
+  "payoff_or_hook": "老姨手心皮肤的薄,被特写一次:'比纸还薄'",
+  "chapter_end_hook": "那位姨抓住我的手，手心比纸还薄。",
+  "paywall_card": false,
+  "must_include": [
+    "老姨布包+卷边复印件两件具体物件",
+    "老姨只讲 3 句不超过 4 行",
+    "孙律师在台阶上一步之外停住,不替主角拒绝",
+    "结尾林承没有承诺,只是没有抽手"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让老姨独白超过 4 行",
+    "不要让林承立即承诺援助",
+    "不要写镜头特写过多"
+  ],
+  "rhythm_job": {
+    "shape": "台阶动作 1 拍→老姨 3 短句→手心特写→无承诺",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "low_pressure_buffer": "布包绣花线头 + 老姨手指血色"
+  }
+}

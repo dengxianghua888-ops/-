@@ -1,0 +1,351 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "老公婚礼，我才知道自己死去多年",
+  "genre": "family_ethics",
+  "mechanisms": ["M1", "M3", "M5", "M6"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [15, 22],
+    "short_line_rate_lte_16_min": 0.55,
+    "short_line_rate_lte_16_max": 0.70,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0.04,
+    "barrage_line_rate_max": 0.10,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 5.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 920,
+      "target_char_count": [1000, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.8,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 5.4,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.58,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "震惊-压抑",
+          "emotion_arc": "平静 → 震惊 → 愕然 → 冷怒蓄力",
+          "emotion_intensity": 7,
+          "reader_feeling_target": "和女主同步震惊，对丈夫产生强烈厌恶，急切想知道她下一步动作"
+        },
+        "highlights": {
+          "peak_moment": "女主在自己烘焙店里听到客人电话，得知丈夫宣告她死亡并即将再婚",
+          "peak_type": "betrayal_stack",
+          "emotional_bomb": "不仅丈夫背叛，连法律层面都被'杀死'——活人被宣告死亡的荒诞"
+        },
+        "techniques": ["冷幽默破冰", "偷听式信息获取", "量化对比首发", "悬置钩子"],
+        "golden_lines": ["极端身份标签+黑色幽默自指", "事实陈述+荒诞反问", "假设反击+夸张后果"],
+        "rhythm_shape": "平缓-渐起"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "新娘/婚庆方主动接触女主，不知面前之人就是'已死前妻'——信息差极致化",
+        "target_description": "许芷悦的婚庆协调员热情招呼'甜品供应商'沈绮云，丝毫不知这位就是被宣告死亡的正妻"
+      },
+      "scenes": ["scene-01", "scene-02"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 960,
+      "target_char_count": [1050, 1250],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 19.2,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 4.1,
+          "direct_dialogue_rate": 0.44,
+          "short_line_rate_lte16": 0.55,
+          "sentence_avg_len": 17.8
+        },
+        "emotion": {
+          "dominant_emotion": "心寒-刺痛",
+          "emotion_arc": "试探接近 → 逐步心寒 → 刺痛累积 → 试探出击",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "替女主心疼，对渣男的'区别对待'感到极度愤怒，每一组对比都像刀子"
+        },
+        "highlights": {
+          "peak_moment": "得知丈夫年薪+分红150万，而只给妻子月转12000家用",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "不仅是出轨，更是长期系统性的经济欺诈——多年隐瞒百万级收入"
+        },
+        "techniques": ["他人之口揭露法", "反讽闪回对照", "身体化情绪", "试探性反击"],
+        "golden_lines": ["身体部位+暴力动作比喻", "反问+身份错位讽刺", "PUA话术原句引用"],
+        "rhythm_shape": "波浪递进"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "女主第一次在对话中露出攻击性——读者知道暴风雨要来了",
+        "target_description": "沈绮云对协调员说出暗示性的话，读者感知到潜伏即将结束"
+      },
+      "scenes": ["scene-03", "scene-04"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 940,
+      "target_char_count": [1000, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 18.5,
+          "comma_period_ratio": 0.44,
+          "question_mark_density_per_1k": 3.2,
+          "direct_dialogue_rate": 0.46,
+          "short_line_rate_lte16": 0.6,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "冰凉-绝望认知",
+          "emotion_arc": "继续心寒 → 震惊（戒酒真相）→ 冰凉（做夜宵真相）→ 极致震怒（编造'产后抑郁出走失联'）",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "当听到'法院宣告死亡'的细节时，读者应该感到血液凝固般的愤怒——连法律都被利用来抹杀她"
+        },
+        "highlights": {
+          "peak_moment": "得知丈夫向法院提交虚假材料申请'宣告死亡'，编造'产后抑郁出走失联满两年'",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "不是只口头说死了，而是动用法律程序从制度层面抹杀——突破文明底线"
+        },
+        "techniques": ["顿悟式反转", "伴娘日常化揭露", "独立短句封杀", "记忆翻新术"],
+        "golden_lines": ["否定A+肯定B排除法定性", "正面情绪记忆+真相反转+否定归属", "第三人视角陈述+省略号制造犹疑感"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "终极信息炸弹在章末投下——宣告死亡判决的存在被确认",
+        "target_description": "协调员无意提到'听说他前妻产后抑郁走了，法院都判了死亡'——女主的手机差点掉地上"
+      },
+      "scenes": ["scene-05", "scene-06"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 880,
+      "target_char_count": [950, 1150],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 18.0,
+          "comma_period_ratio": 0.5,
+          "question_mark_density_per_1k": 4.5,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.62,
+          "sentence_avg_len": 17.2
+        },
+        "emotion": {
+          "dominant_emotion": "怒火压制-行动触发",
+          "emotion_arc": "极怒（宣告死亡细节）→ 被张母火上浇油 → 确认旺铺真相 → 冷静决定行动",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "读者的愤怒到达顶点，迫不及待地想看到女主出手——而章末她终于动了"
+        },
+        "highlights": {
+          "peak_moment": "女主走上舞台，用话筒说出'老公，结婚这么大的事怎么不告诉我一声？'",
+          "peak_type": "power_shift",
+          "emotional_bomb": "从潜伏者→公开出击者的角色转换，权力关系在这一句话中反转"
+        },
+        "techniques": ["电话场景双线信息", "数字精确对应", "冷静一句话转场", "舞台夺麦式开场白"],
+        "golden_lines": ["亲密称呼+日常关切语气+致命内容", "现在时态+将来时态对比预告", "递进否定+拟物化"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "全文最强一句话作为章末钩——从暗处走到明处的第一声",
+        "target_description": "沈绮云拿起话筒：'老公，结婚这么大的事怎么不告诉我一声？'"
+      },
+      "scenes": ["scene-07", "scene-08"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 950,
+      "target_char_count": [1150, 1350],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.5,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 5.2,
+          "direct_dialogue_rate": 0.52,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "爆发-碾压",
+          "emotion_arc": "全场静默 → 渣男恳求 → 女主不让 → 连续打击 → 逼问张母",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "肾上腺素飙升，为女主的每一句话叫好"
+        },
+        "highlights": {
+          "peak_moment": "女主甩手一个耳光扇在张锐城脸上，随后连珠炮式揭露所有事实",
+          "peak_type": "public_humiliation",
+          "emotional_bomb": "当众揭穿'前妻活着、被宣告死亡是伪造的'——全场认知翻转"
+        },
+        "techniques": ["全场反应切镜", "多方表情切片", "恳求-拒绝节奏", "耳光+短句连击"],
+        "golden_lines": ["对方行为+反问自身权利", "主语+比喻(活像见了鬼)", "主语+颜色渐变三段式"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "火力转向帮凶——揭穿丈夫后转向张母，暗示清算还没结束",
+        "target_description": "沈绮云转向张母：'妈，这话是你亲口说的吧！'"
+      },
+      "scenes": ["scene-09", "scene-10"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 1020,
+      "target_char_count": [1200, 1400],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 19.0,
+          "comma_period_ratio": 0.46,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.4,
+          "short_line_rate_lte16": 0.58,
+          "sentence_avg_len": 18.2
+        },
+        "emotion": {
+          "dominant_emotion": "清算快感-心酸交织",
+          "emotion_arc": "怒火输出 → 逐笔清算 → 短暂哽咽 → 继续输出 → 旺铺真相大白",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "为女主的每一笔清算拍手叫好，同时在'哽咽'处心疼——复合情绪体验"
+        },
+        "highlights": {
+          "peak_moment": "揭露旺铺真相——'那间旺铺，是用我十年经营的老店换来的'",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "丈夫把妻子的心血变成新娘的嫁妆——算计到骨头渣子"
+        },
+        "techniques": ["控诉清单化", "短暂脆弱展露", "旁观者道德裁判", "追问式逼供"],
+        "golden_lines": ["你是A我是B身份对照", "主语+动作+程度副词", "同结构不同数字对照"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "新娘转向张母追问——战线从'女主vs渣男'扩展为'全场vs渣男一家'",
+        "target_description": "许芷悦转向张母：'阿姨，她说的是真的吗？'"
+      },
+      "scenes": ["scene-11", "scene-12"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 850,
+      "target_char_count": [1000, 1200],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.8,
+          "comma_period_ratio": 0.4,
+          "question_mark_density_per_1k": 4.7,
+          "direct_dialogue_rate": 0.5,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 14.5
+        },
+        "emotion": {
+          "dominant_emotion": "暴雷-双重崩塌",
+          "emotion_arc": "新娘追问 → 宣告死亡判决暴雷 → 新娘崩溃 → 女主冷静定性",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "看到宣告死亡判决暴雷时倒吸冷气——渣男的恶比想象的还深"
+        },
+        "highlights": {
+          "peak_moment": "女主亮出法院'宣告死亡'判决书复印件，张锐城当场瘫软",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "法律程序被滥用为'杀妻工具'——满场宾客见证制度性暴力"
+        },
+        "techniques": ["极简回答式暴雷", "双面耳光对照", "情绪温度对比", "一句话定性"],
+        "golden_lines": ["全名称呼+极简定性", "否定对方表面忏悔+揭露本质", "极短判断句+补充说明"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "女主在新娘崩溃时展现极致冷静——最大的受害者反而最克制",
+        "target_description": "沈绮云对崩溃的许芷悦说：'至少他对你，比对我好太多了。'"
+      },
+      "scenes": ["scene-13", "scene-14"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 1100,
+      "target_char_count": [1300, 1500],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 17.2,
+          "comma_period_ratio": 0.38,
+          "question_mark_density_per_1k": 4.5,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.66,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "冷静宣判-绝不退让",
+          "emotion_arc": "量化清算（戒酒/做夜宵/缺席）→ 三条宣判 → 张母反扑 → 冷静碾压 → 转身离场",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "极致爽感——三条清算声明像判决书一样，读者替女主感到扬眉吐气"
+        },
+        "highlights": {
+          "peak_moment": "女主提出三条清算——追回财产、虚假诉讼+重婚+保险诈骗三罪追究、离婚",
+          "peak_type": "cold_revenge",
+          "emotional_bomb": "从私人情感清算升维到法律制裁——不是求他道歉，而是送他坐牢"
+        },
+        "techniques": ["三段式宣判", "帮凶反扑-碾压节奏", "满堂证人的法律锁定", "施舍式和解的打脸拒绝", "缺席父亲的时间量化"],
+        "golden_lines": ["编号递进+最后一条最短最重", "吃苦/同甘对比+心安理得定性", "时间量化+反问"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "death_declaration",
+        "hook_technique": "一句话宣判人格死刑——判决式结语",
+        "target_description": "沈绮云转身前最后一句：'张锐城，你脏了。'"
+      },
+      "scenes": ["scene-15", "scene-16"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 780,
+      "target_char_count": [750, 950],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 20.5,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 2.5,
+          "direct_dialogue_rate": 0.3,
+          "short_line_rate_lte16": 0.48,
+          "sentence_avg_len": 20.2
+        },
+        "emotion": {
+          "dominant_emotion": "正义落地-温暖新生",
+          "emotion_arc": "法律制裁确认 → 新娘道歉 → 母子重逢 → 积木意象 → 万家灯火收束",
+          "emotion_intensity": 7,
+          "reader_feeling_target": "正义感被完全满足后，在母子烘焙场景中感到温暖和治愈——带着笑离开"
+        },
+        "highlights": {
+          "peak_moment": "法院判决张锐城虚假诉讼罪+重婚罪+保险诈骗罪成立",
+          "peak_type": "cold_revenge",
+          "emotional_bomb": "法律的铁锤落下——不是私刑，是国家公权力的正义"
+        },
+        "techniques": ["法律结果简报式", "日常细节情绪着陆", "意象照应升华"],
+        "golden_lines": ["这一次+主语动作+价值确认", "全景→聚焦镜头推移"],
+        "rhythm_shape": "前快后慢"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "不是悬念钩子而是情绪着陆钩——用温暖收束全文",
+        "target_description": "儿子帮妈妈揉面团，面粉撒了一脸笑——烘焙店的灯亮着，这次是真正属于她的"
+      },
+      "scenes": ["scene-17"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 9,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

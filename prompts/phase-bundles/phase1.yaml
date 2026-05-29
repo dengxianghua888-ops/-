@@ -1,0 +1,29 @@
+phase: 1
+key: phase1
+role: Dissector
+title: 爆款引擎拆解
+system_prompt: prompts/dissector.md
+human_gate: none
+retryable: false
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/hook-types.md
+  - prompts/patterns/title-formulas.md
+  - prompts/patterns/forbidden-and-preferred.md
+  - templates/soul-contract-template.md
+  - templates/reader-engine-template.md
+  - templates/tension-ledger-template.md
+  - templates/platform-fit-template.md
+  - story/source.md
+required_outputs:
+  - dissection.md
+  - analysis/beat-sheet.md
+  - analysis/style-dna.md
+  - analysis/characters.md
+  - analysis/theme.md
+  - analysis/soul-contract.md
+  - analysis/reader-engine.md
+  - analysis/tension-ledger.md
+  - analysis/platform-fit.md
+validators:
+  - validate-story:phase1

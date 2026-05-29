@@ -1,0 +1,54 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 920,
+  "target_chars_max": 1140,
+  "location": "澜舟科技董事会表决厅",
+  "time": "调查组进场次日",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "许知微",
+    "董事长",
+    "独立董事",
+    "审查代表"
+  ],
+  "character_goal": "沈听澜要把反杀落到制度结果，把私人权力转出旧关系。",
+  "opposition_goal": "江砚舟要保住CEO席位，并把沈听澜描述成报复者。",
+  "conflict_action": "江砚舟争取董事支持，沈听澜签署表决权独立信托文件，许知微提交病史营销脚本证言。",
+  "information_gap": "江砚舟不知道沈听澜准备把权力从私人恩怨中剥离出去。",
+  "emotional_debt_delta": {
+    "added": [
+      "公司神话反噬债"
+    ],
+    "paid": [
+      "江砚舟暂停职务",
+      "项目进入独立审查"
+    ]
+  },
+  "payoff_or_hook": "女主不是抢回江砚舟，而是把自己和公司风险切开。",
+  "chapter_end_hook": "截断句：屏幕刷新，江砚舟暂停职务，即刻生效。",
+  "paywall_card": false,
+  "must_include": [
+    "独立伦理信托文件",
+    "许知微证言",
+    "江砚舟试图把沈听澜说成报复者",
+    "沈听澜短句：我不要你，也不要你的公司"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述表决程序",
+    "不要写商业术语堆叠",
+    "不要让男主商业翻盘"
+  ],
+  "rhythm_job": {
+    "shape": "表决前压，签字转权，屏幕结果收束",
+    "dialogue_action_breathing_ratio": "对白约40%，动作约45%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用签字、递笔、屏幕刷新等证据动作降低喊话密度",
+    "chapter_tail_action": "决议文字刷新到江砚舟名字旁"
+  }
+}

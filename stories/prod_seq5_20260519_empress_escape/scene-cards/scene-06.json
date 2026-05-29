@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "宫墙排水渠与含章宫后院",
+  "time": "三日后深夜",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "巡夜禁军"
+  ],
+  "character_goal": "温照晚想从排水渠钻出去，摸清离宫路线。",
+  "opposition_goal": "萧珩想用同一条暗渠偷见她，并阻止她半夜冒险。",
+  "conflict_action": "温照晚撬开渠砖钻出半身，萧珩从另一头钻进来，两人卡在渠口互扯袖子，萧珩朝服暗扣被刮掉。",
+  "information_gap": "萧珩为何知道含章宫暗渠，是否早就熟悉她的逃跑习惯。",
+  "emotional_debt_delta": "新增排水渠回旋道具，关系进入身体喜剧式亲近。",
+  "payoff_or_hook": "帝王钻渠求见，强反差喜剧升级。",
+  "chapter_end_hook": "萧珩半夜从排水渠钻进含章宫，朝服暗扣全被刮断。",
+  "paywall_card": false,
+  "must_include": [
+    "钻排水渠身体喜剧",
+    "朝服暗扣被刮断",
+    "女主吐槽皇帝不值钱",
+    "萧珩怕她摔伤的细节"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成逃亡惊险戏",
+    "不要描写污秽细节",
+    "不要直接说排水渠后期会封死"
+  ]
+}

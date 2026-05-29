@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 660,
+  "target_chars_max": 720,
+  "location": "北境七号地堡花房门口",
+  "time": "清晨配给钟响后",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "秦岚", "配给队员", "地堡居民"],
+  "character_goal": "沈梨雾想保住蜜雾香糖，稳住花房甜雾场",
+  "opposition_goal": "秦岚要当众拆掉她的温室特权",
+  "conflict_action": "秦岚夺走香糖盒，倒在地上用靴底碾碎",
+  "information_gap": "香糖是稳定虫巢母频的媒介，不是娇气零食",
+  "emotional_debt_delta": "+1 香糖羞辱债",
+  "payoff_or_hook": "甜味消失后花房玻璃内侧起霜",
+  "chapter_end_hook": "秦岚一脚踩碎最后一颗香糖，花房温度掉了一度。",
+  "paywall_card": false,
+  "must_include": ["蜜雾香糖碎裂声", "秦岚说地堡不养温室废物", "沈梨雾短声求她别踩"],
+  "must_not_write_as_exposition": ["不要解释完整封印原理", "不要写沈梨雾长篇自辩", "不要复述地堡制度"],
+  "rhythm_job": {
+    "shape": "对白开场，动作压下去，短呼吸收尾",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "香糖滚到花泥边，沈梨雾蹲下去捡，手指慢半拍发抖"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total": 10680
+  },
+  "title": "摘我子宫后，他把我推上认罪直播",
+  "genre": "现代豪门虐爽 / 追妻火葬场 / 女主出走新生",
+  "mechanisms": [
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "闻砚舟先把岑砚灯捧成唯一压舱石，再亲签手术、亲发声明、亲口命她认罪，完成由高温信任到负温抛弃的坠落。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "港区爆燃、偷听真相、联合声明、家内奴役、论坛认罪、仓库绑架、油库换命、海外重逢、挡险偿债、海灯回收逐层升级。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "前期反复使用“压舱石、上岸、为了你好”的控制话术，后期由岑砚灯用“是你把我拖回风暴里”“我们两清了”完成回旋封账。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 760,
+      "scene_range": ["S01"],
+      "chapter_end_hook": "她听见医生问：‘闻总，保孩子还是保宋小姐的名声？’"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 760,
+      "scene_range": ["S02"],
+      "chapter_end_hook": "闻砚舟的签字同意书从病历袋里滑了出来。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 760,
+      "scene_range": ["S03"],
+      "chapter_end_hook": "集团和航协的联合声明把她定成了插足者与事故责任人。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 720,
+      "scene_range": ["S04"],
+      "chapter_end_hook": "闻老夫人把离婚协议推到她手边：‘签了，我给你一条活路。’"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 760,
+      "scene_range": ["S05"],
+      "chapter_end_hook": "论坛直播倒计时亮起，闻砚舟让她把认罪稿背熟。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 760,
+      "scene_range": ["S06"],
+      "chapter_end_hook": "一颗烂番茄砸在她脸上，镜头还在推近。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 740,
+      "scene_range": ["S07"],
+      "chapter_end_hook": "冷链仓库的门锁死时，她的求救电话刚接通。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 780,
+      "scene_range": ["S08"],
+      "chapter_end_hook": "电话那头传来宋知澜的笑声，闻砚舟直接挂断。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 780,
+      "scene_range": ["S09"],
+      "chapter_end_hook": "她刚从油库废墟里被挖出来，就被闻砚舟拖向救援艇。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 760,
+      "scene_range": ["S10"],
+      "chapter_end_hook": "震爆弹炸开前，她把离婚证塞进了自己衣襟。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 760,
+      "scene_range": ["S11"],
+      "chapter_end_hook": "亲子鉴定和爆燃调度录音同时摆上了闻砚舟的桌子。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 760,
+      "scene_range": ["S12"],
+      "chapter_end_hook": "剑桥讲堂外，贺停山替她撑伞，而闻砚舟站在雨里。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 760,
+      "scene_range": ["S13"],
+      "chapter_end_hook": "刀光扑向岑砚灯时，闻砚舟先一步挡了上去。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 860,
+      "scene_range": ["S14"],
+      "chapter_end_hook": "海灯女孩学校挂牌那天，小女孩把灯塔徽章别在她胸口。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "港区医院急救走廊",
+      "character_goal": "岑砚灯想确认孩子和事故真相。",
+      "conflict_action": "她拖着术后身体偷听医生与闻砚舟的对话，发现手术并非单纯抢救。",
+      "information_gap": "她只知道孩子没了，还不知道摘宫是闻砚舟主导。",
+      "emotion_debt_balance": "高位宠爱假象瞬间裂开，生育权被夺的债务一次性压满。",
+      "chapter_end_hook": "医生低声问：‘闻总，您确定不保子宫？’",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不要把事故写成纯天灾", "不要提前替男主解释动机"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "病房与档案室走廊",
+      "character_goal": "岑砚灯想拿到确证，逼自己彻底清醒。",
+      "conflict_action": "她翻出病历袋与签字单，正面撞上闻砚舟的安抚和谎言。",
+      "information_gap": "她还不知道闻砚舟到底是为宋知澜还是为继承权动手。",
+      "emotion_debt_balance": "从怀疑转为实锤，信任债彻底透支。",
+      "chapter_end_hook": "签字栏上，闻砚舟三个字像刀一样划进她眼底。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用长篇医疗解释", "不要写她崩溃大哭一整场", "不能把签字轻描淡写"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "航运别院客厅",
+      "character_goal": "闻砚舟想稳住岑砚灯，继续让她做沉默的替罪人。",
+      "conflict_action": "宋知澜挺着所谓合法继承人的姿态登门，闻砚舟当场让岑砚灯让位。",
+      "information_gap": "岑砚灯尚未看见公开切割会来得多快。",
+      "emotion_debt_balance": "名分债、血脉合法性羞辱同时压上来。",
+      "chapter_end_hook": "电视新闻切入联合声明：‘岑砚灯系事故主要责任人。’",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成三人空谈", "不要用回忆复盘豪门背景", "不能洗白宋知澜的压制"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 660,
+      "target_chars_max": 780,
+      "scene_location": "闻家老宅茶厅",
+      "character_goal": "岑砚灯想换到离婚与脱身的纸面出口。",
+      "conflict_action": "闻老夫人拿切割协议逼她签字，闻砚舟却要求她先替集团扛下舆情。",
+      "information_gap": "她还不知道认罪会升级成全城围剿。",
+      "emotion_debt_balance": "她第一次把情绪抽离，开始把活路算成交易。",
+      "chapter_end_hook": "闻老夫人说：‘认完罪，我给你离婚证。’",
+      "paywall_card": false,
+      "forbidden_summary": ["不要复述协议条款", "不要写家族史", "不能让离婚变成男主恩赐"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "航运论坛后台化妆间",
+      "character_goal": "岑砚灯想保存最后一点体面并确认离婚证是否真实。",
+      "conflict_action": "闻砚舟把认罪稿塞给她，命她以闻氏白手套身份出镜背锅。",
+      "information_gap": "她还不知道台前等她的不是道歉，而是围猎。",
+      "emotion_debt_balance": "控制债继续累积，她把忍耐换成即将执行的脱身动作。",
+      "chapter_end_hook": "后台屏幕亮起直播预热，弹幕已经开始叫她‘港口小三’。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成后台闲聊", "不要解释公关流程", "不能省掉认罪稿的强制性"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "国际航运论坛外广场",
+      "character_goal": "岑砚灯想撑完整场直播，拿到离婚承诺。",
+      "conflict_action": "她在镜头前念致歉词，被家属、媒体、围观者扔蛋扔番茄、逼她下跪。",
+      "information_gap": "她还不知道闻砚舟根本没打算让这场羞辱结束在这里。",
+      "emotion_debt_balance": "社会性羞辱债爆发，读者憋屈值冲高。",
+      "chapter_end_hook": "她刚跪下，闻砚舟转身护住了宋知澜。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要列围观者反应清单", "不要空写屈辱", "不能把主要冲突写成心理戏"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 680,
+      "target_chars_max": 800,
+      "scene_location": "别院婴儿房与后廊",
+      "character_goal": "岑砚灯想拿到离婚证原件离开。",
+      "conflict_action": "宋知澜借孩子与伤口继续使唤她，闻砚舟默认并要求她今晚送文件去仓库。",
+      "information_gap": "她不知道这份差事本身就是设给她的下一层陷阱。",
+      "emotion_debt_balance": "羞辱从公开场合回灌到私域奴役，压迫更黏更冷。",
+      "chapter_end_hook": "她摸到口袋里的车钥匙，却发现后门已经被人反锁。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写育儿琐事清单", "不要连续解释她的伤势", "不能让宋知澜只停留在口头挑衅"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "冷链仓库",
+      "character_goal": "岑砚灯想保住自己，不让偷拍视频落到全网。",
+      "conflict_action": "她被绑在仓库，偷拍视频和换衣威胁同时压来，她拨给闻砚舟求救却被挂断。",
+      "information_gap": "她还不知道绑她的人受谁指使，也不知道闻砚舟是否明知。",
+      "emotion_debt_balance": "情感彻底断电，最后一丝求救本能被男主亲手掐灭。",
+      "chapter_end_hook": "手机黑屏前，她听见闻砚舟在那头笑着说‘让她先长点记性’。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要细写身体细节", "不要猎奇化威胁", "不能让仓库戏只靠回忆撑字数"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 720,
+      "target_chars_max": 840,
+      "scene_location": "油库坍塌救援现场",
+      "character_goal": "岑砚灯想先活下来，再带着证据离港。",
+      "conflict_action": "她刚被救出，闻砚舟立刻命人把她从担架上拖下，要求她把救援名额让给宋知澜母子。",
+      "information_gap": "她还不知道闻砚舟会不会连最后的活路也一起夺走。",
+      "emotion_debt_balance": "男主罪行锁死，所有旧情被换命动作一刀斩断。",
+      "chapter_end_hook": "闻砚舟按住她肩膀，说：‘砚灯，你替他们一次。’",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写成救援流程报告", "不要弱化拖拽动作", "不能让换命只停留在口头命令"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "港区边缘与离港船只",
+      "character_goal": "岑砚灯想用自己的方式活着离开。",
+      "conflict_action": "她抢到船载应急震爆弹制造混乱，带着离婚证和调度录音跳上离港补给船。",
+      "information_gap": "闻砚舟此刻还不知道她手里握着什么证据，也不知道她真会走。",
+      "emotion_debt_balance": "脱身合同第一次兑现，压抑开始转向爽点。",
+      "chapter_end_hook": "海面炸开白光时，她头也不回地上了船。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释设备原理", "不要写成动作大片", "不能让离开靠别人救"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "闻氏总裁办公室",
+      "character_goal": "闻砚舟想追回人，却先被真相反噬。",
+      "conflict_action": "亲子鉴定、爆燃调度录音、仓库监控一并砸到桌上，闻砚舟发现自己护错了人也害错了人。",
+      "information_gap": "他终于知道全部真相，却不知道岑砚灯是否还会给他见面的资格。",
+      "emotion_debt_balance": "男主开始偿还认知债，但任何悔意都已经迟到。",
+      "chapter_end_hook": "秘书汇报：‘岑小姐已经办理完海外入学和离境。’",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写男主独白流水账", "不要把崩塌写成自我感动", "不能跳过证据落桌动作"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "海外校园与诊疗中心",
+      "character_goal": "岑砚灯想建立没有闻家定义的新生活。",
+      "conflict_action": "贺停山以低姿态陪她复健、旁听、吃药，闻砚舟追到海外却被她平静拒绝。",
+      "information_gap": "闻砚舟还以为补偿可以换回关系，读者等待她如何封死旧路。",
+      "emotion_debt_balance": "治愈线开始回收尊严，但不冲淡旧债。",
+      "chapter_end_hook": "岑砚灯对闻砚舟说：‘你救过我一次，也杀了我一次。’",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把治愈写成甜宠日常", "不要让新男主越位做决定", "不能让拒绝变成长篇说教"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "港城旧码头灯塔工程现场",
+      "character_goal": "岑砚灯想签下海灯女孩学校最后一笔落地协议。",
+      "conflict_action": "宋知澜背后的残余势力报复袭来，闻砚舟替她挡下致命一击。",
+      "information_gap": "她并不关心他能否挽回，只要这笔迟到偿债能否真正封账。",
+      "emotion_debt_balance": "男主用生命还债，但不获得感情赦免。",
+      "chapter_end_hook": "闻砚舟倒下前只问她：‘这次，够不够两清？’",
+      "paywall_card": true,
+      "forbidden_summary": ["不要煽情拔高男主", "不要把危险写成偶然巧合", "不能让挡险变成复合契机"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 780,
+      "target_chars_max": 920,
+      "scene_location": "五年后海灯女孩学校",
+      "character_goal": "岑砚灯想完成对过去的最后归位，把庇护真正交到女孩们手里。",
+      "conflict_action": "她带新生入住、分发宿舍钥匙和灯塔徽章，贺停山与孩子们一起接住她的人生新秩序。",
+      "information_gap": "最后一层悬念是她是否仍会被旧创拖住。",
+      "emotion_debt_balance": "价值、尊严、爱与社会位置全部回收，脱身合同完成结算。",
+      "chapter_end_hook": "小女孩抱住她说：‘校长，以后你也是我的灯吗？’",
+      "paywall_card": false,
+      "forbidden_summary": ["不要做成功学概述", "不要只写幸福画面", "不能漏掉她成为别人光的具象动作"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [27, 33],
+    "short_line_rate_lte_16_min": 0.32,
+    "short_line_rate_lte_16_max": 0.43,
+    "direct_dialogue_line_rate_min": 0.22,
+    "direct_dialogue_line_rate_max": 0.3,
+    "barrage_line_rate_min": 0.005,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 3.6,
+    "question_mark_density_per_1000_chars_max": 5.2,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

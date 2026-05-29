@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B5",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "主角公寓",
+  "time": "两个月后",
+  "pov": "林知予",
+  "characters": [
+    "林知予"
+  ],
+  "character_goal": "收到请帖，决定反击",
+  "opposition_goal": "无（主角内心决断）",
+  "conflict_action": "收到订婚宴请帖+证婚人邀请，主角整理保存的全部语音，决定赴约",
+  "information_gap": "读者知道她有武器但不知具体怎么用",
+  "emotional_debt_delta": "0（蓄力）",
+  "payoff_or_hook": "订婚宴的请帖到了——她要我做证婚人",
+  "chapter_end_hook": "订婚宴的请帖到了——她要我做证婚人",
+  "paywall_card": false,
+  "must_include": [
+    "请帖的具体描述",
+    "表姐的邀请消息",
+    "主角整理语音的动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写主角纠结犹豫的内心戏"
+  ]
+}

@@ -1,0 +1,25 @@
+slug: v6r2_04_urban_no_wait
+status: final
+current_phase: 1
+
+total_chars: 6151
+paywall_cards: 3
+quality_gate: pass
+critic_scores:
+  logic: 8
+  style: 8
+  emotion: 8
+  platform: 8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_123439
+  runner: claude
+  provider: 
+  current_phase: 6
+  retry_count: 2
+  human_gates:
+    phase2_blueprint_review: skipped

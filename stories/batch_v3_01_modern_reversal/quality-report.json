@@ -1,0 +1,67 @@
+{
+  "story": "batch_v3_01_modern_reversal",
+  "title": "录音笔",
+  "genre": "modern_reversal",
+  "source": "hot_25c29a73f4",
+  "gate_status": "pass",
+  "machine_metrics": {
+    "target_length": {
+      "chars": 10000,
+      "min": 10000,
+      "max": 14000,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 12,
+      "min": 10,
+      "status": "pass"
+    },
+    "source_overlap": {
+      "value": 0.0021,
+      "max": 0.05,
+      "status": "pass"
+    },
+    "meta_leak": {
+      "count": 0,
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "count": 0,
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "count": 0,
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 1,
+      "max_warning": 5,
+      "max_fail": 8,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_line_chars": 9.372,
+      "short_line_rate": 0.9028,
+      "quote_line_rate": 0.3849,
+      "question_marks_per_k": 11.375
+    },
+    "source_rhythm_fit": {
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "status": "pass"
+    }
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 8,
+    "logic": 8
+  },
+  "notes": [
+    "极端碎句源文(avg=10.07)成功复刻，avg_line_chars=9.37",
+    "矛盾瞬间：被羞辱时笑（第五章）、对方跪地时看手机查航班（第七章）",
+    "金句：代码不会说谎/你偷走了我的名字",
+    "question_marks_per_k=11.38 高于源文，因对话密集设问多"
+  ]
+}

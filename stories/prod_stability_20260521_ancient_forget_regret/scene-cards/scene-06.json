@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "镇潮神宫九千九百九十九级石阶",
+  "time": "大婚前三日",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "押送家丁",
+    "神宫道童"
+  ],
+  "character_goal": "拖着破败身子活着走完石阶，把羞辱记牢。",
+  "opposition_goal": "谢临舟要用她的苦换裴明珠腹中贵胎的安稳名头。",
+  "conflict_action": "谢临舟命人把她拖到山脚，她一步一叩往上爬，几次栽倒又被拽起，最后亲手把求来的安胎符递出去。",
+  "information_gap": "第九千九百九十九级石阶前，她咳出一口血，平安符却被谢临舟拿去给了裴明珠。",
+  "emotional_debt_delta": "+2：跪阶羞辱与身体伤残叠加。",
+  "payoff_or_hook": "第九千九百九十九级石阶前，她咳出一口血，平安符却被谢临舟拿去给了裴明珠。",
+  "chapter_end_hook": "第九千九百九十九级石阶前，她咳出一口血，平安符却被谢临舟拿去给了裴明珠。",
+  "paywall_card": false,
+  "must_include": [
+    "台阶上的血迹或汗水，给身体后果",
+    "一处慢半拍的生活动作，例如她扶着石栏喘气",
+    "安胎符最终落到裴明珠手里"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释神宫香火历史",
+    "不要做连续数字播报"
+  ],
+  "rhythm_job": {
+    "shape": "短对白催逼 -> 2次摔倒与爬起 -> 1个符被夺走的低声落尾",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白4成，动作5成，留白1成",
+    "hook_line_required": true
+  }
+}

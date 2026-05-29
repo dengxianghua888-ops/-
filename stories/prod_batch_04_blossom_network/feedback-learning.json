@@ -1,0 +1,132 @@
+{
+  "story_slug": "prod_batch_04_blossom_network",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M3",
+    "M5",
+    "M6"
+  ],
+  "target_length": {
+    "min": 11200,
+    "max": 14400
+  },
+  "final_length": 11427,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.8,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "ch01_fire_exit_proposal_equity",
+      "hook": "求婚流程照旧，但80%救援基金收益权和集团表决权被写到白月光名下。",
+      "reusable_fact": "现代反转开篇可用“公开求婚/婚前权益文件/后台偷听”三件套，在首章同时打出羞辱、利益和关系清算动机。"
+    },
+    {
+      "chapter": 4,
+      "scene_id": "ch04_contract_shred_settlement",
+      "hook": "女主把续聘合同投入碎纸机，用录音和清算单把离开转成到账资金。",
+      "reusable_fact": "职业身份被夺后，主角不争辩而是固化证据、清算奖金和竞业赔偿，能把爽点从吵架转为行动收益。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "ch06_visa_application_torn",
+      "hook": "女主撕掉孩子的新加坡同行签证申请，但保留不可撤销教育信托。",
+      "reusable_fact": "母职边界戏要同时保留责任和撤回消耗：保教育/医疗基本责任，撤陪护、同行和随叫随到。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch08_equity_escrow_deposit",
+      "hook": "股权赠与协议通过托管垫资、过户冲抵、逾期回购，换成外婆治疗保证金。",
+      "reusable_fact": "大额资产当日变现需加现实桥：托管章、三方协议、垫资路径、过户冲抵和回购条款。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "ch12_airport_sim_break",
+      "hook": "女主在机场掰断国内SIM卡，结束七年等电话的关系模式。",
+      "reusable_fact": "离境切割的物件钩适合用SIM卡、登机牌、边检章，把心理断联转成可视动作。"
+    },
+    {
+      "chapter": 16,
+      "scene_id": "ch16_rescue_thanks_no_love",
+      "hook": "男主救命后询问机会，女主回答没有，最终金句是“收下感谢，不收爱情”。",
+      "reusable_fact": "追悔不复合结尾可允许男主完成一次补偿性救援，但必须明确“命可谢、债不抵”。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "scene_id": "ch02_family_photo_countdown",
+      "card": "周毓兰把全家福预约单压在病历下，日期只剩三天。",
+      "function": "外婆病危与全家福倒计时，推动读者追看亲情债兑现。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "ch03_dispatch_permission_transfer",
+      "card": "叶昭的调度权限被当众转给林舒禾。",
+      "function": "职业身份被夺，制造下一章清算合同与反击期待。"
+    },
+    {
+      "chapter": 5,
+      "scene_id": "ch05_child_insults_grandma",
+      "card": "车门关上前，陆星澈捂着鼻子说，太婆和妈妈都脏。",
+      "function": "孩子债爆发，推动下一章撕签证和母职边界。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "ch06_child_visa_torn",
+      "card": "叶昭把陆星澈的新加坡同行签证申请撕掉。",
+      "function": "明确切断同行关系，形成监护和出国线的强悬念。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch08_treatment_deposit",
+      "card": "叶昭把股权协议交给中介，换成外婆治疗保证金。",
+      "function": "把婚姻补偿转化为救命资源，完成标题卖点兑现。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "ch11_civil_affairs_empty_room",
+      "card": "陆闻舟在民政局门口等到天黑，等来的是空病房照片。",
+      "function": "男主误判女主会赴约，转院事实形成追悔启动点。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "ch12_sim_card_break",
+      "card": "国内SIM卡被叶昭掰断，落进机场垃圾桶。",
+      "function": "用物件动作完成断联，适合平台章节末强钩。"
+    },
+    {
+      "chapter": 16,
+      "scene_id": "ch16_final_boundary",
+      "card": "叶昭收下感谢，不收爱情。",
+      "function": "终局金句清晰表达救命不复合，强化复盘检索价值。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代反转",
+    "追妻火葬场不复合",
+    "外婆病危",
+    "救命钱",
+    "婚前权益羞辱",
+    "80%收益权",
+    "白月光夺权",
+    "职业清算",
+    "股权托管垫资",
+    "孩子债",
+    "母职边界",
+    "出国治疗",
+    "SIM卡断联",
+    "旧相机遗言",
+    "全家福物件钩",
+    "救援基金",
+    "公益资产反转",
+    "命可谢债不抵"
+  ],
+  "manual_revision_delta": []
+}

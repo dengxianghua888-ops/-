@@ -1,0 +1,15 @@
+slug: prod_live_property_rent_exit
+pipeline_mode: production
+target_platform: tomato
+genre: modern_business_revenge
+status: final
+quality_gate:
+  gate_status: pass
+source_policy:
+  access: local_only_generated
+automation:
+  last_run_id: local_manual_20260430_01
+  runner: local-manual
+  provider: codex-current-thread
+  current_phase: 8
+  retry_count: 0

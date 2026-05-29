@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "暗层仓库内部",
+  "time": "次日中午接续",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "秦律师"],
+  "character_goal": "判断门后物证是否属于那位失踪弟弟",
+  "opposition_goal": "秦律师仍坚持只做保管人，不愿直接解释",
+  "conflict_action": "我逐件翻检男装、束胸废弃物、购物小票、改名草稿和体检咨询单",
+  "information_gap": "这些物证为什么既像别人，又像是从我身体周围长出来的",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "弟弟从外部人物开始与主角产生诡异重叠",
+  "chapter_end_hook": "改名草稿第一页写着：'如果我以后不能做沈知夏，我想叫……'",
+  "paywall_card": false,
+  "must_include": [
+    "物证链要现实，不猎奇",
+    "至少出现一张手写自述和一份咨询单",
+    "主角看到物证后先卡壳，说不出完整推断"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普束胸或激素",
+    "不要把物证写成展示柜导览",
+    "不要直接点名终极真相"
+  ],
+  "rhythm_job": {
+    "shape": "翻检物证 40% + 短句认错位 25% + 对话试探 20% + 草稿钩 15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "加入一次主角手抖到捏皱购物小票的细动作"
+  }
+}

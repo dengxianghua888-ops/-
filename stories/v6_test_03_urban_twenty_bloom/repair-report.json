@@ -1,0 +1,242 @@
+{
+  "phase": 7,
+  "mode": "production_v6",
+  "status": "manual_review_required",
+  "blocking": [
+    "mobile_paragraphs"
+  ],
+  "results": [
+    {
+      "name": "direct_submission",
+      "status": "ok",
+      "changes": []
+    },
+    {
+      "name": "mobile_paragraphs",
+      "status": "manual_review_required",
+      "fixed_files": [
+        {
+          "path": "draft.md",
+          "fixed_paragraphs": 122
+        },
+        {
+          "path": "draft-scenes/scene-01.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "fixed_paragraphs": 11
+        },
+        {
+          "path": "draft-scenes/scene-03.md",
+          "fixed_paragraphs": 11
+        },
+        {
+          "path": "draft-scenes/scene-04.md",
+          "fixed_paragraphs": 9
+        },
+        {
+          "path": "draft-scenes/scene-05.md",
+          "fixed_paragraphs": 7
+        },
+        {
+          "path": "draft-scenes/scene-06.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "fixed_paragraphs": 6
+        },
+        {
+          "path": "draft-scenes/scene-08.md",
+          "fixed_paragraphs": 8
+        },
+        {
+          "path": "draft-scenes/scene-09.md",
+          "fixed_paragraphs": 10
+        },
+        {
+          "path": "draft-scenes/scene-10.md",
+          "fixed_paragraphs": 12
+        },
+        {
+          "path": "draft-scenes/scene-11.md",
+          "fixed_paragraphs": 9
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "fixed_paragraphs": 5
+        },
+        {
+          "path": "draft-scenes/scene-13.md",
+          "fixed_paragraphs": 12
+        },
+        {
+          "path": "draft-scenes/scene-14.md",
+          "fixed_paragraphs": 9
+        }
+      ],
+      "manual_review": [
+        {
+          "path": "draft.md",
+          "snippet": "「念念！」顾瑶跑过来，酸奶递到我面前，「给你，草莓的。」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "她愣了一下，笑容还挂着：「怎么了？不舒服？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "身后传来她拔高的声音：「苏念！你今天怎么了？我们不是最好的姐妹吗？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「让开。」顾瑶拨开他的手，盯着我：「你以为你那个扶贫名额是你自己考来的？那是我让给你的。哦不对——是我拿走之前，它本来就该是我的。」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「念念回来了？」妈转头看我，「哭什么？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「你有什么脸哭？要不是你非跟那个叶东辰谈恋爱，不把心思放在学习上，你爸怎么会替你操心操死？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "隔着门板他的声音变了调：「苏念！你不是最善良的吗？你就这么看着她去死？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「你是谁？在我家门口嚷什么？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「我女儿的品性我最了解！她的成绩也不需要任何人施舍！」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「爸！！」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「打120！快打120！」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「审计员。」我打断她，声音稳得连自己都意外，「还是该叫叶主任的红颜知己？或者——灭口的打手？你喜欢哪个称呼？」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「喂？」苍老但中气十足的男声。"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「秀兰的女儿？」他的声音突然变了，「孩子，你说。」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「念念，我们还是好姐妹对不对？」她跟在我后面，语气轻飘飘的，像什么都没发生过。"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「苏念！」她喊，声音被风撕成碎片，「你上来！你不上来我就跳！」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「你为什么不理我？我哪里做错了？是你先不要我的！」"
+        },
+        {
+          "path": "draft.md",
+          "snippet": "「我只是想跟你一样！有什么错！」"
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "snippet": "「念念！」顾瑶跑过来，酸奶递到我面前，「给你，草莓的。」"
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "snippet": "她愣了一下，笑容还挂着：「怎么了？不舒服？」"
+        },
+        {
+          "path": "draft-scenes/scene-02.md",
+          "snippet": "身后传来她拔高的声音：「苏念！你今天怎么了？我们不是最好的姐妹吗？」"
+        },
+        {
+          "path": "draft-scenes/scene-03.md",
+          "snippet": "「让开。」顾瑶拨开他的手，盯着我：「你以为你那个扶贫名额是你自己考来的？那是我让给你的。哦不对——是我拿走之前，它本来就该是我的。」"
+        },
+        {
+          "path": "draft-scenes/scene-03.md",
+          "snippet": "「念念回来了？」妈转头看我，「哭什么？」"
+        },
+        {
+          "path": "draft-scenes/scene-04.md",
+          "snippet": "「你有什么脸哭？要不是你非跟那个叶东辰谈恋爱，不把心思放在学习上，你爸怎么会替你操心操死？」"
+        },
+        {
+          "path": "draft-scenes/scene-05.md",
+          "snippet": "隔着门板他的声音变了调：「苏念！你不是最善良的吗？你就这么看着她去死？」"
+        },
+        {
+          "path": "draft-scenes/scene-05.md",
+          "snippet": "「你是谁？在我家门口嚷什么？」"
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "snippet": "「我女儿的品性我最了解！她的成绩也不需要任何人施舍！」"
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "snippet": "「爸！！」"
+        },
+        {
+          "path": "draft-scenes/scene-07.md",
+          "snippet": "「打120！快打120！」"
+        },
+        {
+          "path": "draft-scenes/scene-08.md",
+          "snippet": "「审计员。」我打断她，声音稳得连自己都意外，「还是该叫叶主任的红颜知己？或者——灭口的打手？你喜欢哪个称呼？」"
+        },
+        {
+          "path": "draft-scenes/scene-09.md",
+          "snippet": "「喂？」苍老但中气十足的男声。"
+        },
+        {
+          "path": "draft-scenes/scene-09.md",
+          "snippet": "「秀兰的女儿？」他的声音突然变了，「孩子，你说。」"
+        },
+        {
+          "path": "draft-scenes/scene-11.md",
+          "snippet": "「念念，我们还是好姐妹对不对？」她跟在我后面，语气轻飘飘的，像什么都没发生过。"
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "snippet": "「苏念！」她喊，声音被风撕成碎片，「你上来！你不上来我就跳！」"
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "snippet": "「你为什么不理我？我哪里做错了？是你先不要我的！」"
+        },
+        {
+          "path": "draft-scenes/scene-12.md",
+          "snippet": "「我只是想跟你一样！有什么错！」"
+        }
+      ]
+    },
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": [
+        "chapters",
+        "style_metrics"
+      ]
+    },
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

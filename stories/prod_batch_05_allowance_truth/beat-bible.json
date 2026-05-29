@@ -1,0 +1,492 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 14000,
+    "planned_total_chars": 12800
+  },
+  "title": "我每月给女儿四千，她却在画室啃冷馒头",
+  "genre": "家庭伦理 / 现代反转 / 亲情虐心",
+  "mechanisms": [
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": [
+        "4000营养费与500可用余额并置",
+        "银行流水显示父亲每月转走3500",
+        "钱进入许砚名师画室账户",
+        "许砚是许国成私生子",
+        "行车记录仪音频证明许国成蓄意让女儿恨母亲"
+      ]
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": [
+        "早年母女亲密",
+        "集训期被父亲截流和离间后失温",
+        "病房冷话形成冰点",
+        "证据后母女回温",
+        "母亲离世留下不可追回感"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": [
+        "父亲设计女儿不认母亲",
+        "女儿最终不认父亲",
+        "父亲同时承受法律清算和亲情清算"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 800,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "林素琴点开转账记录，三年前每月四千的备注全在。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 800,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "许念冷声说：你不是一直只给我五百吗？"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 750,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "食堂充值窗口打印出三年明细，每月入账只有五百。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 850,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "柜员指着流水说，每月三号都有一笔三千五转出。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 800,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "收款备注跳出来：许砚名师班学费。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 800,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "许国成抢走文件袋，转身就往门外跑。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 750,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "画室财务递出缴费单，监护人栏写着许国成。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 850,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "邵明把出生证明推到桌上：许砚是他的儿子。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 800,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "林素琴在诊断单背面写下：先起诉，再告诉念念。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 800,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "许国成砸门吼：你敢告我，我就让她一辈子不认你。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 750,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "旧车的行车记录仪里，传出许国成的声音。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 900,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "录音里他说：我要她觉得，她妈只舍得给她五百。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 850,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "许念拿着录音笔冲出画展，直奔病房。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 850,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "医生把家属谈话单递给许念，说时间要按天算。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 850,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "探视室里，许念隔着玻璃说：你这辈子，都别说我是我爸。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 850,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "旧餐馆门口贴上画展海报，海报角落写着：妈，我今天吃了两碗饭。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "林素琴县城小餐馆后厨",
+      "character_goal": "林素琴确认陈橙发来的视频是不是自己的女儿",
+      "conflict_action": "林素琴暂停备菜，反复播放许念在楼梯间啃冷馒头的视频，并翻出三年前每月4000转账记录对照",
+      "information_gap": "她明明每月打4000，许念为什么像只收到最低生活费",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+2",
+        "mother_negligence_debt": "+1",
+        "father_malice_debt": "+0",
+        "time_debt": "+1"
+      },
+      "chapter_end_hook": "林素琴点开转账记录，三年前每月四千的备注全在。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能概述女儿过得苦，必须写视频画面、转账备注和林素琴当场停工查证。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "许念插画工作室电话两端",
+      "character_goal": "林素琴向许念确认当年生活费到账数",
+      "conflict_action": "林素琴拨通许念电话追问，许念挂断后发来一张旧银行卡余额截图",
+      "information_gap": "许念坚称每月只有500，母女账目出现硬冲突",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+2",
+        "mother_negligence_debt": "+2",
+        "father_malice_debt": "+1",
+        "time_debt": "+1"
+      },
+      "chapter_end_hook": "许念冷声说：你不是一直只给我五百吗？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成母女互相诉苦，必须用电话质问、截图和挂断推进。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "省城旧画室食堂服务台",
+      "character_goal": "林素琴拿到许念食堂卡充值证据",
+      "conflict_action": "林素琴赶到画室旧址，找到食堂服务台，要求打印许念三年充值明细",
+      "information_gap": "银行卡和食堂卡是否都被截流，谁控制了充值入口",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+3",
+        "mother_negligence_debt": "+2",
+        "father_malice_debt": "+1",
+        "time_debt": "+1"
+      },
+      "chapter_end_hook": "食堂充值窗口打印出三年明细，每月入账只有五百。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用回忆铺垫画室生活，必须让服务台打印明细落地。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "银行柜台",
+      "character_goal": "林素琴查清4000到账后发生了什么",
+      "conflict_action": "林素琴带身份证和旧卡去银行调流水，柜员打印出每月固定转出3500的记录",
+      "information_gap": "3500转给了谁，为什么转账时间总在到账当天",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+3",
+        "mother_negligence_debt": "+3",
+        "father_malice_debt": "+3",
+        "time_debt": "+1"
+      },
+      "chapter_end_hook": "柜员指着流水说，每月三号都有一笔三千五转出。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能只说查到父亲偷钱，必须写流水、时间、金额、转出账户。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "银行外走廊与律师事务所",
+      "character_goal": "林素琴追踪转出账户用途",
+      "conflict_action": "林素琴把流水拍给律师邵明，邵明用账户备注和画室缴费单锁定许砚名师班",
+      "information_gap": "许砚是谁，为什么用许念的钱交画室费",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+3",
+        "mother_negligence_debt": "+3",
+        "father_malice_debt": "+4",
+        "time_debt": "+1"
+      },
+      "chapter_end_hook": "收款备注跳出来：许砚名师班学费。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把许砚身份提前说破，只能让缴费备注制造新疑问。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "许家客厅",
+      "character_goal": "林素琴当面逼许国成交代3500转账",
+      "conflict_action": "林素琴把流水摔在茶几上，许国成伸手抢文件袋并删除手机里的联系人记录",
+      "information_gap": "许国成为什么急着毁掉联系人，他与许砚是什么关系",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+3",
+        "mother_negligence_debt": "+3",
+        "father_malice_debt": "+5",
+        "time_debt": "+2"
+      },
+      "chapter_end_hook": "许国成抢走文件袋，转身就往门外跑。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写夫妻吵架空转，必须有摔流水、抢文件、删记录等动作。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "名师画室财务室",
+      "character_goal": "林素琴验证许砚是否长期使用许念的钱",
+      "conflict_action": "林素琴和邵明到名师画室财务室，调出许砚三年缴费单并拍照留证",
+      "information_gap": "缴费监护人写许国成，许砚身份仍未公开",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+4",
+        "mother_negligence_debt": "+3",
+        "father_malice_debt": "+5",
+        "time_debt": "+2"
+      },
+      "chapter_end_hook": "画室财务递出缴费单，监护人栏写着许国成。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成律师口头推理，必须由财务单据和监护人栏推进。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "律师事务所会议室",
+      "character_goal": "林素琴确认许砚与许国成的真实关系",
+      "conflict_action": "邵明调取婚姻财产线索，递出许砚出生证明和户籍关联材料",
+      "information_gap": "许国成挪钱养私生子是否只是为了钱，还是另有报复动机",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+4",
+        "mother_negligence_debt": "+3",
+        "father_malice_debt": "+6",
+        "time_debt": "+2"
+      },
+      "chapter_end_hook": "邵明把出生证明推到桌上：许砚是他的儿子。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让私生子替父亲承担主恶，重点落在许国成长期安排。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "肿瘤科诊室与医院走廊",
+      "character_goal": "林素琴在病情压迫下决定先清算许国成",
+      "conflict_action": "林素琴拿到肝癌晚期诊断单后，把流水、缴费单、出生证明装进文件袋交给邵明",
+      "information_gap": "她还能不能在时间耗尽前让许念知道真相",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+4",
+        "mother_negligence_debt": "+4",
+        "father_malice_debt": "+6",
+        "time_debt": "+4"
+      },
+      "chapter_end_hook": "林素琴在诊断单背面写下：先起诉，再告诉念念。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能展开治疗细节，诊断单只服务倒计时和行动选择。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 750,
+      "target_chars_max": 850,
+      "scene_location": "小餐馆门口",
+      "character_goal": "林素琴提交离婚诉讼和刑事报案材料",
+      "conflict_action": "许国成堵在餐馆门口威胁，林素琴当着员工面拨通邵明电话确认立案材料",
+      "information_gap": "许国成口中的“一辈子不认你”暗示他还有离间证据",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+4",
+        "mother_negligence_debt": "+4",
+        "father_malice_debt": "+7",
+        "time_debt": "+4"
+      },
+      "chapter_end_hook": "许国成砸门吼：你敢告我，我就让她一辈子不认你。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把反击写成口号，必须有起诉、报案、威胁现场。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "旧面包车停车棚",
+      "character_goal": "林素琴寻找许国成蓄意离间的证据",
+      "conflict_action": "林素琴撬开旧面包车储物格，取出行车记录仪存储卡交给邵明恢复音频",
+      "information_gap": "存储卡里是否有许国成亲口承认离间母女",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+4",
+        "mother_negligence_debt": "+4",
+        "father_malice_debt": "+8",
+        "time_debt": "+4"
+      },
+      "chapter_end_hook": "旧车的行车记录仪里，传出许国成的声音。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能靠旁白说父亲恶毒，必须找到音频载体。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 850,
+      "target_chars_max": 950,
+      "scene_location": "律师事务所取证室",
+      "character_goal": "林素琴确认许国成真正动机",
+      "conflict_action": "邵明播放恢复音频，许国成在车里承认要让许念以为林素琴只舍得给500",
+      "information_gap": "许念听到录音后是否愿意重新看见母亲的付出",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "+5",
+        "mother_negligence_debt": "+4",
+        "father_malice_debt": "+10",
+        "time_debt": "+5"
+      },
+      "chapter_end_hook": "录音里他说：我要她觉得，她妈只舍得给她五百。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能只揭示私生子，必须把深层报复动机用原声证据砸出来。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "许念个人画展后台",
+      "character_goal": "邵明把完整证据交给许念，让她自己判断",
+      "conflict_action": "邵明在画展后台播放录音，许念翻看流水和食堂明细后撕掉给父亲预留的邀请函",
+      "information_gap": "许念来不来得及向母亲道歉",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "-1",
+        "mother_negligence_debt": "+4",
+        "father_malice_debt": "+10",
+        "time_debt": "+6"
+      },
+      "chapter_end_hook": "许念拿着录音笔冲出画展，直奔病房。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让许念立刻被说服，必须让她逐份看证据再崩裂。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "肿瘤科病房",
+      "character_goal": "许念向林素琴确认真相并请求补偿母女时间",
+      "conflict_action": "许念跪在病床前递出食堂明细，林素琴把当年4000转账记录推回给她并道歉",
+      "information_gap": "母女刚和解，母亲剩下的时间有多短",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "-2",
+        "mother_negligence_debt": "-2",
+        "father_malice_debt": "+10",
+        "time_debt": "+8"
+      },
+      "chapter_end_hook": "医生把家属谈话单递给许念，说时间要按天算。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用哭诉代替和解，必须先摆证据，再让母亲承认疏忽。"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "看守所探视室",
+      "character_goal": "许念亲口完成对许国成的亲情清算",
+      "conflict_action": "许念带着警方笔录和认罪情况说明探视许国成，要求他归还钱并签署不再联系承诺",
+      "information_gap": "法律清算完成后，母亲是否还能亲眼看见许念放下恨",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "-4",
+        "mother_negligence_debt": "-2",
+        "father_malice_debt": "-5",
+        "time_debt": "+8"
+      },
+      "chapter_end_hook": "探视室里，许念隔着玻璃说：你这辈子，都别说我是我爸。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能给父亲洗白，探视必须服务断亲、追偿和法律代价。"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 800,
+      "target_chars_max": 900,
+      "scene_location": "病房、旧餐馆门口、墓园",
+      "character_goal": "许念陪林素琴走完最后时间，并兑现好好吃饭的承诺",
+      "conflict_action": "许念给林素琴喂饭、贴画展海报、在墓前放下一盒彩铅和两份热饭",
+      "information_gap": "故事收束在和解完成但十五年不可追回",
+      "emotion_debt_balance": {
+        "daughter_hunger_debt": "-5",
+        "mother_negligence_debt": "-4",
+        "father_malice_debt": "-6",
+        "time_debt": "+10"
+      },
+      "chapter_end_hook": "旧餐馆门口贴上画展海报，海报角落写着：妈，我今天吃了两碗饭。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写圆满团圆，必须保留饭吃上了、时间没了的余痛。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 12000,
+    "min_chapter_count": 16,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "16/16",
+    "min_action_beats": 16,
+    "required_evidence_chain": [
+      "旧视频",
+      "母亲转账记录",
+      "女儿余额截图",
+      "食堂充值明细",
+      "银行流水",
+      "画室缴费单",
+      "出生证明",
+      "诊断单",
+      "行车记录仪音频",
+      "警方笔录",
+      "认罪情况说明"
+    ],
+    "must_avoid": [
+      "摘要式推进",
+      "空泛哭诉",
+      "父亲洗白",
+      "私生子承担主恶",
+      "母亲无责化",
+      "女儿刻薄化",
+      "圆满大团圆"
+    ]
+  }
+}

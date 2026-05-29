@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "护理楼417宿舍",
+  "time": "入校第一晚熄灯后",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "许曼", "刘队"],
+  "character_goal": "检查宿舍安全边界，判断室友许曼是否与冷库、广播、失踪女生有关。",
+  "opposition_goal": "许曼要翻看林照行李，确认她是否携带录音或警用设备。",
+  "conflict_action": "许曼趁林照假睡翻包，林照用床侧反光镜拍下她钥匙串和袖口污渍，再把照片传给刘队比对。",
+  "information_gap": "许曼有冷库钥匙，是主凶、共犯，还是被迫协助者。",
+  "emotional_debt_delta": "安全侵入债+1，许曼嫌疑债+1。",
+  "payoff_or_hook": "宿舍从安全空间变成被侵入空间，主角没有惊叫，而是取证。",
+  "chapter_end_hook": "许曼衣柜里露出白兔玩偶，腕带编号和第六名失踪女生一致。",
+  "paywall_card": false,
+  "must_include": [
+    "护理楼417",
+    "许曼袖口有消毒水和冷库气味",
+    "钥匙串上有病理楼旧冷库备用牌",
+    "林照假睡取证"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写宿舍怪谈说明会",
+    "不要让林照直接摊牌",
+    "不要把许曼写成无辜路人"
+  ]
+}

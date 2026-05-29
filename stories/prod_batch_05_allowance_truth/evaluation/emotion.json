@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "score": 9.0,
+  "evidence": [
+    {
+      "check": "emotion_debt",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-16.md",
+      "quote": "妈，今天不吃馒头。"
+    }
+  ],
+  "notes": [
+    "Phase 6 fixes applied and validator metrics refreshed."
+  ]
+}

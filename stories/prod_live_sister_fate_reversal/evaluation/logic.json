@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 8.3,
+  "evidence": [
+    {
+      "path": "story/draft-scenes/scene-06.md",
+      "quote": "芯片开关很松，昨晚被琴谱袋撞开后，就一直录到电量耗尽。",
+      "assessment": "补足录音道具来源和启动路径。"
+    },
+    {
+      "path": "story/draft-scenes/scene-09.md",
+      "quote": "法医抬头，目光扫过父母、陆明砚，又落在姐姐脸上。",
+      "assessment": "指代已明确，证据审问主体清晰。"
+    },
+    {
+      "path": "story/draft-scenes/scene-13.md",
+      "quote": "孩子一岁多，刚会走稳，被裹在小披风里，眼睛黑亮。",
+      "assessment": "两年后转世暗示与年龄动作一致。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "别墅外警车旁",
+  "time": "文件反压后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "假父亲",
+    "记者",
+    "围观邻居"
+  ],
+  "character_goal": "沈棠要用不可逆代价换取警方继续检测。",
+  "opposition_goal": "裴队要阻止虚假报警扩大影响，假父亲要逼她撤案道歉。",
+  "conflict_action": "沈棠把准考证、成绩截图和名校招生通话记录交给裴队，签下愿意承担虚假报警后果的笔录。",
+  "information_gap": "沈棠为何笃定家人已死，她还握着什么没说的线索。",
+  "emotional_debt_delta": "新增前途赌注，主角被全网审判但主动性增强。",
+  "payoff_or_hook": "沈棠用省状元身份反向压住警方程序。",
+  "chapter_end_hook": "我说：如果我说谎，就让这748分跟我一起作废。",
+  "paywall_card": false,
+  "must_include": [
+    "省状元成绩截图",
+    "名校招生联系",
+    "承担虚假报警后果",
+    "裴队态度松动",
+    "假父亲要求道歉"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让沈棠靠哭求推进",
+    "不要让警方无条件相信",
+    "不要把高考荣誉写成炫耀"
+  ]
+}

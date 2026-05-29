@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B01",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "江南闸口临水药圃木屋",
+  "time": "暮春清晨",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟"
+  ],
+  "character_goal": "把有孕消息摆到谢临舟面前，逼他说清她和孩子的去处。",
+  "opposition_goal": "谢临舟要先稳住沈蘅，把她从正妻幻梦里推去外宅位置。",
+  "conflict_action": "沈蘅举起脉案拦人，谢临舟抽走脉纸，直接宣布明日迎娶裴明珠，并命下人去收她的东西。",
+  "information_gap": "谢临舟把脉案压回桌上：\"明日搬去漕仓别苑，别误了我迎亲。\"",
+  "emotional_debt_delta": "+1：另娶与外宅羞辱同时落下。",
+  "payoff_or_hook": "谢临舟把脉案压回桌上：\"明日搬去漕仓别苑，别误了我迎亲。\"",
+  "chapter_end_hook": "谢临舟把脉案压回桌上：\"明日搬去漕仓别苑，别误了我迎亲。\"",
+  "paywall_card": false,
+  "must_include": [
+    "她自己写的脉案或药渣，证明她刚知有孕",
+    "谢临舟嘴里明确说出“外宅”或“见不得光”",
+    "一处临水旧梦细节，给后续反差留根"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述三年相识全过程",
+    "不要解释漕运门第背景"
+  ],
+  "rhythm_job": {
+    "shape": "2轮短对白砸脸 -> 1个抽走脉纸的动作 -> 1句冷判词截断",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白6成，动作3成，留白1成",
+    "hook_line_required": true
+  }
+}

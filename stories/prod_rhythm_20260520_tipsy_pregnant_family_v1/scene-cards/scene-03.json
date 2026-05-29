@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "古城剧场夜场后台",
+  "time": "离婚后第三晚",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "剧场工头",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想把陆砚辞落下的药膏送给他",
+  "opposition_goal": "陆砚辞想藏住自己搭台受伤和资金被断的狼狈",
+  "conflict_action": "温瓷闯进后台，看见陆砚辞扛景片、拉吊绳，手背被木刺扎破",
+  "information_gap": "他为什么宁愿做夜场搭台工，也不找所谓白月光或陆家帮忙",
+  "emotional_debt_delta": "男主落魄照顾债建立，离婚冷感被具体行动打破",
+  "payoff_or_hook": "夜班工资到账备注让温瓷买热汤和叶酸",
+  "chapter_end_hook": "手机震了一下，陆砚辞转来的工资备注写着：热汤，叶酸，别喝冰桂花酿。",
+  "paywall_card": false,
+  "must_include": [
+    "剧场景片",
+    "木刺和吊绳勒痕",
+    "温瓷递药膏",
+    "陆砚辞把手藏到身后",
+    "工资转账备注"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普剧场搭台",
+    "不要旁白说明男主多爱女主",
+    "不要让工头长篇介绍陆砚辞处境"
+  ],
+  "rhythm_job": "1个受伤证据+2轮压低声音对白+1条转账短信翻转"
+}

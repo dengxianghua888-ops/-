@@ -1,0 +1,136 @@
+pipeline_mode: production
+status: final
+title: 密室钟慢了一分钟我砸门逃跑，一百个人再也出不来了
+genre: 悬疑科幻·女主逆袭
+platform: 番茄小说
+word_count_target:
+  min: 6022
+  max: 18066
+
+runner_policy:
+  external_allowed: false
+  max_retries: 3
+  timeout_minutes: 30
+
+provider: anthropic
+model: claude-opus-4-6
+source: StoryForge production_v6
+generation_date: "2026-05-28"
+
+chapters:
+  count: 11
+  structure:
+    - chapter: 1
+      hook: "因为我的手机，也慢了一分钟。"
+      hook_type: revelation_half
+    - chapter: 2
+      hook: "所有人的手机时间，都慢了一分钟。"
+      hook_type: revelation_half
+    - chapter: 3
+      hook: "道具钟的指针，往回倒退了一分钟。"
+      hook_type: cliff_action
+    - chapter: 4
+      hook: "等嗡鸣停下来的时候，就全完了。"
+      hook_type: silent_threat
+    - chapter: 5
+      hook: "三分钟，到了。"
+      hook_type: death_declaration
+    - chapter: 6
+      hook: "所有人的手机信号，也在这一刻消失了。"
+      hook_type: silent_threat
+    - chapter: 7
+      hook: "就好像穹顶把里面的一切都抹除了。"
+      hook_type: silent_threat
+    - chapter: 8
+      hook: "有。但只有我能进去。"
+      hook_type: question_bomb
+    - chapter: 9
+      hook: "只有我。而且只有一次机会。"
+      hook_type: echo_hook_enhanced
+    - chapter: 10
+      hook: "穹顶不见了。"
+      hook_type: cliff_action
+    - chapter: 11
+      hook: "系统提示：任务完成。传送倒计时启动。"
+      hook_type: power_reversal
+
+paywall_nodes:
+  required: 2
+  actual: 3
+  positions:
+    - chapter: 4
+      tension: "情绪债+灾难倒计时"
+    - chapter: 8
+      tension: "权力反转+唯一解法"
+    - chapter: 10
+      tension: "行动起跑枪"
+
+quality_gate:
+  pass
+  critical_failures: []
+  important_failures:
+    - "信息确认型对话出现2次（scene-14），达到warning阈值——已在final中修复"
+    - "周予安情绪债偿还不完整——已在第十一章补充道歉台词"
+  critic_scores:
+    platform: 8
+    emotion: 7.5
+    style: 8
+    logic: 7.5
+  machine_metrics:
+    chapters:
+      count: 11
+      hook_hits: 11
+      hook_coverage: 1.0
+      status: pass
+    paywall_cards:
+      required: 2
+      actual: 3
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        starts_with_导语: true
+        char_count_nonblank: 168
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 2
+        actual: 3
+      visible_paywall_labels:
+        status: pass
+        count: 0
+    source_rhythm_fit:
+      status: pass
+      avg_line_chars: 15.8
+      short_line_rate: 0.59
+      quote_line_rate: 0.34
+
+final_edits_applied:
+  - "合并碎行修复source_rhythm_fit：avg_line_chars从10.14提升至15.8，short_line_rate从0.831降至0.59"
+  - "扩展第一章（原引子）至500+字，补充MC识别设备的闪回细节"
+  - "修复第九章2处确认型对话：'所以还活着'→特警队长动作反应；'所以只有你能进去'→删除echo改为沉默"
+  - "增强第九章钩子：'只有我。'→'只有我。而且只有一次机会。'"
+  - "第十一章补充周予安情绪债偿还：停步+道歉+抓住袖子"
+  - "添加导语段落（168字非空白字符）"
+total_chars: 6816
+paywall_cards: 3
+critic_scores:
+  logic: 8
+  style: 7.5
+  emotion: 8
+  platform: 8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_122501
+  runner: claude
+  provider: claude
+  current_phase: 6
+  retry_count: 2
+  human_gates:
+    phase2_blueprint_review: skipped

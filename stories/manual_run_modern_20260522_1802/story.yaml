@@ -1,0 +1,36 @@
+slug: manual_run_modern_20260522_1802
+title:
+  primary: 红章
+  subtitle: null
+genre: modern_reversal
+source_slug: hot_14dd5cdefe
+pipeline_mode: production
+status: final
+created: "2025-05-22"
+updated: "2025-05-25"
+word_count: 11189
+chapters: 15
+paywall_cards: 5
+tags:
+  - 现代
+  - 反转
+  - 维权
+  - 小人物逆袭
+  - 反腐
+synopsis: >
+  手工皂老板林承被稽查队长张松以伪造的300万案值陷害入狱。
+  出狱后他用银行流水和对手自己盖下的红章反杀，最终揭穿
+  整条稽查腐败链。
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260522_185650
+  runner: manual-prompt-pack
+  provider:
+  current_phase: 7
+  retry_count: 3
+  human_gates:
+    phase2_blueprint_review: skipped

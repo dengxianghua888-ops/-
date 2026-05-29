@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "医院电梯口",
+  "time": "产检当天上午",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "沈知遥",
+    "护士",
+    "弹幕"
+  ],
+  "character_goal": "温漾想把孩子还在说清楚",
+  "opposition_goal": "裴时砚被缺页报告击中，自责到失控；沈知遥想阻断解释",
+  "conflict_action": "裴时砚攥着B超单向她确认，温漾慢半拍说孩子还在，他听见后吐血倒下",
+  "information_gap": "他倒下前是否听清真相",
+  "emotional_debt_delta": "+男主崩溃自责债，-孩子误会部分解除",
+  "payoff_or_hook": "吐血昏倒形成强付费卡点",
+  "chapter_end_hook": "截断动作：血从他唇角落下，滴在那张皱掉的B超单上。",
+  "paywall_card": true,
+  "must_include": [
+    "裴时砚眼眶红",
+    "温漾说孩子还在",
+    "吐血昏倒",
+    "弹幕短句刷屏但不解释"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让男主辱骂",
+    "不要写血腥细节",
+    "不要连续质问"
+  ],
+  "rhythm_job": {
+    "shape": "强峰值短句切碎；对白约34%，动作约38%，弹幕约16%，呼吸点约12%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 5,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "温漾递纸巾慢半拍、护士推轮椅、B超单被攥皱"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "draft": "stories/batch_v2_04_ancient_sweet/final.md",
+  "chapter_dialogue_distribution": [
+    {
+      "chapter": 1,
+      "title": "",
+      "quote_line_rate": 0.0,
+      "is_climax": false
+    },
+    {
+      "chapter": 2,
+      "title": "第 1 章 替罪",
+      "quote_line_rate": 0.1429,
+      "is_climax": false
+    },
+    {
+      "chapter": 3,
+      "title": "第 2 章 潜入",
+      "quote_line_rate": 0.1026,
+      "is_climax": false
+    },
+    {
+      "chapter": 4,
+      "title": "第 3 章 设局",
+      "quote_line_rate": 0.2553,
+      "is_climax": false
+    },
+    {
+      "chapter": 5,
+      "title": "第 4 章 好意",
+      "quote_line_rate": 0.3043,
+      "is_climax": false
+    },
+    {
+      "chapter": 6,
+      "title": "第 5 章 火中取折",
+      "quote_line_rate": 0.1786,
+      "is_climax": false
+    },
+    {
+      "chapter": 7,
+      "title": "第 6 章 构陷",
+      "quote_line_rate": 0.2264,
+      "is_climax": false
+    },
+    {
+      "chapter": 8,
+      "title": "第 7 章 翻盘",
+      "quote_line_rate": 0.2105,
+      "is_climax": false
+    },
+    {
+      "chapter": 9,
+      "title": "第 8 章 账册",
+      "quote_line_rate": 0.093,
+      "is_climax": true
+    },
+    {
+      "chapter": 10,
+      "title": "第 9 章 抓现行",
+      "quote_line_rate": 0.125,
+      "is_climax": true
+    },
+    {
+      "chapter": 11,
+      "title": "第 10 章 忠仆",
+      "quote_line_rate": 0.322,
+      "is_climax": true
+    },
+    {
+      "chapter": 12,
+      "title": "第 11 章 有名",
+      "quote_line_rate": 0.3684,
+      "is_climax": false
+    },
+    {
+      "chapter": 13,
+      "title": "第 12 章 雪尽",
+      "quote_line_rate": 0.2083,
+      "is_climax": false
+    }
+  ],
+  "summary": {
+    "avg_climax_quote_rate": 0.18,
+    "avg_non_climax_quote_rate": 0.1997,
+    "variance_ratio": 0.9,
+    "narration_crutches_count": 0,
+    "confirmation_dialogues_count": 0
+  },
+  "narration_crutches": [],
+  "confirmation_dialogues": [],
+  "advisory": [
+    "高潮段与非高潮段对话密度差异不足(比值0.90，建议≥1.2)"
+  ]
+}

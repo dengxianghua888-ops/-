@@ -1,0 +1,82 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "chapter_id": 10,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "云岭大学食堂/大楼门口 → 某条公路",
+  "time": "三年后（苏念大四）→ 半年后",
+  "pov": "苏念",
+  "characters": ["苏念", "叶东辰"],
+  "character_goal": "苏念面对出狱后的叶东辰，用一句话永久关闭这段关系",
+  "opposition_goal": "叶东辰出狱后试图赎罪/求复合——他声称自己也'想起了一切'",
+  "conflict_action": "叶东辰在苏念工作的大楼门口送外卖时认出她→跪求原谅→苏念冷句拒绝→半年后叶东辰为救小女孩被卡车撞死",
+  "information_gap": "叶东辰说'我都想起来了'暗示他可能也重生/记得前世——但这个信息不改变任何结果",
+  "emotional_debt_delta": "M5温度曲线降到谷底——从'送你去北京'到跪在她面前送外卖，再到为另一个'念念'而死",
+  "payoff_or_hook": "叶东辰为救名叫'念念'的小女孩而死——命运的呼应让人唏嘘但不原谅",
+  "chapter_end_hook": "叶东辰送餐途中为救闯入车道的小女孩被卡车撞飞。那个女孩也叫念念。",
+  "paywall_card": false,
+  "must_include": [
+    "叶东辰送外卖的日常化降格（天之骄子→外卖员）",
+    "他'多放半勺'的微小赎罪姿态",
+    "苏念的冷句封杀：'你想念的那个人已经死了。我不是她。'",
+    "半年后救人死亡的交代（不超过3句）",
+    "小女孩名字的命运呼应"
+  ],
+  "must_not_write_as_exposition": [
+    "叶东辰狱中的心理变化",
+    "苏念为什么不原谅（她的态度本身就是答案）",
+    "车祸的详细过程"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.8,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 13.2,
+    "dominant_emotion": "冷淡-唏嘘",
+    "emotion_arc": "冷淡面对 → 微被触动 → 冷句封杀 → 命运收束 → 微微唏嘘",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "对叶东辰的忏悔感到复杂——活该但也有一点唏嘘",
+    "required_techniques": [
+      {
+        "technique": "身份坍塌描写",
+        "instruction": "用外貌写内在——佝偻眼神无光，不像二十出头的年轻人。一年牢狱把天之骄子变成行尸走肉"
+      },
+      {
+        "technique": "冷句封杀",
+        "instruction": "不是骂他而是否定他想念的对象——'那个被你骗了的女孩已经死了，活着的这个不需要你的外卖'"
+      },
+      {
+        "technique": "日常化降格",
+        "instruction": "用最日常的送餐场景写天堂到地狱——'曾经的后勤主任之子、学生会副主席，变成了外卖骑手'——场景本身就是判决"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "定义对方想念对象+否定自我等同",
+        "example": "你想念的是那个愚钝无知，被你蒙在鼓里骗了半辈子，傻傻地爱着你的那个女人。我不是她。",
+        "instruction": "精准击中叶东辰的自我欺骗——他不是想念苏念而是想念那个无条件信任他的工具人"
+      },
+      {
+        "structure": "过去身份+现在身份的极端并列",
+        "example": "曾经的天之骄子，变成了打饭师傅。",
+        "instruction": "不评价不感慨——两个标签的并列本身就是完整的故事"
+      },
+      {
+        "structure": "终结式陈述",
+        "example": "那是他对我说的最后一句话。",
+        "instruction": "用最平静的口吻宣布关系永久终结——没有仪式感本身就是最大的仪式感"
+      }
+    ],
+    "peak_type": "identity_reveal",
+    "bomb_technique": "反转式",
+    "source_excerpt": "他身形佝偻，眼神无光，完全不像个二十岁的年轻人。他给我多放了半勺卤子。「同学拿好，小心别撒了。」曾经的天之骄子，变成了打饭师傅。「你想念的是那个愚钝无知，被你蒙在鼓里骗了半辈子，傻傻地爱着你的那个女人。我不是她。」那是他对我说的最后一句话。他消失了半年后，我听到了他的消息。他为了救一个闯入车道的孩子，被卡车撞飞。听说那个孩子的名字，也叫妍妍。"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260519_empress_escape/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 17845,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 20,
+      "hook_hits": 20,
+      "hook_coverage": 1.0,
+      "lengths": [
+        934,
+        946,
+        987,
+        994,
+        934,
+        838,
+        816,
+        864,
+        843,
+        856,
+        959,
+        868,
+        820,
+        855,
+        809,
+        811,
+        866,
+        985,
+        834,
+        810
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 6,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 5,
+        "chars": 179,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 6,
+        "actual": 6,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 12,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 17845,
+      "sentence_count": 958,
+      "avg_sentence_length": 17.627,
+      "dialogue_ratio": 0.0999,
+      "question_marks": 51,
+      "question_marks_per_k": 2.858,
+      "physical_emotion_hits": {
+        "指尖": 12,
+        "发麻": 2,
+        "后背": 2,
+        "喉咙": 1,
+        "眼眶": 1,
+        "头皮": 1,
+        "指甲": 1,
+        "掌心": 11
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 41.86
+    },
+    "semantic_repetition": {
+      "sentence_count": 759,
+      "unique_sentence_skeletons": 759,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0013
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.7,
+    "emotion": 8.5,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "path": "story/draft.md#第1章",
+      "quote": "新帝三年春，御马场正在抢凤玺。",
+      "supports": "开篇点击欲强，首句即进入荒诞高概念事件。"
+    },
+    {
+      "path": "story/draft.md#第4章",
+      "quote": "温照晚撞见乌兰珠与黑衣男人私会，转身却被萧珩捂住嘴。",
+      "supports": "第一付费卡点具备误会、危险和反常行为。"
+    },
+    {
+      "path": "story/draft.md#第12章",
+      "quote": "我说：我要离宫。",
+      "supports": "女主在欺骗与孩子借名后主动提出边界，不被恋爱线吞没。"
+    },
+    {
+      "path": "story/draft.md#第19章",
+      "quote": "皇后去留由皇后自决，孩子也只属于皇后自己。",
+      "supports": "政治欺骗与孩子工具化债有公开偿还。"
+    }
+  ],
+  "warnings": [
+    "第18-19章北境线收束略快，Phase 7前可轻微加一两处因果钉子。",
+    "章末单句钩子全部显性保留，投稿版可视平台格式决定是否保留原样。"
+  ]
+}

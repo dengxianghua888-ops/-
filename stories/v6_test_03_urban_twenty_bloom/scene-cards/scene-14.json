@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "chapter_id": 11,
+  "is_chapter_end": true,
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "去省城的大巴上",
+  "time": "高考录取后，去云岭大学报到的路上",
+  "pov": "苏念",
+  "characters": ["苏念", "苏建国", "林秀兰"],
+  "character_goal": "苏念带父母走出大山，开始新生活",
+  "opposition_goal": "无对手——这是收束",
+  "conflict_action": "无外部冲突——苏念在大巴上回想叶东辰之死后选择释然，攥着录取通知书看窗外的山",
+  "information_gap": "无信息差——所有线索已收束",
+  "emotional_debt_delta": "全部情绪债清零——不原谅、不回头、轻盈向前",
+  "payoff_or_hook": "录取通知书+父母健在+连绵大山——所有的战斗都是为了回到最简单的幸福",
+  "chapter_end_hook": "'世界再穷，也穷不掉我了。'——态度宣言式收束，读者带着这种骨气合上文章",
+  "paywall_card": false,
+  "must_include": [
+    "叶东辰之死的一句话唏嘘：'多出来的命换一条，也算死得其所'",
+    "大巴车窗外的连绵大山",
+    "父亲拄拐但精神好/母亲手术后恢复",
+    "手里的红色录取通知书",
+    "收束金句：'世界再穷，也穷不掉我了'"
+  ],
+  "must_not_write_as_exposition": [
+    "大学生活的展望",
+    "对过去事件的总结回顾",
+    "对叶东辰之死的道德评判"
+  ],
+  "rhythm_job": {
+    "shape": "匀速舒缓",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.2,
+    "comma_period_ratio": 0.35,
+    "sentence_avg_len": 12.8,
+    "dominant_emotion": "平静-轻盈",
+    "emotion_arc": "唏嘘 → 接受 → 释然 → 轻盈幸福",
+    "emotion_intensity": 6.5,
+    "reader_feeling_target": "复杂的感慨后被结尾的温暖和轻盈打动——这就够了",
+    "required_techniques": [
+      {
+        "technique": "命运呼应",
+        "instruction": "叶东辰救的小女孩名字的巧合暗示他的赎罪动机——但苏念只用一句话评价，不深究"
+      },
+      {
+        "technique": "一句话收束全篇",
+        "instruction": "不总结不议论——用一个态度收束所有复杂性：'世界再穷，也穷不掉我了'"
+      },
+      {
+        "technique": "童年画面回溯",
+        "instruction": "用小时候被父母拎着胳膊飞起来的画面感收尾——所有的战斗都是为了回到这个最简单的快乐"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "抽象判断+具体选择",
+        "example": "世界荒诞灿烂，我只想抓住最爱的人。",
+        "instruction": "承认世界荒诞但选择抓住而不是逃离——仿写版：'世界再穷，也穷不掉我了'"
+      },
+      {
+        "structure": "冷静的价值计算式判断",
+        "example": "他多出来的这条命，换一个孩子，也算是死得其所。",
+        "instruction": "不原谅也不诅咒——用最理性的方式为叶东辰这条线画句号"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "对比式",
+    "source_excerpt": "「听说那个孩子的名字，也叫妍妍。」他多出来的这条命，换一个孩子，也算是死得其所。好像能像小时候一样，被爸妈拎着胳膊飞起来。世界荒诞灿烂，我只想抓住最爱的人。"
+  }
+}

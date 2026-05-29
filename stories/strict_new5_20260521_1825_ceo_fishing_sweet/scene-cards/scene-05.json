@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "鹭港医疗投资联盟慈善酒会",
+  "time": "当周夜晚",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊",
+    "方雅琴",
+    "名媛圈宾客",
+    "媒体人"
+  ],
+  "character_goal": "撬开商圈对她的冷处理，让自己重新站进镜头中心。",
+  "opposition_goal": "方雅琴要把她钉死成全城笑柄，顾承渊要故意逼她亮锋。",
+  "conflict_action": "方雅琴故意晾她不入席，宾客评论她逃婚失格；沈晚棠抢过话筒回敬，顾承渊又把她拉进镜头中央，紧接着大屏被人切入偷拍视频。",
+  "information_gap": "偷拍视频是谁放的，内容是补刀还是反向引证？",
+  "emotional_debt_delta": "名声压迫+2，拉扯升温+1",
+  "payoff_or_hook": "舆论战从私下议论升级到公开处刑现场。",
+  "chapter_end_hook": "截断句：\"三年前那晚，你们不是都想知道她为什么逃吗？\"",
+  "paywall_card": true,
+  "must_include": [
+    "弹幕/评论式宾客窃语至少1处",
+    "女主主动抢麦，不被动挨打",
+    "大屏偷拍视频突然切入"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆砌礼服珠宝描写",
+    "不要罗列所有宾客身份",
+    "不要把舆论攻击写成一大段旁白总结"
+  ],
+  "rhythm_job": {
+    "shape": "冷处理-抢麦-镜头拉近-视频切屏",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "ratio_note": "对白与评论并行，至少2行宾客吐槽承接误导，动作以抢麦和拉腕为准，章尾靠视频切屏断开。"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 780,
+  "target_chars_max": 860,
+  "location": "古镇开街集体婚礼主舞台",
+  "time": "白天，主持人串场到新人登台时",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "周瑞阳",
+    "沈月然",
+    "主持人",
+    "直播摄像",
+    "台下宾客"
+  ],
+  "character_goal": "在公开直播镜头里夺回自己的妻子身份，先打断婚礼叙事。",
+  "opposition_goal": "周瑞阳和主持团队要把她当闹事者迅速拖离，保护婚礼体面。",
+  "conflict_action": "林晚晴趁串场抢过话筒，直接叫名、亮明夫妻身份，拒绝被人拖下台。",
+  "information_gap": "截断在周瑞阳脸色发白、还没来得及回答的那一拍。",
+  "emotional_debt_delta": "第一笔回收：女主当众从“死人”变回“老婆”。",
+  "payoff_or_hook": "一句“周瑞阳，结婚这么大的事，怎么不告诉我这个老婆”把全场炸停。",
+  "chapter_end_hook": "截断在周瑞阳脸色发白、还没来得及回答的那一拍。",
+  "paywall_card": true,
+  "must_include": [
+    "主持人、摄像、宾客的动作只服务现场失控感，不喧宾夺主",
+    "周瑞阳第一反应是体面崩裂，不是长篇解释",
+    "女主控场姿态要冷，不是歇斯底里"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆主持人口播",
+    "不要把抢麦写成无差别撒泼"
+  ],
+  "rhythm_job": {
+    "shape": "1个静止开场+1个抢麦动作+2记短对白+章尾卡在全场失声",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "6:4",
+    "low_pressure_bridge": "",
+    "chapter_tail_cut": "周瑞阳还没答，先切"
+  }
+}

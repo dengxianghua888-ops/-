@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 680,
+  "target_chars_max": 800,
+  "location": "厂牌办公室与试镜棚",
+  "time": "次日上午",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "周既白",
+    "制片助理",
+    "摄影师"
+  ],
+  "character_goal": "把原本属于顾淮川的窗口迅速转给周既白。",
+  "opposition_goal": "时间和项目空档会让新安排显得仓促，周既白也需要确认她不是临时赌气。",
+  "conflict_action": "林见棠现场改主演、改物料、压时补拍，周既白不问八卦只接任务。",
+  "information_gap": "周既白尚不清楚昨夜饭局发生了什么，只看出她这次是彻底换人。",
+  "emotional_debt_delta": "修复线起步：出现值得托举的新对象，但仍以业务动作为主。",
+  "payoff_or_hook": "建立对照组，证明资源离开顾淮川并不会停摆。",
+  "chapter_end_hook": "周既白抬眼问：要我把他压到第几位？",
+  "paywall_card": false,
+  "must_include": [
+    "周既白先做事后问原因",
+    "补拍、换海报、改主演等至少两个具体动作",
+    "1个生活化承接动作，比如递咖啡、翻剧本、拎外套",
+    "周既白不能油腻示好，只能专业站位"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完整讲周既白三年被压经历",
+    "不要提前渲染感情线"
+  ],
+  "rhythm_job": {
+    "shape": "改项目2拍+补拍2拍+一句锋利对照台词1拍",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": ""
+  }
+}

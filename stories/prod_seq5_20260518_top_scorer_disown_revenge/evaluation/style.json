@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "point": "物理化细节",
+      "source": "draft-scenes/scene-02.md",
+      "quote": "杯垫上现在只剩一个干净圆印。",
+      "assessment": "用生活痕迹缺失表现案发现场被清理，不靠抽象判断。"
+    },
+    {
+      "point": "动作推进",
+      "source": "draft-scenes/scene-03.md",
+      "quote": "我要求保留缩放前后的版本。",
+      "assessment": "主角持续行动，证据意识强。"
+    },
+    {
+      "point": "对话克制",
+      "source": "draft-scenes/scene-06.md",
+      "quote": "我说不是威胁，是担保。",
+      "assessment": "短句有角色态度，也有平台爽点。"
+    },
+    {
+      "point": "场景声音",
+      "source": "draft-scenes/scene-09.md",
+      "quote": "钥匙落下去，那声回响忽然空得像一口井。",
+      "assessment": "听觉线索可感，悬疑质感好。"
+    },
+    {
+      "point": "证据链表达",
+      "source": "draft-scenes/scene-16.md",
+      "quote": "我说我保存视频，记录点位，调取后台，申请破拆。",
+      "assessment": "用并行动词压缩主角破局路径，节奏有效。"
+    }
+  ],
+  "risks": [
+    "部分情绪段“像……”比喻连续出现，建议删弱留强。",
+    "scene-16 存在轻微重复转场，可合并。",
+    "个别反派台词仍偏功能性，如“孩子受刺激后需要治疗”，可再增加个人化口吻。"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 586,
+  "target_chars_max": 786,
+  "location": "平台仓大厅警务联络台",
+  "time": "傍晚六点二十分",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "值班警员",
+    "赵启明",
+    "平台客服",
+    "围观商户"
+  ],
+  "character_goal": "林照基于红章确认单报警，要求封存监管仓证据。",
+  "opposition_goal": "赵启明要把事情压回平台内部投诉流程。",
+  "conflict_action": "林照把确认单、转账流水、入库码和冻结短信摊开，正式报案称两千万茶王在监管仓被调包。",
+  "information_gap": "警方会不会受理这个看似荒诞的调包案。",
+  "emotional_debt_delta": "围观误解开始反转，群众第一次意识到红章单据能反咬平台仓。",
+  "payoff_or_hook": "报警口径从乱收费变为高价货物调包。",
+  "chapter_end_hook": "林照举起红章单据说：我两千万茶王在你们监管仓里被调包了。",
+  "paywall_card": false,
+  "must_include": [
+    "报警动作",
+    "红章确认单",
+    "八百万转账流水",
+    "入库码",
+    "请求封存监控、扫码记录、称重数据、后台日志"
+  ],
+  "must_not_write_as_exposition": [
+    "不要鼓励恶意报假警",
+    "不要让警员无理由站队",
+    "不要让林照喊口号式反杀"
+  ]
+}

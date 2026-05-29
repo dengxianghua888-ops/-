@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "evidence": [
+    {
+      "dimension": "source_rhythm_quant_1",
+      "finding": "平均可视行长估算：源文约22.5字/行，稿件约19.2字/行。稿件略短，但未低到机械碎行。"
+    },
+    {
+      "dimension": "source_rhythm_quant_2",
+      "finding": "短行率估算：源文约0.44，稿件约0.52。稿件短行偏多，但仍在 beat-bible 0.38-0.55 约束内。"
+    },
+    {
+      "dimension": "source_rhythm_quant_3",
+      "finding": "直接对白行率估算：源文约0.41，稿件约0.43。对白驱动程度接近源文。"
+    },
+    {
+      "dimension": "source_rhythm_quant_4",
+      "finding": "问号密度估算：源文约5.1/千字，稿件约5.8/千字。稿件略高但未显著失控。"
+    },
+    {
+      "dimension": "narrative_crutch",
+      "finding": "指定叙述拐杖词组约0次，未触发warning或fail。"
+    },
+    {
+      "dimension": "golden_sentence",
+      "finding": "存在可脱离上下文传播的短句。",
+      "quote": "父亲不是债务担保人。"
+    },
+    {
+      "dimension": "summary_sentence_warning",
+      "finding": "疑似总结句约3处，未超过>3 fail阈值，但建议删减。",
+      "examples": [
+        "我没有解释。解释太便宜。",
+        "这些话不用我说。纸页自己会说。",
+        "但不是所有轻的东西，都该被立刻接住。"
+      ]
+    }
+  ]
+}

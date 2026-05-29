@@ -1,0 +1,170 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "market_positioning": {
+    "primary_genre": "都市虐恋追妻火葬场",
+    "secondary_genre": "豪门替身/清醒离场/亲情虐点",
+    "tomato_fit": "高",
+    "core_reader_promise": "看七年错付的女主在丈夫、儿子、白月光三重伤害后彻底抽身，让高位男主迟来的悔悟变成无效惩罚。",
+    "dominant_selling_points": [
+      "白月光回归后的正室清醒离场",
+      "孩子嫌弃母亲与外婆的亲情刺痛",
+      "病重外婆托付失败带来的强虐点",
+      "女主带外婆出国断联形成逃离爽点",
+      "男主追到海外但再也挽不回"
+    ]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "recommended_chars_per_chapter": [650, 900],
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_types": [
+      "下一场羞辱即将发生",
+      "女主即将做出不可逆决定",
+      "男主误判女主仍会回头",
+      "亲情或病情危机升级",
+      "白月光谎言即将反噬"
+    ]
+  },
+  "hook_policy": {
+    "first_300_chars": {
+      "requirement": "强 Hook",
+      "target_intensity": 9,
+      "preferred_opening": "先给男主公开偏心白月光、准备用婚姻工具化女主的核心羞辱，再让女主听见并决定不嫁。"
+    },
+    "micro_hook_every_chars": {
+      "min": 800,
+      "max": 1200,
+      "required": true,
+      "examples": [
+        "他答应外婆拍全家福，却临时去陪白月光女儿。",
+        "孩子说太婆脏，女主第一次放弃带他走。",
+        "女主签下戒指赠与协议，转头订了最早航班。",
+        "男主以为她还会来领证，病房却只剩两封信。"
+      ]
+    },
+    "paywall_card_every_chars": {
+      "min": 2500,
+      "max": 3500,
+      "required": true,
+      "preferred_cardpoints": [
+        "女主收到男主临时爽约消息，外婆已经换好衣服等拍照。",
+        "男主在外婆抢救电话和白月光装病之间选择白月光。",
+        "男主赶到医院发现女主已出国，只留下外婆写给他的信。",
+        "男主海外重逢求复合，女主说已经没有任何感觉。"
+      ]
+    }
+  },
+  "audience": {
+    "target_readers": [
+      "18-40 岁女性读者",
+      "偏好豪门虐恋、追妻火葬场、白月光回归、清醒离婚/离场题材的读者",
+      "喜欢女主不原谅、不回头、男主迟来悔悟无效的短篇读者"
+    ],
+    "emotional_needs": [
+      "替女主确认七年委屈不是矫情，而是被系统性轻贱",
+      "通过外婆病情和孩子背刺制造强烈心疼",
+      "通过断联、出国、放弃抚养权完成清醒切割",
+      "通过男主悔疯、追到海外、失去补偿形成情绪清算",
+      "结尾要给女主独立生活和亲情修复的释放感"
+    ],
+    "topic_boundaries": [
+      "不写女主回头复婚",
+      "不把男主挡枪或转让财产写成洗白充分条件",
+      "不弱化孩子羞辱外婆的伤害",
+      "不让白月光靠单纯恶毒脸谱化撑完全篇，必须有男主纵容责任",
+      "不写过度医疗奇迹替代情绪结算",
+      "不使用现代霸总油腻宠溺套话",
+      "避免把女性独立写成口号，必须用行动完成"
+    ],
+    "forbidden_emotional_resolutions": [
+      "为了孩子原谅男主",
+      "外婆劝和",
+      "男主重伤后女主重新爱上他",
+      "白月光承担全部罪责而男主无责",
+      "用误会解释七年伤害"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "preferred_tone": "高冲突、强因果、可一眼读懂女主离场与男主悔疯",
+    "formula_candidates": [
+      {
+        "formula_id": "T1",
+        "pattern": "他为白月光羞辱我后，我带外婆消失了",
+        "use_case": "突出白月光冲突和女主不可逆离场"
+      },
+      {
+        "formula_id": "T2",
+        "pattern": "领证当天我没去，顾总却找疯了",
+        "use_case": "突出爽点反转和男主失控"
+      },
+      {
+        "formula_id": "T3",
+        "pattern": "儿子嫌我外婆脏后，我不要他们了",
+        "use_case": "突出亲情虐点和强争议点击"
+      },
+      {
+        "formula_id": "T4",
+        "pattern": "他把婚礼当补偿，我把戒指卖了救外婆",
+        "use_case": "突出女主清醒、钱权反用和现实压力"
+      },
+      {
+        "formula_id": "T5",
+        "pattern": "白月光回国那天，我放弃了顾家继承人",
+        "use_case": "突出放弃抚养权和豪门代价"
+      }
+    ]
+  },
+  "plot_constraint": {
+    "opening_must_include": [
+      "男主承认娶女主只是因为她听话",
+      "男主计划把核心财产留给白月光",
+      "女主听见真相后当场断爱",
+      "外婆重病愿望与男主白月光选择形成第一轮对撞"
+    ],
+    "middle_must_include": [
+      "白月光空降公司或家庭空间夺位",
+      "男主用补偿和职位误判女主仍可安抚",
+      "孩子伤害外婆，女主决定不再带孩子走",
+      "外婆为拍照做准备但被男主爽约",
+      "女主通过签证、戒指、辞职、协议完成离场准备"
+    ],
+    "ending_must_include": [
+      "男主发现两封信后悔意爆发",
+      "女主已带外婆离开并切断旧联系方式",
+      "男主追到海外求复合失败",
+      "财产补偿只能解决现实，不能购买原谅",
+      "女主最终和外婆获得新生活"
+    ],
+    "payoff_rule": "所有爽点必须由前文伤害反向触发，不能靠突然开挂解决。"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "measurement": "每章末保留明确未解决冲突，读者持续追问女主何时彻底离开、男主何时发现真相。"
+    },
+    "paid_cardpoint_strength": {
+      "target_score": 9.0,
+      "measurement": "付费点优先放在外婆等待、男主二选一、女主断联、男主读信四类强情绪节点。"
+    },
+    "emotional_release": {
+      "target_score": 9.1,
+      "measurement": "女主必须不复合，男主悔悟必须滞后且无效，外婆线必须得到安置。"
+    },
+    "ai_flavor": {
+      "target_score": 1.0,
+      "measurement": "AI 味越低越好；禁用空泛抒情、命运感套话、机械总结句，优先用动作、物件、对话呈现情绪。"
+    },
+    "explosive_point_density": {
+      "target_score": 8.8,
+      "measurement": "每 800-1200 字至少一个强信息变化，每 2500-3500 字至少一个付费级不可逆卡点。"
+    }
+  }
+}

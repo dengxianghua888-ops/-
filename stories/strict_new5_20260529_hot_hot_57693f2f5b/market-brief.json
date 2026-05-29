@@ -1,0 +1,124 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chars_per_chapter": [500, 1200],
+    "tomato_preferred_chars": [500, 800],
+    "chapter_end_rule": "每章末必须留下未解决的责任归属、证据反转、舆论升级或人物崩塌钩子"
+  },
+  "hook_policy": {
+    "first_300_chars": "强Hook：开篇直接给出被举报/被开除/重生避坑/关键证人失联等高压局面",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "must_have_hooks": [
+      "前世好心被讹、人生被毁",
+      "今生拒绝接锅反被举报",
+      "主角失联导致责任链反噬",
+      "监控或证据在后段公开爆杀",
+      "施害者互咬、网暴回旋"
+    ]
+  },
+  "audience": {
+    "target_readers": "番茄短篇女性向爽文读者，偏好现代反转、重生避坑、校园/职场规则反杀、网暴反噬、白眼狼自食恶果",
+    "emotional_needs": [
+      "替善良但被道德绑架的人出气",
+      "看主角不再圣母、不再解释，靠流程和证据脱身",
+      "看施害者被自己制造的舆论和规则反噬",
+      "看迟来的求助、哭诉、道歉全部失效",
+      "获得主角新生、事业/学业升维、亲密关系补偿"
+    ],
+    "topic_forbidden_zones": [
+      "不要美化师生暧昧或师生恋",
+      "不要把疾病、残障本身写成原罪，罪点必须落在造谣、欺骗、讹诈、网暴和责任转嫁",
+      "不要让主角主动违法害人",
+      "不要以血腥猎奇替代证据爽点",
+      "不要写成纯校园霸凌流水账，必须有规则闭环和公开反转"
+    ],
+    "preferred_emotion_curve": "前300字高压受害记忆开局，中段主角冷静撤离与责任链转移，后段证据爆开、全网反噬、制度清算，结尾主角彻底新生"
+  },
+  "title_strategy": {
+    "constraints": {
+      "max_chars": 30,
+      "platform_style": "口语化、强冲突、直接暴露爽点或荒诞反转"
+    },
+    "formula_candidates": [
+      {
+        "id": "T1",
+        "formula": "被X举报/开除后，我失联了",
+        "examples": [
+          "被学生举报开除后，我失联了",
+          "被全班举报后，我直接消失"
+        ]
+      },
+      {
+        "id": "T2",
+        "formula": "我好心做X，他们却让我负责一辈子",
+        "examples": [
+          "我好心买冰箱，她家逼我负责",
+          "我帮学生冷藏药后，全校要我偿命"
+        ]
+      },
+      {
+        "id": "T3",
+        "formula": "重生后，我不再替X兜底",
+        "examples": [
+          "重生后，我不再替学生买冰箱",
+          "重生后，我让圣母室友自己负责"
+        ]
+      },
+      {
+        "id": "T4",
+        "formula": "X说我是凶手，可监控拍下了真凶",
+        "examples": [
+          "她说我害她残疾，可监控没坏",
+          "全网骂我黑心老师，可证据在我邮箱"
+        ]
+      }
+    ]
+  },
+  "market_positioning": {
+    "primary_genre": "modern_reversal",
+    "secondary_genre": "family_ethics",
+    "benchmark_fit": {
+      "source_slug": "hot_57693f2f5b",
+      "tomato_fit_score": 8.8,
+      "dominant_selling_point": "冷静撤离型复仇，先远离责任链，再让事实反噬恶人"
+    },
+    "reader_promise": "看一个前世被好心拖进深渊的年轻老师，重生后拒绝接锅、主动失联，最终用证据让圣母、绿茶、学校和网暴者全部自食恶果。",
+    "core_selling_points": [
+      "重生避坑",
+      "责任链转移",
+      "舆论反噬",
+      "隐藏证据爆杀",
+      "主角失联后全员哭求"
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "requirements": "每章都要推进一个新责任风险或新证据，不允许连续两章只吵架"
+    },
+    "paid_card_points": {
+      "target_score": 9.0,
+      "requirements": "2500-3500字必须出现一次付费级卡点，如主角被开除、事故爆发、关键证人失联、监控反转即将公开"
+    },
+    "emotional_release": {
+      "target_score": 9.3,
+      "requirements": "反派必须承受名誉、法律、关系、金钱四类代价；主角不复合、不回头、不圣母救场"
+    },
+    "ai_flavor": {
+      "target_score": 0.5,
+      "scale_note": "0为无AI味，10为AI味重",
+      "requirements": "禁用空泛总结、命运感套话、过度形容词；用动作、证据、对话和具体流程推动爽点"
+    },
+    "plot_burst_density": {
+      "target_score": 9.0,
+      "requirements": "每1000字至少1个明确爆点，每3000字至少1个身份/证据/责任归属大反转"
+    }
+  }
+}

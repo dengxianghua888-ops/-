@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "empress_escape",
+  "title": "我在冷宫撸猫，皇帝疯了",
+  "genre": "ancient_sweet",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "误入后位的沙雕女主把高冷帝王撸成妻女奴",
+    "new_setting": "被赐婚冷宫的废后之女意外成为摄政王的心尖宠，用沙雕方式把冰块男主撸成妻奴",
+    "character_map": {
+      "沈知意→苏鱼": "女主，废后之女，被赐婚到冷宫当摆设，实则医术高超的沙雕少女",
+      "楚临→谢珩": "摄政王，表面冷漠实则暗恋女主多年，被女主治愈后彻底沦陷",
+      "洛灵→沈妤": "假情敌/盟友，摄政王府的表妹，表面受宠实则与女主结盟",
+      "楚嫣→谢瑶": "摄政王之妹，女主闺蜜，暗恋证据的传递者"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "荒诞赐婚入冷宫", "min_impacts": 4, "must_include": ["女主因荒诞原因被赐婚", "摄政王表面冷漠接旨", "女主吐槽式接受命运"]},
+    {"beat_id": "B2", "title": "新婚夜错位暧昧", "min_impacts": 3, "must_include": ["女主以为男主不会来", "男主突然出现制造身体喜剧", "野猫梗建立"]},
+    {"beat_id": "B3", "title": "撞破假情敌真面目", "min_impacts": 3, "must_include": ["女主误以为男主爱沈妤", "撞见沈妤与别人暧昧", "女主替男主出头"]},
+    {"beat_id": "B4", "title": "医恋爱脑日常升温", "min_impacts": 3, "must_include": ["女主用沙雕方式治男主", "黄连茶/苦药梗", "二人关系快速升温"]},
+    {"beat_id": "B5", "title": "狗洞翻墙与正面吻", "min_impacts": 3, "must_include": ["物理喜剧场景", "假情敌刺激", "女主冲动吻男主"]},
+    {"beat_id": "B6", "title": "甜宠沦陷双向奔赴", "min_impacts": 3, "must_include": ["感情确认", "甜宠日常", "怀孕/重要转折"]},
+    {"beat_id": "B7", "title": "真相打击信任崩塌", "min_impacts": 4, "must_include": ["沈妤揭露赐婚骗局", "女主发现被利用", "甜宠被击碎"]},
+    {"beat_id": "B8", "title": "冷战与放手", "min_impacts": 3, "must_include": ["男主赔罪被拒", "女主要求离开", "男主最终放手"]},
+    {"beat_id": "B9", "title": "暗恋证据补偿", "min_impacts": 3, "must_include": ["谢瑶带来多年信件", "暗恋证据落地", "女主动摇"]},
+    {"beat_id": "B10", "title": "假危机召回喜剧团圆", "min_impacts": 3, "must_include": ["假危机骗女主回来", "真相揭穿", "男主彻底沦为妻奴"]}
+  ]
+}

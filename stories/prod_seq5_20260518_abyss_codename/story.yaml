@@ -1,0 +1,146 @@
+pipeline_mode: production
+status: final
+title: 她代号黑匣
+provider: openai
+model: gpt-5
+source: storyforge-production-phase7-final-packager
+generated_at: 2026-05-18
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_mode: artifact_bundle_only
+
+audit:
+  source_materials:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  packaging_notes:
+    - 保留 Phase 6 通过正文主线和 18 场顺序
+    - 补直接投稿标题、导语、简介、标签和节点地图
+    - 章节按 scene 顺序拆为 ch01 至 ch18
+    - 正文不显式标注内部付费点
+
+quality_gate:
+  pass
+  score_scale: "0-10"
+  review_gate_required: true
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.6
+    emotion: 8.4
+    style: 8.0
+    logic: 7.9
+  machine_metrics:
+    target_length:
+      min: 13000
+      max: 16500
+      actual: 13613
+      status: pass
+    chapters:
+      count: 18
+      hook_hits: 18
+      hook_coverage: 1.0
+      length_status: pass
+      lengths_status: all_500_to_1200
+    paywall_cards:
+      required: 4
+      actual: 6
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+        paragraphs: 4
+      mobile_paragraphs:
+        status: pass
+        rule: one_sentence_per_line
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 6
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+    - final-chapters/ch17.md
+    - final-chapters/ch18.md
+
+submission:
+  title_a: 她代号黑匣
+  title_b: 处分转学后，我住进三人失踪的空乘公寓
+  title_c: B312最后一名乘客
+  tags:
+    - 女强
+    - 悬疑
+    - 校园
+    - 刑侦协查
+    - 证据链
+    - 反转
+    - 单元案
+  paywall_node_count: 6
+  paywall_nodes:
+    - chapter: 3
+      hook: 上面写着：林雾，B312，今晚登机。
+    - chapter: 6
+      hook: 背面刻着一个座位号：17C。
+    - chapter: 9
+      hook: 我看着韩停说：“从你进门开始，你说的每一句话都被录下来了。”
+    - chapter: 12
+      hook: 纪闻的声音隔着门传来：“林雾同学，课件里的东西，看懂了吗。”
+    - chapter: 15
+      hook: 他说：“最后一名乘客，到齐了。”
+    - chapter: 18
+      hook: 新音频再次响起：“本次航班仍有乘客未清舱。”
+total_chars: 14220
+chapter_count: 18
+paywall_cards: 12
+critic_scores:
+  logic: 7.9
+  style: 8.0
+  emotion: 8.4
+  platform: 8.6
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_205212
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

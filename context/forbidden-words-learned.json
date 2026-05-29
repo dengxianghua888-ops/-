@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "version": 1,
+    "schema_version": "1.0",
+    "description": "跨案例学习到的额外 AI 惯性词/违禁表达,按 genre 分组。当一条词在 ≥3 个案例出现 → 升级到 prompts/patterns/forbidden-and-preferred.md 的正式违禁列表。",
+    "updated_at": "2026-04-20",
+    "promotion_threshold": 3
+  },
+  "modern_reversal": [],
+  "ancient_BE": [],
+  "ancient_sweet": [],
+  "apocalypse_heroine": [],
+  "family_ethics": [],
+  "urban_sweet_ceo": []
+}

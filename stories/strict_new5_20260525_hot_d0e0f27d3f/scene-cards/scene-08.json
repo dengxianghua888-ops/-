@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "target_chars_min": 760,
+  "target_chars_max": 860,
+  "location": "副牌会议室",
+  "time": "次日上午",
+  "pov": "沈知微 第一人称",
+  "characters": [
+    "沈知微",
+    "裴承屿",
+    "财务",
+    "裴砚衡"
+  ],
+  "character_goal": "把四年付出账目化，逼裴承屿面对现实欠账。",
+  "opposition_goal": "裴承屿要把所有垫付和设计贡献继续模糊成情侣内部支持。",
+  "conflict_action": "沈知微一张张推开垫付款流水、对账单、回款通知和设计授权空白页，限定三天清偿；裴砚衡只补一句，主品牌不会再替副牌兜底。",
+  "information_gap": "裴承屿的资金链到底断到哪一步，谁先上门。",
+  "emotional_debt_delta": "四年被说成舔狗的付出开始变成可追偿的欠债。",
+  "payoff_or_hook": "关系账被改写成现实账，裴承屿无处赖。",
+  "chapter_end_hook": "我收起最后一页流水：‘三天内不还，我走法务。’",
+  "paywall_card": true,
+  "must_include": [
+    "垫付款流水",
+    "设计授权空白页对照",
+    "裴砚衡只说一句实权表态",
+    "三天期限"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释合同条款",
+    "不要长篇说明时间线"
+  ],
+  "rhythm_job": {
+    "shape": "证据一页页落桌，少说多压，最后以期限截断",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

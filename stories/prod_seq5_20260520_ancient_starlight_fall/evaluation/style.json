@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "scene": "scene-01",
+      "type": "physical_detail",
+      "quote": "通行证掉在地上，金色夹扣磕出一声脆响。",
+      "assessment": "羞辱被具体物件承载，避免空泛情绪说明。"
+    },
+    {
+      "scene": "scene-06",
+      "type": "action_resolution",
+      "quote": "金属离开指节时有一道浅白的印。",
+      "assessment": "旧情切割有视觉和触觉，不靠长篇哭诉。"
+    },
+    {
+      "scene": "scene-09",
+      "type": "dialogue_control",
+      "quote": "“没有。”",
+      "assessment": "女主拒绝自证，短句有力量。"
+    },
+    {
+      "scene": "scene-13",
+      "type": "risk",
+      "quote": "截图、撤资函、热搜购买记录被按时间线排开。",
+      "assessment": "后半段文件与流程句较密，爽点清楚但略有程序化读感。"
+    }
+  ],
+  "notes": "整体短句、动作、对话比例适合番茄爽文；需轻微压缩“像终于”“没有人”等重复结构。"
+}

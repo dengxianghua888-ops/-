@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 740,
+  "target_chars_max": 780,
+  "location": "服务区货运司机临时聚点",
+  "time": "主线时间线 第6节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "老周",
+    "李哥"
+  ],
+  "character_goal": "把同样被坑的司机找出来",
+  "opposition_goal": "想用各被坑司机彼此沉默拖死维权",
+  "conflict_action": "我把红章拍在折叠桌上，老周掏出自己的红章，李哥又掏出一张，三十六个司机围拢过来，每张纸上都是同一行字。",
+  "information_gap": "张磊以为只是自己倒霉，群体维权的拼图才刚拼齐",
+  "emotional_debt_delta": "群体债",
+  "payoff_or_hook": "老周把烟摁灭：这事，得有人录下来。",
+  "chapter_end_hook": "老周把烟摁灭：这事，得有人录下来。",
+  "paywall_card": true,
+  "must_include": [
+    "折叠桌上的红章",
+    "老周烟头",
+    "三十六张同样的纸",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

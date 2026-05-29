@@ -1,0 +1,10 @@
+<title>短篇仿写终稿导出目录｜batch_v5_20260526｜5篇</title>
+<callout emoji="✅" background-color="light-green" border-color="green">
+<p>5 篇 v5 结构保真产线终稿；本页为总目录。</p>
+</callout>
+<h1>导出总览</h1>
+<table><colgroup><col span="1" width="60"/><col span="1" width="200"/><col span="1" width="90"/><col span="1" width="90"/><col span="1" width="200"/></colgroup><thead><tr><th background-color="light-gray">序号</th><th background-color="light-gray">标题</th><th background-color="light-gray">字数</th><th background-color="light-gray">章节</th><th background-color="light-gray">目录</th></tr></thead><tbody><tr><td>1</td><td>晚风别忆旧时人</td><td>10010</td><td>12</td><td>stories/batch_v5_01_modern_reversal</td></tr><tr><td>2</td><td>愚人节是他的放纵日</td><td>10015</td><td>11</td><td>stories/batch_v5_02_family_ethics</td></tr><tr><td>3</td><td>听见蝴蝶的振翅声</td><td>10003</td><td>11</td><td>stories/batch_v5_03_ancient_BE</td></tr><tr><td>4</td><td>将门毒女</td><td>10015</td><td>10</td><td>stories/batch_v5_04_ancient_sweet</td></tr><tr><td>5</td><td>她把副驾留给了别人</td><td>10072</td><td>10</td><td>stories/batch_v5_05_urban_sweet_ceo</td></tr></tbody></table>
+<hr/>
+<h1>版本说明</h1>
+<ul><li>v5_structure_fidelity 产线，rhythm_fit + structure_gate 全 PASS</li><li>5 genres: modern_reversal / family_ethics / ancient_BE / ancient_sweet / urban_sweet_ceo</li><li>超配减法策略 + 断章密度约束 + 反转层次约束</li></ul>
+<p>导出时间：2026-05-26 22:27:59</p>

@@ -1,0 +1,126 @@
+pipeline_mode: production
+status: final
+title: 离婚当天，我怀孕等梨园来接他
+language: zh-CN
+genre:
+  - 甜宠
+  - 先婚后爱
+  - 带球跑
+  - 豪门
+  - 梨园世家
+source_paths:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+required_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_only_artifact_bundle: true
+provider:
+  name: OpenAI
+model:
+  name: GPT-5
+source_audit:
+  source_materials_used:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  phase6_gate_status: pass
+  final_packager_role: Final Packager
+quality_gate:
+  pass
+  pipeline_mode: production
+  score_scale: 0-10
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.2
+    emotion: 8.6
+    style: 8.1
+    logic: 7.8
+  machine_metrics:
+    target_length:
+      min: 10000
+      max: 18000
+      source_actual: 10354
+      final_status: pass
+    chapters:
+      count: 14
+      status: pass
+      length_rule: 500-1200字
+      hook_coverage: 1.0
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 3
+        actual: 3
+      visible_paywall_labels_in_final:
+        status: pass
+        count: 0
+final_revision_notes:
+  - 第10章删除重复划线动作，保留文件划线后的会议厅静止钩子。
+  - 第6章补充胃出血未养好，降低咳血突兀感。
+  - 第12章补充女主边界句，承接后续求婚前追问。
+paywall_nodes:
+  - chapter: 4
+    type: 白月光站位宣告
+    hook: 他回陆家那天，站在他身边的人只能是我。
+  - chapter: 8
+    type: 身份真相半露
+    hook: 【不会是百年梨园陆家继承——】
+  - chapter: 12
+    type: 伦理真相与边界
+    hook: 不是你挡了谁，是我走了很久，才敢倒在你门口。
+total_chars: 10518
+chapter_count: 14
+paywall_cards: 6
+critic_scores:
+  logic: 7.8
+  style: 8.1
+  emotion: 8.6
+  platform: 8.2
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: rhythm_v2
+  runner: agent
+  provider: codex
+  current_phase: 4
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

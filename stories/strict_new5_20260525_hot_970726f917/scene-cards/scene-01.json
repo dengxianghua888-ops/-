@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 900,
+  "target_chars_max": 980,
+  "location": "旧航站楼终选主厅",
+  "time": "终选开始前3分钟",
+  "pov": "第一人称",
+  "characters": [
+    "陆昭",
+    "主考官韩岚",
+    "候选学员",
+    "家属",
+    "航医"
+  ],
+  "character_goal": "确认一分钟异常后立刻离开主厅，并制造足够大的动作让别人注意到倒计时问题。",
+  "opposition_goal": "考官要维持终选秩序，确保所有学员按广播口令入座签字。",
+  "conflict_action": "陆昭对比飞行表和塔台主钟，抢过录取确认单当众撕碎，撞开桌沿往出口冲。",
+  "information_gap": "她为什么宁可毁掉终选资格，也认定再不走就来不及？",
+  "emotional_debt_delta": "建立前途自毁债与疯子标签债。",
+  "payoff_or_hook": "截断句：我把确认单撕了，因为再晚一分钟，我们谁都飞不出去。",
+  "chapter_end_hook": "截断句：我把确认单撕了，因为再晚一分钟，我们谁都飞不出去。",
+  "paywall_card": true,
+  "must_include": [
+    "塔台主钟和胸前飞行表同框",
+    "广播口令慢半拍",
+    "撕确认书的明确动作",
+    "全场短暂死静后立刻炸开"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述终选规则",
+    "不要解释民航选拔流程",
+    "不要先讲女主履历再进入冲突"
+  ],
+  "rhythm_job": {
+    "shape": "看钟异常-心跳提速-撕确认书-冲门截断",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "撕纸声、表针跳格、广播停顿"
+  }
+}

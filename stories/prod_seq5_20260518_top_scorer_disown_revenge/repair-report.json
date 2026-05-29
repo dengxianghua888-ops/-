@@ -1,0 +1,13 @@
+{
+  "phase": 8,
+  "mode": "production",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {}
+    }
+  ]
+}

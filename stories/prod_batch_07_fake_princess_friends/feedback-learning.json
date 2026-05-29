@@ -1,0 +1,160 @@
+{
+  "story_slug": "prod_batch_07_fake_princess_friends",
+  "pipeline_mode": "production",
+  "genre": "ancient_sweet",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转"
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 11500
+  },
+  "final_length": 10387,
+  "quality_scores": {
+    "platform": 7.8,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.6
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "scene_id": "scene-01",
+      "chapter": 1,
+      "hook": "假千金被真千金砸毁亲手做的机关走马灯并夺走水师铜哨，女主当场写出三张灯帖反击。",
+      "reusable_fact": "开篇用心爱物件被毁+专属信物被夺，能在300字内同时建立身份羞辱、情绪债和后续身份反转入口。"
+    },
+    {
+      "scene_id": "scene-02",
+      "chapter": 2,
+      "hook": "退婚、搜身、锁灯库后，女主从靴筒递出第二张灯帖，靖王府来人追问谁砸了兰九公子的灯。",
+      "reusable_fact": "被关押场景适合加入备用证物/备用通道，既显女主预判，又把压迫转成外部强援登场钩子。"
+    },
+    {
+      "scene_id": "scene-03",
+      "chapter": 3,
+      "hook": "谢兰舟亮靖王腰牌，问本王亲手做的灯谁砸的。",
+      "reusable_fact": "第一轮身份揭牌应绑定已被羞辱的低贱技能；反派骂得越具体，揭牌越爽。"
+    },
+    {
+      "scene_id": "scene-05",
+      "chapter": 5,
+      "hook": "沈云姣在码头举铜哨污蔑女主偷军物，军船靠岸，镇海将军黎青禾登场质问谁准你吹它。",
+      "reusable_fact": "第二件被夺物件从私人羞辱升级为公共场域审判，能扩大围观爽感。"
+    },
+    {
+      "scene_id": "scene-06",
+      "chapter": 6,
+      "hook": "黎青禾亮镇海将军令，证明沈照晚借哨调舟是她亲准，小太监随后传圣上口谕请沈姑娘回府接驾。",
+      "reusable_fact": "连续反转可用上一轮清算刚落地时立刻抛出更高阶人物召见，形成递进而非重复。"
+    },
+    {
+      "scene_id": "scene-07",
+      "chapter": 7,
+      "hook": "沈家把女主锁进侧院并让真千金冒领灯帖，圣上进门第一句却问沈照晚呢。",
+      "reusable_fact": "冒名局的爆点不在女主自辩，而在权威人物直接点名真正目标。"
+    },
+    {
+      "scene_id": "scene-09",
+      "chapter": 9,
+      "hook": "反派带人破门抓私会，却看见靖王、皇帝、镇海将军都在厢房内。",
+      "reusable_fact": "私会污蔑局适合做多身份同场反打，但必须提前让女主拿到银票、口供、证人，避免纯权力碾压。"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": 12,
+      "hook": "换嫁喜房里两顶盖头并列，谢兰舟问哪一位是本王的新娘。",
+      "reusable_fact": "换嫁局的卡点用选择题形式最有效，读者知道女主已反设局，但仍期待掀盖头验尸式揭露。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-03",
+      "chapter": 3,
+      "card_type": "身份揭牌",
+      "payoff": "靖王谢兰舟证明被砸走马灯是王府之物，砸灯债转为赔偿与跪罪。"
+    },
+    {
+      "scene_id": "scene-07",
+      "chapter": 7,
+      "card_type": "权威点名",
+      "payoff": "皇帝萧晏绕过冒名真千金，直接找沈照晚，并用瓦舍灯谜识别真帖。"
+    },
+    {
+      "scene_id": "scene-09",
+      "chapter": 9,
+      "card_type": "三身份同场",
+      "payoff": "靖王、皇帝、镇海将军同时在场，反派对贱匠、戏子、船匪的辱骂全部回旋打脸。"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": 12,
+      "card_type": "换嫁翻盘",
+      "payoff": "掀盖头揭出沈云姣与迷香换嫁局，沈家亲情债进入最终清算。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "血色都没了",
+      "genre": "ancient_sweet",
+      "evidence_chapter": 10,
+      "reason": "用于群体震惊时偏套语，可替换为具体动作、跪姿、物件失控。"
+    },
+    {
+      "candidate": "眼神像要",
+      "genre": "ancient_sweet",
+      "evidence_chapter": 7,
+      "reason": "情绪比喻较泛，后续可优先用手部动作或证物状态承接恨意。"
+    }
+  ],
+  "retrieval_tags": [
+    "ancient_sweet",
+    "fake-daughter",
+    "true-daughter-villain",
+    "found-family",
+    "lantern-festival",
+    "craft-skill-payoff",
+    "object-chain-lantern-whistle-ticket",
+    "identity-reveal-multi-stage",
+    "public-humiliation-reversal",
+    "paywall-scene-03-identity",
+    "paywall-scene-07-emperor",
+    "paywall-scene-09-three-identities",
+    "paywall-scene-12-forced-marriage-trap",
+    "female-agency",
+    "not-being-reformed-ending"
+  ],
+  "manual_revision_delta": [
+    {
+      "target": "scene-07",
+      "change": "补明真正瓦舍灯帖藏在灯谜牌夹层，袖中旧帖是故意留给沈母和沈云姣抢的诱饵。",
+      "reusable_fact": "真假证物调包必须在被抢当场或下一场明确埋钩，不能只靠读者推测。"
+    },
+    {
+      "target": "scene-11",
+      "change": "补明萧晏只封存瓶塞、暗中盯梢，女主故意让沈母以为迷香只是记账。",
+      "reusable_fact": "已暴露的犯罪工具若要二次放线，必须写清主角为何不立刻收网。"
+    },
+    {
+      "target": "scene-10",
+      "change": "微调三身份亮牌话术，让靖王、皇帝、镇海将军分别用贴合身份的短句反打。",
+      "reusable_fact": "多身份同场揭牌可以保留排比结构，但每一层声口要不同，避免机械列举。"
+    },
+    {
+      "target": "final-packager",
+      "change": "平台简介由 Final Packager 投稿包产出，本阶段不重复输出。",
+      "reusable_fact": "质量复盘中平台简介缺失属于流程交接项，不应误判为正文场景失败。"
+    }
+  ]
+}

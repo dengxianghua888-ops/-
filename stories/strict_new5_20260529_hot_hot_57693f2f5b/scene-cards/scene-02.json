@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "便民服务站门口与业主群",
+  "time": "同日下午",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "许曼",
+    "赵慧",
+    "群管理员",
+    "围观业主"
+  ],
+  "character_goal": "沈昭把药箱责任推回正规卫生流程，并留下赵慧公开接手的证据。",
+  "opposition_goal": "赵慧要用正义楼长身份压沈昭，让她承认冷血不作为。",
+  "conflict_action": "赵慧举手机拍沈昭，随后在业主群发语音承诺自己接药箱。",
+  "information_gap": "赵慧和许曼之间的红包关系只通过熟络称呼和回避眼神埋伏。",
+  "emotional_debt_delta": "赵慧主动越界、造谣举报的债开始累积。",
+  "payoff_or_hook": "沈昭截图保存赵慧的语音和药箱交接画面。",
+  "chapter_end_hook": "赵慧在群里发了语音：我接，这责任我担。",
+  "paywall_card": false,
+  "must_include": [
+    "业主群语音转文字",
+    "短促弹幕式群消息：冷血、临时工架子真大、赵姐好样的",
+    "沈昭把药箱推回桌面，不碰封条"
+  ],
+  "must_not_write_as_exposition": [
+    "不要详细科普低温保管规定",
+    "不要写赵慧热心无罪",
+    "不要让沈昭争辩超过三句"
+  ],
+  "rhythm_job": {
+    "shape": "对白推动为主，穿插群消息和动作截屏；对白约四成，动作约两成，弹幕/评论/吐槽约两成，冷旁白约两成。",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 5,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "肃王府小佛堂",
+  "time": "次日晨斋前",
+  "pov": "阿眠第一人称",
+  "characters": [
+    "阿眠",
+    "沈素娘",
+    "柳含霜",
+    "贺嬷嬷",
+    "小佛堂侍女"
+  ],
+  "character_goal": "沈素娘要让阿眠稳住，不暴露沈家身份",
+  "opposition_goal": "柳含霜要用当年原话逼阿眠露出破绽",
+  "conflict_action": "柳含霜伸手掀豆腐布，复述当年人命与豆腐的话，沈素娘用斋供规矩挡开她",
+  "information_gap": "贺嬷嬷为什么盯着沈素娘手上的老茧",
+  "emotional_debt_delta": "身份危机升高，旧恶原话回旋",
+  "payoff_or_hook": "贺嬷嬷成为府内证据节点",
+  "chapter_end_hook": "柳含霜盯着阿眠，轻声问：“你是不是听过那架磨？”",
+  "paywall_card": true,
+  "must_include": [
+    "柳含霜说干净二字",
+    "沈素娘挡手",
+    "阿眠咬住舌尖稳住",
+    "贺嬷嬷看见沈素娘手茧"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释小佛堂规矩",
+    "不要让沈素娘自报身份",
+    "不要写柳含霜内心苦衷"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_hook_ratio": "对白四成，动作三成半，呼吸点两成半，章尾用身份疑问卡住"
+  }
+}

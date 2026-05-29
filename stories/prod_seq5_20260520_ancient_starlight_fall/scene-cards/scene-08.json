@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 780,
+  "target_chars_max": 920,
+  "location": "谢氏影业年度片单发布会主厅",
+  "time": "发布会中段，直播开启后",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "谢家老太太", "谢父", "谢母", "陆沉舟", "媒体记者", "行业嘉宾"],
+  "character_goal": "谢家要在直播现场公开认下林晚宜与孩子，给出婚姻和资产承诺。",
+  "opposition_goal": "陆沉舟要维持“林晚宜只是借谢砚气我”的解释。",
+  "conflict_action": "谢家长辈上台，依次摆出婚书、信托、海景婚房产权书、母婴医疗基金和版权分红协议。",
+  "information_gap": "谢砚真正掌握的发行权仍未公布，留给终局资本战。",
+  "emotional_debt_delta": "-公开羞辱债；-身份低估债；-七年不婚债部分偿还",
+  "payoff_or_hook": "全族、公开、资产、婚书四项托举落地，第二张付费卡点。",
+  "chapter_end_hook": "谢家老太太亲手打开婚书，全场镜头同时转向林晚宜。",
+  "paywall_card": true,
+  "must_include": ["谢家长辈全体出场", "婚书", "信托与房产", "母婴医疗基金", "版权分红协议"],
+  "must_not_write_as_exposition": ["不要只写微博官宣", "不要只说谢砚爱她", "不要让谢家用孩子审判林晚宜"]
+}

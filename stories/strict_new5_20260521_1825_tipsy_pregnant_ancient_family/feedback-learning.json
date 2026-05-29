@@ -1,0 +1,106 @@
+{
+  "story_slug": "strict_new5_20260521_1825_tipsy_pregnant_ancient_family",
+  "pipeline_mode": "production",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": ["M2", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10577,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "离婚协议与孕八周报告袋同桌出现，形成开局双危机：婚姻被切断、孩子尚未说出口。",
+      "reusable_fact": "孕期隐瞒钩子要让女主本来准备告知，但被男主先发制人的离婚动作打断。"
+    },
+    {
+      "chapter": 2,
+      "hook": "离婚协议最后一页滑出白月光登机牌，且男主明显阻拦女主查看。",
+      "reusable_fact": "误会证据最好夹在正式文件中，由男主遮挡动作放大可疑度。"
+    },
+    {
+      "chapter": 3,
+      "hook": "女主离婚后保留产检预约，同时收到男主夜班工资备注“给漾漾”。",
+      "reusable_fact": "甜虐线可用小额、长期、低姿态金流证明男主仍在照顾女主。"
+    },
+    {
+      "chapter": 6,
+      "hook": "缺页B超单被咖啡洇湿，男主误以为孩子没了。",
+      "reusable_fact": "产检误会要通过缺页、污损、遮挡制造短时错判，随后由完整报告解除。"
+    },
+    {
+      "chapter": 8,
+      "hook": "管家称男主为少爷，并宣布资产冻结，破产修表匠身份反转。",
+      "reusable_fact": "身份反差爆发适合放在情绪低点后，用外部角色称谓直接砸出真实阶层。"
+    },
+    {
+      "chapter": 12,
+      "hook": "怀表夹层掉出女主三年前写的蜂蜜水便利贴，白月光伪命题反转为女主本人。",
+      "reusable_fact": "白月光反转最有效的证据是旧物夹层里的女主痕迹，能同时回收旧照、怀表、救命恩情。"
+    },
+    {
+      "chapter": 14,
+      "hook": "产后男主先问女主疼不疼，再看孩子，回收电梯口“疼不疼”的情绪锚点。",
+      "reusable_fact": "甜宠收尾要让男主先选择女主，再选择孩子，避免孩子替代情感修复。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "card": "登机牌从离婚协议里滑出，男主阻拦女主看背面红章。",
+      "bait_type": "white_moonlight_evidence"
+    },
+    {
+      "chapter": 5,
+      "card": "产检袋露出“妇产科”，男主终于看见女主怀孕线索。",
+      "bait_type": "pregnancy_exposure"
+    },
+    {
+      "chapter": 7,
+      "card": "男主确认孩子还在后急火攻心倒下，血滴在皱掉的B超单上。",
+      "bait_type": "emotional_collapse"
+    },
+    {
+      "chapter": 8,
+      "card": "裴家管家登场，资产冻结，门外一整排黑伞逼近病房。",
+      "bait_type": "hidden_identity"
+    },
+    {
+      "chapter": 10,
+      "card": "裴家会客厅把女主名字圈进继承席位名单，孩子被各方盯上。",
+      "bait_type": "family_power_game"
+    },
+    {
+      "chapter": 12,
+      "card": "怀表暗扣打开，掉出的不是婚约，而是女主三年前的便利贴。",
+      "bait_type": "core_truth_reversal"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "开局离婚",
+    "孕八周",
+    "弹幕",
+    "白月光误会",
+    "登机牌证据",
+    "修表铺",
+    "酸梅糖",
+    "缺页B超单",
+    "急火攻心",
+    "隐藏少爷身份",
+    "裴家继承权",
+    "怀表夹层",
+    "便利贴反转",
+    "先问老婆疼不疼",
+    "复婚追妻"
+  ],
+  "manual_revision_delta": []
+}

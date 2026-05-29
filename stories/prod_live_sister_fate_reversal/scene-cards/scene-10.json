@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 900,
+  "target_chars_max": 1150,
+  "location": "法医办公室、林家客厅",
+  "time": "第四天傍晚",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "法医",
+    "林父",
+    "林母",
+    "林知夏",
+    "陆明砚"
+  ],
+  "character_goal": "晚萤想看见本可救回的事实被说出口。",
+  "opposition_goal": "父母想把责任推给系统提示、顾问建议和意外跌倒。",
+  "conflict_action": "法医递出报告，知夏摊开门禁日志逐条念出父母靠近又离开的时间；陆明砚播放自己那条明天补偿的语音。",
+  "information_gap": "家人第一次知道晚萤不是立刻死去，她等过他们。",
+  "emotional_debt_delta": 5,
+  "payoff_or_hook": "可救未救债引爆，悔悟不可逆。",
+  "chapter_end_hook": "尸检报告递到林母手里，第一行结论写着：早期送医有存活可能。",
+  "paywall_card": true,
+  "must_include": [
+    "早期送医有存活可能",
+    "门禁日志逐条念出",
+    "父母靠近又离开",
+    "陆明砚语音反噬",
+    "系统不能替父母背责"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让法医煽情演讲",
+    "不要让父母用苦衷抵消责任",
+    "不要把报告写成模糊说法",
+    "不要让姐姐承担主要罪责"
+  ]
+}

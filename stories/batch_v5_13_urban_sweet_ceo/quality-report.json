@@ -1,0 +1,17 @@
+{
+  "story_id": "batch_v5_13_urban_sweet_ceo",
+  "title": "他在婚礼上跪着叫我恩人，我把他偷拍的视频投到了大屏幕上",
+  "source_slug": "hot_ca3b512382",
+  "genre": "urban_sweet_ceo",
+  "pipeline": "v5_structure_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10014, "range": [10000, 14000], "status": "pass"},
+    "rhythm_metrics": {"avg_line_chars": 21.982, "long_line_rate": 0.0022, "question_marks_per_k": 4.026, "status": "pass"},
+    "structure_metrics": {"impact_density": 7.39, "watermark_count": 6, "gate_status": "pass"},
+    "source_overlap": {"max_continuous_overlap_chars": 11, "status": "pass"},
+    "meta_leak": {"count": 0, "status": "pass"},
+    "ai_forbidden_words": {"count": 0, "status": "pass"}
+  },
+  "overall_status": "PASS",
+  "timestamp": "2026-05-27T00:00:00Z"
+}

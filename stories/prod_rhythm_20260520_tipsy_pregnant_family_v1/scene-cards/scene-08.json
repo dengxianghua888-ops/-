@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "医院门口与出租车内",
+  "time": "午后",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想问清旧戏照、转账、离婚和孩子误会之间的关系",
+  "opposition_goal": "陆砚辞想先把她送回家休息，继续压住陆家身份",
+  "conflict_action": "温瓷把旧戏照、工资转账和B超单依次摆给陆砚辞，要求他逐条回答",
+  "information_gap": "陆砚辞只承认离婚不是不爱，弹幕泄露陆家姓氏后卡顿",
+  "emotional_debt_delta": "替身债松动，身份债正式建立",
+  "payoff_or_hook": "温瓷主动追问，不再只被弹幕带着走",
+  "chapter_end_hook": "弹幕刷到【百年梨园陆家继承——】时，屏幕忽然黑了。",
+  "paywall_card": true,
+  "must_include": [
+    "旧戏照",
+    "工资转账",
+    "B超单",
+    "温瓷逐条追问",
+    "弹幕黑屏卡身份"
+  ],
+  "must_not_write_as_exposition": [
+    "不要一次性讲清陆家身份",
+    "不要让弹幕变旁白说明书",
+    "不要写出租车长段沉默内心戏"
+  ],
+  "rhythm_job": "3个证据连摆+3问3避+章尾身份关键词黑屏卡点"
+}

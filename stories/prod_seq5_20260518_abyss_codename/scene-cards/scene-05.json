@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "B312宿舍",
+  "time": "第二天深夜",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "蒋晴"
+  ],
+  "character_goal": "试探蒋晴是否主动藏匿名单。",
+  "opposition_goal": "蒋晴想翻林雾物品确认她掌握了多少线索。",
+  "conflict_action": "林雾假装睡着，提前在柜门夹一根头发定位，蒋晴开柜时头发落地，林雾按亮台灯堵住她并搜出枕头下旧乘客名单。",
+  "information_gap": "旧名单第四栏空白，像是在给下一名受害者预留位置。",
+  "emotional_debt_delta": "宿舍安全债加深，蒋晴从嫌疑人变成危险中的嫌疑人。",
+  "payoff_or_hook": "林雾证明蒋晴在夜里接触过她的物品。",
+  "chapter_end_hook": "名单第四栏没有名字，只有一个手写的B312。",
+  "paywall_card": false,
+  "must_include": [
+    "头发定位柜门",
+    "蒋晴翻柜",
+    "旧乘客名单",
+    "第四栏空白"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成寝室吵架",
+    "不要让蒋晴直接解释名单",
+    "不要用回忆替代现场对峙"
+  ]
+}

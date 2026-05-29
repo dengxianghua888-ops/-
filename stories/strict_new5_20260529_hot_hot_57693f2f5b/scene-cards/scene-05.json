@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 720,
+  "target_chars_max": 830,
+  "location": "社区活动室夜间",
+  "time": "沈昭离开后一周深夜",
+  "pov": "有限第三人称，贴近赵慧",
+  "characters": [
+    "赵慧",
+    "许曼",
+    "值班保安",
+    "许知知"
+  ],
+  "character_goal": "赵慧维持自己接手药箱后的正义形象，不让物业发现她保管失控。",
+  "opposition_goal": "许曼要进入活动室处理药箱，并为后续哭诉留现场。",
+  "conflict_action": "许曼借口取东西让保安开门，赵慧第二天才发现低温柜显示异常。",
+  "information_gap": "只写低温柜暗掉和许曼离开，不直接写拔插头真相。",
+  "emotional_debt_delta": "前世事故重演，但责任链已经离开沈昭。",
+  "payoff_or_hook": "活动室低温柜失效，赵慧开始慌乱。",
+  "chapter_end_hook": "活动室的灯灭了，低温柜显示屏暗成一块黑玻璃。",
+  "paywall_card": false,
+  "must_include": [
+    "保安登记本上出现许曼名字",
+    "低温柜显示屏暗掉",
+    "赵慧发给许曼的未接语音"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写抢救细节",
+    "不要渲染许知知痛苦",
+    "不要说明许曼动机"
+  ],
+  "rhythm_job": {
+    "shape": "夜间动作推进，少对白；动作约五成，短对白两成，悬念留白两成，呼吸停顿一成。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

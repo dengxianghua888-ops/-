@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "target_chars_min": 573,
+  "target_chars_max": 773,
+  "location": "林照茶厂打包车间",
+  "time": "一周后清晨",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "茶厂工人",
+    "林照姐姐",
+    "平台质检复核员",
+    "新客户"
+  ],
+  "character_goal": "林照把热度转成真实订单，同时守住检测、溯源和保真底线。",
+  "opposition_goal": "流量商家想让林照夸大“两千万茶王”噱头，借事件炒高价格。",
+  "conflict_action": "林照拒绝虚假宣传，要求每箱茶贴溯源码、检测报告和批次卡，再带工人连夜打包发货。",
+  "information_gap": "林照是否会被流量裹挟，还是坚持普通小厂的真实生意。",
+  "emotional_debt_delta": "最终释放完成：抓人、退款、整改、恢复经营、爆单同时落地。",
+  "payoff_or_hook": "茶厂以“算法认证茶王同款，不保价，只保真”完成爽点外溢。",
+  "chapter_end_hook": "林照重新打开茶厂大门，下一批货箱贴上新标签：算法认证茶王同款，不保价，只保真。",
+  "paywall_card": true,
+  "must_include": [
+    "打包车间恢复开工",
+    "溯源码",
+    "检测报告",
+    "批次卡",
+    "拒绝虚假宣传",
+    "算法认证茶王同款，不保价，只保真"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林照变成流量骗子",
+    "不要把结尾只写成订单数字",
+    "不要忘记小厂工人和家人债务的回收"
+  ]
+}

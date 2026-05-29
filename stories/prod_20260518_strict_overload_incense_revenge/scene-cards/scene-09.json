@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "主角出租屋",
+  "time": "深夜",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "周骁",
+    "律师函",
+    "药监调查员"
+  ],
+  "character_goal": "应对三十万冷链货损索赔，把律师函反转成周骁认领货物的压力。",
+  "opposition_goal": "周骁用律师函、征信威胁和停号压力逼她撤举报。",
+  "conflict_action": "主角逐页拍下律师函，把装车视频、拒补单录音、药监封存回执打包发送给调查员。",
+  "information_gap": "周骁在律师函中既称货物属于公司，又回避两箱没有派单的事实。",
+  "emotional_debt_delta": "金钱债升级到30万，主角以证据稳住反击节奏。",
+  "payoff_or_hook": "律师函成为周骁是否认领两箱的死环入口。",
+  "chapter_end_hook": "周骁拿三十万律师函压我，我把装车视频发给了办案人。",
+  "paywall_card": false,
+  "must_include": [
+    "三十万索赔",
+    "征信威胁",
+    "装车视频打包",
+    "拒补单录音",
+    "药监封存回执",
+    "主角没有删任何记录"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让律师函自动失效",
+    "不要写主角靠网上舆论翻盘",
+    "不要让主角心软撤回举报"
+  ]
+}

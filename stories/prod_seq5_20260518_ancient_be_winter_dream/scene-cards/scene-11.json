@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 640,
+  "target_chars_max": 800,
+  "location": "纪家老宅与审判署权限大厅",
+  "time": "死亡后第二天上午",
+  "pov": "第一人称灵魂视角，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "纪明棠",
+    "裴砚",
+    "纪家管家",
+    "审判署系统"
+  ],
+  "character_goal": "纪寒舟旁观纪明棠被自己签下的规则反咬。",
+  "opposition_goal": "纪明棠想保住纪家和审判署职位，裴砚想把事故责任推给她。",
+  "conflict_action": "纪明棠刷徽章进入权限大厅失败，裴砚发送豁免令副本，把所有违规仲裁签章指向她。",
+  "information_gap": "纪明棠曾以为豁免令只会压死纪寒舟，现在才发现它也能压垮自己。",
+  "emotional_debt_delta": "亲情偏心开始付出权力代价。",
+  "payoff_or_hook": "裴砚用她维护他的文件反手抛弃她。",
+  "chapter_end_hook": "纪明棠拿着断亲书回纪家，却发现裴砚已经用同一份豁免令切断她的审判署权限。",
+  "paywall_card": false,
+  "must_include": [
+    "审判署徽章刷不开",
+    "裴砚发送豁免令副本",
+    "纪明棠被停权",
+    "断亲书留在她手里"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把姐姐报应写成偶然",
+    "不要让她只哭不承担后果",
+    "不要替她解释成都是为了家族"
+  ]
+}

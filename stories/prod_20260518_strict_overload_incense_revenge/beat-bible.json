@@ -1,0 +1,440 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars_min": 11200,
+    "planned_total_chars_max": 12800
+  },
+  "title": "老板坑我冷链罚六千八，我把两箱针剂送进药监",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "carrier": "四箱派单、六箱实装、车厢摄像头、扫码失败、温控曲线、药监封存抽检",
+      "locked_logic": "周骁承认多出的两箱是自己的，就承认私加无批号针剂并伪造冷链记录；否认，就无权追讨两箱货，也无法证明主角侵占。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "周骁前期用系统四箱压人，主角后期要求他按系统解释两箱来源",
+      "locked_logic": "同一套系统规则先让主角背罚，后让反派在执法询问中无路可退。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "低价冷链单、平台罚款停号、母亲被威胁、药监封存、账本牵连、平台倒戈、法院判决",
+      "locked_logic": "个人货损纠纷必须升级为无证医美针剂链条清算，再回到主角职业入口恢复。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "平台罚单刚弹出来，周骁的电话又打进来。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "我看着签收单上的四箱，把车门重新锁上。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "周骁说，系统只认四箱，我就该替他背锅。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "我没去美容院，直接把车开向药监大楼。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "执法人员贴上封条时，周骁的脸第一次白了。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "平台冻结保证金的短信，比周骁的威胁更冷。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "母亲门口那行红字，把这场纠纷推过了底线。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "检测员合上报告，说那两箱东西没有合法批号。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "周骁拿三十万律师函压我，我把装车视频发给了办案人。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "蒋总的名字，第一次出现在冷链记录里。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "周骁问我想要多少钱，我把录音笔推到桌边。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "药监的人问他：系统四箱，那另外两箱从哪来？"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "平台风控主管终于改口，说我不是违规司机。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "账本里每一条假批号，都能对上周骁的车次。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "判决书念到最后，周骁再也没敢看我。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "我重新启动冷链车，接下第一张干净的年度配送单。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "医药公司装车区到高速入口",
+      "character_goal": "接下低价四箱冷链单并保住当月流水。",
+      "conflict_action": "周骁临时把六箱推上车，拒绝补单，平台半路弹出重量与温控异常罚款。",
+      "information_gap": "多出的两箱没有扫码成功，外箱批号被贴纸遮住。",
+      "emotion_debt_balance": "金钱债+6800罚款，尊严债+女司机羞辱，规则债+系统四箱压责。",
+      "chapter_end_hook": "平台罚单刚弹出来，周骁的电话又打进来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让主角先吵架",
+        "不能省略前300字四连击"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "社区诊所卸货点",
+      "character_goal": "按派单签收单交付四箱合规货。",
+      "conflict_action": "蒋总催她把剩下两箱送去私人美容院，周骁命令她别看箱码。",
+      "information_gap": "蒋总不愿在系统签收，催货地址也不在派单路线内。",
+      "emotion_debt_balance": "规则债增加，生计债埋下，主角确认两箱越过派单边界。",
+      "chapter_end_hook": "我看着签收单上的四箱，把车门重新锁上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成主角私吞",
+        "不能描写针剂用途",
+        "不能把美容院写成合法签收点"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "冷链车驾驶室",
+      "character_goal": "让周骁补派单或书面确认额外两箱。",
+      "conflict_action": "周骁在电话里用派单协议羞辱她，并要求她承担罚款继续送货。",
+      "information_gap": "周骁只敢口头命令，不愿留下补充单据。",
+      "emotion_debt_balance": "尊严债加重，规则债形成可回收金句。",
+      "chapter_end_hook": "周骁说，系统只认四箱，我就该替他背锅。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "反派必须用具体规则压人",
+        "主角不能长篇讲道理",
+        "不能弱化性别羞辱"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "路口与药监部门门前",
+      "character_goal": "保全两箱货和全程冷链证据。",
+      "conflict_action": "主角拔下车厢摄像头备份卡，绕过美容院，把车开进药监部门实名举报。",
+      "information_gap": "两箱是否违规尚未鉴定，但箱码异常和扫码失败足够启动封存。",
+      "emotion_debt_balance": "主角首次偿还规则债，反派追货压力升级。",
+      "chapter_end_hook": "我没去美容院，直接把车开向药监大楼。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让主角拆箱",
+        "不能让主角勒索反派",
+        "必须卡在举报前后强钩子"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "药监部门受理窗口与封存区",
+      "character_goal": "提交派单、温控曲线、扫码记录和装车视频。",
+      "conflict_action": "执法人员现场封存两箱，周骁赶到抢夺箱子被拦下。",
+      "information_gap": "周骁不敢说明两箱来源，只反复说这是公司货损。",
+      "emotion_debt_balance": "规则债开始反噬，尊严债出现第一层回收。",
+      "chapter_end_hook": "执法人员贴上封条时，周骁的脸第一次白了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写执法人员秒判",
+        "不能让周骁当场认罪",
+        "封存动作必须具体"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "平台申诉页面与司机群",
+      "character_goal": "申诉罚款并保住冷链账号。",
+      "conflict_action": "平台驳回申诉，冻结保证金，司机群传播周骁放出的偷货截图。",
+      "information_gap": "平台只看重量异常和客户投诉，暂未读取药监封存回执。",
+      "emotion_debt_balance": "生计债+停号，尊严债+群聊污名，金钱债+保证金冻结。",
+      "chapter_end_hook": "平台冻结保证金的短信，比周骁的威胁更冷。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把平台写成万能反派",
+        "必须体现错误风控",
+        "不能让主角靠哭诉申诉"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "母亲社区摊位门口",
+      "character_goal": "保护母亲并固定威胁证据。",
+      "conflict_action": "周骁的人在母亲摊位泼红字、拍视频造谣，主角报警并拍下车牌。",
+      "information_gap": "泼字者是否受周骁指使，需要录音和转账证据补上。",
+      "emotion_debt_balance": "家人债爆发，反派越过职业纠纷底线。",
+      "chapter_end_hook": "母亲门口那行红字，把这场纠纷推过了底线。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写血腥暴力",
+        "不能让母亲替主角求和",
+        "必须保留报警取证"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "药监检测沟通室",
+      "character_goal": "确认两箱货的监管性质并追加证据。",
+      "conflict_action": "检测人员出具初步异常说明，要求主角补交完整温控数据和装车源视频。",
+      "information_gap": "无批号结果已露出，但背后批号套用链还未查明。",
+      "emotion_debt_balance": "规则债大幅回收，黑货真相引爆新风险。",
+      "chapter_end_hook": "检测员合上报告，说那两箱东西没有合法批号。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写具体药效和剂量",
+        "不能写当天判刑",
+        "必须用初检和补证推进"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "主角出租屋与律师函页面",
+      "character_goal": "应对三十万索赔并把压力转成证据。",
+      "conflict_action": "周骁发律师函索赔冷链货损，主角把装车视频、拒补单录音和药监回执打包提交。",
+      "information_gap": "周骁是否敢在书面材料里承认两箱归属，成为下一步死环。",
+      "emotion_debt_balance": "金钱债升级到30万，主角用证据止住恐慌。",
+      "chapter_end_hook": "周骁拿三十万律师函压我，我把装车视频发给了办案人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写法律秒赢",
+        "不能让主角情绪崩溃",
+        "律师函必须成为证据压力"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "平台后台申诉电话与药监调查室",
+      "character_goal": "把私人美容院交货压力纳入证据链。",
+      "conflict_action": "主角提交蒋总催货短信和偏航路线要求，调查员调取冷链轨迹。",
+      "information_gap": "蒋总与周骁的交易关系未完全坐实。",
+      "emotion_debt_balance": "个人纠纷升级为机构牵连，生计债等待平台复核。",
+      "chapter_end_hook": "蒋总的名字，第一次出现在冷链记录里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能污名化正规医美",
+        "不能写购买渠道",
+        "必须限定为私人违规机构"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "停车场与车内录音场景",
+      "character_goal": "固定周骁私了、恐吓和指使痕迹。",
+      "conflict_action": "周骁带现金袋堵车门，要主角撤举报并改口，主角开着录音拒收。",
+      "information_gap": "周骁口头提到上家和假批号，但还差账本证据。",
+      "emotion_debt_balance": "尊严债回收一半，刑事恐吓证据入链。",
+      "chapter_end_hook": "周骁问我想要多少钱，我把录音笔推到桌边。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "主角不能收钱",
+        "不能接受私了",
+        "反派求饶只能增加证据"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "药监询问室",
+      "character_goal": "用四箱系统边界锁死周骁。",
+      "conflict_action": "调查员当面核对四箱派单和六箱视频，主角用周骁原话要求他解释额外两箱。",
+      "information_gap": "周骁承认则牵出非法经营，否认则失去追货和索赔基础。",
+      "emotion_debt_balance": "规则债强偿还，金句回旋完成。",
+      "chapter_end_hook": "药监的人问他：系统四箱，那另外两箱从哪来？",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "必须有原句回旋",
+        "不能写成吵赢",
+        "不能让主角越界审问"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "冷链平台复核会议线上",
+      "character_goal": "撤销罚款、解封账号、追回保证金。",
+      "conflict_action": "主角提交药监受理和询问记录，平台风控主管当场撤回偷货判责。",
+      "information_gap": "平台审核漏洞涉及多少同类订单尚未公开。",
+      "emotion_debt_balance": "生计债开始偿还，尊严债通过平台改口回收。",
+      "chapter_end_hook": "平台风控主管终于改口，说我不是违规司机。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让平台无条件洗白",
+        "必须有纠错动作",
+        "不能跳过申诉材料"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "周骁公司库房与调查通报节点",
+      "character_goal": "配合调查补全装车链条。",
+      "conflict_action": "执法人员根据主角视频查库房，起出批号套用账本和多次伪造冷链记录。",
+      "information_gap": "案件从行政调查移交刑事前，涉案数量和金额仍需核算。",
+      "emotion_debt_balance": "黑账爆出，行业清算兑现，反派崩塌。",
+      "chapter_end_hook": "账本里每一条假批号，都能对上周骁的车次。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写搜查不走程序",
+        "不能描写针剂流通方法",
+        "必须保持证据递进"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "法院与社区摊位",
+      "character_goal": "见证判决并替母亲正名。",
+      "conflict_action": "法院宣判相关责任，平台和社区公告澄清，主角回去擦掉母亲门口红字。",
+      "information_gap": "职业恢复后的新单尚未落地，主角是否还能继续跑冷链留作尾钩。",
+      "emotion_debt_balance": "家人债偿还，尊严债偿还，规则债完成闭环。",
+      "chapter_end_hook": "判决书念到最后，周骁再也没敢看我。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让反派良心发现",
+        "不能让主角接受求情",
+        "判决必须是流程结果"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "冷链车站台与新客户仓库",
+      "character_goal": "拿回职业入口并继续上路。",
+      "conflict_action": "平台返还保证金并推荐年度合规配送单，主角检查温控仪后发车。",
+      "information_gap": "没有新仇，只保留职业路继续往前的硬收束。",
+      "emotion_debt_balance": "金钱债、生计债、尊严债全部落地偿还。",
+      "chapter_end_hook": "我重新启动冷链车，接下第一张干净的年度配送单。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写鸡汤长结尾",
+        "不能写暴富逆袭",
+        "必须落到职业动作"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 16,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "required_debt_payoffs": [
+      "罚款撤销",
+      "保证金返还",
+      "账号解封",
+      "母亲正名",
+      "周骁被官方清算",
+      "年度合规配送单落地"
+    ],
+    "forbidden_global": [
+      "不得让主角私吞、拆封、转卖针剂",
+      "不得让主角靠贵人空降解决",
+      "不得写药品使用方法、剂量、疗效或购买渠道",
+      "不得让主角撤案和解",
+      "不得把正规医药冷链和正规医美行业整体污名化"
+    ]
+  }
+}

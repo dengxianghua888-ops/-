@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 760,
+  "target_chars_max": 800,
+  "location": "汽修厂办公室",
+  "time": "主线时间线 第4节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "赵卫东",
+    "陈志国"
+  ],
+  "character_goal": "拿到合格章把车开走",
+  "opposition_goal": "用红章里的‘报废’字样把张磊钉死在死环",
+  "conflict_action": "赵卫东把红章纸推过来，我盯着抬头一行字读了两遍：D级强制报废，安全整改完成。我说我交的是整改费不是报废费，他冷笑说系统就这么走流程。",
+  "information_gap": "整改费收据和报废通知绑成同一张纸，构成死环",
+  "emotional_debt_delta": "死环债",
+  "payoff_or_hook": "我把红章捏在手里，指甲掐进纸背：这是死环。",
+  "chapter_end_hook": "我把红章捏在手里，指甲掐进纸背：这是死环。",
+  "paywall_card": false,
+  "must_include": [
+    "红章抬头两行字",
+    "死环宣告",
+    "指甲掐进纸背",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

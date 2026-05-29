@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "B18",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "新星域军政世家餐厅",
+  "time": "新生第一天清晨",
+  "pov": "第一人称，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "新星域父亲",
+    "新星域母亲",
+    "家庭医生",
+    "管家"
+  ],
+  "character_goal": "纪寒舟接收完整身体、护短父母和具体的新生活。",
+  "opposition_goal": "旧创伤让他一时不敢相信热闹和关心是真的。",
+  "conflict_action": "他在修复后的身体里醒来，新父母推门检查报告，把热汤、继承徽章和护短宣言一起塞到他面前。",
+  "information_gap": "没有未解阴谋，落点转为补偿兑现。",
+  "emotional_debt_delta": "身体补偿、亲情补偿、生活补偿全部落地。",
+  "payoff_or_hook": "最终情绪释放：以前欠他的热闹生活，新世界直接给到手里。",
+  "chapter_end_hook": "新父亲把热汤塞进他手里，说谁再敢让他受委屈，就先过新纪家的门。",
+  "paywall_card": false,
+  "must_include": [
+    "完整身体检查报告",
+    "护短父母",
+    "热汤和餐桌烟火气",
+    "继承徽章",
+    "纪寒舟确认这不是幻觉"
+  ],
+  "must_not_write_as_exposition": [
+    "不要抽象写幸福",
+    "不要让旧世界人物再出现纠缠",
+    "不要用原谅作为结尾"
+  ]
+}

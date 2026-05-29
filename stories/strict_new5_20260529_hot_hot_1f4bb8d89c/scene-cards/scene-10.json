@@ -1,0 +1,52 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 900,
+  "target_chars_max": 1120,
+  "location": "会所地下车库",
+  "time": "调查组进场前夜",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "许知微",
+    "司机"
+  ],
+  "character_goal": "沈听澜要让江砚舟的两头挽回暴露成占有欲。",
+  "opposition_goal": "江砚舟要先稳住许知微，再逼沈听澜撤投诉。",
+  "conflict_action": "江砚舟先把补偿协议塞给许知微，又转身追沈听澜上车，沈听澜外放冷柜原话录音。",
+  "information_gap": "江砚舟仍以为两个女人至少会有一个心软。",
+  "emotional_debt_delta": {
+    "added": [
+      "两头挽回羞辱债"
+    ],
+    "paid": [
+      "冷柜名言回敬",
+      "许知微拉黑江砚舟"
+    ]
+  },
+  "payoff_or_hook": "江砚舟不是深情失控，而是失去被仰望的位置。",
+  "chapter_end_hook": "截断句：他的手机亮了一下，许知微已拒收你的消息。",
+  "paywall_card": false,
+  "must_include": [
+    "补偿协议",
+    "沈听澜回敬：这台冷柜留给你吧",
+    "许知微删除合照或拉黑动作",
+    "车库灯光不要写恐怖氛围"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写暴力拖拽",
+    "不要让江砚舟深情独白",
+    "不要解释许知微所有心理"
+  ],
+  "rhythm_job": {
+    "shape": "车库拦截，录音回敬，拉黑提示截章",
+    "dialogue_action_breathing_ratio": "对白约48%，动作约37%，呼吸点约15%",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用许知微低头删合照和车门轻响承接冲突",
+    "chapter_tail_action": "拒收提示亮在江砚舟屏幕上"
+  }
+}

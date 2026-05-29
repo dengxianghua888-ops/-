@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 653,
+  "target_chars_max": 653,
+  "location": "康复中心办公室",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "保存证据不保存旧爱",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "又到结婚纪念日那天，我收到一封没有署名的信。  信封里没有求复合，也没有解释，只有一",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "档案债",
+  "payoff_or_hook": "窗外阳光落在扶栏上，那枚由婚戒熔成的铆钉亮了一下。",
+  "chapter_end_hook": "窗外阳光落在扶栏上，那枚由婚戒熔成的铆钉亮了一下。",
+  "paywall_card": true,
+  "must_include": [
+    "保存证据不保存旧爱",
+    "档案债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

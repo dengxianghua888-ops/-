@@ -1,0 +1,38 @@
+{
+  "story": "stories/prod_seq5_20260518_ancient_be_winter_dream",
+  "overall_score": 9.58,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 12679,章节方差 34.8"
+    },
+    "hook_density": {
+      "score": 8.33,
+      "evidence": "15/18 强钩,弱钩章: ch01,ch04,ch14",
+      "weak_chapters": [
+        "ch01",
+        "ch04",
+        "ch14"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 24.844/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 12.737,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

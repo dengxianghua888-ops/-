@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "江边公寓玄关",
+  "time": "同夜",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "弹幕"
+  ],
+  "character_goal": "温漾想确认协议为什么把公寓和存款都给她",
+  "opposition_goal": "裴时砚想压住情绪，尽快让她签字离开",
+  "conflict_action": "温漾翻协议，裴时砚按住最后一页，她从夹缝里抽出陌生女人的登机牌",
+  "information_gap": "登机牌是不是沈知遥的，裴时砚为什么不解释",
+  "emotional_debt_delta": "+替身误会债，+隐瞒保护债",
+  "payoff_or_hook": "优厚协议埋保护伏笔，登机牌制造白月光误会",
+  "chapter_end_hook": "截断动作：登机牌从最后一页滑出来，落在她拖鞋边。",
+  "paywall_card": false,
+  "must_include": [
+    "协议条款只用物件点到为止",
+    "裴时砚手指发抖",
+    "登机牌",
+    "弹幕吐槽不要签"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述协议条款",
+    "不要解释财产隔离",
+    "不要连续写女主自怜"
+  ],
+  "rhythm_job": {
+    "shape": "翻页动作推进；对白约32%，动作约40%，弹幕/吐槽约16%，呼吸点约12%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 4,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用温漾认真数协议页数缓冲误会"
+  }
+}

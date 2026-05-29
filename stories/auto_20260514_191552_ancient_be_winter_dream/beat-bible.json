@@ -1,0 +1,324 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260514_191552_ancient_be_winter_dream",
+  "title": "漱玉九殇·骨肉成灰",
+  "genre": "ancient_BE",
+  "target_length": {
+    "min": 10000,
+    "max": 15000,
+    "sweet_spot": [
+      11000,
+      13500
+    ]
+  },
+  "emotion_curve_shape": "U 型 + 补偿尾",
+  "u_curve": {
+    "valley_beats": [
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "compensation_beats": [
+      "B17"
+    ]
+  },
+  "mechanisms_used": [
+    "M4",
+    "M5",
+    "M8"
+  ],
+  "beats": [
+    {
+      "beat_id": "B1",
+      "beat_label": "Hook 暴击",
+      "scene_location": "礼安王府正堂",
+      "character_goal": "保住第九胎尸身、为亲子讨血债",
+      "conflict_action": "漱玉与谢明姝同时压制，迫主角签断亲血书",
+      "information_gap": "卜骨爻辞实为玉佩声机簧伪作",
+      "emotion_debt_balance": "+错付债·开局",
+      "chapter_end_hook": "\"夫君真是体己。\"漱玉吻额额",
+      "paywall_card": false,
+      "target_chars_max": 480,
+      "target_chars_min": 200,
+      "forbidden_summary": [
+        "禁现代医院/系统词",
+        "禁直白说'被骗'",
+        "禁血腥具象"
+      ]
+    },
+    {
+      "beat_id": "B2",
+      "beat_label": "极限施压",
+      "scene_location": "礼安王府正堂",
+      "character_goal": "拒签,要送萧迟下狱",
+      "conflict_action": "谢明姝撞柱要挟、漱玉护反派",
+      "information_gap": "国师卜骨设定释放,读者尚信其真",
+      "emotion_debt_balance": "+道德绑架链",
+      "chapter_end_hook": "'梓轩是天命福星'",
+      "paywall_card": false,
+      "target_chars_max": 460,
+      "target_chars_min": 380,
+      "forbidden_summary": [
+        "禁现代法律词",
+        "禁'重生''金手指'"
+      ]
+    },
+    {
+      "beat_id": "B3",
+      "beat_label": "主角妥协",
+      "scene_location": "礼安王府正堂",
+      "character_goal": "签下血书,沉默屈从",
+      "conflict_action": "卜骨爻辞倒计时启动",
+      "information_gap": "M4 灵魂线伏笔:'气数倒数'",
+      "emotion_debt_balance": "+主角自我抹除",
+      "chapter_end_hook": "'凶星不去,宿主气数倒数'",
+      "paywall_card": false,
+      "target_chars_max": 380,
+      "target_chars_min": 220,
+      "forbidden_summary": [
+        "禁内心解释",
+        "禁现代倒计时器具"
+      ]
+    },
+    {
+      "beat_id": "B4",
+      "beat_label": "温度反转",
+      "scene_location": "礼安王府正堂",
+      "character_goal": "想一个人静一静",
+      "conflict_action": "漱玉俯身吻额'夫君真是体己'",
+      "information_gap": "M5 第一次温度反转,读者寒意峰值",
+      "emotion_debt_balance": "+错付债·峰值一",
+      "chapter_end_hook": "'我就知道你是最顾全大局的'",
+      "paywall_card": true,
+      "target_chars_max": 360,
+      "target_chars_min": 220,
+      "forbidden_summary": [
+        "禁解释为什么这样做",
+        "禁现代心理学词"
+      ]
+    },
+    {
+      "beat_id": "B5",
+      "beat_label": "加害升级·骨髓",
+      "scene_location": "礼安王府内堂",
+      "character_goal": "护住自己活骨髓",
+      "conflict_action": "谢明姝甩耳光、漱玉强按",
+      "information_gap": "院判'同源至亲心头血与活骨髓压凶气'",
+      "emotion_debt_balance": "+器官债·一",
+      "chapter_end_hook": "'你一个堂堂男儿,少二两骨血又死不了'",
+      "paywall_card": false,
+      "target_chars_max": 600,
+      "target_chars_min": 400,
+      "forbidden_summary": [
+        "禁血腥解剖细节",
+        "禁现代医学"
+      ]
+    },
+    {
+      "beat_id": "B6",
+      "beat_label": "加害升级·胚胎",
+      "scene_location": "礼安王府内堂",
+      "character_goal": "保住第九胎尸身与冰封八胎",
+      "conflict_action": "漱玉冷令熬制九胎合炼血参丸",
+      "information_gap": "九胎全是漱玉为萧迟主动堕掉,主角未知",
+      "emotion_debt_balance": "+器官债·二",
+      "chapter_end_hook": "'九个加在一起融合提纯'",
+      "paywall_card": true,
+      "target_chars_max": 700,
+      "target_chars_min": 500,
+      "forbidden_summary": [
+        "禁直接出现'流产手术'",
+        "禁血腥具象"
+      ]
+    },
+    {
+      "beat_id": "B7",
+      "beat_label": "心头血穿刺",
+      "scene_location": "礼安王府内堂(取血石榻)",
+      "character_goal": "撑过取心头血、不当场气绝",
+      "conflict_action": "粗银针扎入胸骨、主角拔针反扑",
+      "information_gap": "漱玉以'沈氏良田铺面'作'抚恤'",
+      "emotion_debt_balance": "+羞辱债·一",
+      "chapter_end_hook": "'抽不死,就往死里抽'",
+      "paywall_card": false,
+      "target_chars_max": 540,
+      "target_chars_min": 360,
+      "forbidden_summary": [
+        "禁现代手术词",
+        "禁内心独白解释"
+      ]
+    },
+    {
+      "beat_id": "B8",
+      "beat_label": "自插心脏",
+      "scene_location": "礼安王府廊柱下",
+      "character_goal": "用最决绝的死把命还回去",
+      "conflict_action": "反握成礼玉笄,笄尖刺心",
+      "information_gap": "M5 谷底+M4 触发",
+      "emotion_debt_balance": "+死局债·峰值",
+      "chapter_end_hook": "'何须刺血。我把命还给你们便是。'",
+      "paywall_card": true,
+      "target_chars_max": 480,
+      "target_chars_min": 320,
+      "forbidden_summary": [
+        "禁议论'反抗''复仇'",
+        "禁内心解释决意"
+      ]
+    },
+    {
+      "beat_id": "B9",
+      "beat_label": "灵魂上升",
+      "scene_location": "礼安王府正堂梁上",
+      "character_goal": "(灵)冷眼俯瞰反派失态",
+      "conflict_action": "漱玉踹翻命脉司鼎、咬抬棺人",
+      "information_gap": "M4 视角切换",
+      "emotion_debt_balance": "+视角债·开",
+      "chapter_end_hook": "'殁于申时三刻'",
+      "paywall_card": false,
+      "target_chars_max": 420,
+      "target_chars_min": 280,
+      "forbidden_summary": [
+        "禁说'我已死'",
+        "禁阴阳/鬼怪具象"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "beat_label": "老婆抱尸",
+      "scene_location": "别院寝榻",
+      "character_goal": "(灵)旁观漱玉抱尸亲手擦血",
+      "conflict_action": "漱玉换月白锦袍、暗哨密报回放玉笄断亲画面",
+      "information_gap": "M5 第二次温度反转",
+      "emotion_debt_balance": "+M5 反讽峰值",
+      "chapter_end_hook": "'夫君莫怕,妾身带你回家'",
+      "paywall_card": false,
+      "target_chars_max": 540,
+      "target_chars_min": 380,
+      "forbidden_summary": [
+        "禁现代监控词(用'暗哨密报')",
+        "禁直白控诉"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "beat_label": "老婆调监控",
+      "scene_location": "别院书房",
+      "character_goal": "(灵)看反派分裂前奏",
+      "conflict_action": "漱玉看见玉笄断亲画面,脸色扭曲",
+      "information_gap": "资金链(银路)一夜断绝",
+      "emotion_debt_balance": "+复仇启动",
+      "chapter_end_hook": "暗哨密报回放断亲画面",
+      "paywall_card": false,
+      "target_chars_max": 380,
+      "target_chars_min": 240,
+      "forbidden_summary": [
+        "禁现代金融词(用'银路')",
+        "禁现代法律审判"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "beat_label": "谢家覆灭",
+      "scene_location": "京畿朱雀大街",
+      "character_goal": "(灵)见证加害者反噬·一",
+      "conflict_action": "谢明姝双腿粉碎、沿街乞讨",
+      "information_gap": "谢家私通漕帮证据被沈氏抛出",
+      "emotion_debt_balance": "+羞辱债·二",
+      "chapter_end_hook": "'成了沿街乞讨的乞丐'",
+      "paywall_card": true,
+      "target_chars_max": 460,
+      "target_chars_min": 320,
+      "forbidden_summary": [
+        "禁现代法律审判流程",
+        "禁直接的同情/谴责"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "beat_label": "萧迟自曝",
+      "scene_location": "王府偏院",
+      "character_goal": "(灵)见证伪卜骨真相",
+      "conflict_action": "萧迟向铜镜自白伪卜骨",
+      "information_gap": "M8 终极信息差",
+      "emotion_debt_balance": "+M8 信息债揭穿",
+      "chapter_end_hook": "'全靠这套伪作,我才阉了你'",
+      "paywall_card": false,
+      "target_chars_max": 600,
+      "target_chars_min": 400,
+      "forbidden_summary": [
+        "禁现代电子设备(用'声机簧')",
+        "禁直白讲设定"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "beat_label": "郡主踹门",
+      "scene_location": "王府偏院",
+      "character_goal": "(灵)看反派对决开局",
+      "conflict_action": "漱玉踹门撞破自白、萧迟临场变脸装可怜",
+      "information_gap": "M8 双向道德崩塌",
+      "emotion_debt_balance": "+反派对决开局",
+      "chapter_end_hook": "'梦茹姐,你终于来看我了'",
+      "paywall_card": false,
+      "target_chars_max": 380,
+      "target_chars_min": 240,
+      "forbidden_summary": [
+        "禁议论'反派被报应'",
+        "禁现代家庭伦理词"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "beat_label": "整容成林烨",
+      "scene_location": "紫云楼别馆顶层 / 王府地牢",
+      "character_goal": "(灵)见证镜像清算",
+      "conflict_action": "金针刻刀易容、京畿三十六行行会传影、灌鬼参液烧声带",
+      "information_gap": "暗哨传影替代直播",
+      "emotion_debt_balance": "+羞辱债·三",
+      "chapter_end_hook": "'听好,从今日起,你便是谢长卿'",
+      "paywall_card": true,
+      "target_chars_max": 920,
+      "target_chars_min": 700,
+      "forbidden_summary": [
+        "禁现代手术/直播词",
+        "禁血腥具象"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "beat_label": "双双自毁",
+      "scene_location": "王府地牢 / 王府正寝",
+      "character_goal": "(灵)见证道德模糊收束",
+      "conflict_action": "萧迟用青铜镜片自划脸、漱玉破甲长锯+鹤顶红",
+      "information_gap": "M8 道德模糊收束",
+      "emotion_debt_balance": "+M8 收束",
+      "chapter_end_hook": "'过期的深情连狗屎都不如'",
+      "paywall_card": false,
+      "target_chars_max": 700,
+      "target_chars_min": 500,
+      "forbidden_summary": [
+        "禁议论谁对谁错",
+        "禁现代毒药/医学词"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "beat_label": "平行世界醒",
+      "scene_location": "平行世家闺房",
+      "character_goal": "拒绝灵魂祭献的'圆满',只享回血爽点",
+      "conflict_action": "(灵线已胜,无新对手)",
+      "information_gap": "BE 补偿尾",
+      "emotion_debt_balance": "+补偿债·圆满",
+      "chapter_end_hook": "'变着花样地作威作福'",
+      "paywall_card": false,
+      "target_chars_max": 380,
+      "target_chars_min": 240,
+      "forbidden_summary": [
+        "禁议论道德是非",
+        "禁现代消费品牌"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "都督府前院至岸口",
+  "time": "夜色压港时",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "裴照棠",
+    "裴承骁",
+    "柳闻莺",
+    "都督府众人"
+  ],
+  "character_goal": "借王妃到场压碎都督府气势，并验出毒线来自宫中",
+  "opposition_goal": "裴承骁想继续用都督府和裴家姻亲关系拖延翻盘",
+  "conflict_action": "裴照棠下舟入院，当众掌掴裴承骁生母，命人验药验伤",
+  "information_gap": "裴照棠为什么一眼认出伤口里的黑砂，她和宫中旧案有什么旧识",
+  "emotional_debt_delta": "娘家护短债偿还+4，男主身份债提示+1",
+  "payoff_or_hook": "高位疯批亲娘亲自见血，不做背景板",
+  "chapter_end_hook": "裴照棠捻起黑砂，淡声道：\"这玩意，我在宫里见过。\"",
+  "paywall_card": true,
+  "must_include": [
+    "鎏金海鹘舟登岸压场",
+    "王妃一句贵气又带杀意的判词",
+    "验出黑砂不是民间常见毒"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长写王妃穿戴",
+    "不要解释宫里旧案完整来历",
+    "不要把压场改成纯身份介绍"
+  ],
+  "rhythm_job": {
+    "shape": "先静压场，再一巴掌破局，最后用毒物认知抬高层级",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "诊室外休息室",
+  "time": "第三天下午接续",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "母亲", "父亲", "心理顾问"],
+  "character_goal": "把'弟弟就是我自己'说出口并逼父母承认",
+  "opposition_goal": "母亲还想捂住真相，父亲仍想维持'正常家庭'表面",
+  "conflict_action": "我当众念出改名草稿和自述里的第一句，逼他们回答那是不是我的字",
+  "information_gap": "父母为什么宁可让我死三次，也不肯让我活成真正的自己",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "终极身份真相被主角亲口认领，父母的伤害责任被推上台面",
+  "chapter_end_hook": "母亲死死捂住我的嘴：'别说出口，说出口你爸会疯。'",
+  "paywall_card": false,
+  "must_include": [
+    "主角亲自认领，不由别人代说",
+    "父亲的崩塌要体现为回避与失声，不是咆哮独角戏",
+    "母亲阻止的是'说出口'而不只是'查下去'"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用议题名词讲道理",
+    "不要长篇审判父母",
+    "不要省略主角自己的选择意志"
+  ],
+  "rhythm_job": {
+    "shape": "念自述 25% + 父母失控 40% + 主角确认句 25% + 捂嘴钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "念字时停顿半拍，让字句自己砸下来"
+  }
+}

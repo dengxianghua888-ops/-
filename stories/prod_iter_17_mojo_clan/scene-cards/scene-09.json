@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 665,
+  "target_chars_max": 665,
+  "location": "侯府内室",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "顾明昭",
+    "谢无涯",
+    "谢清宁",
+    "长公主",
+    "镇北王",
+    "楚曜",
+    "楚闻"
+  ],
+  "character_goal": "修复幸存者尊严",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "谢清宁醒来时，天边刚露出一点灰白。  她第一句话不是问楚曜怎样，而是摸着空掉的小腹问",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "幸存债",
+  "payoff_or_hook": "复仇是让该跪的人跪，让活下来的人能重新抬头。",
+  "chapter_end_hook": "复仇是让该跪的人跪，让活下来的人能重新抬头。",
+  "paywall_card": false,
+  "must_include": [
+    "修复幸存者尊严",
+    "幸存债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

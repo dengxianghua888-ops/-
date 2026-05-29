@@ -1,0 +1,82 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "range": "500-1200字/章",
+    "tomato_preferred": "500-800字/章，中位650字",
+    "required": "每章末必须设置钩子",
+    "chapter_count_target": [14, 24]
+  },
+  "hook_policy": {
+    "opening": "前300字必须完成强Hook：女主带惊喜空降，却撞见丈夫牵小三上台官宣高位",
+    "micro_hook_density": "每800-1200字至少1个微钩",
+    "paywall_card_density": "每2500-3500字至少1个付费级卡点",
+    "preferred_hook_types": ["H4身份揭露", "H1强冲突开场", "H3真相倒计时"],
+    "must_have_cards": [
+      "正妻身份当众揭开",
+      "女主新任高管身份揭开",
+      "女主创始股东/控股权身份揭开",
+      "小三履历造假或资源侵占证据曝光",
+      "男主职权被暂停或资产清算启动"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短篇读者",
+      "偏好都市婚恋背叛、职场权力反杀、女强清算的读者",
+      "喜欢开局高羞辱、后续连续打脸和公开处刑的读者"
+    ],
+    "emotion_needs": [
+      "替正妻出气：不哭不闹，当众夺回话语权",
+      "身份反差爽：被低估者逐层亮牌",
+      "秩序清算爽：婚姻背叛、职务滥权、利益输送都付出代价",
+      "事业补偿爽：离开渣男后女主掌权、变强、获得新生"
+    ],
+    "topic_forbidden": [
+      "弱化出轨伤害或让女主轻易原谅",
+      "小三洗白成无辜白月光",
+      "男主悔改后复合",
+      "女主靠新男主拯救完成翻盘",
+      "大段商业术语堆砌、财务审计细节失真",
+      "低俗雌竞替代权力反杀"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formulas": [
+      "瞒着老公空降公司，他牵小三上台官宣，我笑了",
+      "老公让小三当副总，我亮出股权后他慌了",
+      "他在员工大会官宣小三，我当场叫来审计",
+      "我给总裁老公惊喜，却成了他崩盘的开始",
+      "他嫌我碍事，我反手接管他的公司"
+    ],
+    "preferred_formula_types": ["T1强冲突结果前置", "T4身份反差", "T5反杀动作"]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "basis": "前3章连续完成背叛、正妻揭面、高管身份三连爆"
+    },
+    "paywall_points": {
+      "target_score": 9.0,
+      "basis": "每3000字左右设置一次权力升级或证据爆出"
+    },
+    "emotion_release": {
+      "target_score": 9.3,
+      "basis": "羞辱债、背叛债、身份低估债必须逐项偿还"
+    },
+    "ai_flavor": {
+      "target_score": 0.5,
+      "basis": "禁用模板化抒情，保留短句、动作、证据、对话推进"
+    },
+    "blast_density": {
+      "target_score": 9.0,
+      "basis": "每章至少1个冲突点，每2-3章至少1个身份牌或证据牌"
+    }
+  }
+}

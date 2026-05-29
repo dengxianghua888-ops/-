@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "模拟客舱内",
+  "time": "第六天凌晨",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "纪闻",
+    "外围警力",
+    "塔台频道声音"
+  ],
+  "character_goal": "诱导纪闻说出只有操盘者知道的清舱规则并完成抓捕。",
+  "opposition_goal": "纪闻想让林雾承认自己也是异常乘客，以精神压迫瓦解她。",
+  "conflict_action": "纪闻讲述座位映射时，林雾故意报错一个床位编号，诱使他纠正并说出旧案对应关系；随后她指向舱顶录音灯，通知警方收网。",
+  "information_gap": "纪闻被抓，但塔台网络是否断线未知。",
+  "emotional_debt_delta": "低估债、专业碾压债、凶手傲慢债集中偿还。",
+  "payoff_or_hook": "林雾完成核心金句：你以为我是乘客，其实我是记录你罪证的黑匣。",
+  "chapter_end_hook": "她抬头看向舱顶红灯：黑匣已经开了。",
+  "paywall_card": false,
+  "must_include": [
+    "林雾故意报错编号",
+    "纪闻纠正自证",
+    "舱内录音灯",
+    "警方收网"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让纪闻无理由全盘自爆",
+    "不要用主角嘴炮代替证据链",
+    "不要把暴力制服写成主要爽点"
+  ]
+}

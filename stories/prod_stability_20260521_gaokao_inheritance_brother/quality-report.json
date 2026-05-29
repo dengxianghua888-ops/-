@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 7 status=pass",
+    "target_length=10005",
+    "source_rhythm_fit=pass",
+    "action_density_per_k=29.485"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_stability_20260521_gaokao_inheritance_brother/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10005,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        702,
+        580,
+        696,
+        718,
+        664,
+        750,
+        679,
+        706,
+        679,
+        796,
+        692,
+        710,
+        726,
+        774
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 100,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 3,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 17,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10005,
+      "sentence_count": 714,
+      "avg_sentence_length": 13.014,
+      "dialogue_ratio": 0.2731,
+      "question_marks": 71,
+      "question_marks_per_k": 7.096,
+      "physical_emotion_hits": {
+        "指尖": 3,
+        "发麻": 2,
+        "太阳穴": 1,
+        "手心": 3,
+        "后背": 6,
+        "冷汗": 1,
+        "喉咙": 4,
+        "眼眶": 1,
+        "指甲": 1,
+        "掌心": 6
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.485
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 10153,
+        "line_count": 511,
+        "avg_line_chars": 19.869,
+        "median_line_chars": 19.0,
+        "short_line_rate": 0.4012,
+        "long_line_rate": 0.0391,
+        "quote_line_rate": 0.2779,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 5.811
+      },
+      "candidate": {
+        "chars": 9811,
+        "line_count": 522,
+        "avg_line_chars": 18.795,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.4751,
+        "long_line_rate": 0.0249,
+        "quote_line_rate": 0.4291,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 7.237
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 474,
+      "unique_sentence_skeletons": 474,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

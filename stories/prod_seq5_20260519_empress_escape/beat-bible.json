@@ -1,0 +1,471 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 15000
+  },
+  "title": "御马场抢凤玺，我爹替我捡漏了",
+  "genre": "古言甜宠 / 宫廷轻喜 / 先婚后爱",
+  "mechanisms": {
+    "M6": "宠圣女假象、皇后心动、孩子继嗣局、北境假围京四层递进反转",
+    "M5": "怕帝王到治相思，再到热恋、坠谷、放手、主动回宫的温度曲线",
+    "M2": "冷帝是恋爱脑，圣女是盟友，奸夫是少主，捡漏是暗中安排",
+    "M3": "凤玺、苦参蜜丸、宫墙排水渠、旧药囊四个道具前后回旋"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "温照晚被凤玺砸中封后，抬头看见萧珩正盯着她笑了一下。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 850,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "合卺夜萧珩不去圣女宫，却红着眼问她会不会治相思病。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "乌兰珠派人送来挑衅礼，说皇帝今晚一定会去凝霜殿。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 900,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "温照晚撞见乌兰珠与黑衣男人私会，转身却被萧珩捂住嘴。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 850,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "她把苦参蜜丸塞进萧珩嘴里，他却含着药低声说苦也想见她。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 900,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "萧珩半夜从排水渠钻进含章宫，朝服暗扣全被刮断。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 900,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "乌兰珠当众摸着小腹，笑问皇后怕不怕失宠。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 950,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "温照晚替乌兰珠诊脉后发现，她根本没有身孕。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 900,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "萧珩把她抵在药浴屏风后，说这一次不是治病，是求她抱抱。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 950,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "太医跪地报喜，温照晚有孕，萧珩却第一时间看向凝霜殿方向。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 1000,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "乌兰珠告诉她，孩子会暂借圣女之名稳住北境旧部。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 950,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "温照晚问三遍还会不会骗她，萧珩没有一句敢答得干净。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 900,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "她亲手命人封死排水渠，萧珩站在宫门外一夜没有进去。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 950,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "萧珩打开含章宫门，说皇后想走，朕送你走。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 900,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "温父说凤玺台下那只推他的手，分明戴着禁军扳指。"
+    },
+    {
+      "chapter_id": 16,
+      "target_chars": 900,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "长公主旧药囊里掉出萧珩五年前写给她的第一封信。"
+    },
+    {
+      "chapter_id": 17,
+      "target_chars": 950,
+      "scene_range": "scene-17",
+      "chapter_end_hook": "北境军围京急报传来，温照晚摸着肚子上了回宫马车。"
+    },
+    {
+      "chapter_id": 18,
+      "target_chars": 1000,
+      "scene_range": "scene-18",
+      "chapter_end_hook": "乌兰珠当众摘下面纱，宣布北境旧部已入她掌中。"
+    },
+    {
+      "chapter_id": 19,
+      "target_chars": 900,
+      "scene_range": "scene-19",
+      "chapter_end_hook": "温照晚逼萧珩在百官前承认，皇后和孩子都不是棋子。"
+    },
+    {
+      "chapter_id": 20,
+      "target_chars": 850,
+      "scene_range": "scene-20",
+      "chapter_end_hook": "女儿哭声响起，萧珩抱着襁褓问能不能把凤玺给她玩。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars": 850,
+      "scene_location": "御马场凤玺台",
+      "character_goal": "温照晚想把父亲从抢凤玺的人堆里拖出来，避免温家被卷进后位闹剧。",
+      "conflict_action": "百官撕袖抢马鞭，温其正被人潮挤上高台后抱住凤玺滚下，凤玺砸到温照晚怀里。",
+      "information_gap": "萧珩为何用荒唐抢玺定后，温父捡漏是否真是意外。",
+      "emotion_debt_balance": "新增：女主被迫封后、怕帝王；新增：萧珩盯住她的异常眼神。",
+      "chapter_end_hook": "温照晚被凤玺砸中封后，抬头看见萧珩正盯着她笑了一下。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用朝堂背景长解释",
+        "不能把抢凤玺写成严肃血腥政斗",
+        "不能让女主柔弱哭晕"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars": 850,
+      "scene_location": "含章宫新房",
+      "character_goal": "温照晚想装病避开合卺夜，保住小命和出宫机会。",
+      "conflict_action": "她往脸上抹药粉装虚弱，萧珩掀盖头后扣住她手腕请她诊相思病。",
+      "information_gap": "萧珩相思的是乌兰珠，还是另有其人。",
+      "emotion_debt_balance": "偿还一点男主冷帝反差；新增女主误以为他爱惨圣女。",
+      "chapter_end_hook": "合卺夜萧珩不去圣女宫，却红着眼问她会不会治相思病。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成强迫圆房",
+        "不能用现代恋爱脑网络词堆砌",
+        "禁止大段心理独白"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars": 900,
+      "scene_location": "含章宫药房",
+      "character_goal": "温照晚想用药把萧珩送回乌兰珠身边，减少自己被迁怒的风险。",
+      "conflict_action": "她熬苦参蜜丸逼萧珩连吞三颗，萧珩故意喊苦并赖在榻边不走。",
+      "information_gap": "萧珩为何宁愿受苦也不去凝霜殿。",
+      "emotion_debt_balance": "新增喜剧债：苦参蜜丸成为治相思道具；暧昧微升温。",
+      "chapter_end_hook": "乌兰珠派人送来挑衅礼，说皇帝今晚一定会去凝霜殿。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把治病写成医案科普",
+        "不能让萧珩油腻调戏",
+        "必须用动作和对话推进"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars": 900,
+      "scene_location": "凝霜殿后窗",
+      "character_goal": "温照晚想确认圣女是否真受宠，好决定自己何时跑路。",
+      "conflict_action": "她扒窗偷看乌兰珠与黑衣男人牵手低语，被萧珩从背后捂嘴拖进廊影。",
+      "information_gap": "黑衣男人是谁，萧珩是否知道圣女私会。",
+      "emotion_debt_balance": "新增宠妃苟合误会；新增男主吃醋压抑。",
+      "chapter_end_hook": "温照晚撞见乌兰珠与黑衣男人私会，转身却被萧珩捂住嘴。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能提前揭露乌兰珠盟友身份",
+        "不能把乌兰珠写成纯恶毒女配",
+        "不能用旁白解释私会真相"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars": 850,
+      "scene_location": "含章宫偏殿",
+      "character_goal": "温照晚想劝萧珩愤怒抓奸，免得皇帝迁怒她这个旁观者。",
+      "conflict_action": "她递帕子、塞蜜丸、指挥侍卫去敲凝霜殿门，萧珩却把门闩上让她陪自己坐。",
+      "information_gap": "萧珩为何对圣女私会不怒反黏皇后。",
+      "emotion_debt_balance": "偿还宠妃误会一小口：萧珩不像真吃醋；新增他对女主依赖。",
+      "chapter_end_hook": "她把苦参蜜丸塞进萧珩嘴里，他却含着药低声说苦也想见她。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让女主直接猜中真相",
+        "不能削弱女主怕皇帝的反差",
+        "禁止无行动闲聊"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars": 900,
+      "scene_location": "宫墙排水渠与含章宫后院",
+      "character_goal": "温照晚想半夜翻墙逃去药王谷别院探路。",
+      "conflict_action": "她扒开排水渠砖缝钻出半身，正撞见萧珩从另一头钻进来，二人卡在渠口互相拽袖。",
+      "information_gap": "萧珩为何知道排水渠，是否早盯着她逃跑路线。",
+      "emotion_debt_balance": "新增排水渠喜剧道具；关系从怕到能互怼。",
+      "chapter_end_hook": "萧珩半夜从排水渠钻进含章宫，朝服暗扣全被刮断。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把排水渠写脏污恶心",
+        "不能写成男主抓捕女主",
+        "必须保持轻喜身体动作"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars": 900,
+      "scene_location": "御花园赏花宴",
+      "character_goal": "温照晚想在宫宴上降低存在感，等萧珩和乌兰珠公开亲近后顺势请病退。",
+      "conflict_action": "乌兰珠端酒撞她袖口，萧珩替她挡酒，温照晚反手给乌兰珠扎止嗝针。",
+      "information_gap": "乌兰珠当众挑衅到底为争宠，还是在逼温照晚参与某个局。",
+      "emotion_debt_balance": "新增情敌挑衅；萧珩护短让女主心动一小步。",
+      "chapter_end_hook": "乌兰珠当众摸着小腹，笑问皇后怕不怕失宠。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写宫斗长篇阴阳怪气",
+        "不能让乌兰珠抢走主CP戏份",
+        "不能让女主端庄忍气"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars": 950,
+      "scene_location": "凝霜殿内室",
+      "character_goal": "温照晚想替乌兰珠诊脉确认身孕，以免自己被迫替圣女背锅。",
+      "conflict_action": "她按住乌兰珠手腕诊脉，发现脉象造假，乌兰珠却故意打翻药盏引萧珩进门。",
+      "information_gap": "假孕是谁授意，萧珩是否参与。",
+      "emotion_debt_balance": "偿还一层宠妃真相：圣女怀孕是假；新增更大疑问：假孕服务什么局。",
+      "chapter_end_hook": "温照晚替乌兰珠诊脉后发现，她根本没有身孕。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用医学术语解释过多",
+        "不能让真相一次性全掉",
+        "不能把萧珩写成毫无反应的工具人"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars": 900,
+      "scene_location": "含章宫药浴屏风后",
+      "character_goal": "温照晚想逼萧珩说清假孕和圣女私会，却又不想暴露自己心动。",
+      "conflict_action": "她用银针抵住萧珩喉结审问，萧珩抓着她手腕退进药浴桶，水溅湿她袖口。",
+      "information_gap": "萧珩承认在设局，却避开她和孩子相关的核心。",
+      "emotion_debt_balance": "暧昧升温；新增萧珩隐瞒债。",
+      "chapter_end_hook": "萧珩把她抵在药浴屏风后，说这一次不是治病，是求她抱抱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写露骨低俗",
+        "不能让审问变成无底线调情",
+        "必须保留女主主动反撩"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars": 950,
+      "scene_location": "含章宫寝殿",
+      "character_goal": "温照晚想确认自己是否真的愿意留在宫里，而不是被宠爱哄昏头。",
+      "conflict_action": "她主动扯坏萧珩朝服暗扣，逼他说若她想走会不会放人，萧珩亲手把宫门钥匙放进她掌心。",
+      "information_gap": "萧珩给钥匙是真放手，还是为了让她安心入局。",
+      "emotion_debt_balance": "甜度高峰；新增未来背刺落差。",
+      "chapter_end_hook": "太医跪地报喜，温照晚有孕，萧珩却第一时间看向凝霜殿方向。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把怀孕写成绑定女主的奖励",
+        "不能跳过女主选择感",
+        "不能让男主承诺过满无代价"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars": 1000,
+      "scene_location": "凝霜殿佛堂",
+      "character_goal": "温照晚想拿着喜脉消息去试探乌兰珠，确认萧珩是否还在骗她。",
+      "conflict_action": "乌兰珠关上佛堂门，把北境继嗣密函拍到温照晚面前，逼她看见孩子将借圣女之名入局。",
+      "information_gap": "萧珩究竟从何时开始算计她和孩子。",
+      "emotion_debt_balance": "重大新增：信任崩塌；偿还宠妃假象一半：乌兰珠并非单纯争宠。",
+      "chapter_end_hook": "乌兰珠告诉她，孩子会暂借圣女之名稳住北境旧部。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能洗白政治欺骗",
+        "不能把女主写成只担心争宠",
+        "不能让孩子成为工具化叙事"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars": 950,
+      "scene_location": "含章宫正殿",
+      "character_goal": "温照晚想让萧珩当面承认欺骗，并决定是否离宫。",
+      "conflict_action": "她摆出三碗苦参汤连问三句，萧珩喝完两碗后伸手拦她出门，殿门被禁军合上。",
+      "information_gap": "萧珩会选择皇权布局，还是选择尊重她。",
+      "emotion_debt_balance": "新增软禁伤害；男主从恋爱脑跌入错误低谷。",
+      "chapter_end_hook": "温照晚问三遍还会不会骗她，萧珩没有一句敢答得干净。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把软禁浪漫化",
+        "不能让萧珩理直气壮",
+        "不能让女主立刻原谅"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars": 900,
+      "scene_location": "含章宫宫门与排水渠口",
+      "character_goal": "温照晚想划清边界，阻止萧珩继续用亲密和权势堵她。",
+      "conflict_action": "她拔掉排水渠旧砖，命宫人用新石封死，又把宫门钥匙扔回萧珩脚边。",
+      "information_gap": "萧珩能否真正明白强留只会失去她。",
+      "emotion_debt_balance": "偿还排水渠回旋：亲密道具变成边界；女主主动权回升。",
+      "chapter_end_hook": "她亲手命人封死排水渠，萧珩站在宫门外一夜没有进去。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让封渠只是赌气",
+        "不能让宫人替女主做决定",
+        "不能写成长篇伤春悲秋"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars": 950,
+      "scene_location": "含章宫宫门",
+      "character_goal": "温照晚想出宫养胎并重新判断萧珩，不接受被孩子和皇权困住。",
+      "conflict_action": "萧珩撤走禁军，亲自牵马车到宫门口，把和离文书、太医药箱和三匣苦参蜜丸放上车。",
+      "information_gap": "萧珩的放手是真悔悟，还是更深一层引她回头的局。",
+      "emotion_debt_balance": "偿还软禁债第一步：放手；新增追妻期待。",
+      "chapter_end_hook": "萧珩打开含章宫门，说皇后想走，朕送你走。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让男主靠解释求原谅",
+        "不能让女主被迫离宫",
+        "不能把放手写成冷暴力"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars": 900,
+      "scene_location": "温府书房",
+      "character_goal": "温照晚想从父亲口中问清御马场凤玺是否真是捡漏。",
+      "conflict_action": "温其正卷起袖子给她看旧伤，复盘那日被人从人堆一路推上凤玺台。",
+      "information_gap": "幕后推手是不是萧珩，若是，他从何时盯上温家。",
+      "emotion_debt_balance": "偿还凤玺捡漏真相一半；新增暗恋证据线。",
+      "chapter_end_hook": "温父说凤玺台下那只推他的手，分明戴着禁军扳指。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用父亲大段旁白交代全部",
+        "不能把萧珩安排封后直接洗白",
+        "不能削弱女主仍然受伤"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars": 900,
+      "scene_location": "长公主府暖阁",
+      "character_goal": "温照晚想找长公主萧明棠确认萧珩与药王谷旧事。",
+      "conflict_action": "萧明棠打开旧药囊，抖出药方夹层、旧信和萧珩少年时珍藏的草药残片。",
+      "information_gap": "萧珩暗恋是真，但他的真心能否抵消欺骗伤害。",
+      "emotion_debt_balance": "偿还暗恋债；保留清算债：真心不能直接抵消算计。",
+      "chapter_end_hook": "长公主旧药囊里掉出萧珩五年前写给她的第一封信。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让旧信成为一键原谅",
+        "不能写成长篇书信摘抄",
+        "不能让长公主替男主辩解过度"
+      ]
+    },
+    {
+      "beat_id": "B17",
+      "target_chars": 950,
+      "scene_location": "药王谷别院与回宫官道",
+      "character_goal": "温照晚想安稳待产，却在宫中危机前判断自己是否主动回去。",
+      "conflict_action": "裴砚拦住马车劝她别回宫，她把安胎药塞给父亲，拔下发簪当马鞭催车入京。",
+      "information_gap": "北境围京是真危机还是萧珩设下的又一个局。",
+      "emotion_debt_balance": "新增女主主动选择；偿还她不是被抓回宫的契约。",
+      "chapter_end_hook": "北境军围京急报传来，温照晚摸着肚子上了回宫马车。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让女主因孩子被迫回宫",
+        "不能让裴砚成为真正情感威胁",
+        "不能展开沉重战争描写"
+      ]
+    },
+    {
+      "beat_id": "B18",
+      "target_chars": 1000,
+      "scene_location": "京城南门城楼",
+      "character_goal": "温照晚想找到萧珩并确认乌兰珠和拓跋烬到底站在哪边。",
+      "conflict_action": "她登上城楼替受伤的萧珩止血，乌兰珠带拓跋烬押着北境旧部首领走到城门下。",
+      "information_gap": "乌兰珠是否真背叛，萧珩是否再次把女主引入局中。",
+      "emotion_debt_balance": "偿还圣女身份反转；新增最后清算：萧珩必须公开认错。",
+      "chapter_end_hook": "乌兰珠当众摘下面纱，宣布北境旧部已入她掌中。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把乌兰珠写成雌竞失败者",
+        "不能让拓跋烬抢戏",
+        "不能把假围京写成军事说明书"
+      ]
+    },
+    {
+      "beat_id": "B19",
+      "target_chars": 900,
+      "scene_location": "金殿",
+      "character_goal": "温照晚想要萧珩当众切断孩子继嗣局，给她和孩子一个不是棋子的身份。",
+      "conflict_action": "她抱着凤玺站到丹陛下，逼萧珩在百官前撕毁北境密约并亲口认错。",
+      "information_gap": "萧珩能否放下帝王算计，承认自己错在把爱人放进局里。",
+      "emotion_debt_balance": "偿还政治欺骗和孩子工具化债；关系进入重新选择。",
+      "chapter_end_hook": "温照晚逼萧珩在百官前承认，皇后和孩子都不是棋子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让公开认错轻飘飘",
+        "不能让百官喧宾夺主",
+        "不能用大义压倒女主感受"
+      ]
+    },
+    {
+      "beat_id": "B20",
+      "target_chars": 850,
+      "scene_location": "含章宫产房外与满月宴",
+      "character_goal": "温照晚想在危机解除后按自己的节奏决定是否真正留下。",
+      "conflict_action": "她生产后把三匣苦参蜜丸推给萧珩，萧珩抱着女儿跪坐榻边一颗颗吃完。",
+      "information_gap": "无，主要兑现圆满和道具回旋。",
+      "emotion_debt_balance": "偿还苦参蜜丸、凤玺、妻女奴团圆；情绪债清零。",
+      "chapter_end_hook": "女儿哭声响起，萧珩抱着襁褓问能不能把凤玺给她玩。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成生育工具式圆满",
+        "不能让女主失去嘴快行动力",
+        "不能收成沉重帝后正剧"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_chars": 10000,
+    "planned_chars": 15000,
+    "min_chapters": 15,
+    "planned_chapters": 20,
+    "min_paywall_cards": 4,
+    "planned_paywall_cards": 5,
+    "chapter_end_hook_coverage": "100%",
+    "scene_action_coverage": "100%",
+    "forbidden_summary_type": "beats[*].forbidden_summary must be a non-empty array"
+  }
+}

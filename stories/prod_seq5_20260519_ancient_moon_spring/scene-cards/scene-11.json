@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "陆氏旧药库、戒训药试所档案室",
+  "time": "三日后",
+  "pov": "陆沉舟",
+  "characters": [
+    "陆沉舟",
+    "药试所所长",
+    "旧药工阿成",
+    "陆氏医院管事"
+  ],
+  "character_goal": "陆沉舟追查小舟药试和医院封楼记录。",
+  "opposition_goal": "所长和医院管事要销毁档案，保住陆家和林若鸢。",
+  "conflict_action": "陆沉舟砸开档案柜，逼所长交出探视簿和病历，又把所长按在小舟床位前问话。",
+  "information_gap": "账册显示医院有空病房，但谁改了病亡记录仍未揭开。",
+  "emotional_debt_delta": "+男主看见主动罪证、+悔悟启动但无补偿",
+  "payoff_or_hook": "旧药工交出账册，说小舟死前那夜医院明明还有空病房。",
+  "chapter_end_hook": "陆沉舟翻到自己签过的封院令，纸页边角沾着小舟的血指印。",
+  "paywall_card": false,
+  "must_include": [
+    "戒训延期文书",
+    "探视簿",
+    "医院空病房账册",
+    "小舟床位",
+    "陆沉舟看到自己签名"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把罪全推给所长",
+    "不要让陆沉舟立刻获得赎罪机会",
+    "不要用旁白总结悔恨"
+  ]
+}

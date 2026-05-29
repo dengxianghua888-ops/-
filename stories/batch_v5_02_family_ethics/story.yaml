@@ -1,0 +1,37 @@
+title: 生日快乐
+source_slug: fools_day_indulgence
+genre: family_ethics
+pipeline_version: v5
+status: final
+target_platform: tomato
+generated_at: "2026-05-26"
+
+adaptation:
+  source_setting: "愚人节放纵日，丈夫把出轨包装成玩笑，妻子残疾六年后离婚清算"
+  new_setting: "生日当天丈夫带小三回家，妻子癌症化疗期间被背叛，康复后法律清算"
+  character_map:
+    简宁: 苏晚 (妻子，癌症康复者)
+    沈听寒: 周远舟 (丈夫，公司老板)
+    夏暖暖: 陈雨桐 (小三，实习生)
+
+metrics:
+  nonspace_chars: 10015
+  rhythm_status: pass
+  structure_gate: pass
+  impact_density: 5.99
+  avg_line_chars: 19.033
+  quote_line_rate: 0.266
+
+quality_gate:
+  nonspace_in_range: true
+  rhythm_pass: true
+  structure_pass: true
+  source_overlap_lte_5pct: true
+  meta_leak_zero: true
+  ai_forbidden_zero: true
+
+required_artifacts:
+  - beat-bible.json
+  - final.md
+  - quality-report.json
+  - story.yaml

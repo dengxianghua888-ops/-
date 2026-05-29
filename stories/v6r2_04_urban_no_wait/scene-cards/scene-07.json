@@ -1,0 +1,96 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "科技园区配套酒店空厅 → 沈氏资本LP年会大厅入口",
+  "time": "婚礼当天下午至半月后LP年会",
+  "pov": "陆衍（第三人称）+ 最后切苏念声音",
+  "characters": ["陆衍", "苏念", "沈母"],
+  "character_goal": "陆衍要维护最后面子→发现科技媒体刷屏→打电话被挂→半月后LP年会被召",
+  "opposition_goal": "苏念的存在本身（不需要主动做什么）已构成碾压",
+  "conflict_action": "科技媒体推送全行业刷屏→陆衍疯狂打电话被挂→坐了一下午等求饶→半月后LP年会苏念的声音从身后传来",
+  "information_gap": "陆衍不知道苏念嫁的是沈砚——LP年会场合即将最大化揭露",
+  "emotional_debt_delta": "社交碾压债全面兑现；权力层碾压即将启动",
+  "payoff_or_hook": "付费卡点——苏念叫'爸妈'的声音传来，身份即将公开",
+  "chapter_end_hook": "苏念的声音：'爸妈，我和沈砚挑了件礼物，来迟了，您二老别见怪！'——在身份即将公开的前一秒切断",
+  "paywall_card": true,
+  "must_include": [
+    "科技媒体推送标题（【爆】远景千金大婚）",
+    "陆衍打电话被挂的重复动作",
+    "坐了一下午翻手机等求饶的时间流逝",
+    "'有些人自己作的自己受着'的自欺",
+    "半月后LP年会场景转换",
+    "苏念的声音从身后传来叫'爸妈'"
+  ],
+  "must_not_write_as_exposition": [
+    "LP年会的商业意义",
+    "沈母的具体态度",
+    "苏念如何准备这一刻"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压——持续碾压到卡点切断",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "碾压快感-蓄力待爆",
+    "emotion_arc": "媒体碾压 → 陆衍死撑 → 时间流逝 → LP年会 → 声音入场",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "看到媒体刷屏时拍桌子叫好，看到LP年会预告时疯狂期待'接下来怎样'",
+    "required_techniques": [
+      {
+        "technique": "行业媒体作为叙事道具",
+        "instruction": "用科技媒体推送格式【爆】作为信息载体——现代感极强且自带画面感"
+      },
+      {
+        "technique": "时间压缩制造焦虑",
+        "instruction": "'每隔十分钟翻一次手机'——时间流逝对比行为重复，无声展示从笃定到慌乱"
+      },
+      {
+        "technique": "声音入场制造悬念",
+        "instruction": "先声后人——'身后传来熟悉的声音'让读者跟着角色一起转头"
+      },
+      {
+        "technique": "自欺独白暴露真实",
+        "instruction": "'新郎不去我看她怎么收场'——戏剧反讽，读者知道她不需要他"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "[自以为是的决定]+[自以为是的预判]",
+        "example": "新郎不去，我看她一个人怎么收场。",
+        "instruction": "戏剧反讽——读者知道她不需要他，他的'底牌'是张废纸"
+      },
+      {
+        "structure": "[亲密称呼]+[理所当然的身份宣示]+[得体客套]",
+        "example": "爸妈，我和沈砚挑了件礼物，来迟了，您二老别见怪！",
+        "instruction": "一句话完成身份确认+关系确认+姿态确认，信息炸弹级"
+      }
+    ],
+    "peak_type": "power_reversal",
+    "bomb_technique": "反转式——他以为是惩罚她，实际被全行业围观打脸",
+    "source_excerpt": "【爆】远景科技千金今日大婚，世纪婚礼现场曝光，新郎竟是沈氏资本掌门人！\n陆衍盯着推送标题看了三遍。\n远景科技千金。沈氏资本。\n他拨了苏念的电话。嘟——挂断。再拨——已关机。\n“新郎不去，我看她一个人怎么收场。”\n他等了一下午。\n……\n半月后。沈氏资本LP年度峰会。\n百位投资人的觥筹交错中——\n身后传来一声咳嗽。\n然后是一个熟悉的声音：\n“爸妈，我和沈砚挑了件礼物，来迟了，您二老别见怪！”"
+  },
+  "character_voices": {
+    "陆衍": {
+      "口癖": ["有些人自己作的", "怎么着"],
+      "句式": "自我安慰→逐渐焦虑→沉默",
+      "单句上限": 18,
+      "禁止": "对不起"
+    },
+    "苏念": {
+      "口癖": [],
+      "句式": "得体客套、不含攻击性",
+      "单句上限": 12,
+      "禁止": "任何对陆衍的直接回应"
+    }
+  }
+}

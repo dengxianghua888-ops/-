@@ -1,0 +1,280 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 14000,
+    "planned_total_chars": 11280
+  },
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "scene_location": "义安市机动车检测中心查验工位",
+      "target_chars": 720,
+      "target_chars_min": 700,
+      "target_chars_max": 740,
+      "character_goal": "完成年检拿到合格标",
+      "conflict_action": "陈志国把扫描枪在大梁上来回拖了三遍，AI屏幕弹出D级报废红框，赵卫东走过来按下打印键，红章在白纸上盖下整改通知。",
+      "information_gap": "张磊以为是常规年检，反派已串通好把他列入‘整改清单’",
+      "emotion_debt_balance": "盖章债",
+      "chapter_end_hook": "赵卫东把单子推到我面前：系统说这个价，你交就行。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不黑执法系统",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "scene_location": "检测中心外台阶",
+      "target_chars": 740,
+      "target_chars_min": 720,
+      "target_chars_max": 760,
+      "character_goal": "凑齐三十万整改费",
+      "conflict_action": "我蹲在台阶上给桂芬打电话，她隔着话筒压住喘息说卖老房，父亲在床上听见摔了搪瓷缸。",
+      "information_gap": "张磊以为只要交钱就能上路，反派已经预设了下一道死环",
+      "emotion_debt_balance": "借钱债",
+      "chapter_end_hook": "桂芬说，卖。我攥紧手机，指节砸在膝盖上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写孕妇悲情滥情",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "scene_location": "义安农商行柜台",
+      "target_chars": 720,
+      "target_chars_min": 700,
+      "target_chars_max": 740,
+      "character_goal": "把抵押款打进汽修厂账户",
+      "conflict_action": "桂芬扶着腰把房产证放进柜员窗口，三十万跨行汇款回执打出来，我把回执拍照发给赵卫东。",
+      "information_gap": "张磊相信交钱即解决，反派已准备好红章里的另一个字",
+      "emotion_debt_balance": "卖房债",
+      "chapter_end_hook": "对方回了一条：到账，下午来拿章。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "scene_location": "汽修厂办公室",
+      "target_chars": 780,
+      "target_chars_min": 760,
+      "target_chars_max": 800,
+      "character_goal": "拿到合格章把车开走",
+      "conflict_action": "赵卫东把红章纸推过来，我盯着抬头一行字读了两遍：D级强制报废，安全整改完成。我说我交的是整改费不是报废费，他冷笑说系统就这么走流程。",
+      "information_gap": "整改费收据和报废通知绑成同一张纸，构成死环",
+      "emotion_debt_balance": "死环债",
+      "chapter_end_hook": "我把红章捏在手里，指甲掐进纸背：这是死环。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "scene_location": "辖区派出所接待窗口",
+      "target_chars": 700,
+      "target_chars_min": 680,
+      "target_chars_max": 720,
+      "character_goal": "立刑事案",
+      "conflict_action": "值班民警翻完红章对我摇头，说这是民事，先去市监局调解，他把笔放下推回我的身份证。",
+      "information_gap": "张磊以为报警就能立案，赵卫东已用‘正规收据’把案子先卡在民事口",
+      "emotion_debt_balance": "立案债",
+      "chapter_end_hook": "我把红章塞回怀里，门口的雨砸在卷帘上像砸我胸口。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不黑警察系统",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "scene_location": "服务区货运司机临时聚点",
+      "target_chars": 760,
+      "target_chars_min": 740,
+      "target_chars_max": 780,
+      "character_goal": "把同样被坑的司机找出来",
+      "conflict_action": "我把红章拍在折叠桌上，老周掏出自己的红章，李哥又掏出一张，三十六个司机围拢过来，每张纸上都是同一行字。",
+      "information_gap": "张磊以为只是自己倒霉，群体维权的拼图才刚拼齐",
+      "emotion_debt_balance": "群体债",
+      "chapter_end_hook": "老周把烟摁灭：这事，得有人录下来。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写群体冲动暴力",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "scene_location": "汽修厂车间夹缝",
+      "target_chars": 780,
+      "target_chars_min": 760,
+      "target_chars_max": 800,
+      "character_goal": "录下赵卫东和陈志国的串供",
+      "conflict_action": "我把车开回去说要复检，把录音笔卡在中控仪表板的缝里，赵卫东和陈志国在车头边抽烟边讲分账，每一句都钉在录音条上。",
+      "information_gap": "反派以为没人敢回头，证据正在他们脚边录满",
+      "emotion_debt_balance": "证据债",
+      "chapter_end_hook": "录音笔的红点跳了一下又一下，像替我数他们的命。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写非法取证教程",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "scene_location": "市监局信访接待室",
+      "target_chars": 800,
+      "target_chars_min": 780,
+      "target_chars_max": 820,
+      "character_goal": "把红章和录音递到能拍板的人手里",
+      "conflict_action": "我把三十六张红章按序号码在桌上，把录音U盘放在最上面，接访的同志翻到第七张时停下笔，转身把人叫了进来。",
+      "information_gap": "反派以为系统挡得住，红章在系统外面变成铁证",
+      "emotion_debt_balance": "回旋债",
+      "chapter_end_hook": "他抬头看我：系统说这个价，他们要坐牢就行。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不黑监管部门",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "scene_location": "汽修厂大门外联合查处现场",
+      "target_chars": 740,
+      "target_chars_min": 720,
+      "target_chars_max": 760,
+      "character_goal": "看着查封条贴上卷帘门",
+      "conflict_action": "联合执法把卷帘门拉下来贴封条，赵卫东被请上车，陈志国从后门翻墙被按在墙根，三十六本车主台账被搬上厢式车。",
+      "information_gap": "反派以为还能转移台账，台账已经先一步落到执法手里",
+      "emotion_debt_balance": "查封债",
+      "chapter_end_hook": "封条糊上的那一刻，雨停了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写血腥执法",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "scene_location": "张磊家楼道",
+      "target_chars": 760,
+      "target_chars_min": 740,
+      "target_chars_max": 780,
+      "character_goal": "守住家不被报复",
+      "conflict_action": "三个人堵在我家门口，要我撤举报，我把桂芬拦在身后，老父亲的拐杖在屋里咚咚敲。",
+      "information_gap": "反派余党以为只要吓住主角就能翻盘，主角早已通报民警守在楼下",
+      "emotion_debt_balance": "恐吓债",
+      "chapter_end_hook": "门铃响了第二次：警察。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写未成年人受伤",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "scene_location": "派出所审讯走廊",
+      "target_chars": 780,
+      "target_chars_min": 760,
+      "target_chars_max": 800,
+      "character_goal": "把恐吓案钉死",
+      "conflict_action": "三个人被分别带进询问室，桂芬在门外把家里监控同步到平板上，民警一帧一帧记录，每个画面都对应一份口供。",
+      "information_gap": "反派以为口供能反咬，监控比口供先写完结局",
+      "emotion_debt_balance": "反杀债",
+      "chapter_end_hook": "民警合上笔录：行了，他们今晚住这。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不洗白施害者",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "scene_location": "市检察院第三检察部",
+      "target_chars": 750,
+      "target_chars_min": 730,
+      "target_chars_max": 770,
+      "character_goal": "把保护伞一并端掉",
+      "conflict_action": "检察官把账目铺在长桌上，三十六张红章对应三十六笔分账，分账的另一端连到检测中心副主任，副主任的银行流水又连到一辆登记在他姐夫名下的奔驰。",
+      "information_gap": "反派以为顶多丢一条线，账目把整张网拽了上来",
+      "emotion_debt_balance": "网破债",
+      "chapter_end_hook": "检察官签下传唤令，笔尖在纸上顿了一下。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不黑司法系统",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "scene_location": "义安市中级法院第三法庭",
+      "target_chars": 770,
+      "target_chars_min": 750,
+      "target_chars_max": 790,
+      "character_goal": "出庭把红章读成铁证",
+      "conflict_action": "我在被害人席位上把红章一张张举起来，赵卫东低头数地砖，陈志国手抖得签不上字，公诉人把录音播到分账那一段，全场没人说话。",
+      "information_gap": "反派以为庭审是程序，主角把程序变成回旋",
+      "emotion_debt_balance": "庭审债",
+      "chapter_end_hook": "审判长落槌：诈骗罪、敲诈勒索罪、滥用职权罪，数罪并罚。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写血腥审判",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "scene_location": "服务区集结点",
+      "target_chars": 740,
+      "target_chars_min": 720,
+      "target_chars_max": 760,
+      "character_goal": "接住同行众筹的新车",
+      "conflict_action": "三十六个司机把众筹的车钥匙摆在折叠桌上，每个人在白纸上签下一行字，老周把车钥匙塞进我手里，李哥拍我后背一下。",
+      "information_gap": "张磊以为已经走到尽头，群体把他推回路面",
+      "emotion_debt_balance": "福报债",
+      "chapter_end_hook": "我攥紧钥匙，指节又一次砸在桌上，这次没有疼。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写大段煽情",
+        "不使用内部付费标签"
+      ]
+    },
+    {
+      "beat_id": "beat-15",
+      "scene_location": "义安—杭州绕城高速入口",
+      "target_chars": 700,
+      "target_chars_min": 680,
+      "target_chars_max": 720,
+      "character_goal": "把车开回那条线，把回旋句钉死",
+      "conflict_action": "我把新车驶上G92入口，桂芬在副驾摸着肚子笑，后视镜里那家被查封的汽修厂掠过，我握紧方向盘往前开。",
+      "information_gap": "反派彻底退出，主角把生活握回自己手里",
+      "emotion_debt_balance": "回旋收束债",
+      "chapter_end_hook": "我对着镜子里那道封条说：系统说这个价，你坐牢就行。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不复刻原文句段",
+        "不写命运/宿命",
+        "不使用内部付费标签"
+      ]
+    }
+  ]
+}

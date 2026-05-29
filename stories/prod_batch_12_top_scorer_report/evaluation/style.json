@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "summary": "短句、动作、证据物理细节稳定，章末钩虽有卡片感但不影响连读；专业表达多数落在人物行动和程序节点里。",
+  "evidence": [
+    {
+      "type": "physical_detail",
+      "quote": "指尖还在发麻，掌心却热得厉害。"
+    },
+    {
+      "type": "physical_detail",
+      "quote": "封存单贴上去时，纸角被风吹起。"
+    },
+    {
+      "type": "evidence_translation",
+      "quote": "看名字是字迹，看压力才是动作。"
+    },
+    {
+      "type": "strong_line",
+      "quote": "纸比系统老实。它们不能一键黑屏。"
+    },
+    {
+      "type": "dialogue_function",
+      "quote": "我只看材料，不听情绪。"
+    }
+  ],
+  "failures": []
+}

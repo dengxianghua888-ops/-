@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_15_drug_mom_revenge/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 12500,
+      "actual": 10204,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        767,
+        722,
+        703,
+        699,
+        741,
+        708,
+        729,
+        722,
+        729,
+        747,
+        683,
+        702,
+        688,
+        727
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 103,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 12,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 45,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10204,
+      "sentence_count": 498,
+      "avg_sentence_length": 19.49,
+      "dialogue_ratio": 0.0821,
+      "question_marks": 25,
+      "question_marks_per_k": 2.45,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "发麻": 1,
+        "手心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.204
+    },
+    "semantic_repetition": {
+      "sentence_count": 402,
+      "unique_sentence_skeletons": 376,
+      "max_sentence_repeats": 14,
+      "max_sentence_repeat_ratio": 0.0348
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.5,
+    "emotion": 8.4,
+    "style": 8.1,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "周峤说要让他妈来住时，我想起了那个匿名帖子。"
+    },
+    {
+      "area": "evidence",
+      "quote": "警察问我怀疑谁，我说：我的丈夫。"
+    },
+    {
+      "area": "ending",
+      "quote": "这一回，我们自己接班自己的人生。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 10,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 580,
+  "target_chars_max": 700,
+  "location": "苏晴家客厅/卧室衣柜/楼下",
+  "time": "心理战后数日",
+  "pov": "苏晴",
+  "characters": ["苏晴", "陈母（婆婆）", "小柏", "陈北（电话中）"],
+  "character_goal": "苏晴以蔑视姿态应对婆婆的最后挣扎——展示主动权已完全转移",
+  "opposition_goal": "婆婆通过扔掉苏晴物品/假摔碰瓷试图夺回控制权",
+  "conflict_action": "婆婆扔掉苏晴护肤品换成大宝→当着小柏说'你妈花男人钱不知羞'→苏晴冷笑带孩子走→婆婆假摔→陈北电话指责→苏晴直接挂断",
+  "information_gap": "婆婆不知道苏晴的冷淡是因为大计划在即（以为她被'驯服'了）",
+  "emotional_debt_delta": "过渡性——不新增大额债务，但'当孩子面说'花男人钱不知羞''再次触碰底线",
+  "payoff_or_hook": "章末钩子：苏晴挂断电话继续逛街——主动权完全在手的信号",
+  "chapter_end_hook": "陈北电话指责'你把我妈一个人丢家里？'苏晴直接挂断——她已经不在乎了",
+  "paywall_card": false,
+  "must_include": [
+    "打开衣柜/梳妆台发现护肤品被换成大宝/土味花布的感官描写（霉味/发黄）",
+    "婆婆当着小柏说'你妈花男人钱不知羞'",
+    "小柏的反应（'妈妈，不知羞是什么意思'）",
+    "苏晴冷笑两声带孩子走的蔑视姿态",
+    "婆婆捂心脏假摔'太浮夸'",
+    "陈北电话+苏晴挂断"
+  ],
+  "must_not_write_as_exposition": [
+    "不得解释苏晴为什么现在不反击——她的淡定本身就是答案",
+    "不得写苏晴'心想大招马上就要来了'——蔑视的态度自然传达",
+    "不得让这场冲突太激烈——这是大高潮前的过渡，保持中等压力"
+  ],
+  "rhythm_job": {
+    "shape": "匀速中压",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 15.5,
+    "dominant_emotion": "蔑视-厌烦",
+    "emotion_arc": "日常压迫 → 物品侵犯 → 蔑视反击 → 婆婆假摔",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "不耐烦——'什么时候搞大的？小打小闹够了'",
+    "required_techniques": [
+      {
+        "technique": "物象侵犯（护肤品=边界）",
+        "instruction": "用嗅觉（霉味/土味）+视觉（发黄/霉点）的感官描写具体化'入侵'。打开柜子那一刻的感官冲击比抽象的'越界'有力百倍"
+      },
+      {
+        "technique": "童言反照恶行",
+        "instruction": "小柏的'妈妈，不知羞是什么意思'用孩子的天真反照成人的龌龊。读者的愤怒因孩子的无辜而翻倍——但不要让这个比ch7的烟疤更重"
+      },
+      {
+        "technique": "假摔碰瓷的戏剧呈现",
+        "instruction": "婆婆'捂着心脏直挺挺躺地上'+'哎呦难受死我了'。明确标注'表演太浮夸'=让读者和苏晴站同一视角共同蔑视"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "冷笑+无视+日常动作",
+        "example": "我冷笑了两声，带着女儿下楼散步去了。",
+        "instruction": "最有力的反击是不反击：'我冷笑了两声，牵着小柏下楼了。'不配让我生气的蔑视比愤怒更解气"
+      },
+      {
+        "structure": "极短判断句",
+        "example": "她的表演太浮夸。",
+        "instruction": "五个字独立成段=最大停顿效果。叙述者和读者共同的一声'切'"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "对比式",
+    "source_excerpt": "打开一看，一股土腥味涌出来，里面全是农村老式花布衬衫。女儿抬起头：'妈妈，勾引是什么意思。'我冷笑了两声，带着女儿下楼散步去了。婆婆捂着心脏直挺挺地躺在了地上。她的表演太浮夸。几分钟后接到老公电话，我直接挂了，和女儿继续逛街。"
+  }
+}

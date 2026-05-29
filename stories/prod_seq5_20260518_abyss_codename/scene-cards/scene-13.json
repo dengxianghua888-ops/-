@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "空乘公寓天台",
+  "time": "第五天凌晨",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "蒋晴",
+    "匿名短信发送者"
+  ],
+  "character_goal": "救下蒋晴，拿到幸存者证词和塔台线索。",
+  "opposition_goal": "幕后人想诱导蒋晴崩溃，让她坐实嫌疑或自我毁灭。",
+  "conflict_action": "林雾追到天台拦住蒋晴，把倒放广播原声放给她听，逼她辨认纪闻课堂口令，并让她交出第一名受害者留下的频道号码。",
+  "information_gap": "塔台频道背后是谁，为什么能持续掌握清舱进度未知。",
+  "emotional_debt_delta": "蒋晴嫌疑债转化为幸存者债，救人价值兑现。",
+  "payoff_or_hook": "蒋晴承认她不是凶手，而是被留作替罪羊的人。",
+  "chapter_end_hook": "蒋晴哭着说：我不是凶手，我是被留下来的那一个。",
+  "paywall_card": false,
+  "must_include": [
+    "匿名短信",
+    "天台拦截",
+    "倒放广播原声",
+    "塔台频道号码"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让蒋晴用大段回忆讲完旧案",
+    "不要把她写成单纯软弱工具人",
+    "不要让林雾只旁观不救人"
+  ]
+}

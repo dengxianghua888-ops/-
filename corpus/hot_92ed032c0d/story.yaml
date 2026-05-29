@@ -1,0 +1,16 @@
+slug: hot_92ed032c0d
+status: phase1
+current_phase: 1
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260522_144339
+  runner: agent
+  provider: codex
+  current_phase: 1
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: pending

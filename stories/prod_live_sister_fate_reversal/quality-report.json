@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 12430,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_coverage": 1.0,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_sentence_length": 15.334,
+      "dialogue_ratio": 0.184,
+      "action_density_per_k": 32.1
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    }
+  },
+  "critic_scores": {
+    "platform": 8.7,
+    "emotion": 9.1,
+    "style": 8.5,
+    "logic": 8.3
+  },
+  "evidence": [
+    "开篇以绿灯计划、变量话术、夺手机和落锁完成死亡同日绑定。",
+    "scene-03、scene-08、scene-10、scene-12 等章末钩完成付费级卡点分布。",
+    "门禁日志、录音芯片、饭盒、尸检报告串起可救未救证据链。",
+    "外婆夺回骨灰与转世女孩即时被回应，偿还真正的家与无人回应债。"
+  ]
+}

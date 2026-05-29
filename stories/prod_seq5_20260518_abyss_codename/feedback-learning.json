@@ -1,0 +1,106 @@
+{
+  "story_slug": "prod_seq5_20260518_abyss_codename",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M2", "M3", "M6"],
+  "target_length": {
+    "min": 13000,
+    "max": 16500
+  },
+  "final_length": 14220,
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 8.4,
+    "style": 8.0,
+    "logic": 7.9
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "type": "identity_reversal_entry",
+      "fact": "开篇300字内同时给出处分转学生外壳、B312三名失踪女生、刑侦支队消息、代号黑匣，身份反差和案件入口同步成立。"
+    },
+    {
+      "chapter": "第二章",
+      "type": "fake_supernatural_to_evidence",
+      "fact": "墙内倒放广播先制造闹鬼感，再用倒放恢复、维护标签、断电时间拆成可取证的人为装置。"
+    },
+    {
+      "chapter": "第三章",
+      "type": "personalized_threat_card",
+      "fact": "训练舱里先发现失踪女生发圈和17C登机牌，再落到写有主角姓名的登机牌，完成从旧案到主角危险的转接。"
+    },
+    {
+      "chapter": "第九章",
+      "type": "trap_confession",
+      "fact": "夜闯B312不急于抓人，先用门磁、报警回执、录音笔和登机牌复印件诱出执行者口供。"
+    },
+    {
+      "chapter": "第十六章",
+      "type": "correction_instinct_reveal",
+      "fact": "主角故意报错床位座位映射，反派本能纠错，说出只有操盘者知道的清单顺序。"
+    },
+    {
+      "chapter": "第十七章",
+      "type": "emotional_debt_payoff",
+      "fact": "结案段把乘客甲乙丙写回真实姓名，并给发圈、校牌、未完成英语单词等个人痕迹，完成受害者正名债。"
+    },
+    {
+      "chapter": "第十八章",
+      "type": "series_tail_hook",
+      "fact": "阶段性抓住纪闻后，用塔台频道和名单源头未断留下更高层黑幕，避免大团圆收死。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "第三章",
+      "card": "最后一排安全说明卡下出现写着林雾、B312、今晚登机的登机牌。"
+    },
+    {
+      "chapter": "第六章",
+      "card": "货舱夹层滑出第二名失踪女生校牌，背面刻着17C。"
+    },
+    {
+      "chapter": "第九章",
+      "card": "韩停夜闯B312并说出自己只是执行清单，口供被门磁和录音锁定。"
+    },
+    {
+      "chapter": "第十二章",
+      "card": "纪闻课件隐藏页把B312床位和模拟舱座位号直接连线，并写着林雾。"
+    },
+    {
+      "chapter": "第十四章",
+      "card": "塔台频道叫出主角内部代号黑匣，证明信息源不止校园。"
+    },
+    {
+      "chapter": "第十五章",
+      "card": "纪闻在模拟舱关门并说最后一名乘客到齐，进入正面对决。"
+    },
+    {
+      "chapter": "第十七章",
+      "card": "纪闻被押走前说清舱名单从来不是他写的，打开上层黑幕。"
+    },
+    {
+      "chapter": "第十八章",
+      "card": "新音频播报本次航班仍有乘客未清舱，名单源头坐标出现。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "女主刑侦协查",
+    "校园失踪案",
+    "空乘学院",
+    "假闹鬼真犯罪",
+    "倒放广播",
+    "门禁记录",
+    "模拟客舱",
+    "证据链反杀",
+    "幸存者证人",
+    "受害者正名",
+    "身份反差",
+    "多层递进反转",
+    "系列黑幕尾钩"
+  ],
+  "manual_revision_delta": []
+}

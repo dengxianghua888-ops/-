@@ -1,0 +1,10 @@
+slug: strict_new5_20260528_hot_5d33b3fd65
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_5d33b3fd65
+genre: apocalypse_heroine
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

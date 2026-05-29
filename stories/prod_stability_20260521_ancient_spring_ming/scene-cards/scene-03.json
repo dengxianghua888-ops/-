@@ -1,0 +1,51 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "集团新航线发布会后台与主舞台",
+  "time": "次日下午",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮",
+    "杨昭宁",
+    "主持人",
+    "媒体",
+    "现场观众"
+  ],
+  "character_goal": "撑过上台这一轮，不在镜头前崩。",
+  "opposition_goal": "杨昭宁要借直播放大她的不体面，裴砚潮要她‘规矩地站完’。",
+  "conflict_action": "杨昭宁把递资料和站台的活硬塞给她，裴砚潮不许她退场；镜头一跟近，她被男人脚步和快门声逼得手指发抖。",
+  "information_gap": "截断句：镜头扫到她发白的手，弹幕刷满了‘又装’。",
+  "emotional_debt_delta": {
+    "add": [
+      "她的创伤在公众场域会被怎样利用",
+      "杨昭宁打算把她推到哪一步"
+    ],
+    "pay": [
+      "展示归港后她没有恢复期，直接被推上台面"
+    ]
+  },
+  "payoff_or_hook": "弹幕与现场议论一起压过来，她被钉成‘又抢戏’的人。",
+  "chapter_end_hook": "截断句：镜头扫到她发白的手，弹幕刷满了‘又装’。",
+  "paywall_card": false,
+  "must_include": [
+    "评论/弹幕吐槽",
+    "快门声或脚步声触发",
+    "裴砚潮不许退场的硬命令",
+    "短促身体反应"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写发布会流程清单",
+    "不要写媒体提问列表",
+    "不要把弹幕全改写成旁白"
+  ],
+  "rhythm_job": {
+    "shape": "动作3成，对白3成，弹幕2成，呼吸点2成；弹幕负责误导，动作负责压迫",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 3,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

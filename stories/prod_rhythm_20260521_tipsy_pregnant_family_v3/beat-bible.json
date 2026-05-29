@@ -1,0 +1,425 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars_min": 10580,
+    "planned_total_chars_max": 11620
+  },
+  "title": "协议解约后，顶级梨园来接我前夫",
+  "genre": "urban_sweet_ceo / 带球跑甜宠 / 豪门世家误会解除 / 非遗梨园外壳",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "陆砚辞从负债搭台工反转为百年梨园陆家继承人；温瓷从替身误判反转为三年前被蓄意靠近的唯一真爱"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "离婚低温到协议托底、夜班转账、产检吐血、B超落泪、戏台求婚的持续升温"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "协议异常、白月光误导、落魄照顾、孩子误会、陆家身份、非替身真相、老戏楼护短、圆满家庭"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "离婚协议压在戏服上",
+      "target_chars": 720,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "温瓷刚想说怀孕，眼前先浮出一排弹幕：她只是替身。"
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "签字后才看见托底条款",
+      "target_chars": 700,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "协议里连未来孩子信托都写好了，陆砚辞却已经走了。"
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "夜班工资准时到账",
+      "target_chars": 680,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "温瓷顺着转账备注抬头，看见他手背全是勒痕。"
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "花旦带着旧戏照上门",
+      "target_chars": 760,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "弹幕刷疯了，秦月眠却说出一句更狠的：当年站在他身边的人一直是我。"
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "她把挑衅短信存了证据",
+      "target_chars": 660,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "温瓷去妇幼挂号时，秦月眠正好发来一张手术室门口的照片。"
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "产科走廊的误会炸开",
+      "target_chars": 840,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "陆砚辞听见“手术”两个字，脸色一下白了。"
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "他以为孩子没了",
+      "target_chars": 860,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "温瓷把B超单塞进他手里，胎心两个字还没让他看清。"
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "弹幕第一次卡出陆家",
+      "target_chars": 660,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "一辆挂着陆家剧院通行牌的车，停在了老城妇幼门口。"
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "来接人的不是催债，是陆家",
+      "target_chars": 760,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "陆家管家当众改口：少夫人，车已备好。"
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "老戏楼先认人再认规矩",
+      "target_chars": 700,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "董事会还没开口，陆砚辞先把温瓷护到身后。"
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "秦月眠被当场切割",
+      "target_chars": 760,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "陆砚辞看着众人，只说了一句：她不是替身，是我三年前故意靠近的人。"
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "三年前的雨巷真相",
+      "target_chars": 760,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "温瓷终于听懂那句“不是被你捡，是我想让你捡”。"
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "老宅公开护短",
+      "target_chars": 660,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "陆老爷子把股权文件推过来，只问温瓷一句：想不想看他给你唱压轴。"
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "戏台下补一场求婚",
+      "target_chars": 800,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "戒指盒打开时，温瓷先看见的是自己补过的那道暗纹。"
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "龙凤胎满月回环",
+      "target_chars": 700,
+      "scene_range": ["scene-15"],
+      "chapter_end_hook": "弹幕最后一次刷屏：原来她不是捡回一个男人，是捡回一辈子。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "旧戏楼后院小屋",
+      "character_goal": "温瓷想弄明白陆砚辞为什么忽然要解约离婚，并找机会说出自己怀孕",
+      "conflict_action": "陆砚辞把离婚协议压在未修完的戏服上，坚持让她先签字再说",
+      "information_gap": "离婚到底是变心、欠债，还是另有保护动机；弹幕为何统一指向白月光回归",
+      "emotion_debt_balance": "新欠离婚债与怀孕未说出口的沟通债，埋入替身债",
+      "chapter_end_hook": "温瓷想开口时，弹幕先一步说她只是挡路的人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用协议条款概述代替现场拉扯",
+        "不能把弹幕写成万能旁白",
+        "不能把温瓷写成当场大哭失控"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 640,
+      "target_chars_max": 720,
+      "scene_location": "同一小屋与院门口",
+      "character_goal": "温瓷想确认自己是不是被净身出户抛下",
+      "conflict_action": "她逐条翻协议，发现戏楼产权、存款、保险和未来孩子信托全偏向自己",
+      "information_gap": "陆砚辞为何把后路全留给她，甚至写到了还没出生的孩子",
+      "emotion_debt_balance": "离婚债加重，但出现托底证据，开始为男主护短线预存偿还筹码",
+      "chapter_end_hook": "协议写到未来孩子信托，温瓷却还没来得及说自己真的怀了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述全部财产分配",
+        "不要写成长段法律说明",
+        "不能把异常感写没"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 620,
+      "target_chars_max": 700,
+      "scene_location": "古城剧场后台与手机转账界面",
+      "character_goal": "温瓷想判断陆砚辞的欠债是真是假，还是在演给她看",
+      "conflict_action": "她去送热汤，撞见陆砚辞夜里搬景片、吊灯架，转头又收到他夜班工资和叶酸备注",
+      "information_gap": "一个真要离开的男人，为什么还把生活照顾做到这么细",
+      "emotion_debt_balance": "替身债轻微松动，男主用行动追加深情证据",
+      "chapter_end_hook": "她看见他手上新添的木刺和吊绳勒痕，心里第一次不太像离婚了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写搭台流程清单",
+        "不要用行业科普撑字数",
+        "不能只说他辛苦，必须有具体动作证据"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "戏楼后台妆造间",
+      "character_goal": "秦月眠想坐实白月光身份，让温瓷主动退开",
+      "conflict_action": "秦月眠带旧戏照与联姻传闻上门挑衅，温瓷却抓住她袖口开线和照片拍摄细节反问",
+      "information_gap": "旧戏照里的同框到底是情史证据，还是外界误读；联姻传闻是真是假",
+      "emotion_debt_balance": "替身债被推高，但温瓷靠慢半拍反问守住尊严",
+      "chapter_end_hook": "秦月眠说出“站在他身边的人一直是我”，弹幕瞬间炸开。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把挑衅写成纯嘴炮互骂",
+        "不要连续解释旧戏照来历",
+        "不能让秦月眠赢得太顺"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 620,
+      "target_chars_max": 700,
+      "scene_location": "戏楼小屋到老城妇幼挂号处",
+      "character_goal": "温瓷想安静做产检，同时把挑衅证据收好，不让孩子受惊",
+      "conflict_action": "她一边挂号一边把秦月眠短信截图存档、拉黑、备注日期",
+      "information_gap": "秦月眠为什么总能精准踩中产检节点；陆砚辞到底知不知道她怀孕",
+      "emotion_debt_balance": "女主主动性补强，安全感债开始转向可偿还轨道",
+      "chapter_end_hook": "挂号成功那一秒，秦月眠发来一张手术室门口的照片。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要连续解释时间线",
+        "不要写旁观者反应清单",
+        "不能把女主写成被动挨打"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 800,
+      "target_chars_max": 880,
+      "scene_location": "老城妇幼产科走廊",
+      "character_goal": "温瓷想做完检查离开；秦月眠想利用信息差制造孩子没了的假象",
+      "conflict_action": "温瓷因贫血在走廊坐下，秦月眠当着刚赶来的陆砚辞故意说她‘刚从手术室出来’",
+      "information_gap": "陆砚辞会不会相信这句误导；孩子检查结果到底如何",
+      "emotion_debt_balance": "孩子债被瞬间拉满，读者后怕值抬到中段峰值",
+      "chapter_end_hook": "陆砚辞听见‘手术’两个字，手里保温桶直接砸在地上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写医院流程说明",
+        "不能把冲突改成冷静对话",
+        "不要堆叠多个强压词"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 820,
+      "target_chars_max": 900,
+      "scene_location": "B超室门外与走廊长椅",
+      "character_goal": "陆砚辞想确认孩子是否还在；温瓷想让他先别乱想",
+      "conflict_action": "陆砚辞误以为孩子没了情绪失控到吐血，温瓷把B超单直接塞进他手里逼他看胎心",
+      "information_gap": "B超单会先显示单胎还是双胎伏笔；陆砚辞崩溃背后藏着多深的在意",
+      "emotion_debt_balance": "孩子债开始集中偿还，温度曲线急速回升但保留后续解释债",
+      "chapter_end_hook": "他手指发抖地按住B超单，视线卡在‘胎心可见’四个字上。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用抒情代替动作",
+        "不要只写哭，要写他抓单据和吐血反应",
+        "不能让孩子状态含糊不清"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 620,
+      "target_chars_max": 700,
+      "scene_location": "妇幼门口与车道边",
+      "character_goal": "温瓷想弄懂为什么医院门口忽然来了陆家的人",
+      "conflict_action": "陆家管家带车拦到门口，要接陆砚辞回老戏楼议事，也对温瓷改口称少夫人",
+      "information_gap": "陆家和陆砚辞是什么关系；为什么他们对温瓷的存在并不意外",
+      "emotion_debt_balance": "身份债抬头，替身债继续松动",
+      "chapter_end_hook": "弹幕卡出半句‘陆这个姓，不会是……’然后整片空白。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要一次说完陆家背景",
+        "不要把管家写成说明书",
+        "不能丢掉弹幕卡顿功能"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "陆家老戏楼外厅",
+      "character_goal": "陆家想把陆砚辞带回权力中心；温瓷想确认自己和孩子会不会被排除在外",
+      "conflict_action": "管家、董事和旧戏班老人依次现身，以礼数和称呼逼出陆砚辞的真实位置",
+      "information_gap": "陆砚辞当年为何离开陆家；离婚是否和家族联姻直接相关",
+      "emotion_debt_balance": "阶层债开始进入偿还阶段，离婚保护动机有了现实支点",
+      "chapter_end_hook": "众人都在等陆砚辞回位，陆砚辞却先伸手把温瓷带进门。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要做家族人物名册",
+        "不要长篇介绍梨园历史",
+        "不能让温瓷站在门外被围观"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "陆家祖宅会议厅",
+      "character_goal": "家族长辈想先谈继承和联姻；陆砚辞要先给温瓷和孩子定位置",
+      "conflict_action": "长辈刚提规矩，陆砚辞就把椅子拉到自己身边，让人先给温瓷上热面",
+      "information_gap": "家族会不会继续拿秦月眠做筹码；陆老爷子的真实态度是什么",
+      "emotion_debt_balance": "安全感债被男主现场偿还一段，家族压迫感被压在可控范围内",
+      "chapter_end_hook": "陆砚辞一句‘先让孕妇吃饭’，把整个会议厅的话头都切断了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把豪门刁难写成长虐",
+        "不要复述家规条款",
+        "不能让男主护短迟到"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "祖宅会议厅续场",
+      "character_goal": "秦月眠想借长辈在场逼婚定性；陆砚辞要彻底切割误导线",
+      "conflict_action": "秦月眠拿婚约旧闻和后台同框再逼一步，陆砚辞当众否认暧昧并让她离开陆家项目",
+      "information_gap": "陆砚辞和秦月眠过去真正交集只有多少；温瓷到底是不是替身",
+      "emotion_debt_balance": "安全感债大额偿还，白月光胜利感被当场清零",
+      "chapter_end_hook": "陆砚辞看着众人，说温瓷不是替身，而是他三年前故意去找的人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把切割写成私下安慰",
+        "不要拖成长回合撕扯",
+        "不能让秦月眠留下模糊胜利感"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "老戏楼侧台与雨廊",
+      "character_goal": "温瓷想知道三年前雨巷相遇是不是巧合",
+      "conflict_action": "陆砚辞带她看当年保存的旧票根、修补过的扣子和戏服样稿，亲口承认自己不是被捡，而是蓄意靠近",
+      "information_gap": "他为什么会提前注意到温瓷；离婚为何不直接说真相",
+      "emotion_debt_balance": "替身债核心偿还，解释债仍保留一点给求婚前的最终回环",
+      "chapter_end_hook": "温瓷低头看着那枚旧扣子，终于听懂了‘我从来不是顺手路过’。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要用回忆大段倒叙灌水",
+        "不要写成命运感独白",
+        "不能省掉实物证据"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 620,
+      "target_chars_max": 700,
+      "scene_location": "老戏楼正厅",
+      "character_goal": "陆老爷子想完成家族站队；温瓷想确认自己不是临时被接纳",
+      "conflict_action": "陆老爷子把股权文件、基金授权书和安胎安排一起当众拍板，明确温瓷和孩子的家族位置",
+      "information_gap": "陆砚辞会不会正式接掌陆家；温瓷会不会答应留下",
+      "emotion_debt_balance": "阶层债与安全感债同步偿还，后段开始进入高甜兑现",
+      "chapter_end_hook": "陆老爷子把文件往前一推，说以后谁让温瓷受气，谁就别进这道门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写股权文件细则",
+        "不要列资产清单",
+        "不能把公开偏袒写得轻飘"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 760,
+      "target_chars_max": 840,
+      "scene_location": "修复后的老戏台灯下",
+      "character_goal": "陆砚辞要补偿草率结婚和离婚，正式求婚；温瓷要确认自己能不能再信一次",
+      "conflict_action": "陆砚辞在戏台灯牌下拿出藏在修复暗纹里的戒指，当众重新求婚",
+      "information_gap": "温瓷会不会立刻答应；陆砚辞如何把‘保护’和‘伤害’的错位彻底补上",
+      "emotion_debt_balance": "仪式债集中偿还，解释债清零，温度曲线落到高甜稳定区",
+      "chapter_end_hook": "温瓷摸到戒指盒上的针脚，问他这次还会不会再把她推开。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把求婚写成空泛表白",
+        "不要省略场景装置和动作",
+        "不能用复婚登记替代仪式偿还"
+      ]
+    },
+    {
+      "beat_id": "beat-15",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "scene_location": "龙凤胎满月宴与家中厨房",
+      "character_goal": "完成家庭圆满与甜宠日常回环",
+      "conflict_action": "满月宴后陆砚辞推掉应酬回厨房煲汤，温瓷抱着孩子看弹幕集体认错",
+      "information_gap": "圆满后仍要看到男主是否持续行动型宠爱",
+      "emotion_debt_balance": "家庭债、仪式债、阶层债全部结清，留下回环记忆点",
+      "chapter_end_hook": "弹幕最后一次刷屏：她当年捡回家的，不止是一个人。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要只做结局汇报",
+        "不要用群像祝福清单拖慢节奏",
+        "不能丢掉行动型甜宠回环"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 12,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage_min": 1.0,
+    "min_scene_count": 15
+  },
+  "rhythm_contract": {
+    "source_inheritance": "story/analysis/style-dna.md",
+    "avg_visual_line_chars_range": [13, 18],
+    "short_line_rate_lte_16_min": 0.58,
+    "short_line_rate_lte_16_max": 0.80,
+    "direct_dialogue_line_rate_min": 0.18,
+    "direct_dialogue_line_rate_max": 0.35,
+    "barrage_line_rate_min": 0.12,
+    "barrage_line_rate_max": 0.32,
+    "question_mark_density_per_1000_chars_min": 4.0,
+    "question_mark_density_per_1000_chars_max": 10.5,
+    "explanatory_long_paragraph_max": 1,
+    "explanatory_long_paragraph_max_lines": 4,
+    "barrage_or_commentary_interval_chars": [180, 450],
+    "micro_hook_interval_chars": [600, 1000],
+    "chapter_min_hooks": 2,
+    "chapter_min_evidence_flip": 1,
+    "chapter_end_flat_close_allowed": false,
+    "overcrank_forbidden": [
+      "连续逼问",
+      "每章黑屏",
+      "每句都卡钩",
+      "对白替代弹幕",
+      "强压迫词堆叠"
+    ]
+  }
+}

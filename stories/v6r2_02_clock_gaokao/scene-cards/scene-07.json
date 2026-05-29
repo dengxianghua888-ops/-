@@ -1,0 +1,78 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-05b",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "target_chars_min": 540,
+  "target_chars_max": 620,
+  "location": "工厂外停车场空地",
+  "time": "晚上8:08，沈听澜刚逃出工厂",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "陈栩", "沈妈妈"],
+  "character_goal": "沈听澜要阻止外面的人进去（他们会跑进去找人）",
+  "opposition_goal": "陈栩认为她是毁趴的罪魁祸首要打她，妈妈被叫来'管住她'",
+  "conflict_action": "陈栩冲出来踹倒沈听澜，妈妈赶到哭着逼她道歉；沈听澜不跪",
+  "information_gap": "沈听澜知道三分钟马上到——里面的人即将被时间坍缩吞没",
+  "emotional_debt_delta": "压迫债顶峰——被踹+被逼跪+亲妈不护她",
+  "payoff_or_hook": "钩子：三分钟，到了。",
+  "chapter_end_hook": "三分钟，到了。——四个字宣告量子坍缩启动，里面的人命运已定",
+  "paywall_card": false,
+  "must_include": ["陈栩踹倒她的暴力", "妈妈逼她道歉", "沈听澜不跪的姿态", "'三分钟，到了'独立行"],
+  "must_not_write_as_exposition": ["陈栩为什么这么暴力的心理分析", "妈妈被叫来的过程"],
+  "rhythm_job": {
+    "shape": "后慢（从追逃的快→被打→静止宣告）",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "亡命-孤勇",
+    "emotion_arc": "再次围攻 → 被踹倒 → 不屈服 → 死亡宣告",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "被踹倒时愤怒到极点，'三分钟到了'时毛骨悚然",
+    "required_techniques": [
+      {
+        "technique": "母亲的无力作为痛点放大器",
+        "instruction": "妈妈为错误的事求情（让她道歉=否认真相），读者知道真相所以更心痛"
+      },
+      {
+        "technique": "三字独立行收尾",
+        "instruction": "'三分钟，到了。'四个字独占一行——最短的句子承载最重的信息"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间+到了",
+        "example": "三分钟，到了。",
+        "instruction": "最短倒计时归零宣告——四个字承载全文最重的转折"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "累积式",
+    "source_excerpt": "闺蜜妈妈看到我，一脚就将我踹倒在泥地里。\"田可！你这个贱人！\"妈妈跪倒在泥地里：\"她学习很努力，能不能让她回去考试？我求您了！\"妈妈不知道，我已经放弃高考。但我不后悔。三分钟，到了。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": [],
+      "句式": "沉默+不跪，身体语言替代言语",
+      "单句上限": 8,
+      "禁止": "求饶、辩解"
+    },
+    "陈栩": {
+      "口癖": ["疯女人", "你毁了一切"],
+      "句式": "暴力攻击性极短句",
+      "单句上限": 12,
+      "禁止": "理性对话"
+    },
+    "沈妈妈": {
+      "口癖": ["听澜", "对不起", "求您了"],
+      "句式": "卑微求情+对女儿失望",
+      "单句上限": 15,
+      "禁止": "支持女儿"
+    }
+  }
+}

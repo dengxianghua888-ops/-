@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "社区公示栏、沈昭宿舍、调查组办公室",
+  "time": "调查结果公布日",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "许曼",
+    "赵慧",
+    "钱建国",
+    "调查人员"
+  ],
+  "character_goal": "沈昭只完成材料提交和工资清算，不回旧社区救任何人。",
+  "opposition_goal": "许曼、赵慧、钱建国分别求沈昭改口或出面缓和舆论。",
+  "conflict_action": "沈昭挂断三通求助电话，签收补发工资和撤销处分通知。",
+  "information_gap": "顾临川只通过一条未读短信出现，爱情补偿留到最终场。",
+  "emotional_debt_delta": "不救场契约兑现，沈昭拿回名誉和劳动报酬。",
+  "payoff_or_hook": "反派承担调查、公示、退款和追责，沈昭不参与他们的互咬。",
+  "chapter_end_hook": "调查组问沈昭要不要回去补一份现场说明，她只把材料袋推了过去。",
+  "paywall_card": false,
+  "must_include": [
+    "社区公示栏上的处理结果",
+    "补发工资到账短信",
+    "三通电话分别来自许曼、赵慧、钱建国"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列所有处罚细节",
+    "不要让求饶戏拖长",
+    "不要让沈昭原谅任何人"
+  ],
+  "rhythm_job": {
+    "shape": "收束但仍有动作，电话打断和签字动作推进；动作四成，对白两成，短信/公告两成，冷旁白两成。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

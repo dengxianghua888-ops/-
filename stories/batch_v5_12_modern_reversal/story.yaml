@@ -1,0 +1,22 @@
+title: 他当着全公司的面撕碎我的画，却不知道画里藏着他的命
+source_slug: hot_552c804eb2
+genre: modern_reversal
+pipeline: v5_structure_fidelity
+batch: batch_v5_part2_20260527
+status: final
+nonspace_chars: 10004
+chapters: 10
+characters:
+  - name: 沈画
+    role: 女主
+    description: 隐退画家，丈夫公司核心IP的真正创作者，五年后夺回一切
+  - name: 周砚
+    role: 反派
+    description: 丈夫，靠妻子画作起家却嫌弃妻子，最终因商业欺诈入狱
+  - name: 姜柔
+    role: 绿茶助理
+    description: 伪装成天才画师的抄袭者，被行业拉黑
+  - name: 陆深
+    role: 盟友
+    description: 女主前合伙人，画廊掌门人，揭露真相的执行者
+logline: 为爱放弃事业的女画家被丈夫和助理当众羞辱，揭开她才是公司核心IP真正创作者后彻底清算。

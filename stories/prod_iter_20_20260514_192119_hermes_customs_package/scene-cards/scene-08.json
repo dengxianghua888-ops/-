@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B8",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅正中央·执勤民警岗",
+  "time": "同日下午四点四十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "执勤民警", "周明远", "围观卖家A/B/C"],
+  "character_goal": "当众报案：寄存的三千万真品被掉包",
+  "opposition_goal": "周明远试图阻止徐阳走向民警",
+  "conflict_action": "徐阳转身走向大厅中央民警岗→打开手机PDF双签亮屏→报案'寄存的三千万真品五十只被人调包'→周明远扑上前被民警挡下→大厅瞬间安静",
+  "information_gap": "读者拍腿大爽——M1死环扣死",
+  "emotional_debt_delta": "-3（一次性大释放）",
+  "payoff_or_hook": "报案话术原文+民警低头看手机PDF的瞬间",
+  "chapter_end_hook": "我转身走向大厅执勤民警：'我要报案。我寄存的三千万真品，被人调包了。'",
+  "paywall_card": true,
+  "must_include": ["双签PDF亮屏的物理细节", "民警伸手按对讲机的动作", "周明远扑上前被挡的小动作", "大厅安静下来的环境音"],
+  "must_not_write_as_exposition": ["群众瞬间高潮鼓掌", "主角自夸金句", "反派立刻昏倒", "警察一句话定案"]
+}

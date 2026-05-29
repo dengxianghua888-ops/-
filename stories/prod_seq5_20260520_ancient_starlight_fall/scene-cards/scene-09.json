@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "发布会主舞台",
+  "time": "谢家公开婚书后",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "谢砚", "苏明霜", "主持人", "媒体记者"],
+  "character_goal": "陆沉舟要抢回叙事权，把林晚宜的新身份污名化成刺激旧爱。",
+  "opposition_goal": "谢砚要挡住陆沉舟对林晚宜私生活的公开羞辱。",
+  "conflict_action": "陆沉舟抢走主持人话筒，逼问孩子是谁的，谢砚切断他的麦克风并走上台。",
+  "information_gap": "谢砚手里有孕检确认链，但先不让女主被迫自证。",
+  "emotional_debt_delta": "+人格贬低债二次叠加；+公开羞辱债二次叠加",
+  "payoff_or_hook": "陆沉舟在镜头前失控，谢砚正面接管场面。",
+  "chapter_end_hook": "陆沉舟冲上台，话筒却先传出谢砚的声音：“她要嫁的人是我。”",
+  "paywall_card": false,
+  "must_include": ["抢话筒", "孩子是谁的逼问", "谢砚切麦", "林晚宜不自证"],
+  "must_not_write_as_exposition": ["不要写成验父闹剧", "不要让女主解释私生活", "不要让陆沉舟占据道德优势"]
+}

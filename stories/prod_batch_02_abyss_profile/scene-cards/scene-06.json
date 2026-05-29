@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 720,
+  "target_chars_max": 860,
+  "location": "校园广播机房",
+  "time": "第三天深夜",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "机房管理员", "刘队", "纪白"],
+  "character_goal": "查到夜间心电音播放源，把灵异恐吓转化成可用证据。",
+  "opposition_goal": "幕后人要用许曼的卡制造假痕迹，把嫌疑固定到她身上。",
+  "conflict_action": "林照趁维修窗口进入机房导出播放记录，被管理员堵住后当场连线刘队，比对登录工号和监控时间差。",
+  "information_gap": "纪白为什么使用许曼的卡，他是否掌握冷库和广播双重权限。",
+  "emotional_debt_delta": "灵异误导债-1，纪白嫌疑债+1。",
+  "payoff_or_hook": "心电音不是鬼声，是纪白工号登录后的循环音频。",
+  "chapter_end_hook": "播放心电音的账号不是许曼，是纪白的助教工号。",
+  "paywall_card": false,
+  "must_include": [
+    "广播播放记录",
+    "许曼门禁卡",
+    "纪白助教工号",
+    "刘队远程比对",
+    "管理员突然进门"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普广播系统",
+    "不要让管理员长篇解释",
+    "不要让证据只存在于林照判断里"
+  ]
+}

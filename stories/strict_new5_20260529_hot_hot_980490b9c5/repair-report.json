@@ -1,0 +1,186 @@
+{
+  "phase": 5,
+  "mode": "production",
+  "status": "manual_review_required",
+  "blocking": [
+    "scene_length",
+    "source_rhythm"
+  ],
+  "results": [
+    {
+      "name": "fragmentation_and_soft_words",
+      "status": "ok",
+      "sanitized_scene_cards": 2,
+      "question_rewrites": 0,
+      "scenes": [
+        {
+          "scene": "scene-01.md",
+          "chars": 730,
+          "min": 720,
+          "max": 800,
+          "lines_before": 56,
+          "lines_after": 44,
+          "avg_line_chars": 16.591,
+          "short_line_rate": 0.5455,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-02.md",
+          "chars": 723,
+          "min": 740,
+          "max": 820,
+          "lines_before": 59,
+          "lines_after": 39,
+          "avg_line_chars": 18.538,
+          "short_line_rate": 0.5641,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-03.md",
+          "chars": 667,
+          "min": 740,
+          "max": 820,
+          "lines_before": 55,
+          "lines_after": 38,
+          "avg_line_chars": 17.553,
+          "short_line_rate": 0.5526,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-04.md",
+          "chars": 637,
+          "min": 750,
+          "max": 830,
+          "lines_before": 52,
+          "lines_after": 37,
+          "avg_line_chars": 17.216,
+          "short_line_rate": 0.5676,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-05.md",
+          "chars": 582,
+          "min": 750,
+          "max": 830,
+          "lines_before": 49,
+          "lines_after": 34,
+          "avg_line_chars": 17.118,
+          "short_line_rate": 0.5882,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-06.md",
+          "chars": 634,
+          "min": 750,
+          "max": 830,
+          "lines_before": 49,
+          "lines_after": 37,
+          "avg_line_chars": 17.135,
+          "short_line_rate": 0.5676,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-07.md",
+          "chars": 810,
+          "min": 960,
+          "max": 1140,
+          "lines_before": 68,
+          "lines_after": 47,
+          "avg_line_chars": 17.234,
+          "short_line_rate": 0.5745,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-08.md",
+          "chars": 662,
+          "min": 960,
+          "max": 1140,
+          "lines_before": 57,
+          "lines_after": 44,
+          "avg_line_chars": 15.045,
+          "short_line_rate": 0.75,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-09.md",
+          "chars": 623,
+          "min": 960,
+          "max": 1140,
+          "lines_before": 55,
+          "lines_after": 44,
+          "avg_line_chars": 14.159,
+          "short_line_rate": 0.7727,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-10.md",
+          "chars": 777,
+          "min": 960,
+          "max": 1140,
+          "lines_before": 59,
+          "lines_after": 48,
+          "avg_line_chars": 16.188,
+          "short_line_rate": 0.5417,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-11.md",
+          "chars": 614,
+          "min": 760,
+          "max": 840,
+          "lines_before": 54,
+          "lines_after": 35,
+          "avg_line_chars": 17.543,
+          "short_line_rate": 0.6571,
+          "barrage_lines": 0
+        },
+        {
+          "scene": "scene-12.md",
+          "chars": 630,
+          "min": 770,
+          "max": 850,
+          "lines_before": 53,
+          "lines_after": 35,
+          "avg_line_chars": 18.0,
+          "short_line_rate": 0.6,
+          "barrage_lines": 0
+        }
+      ]
+    },
+    {
+      "name": "scene_length",
+      "status": "manual_review_required",
+      "offending_scenes": [
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12"
+      ],
+      "todo_path": "scene-rewrite-todo.json"
+    },
+    {
+      "name": "source_rhythm",
+      "status": "manual_review_required",
+      "failures": [
+        "short_line_rate 0.608 over-fragments source rhythm 0.445"
+      ],
+      "todo_path": "source-rhythm-rewrite-todo.json"
+    },
+    {
+      "name": "forbidden_scan",
+      "status": "ok",
+      "totals": {
+        "forbidden": 0,
+        "soft_forbidden": 0
+      },
+      "report_path": "scene-forbidden-scan.json"
+    }
+  ]
+}

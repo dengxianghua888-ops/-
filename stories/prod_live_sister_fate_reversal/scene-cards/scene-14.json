@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 850,
+  "target_chars_max": 1100,
+  "location": "外婆老院子、海棠树下",
+  "time": "同日下午，雨停后",
+  "pov": "近景旁观叙述，结尾回到温柔留白",
+  "characters": [
+    "外婆",
+    "新生女孩",
+    "邻居新妈妈",
+    "邻居新爸爸"
+  ],
+  "character_goal": "完成补偿：女孩拥有会立刻回应她的新父母，晚萤不再回到原家庭。",
+  "opposition_goal": "叙事必须克制，避免变成原家庭团圆或直白复活。",
+  "conflict_action": "女孩敲完完整四小节，回头喊妈妈；新妈妈立刻推门进来抱她，新爸爸撑伞挡雨，外婆把晚萤旧曲谱轻轻放回琴盖下。",
+  "information_gap": "外婆似乎认出她，却选择守住她的新人生。",
+  "emotional_debt_delta": -5,
+  "payoff_or_hook": "最终回甘：这一次，门外有人立刻回应。",
+  "chapter_end_hook": "女孩敲完四小节，回头喊妈妈；这一次，门外有人立刻应她。",
+  "paywall_card": false,
+  "must_include": [
+    "完整四小节旋律",
+    "女孩喊妈妈",
+    "新妈妈立刻回应",
+    "外婆收起旧曲谱",
+    "不把消息告诉林家"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写大团圆",
+    "不要写原父母悔悟后得到补偿",
+    "不要让女孩说出前世记忆",
+    "不要用旁白判定所有人被宽恕"
+  ]
+}

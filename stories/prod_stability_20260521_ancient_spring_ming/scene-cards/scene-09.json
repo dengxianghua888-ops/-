@@ -1,0 +1,47 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 680,
+  "target_chars_max": 760,
+  "location": "海运中心冷链周转区",
+  "time": "直播结束后深夜",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮",
+    "值夜助理"
+  ],
+  "character_goal": "逃离低温区，不再靠近冷柜周转箱。",
+  "opposition_goal": "裴砚潮要她‘清醒’，逼她在冷链区站到认错。",
+  "conflict_action": "裴砚潮把她堵在周转箱旁，门扣响起，她当场缩到墙角求他别关；他却认定她又在做戏。",
+  "information_gap": "她为什么对门扣和金属气味反应如此剧烈；三年里低温仓发生过什么。",
+  "emotional_debt_delta": {
+    "add": [
+      "低温仓与她最深创伤的对应关系"
+    ],
+    "pay": [
+      "第一次让她明确说出‘别关我’"
+    ]
+  },
+  "payoff_or_hook": "值夜助理看见她不是怕冷，而是怕那个声音。",
+  "chapter_end_hook": "截断句：冷柜门扣一响，她整个人缩到了墙角。",
+  "paywall_card": false,
+  "must_include": [
+    "冷柜周转箱",
+    "门扣声",
+    "她明确求‘别关我’",
+    "值夜助理旁观一眼"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释冷链业务",
+    "不要一次性回忆低温仓遭遇",
+    "不要把创伤写成普通矫情"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "郊区网红酒庄，草坪婚礼布置中，甜品台搭建区域",
+  "time": "婚礼前一天下午/当天上午",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "婚庆协调员"],
+  "character_goal": "沈绮云以甜品供应商身份潜入婚宴现场，开始侦察",
+  "opposition_goal": "婚庆协调员热情接待供应商，无意中确认更多信息",
+  "conflict_action": "沈绮云搬运甜品布置台面时观察到婚礼规格（保时捷婚车、高端酒庄），与记忆中自己的窘迫形成对比",
+  "information_gap": "协调员不知面前的供应商就是新郎的'已故前妻'",
+  "emotional_debt_delta": "第一组量化对比出场：婚礼规格vs自己当年的简陋婚宴",
+  "payoff_or_hook": "章末钩子：协调员热情地说'新娘人可好了，一会儿她来确认甜品台你们聊聊'",
+  "chapter_end_hook": "协调员招呼沈绮云等新娘来确认——信息差极致化，读者好奇她会暴露吗",
+  "paywall_card": false,
+  "must_include": [
+    "以供应商身份自然潜入的过程",
+    "第一组量化对比（婚礼规格vs自己当年）",
+    "悬置钩子：'这笔账等会儿再算'类的内心独白",
+    "章末：即将与新娘面对面的悬念"
+  ],
+  "must_not_write_as_exposition": [
+    "沈绮云如何接到这个订单的过程",
+    "酒庄的详细环境描写"
+  ],
+  "rhythm_job": {
+    "shape": "渐起",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 16.2,
+    "dominant_emotion": "冷怒蓄力",
+    "emotion_arc": "愕然 → 冷怒蓄力 → 潜入就位",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "急切想知道她下一步动作，对即将到来的面对面充满期待",
+    "required_techniques": [
+      {
+        "technique": "量化对比首发",
+        "instruction": "第一组A-B对比出场：看到保时捷婚车队/高端酒庄布置，闪回自己当年租的面包车/社区饭馆两桌。用具体物件对照，不用形容词"
+      },
+      {
+        "technique": "悬置钩子",
+        "instruction": "女主看到某个刺痛的细节后，内心说一句'这笔账/这个数/这件事——等会儿再算'，明确告知读者清算即将到来"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "假设反击+夸张后果",
+        "example": "我要是真丧，他们坟头草都不知道多高了？",
+        "instruction": "用假设句暗示女主的厉害程度——'他们以为我死了？那我就让他们知道死人诈尸是什么滋味'"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "累积式",
+    "source_excerpt": "婚纱照一看就价格不菲。他说，'婚纱照就是个形式，拍那么贵完全没有意义。'这笔账等会儿再算。徐万芳注意到我从宴会厅出来，笑着和我打招呼，'你是瑞阳同事吧？！'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["原来", "等会儿再算"],
+      "句式": "冷静观察+内心短评，偶尔一句杀气外露的独白",
+      "单句上限": 15,
+      "禁止": "长句描写环境、抒情"
+    }
+  }
+}

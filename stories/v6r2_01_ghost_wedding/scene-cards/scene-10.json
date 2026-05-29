@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 550,
+  "target_chars_max": 750,
+  "location": "酒庄宴会厅舞台上",
+  "time": "紧接上一场",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "张母", "宾客群"],
+  "character_goal": "沈绮云转向公婆，揭露帮凶角色",
+  "opposition_goal": "张母试图缩起来装不知情/反咬",
+  "conflict_action": "沈绮云开始指向张母——揭露张母配合谎言、当众叫她'丧门星'、要66000改口费的行为。张母从缩起来到跳脚反驳",
+  "information_gap": "宾客们不知道公婆也是合谋者——新一层揭露开始",
+  "emotional_debt_delta": "战线从夫妻扩展到婆家——清算对象增加",
+  "payoff_or_hook": "章末：火力转向张母，暗示清算远未结束",
+  "chapter_end_hook": "沈绮云对张母说'妈，这话是你亲口说的吧！'——公婆的帮凶身份即将被公开清算",
+  "paywall_card": false,
+  "must_include": [
+    "张母的帮凶行为揭露（配合谎言、叫'丧门星'）",
+    "公婆由红转白再转青的表情",
+    "宾客新一轮议论",
+    "章末转向张母的追问"
+  ],
+  "must_not_write_as_exposition": [
+    "公婆过去对女主的具体虐待史",
+    "家庭背景介绍"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.5,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "爆发-碾压",
+    "emotion_arc": "连续打击 → 火力转向公婆 → 逼问",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "清算不止一个人——读者更爽了，帮凶也要付代价",
+    "required_techniques": [
+      {
+        "technique": "全场反应切镜",
+        "instruction": "宾客议论升级——从'这什么情况'到'这也太不是东西了'，群体的道德判断越来越明确，成为女主的隐形盟友"
+      },
+      {
+        "technique": "恳求-拒绝节奏",
+        "instruction": "张锐城再次试图阻止但被无视——女主此刻的目标已经转向张母，渣男的恳求变成背景噪音，更显其无力"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "主语+颜色渐变三段式",
+        "example": "公婆两张脸由红转白，再由白转青。",
+        "instruction": "颜色变化可视化心理崩塌过程——读者能'看见'他们怎么垮的。用三个颜色递进描写"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "累积式",
+    "source_excerpt": "公婆两张脸由红转白再由白转青。'她说瑞阳认识那个女人后一年比一年顺，不像前头那个，福薄寿短，丧门星一个。'我转向她：'婆婆，这话是你亲口说的吧！'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["你说", "亲口说的"],
+      "句式": "质问式、引用对方原话反击",
+      "单句上限": 18,
+      "禁止": "给台阶、语气软化"
+    },
+    "张母": {
+      "口癖": ["我……", "不是……"],
+      "句式": "被揭穿时的支吾+后续跳脚",
+      "单句上限": 15,
+      "禁止": "道歉"
+    }
+  }
+}

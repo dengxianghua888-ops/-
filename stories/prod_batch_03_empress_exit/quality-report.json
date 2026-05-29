@@ -1,0 +1,168 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_03_empress_exit/final.md",
+    "target_length": {
+      "min": 14000,
+      "max": 16800,
+      "actual": 14463,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        908,
+        1040,
+        1035,
+        1117,
+        797,
+        752,
+        891,
+        777,
+        973,
+        1090,
+        1063,
+        1181,
+        811,
+        718,
+        1189
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 5,
+      "actual": 16,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 90,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 5,
+        "actual": 8,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 14463,
+      "sentence_count": 977,
+      "avg_sentence_length": 13.803,
+      "dialogue_ratio": 0.2215,
+      "question_marks": 39,
+      "question_marks_per_k": 2.697,
+      "physical_emotion_hits": {
+        "指尖": 8,
+        "手心": 2,
+        "眼眶": 1,
+        "指甲": 3,
+        "掌心": 15
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.662
+    },
+    "semantic_repetition": {
+      "sentence_count": 636,
+      "unique_sentence_skeletons": 636,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0016
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.3,
+    "emotion": 8.9,
+    "style": 8.0,
+    "logic": 8.1
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "path": "story/draft.md#01",
+      "quote": "我娘不再替汗王生子后，他悔疯了 / 【导语】阿娘用雪铃命契替绝嗣汗王生下八个王子。",
+      "supports": [
+        "title_intro",
+        "platform"
+      ]
+    },
+    {
+      "id": "E02",
+      "path": "story/draft.md#01",
+      "quote": "三枚铃，三日。",
+      "supports": [
+        "countdown_hook"
+      ]
+    },
+    {
+      "id": "E03",
+      "path": "story/draft.md#12",
+      "quote": "她从袖中取出一页脉案誊本。",
+      "supports": [
+        "logic_fix",
+        "copy_vs_original"
+      ]
+    },
+    {
+      "id": "E04",
+      "path": "story/draft.md#13",
+      "quote": "我打开匣子，取出完整脉案。",
+      "supports": [
+        "logic_fix",
+        "original_location"
+      ]
+    },
+    {
+      "id": "E05",
+      "path": "story/draft.md#15",
+      "quote": "从今日起，王庭不许再有下一个阿泠。",
+      "supports": [
+        "ending_boundary",
+        "payoff"
+      ]
+    }
+  ],
+  "resolved_notes": [
+    "清理孟家/贵妃/皇子/系统等设定残留为北境王庭体系。",
+    "将乌兰珠持有的脉案改为誊本，私库保留原件，修复道具位置冲突。",
+    "标题和导语已并入第一场正文。"
+  ]
+}

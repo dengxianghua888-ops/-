@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B5",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "大厂办公室/会议室",
+  "time": "入职半年",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "顾行舟"
+  ],
+  "character_goal": "建立新的平等关系",
+  "opposition_goal": "无（合作关系）",
+  "conflict_action": "算法项目中与顾行舟重逢+他识别出她的代码风格",
+  "information_gap": "顾行舟为什么对她这么熟悉",
+  "emotional_debt_delta": "-1",
+  "payoff_or_hook": "代码风格暗示",
+  "chapter_end_hook": "顾行舟说：你的代码风格，我一眼就能认出来。",
+  "paywall_card": false,
+  "must_include": [
+    "专业场景",
+    "代码风格细节",
+    "微妙好感"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写成偶像剧邂逅"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "chapter_id": 9,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "法院/教育局 → 云岭大学校园",
+  "time": "一个月后 → 大一上学期",
+  "pov": "苏念",
+  "characters": ["苏念", "叶东辰（被判）", "顾瑶"],
+  "character_goal": "苏念平静接受审判结果，开始新生活",
+  "opposition_goal": "顾瑶在失去一切后变成恐怖跟踪者，拒绝接受现实",
+  "conflict_action": "叶东辰被判两年+叶家因违建被查破产；顾瑶被开除后开始跟踪苏念——穿一样的衣服、上一样的课",
+  "information_gap": "读者看到M3因果回旋落地——叶东辰用系统害人→系统反噬其家族；顾瑶说苏念'装穷'→自己才是真正的'装'",
+  "emotional_debt_delta": "第一轮清算完成——法律层面的正义兑现，但顾瑶的心理恐怖开始",
+  "payoff_or_hook": "叶东辰入狱+叶家破产（M3因果回旋第一层兑现）",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "教育局纪检通报的结果（一句话）",
+    "叶东辰被判+叶家破产（两句话）",
+    "顾瑶的恐怖跟踪行为（三段递进）",
+    "苏念的金句回击：'我上哪来的姐妹'",
+    "M3回旋落地：'装穷'标签反噬到顾瑶身上"
+  ],
+  "must_not_write_as_exposition": [
+    "审判过程的法律细节",
+    "苏念在大学的日常生活",
+    "顾瑶为什么精神失常的心理分析"
+  ],
+  "rhythm_job": {
+    "shape": "波浪起伏",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.45,
+    "sentence_avg_len": 14.2,
+    "dominant_emotion": "痛快-警惕",
+    "emotion_arc": "痛快（判刑）→ 平静 → 警惕（跟踪）→ 冷静面对",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "终于看到法律制裁的痛快，但对顾瑶的阴魂不散感到脊背发凉",
+    "required_techniques": [
+      {
+        "technique": "恐怖化跟踪描写",
+        "instruction": "三段递进：'我上课她坐旁边→我吃饭她买一样的菜→穿和我一模一样的衣服'——从正常→诡异→恐怖"
+      },
+      {
+        "technique": "金句回旋",
+        "instruction": "'我家穷得只剩彼此了，我上哪来的姐妹？'——用最朴素的事实否定对方自封的身份"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "常识反问+关系否定",
+        "example": "我爸妈只生我一个，我上哪儿来的姐妹？",
+        "instruction": "用独生女的事实彻底否定顾瑶'好姐妹'的自我定位——轻飘飘但致命"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "累积式",
+    "source_excerpt": "我上课，她坐我旁边。我吃饭，她也跟我买一样的菜。甚至穿和我一模一样的衣服。「我爸妈只生我一个，我上哪儿来的姐妹？」「为什么会变成现在这样？不对，这一切都错了！」她精神濒临崩溃。"
+  }
+}

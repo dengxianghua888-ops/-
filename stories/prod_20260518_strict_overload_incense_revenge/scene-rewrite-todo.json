@@ -1,0 +1,101 @@
+{
+  "todos": [],
+  "summary": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 705,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 708,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 702,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 705,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 700,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 705,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 700,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 722,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 701,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 700,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 700,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 704,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 711,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 701,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 708,
+      "min": 700,
+      "max": 800
+    },
+    {
+      "scene_id": "scene-16",
+      "actual_chars": 710,
+      "min": 700,
+      "max": 800
+    }
+  ]
+}

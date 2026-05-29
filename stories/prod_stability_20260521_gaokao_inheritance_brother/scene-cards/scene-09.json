@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 660,
+  "target_chars_max": 760,
+  "location": "家族心理顾问诊室",
+  "time": "第三天上午",
+  "pov": "第一人称，沈知夏",
+  "characters": ["沈知夏", "心理顾问", "父亲", "母亲"],
+  "character_goal": "逼心理顾问读取封存记录，确认真相是否指向我本人",
+  "opposition_goal": "父母想让心理顾问继续保密，顾问起初拒绝越线",
+  "conflict_action": "我把处方、同意书和改名草稿摔到桌上，要求顾问当场核对签名和记录",
+  "information_gap": "封存的是哪段记忆，谁真正签过同意书",
+  "emotional_debt_delta": 2,
+  "payoff_or_hook": "专业见证人首次明说：我找的不是弟弟，而是被封掉的自己",
+  "chapter_end_hook": "心理顾问盯着那张处方，声音发紧：'你不是在找弟弟。'",
+  "paywall_card": false,
+  "must_include": [
+    "顾问不是反派脸谱，要有迟疑和职业边界",
+    "签名比对要让主角意识到自己曾参与过封存",
+    "父母的紧张比愤怒更明显"
+  ],
+  "must_not_write_as_exposition": [
+    "不要科普心理咨询伦理",
+    "不要让顾问直接讲成公开课",
+    "不要把签名比对写成文件清单"
+  ],
+  "rhythm_job": {
+    "shape": "拍证据 25% + 诊室对答 45% + 签名反证 20% + 半句钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 0,
+    "low_pressure_bridge": "顾问翻页、摘眼镜的小动作缓一下"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "todos": [
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 846,
+      "min": 850,
+      "max": 1050,
+      "delta": 4,
+      "direction": "expand"
+    }
+  ],
+  "summary": [
+    {
+      "scene_id": "scene-01",
+      "actual_chars": 924,
+      "min": 750,
+      "max": 950
+    },
+    {
+      "scene_id": "scene-02",
+      "actual_chars": 936,
+      "min": 750,
+      "max": 950
+    },
+    {
+      "scene_id": "scene-03",
+      "actual_chars": 976,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-04",
+      "actual_chars": 986,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-05",
+      "actual_chars": 926,
+      "min": 750,
+      "max": 950
+    },
+    {
+      "scene_id": "scene-06",
+      "actual_chars": 829,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-07",
+      "actual_chars": 806,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-08",
+      "actual_chars": 855,
+      "min": 850,
+      "max": 1050
+    },
+    {
+      "scene_id": "scene-09",
+      "actual_chars": 834,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-10",
+      "actual_chars": 865,
+      "min": 850,
+      "max": 1050
+    },
+    {
+      "scene_id": "scene-11",
+      "actual_chars": 929,
+      "min": 900,
+      "max": 1100
+    },
+    {
+      "scene_id": "scene-12",
+      "actual_chars": 858,
+      "min": 850,
+      "max": 1050
+    },
+    {
+      "scene_id": "scene-13",
+      "actual_chars": 810,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-14",
+      "actual_chars": 846,
+      "min": 850,
+      "max": 1050,
+      "delta": 4,
+      "direction": "expand"
+    },
+    {
+      "scene_id": "scene-15",
+      "actual_chars": 800,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-16",
+      "actual_chars": 800,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-17",
+      "actual_chars": 857,
+      "min": 850,
+      "max": 1050
+    },
+    {
+      "scene_id": "scene-18",
+      "actual_chars": 909,
+      "min": 900,
+      "max": 1100
+    },
+    {
+      "scene_id": "scene-19",
+      "actual_chars": 825,
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "scene_id": "scene-20",
+      "actual_chars": 767,
+      "min": 750,
+      "max": 950
+    }
+  ]
+}

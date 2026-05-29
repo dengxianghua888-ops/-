@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 620,
+  "target_chars_max": 760,
+  "location": "律师事务所、法院外停车区",
+  "time": "开庭前夜",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "顾淮川",
+    "律师",
+    "助理"
+  ],
+  "character_goal": "彻底切断顾淮川把事情缩成私下和解的可能。",
+  "opposition_goal": "顾淮川要在判决前求和，把代价降到最低。",
+  "conflict_action": "顾淮川堵车门求见求和，林见棠不下车，只让律师递回执和证据目录。",
+  "information_gap": "顾淮川直到这刻才知道偷拍视频、P图、假海报、工作室挂人都被完整留档。",
+  "emotional_debt_delta": "旧情彻底断电，终局转入执行。",
+  "payoff_or_hook": "不给复合错觉，不给卖惨窗口。",
+  "chapter_end_hook": "她隔着车窗看他一眼，只让律师回：法庭见。",
+  "paywall_card": false,
+  "must_include": [
+    "堵车门或拦车的具体动作",
+    "证据目录至少提到两类",
+    "女主不下车",
+    "顾淮川不能得到情绪安慰"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开完整诉讼程序",
+    "不要让顾淮川突然深情"
+  ],
+  "rhythm_job": {
+    "shape": "拦车1拍+递回执1拍+隔窗切断1拍",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0,
+    "ratio_note": ""
+  }
+}

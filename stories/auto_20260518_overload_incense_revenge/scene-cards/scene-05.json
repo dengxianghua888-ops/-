@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B9",
+  "scene_label": "老家被堵门",
+  "location": "运管局门口→老家村口（电话）",
+  "time": "当日上午",
+  "pov": "苏柠",
+  "characters": ["苏柠", "苏母（电话）", "李凯（虚拟号码）", "村长（微信）"],
+  "character_goal": "保护母亲+稳住老家局面",
+  "opposition_goal": "李凯派面包车堵院门+混混尾随母亲+预告泼红漆扔死狗",
+  "conflict_action": "母亲电话哭喊→面包车喇叭→大喇叭村里喊'诈骗犯'→李凯虚拟号笑'你妈心脏病能不能挺住'→主角微信转村长两千→劝母亲锁门躲屋",
+  "information_gap": "主角下一步会做什么——'最好祈祷别落在我手里'",
+  "emotional_debt_delta": "+家人受惊债·谷底",
+  "payoff_or_hook": "李凯——你最好祈祷你这辈子别落在我手里",
+  "chapter_end_hook": "我捏紧手机——指甲死死掐进掌心肉里——掐出了血丝",
+  "paywall_card": false,
+  "target_chars_min": 950,
+  "target_chars_max": 1150,
+  "must_include": [
+    "母亲电话哭喊",
+    "面包车堵院门+大喇叭村里喊'诈骗犯'",
+    "混混尾随母亲菜篮子",
+    "李凯虚拟号'明天泼红漆后天扔死狗'",
+    "主角微信转村长两千块",
+    "主角劝母亲锁门躲屋"
+  ],
+  "must_not_write_as_exposition": [
+    "禁母亲'晕倒在地'血腥具象",
+    "禁'声泪俱下'AI 腔",
+    "禁'天塌了'"
+  ]
+}

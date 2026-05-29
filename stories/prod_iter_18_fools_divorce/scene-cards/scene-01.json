@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "target_chars_min": 680,
+  "target_chars_max": 680,
+  "location": "游艇包厢",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "林知夏",
+    "顾砚臣",
+    "宋晚棠",
+    "律师",
+    "信托代表",
+    "康复中心受助者"
+  ],
+  "character_goal": "当众提出离婚",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "结婚第六年的纪念日，顾砚臣在游艇上摘下我的婚戒。  海风吹得我膝上的薄毯略显发冷，他",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "纪念日羞辱债",
+  "payoff_or_hook": "我把戒指放在协议上，听见自己心里最后一声回响沉进海里。",
+  "chapter_end_hook": "我把戒指放在协议上，听见自己心里最后一声回响沉进海里。",
+  "paywall_card": false,
+  "must_include": [
+    "当众提出离婚",
+    "纪念日羞辱债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

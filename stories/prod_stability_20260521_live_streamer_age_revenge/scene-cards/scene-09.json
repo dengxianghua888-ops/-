@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 660,
+  "target_chars_max": 780,
+  "location": "首映夜后台与停车场",
+  "time": "首映夜结束后",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "周既白",
+    "顾淮川粉丝",
+    "记者",
+    "助理"
+  ],
+  "character_goal": "稳住后场，切断偷拍视频与网暴尾巴。",
+  "opposition_goal": "顾淮川一方要把翻车改写成她设局陷害，继续带节奏。",
+  "conflict_action": "粉丝堵拍、记者追问，周既白挡镜头、接话筒、当众认领项目并站到她前面。",
+  "information_gap": "外界以为周既白只是捡漏，不知道他是靠实力接住整套项目。",
+  "emotional_debt_delta": "情绪修复第一次落地，不靠甜言蜜语，只靠站队和护短。",
+  "payoff_or_hook": "周既白挡在她前面后，顾淮川粉圈开始连夜删图。",
+  "chapter_end_hook": "周既白挡在她前面后，顾淮川粉圈开始连夜删图。",
+  "paywall_card": false,
+  "must_include": [
+    "周既白替她挡镜头或接采访",
+    "1-2行评论/吐槽体现风向反转",
+    "女主对他的评价仍以专业为主",
+    "顾淮川不能在这场获得有效话语权"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列大量网友发言",
+    "不要回头解释首映夜全部细节"
+  ],
+  "rhythm_job": {
+    "shape": "围堵1拍+护住2拍+风向反转1拍",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": "用生活动作和评论承接降压，再把修复感落在公开站位上"
+  }
+}

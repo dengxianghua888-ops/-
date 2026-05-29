@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "score": 7.8,
+  "evidence": [
+    {
+      "type": "opening_click",
+      "scene": "scene-01",
+      "quote": "元宵前三日，织造府花厅里，我这个假千金又被骂了。",
+      "assessment": "开篇直接给身份、时间、受辱冲突，三百字内补齐真假千金与女主特质，点击欲合格。"
+    },
+    {
+      "type": "chapter_hooks",
+      "scene": "scene-03",
+      "quote": "本王亲手做的灯，谁砸的？",
+      "assessment": "第一轮身份反差卡得准。"
+    },
+    {
+      "type": "chapter_hooks",
+      "scene": "scene-07",
+      "quote": "萧晏打断：沈照晚呢？",
+      "assessment": "皇帝指名女主，形成强续读钩。"
+    },
+    {
+      "type": "paywall_cards",
+      "scene": "scene-09",
+      "quote": "沈云姣尖声大叫：沈照晚和野男人就在里面！",
+      "assessment": "破门前卡点有效，且读者知道门内局势已反转。"
+    },
+    {
+      "type": "title_intro",
+      "quote": "beat-bible.title: 假千金只会逛瓦舍，圣上却来找她",
+      "assessment": "标题具备平台反差感。"
+    },
+    {
+      "type": "title_intro",
+      "quote": "source bundle 未提供独立简介字段或简介正文。",
+      "assessment": "简介缺失，标题/简介维度不能完整通过。"
+    }
+  ],
+  "failures": [
+    "缺少可发布简介，无法完成标题/简介全项 PASS。"
+  ]
+}

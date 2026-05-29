@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 730,
+  "target_chars_max": 810,
+  "location": "古镇开街后台入口、花艺堆场",
+  "time": "白天，婚礼开场前二十分钟",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "安保",
+    "婚庆助理",
+    "伴郎阿凯"
+  ],
+  "character_goal": "混进后台，先拿到婚礼一手证据和机位信息。",
+  "opposition_goal": "安保和助理只想按流程清场，伴郎无意识帮周瑞阳维持“丧妻人设”。",
+  "conflict_action": "林晚晴冒充补送花艺，报错岗位、递单子、顺手搬花架，一路硬挤进后台。",
+  "information_gap": "婚礼是不是并入集体婚礼直播，周瑞阳对外用了什么身份包装。",
+  "emotional_debt_delta": "新增债：丈夫把“丧妻带娃”的谎言当成开新人生的包装词。",
+  "payoff_or_hook": "伴郎笑说“丧妻带娃总算翻篇”，坐实周瑞阳并非临时撒谎。",
+  "chapter_end_hook": "截断在林晚晴第一次听见“丧妻带娃”那句轻飘飘的笑谈。",
+  "paywall_card": false,
+  "must_include": [
+    "利用女主花艺和后勤经验混入现场",
+    "后台物件要近景化：花架、对讲机、手写单、胸牌",
+    "伴郎的话要带炫耀口气，不是悄悄密谋",
+    "女主的冷静比哭闹更有压迫感"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述婚庆执行流程",
+    "不要给伴郎安排长篇闲聊"
+  ],
+  "rhythm_job": {
+    "shape": "2段短对付+1段搬花动作+1记轻飘飘真相刺入",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "5:5",
+    "low_pressure_bridge": "搬花架、抹汗、递单据这些低压动作托住信息推进",
+    "chapter_tail_cut": "伴郎那句“翻篇”落下即停"
+  }
+}

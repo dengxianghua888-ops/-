@@ -1,0 +1,31 @@
+slug: strict_new5_20260528_hot_7e47c11b0f
+status: final
+pipeline_mode: production
+final_packaging:
+  title: 奔赴八百公里求婚后，我成了航司副总的十年小三
+  final_file: final.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 13
+total_chars: 10638
+chapter_count: 13
+paywall_cards: 10
+quality_gate: pass
+critic_scores:
+  logic: 8.0
+  style: 7.7
+  emotion: 8.4
+  platform: 8.1
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_181647
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 7 status=pass",
+    "target_length=10613",
+    "source_rhythm_fit=pass",
+    "action_density_per_k=27.513"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260521_1825_ceo_fishing_sweet/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10613,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        712,
+        757,
+        726,
+        747,
+        758,
+        754,
+        817,
+        791,
+        711,
+        824,
+        668,
+        690,
+        754,
+        733
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 138,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 3,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 22,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10613,
+      "sentence_count": 519,
+      "avg_sentence_length": 19.451,
+      "dialogue_ratio": 0.3388,
+      "question_marks": 72,
+      "question_marks_per_k": 6.784,
+      "physical_emotion_hits": {
+        "指尖": 5,
+        "发麻": 2,
+        "胸腔": 1,
+        "喉咙": 1,
+        "掌心": 10
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 27.513
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 500573,
+        "line_count": 19885,
+        "avg_line_chars": 25.173,
+        "median_line_chars": 22.0,
+        "short_line_rate": 0.323,
+        "long_line_rate": 0.1532,
+        "quote_line_rate": 0.3722,
+        "barrage_line_rate": 0.0004,
+        "question_marks_per_k": 7.869
+      },
+      "candidate": {
+        "chars": 10381,
+        "line_count": 484,
+        "avg_line_chars": 21.448,
+        "median_line_chars": 21.0,
+        "short_line_rate": 0.2645,
+        "long_line_rate": 0.0289,
+        "quote_line_rate": 0.4587,
+        "barrage_line_rate": 0.0021,
+        "question_marks_per_k": 6.936
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 449,
+      "unique_sentence_skeletons": 449,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0022
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

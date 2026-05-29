@@ -1,0 +1,73 @@
+{
+  "story": "stories/v6r2_03_ancient_disaster_star",
+  "overall_score": 6.2,
+  "dimensions": {
+    "length_alignment": {
+      "score": 4.22,
+      "evidence": "总字数 6472,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 0.0,
+      "evidence": "no chapters"
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 3/2"
+    },
+    "action_density": {
+      "score": 9.27,
+      "evidence": "动作密度 23.331/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 16.354,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 5.32,
+      "evidence": "源/稿均行长 20.107/14.689, 短行率 0.452/0.6415, 对白行率 0.3427/0.3467; avg_line_chars 14.69 below source-rhythm floor 15.68；short_line_rate 0.641 over-fragments source rhythm 0.452",
+      "details": {
+        "status": "fail",
+        "applicable": true,
+        "source": {
+          "chars": 10677,
+          "line_count": 531,
+          "avg_line_chars": 20.107,
+          "median_line_chars": 17.0,
+          "short_line_rate": 0.452,
+          "long_line_rate": 0.0716,
+          "quote_line_rate": 0.3427,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 4.777,
+          "comma_period_ratio": 1.025,
+          "sentence_avg_len": 20.3
+        },
+        "candidate": {
+          "chars": 6228,
+          "line_count": 424,
+          "avg_line_chars": 14.689,
+          "median_line_chars": 12.0,
+          "short_line_rate": 0.6415,
+          "long_line_rate": 0.0259,
+          "quote_line_rate": 0.3467,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 3.372,
+          "comma_period_ratio": 0.855,
+          "sentence_avg_len": 16.4
+        },
+        "failures": [
+          "avg_line_chars 14.69 below source-rhythm floor 15.68",
+          "short_line_rate 0.641 over-fragments source rhythm 0.452"
+        ]
+      }
+    },
+    "mobile_readability": {
+      "score": 9.5,
+      "evidence": "1 段违规"
+    }
+  },
+  "rework_targets": [
+    "source_rhythm_fit"
+  ],
+  "pass_threshold": 8.0,
+  "status": "fail"
+}

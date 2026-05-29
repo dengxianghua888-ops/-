@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "旧戏楼门口",
+  "time": "傍晚",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "陆家管家",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想回戏楼整理修复材料，避开陆家麻烦",
+  "opposition_goal": "陆家管家想带陆砚辞回祖宅会议，顺便确认温瓷怀孕",
+  "conflict_action": "黑车堵住戏楼门，管家递上陆家印章文件并向陆砚辞躬身叫小少爷",
+  "information_gap": "陆家身份坐实一半，但他们对温瓷和孩子的态度未知",
+  "emotional_debt_delta": "阶层债启动，家族压力压到女主面前",
+  "payoff_or_hook": "夜场搭台工和小少爷称呼形成强反差",
+  "chapter_end_hook": "管家的目光落到温瓷小腹上：“老爷子还不知道这件事。”",
+  "paywall_card": false,
+  "must_include": [
+    "黑车堵门",
+    "陆家印章文件",
+    "小少爷称呼",
+    "陆砚辞挡在温瓷前面",
+    "管家看向小腹"
+  ],
+  "must_not_write_as_exposition": [
+    "不要豪门背景百科",
+    "不要长辈远程辱骂孕妇",
+    "不要让温瓷被吓到失语"
+  ],
+  "rhythm_job": "1个身份称呼爆点+1次挡身前动作+章尾用小腹视线制造压迫"
+}

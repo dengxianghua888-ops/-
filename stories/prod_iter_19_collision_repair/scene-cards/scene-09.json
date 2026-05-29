@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 720,
+  "target_chars_max": 760,
+  "location": "汽修厂大门外联合查处现场",
+  "time": "主线时间线 第9节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "赵卫东",
+    "陈志国"
+  ],
+  "character_goal": "看着查封条贴上卷帘门",
+  "opposition_goal": "想抢救台账和销毁证据",
+  "conflict_action": "联合执法把卷帘门拉下来贴封条，赵卫东被请上车，陈志国从后门翻墙被按在墙根，三十六本车主台账被搬上厢式车。",
+  "information_gap": "反派以为还能转移台账，台账已经先一步落到执法手里",
+  "emotional_debt_delta": "查封债",
+  "payoff_or_hook": "封条糊上的那一刻，雨停了。",
+  "chapter_end_hook": "封条糊上的那一刻，雨停了。",
+  "paywall_card": false,
+  "must_include": [
+    "卷帘门封条",
+    "台账被搬走",
+    "雨停",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "海运中心观景塔外缘与楼下广场",
+  "time": "黄昏转夜",
+  "pov": "沈惊棠",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮",
+    "楼下人群",
+    "安保"
+  ],
+  "character_goal": "终止羞辱循环，把最后的选择夺回来。",
+  "opposition_goal": "裴砚潮要把她从边缘拉回来，却仍想先控制局面而不是先认错。",
+  "conflict_action": "她把值班簿、工牌和录音笔都塞回他手里，翻出栏杆；他扑过去抓她，她看着他的手一点点松开自己的命。",
+  "information_gap": "截断句：她松开栏杆时，没有再回头。",
+  "emotional_debt_delta": {
+    "add": [],
+    "pay": [
+      "女主主动赴死成立",
+      "她不再求信任，只要离开"
+    ]
+  },
+  "payoff_or_hook": "她松手坠下，把所有迟到的解释一起甩在身后。",
+  "chapter_end_hook": "截断句：她松开栏杆时，没有再回头。",
+  "paywall_card": true,
+  "must_include": [
+    "值班簿、工牌、录音笔三个物件回交",
+    "翻栏动作",
+    "他扑过去抓她",
+    "她主动松手"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写高空环境说明",
+    "不要拖成长篇赴死独白"
+  ],
+  "rhythm_job": {
+    "shape": "动作5成，对白2成，呼吸点2成，章尾钩1成；先物件交还，再翻栏，再坠落，低压只留一瞬静默",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 1
+  }
+}

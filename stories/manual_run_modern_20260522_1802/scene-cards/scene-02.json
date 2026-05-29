@@ -1,0 +1,37 @@
+{
+  "scene_id": "S02",
+  "beat_id": "B2",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "市监稽查所查验间",
+  "time": "同一日上午十一点",
+  "pov": "first_person_林承",
+  "characters": ["林承", "张松", "稽查员小李"],
+  "character_goal": "把省质检院初检报告、原料供应链合同摊到桌面,要求张松对照成分逐项核验",
+  "opposition_goal": "张松用预制 PPT《虚假宣传典型案例》逐页比对,把林承的皂归到'误导消费者重大'档",
+  "conflict_action": "张松调出投影,翻出三个去年判过的'纯天然'误导案,把案值统一往三百万的档上靠",
+  "information_gap": "张松为什么连看一眼检测报告都不愿意——读者将在 B11 的银行流水里看到答案",
+  "emotional_debt_delta": "+2 滥权羞辱",
+  "payoff_or_hook": "PPT 上一句话被定格特写:'类案案值 ≥ 300 万,应从重处罚'",
+  "chapter_end_hook": "他把PPT切到下一张,'你是这个月第三个虚假宣传的'。",
+  "paywall_card": false,
+  "must_include": [
+    "省质检院《手工皂成分检测报告》被推到张松面前但被一根笔挡回去",
+    "至少 1 条小李的旁白式低语:'队长今天赶时间'",
+    "PPT 切页声 3 次,作为节奏拍点",
+    "林承一次失败的解释:'PH 试纸的颜色你看一下'被打断"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写 PPT 内容超过 3 行",
+    "不要复述《反不正当竞争法》全条款",
+    "不要给林承大段内心独白"
+  ],
+  "rhythm_job": {
+    "shape": "投影切页 3 拍→单方面定性宣告→主角被动接住",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "PPT 切页噪声 + 林承翻找检测报告的手部动作"
+  }
+}

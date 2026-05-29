@@ -1,0 +1,293 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "他当众叫我助理，我转身嫁了他金主",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": ["M2_身份反差爆发", "M3_因果回旋反讽", "M5_温度反转曲线"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.55,
+    "short_line_rate_lte_16_max": 0.70,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0,
+    "barrage_line_rate_max": 0.05,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 680,
+      "target_char_count": [1300, 1500],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 2.9,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 11.2
+        },
+        "emotion": {
+          "dominant_emotion": "紧张-暧昧",
+          "emotion_arc": "对峙紧张 → 暧昧暗示 → 得意离场",
+          "emotion_intensity": 7,
+          "reader_feeling_target": "好奇他们关系的同时被季霄的嚣张气场吸引"
+        },
+        "highlights": {
+          "peak_moment": "季霄用苏念换方颖逼陈奕放人，陈奕被迫就范",
+          "peak_type": "power_shift",
+          "emotional_bomb": "陈奕把方颖推出去又拽回来——暴露他对苏念无所谓但不能失去方颖"
+        },
+        "techniques": [
+          "交换要挟的权力博弈",
+          "推-拽矛盾动作暴露真实优先级",
+          "冷静反差——情绪零度的叙述者"
+        ],
+        "golden_lines": [
+          "好事总不能全让你占了吧？",
+          "年轻人的滋味，确实不错。"
+        ],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "用否定+转折的极短句投下炸弹，信息量巨大但不展开",
+        "target_description": "苏念在离场后冷静告知读者自己怀孕了——孩子是季霄的，但不展开任何后续"
+      },
+      "scenes": ["scene-01", "scene-02"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 720,
+      "target_char_count": [1300, 1500],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.2,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 4.2,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.55,
+          "sentence_avg_len": 14.5
+        },
+        "emotion": {
+          "dominant_emotion": "隐忍-孤独",
+          "emotion_arc": "平静出发 → 意外怀孕 → 被拦截的无奈 → 对旧爱的疲惫",
+          "emotion_intensity": 5.5,
+          "reader_feeling_target": "心疼苏念的独自承担，同时对方颖出现感到警觉"
+        },
+        "highlights": {
+          "peak_moment": "车门拉开不是陈奕而是方颖——预期颠覆",
+          "peak_type": "identity_reveal",
+          "emotional_bomb": "方颖反过来替陈奕求苏念去看他——施虐者的帮凶在扮演善意"
+        },
+        "techniques": [
+          "一句话时间压缩",
+          "第三者的善意伪装",
+          "身体反应替代情绪词"
+        ],
+        "golden_lines": [
+          "我没时间跟你在这叙旧。",
+          "看似是询问，可方颖也并没有要停车的打算。"
+        ],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "物理化情绪（手凉）+ 悬而未决的动作（没打电话）构成双重悬念",
+        "target_description": "苏念捏着验孕报告坐在走廊，始终没给季霄打电话——她在犹豫什么？"
+      },
+      "scenes": ["scene-03", "scene-04"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 850,
+      "target_char_count": [1700, 1900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.0,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 5.9,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 12.0
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-压制",
+          "emotion_arc": "到场 → 看见陈奕的荒唐 → 被当众贬低 → 隐忍到极限",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "替苏念愤怒到窒息，恨不得冲进去替她说话"
+        },
+        "highlights": {
+          "peak_moment": "陈奕当众说\"是，为什么不是？你现在说这些难道不丢人吗？\"",
+          "peak_type": "public_humiliation",
+          "emotional_bomb": "苏念问\"在你眼里我是个很差的人么\"——七年来最脆弱的一次开口，换来最狠的一刀"
+        },
+        "techniques": [
+          "五层递进贬低的情绪债叠加",
+          "沉默反击——用\"算了\"代替爆发",
+          "派对视觉对比——伤员在玩乐",
+          "错误解读的喜剧性——他以为她来找自己"
+        ],
+        "golden_lines": [
+          "在你眼里，我是个很差的人么？",
+          "虽然猜到了这个答案，可真真切切听见后，还是觉得伤人。算了。",
+          "他季霄再不济，也不是不挑不拣的。"
+        ],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "在女主最无力的时刻，用一个声音打破僵局——慵懒语气与紧张氛围形成极致反差",
+        "target_description": "苏念转身要走，一个慵懒的声音从远处传来'来找我？'——季霄什么时候来的？他听到了多少？"
+      },
+      "scenes": ["scene-05", "scene-06"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 780,
+      "target_char_count": [1700, 1900],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.58,
+          "sentence_avg_len": 13.8
+        },
+        "emotion": {
+          "dominant_emotion": "反转-震撼",
+          "emotion_arc": "季霄登场 → 真相揭示 → 陈奕困惑 → 权力倒转",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "爽感第一波——终于有人替她出头了，而且是用最轻描淡写的方式"
+        },
+        "highlights": {
+          "peak_moment": "季霄说\"从你出医院开始，你的检验报告就已经在我的桌上了\"——揭示他早已掌控一切",
+          "peak_type": "truth_reveal",
+          "emotional_bomb": "\"把人让开\"一句话全场让路——季霄的权力辐射瞬间具象化"
+        },
+        "techniques": [
+          "一句话权力展示——环境反应替代能力描述",
+          "信息掌控的碾压感",
+          "慵懒语气与紧张场面的反差",
+          "不完整信息的悬念保留"
+        ],
+        "golden_lines": [
+          "从你出医院开始，你的检验报告就已经在我的桌上了。",
+          "行，你就当是吧。"
+        ],
+        "rhythm_shape": "突变-余震"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "用抱怨没开一局游戏的玩笑口吻处理\"你怀了我的孩子\"这件大事——极致反差",
+        "target_description": "季霄嘟囔'来一趟连把游戏都没打上'——用最日常的抱怨消解了整场对峙，暗示接下来要'更顺理成章'"
+      },
+      "scenes": ["scene-07", "scene-08"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 880,
+      "target_char_count": [2100, 2300],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.8,
+          "comma_period_ratio": 0.60,
+          "question_mark_density_per_1k": 5.7,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.52,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "震撼-温暖",
+          "emotion_arc": "协商冷静 → 走入总部 → 震撼 → 被接住的温暖 → 官宣的爽快",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "被季家的全员接纳震到起鸡皮疙瘩，替苏念觉得\"终于被人当回事了\""
+        },
+        "highlights": {
+          "peak_moment": "走入星潮总部顶层，长桌铺满红色文件夹，季家老爷子正用钢笔签最后一份股权转让书",
+          "peak_type": "identity_reveal",
+          "emotional_bomb": "六年不被给名分 vs 认识一月就全家准备股权文件——时间对比的极致反差"
+        },
+        "techniques": [
+          "仪式感碾压——用具象物件堆叠价值认可",
+          "超预期清单——用服务项目量化珍视程度",
+          "回旋打脸——用对方的标准反证对方的失败",
+          "当众宣告——舞台化公开"
+        ],
+        "golden_lines": [
+          "认识方颖不过三天，他就官宣合伙人。我们的一个月，还算早么？",
+          "她只是要跟我结婚了，但封杀你赢了，你应该高兴的。",
+          "长桌上铺满红色文件夹，最后一页的墨迹还没有干。"
+        ],
+        "rhythm_shape": "蓄力-爆发-余韵"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "用信息切断+时间跳跃制造\"陈奕要搞事\"的预感",
+        "target_description": "苏念走远后没听清陈奕说了什么——直到盛典那天，才有了他的消息"
+      },
+      "scenes": ["scene-09", "scene-10", "scene-11"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 750,
+      "target_char_count": [2100, 2300],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 0.50,
+          "question_mark_density_per_1k": 1.3,
+          "direct_dialogue_rate": 0.30,
+          "short_line_rate_lte16": 0.60,
+          "sentence_avg_len": 13.5
+        },
+        "emotion": {
+          "dominant_emotion": "碾压-圆满",
+          "emotion_arc": "危机出现 → 季霄轻描淡写 → 反杀碾压 → 温柔收束",
+          "emotion_intensity": 10,
+          "reader_feeling_target": "极致爽感——所有情绪债在此刻全部兑现，读者应有\"太爽了\"的脱口而出感"
+        },
+        "highlights": {
+          "peak_moment": "十五分钟一键撤销全部品牌授权，二十分钟资金链断裂——数据大屏从满到归零",
+          "peak_type": "power_shift",
+          "emotional_bomb": "盛典数据大屏从GMV高歌变成品牌合作状态全部变灰——视觉化碾压的极致表达"
+        },
+        "techniques": [
+          "数字阶梯碾压——用精确数据替代形容词",
+          "轻描淡写面对危机——松弛感=绝对实力",
+          "大屏视觉化——把数据变化变成碾压布景",
+          "身份标签反转——\"游戏宅\"的重新定义",
+          "温柔收束——碾压后的轻盈"
+        ],
+        "golden_lines": [
+          "几个亿的GMV而已，下架就下架了，你们管他干什么。",
+          "今天下架的GMV，都算你的聘礼。",
+          "等盛典结束，我让他知道，星潮为什么能垄断全行业。"
+        ],
+        "rhythm_shape": "匀速高压-爆发-温柔着陆"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "全文以抒情收束，与前文的极度克制形成收尾反差——全文唯一允许的抒情段",
+        "target_description": "苏念以一段关于光和种子的独白收束全文——无论多渺小，都值得被照耀"
+      },
+      "scenes": ["scene-12", "scene-13", "scene-14"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 6,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

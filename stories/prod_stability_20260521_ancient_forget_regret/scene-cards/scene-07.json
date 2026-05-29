@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "神宫后河埠与夜色水道",
+  "time": "同夜",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "守门婆子",
+    "内廷水驿暗卫"
+  ],
+  "character_goal": "把求援河灯安全放出去，不让谢家察觉。",
+  "opposition_goal": "守门人要盯死她，防她对外递消息。",
+  "conflict_action": "沈蘅借洗血帕的机会蹲到河埠，把安胎符和龙骨舟钗绑上九色河灯推入暗水；远处暗卫认灯后回放一盏回灯。",
+  "information_gap": "九色河灯顺水漂远，暗河里忽然亮起第二盏回灯。",
+  "emotional_debt_delta": "-1：主动权开始回流，但血债并未减轻。",
+  "payoff_or_hook": "九色河灯顺水漂远，暗河里忽然亮起第二盏回灯。",
+  "chapter_end_hook": "九色河灯顺水漂远，暗河里忽然亮起第二盏回灯。",
+  "paywall_card": false,
+  "must_include": [
+    "九色河灯水讯",
+    "龙骨舟钗作为身份与旧情双重载体",
+    "一处小心避开看守的动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大讲暗卫体系",
+    "不要铺开河景抒情"
+  ],
+  "rhythm_job": {
+    "shape": "低声躲避 -> 1个绑灯动作 -> 远处回灯轻刺一下收尾",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白3成，动作4成，留白3成",
+    "hook_line_required": true
+  }
+}

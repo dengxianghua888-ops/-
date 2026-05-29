@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 630,
+  "target_chars_max": 690,
+  "location": "无菌换装室",
+  "time": "同日上午",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "秦岚", "女勤务兵", "围观士兵"],
+  "character_goal": "沈梨雾想护住银线白手套",
+  "opposition_goal": "秦岚要剪掉她所谓的无菌特权",
+  "conflict_action": "秦岚按住她的手腕，用剪刀剪开手套银线",
+  "information_gap": "银线白手套是压制虫群信号的回路",
+  "emotional_debt_delta": "+1 手套毁坏债",
+  "payoff_or_hook": "手套断线后白花边缘发黑",
+  "chapter_end_hook": "刺啦一声，银线断开，第一盆白花黑了边。",
+  "paywall_card": false,
+  "must_include": ["刺啦拟声单独成行", "秦岚说人人平等", "沈梨雾缩手但没抢回来"],
+  "must_not_write_as_exposition": ["不要连续解释银线材质", "不要让秦岚发表长演讲", "不要写旁观者反应清单"],
+  "rhythm_job": {
+    "shape": "动作三连加短对白，最后用物件异变卡章",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "剪刀停顿一瞬，沈梨雾只说疼"
+  }
+}

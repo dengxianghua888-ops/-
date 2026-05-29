@@ -1,0 +1,377 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "靖安王害我入石矿三年，大漠铁骑踏碎他王府那天他跪了",
+  "genre": "ancient_reversal_sweet",
+  "mechanisms": ["M2_身份反差爆发", "M3_因果回旋反讽", "M5_温度反转曲线", "M6_多层递进反转"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.60,
+    "short_line_rate_lte_16_max": 0.78,
+    "direct_dialogue_line_rate_min": 0.35,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0.03,
+    "barrage_line_rate_max": 0.08,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 480,
+      "target_char_count": [480, 600],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 22.5,
+          "comma_period_ratio": 1.8,
+          "question_mark_density_per_1k": 0,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.45,
+          "sentence_avg_len": 19.2
+        },
+        "emotion": {
+          "dominant_emotion": "震惊-绝望-觉醒",
+          "emotion_arc": "期待 → 震惊 → 绝望 → 冷静决断",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "在极速信息冲击中被震撼，立刻产生'她该怎么办'的紧迫代入"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["信息压缩弹", "虚假深情对照", "冷静行动替代崩溃"],
+        "golden_lines": ["时间极短+地位两极反差", "定性判断+旧约重提+反问收束"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "用一句反问同时完成三件事：定性旧关系、引出新角色、制造悬念",
+        "target_description": "苏若棠向大漠方向发出烽火信筒，独白式反问：赤鹰部那个沉默寡言的少年，当年的话可还作数？"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 920,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 1.2,
+          "question_mark_density_per_1k": 5.4,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 15.6
+        },
+        "emotion": {
+          "dominant_emotion": "暗讽-隐忍-对峙",
+          "emotion_arc": "冷静 → 暗讽 → 楚怀璟暴怒 → 柳如烟搅局",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "为女主的冷静反击叫好，同时对楚怀璟的虚伪愤怒升温"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["以退为攻的对话术", "物理标记替代言语控诉", "帝王情绪的物理化描写", "第三者的突然闯入打断节奏"],
+        "golden_lines": ["反问+因果倒置", "敬称+讽刺成语"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "identity_reveal",
+        "hook_technique": "用回忆补充身份信息，暗示三人关系的历史渊源",
+        "target_description": "揭露柳如烟身份——她便是楚怀璟宠了三年的青梅侧妃柳如烟，当年不过是首饰铺掌柜之女"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 880,
+      "target_char_count": [880, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.2,
+          "comma_period_ratio": 1.4,
+          "question_mark_density_per_1k": 3.4,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 16.1
+        },
+        "emotion": {
+          "dominant_emotion": "愤怒-窒息",
+          "emotion_arc": "紧张 → 愤怒 → 极度不公 → 窒息",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "对柳如烟的碰瓷怒不可遏，同时因女主知道真相却无法揭穿而焦灼"
+        },
+        "highlights": {
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["碰瓷三连击", "信息差独白切入", "施害者的圣母话术"],
+        "golden_lines": ["省略号悬念+却字反转+短句炸弹", "对比判断句"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "从'眼神'到'铁索'的速度感——暴力即将升级的物理预告",
+        "target_description": "楚怀璟仅一个眼神，矿监便以铁索锁住苏若棠手足，强行拽出矿坊"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 850,
+      "target_char_count": [900, 1060],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.5,
+          "comma_period_ratio": 1.1,
+          "question_mark_density_per_1k": 2.4,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.75,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "极致屈辱-麻木",
+          "emotion_arc": "羞辱 → 更深的羞辱 → 物理痛感 → 意识模糊",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "窒息到想摔手机，同时被女主的坚韧震撼"
+        },
+        "highlights": {
+          "peak_type": "physical_violence",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["群众暴力的声浪堆砌", "帝王的关心即伤害矛盾", "物理感官叠加", "意识模糊时的最后一剑"],
+        "golden_lines": ["感官混淆句", "三段排比+否定收束"],
+        "rhythm_shape": "持续加压至爆裂"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "'吊着'一词暗示女主命悬一线，但楚怀璟的'不让死'比'让死'更恐怖",
+        "target_description": "楚怀璟疯了般怒吼让人拿药吊着苏若棠的命——他不允许她死，因为死了就'逃走'了"
+      },
+      "scenes": ["scene-04", "scene-05"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 820,
+      "target_char_count": [820, 960],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.0,
+          "comma_period_ratio": 1.3,
+          "question_mark_density_per_1k": 3.7,
+          "direct_dialogue_rate": 0.50,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 15.2
+        },
+        "emotion": {
+          "dominant_emotion": "讽刺-冷笑-爆发前夜",
+          "emotion_arc": "震惊 → 冷眼旁观 → 讽刺 → 临界点",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "对柳如烟的阴毒愤怒到极点，同时感受到暴风雨前的宁静"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["反派自我暴露", "栽赃嫁祸的物理道具", "帝王误判的累积讽刺"],
+        "golden_lines": ["排比假设+否定结论", "小人物的嘲讽句"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "在暴力将要落下的最后一秒突变——利箭从天而降",
+        "target_description": "矿监刚举起铁索鞭，一支利箭穿透她的手腕——赤鹰骑兵到了"
+      },
+      "scenes": ["scene-06"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 1050,
+      "target_char_count": [1150, 1350],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 1.5,
+          "question_mark_density_per_1k": 4.8,
+          "direct_dialogue_rate": 0.52,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 16.5
+        },
+        "emotion": {
+          "dominant_emotion": "震撼-酣畅-解气",
+          "emotion_arc": "震惊 → 狂喜 → 解气 → 酣畅",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "读者应该有'终于等到了'的畅快释放感，想拍手叫好"
+        },
+        "highlights": {
+          "peak_type": "power_shift",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["权力碾压的数字化展示", "群臣反应作为恐惧放大器", "百姓舆论的180度翻转", "男主的物理行动力展示"],
+        "golden_lines": ["否定事实+降格称呼+反向归责", "条件句威胁", "俗语引入+双向对比预言"],
+        "rhythm_shape": "爆发-持续高位"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "女主离场后抛出新炸弹——'大礼'是什么？五花大绑的人是谁？",
+        "target_description": "凌霄寒带苏若棠转身离开，身后扔下一句'给靖安王留了份大礼'——一个五花大绑的男人被推至楚怀璟面前"
+      },
+      "scenes": ["scene-07", "scene-08"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 950,
+      "target_char_count": [1000, 1150],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.2,
+          "comma_period_ratio": 1.6,
+          "question_mark_density_per_1k": 4.2,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 17.0
+        },
+        "emotion": {
+          "dominant_emotion": "真相大白-解气",
+          "emotion_arc": "揭露 → 楚怀璟崩塌 → 暴力审判 → 迟来的醒悟",
+          "emotion_intensity": 9.0,
+          "reader_feeling_target": "看着柳如烟被揭穿的解气感，以及对楚怀璟'早干嘛去了'的讽刺快感"
+        },
+        "highlights": {
+          "peak_type": "truth_reveal",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["奸夫的求生式供述", "物证一击必杀", "施暴者话术的180度翻转", "帝王的迟到的暴力讽刺"],
+        "golden_lines": ["承诺+但字反转", "呼唤名字+全称承诺"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "视角切换制造对比——王府的暴力审判vs大漠路上的温柔疗伤",
+        "target_description": "苏若棠不知王府中发生的一切，凌霄寒正小心翼翼替她清理手上矿伤的碎石"
+      },
+      "scenes": ["scene-09", "scene-10"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 880,
+      "target_char_count": [880, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 1.7,
+          "question_mark_density_per_1k": 2.3,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.62,
+          "sentence_avg_len": 17.8
+        },
+        "emotion": {
+          "dominant_emotion": "温暖-释然-幸福",
+          "emotion_arc": "忐忑 → 被接纳 → 感动落泪 → 甜蜜期待",
+          "emotion_intensity": 7.0,
+          "reader_feeling_target": "被温暖包裹的安全感，为女主终于被好好对待而感动"
+        },
+        "highlights": {
+          "peak_type": "identity_reveal",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["父爱补偿场景", "公主的道歉式解围", "甜宠补偿的物质化展示"],
+        "golden_lines": ["时间叹息+祈使劝勉", "物质承诺+昵称+独立宣言"],
+        "rhythm_shape": "平缓上升"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "婚礼进行时的平静——但读者知道楚怀璟还在外面",
+        "target_description": "苏若棠身着赤红婚服，稳坐在马背上——大漠篝火已燃，万骑列阵相迎"
+      },
+      "scenes": ["scene-11"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 1020,
+      "target_char_count": [1100, 1280],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 1.2,
+          "question_mark_density_per_1k": 6.9,
+          "direct_dialogue_rate": 0.55,
+          "short_line_rate_lte16": 0.73,
+          "sentence_avg_len": 14.5
+        },
+        "emotion": {
+          "dominant_emotion": "极致爽感-冷酷-决绝",
+          "emotion_arc": "对峙 → 楚怀璟求饶 → 女主冷静 → 终极拒绝",
+          "emotion_intensity": 9.5,
+          "reader_feeling_target": "全文最爽的一刻——看着楚怀璟跪在马前被冷酷拒绝，读者内心欢呼"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["帝王跪姿的戏剧反讽", "冷静揭秘代替情绪宣泄", "百姓议论作为公审效果", "萧烬辞的物理暴力作为句号"],
+        "golden_lines": ["呼名+凭什么反问+动态隐喻", "过去事实+如今判断+短句定性", "否定句+也字加码否定"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "在情感对峙最高潮突然引入军事危机——楚怀璟连最后的退路都没了",
+        "target_description": "报！朝廷以'通敌'为名收缴靖安王兵权，三万禁军已围满城墙——楚怀璟失爱之后即将失权"
+      },
+      "scenes": ["scene-12", "scene-13"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 920,
+      "target_char_count": [920, 1050],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 1.4,
+          "question_mark_density_per_1k": 1.1,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.63,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "唏嘘-释然-圆满",
+          "emotion_arc": "楚怀璟惨死 → 女主新婚 → 白玉匕首赏赐 → 怀孕新生",
+          "emotion_intensity": 8.0,
+          "reader_feeling_target": "满足感——一切尘埃落定，坏人有报应，好人有好结局"
+        },
+        "highlights": {
+          "peak_type": "cold_revenge",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["帝王之死的抓不住意象", "遗物的降格处理", "怀孕作为新生符号", "自然意象收束"],
+        "golden_lines": ["无论...都...+否定结果", "对比判断+轻描淡写处置", "自然意象+万事好转的祝愿式收束"],
+        "rhythm_shape": "由急转缓"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "不设悬念，以平静收束——全文暴烈与结尾宁静的终极对比",
+        "target_description": "风落时，万事皆会得以好转——全文完"
+      },
+      "scenes": ["scene-14", "scene-15"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 10,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

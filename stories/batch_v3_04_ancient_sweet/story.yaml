@@ -1,0 +1,34 @@
+slug: batch_v3_04_ancient_sweet
+source_slug: fake_princess_friends
+title: 满城笑我不读书
+genre: ancient_sweet
+pipeline_mode: production
+status: drafting
+run_date: "2026-05-26"
+optimization: v3_style_fidelity
+mechanisms:
+  - M2_identity_reversal
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+hooks:
+  - H4_revelation_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 相府假千金+真千金夺宠+三位朋友是皇上王爷将军
+  new_setting: 国公府庶女+嫡姐夺婚约+三位闺蜜是太子妃摄政王女儿女帝
+  identity_hide: 女主三位闺蜜身份未暴露，被全家当作狐朋狗友
+  betrayal_layers:
+    - 嫡姐抢走女主未婚夫并逼女主做陪嫁
+    - 嫡母毒杀女主养的锦鲤（太子妃赠品）
+    - 嫡兄抢走女主的画眉鸟（摄政王女儿寄养）
+    - 嫡姐下毒设局陷害女主失贞
+  reversal_trigger: 女主发信求援，三位闺蜜携身份降临国公府
+  boomerang: "不学无术只会养鱼遛鸟"——女主的爱好全是权贵交情凭证
+  temperature_structure:
+    warm_memory: 幼时父亲也曾疼爱，教她骑马射箭
+    cold_reality: 嫡姐归府后父亲翻脸，逼女主跪祠堂认错
+    freeze_point: 被下毒关柴房等待"失贞"陷害
+  core_rule: "你们嘲笑我一无是处，可我那些'没用的朋友'，随便一个都能让你们跪着求饶。"

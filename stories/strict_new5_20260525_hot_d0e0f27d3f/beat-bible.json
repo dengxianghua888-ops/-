@@ -1,0 +1,360 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10760
+  },
+  "title": "领证当天，我成了前任大嫂",
+  "genre": "都市反转/婚恋火葬场/现任上位爽文",
+  "mechanisms": [
+    "M2 身份反差爆发",
+    "M3 因果回旋反讽",
+    "M5 温度反转曲线",
+    "M6 多层递进反转"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "我抬手挽住裴砚衡：‘哥，民政局都来了，顺路结个婚？’"
+    },
+    {
+      "chapter_id": "ch02",
+      "target_chars": 740,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "钢印落下时，裴承屿的脸色第一次变了。"
+    },
+    {
+      "chapter_id": "ch03",
+      "target_chars": 720,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "裴砚衡把两本真证放进我掌心：‘现在，该轮到他们慌了。’"
+    },
+    {
+      "chapter_id": "ch04",
+      "target_chars": 820,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "老宅席间，裴老爷子抬眼问裴承屿：‘见了你大嫂，怎么不叫人？’"
+    },
+    {
+      "chapter_id": "ch05",
+      "target_chars": 760,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "我把主婚戒扣进盒里，转头看向海边美术馆门口的车灯。"
+    },
+    {
+      "chapter_id": "ch06",
+      "target_chars": 780,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "裴砚衡当众替我戴上那枚戒指，台下快门声炸开。"
+    },
+    {
+      "chapter_id": "ch07",
+      "target_chars": 760,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "副牌直播后台炸了，有人把我原始设计底稿发了出来。"
+    },
+    {
+      "chapter_id": "ch08",
+      "target_chars": 820,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "我把垫付款流水推到裴承屿面前：‘三天内不还，我走法务。’"
+    },
+    {
+      "chapter_id": "ch09",
+      "target_chars": 760,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "林妍捂着小腹抬头时，裴承屿却在看我发的那张双证照。"
+    },
+    {
+      "chapter_id": "ch10",
+      "target_chars": 820,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "供应商堵在副牌门口，第一句就是：‘沈总监已经不替你们垫钱了？’"
+    },
+    {
+      "chapter_id": "ch11",
+      "target_chars": 720,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "裴母把主品牌设计总监任命书推到我面前，裴承屿当场失声。"
+    },
+    {
+      "chapter_id": "ch12",
+      "target_chars": 760,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "裴承屿红着眼拦车：‘知微，你非要逼我叫你大嫂？’"
+    },
+    {
+      "chapter_id": "ch13",
+      "target_chars": 760,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "除夕席上，裴老爷子放下筷子：‘承屿，先给你大嫂敬茶。’"
+    },
+    {
+      "chapter_id": "ch14",
+      "target_chars": 780,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "他终于叫出口，我却连头都没回。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "民政局大厅",
+      "character_goal": "沈知微要按原计划领证，至少保住自己的体面。",
+      "conflict_action": "裴承屿当众夺走她的户口本和婚戒，把怀孕的林妍推到窗口前。",
+      "information_gap": "裴承屿为什么敢笃定沈知微离不开他，裴砚衡又为何刚好出现。",
+      "emotion_debt_balance": "新欠债：民政局公开夺证羞辱；开始埋入回旋句素材。",
+      "chapter_end_hook": "沈知微反手挽住裴砚衡，提出当场换人领证。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写成长段回忆四年恋爱史",
+        "不要把冲突写成讲道理"
+      ]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 680,
+      "target_chars_max": 780,
+      "scene_location": "民政局办证窗口",
+      "character_goal": "沈知微要把被羞辱的场子当场翻回来。",
+      "conflict_action": "她用裴承屿刚才的原话回敬，和裴砚衡直接提交证件、拍照、盖章。",
+      "information_gap": "裴砚衡到底准备了多久，他和沈知微之间并不临时的证据是什么。",
+      "emotion_debt_balance": "偿还债1第一笔：被抢婚姻资格后立刻夺回主动权。",
+      "chapter_end_hook": "结婚证钢印落下，裴承屿第一次慌了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述民政局流程",
+        "不要解释证件手续细节",
+        "不要让现任变成突然热血路人"
+      ]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_location": "民政局外停车区",
+      "character_goal": "沈知微要稳住情绪边界，不给前任追回解释空间。",
+      "conflict_action": "裴承屿追出来抢结婚证，裴砚衡抬手拦人并把两本真证交给沈知微。",
+      "information_gap": "裴砚衡为什么会保留她的署名与设计底稿，后续会怎么公开接住她。",
+      "emotion_debt_balance": "偿还债5的预热：前任第一次意识到她真的不再等他。",
+      "chapter_end_hook": "裴砚衡说，现在该轮到他们慌了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写心理分析连篇",
+        "不要让前任靠深情台词拉长戏",
+        "不要把现任写成只会安慰"
+      ]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 760,
+      "target_chars_max": 860,
+      "scene_location": "裴家藏玉老宅晚宴",
+      "character_goal": "沈知微要在裴家长辈面前坐稳位置，不再被定义成副牌工具人。",
+      "conflict_action": "林妍拿着假官宣截图抢先入席，裴承屿试图遮掩；裴老爷子当众点沈知微坐主位，并逼裴承屿改口叫大嫂。",
+      "information_gap": "长辈为何突然站队，以及假结婚证羞辱会在什么层面被彻底打回去。",
+      "emotion_debt_balance": "重还债1与债4：公开身份反压第一次完成。",
+      "chapter_end_hook": "‘见了你大嫂，怎么不叫人？’",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能洗白偏心家人",
+        "不要长篇写老宅陈设礼制百科",
+        "不要把认嫂写成自然过场"
+      ]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "海边美术馆婚礼后台",
+      "character_goal": "沈知微要拿回自己设计的主婚戒和婚礼主场，不给前任继续消费。",
+      "conflict_action": "裴承屿逼她交出主婚戒和礼服署名，林妍试戴戒指卡住指节，当场难堪。",
+      "information_gap": "裴砚衡会不会只止于领证，还是会把婚礼也整个翻盘。",
+      "emotion_debt_balance": "为债4婚礼羞辱积压到峰前半步。",
+      "chapter_end_hook": "门外车灯压近，真正来接她的人到了。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要复述婚礼流程",
+        "不要写旁观者反应清单",
+        "不要让林妍只靠尖叫撑戏"
+      ]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "海边美术馆主场",
+      "character_goal": "沈知微要把婚礼羞辱原样奉还，并完成更高位的公开被接走。",
+      "conflict_action": "裴砚衡带主品牌团队与媒体入场，当众为她戴上主婚戒，宣布婚礼主角换人。",
+      "information_gap": "裴承屿失去的会不会只是感情，还是连副牌和资源一起松动。",
+      "emotion_debt_balance": "重还债4：被夺位的婚礼被更盛大地接走。",
+      "chapter_end_hook": "快门炸响，裴承屿站在空台上像个笑话。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写成盛大布景说明文",
+        "不要长段抒情",
+        "不要让现任用情话替代动作"
+      ]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "副牌直播间后台",
+      "character_goal": "沈知微要切断副牌继续盗用她成果的空间。",
+      "conflict_action": "直播翻车时，有人放出她的原始设计底稿和最早署名存档，林妍戴着那枚戒指被弹幕追问来源。",
+      "information_gap": "这些证据是谁留的，裴砚衡准备把追偿推到哪一步。",
+      "emotion_debt_balance": "偿还债2的证据线启动：四年付出开始被看见。",
+      "chapter_end_hook": "底稿编号与她的名字一起冲上屏幕。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写直播行业科普",
+        "不要堆砌评论截图",
+        "不要把证据动作写成法务说明"
+      ]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 760,
+      "target_chars_max": 860,
+      "scene_location": "副牌会议室",
+      "character_goal": "沈知微要把四年付出账目化，逼裴承屿第一次面对现实欠账。",
+      "conflict_action": "她甩出垫付款流水、对账单、回款通知，限裴承屿三天偿还并停止使用她的设计。",
+      "information_gap": "裴承屿到底有多大资金窟窿，谁会先撑不住。",
+      "emotion_debt_balance": "重还债2：舔狗式付出转为可追偿的现实清算。",
+      "chapter_end_hook": "‘三天内不还，我走法务。’",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要解释商业合同条款",
+        "不要连续说明时间线",
+        "不要把清算写成会议纪要"
+      ]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "私立医院走廊",
+      "character_goal": "沈知微要确认自己不再为他们的混乱背锅。",
+      "conflict_action": "林妍因情绪失控动了胎气，裴承屿赶到后却先质问沈知微是不是故意发双证照刺激她。",
+      "information_gap": "裴承屿会先保婚育线还是先保副牌，林妍是否开始意识到自己坐不稳位置。",
+      "emotion_debt_balance": "开始偿还债3：背刺者抢来的成果出现裂缝。",
+      "chapter_end_hook": "裴承屿盯着我的朋友圈，比看检查单还久。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要描写血腥医疗细节",
+        "不要把女性反派写成纯生育羞辱",
+        "不要长篇争执谁更可怜"
+      ]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 760,
+      "target_chars_max": 860,
+      "scene_location": "副牌公司前台与办公区",
+      "character_goal": "沈知微要让裴承屿失去她离不开他的错觉。",
+      "conflict_action": "供应商与渠道商堵门催款，点名追问以前由沈知微垫付和背书的款项为何断了。",
+      "information_gap": "裴家会不会继续替裴承屿兜底，裴砚衡是否会继续加码现实切割。",
+      "emotion_debt_balance": "债2深度回收，债5现实化回击：离了她不行的人其实是裴承屿。",
+      "chapter_end_hook": "第一张催款函拍到裴承屿胸口。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写商战流水",
+        "不要罗列太多金额",
+        "不要把堵门写成单调吵架"
+      ]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_location": "主品牌董事小会",
+      "character_goal": "沈知微要从被消耗者变成有署名、有位置的人。",
+      "conflict_action": "裴母与长辈宣布她出任主品牌设计总监，裴砚衡同步交还她被压掉的核心署名。",
+      "information_gap": "裴承屿还剩什么翻盘幻想，沈知微会不会继续对旧情留口子。",
+      "emotion_debt_balance": "偿还核心总债：女主赢回位置、体面与秩序。",
+      "chapter_end_hook": "任命书推到桌面，裴承屿一句话都说不出来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写企业组织架构说明",
+        "不要把长辈支持写成空口夸赞",
+        "不要弱化她事业抬升"
+      ]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "主品牌地下车库",
+      "character_goal": "沈知微要彻底切断裴承屿的情感回头路。",
+      "conflict_action": "裴承屿拦车道歉、求和、追问她是不是早就喜欢裴砚衡；她只用一句‘太晚了’关上车门。",
+      "information_gap": "最后的改口会在什么场合发生，裴承屿何时真正认输。",
+      "emotion_debt_balance": "终审债5：口头施舍被平静拒绝。",
+      "chapter_end_hook": "‘你非要逼我叫你大嫂？’",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写旧情缠绵回忆杀",
+        "不要让女主心软犹豫",
+        "不要把道歉写成洗白"
+      ]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "裴家除夕家宴",
+      "character_goal": "沈知微要在最公开、最家族化的场合完成称呼落定。",
+      "conflict_action": "裴老爷子让裴承屿当众敬茶改口，林妍缺席，席间无人再替他找台阶。",
+      "information_gap": "裴承屿会如何开口，沈知微会不会回头看他。",
+      "emotion_debt_balance": "回收债1、债3、债5的最终公开版。",
+      "chapter_end_hook": "满桌沉默里，只剩他必须开口。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写团圆饭菜色清单",
+        "不要靠所有人轮流说教",
+        "不要把气氛写得过度压黑"
+      ]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "老宅廊下与新年夜色",
+      "character_goal": "沈知微要把胜利落在平静上岸，而不是继续纠缠。",
+      "conflict_action": "裴承屿低声叫出‘大嫂’，裴砚衡替她拢好披肩，带她离席去看新年灯火与新一季珠宝样稿。",
+      "information_gap": "无新的悬念，重点转为终局温度兑现。",
+      "emotion_debt_balance": "总账结清：不复合、不回收，体面、位置、边界全部落袋。",
+      "chapter_end_hook": "她没有回头，他也终于只能停在那一声称呼里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写狂欢式打脸尾声",
+        "不要加复合试探",
+        "不要把结尾写成情绪总结大会"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 12,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage_min": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [16, 22],
+    "short_line_rate_lte_16_min": 0.48,
+    "short_line_rate_lte_16_max": 0.65,
+    "direct_dialogue_line_rate_min": 0.4,
+    "direct_dialogue_line_rate_max": 0.55,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.03,
+    "question_mark_density_per_1000_chars_min": 3.5,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

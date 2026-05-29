@@ -1,0 +1,81 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 3,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "苏念公寓/婚纱店",
+  "time": "领证后一周",
+  "pov": "苏念",
+  "characters": ["苏念", "沈砚"],
+  "character_goal": "苏念暗中布局（发朋友圈真证），同时发现沈砚三个月前准备的高定礼服",
+  "opposition_goal": "（本场无直接对手，为下一场蓄力）",
+  "conflict_action": "苏念发朋友圈九宫格真结婚证+沈砚带她去看三个月前定制的礼服——双线暗喜",
+  "information_gap": "陆衍看到朋友圈秒赞没点开——信息差定时炸弹埋入",
+  "emotional_debt_delta": "暖债持续积累：沈砚的三个月提前准备",
+  "payoff_or_hook": "三个月前的准备=真心不是临时起意",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "朋友圈九宫格真结婚证（陆衍秒赞没点开）",
+    "沈砚三个月前委托设计师定制礼服的时间线索",
+    "礼服是极简风（记得苏念的偏好）",
+    "店员说明准备时间的具体对话"
+  ],
+  "must_not_write_as_exposition": [
+    "沈砚的资产规模",
+    "苏念的家庭背景",
+    "后续婚礼计划的全貌"
+  ],
+  "rhythm_job": {
+    "shape": "缓起——暗中甜蜜蓄力",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 17.5,
+    "dominant_emotion": "暗喜-温暖",
+    "emotion_arc": "暗中得意（发圈）→ 被宠爱的惊喜",
+    "emotion_intensity": 7.0,
+    "reader_feeling_target": "替苏念开心，对沈砚的细心感到心暖",
+    "required_techniques": [
+      {
+        "technique": "暗中布局的时间差",
+        "instruction": "店员说'沈先生三个月前就定好了，那时候您和另一位的婚礼刚定下'——时间差证明沈砚不是临时起意"
+      },
+      {
+        "technique": "社交媒体作为信息炸弹载体",
+        "instruction": "朋友圈九宫格+陆衍秒赞没点开=定时炸弹已埋，读者知道但陆衍不知道"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "[第三方确认]+[时间线索] = 深情不言自明",
+        "example": "店员说肖珩三个月前就开始准备了，那时候我和肖奈的婚礼刚定下。",
+        "instruction": "通过第三方（店员）的嘴说出时间线索，比男主自己说更有说服力"
+      }
+    ],
+    "peak_type": "emotional_warmth",
+    "bomb_technique": "时间差铺垫——三个月前的准备等于三个月的暗恋确认",
+    "source_excerpt": "我打开朋友圈，精心挑了九张照片。\n红底结婚证、戒指特写、登记处合影。\n配文只写了四个字。\n发出去不到三秒，陆衍的赞就亮了。\n他没点开大图。\n……\n店员把礼服从专柜后面推出来。\n象牙白，极简廓形，一粒扣子都没有多余的。\n“沈先生三个月前就定好了，说您喜欢干净利落的线条。”"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": [],
+      "句式": "内心独白短句、平静满足",
+      "单句上限": 12,
+      "禁止": "长句抒情"
+    },
+    "沈砚": {
+      "口癖": ["尝尝"],
+      "句式": "极短、行动代替言语",
+      "单句上限": 9,
+      "禁止": "长句解释心意"
+    }
+  }
+}

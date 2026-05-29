@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "客厅照片墙、走廊瓷砖、楼梯拐角",
+  "time": "智能后台异常被确认后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "顾教授远程连线",
+    "技术员",
+    "记者"
+  ],
+  "character_goal": "沈棠要把数据异常落到可验证的墙体异常上。",
+  "opposition_goal": "假家人要把传感器异常解释为新装修正常波动。",
+  "conflict_action": "沈棠拿钥匙沿照片墙、走廊瓷砖和楼梯拐角逐块敲击，让裴队和镜头听空鼓声差异。",
+  "information_gap": "空鼓区域后面是装修缺陷，还是被隐藏的案发证据。",
+  "emotional_debt_delta": "沈棠开始夺回叙事权，直播间第一次出现支持她的声音。",
+  "payoff_or_hook": "照片墙回声异常，墙面色差与新风数据形成对应。",
+  "chapter_end_hook": "我敲到全家福正下方时，那声回响忽然空得像一口井。",
+  "paywall_card": false,
+  "must_include": [
+    "钥匙敲墙",
+    "瓷砖空鼓",
+    "照片墙色差",
+    "顾教授远程提醒",
+    "直播弹幕态度分裂"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把建筑知识写成讲义",
+    "不要让空鼓直接揭示尸体",
+    "不要跳过沈棠亲自动手验证"
+  ]
+}

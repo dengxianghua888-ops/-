@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 7 status=pass",
+    "target_length=10219",
+    "source_rhythm_fit=pass",
+    "action_density_per_k=22.801"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260521_1825_ancient_mojo_revenge/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10219,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        721,
+        715,
+        702,
+        719,
+        723,
+        756,
+        681,
+        727,
+        751,
+        737,
+        721,
+        737,
+        698,
+        698
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 6,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 100,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 3,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 3,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10219,
+      "sentence_count": 569,
+      "avg_sentence_length": 16.961,
+      "dialogue_ratio": 0.2501,
+      "question_marks": 23,
+      "question_marks_per_k": 2.251,
+      "physical_emotion_hits": {
+        "指尖": 8,
+        "青筋": 3,
+        "后背": 3,
+        "冷汗": 1,
+        "喉咙": 1,
+        "头皮": 1,
+        "掌心": 12
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 22.801
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 11316,
+        "line_count": 566,
+        "avg_line_chars": 19.993,
+        "median_line_chars": 19.0,
+        "short_line_rate": 0.3975,
+        "long_line_rate": 0.0406,
+        "quote_line_rate": 0.3269,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 1.502
+      },
+      "candidate": {
+        "chars": 10025,
+        "line_count": 542,
+        "avg_line_chars": 18.496,
+        "median_line_chars": 18.0,
+        "short_line_rate": 0.3893,
+        "long_line_rate": 0.0018,
+        "quote_line_rate": 0.3875,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 2.294
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 471,
+      "unique_sentence_skeletons": 471,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

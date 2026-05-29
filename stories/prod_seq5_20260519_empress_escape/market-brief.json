@@ -1,0 +1,97 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "preferred_chars": 650,
+    "chapter_end_rule": "每章末必须留下关系推进、误会爆开、身份揭露、情绪反转或危机逼近型钩子"
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：用荒诞封后、父亲捡漏、女主想逃婚或皇帝宠妃假象开局，300 字内给出强反差",
+    "micro_hook_interval_chars": [800, 1200],
+    "micro_hook_types": ["误会升级", "暧昧反撩", "计划露缝", "情敌挑衅", "女主逃跑失败"],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_types": ["皇帝宠妃真相反转", "女主怀孕后发现自己被算计", "软禁与离宫抉择", "假谋反逼女主回宫"]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄古言甜宠读者",
+      "偏好轻喜剧宫廷、先婚后爱、双向拉扯的女性读者",
+      "喜欢女主嘴硬心软、男主表面帝王实际恋爱脑的关系爽点读者"
+    ],
+    "emotional_needs": [
+      "开局荒诞好笑，迅速降低古言门槛",
+      "持续暧昧拉扯，满足反撩、吃醋、误会、和好需求",
+      "中段必须给信任崩塌和追妻火葬场，避免纯糖疲软",
+      "结尾用双向奔赴、家庭圆满和危机解除完成情绪释放"
+    ],
+    "genre_taboos": [
+      "不要把男主长期塑造成真正恶劣暴君，软禁桥段必须有悔改和放手动作",
+      "不要让女主沦为生育工具，怀孕线必须服务女主选择权和关系考验",
+      "不要写成重虐 BE，整体基调必须保持轻喜甜宠",
+      "避免宫斗权谋过重，政治线只做关系反转和大结局危机助推",
+      "禁用现代网络词、公司职场词、手机电话微信等古言违和表达"
+    ]
+  },
+  "market_positioning": {
+    "genre": "ancient_sweet",
+    "core_reader_promise": "看怕皇帝的野路子皇后被荒唐封后，一边想遁走一边把恋爱脑皇帝撩到失控，最后在骗局、离宫和假谋反里确认真心。",
+    "dominant_selling_points": [
+      "荒诞开局：百官打群架抢后位，太傅捡漏",
+      "强反差男主：外冷帝王实为委屈黏人恋爱脑",
+      "主动型女主：会武会医、嘴毒手快、敢亲敢跑",
+      "关系爽点：先婚后爱、误会宠妃、吃醋追妻、带球离宫",
+      "轻权谋反转：宠妃是假盟友，谋反是假局，真危机服务团圆"
+    ],
+    "risk_controls": [
+      "前 3000 字必须压缩铺垫，尽早出现洞房、宠妃、苟合误会三连钩",
+      "洛灵线要保持工具人喜剧感，不能压过男女主感情主线",
+      "男主算计女主的伤害必须被正面清算，不能轻飘飘原谅",
+      "每 1000 字至少一次关系状态变化：怕他、撩他、心动、失望、离开、回头"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formulas": [
+      {
+        "id": "T1_荒诞事件_身份反差",
+        "formula": "早朝打群架抢后位，我爹替我捡漏了",
+        "selling_point": "荒诞高概念，300 字内天然强 Hook"
+      },
+      {
+        "id": "T2_女主动作_男主反差",
+        "formula": "皇后要遁走，恋爱脑皇帝急疯了",
+        "selling_point": "直接承诺逃跑追妻和男主反差"
+      },
+      {
+        "id": "T3_误会关系_反转爽点",
+        "formula": "皇帝宠妃入骨，却夜夜求我哄他",
+        "selling_point": "宠妃假象制造点击疑问，适合甜宠反转"
+      },
+      {
+        "id": "T4_带球跑_追妻",
+        "formula": "带球离宫后，皇帝装太监来哄我",
+        "selling_point": "中后段付费点强，追妻画面感明确"
+      }
+    ]
+  },
+  "success_metrics": {
+    "scale": "10分制，AI味为反向指标",
+    "completion_desire_target": 9.0,
+    "paid_hook_target": 8.8,
+    "emotional_release_target": 8.6,
+    "ai_flavor_target": {
+      "max_score": 1.0,
+      "goal": "读者感知 AI 味低于 1/10，避免空泛抒情、模板化心理描写和违禁词"
+    },
+    "burst_density_target": 8.7,
+    "first_chapter_hook_min": 9.0,
+    "tomato_fit_target": 8.5
+  }
+}

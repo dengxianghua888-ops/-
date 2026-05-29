@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "score": 7.2,
+  "evidence": [
+    {
+      "item": "motivation",
+      "evidence": "林栀承认“洗衣标签，是我故意留的”，动机是逼沈泊舟在孩子出生前离婚。",
+      "assessment": "小三设局动机明确。"
+    },
+    {
+      "item": "causality",
+      "evidence": "柔顺剂备注引出会员号，会员号引出孕妇裙，标签引出公寓，门禁和合同引出财产转移。",
+      "assessment": "证据链因果顺序清楚。"
+    },
+    {
+      "item": "legal_boundary",
+      "evidence": "律师提醒“屋内看见的只当线索，提交只用盖章材料、银行流水和她自愿给的聊天”。",
+      "assessment": "对非法取证风险有补丁，建议 Phase 7 前置该限制。"
+    },
+    {
+      "item": "ethical_boundary",
+      "evidence": "婆婆“女孩迟早要走”作为反派台词存在，结局通过护理责任切割反驳该立场。",
+      "assessment": "敏感表达未被叙事认可。"
+    },
+    {
+      "item": "risk",
+      "evidence": "女主冒用包裹进入公寓、拍摄室内物品存在现实争议。",
+      "assessment": "不构成当前 gate fail，但应在修订中弱化为线索，强化正式证据来源。"
+    }
+  ]
+}

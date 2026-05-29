@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 654,
+  "target_chars_max": 854,
+  "location": "昼光影业大屏会议室 / 首播后台",
+  "time": "顾凛新剧首播夜",
+  "pov": "第一人称：许闻笙",
+  "characters": [
+    "许闻笙",
+    "顾凛",
+    "陆呈",
+    "保安",
+    "平台主管"
+  ],
+  "character_goal": "许闻笙完成顾凛新剧首播投放，验证昼光新资源秩序。",
+  "opposition_goal": "陆呈想在公司楼下闹大，破坏顾凛首播节奏。",
+  "conflict_action": "保安架走陆呈，许闻笙回会议室盯投放后台，顾凛按路演复盘节奏开播，完播率、充值流水、平台招商数据同时破纪录。",
+  "information_gap": "陆呈不知道顾凛的首播战报会直接让他的旧商务报价失效。",
+  "emotional_debt_delta": "-3：顾凛成为新爆款男主，陆呈被数据反向清算。",
+  "payoff_or_hook": "保安拖走旧人，新人战报跳上大屏，形成同屏打脸。",
+  "chapter_end_hook": "保安架住陆呈时，顾凛的首播战报同时跳上大屏。",
+  "paywall_card": true,
+  "must_include": [
+    "保安拖走陆呈",
+    "首播后台大屏",
+    "完播率",
+    "充值流水",
+    "平台招商数据破纪录"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让顾凛只靠暧昧取胜",
+    "不要模糊数据",
+    "不要把许闻笙写成旁观者"
+  ]
+}

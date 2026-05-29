@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 680,
+  "target_chars_max": 800,
+  "location": "顾家老宅餐厅",
+  "time": "董事会当晚",
+  "pov": "沈晚棠",
+  "characters": [
+    "沈晚棠",
+    "顾承渊",
+    "顾老太太",
+    "顾家旁支长辈"
+  ],
+  "character_goal": "确认顾家立场，并拿到能继续追证的下一把钥匙。",
+  "opposition_goal": "顾家旁支想借旧事让她知难而退，顾承渊想继续试探她底线。",
+  "conflict_action": "饭桌上旁支阴阳她配不上顾家，顾老太太直接拍筷子护短，顾承渊一边嘴坏接茬一边替她挡酒，最后顾老太太把老宅钥匙亲手给她。",
+  "information_gap": "顾老太太究竟知道多少隐情，钥匙对应的保险柜里藏着什么？",
+  "emotional_debt_delta": "长辈情义回收+2，误会债悬着不落",
+  "payoff_or_hook": "她在顾家并非孤军，长辈旧情开始回收。",
+  "chapter_end_hook": "截断句：\"你外公留的最后一道门，只认你。\"",
+  "paywall_card": false,
+  "must_include": [
+    "顾老太太公开站队女主",
+    "顾承渊嘴上不饶人，动作上护她",
+    "钥匙落入掌心的动作特写"
+  ],
+  "must_not_write_as_exposition": [
+    "不要罗列顾家家谱",
+    "不要回顾所有旧年恩情",
+    "不要把饭局写成温吞聊天"
+  ],
+  "rhythm_job": {
+    "shape": "饭桌短刺-长辈拍桌-钥匙落手",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0,
+    "ratio_note": "对白主推，动作补强，留3个呼吸点给拍筷子、挡酒、钥匙入手，章尾用低声叮嘱收钩。"
+  }
+}

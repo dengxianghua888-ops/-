@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "法院与母亲社区摊位",
+  "time": "数月后",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "周骁",
+    "法官",
+    "母亲",
+    "邻居"
+  ],
+  "character_goal": "见证官方判决，并替母亲洗清污名。",
+  "opposition_goal": "周骁家属求情，试图用赔钱换主角撤回追责态度。",
+  "conflict_action": "法院宣读判决后，主角拒绝私下求情，回社区擦掉母亲门口残留红字。",
+  "information_gap": "职业恢复的新机会还未出现，留到终章回收。",
+  "emotional_debt_delta": "家人债偿还，尊严债偿还，规则债完成官方闭环。",
+  "payoff_or_hook": "反派从嚣张老板变成被判责的人，母亲在邻居面前正名。",
+  "chapter_end_hook": "判决书念到最后，周骁再也没敢看我。",
+  "paywall_card": false,
+  "must_include": [
+    "判决书",
+    "周骁低头",
+    "家属求情被拒",
+    "社区公告澄清",
+    "主角擦红字",
+    "母亲不再躲闪"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角原谅周骁",
+    "不要把判决写成当天发生",
+    "不要写空泛鸡汤"
+  ]
+}

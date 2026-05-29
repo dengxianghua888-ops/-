@@ -1,0 +1,397 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10640,
+    "planning_note": "比最低目标高约6.4%，留给Writer现场细节发挥。"
+  },
+  "title": "奔赴八百公里求婚后，我成了航司副总的十年小三",
+  "genre": "都市虐恋 / 追妻火葬场 / 清醒离场",
+  "mechanisms": [
+    "M5 温度反转曲线：深夜热敷的温柔，到航医中心冷声压制，再到迟来送药被拒",
+    "M3 因果回旋反讽：男主用身份不重要、补偿能解决来管理女主，结尾被女主原话退回",
+    "M2 身份反差爆发：地勤维修员反转为航司继承人、运营副总、隐婚丈夫",
+    "M6 证据链递进：航医签字、家属腕带、监控剪辑、贵宾楼旧物、直播提词器、转账备注"
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 13,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "min_plot_bombs_per_10k_chars": 8,
+    "no_reunion": true,
+    "no_male_lead_whitewash": true
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      18,
+      26
+    ],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.55,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.02,
+    "barrage_line_rate_max": 0.08,
+    "question_mark_density_per_1000_chars_min": 2.0,
+    "question_mark_density_per_1000_chars_max": 4.5,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  },
+  "budget_plan": {
+    "opening_chars": 1600,
+    "opening_ratio": 0.15,
+    "pressure_accumulation_chars": 3190,
+    "pressure_accumulation_ratio": 0.3,
+    "climax_reversal_chars": 4250,
+    "climax_reversal_ratio": 0.4,
+    "closure_chars": 1600,
+    "closure_ratio": 0.15,
+    "counterattack_concentrated_chapters": [
+      8,
+      9
+    ]
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 800,
+      "scene_range": [
+        "scene-01"
+      ],
+      "chapter_end_hook": "他替她把孕检单压平，签下的不是名字，是我十年的死刑。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 800,
+      "scene_range": [
+        "scene-02"
+      ],
+      "chapter_end_hook": "他终于看见我，却先松开了我的手。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 780,
+      "scene_range": [
+        "scene-03"
+      ],
+      "chapter_end_hook": "监控画面里，我变成了扑向孕妇的人。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 820,
+      "scene_range": [
+        "scene-04"
+      ],
+      "chapter_end_hook": "他说，婚已经结了，你先低调留下。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 760,
+      "scene_range": [
+        "scene-05"
+      ],
+      "chapter_end_hook": "航司官号发出声明的那一秒，我的名字被挂了上去。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 830,
+      "scene_range": [
+        "scene-06"
+      ],
+      "chapter_end_hook": "咖啡顺着我下巴滴下来，第一条投诉打进了我工作的门诊。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 800,
+      "scene_range": [
+        "scene-07"
+      ],
+      "chapter_end_hook": "贵宾楼展示柜里，摆着我亲手做的旧登机牌。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 900,
+      "scene_range": [
+        "scene-08"
+      ],
+      "chapter_end_hook": "提词器亮起时，我才知道他们连我的道歉都写好了。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 940,
+      "scene_range": [
+        "scene-09"
+      ],
+      "chapter_end_hook": "硬币滚到我膝边，镜头红灯还亮着。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 900,
+      "scene_range": [
+        "scene-10"
+      ],
+      "chapter_end_hook": "他把亲子鉴定塞给我，说孩子不是他的。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 710,
+      "scene_range": [
+        "scene-11"
+      ],
+      "chapter_end_hook": "我把贵宾卡掰断，断口划破了他的掌心。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 790,
+      "scene_range": [
+        "scene-12"
+      ],
+      "chapter_end_hook": "他拿着离婚证站在雪里，我只问他：你挂号了吗？"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 810,
+      "scene_range": [
+        "scene-13"
+      ],
+      "chapter_end_hook": "我把袖扣放回他掌心，转身叫了下一位病人。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 740,
+      "target_chars_max": 840,
+      "scene_location": "海城机场航医中心候诊区",
+      "character_goal": "女主带着旧航图袖扣和素圈戒指，想在男友生日当天秘密求婚",
+      "conflict_action": "女主排队挂号找人时，看见男友以丈夫身份给孕妻签高危产检单，医护称他许总",
+      "information_gap": "男友为什么不是地勤维修员，为什么能签家属栏",
+      "emotion_debt_balance": "+3 奔赴期待被当场撞碎，十年异地信任开始坍塌",
+      "chapter_end_hook": "他替她把孕检单压平，签下的不是名字，是我十年的死刑。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能先解释航司背景",
+        "不能把女主写成主动知三当三"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 740,
+      "target_chars_max": 840,
+      "scene_location": "航医中心走廊与自助缴费机旁",
+      "character_goal": "女主要确认眼前男人是不是骗了她十年",
+      "conflict_action": "女主拿出袖扣喊他旧称，男主先按住孕妻腕带，再让安保把女主隔开",
+      "information_gap": "男主是否会承认恋爱关系，孕妻是否知道女主存在",
+      "emotion_debt_balance": "+2 男主第一反应不是解释，而是保护名义妻子和秩序",
+      "chapter_end_hook": "他终于看见我，却先松开了我的手。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写成长篇哭诉",
+        "不能让男主立刻完整坦白"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 840,
+      "scene_location": "航医中心安保室",
+      "character_goal": "女主要拿回手机和戒指，证明自己不是闹事的人",
+      "conflict_action": "孕妻助理调出剪辑监控，截掉男主签字前后，只留女主冲过去的画面",
+      "information_gap": "谁在操控监控，孕妻为什么能直接调用航司安保资源",
+      "emotion_debt_balance": "+2 女主被第一次正式污名化，失去解释位置",
+      "chapter_end_hook": "监控画面里，我变成了扑向孕妇的人。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要复述安保流程",
+        "不能把证据链写成法务爽文"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 740,
+      "target_chars_max": 900,
+      "scene_location": "机场贵宾休息楼小会客室",
+      "character_goal": "女主要男主当面给出名分和解释",
+      "conflict_action": "男主递赔偿协议和贵宾卡，承认已婚却要求女主先低调留在海城",
+      "information_gap": "婚姻到底是多久前发生，十年恋爱从哪一刻开始变假",
+      "emotion_debt_balance": "+3 男主把爱情降格成可安置、可补偿的麻烦",
+      "chapter_end_hook": "他说，婚已经结了，你先低调留下。",
+      "paywall_card": true,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能洗白男主",
+        "不能让女主接受贵宾卡"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 680,
+      "target_chars_max": 820,
+      "scene_location": "机场公共候机区与航司官号评论区",
+      "character_goal": "女主想离开机场，回县城把事情压到最低",
+      "conflict_action": "孕妻助理发布航司声明和模糊照片，把女主定义成骚扰高层家属的私生粉",
+      "information_gap": "声明是谁批准的，男主是否知道女主姓名被挂出",
+      "emotion_debt_balance": "+2 私人背叛变成公共审判",
+      "chapter_end_hook": "航司官号发出声明的那一秒，我的名字被挂了上去。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要写网友反应清单",
+        "不能把网暴写成猎奇狂欢"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 740,
+      "target_chars_max": 920,
+      "scene_location": "候机楼咖啡店与门诊电话",
+      "character_goal": "女主想买最近一班车票离开海城",
+      "conflict_action": "旅客认出她后泼咖啡围拍，门诊主任打电话说收到插足投诉",
+      "information_gap": "投诉材料里为什么有女主十年转账记录",
+      "emotion_debt_balance": "+3 舆论从机场追到工作和生计",
+      "chapter_end_hook": "咖啡顺着我下巴滴下来，第一条投诉打进了我工作的门诊。",
+      "paywall_card": true,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要连续堆辱骂台词",
+        "不能让女主靠喊冤解决"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 720,
+      "target_chars_max": 880,
+      "scene_location": "航司贵宾楼展示走廊",
+      "character_goal": "女主要找回被扣的行李和证件",
+      "conflict_action": "女主经过展示柜，看见自己寄给男主的手作登机牌被标成许总少年航模收藏",
+      "information_gap": "男主究竟把她的十年付出包装成了什么",
+      "emotion_debt_balance": "+2 物证反咬，女主发现自己的爱被改名、改来源",
+      "chapter_end_hook": "贵宾楼展示柜里，摆着我亲手做的旧登机牌。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要大段回忆十年",
+        "不能把展示柜写成纯抒情道具"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "航司母婴公益直播后台",
+      "character_goal": "女主想用直播澄清自己不知情，没有插足婚姻",
+      "conflict_action": "孕妻助理把道歉稿塞进女主手里，提词器要求她承认主动纠缠许总",
+      "information_gap": "男主是否会阻止直播，直播间为什么提前控评",
+      "emotion_debt_balance": "+3 女主被迫在公开镜头前替骗局背锅",
+      "chapter_end_hook": "提词器亮起时，我才知道他们连我的道歉都写好了。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不要解释公益项目背景",
+        "不能把直播写成女主开挂演讲"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 860,
+      "target_chars_max": 1040,
+      "scene_location": "母婴公益直播间台前",
+      "character_goal": "女主想在镜头前说出十年恋爱事实",
+      "conflict_action": "孕妻当众扔下机票钱，要求女主跪着捡完再念道歉稿，镜头贴近膝盖伤口",
+      "information_gap": "男主赶来后会护谁，网友会看见哪一版事实",
+      "emotion_debt_balance": "+4 情绪谷底，尊严被压到镜头和零钱之间",
+      "chapter_end_hook": "硬币滚到我膝边，镜头红灯还亮着。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能消费羞辱",
+        "不能让围观者低俗起哄"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "直播结束后的空会议室",
+      "character_goal": "男主想用联姻和孩子真相换女主理解",
+      "conflict_action": "男主锁门拦住女主，拿出亲子鉴定和离婚计划，解释孩子不是他的",
+      "information_gap": "他为什么直到此刻才说，十年隐瞒是否能被解释抵消",
+      "emotion_debt_balance": "-1 信息反转出现，但不抵债，只让男主更自私",
+      "chapter_end_hook": "他把亲子鉴定塞给我，说孩子不是他的。",
+      "paywall_card": false,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能把被迫联姻写成免罪",
+        "不能让女主动摇复合"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 640,
+      "target_chars_max": 780,
+      "scene_location": "机场到达层出租车口",
+      "character_goal": "女主要切断所有补偿和联系，离开海城",
+      "conflict_action": "男主追到出租车口塞贵宾卡和门诊介绍信，女主当面掰断卡片并拉黑他",
+      "information_gap": "男主第一次失控后会不会继续追到她的新生活",
+      "emotion_debt_balance": "-2 女主用拒绝动作收回边界",
+      "chapter_end_hook": "我把贵宾卡掰断，断口划破了他的掌心。",
+      "paywall_card": true,
+      "is_climax_beat": true,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能让女主靠男主资源重启",
+        "不要写成激烈互骂"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 720,
+      "target_chars_max": 860,
+      "scene_location": "北方小城康复门诊宿舍门口",
+      "character_goal": "女主想在新门诊安静上班，把旧号码和旧城市清掉",
+      "conflict_action": "男主带离婚证和药膏等在宿舍外，试图证明自己已经自由",
+      "information_gap": "离婚后的追悔是否会被女主当成新的开始",
+      "emotion_debt_balance": "-2 男主迟来的温柔被降级成普通患者式处理",
+      "chapter_end_hook": "他拿着离婚证站在雪里，我只问他：你挂号了吗？",
+      "paywall_card": true,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写浪漫等门",
+        "不能暗示未来复合"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "康复门诊治疗室",
+      "character_goal": "女主要完成最后一次当面告别，继续接诊生活",
+      "conflict_action": "男主拿求婚戒指和转账记录求复合，女主退回旧航图袖扣，叫下一位病人进来",
+      "information_gap": "男主终于明白补偿只能感动自己，女主不会再回头",
+      "emotion_debt_balance": "-4 尊严归位，不复合离场完成",
+      "chapter_end_hook": "我把袖扣放回他掌心，转身叫了下一位病人。",
+      "paywall_card": false,
+      "is_climax_beat": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能靠男主补偿解决女主人生",
+        "不能留复合余地"
+      ]
+    }
+  ]
+}

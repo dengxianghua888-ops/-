@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 730,
+  "target_chars_max": 820,
+  "location": "心理辅导中心后仓暗门前",
+  "time": "次日中午",
+  "pov": "第一人称，沈知夏",
+  "characters": [
+    "沈知夏",
+    "母亲",
+    "秦律师"
+  ],
+  "character_goal": "在母亲阻拦前打开暗门，确认后仓是否藏着弟弟",
+  "opposition_goal": "母亲要把我拖走，秦律师犹豫是否交出备用钥匙",
+  "conflict_action": "我用童年旧日期试门禁，和母亲隔门拉扯，强行把暗门推开一条缝",
+  "information_gap": "为什么那个日期能开门，暗门后面是谁的人生",
+  "emotional_debt_delta": 3,
+  "payoff_or_hook": "调查从外部搜人切换为家族共同封口的密室证据战",
+  "chapter_end_hook": "门禁屏亮了一下，暗门竟真的开了一条缝。",
+  "paywall_card": true,
+  "must_include": [
+    "母亲第一次出现近乎失态的肢体阻拦",
+    "暗门只开缝，不要立刻把里面全亮出来"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释机关设计",
+    "不要长写拉扯过程",
+    "不要提前盘点门后物品"
+  ],
+  "rhythm_job": {
+    "shape": "试码动作 25% + 母女对撞 45% + 半开门留白 20% + 付费钩 10%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "密码输入错误的滴声与停顿，给一拍缓冲"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 900,
+  "target_chars_max": 1100,
+  "location": "凝霜殿佛堂",
+  "time": "喜脉后第二日",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "乌兰珠",
+    "凝霜殿侍女"
+  ],
+  "character_goal": "温照晚想试探乌兰珠，确认萧珩看向凝霜殿的原因。",
+  "opposition_goal": "乌兰珠想揭开孩子计划，逼温照晚与萧珩正面清算。",
+  "conflict_action": "乌兰珠关上佛堂门，把北境继嗣密函拍到温照晚面前，逐条点出孩子将暂借圣女之名。",
+  "information_gap": "萧珩从何时开始把温照晚和孩子算进局里。",
+  "emotional_debt_delta": "信任崩塌，怀孕线转为女主选择权危机。",
+  "payoff_or_hook": "第三张付费卡：女主怀孕后发现自己和孩子被算计。",
+  "chapter_end_hook": "乌兰珠告诉她，孩子会暂借圣女之名稳住北境旧部。",
+  "paywall_card": true,
+  "must_include": [
+    "密函实物",
+    "乌兰珠不再装娇弱",
+    "女主先冷静收好证据",
+    "孩子不是争宠工具而是政治筹码的冲击"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇北境设定",
+    "不要让乌兰珠恶意羞辱孩子",
+    "不要替萧珩开脱"
+  ]
+}

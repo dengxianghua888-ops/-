@@ -1,0 +1,13 @@
+{
+  "dimension": "style",
+  "score": 7.5,
+  "status": "pass",
+  "evidence": [
+    "first-person restrained narrator maintained throughout",
+    "recurring sensory anchors: PH试纸盒 (5 mentions), 红章 (4), 计算器 (3)",
+    "action_density_per_k=9.74 provides concrete physicality",
+    "rhythm_fit pass: quote_line_rate 0.536 within ceiling",
+    "no forbidden words or soft_forbidden (轻轻) detected"
+  ],
+  "notes": "avg_line_chars 31.7 略高于源文 23.4，长句比例偏高但在可接受范围；对话密度控制在阈值内"
+}

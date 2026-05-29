@@ -1,0 +1,37 @@
+{
+  "scene_id": "S11",
+  "beat_id": "B11",
+  "target_chars_min": 800,
+  "target_chars_max": 960,
+  "location": "市监督察办公室",
+  "time": "三天后上午",
+  "pov": "first_person_林承",
+  "characters": ["林承", "路队长", "督察科同事一名", "张松(被传唤)"],
+  "character_goal": "把决定书 + 三户处罚单交给路队长,等待行政内部启动调查",
+  "opposition_goal": "张松抗辩'正常工作往来,不是赞助费'",
+  "conflict_action": "路队长把张松半年银行流水摊在桌面,圈出与某网红洗护品牌 CEO 周某往来七笔,合计 116 万,牵出 5 名稽查共犯",
+  "information_gap": "竞品 CEO '周某'的名字此处第一次出现,信息差归零",
+  "emotional_debt_delta": "-4 真相清算",
+  "payoff_or_hook": "路队长合上流水夹的动作,封面写'2025 年上半年'",
+  "chapter_end_hook": "路队长把流水合上：'这只是上半年。'",
+  "paywall_card": false,
+  "must_include": [
+    "银行流水具体笔数(7 笔)和金额(116 万)",
+    "竞品 CEO '周某'名字第一次出现",
+    "5 名共犯姓氏列表(老李/小赵/老陶/小吴/老梁)",
+    "张松不再开口,只把笔放在桌沿(承接 S06 陈悦放笔的镜像动作)"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让路队长发表正义演讲",
+    "不要写流水细节超过 3 行",
+    "不要让张松此时崩溃"
+  ],
+  "rhythm_job": {
+    "shape": "流水摊开→圈点 7 笔→宣告共犯名单→流水合上",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_buffer": "路队长用红笔圈点的动作 + 流水夹封面字样的留白"
+  }
+}

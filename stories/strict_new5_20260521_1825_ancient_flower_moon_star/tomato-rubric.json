@@ -1,0 +1,65 @@
+{
+  "story": "stories/strict_new5_20260521_1825_ancient_flower_moon_star",
+  "overall_score": 9.34,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 10905,章节方差 45.1"
+    },
+    "hook_density": {
+      "score": 10.0,
+      "evidence": "14/14 强钩,弱钩章: 无",
+      "weak_chapters": []
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 25.86/k"
+    },
+    "style_signature": {
+      "score": 7.38,
+      "evidence": "平均句长 24.245,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.02,
+      "evidence": "源/稿均行长 29.696/25.508, 短行率 0.3902/0.114, 对白行率 0.3814/0.2684",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 26786,
+          "line_count": 902,
+          "avg_line_chars": 29.696,
+          "median_line_chars": 22.0,
+          "short_line_rate": 0.3902,
+          "long_line_rate": 0.2816,
+          "quote_line_rate": 0.3814,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 4.405
+        },
+        "candidate": {
+          "chars": 10739,
+          "line_count": 421,
+          "avg_line_chars": 25.508,
+          "median_line_chars": 26.0,
+          "short_line_rate": 0.114,
+          "long_line_rate": 0.019,
+          "quote_line_rate": 0.2684,
+          "barrage_line_rate": 0.0048,
+          "question_marks_per_k": 2.514
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

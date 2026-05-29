@@ -1,0 +1,86 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "end_hook_required": true,
+    "estimated_chapters": "12-20"
+  },
+  "hook_policy": {
+    "golden_hook_chars": 300,
+    "golden_hook_requirement": "身份反差+极致羞辱开场，前300字必须让读者产生'她怎么能忍'的愤怒共鸣",
+    "micro_hook_interval": [800, 1200],
+    "paywall_cliffhanger_interval": [2500, 3500],
+    "paywall_cliffhanger_types": ["身份即将揭露但被打断", "新一层背叛曝光", "复仇行动启动瞬间"]
+  },
+  "audience": {
+    "primary_demographic": "18-35岁女性，番茄小说核心用户",
+    "emotional_needs": ["替代性复仇快感", "身份反差爆发的爽感", "不原谅的清醒共鸣", "迟来悔恨的情绪释放"],
+    "reading_context": "碎片化通勤/睡前阅读，需要每章结尾有强拉力",
+    "genre_preference": "古言BE/虐恋，偏好公主/嫡女隐藏身份线",
+    "taboo_topics": ["圣母原谅渣男", "为爱复合", "女主依附新男人翻身", "过度血腥肉体描写"]
+  },
+  "title_strategy": {
+    "candidates": [
+      {
+        "formula": "ancient_couplet",
+        "example": "东瓶西镜放，恨不能遗忘",
+        "rationale": "原文标题已具古韵对仗，保留或微调"
+      },
+      {
+        "formula": "T3",
+        "template": "主角动作/状态后，反派悔疯了",
+        "example": "公主亮明身份后，杀子夫君悔疯了",
+        "rationale": "番茄高点击T3公式，悬念+情绪承诺"
+      },
+      {
+        "formula": "T1",
+        "template": "极端事件+结果反转",
+        "example": "他杀了我的孩子娶了别人，大婚当日我凤冠加身",
+        "rationale": "信息量大，直击核心冲突，适合推荐流"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target": 8.5,
+      "strategy": "每章末悬念递进，身份揭露分3-4层释放，不一次给完"
+    },
+    "paywall_conversion": {
+      "target": 8.5,
+      "strategy": "第一个付费点设在公主身份即将揭露前（约3000字），第二个设在大婚闯入但尚未开口时"
+    },
+    "emotional_release": {
+      "target": 9.0,
+      "strategy": "前半极致压迫（杀子+灌红花+爬天梯），后半公开清算一气呵成，情绪债偿还密度高"
+    },
+    "ai_flavor": {
+      "target": 0,
+      "strategy": "零违禁词，情绪物理化替代心理描写，古言语境下避免现代感叹词"
+    },
+    "explosion_density": {
+      "target": 8.5,
+      "strategy": "每1000字至少1个微爆点（新信息/新背叛/新反击），大爆点间隔不超过3000字"
+    }
+  },
+  "genre_constraints": {
+    "genre": "ancient_BE",
+    "avg_sentence_length": [25, 35],
+    "dialogue_ratio": [0.25, 0.35],
+    "extra_forbidden": ["手机", "电话", "公司", "地铁", "网红", "微信", "朋友圈", "杀疯", "笑疯", "怼", "KO", "公斤", "公里"],
+    "preferred_mechanisms": ["M4", "M5", "M8"],
+    "preferred_hooks": ["H2", "H3"]
+  },
+  "source_analysis": {
+    "original_word_count": 9762,
+    "original_strengths": ["身份反差爆发极强", "情绪债累积密度高", "公主驾到场景画面感强", "不原谅结局干净"],
+    "expansion_opportunities": ["前期压迫可加厚（杀子过程、爬天梯细节）", "林楚楚灌红花场景可扩写物理痛感", "大婚清算可分层递进", "父皇重逢情感补偿可加厚"],
+    "tomato_fit_score_reference": 8.7
+  }
+}

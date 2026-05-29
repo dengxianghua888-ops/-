@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "发布会后通道",
+  "time": "发布会结束后",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "陆景辞", "周砚白", "安保"],
+  "character_goal": "沈知晚明确拒绝陆景辞复婚，完成不可逆切割。",
+  "opposition_goal": "陆景辞想用悔恨、旧耳模和复婚协议换一次重新开始。",
+  "conflict_action": "陆景辞追上来递复婚协议和旧耳模，沈知晚把协议退回，摘掉他的访客证交给安保。",
+  "information_gap": "无关系悬念，只剩陆景辞余生惩罚如何落地。",
+  "emotional_debt_delta": "前夫不可追回清算完成。",
+  "payoff_or_hook": "女主亲口否定复婚，读者获得最大情绪兑现。",
+  "chapter_end_hook": "陆景辞问能不能重新开始，沈知晚说：不会复婚，也不会回头。",
+  "paywall_card": true,
+  "must_include": [
+    "复婚协议",
+    "旧耳模",
+    "陆景辞认错但无效",
+    "沈知晚台词：不会复婚，也不会回头",
+    "安保带走陆景辞"
+  ],
+  "must_not_write_as_exposition": [
+    "禁止女主心软",
+    "禁止拥抱告别",
+    "禁止让周砚白替她拒绝",
+    "禁止把陆景辞写成深情守护者"
+  ]
+}

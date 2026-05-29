@@ -1,0 +1,82 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "target_chars_min": 650,
+  "target_chars_max": 750,
+  "location": "民政局走廊/苏念内心回忆空间",
+  "time": "紧接scene-01，领证后数分钟",
+  "pov": "苏念",
+  "characters": ["苏念", "陆衍"],
+  "character_goal": "苏念在回忆中确认自己四年付出的重量，彻底清醒",
+  "opposition_goal": "陆衍（回忆中）的每一次索取和冷漠构成压迫",
+  "conflict_action": "回忆中的四年付出清单（卖房/写核心算法/加班到胃出血）vs陆衍一句'你有什么用'的定性——累积式引爆",
+  "information_gap": "陆衍递来的期权协议是伪造的——苏念看出签名不对但此刻不说破",
+  "emotional_debt_delta": "情绪债全面建立：四年付出被否定的积累清单",
+  "payoff_or_hook": "伪造期权协议出现——签名笔迹不对",
+  "chapter_end_hook": "陆衍掏出伪造期权协议递给苏念，受益人签名赫然不是她的笔迹，苏念认出却不点破",
+  "paywall_card": false,
+  "must_include": [
+    "卖掉汤臣一品的房子（具体数据）",
+    "核心算法是苏念写的（具体技术贡献）",
+    "加班到胃出血的细节",
+    "没要股份没要借条的三连否定",
+    "伪造期权协议+签名不对"
+  ],
+  "must_not_write_as_exposition": [
+    "苏念的家庭背景（远景科技实控人身份）",
+    "沈砚的真实身份",
+    "方怡和陆衍何时开始的"
+  ],
+  "rhythm_job": {
+    "shape": "回忆缓冲——用具体事件堆叠代替抒情",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 18.2,
+    "dominant_emotion": "被孤立-回忆痛-清醒",
+    "emotion_arc": "坠入回忆 → 具体事件堆叠 → 清醒认知",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "心疼她的付出，对陆衍的厌恶从'讨厌'升级为'深恨'",
+    "required_techniques": [
+      {
+        "technique": "具象数据代替抒情",
+        "instruction": "写具体的金额/房产/病症——'汤臣一品''没要股份没要借条''胃出血'，比'我为他付出了很多'有一百倍冲击力"
+      },
+      {
+        "technique": "程序/算法比喻收章",
+        "instruction": "用科技行业的意象比喻情感关系——如'他像一个死循环，第一次迭代就该跳出，可我套了四年，直到内存溢出才崩溃'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "没要A，没要B，只是[最卑微的理由]",
+        "example": "没要股份，没要借条，只是凭着一腔爱意信他。",
+        "instruction": "三连否定后接一个纯真理由，对比产生的心酸感让读者瞬间站在女主这边"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "累积式——先列具体事实，最后一句定性词引爆全部",
+    "source_excerpt": "刚毕业的时候他说要创业，\n是我把名下那套汤臣一品的房子卖了，全部打给他。\n没要股份，没要借条，只是凭着一腔爱意信他。\n核心算法是我写的，每一行代码都是我熬夜敲出来的。\n有一次连续加班三周，胃出血住院，他连医院都没来。\n他说：放心，等上市了，我给你最大的期权池。\n四年了。\n他捏了捏我后颈：'你以为你不给我写代码你还有什么用？'\n他随手掏出一份期权协议变更书。\n受益人一栏，签名歪歪扭扭——\n不是我的笔迹。"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": ["反正"],
+      "句式": "回忆中克制陈述、列举事实不抒情",
+      "单句上限": 12,
+      "禁止": "我好难过、为什么要这样对我"
+    },
+    "陆衍": {
+      "口癖": ["放心", "你懂我意思吗"],
+      "句式": "画饼承诺+居高临下评价",
+      "单句上限": 18,
+      "禁止": "对不起"
+    }
+  }
+}

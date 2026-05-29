@@ -1,0 +1,108 @@
+{
+  "story_slug": "strict_new5_20260529_hot_hot_df9671752a",
+  "pipeline_mode": "production",
+  "genre": "apocalypse_heroine",
+  "mechanisms": [
+    "M2: 身份反差爆发",
+    "M3: 因果回旋反讽",
+    "M6: 多层递进反转",
+    "M7: 降维打击",
+    "M8: 道德模糊结尾"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 13360,
+  "quality_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "蜜雾香糖被踩碎后，花房温度掉一格，物件羞辱立刻绑定系统危机。"
+    },
+    {
+      "chapter": 2,
+      "hook": "白手套银线被剪开，花瓣焦黑，私人物件受损转为外部灾变信号。"
+    },
+    {
+      "chapter": 7,
+      "hook": "吊笼献祭前，群众围观却不敢阻拦，公开羞辱债达到峰值。"
+    },
+    {
+      "chapter": 9,
+      "hook": "祁砚用监测曲线公开反证，金句“她不是诱饵，她是你们的墙”完成信息差爆破。"
+    },
+    {
+      "chapter": 10,
+      "hook": "铁索断裂瞬间虫群不扑咬而伏地跪拜，完成女主身份反转。"
+    },
+    {
+      "chapter": 12,
+      "hook": "秦岚自己的广播录音回放，原话“弱者就该被淘汰”变成清算证据。"
+    },
+    {
+      "chapter": 14,
+      "hook": "按推笼者、起哄者、沉默者、阻拦者分层处理，清算有边界。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "card": "B03",
+      "chapter": 3,
+      "reason": "冷雾消杀转红警，花房闷裂，危机从羞辱升级为基地级异常。"
+    },
+    {
+      "card": "B06",
+      "chapter": 6,
+      "reason": "虫浆巡逻服强行扣上，甜雾灯逐盏熄灭，压迫和灾变同步加深。"
+    },
+    {
+      "card": "B07",
+      "chapter": 7,
+      "reason": "吊笼献祭启动，群众围观沉默，女主被推到虫口前。"
+    },
+    {
+      "card": "B09",
+      "chapter": 9,
+      "reason": "祁砚公开数据链，证明被毁掉的是地堡防线。"
+    },
+    {
+      "card": "B10",
+      "chapter": 10,
+      "reason": "吊笼坠落，虫群伏地跪拜，身份反转强卡。"
+    },
+    {
+      "card": "B11",
+      "chapter": 11,
+      "reason": "虫翼披风展开，女主从被献祭者变成虫群女皇。"
+    },
+    {
+      "card": "B13",
+      "chapter": 13,
+      "reason": "秦岚被吊笼和诱虫灯反向审判，原献祭逻辑回旋。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "末世女主",
+    "温室花房",
+    "虫群女皇",
+    "献祭反杀",
+    "物件羞辱",
+    "白手套银线",
+    "香糖控虫",
+    "数据公开打脸",
+    "群众沉默清算",
+    "反派公平话术",
+    "身份反差爆发",
+    "降维打击",
+    "道德模糊结尾"
+  ],
+  "manual_revision_delta": []
+}

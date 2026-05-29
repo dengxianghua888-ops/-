@@ -1,0 +1,68 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "婚房→方逸宁出现→警方来访",
+  "time": "紧接上场",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "方逸宁", "民警（门外）"],
+  "character_goal": "取走父亲遗物（听诊器）离开",
+  "opposition_goal": "方逸宁挑衅——穿主角白大褂、戴亡父听诊器、暗示与妻子的关系",
+  "conflict_action": "方逸宁从卧室出来，穿着主角的白大褂（名字被贴住），脖子上挂着亡父听诊器；主角夺回听诊器时牵扯伤口但不松手；方逸宁挑衅低语'她不是不信你，她是懒得管你'；门铃响——警方来了",
+  "information_gap": "主角不知道方逸宁当晚来过家里开了燃气阀；警方即将透露此信息",
+  "emotional_debt_delta": "+4：遗物亵渎+肉体暗示+精神碾压，愤怒封顶",
+  "payoff_or_hook": "警方到来暗示新真相即将揭露——火灾/心梗之夜还有更大的秘密",
+  "chapter_end_hook": "'请问顾承安先生在吗？关于您心梗当晚的情况，我们还有些新发现需要告知。'",
+  "paywall_card": true,
+  "must_include": [
+    "方逸宁穿白大褂戴听诊器的完整画面",
+    "主角夺回听诊器的物理动作+伤口牵扯的疼痛",
+    "方逸宁的挑衅低语（'她是懒得管你'）",
+    "锁骨侧暧昧红痕的视觉暗示（故意展示）",
+    "警方敲门+自报身份——第三方权威介入"
+  ],
+  "must_not_write_as_exposition": [
+    "方逸宁的动机不能此处解释",
+    "警方来意不能提前透露"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发-悬停",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.2,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 18.5,
+    "dominant_emotion": "侵占-愤怒→悬疑转折",
+    "emotion_arc": "遗物被亵渎 → 愤怒爆发 → 夺回 → 警方介入（悬停）",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "对遗物被亵渎'忍无可忍'的共情愤怒+警方到来的'要出大事了'预感",
+    "required_techniques": [
+      {
+        "technique": "挑衅式低语",
+        "instruction": "方逸宁用'为你好'的温柔语气说最残忍的话——'她不是不信你，她是根本懒得管你。'伪善比直接攻击更恶心"
+      },
+      {
+        "technique": "伤口撕裂叙事",
+        "instruction": "物理疼痛和精神愤怒同时表现——夺听诊器时牵扯到伤口，疼得眼前发白却不松手。让读者'感觉到'那个痛"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问+地位碾压",
+        "example": "你现在还有资格叫我滚吗？",
+        "instruction": "方逸宁的台词完成身份倒置——在你家里告诉你这不是你家。或主角的反击：'谁准你动我东西的？'——不解释为什么不能动，就是不准"
+      }
+    ],
+    "peak_type": "identity_desecration",
+    "bomb_technique": "累积爆发+悬疑嫁接",
+    "source_excerpt": "方逸宁从卧室走出来，穿着我的白大褂，名字被一条胶布贴住了。脖子上挂着我父亲的听诊器——那个刻着名字的旧听诊器。我的手指尖发冷。他微微偏头：'承安，你的伤还没好吧？别太激动。'我一步上前攥住听诊器的管子，右腿和下腹的伤被牵扯，疼得眼前发白。但我没松手。门铃响了。"
+  }
+}

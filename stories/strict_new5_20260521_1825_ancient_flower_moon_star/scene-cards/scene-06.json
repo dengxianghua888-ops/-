@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "国际航运论坛外广场",
+  "time": "论坛直播时",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "闻砚舟",
+    "宋知澜",
+    "媒体记者",
+    "家属代表",
+    "围观者"
+  ],
+  "character_goal": "把直播撑完，拿到离婚承诺。",
+  "opposition_goal": "围观者与闻家秩序要把她踩成一张可公开展示的认罪样本。",
+  "conflict_action": "她念致歉词时被逼下跪，鸡蛋和烂番茄砸过来，记者追问她是否靠身体上位。",
+  "information_gap": "她抬头时，看见闻砚舟替宋知澜挡住了飞来的矿泉水瓶。",
+  "emotional_debt_delta": "社会性羞辱抵达峰值，旧情开始彻底失效。",
+  "payoff_or_hook": "闻砚舟选择先护宋知澜，让镜头完整拍下她跪着的样子。",
+  "chapter_end_hook": "她抬头时，看见闻砚舟替宋知澜挡住了飞来的矿泉水瓶。",
+  "paywall_card": true,
+  "must_include": [
+    "鸡蛋或烂番茄具象打脸",
+    "记者冷问",
+    "至少一行评论/吐槽承接误导"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写旁观者反应清单",
+    "不要复盘事故责任链",
+    "不要把认罪写成概述"
+  ],
+  "rhythm_job": {
+    "shape": "短句挨打-两轮对白逼问-一行评论补刀-护错人截断",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  }
+}

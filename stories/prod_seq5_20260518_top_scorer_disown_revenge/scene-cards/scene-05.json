@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 620,
+  "target_chars_max": 760,
+  "location": "别墅门廊临时询问区",
+  "time": "假家人现身后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "假父亲",
+    "假母亲",
+    "假未婚夫",
+    "裴队",
+    "记者"
+  ],
+  "character_goal": "沈棠要从假家人拿出的文件里找出破绽。",
+  "opposition_goal": "假父亲要用亲子鉴定、出境记录和赠与合同证明沈家只是主动离开。",
+  "conflict_action": "假父亲把文件袋拍到桌上，沈棠逐页翻看签名、折痕、措辞和赠与合同日期。",
+  "information_gap": "文件都是真的还是被替换过，断亲书里的异常措辞为何像家中暗号。",
+  "emotional_debt_delta": "亲情抛弃债被文件合法性放大，沈棠被逼到精神崩溃叙事里。",
+  "payoff_or_hook": "亲子鉴定结果显示沈棠非亲生，舆论进一步反压她。",
+  "chapter_end_hook": "那份鉴定书上，我和沈家父母的亲缘关系一栏写着：排除。",
+  "paywall_card": false,
+  "must_include": [
+    "亲子鉴定",
+    "出境记录",
+    "房屋赠与合同",
+    "断亲书异常措辞",
+    "假父亲逼问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要污名化非亲生关系",
+    "不要让文件解释占满整章",
+    "不要让沈棠沉溺身世而忘记灭门案"
+  ]
+}

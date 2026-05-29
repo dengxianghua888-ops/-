@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260520_icu_husband_dog_grave/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 13239,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        878,
+        916,
+        871,
+        793,
+        857,
+        812,
+        921,
+        814,
+        843,
+        948,
+        869,
+        857,
+        961,
+        879,
+        858
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 125,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 19,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13239,
+      "sentence_count": 613,
+      "avg_sentence_length": 20.597,
+      "dialogue_ratio": 0.0,
+      "question_marks": 0,
+      "question_marks_per_k": 0.0,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "青筋": 1,
+        "喉咙": 2,
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 44.49
+    },
+    "semantic_repetition": {
+      "sentence_count": 582,
+      "unique_sentence_skeletons": 582,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0017
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 7.7
+  },
+  "evidence": [
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "三十万截肢清创费不到账，手术台就停",
+      "supports": [
+        "platform",
+        "emotion"
+      ],
+      "finding": "开篇立即落到救命钱缺口和医院催费。"
+    },
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "冠军鸽乐乐安息",
+      "supports": [
+        "platform"
+      ],
+      "finding": "前三百字内出现儿媳朋友圈灵堂照片，点击冲突成立。"
+    },
+    {
+      "ref": "draft-scenes/scene-03.md",
+      "quote": "儿子把赔偿金委托书塞到我面前，我按下了手机录音键。",
+      "supports": [
+        "platform",
+        "emotion"
+      ],
+      "finding": "第一个付费级卡点，母亲从哀求转入取证。"
+    },
+    {
+      "ref": "draft-scenes/scene-07.md",
+      "quote": "合同上写着逾期查封鸽舍",
+      "supports": [
+        "platform",
+        "logic"
+      ],
+      "finding": "第二个付费级卡点，儿子自愿签债务锁；法律措辞需小修。"
+    },
+    {
+      "ref": "draft-scenes/scene-10.md",
+      "quote": "鉴定中心短信弹出来：排除亲生关系。",
+      "supports": [
+        "platform",
+        "emotion"
+      ],
+      "finding": "第三个付费级卡点，香火勒索线爆雷。"
+    },
+    {
+      "ref": "draft-scenes/scene-13.md",
+      "quote": "警察问我要不要谅解，我说不。",
+      "supports": [
+        "platform",
+        "logic"
+      ],
+      "finding": "第四个付费级卡点，母亲拒绝兜底且交由公权流程处理。"
+    },
+    {
+      "ref": "draft-scenes/scene-15.md",
+      "quote": "我把养老社区门卡放进口袋，再没有回头。",
+      "supports": [
+        "emotion",
+        "style"
+      ],
+      "finding": "父亲安葬、母亲养老、动物救助三条情绪债闭合。"
+    }
+  ]
+}

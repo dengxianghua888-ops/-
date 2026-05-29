@@ -1,0 +1,31 @@
+{
+  "story_slug": "batch_v5_04_ancient_sweet",
+  "title": "将门毒女",
+  "source_slug": "ancient_mojo_revenge",
+  "genre": "ancient_sweet",
+  "pipeline_version": "v5",
+  "generated_at": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10015,
+    "target_range": [10000, 14000],
+    "nonspace_pass": true,
+    "rhythm_fit": {
+      "status": "pass",
+      "avg_line_chars": 21.938,
+      "short_line_rate": 0.4053,
+      "long_line_rate": 0.1256,
+      "quote_line_rate": 0.3987
+    },
+    "structure": {
+      "gate_status": "pass",
+      "impact_density": 10.08,
+      "impact_density_floor": 3.4,
+      "watermark_violations": 1,
+      "total_impacts": 101
+    },
+    "source_overlap_pct": 0,
+    "meta_leak": 0,
+    "ai_forbidden_words": 0
+  },
+  "overall_pass": true
+}

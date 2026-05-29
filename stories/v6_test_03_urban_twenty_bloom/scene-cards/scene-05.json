@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 850,
+  "target_chars_max": 1000,
+  "location": "苏念家中 → 家门口对峙",
+  "time": "志愿填报日晚上 + 两天后",
+  "pov": "苏念",
+  "characters": ["苏念", "叶东辰", "林秀兰"],
+  "character_goal": "苏念彻底甩开叶东辰的纠缠，安心等待志愿确认结果",
+  "opposition_goal": "叶东辰升级道德绑架——用'你不是最善良的吗'攻击苏念",
+  "conflict_action": "叶东辰恶狠狠质问苏念为什么如此狠心，母亲林秀兰突然出现厉喝打断对峙",
+  "information_gap": "苏念知道叶东辰上辈子也说过顾瑶'矫情'然后反过来骂苏念——同一个套路用了两辈子",
+  "emotional_debt_delta": "荒谬感+母亲温暖构成情绪双击——读者被暖到的同时为接下来的诬告危机揪心",
+  "payoff_or_hook": "班主任电话：有人举报苏念伪造贫困证明，审计组明天到校",
+  "chapter_end_hook": "刚喘一口气就被新危机砸中——被诬告伪造贫困证明比改志愿更致命",
+  "paywall_card": false,
+  "must_include": [
+    "叶东辰的道德绑架核心句：用'善良'反过来攻击苏念",
+    "苏念的冷笑回应：'我没做错任何事，除了瞎了眼'",
+    "母亲突然出现的厉喝",
+    "母亲的温暖短句：'谁年轻没遇过人渣'的等效语",
+    "班主任电话——诬告来袭"
+  ],
+  "must_not_write_as_exposition": [
+    "叶东辰为什么生气（让他的台词自己暴露）",
+    "苏念内心的判断过程",
+    "贫困证明审计的流程解释"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.8,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 13.5,
+    "dominant_emotion": "荒谬-坚定",
+    "emotion_arc": "被攻击 → 荒谬感 → 冷静拒绝 → 母亲温暖 → 新危机砸下",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "对叶东辰的道德绑架愤怒到发笑，被母亲暖到，随即被新危机吓到",
+    "required_techniques": [
+      {
+        "technique": "道德反弹",
+        "instruction": "施害者试图用道德绑架但彻底失败——苏念的荒谬笑声比任何反驳都有力"
+      },
+      {
+        "technique": "母亲一句话破局",
+        "instruction": "在长段对峙后突然出现第三方力量——母亲不知道全部真相但直觉精准判断了一切"
+      },
+      {
+        "technique": "上辈子解码当下",
+        "instruction": "短短一句内心话揭示叶东辰这个套路的本质——他永远把自己的过错推给女方的'不善良'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "日常安慰语气+精准判断",
+        "example": "乖乖，不难过，谁年轻时候没遇到过两个人渣。",
+        "instruction": "母亲的话不需要知道真相就精准——用最朴素的智慧一句话定性，温暖和力量并存"
+      },
+      {
+        "structure": "先否定指控+再反向定性",
+        "example": "我没做错任何事，除了眼瞎看错了你们。",
+        "instruction": "不辩解不解释不求理解——直接定性'是你有问题不是我有问题'"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "反转式",
+    "source_excerpt": "「孟开颜！你不是最善良吗？……怎么这么狠心逼她去死？」荒谬到极点只会让人想笑。我妈买完东西回来，厉喝了一声。「钟然你干什么！上门来欺负我女儿！」「乖乖，不难过，谁年轻时候没遇到过两个人渣。」「我没做错任何事，除了眼瞎看错了你们。」两天后，我出院回家。刚坐下，班主任的电话就打了过来。说有人举报我在高考考场上作弊。"
+  }
+}

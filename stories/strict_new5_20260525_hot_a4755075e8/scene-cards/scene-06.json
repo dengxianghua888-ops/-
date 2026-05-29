@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "民政局外长椅 / 打印店",
+  "time": "次日中午",
+  "pov": "沈念歌",
+  "characters": ["沈念歌", "齐衍深", "打印店老板"],
+  "character_goal": "先止损离婚，但把钱账、旧物账、用途账全部卡进协议。",
+  "opposition_goal": "齐衍深想尽快签掉，避免她继续往下查。",
+  "conflict_action": "沈念歌当场删改协议内容，补列转账用途与物品去向证明要求，逼齐衍深不能空手脱身。",
+  "information_gap": "齐衍深会交出什么自保材料，还是继续替陆晚月扛。",
+  "emotional_debt_delta": "开始回收主动权，负债停止继续扩大。",
+  "payoff_or_hook": "女主不再求解释，直接重写游戏规则。",
+  "chapter_end_hook": "截断句：‘字我会签，但账要先对。’",
+  "paywall_card": false,
+  "must_include": [
+    "协议纸被改写的动作",
+    "打印店或长椅的日常环境，压低戏剧腔",
+    "齐衍深一瞬想软化气氛的迟来温度",
+    "女主一句非常冷的规则句"
+  ],
+  "must_not_write_as_exposition": [
+    "不要完整复述协议条文",
+    "不要做法律分析",
+    "不要把离婚写成纯情绪发泄"
+  ],
+  "rhythm_job": {
+    "shape": "冷处理改规则，末尾反控盘",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "ratio_note": "动作和短对白均衡，留出空拍感，章尾钩靠规则句截断。"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "story": "stories/strict_new5_20260528_hot_7d3ab01433",
+  "overall_score": 9.01,
+  "dimensions": {
+    "length_alignment": {
+      "score": 7.96,
+      "evidence": "总字数 11865,章节方差 136.9"
+    },
+    "hook_density": {
+      "score": 6.67,
+      "evidence": "10/15 强钩,弱钩章: ch03,ch04,ch08,ch10,ch12",
+      "weak_chapters": [
+        "ch03",
+        "ch04",
+        "ch08",
+        "ch10",
+        "ch12"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 29.246/k"
+    },
+    "style_signature": {
+      "score": 8.73,
+      "evidence": "平均句长 9.718,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.83,
+      "evidence": "源/稿均行长 16.888/17.633, 短行率 0.5357/0.5264, 对白行率 0.3734/0.3544",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 12075,
+          "line_count": 715,
+          "avg_line_chars": 16.888,
+          "median_line_chars": 16.0,
+          "short_line_rate": 0.5357,
+          "long_line_rate": 0.0126,
+          "quote_line_rate": 0.3734,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 7.867,
+          "comma_period_ratio": 0.6,
+          "sentence_avg_len": 15.5
+        },
+        "candidate": {
+          "chars": 11691,
+          "line_count": 663,
+          "avg_line_chars": 17.633,
+          "median_line_chars": 16.0,
+          "short_line_rate": 0.5264,
+          "long_line_rate": 0.0302,
+          "quote_line_rate": 0.3544,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 5.988,
+          "comma_period_ratio": 0.408,
+          "sentence_avg_len": 9.7
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch03",
+    "ch04",
+    "ch08",
+    "ch10",
+    "ch12"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

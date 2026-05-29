@@ -1,0 +1,33 @@
+slug: batch_v2_04_ancient_sweet
+source_slug: hot_5160748d13
+title: 忠仆
+genre: ancient_sweet
+pipeline_mode: production
+status: final
+run_date: "2026-05-26"
+optimization: v2_style_fidelity
+mechanisms:
+  - M2_identity_explosion
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 古言宫斗+掌事姑姑之女复仇+低位宫女设局+层层反杀皇后+帝后双强
+  new_setting: 现代职场+秘书之女复仇+底层前台设局+层层反杀女总裁+总裁联手
+  identity_hide: 女主伪装底层前台/助理，实为被害前秘书长之女，潜入集团复仇
+  betrayal_layers:
+    - 女总裁让女主母亲（前秘书长）替自己背贪腐罪名，母亲含冤入狱病死
+    - 女总裁称母亲是"忠心的老员工应该体谅公司难处"
+    - 女主升职后被女总裁设局陷害商业间谍罪
+    - 女总裁母族（太傅府→董事会程家）掌控集团供应链贪腐
+  reversal_trigger: 女主揭示自己是被害秘书长之女，拿出母亲保留的账本副本
+  boomerang: "忠仆"逻辑回旋——女总裁说下属该为公司牺牲，女主最终让她尝到被牺牲的滋味
+  temperature_structure:
+    warm_memory: 母亲生前教她泡茶、做事谨慎、待人以诚
+    cold_reality: 母亲被构陷入狱病死、女总裁对她母亲只记得"那个老秘书"连全名都忘了
+    freeze_point: 身份摊牌——"我妈不是忠仆，她有名字"

@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "物业协调会与同城热搜页面",
+  "time": "事故后一周",
+  "pov": "多点有限第三人称，以协调会现场为主",
+  "characters": [
+    "赵慧",
+    "钱建国",
+    "许曼",
+    "社区工作人员",
+    "业主代表"
+  ],
+  "character_goal": "各方都想把药箱事故责任推给失联的沈昭。",
+  "opposition_goal": "每个人都拿出对自己有利的截图，阻止责任落到自己身上。",
+  "conflict_action": "钱建国伪造时间线，赵慧当场撕掉调解书，许曼开直播哭诉。",
+  "information_gap": "辞退通知时间和冷柜采购账目矛盾，但调查还未入场。",
+  "emotional_debt_delta": "反派互咬升级，舆论目标从骂沈昭变成寻找沈昭。",
+  "payoff_or_hook": "沈昭缺席变成全城最大的责任缺口。",
+  "chapter_end_hook": "短视频热搜第一条变成：全城寻找被辞退的前社工沈昭。",
+  "paywall_card": true,
+  "must_include": [
+    "协调会桌面上三份互相打架的材料",
+    "热搜词条截图式呈现",
+    "评论/吐槽短句至少六条"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写完整调解流程",
+    "不要连续解释物业账目",
+    "不要让任何一方提前认输"
+  ],
+  "rhythm_job": {
+    "shape": "会议冲突和手机热搜互切；对白约三成，动作约三成，弹幕/评论/吐槽两成，证据细节两成。",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 6,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

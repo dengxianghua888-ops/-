@@ -1,0 +1,73 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 800,
+  "target_chars_max": 950,
+  "location": "行业派对——同一场所，陈奕面前",
+  "time": "紧接上场",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "陈奕"],
+  "character_goal": "苏念想要确认一件事——'在你眼里我是个很差的人么？'——然后彻底放下",
+  "opposition_goal": "陈奕继续用语言碾压，要让苏念承认自己'不配'",
+  "conflict_action": "陈奕五层递进贬低达到顶峰，苏念问出全文最脆弱的一句话，得到最狠回答后说'算了'转身走",
+  "information_gap": "苏念说'我是来找季霄的'但陈奕不信——季霄此时就在这个会所里",
+  "emotional_debt_delta": "情绪债封顶——从核心人格层面否定苏念的价值，是全文最强的债务叠加点",
+  "payoff_or_hook": "章末：苏念转身走，季霄的声音从远处传来——救世主降临",
+  "chapter_end_hook": "苏念转身往外走的瞬间，一道慵懒的声音传来'来找我？'——全场最松弛的人在最紧张的时刻出现",
+  "paywall_card": true,
+  "must_include": [
+    "贬低的第三到第五层递进（别演了→他不会选你→你说这些不丢人吗）",
+    "苏念的唯一脆弱时刻：'在你眼里我是个很差的人么？'",
+    "陈奕的最终答案确认（是/当然是）",
+    "'算了'两字——全文情绪转折点",
+    "章末季霄的声音出现"
+  ],
+  "must_not_write_as_exposition": [
+    "苏念的内心愤怒分析",
+    "陈奕为什么要贬低她的心理动机",
+    "季霄是怎么来的"
+  ],
+  "rhythm_job": {
+    "shape": "连续递进→寂静→突变",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.5,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 11.5,
+    "dominant_emotion": "屈辱-决绝",
+    "emotion_arc": "贬低升级 → 最脆弱的询问 → 最狠的回答 → 决绝放下 → 救世主声音",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "替苏念窒息，然后在季霄声音出现的瞬间获得释放——终于！",
+    "required_techniques": [
+      {
+        "technique": "五层递进贬低的情绪债叠加",
+        "instruction": "每一轮对话都升级：否定关系→否定能力→否定人格→否定价值→当众羞辱。读者的愤怒必须阶梯式升级"
+      },
+      {
+        "technique": "沉默反击——用'算了'代替爆发",
+        "instruction": "苏念越不反击，读者替她出气的欲望越强。'算了'两字比任何长段独白都有力——它宣告了六年的终结"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "\"在你眼里\"+疑问句+自我价值定位",
+        "example": "在你眼里，我是个很差的人么？",
+        "instruction": "全文唯一一次女主主动询问自我价值——这必须是最安静的一句话，之前之后都是短促的对话节奏"
+      },
+      {
+        "structure": "让步从句+转折+情绪词+两字收束",
+        "example": "虽然猜到了这个答案，可真真切切听见后，还是觉得伤人。算了。",
+        "instruction": "用让步承认伤害，但用'算了'截断情绪——不是原谅，是放弃"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "递进式→突变式",
+    "source_excerpt": "\"别演了\"→\"他傅宴再不济也不是不挑不拣的\"→\"是，为什么不是？你现在说这么多，难道不丢人吗？\"虽然猜到了这个答案，可真真切切听见后，还是觉得伤人。算了。我干脆转身往外走。一道慵懒的声音从远处传来。\"来找我？\""
+  }
+}

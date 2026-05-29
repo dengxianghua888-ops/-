@@ -1,0 +1,81 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 0,
+  "is_chapter_end": true,
+  "target_chars_min": 270,
+  "target_chars_max": 320,
+  "location": "废弃工厂改造的沉浸式剧本杀场馆·A区（哥特恐怖主题走廊）",
+  "time": "晚上8:00，生日趴开场10分钟",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "阮哥"],
+  "character_goal": "沈听澜必须确认异常并立刻决定行动——是道具故障还是量子共振器充能",
+  "opposition_goal": "阮哥作为DM维持游戏秩序，认为她入戏太深",
+  "conflict_action": "沈听澜猛然停下脚步盯着道具钟，然后要求立刻离开场馆",
+  "information_gap": "沈听澜知道钟慢一分钟意味着量子共振器充能完毕，其他所有人只觉得是道具设计",
+  "emotional_debt_delta": "开始积累——DM的轻蔑态度是第一笔否定债",
+  "payoff_or_hook": "钩子：因为我的手机也慢了一分钟。",
+  "chapter_end_hook": "沈听澜发现手机时间也慢了一分钟——从道具故障升级为系统性异常，恐惧确认",
+  "paywall_card": false,
+  "must_include": ["道具钟慢一分钟的发现", "沈听澜瞳孔/生理反应", "果断决定离开", "手机时间验证"],
+  "must_not_write_as_exposition": ["PTSD的完整背景", "量子共振器的原理", "五年前的事件"],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.6,
+    "sentence_avg_len": 14.2,
+    "dominant_emotion": "紧迫-决绝",
+    "emotion_arc": "异常发现 → 果断决定 → 悬念投放",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "被反常识决定震住，产生强烈的'为什么'疑问",
+    "required_techniques": [
+      {
+        "technique": "反常识行为开篇",
+        "instruction": "第一个动作就是违反所有人预期的——在所有人最开心的时刻要求离开，不给读者缓冲"
+      },
+      {
+        "technique": "极简悬念种子",
+        "instruction": "只给一个微小事实（手机也慢了），但暗示巨大危险，制造必须往下读的缺口"
+      },
+      {
+        "technique": "权威对立制造紧迫",
+        "instruction": "DM用轻蔑的语气否定她，让读者本能站在被否定的一方"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "极短断言句+必须句",
+        "example": "我毫不犹豫地离开座位。我必须逃离这里。",
+        "instruction": "用两句话完成决定，不给犹豫空间，让读者来不及质疑就跟着走"
+      },
+      {
+        "structure": "因为+单一事实悬念",
+        "example": "因为我的手表也慢了一分钟。",
+        "instruction": "把一个看似无害的事实变成恐怖信号，用最短因果句制造最大悬念"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "高考考场上，分发试卷的铃声响起，可墙上的钟却慢了一分钟。我猛然起身，要求立刻离开考场。监考老师以为我故意找茬，厉声道：\"钟用时间长了都会有偏差，又不影响你高考，赶快坐好！\"我毫不犹豫地离开座位。我必须逃离这里。因为我的手表也慢了一分钟。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["快走", "这不是游戏", "三分钟"],
+      "句式": "极短祈使句+事实陈述，不解释不辩驳",
+      "单句上限": 16,
+      "禁止": "犹豫词、解释性长句"
+    },
+    "阮哥": {
+      "口癖": ["妹子", "入戏了", "游戏而已"],
+      "句式": "轻松调侃式短句",
+      "单句上限": 20,
+      "禁止": "严肃长句"
+    }
+  }
+}

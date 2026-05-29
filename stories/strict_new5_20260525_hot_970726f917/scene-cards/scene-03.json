@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 850,
+  "target_chars_max": 930,
+  "location": "候选人等候区边缘",
+  "time": "终选开始前2分钟",
+  "pov": "第一人称",
+  "characters": [
+    "陆昭",
+    "宋棠",
+    "其他候选人"
+  ],
+  "character_goal": "至少把宋棠拉走，让她成为第一个跟自己离开的人。",
+  "opposition_goal": "宋棠想保住终选资格，不想被陆昭一起拖进疯子标签。",
+  "conflict_action": "陆昭把身份牌塞给宋棠，抓着她往外拖；宋棠挣开后把牌砸回去。",
+  "information_gap": "为什么陆昭宁可失去一个盟友，也不肯把全部真相说出来？",
+  "emotional_debt_delta": "闺蜜背刺债正式成立。",
+  "payoff_or_hook": "短暂松口的信任被现场秩序和前途恐惧立刻打碎。",
+  "chapter_end_hook": "截断句：宋棠盯着我，说你疯够了吗？",
+  "paywall_card": false,
+  "must_include": [
+    "宋棠先被说动半步",
+    "陆昭只说‘现在走’而不说透",
+    "身份牌砸脸的具体动作",
+    "周围候选人把她们围出小圈"
+  ],
+  "must_not_write_as_exposition": [
+    "不要回忆室友情细节",
+    "不要列候选人表情清单"
+  ],
+  "rhythm_job": {
+    "shape": "拉盟友-半信-反甩-孤身再跌",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "身份牌落地、呼吸乱掉、宋棠后退半步"
+  }
+}

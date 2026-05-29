@@ -1,0 +1,74 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 800,
+  "target_chars_max": 980,
+  "location": "某处会面+主角住处",
+  "time": "处分通报后",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "方逸宁", "沈知微（微信消息）"],
+  "character_goal": "完成对方逸宁的清算+彻底切断与沈知微的最后连接",
+  "opposition_goal": "方逸宁试图用钱了结；沈知微最后一搏求复合",
+  "conflict_action": "L4：以涉嫌医疗事故罪+间接故意（燃气阀）移送公安；对方逸宁说'你最该庆幸的是我没死，否则是刑责'；回家看到沈知微最后一条消息'承安求你接我电话'→直接拉黑",
+  "information_gap": "方逸宁不知道燃气阀证据已锁死——以为只是婚姻纠纷",
+  "emotional_debt_delta": "-4：全部情绪债清偿完毕——'都是他们应得的'",
+  "payoff_or_hook": "'都是他们应得的。'——六字收束全篇清算",
+  "chapter_end_hook": "都是他们应得的。",
+  "paywall_card": false,
+  "must_include": [
+    "L4刑事移送的告知（渎职/滥用职权+间接故意）",
+    "对方逸宁的冷杀台词（'你最该庆幸的是我没死'）",
+    "方逸宁的恐惧反应（不需要写出来——主角说完转身走人）",
+    "沈知微最后微信消息原文'承安，求你接我一次电话'",
+    "拉黑动作——M3回旋：她曾不接他求救，现在她的求救被永远屏蔽",
+    "'都是他们应得的'作为总结句"
+  ],
+  "must_not_write_as_exposition": [
+    "刑事程序不能详细解释",
+    "不能写主角的内心独白来解释为什么不原谅"
+  ],
+  "rhythm_job": {
+    "shape": "连续短句冲击",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.45,
+    "sentence_avg_len": 16.0,
+    "dominant_emotion": "清算-终结",
+    "emotion_arc": "对方逸宁最终审判 → 刑事移送 → 拉黑妻子 → 冷静收束",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "'我没死是你的运气'的霸气+拉黑的M3回旋快感+'都是应得的'的终极冷静",
+    "required_techniques": [
+      {
+        "technique": "冷杀最终审判",
+        "instruction": "对方逸宁：不打不骂，只陈述法律后果。'你最该庆幸的，是我没死。我如果死了，你今天面对的不是赔偿。是刑责。'三段递进把恐惧钉进对方身体"
+      },
+      {
+        "technique": "拉黑作为终极武器",
+        "instruction": "她曾'不接他的求救电话'，现在她的求救也被永远屏蔽。M3回旋的终极闭环。写出消息原文→盯两秒→直接拉黑。不加任何评论"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "庆幸句+条件假设+结论升级",
+        "example": "你最该庆幸的，是我没死。我如果死了，你今天面对的就不是赔偿。是刑责。",
+        "instruction": "三段递进：庆幸→假设→升级。'我活着是你的运气'这种翻转——从受害者变成审判者"
+      },
+      {
+        "structure": "判断短句（终结式）",
+        "example": "都是他们应得的。",
+        "instruction": "六个字收束全篇清算。不多说一个字。冷静到让人敬畏。作为章末最后一句"
+      }
+    ],
+    "peak_type": "final_reckoning",
+    "bomb_technique": "双线收束式",
+    "source_excerpt": "我对方逸宁说：'你最该庆幸的，是我没死。我如果死了，你今天面对的就不是赔偿。是刑责。'他的手指在抖。我没再看他。回到住处，手机屏幕亮了一下。沈知微：【承安，求你接我一次电话。】我盯着那行字看了两秒。拉黑。都是他们应得的。"
+  }
+}

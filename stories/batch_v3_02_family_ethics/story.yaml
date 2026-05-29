@@ -1,0 +1,33 @@
+slug: batch_v3_02_family_ethics
+source_slug: corpse_six_years_sister
+title: 骨灰盒
+genre: family_ethics
+pipeline_mode: production
+status: drafting
+run_date: "2026-05-26"
+optimization: v3_style_fidelity
+mechanisms:
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 背尸六年为姐姐治病+系统倒计时脱离+死后旁观清算
+  new_setting: 照顾植物人母亲八年+发现全家合谋骗保+断绝关系离开+三年后母亲真病时无人照料
+  identity_hide: 无（核心是"被利用者离开后，利用者失去一切"）
+  betrayal_layers:
+    - 母亲装植物人八年骗取女主照料和保险金
+    - 父亲用保险金养外面的家庭，女主以为父亲早逝
+    - 弟弟用女主打工供的学费出国留学，回来后说"姐姐没读过书不配分家产"
+    - 继母联合弟弟伪造遗嘱，将女主名下房产转走
+  reversal_trigger: 女主发现母亲在自己不在时能自由行动的监控录像
+  boomerang: "你就是个伺候人的命"回旋——女主离开后母亲真的中风瘫痪，无人照料
+  temperature_structure:
+    warm_memory: 小时候母亲说"妈妈最爱你"、生病时母亲守夜、承诺"等妈好了带你去看海"
+    cold_reality: 母亲在女主上班时起床活动、父亲每月来取保险金、弟弟出国用的是女主的积蓄
+    freeze_point: 女主发现监控录像时母亲正在厨房炒菜——八年来她一直在演戏
+  core_rule: "你以为的牺牲，是别人设计好的剧本。"

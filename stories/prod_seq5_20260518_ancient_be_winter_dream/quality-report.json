@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260518_ancient_be_winter_dream/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 15000,
+      "actual": 12679,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 18,
+      "hook_hits": 18,
+      "hook_coverage": 1.0,
+      "lengths": [
+        729,
+        727,
+        700,
+        757,
+        651,
+        707,
+        673,
+        713,
+        636,
+        738,
+        658,
+        709,
+        676,
+        691,
+        645,
+        711,
+        643,
+        708
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 4,
+        "chars": 175,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 16,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12679,
+      "sentence_count": 923,
+      "avg_sentence_length": 12.737,
+      "dialogue_ratio": 0.0971,
+      "question_marks": 15,
+      "question_marks_per_k": 1.183,
+      "physical_emotion_hits": {
+        "指尖": 6,
+        "发麻": 1,
+        "喉咙": 1,
+        "掌心": 11
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 24.844
+    },
+    "semantic_repetition": {
+      "sentence_count": 545,
+      "unique_sentence_skeletons": 544,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0037
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.8,
+    "style": 8.1,
+    "logic": 7.8
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "第九枚基因胚囊失温后的第十分钟，护士把低温星种舱从我身边推走。",
+      "assessment": "首句直接给出核心损失与现场动作。"
+    },
+    {
+      "area": "opening",
+      "quote": "我刚从手术台下来，承孕腺被摘除，腰腹以下像被抽空了一截。",
+      "assessment": "身体损毁在开篇现场化，不是背景交代。"
+    },
+    {
+      "area": "chapter_hooks",
+      "quote": "归零倒计时还剩三分钟。",
+      "assessment": "第1章末形成死亡离场倒计时钩。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "你早该消失了。",
+      "assessment": "第4章在九枚记录刚出现时被裴砚打断，适合作为早段付费卡。"
+    },
+    {
+      "area": "emotion_debt",
+      "quote": "低温库门打开，九个空舱同时亮起红灯。",
+      "assessment": "九个孩子债由编号和空舱现场偿还。"
+    },
+    {
+      "area": "logic",
+      "quote": "她每一次都亲手点过同意。",
+      "assessment": "伪神谕曝光没有替沈澜星脱罪，责任链保留。"
+    },
+    {
+      "area": "ending",
+      "quote": "新父亲把热汤塞进我手里，说谁再敢让我受委屈，就先过新纪家的门。",
+      "assessment": "补偿落到身体、家庭和热汤动作，非抽象幸福。"
+    }
+  ]
+}

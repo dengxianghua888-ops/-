@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {"path": "machine_metrics.style_metrics", "quote": "avg_sentence_length=8.289 action_density_per_k=41.187", "note": "短句钝感+动作密度远超硬门"},
+    {"path": "machine_metrics.forbidden_words", "quote": "hits={}", "note": "modern_reversal 子流派禁词全清零"},
+    {"path": "machine_metrics.soft_forbidden_words", "quote": "{'微微': 1}", "note": "≤2 软禁词阈值内"},
+    {"path": "draft-scenes/scene-01.md", "quote": "掌心是热的。指尖是冷的。", "note": "物理化温度对照锚点"},
+    {"path": "draft-scenes/scene-10.md", "quote": "栏杆比指纹台冷。栏杆比铜棺冷。", "note": "温度回路收束"}
+  ]
+}

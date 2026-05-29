@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "港区边缘与离港补给船",
+  "time": "油库事故后半小时内",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "救援员",
+    "港区保安"
+  ],
+  "character_goal": "靠自己离开港城，带着离婚证和录音活下去。",
+  "opposition_goal": "港区封锁与闻家的人手要把她重新拖回控制链。",
+  "conflict_action": "她扯开急救毯、拔掉固定带，抢到船载震爆弹制造白光混乱后跳上补给船。",
+  "information_gap": "闻砚舟此刻尚不知她手里握着何种证据，也不知她真的会走。",
+  "emotional_debt_delta": "故事第一次明显转爽，主动权回到她手里。",
+  "payoff_or_hook": "她把离婚证塞进衣襟，连回头看一眼都没有。",
+  "chapter_end_hook": "白光炸开海面时，补给船已经离开泊位。",
+  "paywall_card": false,
+  "must_include": [
+    "震爆弹/信号装置",
+    "跳上船的具体动作",
+    "离婚证贴身带走"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释港口路线",
+    "不要让别人主导她的逃离"
+  ],
+  "rhythm_job": {
+    "shape": "短促逃脱-物件动作-海面白光-离港硬切",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 700,
+  "target_chars_max": 840,
+  "location": "航医中心安保室",
+  "time": "同日上午",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "梁知棠",
+    "姜意",
+    "安保主管"
+  ],
+  "character_goal": "林照晚想拿回手机、行李和戒指盒，保留能证明恋爱关系的聊天记录",
+  "opposition_goal": "姜意要把林照晚定性成骚扰高层家属的人，保护梁知棠的公益形象",
+  "conflict_action": "姜意调出剪辑监控，只播放林照晚冲向许承洲和梁知棠的几秒，安保主管登记她的身份证",
+  "information_gap": "完整监控被谁剪掉，许承洲为什么不出现",
+  "emotional_debt_delta": "+2 女主被系统性失语",
+  "payoff_or_hook": "证据第一次反咬，女主从受害者被推成加害者",
+  "chapter_end_hook": "监控画面里，我变成了扑向孕妇的人。",
+  "paywall_card": false,
+  "must_include": [
+    "剪辑监控",
+    "被扣住的手机",
+    "身份证登记表",
+    "姜意把她称为私生粉",
+    "安保室塑料椅"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述协议条款",
+    "不要解释监控系统权限",
+    "不要写旁观者反应清单"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作压迫，女主少说，对方用短对白改写事实，章尾落在监控定格",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "用塑料椅冰凉、登记笔断墨、手机震动承接",
+    "dialogue_action_comment_ratio": "对白约32%，动作约58%，呼吸点约10%，章尾钩1句"
+  }
+}

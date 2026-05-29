@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 670,
+  "target_chars_max": 750,
+  "location": "新城区小两居阳台",
+  "time": "数日后，傍晚",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "周一诺"
+  ],
+  "character_goal": "把结尾落在母子新生和叙事权夺回，而不是渣男余波。",
+  "opposition_goal": "旧创伤仍在孩子的问题里回响，但不再具备现实掌控力。",
+  "conflict_action": "主角用行动推进冲突，对方被迫回应。",
+  "information_gap": "孩子的安全感如何落地，女主如何把“被写死的人”重新写成未来的主人。",
+  "emotional_debt_delta": "终局回收：母子终于有了自己的家和名字。",
+  "payoff_or_hook": "结尾句落在“以后，我们的家，我们自己养大”。",
+  "chapter_end_hook": "截断句直接用终局金句，不再回看周家。",
+  "paywall_card": false,
+  "must_include": [
+    "孩子要有一句直击安全感的问话",
+    "女主回应要短、稳、向前，不鸡汤",
+    "不出现渣男后悔视角"
+  ],
+  "must_not_write_as_exposition": [
+    "不要回头交代周瑞阳近况",
+    "不要把新生活写成抽象愿景"
+  ],
+  "rhythm_job": {
+    "shape": "2个生活动作+1句孩子发问+1记终局短句",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "4:6",
+    "low_pressure_bridge": "挖土、扶树、系风铃这些生活动作接住前文余震",
+    "chapter_tail_cut": "终局短句后收束"
+  }
+}

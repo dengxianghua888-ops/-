@@ -1,0 +1,23 @@
+phase: 6
+key: critic_gauntlet
+role: Critic Gauntlet
+title: 四路独立质量评审
+system_prompt: prompts/production/critic-gauntlet.md
+human_gate: none
+retryable: true
+required_inputs:
+  - templates/production-quality-report-template.json
+  - story/source.md
+  - story/draft.md
+  - story/beat-bible.json
+  - story/draft-scenes/*.md
+required_outputs:
+  - review.md
+  - quality-report.json
+  - diff.md
+  - evaluation/platform.json
+  - evaluation/emotion.json
+  - evaluation/style.json
+  - evaluation/logic.json
+validators:
+  - validate-production-story:phase6

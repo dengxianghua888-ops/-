@@ -1,0 +1,100 @@
+{
+  "story_slug": "strict_new5_20260521_1825_ancient_flower_moon_star",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M3", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10905,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "医生当面确认“您确定不保子宫？”",
+      "reusable_fact": "开篇用医疗签字真相替代口头背叛，能快速建立不可逆伤害。"
+    },
+    {
+      "chapter": 6,
+      "hook": "直播受辱时男主先护住女配而非女主",
+      "reusable_fact": "公开羞辱场景中加入即时肢体选择，比解释性偏心更有情绪冲击。"
+    },
+    {
+      "chapter": 8,
+      "hook": "女主冷链仓求救电话被男主直接挂断",
+      "reusable_fact": "求救电话被挂断适合作为虐点中段峰值，能把关系彻底推向断裂。"
+    },
+    {
+      "chapter": 10,
+      "hook": "女主用震爆弹脱身并带着离婚证离港",
+      "reusable_fact": "逃离段要给女主一个可视化动作道具，避免只靠他人救援完成转折。"
+    },
+    {
+      "chapter": 11,
+      "hook": "亲子鉴定、调度录音、仓库监控同时回桌，但女主已离境",
+      "reusable_fact": "迟到真相与人已离开并置，能制造追悔线的有效反讽。"
+    },
+    {
+      "chapter": 14,
+      "hook": "小女孩问校长以后是不是她的灯",
+      "reusable_fact": "终章用受助者反问承接主角事业成果，比单纯复仇收尾更有余味。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 1,
+      "card": "医生低声确认闻砚舟是否不保子宫。",
+      "reason": "核心医疗真相未完全展开，适合首个强付费点。"
+    },
+    {
+      "chapter": 5,
+      "card": "认罪直播倒计时开始，弹幕要求她跪着念。",
+      "reason": "公开处刑前置，羞辱预期明确。"
+    },
+    {
+      "chapter": 8,
+      "card": "女主求救电话里传来宋知澜的笑声，随后被挂断。",
+      "reason": "生命威胁与情感抛弃叠加。"
+    },
+    {
+      "chapter": 9,
+      "card": "男主要她让出救援名额，她摸到震爆弹保险扣。",
+      "reason": "濒死压迫后立刻埋反击动作。"
+    },
+    {
+      "chapter": 11,
+      "card": "真相证据全部到场，秘书告知女主已经离境。",
+      "reason": "追悔线启动点清晰。"
+    },
+    {
+      "chapter": 13,
+      "card": "男主替她挡刀后问“这次，够不够？”",
+      "reason": "赎罪动作与女主是否接受形成强悬念。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代虐恋反转",
+    "医疗签字背叛",
+    "子宫切除",
+    "认罪直播",
+    "舆论背锅",
+    "冷链仓库求救",
+    "电话被挂断",
+    "救援名额让渡",
+    "震爆弹逃离",
+    "迟到真相",
+    "海外重生",
+    "女性学校",
+    "灯塔徽章",
+    "追悔火葬场"
+  ],
+  "manual_revision_delta": []
+}

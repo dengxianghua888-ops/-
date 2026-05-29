@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "公寓楼下与沈家车内",
+  "time": "证据发布后次日上午",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "沈父", "沈母", "沈家司机"],
+  "character_goal": "沈知晚拒绝沈家撤声明要求，切断亲情勒索。",
+  "opposition_goal": "沈父沈母想压她撤回材料，保住沈明姝代言和沈家合作。",
+  "conflict_action": "沈父沈母把车横在公寓门口，逼她上车；沈知晚打开录音，把他们的威胁录完整后当面拉黑全家。",
+  "information_gap": "沈明姝当年嫌弃陆景辞病弱逃婚的真相尚未爆出。",
+  "emotional_debt_delta": "原生家庭偏心债加深；女主完成断亲动作。",
+  "payoff_or_hook": "父母越偏心，后续证据反噬越有燃料。",
+  "chapter_end_hook": "沈家父母找上门逼她撤声明，沈知晚当场拉黑沈家全家。",
+  "paywall_card": false,
+  "must_include": [
+    "沈母说别毁了你姐姐",
+    "沈父提沈家养育恩",
+    "沈知晚打开录音",
+    "删除家庭群",
+    "拉黑父母和沈明姝"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让沈知晚求父母公平",
+    "不要写父母苦衷洗白",
+    "不要用血缘煽情替代冲突动作"
+  ]
+}

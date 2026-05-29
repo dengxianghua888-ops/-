@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B11-B12",
+  "scene_label": "王府监控·谢家覆灭",
+  "location": "别院书房 / 京畿朱雀大街",
+  "time": "当夜至次日",
+  "pov": "谢长卿(灵魂线)",
+  "characters": [
+    "漱玉郡主",
+    "谢明姝",
+    "谢家亲族",
+    "私帮死士"
+  ],
+  "character_goal": "(灵)看见反派开始反噬",
+  "opposition_goal": "漱玉用沈氏家臣断谢家银路、以私通漕帮铁证夺爵抄产",
+  "conflict_action": "暗哨密报回放玉笄逼供画面、谢明姝双腿粉碎倾倒泔水桶旁",
+  "information_gap": "萧迟自以为有靠山,实则已被弃,读者随主角窥见反派分裂",
+  "emotional_debt_delta": "+清算债:加害者谢明姝同等屈辱开局",
+  "payoff_or_hook": "谢明姝沿街乞讨,曾经的长姐成了乞丐",
+  "chapter_end_hook": "萧迟在偏院里待了整整三日,他知道自己失去了所有靠山",
+  "paywall_card": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1180,
+  "must_include": [
+    "暗哨回放玉笄断亲画面",
+    "沈氏抛出谢家私通漕帮铁证",
+    "谢明姝双腿被两根浸油硬木棍砸碎",
+    "倾倒馊水的泔水桶"
+  ],
+  "must_not_write_as_exposition": [
+    "禁现代金融/股权词汇(已替换为'银路''家臣''爵产')",
+    "禁直白审判/法律说理"
+  ]
+}

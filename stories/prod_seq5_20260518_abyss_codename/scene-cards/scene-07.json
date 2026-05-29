@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "机务社维修间",
+  "time": "第四天上午",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "韩停",
+    "机务社成员"
+  ],
+  "character_goal": "确认韩停是否熟悉名单、广播和机库三条线。",
+  "opposition_goal": "韩停想判断林雾是普通新生还是调查者，并用话术吓退她。",
+  "conflict_action": "林雾主动申请帮机务社清点器材，故意念错17C对应的舱段，韩停下意识纠正并说出清舱名单里的内部称呼。",
+  "information_gap": "韩停知道太多，但他像执行者，不像有权限制作整份名单的人。",
+  "emotional_debt_delta": "凶手傲慢债出现，女主被猎物化的危险增强。",
+  "payoff_or_hook": "林雾判断韩停与机库、广播、名单至少有两条连接。",
+  "chapter_end_hook": "韩停贴近她低声问：你也想上那趟航班吗？",
+  "paywall_card": false,
+  "must_include": [
+    "机务社维修间",
+    "林雾故意念错座位号",
+    "韩停纠正暴露熟悉度",
+    "清舱名单术语"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写维修操作教程",
+    "不要让韩停显得只是普通跟踪狂",
+    "不要让林雾靠情绪对抗"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "phase": 6,
+  "mode": "production",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": []
+    }
+  ]
+}

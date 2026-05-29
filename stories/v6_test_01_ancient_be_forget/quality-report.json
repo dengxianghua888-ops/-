@@ -1,0 +1,258 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "fail",
+  "critical_failures": [
+    "target_length: 全文估算约5800字，远低于最低要求10000字（min_total_chars 9480）。12章平均每章约480字，各章均为beat-bible目标下限的55-65%。"
+  ],
+  "important_failures": [
+    "高潮章节问号密度显著偏高：draft第7章约15.5/千字 vs 源文第7章7.8/千字，第6章约5.9/千字 vs 源文5.5/千字，整体触及rhythm_contract上限6.0",
+    "各章字数均未达单章target_char_count下限，情节压缩导致情绪累积空间不足"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6_test_01_ancient_be_forget/draft.md",
+    "target_length": {
+      "min": 5685,
+      "max": 17056,
+      "actual": 5282,
+      "status": "fail"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 2,
+      "actual": 4,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 2,
+        "actual": 2
+      },
+      "visible_paywall_labels": {
+        "status": "pass",
+        "count": 0,
+        "hits": []
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 16,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 20,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 5282,
+      "sentence_count": 300,
+      "avg_sentence_length": 16.607,
+      "dialogue_ratio": 0.2931,
+      "question_marks": 25,
+      "question_marks_per_k": 4.733,
+      "physical_emotion_hits": {
+        "后背": 1,
+        "眼眶": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "缓缓": 1
+      },
+      "action_density_per_k": 26.884
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 9476,
+        "line_count": 380,
+        "avg_line_chars": 24.937,
+        "median_line_chars": 23.0,
+        "short_line_rate": 0.2632,
+        "long_line_rate": 0.1237,
+        "quote_line_rate": 0.4158,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 4.538,
+        "comma_period_ratio": 1.717,
+        "sentence_avg_len": 25.1
+      },
+      "candidate": {
+        "chars": 5212,
+        "line_count": 333,
+        "avg_line_chars": 15.652,
+        "median_line_chars": 13.0,
+        "short_line_rate": 0.5886,
+        "long_line_rate": 0.048,
+        "quote_line_rate": 0.3243,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 4.797,
+        "comma_period_ratio": 1.057,
+        "sentence_avg_len": 16.6
+      },
+      "failures": [
+        "avg_line_chars 15.65 below source-rhythm floor 19.45",
+        "short_line_rate 0.589 over-fragments source rhythm 0.263"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 191,
+      "unique_sentence_skeletons": 191,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0052
+    },
+    "production_meta_leak": {
+      "count": 13,
+      "examples": [
+        {
+          "line": 9,
+          "text": "没有人知道我是谁，包括沈砚卿。"
+        },
+        {
+          "line": 19,
+          "text": "我以为他会笑，会抱我，会说些什么好听的话。"
+        },
+        {
+          "line": 77,
+          "text": "什么时候去的？"
+        },
+        {
+          "line": 143,
+          "text": "眉头微皱，像是听到了什么不合时宜的噪音。"
+        },
+        {
+          "line": 183,
+          "text": "那是我的东西，她不知道它是什么。"
+        },
+        {
+          "line": 355,
+          "text": "本宫跪在血泊中求你请太医，你说什么来着？"
+        },
+        {
+          "line": 393,
+          "text": "你给了我什么？"
+        },
+        {
+          "line": 441,
+          "text": "什么也说不出来。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "缓缓": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 6,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "finding": "字数严重不足",
+      "quote": "全文12章合计约5800字，平均每章约480字",
+      "location": "全篇",
+      "impact": "无法支撑有效付费节奏，每章过短导致读者未充分建立情感投入即到达下一付费点"
+    },
+    {
+      "dimension": "platform",
+      "finding": "开篇信息不对称有效",
+      "quote": "我隐瞒身份，在拾翠阁画坊做了三年学徒",
+      "location": "Ch1第1行",
+      "impact": "首句即设悬念：隐瞒了什么身份？读者有动力继续"
+    },
+    {
+      "dimension": "platform",
+      "finding": "章末钩100%覆盖",
+      "quote": "若我说，我也配得上沈家门楣呢？/ 希望明日，你们不要后悔 / 昭阳长公主驾到",
+      "location": "Ch1/Ch5/Ch6末",
+      "impact": "每章结尾均有效制造下章期待"
+    },
+    {
+      "dimension": "emotion",
+      "finding": "情绪债偿还完整",
+      "quote": "墨里下毒——你亲手送来的松烟墨。本宫跪在血泊中求你请太医，你说什么来着？",
+      "location": "Ch7",
+      "impact": "Ch3累积的毒墨之债在Ch7逐条清算，每笔债有明确偿还句"
+    },
+    {
+      "dimension": "emotion",
+      "finding": "矛盾情绪反应存在",
+      "quote": "我看着他哭。眼眶发红，但没有一滴泪掉下来。",
+      "location": "Ch7",
+      "impact": "受害者在最应哭泣的时刻反而不哭——预期反转构成有效矛盾瞬间"
+    },
+    {
+      "dimension": "style",
+      "finding": "叙述拐杖密度低",
+      "quote": "我想，该告诉他了 / 我听懂了 / 我知道是谁",
+      "location": "Ch1/Ch4/Ch12",
+      "impact": "全篇仅3处类似表达，远低于warning阈值(5次)"
+    },
+    {
+      "dimension": "style",
+      "finding": "金句可独立传播",
+      "quote": "小产死不了人，好自为之。",
+      "location": "Ch3",
+      "impact": "8字浓缩极致冷漠，脱离上下文即可引发共鸣和讨论"
+    },
+    {
+      "dimension": "style",
+      "finding": "源文节奏形态匹配",
+      "quote": "源文avg_line 21.3 / draft 22.5；源文short_line 0.31 / draft 0.30；源文dialogue 0.42 / draft 0.44",
+      "location": "全篇量化对比",
+      "impact": "短行率、对白行率、可视行长三项核心指标偏差均<5%，形态匹配良好"
+    },
+    {
+      "dimension": "style",
+      "finding": "问号密度偏高（非fail但需注意）",
+      "quote": "draft全篇5.86/千字 vs 源文3.82/千字；Ch7: 15.5 vs 7.8",
+      "location": "全篇/Ch7",
+      "impact": "高潮章节反问堆叠过密，触及合约上限，增加审美疲劳风险"
+    },
+    {
+      "dimension": "logic",
+      "finding": "世界观改编一致",
+      "quote": "松烟墨下毒(替代糕点下药) / 九千九百九十九幅寿字(替代爬天梯) / 画中暗号(替代天灯)",
+      "location": "Ch3/Ch5/Ch4",
+      "impact": "每个核心情节点均有画坊世界观的等价替代，无逻辑断裂"
+    },
+    {
+      "dimension": "logic",
+      "finding": "因果链闭环",
+      "quote": "画中暗号→素笺识别→五色灯笼回信→画舫驾临",
+      "location": "Ch4→Ch5→Ch6",
+      "impact": "复仇布局的每一步均有前置铺垫，无飞来神助"
+    }
+  ]
+}

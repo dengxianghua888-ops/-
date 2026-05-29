@@ -1,0 +1,532 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 12500,
+    "planned_total_chars": 10892
+  },
+  "title": "捧他九百万被嫌老，我转捧短剧男二",
+  "genre": "都市短剧圈反转爽文 / 家庭伦理 / 年下事业补偿",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "陆呈贬低许闻笙只是买量金主，许闻笙撤掉男主位、买量、开屏推荐和联名资源，让他用自己的脸扛自然流量。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "许念和孟芸误以为昼光影业与许家别墅由许父掌控，最终股权文件、房产证、遗嘱证明资产都归许闻笙。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "项目撤换、数据打脸、舆论反噬、品牌官宣、产权揭露、司法判决逐级升维。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "陆呈冷暴力和污名化女主，顾凛以分镜笔记、训练表、路演复盘、公开视频维护形成事业与情绪补偿。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 746,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "项目群里最后一行字弹出：S+ 男主，换顾凛。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 729,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "陆呈笑着点开后台，却看见自己的买量余额归零。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 827,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "顾凛把两万字分镜笔记推到我面前，第一页写着：许总，请验收。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 724,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "平台运营在群里发来截图：顾凛预约量，破站内纪录。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 707,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "热搜广场刚骂到最高，昼光法务的取证邮件发进了我的邮箱。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 689,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "陆呈在直播间举起珠宝盒：下周，我会官宣高奢联名男主。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 707,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "品牌官微倒计时一分钟，陆呈粉丝已经把庆祝词刷满屏。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 697,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "律师函送到陆呈工作室时，他正准备发第二条庆功微博。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 695,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "许念把股份转让书拍到桌上：签了，否则你从这个家滚出去。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 744,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "许父下楼，手里拿着那本我母亲留下的遗嘱。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 710,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "陆呈堵在公司门口，说他愿意给我一个复合机会。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 734,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "保安架住陆呈时，顾凛的首播战报同时跳上大屏。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 674,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "开庭前，陆呈突然指着我说：是她设局害我。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 743,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "判决书落槌，陆呈账号商业合作权限同步被平台冻结。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 766,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "顾凛把新的项目表放到我桌上，问：许总，下一部还让我试吗？"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars": 746,
+      "scene_location": "许家餐厅",
+      "character_goal": "许闻笙确认陆呈是否还值得继续扶持，并维持家宴体面。",
+      "conflict_action": "陆呈给许念试戴联名珠宝、陪她对戏，转头当众否认认识许闻笙并羞辱她年纪大。",
+      "information_gap": "陆呈和许念不知道 S+ 项目男主位、买量预算和珠宝联名都由许闻笙一键决定。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "三年九百万扶持被否认",
+          "年龄羞辱",
+          "当众不认识"
+        ],
+        "payoff": [
+          "许闻笙当场撤男主位和买量"
+        ],
+        "balance": "建债后立即启动资源撤回。"
+      },
+      "chapter_end_hook": "项目群里最后一行字弹出：S+ 男主，换顾凛。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能写女主哭闹求解释",
+        "不能把冲突写成单纯吃醋"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars": 729,
+      "scene_location": "昼光影业项目群 / 陆呈休息室",
+      "character_goal": "许闻笙落实撤资动作，让项目流程完成换人。",
+      "conflict_action": "陆呈打电话命令许闻笙撤回群消息，许闻笙挂断并通知财务冻结买量。",
+      "information_gap": "陆呈以为许闻笙只是赌气，没意识到平台后台已经同步降级他的推荐。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈命令式索取资源",
+          "把撤资污名化为闹脾气"
+        ],
+        "payoff": [
+          "买量余额清零",
+          "开屏推荐改签"
+        ],
+        "balance": "第一次可量化损失。"
+      },
+      "chapter_end_hook": "陆呈笑着点开后台，却看见自己的买量余额归零。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止解释型长段心理",
+        "不能让陆呈立刻清醒止损",
+        "不能虚写撤资"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars": 827,
+      "scene_location": "昼光影业会议室",
+      "character_goal": "许闻笙审查顾凛是否具备接手 S+ 项目的职业能力。",
+      "conflict_action": "顾凛带来分镜笔记、台词节奏表、动作训练表，当场拆解陆呈过去靠买量掩盖的表演短板。",
+      "information_gap": "顾凛早已准备三年，只缺一次公开上场机会。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈占位压人三年"
+        ],
+        "payoff": [
+          "顾凛用专业材料证明许闻笙识人准确"
+        ],
+        "balance": "补偿对象建立可信度。"
+      },
+      "chapter_end_hook": "顾凛把两万字分镜笔记推到我面前，第一页写着：许总，请验收。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把顾凛写成只会撒娇",
+        "不能只靠颜值赢陆呈",
+        "禁止流水账介绍设定"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars": 724,
+      "scene_location": "短剧片场 / 平台后台",
+      "character_goal": "许闻笙推动顾凛试拍与预热上线，验证换人效果。",
+      "conflict_action": "顾凛连拍三条高难度镜头，许闻笙把试拍片送平台招商，平台临时给首页横幅测试位。",
+      "information_gap": "陆呈不知道自己被拿来做数据对照，仍在粉丝群吹自然流量。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈自称爆红全靠脸"
+        ],
+        "payoff": [
+          "顾凛预约量破纪录",
+          "陆呈自然流量露底"
+        ],
+        "balance": "因果回旋开始显形。"
+      },
+      "chapter_end_hook": "平台运营在群里发来截图：顾凛预约量，破站内纪录。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止空泛夸演技",
+        "必须写后台数据",
+        "不能弱化许闻笙决策"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars": 707,
+      "scene_location": "微博热搜广场 / 昼光法务部",
+      "character_goal": "许闻笙把网暴从情绪伤害转成法律证据。",
+      "conflict_action": "陆呈粉丝恶意 P 图、造谣包养，顾凛偷拍视频制止攻击，许闻笙要求法务公证截图并发平台投诉。",
+      "information_gap": "粉丝以为许闻笙会怕丢脸删帖，却不知道法务已经批量取证。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "粉丝网暴污名债",
+          "陆呈纵容粉丝"
+        ],
+        "payoff": [
+          "法务取证",
+          "顾凛公开维护"
+        ],
+        "balance": "舆论债转为法务筹码。"
+      },
+      "chapter_end_hook": "热搜广场刚骂到最高，昼光法务的取证邮件发进了我的邮箱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能大段复刻污秽辱骂",
+        "不能把粉丝网暴写可爱",
+        "禁止女主崩溃自证"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars": 689,
+      "scene_location": "陆呈直播间 / 昼光品牌会议",
+      "character_goal": "许闻笙准备高奢珠宝联名改签顾凛。",
+      "conflict_action": "陆呈为稳粉私自展示珠宝盒，暗示自己仍是联名男主；许闻笙当场把授权合同改给顾凛。",
+      "information_gap": "陆呈以为旧物料还在自己手里就能逼品牌认账，不知道授权签署主体是昼光与品牌。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "擅自蹭联名",
+          "虚假宣传"
+        ],
+        "payoff": [
+          "合同改签",
+          "品牌声明预埋"
+        ],
+        "balance": "合同线大卡点启动。"
+      },
+      "chapter_end_hook": "陆呈在直播间举起珠宝盒：下周，我会官宣高奢联名男主。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让陆呈侵权无后果",
+        "不能跳过合同归属",
+        "禁止写成争风吃醋"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars": 707,
+      "scene_location": "品牌发布会线上倒计时 / 平台短剧频道",
+      "character_goal": "许闻笙借官方官宣公开打脸陆呈。",
+      "conflict_action": "陆呈买通营销号提前庆祝，许闻笙让品牌官微和平台频道准点联合发布顾凛海报。",
+      "information_gap": "网友只知道陆呈在预热，不知道品牌真正备案海报已换成顾凛。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈抢功",
+          "营销号带节奏"
+        ],
+        "payoff": [
+          "品牌官微打脸",
+          "顾凛获得联名男主"
+        ],
+        "balance": "公开资源换位爽点。"
+      },
+      "chapter_end_hook": "品牌官微倒计时一分钟，陆呈粉丝已经把庆祝词刷满屏。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止只写网友震惊",
+        "必须写官微和平台联合声明",
+        "不能让顾凛被动躺赢"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars": 697,
+      "scene_location": "陆呈工作室 / 昼光法务办公室",
+      "character_goal": "许闻笙把陆呈擅自官宣升级为侵权追责。",
+      "conflict_action": "陆呈删除微博装无辜，许闻笙提交直播录屏、营销合同、珠宝样品流转单，法务发出律师函。",
+      "information_gap": "陆呈不知道许闻笙留有样品签收和直播录屏证据链。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "侵权后反咬设局",
+          "删除痕迹"
+        ],
+        "payoff": [
+          "律师函送达",
+          "商务报价下滑"
+        ],
+        "balance": "法务清算压住合同债。"
+      },
+      "chapter_end_hook": "律师函送到陆呈工作室时，他正准备发第二条庆功微博。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能凭空法务胜利",
+        "必须列证据物件",
+        "不能让陆呈真诚悔悟"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars": 695,
+      "scene_location": "许家客厅",
+      "character_goal": "许闻笙回家处理许念借舆论逼迫道歉的家庭冲突。",
+      "conflict_action": "许念要求许闻笙公开向陆呈道歉，并索要昼光女主项目和股份分配权，孟芸在旁递股份转让书。",
+      "information_gap": "许念以为许父能决定昼光股份，不知道股份在许闻笙母亲遗产名下。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "继妹越界索取",
+          "后妈道德绑架",
+          "逼女主交股份"
+        ],
+        "payoff": [
+          "许闻笙拒签并录音"
+        ],
+        "balance": "家庭产权线进入越界顶点。"
+      },
+      "chapter_end_hook": "许念把股份转让书拍到桌上：签了，否则你从这个家滚出去。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写成低俗抢男人",
+        "不能让许念拥有核心资产",
+        "禁止女主靠辱骂反击"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars": 744,
+      "scene_location": "许家客厅 / 书房门口",
+      "character_goal": "许闻笙公开澄清资产归属，结束许念对家产的误判。",
+      "conflict_action": "许父拿出遗嘱、房产证和股权文件，当众宣布昼光影业、别墅和投资公司控制权都归许闻笙。",
+      "information_gap": "孟芸母女不知道许父早已被许闻笙的录音和陆呈事件惊醒。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "许念让女主滚出自己房子",
+          "孟芸索要母亲遗产"
+        ],
+        "payoff": [
+          "产权真相公开",
+          "母女被要求搬出主卧和公司资源线"
+        ],
+        "balance": "身份/产权反转完成一波高潮。"
+      },
+      "chapter_end_hook": "许父下楼，手里拿着那本我母亲留下的遗嘱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让父亲抢走女主主控权",
+        "必须用文件证明",
+        "不能用血缘羞辱作为主爽点"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars": 710,
+      "scene_location": "昼光影业楼下",
+      "character_goal": "许闻笙切断陆呈的复合误判和公司纠缠。",
+      "conflict_action": "陆呈堵门递花，自称愿意给许闻笙女朋友名分，许闻笙叫前台调保安并把禁入通知发给物业。",
+      "information_gap": "陆呈以为许闻笙撤资是求关注，不知道她已经把他列入合作黑名单。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "复合施舍羞辱",
+          "公司门口纠缠"
+        ],
+        "payoff": [
+          "保安介入",
+          "禁入通知"
+        ],
+        "balance": "彻底拒绝破镜重圆。"
+      },
+      "chapter_end_hook": "陆呈堵在公司门口，说他愿意给我一个复合机会。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让女主动摇",
+        "不能给陆呈破镜重圆机会",
+        "禁止虐恋拉扯"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars": 734,
+      "scene_location": "昼光影业大屏会议室 / 首播后台",
+      "character_goal": "许闻笙用顾凛首播成绩完成新秩序证明。",
+      "conflict_action": "顾凛路演后准时开播，许闻笙盯后台调投放，首播完播率、充值流水、平台招商数据同时破纪录。",
+      "information_gap": "陆呈被拖走时还不知道自己曾经的商务报价已被顾凛超越。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈嘲讽顾凛只能当男二"
+        ],
+        "payoff": [
+          "顾凛成为新爆款男主",
+          "商务报价反超"
+        ],
+        "balance": "对家扶正大爽点。"
+      },
+      "chapter_end_hook": "保安架住陆呈时，顾凛的首播战报同时跳上大屏。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能只写恋爱甜",
+        "必须写数据结果",
+        "不能让顾凛抢女主决策权"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars": 674,
+      "scene_location": "法院走廊 / 审判庭",
+      "character_goal": "许闻笙用证据链完成侵权案庭审压制。",
+      "conflict_action": "陆呈庭上指认许闻笙设局，许闻笙律师逐项提交授权合同、直播录屏、样品签收、营销号转账记录。",
+      "information_gap": "陆呈不知道工作室员工已提交营销号付款凭证。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "庭审反咬设局",
+          "拒不认错"
+        ],
+        "payoff": [
+          "证据链反压",
+          "法官要求陆呈回答授权来源"
+        ],
+        "balance": "司法高潮前置。"
+      },
+      "chapter_end_hook": "开庭前，陆呈突然指着我说：是她设局害我。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让庭审变狗血吵架",
+        "必须用证据推进",
+        "不能让陆呈突然聪明"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars": 743,
+      "scene_location": "法院 / 平台公告页",
+      "character_goal": "许闻笙拿到判决结果，封口陆呈商业生涯。",
+      "conflict_action": "法院判陆呈赔偿、公开道歉、停止虚假宣传，平台同步冻结其商业合作权限，品牌方追偿违约损失。",
+      "information_gap": "陆呈以为赔钱后还能复出，不知道平台风控已把他列入高风险名单。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "陆呈始终认为女主欠他"
+        ],
+        "payoff": [
+          "判决书落地",
+          "账号商业合作受限",
+          "全网嘲讽白眼狼"
+        ],
+        "balance": "主反派事业断裂。"
+      },
+      "chapter_end_hook": "判决书落槌，陆呈账号商业合作权限同步被平台冻结。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让陆呈体面退场",
+        "不能省略赔偿和公开道歉",
+        "禁止洗白白眼狼"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars": 766,
+      "scene_location": "昼光影业办公室 / 新项目发布会",
+      "character_goal": "许闻笙完成余波清算，确认顾凛是事业正反馈而非救赎。",
+      "conflict_action": "许念直播试水失败、孟芸求回主宅被拒，顾凛带新项目表和路演复盘来请许闻笙审阅。",
+      "information_gap": "外界以为顾凛靠许闻笙上位，发布会上顾凛主动公开复盘材料和团队署名。",
+      "emotion_debt_balance": {
+        "new_debt": [
+          "余波污名",
+          "继妹母女求回资源"
+        ],
+        "payoff": [
+          "母女出局",
+          "顾凛公开承认许闻笙制片价值",
+          "女主重建厂牌秩序"
+        ],
+        "balance": "旧账清完，新路打开。"
+      },
+      "chapter_end_hook": "顾凛把新的项目表放到我桌上，问：许总，下一部还让我试吗？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让爱情拯救女主",
+        "不能让继妹母女体面获利",
+        "结尾必须落在事业新秩序"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 15000,
+    "minimum_chapters": 15,
+    "minimum_paywall_cards": 4,
+    "chapter_end_hook_coverage": "15/15",
+    "opening_hook_requirement": "前300字必须出现九百万投入、家宴双标、年龄羞辱、否认熟识、当场撤陆呈换顾凛。",
+    "micro_hook_interval_chars": {
+      "min": 800,
+      "max": 1200
+    },
+    "forbidden_global": [
+      "禁止AI腔套话：然而、总而言之、不禁、心中涌起、深吸一口气、空气仿佛凝固、嘴角微微上扬。",
+      "禁止女主复合脑。",
+      "禁止段旻/陆呈洗白。",
+      "禁止顾凛成为纯恋爱挂件。",
+      "禁止继妹线写成低俗雌竞。",
+      "禁止商业和法务动作虚化。"
+    ]
+  }
+}

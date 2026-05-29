@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 710,
+  "target_chars_max": 790,
+  "location": "亲友散场口、投资人休息厅外",
+  "time": "傍晚，婚礼闹剧外溢时",
+  "pov": "第一人称，林晚晴",
+  "characters": [
+    "林晚晴",
+    "邱淑芬",
+    "周建国",
+    "投资人",
+    "周家亲友"
+  ],
+  "character_goal": "让婆家的共谋和双标在他们最在乎的人面前公开翻车。",
+  "opposition_goal": "公婆想继续装受害长辈，把她打成不懂事的旧人。",
+  "conflict_action": "林晚晴当众播放婆婆辱骂和算计彩礼的录音，再补公公参与收礼和站队的细节。",
+  "information_gap": "截断在投资人默默把名片收回去的动作。",
+  "emotional_debt_delta": "回收一笔体面债：公婆终于在自己圈子里失脸。",
+  "payoff_or_hook": "录音里那句“白送的媳妇，不要白不要”把周家最后的借口撕开。",
+  "chapter_end_hook": "截断在投资人默默把名片收回去的动作。",
+  "paywall_card": false,
+  "must_include": [
+    "录音内容只要最狠的一两句，不要全放",
+    "投资人后退、亲友改口这些动作要有",
+    "公公不能隐身，要显出默认共谋",
+    "女主不是纯骂，是把双标账摊开"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述完整录音",
+    "不要把婆家骂战写成拉扯回合"
+  ],
+  "rhythm_job": {
+    "shape": "1段录音起效+2个后退动作+1个收名片钩子",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "4:6",
+    "low_pressure_bridge": "收名片、挪椅子、眼神避开这些慢半拍反应托起羞辱",
+    "chapter_tail_cut": "投资人收回名片即停"
+  }
+}

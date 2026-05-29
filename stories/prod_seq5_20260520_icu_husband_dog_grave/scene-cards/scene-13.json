@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 900,
+  "target_chars_max": 1050,
+  "location": "鸽舍院门与派出所询问室",
+  "time": "灵堂被砸当夜",
+  "pov": "第一人称，母亲",
+  "characters": [
+    "母亲",
+    "儿子霍建明",
+    "岳父林国强",
+    "儿媳林雯",
+    "债主",
+    "警察"
+  ],
+  "character_goal": "母亲把完整证据交给警方，并拒绝为儿子出具谅解。",
+  "opposition_goal": "儿子想逼岳家退钱，事后又想让母亲拿钱和解。",
+  "conflict_action": "儿子持铁锹砸鸽舍门、打伤阻拦的岳父，警察将他铐走，母亲在询问室递上录音、伪造委托书复印件和转账材料。",
+  "information_gap": "具体判决留到下一场，但不谅解决定已经落下。",
+  "emotional_debt_delta": "儿子自毁入刑，母亲拒绝兜底，亲情绑架被切断。",
+  "payoff_or_hook": "第四个付费级卡点：反派从债务崩塌进入刑责崩塌。",
+  "chapter_end_hook": "警察问我要不要谅解，我说不。",
+  "paywall_card": true,
+  "must_include": [
+    "铁锹砸门",
+    "岳父受伤",
+    "手铐",
+    "母亲递交录音",
+    "母亲拒绝谅解"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角鼓动暴力",
+    "不要写成私刑复仇",
+    "不要让母亲为儿子求情",
+    "不要省略警方程序感"
+  ]
+}

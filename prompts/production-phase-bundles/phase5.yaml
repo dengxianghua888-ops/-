@@ -1,0 +1,24 @@
+phase: 5
+key: scene_writer
+role: Scene Writer
+title: 逐场景生产写作
+system_prompt: prompts/production/scene-writer.md
+human_gate: none
+retryable: true
+required_inputs:
+  - story/beat-bible.json
+  - story/scene-cards/*.json
+  - story/analysis/style-dna.md
+  - story/analysis/soul-contract.md
+  - story/scene-rewrite-todo.json
+  - story/source-rhythm-rewrite-todo.json
+  - story/scene-forbidden-scan.json
+  - story/quality-report.json
+  - story/diff.md
+  - story/draft-scenes/*.md
+  - story/draft.md
+required_outputs:
+  - draft-scenes/*.md
+  - draft.md
+validators:
+  - validate-production-story:phase5

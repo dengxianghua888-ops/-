@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "summary": "破句一刀式稳定：单句一段恪守、平均句长 12.9 字、句号密度高。物理动作（手心、后背、冷汗、指甲、掌心）替代心理描写。硬词只出现在合同条款、林业局、海关、法庭节点,非堆砌。",
+  "evidence": [
+    {"type": "physical_detail", "quote": "我掂了掂保温杯里的凉水。"},
+    {"type": "physical_detail", "quote": "我把内存卡按在掌心——攥到指节发白。"},
+    {"type": "evidence_translation", "quote": "多出来的那一吨——按合同我没有义务承运——按法律它属于无主货物。"},
+    {"type": "strong_line", "quote": "李凯——你最好祈祷你这辈子别落在我手里。"},
+    {"type": "strong_line", "quote": "我说过——你最好祈祷别落在我手里。"},
+    {"type": "dialogue_function", "quote": "合同写两吨。我卸两吨。多出来那一吨——我按法律送林业局。"}
+  ],
+  "failures": []
+}

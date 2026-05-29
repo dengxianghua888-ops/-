@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 560,
+  "target_chars_max": 760,
+  "location": "提货大厅与客服直播调解间",
+  "time": "傍晚六点半",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "值班警员",
+    "赵启明",
+    "平台客服",
+    "仓管",
+    "围观商户"
+  ],
+  "character_goal": "林照要把确认单和货箱一起封存，让后续开箱具备公开见证。",
+  "opposition_goal": "赵启明要关闭直播、抢回确认单、阻止警员封仓。",
+  "conflict_action": "赵启明伸手抢确认单，林照后撤一步把单据交给警员装袋封存，客服直播镜头拍下全过程。",
+  "information_gap": "赵启明为什么突然害怕确认单被封存。",
+  "emotional_debt_delta": "反派从掌控流程转为抢证据，压迫感转入崩盘前兆。",
+  "payoff_or_hook": "确认单正式成为警方封存物证。",
+  "chapter_end_hook": "警员封存仓门，赵启明第一次伸手去抢那张确认单。",
+  "paywall_card": true,
+  "must_include": [
+    "物证袋",
+    "直播镜头",
+    "赵启明抢单据",
+    "警员封存仓门",
+    "赵启明第三次说“系统怎么评，我就怎么扣”但语气变虚"
+  ],
+  "must_not_write_as_exposition": [
+    "不要发生肢体打斗",
+    "不要让直播间消失",
+    "不要跳过封存程序"
+  ]
+}

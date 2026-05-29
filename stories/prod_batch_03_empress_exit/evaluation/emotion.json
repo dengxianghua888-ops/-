@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "score": 8.9,
+  "evidence": [
+    {
+      "path": "story/draft.md#07",
+      "debt": "不可逆离场",
+      "quote": "最后一枚雪铃粉碎。",
+      "assessment": "母亲离场明确不可逆。"
+    },
+    {
+      "path": "story/draft.md#15",
+      "debt": "清算但不复活",
+      "quote": "可她没有回来。",
+      "assessment": "复仇不兑换团圆。"
+    }
+  ]
+}

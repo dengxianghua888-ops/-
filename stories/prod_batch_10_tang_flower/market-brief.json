@@ -1,0 +1,95 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "tomato_preferred_chars": 650,
+    "chapter_count_target": [12, 20],
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：婚姻纪念日/丈夫破戒救妹妹/女主反常不闹，立即抛出重生或假死离开决定",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "paywall_card_style": "在女主被二次抛弃、假死执行、男主发现真相、女主新生被追到等节点卡章"
+  },
+  "audience": {
+    "target_readers": [
+      "18-40岁女性短篇爽虐读者",
+      "偏好追妻火葬场、重生醒悟、假死脱身、女性新生题材的番茄用户",
+      "接受强虐开局但要求女主后期清醒抽身、不回头的读者"
+    ],
+    "emotional_needs": [
+      "看背叛婚姻被彻底清算",
+      "看女主从争抢爱情转向自救自由",
+      "看丈夫和孩子迟来悔悟但无法挽回",
+      "看白莲妹妹被证据反噬",
+      "看女主获得新身份、新事业、新关系"
+    ],
+    "genre_fit": "古早虐恋内核 + 都市豪门追妻火葬场 + 重生假死爽虐短篇",
+    "taboo_topics": [
+      "女主最终原谅男主并复合",
+      "用血缘亲情强行要求女主回归家庭",
+      "弱化男主抛弃、误判、交换女主的责任",
+      "把小三/妹妹塑造成无辜替罪羊",
+      "过度描写性侵过程或猎奇暴力细节",
+      "结尾只惩罚女配、不让男主承担长期代价"
+    ]
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "preferred_direction": "直给冲突 + 假死/离开 + 悔疯关键词",
+    "formula_candidates": [
+      {
+        "formula": "他为妹妹抛下我后，我假死离开",
+        "use_case": "主打背叛与女主清醒抽身，适合番茄强钩子标题"
+      },
+      {
+        "formula": "重生后，我成全丈夫和白月光妹妹",
+        "use_case": "突出重生、反常不闹、成全反杀"
+      },
+      {
+        "formula": "我跳海假死后，霍总悔疯了",
+        "use_case": "突出核心爽点：假死脱身与追妻火葬场"
+      },
+      {
+        "formula": "他拿我换妹妹，我转身死遁了",
+        "use_case": "适合把付费级卡点前置成标题卖点"
+      },
+      {
+        "formula": "棠花落尽不相逢",
+        "use_case": "适合保留古风虐恋质感，但需搭配强简介补足冲突"
+      }
+    ]
+  },
+  "market_constraints": {
+    "core_reader_promise": "看被丈夫、儿子、妹妹共同伤透的女主重生后不争不闹，借假死彻底离开旧家庭，让所有伤害者在真相里追悔莫及，而她获得自由与新生。",
+    "dominant_s爽点": "不可逆离场后的追悔清算",
+    "emotional_debt_type": [
+      "婚姻背叛债",
+      "亲子伤害债",
+      "身份替代债",
+      "生死交换债"
+    ],
+    "recommended_genre_profile": "ancient_BE",
+    "secondary_genre_profile": "urban_sweet_ceo",
+    "reversal_mechanisms": ["M4", "M5", "M6", "M8"],
+    "preferred_hook_types": ["H2", "H3", "H4"],
+    "payoff_pattern": "先让女主持续被误解和抛弃，随后用假死制造不可逆断点；男主发现女配设局和自己助推真相后火葬场，女主拒绝复合并进入新人生。"
+  },
+  "success_metrics": {
+    "completion_desire_target": 92,
+    "paywall_point_target": 90,
+    "emotional_release_target": 94,
+    "ai_flavor_target": 5,
+    "burst_density_target": 88,
+    "first_chapter_hook_target": 9,
+    "chapter_end_hook_coverage": 1.0
+  }
+}

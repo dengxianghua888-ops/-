@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "target_chars_min": 601,
+  "target_chars_max": 801,
+  "location": "监管仓申诉柜台与客服直播调解间入口",
+  "time": "同日上午",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "赵启明",
+    "平台客服",
+    "仓管",
+    "围观商户"
+  ],
+  "character_goal": "林照要求开箱复检，证明货物只是普通碎茶拼配样。",
+  "opposition_goal": "赵启明要堵死复检入口，让林照在公开调解中被系统定性。",
+  "conflict_action": "赵启明点击拒绝申诉，命令仓管给货箱贴二次封条，并让客服把林照拖进直播调解间。",
+  "information_gap": "赵启明为什么怕开箱，客服直播是否会扩大对林照的误解。",
+  "emotional_debt_delta": "围观误解债增加，林照被当成逃避高价保价费的投机商。",
+  "payoff_or_hook": "公开场域形成，后续反杀有群众和直播见证。",
+  "chapter_end_hook": "赵启明拒绝开箱复检，还让客服直播调解间连上线，让围观商户看林照怎么被系统定性。",
+  "paywall_card": false,
+  "must_include": [
+    "林照出示进货批次和检测报告",
+    "赵启明拒绝复检",
+    "二次封条",
+    "关闭直播供货权限威胁",
+    "赵启明第二次说“系统怎么评，我就怎么扣”"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释鉴定标准细节",
+    "不要让围观群众统一恶毒",
+    "不要提前暗示主角完整计划"
+  ]
+}

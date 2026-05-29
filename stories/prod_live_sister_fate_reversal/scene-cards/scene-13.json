@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "两年后，外婆老院子与邻居家满月宴",
+  "time": "两年后的春天午后",
+  "pov": "近景旁观叙述，保留林晚萤气息但不直白认亲",
+  "characters": [
+    "外婆",
+    "邻居新妈妈",
+    "新生女孩",
+    "邻居家人"
+  ],
+  "character_goal": "转世线要让读者看见晚萤拥有新家和即时回应。",
+  "opposition_goal": "不能让原家庭重新占有她，补偿必须含蓄。",
+  "conflict_action": "邻居抱女孩来院里避雨，女孩从妈妈怀里爬向旧钢琴，抓住琴键敲出晚萤未完成旋律的前三个音。",
+  "information_gap": "外婆和读者看见小痣与旋律，原家庭完全不在场。",
+  "emotional_debt_delta": -4,
+  "payoff_or_hook": "转世胎记和旋律暗示，回甘开启。",
+  "chapter_end_hook": "两年后，一个耳后有小痣的女孩，把手放上外婆家的旧琴键。",
+  "paywall_card": false,
+  "must_include": [
+    "耳后小痣",
+    "旧钢琴",
+    "未完成旋律前三个音",
+    "新妈妈立刻护住孩子",
+    "外婆没有说破"
+  ],
+  "must_not_write_as_exposition": [
+    "不要直说这是晚萤转世",
+    "不要让林家人出现",
+    "不要写认亲",
+    "不要解释轮回规则"
+  ]
+}

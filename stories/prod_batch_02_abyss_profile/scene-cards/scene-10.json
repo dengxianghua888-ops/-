@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 740,
+  "target_chars_max": 900,
+  "location": "图书馆旧阅览室",
+  "time": "第五天上午闭馆时段",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "许曼", "刘队", "匿名管理员"],
+  "character_goal": "借许曼账号进入寒灯档案馆匿名论坛，固定组织层证据。",
+  "opposition_goal": "论坛管理员要反向锁定林照设备，并把她推上公开倒计时。",
+  "conflict_action": "林照逼许曼当面解锁账号，截取后台帖子时，电脑摄像头突然亮起，论坛标题刷新成寒灯入库倒计时。",
+  "information_gap": "管理员是纪白、江砚，还是馆长本人。",
+  "emotional_debt_delta": "组织升级债+1，身份暴露风险+1。",
+  "payoff_or_hook": "案件从校园内部犯罪升级成匿名论坛围观和指挥。",
+  "chapter_end_hook": "匿名论坛倒计时开始，标题是：寒灯入库。",
+  "paywall_card": false,
+  "must_include": [
+    "寒灯档案馆论坛",
+    "许曼账号",
+    "后台帖子截图",
+    "摄像头亮起",
+    "倒计时"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲暗网教程",
+    "不要写技术细节到可复制",
+    "不要让论坛只作为一句设定"
+  ]
+}

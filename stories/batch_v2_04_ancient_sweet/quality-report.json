@@ -1,0 +1,41 @@
+{
+  "story_slug": "batch_v2_04_ancient_sweet",
+  "source_slug": "hot_5160748d13",
+  "title": "忠仆",
+  "genre": "ancient_sweet",
+  "run_date": "2026-05-26",
+  "optimization": "v2_style_fidelity",
+  "quality_gates": {
+    "nonspace_chars": {"value": 10001, "min": 10000, "max": 14000, "pass": true},
+    "chapters": {"value": 12, "min": 10, "pass": true},
+    "rhythm_fit": {
+      "status": "pass",
+      "source_avg_line_chars": 16.747,
+      "candidate_avg_line_chars": 17.693,
+      "source_short_line_rate": 0.639,
+      "candidate_short_line_rate": 0.4696,
+      "source_quote_line_rate": 0.2739,
+      "candidate_quote_line_rate": 0.2179,
+      "source_barrage_rate": 0.0028,
+      "candidate_barrage_rate": 0.0,
+      "pass": true
+    },
+    "ai_taste_words": {"count": 0, "pass": true},
+    "source_overlap": {"estimated_pct": 0, "pass": true},
+    "meta_leak": {"count": 0, "pass": true},
+    "mechanisms_implemented": {
+      "M2_identity_explosion": true,
+      "M3_causal_boomerang": true,
+      "M5_temperature_reversal": true,
+      "M6_multi_layer_escalation": true
+    },
+    "opening_structure": "conflict_first"
+  },
+  "rework_count": 3,
+  "rework_notes": [
+    "First draft: 3780 chars, rhythm PASS but far below 10000 min",
+    "Second draft (full rewrite): 5690 chars, still below minimum",
+    "Third pass (multi-chapter expansion): incremental expansion of B5/B8/B9, then B6/B10/B11, then B1/B2/B3/B4/B12 to reach 10001"
+  ],
+  "final_status": "pass"
+}

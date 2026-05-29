@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "公司楼下",
+  "time": "举报后一个月",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "江越"
+  ],
+  "character_goal": "终极拒绝",
+  "opposition_goal": "江越想挽回",
+  "conflict_action": "江越跪地求复合+苏念踩花拒绝+金句回击",
+  "information_gap": "他以为她还会心软",
+  "emotional_debt_delta": "-3",
+  "payoff_or_hook": "踩花=踩碎旧关系",
+  "chapter_end_hook": "他单膝跪在公司楼下，手里的花被我踩进水洼。",
+  "paywall_card": false,
+  "must_include": [
+    "跪地动作",
+    "踩花动作",
+    "金句"
+  ],
+  "must_not_write_as_exposition": [
+    "女主不能犹豫"
+  ]
+}

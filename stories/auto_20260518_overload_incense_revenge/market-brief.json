@@ -1,0 +1,97 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 13500,
+    "sweet_spot": [10500, 12500]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "median_chars": 850,
+    "recommended_chapter_count": {"min": 11, "max": 14},
+    "chapter_end_hook_required": true,
+    "chapter_end_hook_coverage_target": 1.0
+  },
+  "hook_policy": {
+    "front_300_chars": "H1 同规则反咬式：货主用合同字面把超载罚款转嫁给我，我就按合同字面只卸两吨，多出的那一吨开车走人——后照镜里收货点的工人还在原地发愣。",
+    "micro_hook_every_chars": 850,
+    "paywall_card_every_chars": 2500,
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄底层反杀+爽文重度用户，男频女频通吃",
+      "对'女司机被欺负到底'心生不忿的反向爽点期待读者",
+      "20-40 岁喜欢'合同字面战+司法清算'路线、不喜重生开金手指的读者",
+      "有运输/物流/外卖/网约车一线职业经验的读者，对底层博弈共鸣强"
+    ],
+    "emotion_needs": [
+      "极致憋屈：合同被坑+过磅被罚+电话被嘲讽+派出所被吐烟",
+      "冷脑反咬：合同字面卸两吨+开车就走+按下 110+车门锁死",
+      "孤注一掷：老家被堵门+平台封号+群里被发身份证+网吧调监控",
+      "U 型转折：主动开车进林业执法大队自报有无证沉香木",
+      "司法清算：李凯五年六个月+赵总缓刑四年+全部非法所得没收",
+      "回甘补偿：撤罚撤分+大型国企长约+稳稳踩下油门驶上高速"
+    ],
+    "forbidden_topics": [
+      "不写主角私刑、肉体施暴、夜闯仓库",
+      "不写未成年人涉性涉血场景",
+      "不出现真实地名、真实公司、真实平台具名（云南/广州做通用化处理；平台叫'某货运 APP'）",
+      "不写主角'抢回'多出的一吨木材的物理对抗，必须主动上交林业执法大队",
+      "不写'金手指系统/重生回到 XX'式真重生设定，主角必须靠合同+录音+举报一步步翻盘"
+    ]
+  },
+  "title_strategy": {
+    "primary_formula": "T1 因果反转式",
+    "candidates": [
+      {
+        "title": "客户用合同坑我超载罚三千二，我开车拉走他一吨沉香报警了",
+        "formula": "T1",
+        "char_count": 25,
+        "hook_strength": 10,
+        "rationale": "数字+合同+反向举报，三段冲突一句封顶；T1 因果反转脊柱，番茄底层反杀题材完读率历史均值最高"
+      },
+      {
+        "title": "他笑我女司机不看合同，我按字面卸两吨开走那一吨",
+        "formula": "T2 反差对仗式",
+        "char_count": 22,
+        "hook_strength": 9,
+        "rationale": "把'女司机就是女司机'的羞辱句作钩，制造性别+合同双重反差"
+      },
+      {
+        "title": "我把车开进林业执法大队，举报自己拉了一吨无证沉香木",
+        "formula": "T5 回旋金句式",
+        "char_count": 24,
+        "hook_strength": 9,
+        "rationale": "'举报自己'的悖论作钩，强烈追读悬念，自带视频切片素材"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_intent": 89,
+    "paywall_pass_rate": 86,
+    "emotion_release_score": 91,
+    "ai_flavor_score": 0,
+    "viral_density": 88,
+    "review_score_target": 4.6
+  },
+  "market_positioning": {
+    "comparable_titles": [
+      "货主坑我超载罚三千",
+      "外卖小哥被冤枉那天我打了 110",
+      "网约车司机被乘客泼咖啡后我开进了警局"
+    ],
+    "differentiation": "把'底层弱女子'同质化套路反向利用：主角不哭不闹不求复合，第一反应是按合同字面执行+报警+录音；以行车记录仪存储卡+林业执法大队两件武器把走私链条钉死；区别于'女主重生开金手指反杀'的常见套路，全程零超能力。",
+    "platform_fit_notes": "番茄底层反杀+现代司法题材：H1 钩+M1/M3 双机制全部保真；首章 1100 字含 9 分钩，每章必有强情绪/信息差节点；付费节点 5 个，全程零'付费'字眼。"
+  },
+  "production_constraints": {
+    "max_source_overlap_chars": 120,
+    "soul_contract_required": true,
+    "preferred_mechanisms": ["M1", "M3"],
+    "preferred_hooks": ["H1", "H4"],
+    "genre": "modern_reversal",
+    "subgenre": "trucker_overload_smuggle_reversal"
+  }
+}

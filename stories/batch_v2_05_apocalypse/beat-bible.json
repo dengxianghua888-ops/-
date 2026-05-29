@@ -1,0 +1,110 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 12000},
+  "title": "死水",
+  "genre": "apocalypse_heroine",
+  "mechanisms": ["M3_causal_boomerang", "M5_temperature_reversal", "M6_multi_layer_escalation", "M7_dimension_strike"],
+  "opening_structure": "conflict_first",
+  "climax_budget_note": "B7-B10 are climax beats, get 40% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "鱼死了",
+      "budget_role": "opening", "budget_pct": "5%",
+      "target_chars_min": 550, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "must_include": ["实验室斑马鱼全部朝西侧死亡", "女主苏晚立刻判断西区水源有剧毒", "丈夫许维嘉（水务局副局长）斥为神经质", "核心规则首次出现：鱼死的方向就是毒来的方向"]
+    },
+    {
+      "beat_id": "B2", "title": "丈夫压制",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 850, "target_chars_max": 1050,
+      "is_climax_beat": false,
+      "must_include": ["丈夫以升迁考核为由要求女主闭嘴", "女主坚持要向卫健委报告", "丈夫威胁离婚", "温度反转：曾经支持她搞科研的人现在要她闭嘴"]
+    },
+    {
+      "beat_id": "B3", "title": "舆论围攻",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 850, "target_chars_max": 1050,
+      "is_climax_beat": false,
+      "must_include": ["丈夫发朋友圈暗示女主精神状态不稳定", "婆婆打电话骂'搞科研搞魔怔了'", "同事群里议论她偏执", "女主独自采水样送第三方检测"]
+    },
+    {
+      "beat_id": "B4", "title": "被开除",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 750, "target_chars_max": 950,
+      "is_climax_beat": false,
+      "must_include": ["单位以'散布不实信息扰乱公共秩序'为由开除", "丈夫冻结联名账户", "检测报告还未出结果", "女主带着样本和数据独自搬出家"]
+    },
+    {
+      "beat_id": "B5", "title": "强制就医",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 950, "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["丈夫联合精神科医生试图强制收治", "女主险些被注射镇静剂", "关键时刻第三方检测报告电话打进来", "确认水样藻毒素超标47倍"]
+    },
+    {
+      "beat_id": "B6", "title": "数据公开",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 750, "target_chars_max": 950,
+      "is_climax_beat": false,
+      "must_include": ["女主拿到检测报告后直接发微博公开", "丈夫打电话威胁要告她诽谤", "帖子被删三次她发三次", "记者林姗联系她"]
+    },
+    {
+      "beat_id": "B7", "title": "水厂爆了",
+      "budget_role": "climax", "budget_pct": "11%",
+      "target_chars_min": 1200, "target_chars_max": 1450,
+      "is_climax_beat": true,
+      "must_include": ["全城断水通知", "医院涌入大量腹痛呕吐患者", "新闻确认西区水源藻毒素污染", "丈夫的手机响了——上级问责电话", "M3回旋：'这就是你说的我搞魔怔了？'"]
+    },
+    {
+      "beat_id": "B8", "title": "真相溯源",
+      "budget_role": "climax", "budget_pct": "10%",
+      "target_chars_min": 1050, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["女主解释鱼死亡方向性的科学原理", "三年前类似事件被丈夫部门压下来过", "核心规则二次出现并被科学验证", "丈夫从控制者变为被调查对象"]
+    },
+    {
+      "beat_id": "B9", "title": "夫妻清算",
+      "budget_role": "climax", "budget_pct": "10%",
+      "target_chars_min": 1050, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["丈夫跪地求她不要公开内部数据", "女主正面清算：你发朋友圈骂我疯、冻我卡、要送我进精神病院", "M5冰点：'你要毁了我'——'你先毁了我'", "女主选择公开作证"]
+    },
+    {
+      "beat_id": "B10", "title": "公开举证",
+      "budget_role": "climax", "budget_pct": "9%",
+      "target_chars_min": 950, "target_chars_max": 1200,
+      "is_climax_beat": true,
+      "must_include": ["调查组进驻水务局", "三年前被压事件曝光", "水厂负责人和丈夫被停职调查", "曾骂她的人发来道歉信息"]
+    },
+    {
+      "beat_id": "B11", "title": "林姗报道",
+      "budget_role": "resolution", "budget_pct": "9%",
+      "target_chars_min": 950, "target_chars_max": 1200,
+      "is_climax_beat": false,
+      "must_include": ["深度报道发出：被骂疯子的海洋学家如何拯救一座城", "诉讼启动", "舆论彻底反转", "女主重新被研究所聘回"]
+    },
+    {
+      "beat_id": "B12", "title": "鱼活了",
+      "budget_role": "closure", "budget_pct": "7%",
+      "target_chars_min": 750, "target_chars_max": 950,
+      "is_climax_beat": false,
+      "must_include": ["女主新实验室的斑马鱼活泼正常", "意象闭环：鱼活着我就心安了", "婚姻处理（离婚或冷处理）", "余温收束"]
+    }
+  ],
+  "rhythm_contract": {
+    "source_measured_estimate": {
+      "avg_line_chars": 20,
+      "short_line_rate": 0.45,
+      "quote_line_rate": 0.35,
+      "barrage_rate": 0.003
+    },
+    "candidate_target": {
+      "avg_line_chars_range": [17, 23],
+      "short_line_rate_range": [0.35, 0.55],
+      "quote_line_rate_range": [0.25, 0.42],
+      "barrage_rate_max": 0.02
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "漕督府正堂喜宴",
+  "time": "紧接上一场",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "裴明珠",
+    "谢家父子",
+    "宾客"
+  ],
+  "character_goal": "逐条公布血债，把谢临舟钉在所有人面前。",
+  "opposition_goal": "谢临舟想解释成误会，谢家长辈想压成家事。",
+  "conflict_action": "沈蘅当堂摔出药册残页、血符、舟钗，逐条念出焚园、囚禁、下药、断潮汤、跪阶；谢临舟当众跪下，试图打断她。",
+  "information_gap": "谢临舟当众跪下时，沈蘅只抬眼问他：\"你烧园下药那日，可曾想过今日？\"",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "谢临舟当众跪下时，沈蘅只抬眼问他：\"你烧园下药那日，可曾想过今日？\"",
+  "chapter_end_hook": "谢临舟当众跪下时，沈蘅只抬眼问他：\"你烧园下药那日，可曾想过今日？\"",
+  "paywall_card": false,
+  "must_include": [
+    "至少三样可见证物",
+    "一句可截屏的罪证判词",
+    "谢临舟下跪或失态动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用法庭式长篇陈词",
+    "不要让宾客轮流发表意见",
+    "不要给谢临舟完整自辩独白"
+  ],
+  "rhythm_job": {
+    "shape": "扔证物 -> 3条短罪名 -> 1个下跪动作截停",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白7成，动作2成，留白1成",
+    "hook_line_required": true
+  }
+}

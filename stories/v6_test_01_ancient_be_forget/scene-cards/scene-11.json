@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "chapter_id": 11,
+  "is_chapter_end": true,
+  "target_chars_min": 680,
+  "target_chars_max": 880,
+  "location": "皇宫·御花园 → 公主寝殿",
+  "time": "数月后·春日",
+  "pov": "阿昭",
+  "characters": ["阿昭", "父皇", "裴若霜", "素笺"],
+  "character_goal": "阿昭享受日常温暖生活，不被旧事打扰",
+  "opposition_goal": "裴若霜来求和离/求放过——但阿昭不是她的救世主",
+  "conflict_action": "阿昭在御花园作画→父皇笨拙地给她开辟画室（'你不是喜欢画吗'）→裴若霜跪到门前求和离→自述被沈砚卿用同样方式折磨（灌绝育药/逼画万幅/折腾掉孩子）→阿昭冷硬拒绝'这难道不是你自找的吗'→素笺告知沈砚卿自废双手离开锦川",
+  "information_gap": "读者通过裴若霜之口得知M3因果回旋已落地——所有伤害被原样返还",
+  "emotional_debt_delta": "因果闭合：裴若霜受到了等量惩罚；沈砚卿自废双手（对画家的终极惩罚）",
+  "payoff_or_hook": "沈砚卿自废双手离开锦川——他还会做什么？",
+  "chapter_end_hook": "素笺告知沈砚卿自废双手后离开了锦川——画家毁掉自己的手，故事还没结束",
+  "paywall_card": false,
+  "must_include": [
+    "父皇笨拙示爱的细节（开辟画室/语气别扭）",
+    "裴若霜口述的因果回旋三条（灌药/逼画/折腾孩子）必须与阿昭所受一一对应",
+    "阿昭拒绝帮助的冷硬台词（'你自找的'）",
+    "'你受过的，她一笔一划都还了'或等价金句",
+    "沈砚卿自废双手的信息（通过素笺转述）"
+  ],
+  "must_not_write_as_exposition": [
+    "因果回旋不得由叙述者总结，必须通过裴若霜的口述呈现",
+    "不得写阿昭对裴若霜的同情心理",
+    "自废双手的过程不得详写——只写结果和一句转述"
+  ],
+  "rhythm_job": {
+    "shape": "波浪起伏",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 23.2,
+    "comma_period_ratio": 0.65,
+    "sentence_avg_len": 20.5,
+    "dominant_emotion": "平静-释然",
+    "emotion_arc": "日常温暖 → 感悟 → 因果回旋揭露 → 冷硬不软",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "满足的叹息——她过得好，他们过得烂，因果不爽",
+    "required_techniques": [
+      {
+        "technique": "因果回旋显式对照",
+        "instruction": "裴若霜述说的每一条苦必须精确对应阿昭受过的每一条——读者自动逐条比对。写法：裴若霜说一条，阿昭内心（或素笺）对照一条"
+      },
+      {
+        "technique": "拒绝施恩的冷硬",
+        "instruction": "阿昭不帮裴若霜不是因为恨，是'凭什么帮你'——用反问拒绝，不用仇恨拒绝。语气比恨更冷"
+      },
+      {
+        "technique": "父爱物象化延续",
+        "instruction": "父皇的笨拙温柔再写一笔——用语气别扭的台词+实际行动（开画室/找最好的颜料）表达不会说的爱"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对比句式（真心待的人→伤害我；回头→永远在）",
+        "example": "从前我真心待以待的人，还我遍体鳞伤，可不管我什么时候回头，家里都会一直为我撑伞",
+        "instruction": "浪漫爱情vs亲情的对比——用一个长句完成对比翻转，落点在亲情的恒定"
+      },
+      {
+        "structure": "反问+因果归因（你自找的）",
+        "example": "这难道不是你自找的吗",
+        "instruction": "拒绝时只用一个短反问——不解释不同情不犹豫，一句话定性"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "诺，你不是喜欢种地吗……林楚楚来求和离……灌红花、逼爬天梯、折腾掉孩子——和当初对我的，一模一样……从前我真心以待的人，还我遍体鳞伤，可不管我什么时候回头，家里都会一直为我撑伞……这难道不是你自找的吗……陆北辰他要去边关了。"
+  }
+}

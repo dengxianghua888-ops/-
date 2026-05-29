@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B3",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "花艺工作室",
+  "time": "次日",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "林知薇"
+  ],
+  "character_goal": "主角揭露工作真相，摊牌",
+  "opposition_goal": "表姐试图混过去",
+  "conflict_action": "主角揭露花艺工作室是自己安排的，表姐得知后反说这是你欠我家的，摘围裙走人",
+  "information_gap": "表姐的感恩态度完全不存在",
+  "emotional_debt_delta": "+7（恩将仇报冲击）",
+  "payoff_or_hook": "她摘下围裙说我们两清了，牵着他的手走了",
+  "chapter_end_hook": "她摘下围裙说我们两清了，牵着他的手走了",
+  "paywall_card": false,
+  "must_include": [
+    "揭露工作室是主角安排的",
+    "表姐的欠债逻辑",
+    "金句：不问自取那是偷"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用回忆长段解释寄养历史"
+  ]
+}

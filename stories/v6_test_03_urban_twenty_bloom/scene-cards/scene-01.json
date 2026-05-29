@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "target_chars_min": 750,
+  "target_chars_max": 900,
+  "location": "校友捐赠仪式大厅 → 二楼走廊 → 醒来时教室电脑前",
+  "time": "15年后捐赠仪式 → 重生回18岁高三志愿填报日",
+  "pov": "苏念",
+  "characters": ["苏念", "顾瑶", "叶东辰", "校长"],
+  "character_goal": "苏念作为旁观者发现15年真相后试图接近顾瑶质问",
+  "opposition_goal": "顾瑶正在台上表演杰出贫困生代表的虚假人设",
+  "conflict_action": "音响意外切换到叶东辰15年前的录音，当众暴露他贬低苏念的原话，顾瑶面具碎裂",
+  "information_gap": "读者和苏念同时发现15年婚姻/友谊全是骗局——叶东辰改过志愿、顾瑶从不贫困",
+  "emotional_debt_delta": "从零到满——一次性揭示所有背叛（偷名额+伪装贫困+贬低苏念），情绪债瞬间充值",
+  "payoff_or_hook": "重生回到志愿确认页面，密码还没被改——命运的转折点已在手中",
+  "chapter_end_hook": "醒来时面前是在线志愿系统确认页，密码还没被改。她会怎么处理这个决定命运的页面？",
+  "paywall_card": false,
+  "must_include": [
+    "校长念出顾瑶名字的瞬间",
+    "叶东辰录音原话：'苏念那种人，给她个大专她都该感恩了'",
+    "顾瑶水杯碎地+笑容裂开",
+    "苏念脚踩空→重生",
+    "醒来看到志愿系统确认页"
+  ],
+  "must_not_write_as_exposition": [
+    "15年间发生了什么（不要列清单）",
+    "重生的原理（一笔带过）",
+    "苏念的贫困背景（后面再交代）"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.8,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "震惊-觉醒",
+    "emotion_arc": "期待 → 震惊 → 冰冷清醒 → 决意",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "被信息量轰炸到窒息，同时迫切想知道女主会怎么做",
+    "required_techniques": [
+      {
+        "technique": "信息压缩弹",
+        "instruction": "叶东辰录音两句话内塞进三个爆点（贬低苏念+暗示改志愿+暴露和顾瑶关系），读者来不及消化就被下一击命中"
+      },
+      {
+        "technique": "身体本能反差",
+        "instruction": "顾瑶听到录音后的第一反应不是辩解而是水杯脱手——身体比嘴先暴露真相"
+      },
+      {
+        "technique": "物件锚定悬念",
+        "instruction": "重生后第一眼看到的不是人而是物——志愿系统确认页，把所有悬念凝缩成一个画面"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定常识+揭露真相，一句话颠覆",
+        "example": "宁宁的两个孩子不是试管，是我的。",
+        "instruction": "用最平淡语气说最炸裂内容：叶东辰录音里那句贬低苏念的话必须冷静到残忍"
+      },
+      {
+        "structure": "施害者冷漠宣判式短句",
+        "example": "婚礼还继不继续随你。",
+        "instruction": "录音中叶东辰对顾瑶说的话是'通知'不是'商量'——傲慢本身激发读者愤怒"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "累积式",
+    "source_excerpt": "「站在我面前的顾瑶同学——」校长举起奖杯。「是我校扶贫定向培养最杰出的代表。」音响切了频道。叶东辰的声音从十五年前穿出来：「苏念那种人，给她个大专她都该感恩了。」全场六百人听见了。顾瑶的水杯碎在地上。她脸上挂了十五年的笑终于裂开。我站在二楼走廊，笑了一声。然后脚下踩空。醒来的时候，我十八岁。面前是在线志愿系统的确认页。密码还没被改。"
+  }
+}

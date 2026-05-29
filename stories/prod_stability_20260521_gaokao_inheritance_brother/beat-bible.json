@@ -1,0 +1,372 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10620,
+    "overshoot_ratio_vs_min": 0.062
+  },
+  "title": "高考出分后，姥爷逼我找回不存在的弟弟",
+  "genre": "family_ethics",
+  "mechanisms": [
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "从私生子怀疑到旧校区证据链，再翻到主角自身被删改的人生档案"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "前70%稳固伪装外部男性题面，后30%完成“弟弟就是我自己”认领"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "姥爷偏爱旧忆、父母中段崩溃排斥、结尾以公开站台和法律改名兑现补偿"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "秦律师抬眼说：'如果七天内找不到你弟弟，你们一家还是会按前几次那样死。'"
+    },
+    {
+      "chapter_id": "ch02",
+      "target_chars": 720,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "我在姥爷手机里翻到一段没发出去的录音，最后只剩半句：'去旧校区，别让你妈先到。'"
+    },
+    {
+      "chapter_id": "ch03",
+      "target_chars": 730,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "父亲低声问我：'你真不记得，家里以前还丢过一个孩子吗？'"
+    },
+    {
+      "chapter_id": "ch04",
+      "target_chars": 760,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "奖杯墙背后掉出一张被烧过边的登记表，姓名栏只剩一个'沈'字。"
+    },
+    {
+      "chapter_id": "ch05",
+      "target_chars": 720,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "监控里，母亲半夜独自去过心理辅导中心后仓。"
+    },
+    {
+      "chapter_id": "ch06",
+      "target_chars": 780,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "门禁屏亮起，我输入那个日期后，暗门居然开了一条缝。"
+    },
+    {
+      "chapter_id": "ch07",
+      "target_chars": 760,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "我从暗层里抽出那本改名草稿，第一页写着：'如果我以后不能做沈知夏，我想叫……'"
+    },
+    {
+      "chapter_id": "ch08",
+      "target_chars": 760,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "母亲当场砸掉药盒，嗓子发抖：'把这些都烧了，不然我们第四次还是活不成。'"
+    },
+    {
+      "chapter_id": "ch09",
+      "target_chars": 720,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "心理顾问看完那张处方，第一次失态：'你不是在找弟弟，你是在找被你们亲手封掉的本人。'"
+    },
+    {
+      "chapter_id": "ch10",
+      "target_chars": 800,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "催眠刚开始，我就看见第三次轮回里，绳套套上的那个人，脸竟然是我自己。"
+    },
+    {
+      "chapter_id": "ch11",
+      "target_chars": 760,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "我全想起来了，可母亲捂住我的嘴，哭着说：'别说出口，说出口你爸会疯。'"
+    },
+    {
+      "chapter_id": "ch12",
+      "target_chars": 780,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "父亲翻出姥爷留下的第二份文件，第一页只有一行字：'让他活下来，比让集团活下来重要。'"
+    },
+    {
+      "chapter_id": "ch13",
+      "target_chars": 740,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "升学宴开始前，母亲把新身份证塞进我手里：'今天我先叫你一声，儿子。'"
+    },
+    {
+      "chapter_id": "ch14",
+      "target_chars": 790,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "梦里姥爷终于笑了：'这次，你们总算没再把他弄丢。'"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "殡仪馆外停车场",
+      "character_goal": "先弄清姥爷遗嘱到底在逼我做什么，并避免第四次死局重演",
+      "conflict_action": "当场对质秦律师，逼他说出前三世死亡样本和七天期限",
+      "information_gap": "姥爷为什么要求独生女和不存在的弟弟比高考分，且为何找不到人会死人",
+      "emotion_debt_balance": {
+        "open_debts": ["遗嘱异常", "弟弟是否存在", "轮回死亡规则"],
+        "paid_debts": [],
+        "tension_delta": 3
+      },
+      "chapter_end_hook": "七天内找不到弟弟，全家还会死一次。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用葬礼氛围长描写", "不能把前三世死亡写成概述播报", "不能让主角只震惊不追问"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "回家车里与姥爷旧手机录音",
+      "character_goal": "从姥爷遗物里抢到先手线索",
+      "conflict_action": "顶着母亲阻拦抢过旧手机，播放未发送录音",
+      "information_gap": "姥爷为何特别提到旧校区，母亲又为何抢手机",
+      "emotion_debt_balance": {
+        "open_debts": ["旧校区与弟弟关系", "母亲隐瞒动机"],
+        "paid_debts": ["死亡规则具备线索出口"],
+        "tension_delta": 2
+      },
+      "chapter_end_hook": "去旧校区，别让你妈先到。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用家族背景介绍段", "不要复述遗嘱全文", "不要写车程流水账"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 690,
+      "target_chars_max": 770,
+      "scene_location": "家中书房",
+      "character_goal": "验证外部私生子假说，确定第一个搜查方向",
+      "conflict_action": "翻父亲旧档案、比对户籍与转账记录，当面逼问父亲",
+      "information_gap": "父亲是否藏了私生子，还是家里曾有另一个孩子被抹掉",
+      "emotion_debt_balance": {
+        "open_debts": ["父亲角色真假", "失踪孩子传闻"],
+        "paid_debts": ["外部私生子假说获得表面证据"],
+        "tension_delta": 1
+      },
+      "chapter_end_hook": "家里以前还丢过一个孩子吗？",
+      "paywall_card": false,
+      "forbidden_summary": ["不要连续解释账目", "不要把父亲写成直接认罪", "禁用大段童年回忆"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "scene_location": "停用样板校区奖杯墙和样板教室",
+      "character_goal": "在旧校区找到能证明弟弟真实存在的实物",
+      "conflict_action": "撬开奖杯墙背板，翻出被藏过的登记表与旧照片",
+      "information_gap": "登记表上的'沈'字对应谁，姥爷为何把线索留在校区",
+      "emotion_debt_balance": {
+        "open_debts": ["登记表残缺姓名", "姥爷布线意图"],
+        "paid_debts": ["旧校区确实藏过与弟弟相关的人事痕迹"],
+        "tension_delta": 2
+      },
+      "chapter_end_hook": "被烧过边的登记表，只剩一个'沈'字。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用校区环境长描", "不要写成纯搜证流程说明", "不要让线索一次说透"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "scene_location": "旧校区监控室",
+      "character_goal": "查清母亲是否先于我来过并动过手脚",
+      "conflict_action": "恢复硬盘备份，截出母亲深夜进后仓的监控",
+      "information_gap": "母亲在心理辅导中心后仓藏了什么，为什么比遗产更怕我看到",
+      "emotion_debt_balance": {
+        "open_debts": ["母亲深夜行动目的", "后仓物证性质"],
+        "paid_debts": ["母亲确实主动遮掩关键线索"],
+        "tension_delta": 2
+      },
+      "chapter_end_hook": "母亲半夜独自去过心理辅导中心后仓。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写技术恢复教程", "不要平铺母亲管理集团往事", "禁止旁观者反应清单"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 730,
+      "target_chars_max": 820,
+      "scene_location": "心理辅导中心后仓暗门",
+      "character_goal": "在母亲再次赶到前打开暗门",
+      "conflict_action": "用童年日期试门禁，与母亲隔门对抗，强行推开暗层",
+      "information_gap": "那个日期为何能开门，门后到底存着谁的人生",
+      "emotion_debt_balance": {
+        "open_debts": ["门禁日期含义", "暗层物证全貌"],
+        "paid_debts": ["线索从外部人物正式转向家内共同封口"],
+        "tension_delta": 3
+      },
+      "chapter_end_hook": "暗门开了一条缝。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要复述门禁逻辑条款", "不要把对抗写成单纯喊叫", "禁用机关细节灌水"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "暗层仓库内部",
+      "character_goal": "确认门后物证属于谁，并建立第二轮错误推理",
+      "conflict_action": "逐件翻检男装、束胸废弃物、改名草稿与激素咨询单",
+      "information_gap": "这些物证是在保护谁，为什么名字像要从我身上长出来",
+      "emotion_debt_balance": {
+        "open_debts": ["物证归属", "改名草稿指向"],
+        "paid_debts": ["弟弟并非普通失踪人口，而与主角人生高度重叠"],
+        "tension_delta": 2
+      },
+      "chapter_end_hook": "如果我以后不能做沈知夏，我想叫……",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把物证写成猎奇展览", "不要科普激素或改名程序", "不要直接点破终极答案"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "暗层门口与校区走廊",
+      "character_goal": "逼母亲说出她到底在怕什么",
+      "conflict_action": "拿着改名草稿堵住母亲去路，逼她解释并夺下她要砸毁的药盒",
+      "information_gap": "前三世死亡究竟和这些药、这些记录有什么关系",
+      "emotion_debt_balance": {
+        "open_debts": ["药盒用途", "母亲崩溃根因"],
+        "paid_debts": ["母亲不是因遗产失控，而是因真相失控"],
+        "tension_delta": 3
+      },
+      "chapter_end_hook": "把这些都烧了，不然我们第四次还是活不成。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要让母亲长篇自白", "不要写成纯撕扯场面", "不要解释药物原理"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 660,
+      "target_chars_max": 760,
+      "scene_location": "心理顾问诊室",
+      "character_goal": "让专业见证人解释封存记录，判断真相是否与我本人有关",
+      "conflict_action": "把处方和封存同意书拍到桌上，要求心理顾问当场读档",
+      "information_gap": "是谁同意封存，封掉的到底是记忆、身份，还是第三次死亡前的全部自述",
+      "emotion_debt_balance": {
+        "open_debts": ["封存责任", "主角本人与弟弟的关系"],
+        "paid_debts": ["找弟弟实为找被封存的本人方向成立"],
+        "tension_delta": 2
+      },
+      "chapter_end_hook": "你不是在找弟弟，你是在找被你们亲手封掉的本人。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写心理咨询科普", "不要让顾问变成上帝旁白", "不要一次性交代全案"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 740,
+      "target_chars_max": 860,
+      "scene_location": "诊室催眠回放",
+      "character_goal": "主动找回第三次轮回死亡前后的关键记忆",
+      "conflict_action": "接受诱导回放，亲眼看见自己如何被逼回'标准女儿'模板并走向自毁",
+      "information_gap": "前三世到底是灵异索命，还是家人回避真相触发的自毁链",
+      "emotion_debt_balance": {
+        "open_debts": ["每次死亡的真实因果", "我为何不断求救失败"],
+        "paid_debts": ["死亡从灵异错觉翻案为创伤与封口共同导致"],
+        "tension_delta": 3
+      },
+      "chapter_end_hook": "绳套套上的那个人，脸竟然是我自己。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要长篇解释催眠流程", "不要只写哭喊", "不要把前三世都写成摘要"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 700,
+      "target_chars_max": 800,
+      "scene_location": "诊室外休息室",
+      "character_goal": "把'弟弟就是我自己'说出口，并逼父母正面承认",
+      "conflict_action": "当众认领改名草稿与手写自述，逼母亲停止捂嘴遮掩",
+      "information_gap": "父母为何宁可让我死三次，也不肯让我活成真正的自己",
+      "emotion_debt_balance": {
+        "open_debts": ["父母代际创伤来源", "父亲立场是否会松动"],
+        "paid_debts": ["终极身份真相完成认领"],
+        "tension_delta": 3
+      },
+      "chapter_end_hook": "别说出口，说出口你爸会疯。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要用议题名词讲道理", "不要让真相只停在抽象认知", "不要弱化主角主动性"]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "姥爷旧办公室",
+      "character_goal": "翻出姥爷真正的布局，完成对姥爷立场翻案",
+      "conflict_action": "拆开办公室保险盒，读取姥爷第二份文件与录音备忘",
+      "information_gap": "姥爷到底是在逼死全家，还是在逼全家停止杀死真正的我",
+      "emotion_debt_balance": {
+        "open_debts": ["父母是否愿意偿债", "现实补偿如何落地"],
+        "paid_debts": ["姥爷立场翻面为保护者"],
+        "tension_delta": 1
+      },
+      "chapter_end_hook": "让他活下来，比让集团活下来重要。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要把姥爷写成全知解释器", "不要复述集团发展史", "不要用遗言替代现场冲突"]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 690,
+      "target_chars_max": 780,
+      "scene_location": "升学宴后台化妆间",
+      "character_goal": "检验父母的接纳是否真的会落到现实动作",
+      "conflict_action": "面对新身份证、西装和亲友名单，逼父母先做公开预沟通",
+      "information_gap": "父母会不会临场退缩，把接纳继续关在私下房间里",
+      "emotion_debt_balance": {
+        "open_debts": ["公开站台是否兑现"],
+        "paid_debts": ["法律改名、医疗安排、亲友预沟通已开始执行"],
+        "tension_delta": -1
+      },
+      "chapter_end_hook": "今天我先叫你一声，儿子。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成换装流水账", "不要空口道歉", "不要列亲友反应清单"]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 730,
+      "target_chars_max": 840,
+      "scene_location": "升学宴舞台与梦境收尾",
+      "character_goal": "完成社会性公开接纳，并结束轮回",
+      "conflict_action": "父母在台上以真实姓名介绍我，宣布股份和基金由我以新身份接管",
+      "information_gap": "这一次公开承认是否足以终止轮回和姥爷的逼问",
+      "emotion_debt_balance": {
+        "open_debts": [],
+        "paid_debts": ["接纳兑现", "轮回终止", "姥爷告别", "主角新生"],
+        "tension_delta": -3
+      },
+      "chapter_end_hook": "姥爷终于说：这次，你们没再把他弄丢。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写成纯演讲", "不要口号式升华", "不要省略姥爷告别"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 3,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [16, 22],
+    "short_line_rate_lte_16_min": 0.62,
+    "short_line_rate_lte_16_max": 0.75,
+    "direct_dialogue_line_rate_min": 0.38,
+    "direct_dialogue_line_rate_max": 0.5,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.02,
+    "question_mark_density_per_1000_chars_min": 6.0,
+    "question_mark_density_per_1000_chars_max": 10.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  }
+}

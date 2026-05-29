@@ -1,0 +1,48 @@
+{
+  "scene_id": "scene-20",
+  "beat_id": "B20",
+  "target_chars_min": 476,
+  "target_chars_max": 636,
+  "location": "女童医塾、封闭的陆氏药堂外",
+  "time": "三个月后，清晨",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "女医学生",
+    "小病童",
+    "陆衡舟",
+    "温砚清"
+  ],
+  "character_goal": "沈照棠要开启属于自己的女童医塾和新生活。",
+  "opposition_goal": "旧宅、旧情和两名男人都试图成为她人生的落点。",
+  "conflict_action": "沈照棠把阿砚炭笔画挂进医塾，剪断并蒂药囊旧线，带女学生开门看诊；陆衡舟站在封闭药堂外等她，她经过时没有停步，温砚清在码头送来研究院聘书，她只收下公函不收船票。",
+  "information_gap": "无新悬念，余味落在沈照棠自己选择的路。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "女主独立新生",
+      "阿砚被尊重纪念",
+      "男主无法追回",
+      "救命人不再托管她"
+    ],
+    "balance_after": "读者承诺兑现：不原谅、不复合、不二选一。"
+  },
+  "payoff_or_hook": "晨光里，沈照棠带学生开门看诊，完成尊严回收。",
+  "chapter_end_hook": "女童医塾开门那天，沈照棠走进晨光，再也没有回头。",
+  "paywall_card": false,
+  "must_include": [
+    "阿砚炭笔画挂进医塾",
+    "剪断并蒂药囊旧线",
+    "女童医塾开门",
+    "陆衡舟在封闭药堂外",
+    "收公函不收船票",
+    "不回头"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成婚恋归宿。",
+    "不要用为了阿砚原谅陆衡舟。",
+    "不要让温砚清成为奖励式新归宿。"
+  ],
+  "target_chars": 496,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

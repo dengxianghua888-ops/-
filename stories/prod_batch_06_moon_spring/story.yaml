@@ -1,0 +1,188 @@
+schema_version: 1
+pipeline_mode: production
+status: final
+phase: 7
+role: Final Packager
+title:
+  primary: 他封锁药堂救恩人遗孀那夜，我儿子死在雪里
+  alternatives:
+  - 儿子死在铜锁外后，夫君跪求我原谅
+  - 我坠崖三年归来，他才知死去的孩子是唯一血脉
+runner_policy:
+  external_allowed: false
+  filesystem_write_performed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: OpenAI
+  model: GPT-5
+  source:
+  - prompts/production/final-packager.md
+  - story/draft.md
+  - story/review.md
+  - story/diff.md
+  - story/quality-report.json
+  - story/evaluation/platform.json
+  - story/evaluation/emotion.json
+  - story/evaluation/style.json
+  - story/evaluation/logic.json
+  generated_at: 2026-05-11
+  timezone: Asia/Shanghai
+  external_sources_used: false
+quality_gate:
+  source_report: story/quality-report.json
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  machine_metrics:
+    text_path: stories/prod_batch_06_moon_spring/final.md
+    target_length:
+      min: 10000
+      max: 13000
+      actual: 10217
+      status: pass
+    chapters:
+      count: 10
+      hook_hits: 10
+      hook_coverage: 1.0
+      lengths:
+      - 999
+      - 1074
+      - 960
+      - 980
+      - 981
+      - 1051
+      - 984
+      - 994
+      - 1016
+      - 1054
+      status: pass
+    paywall_cards:
+      required: 3
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 93
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 3
+        actual: 3
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 7
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 10
+      status: pass
+    style_metrics:
+      char_count: 10217
+      sentence_count: 600
+      avg_sentence_length: 16.028
+      dialogue_ratio: 0.1936
+      question_marks: 37
+      question_marks_per_k: 3.621
+      physical_emotion_hits:
+        指尖: 5
+        发麻: 1
+        太阳穴: 1
+        喉咙: 1
+        指甲: 5
+        掌心: 13
+      forbidden_hits: {}
+      soft_forbidden_hits: {}
+      action_density_per_k: 29.069
+    semantic_repetition:
+      sentence_count: 452
+      unique_sentence_skeletons: 452
+      max_sentence_repeats: 1
+      max_sentence_repeat_ratio: 0.0022
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+    failures: []
+  critic_scores:
+    platform: 8.8
+    emotion: 9.0
+    style: 8.6
+    logic: 8.2
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 10
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  chaptering_policy:
+    min_chars_per_chapter: 500
+    max_chars_per_chapter: 1200
+    hook_required: true
+  revisions_applied:
+  - 补苏云屏火场反扑前因。
+  - 替换少量重复的“没有……”句式。
+  - 强化陆衡舟公所认罪与废止家规宣告。
+  - 压缩火场操作连续性，保留情绪和证据结果。
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。
+  ending_policy:
+    no_reconciliation: true
+    no_remarriage_to_savior: true
+    male_lead_not_exculpated: true
+    child_death_retained: true
+    copper_lock_motif_retained: true
+submission:
+  platform: tomato
+  genre_tags:
+  - 追妻火葬场
+  - 虐恋
+  - 带娃
+  - 孩子线
+  - 女性成长
+  - 不复合
+  - 复仇清算
+  - 民国架空
+  - 药堂世家
+  - 强情绪债
+  paywall_cards:
+  - ch02_阿砚死在铜锁外
+  - ch04_采药崖假死
+  - ch06_血脉骗局爆开
+  - ch08_商报查档
+  - ch10_最终拒绝两清
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+automation:
+  last_run_id: 20260511112930
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

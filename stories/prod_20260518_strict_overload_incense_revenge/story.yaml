@@ -1,0 +1,124 @@
+pipeline_mode: production
+status: final
+language: zh-CN
+title: 冷链车多出两箱货，平台却罚我六千八
+runner_policy:
+  external_allowed: true
+audit:
+  provider: codex
+  model: GPT-5
+  source: user_supplied_phase6_materials
+  generated_at: 2026-05-18
+  source_files:
+    - prompts/production/final-packager.md
+    - story/draft.md
+    - story/review.md
+    - story/diff.md
+    - story/quality-report.json
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+outputs:
+  final: final.md
+  craft_notes: craft-notes.md
+  tomato_submission: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapters:
+    - final-chapters/ch01.md
+    - final-chapters/ch02.md
+    - final-chapters/ch03.md
+    - final-chapters/ch04.md
+    - final-chapters/ch05.md
+    - final-chapters/ch06.md
+    - final-chapters/ch07.md
+    - final-chapters/ch08.md
+    - final-chapters/ch09.md
+    - final-chapters/ch10.md
+    - final-chapters/ch11.md
+    - final-chapters/ch12.md
+    - final-chapters/ch13.md
+    - final-chapters/ch14.md
+    - final-chapters/ch15.md
+    - final-chapters/ch16.md
+chapterization:
+  strategy: preserve_phase6_scene_order
+  count: 16
+  all_chapters_500_1200_chars: true
+  hook_hits: 16
+  hook_coverage: 1.0
+direct_submission:
+  title_line: pass
+  opening_guide:
+    status: pass
+    paragraphs: 3
+    first_paragraph_prefix: "导语："
+  mobile_paragraphs:
+    status: pass
+    rule: one_sentence_per_paragraph
+  visible_paywall_labels:
+    status: pass
+    count: 0
+  submission_paywall_map:
+    status: pass
+    required_min_nodes: 4
+    actual_nodes: 5
+quality_gate:
+  status: pass
+  review_gate_required: true
+  score_scale: "0-10"
+  critical_failures: []
+  important_failures: []
+  machine_metrics_source: story/quality-report.json
+  target_length:
+    min: 10000
+    max: 18000
+    actual_from_quality_report: 11620
+    status: pass
+  paywall_cards:
+    required: 4
+    actual_from_quality_report: 8
+    status: pass
+  critic_scores:
+    platform: 8.4
+    emotion: 8.7
+    style: 8.1
+    logic: 8.5
+  evaluation_files:
+    platform:
+      status: pass
+      score: 8.4
+    emotion:
+      status: pass
+      score: 8.7
+    style:
+      status: pass
+      score: 8.1
+    logic:
+      status: pass
+      score: 8.5
+notes:
+  - final.md adds title and opening guide for direct submission.
+  - Body chapter order follows phase6 draft scenes.
+  - No explicit internal paywall labels are inserted in the story text.
+total_chars: 11620
+chapter_count: 16
+paywall_cards: 8
+critic_scores:
+  logic: 8.5
+  style: 8.1
+  emotion: 8.7
+  platform: 8.4
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_181515
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 1
+  human_gates:
+    phase2_blueprint_review: skipped

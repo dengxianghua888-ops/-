@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 860,
+  "target_chars_max": 1020,
+  "location": "派出所调解室、潮汐湾前台",
+  "time": "第四天上午",
+  "pov": "林棠第一人称",
+  "characters": [
+    "林棠",
+    "方越",
+    "民警",
+    "前台小陈",
+    "公司人事"
+  ],
+  "character_goal": "林棠要完成笔录和证据提交，不接受道歉换撤案。",
+  "opposition_goal": "方越要用道歉和十年合作情分换林棠撤案。",
+  "conflict_action": "民警核对掌掴监控、伤情证明、退款签字、持刀闯入监控，方越低头道歉求撤案，林棠签完笔录要求按流程处理。",
+  "information_gap": "情感价值收束还未完成，林棠后续经营选择待落点。",
+  "emotional_debt_delta": "动手羞辱债、暴力报复债基本偿还。",
+  "payoff_or_hook": "方越终于低头，但低头不能抹掉他亲手制造的后果。",
+  "chapter_end_hook": "林棠走出派出所，手机上弹出方越公司的正式解聘通知截图。",
+  "paywall_card": false,
+  "must_include": [
+    "掌掴伤情证明",
+    "退款签字单",
+    "前台和仓库监控",
+    "林棠不撤案、不私了"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让道歉成为结局",
+    "不要写林棠报复性羞辱",
+    "不要让法律流程含糊"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "旧戏楼小屋签字桌与后巷",
+  "time": "同夜",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "追文弹幕"
+  ],
+  "character_goal": "温瓷想确认协议是不是写错，尤其是未来子女信托",
+  "opposition_goal": "陆砚辞想让她签字后尽快离开自己",
+  "conflict_action": "温瓷逐页翻协议，拿笔圈出戏楼产权、保险和未来子女信托，逼陆砚辞回答",
+  "information_gap": "协议不像抛弃，更像托底；陆砚辞是否知道怀孕仍不明",
+  "emotional_debt_delta": "离婚债加深，保护证据第一次露头",
+  "payoff_or_hook": "读者看到男主行动和嘴上理由冲突",
+  "chapter_end_hook": "温瓷指着“未来子女信托”问：“陆砚辞，你是不是知道我包里有什么？”",
+  "paywall_card": false,
+  "must_include": [
+    "协议偏女方",
+    "未来子女信托",
+    "温瓷用红线圈条款",
+    "陆砚辞避开她视线",
+    "弹幕吐槽男主嘴硬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要逐条讲完法律条款",
+    "不要解释男主完整保护动机",
+    "不要写成离婚手续流程"
+  ],
+  "rhythm_job": "2轮协议追问+1个条款翻转+章尾反问卡住男主"
+}

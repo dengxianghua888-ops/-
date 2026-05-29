@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 472,
+  "target_chars_max": 632,
+  "location": "陆宅书房、苏云屏院门外",
+  "time": "同夜",
+  "pov": "第三人称近距离，贴陆衡舟",
+  "characters": [
+    "陆衡舟",
+    "苏云屏",
+    "老掌柜",
+    "贴身嬷嬷"
+  ],
+  "character_goal": "陆衡舟要逼苏云屏交出截信和医案真相。",
+  "opposition_goal": "苏云屏要用救命恩情和腹中药脉继承人拖住陆衡舟。",
+  "conflict_action": "苏云屏抱着肚子跪进书房，把旧年救命玉牌摔到陆衡舟脚边，老掌柜同时送来封存医案，陆衡舟拆开后看到早年中毒伤身的记录。",
+  "information_gap": "医案只提示陆氏血脉难续，不直接给出苏云屏孩子非亲生。",
+  "emotional_debt_delta": {
+    "added": [
+      "陆衡舟仍可能被药脉执念拖住"
+    ],
+    "paid": [],
+    "balance_after": "血缘反转前的信息差被压紧。"
+  },
+  "payoff_or_hook": "早年医案把阿砚唯一血脉的可能性推到台前。",
+  "chapter_end_hook": "老医案送到陆衡舟案前，封皮写着：陆氏血脉难续。",
+  "paywall_card": false,
+  "must_include": [
+    "救命玉牌",
+    "苏云屏抱肚跪地",
+    "老掌柜送医案",
+    "陆衡舟拆封",
+    "陆氏血脉难续"
+  ],
+  "must_not_write_as_exposition": [
+    "不要提前揭非亲生。",
+    "不要让苏云屏真情悔过。",
+    "不要把陆衡舟写成完全被蒙骗的无辜者。"
+  ],
+  "target_chars": 492,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

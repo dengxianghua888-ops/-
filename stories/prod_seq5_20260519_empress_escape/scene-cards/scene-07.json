@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "御花园赏花宴",
+  "time": "半月后白日",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "乌兰珠",
+    "妃嫔",
+    "宫人"
+  ],
+  "character_goal": "温照晚想在宴上低调装傻，避免和乌兰珠正面冲突。",
+  "opposition_goal": "乌兰珠想用争宠姿态刺激她，让她更深卷进假孕局。",
+  "conflict_action": "乌兰珠端酒故意撞湿温照晚袖口，萧珩伸手挡酒，温照晚反手给乌兰珠扎针止嗝。",
+  "information_gap": "乌兰珠为何一边挑衅一边把脉门送到温照晚面前。",
+  "emotional_debt_delta": "情敌冲突升级，萧珩护短让温照晚短暂心动。",
+  "payoff_or_hook": "乌兰珠抛出疑似怀孕信号，推进付费卡。",
+  "chapter_end_hook": "乌兰珠当众摸着小腹，笑问皇后怕不怕失宠。",
+  "paywall_card": false,
+  "must_include": [
+    "酒盏冲突",
+    "萧珩替女主挡酒",
+    "女主用针反击",
+    "乌兰珠摸腹挑衅"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写复杂妃嫔斗法",
+    "不要把乌兰珠写成蠢坏",
+    "不要让女主被动挨欺负"
+  ]
+}

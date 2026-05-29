@@ -1,0 +1,97 @@
+pipeline_mode: production
+status: final
+slug: auto_20260518_overload_incense_revenge
+genre: modern_reversal / trucker_overload_smuggle_reversal
+title:
+  primary: 客户用合同坑我超载罚三千二，我开车拉走他一吨沉香报警了
+  alternatives:
+  - 货主咬合同条款扣我五万押金，我按合同字面只卸两吨多出一吨直送林业局
+  - 他笑我女司机就是女司机，我把他一吨沉香送进海关把他自己送进监狱
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: Anthropic
+  model: Claude Sonnet
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluation:
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  phase: 'Phase 7: 投稿包与章节化定稿'
+  role: Final Packager
+final_outputs:
+- final.md
+- craft-notes.md
+- tomato-submission.md
+- final-chapters/_chapters-map.md
+- final-chapters/ch01.md
+- final-chapters/ch02.md
+- final-chapters/ch03.md
+- final-chapters/ch04.md
+- final-chapters/ch05.md
+- final-chapters/ch06.md
+- final-chapters/ch07.md
+- final-chapters/ch08.md
+- final-chapters/ch09.md
+- final-chapters/ch10.md
+- final-chapters/ch11.md
+- story.yaml
+quality_gate:
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.5
+    emotion: 8.3
+    style: 8.2
+    logic: 8.0
+  source_report: story/quality-report.json
+chapters:
+  count: 11
+  min_chars_per_chapter: 500
+  max_chars_per_chapter: 1200
+submission:
+  platform: 番茄
+  tags:
+  - 现代反转
+  - 大女主
+  - 货车司机
+  - 合同字面反杀
+  - 平台封号
+  - 海关走私
+  - 国家二级保护
+  - 司法清算
+  - 不私了
+  - 职业升级
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+automation:
+  last_run_id: 20260518_initial
+  runner: claude
+  provider: claude
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 11
+  revisions_applied:
+  - 软禁词清理 轻轻=0 微微=0 缓缓=0
+  - 移动端段落: 多句对话拆为单句一段 (scene-02/03/04)
+  - draft.md 重建严格等同于 draft-scenes 顺序拼接
+  - final.md 添加导语+引子+小节序号 1-10 作为 A 级切章标记
+  - 11 章 10/11 在 [500,1100] 区间, 末章 585 为补偿尾

@@ -1,0 +1,98 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "target_chars_min": 850,
+  "target_chars_max": 980,
+  "location": "LP年会大厅 → 医院走廊",
+  "time": "LP年会当晚 → 当晚深夜",
+  "pov": "陆衍（第三人称）",
+  "characters": ["苏念", "陆衍", "方怡"],
+  "character_goal": "苏念体面退场不参与后续；陆衍和方怡在因果报应中自毁",
+  "opposition_goal": "方怡追问陆衍在年会的遭遇→争吵→流产",
+  "conflict_action": "苏念说'过去了就是过去了'退场→陆衍回家→方怡追问→争吵→陆衍内心独白暴露'如果没有孩子可以去追苏念'→方怡倒地→流产→清宫签字",
+  "information_gap": "陆衍内心的自私被直接暴露给读者",
+  "emotional_debt_delta": "闺蜜债务开始兑现（流产）；苏念彻底退出这条线",
+  "payoff_or_hook": "清宫同意书——从'有孩子'到'永远不能有'的因果报应",
+  "chapter_end_hook": "护士递来清宫同意书：'先生，您太太需要清宫，请签字'",
+  "paywall_card": true,
+  "must_include": [
+    "苏念'过去了就是过去了'的体面退场",
+    "陆衍内心：'如果没有这个孩子就可以去追苏念'",
+    "方怡追问引发争吵",
+    "方怡倒地流血",
+    "签字时手抖到字迹歪扭",
+    "护士递清宫同意书"
+  ],
+  "must_not_write_as_exposition": [
+    "方怡后续的不孕诊断",
+    "陆衍公司的商业后果",
+    "苏念退场后的去向"
+  ],
+  "rhythm_job": {
+    "shape": "前紧后松——从审判到因果兑现的缓落",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.0,
+    "comma_period_ratio": 0.45,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "因果兑现-复杂",
+    "emotion_arc": "体面退场 → 争吵 → 流产 → 签字",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "对报应感到痛快，对孩子无辜有一丝复杂，但总体是'自己作的'的因果满足",
+    "required_techniques": [
+      {
+        "technique": "女主体面退场让位施害者自毁",
+        "instruction": "'过去了就是过去了'——然后切走，让施害者自己毁掉自己，比'女主报复'更高级"
+      },
+      {
+        "technique": "内心独白暴露丑陋",
+        "instruction": "'如果没有这个孩子，就可以干干净净离开去追苏念'——白纸黑字确认他就是这么自私"
+      },
+      {
+        "technique": "签字细节物理化情绪",
+        "instruction": "'名字签得歪歪扭扭，像个小学生的字'——手抖=害怕/愧疚的物理表现"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "[重复确认]+[放下判断] = 极致体面",
+        "example": "过去了就是过去了，谁对谁错，没必要再掰扯。",
+        "instruction": "不追究=不在乎了——对曾经爱过的人来说比恨更致命"
+      },
+      {
+        "structure": "[情绪A]是对[对象A]的。[情绪B]是对[对象B]的。",
+        "example": "愧疚是对方怡的。恶心是对自己的。",
+        "instruction": "手术刀式的精准剖析——读者看到他终于认清自己"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "突变式——从争吵瞬间转为流血的物理暴力+不可逆后果",
+    "source_excerpt": "苏念站起来，语气平静：\n'过去了就是过去了，谁对谁错，没必要再掰扯。'\n她转身走了。没有回头。\n……\n方怡在家里等他。\n'今天年会怎么了？你脸色这么差？'\n陆衍没回答。\n他心里想的是：如果没有这个孩子，他就可以干干净净地去追苏念。\n……\n方怡倒在地上。血从裙摆下面渗出来。\n护士递来一张纸：\n'先生，您太太需要清宫手术，这是同意书，请签字。'\n他的手在抖。名字签得歪歪扭扭。"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": ["过去了就是过去了"],
+      "句式": "平静收束、不回头",
+      "单句上限": 12,
+      "禁止": "任何攻击性语言"
+    },
+    "陆衍": {
+      "口癖": [],
+      "句式": "沉默为主、内心独白暴露",
+      "单句上限": 18,
+      "禁止": ""
+    },
+    "方怡": {
+      "口癖": ["衍哥"],
+      "句式": "追问→哭泣→尖叫",
+      "单句上限": 15,
+      "禁止": ""
+    }
+  }
+}

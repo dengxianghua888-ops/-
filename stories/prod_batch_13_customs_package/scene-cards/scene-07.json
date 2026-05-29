@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 539,
+  "target_chars_max": 739,
+  "location": "监管仓封存区门口",
+  "time": "傍晚七点",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "赵启明",
+    "值班警员",
+    "仓管",
+    "平台客服"
+  ],
+  "character_goal": "林照坚持当场开箱核验红章单据对应的货物。",
+  "opposition_goal": "赵启明要用退款和保密协议换林照撤案。",
+  "conflict_action": "赵启明把退款协议推到林照手里，要求他签撤案、保密和不追究平台责任三项承诺。",
+  "information_gap": "退款协议为什么来得这么快，赵启明到底在掩盖哪条线。",
+  "emotional_debt_delta": "私了诱惑出现，读者等待主角拒绝低配补偿。",
+  "payoff_or_hook": "林照不签退款协议，要求剪封条开箱。",
+  "chapter_end_hook": "开箱剪刀落下前，赵启明低声说愿意马上退款。",
+  "paywall_card": false,
+  "must_include": [
+    "退款协议",
+    "撤案条款",
+    "保密承诺",
+    "林照把协议翻面留给警员拍照",
+    "开箱剪刀"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林照解释太多法律道理",
+    "不要让退款显得足以解决案件",
+    "不要让赵启明突然温和可信"
+  ]
+}

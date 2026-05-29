@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 720,
+  "target_chars_max": 860,
+  "location": "北方小城康复门诊宿舍门口",
+  "time": "两个月后，初雪夜",
+  "pov": "第一人称女主",
+  "characters": [
+    "林照晚",
+    "许承洲",
+    "门诊同事"
+  ],
+  "character_goal": "林照晚想完成晚班交接，回宿舍休息，不被旧事拉回去",
+  "opposition_goal": "许承洲想用离婚证、药膏和等待证明自己已经改变",
+  "conflict_action": "许承洲在宿舍楼下递出离婚证和药膏，林照晚没有接，只把他带到门诊挂号窗口外",
+  "information_gap": "他离婚后的求复合是否还能成为付费钩子",
+  "emotional_debt_delta": "-2 迟来温柔被女主降级成普通流程",
+  "payoff_or_hook": "第四张付费卡：男主离婚追来求复合，被女主冷处理",
+  "chapter_end_hook": "他拿着离婚证站在雪里，我只问他：你挂号了吗？",
+  "paywall_card": true,
+  "must_include": [
+    "离婚证",
+    "药膏",
+    "雪落在肩上",
+    "门诊挂号窗口",
+    "女主白大褂"
+  ],
+  "must_not_write_as_exposition": [
+    "不要浪漫化等门",
+    "不要写女主动摇",
+    "不要把新生活写成靠男主安排"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "用雪、值班表、同事递钥匙承接",
+    "dialogue_action_comment_ratio": "对白约32%，动作约48%，呼吸点约20%，章尾钩1句"
+  }
+}

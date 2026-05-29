@@ -1,0 +1,68 @@
+{
+  "story_slug": "prod_batch_21_evening_wind",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M5",
+    "M3",
+    "M6"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 14000
+  },
+  "final_length": 10944,
+  "failure_types": [
+    "phase5_scene_length_shortfall",
+    "phase5_total_length_below_minimum",
+    "phase7_mobile_paragraphs_multi_sentence",
+    "phase7_quality_report_metrics_mismatch",
+    "polish_diff_overcorrection_scene04",
+    "scene_pacing_redundant_07_08",
+    "title_promise_under_delivered_premature_telling"
+  ],
+  "successful_hooks": [
+    "玄关灯没开+粉色棉拖鞋+桂花糖焦香三层悬念",
+    "她没有我根本活不了——M3种子句投放",
+    "十一条语音全部存了——证据链静默积累",
+    "订婚宴音频播放后说新婚快乐转身离开",
+    "当初你说她没你活不了现在你该高兴才对——M3金句回旋"
+  ],
+  "paywall_cards": [
+    {
+      "beat_id": "B01",
+      "hook": "撞破厨房暧昧现场，问出什么时候开始的"
+    },
+    {
+      "beat_id": "B04",
+      "hook": "十一条语音全部收藏，读者知道武器已备"
+    },
+    {
+      "beat_id": "B06",
+      "hook": "音频播完全场寂静十五秒，后果未知"
+    }
+  ],
+  "quality_scores": {
+    "platform": 8.5,
+    "emotion": 8.7,
+    "style": 8.3,
+    "logic": 8.4
+  },
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "cousin_betrayal",
+    "audio_evidence",
+    "engagement_party_revenge",
+    "temperature_reversal",
+    "cause_effect_boomerang",
+    "independence_upgrade"
+  ],
+  "manual_revision_delta": [
+    "Phase 5四次迭代调整12个scene到场景卡字符范围，总字数从5354提升至10000。",
+    "Phase 7修复111处多句合段为一句一段格式，修复开篇导语结构。",
+    "Phase 7同步quality-report.json机器指标（chapters.count/hook_coverage/target_length.actual）。",
+    "diff.md三处polish级微调已应用：scene-04蓄谋微表情、scene-08句式优化、scene-12仪式动作。",
+    "复盘后v2优化：scene-02钝刀比喻改钉子敲木板（去AI味）；scene-04嘴角弧度polish回滚为动作化（截图存素材文件夹）；scene-05新增试衣店病态依赖现场~470字（兑现标题承诺）；scene-07删订机票尾段；scene-08重写删登机过场+朋友台词口语化+东京塔比喻替换+谢临渊铺垫；scene-10删M3金句后两句保留单句；scene-12结尾鸡汤句替换为脚步无回声。"
+  ]
+}

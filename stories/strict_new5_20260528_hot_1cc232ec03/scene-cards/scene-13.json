@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 730,
+  "target_chars_max": 790,
+  "location": "顾砚舟新住处门口",
+  "time": "判决后三周，傍晚",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "顾念安",
+    "小区保安"
+  ],
+  "character_goal": "执行探视边界，不把悔意误当修复",
+  "opposition_goal": "顾念安想用道歉和旧作业本换回从前的父女亲密",
+  "conflict_action": "顾念安抱着作业本等在门口，顾砚舟只递出探视时间表和缴费证明复印件",
+  "information_gap": "父女未来仍有长期可能，但此刻不承诺原谅",
+  "emotional_debt_delta": "亲情边界+2：不报复，也不即时接纳",
+  "payoff_or_hook": "不原谅火葬场落到孩子线",
+  "chapter_end_hook": "截断句：顾念安抱着作业本堵在门口，喊我爸爸，我没有开门。",
+  "paywall_card": false,
+  "must_include": [
+    "顾念安抱着旧作业本",
+    "她承认自己说过一百万买断陪诊",
+    "顾砚舟递出法定探视安排",
+    "低压生活动作：门内水壶烧开"
+  ],
+  "must_not_write_as_exposition": [
+    "不要一句被骗就洗白女儿",
+    "不要羞辱未成年人",
+    "不要用病情逼主角心软"
+  ],
+  "rhythm_job": {
+    "shape": "门内门外对白，生活动作降压，探视表建立边界",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "mix": "对白约45%，动作约35%，留白约15%，文件证据约5%；强压词只用一次逼问，后接水壶声和递纸"
+  }
+}

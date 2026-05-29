@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "海外康复中心病房",
+  "time": "事故后数日",
+  "pov": "顾承渊",
+  "characters": [
+    "顾承渊",
+    "沈晚棠",
+    "顾老太太",
+    "医生"
+  ],
+  "character_goal": "顾承渊要把她拉回来，但不能再用强刺激伤她。",
+  "opposition_goal": "沈晚棠的短期失认和医生限制，让他无法像从前那样硬撬她的情绪。",
+  "conflict_action": "她醒来后认不出他，只对零碎动作有反应；他压着情绪陪她做最基础的恢复训练，顾老太太提醒他先做她能信的人，而不是逼她立刻记起一切。",
+  "information_gap": "她会先想起旧伤，还是先想起这些年他护着她的细节？",
+  "emotional_debt_delta": "情感翻面+3，甜虐升温+2",
+  "payoff_or_hook": "男主从强势试探切换成克制守护，温度反转开始兑现。",
+  "chapter_end_hook": "截断句：\"先生，你是谁？\"",
+  "paywall_card": false,
+  "must_include": [
+    "失认只限短期陌生感，不写夸张失智",
+    "男主的克制要落在具体陪护动作上",
+    "顾老太太继续是偏爱与缓冲者"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写康复医学说明",
+    "不要长篇抒情男主有多痛",
+    "不要把失认写成狗血表演"
+  ],
+  "rhythm_job": {
+    "shape": "醒来陌生-动作试探-长辈提醒-一句陌生称呼",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "ratio_note": ""
+  }
+}

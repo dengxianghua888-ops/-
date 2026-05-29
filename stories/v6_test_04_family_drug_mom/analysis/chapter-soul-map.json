@@ -1,0 +1,918 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_line_range": [1, 32],
+      "char_count": 580,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 1.7,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.65,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "悬疑-不安",
+        "emotion_arc": "日常 → 好奇 → 恐惧暗生 → 警觉",
+        "emotion_intensity": 6,
+        "reader_feeling_target": "背脊发凉——'这个帖子不会就是她老公吧？'"
+      },
+      "highlights": {
+        "peak_moment": "帖子高赞评论'每天给丈母娘加点料，医院查不出来'与当晚母亲发病的时间暗合",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "丈夫第一时间建议'让我妈来'——动机暴露",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "帖子里的恶意+现实中的巧合同时砸向读者"
+      },
+      "techniques": [
+        {
+          "technique": "网帖嵌入式叙事",
+          "example": "【怎么才能让丈母娘回老家，让我妈来接班？】楼主回【不行，丈母娘从月子里带到三岁，最苦的三年她扛了...】",
+          "effect": "用社交媒体原生格式制造即时代入感，读者像自己在刷帖一样被拖入"
+        },
+        {
+          "technique": "双线暗合（巧合暗示因果）",
+          "example": "帖子说'加料'→当晚母亲头晕；帖子说'让我妈来'→丈夫立刻建议",
+          "effect": "读者自动完成因果推理，产生'我比女主先知道'的优越感和焦虑感"
+        },
+        {
+          "technique": "冷静旁观反差",
+          "example": "我放下手机，心想怎么有人坏成这样。",
+          "effect": "女主的轻描淡写vs帖子的恶毒，反差制造'她还不知道'的紧迫感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "点赞最高的那条评论写【每天给丈母娘加点'料'。医院查不出来，只会说体质下降。想知道加什么，私聊。】",
+          "structure": "【社交媒体原文引用】+具体恶行细节",
+          "why_it_works": "用平台原生语言写恶意，比叙述更真实，读者像自己刷到一样产生生理不适"
+        },
+        {
+          "text": "我放下手机，心想怎么有人坏成这样。",
+          "structure": "日常化反应+轻描淡写",
+          "why_it_works": "戏剧反讽——读者已知这不是'别人'的故事，女主的无知让人揪心"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "平缓铺垫-暗流涌动",
+      "pacing_note": "靠信息差维持张力——帖子内容vs现实事件的逐步吻合",
+      "chapter_end_hook": {
+        "text": "老公突然开口，'要不……还是让我妈来照顾一阵吧？'",
+        "hook_type": "silent_threat",
+        "hook_technique": "用日常建议包裹阴谋动机，让知情读者感到恐惧",
+        "suspense_mechanism": "激发'他是不是就是那个楼主'的核心悬念"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "source_line_range": [33, 68],
+      "char_count": 620,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.5,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 3.2,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.75,
+        "impact_density": 0.72,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "确认-恐惧",
+        "emotion_arc": "怀疑 → 验证 → 确认 → 恶心感爆发",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "心跳加速——帖子更新时间和丈夫行为完美吻合"
+      },
+      "highlights": {
+        "peak_moment": "帖子在丈夫进卫生间后一分钟更新，时间吻合到分钟级",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "丈夫揽住女主肩膀的亲密动作——在知情后变得极度恶心",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "帖子评论区的实时互动，像直播一样让读者'在场'"
+      },
+      "techniques": [
+        {
+          "technique": "时间戳锁定法",
+          "example": "回复就在一分钟前。我紧紧盯着卫生间，宋松在几分钟前进去后，一直没有动静。",
+          "effect": "用精确时间将匿名帖与丈夫行为焊死，读者获得'铁证'级确认感"
+        },
+        {
+          "technique": "肢体动作反讽",
+          "example": "转身时，宋松顺势揽住我的肩。",
+          "effect": "知情后的亲密触碰=极致恶心感。一个揽肩动作承载全部伪善"
+        },
+        {
+          "technique": "评论区群声制造公愤",
+          "example": "【想让自己亲妈来带娃，就害丈母娘，男人真可怕。】【劝你善良，心疼你老婆三秒。】",
+          "effect": "用群体声音替代旁白评价，读者觉得'大家都觉得不对'=共鸣确认"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "回复就在一分钟前。",
+          "structure": "极短陈述句+时间精确到分钟",
+          "why_it_works": "信息密度极高的一句话，六个字完成'帖子=丈夫'的终极确认"
+        },
+        {
+          "text": "楼主【丈母娘病两天又不会死，用不着你们操心。】",
+          "structure": "【引号原文】+冷血陈述+轻蔑语气词",
+          "why_it_works": "这句话将成为全文回旋金句的弹药——此刻种下，后面引爆"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠帖子内容与现实的逐条对照维持张力，每一条吻合都是一次小爆炸",
+      "chapter_end_hook": {
+        "text": "转身时，宋松顺势揽住我的肩。",
+        "hook_type": "silent_threat",
+        "hook_technique": "用亲密动作收尾，让知情读者感到生理性恶心+紧迫感",
+        "suspense_mechanism": "激发'她还能忍多久？她要怎么办？'"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "source_line_range": [69, 102],
+      "char_count": 580,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.2,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 2.8,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.58,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "无力-绝望",
+        "emotion_arc": "偷听真相 → 一夜未眠 → 努力无效 → 绝望加深",
+        "emotion_intensity": 7,
+        "reader_feeling_target": "替女主着急——她什么都做了但母亲还是在恶化"
+      },
+      "highlights": {
+        "peak_moment": "半夜偷听丈夫给婆婆打电话'妈你再等等'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "女主清空冰箱换锅碗瓢盆仍无法阻止母亲恶化——努力方向错了",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "丈夫半夜的电话内容彻底暴露他的计划"
+      },
+      "techniques": [
+        {
+          "technique": "偷听场景的物理化构建",
+          "example": "我跨出去的腿又收了回来。",
+          "effect": "一个收腿动作替代所有心理描写——读者自己补全'她决定不打草惊蛇'"
+        },
+        {
+          "technique": "无效努力制造绝望",
+          "example": "我清空冰箱，连锅碗瓢盆都买了新的。可我还是想的太天真了。妈的身体非但没好，反而更严重了。",
+          "effect": "具体行动+彻底无效=读者的无力感倍增，为后续发现牙膏真相做铺垫"
+        },
+        {
+          "technique": "门铃催命比喻",
+          "example": "门铃催命似的响起。",
+          "effect": "将日常声音升级为恐怖信号，一句话完成气氛转换"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我跨出去的腿又收了回来。",
+          "structure": "身体动作+未完成状态",
+          "why_it_works": "极简主义叙事——用一个收回的腿表达整个决策过程，信任读者的理解力"
+        },
+        {
+          "text": "可我还是想的太天真了。",
+          "structure": "转折短句+自省",
+          "why_it_works": "独立成段的短句产生停顿效果，暗示更大的打击即将到来"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半用偷听+失眠营造压抑，后半用'门铃催命'突变加速",
+      "chapter_end_hook": {
+        "text": "半个月后，我刚伺候我妈躺下休息，门铃催命似的响起。猫眼一看，是小姑子和婆婆。",
+        "hook_type": "cliff_action",
+        "hook_technique": "用'催命'比喻+敌人到来的即视感，制造即刻危机",
+        "suspense_mechanism": "激发'婆婆来了要干什么？接下来会发生什么冲突？'"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "source_line_range": [103, 148],
+      "char_count": 720,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.8,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 5.5,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.78,
+        "impact_density": 0.88,
+        "sentence_avg_len": 13.2
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-暴怒",
+        "emotion_arc": "被闯入 → 被辱骂 → 母亲被羞辱 → 暴怒反抗",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "替女主窒息——想冲进屏幕打婆婆"
+      },
+      "highlights": {
+        "peak_moment": "婆婆对生病的岳母说'赖在这儿三年，舔着脸吃喝都花我儿子的'",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "母亲扶着墙出来劝和，反被羞辱",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "母亲当了一辈子老师却被粗暴羞辱——尊严践踏最刺痛读者"
+      },
+      "techniques": [
+        {
+          "technique": "入侵式物理描写",
+          "example": "刚将门开了一条缝，婆婆直接撞开门，硬挤进来。她将几包尿素袋往地上一扔，挑剔地在房间绕了一圈后，盘腿坐上沙发。",
+          "effect": "用具体的身体动作（撞门/扔袋/盘腿）替代'态度蛮横'的形容，画面感极强"
+        },
+        {
+          "technique": "回忆闪回建立情绪债务",
+          "example": "当年结婚时，婆婆为了立威，让我跪在全村人面前给她洗脚。更是因为我一句'妈'叫得不够响亮，在我饭里放了一把沙子。",
+          "effect": "用简短回忆快速建立'旧账'，为后续清算埋设情绪弹药"
+        },
+        {
+          "technique": "弱者被伤害的视觉冲击",
+          "example": "我妈扶着墙艰难走出来。'亲家母来了，有什么话坐下说，别伤和气。'婆婆没给好脸，'真好意思，你是这家的谁呀'",
+          "effect": "善良+虚弱的母亲vs蛮横+健康的婆婆，视觉反差直击读者保护欲"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "婆婆面目狰狞，冲过来一脚踹在我小腿上，'有人生没人养的东西。'",
+          "structure": "表情+暴力动作+辱骂短句",
+          "why_it_works": "三重攻击同时落下（表情暴力+肢体暴力+语言暴力），一句话制造最大压迫感"
+        },
+        {
+          "text": "我们家是高知家庭，她拿准了我不会当众翻脸，才肆无忌惮地欺负我。",
+          "structure": "身份标签+被利用的善良+对方的算计",
+          "why_it_works": "一句话解释了为什么女主忍——不是软弱，是被'教养'绑架。读者共情升级"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话密度和物理冲突维持高压，无喘息段落",
+      "chapter_end_hook": {
+        "text": "我气愤冲进厨房，拿了根擀面杖对准她们。",
+        "hook_type": "cliff_action",
+        "hook_technique": "武器出现=暴力升级暗示，读者想看'她打了没'",
+        "suspense_mechanism": "激发'她真的会动手吗？结果会怎样？'"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "source_line_range": [149, 185],
+      "char_count": 620,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.58,
+        "question_mark_density_per_1k": 3.8,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.72,
+        "sentence_avg_len": 16.5
+      },
+      "emotion": {
+        "dominant_emotion": "憋屈-孤立",
+        "emotion_arc": "被围观误解 → 被丈夫和稀泥 → 憋屈到极致",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "比女主还气——'这个男的到底什么时候才完蛋'"
+      },
+      "highlights": {
+        "peak_moment": "邻居小声议论'这女的背地里心肠这么黑'——被冤枉的屈辱",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "丈夫回来后不是为女主撑腰，而是'你跟她计较什么'",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "丈夫的'别生气'——最虚伪的安慰=最深的背刺"
+      },
+      "techniques": [
+        {
+          "technique": "群众演员反转立场",
+          "example": "'这女的平常看着挺有礼貌，背地里心肠这么黑。''两母女真不要脸，说到底还不是为了钱。'",
+          "effect": "旁观者的误解比加害者的攻击更让人绝望——'连外人都不帮我'的孤立感"
+        },
+        {
+          "technique": "软刀子式虚伪",
+          "example": "宋松拍着我的背，给我顺气，'别生气，她就是个农村人，思想顽固，你跟她计较什么呀？'",
+          "effect": "表面安慰实则帮凶——'拍背'这个亲密动作让虚伪更令人作呕"
+        },
+        {
+          "technique": "婆婆的表演型哭嚎",
+          "example": "婆婆往地上噗通一坐，拍着大腿就开始嗷。'没天理呀，儿媳妇要打死婆婆了！'",
+          "effect": "用具体动作（噗通一坐/拍大腿/嗷）暴露表演性质——读者识破但邻居不识破=信息差愤怒"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "宋松拍着我的背，给我顺气，'别生气，她就是个农村人，思想顽固，你跟她计较什么呀？'",
+          "structure": "亲密肢体动作+看似合理的劝慰+实则转移矛盾",
+          "why_it_works": "精准还原了'愚孝丈夫'的经典话术——每个经历过婆媳矛盾的读者都听过类似的话"
+        },
+        {
+          "text": "闻言，我妈咬着唇，气得眼眶通红。",
+          "structure": "短句+身体细节（咬唇+眼眶通红）",
+          "why_it_works": "母亲的忍辱=最刺痛的画面。不哭出来比哭更让读者心疼"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "持续高压无释放",
+      "pacing_note": "靠'误解'和'虚伪'的双重压迫维持，故意不给释放口——为后续爆发蓄力",
+      "chapter_end_hook": {
+        "text": "'你就在家好好照顾你妈和孩子，剩下的我来安排。'",
+        "hook_type": "silent_threat",
+        "hook_technique": "丈夫的'我来安排'在知情读者听来=继续实施计划",
+        "suspense_mechanism": "激发'他还要做什么更过分的事？女主怎么办？'"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "source_line_range": [186, 224],
+      "char_count": 650,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.50,
+        "question_mark_density_per_1k": 4.6,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.82,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "绝望-决断",
+        "emotion_arc": "焦头烂额 → 绝望加深 → 帖子再次确认 → 冷静决断",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "从绝望到'终于，她要动手了'的期待爆发"
+      },
+      "highlights": {
+        "peak_moment": "帖子更新'丈母娘身体快废了，她最近憔悴得像鬼一样'——丈夫在幸灾乐祸",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "丈夫公开表达对妻子精神崩溃的得意",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "'现在最重要的，是找到他给我妈下毒的证据！'——女主转入反击模式"
+      },
+      "techniques": [
+        {
+          "technique": "帖子评论区的群体情绪转化",
+          "example": "评论区彻底炸了。【楼主过分了，一点情分都不念啊，典型白眼狼。】",
+          "effect": "评论区=读者情绪的镜像。群众骂楼主=读者骂丈夫，完成情绪投射"
+        },
+        {
+          "technique": "转折前的至暗时刻",
+          "example": "接二连三的事儿，让我精神差点崩溃。",
+          "effect": "在反击决断前设置'至暗一刻'，让转折更有力度——触底才能反弹"
+        },
+        {
+          "technique": "目标宣言式收尾",
+          "example": "现在最重要的，是找到他给我妈下毒的证据！",
+          "effect": "明确的行动目标=读者获得方向感+期待。从被动挨打转为主动出击"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "他只要否认，单凭一个匿名贴，根本没有任何作用。",
+          "structure": "冷静逻辑判断+否定句",
+          "why_it_works": "展示女主的理性——不是冲动型角色，是计算型。读者信任她能赢"
+        },
+        {
+          "text": "现在最重要的，是找到他给我妈下毒的证据！",
+          "structure": "目标宣言+感叹号",
+          "why_it_works": "从被动到主动的转折点——一句话标志角色弧线的拐点"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前半靠绝望情绪积累压力，后半靠决断释放——但只释放'方向'不释放'结果'",
+      "chapter_end_hook": {
+        "text": "现在最重要的，是找到他给我妈下毒的证据！",
+        "hook_type": "question_bomb",
+        "hook_technique": "用行动宣言收尾，让读者迫切想知道'她怎么找到的'",
+        "suspense_mechanism": "激发'证据是什么？她怎么发现的？下一步计划是什么？'"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "source_line_range": [225, 258],
+      "char_count": 480,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.2,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 5.2,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.80,
+        "impact_density": 0.92,
+        "sentence_avg_len": 12.5
+      },
+      "emotion": {
+        "dominant_emotion": "母性暴怒",
+        "emotion_arc": "震惊 → 心碎 → 暴怒 → 冷决",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "想杀人——碰孩子是绝对红线"
+      },
+      "highlights": {
+        "peak_moment": "女儿被剃光头+婆婆辱骂'小丫头片子整天穿的花里胡哨，想勾引谁呢'",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "对三四岁女孩说'勾引'——将性羞辱施加于幼儿",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "女儿抱着女主哭到吐+光头的视觉冲击"
+      },
+      "techniques": [
+        {
+          "technique": "视觉冲击物象化",
+          "example": "找到女儿时，她抱着我哭到吐。原本漂亮的长发，被剪成了光头。",
+          "effect": "用具体的视觉变化（长发→光头）制造冲击，比任何形容词都有力"
+        },
+        {
+          "technique": "语言暴力的降龄施加",
+          "example": "'小丫头片子整天穿的花里胡哨，想勾引谁呢！小小年纪不学好，跟你妈一样。'",
+          "effect": "对幼儿使用成人化羞辱词汇=突破道德底线。读者的愤怒突破阈值"
+        },
+        {
+          "technique": "冷静若无其事的加害者形象",
+          "example": "清晨，宋松回来，神情一如往常。他动作自然地将早餐放在桌子上，好似没有任何事情发生过。",
+          "effect": "加害者的日常化=最恐怖的形象。'他觉得这很正常'比'他在密谋'更让人害怕"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "找到女儿时，她抱着我哭到吐。原本漂亮的长发，被剪成了光头。",
+          "structure": "寻找过程省略+结果冲击+前后对比",
+          "why_it_works": "省略找的过程直接给结果——叙事效率最大化。'哭到吐'是生理反应级描写"
+        },
+        {
+          "text": "女儿害怕地往我身后躲。",
+          "structure": "短句+孩子视角的恐惧动作",
+          "why_it_works": "孩子的恐惧比大人的愤怒更能击穿读者——保护欲是最原始的情绪"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "前平后炸",
+      "pacing_note": "用丈夫'若无其事'的平静开场，反衬女儿被害的爆炸性冲击",
+      "chapter_end_hook": {
+        "text": "清晨，宋松回来，神情一如往常。他动作自然地将早餐放在桌子上，好似没有任何事情发生过。'给你买了最爱吃的馄饨，趁热吃别凉了。'",
+        "hook_type": "contrast_shock",
+        "hook_technique": "极致反差——女儿被虐后丈夫若无其事地买早餐，虚伪到令人窒息",
+        "suspense_mechanism": "激发'她还能忍？她什么时候爆发？'"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "source_line_range": [259, 310],
+      "char_count": 780,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.2,
+        "comma_period_ratio": 0.55,
+        "question_mark_density_per_1k": 4.8,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.66,
+        "impact_density": 0.78,
+        "sentence_avg_len": 16.0
+      },
+      "emotion": {
+        "dominant_emotion": "冷静-布局",
+        "emotion_arc": "愤怒 → 冷静 → 发现真相 → 设局 → 紧张期待",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "屏住呼吸——'计划开始了，太刺激了'"
+      },
+      "highlights": {
+        "peak_moment": "女主用错母亲牙膏后出现同样症状——真相确认",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "丈夫接到电话时'声音兴奋，但很快又恢复平静'——伪装被捕捉",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "女主攥紧'料'瓶+偷听到'没有妈调教不好的人'"
+      },
+      "techniques": [
+        {
+          "technique": "生理反应确认法",
+          "example": "突然双腿一软倒在地上。一瞬间，全身力气好似都被抽干了。心跳加速，全身止不住地冒冷汗。",
+          "effect": "用女主亲身体验替代实验室检验——最有说服力的'铁证'，读者跟着身体反应确认"
+        },
+        {
+          "technique": "兴奋泄露的微表情",
+          "example": "'真的？'宋松声音兴奋，但很快又恢复平静",
+          "effect": "一个没控制住的语调变化=人性泄漏。比'他很高兴'的直述有100倍冲击力"
+        },
+        {
+          "technique": "请君入瓮的假装犹豫",
+          "example": "我故意犹豫了几秒，'哎，只能先这样了。'",
+          "effect": "读者知道这是演戏，产生'猎人等猎物上套'的共谋快感"
+        },
+        {
+          "technique": "偷听收尾加压",
+          "example": "'过不了两天，我保证把她收拾得服服帖帖，对我言听计从。'我胸口剧烈起伏，攥紧了手中的'料'瓶。",
+          "effect": "婆婆的狂言+女主攥紧武器=双线对撞。张力拉满的物理化收尾"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "终于意识到，我妈的问题到底出在哪里。",
+          "structure": "终于+核心谜题解答（不说答案）",
+          "why_it_works": "故意不在这句话里说出'牙膏'——让读者自己回忆前文线索。参与感=爽感"
+        },
+        {
+          "text": "既然宋松这么想她妈过来，那就让他如愿以偿。",
+          "structure": "因果逻辑反讽+冷静语气",
+          "why_it_works": "M3因果回旋的宣言句——用对方的愿望作为反击的入口。读者听到这句就知道好戏来了"
+        },
+        {
+          "text": "我胸口剧烈起伏，攥紧了手中的'料'瓶。",
+          "structure": "生理反应+握紧武器",
+          "why_it_works": "全文最具张力的收章句——身体的激动+武器的在手=下一章必然爆发"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "前半靠真相发现释放悬念，后半靠布局展开制造新期待",
+      "chapter_end_hook": {
+        "text": "我胸口剧烈起伏，攥紧了手中的'料'瓶。",
+        "hook_type": "cliff_action",
+        "hook_technique": "武器在手+身体激动=即将动手的强烈暗示",
+        "suspense_mechanism": "激发'她什么时候用？怎么用？给谁用？'"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "source_line_range": [311, 378],
+      "char_count": 880,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 4.2,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.80,
+        "sentence_avg_len": 14.2
+      },
+      "emotion": {
+        "dominant_emotion": "隐忍-暗爽",
+        "emotion_arc": "被压迫 → 忍耐 → 心理战反击 → 小胜初尝",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "又气又爽——'婆婆终于尝到怕的滋味了'"
+      },
+      "highlights": {
+        "peak_moment": "女主半夜在婆婆床头切菜，婆婆吓得尿失禁",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "菜刀砍在床头柜上——不伤人但摧毁心理防线",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "一股难闻的黄色液体从她的裤子里漏了出来——婆婆的尊严碎裂"
+      },
+      "techniques": [
+        {
+          "technique": "梦游伪装的心理战",
+          "example": "直到凌晨婆婆睡熟了，我从厨房里摸出一把菜刀，来到她床头开始切菜。",
+          "effect": "荒诞的场景（床头切菜）制造强烈不适感+黑色幽默。读者既紧张又想笑"
+        },
+        {
+          "technique": "生理性羞辱的精确描写",
+          "example": "一股难闻的黄色液体从她的裤子里漏了出来。",
+          "effect": "用最具体的生理细节（尿失禁）替代'她很害怕'——让婆婆的恐惧可视、可触、可闻"
+        },
+        {
+          "technique": "目光空洞的恐怖感",
+          "example": "我转身，目光空洞地盯着她看了三秒。手起刀落，'嘭'的一声砍在床头柜上。",
+          "effect": "空洞目光+精准动作=不可预测的恐怖。读者也不确定女主是装的还是真的"
+        },
+        {
+          "technique": "递进式骚扰的日常化",
+          "example": "一整天的时间，我电话铃声就没停过。不是婆婆打来问遥控器在什么地方，就是问天然气怎么打不开……",
+          "effect": "用琐碎的日常骚扰替代大冲突——更真实，也更让读者烦躁共情"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "手起刀落，'嘭'的一声砍在床头柜上。婆婆声音戛然而止，吓得面容失色。",
+          "structure": "四字短语+拟声词+对方反应",
+          "why_it_works": "武侠式的四字短语（手起刀落）用在家庭场景里=荒诞感+力量感。戛然而止=声音的物理切断"
+        },
+        {
+          "text": "接连一个星期，我装作梦游，半夜在婆婆身边晃荡。没几天，婆婆就病了。",
+          "structure": "时间跨度压缩+因果直连",
+          "why_it_works": "用两句话压缩一周的心理战=叙事效率极高。'没几天就病了'的轻描淡写=冷幽默"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "日间被骚扰（压迫）→夜间反击（释放）的周期循环，节奏像猫戏老鼠",
+      "chapter_end_hook": {
+        "text": "接连一个星期，我装作梦游，半夜在婆婆身边晃荡。没几天，婆婆就病了。",
+        "hook_type": "power_reversal",
+        "hook_technique": "用轻描淡写的语气报告战果——低调的胜利比高调更让人爽",
+        "suspense_mechanism": "激发'婆婆会怎样？女主的终极计划是什么？'"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "source_line_range": [379, 415],
+      "char_count": 560,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 0.52,
+        "question_mark_density_per_1k": 5.8,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.70,
+        "sentence_avg_len": 15.5
+      },
+      "emotion": {
+        "dominant_emotion": "蔑视-厌烦",
+        "emotion_arc": "日常压迫 → 衣柜侵犯 → 蔑视反击 → 婆婆假摔",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "不耐烦——'什么时候搞大的？小打小闹够了'"
+      },
+      "highlights": {
+        "peak_moment": "婆婆送走女主所有衣服逼穿旧衣+当着女儿面说'勾引男人'",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "女儿问'妈妈，勾引是什么意思'——孩子被污染",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "女主冷笑两声带女儿走——蔑视姿态的小爽"
+      },
+      "techniques": [
+        {
+          "technique": "物象侵犯（衣柜=边界）",
+          "example": "打开一看，一股土腥味涌出来，里面全是农村老式的花布衬衫。一些白色衬衫僵化发黄，还沾着霉点子。",
+          "effect": "用嗅觉（土腥味）+视觉（霉点）的感官描写具体化'入侵'——比抽象的'越界'有力100倍"
+        },
+        {
+          "technique": "童言反照恶行",
+          "example": "女儿抬起头，一脸懵懂：'妈妈，勾引是什么意思。'",
+          "effect": "用孩子的天真反照成人的龌龊——读者的愤怒因为孩子的无辜而翻倍"
+        },
+        {
+          "technique": "假摔碰瓷的戏剧呈现",
+          "example": "话音刚落，婆婆捂着心脏直挺挺地躺在了地上。'哎呦，难受死我了。'她的表演太浮夸。",
+          "effect": "明确标注'太浮夸'=让读者和女主同站一个视角——共同蔑视"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我冷笑了两声，带着女儿下楼散步去了。",
+          "structure": "冷笑+无视+日常动作",
+          "why_it_works": "最有力的反击是不反击——'不配让我生气'的蔑视比愤怒更解气"
+        },
+        {
+          "text": "她的表演太浮夸。",
+          "structure": "极短判断句",
+          "why_it_works": "五个字的独立段落=最大停顿效果。叙述者和读者共同的'切'表情"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "匀速中压",
+      "pacing_note": "在两个大高潮之间的过渡章——维持压迫但不给释放，为下一章总攻蓄力",
+      "chapter_end_hook": {
+        "text": "几分钟后，我接到老公电话，'张倩，我正开会呢，我妈打电话说心脏疼，你却把她一个人丢家里了？'我直接挂了电话，和女儿继续逛街。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "丈夫的指责vs女主的无视=主动权已经转移",
+        "suspense_mechanism": "激发'她已经不在乎了，大动作一定快来了'"
+      }
+    },
+    {
+      "chapter_id": 11,
+      "source_line_range": [416, 510],
+      "char_count": 1350,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 13.0,
+        "comma_period_ratio": 0.38,
+        "question_mark_density_per_1k": 6.5,
+        "direct_dialogue_rate": 0.52,
+        "short_line_rate_lte16": 0.82,
+        "impact_density": 0.95,
+        "sentence_avg_len": 12.2
+      },
+      "emotion": {
+        "dominant_emotion": "爆发-碾压",
+        "emotion_arc": "混乱 → 暴怒 → 灌粉 → 对质 → 逻辑碾压 → 面粉反转 → 离婚宣言",
+        "emotion_intensity": 10,
+        "reader_feeling_target": "肾上腺素飙升——'太爽了太爽了太爽了'"
+      },
+      "highlights": {
+        "peak_moment": "女主说'你给我妈吃了什么，我就给你妈吃了什么'——因果回旋正式执行",
+        "peak_type": "cold_revenge",
+        "emotional_bomb": "面粉真相揭晓——'那你报警，看给人硬吃点生面粉，能给我判几年'",
+        "bomb_detonation_technique": "反转式",
+        "reader_hook_point": "回旋金句'有什么好哭的，病两天又不会死'的精准引爆"
+      },
+      "techniques": [
+        {
+          "technique": "灌入式物理反击",
+          "example": "我冲进房间，拿出一罐白色粉末，一把将婆婆摁在地上，掰开她的嘴全部倒了进去。婆婆拼命挣扎，我捂着她的嘴不让吐出来。",
+          "effect": "极度物理化的反击动作——摁/掰/倒/捂——每个动词都有肌肉感，读者'代入施力者'的快感"
+        },
+        {
+          "technique": "金句回旋精确执行",
+          "example": "我看在眼里，却没有半分怜悯：'有什么好哭的，病两天又不会死。'",
+          "effect": "帖子里丈夫的原话被一字不差地还回去——M3机制的终极兑现，读者等了全文的这一刻"
+        },
+        {
+          "technique": "面粉反转的双层爽",
+          "example": "'那你报警，看给人硬吃点生面粉，能给我判几年。'宋松一愣，'你说什么？面粉？'",
+          "effect": "第一层爽（灌粉=以牙还牙）+第二层爽（面粉=女主比所有人都聪明）。双重高潮"
+        },
+        {
+          "technique": "证据链瞬间碾压",
+          "example": "不料口袋里的新手机掉了出来。他慌乱地捡起来，被我一把夺过。我打开手机，发现了他在论坛发的帖子。",
+          "effect": "物理证据的意外出现——不是精心设计而是'掉出来'=真实感。丈夫的慌乱=读者的爽感"
+        },
+        {
+          "technique": "底线宣言的力量",
+          "example": "'我不是任你拿捏的软柿子，我妈更不是你可以随意糟践的人。'",
+          "effect": "全文情绪的总结性宣言——为每个曾被欺负的读者代言。简洁有力不煽情"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你给我妈吃了什么，我就给你妈吃了什么，不是你说的吗？反正又不会死。",
+          "structure": "镜像句式（你给X什么我给Y什么）+引用对方原话+轻描淡写收尾",
+          "why_it_works": "M3因果回旋的核心执行句——完美的镜像结构让因果正义可视化。'反正又不会死'是全文高光"
+        },
+        {
+          "text": "有什么好哭的，病两天又不会死。",
+          "structure": "反问+对方原话原句回敬",
+          "why_it_works": "帖子里丈夫冷血的那句话被女主用同样冷静的语气还回去——全文最爽的一秒"
+        },
+        {
+          "text": "那你报警，看给人硬吃点生面粉，能给我判几年。",
+          "structure": "挑战句式+真相揭晓+反问",
+          "why_it_works": "死环的变体——丈夫报警则暴露自己，不报警则无法追究。逻辑碾压"
+        },
+        {
+          "text": "我不是任你拿捏的软柿子，我妈更不是你可以随意糟践的人。",
+          "structure": "否定句+递进（我→我妈）",
+          "why_it_works": "简洁的底线宣言——'我'和'我妈'的并列让保护关系可视化"
+        },
+        {
+          "text": "宋松，我们离婚吧。",
+          "structure": "称呼+终极宣判，≤10字",
+          "why_it_works": "全文最安静的一句话=最有力的一句话。暴风后的平静"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压→爆发→平静",
+      "pacing_note": "靠对话密度+动作密度维持极高节奏，每句话都是信息炸弹",
+      "chapter_end_hook": {
+        "text": "宋松，我们离婚吧。",
+        "hook_type": "death_declaration",
+        "hook_technique": "用最平静的语气宣布最终极的决定——反差力量",
+        "suspense_mechanism": "激发'他会同意吗？婆婆怎么反应？还有什么后续？'"
+      }
+    },
+    {
+      "chapter_id": 12,
+      "source_line_range": [511, 570],
+      "char_count": 850,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 14.0,
+        "comma_period_ratio": 0.45,
+        "question_mark_density_per_1k": 5.0,
+        "direct_dialogue_rate": 0.48,
+        "short_line_rate_lte16": 0.75,
+        "impact_density": 0.88,
+        "sentence_avg_len": 13.5
+      },
+      "emotion": {
+        "dominant_emotion": "崩塌-震撼",
+        "emotion_arc": "婆婆逼迫 → 母子互撕 → 丈夫跳楼 → 震撼",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "倒吸一口气——'他居然跳了？！活该但也震惊'"
+      },
+      "highlights": {
+        "peak_moment": "宋松毫不犹豫地从阳台跳下去",
+        "peak_type": "physical_violence",
+        "emotional_bomb": "婆婆逼到最后反噬自己的儿子——加害者内部互相撕裂",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "女儿一句'爸爸和奶奶欺负妈妈，坏'→婆婆要打女儿→被女主踹膝盖"
+      },
+      "techniques": [
+        {
+          "technique": "母子互噬的连锁反应",
+          "example": "婆婆揪住宋松衣领，'听好了，你今天要不同意离婚，妈就从这楼上跳下去。'...蓦地，他突然起身，毫不犹豫地从阳台跳了下去。",
+          "effect": "婆婆以跳楼威胁→儿子代替执行——加害者联盟内部的互相毁灭=最讽刺的因果"
+        },
+        {
+          "technique": "幼儿金句的杀伤力",
+          "example": "女儿哼了一声，小小年纪出乎意料的成熟，'爸爸和奶奶欺负妈妈，坏。'",
+          "effect": "孩子用最简单的词做出最清晰的道德判断——比大人的控诉有力10倍"
+        },
+        {
+          "technique": "一脚踹膝的精确还债",
+          "example": "我一脚踹在她膝盖上。'咚——'一声巨响。婆婆双膝砸上地板，疼得目眦欲裂。",
+          "effect": "对应Beat4婆婆踹女主小腿——M3镜像还击的物理版本。'双膝砸地'=跪的变体"
+        },
+        {
+          "technique": "突然跳楼的叙事节奏",
+          "example": "蓦地，他突然起身，毫不犹豫地从阳台跳了下去。",
+          "effect": "零铺垫的极端行为——和前面的跪求形成断崖式反差。读者来不及反应=震撼感最大化"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "爸爸和奶奶欺负妈妈，坏。",
+          "structure": "孩子语法（主语+谓语+判断词）",
+          "why_it_works": "用幼儿的语法结构做道德审判——简单到无法反驳。童言=最高法庭"
+        },
+        {
+          "text": "我说过你要再敢碰我女儿一下，我不会放过你……我说到做到。",
+          "structure": "引用自己前言+兑现宣言",
+          "why_it_works": "自我回旋——引用自己之前的话并立刻兑现。'说到做到'=人设封顶"
+        },
+        {
+          "text": "蓦地，他突然起身，毫不犹豫地从阳台跳了下去。",
+          "structure": "时间副词+突变动作+零犹豫",
+          "why_it_works": "用一句话完成最极端的事件——叙事效率到极致。'毫不犹豫'暗示他早有预感"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压→突变",
+      "pacing_note": "靠家庭内部对话冲突维持高压，丈夫跳楼是突变式收尾",
+      "chapter_end_hook": {
+        "text": "送医院后，虽然命保住了，但却落下了终身残疾，后半辈子只能坐在轮椅上。",
+        "hook_type": "revelation_half",
+        "hook_technique": "给出后果但不给出后续——读者想知道'离婚了吗？结局是什么？'",
+        "suspense_mechanism": "激发'她会原谅吗？最后怎么收场？'"
+      }
+    },
+    {
+      "chapter_id": 13,
+      "source_line_range": [571, 618],
+      "char_count": 650,
+      "auto_split": false,
+      "metrics": {
+        "avg_line_chars": 16.5,
+        "comma_period_ratio": 0.60,
+        "question_mark_density_per_1k": 2.5,
+        "direct_dialogue_rate": 0.30,
+        "short_line_rate_lte16": 0.58,
+        "impact_density": 0.65,
+        "sentence_avg_len": 18.0
+      },
+      "emotion": {
+        "dominant_emotion": "释放-满足",
+        "emotion_arc": "婆婆跪求 → 离婚完成 → 因果循环 → 平静收束",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "长舒一口气——'太解气了，活该，她值得好结局'"
+      },
+      "highlights": {
+        "peak_moment": "婆婆扑通跪下——权力关系彻底反转",
+        "peak_type": "power_shift",
+        "emotional_bomb": "丈夫再婚后被搬进猪圈+婆婆捡垃圾——完美的因果循环",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "'她最后跪的是她自己'——全文M3的终极闭环"
+      },
+      "techniques": [
+        {
+          "technique": "跪姿的镜像回收",
+          "example": "婆婆突然过来拉住我的手，扑通一声跪在地上。'小倩，千错万错，都是妈的错。'",
+          "effect": "Beat4婆婆逼女主跪→Beat13婆婆自己跪——M3因果回旋的物理化兑现。等了全文的伏笔回收"
+        },
+        {
+          "technique": "因果循环结局的冷静叙述",
+          "example": "婚后没几个月，婆婆被赶出家门，在村口捡垃圾维生。女人嫌宋松是瘫痪，经常打骂不说，最后更是将他搬进猪圈。",
+          "effect": "用旁白口吻冷静叙述命运清算——不评价、不幸灾乐祸=高级感。读者自己补全情绪"
+        },
+        {
+          "technique": "情感距离的升华",
+          "example": "我却像是听了一个陌生人的故事。",
+          "effect": "一句话完成女主的情感升华——从仇恨到无感=彻底放下。读者被这种平静感染"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我却像是听了一个陌生人的故事。",
+          "structure": "转折+比喻（陌生人=彻底脱离）",
+          "why_it_works": "最高级的放下不是原谅，是'与我无关'。一句话标志情感完全解脱"
+        },
+        {
+          "text": "相爱多年的男人，终于以最狼狈的方式，退出了我的生活。",
+          "structure": "时间跨度词+反差（相爱vs狼狈）+终结",
+          "why_it_works": "用'相爱多年'唤起最后一丝温度感，再用'最狼狈'彻底碾碎——温度反转的终极收束"
+        },
+        {
+          "text": "爱从来不是算计的理由，只有真心的人才能被善待。",
+          "structure": "否定句+肯定句的对仗",
+          "why_it_works": "全文唯一一句'金句'式总结——放在最后=留给读者带走的核心信息"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "前紧后松",
+      "pacing_note": "前半靠跪求场景维持情绪，后半用快速叙述完成因果清算——收尾利落不拖泥带水",
+      "chapter_end_hook": {
+        "text": "爱从来不是算计的理由，只有真心的人才能被善待。",
+        "hook_type": "revelation_half",
+        "hook_technique": "用金句收束全文——不是悬念钩子而是情绪锚点",
+        "suspense_mechanism": "全文已闭环，此句激发的是'分享欲'而非'继续读欲'"
+      }
+    }
+  ],
+  "global_soul_signature": "用网帖实时更新的悬疑装置驱动节奏，用因果回旋金句（'病两天又不会死'）贯穿全文的正义闭环，用面粉替代药粉的底线反转让女主既爽且正——本文的内核是'让加害者的逻辑成为自己的绞刑架'"
+}

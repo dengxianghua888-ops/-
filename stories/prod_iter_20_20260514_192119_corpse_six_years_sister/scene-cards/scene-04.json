@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B4",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "家族墓园保管箱前·铁盒打开瞬间",
+  "time": "同日下午一点四十",
+  "pov": "萧承时·第一人称",
+  "characters": ["萧承时", "保管箱钥匙管理员（一句台词）"],
+  "character_goal": "取出六年前姐姐亲手电子签的《受益人确认书》PDF原件并多处异地备份",
+  "opposition_goal": "客观环境（保管箱七日机制）只允许他一次进入",
+  "conflict_action": "他出示族人身份+主祭密码→开铁盒→取出U盘+纸质打印件→在保管室内用四部手机同步上传到三个独立邮箱+一个云盘+原U盘三处镜像→盖回铁盒、签收、退出",
+  "information_gap": "读者第一次嗅到反转——M1物证已三处异地备份，姐姐再无法毁证",
+  "emotional_debt_delta": "+4 持平，但心理逆转开始",
+  "payoff_or_hook": "保管箱铁盖合上的咔哒声，等同他六年第一次自己上锁",
+  "chapter_end_hook": "我把那份PDF同时存进了三个邮箱、一只U盘、一个保管箱。",
+  "paywall_card": false,
+  "must_include": ["电子签PDF的版本号或时间戳", "三个邮箱前缀以.* 形式遮挡", "保管箱铁盒的物理重量感", "'冷到骨头缝里的清醒'原句"],
+  "must_not_write_as_exposition": ["主角心声剧透下一步", "贵人显灵帮忙", "向天发誓式金句", "把电子签法律效力做长篇科普"]
+}

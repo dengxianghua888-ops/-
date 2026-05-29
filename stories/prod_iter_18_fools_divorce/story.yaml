@@ -1,0 +1,18 @@
+slug: prod_iter_18_fools_divorce
+title: 纪念日他陪白月光，我让他净身出户
+pipeline_mode: production
+status: final
+current_phase: 8
+genre: family_ethics
+target_platform: tomato
+source:
+  corpus_slug: fools_day_indulgence
+  source_file: corpus/fools_day_indulgence/source.md
+runner_policy:
+  external_allowed: false
+  provider: manual_iterative_rewrite
+  model: gpt-5.5
+quality_gate:
+  gate_status: pass
+  pipeline_mode: production
+  source_report: story/quality-report.json

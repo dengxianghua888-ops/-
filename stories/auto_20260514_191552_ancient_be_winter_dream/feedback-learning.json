@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260514_191552_ancient_be_winter_dream",
+  "run_id": "20260514_191625",
+  "evaluated_at": "2026-05-15",
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 9.1,
+    "style": 8.8,
+    "logic": 8.9
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    "H3 双钩开局:'第九次堕了我的孩子'+'当着满府仆从的面将我生生阉了',首章钩子分≥9",
+    "M5 吻额温度反转:漱玉吻眉心说'夫君真是体己',第一次寒意峰值",
+    "玉笄反握刺心金句:'何须刺血,我把命还给你们便是',谷底+视角切换二合一",
+    "萧迟铜镜自白:'全靠这套伪作我才阉了你',M8 终极信息差释放峰值",
+    "结尾道德模糊:'变着花样地作威作福',保留 BE 补偿尾的不升华姿态"
+  ],
+  "manual_revision_delta": [
+    "init: 14 章 ch04(438)/ch09(499) 双低于 500;manual --max=1100 --hard-max=1200 后压缩为 11 章全 500-1200",
+    "init: 20 处 mobile_paragraphs 双句以上;手工拆为单句 + 替换 ' 。/！' 为破折号或换行",
+    "init: 缺 opening_guide;插入 3 段导语 + '## 引子' 标题终止 guide 区域",
+    "init: tomato-submission.md 缺付费节点地图;补 4 节点表",
+    "init: quality-report.json schema_version=null;升级到 v2 + 同步 machine_metrics + critic_scores"
+  ],
+  "reusable_patterns": [
+    "古言 BE 替换链:国师卜骨↔系统/玉佩声机簧↔声纹合成器/京畿三十六行行会传影↔网络直播/命脉司鼎↔心电监护仪/鬼参液↔致敏药剂",
+    "U 型曲线 + 灵魂线 + BE 补偿尾,17-Beat 全无空 Beat",
+    "破句一刀式句法(11-14 字均长)+ 器官隐喻密集 + 古言遗痕,可在其他 ancient_BE 篇目复用",
+    "导语 3 段 + '## 引子' 终止符,既满足 opening_guide,又不破坏 splitter A 级数字切点"
+  ],
+  "avoidance_notes": [
+    "禁直白说'被骗''反抗',让动作与道具自承(玉笄/卜骨/承血盘)",
+    "禁现代金融/法律/医学词,严守古言遗痕替换链",
+    "禁血腥具象解剖,用器物代偿(锦褥染暗红/小漆匣/承血盘)",
+    "splitter --max 设过低(900)会触发 A 级数字切点之间的短章问题,建议 --max=1100 --hard-max=1200 用于 10K+ 短篇",
+    "对话内多句拼接需在生成阶段就拆为单句段落,避免事后 mobile_paragraphs 失败"
+  ]
+}

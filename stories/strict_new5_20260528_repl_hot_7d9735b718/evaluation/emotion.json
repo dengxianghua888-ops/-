@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "item": "debt_accumulation",
+      "evidence": "柔顺剂备注、一万元洗护卡、女儿校门口错过、十二万康复押金、陪读房租赁合同逐层累积。",
+      "assessment": "忠诚债、金钱债、父职债、劳动债均有现场化物证。"
+    },
+    {
+      "item": "debt_payoff",
+      "evidence": "法院判决财产分割、沈母护理责任由沈泊舟承担、念念丢掉旧校服。",
+      "assessment": "法律偿还和情绪偿还均落地。"
+    },
+    {
+      "item": "counter_expectation_reaction",
+      "evidence": "林栀逼宫时，女主没有崩溃而是“我笑了一声”；林栀得知十二万去向后“忽然笑了”。",
+      "assessment": "存在至少一处与读者预期相反的情绪反应。"
+    },
+    {
+      "item": "ending_emotion",
+      "evidence": "“妈妈，我们不要那股味道了。”",
+      "assessment": "以孩子主动选择完成母女共同切割，情绪收束有效。"
+    }
+  ]
+}

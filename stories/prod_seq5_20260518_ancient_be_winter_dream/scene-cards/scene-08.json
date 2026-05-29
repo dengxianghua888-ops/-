@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 700,
+  "target_chars_max": 880,
+  "location": "抢救舱上空与遗体旁",
+  "time": "死亡后一分钟",
+  "pov": "第一人称灵魂视角，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "沈澜星",
+    "纪明棠",
+    "抢救舱医生"
+  ],
+  "character_goal": "纪寒舟确认自己已经离体，不再被旧世界触碰。",
+  "opposition_goal": "沈澜星想抱住遗体补救，纪明棠仍要封存事故档案。",
+  "conflict_action": "纪寒舟意识上浮，沈澜星跪地按住遗体心口，纪明棠冲进来命令医生改事故等级。",
+  "information_gap": "纪明棠不知道纪寒舟正冷眼看她死后仍选遮掩。",
+  "emotional_debt_delta": "灵魂线开启，悔悟与冷感并置。",
+  "payoff_or_hook": "付费卡点：死亡后视角突变，主角看见自己的遗体和妻姐反应。",
+  "chapter_end_hook": "他从抢救舱上方睁开眼，看见沈澜星跪在自己的遗体前。",
+  "paywall_card": true,
+  "must_include": [
+    "纪寒舟看见自己的遗体",
+    "沈澜星跪地抱尸",
+    "纪明棠要求改事故等级",
+    "纪寒舟没有触碰现实的能力"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成AI备份",
+    "不要让灵魂开口劝人",
+    "不要让主角心疼沈澜星"
+  ]
+}

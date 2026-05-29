@@ -1,0 +1,374 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 12000,
+    "max": 15000,
+    "planned_total_chars": 13200
+  },
+  "title": "涨租逼我撤仓，老市场断供了",
+  "genre": "现代商业经营反转 / 农批冷链压迫爽文 / 家庭资源联动",
+  "mechanisms": [
+    "M3 因果回旋反讽：马成用涨租、断电、锁月台逼许知夏走，许知夏按规则撤仓，老市场失去餐饮采购流、冷链配送流和团购流。",
+    "M6 多层递进反转：涨租撤仓、全家撤链、新港开仓、老市场断供、马成贪腐曝光、赵总求回失败、顾怀民幕后曝光、女主股东身份亮牌。",
+    "M2 身份反差爆发：被当成切菜档小老板的许知夏，实际掌握餐饮老板群、社区团购复购、冷链履约协同和新冷链港股权。",
+    "M1 证据死环：马成若称冷库费、月台费、保证金合法，就必须拿出对公凭证；拿不出即坐实私收和侵占。"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 850,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "“行，明天撤仓。顺便，我妈的海鲜档、顾砚的冷链车队、我弟的团购仓，也一起走。”"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 850,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "温控报警红灯跳出来时，马成站在门口笑：“现在知道谁管电了？”"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 900,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "我妈把海鲜档灯牌摘下来，冷声说：“老客户，我带走。”"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 900,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "顾砚看着我，只问一句：“车队今晚全部改线，你点头吗？”"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 850,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "许阳按下小程序弹窗，东区三千个团购订单同时跳到新港自提点。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 900,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "白蔓的发布会刚开场，第一排酒楼老板已经起身走了。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 900,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "月台被锁，我把整排冷柜停在通道口：“那就让它们在这里等检查。”"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 900,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "我把手写账单照片推到他面前：“对公凭证呢？”"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 850,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "冷链港大屏亮起那一刻，老市场东区第一次在清晨六点黑了灯。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 900,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "白蔓盯着二百八十元的日销表，脸上的直播滤镜终于碎了。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 900,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "赵总把合同递回来，声音软了：“许老板，条件你开。”"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 850,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "顾砚低声说：“让我爸插手的人，是我没拦住。”"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 900,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "顾怀民坐在主位上，第一句话就是：“一个卖菜档，配不上顾家。”"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 900,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "我把联合运营协议翻到签名页：“顾董，现在我是这里的规则制定者。”"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 900,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "老市场的招租横幅挂了三个月，我的新仓凌晨三点还在排车。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "老农批市场东区净菜加工档",
+      "character_goal": "许知夏在涨租羞辱中稳住场面，并当场宣布撤仓。",
+      "conflict_action": "马成把涨租40%的新合同拍到切菜台上，用网红预制菜品牌压她腾位置。",
+      "information_gap": "马成不知道许知夏掌握东区真正的采购流，也不知道全家业态已经能同步转移。",
+      "emotion_debt_balance": {
+        "incurred": ["老市场被她做活后反被涨租40%", "劳动成果被说成低端切菜档"],
+        "paid": [],
+        "running_debt": 2
+      },
+      "chapter_end_hook": "许知夏宣布母亲海鲜档、丈夫冷链车队、弟弟团购仓一起撤。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能让女主哭求续租", "不能把涨租写成误会"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "东区冷库走廊",
+      "character_goal": "许知夏保住订单证据和员工情绪，压住断电造成的货损。",
+      "conflict_action": "马成让电工拉下冷库分闸，逼温控报警，并堵门要求她先签退场承诺。",
+      "information_gap": "马成不知道温控报警、货损清单和电表截图会成为后续证据链。",
+      "emotion_debt_balance": {
+        "incurred": ["断冷库电毁订单", "用员工和客户损失逼她低头"],
+        "paid": [],
+        "running_debt": 4
+      },
+      "chapter_end_hook": "温控红灯跳起，马成公开炫耀自己管电。",
+      "paywall_card": false,
+      "forbidden_summary": ["不写食物中毒", "不长篇解释冷链术语", "不能让女主情绪崩溃"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "老农批入口海鲜档",
+      "character_goal": "许知夏说服许母撤出高客单海鲜采购线。",
+      "conflict_action": "马成派保安贴催缴单，许母当着酒楼老板的面摘灯牌、通知客户改去新港。",
+      "information_gap": "市场方以为海鲜档只是一个摊位，不知道它绑定本地酒楼采购名单。",
+      "emotion_debt_balance": {
+        "incurred": ["老商户被贴单羞辱"],
+        "paid": ["母亲主动撤链，偿还第一笔低估债"],
+        "running_debt": 4
+      },
+      "chapter_end_hook": "许母宣布老客户全部带走。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成母亲替女主救场", "不能弱化马成贴单羞辱", "不能只用旁白说客户重要"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "冷链车队调度站",
+      "character_goal": "许知夏取得冷链车队改线配合，同时要求顾砚讲清是否有人幕后施压。",
+      "conflict_action": "马成卡住三辆车出门单，顾砚当场调出备用路线，把车辆从老市场系统切到新港。",
+      "information_gap": "顾砚知道父亲顾怀民干预过市场招商，但尚未告诉许知夏。",
+      "emotion_debt_balance": {
+        "incurred": ["出门单被卡", "丈夫隐瞒造成信任债"],
+        "paid": ["车队改线增强撤链可信度"],
+        "running_debt": 5
+      },
+      "chapter_end_hook": "顾砚问她是否同意车队全部改线。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能让丈夫替女主拍板", "不能提前完全揭露顾怀民", "不能写霸总摆平一切"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "社区团购仓和直播分拣区",
+      "character_goal": "许知夏完成社区团购订单迁移，抽走年轻家庭复购流。",
+      "conflict_action": "许阳把分拣筐搬上车，马成抢扫码枪阻拦，他用后台推送把自提点切到新港。",
+      "information_gap": "马成不知道团购仓不是库存仓，而是东区最稳定的日订单入口。",
+      "emotion_debt_balance": {
+        "incurred": ["阻拦搬货", "轻视年轻客流"],
+        "paid": ["团购订单迁移，老市场流量开始失血"],
+        "running_debt": 5
+      },
+      "chapter_end_hook": "三千个团购订单同时跳到新港自提点。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能只说流量迁移", "必须有抢扫码枪和后台推送动作", "不能把弟弟写成无脑搞笑角色"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "老市场招商发布区",
+      "character_goal": "许知夏观察白蔓入场，证明网红预制菜不能替代实体采购信任。",
+      "conflict_action": "白蔓在发布会上递样品羞辱许知夏，酒楼老板当场拒收并问她有没有凌晨配送和赔付单。",
+      "information_gap": "白蔓以为线上声量能替代餐饮老板的稳定供货需求。",
+      "emotion_debt_balance": {
+        "incurred": ["新品牌公开羞辱女主低端", "实体经营被包装话术踩低"],
+        "paid": ["酒楼老板用采购问题当场拆台"],
+        "running_debt": 5
+      },
+      "chapter_end_hook": "白蔓发布会刚开场，第一排酒楼老板起身离场。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把白蔓写成单纯蠢", "不能长篇解释预制菜行业", "不能洗白新品牌傲慢"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "卸货月台和叉车通道",
+      "character_goal": "许知夏要把剩余设备和冷柜撤出老市场。",
+      "conflict_action": "马成挂上月台检修牌、扣下叉车钥匙，许知夏把冷柜整齐停在通道口并让员工录像。",
+      "information_gap": "马成不知道堵在通道口的冷柜会反向卡住白蔓入仓和后续检查。",
+      "emotion_debt_balance": {
+        "incurred": ["锁月台阻挠搬迁", "用规则羞辱租户"],
+        "paid": ["冷柜反向卡位，留下公开证据"],
+        "running_debt": 5
+      },
+      "chapter_end_hook": "许知夏让冷柜停在通道口等检查。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成吵架拖延", "必须有月台检修牌和叉车钥匙", "不能让女主违法破锁"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "市场管理处收费窗口",
+      "character_goal": "许知夏拿回保证金并逼出马成私收费用的死环。",
+      "conflict_action": "马成用流程拖三个月，许知夏摆出手写账单、付款记录和录像，要求他出示对公凭证。",
+      "information_gap": "马成不知道许知夏从第一笔冷库费开始就拍下了账单和收款码。",
+      "emotion_debt_balance": {
+        "incurred": ["扣保证金", "卡出门单"],
+        "paid": ["证据死环首次击穿马成"],
+        "running_debt": 4
+      },
+      "chapter_end_hook": "许知夏把账单照片推过去问对公凭证。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能突然天降证据", "不能写私刑讨债", "必须以对公凭证形成死环"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "新智慧冷链港开仓区",
+      "character_goal": "许知夏完成新港联合开仓，让客户看到履约没有断。",
+      "conflict_action": "她在冷链港大屏发布采购名单，员工扫码分拣，第一批车按新路线发往酒楼。",
+      "information_gap": "老市场还以为她只是临时搬货，不知道新港已经等着接收整条采购链。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["新港开仓偿还断电、锁月台带来的经营尊严债"],
+        "running_debt": 3
+      },
+      "chapter_end_hook": "新港大屏亮起，老市场东区清晨黑灯。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写成空泛开业", "必须有大屏、扫码、发车动作", "不能弱化女主运营能力"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "老市场白蔓旗舰仓",
+      "character_goal": "许知夏让老市场和白蔓亲眼看见替代品失效。",
+      "conflict_action": "白蔓开直播卖货，餐饮老板群同步退群，赵总拿着日销二百八的报表冲进仓里。",
+      "information_gap": "赵总第一次意识到报表里的客流不是市场自带，而是许知夏带来的。",
+      "emotion_debt_balance": {
+        "incurred": ["白蔓继续甩锅老商户带坏市场"],
+        "paid": ["网红品牌线下失效，偿还实体经营被轻视债"],
+        "running_debt": 2
+      },
+      "chapter_end_hook": "白蔓盯着二百八十元日销表失声。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能把失败归因于简单没人喜欢", "必须体现餐饮采购逻辑", "不能给白蔓体面下台"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "老市场承包方办公室",
+      "character_goal": "许知夏拒绝赵总求回，并把失职责任压回老板身上。",
+      "conflict_action": "赵总带新合同和免租承诺上门，许知夏逐条点开断电、锁月台、扣保证金录像，让他签收律师函。",
+      "information_gap": "赵总不知道她不只是要搬走，还要追究管理处账目。",
+      "emotion_debt_balance": {
+        "incurred": ["老板只在损失后才承认价值"],
+        "paid": ["求回被拒，失职者承担责任"],
+        "running_debt": 2
+      },
+      "chapter_end_hook": "赵总把合同递回来，求她开条件。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让女主被免租打动", "不能让赵总装无辜过关", "不能写成商业术语谈判"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 750,
+      "target_chars_max": 950,
+      "scene_location": "新港停车区夜班车旁",
+      "character_goal": "许知夏逼顾砚说出隐瞒的真相，并划清婚姻与事业边界。",
+      "conflict_action": "她把顾砚拦在车门前，播放马成称呼幕后人为顾董的录音，要求顾砚给出立场。",
+      "information_gap": "顾砚知道顾怀民授意打压，却还没有说出全部利益交换。",
+      "emotion_debt_balance": {
+        "incurred": ["亲密关系隐瞒债"],
+        "paid": ["顾砚开始承认父亲介入"],
+        "running_debt": 2
+      },
+      "chapter_end_hook": "顾砚承认他没拦住父亲插手。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能立刻原谅顾砚", "不能把矛盾写成夫妻小误会", "不能让丈夫转移女主主线"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "顾家饭桌",
+      "character_goal": "许知夏正面迎接顾怀民的父权羞辱，并逼他暴露打压动机。",
+      "conflict_action": "顾怀民把离婚协议和市场停供威胁放上桌，许知夏把手机录音打开，逐句让他确认。",
+      "information_gap": "顾怀民不知道许知夏已经取得新港联合运营协议。",
+      "emotion_debt_balance": {
+        "incurred": ["女性事业被家族体面否定", "资本长辈暗中打压"],
+        "paid": [],
+        "running_debt": 4
+      },
+      "chapter_end_hook": "顾怀民说卖菜档配不上顾家。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把顾怀民写成关心儿子", "不能轻飘飘和解", "不能让女主用哭诉证明自己"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "新智慧冷链港招商会",
+      "character_goal": "许知夏亮出股东和招商主理人身份，完成规则制定者升维。",
+      "conflict_action": "顾怀民带人要求封杀她，新港负责人当众请她签招商规则，许知夏翻开联合运营协议签名页。",
+      "information_gap": "顾怀民直到现场才知道新港真正要扶持的是许知夏的采购网络。",
+      "emotion_debt_balance": {
+        "incurred": ["父权资本封杀威胁"],
+        "paid": ["股东身份亮牌，终局反杀顾怀民"],
+        "running_debt": 1
+      },
+      "chapter_end_hook": "许知夏宣布自己是规则制定者。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成天降富贵", "必须说明股权来自长期经营价值", "不能让顾砚代签或代言"]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "老市场门口与新港凌晨发车区",
+      "character_goal": "许知夏收束所有反噬结果，并拒绝回头。",
+      "conflict_action": "马成被带走核账，赵总撤掉白蔓招牌求合作，顾砚递交辞职文件，许知夏转身调度凌晨发车。",
+      "information_gap": "无保留信息，只保留新事业继续扩张的余味。",
+      "emotion_debt_balance": {
+        "incurred": [],
+        "paid": ["马成清算", "赵总求回失败", "顾怀民权力失效", "顾砚完成立场选择"],
+        "running_debt": 0
+      },
+      "chapter_end_hook": "老市场招租横幅挂着，新港凌晨排车。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能鸡汤散文收尾", "不能让女主原谅反派", "不能把胜利归功于丈夫"]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 12000,
+    "minimum_chapters": 15,
+    "minimum_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "action_density_per_1000_chars_min": 8,
+    "dialogue_ratio_target": "35%-45%",
+    "forbidden_summary_type": "beats[*].forbidden_summary 必须为非空数组"
+  }
+}

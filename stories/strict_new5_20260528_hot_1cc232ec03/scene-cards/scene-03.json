@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 750,
+  "target_chars_max": 810,
+  "location": "知宁康复集团总部前台",
+  "time": "三天后上午",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "集团前台",
+    "护士站主管",
+    "陆承安",
+    "保安"
+  ],
+  "character_goal": "提交女儿设备异常记录，要求集团停用涉嫌侵权模型",
+  "opposition_goal": "陆承安要把他挡在核心区外，并让员工认定他是闹事家属",
+  "conflict_action": "陆承安示意保安拦人，把顾砚舟带来的异常记录扣在前台不收",
+  "information_gap": "截断句：陆承安当着前台笑着说，陪诊家属不要进集团核心区。",
+  "emotional_debt_delta": "尊严债-1：专业判断被压成陪诊家属闹事",
+  "payoff_or_hook": "软饭、没工作污名进入公开职场场景",
+  "chapter_end_hook": "截断句：陆承安当着前台笑着说，陪诊家属不要进集团核心区。",
+  "paywall_card": false,
+  "must_include": [
+    "异常记录上出现雾化节律模型字样",
+    "陆承安称他是陪诊家属",
+    "前台员工小声吐槽他来要钱",
+    "顾砚舟记下前台监控位置"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释算法原理",
+    "不要列集团部门",
+    "不要让陆承安长篇自夸"
+  ],
+  "rhythm_job": {
+    "shape": "前台拦截动作推进，短对白羞辱，证据名轻轻露出",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 1,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "mix": "动作约40%，对白约40%，证据线索约15%，员工吐槽约5%；强压词只用一次驱赶，后接记监控的证据动作"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "林家/客厅和阳台",
+  "time": "面试后第二天",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "顾念慈",
+    "林父",
+    "林母"
+  ],
+  "character_goal": "拆穿表姐的自杀操控",
+  "opposition_goal": "表姐用道德绑架施压",
+  "conflict_action": "表姐上门哭诉→站阳台边→父母被吓到→女主冷静揭穿这是表演→表姐被赶走",
+  "information_gap": "父母一开始被骗",
+  "emotional_debt_delta": "+1(道德绑架压力)/-1(当场拆穿)",
+  "payoff_or_hook": "操控术被破解",
+  "chapter_end_hook": "顾念慈站在阳台栏杆边，回头看我，嘴角有一丝不易察觉的弧度。",
+  "paywall_card": false,
+  "must_include": [
+    "表姐的表演技巧",
+    "父母的惊吓",
+    "女主一针见血的拆穿"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写自杀的猎奇描写",
+    "不要让父母长篇劝说"
+  ],
+  "rhythm_job": {
+    "shape": "道德绑架→紧张→反制",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  }
+}

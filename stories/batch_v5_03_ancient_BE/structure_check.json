@@ -1,0 +1,98 @@
+{
+  "impact_density": {
+    "total_impacts": 66,
+    "per_category": {
+      "physical_violence": 42,
+      "verbal_attack": 16,
+      "betrayal": 1,
+      "revelation": 3,
+      "status_reversal": 4
+    },
+    "impacts_per_1000_chars": 6.6,
+    "nonspace_chars": 10003
+  },
+  "watermark_violations": [
+    {
+      "start_line": 294,
+      "length": 7,
+      "sample": "但现在。倒计时在替我做决定。"
+    }
+  ],
+  "watermark_count": 1,
+  "per_chapter": [
+    {
+      "title": "",
+      "nonspace_chars": 5,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第一章",
+      "nonspace_chars": 808,
+      "impacts": 2,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第二章",
+      "nonspace_chars": 813,
+      "impacts": 2,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第三章",
+      "nonspace_chars": 888,
+      "impacts": 3,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第四章",
+      "nonspace_chars": 875,
+      "impacts": 11,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第五章",
+      "nonspace_chars": 824,
+      "impacts": 3,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第六章",
+      "nonspace_chars": 959,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第七章",
+      "nonspace_chars": 856,
+      "impacts": 9,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第八章",
+      "nonspace_chars": 1060,
+      "impacts": 10,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第九章",
+      "nonspace_chars": 1031,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十章",
+      "nonspace_chars": 912,
+      "impacts": 9,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第十一章",
+      "nonspace_chars": 916,
+      "impacts": 1,
+      "watermark_violations": 0
+    }
+  ],
+  "gate_status": "pass",
+  "watermark_warning": true
+}

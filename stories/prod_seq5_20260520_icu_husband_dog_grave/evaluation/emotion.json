@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "ref": "draft-scenes/scene-01.md",
+      "quote": "矿灯开关被血水泡坏了，怎么按都不亮。",
+      "finding": "丈夫濒死债通过矿灯实物现场化。"
+    },
+    {
+      "ref": "draft-scenes/scene-03.md",
+      "quote": "骨灰盒很轻，轻得像老伴这辈子都被人压扁了。",
+      "finding": "父亲无体面安葬债与冠军鸽灵堂形成强反差。"
+    },
+    {
+      "ref": "draft-scenes/scene-05.md",
+      "quote": "杯口崩开，茶垢裂成几片",
+      "finding": "遗物被摔让岳家吸血债和儿子不孝债继续累积。"
+    },
+    {
+      "ref": "draft-scenes/scene-08.md",
+      "quote": "爸那样拖着也是受罪，死了矿上还能赔八十万。",
+      "finding": "儿子原话首次回旋，情绪债开始偿还。"
+    },
+    {
+      "ref": "draft-scenes/scene-14.md",
+      "quote": "你这样拖着也是受罪，要是值八十万，你问问谁愿意换。",
+      "finding": "价值算法第三次回旋，儿子落入自己的逻辑。"
+    },
+    {
+      "ref": "draft-scenes/scene-15.md",
+      "quote": "错的从来不是动物，是拿活人救命钱撑面子的人。",
+      "finding": "宠物反讽债收束到伦理边界，避免迁怒动物。"
+    }
+  ],
+  "notes": [
+    "情绪债开设、累积、偿还链完整。",
+    "scene-14 判决段略偏摘要，可在 Phase 7 增加一两个现场细节。"
+  ]
+}

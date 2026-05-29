@@ -1,0 +1,21 @@
+phase: 3
+key: draft
+role: Writer
+title: 逐 Beat 读者心理操控写作
+system_prompt: prompts/writer.md
+human_gate: none
+retryable: true
+required_inputs:
+  - prompts/patterns/reversal-mechanisms.md
+  - prompts/patterns/forbidden-and-preferred.md
+  - corpus/_index.json
+  - story/blueprint.md
+  - story/analysis/style-dna.md
+  - story/analysis/beat-sheet.md
+  - story/analysis/soul-contract.md
+  - story/analysis/reader-engine.md
+  - story/analysis/tension-ledger.md
+required_outputs:
+  - draft.md
+validators:
+  - validate-story:draft

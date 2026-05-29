@@ -1,0 +1,74 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄后厨走廊/休息区",
+  "time": "婚礼当天，仪式前",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "协调员或伴娘"],
+  "character_goal": "沈绮云继续套取信息，同时压制住即将爆发的愤怒",
+  "opposition_goal": "对方继续无意泄露张锐城对新娘的好",
+  "conflict_action": "得知张锐城投资了许芷悦的甜品品牌'蜜予'，而沈绮云的小店涨租只能自己扛——沈绮云第一次在对话中露出攻击性暗示",
+  "information_gap": "沈绮云知道品牌投资的钱来源（是她该得的共同财产），但对方不知道",
+  "emotional_debt_delta": "经济欺诈的规模升级：不止隐瞒收入，还用共同财产培养新人",
+  "payoff_or_hook": "章末：沈绮云说出一句暗示性的话——读者感知到暴风雨将至",
+  "chapter_end_hook": "沈绮云对伴娘/协调员说了一句试探性的话暗示张锐城有问题——潜伏即将结束的信号",
+  "paywall_card": false,
+  "must_include": [
+    "品牌'蜜予'的投资信息",
+    "闪回：女主店铺涨租时向丈夫求助被拒的原话",
+    "试探性反击：一句暗示性的话露出攻击性",
+    "章末钩子：读者感知到暴风雨要来了"
+  ],
+  "must_not_write_as_exposition": [
+    "品牌投资的商业细节",
+    "女主的店铺经营困难史"
+  ],
+  "rhythm_job": {
+    "shape": "渐紧",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 19.2,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 17.8,
+    "dominant_emotion": "刺痛-试探出击",
+    "emotion_arc": "刺痛累积 → 压抑 → 试探出击",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "感知到女主的忍耐快到极限，期待她的下一步行动",
+    "required_techniques": [
+      {
+        "technique": "身体化情绪",
+        "instruction": "用物理感受外化心理状态——'指甲掐进掌心''后牙咬得发酸'。拒绝'我很难过'式的抽象抒情"
+      },
+      {
+        "technique": "试探性反击",
+        "instruction": "女主在压抑中泄露一丝攻击性——对伴娘/协调员说一句双关话，表面是闲聊，底下是警告。如'你就那么信他？没准人家外面有家呢？'让读者感受到忍耐极限正在逼近"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问+身份错位讽刺",
+        "example": "他挣多少工资？你不是比我还清楚嘛。",
+        "instruction": "正妻反而成了'局外人'的荒诞——用一句话浓缩多年欺诈本质。如'他的钱花在哪儿，我这个老婆还没外人清楚'"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "你就那么信任周瑞阳？没准儿他家外有家呢？——我看着伴娘的表情变化，心里冷笑。这是我今天第一次露出爪子。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["你觉得", "没准儿"],
+      "句式": "外冷内热、试探性暗示、短句",
+      "单句上限": 16,
+      "禁止": "直接暴露身份、情绪失控"
+    }
+  }
+}

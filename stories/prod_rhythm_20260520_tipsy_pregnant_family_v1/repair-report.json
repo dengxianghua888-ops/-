@@ -1,0 +1,37 @@
+{
+  "phase": 7,
+  "mode": "production",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "direct_submission",
+      "status": "ok",
+      "changes": [
+        "chapter_headings_h1_to_h2",
+        "paywall_map_rows_extended"
+      ]
+    },
+    {
+      "name": "mobile_paragraphs",
+      "status": "ok",
+      "fixed_files": [],
+      "manual_review": []
+    },
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": [
+        "target_length",
+        "style_metrics"
+      ]
+    },
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

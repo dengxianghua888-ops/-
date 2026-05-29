@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "黑露营地收费棚",
+  "time": "五一第二天早上八点",
+  "pov": "第一人称根据员工偷拍视频和公司调查材料还原",
+  "characters": [
+    "周凯",
+    "黑露营地老板",
+    "小林",
+    "周凯团队员工"
+  ],
+  "character_goal": "周凯想压价续住，继续把团建控制在预算里。",
+  "opposition_goal": "黑露营地老板想趁官方营位售罄涨价收割。",
+  "conflict_action": "老板把价目牌从500改成800，周凯拍桌争执，被老板用“嫌贵别搭”堵回去。",
+  "information_gap": "周凯开局拿来压林晚的话，被更黑的市场原样砸回脸上。",
+  "emotional_debt_delta": "因果回旋强兑现，读者获得第二轮解气。",
+  "payoff_or_hook": "周凯让员工分摊差价，员工第一次当众拒绝。",
+  "chapter_end_hook": "周凯让员工分摊差价，员工第一次当众拒绝。",
+  "paywall_card": true,
+  "must_include": [
+    "500涨到800",
+    "老板说音乐节就这个价",
+    "员工拒绝继续垫钱",
+    "周凯骂员工不懂大局",
+    "小林录下争执"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让涨价无铺垫",
+    "不要让林晚操控黑露营地",
+    "不要用旁白替代对骂动作"
+  ]
+}

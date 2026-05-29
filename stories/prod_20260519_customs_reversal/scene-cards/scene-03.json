@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": 3,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "质检站大厅",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "宋明远再次争辩，想找上级投诉",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "马国栋威胁吊销建材厂资质+上报军工违规使用黑名单，切断退路",
+  "information_gap": "工期违约金60万+资质吊销=厂子必死",
+  "emotional_debt_delta": "+4 生存恐惧债(MAX)",
+  "payoff_or_hook": "两个保安站到了宋明远身后。'交钱，或者等着被查封。你自己选。'",
+  "chapter_end_hook": "两个保安站到了宋明远身后。'交钱，或者等着被查封。你自己选。'",
+  "paywall_card": true,
+  "must_include": [
+    "马国栋威胁吊销建材厂资质+上报军工违规使用黑名单，切断退路"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

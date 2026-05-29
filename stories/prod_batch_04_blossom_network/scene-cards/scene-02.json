@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "海城医院呼吸科病房",
+  "time": "发布会当晚",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "周毓兰", "陆闻舟", "陆星澈"],
+  "character_goal": "叶昭想让陆闻舟和陆星澈答应外婆的全家福预约。",
+  "opposition_goal": "陆闻舟想把叶昭的请求往后推，先处理林苗的临时状况。",
+  "conflict_action": "叶昭把全家福预约单拍给陆闻舟并拨电话催他，陆闻舟听到林苗学校来电后直接挂断。",
+  "information_gap": "叶昭不知道外婆的试验入组窗口只剩几天，陆闻舟不知道这次挂断会成为第一笔迟到债。",
+  "emotional_debt_delta": "亲情心愿债建立，外婆的温柔和陆闻舟的冷淡形成对照。",
+  "payoff_or_hook": "外婆把绸衫叠好，怕自己明天拍照时氧气管不好看。",
+  "chapter_end_hook": "周毓兰把全家福预约单压在病历下，日期只剩三天。",
+  "paywall_card": false,
+  "must_include": [
+    "肺纤维化病历页",
+    "氧气管",
+    "旧照相馆全家福预约单",
+    "外婆替叶昭整理头发",
+    "电话忙音"
+  ],
+  "must_not_write_as_exposition": [
+    "不要医学科普堆料",
+    "不要写外婆必死",
+    "不要让叶昭一开始就完全冷漠"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_ca3b512382",
+  "title": "他在婚礼上跪着叫我恩人，我把他偷拍的视频投到了大屏幕上",
+  "genre": "urban_sweet_ceo",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "重生男主因前世救命恩情准备迎娶未婚妻，发现她继续背叛后借婚礼公开真相",
+    "new_setting": "男主因车祸中未婚妻舍命相救而愧疚补偿，发现她利用恩情掩盖与情人的关系后在订婚宴上用证据公开清算",
+    "character_map": {
+      "陆景琛→宋衍": "男主，被救命恩情绑架的受害者，冷静设局清算",
+      "沈云舒→江念": "反派女主，利用救命恩情掩盖出轨的伪深情者",
+      "顾言泽→许衡": "情人，害死江念父亲的凶手，被江念包庇",
+      "苏晚→温棠": "男主新伴侣，温暖独立，带来真实信任"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "恩情绑架与心声暴露", "min_impacts": 3, "must_include": ["男主因车祸救命恩情准备订婚", "发现未婚妻仍与情人联系", "表里不一的第一次暴露"]},
+    {"beat_id": "B2", "title": "杀父旧账重启", "min_impacts": 3, "must_include": ["情人害死未婚妻父亲的真相", "未婚妻嘴上恨实际包庇", "男主寒心"]},
+    {"beat_id": "B3", "title": "证据升级", "min_impacts": 3, "must_include": ["发现情人信物", "查到怀孕证据", "男主决定设局"]},
+    {"beat_id": "B4", "title": "订婚宴舞台搭建", "min_impacts": 3, "must_include": ["长辈集体背书深情", "情人闯入", "男主暗中准备"]},
+    {"beat_id": "B5", "title": "公开抓奸处刑", "min_impacts": 4, "must_include": ["当众揭露证据", "亲友见证", "未婚妻狡辩失败"]},
+    {"beat_id": "B6", "title": "孕检单二次爆破", "min_impacts": 3, "must_include": ["怀孕真相公开", "情人补刀", "家族断亲"]},
+    {"beat_id": "B7", "title": "舆论清算", "min_impacts": 3, "must_include": ["丑闻扩散", "社会性死亡", "失去一切"]},
+    {"beat_id": "B8", "title": "温暖补偿线", "min_impacts": 2, "must_include": ["新伴侣出现", "真实温暖对比"]},
+    {"beat_id": "B9", "title": "恩情反身清算", "min_impacts": 3, "must_include": ["男主用自己的牺牲抵消恩债", "两清金句", "彻底切断"]},
+    {"beat_id": "B10", "title": "冷漠结尾", "min_impacts": 2, "must_include": ["男主新生活", "不原谅不回头"]}
+  ]
+}

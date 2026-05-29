@@ -1,0 +1,65 @@
+{
+  "story": "stories/strict_new5_20260521_1825_ceo_fishing_sweet",
+  "overall_score": 9.86,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 10613,章节方差 42.9"
+    },
+    "hook_density": {
+      "score": 10.0,
+      "evidence": "14/14 强钩,弱钩章: 无",
+      "weak_chapters": []
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 27.513/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 19.451,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.53,
+      "evidence": "源/稿均行长 25.173/21.448, 短行率 0.323/0.2645, 对白行率 0.3722/0.4587",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 500573,
+          "line_count": 19885,
+          "avg_line_chars": 25.173,
+          "median_line_chars": 22.0,
+          "short_line_rate": 0.323,
+          "long_line_rate": 0.1532,
+          "quote_line_rate": 0.3722,
+          "barrage_line_rate": 0.0004,
+          "question_marks_per_k": 7.869
+        },
+        "candidate": {
+          "chars": 10381,
+          "line_count": 484,
+          "avg_line_chars": 21.448,
+          "median_line_chars": 21.0,
+          "short_line_rate": 0.2645,
+          "long_line_rate": 0.0289,
+          "quote_line_rate": 0.4587,
+          "barrage_line_rate": 0.0021,
+          "question_marks_per_k": 6.936
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

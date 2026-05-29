@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_04_blossom_network/final.md",
+    "target_length": {
+      "min": 11200,
+      "max": 14400,
+      "actual": 11537,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        659,
+        677,
+        659,
+        749,
+        692,
+        678,
+        681,
+        784,
+        696,
+        684,
+        700,
+        747,
+        695,
+        673,
+        800,
+        853
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 81,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 10,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 14,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11537,
+      "sentence_count": 1119,
+      "avg_sentence_length": 9.31,
+      "dialogue_ratio": 0.1795,
+      "question_marks": 55,
+      "question_marks_per_k": 4.767,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "手心": 1,
+        "喉咙": 1,
+        "眼眶": 2,
+        "掌心": 6
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 31.984
+    },
+    "semantic_repetition": {
+      "sentence_count": 381,
+      "unique_sentence_skeletons": 380,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0052
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.4,
+    "emotion": 8.8,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "path": "story/draft.md#01",
+      "quote": "我把婚礼换成外婆的救命钱 / 陆闻舟要用求婚稳住我。",
+      "supports": [
+        "title_intro",
+        "platform"
+      ]
+    },
+    {
+      "id": "E02",
+      "path": "story/draft.md#08",
+      "quote": "这笔钱不是正式过户款，是托管垫资。",
+      "supports": [
+        "logic_fix",
+        "asset_bridge"
+      ]
+    },
+    {
+      "id": "E03",
+      "path": "story/draft.md#12",
+      "quote": "国内SIM卡被叶昭掰断，落进机场垃圾桶。",
+      "supports": [
+        "departure_hook"
+      ]
+    },
+    {
+      "id": "E04",
+      "path": "story/draft.md#16",
+      "quote": "叶昭收下感谢，不收爱情。",
+      "supports": [
+        "ending_boundary"
+      ]
+    }
+  ],
+  "resolved_notes": [
+    "补入标题和导语。",
+    "第8场补托管垫资、过户冲抵、逾期回购说明。",
+    "评分归一到0-10并刷新机器指标。"
+  ]
+}

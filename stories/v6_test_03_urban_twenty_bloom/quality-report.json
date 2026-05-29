@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "fail",
+  "critical_failures": [
+    "总字数严重不足：实际约7337字，目标最低10000字，缺口26.6%",
+    "全部11章均未达到beat-bible规定的单章字数下限"
+  ],
+  "important_failures": [
+    "问号密度偏高：稿件5.9/千字 vs 源文2.7/千字，source_rhythm_fit判fail",
+    "短行率偏高：稿件51.5% vs 源文38%，与源文实际节奏有差距",
+    "缺少付费卡点显式标注（paywall_cards需≥3，正文中无可见标签）"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6_test_03_urban_twenty_bloom/draft.md",
+    "target_length": {
+      "min": 5022,
+      "max": 15066,
+      "actual": 7097,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 4,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 3,
+        "actual": 3
+      },
+      "visible_paywall_labels": {
+        "status": "pass",
+        "count": 0,
+        "hits": []
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 19,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 9,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 7097,
+      "sentence_count": 442,
+      "avg_sentence_length": 15.054,
+      "dialogue_ratio": 0.0,
+      "question_marks": 35,
+      "question_marks_per_k": 4.932,
+      "physical_emotion_hits": {
+        "青筋": 1,
+        "眼眶": 2,
+        "心脏": 4,
+        "指甲": 3
+      },
+      "forbidden_hits": {
+        "深吸一口气": 1
+      },
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 25.645
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 8370,
+        "line_count": 407,
+        "avg_line_chars": 20.565,
+        "median_line_chars": 18.0,
+        "short_line_rate": 0.4423,
+        "long_line_rate": 0.0663,
+        "quote_line_rate": 0.3489,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 5.854,
+        "comma_period_ratio": 0.987,
+        "sentence_avg_len": 17.8
+      },
+      "candidate": {
+        "chars": 7017,
+        "line_count": 440,
+        "avg_line_chars": 15.948,
+        "median_line_chars": 13.0,
+        "short_line_rate": 0.6409,
+        "long_line_rate": 0.0568,
+        "quote_line_rate": 0.2159,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 4.988,
+        "comma_period_ratio": 0.799,
+        "sentence_avg_len": 15.1
+      },
+      "failures": [
+        "avg_line_chars 15.95 below source-rhythm floor 16.04",
+        "short_line_rate 0.641 over-fragments source rhythm 0.442"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 268,
+      "unique_sentence_skeletons": 268,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0037
+    },
+    "production_meta_leak": {
+      "count": 9,
+      "examples": [
+        {
+          "line": 193,
+          "text": "叶东辰喊了一声什么，我没听。"
+        },
+        {
+          "line": 215,
+          "text": "我张了张嘴，什么都说不出来。"
+        },
+        {
+          "line": 227,
+          "text": "这辈子，谁都别想再从我手里拿走他们。"
+        },
+        {
+          "line": 341,
+          "text": "但她的直觉精准得像一把手术刀——不需要知道为什么，只需要知道谁在伤害她女儿。"
+        },
+        {
+          "line": 639,
+          "text": "关于为什么他每年都给一个不认识的女孩汇助学金。"
+        },
+        {
+          "line": 641,
+          "text": "我知道他可能是谁。"
+        },
+        {
+          "line": 823,
+          "text": "眼眶红了，嘴唇抖着，像要说什么。"
+        },
+        {
+          "line": 825,
+          "text": "但他什么都没说出来。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {
+        "深吸一口气": 1
+      },
+      "status": "fail"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 5,
+    "emotion": 7,
+    "style": 6,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "target_length",
+      "finding": "全篇实际7337字，低于10000字下限26.6%。Ch1实际474字(目标750-900)，Ch6实际910字(目标1100-1200)，Ch11实际432字(目标600-700)，无一章达标。",
+      "severity": "critical"
+    },
+    {
+      "dimension": "source_rhythm_fit",
+      "finding": "问号密度5.9/千字是源文2.7的2.2倍。源文以叙述推进为主，问句点缀；稿件则大量使用反问和质问推动节奏，偏离源文的松紧平衡。",
+      "severity": "important"
+    },
+    {
+      "dimension": "emotion_debt",
+      "finding": "四条主要情绪债（闺蜜背叛、男友共谋、父母安危、被诬冤屈）均有明确累积和偿还节点。矛盾瞬间存在于Ch5（被告知有人自杀时笑出来）。",
+      "severity": "pass"
+    },
+    {
+      "dimension": "golden_lines",
+      "finding": "至少3句可独立传播：'体贴其实是监控。节省其实是隔离。'/'我家穷得只剩彼此了。你偷的不是名额，是命。'/'世界再穷，也穷不掉我了。'",
+      "severity": "pass"
+    },
+    {
+      "dimension": "narrative_crutches",
+      "finding": "叙述拐杖（她知道/他明白/她意识到等）出现0次，远低于5次警告线。",
+      "severity": "pass"
+    },
+    {
+      "dimension": "ai_flavor",
+      "finding": "未检测到典型AI句式。语言风格干净，短句有力，无冗余修饰。信息确认型对话模式0次出现。",
+      "severity": "pass"
+    },
+    {
+      "dimension": "logic",
+      "finding": "因果链完整无断裂。角色动机合理（利益驱动/情感驱动/旧交情）。无逻辑硬伤。",
+      "severity": "pass"
+    }
+  ]
+}

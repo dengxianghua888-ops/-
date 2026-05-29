@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "score": 7.6,
+  "evidence": [
+    {
+      "dimension": "source_rhythm_quant",
+      "finding": "源文平均可视行长估算约21.5字/行，稿件约17.8字/行；稿件略短，但未机械碎行。"
+    },
+    {
+      "dimension": "source_rhythm_quant",
+      "finding": "源文短行率估算约0.47，稿件约0.60；仍在短行/对白驱动范围内，未接近100%。"
+    },
+    {
+      "dimension": "source_rhythm_quant",
+      "finding": "源文直接对白行率估算约0.39，稿件约0.36；稿件仍主要靠对白与现场动作推进。"
+    },
+    {
+      "dimension": "source_rhythm_quant",
+      "finding": "源文问号密度估算约4.5/千字，稿件约4.8/千字；压迫问句未明显高于源文。"
+    },
+    {
+      "dimension": "anti_ai_checks",
+      "finding": "指定叙述拐杖短语出现0次；未见“你是说…？/对、没错”确认型对话重复模式。"
+    },
+    {
+      "dimension": "golden_sentence",
+      "finding": "存在可脱离上下文传播的句子，如“你只在失去后，才想起尊重。”“病历不是筹码，我也不是。”"
+    },
+    {
+      "dimension": "warning",
+      "finding": "冷感词和程序词略重复，女主与许知微台词节奏接近，建议 Phase 7 做轻微区分。"
+    }
+  ]
+}

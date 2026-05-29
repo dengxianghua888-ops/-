@@ -1,0 +1,173 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260529_hot_hot_df9671752a/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 13360,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        633,
+        623,
+        713,
+        699,
+        770,
+        770,
+        813,
+        821,
+        1102,
+        1179,
+        1149,
+        1090,
+        1011,
+        796,
+        594,
+        501
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 14,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 63,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 5,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 7,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13360,
+      "sentence_count": 828,
+      "avg_sentence_length": 15.135,
+      "dialogue_ratio": 0.1751,
+      "question_marks": 49,
+      "question_marks_per_k": 3.668,
+      "physical_emotion_hits": {
+        "指尖": 5,
+        "发麻": 7,
+        "后背": 2,
+        "喉咙": 6,
+        "眼眶": 1,
+        "头皮": 1,
+        "掌心": 12
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "轻轻": 1
+      },
+      "action_density_per_k": 25.299
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 9157,
+        "line_count": 505,
+        "avg_line_chars": 18.133,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.4752,
+        "long_line_rate": 0.0119,
+        "quote_line_rate": 0.4455,
+        "barrage_line_rate": 0.002,
+        "question_marks_per_k": 6.771,
+        "comma_period_ratio": 0.548,
+        "sentence_avg_len": 14.8
+      },
+      "candidate": {
+        "chars": 13193,
+        "line_count": 780,
+        "avg_line_chars": 16.914,
+        "median_line_chars": 17.0,
+        "short_line_rate": 0.4641,
+        "long_line_rate": 0.0026,
+        "quote_line_rate": 0.3564,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 3.714,
+        "comma_period_ratio": 0.948,
+        "sentence_avg_len": 15.1
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 551,
+      "unique_sentence_skeletons": 551,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0018
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "轻轻": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "evidence": [
+    "开篇以“把盒子交出来，沈梨雾。”直接进入冲突，150 字内建立香糖信息差。",
+    "scene-10 中沈梨雾被要求打下吊笼时反而轻笑，满足反预期情绪反应。",
+    "scene-11 以万虫伏地、虫翼披风和“好吵”完成身份反转。",
+    "scene-14 对推笼者、起哄者、沉默者、伸手阻拦者分层处理，逻辑边界清楚。"
+  ]
+}

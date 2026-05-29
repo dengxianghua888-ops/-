@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 730,
+  "target_chars_max": 790,
+  "location": "军需库外",
+  "time": "夜间换岗前",
+  "pov": "沈梨雾",
+  "characters": ["沈梨雾", "秦岚", "配给队员", "外墙士兵"],
+  "character_goal": "沈梨雾想拒绝穿上虫浆巡逻服",
+  "opposition_goal": "秦岚要把她送去外墙当普通人巡逻",
+  "conflict_action": "配给队按住她，秦岚把虫浆巡逻服扣到她身上",
+  "information_gap": "虫浆污染会让她的人类封印濒临崩坏",
+  "emotional_debt_delta": "+2 污染媒介债",
+  "payoff_or_hook": "巡逻服贴肤后花房甜雾场熄灭",
+  "chapter_end_hook": "最后一盏甜雾灯灭了。",
+  "paywall_card": true,
+  "must_include": ["巡逻服冰冷", "秦岚说外墙才公平", "甜雾灯逐盏熄灭"],
+  "must_not_write_as_exposition": ["不要渲染器官血腥", "不要解释巡逻服生产流程", "不要让女主激烈反杀过早"],
+  "rhythm_job": {
+    "shape": "动作压迫，女主短句拒绝，灯灭形成付费卡",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "沈梨雾低头闻到甜味没了，只问许伯疼不疼"
+  }
+}

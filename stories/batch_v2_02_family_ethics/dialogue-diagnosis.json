@@ -1,0 +1,98 @@
+{
+  "draft": "stories/batch_v2_02_family_ethics/final.md",
+  "chapter_dialogue_distribution": [
+    {
+      "chapter": 1,
+      "title": "",
+      "quote_line_rate": 0.0,
+      "is_climax": false
+    },
+    {
+      "chapter": 2,
+      "title": "第 1 章 急诊夜",
+      "quote_line_rate": 0.0417,
+      "is_climax": false
+    },
+    {
+      "chapter": 3,
+      "title": "第 2 章 热粥冷水",
+      "quote_line_rate": 0.0667,
+      "is_climax": false
+    },
+    {
+      "chapter": 4,
+      "title": "第 3 章 电话",
+      "quote_line_rate": 0.1053,
+      "is_climax": false
+    },
+    {
+      "chapter": 5,
+      "title": "第 4 章 全科都知道",
+      "quote_line_rate": 0.1698,
+      "is_climax": false
+    },
+    {
+      "chapter": 6,
+      "title": "第 5 章 病历",
+      "quote_line_rate": 0.0351,
+      "is_climax": true
+    },
+    {
+      "chapter": 7,
+      "title": "第 6 章 流产",
+      "quote_line_rate": 0.2667,
+      "is_climax": true
+    },
+    {
+      "chapter": 8,
+      "title": "第 7 章 摊牌",
+      "quote_line_rate": 0.3333,
+      "is_climax": true
+    },
+    {
+      "chapter": 9,
+      "title": "第 8 章 开怼",
+      "quote_line_rate": 0.5349,
+      "is_climax": false
+    },
+    {
+      "chapter": 10,
+      "title": "第 9 章 公婆",
+      "quote_line_rate": 0.2619,
+      "is_climax": false
+    },
+    {
+      "chapter": 11,
+      "title": "第 10 章 断粮",
+      "quote_line_rate": 0.0476,
+      "is_climax": false
+    },
+    {
+      "chapter": 12,
+      "title": "第 11 章 反噬",
+      "quote_line_rate": 0.3171,
+      "is_climax": false
+    },
+    {
+      "chapter": 13,
+      "title": "第 12 章 新生",
+      "quote_line_rate": 0.0667,
+      "is_climax": false
+    }
+  ],
+  "summary": {
+    "avg_climax_quote_rate": 0.2117,
+    "avg_non_climax_quote_rate": 0.1612,
+    "variance_ratio": 1.31,
+    "narration_crutches_count": 1,
+    "confirmation_dialogues_count": 0
+  },
+  "narration_crutches": [
+    {
+      "line": 200,
+      "match": "她知道"
+    }
+  ],
+  "confirmation_dialogues": [],
+  "advisory": []
+}

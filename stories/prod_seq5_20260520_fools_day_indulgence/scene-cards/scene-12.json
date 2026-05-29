@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "离婚案法庭",
+  "time": "发布会后两周",
+  "pov": "第一人称，许知意",
+  "characters": [
+    "许知意",
+    "陆景珩",
+    "程安橙",
+    "法官",
+    "双方律师"
+  ],
+  "character_goal": "许知意要完成离婚判决，并推动事故线索刑事移送",
+  "opposition_goal": "陆景珩要用认错和补偿拖住关系，程安橙要否认诱导路线",
+  "conflict_action": "许知意提交出轨证据、事故链条、医生收款记录和公关群聊天，陆景珩当庭认错求重来，被法官要求确认删改授权签名",
+  "information_gap": "陆景珩第一次看到自己签过的授权，读者确认他不能再装作旁观者",
+  "emotional_debt_delta": "法律层还债：婚姻切割进入判决，男主悔悟失效",
+  "payoff_or_hook": "法官宣布准予离婚并将事故材料移交",
+  "chapter_end_hook": "法官敲槌前，陆景珩终于看见自己签过的删改授权。",
+  "paywall_card": true,
+  "must_include": [
+    "离婚判决",
+    "出轨证据",
+    "医生收款记录",
+    "删改授权签名",
+    "事故材料移交"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把法庭写成互骂",
+    "不要让男主哭求抵消证据",
+    "不要用私刑替代法律"
+  ]
+}

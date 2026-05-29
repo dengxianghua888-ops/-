@@ -1,0 +1,45 @@
+{
+  "story": "batch_v2_05_apocalypse",
+  "title": "死水",
+  "genre": "apocalypse_heroine",
+  "source_slug": "hot_2421a56ed0",
+  "validation_date": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10004,
+    "chapters": 12,
+    "rhythm_fit": "pass",
+    "source_avg_line_chars": 17.354,
+    "candidate_avg_line_chars": 18.829,
+    "source_short_line_rate": 0.5414,
+    "candidate_short_line_rate": 0.5437,
+    "source_quote_line_rate": 0.2583,
+    "candidate_quote_line_rate": 0.211,
+    "source_barrage_rate": 0.0373,
+    "candidate_barrage_rate": 0.0038,
+    "ai_forbidden_words": 0,
+    "source_overlap": "pass",
+    "meta_leak": 0
+  },
+  "mechanisms_planted": {
+    "M3_causal_boomerang": "搞科研搞魔怔了 → 这就是你说的我魔怔了？",
+    "M5_temperature_reversal": "我最爱你认真的样子 → 你闭嘴不然离婚 → 你要毁了我/你先毁了我",
+    "M6_multi_layer_escalation": "丈夫压制→舆论围攻→开除→强制就医→断水爆发",
+    "M7_dimension_strike": "鱼的方向性死亡=毒来的方向（科学预警被当疯子）"
+  },
+  "quality_gates": {
+    "nonspace_chars_min_10000": "PASS",
+    "chapters_min_10": "PASS",
+    "rhythm_fit": "PASS",
+    "ai_forbidden_words_zero": "PASS",
+    "source_overlap_max_5pct": "PASS",
+    "meta_leak_zero": "PASS",
+    "mechanisms_all_planted": "PASS",
+    "opening_structure_matches": "PASS"
+  },
+  "rework_count": 2,
+  "rework_notes": [
+    "First draft: quote_line_rate 0.371 (over source 0.258) + question_marks_per_k 7.33 over-crank. Full rewrite.",
+    "Second draft: rhythm PASS but chars insufficient (~8800). Multi-round expansion to reach 10004."
+  ],
+  "final_status": "PASS"
+}

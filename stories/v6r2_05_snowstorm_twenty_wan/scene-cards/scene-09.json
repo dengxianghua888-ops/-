@@ -1,0 +1,94 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-08b",
+  "chapter_id": 8,
+  "is_chapter_end": true,
+  "target_chars_min": 500,
+  "target_chars_max": 650,
+  "location": "街头（雨中）",
+  "time": "同日傍晚，下雨",
+  "pov": "程书衡（第一人称）",
+  "characters": ["程书衡", "顾深舟"],
+  "character_goal": "程书衡质问照片的事→夺回主动权",
+  "opposition_goal": "顾深舟试图安抚/控制→撑伞示好→想把她带回去",
+  "conflict_action": "雨中顾深舟撑伞找到她→质问照片→三秒沉默(他没发但也没拦)→他说'跟我回去'→她从伞底走进雨里→说出'条件由我来说'",
+  "information_gap": "三秒沉默=答案——他知道但没阻止。从被动承受者变为规则制定者",
+  "emotional_debt_delta": "他'没拦'=帮凶确认。但女主此刻不再累积债务，而是开始清算",
+  "payoff_or_hook": "全文第一次主动权宣言——走进雨里=拒绝保护=用身体做选择",
+  "chapter_end_hook": "最后一份收入也断了。",
+  "paywall_card": true,
+  "must_include": [
+    "雨中对峙的画面感",
+    "质问照片来源",
+    "三秒沉默=答案",
+    "'他大概没发，但他也没拦'的定性",
+    "从伞底走进雨里的物理动作",
+    "'条件由我来说'的主动权宣言",
+    "最后一句'最后一份收入也断了'"
+  ],
+  "must_not_write_as_exposition": [
+    "她的计划和策略",
+    "雨的象征意义解释",
+    "对未来的规划"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 0,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.8,
+    "comma_period_ratio": 0.38,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "觉醒-决裂",
+    "emotion_arc": "雨中相遇 → 质问 → 三秒沉默 → 他示好 → 走进雨里 → 宣言",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "从窒息到燃——她站直了，从雨里走出去那一刻是全文最燃画面",
+    "required_techniques": [
+      {
+        "technique": "物理动作=心理决裂",
+        "instruction": "'我从他撑的伞底走出去，走进了雨里。'走进雨里=拒绝保护=用身体做出选择——比任何台词都有力。"
+      },
+      {
+        "technique": "沉默即答案",
+        "instruction": "'顾深舟，是你让人发的吗？'电话那头/他沉默了三秒。'那三秒的沉默就是答案。'不需要承认——沉默比任何回答更有判决力。"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定(你的规则)+条件转让+主权宣言",
+        "example": "你定的规则不是我选的，如果你想结束，可以，但条件由我来说。",
+        "instruction": "全文第一次主动权转移——从被动承受者变为规则制定者。语气冷静、不带愤怒、只有宣告。"
+      },
+      {
+        "structure": "时间量化+定性",
+        "example": "那三秒的沉默就是答案。",
+        "instruction": "精确到秒数的定性——简洁到无法辩驳。"
+      },
+      {
+        "structure": "否定A+转折否定B",
+        "example": "他大概没发，但他也没拦。",
+        "instruction": "精准区分'主谋'和'帮凶'——'没拦'比'发了'更让人心寒。"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "累积式",
+    "source_excerpt": "'齐衍深，是你让人发的吗？'电话那头沉默了三秒。那三秒的沉默就是答案。他大概没发，但他也没拦。雨很大。他撑着伞站在我面前。'跟我回去。'我从他撑的伞底走出去，走进了雨里。'你定的规则不是我选的，如果你想结束，可以，但条件由我来说。'最后一份收入也断了。"
+  },
+  "character_voices": {
+    "程书衡": {
+      "口癖": [],
+      "句式": "宣言式短句——冷静、不带情绪",
+      "单句上限": 18,
+      "禁止": "哭泣、求情、解释"
+    },
+    "顾深舟": {
+      "口癖": ["跟我回去"],
+      "句式": "祈使句（此刻从施令变成了请求但仍带控制欲）",
+      "单句上限": 8,
+      "禁止": "道歉（他还没到道歉的阶段）"
+    }
+  }
+}

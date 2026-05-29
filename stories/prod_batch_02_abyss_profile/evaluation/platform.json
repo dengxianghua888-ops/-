@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "path": "story/draft.md#01",
+      "type": "title_intro",
+      "quote": "全校以为我晕血，其实我代号寒灯",
+      "assessment": "标题直接承诺身份反差。"
+    },
+    {
+      "path": "story/draft.md#01",
+      "type": "front_hook",
+      "quote": "第七例已入校。",
+      "assessment": "首章以第七例标记收束。"
+    },
+    {
+      "path": "story/scene-cards",
+      "type": "paywall_cards",
+      "quote": "paywall_card=true count >= required",
+      "assessment": "机器可识别付费卡点来自 scene-cards 与 beat-bible 字段。"
+    }
+  ],
+  "risks": [
+    "Phase 7 打包需保留标题和导语。"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "beat-15",
+  "target_chars_min": 660,
+  "target_chars_max": 740,
+  "location": "龙凤胎满月宴后，家中厨房与婴儿房",
+  "time": "结尾，夜里",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "龙凤胎", "弹幕/评论浮屏"],
+  "character_goal": "完成家庭圆满回环，确认陆砚辞掌权后依旧把日常宠爱落到行动。",
+  "opposition_goal": "无外部反派，唯一对抗是防止结尾变成空洞汇报。",
+  "conflict_action": "满月宴刚散，陆砚辞推掉剩余应酬回厨房煲汤，再去婴儿房接走一个孩子让温瓷先睡。",
+  "information_gap": "圆满之后，男主是否仍然持续用具体行动爱她。",
+  "emotional_debt_delta": {
+    "圆满债": "-3",
+    "家庭债": "-3"
+  },
+  "payoff_or_hook": "掌权与煲汤并存，完成‘被稳稳接住’的终局兑现。",
+  "chapter_end_hook": "弹幕最后一次刷屏：原来她捡回家的，是一辈子的偏爱。",
+  "paywall_card": false,
+  "must_include": [
+    "龙凤胎或双生婴儿的生活细节",
+    "陆砚辞推应酬回家煲汤",
+    "弹幕集体认错并收束",
+    "一句回环‘捡回来’意象"
+  ],
+  "must_not_write_as_exposition": [
+    "不要做几年后概述",
+    "不要列幸福清单",
+    "不要只写众人祝福和撒花"
+  ],
+  "rhythm_job": {
+    "shape": "满月余温-生活动作-弹幕回认-回环收口",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 2,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_ratio": "动作5成，对白2成，弹幕2成，收尾1成"
+  }
+}

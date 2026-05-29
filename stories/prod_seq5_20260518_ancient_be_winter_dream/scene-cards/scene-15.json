@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 640,
+  "target_chars_max": 800,
+  "location": "归零舱旧址",
+  "time": "发布会清算后夜里",
+  "pov": "第一人称灵魂视角，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "沈澜星",
+    "归零系统"
+  ],
+  "character_goal": "纪寒舟确认悔悟无法再进入自己的世界。",
+  "opposition_goal": "沈澜星想通过归零系统获得一句回应或赦免。",
+  "conflict_action": "沈澜星抱着婚戒和证据盒接入归零舱，一遍遍申请赦免权限，系统逐次弹出拒绝。",
+  "information_gap": "沈澜星不知道纪寒舟能看见她，但已经不愿回应。",
+  "emotional_debt_delta": "迟来深情彻底失效，主角边界建立。",
+  "payoff_or_hook": "她终于愿意付代价，却连打扰他的权限都没有。",
+  "chapter_end_hook": "沈澜星抱着纪寒舟的遗物走进归零舱，却发现系统拒绝向旧世界开放任何赦免权限。",
+  "paywall_card": false,
+  "must_include": [
+    "婚戒裂痕",
+    "证据盒",
+    "赦免权限申请",
+    "系统拒绝旧世界访问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让纪寒舟托梦",
+    "不要让沈澜星的忏悔变成赎罪成功",
+    "不要写破镜重圆暗示"
+  ]
+}

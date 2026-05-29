@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 850,
+  "target_chars_max": 1050,
+  "location": "含章宫寝殿",
+  "time": "一月后夜",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "太医",
+    "宫女"
+  ],
+  "character_goal": "温照晚想确认萧珩是否真的尊重她的去留。",
+  "opposition_goal": "萧珩想把她留下，但不愿用皇权压她。",
+  "conflict_action": "温照晚扯坏萧珩朝服暗扣，逼问她若想走怎么办，萧珩把宫门钥匙放进她掌心；太医随后报出喜脉。",
+  "information_gap": "萧珩给钥匙是真放手，还是为了让她安心进入更大的局。",
+  "emotional_debt_delta": "甜度冲高，怀孕带来选择权考验。",
+  "payoff_or_hook": "喜脉与萧珩看向凝霜殿形成危险反差。",
+  "chapter_end_hook": "太医跪地报喜，温照晚有孕，萧珩却第一时间看向凝霜殿方向。",
+  "paywall_card": false,
+  "must_include": [
+    "扯坏朝服暗扣",
+    "宫门钥匙",
+    "太医报喜",
+    "萧珩异常看向凝霜殿"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把怀孕写成女主归宿",
+    "不要让女主立刻沉浸母性失去判断",
+    "不要提前说明北境继嗣局"
+  ]
+}

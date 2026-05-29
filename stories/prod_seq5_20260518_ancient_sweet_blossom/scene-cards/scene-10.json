@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 760,
+  "target_chars_max": 920,
+  "location": "祁氏航旅办公室与沈听澜临时出租屋",
+  "time": "领证前夜",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "祁砚舟",
+    "项目组助理",
+    "快递员"
+  ],
+  "character_goal": "清空工作与身份痕迹，确保离开后祁砚舟无法通过旧系统找到她。",
+  "opposition_goal": "祁砚舟要维持领证安排，继续把她的离职视作逼他低头。",
+  "conflict_action": "沈听澜发送辞职邮件，交回家属通行证和项目密钥，注销旧手机号，并把旧SIM卡剪断。",
+  "information_gap": "祁砚舟收到辞职邮件后仍没意识到她要走，只让助理准备领证花束。",
+  "emotional_debt_delta": "+工作关系断开；+家属身份作废；+旧联系方式死亡",
+  "payoff_or_hook": "剪断的SIM卡落进垃圾桶，祁砚舟的婚戒照片停在无法回复的旧号码上。",
+  "chapter_end_hook": "章末截断：祁砚舟发来一句明天别迟到，沈听澜把手机卡折成两半。",
+  "paywall_card": false,
+  "must_include": [
+    "辞职邮件",
+    "家属通行证归还",
+    "项目密钥交回",
+    "旧SIM卡剪断",
+    "婚戒照片"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成普通吵架冷战",
+    "不要省略换号注销",
+    "不要让女主留下暧昧后路"
+  ]
+}

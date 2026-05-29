@@ -1,0 +1,129 @@
+{
+  "story_slug": "prod_batch_06_moon_spring",
+  "pipeline_mode": "production",
+  "genre": "ancient_BE",
+  "mechanisms": ["M1", "M3", "M5", "M6", "M8"],
+  "target_length": {
+    "min": 10000,
+    "max": 13000
+  },
+  "final_length": 10039,
+  "quality_scores": {
+    "platform": 8.8,
+    "emotion": 9.0,
+    "style": 8.6,
+    "logic": 8.2
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "童药堂后门落锁，门缝里滚出一截带血的布条。",
+      "reusable_fact": "虐点开篇用母亲被阻隔、孩子受伤物证外泄，比口头求救更强。"
+    },
+    {
+      "chapter": 2,
+      "hook": "阿砚的手从沈照棠掌心滑下，药堂铜锁还挂在门上。",
+      "reusable_fact": "核心死亡钩必须绑定可视化罪证道具，铜锁同时指向男主亲手选择。"
+    },
+    {
+      "chapter": 3,
+      "hook": "疗养院的铁门合上时，她把药布证据塞进墙缝。",
+      "reusable_fact": "女主弱势期保留主动性，可通过藏证动作建立后续反击资产。"
+    },
+    {
+      "chapter": 4,
+      "hook": "襁褓摔开，草屑混着药布飞出来，崖下再没有沈照棠的回声。",
+      "reusable_fact": "假死局有效条件是现场误判、物证爆开、女主消失三者同时完成。"
+    },
+    {
+      "chapter": 5,
+      "hook": "戒训房账册最后一页，盖着陆衡舟自己的私印。",
+      "reusable_fact": "火葬场不能只怪反派，必须用签字、私印、锁门等硬证据钉住男主责任。"
+    },
+    {
+      "chapter": 8,
+      "hook": "沈照棠翻开旧商报，看见自己的名字和阿砚的死期并排印着。",
+      "reusable_fact": "失忆归来段用公开档案恢复事实，比由男主讲述更保护女主主体性。"
+    },
+    {
+      "chapter": 10,
+      "hook": "女童医塾开门那天，沈照棠走进晨光，再也没有回头。",
+      "reusable_fact": "不复合结局需要落到事业空间和日常动作，避免只停在拒绝台词。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "scene_id": "scene-04",
+      "chapter": 2,
+      "card": "雪夜药堂被男主亲手锁住，阿砚死在门外。",
+      "function": "核心情绪债爆点"
+    },
+    {
+      "scene_id": "scene-08",
+      "chapter": 4,
+      "card": "采药崖假婴摔开，女主坠崖失踪。",
+      "function": "女主脱身与追读反转"
+    },
+    {
+      "scene_id": "scene-12",
+      "chapter": 6,
+      "card": "苏云屏亲口承认孩子不是陆衡舟的，且害死阿砚。",
+      "function": "血脉骗局爆雷"
+    },
+    {
+      "scene_id": "scene-16",
+      "chapter": 8,
+      "card": "沈照棠查到旧商报，确认阿砚死期与陆衡舟认罪。",
+      "function": "失忆后的事实回归"
+    },
+    {
+      "scene_id": "scene-19",
+      "chapter": 10,
+      "card": "陆衡舟求两清，沈照棠以阿砚之死拒绝。",
+      "function": "伦理边界与最终清算"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "没有……",
+      "genre": "ancient_BE",
+      "evidence": "review.md 指出个别句式反复使用“没有……”结构，已在 final.md 中轻修一部分。",
+      "action": "soft_watch"
+    }
+  ],
+  "retrieval_tags": [
+    "追妻火葬场",
+    "虐恋清算",
+    "不复合结局",
+    "孩子死亡",
+    "父亲亲手误判",
+    "铜锁意象",
+    "药堂",
+    "童药堂账册",
+    "私印反噬",
+    "商报旧档",
+    "失忆归来",
+    "女性成长",
+    "女医医塾",
+    "恩人遗孀骗局",
+    "血脉骗局"
+  ],
+  "manual_revision_delta": [
+    {
+      "source": "craft-notes.md",
+      "change": "补入苏云屏火场反扑前因：移送前借诊脉脱身。",
+      "reusable_fact": "反派后期反扑若前文已被押，需要一句行动通道补缝。"
+    },
+    {
+      "source": "craft-notes.md",
+      "change": "替换少量机械化“没有……”句式。",
+      "reusable_fact": "高虐短篇可保留短句，但同一否定句式连续出现会显机器感。"
+    },
+    {
+      "source": "craft-notes.md",
+      "change": "压缩火场连续操作密度。",
+      "reusable_fact": "敏感危险场景保留结果和情绪即可，避免写成可复现流程。"
+    }
+  ]
+}

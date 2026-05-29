@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "location": "scene-01 opening",
+      "point": "前 150 字内出现醉酒妻子拒绝触碰、司机旁观、丈夫沉默照护，信息不对称明确。"
+    },
+    {
+      "location": "scene-01 ending",
+      "point": "“明早九点，民政局”形成清晰离婚钩子。"
+    },
+    {
+      "location": "scene-04, scene-08, scene-11, scene-14",
+      "point": "报警页面、三百万授权、急诊监控、换号离城构成四个可付费卡点。"
+    },
+    {
+      "location": "scene-09",
+      "point": "林知夏误认维修工后被“沈工”和全款签约单打脸，平台爽点明确。"
+    }
+  ],
+  "notes": [
+    "标题、简介、导语、投稿付费节点地图属于 Phase 7 包装，未在 Phase 6 作为 fail 项处理。"
+  ]
+}

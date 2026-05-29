@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 740,
+  "target_chars_max": 880,
+  "location": "婚礼后清晨的海边与新闻屏",
+  "time": "婚礼完成后的次日清晨",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "谢家长辈", "新闻主播", "陆沉舟"],
+  "character_goal": "林晚宜要接住新身份，同时确认自己不是换一种依附。",
+  "opposition_goal": "陆沉舟残留的新闻和求和消息要把她拉回旧叙事。",
+  "conflict_action": "林晚宜签下自己的版权收益确认书，关掉陆沉舟封杀新闻和求和短信，牵着谢砚走向海边晨光。",
+  "information_gap": "故事不再围绕陆沉舟解释，余味落到林晚宜的新生。",
+  "emotional_debt_delta": "-全部核心情绪债清偿",
+  "payoff_or_hook": "第四张付费卡点兼终局释放：陆家基金清算生效，林晚宜完成身份、财富、尊严、情感四重反杀。",
+  "chapter_end_hook": "谢砚牵着她走向晨光，身后陆家影视基金清算公告正式生效。",
+  "paywall_card": true,
+  "must_include": ["版权收益确认书", "陆沉舟封杀新闻", "陆家影视基金清算公告", "海边晨光", "林晚宜主动关掉旧消息"],
+  "must_not_write_as_exposition": ["不要模糊和解", "不要精神胜利", "不要把孩子写成唯一结局价值"]
+}

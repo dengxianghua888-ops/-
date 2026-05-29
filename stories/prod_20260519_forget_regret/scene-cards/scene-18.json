@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-18",
+  "beat_id": "B18",
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "竹庐篱笆内外",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊"
+  ],
+  "character_goal": "女主冷静拒绝——留白结尾",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "给一碗粥让他走，他不走也无所谓",
+  "information_gap": "她已经不恨了，只是不需要他了",
+  "emotional_debt_delta": "0（完结留白）",
+  "payoff_or_hook": "没有了谁，太阳都会照常升起",
+  "chapter_end_hook": "没有了谁，太阳都会照常升起",
+  "paywall_card": false,
+  "must_include": [
+    "给一碗粥让他走，他不走也无所谓"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

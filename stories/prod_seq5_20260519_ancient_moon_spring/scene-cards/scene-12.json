@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 760,
+  "target_chars_max": 880,
+  "location": "陆氏公馆留声机房",
+  "time": "深夜",
+  "pov": "陆沉舟",
+  "characters": [
+    "陆沉舟",
+    "林若鸢",
+    "账房情人",
+    "陆家管家"
+  ],
+  "character_goal": "陆沉舟要从林若鸢口中逼出血脉真相。",
+  "opposition_goal": "林若鸢要继续装病弱，否认血样和账房私情。",
+  "conflict_action": "陆沉舟锁门播放账房藏下的留声机蜡筒，把血样账册摔到林若鸢面前。",
+  "information_gap": "录音证明林若鸢与账房私情，但正式血样报告仍未公开。",
+  "emotional_debt_delta": "+反派伪善破裂、+唯一亲子反噬临门",
+  "payoff_or_hook": "录音里林若鸢笑道：陆家的种，早就被他自己害死了。",
+  "chapter_end_hook": "陆沉舟抬手砸碎留声机，碎片里还在重复小舟的名字。",
+  "paywall_card": true,
+  "must_include": [
+    "留声机录音",
+    "血样调包账册",
+    "林若鸢从装弱到失控",
+    "小舟才是唯一亲子的暗示"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林若鸢主动长篇自白",
+    "不要让陆沉舟用被骗洗白",
+    "不要缺少物证"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "score": 7.4,
+  "summary": "证据链可追踪，医疗与司法程序边界基本合格；新增保单申请人、紧急联系人和证物袋细节后，终局主谋闭环成立。",
+  "evidence": [
+    {
+      "type": "procedure",
+      "quote": "但请先封存 VIP 病区监控、出院记录和病理楼门禁。"
+    },
+    {
+      "type": "procedure",
+      "quote": "先断开外网，再做服务器镜像。不要让远程账号继续进来。"
+    },
+    {
+      "type": "procedure",
+      "quote": "司法鉴定员打开封存箱前，先核对编号、封条、签收人和时间。"
+    },
+    {
+      "type": "evidence_chain",
+      "quote": "出院记录写在前，编号生成、冷链异常和耗材领用在后。"
+    },
+    {
+      "type": "final_mastermind",
+      "quote": "最后一次受益人变更申请压在最上面。申请人签名是她，紧急联系人写着贺闻川。"
+    },
+    {
+      "type": "sensitive_boundary",
+      "quote": "后续医疗管理问题也由主管部门依法处理。"
+    }
+  ],
+  "failures": []
+}

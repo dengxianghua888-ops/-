@@ -1,0 +1,112 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "preferred": 650
+    },
+    "chapter_end_requirement": "每章末必须有明确钩子：新真相、新危险、新选择、新失去或新反杀入口。",
+    "chapter_count_guidance": "按10000-18000字拆为12-22章，单章只推进一个核心情绪事件。"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强Hook：女主刚被放出即发现丈夫与寡嫂同房、儿子失踪或被害线索，直接给出不可忍受的背叛。",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "micro_hook_types": [
+      "亲密背叛证据升级",
+      "孩子受害信息差",
+      "反派伪善被局部戳破",
+      "女主沉默反常暗藏计划",
+      "男主迟来怀疑但选错人"
+    ],
+    "paywall_card_types": [
+      "孩子濒死却被男主拒救",
+      "女主公开控诉反被鉴定精神失常",
+      "生产/绑架/悬崖三重选择",
+      "男主得知孩子死亡与私生真相",
+      "女主归来失忆并被双男对峙"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女频短篇读者",
+      "偏好虐恋追妻火葬场、错付清算、孩子线暴击的读者",
+      "喜欢女主受尽冤屈后彻底离场、男主悔到失控但无法挽回的读者"
+    ],
+    "emotion_needs": [
+      "前期高压窒息：婚姻背叛、母子分离、无人相信",
+      "中段情绪债累积：孩子受虐、女主被污名化、反派持续夺位",
+      "后段释放：真相公开、反派崩塌、男主自毁式悔悟",
+      "结尾补偿：女主不回头，拿回人生和专业价值"
+    ],
+    "genre_fit": {
+      "primary_genre": "ancient_BE",
+      "market_positioning": "架空民国军区虐恋追妻火葬场",
+      "dominant_s爽点": "不可逆失去后的悔悟惩罚",
+      "reader_promise": "看被丈夫、寡嫂和家族规训碾碎的妻子，在孩子死亡后彻底抽身，让所有施害者在真相中崩塌。"
+    },
+    "forbidden_zones": [
+      "不得让女主原谅男主或回归婚姻",
+      "不得弱化孩子死亡带来的不可逆伤害",
+      "不得把男主伤害洗成纯误会",
+      "不得让反派只受轻飘飘道德谴责",
+      "不得用空泛宿命感替代具体证据链和动作清算",
+      "避免过度血腥细节，重点写情绪和因果反噬"
+    ]
+  },
+  "title_strategy": {
+    "title_max_chars": 30,
+    "candidate_formulas": [
+      {
+        "formula_id": "T1",
+        "pattern": "被他送进监狱后，我带着孩子死在雨夜",
+        "market_use": "直接打出极限伤害和不可逆失去，适合强虐短篇。"
+      },
+      {
+        "formula_id": "T3",
+        "pattern": "我死后，团长丈夫才知儿子早被他害死",
+        "market_use": "死后真相+男主悔悟，适合灵魂线或假死归来结构。"
+      },
+      {
+        "formula_id": "T4",
+        "pattern": "寡嫂怀孕那天，我埋了我们的儿子",
+        "market_use": "同日对照制造强冲突，标题自带情绪债。"
+      },
+      {
+        "formula_id": "ancient_couplet",
+        "pattern": "云满春山关残月",
+        "market_use": "保留古言/虐恋感，可作为书名或卷名，主标题仍建议用强情节标题。"
+      }
+    ],
+    "recommended_title_direction": "优先使用明确情节型长标题，关键词包含：监狱、寡嫂、儿子、雨夜、死后、悔疯。"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "basis": "每章都给出一个未解决的伤害或真相，推动读者追到男主彻底知晓真相。"
+    },
+    "paywall_point": {
+      "target_score": 9.0,
+      "basis": "付费级卡点集中在孩子濒死、精神病院、悬崖假死、私生子真相、女主归来。"
+    },
+    "emotional_release": {
+      "target_score": 9.3,
+      "basis": "释放不靠复合，靠男主失去一切、反派被清算、女主重获人生。"
+    },
+    "ai_flavor_control": {
+      "target_score": 9.5,
+      "basis": "禁用空泛抒情和模板化悔悟，所有情绪必须落在具体动作、证据、身体反应和场景后果上。"
+    },
+    "explosive_point_density": {
+      "target_score": 9.0,
+      "basis": "每800-1200字至少一次微爆点，每2500-3500字一次足以推动付费的强反转。"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-07b",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "target_chars_min": 480,
+  "target_chars_max": 620,
+  "location": "靖安王府大堂→切回苏若棠马车视角",
+  "time": "揭露完成后/同时段",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["楚怀璟", "凌霄寒", "苏若棠"],
+  "character_goal": "完成真相揭露的收束，切换到温暖的新世界",
+  "opposition_goal": "楚怀璟的悔恨——但为时已晚",
+  "conflict_action": "楚怀璟惩罚奸夫（挑断手筋脚筋）后醒悟'那些伤害过你的人本王一个都不放过'——讽刺在于最伤她的是他自己；视角切回马车上凌霄寒温柔上药",
+  "information_gap": "苏若棠不知王府中发生了什么——她的世界已经翻篇",
+  "emotional_debt_delta": "楚怀璟的'迟到的暴力'讽刺——他对别人用了比对苏若棠更重的暴力，但对她用了三年",
+  "payoff_or_hook": "视角切换制造对比：暴力审判vs温柔疗伤，两个世界的反差",
+  "chapter_end_hook": "苏若棠不知王府中发生的一切。凌霄寒正小心翼翼替她清理手上磨石伤口的碎石",
+  "paywall_card": false,
+  "must_include": [
+    "楚怀璟惩罚奸夫的具体行为",
+    "楚怀璟的醒悟台词（'那些伤害过你的人'——讽刺）",
+    "视角切换到苏若棠",
+    "凌霄寒温柔上药/清理伤口的细节",
+    "两个世界的对比感"
+  ],
+  "must_not_write_as_exposition": [
+    "楚怀璟的后悔程度（通过行为展示）",
+    "凌霄寒的感情深度（通过温柔细节展示）"
+  ],
+  "rhythm_job": {
+    "shape": "波浪转柔",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.2,
+    "comma_period_ratio": 1.6,
+    "sentence_avg_len": 17.0,
+    "dominant_emotion": "真相大白-温暖初现",
+    "emotion_arc": "审判完结 → 迟到醒悟(讽刺) → 视角切换 → 温柔疗伤",
+    "emotion_intensity": 8.0,
+    "reader_feeling_target": "对楚怀璟'早干嘛去了'的讽刺快感+被凌霄寒温柔感动",
+    "required_techniques": [
+      {
+        "technique": "帝王的迟到的暴力讽刺",
+        "instruction": "楚怀璟对奸夫施以重刑——讽刺在于他把最重的暴力给了不该给的人，而真该保护的人被他亲手伤了三年"
+      },
+      {
+        "technique": "视角切换的反差对比",
+        "instruction": "从王府的血腥审判硬切到马车上凌霄寒的温柔——'可远在马车上的我，不知这一切'——两个世界的反差"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "呼唤名字+全称承诺",
+        "example": "阿妩...那些伤害过你的人，朕一个都不会放过。",
+        "instruction": "楚怀璟：'若棠……那些伤害过你的人，本王一个都不会放过'——感人但讽刺，因为最伤她的是他自己"
+      }
+    ],
+    "peak_type": "contrast_shock",
+    "bomb_technique": "对比式",
+    "source_excerpt": "「阿妩……那些伤害过你的人，朕一个都不会放过。」\n可远在马车上的我，却不知宫中发生的一切。\n彼时，萧烬辞正坐在我身旁，小心翼翼地替我上药。"
+  },
+  "character_voices": {
+    "楚怀璟": {
+      "口癖": ["若棠", "本王一个都不会"],
+      "句式": "悔恨+承诺式长句",
+      "单句上限": 22,
+      "禁止": "冷静理性"
+    },
+    "凌霄寒": {
+      "口癖": ["别怕", "疼吗"],
+      "句式": "极简温柔短句+动作为主",
+      "单句上限": 8,
+      "禁止": "长句、解释"
+    },
+    "苏若棠": {
+      "口癖": [],
+      "句式": "感受型短句",
+      "单句上限": 15,
+      "禁止": "长内心独白"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 550,
+  "target_chars_max": 700,
+  "location": "黑露营地帐篷区",
+  "time": "五一第一天晚上九点",
+  "pov": "第一人称根据员工群聊和公开视频还原",
+  "characters": [
+    "周凯",
+    "黑露营地老板",
+    "小林",
+    "周凯团队员工",
+    "餐摊老板"
+  ],
+  "character_goal": "周凯想让员工忍一晚，避免公司知道团建翻车。",
+  "opposition_goal": "员工想要热水、餐食和明确报销，黑露营地老板继续加价。",
+  "conflict_action": "帐篷漏风，热水排队到凌晨，餐摊泡面20元一盒，周凯让员工先垫钱买吃的。",
+  "information_gap": "员工逐渐意识到所有额外支出都源自周凯退订官方套票。",
+  "emotional_debt_delta": "员工怨气明显上升，人心反噬开始。",
+  "payoff_or_hook": "黑露营地老板宣布次日帐篷涨价到800元。",
+  "chapter_end_hook": "黑露营地老板把铁门一关：明天八百一个帐篷，不住现在就滚。",
+  "paywall_card": false,
+  "must_include": [
+    "泡面20元",
+    "矿泉水8元",
+    "热水排队",
+    "帐篷漏风",
+    "员工问报销"
+  ],
+  "must_not_write_as_exposition": [
+    "不要一笔带过员工受罪",
+    "不要使用大段心理抒情",
+    "不要让周凯承担责任"
+  ]
+}

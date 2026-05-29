@@ -1,0 +1,10 @@
+slug: prod_iter_20_20260514_192119_fake_princess_friends
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: fake_princess_friends
+genre: 
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

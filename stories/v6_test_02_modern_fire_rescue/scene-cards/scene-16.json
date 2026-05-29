@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "beat-16",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 620,
+  "target_chars_max": 750,
+  "location": "旧家→新租公寓",
+  "time": "一切结束后",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安"],
+  "character_goal": "告别过去，开始新生活",
+  "opposition_goal": "无——这章无对手，空间和光线是唯一的'角色'",
+  "conflict_action": "最后一次回旧家取走剩余物品→关上门锁→新公寓里打开窗户→翻看工作邮件→感受阳光",
+  "information_gap": "无新信息差——纯释放",
+  "emotional_debt_delta": "归零：所有情绪债已清偿，读者获得安心的句号",
+  "payoff_or_hook": "门锁合拢的脆响——与第一章'被堵死求救通道'的首尾呼应；'回到自己手里'",
+  "chapter_end_hook": "我的生活终于一点一点，回到了自己手里。",
+  "paywall_card": false,
+  "must_include": [
+    "关上旧家门的动作+门锁声（呼应第一章）",
+    "新公寓的阳光/窗户意象",
+    "工作日常的恢复（新方案、新会议——'和过去无关了'）",
+    "'回到自己手里'的结尾句",
+    "不出现任何与前妻/方逸宁相关的信息"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写'我释然了'——让空间和行动自己传达",
+    "不能回顾总结全篇——这不是结语，是新生活的第一天"
+  ],
+  "rhythm_job": {
+    "shape": "匀速舒缓",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.0,
+    "comma_period_ratio": 0.6,
+    "sentence_avg_len": 20.0,
+    "dominant_emotion": "释然-新生",
+    "emotion_arc": "告别旧屋 → 门锁合拢 → 新空间 → 平静结尾",
+    "emotion_intensity": 6.0,
+    "reader_feeling_target": "为他松一口气，感觉'结束了，他会好的'。门锁声呼应全篇，阳光意象给出安心句号",
+    "required_techniques": [
+      {
+        "technique": "首尾门/通道呼应",
+        "instruction": "第一章他被堵死所有求救通道。末章他自己关上门、自己锁上——同样是'关闭'，但主语变了。锁门声要写出来：'很轻的脆响'"
+      },
+      {
+        "technique": "光影收束",
+        "instruction": "用光线和空间写'一切都过去了'——天光从阳台照进来，落在空地板上。不煽情，让空间自己说话"
+      },
+      {
+        "technique": "日常复归",
+        "instruction": "用工作日常的平淡传达'我好了'——打开电脑看到新方案、新会议。'很忙，但都和过去无关了'。不宣告，生活本身就是证明"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "动作+声音描写",
+        "example": "门锁合拢，发出一声很轻的脆响。",
+        "instruction": "呼应开篇。同样是门锁声，但这次是他主动关上的。声音要'轻'——因为不再需要用力了"
+      },
+      {
+        "structure": "主语+副词递进+结论",
+        "example": "我的生活终于一点一点，回到了自己手里。",
+        "instruction": "'一点一点'传达重建的不易，'自己手里'传达失而复得。作为全文最后一句"
+      }
+    ],
+    "peak_type": "peaceful_resolution",
+    "bomb_technique": "对比收束式",
+    "source_excerpt": "我把最后一箱东西搬上车。回头看了一眼那扇门。然后关上它，门锁合拢，发出一声很轻的脆响。新租的公寓在十二楼，窗户很大。天光从阳台斜斜照进来，落在空荡荡的地板上。我打开电脑，新的方案、新的会议通知。很忙，但都和过去无关了。我的生活终于一点一点，回到了自己手里。"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-09",
+  "chapter_id": 9,
+  "is_chapter_end": true,
+  "target_chars_min": 720,
+  "target_chars_max": 900,
+  "location": "出租屋",
+  "time": "深夜",
+  "pov": "程书衡（第一人称）",
+  "characters": ["程书衡"],
+  "character_goal": "完成离场仪式——删除过去，发送五个字，消失",
+  "opposition_goal": "无直接对手（仪式化独白场）",
+  "conflict_action": "姜漪澜最后一条消息补刀('家里客房随时住')→镜子里看自己→手机翻照片→全选删除→五个字发送→婚戒包进白纸→写'物归原主'→关灯→一夜未眠→刻骨",
+  "information_gap": "读者此刻确认：她不是一时冲动，是深思熟虑后的终极决断",
+  "emotional_debt_delta": "不再累积——这是清算的开始。从此不欠不还",
+  "payoff_or_hook": "五个字=最大力量；一夜刻骨=不是遗忘而是铭记",
+  "chapter_end_hook": "黑暗里眼睛睁着，一夜没合上。不是舍不得。是我在把这种疼一寸一寸刻进骨头里。",
+  "paywall_card": false,
+  "must_include": [
+    "姜漪澜消息'家里客房随时住'的空间反讽",
+    "镜子自观（不认识自己了）",
+    "照片全选删除的仪式",
+    "'我同意离婚。'五个字+发送",
+    "婚戒包进白纸+写'物归原主'",
+    "关灯后一夜未眠",
+    "'刻进骨头里'的自我约束独白"
+  ],
+  "must_not_write_as_exposition": [
+    "对未来生活的规划",
+    "对婚姻的总结反思",
+    "删照片时的每张照片内容（只写全选+消失）"
+  ],
+  "rhythm_job": {
+    "shape": "匀速递降",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 12.5,
+    "comma_period_ratio": 0.32,
+    "sentence_avg_len": 12.0,
+    "dominant_emotion": "决绝-寂静",
+    "emotion_arc": "姜漪澜补刀 → 镜子自观 → 删照片 → 五个字 → 物归原主 → 黑暗中刻骨",
+    "emotion_intensity": 8,
+    "reader_feeling_target": "痛快+心疼并存——她终于走了，但走得太安静让人想哭",
+    "required_techniques": [
+      {
+        "technique": "字数即力量",
+        "instruction": "'五个字。我同意离婚。发送。'刻意标注字数而不是直接写内容——让读者意识到越少的字=越大的决绝。"
+      },
+      {
+        "technique": "仪式化删除",
+        "instruction": "照片不是冲动删除。'全选。删除。'然后看着它们一张一张消失——写出仪式感，是目送而非丢弃。"
+      },
+      {
+        "technique": "自我约束独白",
+        "instruction": "'不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。'内心独白不是抒情而是自我命令。"
+      },
+      {
+        "technique": "空间反讽",
+        "instruction": "'家里。她说的是我曾经的家。客房。我被邀请在自己的家里住客房。'用词语错位揭示身份错位。"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "否定A(误判)+肯定B(真实意图)+祈使句自我命令",
+        "example": "不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。",
+        "instruction": "校正读者误读('她还爱他')→给出真实心理(铭记以自我警示)→自我命令(不许回头)。"
+      },
+      {
+        "structure": "四字成语独立成段",
+        "example": "物归原主。",
+        "instruction": "四个字=一段关系的全部结算。冷到骨头里的体面。独立成段，前后留白。"
+      }
+    ],
+    "peak_type": "power_reversal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "陆晚月发了条消息：'姐姐，家里客房随时给你留着。'家里。她说的是我曾经的家。客房。我被邀请在自己的家里住客房。镜子里的人我不太认识了。手机相册翻了一遍。二百多张。全选，删除。五个字。我同意离婚。发送。银戒指摘下来，包进白纸。写了四个字：物归原主。关灯。黑暗里眼睛睁着，一夜没合上。不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。"
+  },
+  "character_voices": {
+    "程书衡": {
+      "口癖": [],
+      "句式": "独白极简、祈使句对自己下命令",
+      "单句上限": 15,
+      "禁止": "抒情、感叹、回忆超过2行"
+    }
+  }
+}

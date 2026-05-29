@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 850,
+  "target_chars_max": 1000,
+  "location": "学校走廊 → 宏志班教室",
+  "time": "重生第一天上午，高三志愿填报日",
+  "pov": "苏念",
+  "characters": ["苏念", "顾瑶", "叶东辰"],
+  "character_goal": "苏念冷静确认志愿已锁定、密码已改，然后用一个细节证据切断与顾瑶和叶东辰的关系",
+  "opposition_goal": "顾瑶和叶东辰还在演'好闺蜜好男友'的戏，试图接近苏念的志愿信息",
+  "conflict_action": "苏念当面亮出顾瑶朋友圈SUV照片，一句话揭穿'你不是贫困生'",
+  "information_gap": "苏念拥有15年后的全部记忆，而顾瑶和叶东辰还以为她什么都不知道",
+  "emotional_debt_delta": "第一笔利息——用一个证据击碎顾瑶三年的伪装，但还不算正式清算",
+  "payoff_or_hook": "顾瑶脸色剧变证实了指控的准确性，苏念确认志愿已安全",
+  "chapter_end_hook": "苏念转身时顾瑶追上来抓住她手腕：'苏念，你今天怎么了？我们不是最好的姐妹吗？'——面具还没舍得摘",
+  "paywall_card": false,
+  "must_include": [
+    "苏念第一时间改密码+截屏+通知父亲来校确认",
+    "用重生记忆重新解读顾瑶过去三年的每个'关心'",
+    "亮出朋友圈SUV截图的精准打脸",
+    "叶东辰试图靠近被苏念一个眼神钉住",
+    "顾瑶的本能反应（伸手捂手机/脸色变白）"
+  ],
+  "must_not_write_as_exposition": [
+    "三年友谊的回忆（不要列清单式回忆）",
+    "贫困证明的申请流程",
+    "苏念为什么确定顾瑶不是贫困生（用证据说话不用解释）"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.4,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 14.8,
+    "dominant_emotion": "冷清醒-嘲讽",
+    "emotion_arc": "冷静审视 → 识破表演 → 嘲讽回忆 → 决绝行动",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "跟着女主一起'看穿了'的优越感和爽感",
+    "required_techniques": [
+      {
+        "technique": "上帝视角回忆对比",
+        "instruction": "用重生后的全知视角重新解读顾瑶过去的'体贴'——每次帮苏念省钱其实是怕她消费露馅暴露对比"
+      },
+      {
+        "technique": "细节炸弹",
+        "instruction": "不是控诉而是摆证据：亮出一张照片，对方的本能反应代替了一切辩解"
+      },
+      {
+        "technique": "反话解码",
+        "instruction": "两句短句颠覆读者对前文所有互动的理解：顾瑶说'你太节省了'其实是'你别花钱别露出真穷的样子对比出我在装'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "冷静陈述+隐含讽刺的细节指控",
+        "example": "下次爽完记得把女孩子的内衣扣好。",
+        "instruction": "用最日常的语气指出最致命的证据：'你妈上个月发的朋友圈，新提的SUV，贫困生开得起？'"
+      },
+      {
+        "structure": "自我认知翻转的单句成段",
+        "example": "原来小丑一直是我。",
+        "instruction": "苏念内心短句：承认自己被骗三年，但语气不是自怜而是冷笑——觉醒本身就是力量"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "上辈子我就是对宋攸宁太好了。心疼她父母早亡，把她当亲姐妹。什么都让着她，没给她施展茶艺的机会。原来说的是反话。讨厌其实是喜欢。下次爽完记得把女孩子的内衣扣好。——宋攸宁下意识伸手往后摸。原来小丑一直是我。宋攸宁突然犯恶心，冲进卫生间吐。我脑子嗡地一声，看向钟然。"
+  }
+}

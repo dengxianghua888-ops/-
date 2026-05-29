@@ -1,0 +1,269 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [
+      10000,
+      30000
+    ]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "tomato_preferred_median": 650
+    },
+    "chapter_end_requirement": "每章末必须保留一个未解决问题、情绪爆点或行动悬念，禁止平收。",
+    "recommended_chapter_count": {
+      "min": 10,
+      "max": 18
+    },
+    "chapter_function": [
+      "第1章必须完成强冲突开局与核心疑问抛出",
+      "中段章节每章至少推进一个证据、误会、背叛或反击节点",
+      "末段章节必须完成真相揭露、施害者清算、母女情绪偿还"
+    ]
+  },
+  "hook_policy": {
+    "first_300_chars": "必须用高概念生活痛点开局：母亲每月打4000生活费，女儿却啃馒头；立刻制造金额矛盾与亲情误解。",
+    "micro_hook_interval_chars": {
+      "min": 800,
+      "max": 1200
+    },
+    "paywall_card_interval_chars": {
+      "min": 2500,
+      "max": 3500
+    },
+    "tomato_specific_density": {
+      "micro_suspense_every_words": 1000,
+      "paywall_level_card_every_words": 3000,
+      "first_chapter_hook_min_score": 9
+    },
+    "required_hook_types": [
+      {
+        "position": "opening",
+        "type": "H1 结果反常型",
+        "execution": "到账4000与实际500并置，让读者必须追问钱去哪了。"
+      },
+      {
+        "position": "early_turn",
+        "type": "H2 关系背刺型",
+        "execution": "银行卡绑定父亲手机号，父亲疑似转走女儿生活费。"
+      },
+      {
+        "position": "middle",
+        "type": "H3 真相递进型",
+        "execution": "私生子只是表层真相，真正动机是父亲蓄意报复母亲。"
+      },
+      {
+        "position": "late",
+        "type": "H4 情绪追悔型",
+        "execution": "女儿恨错母亲十五年，真相来得太晚，母亲病危。"
+      }
+    ],
+    "forbidden_hook_handling": [
+      "禁止只靠哭诉拖延，必须用证据、录音、流水、病历推动悬念。",
+      "禁止每章末用空泛情绪收束，必须留下具体下一步动作或新证据。"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短故事女性读者",
+      "偏好家庭伦理、亲情虐心、迟来真相、恶人清算的读者",
+      "对父权背叛、亲情误解、女性自救与母女和解有强情绪代入的读者"
+    ],
+    "emotion_needs": [
+      "替被亏待的女儿讨回公道",
+      "替被蒙蔽的母亲洗清冤屈",
+      "看到施害父亲被法律与亲情双重清算",
+      "在母女误会解开后获得高强度催泪释放",
+      "用不可逆离别制造余痛和完读冲动"
+    ],
+    "core_reader_promise": "看一个母亲发现女儿三年只收到500生活费后，从查流水、离婚追偿到揭开父亲恶意报复局，最终让女儿明白自己恨错人，却在病危倒计时里完成迟来的母女和解。",
+    "genre_fit": {
+      "primary_genre": "family_ethics",
+      "secondary_genre": "modern_reversal",
+      "reference_genes": [
+        "家庭伦理复仇",
+        "亲情抛弃债",
+        "证据型反击",
+        "迟来真相",
+        "恶人法律清算",
+        "临终和解催泪"
+      ],
+      "tomato_fit_score_target": 8.6
+    },
+    "taboo_topics": [
+      "禁止美化父亲挪用女儿生活费的行为",
+      "禁止让母亲无原则原谅施害者",
+      "禁止用血缘大团圆消解伤害",
+      "禁止把女儿长期贫困写成励志鸡汤",
+      "禁止让私生子承担主要恶意，核心恶意必须落在父亲主动设计",
+      "避免过度描写疾病治疗细节，重点放在情绪偿还与真相揭露"
+    ],
+    "ai_flavor_constraints": {
+      "hard_forbidden_words": [
+        "然而",
+        "总而言之",
+        "不禁",
+        "心中涌起",
+        "深吸一口气",
+        "宛如命运的齿轮",
+        "眼中闪过一丝",
+        "嘴角微微上扬",
+        "不由得",
+        "颤抖着说道",
+        "空气仿佛凝固"
+      ],
+      "soft_forbidden_limit_per_story": {
+        "悄然": 2,
+        "缓缓": 2,
+        "默默": 2,
+        "微微": 2,
+        "淡淡": 2,
+        "轻轻": 2
+      },
+      "preferred_style": [
+        "短句推进",
+        "证据落点清楚",
+        "对白直接",
+        "情绪用动作和物件承载",
+        "少抒情，多场景压迫"
+      ]
+    }
+  },
+  "title_strategy": {
+    "platform_constraints": {
+      "max_chars": 30,
+      "preferred_pattern": "口语化强冲突 + 金额/亲属关系 + 反常结果"
+    },
+    "title_formula_candidates": [
+      {
+        "formula_id": "T1_amount_contradiction",
+        "formula": "我每月给她X，她却只能Y",
+        "example_titles": [
+          "我每月给女儿四千，她却只能啃馒头",
+          "我打给女儿四千，她卡里只剩五百"
+        ],
+        "market_value": "金额反差强，前三秒就能制造点击疑问。"
+      },
+      {
+        "formula_id": "T2_family_betrayal",
+        "formula": "亲人拿走X后，我才知道Y",
+        "example_titles": [
+          "女儿饿了三年，我才知道钱被她爸拿走了",
+          "我供女儿上大学，丈夫却拿钱养私生子"
+        ],
+        "market_value": "家庭伦理背刺明确，适合番茄情绪流量。"
+      },
+      {
+        "formula_id": "T3_late_truth_regret",
+        "formula": "我死前才知道，X不是Y",
+        "example_titles": [
+          "病危时女儿恨我抠门，我才查出丈夫的局",
+          "女儿恨了我十五年，真相来得太晚"
+        ],
+        "market_value": "迟来真相与临终倒计时叠加，完读驱动力强。"
+      },
+      {
+        "formula_id": "T4_revenge_accounting",
+        "formula": "他偷走X，我让他Y",
+        "example_titles": [
+          "丈夫偷走女儿生活费，我让他净身出户",
+          "他拿女儿的钱报复我，我送他进监狱"
+        ],
+        "market_value": "清算感强，适合反击爽点包装。"
+      },
+      {
+        "formula_id": "T5_quote_hook",
+        "formula": "一句扎心台词 + 隐藏真相",
+        "example_titles": [
+          "妈，下辈子别那么抠门了",
+          "她说我只给五百，可我明明打了四千"
+        ],
+        "market_value": "台词钩子强，适合虐心亲情向。"
+      }
+    ],
+    "recommended_primary_title": "我每月给女儿四千，她却只能啃馒头",
+    "title_rationale": "原题已具备番茄高点击特征：数字明确、亲情关系明确、结果反常明确，读者能立刻产生追问。"
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "requirements": [
+        "前300字必须抛出4000变500的核心谜题",
+        "每章至少新增一个证据或关系反转",
+        "病危倒计时从中后段开始持续压迫读者完读"
+      ]
+    },
+    "paid_point": {
+      "target_score": 9.0,
+      "requirements": [
+        "第一个付费级卡点落在银行流水确认父亲转走3500",
+        "第二个付费级卡点落在私生子身份曝光",
+        "第三个付费级卡点落在录音证明父亲蓄意让女儿恨母亲",
+        "末段卡点落在女儿知晓真相但母亲时间不多"
+      ]
+    },
+    "emotional_release": {
+      "target_score": 9.3,
+      "requirements": [
+        "前期压女儿饥饿与母亲愧疚",
+        "中期释放离婚追偿与恶父清算",
+        "后期释放母女误会解开与临终和解",
+        "结尾保留余痛：和解完成但时间不可追回"
+      ]
+    },
+    "ai_flavor": {
+      "target_score": 9.0,
+      "scoring_direction": "分数越高代表AI味越低",
+      "requirements": [
+        "避免模板化心理描写",
+        "避免空泛反思段落",
+        "用转账记录、病历、录音、认罪书等具体物证承载剧情",
+        "对白不超过15字的高压短句优先"
+      ]
+    },
+    "viral_point_density": {
+      "target_score": 9.1,
+      "requirements": [
+        "每800-1200字一个微钩",
+        "每2500-3500字一个付费级卡点",
+        "每章末必须出现新疑问、新证据、新行动或情绪爆裂",
+        "核心爆点必须按金额谜题、父亲盗钱、私生子、恶意报复、女儿恨错人、临终和解递进"
+      ]
+    },
+    "action_density_per_k": {
+      "target_min": 8,
+      "examples": [
+        "收到视频",
+        "打电话质问",
+        "冲到学校",
+        "对比转账记录",
+        "查银行流水",
+        "起诉离婚",
+        "拿到录音",
+        "安排对质",
+        "女儿听录音",
+        "探监断亲"
+      ]
+    }
+  },
+  "market_positioning": {
+    "one_sentence_pitch": "一位母亲发现自己每月打给女儿的4000元生活费只到账500元，顺藤摸瓜查出丈夫用女儿三年的饥饿布下报复局，等女儿终于知道真相时，母亲已病入膏肓。",
+    "competitive_edge": [
+      "金额谜题开局天然强钩",
+      "家庭伦理与证据反杀结合，兼具虐点和爽点",
+      "母女误会不是普通沟通失败，而是父亲恶意设计，反转更有爆点",
+      "临终和解提供番茄短故事高完读情绪释放"
+    ],
+    "risk_controls": [
+      "母亲不能显得完全无责，需要承认疏忽，否则读者会反感洗白",
+      "女儿不能过度刻薄到失去同情，必须体现她受创后的防御",
+      "父亲清算必须明确有法律后果，不能只停留在口头后悔",
+      "结尾催泪但不能拖沓，墓前独白控制篇幅"
+    ]
+  }
+}

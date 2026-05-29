@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "beat-08",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "县人民医院急诊 → 走廊",
+  "time": "父亲倒下当天下午",
+  "pov": "苏念",
+  "characters": ["苏念", "秦岚", "林秀兰"],
+  "character_goal": "苏念在绝望中反击——揭穿秦岚的真实身份",
+  "opposition_goal": "秦岚试图继续'公事公办'的调查姿态，同时林秀兰因丈夫倒下心脏病发",
+  "conflict_action": "苏念揭穿秦岚是叶东辰父亲的旧情人，当众质问'你是审计员还是小三在帮前男友的儿子'",
+  "information_gap": "只有苏念（通过前世记忆）知道秦岚和叶父的关系——这个信息在当下是核弹",
+  "emotional_debt_delta": "绝望中的精准反击让情绪从纯受害转为主动出击——读者看到女主的行动力被震撼",
+  "payoff_or_hook": "秦岚被揭穿后失态，但林秀兰也心脏病发——双亲同时倒下",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "苏念在绝望中的冷静切换（越痛越冷）",
+    "揭穿秦岚的核心台词（三连定性式）",
+    "秦岚的失态反应",
+    "林秀兰心脏病发（一句话带过）",
+    "苏念同时面对双亲倒下的瞬间"
+  ],
+  "must_not_write_as_exposition": [
+    "秦岚和叶父关系的来龙去脉",
+    "苏念怎么知道这个信息的（不需要解释，重生者就是知道）",
+    "心脏病的医学症状"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.40,
+    "sentence_avg_len": 13.8,
+    "dominant_emotion": "绝望-反击",
+    "emotion_arc": "绝望谷底 → 冰冷清醒 → 精准反击 → 新打击（母亲倒下）",
+    "emotion_intensity": 10,
+    "reader_feeling_target": "在最绝望处看到女主的冰冷行动力，被震撼到起鸡皮疙瘩",
+    "required_techniques": [
+      {
+        "technique": "绝望中的冷静反差",
+        "instruction": "越是崩溃的处境越冷静行动——这种反差比'崩溃哭泣'震撼一万倍"
+      },
+      {
+        "technique": "三连定性",
+        "instruction": "'审计员？叶主任的情人？还是灭口的打手？你喜欢哪个称呼？'——三个身份递进，不是骂人而是冷静分类"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "并列贬义词+礼貌式反问",
+        "example": "小三，情妇，二奶，你喜欢哪个称呼？",
+        "instruction": "用'你喜欢哪个'的礼貌语气说最侮辱的内容——冷静就是暴力"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "「这样够精彩吗？」我又薅着宋攸宁的头发……「这样够狗血吗？」「还想拍什么，你们说，我演给你们看。」「小三，情妇，二奶，你喜欢哪个称呼？」上一世，这个女人后来给钟然生了个弟弟。我还抱过那个孩子。"
+  }
+}

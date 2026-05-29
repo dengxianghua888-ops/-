@@ -1,0 +1,78 @@
+{
+  "phase": 8,
+  "phase_name": "feedback_learning",
+  "project_id": "prod_20260519_customs_reversal",
+  "source_corpus": "hermes_customs_package",
+  "timestamp": "2026-05-19",
+
+  "mechanism_findings": {
+    "M1_dead_loop": {
+      "status": "success",
+      "notes": "死环逻辑通过确认书红章实现：承认是军工品→价值三千万被掉包→立案侦查；否认是军工品→收管控费构成诈骗。两枝均锁死对手。读者理解无障碍。",
+      "fidelity_score": 9.5,
+      "carrier_object": "特种材料管控费缴纳确认书（盖红章）",
+      "lesson": "M1载体必须同时具备官方背书+明确金额+物品定性三要素，缺一则逻辑链断裂"
+    },
+    "M3_causal_reversal": {
+      "status": "success",
+      "notes": "金句'分子级扫描嘛，仪器怎么报，你就怎么坐牢吧'完成因果回旋——对方用来威胁的工具反成定罪证据。",
+      "fidelity_score": 9.0,
+      "golden_phrase": "分子级扫描嘛，仪器怎么报，你就怎么坐牢吧",
+      "lesson": "M3金句需在对话中自然出现，且由主角在高潮点一句话点破因果反转"
+    }
+  },
+
+  "style_dna_calibration": {
+    "avg_sentence_length": {"actual": 16, "target_range": [15, 20], "status": "pass"},
+    "dialogue_ratio": {"actual": 0.38, "target_range": [0.35, 0.45], "status": "pass"},
+    "question_density": {"actual": 0.7, "target_min": 0.5, "status": "pass"},
+    "golden_sentence_density": {"actual": 0.3, "target_min": 0.2, "status": "pass"},
+    "short_sentence_ratio": {"actual": 0.72, "target_min": 0.7, "status": "pass"}
+  },
+
+  "length_management": {
+    "initial_draft_chars": 6477,
+    "expansion_rounds": 2,
+    "final_draft_chars": 9997,
+    "final_with_guide_chars": 10130,
+    "lesson": "Scene Writer首轮产出普遍偏短(~65%目标)，需预留expansion预算。建议首轮target设为max*1.1以减少返工。",
+    "expansion_strategy": "优先扩展开头(背景铺设)、高潮(逻辑展开)、结尾(象征收束)三类场景"
+  },
+
+  "forbidden_words_learned": {
+    "hard_violations": 0,
+    "soft_violations": 0,
+    "false_positive_patterns": ["戛然而止中的'然而'为固定成语组件，非独立过渡词"],
+    "lesson": "检测然而时需排除'戛然而止/自然而然/理所当然而'等复合结构"
+  },
+
+  "adaptation_room_findings": {
+    "selected_scenario": "C_质检站",
+    "selection_reason": "M1载体(确认书)在质检场景下最自然，读者无需额外背景知识即可理解死环逻辑",
+    "rejected_scenarios": ["A_驾校(M1载体勉强)", "B_房产中介(逻辑链较长)"],
+    "lesson": "适配场景选择时，优先考虑M1载体的自然性和读者理解门槛"
+  },
+
+  "production_metrics": {
+    "total_phases_executed": 8,
+    "rework_events": 1,
+    "rework_phase": "scene_writer",
+    "rework_reason": "字数不足，需扩展",
+    "quality_gate_result": "pass",
+    "overall_score": 8.9
+  },
+
+  "corpus_update_recommendation": {
+    "action": "add_to_index",
+    "entry": {
+      "id": "prod_20260519_customs_reversal",
+      "genre": "modern_reversal",
+      "mechanisms": ["M1", "M3"],
+      "hook_type": "H1",
+      "tomato_fit_score": 9.0,
+      "chars": 10130,
+      "title": "质检站说我的螺纹钢是军工品，那就按军工品赔吧",
+      "calibration_status": "machine_verified"
+    }
+  }
+}

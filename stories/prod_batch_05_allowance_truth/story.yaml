@@ -1,0 +1,87 @@
+schema_version: 2
+pipeline_mode: production
+status: final
+title: 我每月给女儿四千，她却在画室啃冷馒头
+role: Final Packager
+provider: openai
+model: GPT-5
+source:
+  draft: story/draft.md
+  review: story/review.md
+  diff: story/diff.md
+  quality_report: story/quality-report.json
+  evaluations:
+    platform: story/evaluation/platform.json
+    emotion: story/evaluation/emotion.json
+    style: story/evaluation/style.json
+    logic: story/evaluation/logic.json
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+quality_gate:
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  machine_metrics:
+    target_length:
+      min: 12000
+      max: 14000
+      source_actual: 12823
+      status: pass
+    chapters:
+      count: 12
+      status: pass
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits: {}
+      status: pass
+  critic_scores:
+    platform: 8.6
+    emotion: 9.0
+    style: 8.4
+    logic: 8.2
+final_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+resolved_notes:
+  - 补入许念电子授权、第三方材料遮敏、警方调取与法院调查令路径。
+  - 修正断亲高潮句为“你这辈子，都别说我是你女儿。”
+  - 补足投稿标题、简介、标签和前三章钩子说明。
+  - 将第15章法律进程桥接为“半个月后”并补传唤、登录记录、笔录签字。
+  - 章节化为12章，章末保留明确追更钩子。
+audit:
+  generated_at: 2026-05-09
+  timezone: Asia/Shanghai
+  no_filesystem_writes: true
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260509_011405
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

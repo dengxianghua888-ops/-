@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": 7,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "质检站大厅正中央→驻站民警处",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "宋明远转身报警",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "走向驻站民警：'我要报案。我价值三千万的300吨军工级特种合金钢，被人掉包了。'",
+  "information_gap": "读者恍然大悟！原来交钱是为了这张纸！",
+  "emotional_debt_delta": "反转启动(全部债务开始偿还)",
+  "payoff_or_hook": "马国栋从椅子上弹了起来，保温杯摔在地上碎成三块",
+  "chapter_end_hook": "马国栋从椅子上弹了起来，保温杯摔在地上碎成三块",
+  "paywall_card": true,
+  "must_include": [
+    "走向驻站民警：'我要报案。我价值三千万的300吨军工级特种合金钢，被人掉包了。'"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

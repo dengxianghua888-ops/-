@@ -1,0 +1,157 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "critic_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "evidence": [
+    "machine gate phase 7 status=pass",
+    "target_length=10508",
+    "source_rhythm_fit=pass",
+    "action_density_per_k=26.171"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260525_hot_1893bcf076/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10508,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        755,
+        806,
+        718,
+        810,
+        750,
+        787,
+        705,
+        742,
+        714,
+        769,
+        693,
+        735,
+        702,
+        705
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 85,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 3,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 15,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10508,
+      "sentence_count": 500,
+      "avg_sentence_length": 20.016,
+      "dialogue_ratio": 0.284,
+      "question_marks": 59,
+      "question_marks_per_k": 5.615,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "后槽牙": 1,
+        "手心": 1,
+        "喉咙": 1,
+        "指甲": 1,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.171
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 9624,
+        "line_count": 364,
+        "avg_line_chars": 26.44,
+        "median_line_chars": 24.0,
+        "short_line_rate": 0.2665,
+        "long_line_rate": 0.1813,
+        "quote_line_rate": 0.4615,
+        "barrage_line_rate": 0.0275,
+        "question_marks_per_k": 7.793
+      },
+      "candidate": {
+        "chars": 10330,
+        "line_count": 472,
+        "avg_line_chars": 21.886,
+        "median_line_chars": 22.0,
+        "short_line_rate": 0.2648,
+        "long_line_rate": 0.0191,
+        "quote_line_rate": 0.4237,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 5.712
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 440,
+      "unique_sentence_skeletons": 440,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0023
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  }
+}

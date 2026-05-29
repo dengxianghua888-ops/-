@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 450,
+  "target_chars_max": 560,
+  "location": "法庭",
+  "time": "开庭日",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "沈知微", "律师周衡", "法官"],
+  "character_goal": "在法庭上用证据逼她逐条承认",
+  "opposition_goal": "沈知微试图辩解——但证据链让她无路可退",
+  "conflict_action": "法庭上逐条质证：'你是否承认发送了这三条消息？''承认。''你是否承认你明知丈夫可能发病？''承认。''你是否同意离婚？''……同意。'",
+  "information_gap": "旁听席（如有）第一次公开看到证据全貌",
+  "emotional_debt_delta": "-3：三次'承认'的递进快感——法律仪式感加持的正义",
+  "payoff_or_hook": "三声'承认'完成法律层面的定罪——但这只是第一层清算",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "法庭问答体的仪式感（你是否承认...承认）",
+    "三次'承认'的递进（第三次前有省略号）",
+    "沈知微从强硬到沉默的变化",
+    "法官宣布离婚判决"
+  ],
+  "must_not_write_as_exposition": [
+    "法律程序不能写成流程说明",
+    "不需要完整的庭审过程——只取最关键的问答"
+  ],
+  "rhythm_job": {
+    "shape": "仪式感递进",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.4,
+    "sentence_avg_len": 14.0,
+    "dominant_emotion": "审判-快感",
+    "emotion_arc": "证据呈堂 → 逐项承认 → 判决",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "法庭仪式感+三声'承认'的递进快感——公权力为受害者背书的满足",
+    "required_techniques": [
+      {
+        "technique": "法庭问答体",
+        "instruction": "'你是否承认...''承认。'重复三次，每次问题更致命。法律程序的仪式感让清算有公权力背书——比私人复仇格局更高"
+      },
+      {
+        "technique": "省略号递进",
+        "instruction": "第三次'承认'前加省略号——'……同意。'只一个标点就写出从'认罪'到'认输'的心理落差。极致经济"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "法律问答体（重复+递进）",
+        "example": "'你是否承认...''承认。'×3",
+        "instruction": "三个问题依次击中：1.发送消息的事实 2.明知后果的故意 3.同意离婚的结果。每次'承认'后不加任何描写，让空白自己说话"
+      }
+    ],
+    "peak_type": "institutional_judgment",
+    "bomb_technique": "仪式递进式",
+    "source_excerpt": "律师问：'你是否承认，在2024年3月15日20:07至20:11之间，向医院急救调度群发送了上述三条消息？'沈知微看了那些截图很久。'承认。''你是否承认，你明知丈夫当晚独自在家且可能发病？''承认。''你是否同意解除婚姻关系？'她闭了一下眼睛。'……同意。'"
+  }
+}

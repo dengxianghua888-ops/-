@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {
+      "scene": "scene-01",
+      "quote": "我坐进鲸跃传媒中控室最后一排时，开场倒计时还剩十分钟",
+      "assessment": "冷开场直接进入发布会现场，倒计时、伪装工牌、周年礼盒共同制造点击欲。"
+    },
+    {
+      "scene": "scene-01",
+      "quote": "周砚礼伸出手，牵住了苏曼宁",
+      "assessment": "核心冲突在首场完成：丈夫公开牵第三者上台官宣。"
+    },
+    {
+      "scene": "scene-02",
+      "quote": "结婚证电子件弹出第一页",
+      "assessment": "首个强付费卡点成立，正妻身份由证据投屏完成。"
+    },
+    {
+      "scene": "scene-03",
+      "quote": "首席增长与合规官",
+      "assessment": "第二层身份反转把私人闹剧升级为平台合规事件。"
+    },
+    {
+      "scene": "scene-07",
+      "quote": "最高表决权条款",
+      "assessment": "中段权力牌足够强，支撑继续追读。"
+    },
+    {
+      "scene": "scene-12",
+      "quote": "权限已回收",
+      "assessment": "男主从CEO坠落为被审计对象，是明确付费爽点。"
+    }
+  ],
+  "non_blocking_risks": [
+    "Phase 7 仍需补标题、简介、导语和投稿付费节点地图。",
+    "正文无显式章节号，但 draft-scenes 已满足 16 章结构。"
+  ]
+}

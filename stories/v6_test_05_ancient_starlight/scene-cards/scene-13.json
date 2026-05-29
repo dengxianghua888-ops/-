@@ -1,0 +1,73 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "chapter_id": 6,
+  "is_chapter_end": false,
+  "is_climax_beat": true,
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "平台年度盛典直播现场——后台操控+数据大屏",
+  "time": "紧接上场，季霄开始反击的十五到二十分钟",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "陈奕（远程崩溃）", "盛典全场"],
+  "character_goal": "季霄要在自己的主场完成碾压——一键撤销所有品牌授权",
+  "opposition_goal": "陈奕的做空行动遭遇降维打击——他根本不知道季霄是平台实控人",
+  "conflict_action": "季霄后台一键操作：撤销陈奕全部品牌合作授权。15分钟填满自己的窟窿，20分钟让陈奕资金链断裂。大屏从红变绿/从满变空",
+  "information_gap": "全场终于知道——这个打游戏的二世祖是整个直播生态的操盘手。M2身份反差最终落地",
+  "emotional_debt_delta": "全额兑付——M3因果回旋完美闭环（你封杀我的入驻资格→我封你的生意资格）",
+  "payoff_or_hook": "全文最强爽点：数字碾压+身份揭露+因果回旋三重同步爆发",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "季霄后台操作的动作描写（一键/点击/确认）",
+    "数据大屏的视觉变化（品牌合作状态全部变灰/GMV归零）",
+    "15分钟+20分钟的精确时间标记",
+    "全场人对季霄认知刷新的一句叙述",
+    "M3回旋的明确点出（'你封她的入驻资格/我封你的生意'或等效表达）"
+  ],
+  "must_not_write_as_exposition": [
+    "撤销授权的技术细节",
+    "陈奕的详细破产过程",
+    "旁观者的冗长议论"
+  ],
+  "rhythm_job": {
+    "shape": "一击→数字跳动→全场震撼→一句定性",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 13.0,
+    "dominant_emotion": "碾压-痛快",
+    "emotion_arc": "一键操作 → 数据雪崩 → 全场认知刷新 → 极致爽感",
+    "emotion_intensity": 10,
+    "reader_feeling_target": "太爽了——所有铺垫在这一刻全部爆发，值了",
+    "required_techniques": [
+      {
+        "technique": "大屏视觉化——把数据变化变成碾压布景",
+        "instruction": "盛典大屏从品牌logo满屏变成状态全灰/数据归零——同一块屏幕承载攻击-反杀的全过程"
+      },
+      {
+        "technique": "身份标签反转——'游戏宅'的重新定义",
+        "instruction": "一句叙述完成M2的最终落地：'今天所有人对这个游戏宅有了新的看法'——认知彻底刷新"
+      },
+      {
+        "technique": "因果回旋的明确点出",
+        "instruction": "必须有角色或叙述者点出对称结构：'你封她的入驻资格，我封你的全部生意'——不能只靠读者自行发现"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间条件+因果预告+家族/平台宣言",
+        "example": "等盛典结束，我让他知道，星潮为什么能垄断全行业。",
+        "instruction": "既是个人能力的预告也是平台实力的亮相——让陈奕的挑衅显得可笑"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "累积式→瞬间爆发",
+    "source_excerpt": "十五分钟时间，硬是将窟窿填满。二十分钟，让顾家破产。我们婚礼的屏幕上，也从婚纱照变成了股市蒸发金额。今天来的人，都对这个傅家二世祖，有了新的看法。"
+  }
+}

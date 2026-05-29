@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "location": "draft.md opening",
+      "finding": "前150字包含明确悬念和信息不对称：父亲死在肃王府斋房、石磨不停、柳含霜用豆腐软度试探人命。",
+      "quote": "我爹死在肃王府斋房。那夜石磨没停，木柄一圈圈转。"
+    },
+    {
+      "location": "scene-01 ending",
+      "finding": "首章钩子将三两银从赔命羞辱转成复仇入口，具备继续阅读驱动力。",
+      "quote": "三两银买你爹一条命。她抬眼看我。日后请他们自己吃回去。"
+    },
+    {
+      "location": "scene-03 / scene-06 / scene-09 / scene-11",
+      "finding": "四个付费卡点内容成立：王府车驾入局、柳含霜身份试探、银屑被搜出、铁锈味爆发。"
+    },
+    {
+      "location": "draft-scenes endings",
+      "finding": "15 个 scene 基本都有未解决压力或情绪钩，hook coverage 估算为 1.0。"
+    }
+  ]
+}

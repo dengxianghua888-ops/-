@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "冷链平台线上复核会议",
+  "time": "第四天下午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "平台风控主管",
+    "平台客服",
+    "司机群成员"
+  ],
+  "character_goal": "撤销罚款、解封账号、返还保证金。",
+  "opposition_goal": "平台风控先维护系统判责，避免承认审核漏洞。",
+  "conflict_action": "主角共享药监受理编号、询问记录和四箱签收单，迫使平台撤回偷货判定。",
+  "information_gap": "平台是否会公开纠错、补偿损失，还需后续处理。",
+  "emotional_debt_delta": "生计债开始偿还，尊严债通过平台改口回收。",
+  "payoff_or_hook": "系统不再只压主角，开始反向锁住周骁投诉。",
+  "chapter_end_hook": "平台风控主管终于改口，说我不是违规司机。",
+  "paywall_card": false,
+  "must_include": [
+    "线上复核会议",
+    "药监受理编号",
+    "四箱签收单",
+    "罚款撤销初步意见",
+    "司机群有人删帖",
+    "主角要求书面结果"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让平台完美无责",
+    "不要让平台一句道歉解决全部",
+    "不要让主角放弃补偿"
+  ]
+}

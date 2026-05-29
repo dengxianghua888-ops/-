@@ -1,0 +1,81 @@
+{
+  "genre": "modern_reversal",
+  "selection_criteria": {
+    "avg_line_chars": "17-23 (P25-P75)",
+    "long_line_rate": "≤10%",
+    "question_marks_per_k": "≥4.5",
+    "chars": "6000-18000"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "slug": "hot_25608dfcf6",
+      "filename": "高考前班花不让我上送考大巴，可我到考场了你们怎么跑偏了.txt",
+      "excerpt_file": "sample_01_excerpt.md",
+      "score": 100.0,
+      "rhythm": {
+        "avg_line_chars": 21.154,
+        "long_line_rate": 0.0788,
+        "quote_line_rate": 0.4384,
+        "question_marks_per_k": 6.017,
+        "chars": 10471
+      }
+    },
+    {
+      "index": 2,
+      "slug": "hot_2651d18716",
+      "filename": "死亡预告短信.txt",
+      "excerpt_file": "sample_02_excerpt.md",
+      "score": 100.0,
+      "rhythm": {
+        "avg_line_chars": 20.862,
+        "long_line_rate": 0.0701,
+        "quote_line_rate": 0.4137,
+        "question_marks_per_k": 9.656,
+        "chars": 11599
+      }
+    },
+    {
+      "index": 3,
+      "slug": "hot_433984c87a",
+      "filename": "《重生后，我任由班花给竹马塞作弊器》.txt",
+      "excerpt_file": "sample_03_excerpt.md",
+      "score": 100.0,
+      "rhythm": {
+        "avg_line_chars": 19.51,
+        "long_line_rate": 0.0716,
+        "quote_line_rate": 0.3748,
+        "question_marks_per_k": 5.985,
+        "chars": 10360
+      }
+    },
+    {
+      "index": 4,
+      "slug": "hot_47468b7e6a",
+      "filename": "《风停爱意归零时》.txt",
+      "excerpt_file": "sample_04_excerpt.md",
+      "score": 100.0,
+      "rhythm": {
+        "avg_line_chars": 20.233,
+        "long_line_rate": 0.0698,
+        "quote_line_rate": 0.2655,
+        "question_marks_per_k": 5.077,
+        "chars": 10440
+      }
+    },
+    {
+      "index": 5,
+      "slug": "hot_4860b8ee11",
+      "filename": "《前缘尽断不相逢》.txt",
+      "excerpt_file": "sample_05_excerpt.md",
+      "score": 100.0,
+      "rhythm": {
+        "avg_line_chars": 20.302,
+        "long_line_rate": 0.0225,
+        "quote_line_rate": 0.3246,
+        "question_marks_per_k": 5.175,
+        "chars": 10821
+      }
+    }
+  ]
+}

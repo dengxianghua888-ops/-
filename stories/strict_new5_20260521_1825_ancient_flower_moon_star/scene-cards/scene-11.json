@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "闻氏总裁办公室",
+  "time": "三天后",
+  "pov": "三人称近闻砚舟，但贴动作不洗白",
+  "characters": [
+    "闻砚舟",
+    "秘书",
+    "法务",
+    "助理"
+  ],
+  "character_goal": "追回岑砚灯，堵住所有后果。",
+  "opposition_goal": "证据链和他自己过去的选择同时把他推向崩塌。",
+  "conflict_action": "亲子鉴定、调度录音、仓库监控一件件摆上桌，他边看边失控砸碎玻璃。",
+  "information_gap": "他终于知道全部真相，却不知道她是不是已经彻底离开他的世界。",
+  "emotional_debt_delta": "男主开始偿债，但悔意不构成减刑。",
+  "payoff_or_hook": "秘书汇报她已完成海外入学和离境手续，连追都追晚了一拍。",
+  "chapter_end_hook": "闻砚舟盯着机票信息，第一次没资格叫她回来。",
+  "paywall_card": false,
+  "must_include": [
+    "证据逐件落桌",
+    "物理失控动作而非纯独白",
+    "海外离境信息"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段男主心理忏悔",
+    "不要把真相整理成摘要报告",
+    "不能让悔意冲淡其主责"
+  ],
+  "rhythm_job": {
+    "shape": "证据落桌-动作崩塌-一条消息封死-冷静收尾",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

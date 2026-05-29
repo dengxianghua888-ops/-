@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_12_top_scorer_report/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 12500,
+      "actual": 10500,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        645,
+        662,
+        668,
+        777,
+        667,
+        654,
+        657,
+        738,
+        684,
+        692,
+        635,
+        706,
+        682,
+        703,
+        797
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 101,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 6,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 26,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10500,
+      "sentence_count": 561,
+      "avg_sentence_length": 17.717,
+      "dialogue_ratio": 0.2936,
+      "question_marks": 33,
+      "question_marks_per_k": 3.143,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "发麻": 1,
+        "后背": 2,
+        "喉咙": 2,
+        "眼眶": 1,
+        "心脏": 1,
+        "掌心": 3
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.238
+    },
+    "semantic_repetition": {
+      "sentence_count": 434,
+      "unique_sentence_skeletons": 432,
+      "max_sentence_repeats": 3,
+      "max_sentence_repeat_ratio": 0.0069
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.1,
+    "emotion": 8.2,
+    "style": 7.8,
+    "logic": 7.4
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "我拿到全国法医技能赛金奖时，京港法医中心的录取短信正好弹进手机。"
+    },
+    {
+      "area": "opening_hook",
+      "quote": "我养父母和哥哥已经死了，证据在仁和医院病理楼。"
+    },
+    {
+      "area": "platform_title",
+      "quote": "法医冠军当天，我报警全家死在医院"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "亲缘初检报告弹出：样本符合母女关系。我的报警，被认定疑似虚假。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "发布会大屏黑了一秒，随后跳出一行字：该编号蜡块已被申请销毁。"
+    },
+    {
+      "area": "evidence_chain_signature",
+      "quote": "三个人的手不可能在同一秒犹豫，也不可能把笔压到同一深度。"
+    },
+    {
+      "area": "evidence_chain_voice",
+      "quote": "嘀，病理楼门禁已开启。"
+    },
+    {
+      "area": "final_mastermind_payoff",
+      "quote": "贺夫人，请确认，最后一次受益人变更申请，是不是你递交的？"
+    },
+    {
+      "area": "final_mastermind_consequence",
+      "quote": "申请人签名是她，紧急联系人写着贺闻川。"
+    },
+    {
+      "area": "emotion_payoff_family",
+      "quote": "知夏，别回林家。"
+    },
+    {
+      "area": "logic_process",
+      "quote": "封存箱前，先核对编号、封条、签收人和时间。"
+    }
+  ]
+}

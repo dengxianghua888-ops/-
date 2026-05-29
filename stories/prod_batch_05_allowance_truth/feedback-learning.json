@@ -1,0 +1,149 @@
+{
+  "story_slug": "prod_batch_05_allowance_truth",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M1", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 12000,
+    "max": 14000
+  },
+  "final_length": 12894,
+  "quality_scores": {
+    "platform": 8.6,
+    "emotion": 9.0,
+    "style": 8.4,
+    "logic": 8.2
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "每月四千生活费与楼梯间啃冷馒头视频并置",
+      "mechanism": "M6",
+      "reuse_fact": "金额差异和视觉苦难同屏出现，适合作为家庭伦理开篇点击点。"
+    },
+    {
+      "chapter": 4,
+      "hook": "银行流水显示每月四千到账后当天转出三千五，只剩五百",
+      "mechanism": "M1",
+      "reuse_fact": "固定日期、固定金额、固定余额能把家庭争执压成可核验金流证据。"
+    },
+    {
+      "chapter": 8,
+      "hook": "出生证明确认许砚是丈夫的儿子",
+      "mechanism": "M6",
+      "reuse_fact": "私生子身份应在金流证据后揭开，避免先靠伦理爆点透支悬念。"
+    },
+    {
+      "chapter": 12,
+      "hook": "录音原话揭示父亲故意让女儿以为母亲只给五百",
+      "mechanism": "M3",
+      "reuse_fact": "反派亲口复述核心谎言，可把多年误会从猜测锁死为恶意。"
+    },
+    {
+      "chapter": 15,
+      "hook": "女儿在探视室断亲：你这辈子，都别说我是你女儿",
+      "mechanism": "M3",
+      "reuse_fact": "亲缘身份句适合在清算场景反向回敬，形成平台爽点。"
+    },
+    {
+      "chapter": 16,
+      "hook": "墓前热饭与冷馒头形成闭环",
+      "mechanism": "M5",
+      "reuse_fact": "结尾用食物温度回收开篇饥饿债，比直接煽情更稳。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 3,
+      "card": "食堂三年充值记录显示每月只有五百",
+      "conversion_reason": "把开篇冷馒头从偶发苦难推进为长期克扣。"
+    },
+    {
+      "chapter": 4,
+      "card": "银行柜员指出每月三号都有三千五转出",
+      "conversion_reason": "首次出现系统性截流证据。"
+    },
+    {
+      "chapter": 5,
+      "card": "转账摘要露出许砚名师班学费",
+      "conversion_reason": "把钱去向引向另一个孩子。"
+    },
+    {
+      "chapter": 7,
+      "card": "画室缴费单监护人栏写着许国成",
+      "conversion_reason": "父亲从嫌疑人变成证据链核心。"
+    },
+    {
+      "chapter": 8,
+      "card": "出生证明揭出许砚是许国成的儿子",
+      "conversion_reason": "完成私生子反转。"
+    },
+    {
+      "chapter": 10,
+      "card": "许国成威胁让女儿一辈子不认母亲",
+      "conversion_reason": "提示金钱之外还有离间线。"
+    },
+    {
+      "chapter": 12,
+      "card": "行车记录仪录到父亲承认只留五百并蓄意离间",
+      "conversion_reason": "情绪债和证据链同时爆发。"
+    },
+    {
+      "chapter": 13,
+      "card": "许念撕掉父亲邀请函，冲向病房",
+      "conversion_reason": "从真相揭露转入母女和解。"
+    },
+    {
+      "chapter": 14,
+      "card": "医生告知治疗只能按天争取",
+      "conversion_reason": "和解后立刻压入时间债。"
+    },
+    {
+      "chapter": 15,
+      "card": "看守所断亲句完成清算",
+      "conversion_reason": "父女关系反向切断，爽点明确。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "family_ethics",
+    "allowance_interception",
+    "mother_daughter_misunderstanding",
+    "cold_steamed_bun_hook",
+    "bank_flow_evidence",
+    "meal_card_records",
+    "private_child_reveal",
+    "audio_recording_reversal",
+    "legal_evidence_chain",
+    "hospital_reconciliation",
+    "detention_center_confrontation",
+    "food_temperature_callback",
+    "M1_dead_loop_evidence",
+    "M3_causal_callback",
+    "M5_temperature_curve",
+    "M6_layered_reversal"
+  ],
+  "manual_revision_delta": [
+    {
+      "chapter": 2,
+      "delta": "补入许念电子签名委托书，为后续调取本人生活费流水建立授权来源。"
+    },
+    {
+      "chapter": 8,
+      "delta": "将许砚身份材料限定为依法调取的遮敏复印件，原件留在警方卷宗。"
+    },
+    {
+      "chapter": 15,
+      "delta": "刑事流程改为补充询问、录音鉴定、传唤后半个月刑拘，避免第四天直接看守所清算。"
+    },
+    {
+      "chapter": 15,
+      "delta": "断亲钩子修正为“你这辈子，都别说我是你女儿”。"
+    },
+    {
+      "chapter": 1,
+      "delta": "补入平台导语，明确四千生活费、冷馒头视频、丈夫和另一个孩子三项点击信息。"
+    }
+  ]
+}

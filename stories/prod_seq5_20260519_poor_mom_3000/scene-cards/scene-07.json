@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 790,
+  "target_chars_max": 950,
+  "location": "医院地下停车场",
+  "time": "当晚",
+  "pov": "第一人称，白栀",
+  "characters": [
+    "白栀",
+    "杨驰",
+    "父亲杨建明",
+    "保安"
+  ],
+  "character_goal": "白栀想确认杨驰是否是失踪生活费的受益者。",
+  "opposition_goal": "杨驰想用豪车和嘲讽压低白栀，让她闭嘴别查。",
+  "conflict_action": "杨驰开限量保时捷进停车场，按喇叭催父亲上车，并讽刺白栀连药费都交不起；白栀拍下车牌、车架号位置和临牌信息。",
+  "information_gap": "豪车付款日期、付款账户与生活费转出是否相关还未核实。",
+  "emotional_debt_delta": "堂哥吸血债+3，证据反击债-1。",
+  "payoff_or_hook": "吸血亲戚的奢侈资产第一次实体出现，和主角三十块形成强反差。",
+  "chapter_end_hook": "杨驰新提的限量保时捷，付款日期和我的生活费转出日重合。",
+  "paywall_card": false,
+  "must_include": [
+    "限量保时捷",
+    "杨驰按喇叭嘲讽",
+    "白栀拍车牌和临牌",
+    "父亲阻止白栀继续拍",
+    "药费与豪车形成对照"
+  ],
+  "must_not_write_as_exposition": [
+    "不要只写杨驰有钱，要写车、喇叭、车牌动作",
+    "不要让白栀砸车或暴力报复",
+    "不要提前揭完付款真相"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 550,
+  "target_chars_max": 700,
+  "location": "景区接驳车站",
+  "time": "五一第一天中午十二点",
+  "pov": "第一人称穿插监控和员工转述，主视角仍为林晚",
+  "characters": [
+    "周凯",
+    "周凯团队员工",
+    "接驳站工作人员",
+    "排队游客",
+    "林晚"
+  ],
+  "character_goal": "周凯想带队离开营地，用更便宜方式找到替代住宿。",
+  "opposition_goal": "景区接驳站只认预约名额，不给退订团队保留座位。",
+  "conflict_action": "周凯拖着行李冲到接驳站，拿原预约截图要求上车，被工作人员刷系统拒绝。",
+  "information_gap": "员工还不清楚接驳、保险、夜巡都随周凯签字退订一起失效。",
+  "emotional_debt_delta": "市场反噬开始，周凯的自信出现裂缝。",
+  "payoff_or_hook": "接驳站屏幕显示下一班散客车排队三小时。",
+  "chapter_end_hook": "接驳站屏幕显示下一班散客车排队三小时。",
+  "paywall_card": false,
+  "must_include": [
+    "官方广播提示接驳满员",
+    "行李堆在人行道",
+    "员工抱怨太阳晒",
+    "周凯仍说比680便宜",
+    "工作人员只认系统预约"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林晚出面刁难",
+    "不要写成偶然没车",
+    "不要忽略退订导致名额失效"
+  ]
+}

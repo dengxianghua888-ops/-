@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 900,
+  "target_chars_max": 980,
+  "location": "封控区内设备间",
+  "time": "同一时段，众人被困后",
+  "pov": "第一人称",
+  "characters": ["陆昭", "宋棠", "母亲"],
+  "character_goal": "从外公遗留物中确认旧案与当前对位窗口，给后续返场找准时间。",
+  "opposition_goal": "宋棠和母亲想阻止她继续冒进，逼她留在安全区等待救援。",
+  "conflict_action": "陆昭掀开设备柜，找出旧录音笔和刻痕表盘，当场播放外公最后一段倒计时。",
+  "information_gap": "她为何会有这些遗物，又为何像提前准备过一样藏在这里？",
+  "emotional_debt_delta": "旧创伤债落地，解释她偏执的私人根源。",
+  "payoff_or_hook": "录音把十二年前的事故声和现在重叠，证明这不是第一次。",
+  "chapter_end_hook": "截断句：录音里第三声警报响起时，外面的广播也跟着响了。",
+  "paywall_card": false,
+  "must_include": ["外公遗物不是回忆里出现，而是当场被翻出", "宋棠重新靠近但仍没完全信", "录音内容和当前广播形成重叠", "陆昭意识到窗口还会再开一次"],
+  "must_not_write_as_exposition": ["不要长篇回忆童年事故", "不要写旧案资料整页摘录", "不要把母亲写成忏悔戏"],
+  "rhythm_job": {
+    "shape": "翻设备柜-遗物出场-录音重叠-窗口锁定",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "录音沙沙声、表盘刻痕、宋棠压低呼吸"
+  }
+}

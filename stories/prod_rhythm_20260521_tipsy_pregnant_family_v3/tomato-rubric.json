@@ -1,0 +1,77 @@
+{
+  "story": "stories/prod_rhythm_20260521_tipsy_pregnant_family_v3",
+  "overall_score": 9.15,
+  "dimensions": {
+    "length_alignment": {
+      "score": 7.6,
+      "evidence": "总字数 10982,章节方差 0.0"
+    },
+    "hook_density": {
+      "score": 6.67,
+      "evidence": "10/15 强钩,弱钩章: ch06,ch07,ch08,ch10,ch15",
+      "weak_chapters": [
+        "ch06",
+        "ch07",
+        "ch08",
+        "ch10",
+        "ch15"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 6/4"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 31.688/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 15.768,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.79,
+      "evidence": "源/稿均行长 14.815/16.489, 短行率 0.6643/0.6411, 对白行率 0.2403/0.3093",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 12267,
+          "line_count": 828,
+          "avg_line_chars": 14.815,
+          "median_line_chars": 14.0,
+          "short_line_rate": 0.6643,
+          "long_line_rate": 0.0121,
+          "quote_line_rate": 0.2403,
+          "barrage_line_rate": 0.2162,
+          "question_marks_per_k": 7.174
+        },
+        "candidate": {
+          "chars": 10982,
+          "line_count": 666,
+          "avg_line_chars": 16.489,
+          "median_line_chars": 14.0,
+          "short_line_rate": 0.6411,
+          "long_line_rate": 0.0,
+          "quote_line_rate": 0.3093,
+          "barrage_line_rate": 0.1126,
+          "question_marks_per_k": 3.096
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [
+    "ch06",
+    "ch07",
+    "ch08",
+    "ch10",
+    "ch15"
+  ],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

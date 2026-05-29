@@ -1,0 +1,95 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chars_per_chapter": {
+      "min": 500,
+      "max": 1200,
+      "preferred": 650
+    },
+    "chapter_count_target": "12-18",
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "first_300_chars": "必须抛出母子重逢、父亲已死、母亲不知真相的强冲突",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_type": "真相证据递进 / 空卡反转 / 父亲死亡实锤 / 顾承安自爆"
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短故事读者",
+      "偏好家庭伦理复仇、迟来悔恨、不原谅结局的读者",
+      "对母子、父子、原生家庭亏欠题材敏感的下沉爽文读者"
+    ],
+    "emotional_needs": [
+      "替被辜负的父亲和孩子讨回公道",
+      "看到伪深情母亲被事实击穿",
+      "看到小三型反派被法律和因果双重清算",
+      "获得“不原谅也合理”的情绪释放"
+    ],
+    "genre_forbidden_zones": [
+      "禁止洗白母亲为纯误会受害者",
+      "禁止让主角与母亲大团圆和解",
+      "禁止把顾承安写成单纯情敌，必须有实质恶行和证据链",
+      "禁止弱化父亲死亡责任",
+      "禁止用空泛煽情替代具体物证、账单、病历、转账记录"
+    ]
+  },
+  "market_positioning": {
+    "core_genre": "family_ethics",
+    "reader_promise": "被母亲和小三害到失父失聪的儿子，用病历、空卡、录音和法律清算所有迟来的深情。",
+    "dominant_selling_points": [
+      "母亲装深情却不知道前夫已死",
+      "五十万救命钱为空卡",
+      "父亲死亡真相层层反噬",
+      "反派亲口承认骗局",
+      "主角收下补偿但不原谅"
+    ],
+    "emotion_debt": "母亲装穷骗离婚、纵容小三转走救命钱，导致父亲错过手术死亡",
+    "payoff_pattern": "真相公开后，反派被法律清算，母亲用死亡补偿但无法换来原谅，主角以父亲名义重建人生"
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      "T1_强冲突事件式：妈妈说给我转钱，可我爸早死了",
+      "T1_亲情反杀式：妈妈装深情三年后，我拿出爸爸死亡证明",
+      "T3_迟来悔恨式：爸爸死后，妈妈终于知道那张卡是空的",
+      "T4_数字谜团式：五十万救命钱到账前，爸爸断了气",
+      "T5_反讽关系式：她说最亏欠我爸，却不知道他死了三年"
+    ]
+  },
+  "chapter_pacing": {
+    "opening_chapters": "1-3章完成重逢、身份揭开、旧债抛出",
+    "middle_chapters": "4-8章完成病历、空卡、耳伤、顾承安骗局递进",
+    "late_chapters": "9-13章完成反派自爆、法律清算、母亲崩塌",
+    "ending": "主角接受财产用于父亲医疗基金，但明确不原谅、不回头"
+  },
+  "success_metrics": {
+    "完读欲": {
+      "target_score": 9.0,
+      "drivers": ["父亲已死信息差", "母亲查真相递进", "顾承安自爆", "最终不原谅"]
+    },
+    "付费点": {
+      "target_score": 8.8,
+      "required_cards": ["妈妈闯入出租屋看到遗像", "空卡真相曝光", "顾承安电话自爆", "病房持刀冲突"]
+    },
+    "情绪释放": {
+      "target_score": 9.2,
+      "required_payoffs": ["顾家破产", "顾承安判死刑", "母亲遗嘱补偿无效", "父亲基金落地"]
+    },
+    "AI味": {
+      "target_score": "<=1.0/10",
+      "control": "少用总结句和抽象抒情，所有情绪落到动作、物证、病历、钱款和身体损伤"
+    },
+    "爆点密度": {
+      "target_score": 8.8,
+      "minimum": "每章至少1个信息推进或情绪爆点，每2500-3500字至少1个付费级卡点"
+    }
+  }
+}

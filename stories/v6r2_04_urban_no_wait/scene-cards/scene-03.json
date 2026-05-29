@@ -1,0 +1,91 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "target_chars_min": 880,
+  "target_chars_max": 1000,
+  "location": "民政局外走廊 → 沈砚的车里",
+  "time": "紧接第一章，同日上午",
+  "pov": "苏念",
+  "characters": ["苏念", "沈砚", "方怡"],
+  "character_goal": "苏念确认伪造真相+接受沈砚求婚",
+  "opposition_goal": "方怡（回忆中）的背叛构成情感压迫",
+  "conflict_action": "苏念验证伪造期权签名→回忆方怡的闺蜜情谊vs背叛→沈砚解释'太仓促是配不上你'→单膝下跪求婚→当场领证",
+  "information_gap": "沈砚三个月前就开始帮苏念筹备独立公司——此刻揭示'太仓促'的真正含义",
+  "emotional_debt_delta": "闺蜜债务建立（方怡回忆）；同时第一笔暖债兑现（沈砚的深情确认）",
+  "payoff_or_hook": "沈砚'但证现在就领'——承诺+行动的确定感",
+  "chapter_end_hook": "沈砚郑重戴上戒指说'婚礼我会补，求婚我会重来。但证现在就领！'——读者期待领证结果",
+  "paywall_card": false,
+  "must_include": [
+    "签名验伪细节（笔迹特征）",
+    "方怡闺蜜回忆（具体善意事件2-3件）",
+    "沈砚解释'太仓促=配不上你'的反转",
+    "单膝下跪+戒指",
+    "'但证现在就领'金句"
+  ],
+  "must_not_write_as_exposition": [
+    "沈砚的家族背景全貌",
+    "沈砚暗恋多久的时间线",
+    "远景科技的具体规模"
+  ],
+  "rhythm_job": {
+    "shape": "沉底-回忆-突然拉起",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 19.0,
+    "dominant_emotion": "背刺痛感-柳暗花明",
+    "emotion_arc": "发现伪造的冷 → 闺蜜回忆的碎 → 沈砚出现的暖 → 求婚的释然",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "前半段心绞痛般的背叛感，后半段被沈砚的行动力暖到想哭",
+    "required_techniques": [
+      {
+        "technique": "细节验伪",
+        "instruction": "用一个精确的细节（签名笔迹中特有的起笔习惯不对）完成验伪，比'我看出是假的'有十倍说服力"
+      },
+      {
+        "technique": "甜蜜回忆反衬现实",
+        "instruction": "写2-3个具体的闺蜜善意事件——'她第一次加班通宵是我帮她调的bug''第一次拿到offer我们一起喝醉'，越具体越放大背叛残忍"
+      },
+      {
+        "technique": "语义反转收章",
+        "instruction": "'我说太仓促，是觉得这种潦草的仪式配不上你'——把第1章看似冷淡的回应重新解释，读者恍然大悟"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "我说A，是觉得[深层真实原因反转表面含义]",
+        "example": "我说太仓促，是觉得这种潦草的仪式配不上你。",
+        "instruction": "把读者和女主共同的误解一句话推翻，信息差引爆带来的满足感极强"
+      },
+      {
+        "structure": "转折词+[极短斩钉截铁的行动宣言]",
+        "example": "但证现在就领！",
+        "instruction": "在浪漫铺垫后突然切回务实行动，反差产生的果决感让读者安心"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "对比式——越甜蜜的闺蜜回忆对比越显得背叛残忍",
+    "source_excerpt": "红底照片上，那个签名的起笔方向不对。\n我的字，横画从左下起笔。这个签名，起笔向右。\n是方怡。\n她第一次加班通宵是我帮她调的bug。\n她第一次拿到年终奖高兴得请我喝了一晚上。\n她说：念念你放心，你男朋友我不馋。\n所以——她抢走了他。\n……\n沈砚蹲下来，从西装口袋里拿出一枚戒指。\n“我说太仓促，是觉得这种潦草的仪式配不上你。”\n“但证现在就领！”"
+  },
+  "character_voices": {
+    "苏念": {
+      "口癖": [],
+      "句式": "内心独白用短句列举事实，不抒情",
+      "单句上限": 12,
+      "禁止": "呜呜、我好难过"
+    },
+    "沈砚": {
+      "口癖": ["不提了"],
+      "句式": "极短、果决、一句话解决问题",
+      "单句上限": 9,
+      "禁止": "你听我解释、害怕"
+    }
+  }
+}

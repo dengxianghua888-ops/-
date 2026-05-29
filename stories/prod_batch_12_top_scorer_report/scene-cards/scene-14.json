@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 593,
+  "target_chars_max": 793,
+  "location": "法院主审庭",
+  "time": "一审庭审后半段",
+  "pov": "林知夏第一人称",
+  "characters": [
+    "林知夏",
+    "仁和医院院长",
+    "检察官",
+    "审判长",
+    "假家属",
+    "贺闻川"
+  ],
+  "character_goal": "见证证据链闭环，让伪证和假身份全部反噬反派。",
+  "opposition_goal": "院长和假家属要把责任推给信息科和贺闻川，保住主谋。",
+  "conflict_action": "检方依次出示病历日志、耗材采购、冷链曲线、蜡块编号、二次 DNA、转账记录，院长被逼供出买保单和伪造亲属身份的组织者。",
+  "information_gap": "最后一个买保单的人是否能被当庭锁定。",
+  "emotional_debt_delta": "法律偿还落地前，反派傲慢被证据逐项击碎。",
+  "payoff_or_hook": "所有清白证明变成定罪线索，死环形成。",
+  "chapter_end_hook": "法官敲槌前，医院院长突然供出最后一个买保单的人。",
+  "paywall_card": false,
+  "must_include": [
+    "六项证据节点明确出现",
+    "院长从镇定到失控",
+    "假家属身份被二次 DNA 推翻",
+    "林知夏没有私刑冲动，只握紧录音笔"
+  ],
+  "must_not_write_as_exposition": [
+    "不要详细渲染犯罪经过",
+    "不要让院长轻飘飘悔过",
+    "不要跳过检方举证逻辑"
+  ]
+}

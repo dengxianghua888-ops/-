@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "B1-B3",
+  "scene_label": "九胎签状·错付铺底",
+  "location": "礼安王府正堂",
+  "time": "申时正(刚行阉割止血)",
+  "pov": "谢长卿",
+  "characters": [
+    "谢长卿",
+    "漱玉郡主",
+    "谢明姝",
+    "萧迟"
+  ],
+  "character_goal": "保住第九个胎儿的尸身、为亲子讨血债",
+  "opposition_goal": "漱玉与谢明姝逼谢长卿签断亲血书,免去萧迟死罪",
+  "conflict_action": "漱玉吻额温言相劝,谢明姝撞柱要挟,谢长卿在'国师卜骨倒数'声中签下血书",
+  "information_gap": "卜骨爻辞实为萧迟玉佩声机簧伪作,读者与主角皆不知",
+  "emotional_debt_delta": "+错付债:亲妻吻额'夫君真是体己'+亲姐成礼玉笄成绑架信物",
+  "payoff_or_hook": "漱玉俯身吻额'夫君真是体己'(M5 第一次温度反转)",
+  "chapter_end_hook": "漱玉郡主整褙子离席,谢长卿被拽起跌膝,失血浸透廊砖",
+  "paywall_card": false,
+  "target_chars_min": 1450,
+  "target_chars_max": 1750,
+  "must_include": [
+    "漱玉吻眉心说'夫君真是体己'",
+    "谢明姝拍尘扔状书入炭盆",
+    "卜骨爻辞'凶星不去,宿主气数倒数'",
+    "下身止血伤口浸透锦褥"
+  ],
+  "must_not_write_as_exposition": [
+    "禁直白说'这是伪系统骗局'",
+    "禁主角内心解释'我已识破谎言'",
+    "禁出现现代医学/系统/数据词汇"
+  ]
+}

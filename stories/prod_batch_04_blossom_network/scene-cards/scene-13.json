@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "旧照相馆与陆闻舟车内",
+  "time": "叶昭离境后第二天",
+  "pov": "第三人称贴陆闻舟，保持冷叙述",
+  "characters": ["陆闻舟", "陆星澈", "周毓兰视频影像", "助理"],
+  "character_goal": "陆闻舟想找到叶昭离开的真实原因。",
+  "opposition_goal": "迟到的物证把他一直逃避的责任全部推到面前。",
+  "conflict_action": "陆闻舟从旧相机取出存储卡，在车里播放周毓兰视频，又翻到病历夹背面的手写遗书。",
+  "information_gap": "陆闻舟第一次知道叶昭生产险情、外婆全家福心愿和孩子伤害的后果。",
+  "emotional_debt_delta": "真相迟到债爆发，男主开始悔悟但已经失去补救时机。",
+  "payoff_or_hook": "陆星澈看见自己说脏的片段，问妈妈是不是不要他了。",
+  "chapter_end_hook": "旧相机亮起，屏幕里是周毓兰迟到的遗言。",
+  "paywall_card": false,
+  "must_include": [
+    "旧相机存储卡",
+    "视频里外婆的氧气声",
+    "病历夹背面的手写遗书",
+    "叶昭生产险情被提及",
+    "陆星澈后悔发问"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用作者旁白替代视频和遗书",
+    "不要让陆闻舟立刻获得原谅机会",
+    "不要把孩子悔意写成已被宽恕"
+  ]
+}

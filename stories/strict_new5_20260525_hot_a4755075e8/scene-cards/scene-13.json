@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "空婚房 / 餐桌",
+  "time": "试演通过当晚",
+  "pov": "齐衍深偏近景，但仍保持第三人称冷视角",
+  "characters": [
+    "齐衍深",
+    "沈念歌（未同场，仅留物）"
+  ],
+  "character_goal": "推进本场目标并迫使关系或证据发生变化。",
+  "opposition_goal": "空房子和实物证据本身在逼他承认自己做过的选择。",
+  "conflict_action": "齐衍深回到空房，对照手写账单、预支记录、急诊票据和空盒，一项项看完。",
+  "information_gap": "截断句：‘她为我跪过。’",
+  "emotional_debt_delta": "男主正式看见女主的极限牺牲，悔悟成立。",
+  "payoff_or_hook": "不是别人骂醒他，是账单和空盒亲手把他打醒。",
+  "chapter_end_hook": "截断句：‘她为我跪过。’",
+  "paywall_card": false,
+  "must_include": [
+    "账单、空盒、急诊票据至少三样物件同场",
+    "齐衍深翻页或坐下又站起的动作",
+    "不允许长篇自白，只能被物件逼出反应",
+    "空房的日常细节增强迟到感"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写男主自我开脱长文",
+    "不要复盘全部剧情",
+    "不要把悔悟写成一句‘我错了’"
+  ],
+  "rhythm_job": {
+    "shape": "空场看物-信息回刺-迟到崩塌",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": "物件主导，短反应句推进，留空房静场做承接，章尾只留一句自认。"
+  }
+}

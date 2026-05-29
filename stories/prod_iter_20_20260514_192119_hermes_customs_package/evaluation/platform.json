@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "score": 9.0,
+  "evidence": [
+    {"path": "draft-scenes/scene-01.md", "quote": "鉴定结论：白底鳄鱼皮铂金包·限量真品级·五十只·总估值30,000,000元·待入库销毁", "note": "首屏黄金30秒红屏钩"},
+    {"path": "draft-scenes/scene-04.md", "quote": "48小时内不交，工厂封厂、保证金冻结、征信拉黑。红章单据砸在我面前", "note": "倒计时式章末钩"},
+    {"path": "draft-scenes/scene-08.md", "quote": "我寄存在真鉴堂的财物，三千万真品五十只，被人调包了", "note": "B8 反转章末钩"},
+    {"path": "draft-scenes/scene-12.md", "quote": "周老师，晚了。科技鉴定嘛，电子签怎么签，你就怎么坐牢吧", "note": "M3 闭合金句章末钩"},
+    {"path": "machine_metrics.paywall_cards", "quote": "actual=8 required=4", "note": "付费卡点充足"}
+  ]
+}

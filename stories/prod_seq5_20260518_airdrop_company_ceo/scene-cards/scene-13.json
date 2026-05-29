@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 680,
+  "target_chars_max": 840,
+  "location": "许闻溪临时办公室",
+  "time": "周砚礼停职当晚",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "离婚律师", "李屿"],
+  "character_goal": "许闻溪正式切断婚姻关系",
+  "opposition_goal": "周砚礼想把离婚拖成冷静期，等舆论和审计过去",
+  "conflict_action": "许闻溪把离婚协议、财产分割清单和诉讼材料逐份推给周砚礼签收",
+  "information_gap": "周砚礼以为她只是夺权，不会真放弃十年感情",
+  "emotional_debt_delta": "-背叛债第一笔 +离婚对抗债",
+  "payoff_or_hook": "情感关系被转化成清楚的法律文件",
+  "chapter_end_hook": "周砚礼看到财产清单最后一页，手指开始发抖。",
+  "paywall_card": false,
+  "must_include": ["离婚协议", "财产分割清单", "诉讼材料", "签收", "十年感情求情"],
+  "must_not_write_as_exposition": ["不要让女主哭着挽留", "不要让男主悔恨抵消背叛", "不要写成家庭伦理调解"]
+}

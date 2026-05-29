@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-10",
+  "chapter_id": 10,
+  "is_chapter_end": true,
+  "target_chars_min": 680,
+  "target_chars_max": 880,
+  "location": "皇宫·公主寝殿",
+  "time": "册封典礼后数日",
+  "pov": "阿昭",
+  "characters": ["阿昭", "父皇", "素笺"],
+  "character_goal": "阿昭要定义惩罚方式：不杀，让他活着受苦",
+  "opposition_goal": "无直接对抗——沈砚卿在宫门外跪求不得入",
+  "conflict_action": "父皇问如何处置→阿昭说'活着远比死去痛苦'→沈砚卿的来信被逐一烧毁→素笺汇报沈砚卿跪画院门外昏倒→阿昭只说'知道了'",
+  "information_gap": "读者知道沈砚卿在门外受苦，阿昭知道但不在乎——冷漠本身成为景观",
+  "emotional_debt_delta": "持续偿还中：以'不在乎'替代仇恨——更高级的惩罚",
+  "payoff_or_hook": "沈砚卿昏倒在画院门外→她只说'知道了'——物理距离即情感距离",
+  "chapter_end_hook": "素笺来报沈砚卿昏倒在画院门外——阿昭平静地说了声'知道了'便继续作画",
+  "paywall_card": false,
+  "must_include": [
+    "'活着远比死去要痛苦的多'的惩罚哲学台词",
+    "烧信的物象场景（信/画在火炉中一瞬即灭）",
+    "'连片刻温暖都给不了我'的评价台词",
+    "沈砚卿在门外的受苦信息（通过素笺转述）",
+    "阿昭的冷淡回应（一两字带过）"
+  ],
+  "must_not_write_as_exposition": [
+    "不得用长段解释'为什么不杀他'的心理",
+    "沈砚卿的跪求不得写成同情段",
+    "不得用叙述视角评判阿昭的选择是否正确"
+  ],
+  "rhythm_job": {
+    "shape": "匀速低压",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 22.5,
+    "comma_period_ratio": 0.63,
+    "sentence_avg_len": 20.8,
+    "dominant_emotion": "冷漠-自愈",
+    "emotion_arc": "决断（不杀留着受苦）→ 平静 → 淡漠 → 自我疗愈",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "佩服女主的清醒，同时享受沈砚卿受苦的旁观快感",
+    "required_techniques": [
+      {
+        "technique": "惩罚哲学的升维",
+        "instruction": "'活着远比死去痛苦'——从物理惩罚升维到存在惩罚。这句必须是阿昭对父皇说的，语气平静如水——比任何愤怒的判决都更冷"
+      },
+      {
+        "technique": "物象隐喻替代抒情",
+        "instruction": "烧信/烧画的场景：写火焰的状态（一瞬即灭/连余烬都没留）隐喻感情的状态。不说'我不爱他了'，用'连片刻温暖都给不了我'具象化"
+      },
+      {
+        "technique": "旁观式叙述制造距离感",
+        "instruction": "沈砚卿的惨状全部通过素笺转述，阿昭用最短的回应（'知道了''嗯'）表示接收到信息但不在乎——旁观视角比直接报复更冷"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "比较句式（A远比B更X）——定义刑罚哲学",
+        "example": "活着远比死去要痛苦的多",
+        "instruction": "一句话翻转'杀了他'的预期——必须简洁≤12字，语气轻描淡写"
+      },
+      {
+        "structure": "连…都…的极端否定 + 反问收束",
+        "example": "这些信就连片刻的温暖都给不了我，我要她何用",
+        "instruction": "用'片刻'的最低标准都达不到来表达彻底死心——改为画/信/墨宝等画坊物件"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "活着远比死去要痛苦的多……每日都会有人来和我汇报这些消息，只是这些人和事，我根本都不再在乎了……这些信就连片刻的温暖都给不了我，我要她何用？……青黛告诉我，陆北辰昏倒在了宫门外头。"
+  }
+}

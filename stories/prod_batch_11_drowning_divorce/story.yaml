@@ -1,0 +1,238 @@
+pipeline_mode: production
+status: final
+title:
+  primary: 婚礼落海后，他先救假千金
+  alternatives:
+  - 我落海那晚，丈夫抱走了假千金
+  - 离婚后，前夫才知道我替嫁三年
+runner_policy:
+  external_allowed: false
+  filesystem_write_allowed: false
+  output_protocol: artifact_bundle_only
+audit:
+  provider: OpenAI
+  model: GPT-5.2
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+    evaluation:
+    - story/evaluation/platform.json
+    - story/evaluation/emotion.json
+    - story/evaluation/style.json
+    - story/evaluation/logic.json
+  phase: 'Phase 7: 投稿包与章节化定稿'
+  role: Final Packager
+final_outputs:
+- final.md
+- craft-notes.md
+- tomato-submission.md
+- final-chapters/_chapters-map.md
+- final-chapters/ch01.md
+- final-chapters/ch02.md
+- final-chapters/ch03.md
+- final-chapters/ch04.md
+- final-chapters/ch05.md
+- final-chapters/ch06.md
+- final-chapters/ch07.md
+- final-chapters/ch08.md
+- final-chapters/ch09.md
+- final-chapters/ch10.md
+- final-chapters/ch11.md
+- final-chapters/ch12.md
+- final-chapters/ch13.md
+- final-chapters/ch14.md
+- final-chapters/ch15.md
+- final-chapters/ch16.md
+- story.yaml
+quality_gate:
+  schema_version: 2
+  pipeline_mode: production
+  gate_status: pass
+  critical_failures: []
+  important_failures:
+  - 单章长度普遍低于 beat-bible 900-1100 字规划，虽满足 production template 10000-18000 总长门槛，但番茄单章饱满度偏薄。
+  - 中后段网络证据链密集，部分反转依赖第三方账号/匿名实习生/监管推进，现场阻力可再加厚。
+  critic_scores:
+    platform: 8.2
+    emotion: 8.0
+    style: 8.1
+    logic: 7.8
+  machine_metrics:
+    text_path: stories/prod_batch_11_drowning_divorce/final.md
+    target_length:
+      min: 10000
+      max: 13000
+      actual: 12211
+      status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      lengths:
+      - 695
+      - 782
+      - 801
+      - 709
+      - 656
+      - 721
+      - 690
+      - 736
+      - 730
+      - 940
+      - 734
+      - 845
+      - 739
+      - 662
+      - 944
+      - 714
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        present: true
+        paragraphs: 3
+        chars: 84
+        status: pass
+      mobile_paragraphs:
+        offending_paragraphs: 0
+        max_sentence_endings: 1
+        examples: []
+        status: pass
+      submission_paywall_map:
+        required: 4
+        actual: 4
+        present: true
+        status: pass
+      visible_paywall_labels:
+        hits: []
+        count: 0
+        status: pass
+    source_overlap:
+      max_continuous_overlap_chars: 7
+      status: pass
+    repeated_ngram:
+      max_repeated_substring_chars: 12
+      status: pass
+    style_metrics:
+      char_count: 12211
+      sentence_count: 665
+      avg_sentence_length: 17.362
+      dialogue_ratio: 0.195
+      question_marks: 61
+      question_marks_per_k: 4.995
+      physical_emotion_hits:
+        指尖: 1
+        胸腔: 1
+        喉咙: 3
+        眼眶: 1
+        掌心: 1
+      forbidden_hits: {}
+      soft_forbidden_hits:
+        轻轻: 1
+      action_density_per_k: 22.766
+    semantic_repetition:
+      sentence_count: 504
+      unique_sentence_skeletons: 504
+      max_sentence_repeats: 1
+      max_sentence_repeat_ratio: 0.002
+    forbidden_words:
+      hits: {}
+      status: pass
+    soft_forbidden_words:
+      hits:
+        轻轻: 1
+      status: pass
+    failures: []
+  source_report: story/quality-report.json
+chapters:
+  count: 16
+  min_chars_per_chapter: 500
+  max_chars_per_chapter: 1200
+  files:
+  - path: final-chapters/ch01.md
+    hook: 傅寒舟没有立刻签，墨水溅上离婚协议。
+  - path: final-chapters/ch02.md
+    hook: 傅寒舟发现她连傅家珠宝修复署名都不要。
+  - path: final-chapters/ch03.md
+    hook: 许母威胁时，女主录音并转发律师。
+  - path: final-chapters/ch04.md
+    hook: 傅寒舟找不到护具记录，伤腿疼到站不稳。
+  - path: final-chapters/ch05.md
+    hook: 全网骂女主抢姐姐婚礼。
+  - path: final-chapters/ch06.md
+    hook: 女主账号首页只挂三张图。
+  - path: final-chapters/ch07.md
+    hook: 傅氏拍卖行官号被追问到关闭筛选。
+  - path: final-chapters/ch08.md
+    hook: 傅寒舟不知道女主名字已进王冠项目组。
+  - path: final-chapters/ch09.md
+    hook: 傅寒舟才知道女主曾为替嫁放弃入学。
+  - path: final-chapters/ch10.md
+    hook: 许明珠柔弱人设裂开第一道缝。
+  - path: final-chapters/ch11.md
+    hook: 许父连夜求女主撤材料。
+  - path: final-chapters/ch12.md
+    hook: 傅寒舟看见女主在水下伸向他的手。
+  - path: final-chapters/ch13.md
+    hook: 傅寒舟看见女主和周砚白一起进展厅。
+  - path: final-chapters/ch14.md
+    hook: 女主问傅寒舟和自己这个前妻有什么关系。
+  - path: final-chapters/ch15.md
+    hook: 女主关掉许明珠配合调查的直播回放。
+  - path: final-chapters/ch16.md
+    hook: 多年后傅寒舟再也等不到女主回头。
+submission:
+  platform: 番茄
+  tags:
+  - 现代言情
+  - 追妻火葬场
+  - 离婚后清醒
+  - 真假千金
+  - 替嫁
+  - 女主事业线
+  - 证据复仇
+  - 文物修复
+  - 不复婚
+  - 原生家庭切割
+source_policy:
+  access: trusted_runners_allowed
+  notes: source.md may be used by configured agent runners
+automation:
+  last_run_id: 20260511154352
+  runner: codex
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped
+final_packaging:
+  final_file: final.md
+  craft_notes_file: craft-notes.md
+  submission_file: tomato-submission.md
+  chapters_map: final-chapters/_chapters-map.md
+  chapter_count: 16
+  chapter_files:
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  - final-chapters/ch16.md
+  revisions_applied:
+  - 直接投稿版优化：补导语、自然付费卡点、一句一段移动端格式。

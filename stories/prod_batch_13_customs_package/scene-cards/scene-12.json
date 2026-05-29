@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 632,
+  "target_chars_max": 832,
+  "location": "监管仓临时调查室",
+  "time": "当晚九点半",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "网安人员",
+    "值班警员",
+    "平台总部风控负责人",
+    "赵启明",
+    "代缴公司联系人"
+  ],
+  "character_goal": "林照配合核对八百万流水，推动追回资金并锁定黑产链条。",
+  "opposition_goal": "赵启明要把代缴账户说成平台授权合作方，切断个人分账责任。",
+  "conflict_action": "网安和警方把后台日志、代缴账户、分账明细、赵启明签名确认单逐项投屏核对。",
+  "information_gap": "假鉴定老师和仓内内鬼是否会被同步抓获。",
+  "emotional_debt_delta": "经济债开始实质偿还，八百万去向被锁住。",
+  "payoff_or_hook": "代缴账户资金流指向赵启明亲属账户。",
+  "chapter_end_hook": "网安查到代缴账户流水，八百万没有进平台总账，而是分成四笔转向赵启明亲属账户。",
+  "paywall_card": true,
+  "must_include": [
+    "代缴账户流水",
+    "四笔分账",
+    "赵启明亲属账户",
+    "后台日志",
+    "假鉴定接口"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用猜测替代查证",
+    "不要模糊资金去向",
+    "不要扩大成整个平台系统性腐败"
+  ]
+}

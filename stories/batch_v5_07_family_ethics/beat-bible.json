@@ -1,0 +1,31 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_b8b5e09d86",
+  "title": "他的加班费养了别人三年",
+  "genre": "family_ethics",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "adaptation": {
+    "source_setting": "被丈夫骗租自家房三年、房租养小三的妻子清醒离婚自救",
+    "new_setting": "被丈夫骗说创业亏损三年、实际用家庭存款养情人的妻子发现真相后清醒切割",
+    "character_map": {
+      "舒窈→林舒": "女主，被丈夫经济欺骗三年后清醒离婚重建人生",
+      "江淮→何骏": "丈夫，谎称创业亏损实则养情人，后被同样背叛",
+      "林薇→周颖": "情人，被何骏包养后抛弃，反向求助女主",
+      "婆婆→婆婆": "先道歉后劝忍，最终接受离婚",
+      "陈叙→方远": "新伴侣，坦诚可靠"
+    }
+  },
+  "beats": [
+    {"beat_id": "B1", "title": "存款骗局揭开", "min_impacts": 3, "must_include": ["发现丈夫谎称亏损", "实际存款流向不明"]},
+    {"beat_id": "B2", "title": "情人公寓捉奸", "min_impacts": 4, "must_include": ["情人炫耀真相", "丈夫沉默"]},
+    {"beat_id": "B3", "title": "摊牌与用钱收买", "min_impacts": 3, "must_include": ["丈夫解释求和", "女主爆发拒绝"]},
+    {"beat_id": "B4", "title": "冷静提出离婚", "min_impacts": 3, "must_include": ["女主坚持离婚", "丈夫从哀求到威胁"]},
+    {"beat_id": "B5", "title": "婆婆劝和与协议", "min_impacts": 2, "must_include": ["婆婆劝忍被拒", "拿到补偿离婚"]},
+    {"beat_id": "B6", "title": "重建与情人求助", "min_impacts": 3, "must_include": ["女主开始新生活", "情人被抛弃来借钱被拒"]},
+    {"beat_id": "B7", "title": "丈夫住院求复合", "min_impacts": 2, "must_include": ["丈夫落魄求复合", "女主拒绝"]},
+    {"beat_id": "B8", "title": "新恋情与坦诚", "min_impacts": 2, "must_include": ["遇见新伴侣", "坦诚承诺"]},
+    {"beat_id": "B9", "title": "因果回旋", "min_impacts": 4, "must_include": ["丈夫被新妻出轨", "承认报应", "女主不介入"]},
+    {"beat_id": "B10", "title": "往前走不回头", "min_impacts": 2, "must_include": ["接受不完美", "继续前行"]}
+  ]
+}

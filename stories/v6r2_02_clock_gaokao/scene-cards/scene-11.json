@@ -1,0 +1,83 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-08a",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "target_chars_min": 520,
+  "target_chars_max": 600,
+  "location": "工厂外空地·穹顶边缘·家属群聚处",
+  "time": "晚上8:18，所有手段失败后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "陈栩", "沈妈妈", "玩家家属群体"],
+  "character_goal": "沈听澜不需要争取什么——所有人主动来求她",
+  "opposition_goal": "（无对手）所有人的目标从'打她'变为'求她'",
+  "conflict_action": "陈栩从踹她的人变成跪下磕头的人；妈妈哭着说'妈妈错了'",
+  "information_gap": "（信息差缩小）所有人终于知道她说的是真的，但不知道怎么救",
+  "emotional_debt_delta": "M3大规模偿还——每一笔债精确回旋",
+  "payoff_or_hook": "核心爽感：看到前面施暴者一个个跪下",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["陈栩跪下（对应之前踹她）", "妈妈道歉（对应之前逼跪）", "玩家家属从骂到求", "称呼变化", "沈听澜的平静"],
+  "must_not_write_as_exposition": ["沈听澜的内心得意", "对回旋的解说"],
+  "rhythm_job": {
+    "shape": "蓄力-爆发（群体绝望蓄力→翻转爆发）",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 15.0,
+    "dominant_emotion": "逆转-爽感释放",
+    "emotion_arc": "所有人绝望 → 所有人求她 → 陈栩跪下",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "爽到极致——前面欺负她的人一个个跪下",
+    "required_techniques": [
+      {
+        "technique": "M3精确回旋（同一人翻转）",
+        "instruction": "陈栩从'疯女人'(踹她)→'听澜姐，求求你'(跪她)——同一人的称呼+姿态180度翻转"
+      },
+      {
+        "technique": "群体反转的精确措辞对照",
+        "instruction": "让反转后的台词和之前的攻击形成语义镜像——'她入戏太深'→'快让她救人'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "称呼变化+求救+极致让步",
+        "example": "小可，救救我女儿，阿姨给你磕头了！",
+        "instruction": "陈栩从'疯女人'变'听澜姐'——称呼变化是态度转变的语言标记"
+      },
+      {
+        "structure": "这次没人X+他们都Y对比句式",
+        "example": "这次没人打断我，更没人质疑我。他们都期待地等着我告诉他们真相。",
+        "instruction": "和前面每次被打断形成对比——同一个'我要说话'的场景，结果完全反转"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "对比式",
+    "source_excerpt": "闺蜜妈妈扑通跪下，嘭嘭嘭磕了三个响头：\"小可，救救我女儿，阿姨给你磕头了！\"从'田可你这个贱人'到'小可救救我女儿'。从踹我到跪我。这次没人打断我，更没人质疑我。他们都期待地等着我告诉他们真相。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["我本来想让所有人都出来的"],
+      "句式": "平静陈述，轻描淡写式高格局",
+      "单句上限": 16,
+      "禁止": "指责、复仇、情绪宣泄"
+    },
+    "陈栩": {
+      "口癖": ["听澜姐", "求求你", "予安还在里面"],
+      "句式": "跪求式短句",
+      "单句上限": 14,
+      "禁止": "暴力语言"
+    },
+    "沈妈妈": {
+      "口癖": ["妈妈错了", "听澜"],
+      "句式": "哭泣+道歉",
+      "单句上限": 12,
+      "禁止": "训斥"
+    }
+  }
+}

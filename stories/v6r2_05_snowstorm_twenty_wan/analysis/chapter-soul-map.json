@@ -1,0 +1,971 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "包厢",
+      "source_line_range": [1, 48],
+      "char_count": 780,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 12.8,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 5.1,
+        "direct_dialogue_rate": 0.42,
+        "short_line_rate_lte16": 0.78,
+        "impact_density": 0.92,
+        "sentence_avg_len": 13.5
+      },
+      "emotion": {
+        "dominant_emotion": "震惊-克制",
+        "emotion_arc": "紧张期待 → 撞见震惊 → 被补刀 → 强行冷静",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "替女主窒息，同时被她的冷静震到——她竟然还能张嘴唱歌"
+      },
+      "highlights": {
+        "peak_moment": "陆晚月低声说'你挣的钱有一半转到了我卡上'，信息差瞬间全面引爆",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "丈夫不仅假装生病，还把妻子卖命挣的钱转给情人当生活费，而情人怀了他的孩子",
+        "bomb_detonation_technique": "递进式",
+        "reader_hook_point": "女主拿起话筒说'一首一百按歌收费'——她没崩溃反而继续唱"
+      },
+      "techniques": [
+        {
+          "technique": "三重信息差同步引爆",
+          "example": "装病(第1句)→夜场(第3句)→出轨(第6句)→钱流向(陆晚月开口)，300字内四层信息叠加引爆",
+          "effect": "读者来不及消化上一个冲击就被下一个击中，产生密集的情绪过载感"
+        },
+        {
+          "technique": "反差冷静法",
+          "example": "'我的声音稳得连自己都觉得陌生。'——在极端情境下展示超常的平静",
+          "effect": "冷静比崩溃更震撼——读者的心疼来自'她连哭都不敢'"
+        },
+        {
+          "technique": "压低声音的私密补刀",
+          "example": "'陆晚月站起来走到我面前，压低声音，只有我能听到。'——公开场合的私密羞辱",
+          "effect": "创造一个只有女主和读者能听到的秘密空间，增强代入感和愤怒"
+        },
+        {
+          "technique": "行为替代情绪",
+          "example": "'齐衍深手里的酒杯举到嘴边，迟迟没喝进去。'——不写他尴尬，写酒杯悬停",
+          "effect": "用静止动作暗示内心波动，比直接描写心理更有画面感"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "我在这唱歌挣钱，给你挣治病的钱。",
+          "structure": "陈述事实+反讽对照（我做的事 vs 你做的事）",
+          "why_it_works": "一句话同时完成信息揭露和道德审判，简洁到极致的力量"
+        },
+        {
+          "text": "我的声音稳得连自己都觉得陌生。",
+          "structure": "感官描述+自我疏离（'连自己都'结构）",
+          "why_it_works": "自我观察视角暗示解离状态，读者从中读到了巨大的压抑"
+        },
+        {
+          "text": "一首一百，按歌收费。",
+          "structure": "极短陈述句（数字+规则）",
+          "why_it_works": "在极端羞辱下用职业态度回应，尊严感的最小化表达"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话节奏和信息差叠加维持张力，无任何喘息空间",
+      "chapter_end_hook": {
+        "text": "齐衍深追出来了，一把扣住我的手腕。'你不用在这种地方上班。'语气高高在上的，让人膈应。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "刚施害完立刻摆出施恩姿态，用身份落差制造阅读愤怒",
+        "suspense_mechanism": "激发读者想知道女主会怎么回应这个高高在上的态度"
+      }
+    },
+    {
+      "chapter_id": 2,
+      "title": "裂缝",
+      "source_line_range": [49, 82],
+      "char_count": 720,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.5,
+        "comma_period_ratio": 0.38,
+        "question_mark_density_per_1k": 2.8,
+        "direct_dialogue_rate": 0.22,
+        "short_line_rate_lte16": 0.74,
+        "impact_density": 0.65,
+        "sentence_avg_len": 15.2
+      },
+      "emotion": {
+        "dominant_emotion": "隐痛-决断",
+        "emotion_arc": "表面平静 → 手抖暴露真实 → 回忆镯子 → 摘戒指仪式 → 冷判断",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "心疼到窒息——她连发抖都要藏起来"
+      },
+      "highlights": {
+        "peak_moment": "戒指掉进洗手池磕出一声轻响——婚姻的物理化终结声",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "摘戒指=脱离婚姻的第一个物理动作",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "手指开始发抖——她之前的平静全是假的"
+      },
+      "techniques": [
+        {
+          "technique": "延迟崩塌术",
+          "example": "'后台换衣服的时候。手指开始发抖。'——用句号隔开，让崩塌来得突然且安静",
+          "effect": "与前面的超常冷静形成反差，真实感暴增，读者终于确认她是人不是机器"
+        },
+        {
+          "technique": "物件转移法",
+          "example": "把手抖→联想到交镯子时也抖过→'不是心疼，是怕他看出来我舍不得'",
+          "effect": "用物件串联时间线，一个动作同时讲过去和现在，信息密度极高"
+        },
+        {
+          "technique": "声音具象化",
+          "example": "'戒指终于滑脱，掉进洗手池，磕出一声轻响。'",
+          "effect": "寂静中的微小声音被放大=情绪的放大镜，读者能'听见'这个结束"
+        },
+        {
+          "technique": "一句话定性",
+          "example": "'别在夜场了，不是心疼我，是嫌我在夜场丢他的人。'",
+          "effect": "不给解释、不给辩护，一句内心判断直接定性，帮读者完成认知闭合"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "没犹豫，也没再看。",
+          "structure": "否定+否定（双重否定=绝对态度）",
+          "why_it_works": "四个字两个否定，干净到不给感情任何回旋余地"
+        },
+        {
+          "text": "别在夜场了，不是心疼我，是嫌我在夜场丢他的人。",
+          "structure": "引述原文+否定解读A+给出真实解读B",
+          "why_it_works": "一句话完成'读者可能会误解→帮你看清真相'的认知校正"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "靠独处时的感官细节（发抖/水声/轻响）营造内心独白的重量感",
+      "chapter_end_hook": {
+        "text": "锁屏，没回。",
+        "hook_type": "silent_threat",
+        "hook_technique": "用最短的动作暗示决裂的开始——不回复=切断",
+        "suspense_mechanism": "她沉默了，接下来会做什么？"
+      }
+    },
+    {
+      "chapter_id": 3,
+      "title": "镯子",
+      "source_line_range": [83, 120],
+      "char_count": 810,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.2,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 1.2,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.82,
+        "sentence_avg_len": 16.0
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-隐忍",
+        "emotion_arc": "日常温暖(教琴) → 陆晚月出现 → 翡翠镯冲击 → 强忍 → 搬离 → 深夜崩裂",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "看到镯子在别人手上的那一刻，替女主想打人"
+      },
+      "highlights": {
+        "peak_moment": "看到外婆的翡翠镯安安稳稳圈在另一个女人的手腕上",
+        "peak_type": "betrayal_stack",
+        "emotional_bomb": "嫁妆不是当了换钱，而是直接送给了小三——传承被亵渎",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'哦这个呀，衍深送我的，他说是老东西，让我仔细戴着。'——炫耀式补刀"
+      },
+      "techniques": [
+        {
+          "technique": "日常温暖锚定对比",
+          "example": "先写教五岁小女孩弹琴的温柔→出教室门表情全没了→立刻撞见陆晚月",
+          "effect": "用日常温暖的反面衬托现实的残酷，转折越快冲击越大"
+        },
+        {
+          "technique": "视觉聚焦术",
+          "example": "'我没看她的肚子。目光落在了她右手腕上。'——视线移动代替语言",
+          "effect": "通过控制目光方向引导读者注意力，比'我发现她戴着我的镯子'更有电影感"
+        },
+        {
+          "technique": "反讽回击（含毒微笑型）",
+          "example": "'他说得对，是老东西，当心别磕了。'——表面关心实则反讽",
+          "effect": "女主用陆晚月听不出毒的话维护尊严，读者能读出双层含义产生快感"
+        },
+        {
+          "technique": "闭门崩塌法",
+          "example": "'胸腔里有什么东西裂开了一条缝。我按住了，没让任何声音从喉咙里跑出来。'",
+          "effect": "把崩溃限定在关上门之后的私密空间，维持人设同时增加心疼值"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "胸腔里有什么东西裂开了一条缝。我按住了，没让任何声音从喉咙里跑出来。",
+          "structure": "内部碎裂的感官描述+主动压制动作",
+          "why_it_works": "疼痛被物理化('裂缝')且被强行封住，克制的力量比宣泄更震撼读者"
+        },
+        {
+          "text": "他说得对，是老东西，当心别磕了。",
+          "structure": "表面附和+隐藏反讽（语义双关）",
+          "why_it_works": "一句话三层意思：表面关心、实则讽刺、暗示镯子终将碎——读者get到所有层"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "波浪起伏",
+      "pacing_note": "用日常温暖片段和冲突片段交替出现，营造'无处可逃'的压迫感",
+      "chapter_end_hook": {
+        "text": "婚礼那天，他笑着给我戴镯子。就是那只。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "用最美好的过去画面收尾，与当下形成最大反差——'就是那只'三字是刺刀",
+        "suspense_mechanism": "过去的美好越真实，当下的背叛就越不可原谅——她会怎么决定？"
+      }
+    },
+    {
+      "chapter_id": 4,
+      "title": "五十万",
+      "source_line_range": [121, 158],
+      "char_count": 750,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.0,
+        "comma_period_ratio": 0.35,
+        "question_mark_density_per_1k": 6.7,
+        "direct_dialogue_rate": 0.45,
+        "short_line_rate_lte16": 0.72,
+        "impact_density": 0.78,
+        "sentence_avg_len": 14.8
+      },
+      "emotion": {
+        "dominant_emotion": "对峙-威胁",
+        "emotion_arc": "冷淡对峙 → 嫁妆清单追问 → 他回避 → 威胁职业",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "愤怒——他居然还有脸用五十万打发，更可恨的是还威胁她"
+      },
+      "highlights": {
+        "peak_moment": "齐衍深用'夜场的事学生家长迟早知道'威胁女主",
+        "peak_type": "power_shift",
+        "emotional_bomb": "他不仅不道歉，反而用她的职业安全作为逼签离婚协议的筹码",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "'你是舍不得这段婚姻，还是舍不得面子？'——PUA式话术"
+      },
+      "techniques": [
+        {
+          "technique": "清单式追问（三段递进）",
+          "example": "'外婆的翡翠镯…妈妈的和田玉佩…爷爷传下来的紫檀棋盘…'——三样嫁妆连续追问",
+          "effect": "每追问一件，男主的亏欠就增加一分，读者的愤怒也递进一层"
+        },
+        {
+          "technique": "微动作泄底",
+          "example": "'他手指在桌面上叩了两下，有一瞬间避开了我的眼睛。看了一眼窗外，又很快收回来。'",
+          "effect": "通过极细微的身体语言泄露心虚，比'他心虚了'有十倍信息量"
+        },
+        {
+          "technique": "威胁后的静默处理",
+          "example": "'你在威胁我？安静了两秒，他没接话。我推门走了。'",
+          "effect": "不回答=承认，女主不追问=已不需要答案，极简处理极有力"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "语气平淡得让人发指，跟结清一笔公务尾款没两样。",
+          "structure": "情绪判断+类比降格（把离婚比作公务结算）",
+          "why_it_works": "类比的降格效果：把神圣的婚姻结束比作结清尾款，瞬间完成对男主冷血的定性"
+        },
+        {
+          "text": "我再想想。",
+          "structure": "极短回应（看似软弱实则拖延主动权）",
+          "why_it_works": "不签不闹不走极端，'再想想'是保留筹码的理性选择，克制即力量"
+        }
+      ],
+      "narrative_mode": "dialogue_driven",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠对话节奏一攻一守推进，几乎无叙述间隙",
+      "chapter_end_hook": {
+        "text": "你在夜场唱歌的事已经有人知道了，你的学生家长迟早会听说，到时候你连课都教不成。",
+        "hook_type": "silent_threat",
+        "hook_technique": "将威胁指向读者已知的女主最柔软处（教琴的孩子们）",
+        "suspense_mechanism": "读者已知这是她唯一还亮着灯的东西——如果这也被毁了怎么办？"
+      }
+    },
+    {
+      "chapter_id": 5,
+      "title": "排骨汤",
+      "source_line_range": [159, 198],
+      "char_count": 790,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.5,
+        "comma_period_ratio": 0.48,
+        "question_mark_density_per_1k": 2.5,
+        "direct_dialogue_rate": 0.28,
+        "short_line_rate_lte16": 0.65,
+        "impact_density": 0.60,
+        "sentence_avg_len": 16.8
+      },
+      "emotion": {
+        "dominant_emotion": "疲惫-困惑",
+        "emotion_arc": "身体极限 → 方姐关心 → 排骨汤温暖 → 眼眶酸 → 强行压住 → 定性'最残忍'",
+        "emotion_intensity": 7.5,
+        "reader_feeling_target": "心疼+愤怒交织——排骨汤让人心软的瞬间立刻被'最残忍'打醒"
+      },
+      "highlights": {
+        "peak_moment": "热汤入胃→眼眶酸→猛地放碗→手背压眼睛十几秒",
+        "peak_type": "emotional_bomb",
+        "emotional_bomb": "一碗汤差点让她心软——温度陷阱险些生效",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "定性句'伤我的时候决绝冷硬，偶尔给一点温度又随意得很'"
+      },
+      "techniques": [
+        {
+          "technique": "温度陷阱结构",
+          "example": "凌晨回到出租屋→门口保温袋→排骨汤还温着→眼眶酸→压住→'他最残忍就在这里'",
+          "effect": "先给温暖让读者和女主同时心软，再用定性句打醒——教育读者别被PUA"
+        },
+        {
+          "technique": "身体极限细节堆",
+          "example": "'膝盖一软手扶住了墙''手背上鼓起的青筋''泡面不叫饭'",
+          "effect": "用连续的身体信号建立'她已经在极限了'的紧迫感，为后续任何一点温暖的效果翻倍"
+        },
+        {
+          "technique": "旁人视角补充真实感",
+          "example": "方姐捏她手背青筋、追问多久没吃饭、硬塞包子",
+          "effect": "第三方视角确认女主的状态比她自述更糟，增加可信度和心疼值"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "伤我的时候决绝冷硬，偶尔给一点温度又随意得很，让我永远分不清哪一面才是真的他。",
+          "structure": "对比(伤害方式 vs 温暖方式)+一句话定性总结",
+          "why_it_works": "一句话概括PUA的本质运作机制，帮读者从感性心疼上升到理性认知"
+        },
+        {
+          "text": "撑得住。",
+          "structure": "极短肯定句（对他人关心的最小回应）",
+          "why_it_works": "两个字比千言万语更有力——她说撑得住=她在告诉自己必须撑住"
+        }
+      ],
+      "narrative_mode": "emotion_buildup",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠身体疲惫感的累积蓄力，在排骨汤温暖+定性句处爆发认知",
+      "chapter_end_hook": {
+        "text": "他最残忍就在这里。伤我的时候决绝冷硬，偶尔给一点温度又随意得很，让我永远分不清哪一面才是真的他。",
+        "hook_type": "revelation_half",
+        "hook_technique": "用一句认知升级收尾，让读者带着'温度陷阱'的意识继续阅读后续情节",
+        "suspense_mechanism": "读者知道了他的模式——接下来每次他给温暖，读者都会警觉"
+      }
+    },
+    {
+      "chapter_id": 6,
+      "title": "347",
+      "source_line_range": [199, 240],
+      "char_count": 820,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.36,
+        "question_mark_density_per_1k": 3.6,
+        "direct_dialogue_rate": 0.30,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.75,
+        "sentence_avg_len": 15.5
+      },
+      "emotion": {
+        "dominant_emotion": "绝望-麻木",
+        "emotion_arc": "银行冲击 → 林娜出现 → 三个月前截图 → 麻木 → 回忆反差 → 弹不动琴",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "彻底寒心——不是一时冲动出轨，是蓄谋三个月的精算"
+      },
+      "highlights": {
+        "peak_moment": "看到齐衍深三个月前对陆晚月说'再给我点时间，我搞定她'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "整个'生病'从头到尾就是计划好的——她在他眼里只是'需要搞定的人'",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'三个月前，他还说今年生日补一枚像样的戒指给我。'——时间线对比的杀伤力"
+      },
+      "techniques": [
+        {
+          "technique": "数字冲击法",
+          "example": "'ATM屏幕上的余额定格在347。'——没有任何修饰词，数字自己说话",
+          "effect": "具体数字比'穷困潦倒'有百倍冲击力——347元是一个人能活几天？读者自动代入计算"
+        },
+        {
+          "technique": "时间线对比杀伤",
+          "example": "'日期三个月前，比他跟我说生病的时间还要更早。'+'三个月前他还说今年补枚戒指'",
+          "effect": "两条时间线并置：一边对她甜言蜜语/一边计划'搞定她'——蓄谋感远比冲动出轨更可恨"
+        },
+        {
+          "technique": "能力丧失具象化",
+          "example": "'指尖粗糙发硬，以前能弹完整首肖邦的手指，现在按两个和弦都觉得生涩。琴盖盖上。'",
+          "effect": "弹不动琴=灵魂被损毁，把抽象的'她失去了自我'变成可感知的物理丧失"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "那份协议上的五十万买不回我卖掉的嫁妆，买不回我唱坏的嗓子，买不回我在那些包厢里低下去的头。什么都买不回来了。",
+          "structure": "三段排比(买不回X)+总结否定句",
+          "why_it_works": "排比的节奏感+递进的具体度(嫁妆→嗓子→尊严)，最后'什么都'一锤定音"
+        },
+        {
+          "text": "ATM屏幕上的余额定格在347。",
+          "structure": "场景+数字定格（零修饰）",
+          "why_it_works": "删掉所有情绪词后剩下的纯事实，反而产生最大的情绪冲击"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "蓄力-爆发",
+      "pacing_note": "靠证据逐步浮出的信息差推进，每一条新信息都是一次小爆发",
+      "chapter_end_hook": {
+        "text": "琴盖盖上。靠着墙坐在地上，膝盖收到胸口。",
+        "hook_type": "silent_threat",
+        "hook_technique": "用物理姿态暗示精神蜷缩——她已到极限，接下来要么崩溃要么爆发",
+        "suspense_mechanism": "她会选择崩溃还是行动？最后期限还剩两天"
+      }
+    },
+    {
+      "chapter_id": 7,
+      "title": "小馆子",
+      "source_line_range": [241, 310],
+      "char_count": 880,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 13.5,
+        "comma_period_ratio": 0.42,
+        "question_mark_density_per_1k": 4.5,
+        "direct_dialogue_rate": 0.40,
+        "short_line_rate_lte16": 0.75,
+        "impact_density": 0.88,
+        "sentence_avg_len": 14.0
+      },
+      "emotion": {
+        "dominant_emotion": "屈辱-碎裂",
+        "emotion_arc": "酸汤鱼温暖→'我不签'的决断→陆晚月闯入→当众护她→独坐碎裂",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "想冲进屏幕打人——当着所有人的面选了另一个女人"
+      },
+      "highlights": {
+        "peak_moment": "齐衍深站起来给陆晚月披外套、说'没事'，然后回头对女主说'考虑好了告诉我'",
+        "peak_type": "public_humiliation",
+        "emotional_bomb": "在公共场合当着朋友的面，用行动宣告'她才是我的人'",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'什么都没碎，但什么也都碎了。'"
+      },
+      "techniques": [
+        {
+          "technique": "温度陷阱2.0（酸汤鱼）",
+          "example": "'面前摆了两份菜，其中一份是我从前最爱吃的酸汤鱼。'→'胃剧烈地痉挛了一下'",
+          "effect": "他记得她爱吃什么(温暖)→但她的胃已经撑不住了(身体诚实)=温暖无法被接收"
+        },
+        {
+          "technique": "第三方闯入打断法",
+          "example": "正在对峙→'馆子的门被推开了。陆晚月带着两个朋友走进来'",
+          "effect": "在女主刚展示力量('我不签')的瞬间被第三方打断，制造挫败感和节奏突变"
+        },
+        {
+          "technique": "行为选择即宣判",
+          "example": "'站起来，走到陆晚月身边，把自己的外套搭在她肩上。'——无需对话，动作即选择",
+          "effect": "不写他说什么、想什么，只写他做了什么——行动的判决力大于言语"
+        },
+        {
+          "technique": "碎裂留白",
+          "example": "'什么都没碎，但什么也都碎了。'——矛盾句收章",
+          "effect": "用逻辑矛盾表达情绪真实——物理世界完好但情感世界崩塌的精准描述"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "什么都没碎，但什么也都碎了。",
+          "structure": "矛盾对仗句（物理否定+情感肯定）",
+          "why_it_works": "用不可能的矛盾表达只有经历过的人才懂的真实——逻辑上错误但情感上精准"
+        },
+        {
+          "text": "永远是这招，左手递刀子右手递糖，让我分不清他到底有心还是没心。",
+          "structure": "概括+具象比喻(刀子/糖)+困惑陈述",
+          "why_it_works": "把抽象的PUA行为具象成'左手刀右手糖'，一句话让读者永远记住这个模式"
+        }
+      ],
+      "narrative_mode": "conflict_first",
+      "rhythm_shape": "前慢后快",
+      "pacing_note": "前半靠对峙对话缓推，后半靠陆晚月闯入制造急转，最后独坐收束",
+      "chapter_end_hook": {
+        "text": "馆子里只剩我一个人，和那碗温度已经降下来的酸汤鱼。什么都没碎，但什么也都碎了。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "用冷却的食物对应冷却的关系——物象收尾",
+        "suspense_mechanism": "碎裂之后她会做什么？最后一天到了"
+      }
+    },
+    {
+      "chapter_id": 8,
+      "title": "全面崩塌",
+      "source_line_range": [311, 380],
+      "char_count": 920,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.2,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 5.4,
+        "direct_dialogue_rate": 0.32,
+        "short_line_rate_lte16": 0.73,
+        "impact_density": 0.95,
+        "sentence_avg_len": 14.5
+      },
+      "emotion": {
+        "dominant_emotion": "绝境-觉醒",
+        "emotion_arc": "被辞退 → 找工 → 手泡白 → 雨中对峙 → 网暴 → 三秒沉默 → 觉醒",
+        "emotion_intensity": 9.5,
+        "reader_feeling_target": "窒息到极点后突然看见她站直了——从雨里走出去那一刻是全文最燃的画面"
+      },
+      "highlights": {
+        "peak_moment": "她从他撑的伞底走出去，走进了雨里，说出'条件由我来说'",
+        "peak_type": "power_shift",
+        "emotional_bomb": "辞退+网暴+最后收入断裂三重打击叠加，她没倒下反而第一次夺回主动权",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "'那三秒的沉默就是答案。'——他可能不是主谋但他没拦"
+      },
+      "techniques": [
+        {
+          "technique": "社死具象化",
+          "example": "'一个送孩子来上课的家长拉了拉孩子的手，刻意绕开了我。'",
+          "effect": "不写'所有人都知道了'，只写一个具体动作——以小见大的羞辱感"
+        },
+        {
+          "technique": "物理动作=心理决裂",
+          "example": "'我从他撑的伞底走出去，走进了雨里。'",
+          "effect": "走进雨里=拒绝他的保护=用身体做出选择，比任何台词都有力"
+        },
+        {
+          "technique": "三连打击不间断",
+          "example": "辞退(职业断)→找工手泡白(尊严断)→网暴(社会断)→方姐说别来了(最后收入断)",
+          "effect": "不给喘息空间的连续打击制造窒息感，让读者和女主同步体验绝境"
+        },
+        {
+          "technique": "沉默即答案",
+          "example": "'齐衍深，是你让人发的吗？'电话那头沉默了三秒。'那三秒的沉默就是答案。'",
+          "effect": "不需要他承认——沉默比任何回答都更有判决力，读者自动补全真相"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你定的规则不是我选的，如果你想结束，可以，但条件由我来说。",
+          "structure": "否定(你的规则)+条件转让(如果...可以)+主权宣言(由我来说)",
+          "why_it_works": "全文第一次主动权宣言——从被动承受者变为规则制定者的转折点"
+        },
+        {
+          "text": "那三秒的沉默就是答案。",
+          "structure": "时间量化+定性（沉默=答案）",
+          "why_it_works": "把模糊的'他有没有参与'用精确的三秒定性——简洁到无法辩驳"
+        },
+        {
+          "text": "他大概没发，但他也没拦。",
+          "structure": "否定A+转折否定B（两个否定=一个肯定）",
+          "why_it_works": "精准区分'主谋'和'帮凶'——'没拦'比'发了'更让人心寒"
+        }
+      ],
+      "narrative_mode": "chase_sequence",
+      "rhythm_shape": "匀速高压",
+      "pacing_note": "靠事件密度维持窒息感——一个接一个的打击不给读者喘气",
+      "chapter_end_hook": {
+        "text": "最后一份收入也断了。",
+        "hook_type": "cliff_action",
+        "hook_technique": "一句话宣告经济归零——接下来她怎么活？",
+        "suspense_mechanism": "已经无路可退——下一步要么彻底崩溃，要么做出最终选择"
+      }
+    },
+    {
+      "chapter_id": 9,
+      "title": "五个字",
+      "source_line_range": [381, 420],
+      "char_count": 750,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 12.5,
+        "comma_period_ratio": 0.32,
+        "question_mark_density_per_1k": 1.3,
+        "direct_dialogue_rate": 0.15,
+        "short_line_rate_lte16": 0.82,
+        "impact_density": 0.70,
+        "sentence_avg_len": 12.0
+      },
+      "emotion": {
+        "dominant_emotion": "决绝-寂静",
+        "emotion_arc": "陆晚月最后补刀('客房') → 镜子自观 → 删所有照片 → 五个字 → 物归原主 → 黑暗中刻骨",
+        "emotion_intensity": 8,
+        "reader_feeling_target": "痛快+心疼并存——她终于走了，但走得太安静让人想哭"
+      },
+      "highlights": {
+        "peak_moment": "'我同意离婚。'五个字发送",
+        "peak_type": "power_reversal",
+        "emotional_bomb": "她用最少的字完成最大的决断——不解释、不挽留、不回头",
+        "bomb_detonation_technique": "突变式",
+        "reader_hook_point": "二百多张照片全选删除——仪式感极强的过去终结"
+      },
+      "techniques": [
+        {
+          "technique": "字数即力量",
+          "example": "'五个字。我同意离婚。发送。'——用字数标注强调极简的杀伤力",
+          "effect": "作者刻意标注'五个字'而不是直接写内容，让读者意识到越少的字=越大的决绝"
+        },
+        {
+          "technique": "仪式化删除",
+          "example": "'全选，删除。照片一张一张消失了。'",
+          "effect": "把数字操作写出仪式感——不是冲动删除，是一张一张目送消失"
+        },
+        {
+          "technique": "自我约束独白",
+          "example": "'不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。'",
+          "effect": "内心独白不是抒情而是自我命令——展示意志力的强度"
+        },
+        {
+          "technique": "空间反讽",
+          "example": "'家里。她说的是我曾经的家。客房。我被邀请在自己的家里住客房。'",
+          "effect": "用词语的错位(家→客房)揭示身份的错位——最安静的愤怒"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "不是舍不得。是我在把这种疼一寸一寸刻进骨头里。提醒自己，到此为止，不许回头。",
+          "structure": "否定A(误判)+肯定B(真实意图)+祈使句自我命令",
+          "why_it_works": "校正读者可能的误读('她还爱他')→给出真实心理→自我约束的力量"
+        },
+        {
+          "text": "物归原主。",
+          "structure": "四字成语独立成段",
+          "why_it_works": "四个字=一段关系的全部结算，冷到骨头里的体面"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "匀速递降",
+      "pacing_note": "靠仪式化的动作序列(删→发→包→写→关灯)推进，节奏越来越慢=越来越沉重",
+      "chapter_end_hook": {
+        "text": "黑暗里眼睛睁着，一夜没合上。不是舍不得。是我在把这种疼一寸一寸刻进骨头里。",
+        "hook_type": "silent_threat",
+        "hook_technique": "用'刻骨'暗示这不是遗忘而是铭记——她走了但伤痕永在",
+        "suspense_mechanism": "她消失了——他会怎么反应？能找到她吗？"
+      }
+    },
+    {
+      "chapter_id": 10,
+      "title": "追与碎",
+      "source_line_range": [421, 530],
+      "char_count": 980,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 14.8,
+        "comma_period_ratio": 0.44,
+        "question_mark_density_per_1k": 6.1,
+        "direct_dialogue_rate": 0.38,
+        "short_line_rate_lte16": 0.68,
+        "impact_density": 0.90,
+        "sentence_avg_len": 15.8
+      },
+      "emotion": {
+        "dominant_emotion": "追悔-崩塌",
+        "emotion_arc": "追寻落空 → 赵鸣川揭穿真相 → 质问陆晚月 → 翻到日记 → 银行流水 → 崩塌",
+        "emotion_intensity": 9,
+        "reader_feeling_target": "报复性快感——终于轮到他承受了，每一个细节都是他活该"
+      },
+      "highlights": {
+        "peak_moment": "翻到女主的手写日记'如果他好了，我就回去弹钢琴……想他'——信息差炸弹终极引爆",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "她一边在夜场卖命一边手写记账一边想他——而他在这期间把每一分钱都转给了别人",
+        "bomb_detonation_technique": "累积式",
+        "reader_hook_point": "赵鸣川一句'你拿一个假的恩情，去伤了一个真的爱你的人。'"
+      },
+      "techniques": [
+        {
+          "technique": "追寻落空连击",
+          "example": "去出租屋→空了；去社区→什么都没留；去夜场→方姐冷笑",
+          "effect": "用三次'追到了但人不在'的重复结构，制造他的无助感=读者的快感"
+        },
+        {
+          "technique": "旁人审判",
+          "example": "方姐冷笑'现在知道找了？'赵鸣川'你到底是想要她回来，还是受不了她先松手？'",
+          "effect": "不需要女主出场报复——旁人替天行道，每句话都是一把刀"
+        },
+        {
+          "technique": "证据链闭合",
+          "example": "工地出勤表→没有陆父名字→救命之恩=编的→假怀孕→流水记录=17.4万全转走",
+          "effect": "证据一条条落地形成闭环，不是情绪判断而是事实判决——无可辩驳"
+        },
+        {
+          "technique": "手写日记引爆",
+          "example": "'今天挣了四百，还差十九万六。''嗓子又出血了。''如果他好了，我就回去弹钢琴'",
+          "effect": "从他的视角看到她的真实——每一张纸都是一记耳光"
+        },
+        {
+          "technique": "陆晚月的终极定性",
+          "example": "'你自己愿意信的。你巴不得找个理由证明她不爱你。我只是顺着你的想法推了一把。'",
+          "effect": "反派最后一句话将责任推回男主——不是她太坏，是他主动选择了被骗"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "你拿一个假的恩情，去伤了一个真的爱你的人。",
+          "structure": "假X+真Y对比（假恩情 vs 真爱）",
+          "why_it_works": "用真/假的二元对立一句话概括全部错误——简洁到能当墓志铭"
+        },
+        {
+          "text": "你到底是想要她回来，还是受不了她先松手？",
+          "structure": "二选一质问（爱 vs 控制欲）",
+          "why_it_works": "戳破'我后悔了'的伪装——也许不是爱，只是受不了失去控制权"
+        },
+        {
+          "text": "我只是顺着你的想法推了一把而已。",
+          "structure": "轻描淡写式卸责（'只是...而已'）",
+          "why_it_works": "越轻描淡写越恐怖——暗示他才是最大的共犯"
+        }
+      ],
+      "narrative_mode": "revelation",
+      "rhythm_shape": "阶梯递进",
+      "pacing_note": "靠真相逐层揭露维持张力——每揭一层他的崩塌就深一层",
+      "chapter_end_hook": {
+        "text": "齐衍深蹲在衣柜前的地板上，一张一张翻。翻完之后把头埋进臂弯里，肩膀一下一下地抖。",
+        "hook_type": "emotional_bomb",
+        "hook_technique": "不写他哭，只写肩膀抖——具象化崩塌，留想象空间给读者",
+        "suspense_mechanism": "他知道了全部真相——接下来他会做什么？"
+      }
+    },
+    {
+      "chapter_id": 11,
+      "title": "刀",
+      "source_line_range": [531, 600],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.0,
+        "comma_period_ratio": 0.40,
+        "question_mark_density_per_1k": 3.5,
+        "direct_dialogue_rate": 0.35,
+        "short_line_rate_lte16": 0.70,
+        "impact_density": 0.80,
+        "sentence_avg_len": 16.2
+      },
+      "emotion": {
+        "dominant_emotion": "清醒-告别",
+        "emotion_arc": "追到临市 → 被拒 → 咖啡馆偶遇 → 旧照片 → 碎玉 → 真相全摊开 → '刀是他自己拿起来的' → 不回来了",
+        "emotion_intensity": 8.5,
+        "reader_feeling_target": "复杂——既替她心疼他拿着照片的样子，又坚定站在'不复合'这边"
+      },
+      "highlights": {
+        "peak_moment": "女主定性：'不是陆晚月毁了我们。刀是他自己拿起来的。'",
+        "peak_type": "truth_reveal",
+        "emotional_bomb": "不怪第三方，把责任精准归到选择者本人——最残忍的清醒",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "照片背面的字'从来不知道一个人弹琴可以这么好看'——他爱过，但这不够"
+      },
+      "techniques": [
+        {
+          "technique": "物件双重意义",
+          "example": "旧照片(他对她的初心)+碎玉(无法修复的过去)同时出现在一张桌上",
+          "effect": "两个物件一正一负并置——爱过(照片)≠没伤过(碎玉)，视觉化呈现'原谅≠复合'"
+        },
+        {
+          "technique": "终极定性句",
+          "example": "'她骗了你，是事实。但你信了她，也是事实。这些选择，她替你做不了。'",
+          "effect": "用逻辑三段论完成道德审判——不控诉不吵闹，只陈述事实=最有力的审判"
+        },
+        {
+          "technique": "温柔拒绝法",
+          "example": "'我原谅你，但我不会回来了。'——先给原谅再关门",
+          "effect": "原谅=她已放下/不会回来=不可逆——温柔比愤怒更让人绝望"
+        },
+        {
+          "technique": "碎片留桌不取",
+          "example": "'那截碎玉还搁在桌上，我没拿走。'",
+          "effect": "不拿走=不要任何属于过去的东西=走得干干净净"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "不是陆晚月毁了我们。陆晚月只是递了一把刀。刀是他自己拿起来的。",
+          "structure": "否定表面因(第三者)+还原真相(递刀)+定性(自己拿起来的)",
+          "why_it_works": "三句话完成从'怪小三'到'怪当事人'的认知升级——比骂人有力一万倍"
+        },
+        {
+          "text": "我原谅你，但我不会回来了。",
+          "structure": "让步(原谅)+转折(不回来)——给予最大温柔同时关闭所有可能",
+          "why_it_works": "原谅≠复合——这个区分是全文灵魂；越温柔的关门越让人绝望"
+        },
+        {
+          "text": "我从废墟里爬出来了。",
+          "structure": "比喻(废墟)+动作(爬出来)+完成时态(了)",
+          "why_it_works": "承认被摧毁('废墟')但强调重建('爬出来')——不美化伤痛也不沉溺其中"
+        }
+      ],
+      "narrative_mode": "dialogue_driven",
+      "rhythm_shape": "前快后慢",
+      "pacing_note": "前半段对话推进真相，后半段用慢节奏处理情感告别",
+      "chapter_end_hook": {
+        "text": "走到门口打开伞，雨幕里走远了。那截碎玉还搁在桌上，我没拿走。",
+        "hook_type": "contrast_shock",
+        "hook_technique": "人走了但碎玉留下——物件替代人完成告别的最后画面",
+        "suspense_mechanism": "她真的不回来了——接下来她的人生会怎样？"
+      }
+    },
+    {
+      "chapter_id": 12,
+      "title": "月光",
+      "source_line_range": [601, 680],
+      "char_count": 850,
+      "auto_split": true,
+      "metrics": {
+        "avg_line_chars": 15.8,
+        "comma_period_ratio": 0.45,
+        "question_mark_density_per_1k": 2.4,
+        "direct_dialogue_rate": 0.25,
+        "short_line_rate_lte16": 0.62,
+        "impact_density": 0.55,
+        "sentence_avg_len": 17.0
+      },
+      "emotion": {
+        "dominant_emotion": "重建-释然",
+        "emotion_arc": "手腕骨裂 → 他送医 → 破饺子 → 面试通过 → 回家 → 陆晚月结局 → 最后短信 → 微笑",
+        "emotion_intensity": 7,
+        "reader_feeling_target": "鼻酸的温暖——她真的好了，琴声回来了，不需要任何人了"
+      },
+      "highlights": {
+        "peak_moment": "面试间弹德彪西月光，从头到尾一个音没错",
+        "peak_type": "identity_reveal",
+        "emotional_bomb": "曾经弹不动琴的手指重新在九尺三角钢琴上行走——灵魂完整回归",
+        "bomb_detonation_technique": "对比式",
+        "reader_hook_point": "'你弹琴的样子还是很好看。'——他还在看，但她不需要了"
+      },
+      "techniques": [
+        {
+          "technique": "能力回归=灵魂回归",
+          "example": "'德彪西的月光。一个音，两个音，清澈的声音从指尖淌出来。'",
+          "effect": "与之前'按两个和弦都觉得生涩'形成闭环——弹琴能力=自我完整性的象征"
+        },
+        {
+          "technique": "父亲三字法",
+          "example": "'回来就好。'——老爸全程只说了这一句",
+          "effect": "父亲的沉默+一句话=最重的爱——字越少情越深"
+        },
+        {
+          "technique": "因果回旋落地（陆晚月结局）",
+          "example": "'当初她安排偷拍视频搞我的那一招，原封不动回到了她自己身上。'",
+          "effect": "M3机制完美闭合——不是女主报复，是因果自行运转"
+        },
+        {
+          "technique": "结尾留白微笑",
+          "example": "'没有回头。但嘴角轻轻扬了扬。不是给谁的回应。是给自己的。'",
+          "effect": "最后三句完成三重否定('不回头'+'不是给谁'+'是给自己')=终极自足"
+        }
+      ],
+      "golden_lines": [
+        {
+          "text": "回来就好。",
+          "structure": "三字极简句（主语省略+完成态）",
+          "why_it_works": "父亲的全部爱压缩在三个字里——与齐衍深的长篇追悔形成对比，真爱不需要多说"
+        },
+        {
+          "text": "没有回头。但嘴角轻轻扬了扬。不是给谁的回应。是给自己的。",
+          "structure": "否定动作+转折微表情+否定(他人)+肯定(自己)",
+          "why_it_works": "连续否定→最后一个肯定=终极自足宣言，全文情感最终落点"
+        },
+        {
+          "text": "碎了的花瓶粘起来也是裂的。",
+          "structure": "比喻(花瓶)+即使句式(粘起来也)+定性(裂的)",
+          "why_it_works": "一句话否定所有'修复关系'的可能——物理事实=情感事实"
+        }
+      ],
+      "narrative_mode": "breathing",
+      "rhythm_shape": "匀速递降",
+      "pacing_note": "靠治愈细节和时间跨度营造'她真的走出来了'的确信感",
+      "chapter_end_hook": {
+        "text": "没有回头。但嘴角轻轻扬了扬。不是给谁的回应。是给自己的。（全文完）",
+        "hook_type": "contrast_shock",
+        "hook_technique": "在读者期待复合的位置给出'给自己的微笑'——满足与意难平并存",
+        "suspense_mechanism": "不制造新悬念——用确定性(她不会回来)制造意难平感，让读者反复回味"
+      }
+    }
+  ],
+  "global_soul_signature": "用极简短句和物件象征系统构建'克制即力量'的叙事美学——女主越平静读者越心碎，她越不哭对方越崩塌，最终用'不回来'三个字完成比任何报复都更致命的惩罚",
+  "character_voices": [
+    {
+      "role": "沈念歌（女主）",
+      "speech_pattern": {
+        "avg_utterance_length": 10,
+        "口癖": ["嗯", "我知道了", "我再想想", "好"],
+        "语气词": [],
+        "句式特征": "极短陈述句、不解释不争辩、用事实回应而非情绪",
+        "禁用词": ["求你了", "为什么", "你怎么能", "我不甘心", "凭什么"],
+        "情绪表达方式": "通过动作和沉默表达——手抖、压住眼睛、走进雨里；从不用语言宣泄",
+        "典型台词示例": [
+          "我在这唱歌挣钱，给你挣治病的钱。",
+          "他说得对，是老东西，当心别磕了。",
+          "我同意离婚。",
+          "我原谅你，但我不会回来了。"
+        ]
+      }
+    },
+    {
+      "role": "齐衍深（男主）",
+      "speech_pattern": {
+        "avg_utterance_length": 12,
+        "口癖": ["别……了", "你不用", "签字吧", "过去的事"],
+        "语气词": [],
+        "句式特征": "祈使句+高高在上的施令式；后期变成请求式短句，但仍带控制欲",
+        "禁用词": ["对不起我错了", "我求你", "我配不上你"],
+        "情绪表达方式": "前期用命令和沉默，后期用身体反应（手抖/抵方向盘/握碎片不松手）",
+        "典型台词示例": [
+          "你怎么在这？",
+          "你不用在这种地方上班。",
+          "签字，你拿五十万，够了。",
+          "跟我回去。",
+          "念歌，是我错了。"
+        ]
+      }
+    },
+    {
+      "role": "陆晚月（反派）",
+      "speech_pattern": {
+        "avg_utterance_length": 18,
+        "口癖": ["姐姐", "衍深", "我不是故意的", "你别怪我"],
+        "语气词": ["嘛", "呀", "哎呀"],
+        "句式特征": "表面柔弱长句+暗藏匕首的信息投递；被揭穿后切换为冷硬短句",
+        "禁用词": ["滚", "去死", "老子"],
+        "情绪表达方式": "双面——对外楚楚可怜(眼眶红/声音细)，被戳穿后冷静露底('是又怎样？')",
+        "典型台词示例": [
+          "就是你呀？齐哥不是说跟你早就离了吗？",
+          "孩子总是无辜的。",
+          "哎呀，衍深你在这？我们路过看见你的车。",
+          "是又怎样？你自己愿意信的。",
+          "我只是顺着你的想法推了一把而已。"
+        ]
+      }
+    },
+    {
+      "role": "方姐（夜场管理）",
+      "speech_pattern": {
+        "avg_utterance_length": 11,
+        "口癖": ["小沈", "撑不住就别撑了", "你这嗓子"],
+        "语气词": [],
+        "句式特征": "直接、关心但不煽情、带命令感的护短语气",
+        "禁用词": ["亲爱的", "宝贝", "心疼你"],
+        "情绪表达方式": "用动作表达关心(递水/塞包子/捏手背)，用冷笑表达愤怒",
+        "典型台词示例": [
+          "小沈，撑不住就别撑了。",
+          "泡面不叫饭。",
+          "现在知道找了？她在的时候你怎么不来？我劝你省省吧。"
+        ]
+      }
+    },
+    {
+      "role": "赵鸣川（男主朋友）",
+      "speech_pattern": {
+        "avg_utterance_length": 15,
+        "口癖": ["嫂子", "衍深他", "你跟自己说句实话"],
+        "语气词": [],
+        "句式特征": "犹豫含糊+关键时刻直给——从吞吞吐吐到一针见血",
+        "禁用词": ["管我什么事", "活该"],
+        "情绪表达方式": "通过'抹布掉地上/避开目光/叹气'表达纠结，通过推文件袋表达决心",
+        "典型台词示例": [
+          "嫂子你先回去，这事你别掺和了。",
+          "你到底是想要她回来，还是受不了她先松手？",
+          "你拿一个假的恩情，去伤了一个真的爱你的人。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 950,
+  "target_chars_max": 1200,
+  "location": "林家灵堂、外婆老旧院门前",
+  "time": "晚萤葬礼当天",
+  "pov": "林晚萤第一人称灵魂旁观",
+  "characters": [
+    "林晚萤",
+    "外婆",
+    "林父",
+    "林母",
+    "林知夏",
+    "陆明砚"
+  ],
+  "character_goal": "晚萤想跟外婆回真正属于自己的地方。",
+  "opposition_goal": "父母想用葬礼、遗照和女儿名分保留她。",
+  "conflict_action": "外婆砸掉临时打印的遗照，甩出晚萤小时候的奖状、旧曲谱和被改掉的毕业节目单，抱起骨灰盒逐句质问父母。",
+  "information_gap": "外婆揭开晚萤被长期挤出家庭位置的旧账，林家失去占有她的资格。",
+  "emotional_debt_delta": -2,
+  "payoff_or_hook": "伦理审判完成，归属即将转移。",
+  "chapter_end_hook": "外婆抱起骨灰盒，只留下一句：你们不配送她回家。",
+  "paywall_card": false,
+  "must_include": [
+    "临时遗照",
+    "小时候奖状",
+    "被改掉的毕业节目单",
+    "外婆说不配",
+    "父母无法用哭声打断审判"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让外婆只哭不审判",
+    "不要让父母获得原谅",
+    "不要把姐姐赶成反派",
+    "不要写主角主动安慰父母"
+  ]
+}

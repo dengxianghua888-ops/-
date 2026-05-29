@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 499,
+  "target_chars_max": 659,
+  "location": "童药堂戒训房、账房",
+  "time": "坠崖后三日",
+  "pov": "第三人称近距离，贴陆衡舟",
+  "characters": [
+    "陆衡舟",
+    "童药堂管事",
+    "药工",
+    "老掌柜"
+  ],
+  "character_goal": "陆衡舟要查清阿砚在童药堂遭遇。",
+  "opposition_goal": "管事要把罪推给下人，账房要销毁记录。",
+  "conflict_action": "陆衡舟踹开戒训房，掀翻账房火盆，逼管事交出登记册，逐页翻到禁食、退信、夜罚记录，最后看见送训文书上的私印。",
+  "information_gap": "苏云屏如何操控账册还不全揭，但陆衡舟自己的印先钉死责任。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "童药堂伤害证据出现",
+      "男主私印坐实直接责任"
+    ],
+    "balance_after": "男主无法只怪下人或苏云屏。"
+  },
+  "payoff_or_hook": "账册最后一页的私印把所有后果压回陆衡舟身上。",
+  "chapter_end_hook": "戒训房账册最后一页，盖着陆衡舟自己的私印。",
+  "paywall_card": false,
+  "must_include": [
+    "踹开戒训房",
+    "掀翻火盆保住账册",
+    "禁食和退信记录",
+    "送训文书",
+    "陆衡舟私印"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写虐童过程。",
+    "不要让管事独自背锅。",
+    "不要用旁白总结罪责，要让私印出现。"
+  ],
+  "target_chars": 519,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

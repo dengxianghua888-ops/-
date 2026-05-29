@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "裴府正堂",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊",
+    "韩若",
+    "冬凝"
+  ],
+  "character_goal": "继续清算：天梯+灌药+囚禁",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "女主一口气说完所有罪行，金句回旋",
+  "information_gap": "满堂宾客倒吸凉气",
+  "emotional_debt_delta": "-20（极致释放）",
+  "payoff_or_hook": "你杀我孩子时可曾念过旧情？",
+  "chapter_end_hook": "你杀我孩子时可曾念过旧情？",
+  "paywall_card": false,
+  "must_include": [
+    "女主一口气说完所有罪行，金句回旋"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B2",
+  "target_chars_min": 850,
+  "target_chars_max": 950,
+  "location": "公寓客厅→酒店套房",
+  "time": "当晚",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "陆承衍",
+    "林知薇"
+  ],
+  "character_goal": "主角要求解释",
+  "opposition_goal": "陆承衍要保护表姐，把主角赶走",
+  "conflict_action": "陆承衍说出M3种子句后，带主角去酒店谈，承认动心在先，要求主角包容",
+  "information_gap": "M3种子句植入：她没有我活不了",
+  "emotional_debt_delta": "+8（被赶出自己家）",
+  "payoff_or_hook": "他说她没有我活不了——这句话我记住了",
+  "chapter_end_hook": "他说她没有我活不了——这句话我记住了",
+  "paywall_card": false,
+  "must_include": [
+    "M3种子句原句",
+    "被赶出自己家的屈辱感",
+    "陆承衍的冷漠与对表姐的温柔对比"
+  ],
+  "must_not_write_as_exposition": [
+    "不能把过往关系用大段回忆交代"
+  ]
+}

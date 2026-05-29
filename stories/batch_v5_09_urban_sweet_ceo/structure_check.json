@@ -1,0 +1,102 @@
+{
+  "impact_density": {
+    "total_impacts": 135,
+    "per_category": {
+      "physical_violence": 81,
+      "verbal_attack": 34,
+      "betrayal": 0,
+      "revelation": 8,
+      "status_reversal": 12
+    },
+    "impacts_per_1000_chars": 13.48,
+    "nonspace_chars": 10017
+  },
+  "watermark_violations": [
+    {
+      "start_line": 45,
+      "length": 7,
+      "sample": "三年前我嫁进陆家。合同婚姻。他需要一个妻子堵住家族的嘴。"
+    },
+    {
+      "start_line": 260,
+      "length": 15,
+      "sample": "凌晨零点整。自动发送。收件人一百二十七个。"
+    },
+    {
+      "start_line": 410,
+      "length": 10,
+      "sample": "陆时砚。过失致人死亡罪。包庇罪。有期徒刑三年。缓刑五年。"
+    }
+  ],
+  "watermark_count": 3,
+  "per_chapter": [
+    {
+      "title": "",
+      "nonspace_chars": 10,
+      "impacts": 0,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第一章",
+      "nonspace_chars": 1197,
+      "impacts": 20,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第二章",
+      "nonspace_chars": 866,
+      "impacts": 19,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第三章",
+      "nonspace_chars": 1102,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第四章",
+      "nonspace_chars": 725,
+      "impacts": 12,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第五章",
+      "nonspace_chars": 1366,
+      "impacts": 33,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第六章",
+      "nonspace_chars": 848,
+      "impacts": 4,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第七章",
+      "nonspace_chars": 1147,
+      "impacts": 8,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第八章",
+      "nonspace_chars": 1098,
+      "impacts": 18,
+      "watermark_violations": 0
+    },
+    {
+      "title": "第九章",
+      "nonspace_chars": 989,
+      "impacts": 10,
+      "watermark_violations": 1
+    },
+    {
+      "title": "第十章",
+      "nonspace_chars": 619,
+      "impacts": 3,
+      "watermark_violations": 0
+    }
+  ],
+  "gate_status": "pass",
+  "watermark_warning": true
+}

@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 485,
+  "target_chars_max": 645,
+  "location": "江南码头、药学讲会外",
+  "time": "三年后，初夏雨天",
+  "pov": "第三人称近距离，贴沈照棠",
+  "characters": [
+    "沈照棠",
+    "陆衡舟",
+    "温砚清",
+    "女医学生",
+    "码头脚夫"
+  ],
+  "character_goal": "沈照棠要以南洋女医身份抵达江南讲学。",
+  "opposition_goal": "陆衡舟要确认眼前人是不是沈照棠，温砚清要阻止旧事靠近她。",
+  "conflict_action": "沈照棠下船撑伞走向讲会，陆衡舟从雨棚下冲出抓住伞柄喊照棠，温砚清挡在中间，沈照棠抽回伞柄要求陆衡舟让路。",
+  "information_gap": "沈照棠不记得陆衡舟，只对旧称呼和药香有身体反应。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "女主活着当面出现",
+      "男主求而不得"
+    ],
+    "balance_after": "重逢不变甜，只变成旧债压迫。"
+  },
+  "payoff_or_hook": "她一句不认识，让陆衡舟看见失而复得也无法靠近。",
+  "chapter_end_hook": "码头雨棚下，陆衡舟喊她照棠，她回头问：先生认识我？",
+  "paywall_card": false,
+  "must_include": [
+    "江南码头",
+    "南洋女医身份",
+    "陆衡舟抓伞柄",
+    "温砚清挡住",
+    "先生认识我"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让重逢暧昧化。",
+    "不要让沈照棠因为男主受伤就停下。",
+    "不要让温砚清替她做决定。"
+  ],
+  "target_chars": 505,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

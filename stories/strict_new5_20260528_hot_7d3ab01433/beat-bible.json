@@ -1,0 +1,407 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 10660
+  },
+  "title": "三两银斋豆腐",
+  "genre": "ancient_BE / 古言权贵压迫 / 底层复仇 / 母女冷爽清算",
+  "mechanisms": [
+    "石磨杀父与空磨报应的因果回旋",
+    "三两抚恤银从羞辱变成入口罪证",
+    "百味斋豆腐击穿旧亏欠、旧疾与旧梦",
+    "肃王从掌控、怀疑到依赖再到被依赖反噬",
+    "复仇完成后豆腐从毒物回到人间暖意"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars": 720,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "沈素娘把三两银扣进豆腐模，说日后请他们自己吃回去。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars": 680,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "常顺咬下第一口豆腐，当街跪在白雀寺门前。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars": 700,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "肃王府的车停在摊前，帘后传出柳含霜的声音。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars": 720,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "萧玄祁要沈素娘入府做寿斋，价钱由王府定。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars": 760,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "废斋房里传来一声空磨响，阿眠喊出了爹。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars": 780,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "柳含霜盯着阿眠，问她是不是听过那架磨。"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars": 700,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "贺嬷嬷把旧供单压到沈素娘掌心，供单上有她爹的名字。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars": 880,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "萧玄祁推开太医药碗，只要沈素娘端来的白豆腐。"
+    },
+    {
+      "chapter_id": 9,
+      "target_chars": 920,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "柳含霜搜出银屑，喊沈素娘在豆腐里下毒。"
+    },
+    {
+      "chapter_id": 10,
+      "target_chars": 920,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "萧玄祁当着众人又吃一口，说这不是毒。"
+    },
+    {
+      "chapter_id": 11,
+      "target_chars": 900,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "铁锈味漫上舌根，萧玄祁问那三两银在哪里。"
+    },
+    {
+      "chapter_id": 12,
+      "target_chars": 840,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "沈素娘把空银袋放到案上，说王爷已经吃了半年。"
+    },
+    {
+      "chapter_id": 13,
+      "target_chars": 740,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "柳含霜被锁进废斋房，门里第一声空磨转了起来。"
+    },
+    {
+      "chapter_id": 14,
+      "target_chars": 700,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "阿眠回头看见王府大门合上，沈素娘没有收那箱金子。"
+    },
+    {
+      "chapter_id": 15,
+      "target_chars": 700,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "江边清晨，沈素娘又舀了一碗热豆花，说这碗不收钱。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "phase": "opening",
+      "scene_location": "肃王府斋房",
+      "character_goal": "让读者在前300字看见沈父被害、污名和三两银赔命",
+      "conflict_action": "柳含霜命人把沈父按向石磨，王府随后用偷佛前银器的罪名封口",
+      "information_gap": "沈素娘为什么不闹官，只收下三两银",
+      "emotion_debt_balance": "新增杀父血债、污名血债、三两银羞辱债",
+      "chapter_end_hook": "沈素娘把三两银扣进豆腐模，说日后请他们自己吃回去。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁用AI套话",
+        "不能洗白柳含霜",
+        "不能用长段解释王府背景"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 640,
+      "target_chars_max": 720,
+      "phase": "opening",
+      "scene_location": "白雀寺外斋市",
+      "character_goal": "沈素娘用一百文斋豆腐钓出王府采买常顺",
+      "conflict_action": "常顺压价掀摊，沈素娘递出第一块百味豆腐逼他当街破防",
+      "information_gap": "常顺吃见了什么旧亏欠",
+      "emotion_debt_balance": "偿还一小笔被辱摊位债，同时埋入百味机制",
+      "chapter_end_hook": "常顺咬下第一口豆腐，当街跪在白雀寺门前。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把百味豆腐写成玄学说明",
+        "不要写围观者反应清单",
+        "不能让沈素娘炫耀复仇"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "phase": "pressure",
+      "scene_location": "白雀寺外斋市",
+      "character_goal": "沈素娘让王府主动上门，而不是自己求进府",
+      "conflict_action": "常顺带人回摊砸秤抢豆腐，阿眠护银袋被踩伤",
+      "information_gap": "柳含霜是否已经听见白雀镇豆腐匠的消息",
+      "emotion_debt_balance": "新增踩手与砸摊债，王府入局",
+      "chapter_end_hook": "肃王府的车停在摊前，帘后传出柳含霜的声音。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把砸摊写成吵架摘要",
+        "不要让阿眠变成谋士",
+        "不能削弱王府仗势欺人"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 680,
+      "target_chars_max": 760,
+      "phase": "pressure",
+      "scene_location": "肃王府外门",
+      "character_goal": "沈素娘以厨娘身份进入王府药斋",
+      "conflict_action": "萧玄祁用银票买断手艺，沈素娘只收一日一结的铜钱",
+      "information_gap": "沈素娘坚持铜钱结账的真实用途",
+      "emotion_debt_balance": "权力交易债增加，沈素娘保住主动权",
+      "chapter_end_hook": "萧玄祁要沈素娘入府做寿斋，价钱由王府定。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写暧昧凝视",
+        "不要解释王府制度",
+        "不能把萧玄祁写成无辜买主"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 720,
+      "target_chars_max": 800,
+      "phase": "pressure",
+      "scene_location": "肃王府药斋与废斋房外",
+      "character_goal": "沈素娘试出萧玄祁旧疾和阿眠创伤按钮",
+      "conflict_action": "沈素娘给萧玄祁端安神豆腐，柳含霜故意让人推响废斋房石磨",
+      "information_gap": "柳含霜是试探阿眠，还是认出了沈家人",
+      "emotion_debt_balance": "新增创伤触发债，萧玄祁第一次被豆腐安抚",
+      "chapter_end_hook": "废斋房里传来一声空磨响，阿眠喊出了爹。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要解释旧疾病理",
+        "不要铺陈阿眠心理",
+        "不能让柳含霜显得只是无心"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 740,
+      "target_chars_max": 820,
+      "phase": "pressure",
+      "scene_location": "肃王府小佛堂",
+      "character_goal": "柳含霜逼出沈家身份，沈素娘稳住局面",
+      "conflict_action": "柳含霜用当年原话试探阿眠，沈素娘用斋供规矩反挡她的手",
+      "information_gap": "贺嬷嬷为什么暗中看沈素娘的手",
+      "emotion_debt_balance": "身份危机升高，柳含霜旧恶开始回旋",
+      "chapter_end_hook": "柳含霜盯着阿眠，问她是不是听过那架磨。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要连续解释当年案情",
+        "不能让沈素娘哭诉身份",
+        "不能让贺嬷嬷立刻全盘帮忙"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "phase": "pressure",
+      "scene_location": "老王妃院外廊下",
+      "character_goal": "沈素娘拿到旧供单，证明父亲当年是被征召入府",
+      "conflict_action": "贺嬷嬷用旧供单替沈素娘挡下一次搜身，却只给半页关键证据",
+      "information_gap": "供单缺失的另一半在谁手里",
+      "emotion_debt_balance": "偿还一笔污名证据债，但留下更大缺口",
+      "chapter_end_hook": "贺嬷嬷把旧供单压到沈素娘掌心，供单上有她爹的名字。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要把贺嬷嬷写成全能救星",
+        "不要复述供单条款",
+        "不能让证据来得太轻松"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 820,
+      "target_chars_max": 960,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "肃王府药斋",
+      "character_goal": "沈素娘加深萧玄祁对斋豆腐的入口依赖",
+      "conflict_action": "萧玄祁病发拒药，沈素娘只用一碗白豆腐稳住他的噩梦",
+      "information_gap": "豆腐里让萧玄祁尝见的旧味与老王妃有什么关系",
+      "emotion_debt_balance": "萧玄祁从控制者转向依赖者，清算开始收紧",
+      "chapter_end_hook": "萧玄祁推开太医药碗，只要沈素娘端来的白豆腐。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写可复制的食物伤害步骤",
+        "不要解释百味豆腐原理",
+        "不能把依赖写成爱情"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 860,
+      "target_chars_max": 1000,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "柳含霜院中",
+      "character_goal": "柳含霜抓到银屑线索，反把下毒疑云推到明面",
+      "conflict_action": "柳含霜带人搜沈素娘箱笼，翻出磨银的小石臼和残银痕",
+      "information_gap": "她说中的真话为什么无法取信萧玄祁",
+      "emotion_debt_balance": "身份与下药危机爆发，同时给最终银子入口铺路",
+      "chapter_end_hook": "柳含霜搜出银屑，喊沈素娘在豆腐里下毒。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写投毒教程",
+        "不要让柳含霜变聪明洗白",
+        "不能用长篇审讯拖节奏"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 860,
+      "target_chars_max": 1000,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "肃王府正厅",
+      "character_goal": "沈素娘让萧玄祁亲手否定柳含霜的真话",
+      "conflict_action": "萧玄祁当众吃下被指有毒的白豆腐，命人掌柳含霜的嘴",
+      "information_gap": "萧玄祁为什么宁可信沈素娘也不信侧妃",
+      "emotion_debt_balance": "柳含霜权势反噬，萧玄祁依赖达到危险峰值",
+      "chapter_end_hook": "萧玄祁当着众人又吃一口，说这不是毒。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写宫斗式口水仗",
+        "不要让沈素娘主动辩解太多",
+        "不能把萧玄祁写成正义裁判"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 840,
+      "target_chars_max": 980,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "肃王府药斋夜间",
+      "character_goal": "萧玄祁尝到铁锈味，三两银入口真相逼近",
+      "conflict_action": "沈素娘递最后一碗豆腐，萧玄祁咽下后咳出铁锈味",
+      "information_gap": "三两银到底何时被送进他口中",
+      "emotion_debt_balance": "三两银羞辱债开始回收，肃王恐惧债成立",
+      "chapter_end_hook": "铁锈味漫上舌根，萧玄祁问那三两银在哪里。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不要写医学毒理解释",
+        "不要让萧玄祁瞬间忏悔洗白",
+        "不能提前泄完银子真相"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 780,
+      "target_chars_max": 900,
+      "phase": "climax_reversal",
+      "is_climax_beat": true,
+      "scene_location": "肃王府药斋案前",
+      "character_goal": "沈素娘摊牌三两银半年入口，完成标题payoff",
+      "conflict_action": "沈素娘倒出空银袋和旧供单，让萧玄祁听见王府旧罪的账",
+      "information_gap": "柳含霜将被怎样按原话还回石磨",
+      "emotion_debt_balance": "三两银债主线偿还，萧玄祁控制权崩塌",
+      "chapter_end_hook": "沈素娘把空银袋放到案上，说王爷已经吃了半年。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要长篇复盘全部布局",
+        "不要让沈素娘抒情宣判",
+        "不能把三两银写成纯象征"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 700,
+      "target_chars_max": 780,
+      "phase": "closure",
+      "scene_location": "废弃斋房石磨间",
+      "character_goal": "让柳含霜被石磨意象反噬，不给原谅",
+      "conflict_action": "沈素娘把柳含霜送进废斋房，让她按自己的原话推空磨",
+      "information_gap": "阿眠能不能走出磨声",
+      "emotion_debt_balance": "石磨杀父债得到具体返还",
+      "chapter_end_hook": "柳含霜被锁进废斋房，门里第一声空磨转了起来。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要猎奇描写血肉",
+        "不要给柳含霜苦衷",
+        "不能让她轻飘死去"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "phase": "closure",
+      "scene_location": "肃王府大门",
+      "character_goal": "沈素娘拒绝补偿，带阿眠离开权贵场",
+      "conflict_action": "王府抬出金箱封口，沈素娘只拿走旧供单和空银袋",
+      "information_gap": "母女离开复仇后还能不能把豆腐做回食物",
+      "emotion_debt_balance": "拒绝和解，保住母女尊严",
+      "chapter_end_hook": "阿眠回头看见王府大门合上，沈素娘没有收那箱金子。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要安排权贵赎罪煽情",
+        "不要写母女感谢王府",
+        "不能把离开写成大团圆"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 660,
+      "target_chars_max": 740,
+      "phase": "closure",
+      "scene_location": "江边清晨豆腐坊",
+      "character_goal": "让豆腐从复仇毒物重新变成人间暖意",
+      "conflict_action": "阿眠听见新磨声后稳住手，沈素娘把热豆花推给赶路夫妻",
+      "information_gap": "失父余痛不会消失，但日子重新开始",
+      "emotion_debt_balance": "暖意偿还，保留BE余味",
+      "chapter_end_hook": "江边清晨，沈素娘又舀了一碗热豆花，说这碗不收钱。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不要写原谅王府",
+        "不要空泛抒情",
+        "不能删除父亲余痛"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_total_chars": 10000,
+    "minimum_chapters": 15,
+    "minimum_paywall_cards": 4,
+    "chapter_end_hook_coverage_rate": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [
+      17,
+      24
+    ],
+    "short_line_rate_lte_16_min": 0.38,
+    "short_line_rate_lte_16_max": 0.55,
+    "direct_dialogue_line_rate_min": 0.28,
+    "direct_dialogue_line_rate_max": 0.42,
+    "barrage_line_rate_min": 0.0,
+    "barrage_line_rate_max": 0.04,
+    "question_mark_density_per_1000_chars_min": 1.4,
+    "question_mark_density_per_1000_chars_max": 3.0,
+    "explanatory_long_paragraph_cap_per_chapter": 90
+  }
+}

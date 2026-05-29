@@ -1,0 +1,110 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "preferred": 650
+    },
+    "chapter_end_rule": "每章末必须有未解决冲突、反转信息或下一章行动钩子，禁止平收。",
+    "preferred_chapter_count": [12, 24]
+  },
+  "hook_policy": {
+    "first_300_chars": "必须直接抛出高伤害事件：丧女、流产、丈夫隐瞒真相、女主确认自己被当成血包/生育工具之一。",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_types": [
+      "女主刚拿到关键证据却被反咬为精神失常",
+      "女主即将逃离时被男主/亲人重新拖回牢笼",
+      "反派以为稳赢，女主暗中完成证据闭环",
+      "男主发现真相时，女主已经不可追回"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "18-40岁女性读者",
+      "偏好豪门虐恋、追妻火葬场、女性逃离、法庭清算、亲情背叛题材的番茄短篇用户",
+      "对高压开局、极限委屈、后期反杀和不可原谅结局有强需求的读者"
+    ],
+    "emotional_needs": [
+      "先虐到窒息，再用证据、逃离、审判完成情绪偿还",
+      "女主必须清醒断爱，不回头，不原谅，不被迟来的深情收买",
+      "反派必须公开社死、法律惩罚、亲密关系崩塌三重付费级清算",
+      "新男主只能作为保护和补偿，不抢女主复仇主线"
+    ],
+    "genre_forbidden_zones": [
+      "禁止追妻成功或开放式复合",
+      "禁止把虐童、强制治疗、非法拘禁写成浪漫化误会",
+      "禁止让女主靠自杀换悔悟",
+      "禁止过度血腥器官描写，重点写情绪账和证据链",
+      "禁止精神病污名化表达，必须把精神病院伤害明确归因于反派滥权",
+      "禁止中段转成长篇跨国甜宠，甜线只服务女主重建和复仇资源"
+    ]
+  },
+  "title_strategy": {
+    "platform_title_max_chars": 30,
+    "candidates": [
+      {
+        "formula": "T1_强事件反杀式",
+        "template": "他害死我女儿后，我送他进监狱",
+        "selling_point": "直接给出罪行与清算，适合高点击。"
+      },
+      {
+        "formula": "T3_死后/失去悔疯式",
+        "template": "我逃离火海后，丈夫悔疯了",
+        "selling_point": "突出追妻火葬场和不可追回。"
+      },
+      {
+        "formula": "T4_身份牢笼反转式",
+        "template": "不再做他的笼中雀",
+        "selling_point": "保留原作意象，强化女性逃离。"
+      },
+      {
+        "formula": "T1_亲密背刺式",
+        "template": "丈夫拿我女儿救私生子，我不装了",
+        "selling_point": "前置信息差和强背德冲突。"
+      }
+    ]
+  },
+  "market_positioning": {
+    "core_genre": "现代豪门虐恋复仇 / 追妻火葬场 / 女性逃离",
+    "reader_promise": "看被丈夫和亲哥联手困在牢笼里的女主，在丧女、流产、精神病院折磨后彻底断爱，借证据链和外部力量把所有施害者送上审判席。",
+    "dominant_selling_points": [
+      "极限委屈开局",
+      "孩子血债",
+      "丈夫迟来悔悟无效",
+      "亲哥背叛反噬",
+      "女主逃离旧秩序",
+      "法庭公开清算"
+    ],
+    "emotional_debt_chain": [
+      "女儿被害债",
+      "胎儿被夺债",
+      "精神病院折磨债",
+      "亲哥作伪证债",
+      "反派小三栽赃债",
+      "男主强制带回债"
+    ],
+    "payoff_chain": [
+      "女主假死逃离",
+      "反派内讧供出真相",
+      "男主亲口承认罪责",
+      "警察墓园抓人",
+      "法庭直播反转舆论",
+      "女主不原谅并开启新人生"
+    ]
+  },
+  "success_metrics": {
+    "completion_desire_target": 9.2,
+    "paywall_point_target": 9.0,
+    "emotional_release_target": 9.3,
+    "ai_flavor_target": 0.5,
+    "plot_burst_density_target": 8.8
+  }
+}

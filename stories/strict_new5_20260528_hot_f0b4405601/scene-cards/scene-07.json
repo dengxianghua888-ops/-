@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 950,
+  "target_chars_max": 1070,
+  "location": "林家楼道与电梯口",
+  "time": "离婚当日下午",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "岳母", "林泽宇", "林知夏", "邻居", "物业"],
+  "character_goal": "沈砚用公开证据洗清偷助听器的污名。",
+  "opposition_goal": "岳母想借邻居围观坐实他偷东西，林泽宇想把助听器藏回去。",
+  "conflict_action": "沈砚当众登录维修后台，读取设备绑定编号和最后连接位置，逼出林泽宇包里的助听器。",
+  "information_gap": "林泽宇为什么能拿到设备资料，留给行业会抄袭线。",
+  "emotional_debt_delta": "岳母诬陷债-2；林泽宇偷拿物证债+1；公开打脸爽点+2。",
+  "payoff_or_hook": "邻居和物业见证第一次证据反转。",
+  "chapter_end_hook": "设备后台跳出绑定位置：林泽宇的公文包。",
+  "paywall_card": false,
+  "must_include": ["邻居围观", "物业要求看证据", "绑定编号", "助听器在林泽宇包里", "评论或邻居吐槽两行"],
+  "must_not_write_as_exposition": ["不要讲设备通信协议", "不要连续解释时间线", "不要写围观群众长篇议论"],
+  "rhythm_job": {
+    "shape": "证据动作层层推进，夹2行邻居评论，章尾落在公文包",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 2,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白3，动作4，评论1，呼吸点1，章尾钩1",
+    "low_pressure_carry": "电梯叮声、物业递来登记板、邻居低声吐槽"
+  }
+}

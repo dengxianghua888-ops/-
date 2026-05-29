@@ -1,0 +1,87 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-04b",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 520,
+  "target_chars_max": 580,
+  "location": "场馆B区走廊→太平门方向",
+  "time": "晚上8:06，撕碎线索卡后30秒",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "周予安", "陈栩"],
+  "character_goal": "沈听澜要拖着周予安冲向太平门",
+  "opposition_goal": "周予安打了她一巴掌宣布绝交，陈栩闻声赶来护女友",
+  "conflict_action": "周予安一巴掌打在沈听澜脸上，说出阶级碾压式绝交词；陈栩抓住沈听澜衣领",
+  "information_gap": "沈听澜承受一切也不还手——读者知道她是对的，所以加倍心痛",
+  "emotional_debt_delta": "闺蜜背刺债达到峰值——最痛的一击，后续必须用陈栩跪下偿还",
+  "payoff_or_hook": "钩子：灯光集体闪烁+低频嗡鸣——量子共振器充能接近完成",
+  "chapter_end_hook": "场馆灯光集体闪烁，空气中弥漫低频嗡鸣——充能即将完成的物理信号",
+  "paywall_card": true,
+  "must_include": ["周予安的耳光", "阶级碾压式绝交台词", "脸上火辣辣的痛vs心痛对比", "陈栩出场抓她", "灯光闪烁/嗡鸣异象"],
+  "must_not_write_as_exposition": ["沈听澜对友情的回忆", "两人过去的美好时光"],
+  "rhythm_job": {
+    "shape": "爆发-余震",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 13.5,
+    "dominant_emotion": "绝望-撕裂",
+    "emotion_arc": "背刺 → 彻底孤立 → 灾难前兆",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "心脏被那一巴掌打疼，愤怒和心痛交织，同时感知到灾难逼近",
+    "required_techniques": [
+      {
+        "technique": "阶级碾压式绝交台词",
+        "instruction": "用未来的差距作为武器——'我花三万给你办生日，你毁了一切，以后别来找我'，比骂人更残忍"
+      },
+      {
+        "technique": "自然异象呼应情绪",
+        "instruction": "用灯光闪烁和低频嗡鸣呼应情绪——外部物理异象确认'灾难在逼近'"
+      },
+      {
+        "technique": "暗线推进（充能倒计时）",
+        "instruction": "在情感高潮后用冷静事实拉回悬疑线——提醒读者时间在流逝"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "等+条件+就+极端结果",
+        "example": "等时钟回退三分钟，就彻底完了。",
+        "instruction": "把模糊危险具体化为可计量的倒数——'等嗡鸣停下来，就全完了'"
+      },
+      {
+        "structure": "我X+你Y+再也不",
+        "example": "以后我上清北，你高中毕业，我再也不想见你！",
+        "instruction": "用对比句式完成绝交——'我花三万给你过生日，你撕了我的心意——我们完了'"
+      }
+    ],
+    "peak_type": "betrayal_stack",
+    "bomb_technique": "反转式",
+    "source_excerpt": "闺蜜气得一巴掌打在我的脸上：\"田可，你在干什么！我再也不想见你！\"脸上火辣辣地疼。但和心里的痛比起来却不值一提了。\"以后我上清北，你高中毕业，我再也不想见你！\"窗外刮起狂风，更大的暴雨来了。没人发现，墙上的挂钟又回退了半分钟。等时钟回退三分钟，就彻底完了。"
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["对不起", "你会明白的"],
+      "句式": "极短，只在心里说，不出声辩驳",
+      "单句上限": 10,
+      "禁止": "长篇辩解、反击"
+    },
+    "周予安": {
+      "口癖": ["你疯了", "三万块", "我再也不想"],
+      "句式": "攻击性短句+利益量化+绝交宣言",
+      "单句上限": 20,
+      "禁止": "温和语气"
+    },
+    "陈栩": {
+      "口癖": ["疯女人", "你干什么"],
+      "句式": "暴力性极短句",
+      "单句上限": 12,
+      "禁止": "理性对话"
+    }
+  }
+}

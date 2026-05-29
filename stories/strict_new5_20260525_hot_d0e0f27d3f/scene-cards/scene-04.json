@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "target_chars_min": 760,
+  "target_chars_max": 860,
+  "location": "裴家藏玉老宅晚宴厅",
+  "time": "当晚",
+  "pov": "沈知微 第一人称",
+  "characters": [
+    "沈知微",
+    "裴砚衡",
+    "裴承屿",
+    "林妍",
+    "裴老爷子",
+    "裴母",
+    "家族长辈"
+  ],
+  "character_goal": "坐稳裴家公开身份，不能再被当工具人退回去。",
+  "opposition_goal": "裴承屿和林妍要用假官宣截图和先来后到抢占家宴站位。",
+  "conflict_action": "林妍拿着假结婚证截图入席，裴承屿替她圆场；裴老爷子却让沈知微坐主位，裴母亲手接过她的真证，点名裴承屿叫大嫂。",
+  "information_gap": "长辈为什么这么快站到沈知微这边，裴砚衡此前做了哪些铺垫。",
+  "emotional_debt_delta": "公开身份反压第一次完整回收，前任降级被全场看见。",
+  "payoff_or_hook": "家宴认嫂形成第一付费大钩。",
+  "chapter_end_hook": "裴老爷子看着裴承屿：‘见了你大嫂，怎么不叫人？’",
+  "paywall_card": true,
+  "must_include": [
+    "真结婚证与假截图对撞",
+    "主位/座次的秩序打脸",
+    "长辈接证而非只口头支持",
+    "裴承屿成为最后一个被迫认清降级的人"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲家族礼制百科",
+    "不要连续描写菜品和陈设",
+    "不要让长辈轮番说教"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,56 @@
+slug: hermes_bag
+source_title: "海关说我的破包是爱马仕，那就按爱马仕赔吧"
+output_title: "专业课被压成28分，我让他们连夜调卷"
+target_platform: tomato
+genre: modern_reversal
+status: final
+current_phase: 5
+
+required_artifacts:
+  phase1:
+    - dissection.md
+    - analysis/beat-sheet.md
+    - analysis/style-dna.md
+    - analysis/characters.md
+    - analysis/theme.md
+    - analysis/soul-contract.md
+    - analysis/reader-engine.md
+    - analysis/tension-ledger.md
+    - analysis/platform-fit.md
+  phase2:
+    - adaptation.md
+    - blueprint.md
+  phase3:
+    - draft.md
+  phase4:
+    - review.md
+    - quality-report.json
+    - diff.md
+  phase5:
+    - final.md
+    - craft-notes.md
+    - tomato-submission.md
+    - final-chapters/_chapters-map.md
+
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures:
+    - I5 付费级卡点密度低于番茄推荐的每3000字1次，发布前建议在 ch05 或 ch06 追加一次情绪峰值卡点
+
+metrics:
+  final_word_count: 10949
+  title_chars: 18
+  hook_score: 9
+  tomato_fit_score: 8.4
+  forbidden_hits: {}
+  soft_forbidden_hits:
+    微微: 1
+    轻轻: 1
+
+platform_feedback:
+  submitted_at: ""
+  title_click_rate: null
+  first_chapter_completion_rate: null
+  paid_conversion_rate: null
+  drop_off_chapter: null

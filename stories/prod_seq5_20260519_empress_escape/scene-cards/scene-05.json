@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "含章宫偏殿",
+  "time": "凝霜殿私会后半个时辰",
+  "pov": "温照晚第一人称",
+  "characters": [
+    "温照晚",
+    "萧珩",
+    "值夜太监"
+  ],
+  "character_goal": "温照晚想劝萧珩去凝霜殿抓奸，免得他把怒气憋到自己身上。",
+  "opposition_goal": "萧珩想留在她身边，让她哄自己，不愿解释圣女真相。",
+  "conflict_action": "温照晚把帕子、茶盏、苦参蜜丸一件件塞给萧珩，萧珩却落下门闩坐到她榻边。",
+  "information_gap": "萧珩对乌兰珠私会不怒，却对温照晚关心黑衣男人反应很大。",
+  "emotional_debt_delta": "轻偿宠妃误会，新增萧珩黏人反差债。",
+  "payoff_or_hook": "温照晚第一次发现冷帝委屈起来不像皇帝。",
+  "chapter_end_hook": "她把苦参蜜丸塞进萧珩嘴里，他却含着药低声说苦也想见她。",
+  "paywall_card": false,
+  "must_include": [
+    "女主递帕子哄错方向",
+    "萧珩吃苦参蜜丸",
+    "他不去凝霜殿",
+    "短句吐槽冲淡暧昧"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把萧珩委屈写成幼稚油腻",
+    "不要让女主立刻心软到投降",
+    "不要解释萧珩布局"
+  ]
+}

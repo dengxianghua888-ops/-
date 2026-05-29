@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "score": 8.3,
+  "evidence": [
+    {
+      "type": "physical_detail",
+      "location": "CH01",
+      "quote": "护士把欠费单压在床头牌上",
+      "reason": "用道具和动作承载贫穷压力，避免空泛卖惨。"
+    },
+    {
+      "type": "physical_detail",
+      "location": "CH06",
+      "quote": "我只是把纸一张一张贴平",
+      "reason": "反击动作具体，数字证据比情绪宣泄更有力量。"
+    },
+    {
+      "type": "dialogue",
+      "location": "CH11",
+      "quote": "拿她女儿一点生活费怎么了？",
+      "reason": "反派价值观通过原话暴露，冲突清楚。"
+    },
+    {
+      "type": "sentence_energy",
+      "location": "CH13",
+      "quote": "我比他早知道两年。",
+      "reason": "短句完成情绪回旋，具备记忆点。"
+    },
+    {
+      "type": "ending_boundary",
+      "location": "CH14",
+      "quote": "然后把钥匙推回母亲手边。",
+      "reason": "结尾动作克制，没有用口号式原谅收束。"
+    }
+  ],
+  "style_metrics": {
+    "avg_sentence_length": 16.2,
+    "dialogue_ratio": 0.18,
+    "action_density_per_k": 31
+  },
+  "risks": [
+    "CH08-CH12 证据链段落存在少量连续“我把/我问/我说”句式，可轻修。",
+    "部分金句如“数字比哭声更硬”有效，但同类比喻不宜继续增加。"
+  ]
+}

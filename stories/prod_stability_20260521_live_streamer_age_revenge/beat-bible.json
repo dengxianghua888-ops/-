@@ -1,0 +1,377 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_min": 10120,
+    "planned_total_max": 10760
+  },
+  "title": "一手捧红的短剧顶流嫌我老，我连夜改捧他的死对头",
+  "genre": "modern_reversal / short-drama-business / family-ethics",
+  "mechanisms": [
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "carrier": "前半段所有人都把林见棠当成倒贴顾淮川的年长金主，后半段连续揭开她才是短剧厂牌老板、项目总制片、林家影视公司实控人。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "carrier": "反派用“你不就是砸了点钱”“你欠薇薇的”羞辱她，林见棠再用撤项目、收曝光、追侵权、甩证据把原话原路送回。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "carrier": "旧男主公开羞辱后彻底出局，周既白以业务能力、公开站队和克制回报完成情绪修复。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "carrier": "撤S级短剧与平台招商位→联名首映夜侵权翻车→老宅与影视股权摊牌→法院判赔与公开道歉四连击。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "我当着所有人的面，把顾淮川的S级短剧从主演名单里划掉。"
+    },
+    {
+      "chapter_id": "ch02",
+      "target_chars": 720,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "平台首页刷新那一秒，顾淮川的海报没了。"
+    },
+    {
+      "chapter_id": "ch03",
+      "target_chars": 740,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "周既白接过新剧本，只问我一句：要我把他压到第几位？"
+    },
+    {
+      "chapter_id": "ch04",
+      "target_chars": 800,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "顾淮川的热搜刚冲上去，联名品牌法务部也同步上线了。"
+    },
+    {
+      "chapter_id": "ch05",
+      "target_chars": 700,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "林薇薇端着酒杯逼我让位时，我终于看清她连老宅钥匙都配好了。"
+    },
+    {
+      "chapter_id": "ch06",
+      "target_chars": 760,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "我把银行流水甩上桌，问顾淮川：不是说不认识我？"
+    },
+    {
+      "chapter_id": "ch07",
+      "target_chars": 700,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "顾淮川转头就拿着我的授权链，去签了他以为属于自己的联名。"
+    },
+    {
+      "chapter_id": "ch08",
+      "target_chars": 840,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "首映夜大屏亮起时，男主角的名字不是顾淮川。"
+    },
+    {
+      "chapter_id": "ch09",
+      "target_chars": 720,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "周既白当众护住我后，顾淮川粉丝开始删那批P图。"
+    },
+    {
+      "chapter_id": "ch10",
+      "target_chars": 760,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "老宅客厅里，父亲第一次当众承认：公司股份不在我名下。"
+    },
+    {
+      "chapter_id": "ch11",
+      "target_chars": 820,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "我把股权文件推到林薇薇面前，她的脸一下白了。"
+    },
+    {
+      "chapter_id": "ch12",
+      "target_chars": 700,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "开庭前夜，顾淮川终于肯低头，可我只让律师递了回执。"
+    },
+    {
+      "chapter_id": "ch13",
+      "target_chars": 820,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "法官宣判后，顾淮川必须在全平台置顶道歉七天。"
+    },
+    {
+      "chapter_id": "ch14",
+      "target_chars": 740,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "周既白把终生合作约放到我面前，说这次轮到他给我台阶。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "林家为林薇薇办的庆功宴兼平台招商饭局",
+      "character_goal": "林见棠想确认顾淮川是否会在公开场合站她这边。",
+      "conflict_action": "顾淮川当众否认认识她、顺着林薇薇的年龄羞辱把她晾在席间。",
+      "information_gap": "所有人都不知道林见棠才是顾淮川资源链的真正控制人。",
+      "emotion_debt_balance": {
+        "debt_added": "三年近千万投入被一句“不认识”抹杀，公开羞辱债立刻拉满。",
+        "debt_recovered": "0",
+        "net": "强负债开场"
+      },
+      "chapter_end_hook": "林见棠在手机上划掉顾淮川的主演名字。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能把羞辱写成轻飘误会", "不要提前暴露女主真实权力"]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 640,
+      "target_chars_max": 780,
+      "scene_location": "酒店洗手间外走廊与车内",
+      "character_goal": "林见棠要立刻撤回自己给顾淮川搭好的第一层台阶。",
+      "conflict_action": "她一边接运营电话一边改首页推荐位和预告热榜，顾淮川追出来质问她是不是闹脾气。",
+      "information_gap": "顾淮川以为她最多能砸点钱，根本不知道她能直接换平台位。",
+      "emotion_debt_balance": {
+        "debt_added": "顾淮川继续把她定义成情绪化纠缠者。",
+        "debt_recovered": "撤掉S级短剧与首页位，第一次实际抽梯子。",
+        "net": "开始回收"
+      },
+      "chapter_end_hook": "平台首页刷新后，顾淮川海报被周既白替掉。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释平台规则", "不要写成长篇流程审批", "不要把对峙写成回忆杀"]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 680,
+      "target_chars_max": 800,
+      "scene_location": "厂牌办公室与试镜棚",
+      "character_goal": "林见棠要迅速扶起新的对照组，证明资源离开顾淮川照样能爆。",
+      "conflict_action": "她把原定项目交给周既白，现场压时间重拍定妆片，周既白直接接下高压任务。",
+      "information_gap": "周既白不知道她为何突然换人，只看见她把所有窗口一次性打开。",
+      "emotion_debt_balance": {
+        "debt_added": "旧情残余被迫正面切断。",
+        "debt_recovered": "新盟友接盘，价值观开始对照。",
+        "net": "负债转稳"
+      },
+      "chapter_end_hook": "周既白只问她要把顾淮川压到第几位。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要复述周既白三年怀才不遇简历", "不要写行业术语堆砌", "不要把合作写成暧昧调情"]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 740,
+      "target_chars_max": 880,
+      "scene_location": "平台运营群、热搜页面、顾淮川工作室",
+      "character_goal": "林见棠要让顾淮川第一次尝到失去曝光后的失速感。",
+      "conflict_action": "顾淮川急着买热搜自救，还纵容工作室暗示林见棠骚扰纠缠；林见棠反手让联名品牌法务介入旧授权问题。",
+      "information_gap": "顾淮川以为自己还能靠粉圈和话题翻盘，不知道授权链已经被锁死。",
+      "emotion_debt_balance": {
+        "debt_added": "网暴与污名化开始扩散。",
+        "debt_recovered": "法务线启动，公开反噬倒计时。",
+        "net": "压债待爆"
+      },
+      "chapter_end_hook": "品牌法务上线，顾淮川的热搜瞬间从恋情挂人变成疑似侵权。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要堆网暴脏话原文", "不要连续解释热搜机制", "不要把法务写成天降神兵"]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 620,
+      "target_chars_max": 760,
+      "scene_location": "林家二次饭局",
+      "character_goal": "林见棠要确认继妹和继母到底想夺她什么。",
+      "conflict_action": "林薇薇借着顾淮川新绯闻得势，端酒逼林见棠给顾淮川道歉并让出老宅钥匙和公司项目。",
+      "information_gap": "林薇薇误以为父亲偏心就等于资产归她调度。",
+      "emotion_debt_balance": {
+        "debt_added": "家庭线夺权欲正式落地。",
+        "debt_recovered": "林见棠看清对手要抢的不只是男人，还有资源与家产。",
+        "net": "新债显形"
+      },
+      "chapter_end_hook": "林见棠看到林薇薇包里那串复制好的老宅钥匙。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写冗长伦理旧账", "不要让后妈连篇吵架", "不要把饭局写成纯嘴炮"]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "会议室与饭局包厢",
+      "character_goal": "林见棠要用第一批硬证据撕开“她只是倒贴”的假象。",
+      "conflict_action": "她把转账流水、投流合同、片酬保底单据一张张投屏，逼顾淮川解释为何“不认识”她。",
+      "information_gap": "围观者第一次意识到顾淮川爆红全程都踩在她的钱和项目上。",
+      "emotion_debt_balance": {
+        "debt_added": "顾淮川仍试图把一切说成正常商务。",
+        "debt_recovered": "女主掌控解释权，公开羞辱开始回旋。",
+        "net": "明显回收"
+      },
+      "chapter_end_hook": "顾淮川答不上来时，林见棠只说了一句：那就别再碰我买来的曝光位。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要逐条朗读合同条款", "不要写成法庭口供预演", "不要回忆三年恋爱细节"]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 620,
+      "target_chars_max": 760,
+      "scene_location": "影视公司会议室外与顾淮川工作室",
+      "character_goal": "顾淮川想在联名授权上抢回话语权，林见棠要放任他犯下更大的错。",
+      "conflict_action": "顾淮川绕开她去签联名出演授权，还让林薇薇拿假海报提前预热。",
+      "information_gap": "顾淮川不知道那份链路里最后一道签字权从来不在他手上。",
+      "emotion_debt_balance": {
+        "debt_added": "顾淮川主动跨进侵权坑。",
+        "debt_recovered": "女主不拦，等他自己把坑踩实。",
+        "net": "为大回收蓄力"
+      },
+      "chapter_end_hook": "假海报先发了，林见棠却连一个撤稿电话都没打。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要解释授权体系全流程", "不要用旁白总结反派愚蠢", "不要把失误写成偶然巧合"]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 780,
+      "target_chars_max": 900,
+      "scene_location": "顶奢美妆联名短片首映夜",
+      "character_goal": "林见棠要在最高曝光场把周既白推上去，同时让顾淮川的误签变成公开翻车。",
+      "conflict_action": "首映夜大屏公布正式男主与授权说明，顾淮川拿着假海报冲上来，现场被品牌蓝V和平台官博同步打脸。",
+      "information_gap": "全场直到揭屏前都默认顾淮川是男主，没人知道周既白已完成替拍与正式授权。",
+      "emotion_debt_balance": {
+        "debt_added": "顾淮川想借公开场逼宫翻盘。",
+        "debt_recovered": "公开商业场第一记重锤兑现。",
+        "net": "爽点大额回收"
+      },
+      "chapter_end_hook": "大屏亮起，男主角名字清清楚楚写着周既白。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要写长篇活动布景", "不要解释品牌流程", "不要把首映夜写成群像反应清单"]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 660,
+      "target_chars_max": 780,
+      "scene_location": "首映夜后台与停车场",
+      "character_goal": "林见棠要稳住局面并切断网暴尾巴，周既白要公开站到她这边。",
+      "conflict_action": "顾淮川粉丝围堵偷拍视频，周既白直接挡镜头、接采访、认领项目站队。",
+      "information_gap": "外界以为周既白只是捡漏，不知道他连夜补拍、改剧本、重做宣发全是靠实力接住。",
+      "emotion_debt_balance": {
+        "debt_added": "网暴余波仍在，顾淮川试图把锅推给她设局。",
+        "debt_recovered": "修复线第一次用行动立住，不靠表白。",
+        "net": "情绪开始补偿"
+      },
+      "chapter_end_hook": "周既白护住她后，顾淮川粉圈开始连夜删图。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把周既白写成油腻表白机", "不要罗列所有粉丝评论", "不要回头解释首映夜前因后果"]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 700,
+      "target_chars_max": 820,
+      "scene_location": "林家老宅客厅",
+      "character_goal": "林见棠要把家庭线从嘴上偏心拉到产权和股权真相上。",
+      "conflict_action": "林薇薇拿父亲态度逼她搬出老宅，林见棠当场让律师送来产权与信托文件，逼父亲表态。",
+      "information_gap": "林薇薇一直把父亲的偏心误判成资产已默认属于她。",
+      "emotion_debt_balance": {
+        "debt_added": "继妹与继母公开逼宫，试图剥夺她在家的位置。",
+        "debt_recovered": "家产线证据开始出场。",
+        "net": "家庭债待清算"
+      },
+      "chapter_end_hook": "林振宏第一次承认，公司股份根本不在他手里。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写父亲年轻时旧情史", "不要展开继母婚姻进门史", "不要连续解释法律结构"]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "老宅客厅持续对峙",
+      "character_goal": "林见棠要一次性打掉林薇薇和苏曼的夺权资格。",
+      "conflict_action": "她把母亲遗嘱、股权代持终止条款、老宅产权证一起摊开，当众收回林薇薇参与项目的全部权限。",
+      "information_gap": "苏曼母女直到此刻才知道自己这些年能碰到的资源，全是林见棠默认借出的。",
+      "emotion_debt_balance": {
+        "debt_added": "后妈母女还试图以亲情绑架她继续让渡资源。",
+        "debt_recovered": "家庭线主债完成重锤回收。",
+        "net": "大额转正"
+      },
+      "chapter_end_hook": "林见棠说完“我不是抢回来，我只是停掉借给你们的资格”，林薇薇当场失声。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要朗诵遗嘱全文", "不要写所有亲戚逐个发言", "不要把清算写成长篇说教"]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 620,
+      "target_chars_max": 760,
+      "scene_location": "律师事务所与法院外",
+      "character_goal": "林见棠要把顾淮川的最后求和窗口彻底关死。",
+      "conflict_action": "顾淮川试图私下认错撤诉，林见棠只让律师递交侵权、诽谤、网暴证据包并拒绝和解。",
+      "information_gap": "顾淮川这才发现她早把他工作室、粉头、假海报、偷拍视频链路全部留档。",
+      "emotion_debt_balance": {
+        "debt_added": "顾淮川还想把错误缩成私人感情纠纷。",
+        "debt_recovered": "女主把战场彻底切到证据与判决。",
+        "net": "终局收口前夜"
+      },
+      "chapter_end_hook": "她没见顾淮川，只让律师回了一句：法庭见。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要写繁琐诉讼流程", "不要让顾淮川卖惨回忆过去", "不要展开律师专业术语"]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "公开审理与全平台公告页面",
+      "character_goal": "林见棠要让顾淮川在最公开的场合失去事业、舆论与体面。",
+      "conflict_action": "法庭确认侵权、诽谤与网暴责任，平台与品牌同步切割，顾淮川被判赔并公开置顶道歉。",
+      "information_gap": "围观者原本只把这件事当情感纠纷，直到判决书落下才知道全程都是资源与证据碾压。",
+      "emotion_debt_balance": {
+        "debt_added": "无新增主债，进入终局执行。",
+        "debt_recovered": "事业塌、舆论塌、体面塌三线并发。",
+        "net": "总债基本清零"
+      },
+      "chapter_end_hook": "平台公告挂出后，顾淮川必须把道歉声明置顶七天。",
+      "paywall_card": true,
+      "forbidden_summary": ["不要照搬判决书全文", "不要逐条复述证据目录", "不要把终局写成程序报告"]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 680,
+      "target_chars_max": 800,
+      "scene_location": "片场晨会与新项目签约桌",
+      "character_goal": "林见棠要完成情绪翻篇，不回头，只往前走。",
+      "conflict_action": "周既白拿着新项目计划表、修订档期和终生合作约来找她，当场把第一位署名留给她拍板。",
+      "information_gap": "读者要到最后一场才确认，周既白给她的不是空口安慰，而是稳定回报与公开尊重。",
+      "emotion_debt_balance": {
+        "debt_added": "无新增债。",
+        "debt_recovered": "尊重、站队、业务回报完成修复闭环。",
+        "net": "轻盈收尾"
+      },
+      "chapter_end_hook": "周既白把合同推过来，说这次轮到他给她递台阶。",
+      "paywall_card": false,
+      "forbidden_summary": ["不要把结尾写成甜宠表白大会", "不要回头消费前任", "不要用总结句替代现场动作"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 14,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": 1.0
+  },
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [21, 28],
+    "short_line_rate_lte_16_min": 0.30,
+    "short_line_rate_lte_16_max": 0.40,
+    "direct_dialogue_line_rate_min": 0.36,
+    "direct_dialogue_line_rate_max": 0.48,
+    "barrage_line_rate_min": 0.05,
+    "barrage_line_rate_max": 0.10,
+    "question_mark_density_per_1000_chars_min": 1.2,
+    "question_mark_density_per_1000_chars_max": 2.2,
+    "explanatory_long_paragraph_cap_per_chapter": 2
+  }
+}

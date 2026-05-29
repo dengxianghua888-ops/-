@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "书房文件柜、电脑旁、工程验收群聊天记录",
+  "time": "墙体异常后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "假未婚夫",
+    "技术员",
+    "记者"
+  ],
+  "character_goal": "沈棠要证明别墅翻新时间线与家人失踪时间冲突。",
+  "opposition_goal": "假未婚夫要把所有工程记录解释成沈家出国前授权。",
+  "conflict_action": "沈棠打开父亲书房电脑和文件柜，翻出验收单、施工群截图和授权文件，逐项逼假未婚夫解释签章时间。",
+  "information_gap": "谁在沈父失联后继续签发工程授权。",
+  "emotional_debt_delta": "解除婚约的羞辱转化为共犯嫌疑，读者获得反杀期待。",
+  "payoff_or_hook": "工程章与解除婚约通知上的电子印一致。",
+  "chapter_end_hook": "验收单的落款日期，比我爸最后一次给我发消息还晚三天。",
+  "paywall_card": false,
+  "must_include": [
+    "施工验收单",
+    "工程群截图",
+    "解除婚约通知",
+    "电子印章时间冲突",
+    "假未婚夫脸色变化"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成感情争执",
+    "不要让未婚夫只负责退婚羞辱",
+    "不要用偶然翻到文件糊弄"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "check": "short_action_sentences",
+      "status": "pass",
+      "quote": "铜锁扣上，咔哒一声。",
+      "comment": "短句、声音、动作合一，适合虐点落刀。"
+    },
+    {
+      "check": "physicalized_props",
+      "status": "pass",
+      "quote": "棺底只剩一只碎药囊，绣线被扯烂，像阿砚最后抓不住的手。",
+      "comment": "以碎药囊承接尸身被夺和后续证据链。"
+    },
+    {
+      "check": "dialogue_function",
+      "status": "pass",
+      "quote": "“错了不是钥匙，打不开死人的门。”",
+      "comment": "台词承担清算功能，不是闲聊。"
+    },
+    {
+      "check": "anti_ai_smell",
+      "status": "pass",
+      "quote": "她把额头撞向桶沿。水溅起来，嬷嬷忙着按她，亲信嫌脏后退半步。那半步够了。",
+      "comment": "动作链具体，未用抽象情绪套话。"
+    },
+    {
+      "check": "golden_line",
+      "status": "pass",
+      "quote": "错了不是钥匙，打不开死人的门。",
+      "comment": "具备短视频/评论区传播潜力。"
+    }
+  ],
+  "machine_observations": {
+    "forbidden_phrase_hits": [],
+    "soft_repetition_notes": [
+      "“没有”结构出现较多，但多数符合冷感叙述。",
+      "“像”比喻有一定频次，尚未形成 AI 味堆叠。"
+    ]
+  },
+  "risks": [
+    "可替换少量“没有……”句式，避免机械感。",
+    "中段男主视角可减少哭悔描写，更多使用证据和动作。"
+  ]
+}

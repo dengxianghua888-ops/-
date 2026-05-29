@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "dimension": "opening_click",
+      "finding": "前150字内完成婚礼场景、遗体冷柜、女主铭牌三重钩子，羞辱强度和信息不对称明确。",
+      "location": "draft.md opening"
+    },
+    {
+      "dimension": "chapter_hooks",
+      "finding": "14个场景均有可断章钩子，包括交易所问询、陌生短信、许知微“我死过一次”、调查组到场、CEO暂停职务、冷柜铭牌回收。",
+      "location": "draft-scenes/scene-01.md to draft-scenes/scene-14.md"
+    },
+    {
+      "dimension": "paywall_cards",
+      "finding": "正文存在3个自然付费卡点：scene-04 陆承川递名片，scene-08 江砚舟起诉威胁，scene-12 新关系等待钩。",
+      "location": "scene-04, scene-08, scene-12"
+    },
+    {
+      "dimension": "phase_boundary",
+      "finding": "正文未提供 Phase 7 标题、简介、投稿卡点地图，但合同规定不得仅因此否决 Phase 6。"
+    }
+  ]
+}

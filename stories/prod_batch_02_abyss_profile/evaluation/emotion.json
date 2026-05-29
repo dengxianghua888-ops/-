@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "score": 8.7,
+  "evidence": [
+    {
+      "path": "story/draft.md#01",
+      "debt": "被低估身份债",
+      "quote": "护理插班生林照。",
+      "assessment": "弱外壳和强身份形成读者优越感。"
+    },
+    {
+      "path": "story/draft.md#12",
+      "debt": "受害者去编号化",
+      "quote": "名字比编号重。",
+      "assessment": "编号化伤害得到偿还。"
+    },
+    {
+      "path": "story/draft.md#16",
+      "debt": "更大档案网",
+      "quote": "寒灯，欢迎归档。",
+      "assessment": "个人病例被牵出，续作债成立。"
+    }
+  ]
+}

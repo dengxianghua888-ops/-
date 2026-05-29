@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "beat-09",
+  "target_chars_min": 900,
+  "target_chars_max": 980,
+  "location": "墙内旧航站楼走廊",
+  "time": "墙内时间流速紊乱状态",
+  "pov": "第一人称",
+  "characters": ["陆昭"],
+  "character_goal": "在时间黏滞彻底合拢前，穿过走廊抵达地下导航机房入口。",
+  "opposition_goal": "墙内错乱时间本身在拖慢她，让方向感和身体节奏失效。",
+  "conflict_action": "陆昭沿着主钟脉冲声穿过停住的纸杯、倒退的秒针和反复重播的广播，硬闯下行通道。",
+  "information_gap": "她所谓的‘豁免’究竟有多久，什么时候会失效？",
+  "emotional_debt_delta": "把规则恐怖具体化，给终局停机前再上一轮压迫。",
+  "payoff_or_hook": "墙内世界和墙外误判形成强烈对照，证明她之前承受的一切都是真的。",
+  "chapter_end_hook": "截断句：地下机房门口，有人已经在等我。",
+  "paywall_card": true,
+  "must_include": ["广播重播但字句错位", "静止或逆行的小物件", "陆昭靠录音节拍找路", "墙内没有血腥，只有时间错位的窒息感"],
+  "must_not_write_as_exposition": ["不要科普时间异常机制", "不要连篇形容词堆氛围", "不要把走廊写成纯跑酷"],
+  "rhythm_job": {
+    "shape": "墙内异景-按节拍赶路-豁免将尽-门口见人",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "低压反应：纸杯悬停、秒针倒走、鞋底摩擦"
+  }
+}

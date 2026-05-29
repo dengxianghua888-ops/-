@@ -1,0 +1,33 @@
+slug: batch_v3_01_modern_reversal
+source_slug: hot_25c29a73f4
+title: 录音笔
+genre: modern_reversal
+pipeline_mode: production
+status: drafting
+run_date: "2026-05-26"
+optimization: v3_style_fidelity
+mechanisms:
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 高考志愿被闺蜜篡改+五年后证据清算+律师身份回归
+  new_setting: 专利被合伙人窃取+三年后证据清算+知识产权律师身份回归
+  identity_hide: 无（核心是"带着证据回到旧案中心"）
+  betrayal_layers:
+    - 合伙人林舟窃取女主核心算法专利，以自己名义申报
+    - 林舟联合CTO伪造代码提交记录，将女主贡献抹除
+    - 前男友（投资人）选择站林舟一边，称女主"技术不行只是打杂"
+    - 公司全员在内部群嘲讽女主"碰瓷""蹭功劳"
+  reversal_trigger: 林舟公司上市前夜被曝专利纠纷，需要女主签署"无异议声明"
+  boomerang: "你就是个写代码的工具人"回旋——最终代码提交日志+邮件原件证明她是唯一核心开发者
+  temperature_structure:
+    warm_memory: 创业初期林舟说"这公司一半是你的"、熬夜帮她调bug、生日送机械键盘
+    cold_reality: 林舟改了代码仓库权限、删除她的commit记录、在投资人面前说"她只是前端切图的"
+    freeze_point: 上市前夜林舟跪地求签字——"你签了我给你两百万封口费"
+  core_rule: "代码不会说谎。git log里每一行都是证据。"

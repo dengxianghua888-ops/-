@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "喜堂外水阶与皇城仪仗前",
+  "time": "同日稍后",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "皇帝",
+    "谢临舟",
+    "谢都督",
+    "裴家众人",
+    "内廷侍卫"
+  ],
+  "character_goal": "被父皇接住，并把家国力量摆到谢家头顶。",
+  "opposition_goal": "谢家想先请罪保命，尽量保住漕权与体面。",
+  "conflict_action": "皇帝亲自下舟，把披风裹到沈蘅身上；谢家父子跪地叩首，皇帝当场下旨削权、拘押、开漕银旧案。",
+  "information_gap": "皇帝把她护到身后，淡声落旨：\"削谢家漕权，开漕银旧案。\"",
+  "emotional_debt_delta": "-1：安全回收兑现，清算升级为公权追责。",
+  "payoff_or_hook": "父皇不是只安慰，他要出手。",
+  "chapter_end_hook": "皇帝把她护到身后，淡声落旨：\"削谢家漕权，开漕银旧案。\"",
+  "paywall_card": false,
+  "must_include": [
+    "父皇亲手披衣或抱住她的动作",
+    "谢家当众跪伏",
+    "一道具体可执行的旨意"
+  ],
+  "must_not_write_as_exposition": [
+    "不要展开朝臣名单",
+    "不要省略皇权落地动作"
+  ],
+  "rhythm_job": {
+    "shape": "父女接触 -> 1轮问罪 -> 圣旨短句砸尾",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白5成，动作3成，留白2成",
+    "hook_line_required": true
+  }
+}

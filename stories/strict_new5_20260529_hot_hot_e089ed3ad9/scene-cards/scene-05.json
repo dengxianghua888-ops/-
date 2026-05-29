@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 720,
+  "target_chars_max": 830,
+  "location": "医院缴费窗口",
+  "time": "次日清晨",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "沈岚",
+    "收费员",
+    "财务值班主管"
+  ],
+  "character_goal": "林望让沈岚亲手查出五十万预存医疗账户为空。",
+  "opposition_goal": "沈岚要证明自己给过救命钱，父亲死亡与她无关。",
+  "conflict_action": "沈岚刷董事权限调账，收费员打印出余额为零和排期取消回执。",
+  "information_gap": "沈岚以为账户足额预存，实际三年前已经被秦砚舟转空。",
+  "emotional_debt_delta": "救命钱失效被证据化，沈岚不查账户的责任加重。",
+  "payoff_or_hook": "空账户付费卡点。",
+  "chapter_end_hook": "回执吐出半截，余额栏清清楚楚写着：0.00。",
+  "paywall_card": true,
+  "must_include": [
+    "五十万预存医疗账户",
+    "缴费窗口打印回执",
+    "未缴费取消排期记录",
+    "沈岚刷权限卡"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释完整医院财务流程",
+    "不要把转空写成系统故障",
+    "不要让秦砚舟此刻全盘坦白"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作推动，窗口对话短促，回执数字压过情绪句",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

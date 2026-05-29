@@ -1,0 +1,15 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "audience": "偏爱强钩子、强反转、女主清醒反击的番茄读者",
+  "selling_points": [
+    "开篇羞辱即反击",
+    "证据链递进",
+    "反派清算",
+    "女主完成自我修复"
+  ]
+}

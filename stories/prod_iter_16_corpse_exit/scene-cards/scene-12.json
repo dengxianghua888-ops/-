@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "码头医务室外走廊",
+  "time": "倒计时4小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "江栀", "沈清禾", "江父", "江母", "医务员"],
+  "character_goal": "江沉申请离岗，准备在倒计时结束前离开所有审判。",
+  "opposition_goal": "江栀要逼江沉完成最后一次下井赎罪，维护发布会体面。",
+  "conflict_action": "江栀撕掉离岗申请，把封闭排洪井派工单拍到江沉胸口，沈清禾把止痛药瓶踢远。",
+  "information_gap": "江栀不知道这张派工单会成为她直接推江沉赴死的物证。",
+  "emotional_debt_delta": "+姐姐继续派高危任务；+妻子冷眼断药；+赎罪话术推向死亡临界",
+  "payoff_or_hook": "离场前最后一次被亲人推向井下。",
+  "chapter_end_hook": "江栀把最后一张下井派工单拍在桌上，派工地点是封闭排洪井。",
+  "paywall_card": false,
+  "must_include": ["离岗申请", "封闭排洪井派工单", "止痛药瓶", "江栀命令", "倒计时4小时"],
+  "must_not_write_as_exposition": ["不要写成普通派工", "不要让江栀心软", "不要渲染具体自毁方法"]
+}

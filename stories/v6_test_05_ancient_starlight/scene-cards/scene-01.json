@@ -1,0 +1,72 @@
+{
+  "scene_id": "scene-01",
+  "beat_id": "beat-01",
+  "chapter_id": 1,
+  "is_chapter_end": false,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "品牌晚宴——某五星酒店宴会厅出口",
+  "time": "晚上，苏念准备离开的瞬间",
+  "pov": "苏念（第一人称）",
+  "characters": [
+    "苏念",
+    "季霄",
+    "陈奕",
+    "方颖"
+  ],
+  "character_goal": "苏念要跟着季霄离开这个让她窒息的场合",
+  "opposition_goal": "陈奕拦路不让苏念走——占有欲驱使，不是因为爱",
+  "conflict_action": "季霄提出用苏念换方颖的交易，陈奕推出方颖又拽回——暴露真实排序",
+  "information_gap": "读者不知道季霄和苏念是什么关系，不知道季霄的真实身份",
+  "emotional_debt_delta": "建立初始情绪债——陈奕对苏念的无所谓态度 vs 对方颖的在乎",
+  "payoff_or_hook": "季霄的嚣张气场和苏念的冷静形成组合冲击力",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "季霄拽着苏念手腕往外走的动作",
+    "陈奕拦门的物理对峙",
+    "交换方颖的博弈对话",
+    "陈奕推-拽方颖的矛盾动作"
+  ],
+  "must_not_write_as_exposition": [
+    "季霄的身份背景",
+    "苏念和陈奕的六年关系史",
+    "方颖是谁"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 13.8,
+    "comma_period_ratio": 0.52,
+    "sentence_avg_len": 11.2,
+    "dominant_emotion": "紧张-暧昧",
+    "emotion_arc": "对峙紧张 → 交换博弈 → 权力位移",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "好奇季霄的身份和他对苏念的态度——这个男人不简单",
+    "required_techniques": [
+      {
+        "technique": "交换要挟的权力博弈",
+        "instruction": "季霄用轻佻语气提出'我把苏念还给你，你把方颖给我'的交易——把人当筹码的方式暗示他根本不怕对方"
+      },
+      {
+        "technique": "推-拽矛盾动作暴露真实优先级",
+        "instruction": "陈奕不假思索推出方颖→季霄伸手时又拽回——两个矛盾动作瞬间暴露排序，零解释"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问+利益分配逻辑的游戏化表达",
+        "example": "好事总不能全让你占了吧？",
+        "instruction": "季霄用商业谈判的口吻处理感情对峙——降格=不屑=绝对自信"
+      }
+    ],
+    "peak_type": "power_shift",
+    "bomb_technique": "对比式",
+    "source_excerpt": "季霄拽着我的手腕往外走。陈奕拦在门口。三千万粉丝的头部主播，声音在抖。“苏念，你不能走。”我没回头。他六年没说过这句话。季霄停下脚步，转过身。那个天天刷火箭的游戏宅，看陈奕的眼神像在看一个死人。"
+  }
+}

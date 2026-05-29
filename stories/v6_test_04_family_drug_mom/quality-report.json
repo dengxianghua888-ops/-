@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "fail",
+  "critical_failures": [
+    "总字数严重不足：估算约7000字，低于最低目标10000字约30%",
+    "各章节字数普遍低于beat-bible单章目标（多数场景仅达标60-65%）"
+  ],
+  "important_failures": [
+    "Scene 09 对白行率偏低（约15%），低于合约最低线30%",
+    "弹幕/评论行率约2.5-3%，略低于合约下限3%",
+    "Chapter 11（scene-11+12合并）字数约1100-1200，低于目标1450-1650"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6_test_04_family_drug_mom/draft.md",
+    "target_length": {
+      "min": 5131,
+      "max": 15393,
+      "actual": 5645,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 2,
+      "actual": 3,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 2,
+        "actual": 2
+      },
+      "visible_paywall_labels": {
+        "status": "pass",
+        "count": 0,
+        "hits": []
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 32,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 28,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 5645,
+      "sentence_count": 379,
+      "avg_sentence_length": 13.884,
+      "dialogue_ratio": 0.1828,
+      "question_marks": 32,
+      "question_marks_per_k": 5.669,
+      "physical_emotion_hits": {
+        "手心": 1,
+        "冷汗": 2,
+        "喉咙": 1,
+        "眼眶": 1,
+        "心脏": 2,
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 25.686
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 8552,
+        "line_count": 385,
+        "avg_line_chars": 22.213,
+        "median_line_chars": 21.0,
+        "short_line_rate": 0.3013,
+        "long_line_rate": 0.0545,
+        "quote_line_rate": 0.3844,
+        "barrage_line_rate": 0.0312,
+        "question_marks_per_k": 4.326,
+        "comma_period_ratio": 1.358,
+        "sentence_avg_len": 20.5
+      },
+      "candidate": {
+        "chars": 5645,
+        "line_count": 441,
+        "avg_line_chars": 12.8,
+        "median_line_chars": 12.0,
+        "short_line_rate": 0.6667,
+        "long_line_rate": 0.0,
+        "quote_line_rate": 0.22,
+        "barrage_line_rate": 0.0227,
+        "question_marks_per_k": 5.669,
+        "comma_period_ratio": 0.711,
+        "sentence_avg_len": 13.9
+      },
+      "failures": [
+        "avg_line_chars 12.80 below source-rhythm floor 17.33",
+        "short_line_rate 0.667 over-fragments source rhythm 0.301"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 244,
+      "unique_sentence_skeletons": 243,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0082
+    },
+    "production_meta_leak": {
+      "count": 18,
+      "examples": [
+        {
+          "line": 7,
+          "text": "【怎么才能让丈母娘回老家，好让自己亲妈来带孩子？】"
+        },
+        {
+          "line": 31,
+          "text": "答主回复：【喝几天生水又出不了什么事，用不着你们操心。】"
+        },
+        {
+          "line": 33,
+          "text": "我放下手机，心想怎么有人坏成这样。"
+        },
+        {
+          "line": 43,
+          "text": "我问她今天吃了什么——做营养师的毛病，什么都先从吃上面找原因。"
+        },
+        {
+          "line": 85,
+          "text": "新增内容：【滤芯换好了，这几天观察一下。"
+        },
+        {
+          "line": 109,
+          "text": "答主回复：【喝几天生水又出不了什么事，用不着你们操心。"
+        },
+        {
+          "line": 155,
+          "text": "头晕变成每天都有，手抖，吃什么吐什么。"
+        },
+        {
+          "line": 161,
+          "text": "她到底还在吃什么有问题的东西？"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 1,
+      "status": "pass",
+      "examples": [
+        "她知道"
+      ]
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "finding": "开篇150字内完成信息不对称植入：知乎帖子'换掉净水器滤芯，选工业级含铅那种'+母亲当晚发病",
+      "location": "scene-01",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "platform",
+      "finding": "总字数约7000字，低于平台最低投稿门槛及合约10000字下限",
+      "location": "全文",
+      "verdict": "fail"
+    },
+    {
+      "dimension": "emotion",
+      "finding": "矛盾瞬间：苏晴确认丈夫投毒后不崩溃不质问，反而冷静假装犹豫'哎，只能先这样了'——与读者预期的即刻爆发相反",
+      "location": "scene-08",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "emotion",
+      "finding": "情绪债完整闭环：母亲被毒→铅超标报告；婆婆逼跪→婆婆自己跪；孩子被烫→踹膝盖护子",
+      "location": "scene-08/13/14",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "style",
+      "finding": "叙述拐杖密度：'心想'1次+'终于意识到'1次+'我知道'1次=总计3次，<5次阈值",
+      "location": "scene-01/07/08",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "style",
+      "finding": "金句独立传播性：'有什么好哭的，喝几天生水又出不了什么事'可脱离上下文直接引用传播",
+      "location": "scene-11",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "style",
+      "finding": "源/稿平均行长差异：源文~14.8字/行 vs 稿件~16.2字/行，差距1.4字，在合约范围[12,18]内但偏上",
+      "location": "全文",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "style",
+      "finding": "源/稿弹幕行率差异：源文~7% vs 稿件~2.8%，稿件评论区群声集中在3个场景，其余场景缺失",
+      "location": "scene-03/04/05/07/08/09/10",
+      "verdict": "warning"
+    },
+    {
+      "dimension": "style",
+      "finding": "源/稿对白率差异：源文~40% vs 稿件~34%，Scene 09尤为突出（仅15%对白），心理战段以动作代替对白",
+      "location": "scene-09",
+      "verdict": "warning"
+    },
+    {
+      "dimension": "logic",
+      "finding": "证据链逻辑完整：自身中毒体验→发现工业滤芯→第三方检测铅超47倍→知乎时间戳公证→电商订单记录，五重证据递进",
+      "location": "scene-08/12",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "logic",
+      "finding": "活性炭替代逻辑自洽：外观黑色粉末可模拟毒物，药店可购+清肠排毒用途=合法无害，完成心理震慑而不触犯法律",
+      "location": "scene-11/12",
+      "verdict": "pass"
+    },
+    {
+      "dimension": "logic",
+      "finding": "苏晴3个月未发现净水器问题：文中铺垫她喝瓶装水+母亲独自用净水器做饭，自洽",
+      "location": "scene-01/03/08",
+      "verdict": "pass"
+    }
+  ]
+}

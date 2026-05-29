@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "path": "story/draft.md#04",
+      "type": "physical_evidence",
+      "quote": "拿到纤维。标签有封蜡，字体和论坛截图待比对。",
+      "assessment": "动作和证据推进清楚。"
+    },
+    {
+      "path": "story/draft.md#11",
+      "type": "scene_action",
+      "quote": "封蜡粉、指纹、威胁录音、广播登录、许曼口供。",
+      "assessment": "证据链以短句列出，节奏快。"
+    },
+    {
+      "path": "story/draft.md#16",
+      "type": "ending_hook",
+      "quote": "门还没关。",
+      "assessment": "悬念句简短。"
+    }
+  ]
+}

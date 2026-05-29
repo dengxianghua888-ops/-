@@ -1,0 +1,10 @@
+slug: prod_fresh_20260519_ancient_evening_wind
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: ancient_evening_wind
+genre: 
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "auto-batch generated; verify before any external upload"

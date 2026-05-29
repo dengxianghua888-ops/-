@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "beat-16",
+  "target_chars_min": 700,
+  "target_chars_max": 850,
+  "location": "码头临时停尸间",
+  "time": "江沉死亡脱离后两小时",
+  "pov": "灵魂旁观，江沉",
+  "characters": ["江沉的灵魂", "沈清禾", "江栀", "江父", "江母", "安全主管"],
+  "character_goal": "众人确认白布下的人是不是江沉。",
+  "opposition_goal": "沈清禾和江栀仍想把事实推成误认或江沉作戏。",
+  "conflict_action": "沈清禾掀开白布认出旧伤疤，江栀核对安全帽编号，江母翻出旧照片一寸寸对照。",
+  "information_gap": "她们还不知道安全帽录像即将自动播放贺景衡施暴画面。",
+  "emotional_debt_delta": "-死亡事实坐实；+迟到确认变成精神惩罚",
+  "payoff_or_hook": "死后旁观的核心启动：所有关心都来得太迟。",
+  "chapter_end_hook": "安全帽录像自动播放，第一帧就是贺景衡按住江沉的脸。",
+  "paywall_card": false,
+  "must_include": ["旧伤疤", "安全帽编号", "江母旧照片", "沈清禾手抖", "录像自动播放"],
+  "must_not_write_as_exposition": ["不要让确认变成和解", "不要让江沉心软", "不要用大段忏悔代替动作"]
+}

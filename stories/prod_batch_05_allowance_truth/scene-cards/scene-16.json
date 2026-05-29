@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "B16",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "肿瘤科病房、旧餐馆门口、墓园",
+  "time": "最后几天与葬礼后",
+  "pov": "第一人称林素琴转短暂旁观，再回到许念动作",
+  "characters": [
+    "林素琴",
+    "许念",
+    "陈橙"
+  ],
+  "character_goal": "许念陪母亲走完最后时间，并把好好吃饭变成长期承诺",
+  "opposition_goal": "死亡让和解无法变成圆满生活，十五年缺席不可追回",
+  "conflict_action": "许念给林素琴喂饭、把自己的画展海报贴到旧餐馆门口，葬礼后在墓前放下一盒彩铅和两份热饭",
+  "information_gap": "收束在余痛：她们和好了，但错过的时间不会回来",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "-5",
+    "mother_negligence_debt": "-4",
+    "father_malice_debt": "-6",
+    "time_debt": "+10"
+  },
+  "payoff_or_hook": "母女情感债得到偿还，时间债保留余痛",
+  "chapter_end_hook": "旧餐馆门口贴上画展海报，海报角落写着：妈，我今天吃了两碗饭。",
+  "paywall_card": false,
+  "must_include": [
+    "病房喂饭",
+    "旧餐馆门口画展海报",
+    "第一盒彩铅",
+    "两份热饭",
+    "妈，我今天吃了两碗饭"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写大团圆",
+    "不要用长篇墓前独白拖沓",
+    "不要让新生活冲淡十五年缺席"
+  ]
+}

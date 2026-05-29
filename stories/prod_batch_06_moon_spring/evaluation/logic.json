@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "score": 8.2,
+  "evidence": [
+    {
+      "check": "motivation",
+      "status": "pass",
+      "quote": "“我签的。”陆衡舟挡在苏云屏身前，“阿砚被你养得病气重，先学规矩。”",
+      "comment": "男主送训动机是药脉/规矩/偏信苏云屏，虽恶劣但有明确因果。"
+    },
+    {
+      "check": "causality",
+      "status": "pass",
+      "quote": "陆衡舟隔着门道：“云屏动了胎气，名医先去她院里。阿砚送普通药工看。”",
+      "comment": "阿砚死亡直接由封锁药堂、错配救治资源导致，因果清楚。"
+    },
+    {
+      "check": "non_exculpation",
+      "status": "pass",
+      "quote": "最下方朱红私印端正清晰，印泥压进纸纹里，不是仿的。",
+      "comment": "私印证据防止男主把责任全部推给下人。"
+    },
+    {
+      "check": "villain_evidence",
+      "status": "pass",
+      "quote": "沈照棠递进去的信，是我截的。阿砚的医案，是我让人改的。",
+      "comment": "苏云屏罪行由亲口承认和密信承接，不是旁白硬安。"
+    },
+    {
+      "check": "ethical_boundary",
+      "status": "pass",
+      "quote": "“救我是真。”沈照棠看着他，“替我决定也是真。”",
+      "comment": "救命人隐瞒旧事也被审视，女主自主权没有被浪漫化牺牲。"
+    },
+    {
+      "check": "ending_boundary",
+      "status": "pass",
+      "quote": "我的路，不靠一张船票定。",
+      "comment": "不复合、不改嫁、不二选一，结局伦理边界稳定。"
+    }
+  ],
+  "sensitive_issue_review": {
+    "child_harm": {
+      "status": "pass",
+      "comment": "以结果、门锁、咳声、布条、账册呈现，未展开猎奇过程。"
+    },
+    "medical_content": {
+      "status": "pass",
+      "comment": "无具体方剂、剂量、针法、可模仿治疗流程。"
+    },
+    "illegal_confinement": {
+      "status": "pass",
+      "comment": "疗养院和家庙关押被明确作为权力压迫，不被正当化。"
+    },
+    "arson_fire_scene": {
+      "status": "pass",
+      "comment": "火场以叙事动作为主，但建议压缩操作步骤以降低程序化风险。"
+    }
+  },
+  "risks": [
+    {
+      "issue": "苏云屏被押后仍能纵火的行动链略跳。",
+      "severity": "minor",
+      "suggestion": "在 scene-18 开头补一句她借移送或诊脉脱身。"
+    },
+    {
+      "issue": "火场破窗、进出、破锁动作连续性较强。",
+      "severity": "minor",
+      "suggestion": "压缩为结果性叙述，避免过细流程。"
+    }
+  ]
+}

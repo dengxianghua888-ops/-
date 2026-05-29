@@ -1,0 +1,126 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_length_chars": [500, 1200],
+    "tomato_preferred_chars": [500, 800],
+    "median_chars": 650,
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "first_300_chars": "强 Hook：必须直接抛出不可逆伤害或极端不公，不铺垫世界观。",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "chapter_end_hook": "每章末必须留下新证据、新威胁、新身份疑点或报应临门。"
+  },
+  "market_position": {
+    "genre": "ancient_BE",
+    "subgenre": "古言权贵压迫 / 底层复仇 / 母女冷爽清算",
+    "core_sell_point": "普通手艺人被权贵碾死，遗孀用同一门手艺把权贵一步步喂进报应里。",
+    "reader_promise": "先让读者为草民被权贵随意碾碎而恨到极点，再看母女用豆腐、银子、石磨和人心完成精密复仇。"
+  },
+  "audience": {
+    "target_readers": [
+      "偏好短篇复仇爽文的番茄女性读者",
+      "喜欢古言权贵压迫、底层反杀、母女互相托举的读者",
+      "能接受低温复仇、因果报应、BE 余味的虐爽读者"
+    ],
+    "emotion_needs": [
+      "弱者被欺压后的极致代偿",
+      "权贵傲慢被同一规则反噬的痛快",
+      "母女隐忍布局、最终清算的安全感",
+      "结尾从复仇毒性回到人间温暖的情绪释放"
+    ],
+    "genre_forbidden_zones": [
+      "不得把权贵施害写成误会或可原谅的失手",
+      "不得让女主母亲与太傅产生真感情或暧昧洗白",
+      "不得让复仇只靠口号，必须靠道具、规则、证据和因果闭环推进",
+      "不得在结尾安排原谅、和解、施害者轻飘飘死亡",
+      "不得加入现代网络热梗、沙雕吐槽或过量玄学解释"
+    ]
+  },
+  "title_strategy": {
+    "platform_title_requirements": {
+      "max_chars": 30,
+      "preferred_style": "一句话带冲突、身份差、报应或反杀道具"
+    },
+    "formula_candidates": [
+      {
+        "formula_id": "T1",
+        "formula": "施害场景 + 我用同一道具反杀",
+        "examples": [
+          "夫人把我爹推进石磨后，她悔疯了",
+          "权贵碾死我爹后，我娘端上三两银豆腐"
+        ]
+      },
+      {
+        "formula_id": "T3",
+        "formula": "死亡/遗物 + 迟来报应",
+        "examples": [
+          "藏在豆腐里的三两银子",
+          "我爹死后，太傅吃下了那三两银子"
+        ]
+      },
+      {
+        "formula_id": "T4",
+        "formula": "数字谜团 + 真相反转",
+        "examples": [
+          "太傅赔我家三两银，我娘让他全吃了",
+          "一块豆腐一百文，太傅却跪着求我娘做"
+        ]
+      },
+      {
+        "formula_id": "ancient_couplet",
+        "formula": "古意意象 + 冷感诀别",
+        "examples": [
+          "银入豆腐，雪落长宁",
+          "石磨声尽，故人不归"
+        ]
+      }
+    ]
+  },
+  "success_metrics": {
+    "scale": "0-10",
+    "complete_read_desire": {
+      "target_score": 9.0,
+      "requirements": "前 300 字必须给出父亲被石磨碾死、三两银子赔命、母亲进京卖豆腐三连钩。"
+    },
+    "paywall_point": {
+      "target_score": 8.8,
+      "requirements": "每 2500-3500 字设置一次付费级卡点：入府、身份暴露、下药疑云、太傅吃银。"
+    },
+    "emotion_release": {
+      "target_score": 9.2,
+      "requirements": "报应必须具体落在身体、权力、恐惧和原话回旋上，不能只写悔恨。"
+    },
+    "ai_flavor": {
+      "target_score_max": 1.0,
+      "requirements": "禁止空泛抒情和模板化心理描写，多用动作、物件、对白推进。"
+    },
+    "explosive_point_density": {
+      "target_score": 9.0,
+      "requirements": "每章至少一个硬爆点：豆腐异味、权贵登场、砸摊、石磨创伤、夫人援手、地窖反噬、银子入口。"
+    }
+  },
+  "production_constraints": {
+    "must_keep": [
+      "石磨杀父的开篇强刺激",
+      "三两银子作为复仇道具和因果回旋",
+      "百味豆腐读取人心的爽点机制",
+      "母女低位隐忍、证据式布局、最终不原谅",
+      "温如玉被空磨盘反噬，霍延年吃下银子真相"
+    ],
+    "must_amplify": [
+      "章节末钩子密度",
+      "太傅从怀疑到依赖的层层递进",
+      "温如玉每次出手都给自己挖坑的反噬感",
+      "崔氏的旁观与助力价值",
+      "结尾豆腐从复仇毒物变回人间温暖的余味"
+    ]
+  }
+}

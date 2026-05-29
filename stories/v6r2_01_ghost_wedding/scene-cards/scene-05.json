@@ -1,0 +1,84 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 3,
+  "is_chapter_end": false,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄后厨/化妆间外走廊",
+  "time": "婚礼当天，仪式即将开始",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "许芷悦", "伴娘们"],
+  "character_goal": "沈绮云继续潜伏收集信息，了解温度锚点的真相",
+  "opposition_goal": "许芷悦和伴娘们在闺蜜间日常聊天中无意泄露更深层信息",
+  "conflict_action": "伴娘逗许芷悦炫耀丈夫的好——戒酒（'为了备孕主动戒的'）、做夜宵（'每天等她忙完下厨'）——沈绮云每一条都有对应的被拒绝记忆",
+  "information_gap": "这些'改变'曾经是沈绮云求而不得的承诺，现在全兑现在了新娘身上",
+  "emotional_debt_delta": "温度反转曲线的正→零→负完成：曾经的感动记忆被重新定义为欺骗",
+  "payoff_or_hook": "所有温度锚点的真相揭露完毕，为下一个更大的炸弹蓄力",
+  "paywall_card": false,
+  "must_include": [
+    "戒酒真相：曾说'应酬场合不喝酒没法谈生意'，实际为新娘戒的",
+    "做夜宵真相：曾说'回来太晚了做什么饭'，实际每天给新娘做",
+    "闪回中的'感动'记忆被染色为'被愚弄'",
+    "身体反应短句（手机差点掉/指甲掐进肉里）"
+  ],
+  "must_not_write_as_exposition": [
+    "戒酒/做饭的时间线",
+    "两人曾经的生活模式介绍"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.5,
+    "comma_period_ratio": 0.44,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "冰凉-绝望认知",
+    "emotion_arc": "继续心寒 → 震惊（戒酒真相）→ 冰凉（做夜宵真相）",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "每一条'他为她的改变'都像一把刀——读者和女主同步经历温度坍塌",
+    "required_techniques": [
+      {
+        "technique": "记忆翻新术",
+        "instruction": "把曾经'感动'的记忆用新信息重新染色——'三个月前他突然不喝了，我当时还感动'→'原来这酒是为她戒的'。先召唤正面情绪记忆，再一句话粉碎，让读者同步经历坍塌"
+      },
+      {
+        "technique": "顿悟式反转",
+        "instruction": "用一句极简总结完成认知翻转——'原来不是手艺问题，是人不对'类型。所有过去的记忆被重新定义的那个瞬间，用最短的判断句封杀"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "正面情绪记忆+真相反转+否定归属",
+        "example": "我当时还很感动，原来这烟是为另一个女人戒的，不是为我和儿子。",
+        "instruction": "先写'我曾经因为X而感动/欣慰'，再接'原来这个X是给她的，不是给我的'——先召唤共情再粉碎"
+      },
+      {
+        "structure": "否定A+肯定B（排除法定性）",
+        "example": "原来不是手艺问题，是人不对。",
+        "instruction": "用极度简洁的逻辑排除完成定性——不是他不会/不能，是他不愿为你做。冷静到让人心疼"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "递进式",
+    "source_excerpt": "伴娘们非说徐万芳在炫耀。她咬了咬唇说，'他哪是不吸烟，他是想要个蜜月宝宝，主动戒的烟。'三个月前，他突然转性了，直接将烟都扔进了垃圾桶。我当时还很感动，原来这烟是为另一个女人戒的。原来不是手艺问题，是人不对。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["原来"],
+      "句式": "极简判断句、冷静一句话定性",
+      "单句上限": 15,
+      "禁止": "哭泣、长篇内心独白"
+    },
+    "许芷悦": {
+      "口癖": ["我家锐城", "他哪是"],
+      "句式": "撒娇+辩解式炫耀，语气带甜",
+      "单句上限": 20,
+      "禁止": "任何怀疑或不安"
+    }
+  }
+}

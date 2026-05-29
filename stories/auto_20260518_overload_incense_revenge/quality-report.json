@@ -1,0 +1,149 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/auto_20260518_overload_incense_revenge/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 13500,
+      "actual": 10638,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 11,
+      "hook_hits": 11,
+      "hook_coverage": 1.0,
+      "lengths": [
+        923,
+        844,
+        897,
+        1092,
+        1110,
+        963,
+        960,
+        1102,
+        1128,
+        1111,
+        585
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 83,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 109,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 21,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10638,
+      "sentence_count": 764,
+      "avg_sentence_length": 12.924,
+      "dialogue_ratio": 0.2381,
+      "question_marks": 32,
+      "question_marks_per_k": 3.008,
+      "physical_emotion_hits": {
+        "手心": 1,
+        "后背": 1,
+        "冷汗": 1,
+        "眼眶": 1,
+        "心脏": 2,
+        "指甲": 1,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 18.519
+    },
+    "semantic_repetition": {
+      "sentence_count": 441,
+      "unique_sentence_skeletons": 440,
+      "max_sentence_repeats": 2,
+      "max_sentence_repeat_ratio": 0.0045
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.5,
+    "emotion": 8.3,
+    "style": 8.2,
+    "logic": 8.0
+  },
+  "evidence": [
+    {
+      "area": "opening",
+      "quote": "过磅显示——三吨。"
+    },
+    {
+      "area": "opening_hook",
+      "quote": "李凯——你最好祈祷你这辈子别落在我手里。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "防爆玻璃裂成蛛网——铝合金棒球棍砸下第二下——行车记录仪的红点已经闪起。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "我把内存卡和车钥匙——一并交到了执法值班警官的手心。"
+    },
+    {
+      "area": "paywall_card",
+      "quote": "海关来电——这一吨货被定级为国家二级保护。"
+    },
+    {
+      "area": "mechanism_M1",
+      "quote": "他用合同字面坑我超载——我用合同字面只卸两吨——多出那一吨——按法律走林业局。"
+    },
+    {
+      "area": "mechanism_M3",
+      "quote": "他说我这辈子别想再开一公里——我签下大型国企长约——驶上高速。"
+    },
+    {
+      "area": "judicial_closure",
+      "quote": "李凯走私国家重点保护植物罪——五年六个月——并处罚金五百万。"
+    }
+  ]
+}

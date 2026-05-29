@@ -1,0 +1,40 @@
+{
+  "story": "stories/prod_seq5_20260519_ancient_moon_spring",
+  "overall_score": 9.07,
+  "dimensions": {
+    "length_alignment": {
+      "score": 8.45,
+      "evidence": "总字数 14901,章节方差 41.3"
+    },
+    "hook_density": {
+      "score": 7.22,
+      "evidence": "13/18 强钩,弱钩章: ch01,ch03,ch05,ch10,ch17",
+      "weak_chapters": [
+        "ch01",
+        "ch03",
+        "ch05",
+        "ch10",
+        "ch17"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 12/5"
+    },
+    "action_density": {
+      "score": 10.0,
+      "evidence": "动作密度 29.193/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 18.277,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

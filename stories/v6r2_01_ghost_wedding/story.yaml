@@ -1,0 +1,92 @@
+title: 老公婚礼，我才知道自己死去多年
+pipeline_mode: production
+status: final
+genre: 女频爽文
+subgenre: 婚姻复仇
+platform: 番茄小说
+
+source:
+  style_reference: 短篇仿写/番茄风格
+  target_length_range: [5774, 17323]
+  actual_length: 7580
+
+chapters:
+  count: 9
+  avg_length: 842
+  length_range: [520, 1180]
+  hook_coverage: 1.0
+
+runner_policy:
+  external_allowed: false
+  max_retries: 3
+  timeout_minutes: 30
+
+provider:
+  model: claude-opus-4-6
+  source: anthropic
+  pipeline: storyforge-production-v6
+
+quality_gate:
+  pass
+  score_scale: "0-10"
+  critic_scores:
+    platform: 8
+    emotion: 8
+    style: 7.5
+    logic: 8
+  critical_failures: []
+  important_failures:
+    - "结构对称性CV=0.125(warning级别)"
+    - "总结句模式精修后降至1处"
+    - "'你脏了'金句精修后仅保留终击一处"
+
+submission:
+  titles:
+    a: 老公婚礼，我才知道自己死去多年
+    b: 他的婚礼上，我拿着话筒叫了声老公
+    c: 被判"死亡"三年后，我给丈夫的婚礼送了蛋糕
+  synopsis: 凌晨三点揉面团时偷听到丈夫要办婚礼，法院已判我"宣告死亡"。结婚证还压在抽屉里，儿子上周才打过疫苗。我以蛋糕供应商身份进了婚礼现场，拿起话筒叫了声老公。
+  tags:
+    - 爽文
+    - 女频
+    - 婚姻
+    - 复仇
+    - 反转
+    - 打脸
+    - 法律
+    - 独立女性
+  paywall_nodes: 3
+  paywall_positions:
+    - chapter: 3
+      hook: 真相卡住——编造故事全面曝光
+    - chapter: 4
+      hook: 反击启动——话筒喊老公全场静默
+    - chapter: 7
+      hook: 证据半露——法律制裁即将宣布
+
+revisions_applied:
+  - "修复source_rhythm_fit：合并过度碎行，提升平均行长至20+字符"
+  - "删除2处'原来不是X是Y'总结句，保留1处最有冲击力的"
+  - "'你脏了'金句仅保留第8章终击，第7章替换为'接下来我说的每个字，你都要付代价'"
+  - "提速：删除无新信息的环境描写补字句，压缩内心独白"
+  - "保持直接对白完整性，未拆分弹幕或引号内句子"
+total_chars: 7734
+paywall_cards: 3
+critic_scores:
+  logic: 7.5
+  style: 7.0
+  emotion: 8.0
+  platform: 7.5
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260528_120129
+  runner: claude
+  provider: 
+  current_phase: 6
+  retry_count: 2
+  human_gates:
+    phase2_blueprint_review: skipped

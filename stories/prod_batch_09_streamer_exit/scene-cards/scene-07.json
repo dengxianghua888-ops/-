@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 627,
+  "target_chars_max": 827,
+  "location": "品牌线上发布页 / 平台短剧频道",
+  "time": "联名官宣日中午",
+  "pov": "第一人称：许闻笙",
+  "characters": [
+    "许闻笙",
+    "顾凛",
+    "陆呈",
+    "品牌官微运营",
+    "平台频道运营"
+  ],
+  "character_goal": "许闻笙用品牌与平台联合官宣，公开完成资源换位。",
+  "opposition_goal": "陆呈买营销号提前庆祝，想制造既成事实。",
+  "conflict_action": "陆呈粉丝刷屏庆祝，许闻笙盯准倒计时，让品牌官微和平台短剧频道同时发布顾凛联名海报与授权声明。",
+  "information_gap": "网友以为陆呈预热代表官方默认，不知道真正备案海报是顾凛。",
+  "emotional_debt_delta": "-2：公开打脸陆呈抢功，顾凛获得高价值联名。",
+  "payoff_or_hook": "官微准点发布顾凛海报，评论区从庆祝陆呈变成嘲讽白眼狼翻车。",
+  "chapter_end_hook": "品牌官微倒计时一分钟，陆呈粉丝已经把庆祝词刷满屏。",
+  "paywall_card": false,
+  "must_include": [
+    "品牌官微",
+    "平台短剧频道",
+    "顾凛联名海报",
+    "授权声明",
+    "陆呈粉丝刷屏反转"
+  ],
+  "must_not_write_as_exposition": [
+    "不要只写众人震惊",
+    "不要让顾凛无行动",
+    "不要把官宣写成暧昧公开"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "story_slug": "auto_20260518_overload_incense_revenge",
+  "genre": "modern_reversal",
+  "subgenre": "trucker_overload_smuggle_reversal",
+  "hook_type": "H1 同规则反咬式",
+  "title_formula": "T1 因果反转式",
+  "reader_promise": "女货车司机被货主用合同字面坑超载罚三千二、被骂'女司机就是女司机'后，不哭不闹不复合，按合同字面只卸两吨开车走人，主动把多出的一吨开进林业执法大队自报家门，反手把货主和收货方的走私链条钉死在五年六个月里，最后用'守规矩'换回大型国企长约。",
+  "payoff_pattern": "U 型谷底 + 职业升级补偿尾",
+  "source_length_chars": 10300,
+  "reversal_mechanisms": [
+    "M1",
+    "M3"
+  ],
+  "emotional_debts": [
+    {
+      "id": "deception",
+      "name": "被欺骗债",
+      "intensity": 10
+    },
+    {
+      "id": "humiliation",
+      "name": "公开矮化债",
+      "intensity": 9
+    },
+    {
+      "id": "family_threat",
+      "name": "家人受惊债",
+      "intensity": 10
+    },
+    {
+      "id": "platform_injustice",
+      "name": "平台不公债",
+      "intensity": 8
+    }
+  ],
+  "forbidden_to_change": [
+    "合同 2 吨 vs 过磅 3 吨的核心错位结构",
+    "主角第一反应是报警、第二反应是录音留证的克制+硬刚姿态",
+    "M1 同规则反杀：合同字面被坑→合同字面反咬，最终在执法大队完成同规则回旋",
+    "M3 因果回旋反讽：李凯骂'你以后连一寸沥青路都开不上去'→他自己被吊销执照、查封三套房产",
+    "多出来的一吨木材必须由主角主动上交林业执法大队，不是被搜出来",
+    "补偿尾：大型国企长约+主角驶上高速，不写嫁人不写复合"
+  ],
+  "replaceable_assets": [
+    "主角姓名（苏柠/苏冷/林月/陈舟）",
+    "起运地与收货地（云南-广州/贵州-深圳/广西-东莞）",
+    "罚款金额（3200/2800/4500）",
+    "走私货物（沉香木/紫檀/小叶紫檀/红酸枝）",
+    "反派职业（物流货主/木材老板/古玩收藏商）"
+  ],
+  "platform_fit_notes": "番茄底层反杀+现代司法完读区间题材，M1/M3 双机制全部保真，首章 1100 字含 9 分钩，11 章每章末必含强情绪节点或信息差锚点，付费节点 5 个，全程零'付费'字眼。",
+  "soul_contract_required": true
+}

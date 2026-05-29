@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "停车场冷链车旁",
+  "time": "第三天夜里",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "周骁",
+    "周骁带来的司机",
+    "母亲"
+  ],
+  "character_goal": "拒绝私了，并固定周骁恐吓、送钱、指使改口的证据。",
+  "opposition_goal": "周骁用现金、母亲安全和行业封杀逼主角撤回举报。",
+  "conflict_action": "周骁把现金袋扔进副驾，主角戴着录音笔跨过现金，拨通报警电话。",
+  "information_gap": "周骁口头提到上家和假批号，但还没出现账本原件。",
+  "emotional_debt_delta": "尊严债开始反向偿还，刑事恐吓证据入链。",
+  "payoff_or_hook": "主角不收钱不求和，让反派私了变成新证据。",
+  "chapter_end_hook": "周骁问我想要多少钱，我把录音笔推到桌边。",
+  "paywall_card": false,
+  "must_include": [
+    "现金袋",
+    "母亲安全威胁",
+    "录音笔",
+    "报警电话",
+    "主角没有碰钱",
+    "周骁提到假批号"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让主角收一分钱",
+    "不要让周骁悔过",
+    "不要写成打架场面"
+  ]
+}

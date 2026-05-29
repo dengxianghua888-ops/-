@@ -1,0 +1,118 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars_per_chapter": 500,
+    "max_chars_per_chapter": 1200,
+    "tomato_preferred_chars": 650,
+    "chapter_end_requirement": "每章末必须留下未解决问题、反向打脸预期或下一场冲突入口"
+  },
+  "hook_policy": {
+    "first_300_chars": "强Hook：价格争议+老客户动手+退房反杀机会同时出现",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "required_density": "每800-1200字至少一次微悬念，每2500-3500字至少一次付费级卡点"
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短故事女性向及泛大众读者",
+      "偏爱现实反转、规则反杀、小老板逆袭的读者",
+      "对旅游宰客、临时涨价、职场团建、低价占便宜有现实共鸣的读者"
+    ],
+    "emotional_needs": [
+      "看蛮横占便宜者被市场规则反噬",
+      "看被打被骂的经营者不哭不求，用供需关系完成反杀",
+      "看恶人从嘴硬、失控到社会性死亡的阶梯式崩塌",
+      "获得普通人守住底线后的尊严补偿"
+    ],
+    "genre_taboos": [
+      "不要把女主写成圣母原谅型老板",
+      "不要用大段经营理念说教替代冲突",
+      "不要让反派只靠夸张发疯推动剧情，必须有现实因果",
+      "避免过度血腥、极端犯罪细节和无必要的社会新闻腔",
+      "禁止高频使用AI腔词：然而、不禁、深吸一口气、空气仿佛凝固、嘴角微微上扬"
+    ]
+  },
+  "market_positioning": {
+    "genre": "modern_reversal",
+    "core_selling_point": "五一酒店一房难求背景下，老客户嫌全包价贵逼退房，老板转手接下百人团，让占便宜者被真实市场价格反噬",
+    "reader_promise": "看守规矩的小老板被蛮横老客户羞辱后，不撕扯不求饶，直接用稀缺房源和全包服务价值完成公开打脸",
+    "dominant_s爽点": "规则回旋反杀",
+    "emotional_debt_type": "杀熟污名债 / 动手羞辱债 / 占便宜反噬债",
+    "antagonist_violation": "反派享受十年低价合作和全包服务，却用散客价偷换概念，动手打人、威胁差评、裹挟员工退房",
+    "protagonist_stance": "冷静、体面、算账清楚、底线明确，不争口舌，直接换客源"
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula": "T1_冲突反杀式",
+        "pattern": "嫌我五一房贵？我转手接百人团",
+        "fit": "直接呈现价格冲突和反杀动作，适合番茄推荐流"
+      },
+      {
+        "formula": "T1_羞辱后果式",
+        "pattern": "老客户逼我退房后，他露宿街头了",
+        "fit": "结果前置，强化完读欲"
+      },
+      {
+        "formula": "T4_规则死环式",
+        "pattern": "全包价嫌贵？那就按散客价自己玩",
+        "fit": "突出同一套价格规则回旋打脸"
+      },
+      {
+        "formula": "T5_现实共鸣式",
+        "pattern": "五一订房嫌贵？可我有百人旅游团",
+        "fit": "保留原题强市场感，旅游旺季供需矛盾清晰"
+      }
+    ]
+  },
+  "paywall_strategy": {
+    "primary_paywall_cards": [
+      {
+        "position_chars": 2800,
+        "card": "张浩带人退房后赖在大堂等老板求他，门口却出现百人老年团"
+      },
+      {
+        "position_chars": 6000,
+        "card": "张浩发现全城无房，只能住进无证民宿，房价第二天从500涨到800"
+      },
+      {
+        "position_chars": 9000,
+        "card": "女员工夜雨中出事，员工集体倒戈，民宿又被警方查封"
+      },
+      {
+        "position_chars": 12000,
+        "card": "张浩被开除后持刀上门，老板提前布置的安保和证据链收口"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9,
+      "basis": "前置退房反杀、百人团入场、露宿反噬、职场清算四段递进"
+    },
+    "payment_points": {
+      "target_score": 8.5,
+      "basis": "每3000字左右设置一次局面升级，卡在反派即将付出更大代价前"
+    },
+    "emotional_release": {
+      "target_score": 9,
+      "basis": "女主不求和，反派被市场、员工、公司、法律多重清算"
+    },
+    "ai_flavor": {
+      "target_score": 0,
+      "max_allowed": 1,
+      "basis": "用具体价格、账单、交通、住宿细节推动剧情，减少抽象感慨"
+    },
+    "explosive_point_density": {
+      "target_score": 8.5,
+      "basis": "价格偷换、动手退房、百人团接盘、无房露宿、员工倒戈、刑拘收尾"
+    }
+  }
+}

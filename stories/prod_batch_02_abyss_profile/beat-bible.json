@@ -1,0 +1,379 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "unit": "Chinese characters",
+    "min": 10000,
+    "max": 18000,
+    "planned": 13070
+  },
+  "title": "全校以为我晕血，其实我代号寒灯",
+  "genre": "女频悬疑大女主 / 法医行为侧写 / 医学院连环案",
+  "mechanisms": {
+    "M2": {
+      "name": "身份反差爆发",
+      "carrier": "林照表面是云衡医学院护理插班生，被同学误认为晕血、胆小、好欺负；真实身份是公安法医行为组外聘专家，二十三岁，参与十四起命案重建，代号寒灯。",
+      "execution_rule": "前300字必须给出弱外壳、真实身份、入校任务和连环失踪危机；校内人物不能全知主角身份。"
+    },
+    "M6": {
+      "name": "多层递进反转",
+      "carrier": "许曼是表层嫌疑与记录员，纪白是第一执行凶手，江砚是病理影像模板和论坛入口提供者，真正馆长在结尾通过林照早年病例扫描件露面。",
+      "execution_rule": "每层反转必须有实物证据承接：钥匙、门禁、广播记录、冷库标签、论坛账号、录音。"
+    },
+    "M7": {
+      "name": "专业降维打击",
+      "carrier": "凶手把女生称为病例、把死亡称为保存、把林照称为第七例；林照用法医痕迹、行为侧写、门禁时间线、广播播放记录和冷库报警数据把恐吓还原成证据链。",
+      "execution_rule": "主角每次判断必须绑定可见证据；反杀来自提前设饵和协作警力，不能靠运气。"
+    }
+  },
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars": 770,
+      "scene_range": "scene-01",
+      "chapter_end_hook": "广播里的心电音停住，屏幕弹出：第七例已入校。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars": 720,
+      "scene_range": "scene-02",
+      "chapter_end_hook": "许曼衣柜里露出白兔玩偶，腕带编号和第六名失踪女生一致。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars": 780,
+      "scene_range": "scene-03",
+      "chapter_end_hook": "旧解剖楼门禁记录显示，第六名女生昨夜还在楼里。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars": 840,
+      "scene_range": "scene-04",
+      "chapter_end_hook": "冷库外新贴的标签写着：第七例，林照，今晚二十三点。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars": 720,
+      "scene_range": "scene-05",
+      "chapter_end_hook": "林照的课表背面，多出一行许曼手写的冷库坐标。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars": 800,
+      "scene_range": "scene-06",
+      "chapter_end_hook": "播放心电音的账号不是许曼，是纪白的助教工号。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars": 770,
+      "scene_range": "scene-07",
+      "chapter_end_hook": "纪白手背的封蜡烫痕，和第七例标签边缘完全吻合。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars": 920,
+      "scene_range": "scene-08",
+      "chapter_end_hook": "纪白摘下口罩，低声说：第七例，跟我去冷库。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars": 720,
+      "scene_range": "scene-09",
+      "chapter_end_hook": "许曼说：纪白只是执行人，馆长要见寒灯。"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars": 830,
+      "scene_range": "scene-10",
+      "chapter_end_hook": "匿名论坛倒计时开始，标题是：寒灯入库。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars": 980,
+      "scene_range": "scene-11",
+      "chapter_end_hook": "纪白刚被押走，论坛后台弹出江砚的邀请：第八盏灯，来影像室。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars": 740,
+      "scene_range": "scene-12",
+      "chapter_end_hook": "受害者档案刚封存，一张新病例遗照发到林照手机。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars": 820,
+      "scene_range": "scene-13",
+      "chapter_end_hook": "暗房灯亮，江砚站在投影后叫出她的代号：寒灯。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars": 980,
+      "scene_range": "scene-14",
+      "chapter_end_hook": "江砚锁住影像室：今晚你选，入库，还是入会。"
+    },
+    {
+      "chapter_id": "CH15",
+      "target_chars": 900,
+      "scene_range": "scene-15",
+      "chapter_end_hook": "江砚落铐前笑了：馆长从来不用自己的手。"
+    },
+    {
+      "chapter_id": "CH16",
+      "target_chars": 780,
+      "scene_range": "scene-16",
+      "chapter_end_hook": "匿名账号发来林照儿时病例扫描件：寒灯，欢迎归档。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 720,
+      "target_chars_max": 820,
+      "scene_location": "云衡医学院解剖示教室与走廊",
+      "character_goal": "林照用护理插班生身份完成入校，并在不暴露给同学的前提下确认第六名失踪女生线索。",
+      "conflict_action": "同学用白兔玩偶试探她是否晕血，林照低头装作发抖，实际拍下腕带编号并把现场编号发给刘队。",
+      "information_gap": "白兔玩偶是谁放进示教室的，广播里的心电音为什么能准确覆盖她入校时间。",
+      "emotion_debt_balance": "累积身份低估债和死亡倒计时债；读者知道她是寒灯，校内人物仍误判她。",
+      "chapter_end_hook": "广播里的心电音停住，屏幕弹出：第七例已入校。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止用履历表概述主角强；必须用她拍编号、发暗号、压住反应的动作表现。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "护理楼417宿舍",
+      "character_goal": "林照检查宿舍安全边界，判断室友许曼是否掌握冷库或广播权限。",
+      "conflict_action": "许曼趁熄灯翻林照行李，林照假睡并用反光镜记录许曼钥匙串和袖口气味来源。",
+      "information_gap": "许曼是凶手、共犯，还是被凶手利用的钥匙持有人。",
+      "emotion_debt_balance": "安全侵入债加深；许曼嫌疑上升但主凶身份不落地。",
+      "chapter_end_hook": "许曼衣柜里露出白兔玩偶，腕带编号和第六名失踪女生一致。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止写成宿舍怪谈说明；必须让翻行李、藏钥匙、反光取证推进。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "旧解剖楼后门与标本走廊",
+      "character_goal": "林照追踪玩偶腕带编号，验证第六名失踪女生是否被转移进旧解剖楼。",
+      "conflict_action": "后勤值夜人拦住她，她用护理实训登记表拖住对方，同时贴下门禁读卡器旁的蜡屑。",
+      "information_gap": "第六名女生是否仍活着，旧解剖楼和冷库之间的转移通道由谁控制。",
+      "emotion_debt_balance": "受害者真相债上升；灵异恐吓被翻成门禁和蜡屑证据。",
+      "chapter_end_hook": "旧解剖楼门禁记录显示，第六名女生昨夜还在楼里。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止大段介绍旧楼历史；必须用拦路、贴证、查门禁动作展开。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 760,
+      "target_chars_max": 900,
+      "scene_location": "病理楼地下冷库外廊",
+      "character_goal": "林照确认冷库是否被用于标本化连环案，并判断自己是否被列为下一个目标。",
+      "conflict_action": "她借送耗材靠近冷库，趁巡逻灯灭的一秒拍下新贴标签，被门内突然伸出的手套抓住袖口。",
+      "information_gap": "门内的人是谁，为什么能提前打印林照的姓名和入库时间。",
+      "emotion_debt_balance": "危险侵入债爆发；主角从调查者变成目标，身份债暂不偿还。",
+      "chapter_end_hook": "冷库外新贴的标签写着：第七例，林照，今晚二十三点。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止描写猎奇冷库细节；重点写标签、门禁、手套和林照的取证反应。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "护理实训教室与洗手间",
+      "character_goal": "林照设下假课表和定位贴，诱导许曼暴露她服务的上级。",
+      "conflict_action": "她故意把带有假坐标的课表留在桌上，躲进洗手间隔间录下许曼拍照并转发的声音。",
+      "information_gap": "许曼把课表发给了谁，对方为什么要求林照独自去冷库。",
+      "emotion_debt_balance": "专业反制债开始偿还；许曼从单纯嫌疑人转向工具人。",
+      "chapter_end_hook": "林照的课表背面，多出一行许曼手写的冷库坐标。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止用旁白宣布设饵成功；必须写假课表、定位贴、隔间录音。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 720,
+      "target_chars_max": 860,
+      "scene_location": "校园广播机房",
+      "character_goal": "林照锁定夜间心电音的播放源，拆掉灵异误导。",
+      "conflict_action": "她趁机房维修进入后台，导出播放记录时被管理员发现，便当场让刘队远程比对登录工号。",
+      "information_gap": "纪白为什么要借许曼的卡进入机房，他是否就是冷库标签打印者。",
+      "emotion_debt_balance": "灵异债被偿还为证据债；纪白第一次从背景人物浮出。",
+      "chapter_end_hook": "播放心电音的账号不是许曼，是纪白的助教工号。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止解释广播系统原理；只写登录记录、工号、导出文件和被撞见后的应对。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 700,
+      "target_chars_max": 840,
+      "scene_location": "病理实验室",
+      "character_goal": "林照近距离观察纪白，确认他与蜡封切片、冷库标签的关联。",
+      "conflict_action": "纪白递来带血色染料的玻片试探她晕血，林照故意打翻托盘，趁他俯身时拍下手背封蜡烫痕。",
+      "information_gap": "纪白是否知道林照真实身份，还是只把她当第七例样本。",
+      "emotion_debt_balance": "身份低估债继续累积；主角以弱外壳换取纪白靠近。",
+      "chapter_end_hook": "纪白手背的封蜡烫痕，和第七例标签边缘完全吻合。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止让纪白长篇讲医学审美；必须通过递玻片、试探、烫痕、拍照推进。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 820,
+      "target_chars_max": 980,
+      "scene_location": "护理楼417深夜",
+      "character_goal": "林照利用宿舍入侵反向收集纪白和许曼的共同作案证据。",
+      "conflict_action": "纪白刷卡进门并把冷库腕带套向林照手腕，林照按下床架报警器，录音笔同步记录他的威胁。",
+      "information_gap": "纪白是否只有一个人行动，门外第二张刷卡记录属于谁。",
+      "emotion_debt_balance": "安全侵入债达到峰值；身份牌开始松动但仍未完全公开。",
+      "chapter_end_hook": "纪白摘下口罩，低声说：第七例，跟我去冷库。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止写主角无后手被动遇险；必须交代报警器、录音笔、协作警力在场外待命。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 650,
+      "target_chars_max": 780,
+      "scene_location": "校医院空诊室",
+      "character_goal": "林照拆开许曼的角色，逼她交代纪白之外的上级信息。",
+      "conflict_action": "许曼试图吞掉存储卡，林照扣住她手腕并把录音里纪白的威胁播放给她听。",
+      "information_gap": "馆长是真人、代号，还是匿名论坛中的组织席位。",
+      "emotion_debt_balance": "许曼嫌疑债部分偿还为共犯债；更大黑网债第一次正式建立。",
+      "chapter_end_hook": "许曼说：纪白只是执行人，馆长要见寒灯。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止把许曼写成纯受害者洗白；她必须承担记录、诱导、转发动线的责任。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 740,
+      "target_chars_max": 900,
+      "scene_location": "图书馆旧阅览室",
+      "character_goal": "林照借许曼账号进入寒灯档案馆论坛，确认纪白的收网地点和直播倒计时。",
+      "conflict_action": "她让许曼当面解锁账号，截取后台帖子时，论坛管理员反向点亮摄像头。",
+      "information_gap": "管理员是否就是纪白，还是更高层的江砚或馆长在盯着她。",
+      "emotion_debt_balance": "黑网悬念债加深；主角从校园案进入组织案。",
+      "chapter_end_hook": "匿名论坛倒计时开始，标题是：寒灯入库。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止铺陈暗网知识；只写账号、帖子、倒计时、摄像头和取证。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 880,
+      "target_chars_max": 1080,
+      "scene_location": "病理楼地下冷库",
+      "character_goal": "林照按预设陷阱进入冷库外区，抓住纪白并取回第六名女生的关键证据。",
+      "conflict_action": "纪白推她进冷库外间，林照用定位贴触发门禁联动和温控报警，刘队带人按录音与门禁记录收网。",
+      "information_gap": "纪白背后的影像模板是谁提供，馆长为何知道寒灯这个代号。",
+      "emotion_debt_balance": "第一执行凶手债偿还；专业压制债兑现；黑网债转入下一层。",
+      "chapter_end_hook": "纪白刚被押走，论坛后台弹出江砚的邀请：第八盏灯，来影像室。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止把抓捕写成运气制服；必须闭合录音、门禁、定位贴、冷库报警四类证据。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 650,
+      "target_chars_max": 800,
+      "scene_location": "临时专案会议室",
+      "character_goal": "林照还原受害者行动轨迹，让案件从恐吓道具回到具体的人和证据。",
+      "conflict_action": "她把六名女生的遗留物逐一贴上白板，用门禁时间线推翻纪白伪造的退学记录。",
+      "information_gap": "新发来的病例遗照来自谁，照片为什么采用和江砚作品相同的模板。",
+      "emotion_debt_balance": "受害者真相债部分偿还；更高层敌人债继续累积。",
+      "chapter_end_hook": "受害者档案刚封存，一张新病例遗照发到林照手机。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止把受害者当名单略过；至少用姓名、遗留物、最后动线呈现她们存在过。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 720,
+      "target_chars_max": 880,
+      "scene_location": "校外病理影像工作室",
+      "character_goal": "林照追踪病例遗照模板，找到江砚与论坛影像库的连接。",
+      "conflict_action": "她伪装成送片实习生进入工作室，趁江砚助手搬设备时取走废片袋里的蜡封模板。",
+      "information_gap": "江砚只是模板提供者，还是馆长的直接代理人。",
+      "emotion_debt_balance": "组织升级债强化；主角继续主动入局。",
+      "chapter_end_hook": "暗房灯亮，江砚站在投影后叫出她的代号：寒灯。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止用资料搜索跳过潜入；必须写送片、取废片、暗房亮灯的行动链。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 860,
+      "target_chars_max": 1040,
+      "scene_location": "废弃病理影像室",
+      "character_goal": "林照逼江砚承认论坛入口与病例遗照制作规则，同时保护自己的真实身份不被组织完整掌握。",
+      "conflict_action": "江砚锁门并投出三张病例卡逼她选择，林照一边与他周旋，一边把封蜡粉末压到他的指纹上。",
+      "information_gap": "江砚手里是否有林照早年档案，馆长是否已经盯上她多年。",
+      "emotion_debt_balance": "主角生命威胁和身份暴露风险并行；第二层凶手逼近。",
+      "chapter_end_hook": "江砚锁住影像室：今晚你选，入库，还是入会。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止写成反派审美独白；江砚每句自恋话术都要被林照转化为录音或物证。"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 820,
+      "target_chars_max": 1000,
+      "scene_location": "废弃病理影像室与楼外抓捕点",
+      "character_goal": "林照完成对江砚的反制，证明他不是艺术家或馆长，只是组织里的犯罪执行者。",
+      "conflict_action": "她亮出录音笔和封蜡指纹证据，引江砚走到预设红外线范围内，刘队破门后给他戴上手铐。",
+      "information_gap": "真正馆长是谁，他为什么能拿到林照的私人病例。",
+      "emotion_debt_balance": "专业羞辱债偿还；凶手自负崩塌；终极黑网债未清。",
+      "chapter_end_hook": "江砚落铐前笑了：馆长从来不用自己的手。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止让江砚被轻易制服；必须先让他以为控场，再用证据和协作警力反压。"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 650,
+      "target_chars_max": 820,
+      "scene_location": "云衡医学院校门与返程车内",
+      "character_goal": "林照封存校园案阶段性证据，同时确认真正馆长仍在暗处观察她。",
+      "conflict_action": "她把受害者姓名交给刘队归档，刚上车就收到匿名账号发来的早年病例扫描件和当日校门偷拍图。",
+      "information_gap": "馆长如何接触林照旧档案，下一次编号会落在哪里。",
+      "emotion_debt_balance": "校园案安全债阶段性偿还；更大黑网债转为续作级悬念。",
+      "chapter_end_hook": "匿名账号发来林照儿时病例扫描件：寒灯，欢迎归档。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止完全大团圆收束；必须留下馆长未落网且正在观察林照的实证钩子。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "minimum_chars": 10000,
+    "maximum_chars": 18000,
+    "minimum_chapters": 16,
+    "minimum_paywall_card_count": 5,
+    "chapter_end_hook_coverage": "16/16",
+    "first_300_chars_requirement": "必须同时出现晕血护理插班生假象、寒灯真实身份、七天一例失踪案危机。",
+    "micro_hook_interval_chars": "800-1200",
+    "paywall_card_interval_chars": "2500-3500 except final cliffhanger extra card",
+    "style_floor": "第一人称女主，短句推进，对话占比20%-28%，每次推理必须有可见证据。"
+  }
+}

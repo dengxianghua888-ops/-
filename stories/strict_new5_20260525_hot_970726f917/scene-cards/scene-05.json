@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "出口玻璃门与停机坪边界",
+  "time": "终选开始前1分钟",
+  "pov": "第一人称",
+  "characters": ["陆昭", "安保队长", "父亲", "候选人家属", "学员"],
+  "character_goal": "用可见证据逼所有人相信门外有规则异常。",
+  "opposition_goal": "众人还想把她当成闹事者，继续把她拖回厅内。",
+  "conflict_action": "陆昭抄起行李箱砸向门外，箱子撞上无形封控层被狠狠弹回；有人不信，冲上去亲自撞墙。",
+  "information_gap": "封控层是什么，为什么刚好在这一分钟显形？",
+  "emotional_debt_delta": "误判债开始兑付，但危机债翻倍，因为大家依旧出不去。",
+  "payoff_or_hook": "第一轮规则实锤出现，局面从‘她疯了’转成‘真的有东西’。",
+  "chapter_end_hook": "截断句：那堵墙，终于让所有人闭嘴了。",
+  "paywall_card": true,
+  "must_include": ["行李箱被弹回的硬碰撞", "有人亲身撞墙", "现场由骂声转为惊恐", "陆昭不是得意，而是更急"],
+  "must_not_write_as_exposition": ["不要解释封控层物理原理", "不要排列所有人的恐慌反应", "不要把场景写成普通灵异围观"],
+  "rhythm_job": {
+    "shape": "抄物试墙-实锤反弹-众人试错-危机再抬",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_handoff": "证据动作与低压反应：行李轮滑回地面、有人倒抽气、陆昭抹掉嘴角血丝"
+  }
+}

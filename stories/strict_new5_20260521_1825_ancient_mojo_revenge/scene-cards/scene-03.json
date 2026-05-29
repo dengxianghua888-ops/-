@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "海防都督府前院",
+  "time": "紧接上一场",
+  "pov": "沈灼宁",
+  "characters": [
+    "沈灼宁",
+    "裴承骁",
+    "柳闻莺",
+    "顾照雪",
+    "都督府女眷"
+  ],
+  "character_goal": "从柳闻莺身上搜出断潮散，把害顾照雪的罪按实",
+  "opposition_goal": "裴承骁要护住柳闻莺，把事情压成后宅争风吃醋",
+  "conflict_action": "沈灼宁拽人下阶、扯袖搜药、当场逼吞药粉；裴承骁拔刀拦她",
+  "information_gap": "断潮散是不是冲着顾家断嗣去的，顾照雪只是第一个受害者吗",
+  "emotional_debt_delta": "护妹债偿还+2，反派可杀度+3",
+  "payoff_or_hook": "药包落地，黑血出口，证明这不是普通后宅手段",
+  "chapter_end_hook": "柳闻莺袖中的药包掉出来时，全场都安静了一瞬。",
+  "paywall_card": false,
+  "must_include": [
+    "柳闻莺被拖下台阶或按跪的动作",
+    "顾照雪吐出黑血后的反应",
+    "裴承骁一句更绝的护短恶语",
+    "药粉散开的视觉细节"
+  ],
+  "must_not_write_as_exposition": [
+    "不要详细讲药材配比",
+    "不要写女眷挨个插话",
+    "不要把害胎恶行写成生理猎奇"
+  ],
+  "rhythm_job": {
+    "shape": "搜药动作压着对白走，中段一记吐血，尾端实锤落地",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

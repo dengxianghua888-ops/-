@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "旧照相馆暗房",
+  "time": "第五天夜里",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "周毓兰"],
+  "character_goal": "周毓兰想让叶昭不再把自己托付给陆闻舟和孩子。",
+  "opposition_goal": "旧观念和病痛让外婆一开始仍想替叶昭找依靠。",
+  "conflict_action": "周毓兰打开旧相机，删除原本托付陆闻舟的视频，重新录下让叶昭自己做依靠的遗言。",
+  "information_gap": "叶昭不知道外婆另在病历夹背面写下生产险情和七年等待。",
+  "emotional_debt_delta": "外婆线由托付转为赋能，叶昭获得离开旧关系的精神许可。",
+  "payoff_or_hook": "叶昭把照相馆钥匙穿进护照夹，准备第二天离开。",
+  "chapter_end_hook": "周毓兰删掉托付视频，只留下一句：昭昭自己就是依靠。",
+  "paywall_card": false,
+  "must_include": [
+    "暗房红灯",
+    "旧相机存储卡",
+    "删除键",
+    "重新录制的红点",
+    "照相馆钥匙放进护照夹"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把外婆台词写成长篇鸡汤",
+    "不要让外婆死亡",
+    "不要提前让陆闻舟看到视频"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_06_moon_spring/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 13000,
+      "actual": 10217,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 10,
+      "hook_hits": 10,
+      "hook_coverage": 1.0,
+      "lengths": [
+        999,
+        1074,
+        960,
+        980,
+        981,
+        1051,
+        984,
+        994,
+        1016,
+        1054
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 3,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 93,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 3,
+        "actual": 3,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 7,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10217,
+      "sentence_count": 600,
+      "avg_sentence_length": 16.028,
+      "dialogue_ratio": 0.1936,
+      "question_marks": 37,
+      "question_marks_per_k": 3.621,
+      "physical_emotion_hits": {
+        "指尖": 5,
+        "发麻": 1,
+        "太阳穴": 1,
+        "喉咙": 1,
+        "指甲": 5,
+        "掌心": 13
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.069
+    },
+    "semantic_repetition": {
+      "sentence_count": 452,
+      "unique_sentence_skeletons": 452,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0022
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.8,
+    "emotion": 9.0,
+    "style": 8.6,
+    "logic": 8.2
+  },
+  "evidence": [
+    {
+      "dimension": "platform_opening",
+      "status": "pass",
+      "quote": "家庙门闩抽开时，沈照棠没有问一句话。旧僧衣贴着肩，手腕勒痕藏不住。",
+      "finding": "Opening immediately establishes imprisonment aftermath and abnormal calm."
+    },
+    {
+      "dimension": "platform_opening",
+      "status": "pass",
+      "quote": "陆衡舟一手扶着苏云屏，一手试盏壁温度。",
+      "finding": "Public intimacy and betrayal appear early."
+    },
+    {
+      "dimension": "platform_hook",
+      "status": "pass",
+      "quote": "阿砚的手从沈照棠掌心滑下，药堂铜锁还挂在门上。",
+      "finding": "Chapter hook combines irreversible death with visual blame object."
+    },
+    {
+      "dimension": "emotion_debt",
+      "status": "pass",
+      "quote": "陆衡舟隔着门道：“云屏动了胎气，名医先去她院里。阿砚送普通药工看。”",
+      "finding": "Core emotional debt is created on scene, not summarized."
+    },
+    {
+      "dimension": "emotion_payoff",
+      "status": "pass",
+      "quote": "戒训房账册最后一页，盖着陆衡舟自己的私印。",
+      "finding": "Later evidence pays back the father’s direct responsibility."
+    },
+    {
+      "dimension": "style",
+      "status": "pass",
+      "quote": "铜锁扣上，咔哒一声。",
+      "finding": "Physicalized short sentence carries plot and emotion."
+    },
+    {
+      "dimension": "logic",
+      "status": "pass",
+      "quote": "他签的。他让阿砚学规矩。他把门关上，再怪孩子为什么不喊。",
+      "finding": "Narrative refuses to shift all blame to servants or villainess."
+    },
+    {
+      "dimension": "logic_boundary",
+      "status": "pass",
+      "quote": "错了不是钥匙，打不开死人的门。",
+      "finding": "Rescue and remorse are not framed as moral repayment."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 720,
+  "target_chars_max": 840,
+  "location": "陆家老戏楼台前",
+  "time": "翌日公开亮相前",
+  "pov": "温瓷第一人称",
+  "characters": [
+    "温瓷",
+    "陆砚辞",
+    "秦月眠",
+    "陆家老爷子",
+    "剧院工作人员",
+    "追文弹幕"
+  ],
+  "character_goal": "秦月眠想借公开亮相坐实她与陆砚辞的关系",
+  "opposition_goal": "陆砚辞想当众切断所有白月光误会",
+  "conflict_action": "秦月眠伸手挽陆砚辞，陆砚辞退开一步并命人撤下两人的同框海报",
+  "information_gap": "白月光是假象被切开，但温瓷仍不知道三年前被捡回家的真相",
+  "emotional_debt_delta": "安全感债大幅偿还，替身债进入最后一问",
+  "payoff_or_hook": "秦月眠被公开切割，女主安全感被男主行动补足",
+  "chapter_end_hook": "陆砚辞看着全场说：“我从没喜欢过秦月眠，一秒都没有。”",
+  "paywall_card": false,
+  "must_include": [
+    "秦月眠挽手",
+    "陆砚辞退开",
+    "撤同框海报",
+    "温瓷站在台侧",
+    "弹幕改口震惊"
+  ],
+  "must_not_write_as_exposition": [
+    "不要列旁观者反应清单",
+    "不要让秦月眠继续占上风",
+    "不要让男主说话含糊"
+  ],
+  "rhythm_job": "1次肢体拒绝+1个撤海报动作+章尾公开否认白月光"
+}

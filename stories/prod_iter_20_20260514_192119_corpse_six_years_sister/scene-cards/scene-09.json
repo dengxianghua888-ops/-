@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B9",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "萧家祠堂主祭台·主角撑叉子站起",
+  "time": "亥时五刻",
+  "pov": "萧承时·第一人称",
+  "characters": ["萧承时", "萧瑾时", "祠堂族人"],
+  "character_goal": "第一次反向开口，把姐姐的话原结构回敬",
+  "opposition_goal": "姐姐尚未察觉主角已捏死电子签PDF三处备份",
+  "conflict_action": "他撑住扎在自己腹中的银叉慢慢站起→姐姐第一次没笑→他逐字开口'我帮你发'→然后转身向祠堂外的天台楼梯走去",
+  "information_gap": "读者看见M3闭合的开关被主角亲手拨动，但还不知具体怎么发",
+  "emotional_debt_delta": "+8 持平，但反挫蓄势",
+  "payoff_or_hook": "三个字砸在主祭台上，比铜炉砸下去还沉",
+  "chapter_end_hook": "我撑着那根叉子站起来，对着她一字一字地说：'我帮你发。'",
+  "paywall_card": false,
+  "must_include": ["撑叉站起的物理动作（用叉杆当拐杖）", "'我帮你发'三字逐字独立成句", "姐姐表情第一次断开", "祠堂外台阶的脚步回声"],
+  "must_not_write_as_exposition": ["主角狂笑反讽", "反派立刻招供求饶", "旁白点题M3反讽", "主角再多说一句"]
+}

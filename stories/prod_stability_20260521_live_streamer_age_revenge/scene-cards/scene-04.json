@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 740,
+  "target_chars_max": 880,
+  "location": "平台热搜页、工作室群聊、品牌法务来电",
+  "time": "当天下午到傍晚",
+  "pov": "林见棠 第一人称",
+  "characters": ["林见棠", "顾淮川", "工作室公关", "品牌法务", "吃瓜网友"],
+  "character_goal": "让顾淮川为挂人和纵容网暴先付第一轮代价。",
+  "opposition_goal": "顾淮川想用粉圈和热搜先把舆论占满，逼她收手。",
+  "conflict_action": "顾淮川工作室暗示她纠缠骚扰，评论区和营销号起哄；林见棠把旧授权节点发给品牌法务，反向锁喉。",
+  "information_gap": "外界还把这事当八卦，没人知道真正会炸的是联名授权链。",
+  "emotional_debt_delta": "新增网暴债，但同步埋下公开商业场反噬。",
+  "payoff_or_hook": "顾淮川刚想借舆论翻身，法务已经上门。",
+  "chapter_end_hook": "热搜词条刚爬高，品牌法务的电话先打了进来。",
+  "paywall_card": true,
+  "must_include": [
+    "弹幕/评论/吐槽至少3行，体现围观感",
+    "顾淮川或工作室的挂人暗示",
+    "法务电话里的关键提醒：授权有问题",
+    "女主不回骂，只甩证据节点"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆砌辱骂原话",
+    "不要逐条解释热搜运营逻辑",
+    "不要把法务介入写成万能降临"
+  ],
+  "rhythm_job": {
+    "shape": "评论误导2拍+公关挂人1拍+法务反切2拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 3,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": "保留弹幕/评论承接误导，不把所有冲突都改成角色面对面"
+  }
+}

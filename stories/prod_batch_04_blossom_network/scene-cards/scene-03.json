@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 650,
+  "target_chars_max": 900,
+  "location": "海城急救航空调度中心任命会",
+  "time": "第二天上午",
+  "pov": "叶昭第一人称",
+  "characters": ["叶昭", "陆闻舟", "林舒禾", "调度员", "人事经理"],
+  "character_goal": "叶昭想保住自己七年搭建的调度中心职位和权限。",
+  "opposition_goal": "林舒禾想接管调度中心名义和资源，陆闻舟想用撤职逼叶昭安静。",
+  "conflict_action": "林舒禾坐上叶昭的主位，陆闻舟当众抽走叶昭的续聘合同并把门禁权限转到林舒禾名下。",
+  "information_gap": "陆闻舟以为撤职只是短期惩罚；叶昭开始把清算流程当成离开步骤。",
+  "emotional_debt_delta": "白月光侵占从感情推进到职场，叶昭的身份被公开抹掉。",
+  "payoff_or_hook": "叶昭没有争辩，只把合同编号拍进手机。",
+  "chapter_end_hook": "叶昭的调度权限被当众转给林舒禾。",
+  "paywall_card": false,
+  "must_include": [
+    "调度大屏",
+    "叶昭的席卡被撤下",
+    "林舒禾的新门禁卡",
+    "续聘合同被陆闻舟抽走",
+    "同事回避目光"
+  ],
+  "must_not_write_as_exposition": [
+    "不要只概述林舒禾空降",
+    "不要让叶昭当场大吵大闹",
+    "不要把职场剥夺写成误会"
+  ]
+}

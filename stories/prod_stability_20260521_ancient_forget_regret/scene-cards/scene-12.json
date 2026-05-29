@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "谢家被查封后的空水岸",
+  "time": "数日后",
+  "pov": "谢临舟",
+  "characters": [
+    "谢临舟",
+    "稳婆",
+    "旧管事"
+  ],
+  "character_goal": "抓住最后一点借口，证明自己没有亲手毁掉唯一的孩子。",
+  "opposition_goal": "真相本身要把他所有借口拆掉。",
+  "conflict_action": "谢临舟翻出脉案和药渣逼问稳婆，又从旧管事口中得知裴明珠是假喜脉，沈蘅那胎才是谢家唯一骨血。",
+  "information_gap": "他会崩到什么程度；这份迟来的明白有没有任何补救空间。",
+  "emotional_debt_delta": {
+    "情绪债": "本场推进"
+  },
+  "payoff_or_hook": "这是男主真正知道自己杀子的时刻，不能写轻。",
+  "chapter_end_hook": "谢临舟捏碎安胎符，终于知道自己害死的是唯一的亲生骨血。",
+  "paywall_card": true,
+  "must_include": [
+    "旧脉案或药渣形成证据反转",
+    "“唯一骨血”信息点",
+    "谢临舟第一次真正失控的身体动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不要做悬疑探案铺陈",
+    "不要让裴明珠戏份抢中心",
+    "不要把崩塌写成空喊空哭"
+  ],
+  "rhythm_job": {
+    "shape": "翻证物 -> 2句逼问 -> 1个捏碎符的动作落尾",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白5成，动作4成，留白1成",
+    "hook_line_required": true
+  }
+}

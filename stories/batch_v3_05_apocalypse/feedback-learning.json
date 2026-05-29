@@ -1,0 +1,27 @@
+{
+  "story_slug": "batch_v3_05_apocalypse",
+  "source_slug": "hot_df9671752a",
+  "run_date": "2026-05-26",
+  "lessons": [
+    {
+      "category": "overlap",
+      "observation": "末世题材源文与仿写共享大量常见4-gram（异兽、堡垒、净化场等设定词），首次生成overlap达6.36%",
+      "action": "同题材仿写时需主动替换设定核心词的组合方式，并增加独有描写段落稀释重合率"
+    },
+    {
+      "category": "rhythm",
+      "observation": "源文avg=18.13碎句风格，生成时avg=22.33偏长但在合同范围[14,24]内；short_rate刚好卡线0.30",
+      "action": "高对话密度源文写作时需更积极在叙述段落断句，确保short_rate有余量"
+    },
+    {
+      "category": "length",
+      "observation": "首次生成即达11684字，在目标范围内无需扩展",
+      "action": "末世爽文节奏紧凑、场景密集，天然容易写够字数"
+    },
+    {
+      "category": "tone",
+      "observation": "末世降维打击文需要大量短对话对峙和群众反应，quote_rate=0.40符合源文0.45的高对话密度",
+      "action": "此类文的对话应保持对抗性和情绪张力，避免解释性长对话"
+    }
+  ]
+}

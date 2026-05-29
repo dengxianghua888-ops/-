@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "品牌发布会现场",
+  "time": "数月后",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "谢临渊",
+    "陆承衍（远景）"
+  ],
+  "character_goal": "M5温度谷底+新生",
+  "opposition_goal": "无",
+  "conflict_action": "品牌发布会致辞，谢临渊台下微笑；陆承衍角落出现说了最后的认错——太迟了",
+  "information_gap": "确认不会回头",
+  "emotional_debt_delta": "0（全部清算完成）",
+  "payoff_or_hook": "台下有人鼓掌，我看向那双平静的眼睛——够了，新的故事开始了",
+  "chapter_end_hook": "台下有人鼓掌，我看向那双平静的眼睛——够了，新的故事开始了",
+  "paywall_card": false,
+  "must_include": [
+    "致辞场景",
+    "谢临渊的温暖细节",
+    "陆承衍的最后认错（简短）",
+    "主角的平静收束"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写说教式升华",
+    "不能让陆承衍跪地哭喊"
+  ]
+}

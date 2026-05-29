@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "直播主舞台中央",
+  "time": "官宣后一分钟内",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "周砚礼", "苏曼宁", "品牌方代表", "主播团队", "弹幕观众"],
+  "character_goal": "许闻溪当众揭开正妻身份，夺回被周砚礼抹掉的位置",
+  "opposition_goal": "周砚礼想把她定性为闹场员工，苏曼宁想维持女主人的姿态",
+  "conflict_action": "许闻溪走进镜头，把结婚证电子件投到主屏，并让周砚礼当场回答她是谁",
+  "information_gap": "围观者以为这是员工闹剧，不知道她有合法婚姻凭证",
+  "emotional_debt_delta": "-公开羞辱债第一笔 +身份低估债",
+  "payoff_or_hook": "苏曼宁刚被官宣为总裁，下一秒被正妻身份压住",
+  "chapter_end_hook": "主屏定格在结婚登记日期，周砚礼的麦克风发出刺耳啸叫。",
+  "paywall_card": true,
+  "must_include": ["老公称呼", "结婚证投屏", "弹幕刷屏", "品牌席骚动", "苏曼宁脸色变化"],
+  "must_not_write_as_exposition": ["不要写成私下摊牌", "不要用荡妇羞辱", "不要让男主轻易承认错误"]
+}

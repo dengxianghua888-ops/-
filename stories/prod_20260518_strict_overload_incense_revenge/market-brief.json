@@ -1,0 +1,95 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "min_chars": 500,
+    "max_chars": 1200,
+    "recommended_chars": 650,
+    "chapter_end_requirement": "每章末必须留下未解决问题、反派加压、证据反转或下一步行动钩子"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成低价接单、恶意超载、罚款扣分、货主羞辱四连击，并抛出主角按合同反杀的动作预告",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "hook_density_rule": "每800-1200字至少一次新阻力或新证据，每2500-3500字必须出现足以促成付费的强卡点"
+  },
+  "market_positioning": {
+    "genre": "modern_reversal",
+    "subgenre": "底层职业维权 / 规则死环反杀 / 女性货车司机爽文",
+    "core_reader_promise": "看被货主、平台、同行和地方势力围堵的女司机，用合同字眼、执法流程和隐藏证据反向锁死黑心货主。",
+    "dominant_selling_points": [
+      "底层劳动者被霸王合同压迫后的高智商反杀",
+      "女司机被性别羞辱后不吵不闹，按规则把对方送进刑事链条",
+      "沉香木、超载罚单、货运平台封号、林业局举报形成连续爆点"
+    ],
+    "benchmark_alignment": {
+      "closest_corpus_case": "overload_incense_revenge",
+      "tomato_fit_reference_score": 8.7,
+      "transferable_gene": "同一条合同规则先压迫主角，后成为反杀反派的死环证据"
+    }
+  },
+  "audience": {
+    "target_readers": [
+      "喜欢现实向反转爽文的番茄短故事读者",
+      "对货运、平台、合同、执法等现实规则有代入感的下沉市场读者",
+      "偏好女性主角不示弱、不求和、证据型反击的读者"
+    ],
+    "emotion_needs": [
+      "替底层劳动者出一口被欺负、被污名、被平台压榨的恶气",
+      "看到反派从嚣张羞辱到低头求饶再到刑事清算的完整落差",
+      "获得规则被强者滥用后又反噬强者的确定性爽感"
+    ],
+    "topic_forbidden_zones": [
+      "不要把主角写成无脑冲动或靠贵人降维解决",
+      "不要把法律程序写成玄幻式秒判，关键证据链必须可理解",
+      "不要弱化反派对母亲、平台账号、职业生计的压迫强度",
+      "不要让主角和解、心软撤案或接受私了",
+      "不要使用明显AI腔、宏大空话、鸡汤收束"
+    ]
+  },
+  "title_strategy": [
+    {
+      "formula_id": "T1",
+      "formula": "反派恶行 + 主角动作 + 反派崩溃结果",
+      "candidate": "货主坑我超载罚三千，我拉走一吨沉香他疯了",
+      "fit_reason": "冲突明确，金额和沉香木形成高价值爆点，结尾结果有强点击感"
+    },
+    {
+      "formula_id": "T1_variant",
+      "formula": "霸王合同 + 按字面执行 + 反派入局",
+      "candidate": "货主说按合同办，我卸完两吨直接报警",
+      "fit_reason": "突出规则回旋，适合强化死环反杀卖点"
+    },
+    {
+      "formula_id": "T4",
+      "formula": "身份低估/性别羞辱 + 规则反击 + 官方清算",
+      "candidate": "他们骂我女司机不懂法，我把黑货开进林业局",
+      "fit_reason": "性别羞辱和官方举报形成强对比，适合番茄现实爽文读者"
+    },
+    {
+      "formula_id": "T5",
+      "formula": "小人物受辱 + 关键证据 + 反派破产",
+      "candidate": "我被封号扣车后，拿一张罚单掀翻千万黑账",
+      "fit_reason": "从个人委屈升级到大案清算，利于中后段付费期待"
+    }
+  ],
+  "success_metrics": {
+    "completion_desire_target": 9.0,
+    "paywall_point_target": 9.0,
+    "emotion_release_target": 9.2,
+    "ai_flavor_target": 1.0,
+    "explosive_point_density_target": 8.8,
+    "measurement_notes": {
+      "completion_desire": "每章必须推进一个明确问题：货物归属、平台封号、家人受威胁、非法木材真相、反派刑责",
+      "paywall_point": "2500-3500字处优先卡在主角发现沉香异常或决定把车开进林业局前",
+      "emotion_release": "反派每次加压都要被后续证据反向清算，不留软化空间",
+      "ai_flavor": "禁用套话式抒情，结尾只保留职业尊严与继续上路的硬收束",
+      "explosive_density": "罚款扣分、砸车、封号冻结、骚扰母亲、隐藏录像、实名举报、官方通报、庭审判决均需形成阶梯爆点"
+    }
+  }
+}

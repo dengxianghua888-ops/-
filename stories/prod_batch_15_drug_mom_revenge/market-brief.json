@@ -1,0 +1,24 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "chapter_policy": {
+    "recommended_chapter_count": {
+      "min": 10,
+      "max": 18
+    }
+  },
+  "audience": {
+    "target_readers": [
+      "现代反转读者",
+      "婚姻背叛爽文读者"
+    ],
+    "reader_promise": "亲密关系隐蔽伤害被证据链反杀。"
+  },
+  "hook_policy": {
+    "front_300_chars": "匿名帖与母亲突发异常形成日常恐怖钩。"
+  }
+}

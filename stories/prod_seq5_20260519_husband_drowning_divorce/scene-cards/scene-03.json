@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "陆家婚房与静音康复室",
+  "time": "离婚当晚",
+  "pov": "沈知晚第一人称为主，结尾切陆景辞动作",
+  "characters": ["沈知晚", "陆景辞", "陆家管家"],
+  "character_goal": "沈知晚搬走私人设备，撤销对陆景辞的康复照料。",
+  "opposition_goal": "陆景辞想继续享有她留下的生活秩序和康复系统。",
+  "conflict_action": "沈知晚拆下私人耳模样机，注销白噪音程序授权，清空展厅声场备份的私人账户；陆景辞偏头痛发作时找不到启动密钥。",
+  "information_gap": "康复系统背后连接她的专业能力，暂不完全揭示。",
+  "emotional_debt_delta": "新增婚内付出被无视债；陆景辞第一次尝到失序。",
+  "payoff_or_hook": "他以为妻子可替代，却发现连止痛声音都找不到。",
+  "chapter_end_hook": "陆景辞找不到止痛白噪音程序，才发现所有备份权限已经被沈知晚撤走。",
+  "paywall_card": false,
+  "must_include": [
+    "耳模",
+    "白噪音程序",
+    "偏头痛记录本",
+    "深夜展厅调试记录",
+    "钥匙放在餐桌上"
+  ],
+  "must_not_write_as_exposition": [
+    "不要泛写她照顾他多年",
+    "不要嘲笑听觉过敏",
+    "不要把陆景辞痛苦写成深情"
+  ]
+}

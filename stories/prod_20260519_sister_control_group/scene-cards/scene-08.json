@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B8",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "酒店走廊",
+  "time": "同一次出差",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "江越(声音)",
+    "林薇(声音)"
+  ],
+  "character_goal": "听到完整真相",
+  "opposition_goal": "江越想倾诉",
+  "conflict_action": "苏念在走廊听到江越打电话说出报恩+安排苏念的完整真相",
+  "information_gap": "全部内幕揭开",
+  "emotional_debt_delta": "+4",
+  "payoff_or_hook": "报恩真相引爆",
+  "chapter_end_hook": "酒店走廊里，江越的声音清晰传来：当初如果不是你救过我，我不会答应照顾苏念一辈子。",
+  "paywall_card": true,
+  "must_include": [
+    "原声对话",
+    "女主静止不动",
+    "身体反应"
+  ],
+  "must_not_write_as_exposition": [
+    "不能简化为转述"
+  ]
+}

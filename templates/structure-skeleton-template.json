@@ -1,0 +1,37 @@
+{
+  "source_slug": "",
+  "extracted_date": "",
+  "cliffhanger_map": [
+    {
+      "beat_id": 1,
+      "end_char_position": 0,
+      "cliffhanger_type": "action_cliff|revelation_half|threat_incoming|false_safety|emotional_peak_cut",
+      "unresolved_question": "读者在此处最想知道的答案",
+      "info_state": "哪些信息已给出，哪些刻意隐藏"
+    }
+  ],
+  "impact_density": {
+    "source_impacts_per_1000_chars": 0.0,
+    "impact_types": ["physical_violence", "verbal_attack", "betrayal", "revelation", "status_reversal"],
+    "per_beat_impacts": [],
+    "total_impacts": 0
+  },
+  "reversal_nesting": {
+    "max_depth": 0,
+    "climax_reversal_layers": 0,
+    "pattern": "A→B→C→D 逐层揭示链"
+  },
+  "gold_sentence_patterns": [
+    {
+      "type": "boomerang_quote|contrast_pair|rhetorical_question|physical_metaphor",
+      "pattern": "修辞结构描述",
+      "source_example": "源文原句",
+      "rhetoric": "具体修辞手法"
+    }
+  ],
+  "paywall_card_positions": {
+    "positions_by_char_pct": [],
+    "avg_interval_chars": 0,
+    "rule": "每个付费卡点前必须有未解悬念+情绪峰值"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "别墅智能家居后台机房",
+  "time": "常规检测失败后",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "技术员",
+    "记者",
+    "假未婚夫"
+  ],
+  "character_goal": "沈棠要证明别墅被整体重做过。",
+  "opposition_goal": "假未婚夫要阻止她调取工程和智能家居后台，称她侵犯隐私。",
+  "conflict_action": "沈棠输入父亲给她的家庭管理员权限，导出甲醛、湿度、新风、门锁日志，并圈出同一夜集体爆红后被手动校准的数据。",
+  "information_gap": "凌晨三点发生了什么，谁有权限改动智能后台。",
+  "emotional_debt_delta": "沈棠第一次把检测失败转化为反击，智性爽感显著上升。",
+  "payoff_or_hook": "智能后台证明别墅环境在一夜之间异常波动。",
+  "chapter_end_hook": "凌晨三点二十七分，整栋别墅所有传感器同时爆红，又在四分钟后被人手动校准。",
+  "paywall_card": true,
+  "must_include": [
+    "家庭管理员权限",
+    "甲醛传感异常",
+    "湿度和新风数据异常",
+    "门锁日志",
+    "假未婚夫阻拦"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成黑客入侵",
+    "不要用参数堆砌",
+    "不要让后台数据直接等同于定罪"
+  ]
+}

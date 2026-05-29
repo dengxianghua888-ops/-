@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 1040,
+  "target_chars_max": 1120,
+  "location": "信号塔控制台",
+  "time": "吊笼升至半空时",
+  "pov": "祁砚",
+  "characters": ["祁砚", "秦岚", "沈梨雾", "外墙士兵", "地堡居民"],
+  "character_goal": "祁砚想公开花房监测记录，阻止吊笼继续上升",
+  "opposition_goal": "秦岚想销毁记录，维持自己公平清洗的权威",
+  "conflict_action": "祁砚夺下扩音器，播放香糖、手套、甜雾场和虫群休眠曲线",
+  "information_gap": "供养不是偏私，沈梨雾是地堡防线核心",
+  "emotional_debt_delta": "-2 圣域误解债开始偿还",
+  "payoff_or_hook": "曲线在手套断裂后垂直跌落",
+  "chapter_end_hook": "祁砚抬头，一字一顿：她不是诱饵，她是你们的墙。",
+  "paywall_card": true,
+  "must_include": ["监测屏红线下坠", "祁砚只揭真相不审判", "秦岚抢扩音器失败"],
+  "must_not_write_as_exposition": ["不要把监测记录写成报告全文", "不要一次讲完女皇身份", "不要让群众立刻集体悔悟"],
+  "rhythm_job": {
+    "shape": "证据动作和短对白交替，高潮章允许稍长但不铺说明",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "屏幕滚动时，有人只认出自己踩过的香糖盒"
+  }
+}

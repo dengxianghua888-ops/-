@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "0号尸检间解剖台",
+  "time": "尸检开始前",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "记录员",
+    "助理法医"
+  ],
+  "character_goal": "沈栀想让陆谨言注意到戒指和纪念日礼盒背后的怀孕惊喜。",
+  "opposition_goal": "陆谨言要按程序取下所有随身物品并封存。",
+  "conflict_action": "陆谨言摘下沈栀无名指戒指、封入证物袋，随后拿起解剖刀准备开检。",
+  "information_gap": "纪念日礼盒原本要装胎心钥匙扣，陆谨言只把它当普通证物。",
+  "emotional_debt_delta": "纪念日温柔被封存，第一刀前的伦理压迫升级。",
+  "payoff_or_hook": "付费卡在第一刀落下前一拍。",
+  "chapter_end_hook": "第一刀落下前，他把结婚戒指摘进证物袋。",
+  "paywall_card": true,
+  "must_include": [
+    "戒指滑入证物袋的声音",
+    "沈栀回忆他曾替她戴戒指",
+    "现在同一双手戴着尸检手套",
+    "解剖刀反光",
+    "短句：他食言了"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让回忆超过当前动作",
+    "不要写沈栀崩溃大喊很久",
+    "不要让陆谨言放弃主刀"
+  ]
+}

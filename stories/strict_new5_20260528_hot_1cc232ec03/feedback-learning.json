@@ -1,0 +1,127 @@
+{
+  "story_slug": "strict_new5_20260528_hot_1cc232ec03",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M2", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 12140,
+  "quality_scores": {
+    "platform": 8.1,
+    "emotion": 8.2,
+    "style": 7.6,
+    "logic": 7.3
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook_type": "opening_triple_pressure",
+      "reusable_fact": "开篇150字内同时压入医院欠费、女儿递离婚协议、一百万买断陪诊，家庭伦理爽文点击欲成立。"
+    },
+    {
+      "chapter": 3,
+      "hook_type": "identity_understatement",
+      "reusable_fact": "反派用“陪诊家属不懂模型”压低主角身份，为后续原始研发人身份反差蓄力。"
+    },
+    {
+      "chapter": 5,
+      "hook_type": "child_betrayal_peak",
+      "reusable_fact": "急救包被换、孩子当众指认亲父，亲子背刺比婚姻背叛更能抬高情绪债。"
+    },
+    {
+      "chapter": 7,
+      "hook_type": "public_oath_before_reversal",
+      "reusable_fact": "发布会前让反派亲口担保原创，把反杀从私人争执升级为公开责任闭锁。"
+    },
+    {
+      "chapter": 8,
+      "hook_type": "evidence_screen_payoff",
+      "reusable_fact": "用专利回执、云端日志、研发备注三连证据偿还“没工作/护工工资”的羞辱债。"
+    },
+    {
+      "chapter": 13,
+      "hook_type": "boundary_not_forgiveness",
+      "reusable_fact": "未成年子女悔悟后不即时原谅，改用探视协议和公共会面室，保住结尾边界感。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 4,
+      "card_type": "evidence_turn",
+      "reusable_fact": "雨中捡回被踩脏康复记录并首次拨通专利律师，形成从忍受到取证反击的付费断点。"
+    },
+    {
+      "chapter": 6,
+      "card_type": "relationship_cutoff",
+      "reusable_fact": "主角撤回抚养权申请但保留治疗义务，并留下“她，连同你，我都不要了”的边界钩子。"
+    },
+    {
+      "chapter": 7,
+      "card_type": "trap_set",
+      "reusable_fact": "沈知宁把话筒递给陆承安，让其替集团担保原创，下一章可直接进入公开反杀。"
+    },
+    {
+      "chapter": 8,
+      "card_type": "core_reversal",
+      "reusable_fact": "大屏公开五年前底稿和云端日志，身份反差与侵权告知同时爆发。"
+    },
+    {
+      "chapter": 9,
+      "card_type": "asset_freeze",
+      "reusable_fact": "资产冻结通知递到女主手里，男配先松手，婚外利益链和感情背叛同场崩塌。"
+    },
+    {
+      "chapter": 10,
+      "card_type": "debt_transfer_pressure",
+      "reusable_fact": "庭前调解把集团债务强压给主角，给下一章法庭证据回旋预留爽点。"
+    },
+    {
+      "chapter": 11,
+      "card_type": "courtroom_payoff",
+      "reusable_fact": "五年缴费流水、卖房流水、未任职证明回击共同债务，完成家庭付出账的司法化偿还。"
+    },
+    {
+      "chapter": 12,
+      "card_type": "judgment_payoff",
+      "reusable_fact": "判决明确未受益债务不承担、转移资产返还，把“一百万买断五年”反转成巨额追偿。"
+    },
+    {
+      "chapter": 13,
+      "card_type": "emotional_aftershock",
+      "reusable_fact": "女儿抱作业本求和，主角只给探视安排，避免爽文结尾廉价和解。"
+    },
+    {
+      "chapter": 14,
+      "card_type": "closed-door-ending",
+      "reusable_fact": "离婚确认、复婚协议、新工作室样机、探视短信并置，完成旧门关闭和新生活启动。"
+    }
+  ],
+  "new_forbidden_candidates": [
+    {
+      "candidate": "纸页自己会说",
+      "reason": "评审指出有替读者总结倾向，适合沉淀为现代反转类软禁用总结句候选。"
+    },
+    {
+      "candidate": "解释太便宜",
+      "reason": "评审指出中后段证据展示中存在概括性金句，后续应优先用动作和证据替代。"
+    }
+  ],
+  "retrieval_tags": [
+    "family_ethics",
+    "medical_bills",
+    "child_betrayal",
+    "divorce_property",
+    "patent_infringement",
+    "public_launch_reversal",
+    "asset_freeze",
+    "courtroom_evidence",
+    "boundary_ending",
+    "father_daughter_no_easy_forgiveness",
+    "evidence_chain_medical_financial_logs",
+    "original_developer_identity_reveal"
+  ],
+  "manual_revision_delta": []
+}

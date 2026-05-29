@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 740,
+  "target_chars_max": 880,
+  "location": "私立妇产中心VIP诊室",
+  "time": "次日上午，检查结束后",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "谢砚", "医生", "谢砚助理", "陆沉舟助理"],
+  "character_goal": "谢砚要确认报告并主动签下家属联系人。",
+  "opposition_goal": "陆沉舟助理要把报告拍给陆沉舟，继续证明林晚宜在逼婚。",
+  "conflict_action": "谢砚接过纸质确认单，在家属联系人栏签字，又让助理把陆沉舟助理请出诊区。",
+  "information_gap": "谢砚为什么提前知道医院地址、为什么愿意签家属栏，只露动作不解释全因。",
+  "emotional_debt_delta": "-被掌控债部分偿还；+谢砚主动承担爽点",
+  "payoff_or_hook": "孕检报告被谢砚先于陆沉舟掌握，形成第一张付费卡点。",
+  "chapter_end_hook": "谢砚把孕检报告压在掌心：“陆沉舟还不知道，对吗？”",
+  "paywall_card": true,
+  "must_include": ["纸质孕检确认单", "谢砚签家属联系人", "拦住陆沉舟助理", "谢砚松弛但可靠"],
+  "must_not_write_as_exposition": ["不要解释谢家全部背景", "不要甜宠空话", "不要让谢砚审问孩子价值"]
+}

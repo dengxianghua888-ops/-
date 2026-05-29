@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 720,
+  "target_chars_max": 900,
+  "location": "京大校友群与海外实验室会议室",
+  "time": "舆论反转后两天",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "京大学姐", "导师", "实验室成员"],
+  "character_goal": "沈知晚用项目表现证明自己不是蹭资源的小音效师。",
+  "opposition_goal": "网友和沈明姝粉丝继续质疑她学历造假。",
+  "conflict_action": "京大学姐公开论文录用邮件，导师补充项目记录；沈知晚在实验室会议上现场修正声场模型参数。",
+  "information_gap": "专利署名和国际项目核心身份还未放出。",
+  "emotional_debt_delta": "价值低估债第一轮回收。",
+  "payoff_or_hook": "她的真名第一次出现在论文作者栏。",
+  "chapter_end_hook": "京大学姐发出论文录用邮件截图，网友第一次看见沈知晚的真名署名。",
+  "paywall_card": false,
+  "must_include": [
+    "高考高分",
+    "京大休学档案",
+    "论文录用邮件",
+    "模型参数修正",
+    "网友从嘲讽转向迟疑"
+  ],
+  "must_not_write_as_exposition": [
+    "不要堆砌技术名词",
+    "不要让周砚白代替她证明能力",
+    "不要把学历反转一次性爆完"
+  ]
+}

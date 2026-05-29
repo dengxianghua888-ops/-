@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "evidence": [
+    "全文11960字符，18章均在500-1200字符范围内",
+    "对话占比30%，动作密度22.8/千字，问号密度3.8/千字",
+    "导语5段，每段一句，付费节点10处覆盖全文",
+    "源文本最大重叠27字符，远低于120上限",
+    "重复n-gram最大14字符，远低于260上限",
+    "禁词0命中，软禁词2处在限额内"
+  ],
+  "critic_scores": {
+    "platform": 9.0,
+    "emotion": 9.2,
+    "style": 8.8,
+    "logic": 9.0
+  },
+  "machine_metrics": {
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 11960,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 18,
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass"
+    },
+    "source_overlap": {
+      "max_consecutive_chars": 27,
+      "limit": 120,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_chars": 14,
+      "limit": 260,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "avg_sentence_length": 17.2,
+      "dialogue_ratio": 0.30,
+      "question_density_per_k": 3.8,
+      "action_density_per_k": 22.9,
+      "status": "pass"
+    },
+    "forbidden_words": {
+      "hard_count": 0,
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "count": 2,
+      "limit": 2,
+      "status": "pass"
+    }
+  }
+}

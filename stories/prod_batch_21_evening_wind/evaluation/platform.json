@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "score": 8.5,
+  "evidence": [
+    {
+      "check": "opening_hook",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "鞋柜上多了一双不属于我的棉拖鞋，粉色的，绒毛还没被压平过"
+    },
+    {
+      "check": "paywall_card_density",
+      "status": "pass",
+      "path": "story/beat-bible.json",
+      "quote": "paywall_card: true at B1, B4, B6, B9"
+    },
+    {
+      "check": "chapter_hook_ending",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-01.md",
+      "quote": "什么时候开始的？——首段即信息差悬念"
+    },
+    {
+      "check": "positive_ending",
+      "status": "pass",
+      "path": "story/draft-scenes/scene-12.md",
+      "quote": "而我的人生，从来不缺从头再来的勇气。"
+    }
+  ],
+  "notes": [
+    "对话率0.276略低于genre标准0.35-0.45，但动作叙事补偿到位，不构成平台硬伤。"
+  ]
+}

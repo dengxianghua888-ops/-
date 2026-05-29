@@ -1,0 +1,145 @@
+{
+  "story_slug": "prod_batch_12_top_scorer_report",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "execution": "退婚语音、门禁提示音、冷链箱抓拍、耗材权限号、转账流水互相闭锁，原本羞辱女主的证据反向成为刑事链条。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "execution": "开篇用全国法医技能赛金奖与被解除收养、退婚形成强反差，后续由学生身份递进到司法鉴定中心报到。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "贺闻川反复说“你该体面退场”，最终退婚语音里的病理楼门禁提示成为庭审证据。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "反转按签名伪造、假亲属、亲缘样本替换、病理蜡块销毁、骗保受益人递进，每层都有物证推进。"
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 12500
+  },
+  "final_length": 10289,
+  "quality_scores": {
+    "platform": 8.1,
+    "emotion": 8.2,
+    "style": 7.8,
+    "logic": 7.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "我举报仁和医院伪造病历。我养父母和哥哥已经死了，证据在仁和医院病理楼。",
+      "reuse_fact": "强开篇可在300字内叠加高光、弃养、退婚、报警与专业证据入口。"
+    },
+    {
+      "chapter": 4,
+      "hook": "亲缘初检报告弹出：样本符合母女关系。我的报警，被认定疑似虚假。",
+      "reuse_fact": "中前段用官方报告暂时压倒主角，能制造付费追读压力。"
+    },
+    {
+      "chapter": 5,
+      "hook": "门岗抓拍里，贺闻川身后跟着一只贴着冷链标签的蓝色箱子。",
+      "reuse_fact": "羞辱性语音可通过背景音转化为关键证据，兼具情绪反杀与逻辑推进。"
+    },
+    {
+      "chapter": 8,
+      "hook": "发布会大屏黑了一秒，随后跳出一行字：该编号蜡块已被申请销毁。",
+      "reuse_fact": "公开澄清场适合让反派自证时暴露系统级破绽。"
+    },
+    {
+      "chapter": 10,
+      "hook": "未婚夫在走廊拦住她，低声说：你再查下去，解除收养协议就白签了。",
+      "reuse_fact": "反派失言可把私人羞辱线转入刑案动机线。"
+    },
+    {
+      "chapter": 11,
+      "hook": "她拿到养父母留下的原始录音，第一句却是：知夏，别回林家。",
+      "reuse_fact": "最伤人的亲情文件反转为保护证据，适合偿还情绪债。"
+    },
+    {
+      "chapter": 13,
+      "hook": "庭审直播中，未婚夫否认全部指控，林知夏却申请播放那段退婚语音。",
+      "reuse_fact": "庭审节点可复用开篇羞辱物，实现公开反杀。"
+    },
+    {
+      "chapter": 15,
+      "hook": "录取通知重新送到我手里，这一次抬头是公安司法鉴定中心。我推开鉴定中心的门，第一次没有回头。",
+      "reuse_fact": "结尾用职业身份升级替代恋爱复合或私刑，适合法医/鉴定题材。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 4,
+      "card": "亲缘初检报告弹出：样本符合母女关系。我的报警，被认定疑似虚假。",
+      "function": "官方报告压制主角可信度，制造“她如何翻盘”的追读。"
+    },
+    {
+      "chapter": 5,
+      "card": "门岗抓拍里，贺闻川身后跟着一只贴着冷链标签的蓝色箱子。",
+      "function": "把退婚男从情感线拖入证据线。"
+    },
+    {
+      "chapter": 6,
+      "card": "封存单刚贴上蜡块库，医院信息科却提交了系统宕机报告。",
+      "function": "封存动作触发反派破坏，扩大医院系统性嫌疑。"
+    },
+    {
+      "chapter": 7,
+      "card": "冷链曲线的凌晨断崖温差，正好落在林家三口所谓出院之后。",
+      "function": "用时间冲突证明出院记录与病理流程矛盾。"
+    },
+    {
+      "chapter": 8,
+      "card": "发布会大屏黑了一秒，随后跳出一行字：该编号蜡块已被申请销毁。",
+      "function": "公开场合暴露销毁申请，形成平台强卡点。"
+    },
+    {
+      "chapter": 10,
+      "card": "未婚夫在走廊拦住她，低声说：你再查下去，解除收养协议就白签了。",
+      "function": "把解除收养协议从抛弃线反转为保护线。"
+    },
+    {
+      "chapter": 12,
+      "card": "二次 DNA 复核启动前，冻存旧血样的封条被人割开。",
+      "function": "解释亲缘初检为何成立，推动样本替换真相。"
+    },
+    {
+      "chapter": 13,
+      "card": "庭审直播中，未婚夫否认全部指控，林知夏却申请播放那段退婚语音。",
+      "function": "用开篇羞辱语音完成庭审反杀。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "forensic_protagonist",
+    "hospital_crime",
+    "fake_family",
+    "insurance_fraud",
+    "evidence_chain",
+    "electronic_signature_pressure",
+    "dna_sample_swap",
+    "cold_chain_temperature_curve",
+    "pathology_wax_block",
+    "door_access_audio",
+    "public_clarification_backfire",
+    "courtroom_payoff",
+    "adoption_termination_as_protection",
+    "ex_fiance_betrayal",
+    "family_ethics_crime",
+    "procedural_investigation",
+    "no_private_revenge"
+  ],
+  "manual_revision_delta": []
+}

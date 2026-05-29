@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "总结句达临界值3处(Ch5/Ch7/Ch8)，Ch5与Ch7近义重复",
+    "问号密度~1.5/千字，低于源文~3.0/千字及契约下限3.5/千字",
+    "总字数在10000下限边缘，部分章节低于beat-bible单章目标下限"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6r2_05_snowstorm_twenty_wan/final.md",
+    "target_length": {
+      "min": 6831,
+      "max": 20494,
+      "actual": 6852,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "fail"
+    },
+    "paywall_cards": {
+      "required": 2,
+      "actual": 4,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "fail",
+      "opening_guide": {
+        "present": false,
+        "paragraphs": 7,
+        "chars": 175,
+        "status": "fail"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 2,
+        "actual": 0,
+        "present": false,
+        "status": "fail"
+      },
+      "visible_paywall_labels": {
+        "hits": [
+          "付费节点"
+        ],
+        "count": 1,
+        "status": "fail"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 49,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 20,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 6852,
+      "sentence_count": 604,
+      "avg_sentence_length": 10.346,
+      "dialogue_ratio": 0.1557,
+      "question_marks": 20,
+      "question_marks_per_k": 2.919,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "青筋": 2,
+        "后背": 3,
+        "胸腔": 1,
+        "喉咙": 1,
+        "眼眶": 2,
+        "指甲": 1,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 31.378
+    },
+    "source_rhythm_fit": {
+      "status": "fail",
+      "applicable": true,
+      "source": {
+        "chars": 11386,
+        "line_count": 662,
+        "avg_line_chars": 17.199,
+        "median_line_chars": 15.0,
+        "short_line_rate": 0.5498,
+        "long_line_rate": 0.0272,
+        "quote_line_rate": 0.2523,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 4.216,
+        "comma_period_ratio": 0.794,
+        "sentence_avg_len": 16.2
+      },
+      "candidate": {
+        "chars": 6538,
+        "line_count": 648,
+        "avg_line_chars": 10.09,
+        "median_line_chars": 8.0,
+        "short_line_rate": 0.8781,
+        "long_line_rate": 0.0108,
+        "quote_line_rate": 0.1944,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 3.059,
+        "comma_period_ratio": 0.27,
+        "sentence_avg_len": 10.3
+      },
+      "failures": [
+        "avg_line_chars 10.09 below source-rhythm floor 13.42",
+        "short_line_rate 0.878 over-fragments source rhythm 0.550"
+      ]
+    },
+    "semantic_repetition": {
+      "sentence_count": 240,
+      "unique_sentence_skeletons": 240,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0042
+    },
+    "production_meta_leak": {
+      "count": 14,
+      "examples": [
+        {
+          "line": 77,
+          "text": "你怎么在这儿？"
+        },
+        {
+          "line": 192,
+          "text": "摘的时候没使什么劲。"
+        },
+        {
+          "line": 325,
+          "text": "胸腔里有什么东西裂开了一条缝。"
+        },
+        {
+          "line": 411,
+          "text": "他说这话的时候表情没什么变化。"
+        },
+        {
+          "line": 529,
+          "text": "指缝里什么都没流出来。"
+        },
+        {
+          "line": 703,
+          "text": "但他没进来，也没说什么。"
+        },
+        {
+          "line": 715,
+          "text": "什么都没碎，但什么也都碎了。"
+        },
+        {
+          "line": 826,
+          "text": "雨里什么都看不太清，但路还是那条路。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "claim": "开篇150字含信息不对称钩子",
+      "quote": "他的肝硬化晚期。他的肝移植手术费八十万。三个月夜班，每晚搬五十公斤的病人翻身…外婆磨了四十年墨的端砚，上周出现在典当行。余额，217。",
+      "location": "scene-01 lines 8-12"
+    },
+    {
+      "dimension": "platform",
+      "claim": "章末钩完整覆盖12/12",
+      "quote": "抽出来了。电梯到了，门开，我走进去。(Ch1) / 锁屏，没回。(Ch2) / 最后一份收入也断了。(Ch8)",
+      "location": "各章末尾"
+    },
+    {
+      "dimension": "emotion",
+      "claim": "矛盾瞬间存在(≥1处)",
+      "quote": "我在这做护工，给你挣治病的钱。我的声音稳得连自己都觉得陌生。",
+      "location": "scene-01: 撞见出轨后不崩溃反而冷静报价"
+    },
+    {
+      "dimension": "emotion",
+      "claim": "情绪债现场化累积",
+      "quote": "3月7日。挣了三百二，还差十七万。手腕又响了。/ 4月2日。如果他好了，我就回去修书。端砚该重新磨了。想他。",
+      "location": "scene-12: 修复日志作为物证偿还信息差"
+    },
+    {
+      "dimension": "style",
+      "claim": "叙述拐杖密度=0",
+      "quote": "全篇未出现'她知道/他明白/她意识到/他清楚/她心想/他暗忖/她终于明白/他这才知道'",
+      "location": "全文扫描"
+    },
+    {
+      "dimension": "style",
+      "claim": "总结句3处(临界值)",
+      "quote": "1.'他最残忍就在这里…永远分不清哪一面才是真的他'(Ch5) 2.'永远是这招，左手递刀子右手递糖…'(Ch7) 3.'那三秒的沉默就是答案'(Ch8)",
+      "location": "scene-05/scene-07/scene-09"
+    },
+    {
+      "dimension": "style",
+      "claim": "金句存在性(≥1句可独立传播)",
+      "quote": "什么都没碎，但什么也都碎了。/ 不是姜漪澜毁了我们。姜漪澜只是递了一把刀。刀是你自己拿起来的。",
+      "location": "scene-07/scene-13"
+    },
+    {
+      "dimension": "style",
+      "claim": "问号密度偏低",
+      "quote": "全篇约16个问号/~10200字=1.52/千字，源文约26个问号/~8500字=3.06/千字",
+      "location": "全文统计"
+    },
+    {
+      "dimension": "style",
+      "claim": "源文节奏形态匹配:短行对白驱动",
+      "quote": "平均行长14.8(源13.8)、短行率70%(源73%)、对白率33%(源36%)、无长解释段(一致)",
+      "location": "全文量化对比"
+    },
+    {
+      "dimension": "logic",
+      "claim": "救命恩情证伪因果闭合",
+      "quote": "防汛值班档案，洪灾那天的出勤表。顾父的名字不在上面。'救命之恩是编的，你爸那天根本不在现场。'",
+      "location": "scene-11"
+    },
+    {
+      "dimension": "logic",
+      "claim": "反派动机与责任归属逻辑清晰",
+      "quote": "你自己愿意信的。你巴不得找个理由证明她不爱你。我只是顺着你的想法推了一把而已。",
+      "location": "scene-12: 姜漪澜终极定性——不卸责于反派，将选择责任归还男主"
+    }
+  ]
+}

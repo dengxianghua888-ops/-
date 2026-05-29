@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "许念个人画展后台",
+  "time": "第六日下午",
+  "pov": "限知第三人称，贴近许念",
+  "characters": [
+    "许念",
+    "邵明",
+    "林素琴电话留言",
+    "画展工作人员"
+  ],
+  "character_goal": "许念要判断邵明带来的证据是不是母亲临终前的辩解",
+  "opposition_goal": "许念多年恨意让她本能抗拒翻案",
+  "conflict_action": "邵明在后台播放录音，许念翻看流水、食堂明细和4000转账记录后，撕掉给许国成预留的画展开幕邀请函",
+  "information_gap": "许念能不能赶到病房向林素琴道歉",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "-1",
+    "mother_negligence_debt": "+4",
+    "father_malice_debt": "+10",
+    "time_debt": "+6"
+  },
+  "payoff_or_hook": "女儿认知崩塌，行动目标从远离母亲变成赶去见母亲",
+  "chapter_end_hook": "许念拿着录音笔冲出画展，直奔病房。",
+  "paywall_card": false,
+  "must_include": [
+    "画展后台",
+    "录音笔",
+    "流水和食堂明细并排",
+    "撕掉许国成邀请函",
+    "冲出画展"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让许念瞬间原谅所有人",
+    "不要把她的恨写成无理取闹",
+    "不要用旁白替代她看证据的动作"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "story": "stories/prod_seq5_20260518_ancient_sweet_blossom",
+  "overall_score": 8.93,
+  "dimensions": {
+    "length_alignment": {
+      "score": 10.0,
+      "evidence": "总字数 13107,章节方差 28.9"
+    },
+    "hook_density": {
+      "score": 8.12,
+      "evidence": "13/16 强钩,弱钩章: ch04,ch11,ch14",
+      "weak_chapters": [
+        "ch04",
+        "ch11",
+        "ch14"
+      ]
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 10/4"
+    },
+    "action_density": {
+      "score": 5.99,
+      "evidence": "动作密度 39.75/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 16.617,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

@@ -1,0 +1,45 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 519,
+  "target_chars_max": 679,
+  "location": "苏云屏偏院、密室门外",
+  "time": "深夜",
+  "pov": "第三人称近距离，贴陆衡舟",
+  "characters": [
+    "陆衡舟",
+    "苏云屏",
+    "旧情人",
+    "贴身嬷嬷"
+  ],
+  "character_goal": "陆衡舟要拿到苏云屏伪造医案和截信证据。",
+  "opposition_goal": "苏云屏要灭口旧情人，保住腹中孩子的陆家名分。",
+  "conflict_action": "陆衡舟站在密室门外，听苏云屏逼旧情人离城；旧情人反咬她腹中孩子不是陆衡舟的，她亲口承认截下沈照棠求救信、改过阿砚医案，还说阿砚才可能是陆衡舟唯一血脉。",
+  "information_gap": "沈照棠生死仍不揭，让陆衡舟先吞下妻儿皆失的真相。",
+  "emotional_debt_delta": {
+    "added": [],
+    "paid": [
+      "苏云屏主动加害坐实",
+      "非亲生爆雷",
+      "阿砚唯一血脉反讽完成"
+    ],
+    "balance_after": "男主火葬场进入最高压。"
+  },
+  "payoff_or_hook": "苏云屏回头时看见门外的陆衡舟，密信从袖中掉出。",
+  "chapter_end_hook": "苏云屏亲口承认孩子不是陆衡舟的，门外站着陆衡舟。",
+  "paywall_card": true,
+  "must_include": [
+    "密室门外偷听",
+    "旧情人索要银票",
+    "孩子不是陆衡舟",
+    "截信和改医案承认",
+    "阿砚才可能是唯一血脉"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用旁白说明非亲生。",
+    "不要让苏云屏只露出一项罪，要连截信、医案、血缘一起爆。",
+    "不要让陆衡舟的崩溃遮住阿砚的冤。"
+  ],
+  "target_chars": 539,
+  "repair_note": "Calibrated after Phase 5 validator found the model draft within production total length but below initial scene windows."
+}

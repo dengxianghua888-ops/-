@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 750,
+  "target_chars_max": 950,
+  "location": "东区冷库走廊",
+  "time": "同日上午八点，订单装车前",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "马成", "电工", "净菜档员工", "餐饮客户电话声"],
+  "character_goal": "许知夏要保住货损证据、安抚客户、安排员工转移可用货。",
+  "opposition_goal": "马成要通过断冷库电逼她签下无赔偿退场承诺。",
+  "conflict_action": "马成示意电工拉下冷库分闸，温控报警响起后堵在冷库门口，拿退场承诺书让她签字。",
+  "information_gap": "马成不知道温控报警记录、电表截图和货损清单会被许知夏同步发给律师。",
+  "emotional_debt_delta": "+2：断电毁订单、员工被牵连、客户信任受损。",
+  "payoff_or_hook": "许知夏让员工拍温控、封存货损、给客户双倍赔付方案。",
+  "chapter_end_hook": "温控报警红灯跳出来时，马成站在门口笑：“现在知道谁管电了？”",
+  "paywall_card": false,
+  "must_include": ["冷库红灯报警", "许知夏安排可用货转移", "退单客户双倍赔偿", "电表截图", "马成用电力权限羞辱她"],
+  "must_not_write_as_exposition": ["不要描写消费者食物中毒", "不要长篇讲冷链技术", "不要让女主只在心里委屈"]
+}

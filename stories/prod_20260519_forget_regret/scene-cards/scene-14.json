@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 600,
+  "target_chars_max": 700,
+  "location": "镇国公府内室",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "沈渊"
+  ],
+  "character_goal": "太医诊断+惩罚落定",
+  "opposition_goal": "求和/忏悔",
+  "conflict_action": "诊断难再有孕；沈渊下令惩罚裴长渊",
+  "information_gap": "女主选择不杀——活着更痛苦",
+  "emotional_debt_delta": "-15（正义落地）",
+  "payoff_or_hook": "活着远比死去要痛苦得多",
+  "chapter_end_hook": "活着远比死去要痛苦得多",
+  "paywall_card": false,
+  "must_include": [
+    "诊断难再有孕；沈渊下令惩罚裴长渊"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

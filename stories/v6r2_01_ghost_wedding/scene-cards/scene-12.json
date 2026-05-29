@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "target_chars_min": 550,
+  "target_chars_max": 750,
+  "location": "酒庄宴会厅舞台上",
+  "time": "紧接上一场",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "许芷悦", "张母", "宾客群"],
+  "character_goal": "沈绮云揭露旺铺真相——用女主老店换来给新娘当嫁妆",
+  "opposition_goal": "张锐城/张母试图否认或转移话题",
+  "conflict_action": "沈绮云追问式逼供旺铺来源→揭露'那间旺铺是用我十年经营的老店换来的'→许芷悦开始动摇→转向张母追问真伪",
+  "information_gap": "许芷悦不知道自己的嫁妆（旺铺）来源于正妻的心血——认知动摇",
+  "emotional_debt_delta": "正妻的十年心血被转移给第三者——最深层的算计暴露",
+  "payoff_or_hook": "章末：许芷悦转向张母追问'阿姨，她说的是真的吗？'——战线全面扩展",
+  "chapter_end_hook": "许芷悦追问张母——从'女主vs渣男'变成'全场vs渣男一家'",
+  "paywall_card": false,
+  "must_include": [
+    "旺铺=用女主老店换来的真相公开",
+    "追问式逼供节奏（引导→揭穿→对方无法否认）",
+    "许芷悦的表情变化（从旁观到动摇）",
+    "章末：许芷悦转向张母追问"
+  ],
+  "must_not_write_as_exposition": [
+    "旺铺的产权转让过程",
+    "老店的经营历史"
+  ],
+  "rhythm_job": {
+    "shape": "高压-悬停",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 2,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 19.0,
+    "comma_period_ratio": 0.46,
+    "sentence_avg_len": 18.2,
+    "dominant_emotion": "清算快感",
+    "emotion_arc": "继续输出 → 旺铺真相大白 → 新娘动摇 → 追问张母",
+    "emotion_intensity": 9.5,
+    "reader_feeling_target": "为旺铺真相拍案叫绝——'算计到骨头渣子'的愤怒达到新高",
+    "required_techniques": [
+      {
+        "technique": "追问式逼供",
+        "instruction": "不直接揭穿，而是用引导式提问让对方'自己'走向答案——'你知道那间旺铺以前是谁的店吗？'比直接说更有戏剧性。让真相像剥洋葱一样一层一层出来"
+      },
+      {
+        "technique": "旁观者道德裁判",
+        "instruction": "此时宾客议论已升级为明确的道德审判——'这一家子都什么人啊''把人当牛使还抽骨髓'。宾客声音要比上一场更激烈"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "主语+动作+程度副词（到骨头渣子）",
+        "example": "你们一家子对我真是算计到骨头渣子了。",
+        "instruction": "用日常化的程度表达让'算计'变得可感——不是抽象的坏，是'剥了又剥刮了又刮'。一句话总结定性"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "对比式",
+    "source_excerpt": "那你知道，为什么你的改口费突然变成金条了吗？五根金条，婆婆，我没说错吧？你们一家子对我真是算计到骨头渣子了。台下有人说：'阿姨，她说的是真的吗？'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": ["你知道吗", "我没说错吧"],
+      "句式": "追问式+一句话定性",
+      "单句上限": 20,
+      "禁止": "解释旺铺交易细节"
+    },
+    "许芷悦": {
+      "口癖": ["怎么可能", "阿姨"],
+      "句式": "从沉默到追问——语气从震惊到质疑",
+      "单句上限": 15,
+      "禁止": "继续炫耀"
+    }
+  }
+}

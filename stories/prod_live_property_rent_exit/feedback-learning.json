@@ -1,0 +1,45 @@
+{
+  "story_slug": "prod_live_property_rent_exit",
+  "pipeline_mode": "production",
+  "genre": "modern_business_revenge",
+  "mechanisms": [
+    "old_tenant_exit",
+    "merchant_alliance_transfer",
+    "contract_evidence_counterattack"
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10011,
+  "failure_types": [],
+  "successful_hooks": [
+    "涨租断水后宣布全家业态撤场",
+    "消控室备份证明物业先关阀后补单",
+    "老商户押金单集体上桌",
+    "招商会现场新品牌先退租"
+  ],
+  "paywall_cards": [
+    {"beat_id": "beat-01", "hook": "全家业态撤场"},
+    {"beat_id": "beat-02", "hook": "消控室备份"},
+    {"beat_id": "beat-03", "hook": "老商户联名"},
+    {"beat_id": "beat-04", "hook": "招商会翻车"}
+  ],
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.0,
+    "style": 8.1,
+    "logic": 8.0
+  },
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_business_revenge",
+    "rent_increase",
+    "tenant_exit",
+    "merchant_alliance",
+    "contract_evidence"
+  ],
+  "manual_revision_delta": [
+    "第一版 8437 字低于 production 最低字数，追加第13-14章补足长期胜利和合同公开。"
+  ]
+}

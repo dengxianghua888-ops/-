@@ -1,0 +1,115 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "unit": "chars",
+    "min": 500,
+    "max": 1200,
+    "tomato_preferred": [500, 800],
+    "median_target": 650,
+    "end_hook_required": true
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强 Hook：高光时刻被亲情抛弃 + 发现全家疑似被灭门 + 主角主动报警",
+    "micro_hook_every_chars": [800, 1200],
+    "paywall_card_every_chars": [2500, 3500],
+    "chapter_end_hook": "每章末必须留下新证据、新嫌疑、新反转或主角赌上更高代价",
+    "preferred_hook_types": ["H1", "H3"],
+    "first_chapter_min_hook_score": 9
+  },
+  "audience": {
+    "target_readers": [
+      "番茄短故事女性向读者",
+      "偏好现代反转、家庭伦理、悬疑破案、身份反差爽文的读者",
+      "喜欢高智商女主、证据链反杀、公开打脸和热搜审判场面的读者"
+    ],
+    "emotion_needs": [
+      "开局即替主角委屈和紧张",
+      "持续追问真相：家人到底死没死、尸体在哪里、谁在撒谎",
+      "主角孤立无援时仍保持清醒的智性爽感",
+      "反派自信完美犯罪后被证据链击穿的释放感",
+      "亲情失去后的悲痛落点与正义补偿"
+    ],
+    "genre_zones": [
+      "modern_reversal",
+      "family_ethics",
+      "suspense_crime",
+      "identity_reversal"
+    ],
+    "forbidden_zones": [
+      "不要写成纯刑侦程序文，必须保留爽文反杀节奏",
+      "不要让主角靠巧合破局，关键证据必须由知识、观察和主动行动获得",
+      "不要加入甜宠主线稀释灭门悬疑",
+      "不要美化犯罪团伙或详细教学式描写作案步骤",
+      "不要让原家庭和解，情绪债必须清算"
+    ]
+  },
+  "market_positioning": {
+    "core_reader_promise": "看高考状元在被断亲、被退婚、被全网质疑时，用化学知识和细节观察拆穿连环杀手的完美伪装，让亲情抛弃局反转成灭门悬案反杀局。",
+    "dominant_selling_points": [
+      "高考状元 + 断亲书 + 灭门举报三重开局爆点",
+      "假家人伪装真家人，制造强烈认知错位",
+      "直播舆论场放大压迫感和公开打脸爽点",
+      "专业知识破局，形成高智商女主爽感",
+      "尸体藏于别墅墙体的终极恐怖反转"
+    ],
+    "benchmark_alignment": {
+      "matched_corpus_slug": "top_scorer_disown_revenge",
+      "tomato_fit_score_reference": 8.8,
+      "dominant_s爽点": "多层递进反转",
+      "emotional_debt_type": "亲情抛弃债 / 身份陷阱债",
+      "payoff_pattern": "省状元、断亲书、灭门报案、真千金身份和利益网络多层递进反转，最终用证据链完成公开清算"
+    }
+  },
+  "title_strategy": {
+    "max_chars": 30,
+    "formula_candidates": [
+      {
+        "formula_id": "T1",
+        "formula": "高光身份 + 当日打击 + 极端反击",
+        "example": "高考状元当天，我举报全家被灭门",
+        "market_use": "最适合番茄强钩子推荐流，信息密度高，冲突立即成立"
+      },
+      {
+        "formula_id": "T3",
+        "formula": "亲情背叛 + 死亡真相 + 主角觉醒",
+        "example": "爸妈断亲后，我在别墅里找到他们",
+        "market_use": "偏悬疑虐爽，适合强化尸体真相和亲情痛感"
+      },
+      {
+        "formula_id": "T4",
+        "formula": "被抛弃处境 + 反向举报 + 全网反转",
+        "example": "他们说我是假千金，我反手报了灭门案",
+        "market_use": "强化身份低估与反杀动作，适合短标题投放"
+      },
+      {
+        "formula_id": "T5",
+        "formula": "具体证据物 + 家庭骗局 + 致命真相",
+        "example": "一封断亲书，让我查出全家灭门",
+        "market_use": "悬疑感更强，适合简介承接"
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire_score_target": 9.2,
+    "paywall_point_score_target": 9.0,
+    "emotion_release_score_target": 8.8,
+    "ai_flavor_score_target": 1.0,
+    "burst_density_score_target": 9.0,
+    "hook_coverage_target": 1.0,
+    "action_density_per_1k_chars_min": 8,
+    "reader_questions_to_sustain": [
+      "门外的哥哥为什么像真的",
+      "警方为什么查不到尸体",
+      "主角凭什么认定家人已死",
+      "假家人的破绽到底在哪里",
+      "尸体最终藏在哪里",
+      "反派如何被证据链钉死"
+    ]
+  }
+}

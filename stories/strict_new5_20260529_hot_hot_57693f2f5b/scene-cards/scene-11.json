@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 830,
+  "target_chars_max": 1040,
+  "location": "直播间与活动室监控画面",
+  "time": "证据公开视频播放时",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "许曼",
+    "赵慧",
+    "直播间网友",
+    "调查人员"
+  ],
+  "character_goal": "沈昭公开视频，让真正操作低温柜的人暴露。",
+  "opposition_goal": "许曼想用女儿病情和哭诉打断证据播放。",
+  "conflict_action": "沈昭播放活动室23:41监控，画面拍到许曼深夜进入并弯腰操作插头。",
+  "information_gap": "许曼为何冒险操作药箱，留到众筹流水和红包记录解释。",
+  "emotional_debt_delta": "核心硬证据爆开，许曼弱者人设开始塌陷。",
+  "payoff_or_hook": "监控公开反杀，证明沈昭不是事故责任人。",
+  "chapter_end_hook": "画面里，许曼弯腰拔掉了低温柜的插头。",
+  "paywall_card": false,
+  "must_include": [
+    "监控时间戳",
+    "画面先静后动的截断感",
+    "评论/吐槽短句至少七条，但不写成人肉号召"
+  ],
+  "must_not_write_as_exposition": [
+    "不要渲染儿童病痛",
+    "不要让许曼脸谱化自爆",
+    "不要把评论区写成整齐判决书"
+  ],
+  "rhythm_job": {
+    "shape": "监控画面分镜推进，评论短乱狠，沈昭少说；动作画面四成，弹幕/评论/吐槽两成，对话两成，停顿两成。",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 7,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

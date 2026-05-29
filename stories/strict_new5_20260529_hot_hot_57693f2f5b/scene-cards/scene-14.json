@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "B14",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "新服务站与山城路口",
+  "time": "三个月后",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "顾临川",
+    "新服务站主任",
+    "沈昭母亲"
+  ],
+  "character_goal": "沈昭选择新的工作和生活，不回头承担旧责任链。",
+  "opposition_goal": "旧社区返聘电话试图用补偿和名声把她叫回去收拾残局。",
+  "conflict_action": "沈昭拒接返聘电话，递交考编资料，在新服务站门口遇见顾临川。",
+  "information_gap": "前世十年错过的感情不展开回忆，只用保留旧照片和一句问话回收。",
+  "emotional_debt_delta": "事业、家庭、爱情补偿完成，冷感余味落地。",
+  "payoff_or_hook": "沈昭获得新生，不复合旧责任，不回头救场。",
+  "chapter_end_hook": "顾临川站在新服务站门口，笑着问她：这次，还走吗？",
+  "paywall_card": false,
+  "must_include": [
+    "旧社区返聘电话被静音",
+    "考编资料或新项目录用材料",
+    "顾临川出现但不油腻煽情"
+  ],
+  "must_not_write_as_exposition": [
+    "不要使用命运、宿命、救赎等泛化大词",
+    "不要长篇讲前世爱情遗憾",
+    "不要让结尾变成圣母和解"
+  ],
+  "rhythm_job": {
+    "shape": "低压收束，生活动作和短对白为主；动作三成，对白三成，冷旁白两成，呼吸与留白两成。",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "萧家祠堂主厅·管家闯入瞬间",
+  "time": "子时一刻",
+  "pov": "萧承时·灵魂态第一人称（拉远）",
+  "characters": ["管家", "萧瑾时", "萧言安", "江砚", "祠堂族人", "灵魂态萧承时"],
+  "character_goal": "灵魂态主角旁观全员第一波塌房",
+  "opposition_goal": "反派阵营尚不知电子签反向版已被发送出去",
+  "conflict_action": "管家撞开祠堂门→报死讯→姐姐第一次失态从主祭台冲下楼→江砚瘫坐在地→假表弟当场后退三步→灵魂态主角站在大梁上看",
+  "information_gap": "读者看到反派阵营从内部裂开第一道缝",
+  "emotional_debt_delta": "-4 释放继续",
+  "payoff_or_hook": "管家那句'十六楼天台跳下去了'重复了两遍",
+  "chapter_end_hook": "管家撞开祠堂的门：'大小姐，少爷……从十六楼的天台跳下去了。'",
+  "paywall_card": false,
+  "must_include": ["灵魂态视点的拉远感（俯视梁上）", "'十六楼天台'必须由管家亲口说出", "三人不同方向的肢体反应", "祠堂大铜钟此刻不响"],
+  "must_not_write_as_exposition": ["灵魂态主角说话或显灵", "群众瞬间高潮鼓掌", "灵魂介入反派内部决策", "旁白点评'报应来了'"]
+}

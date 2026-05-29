@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "path": "story/draft.md#12",
+      "type": "copy",
+      "quote": "一页脉案誊本",
+      "assessment": "乌兰珠拿的是誊本。"
+    },
+    {
+      "path": "story/draft.md#13",
+      "type": "original",
+      "quote": "取出完整脉案",
+      "assessment": "汗王私库保存原件。"
+    },
+    {
+      "path": "story/draft.md#15",
+      "type": "judicial_boundary",
+      "quote": "旧案重审",
+      "assessment": "最终惩罚落在汗令和重审。"
+    }
+  ]
+}

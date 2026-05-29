@@ -1,0 +1,231 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [
+      10000,
+      30000
+    ]
+  },
+  "chapter_policy": {
+    "chapter_chars_min": 500,
+    "chapter_chars_max": 1200,
+    "tomato_preferred_chars": {
+      "min": 500,
+      "max": 800,
+      "median": 650
+    },
+    "chapter_end_requirement": "每章末必须保留未解决冲突、反转预告或情绪卡点，禁止平收。",
+    "serialization_rule": "每章只解决一个小问题，同时制造一个更大的情绪问题。"
+  },
+  "hook_policy": {
+    "golden_hook_first_chars": 300,
+    "golden_hook_requirement": "前300字必须完成落水、生死抛弃、离婚协议三连击，直接给出女主不再自证的决绝姿态。",
+    "micro_hook_interval_chars": [
+      800,
+      1200
+    ],
+    "micro_hook_requirement": "每800-1200字设置一次关系误判、舆论反转、身份价值暴露或追妻失败钩子。",
+    "paywall_card_interval_chars": [
+      2500,
+      3500
+    ],
+    "paywall_card_requirement": "每2500-3500字至少一次付费级卡点，优先使用落水视频曝光、真实学历暴露、沈琳琳黑料爆炸、霍霆追到国外被拒等节点。",
+    "tomato_minimum": {
+      "paywall_every_words": 3000,
+      "hook_every_words": 1000,
+      "first_chapter_hook_score_min": 9
+    }
+  },
+  "market_positioning": {
+    "primary_genre": "family_ethics",
+    "secondary_genre": "urban_sweet_ceo",
+    "content_type": "真假千金+替嫁联姻+落水抛弃+离婚逆袭+追妻火葬场",
+    "reader_promise": "看被丈夫和原生家庭双重轻贱的真千金，在落水濒死后不哭不闹直接离婚，靠学历、事业和新感情重建人生，让前夫、假千金和偏心父母集体反噬。",
+    "dominant_s爽点": "断联清醒反杀",
+    "emotion_curve_shape": "U型后抬升，前段生死抛弃压低，中段离婚求学抬升，后段全网反转与追妻失败释放。"
+  },
+  "audience": {
+    "target_readers": [
+      "18-35岁女性短篇爽文读者",
+      "偏爱离婚后独美、追妻火葬场、真假千金打脸的番茄用户",
+      "对原生家庭偏心、婚姻轻视、白月光回归题材有强代入感的读者"
+    ],
+    "emotional_needs": [
+      "替被忽视的付出讨回公道",
+      "看到女主在濒死后立刻止损，不再讨爱",
+      "看到前夫从高位冷漠跌入长期悔恨",
+      "看到假千金和偏心父母被公开扒皮",
+      "获得女主读书、事业、新恋情全线变好的补偿感"
+    ],
+    "core_pain_points": [
+      "丈夫在生死关头选择别人",
+      "亲生父母偏宠假千金",
+      "女主长期付出被当作理所当然",
+      "白月光用柔弱叙事抢占舆论",
+      "外界把女主污名化为抢人、拜金、捞女"
+    ],
+    "genre_taboo": [
+      "禁止让女主复婚或回头",
+      "禁止把落水抛弃轻描淡写成误会",
+      "禁止用亲情和解稀释父母伤害",
+      "禁止让假千金只受轻微舆论惩罚",
+      "禁止让新男主工具化，必须体现尊重、识别女主价值",
+      "禁止过度雌竞，矛头必须落在丈夫选择、家庭偏心和资源剥夺上",
+      "禁止女主长篇自怜，情绪要落在行动、断联、证据和成长上"
+    ]
+  },
+  "title_strategy": {
+    "platform_constraints": {
+      "max_chars": 30,
+      "preferred_style": "事件强刺激+关系背叛+结果反杀"
+    },
+    "formulas": [
+      {
+        "formula_id": "T1",
+        "pattern": "生死事件+丈夫选择别人+我直接离婚",
+        "examples": [
+          "落水后老公先救姐姐，我离婚了",
+          "我快淹死时，他抱着姐姐走了",
+          "综艺落水后，我把离婚协议递给他"
+        ],
+        "market_use": "强开局、强情绪债，适合番茄首屏点击。"
+      },
+      {
+        "formula_id": "T3",
+        "pattern": "我离开后+他们知道真相+悔疯了",
+        "examples": [
+          "我离婚出国后，霍总悔疯了",
+          "我不再爱他后，他跪求复婚",
+          "真千金退场后，全家都慌了"
+        ],
+        "market_use": "追妻火葬场与全员后悔预期明确，利于完读。"
+      },
+      {
+        "formula_id": "T5",
+        "pattern": "真假千金错位+白月光回归+正主退场",
+        "examples": [
+          "假千金回来后，我成全他们",
+          "姐姐要回霍总，我转身去了耶鲁",
+          "白月光归来，我这个妻子不要了"
+        ],
+        "market_use": "突出真假千金和独美升级，吸引情感复仅读者。"
+      },
+      {
+        "formula_id": "T4",
+        "pattern": "一句狠话/冷静动作+身份价值暴露",
+        "examples": [
+          "他说我吃醋，我说签字",
+          "离婚那天，我收到了耶鲁通知",
+          "他说只是小事，我让他再也找不到我"
+        ],
+        "market_use": "适合做短标题或章节标题，强化女主清醒人设。"
+      }
+    ],
+    "recommended_title": "落水后老公先救姐姐，我离婚了"
+  },
+  "competitive_benchmarks": {
+    "matched_corpus_cases": [
+      {
+        "slug": "airdrop_company_ceo",
+        "fit_reason": "公开背叛债、身份低估债、丈夫带小三/白月光制造羞辱，适合借鉴舞台式打脸和身份牌释放。"
+      },
+      {
+        "slug": "sister_rebirth_my_death",
+        "fit_reason": "家庭偏心、牺牲替罪债、冷静旁观式痛感，适合借鉴原生家庭反噬逻辑。"
+      },
+      {
+        "slug": "husband_drug_mom_revenge",
+        "fit_reason": "家庭伦理复仇、不和解、证据型回击，适合借鉴断亲和刑责/现实代价。"
+      },
+      {
+        "slug": "top_scorer_disown_revenge",
+        "fit_reason": "高学历身份反转、亲情抛弃债、舆论多层反转，适合借鉴学历价值暴露节奏。"
+      }
+    ],
+    "tomato_fit_estimate": 8.6
+  },
+  "plot_market_constraints": {
+    "must_keep": [
+      "开篇落水时丈夫先救姐姐，女主差点溺死",
+      "女主第二天递离婚协议，并保持平静",
+      "女主真千金身份与被迫替嫁历史",
+      "女主离婚后继续学业并走向更高平台",
+      "假千金通过舆论塑造受害者形象后被反扒",
+      "霍霆追妻失败且长期悔恨",
+      "女主最终不复婚，获得事业和新爱"
+    ],
+    "must_strengthen": [
+      "落水事件要写出生理濒死感和丈夫背影的决断感",
+      "离婚谈判要短、冷、硬，女主不解释不纠缠",
+      "女主学术能力要提前埋证据，避免后期突兀开挂",
+      "网络反转要分批爆料，形成连续付费卡点",
+      "霍霆悔悟必须来自证据和失去，不是突然深情",
+      "新男主价值在于看见女主的付出和能力，不只负责挡刀"
+    ],
+    "must_avoid": [
+      "前期大段婚后甜蜜拖慢节奏",
+      "女主反复接前夫电话导致清醒感下降",
+      "惩罚全靠霸总封杀，削弱女主主动性",
+      "后期切换前夫视角过长，挤压女主爽点",
+      "把海外求学写成奢华炫富流水账"
+    ]
+  },
+  "monetization_nodes": [
+    {
+      "position_chars": 3000,
+      "card_type": "离婚后断联卡",
+      "trigger": "女主拿到财产、搬离旧宅、决定出国，前夫第一次意识到生活秩序崩塌。",
+      "reader_question": "她真的能彻底离开霍霆吗？"
+    },
+    {
+      "position_chars": 6000,
+      "card_type": "舆论污名卡",
+      "trigger": "假千金引导网友骂女主抢人，女主发出联姻证据。",
+      "reader_question": "证据发出后，假千金还能装多久？"
+    },
+    {
+      "position_chars": 9000,
+      "card_type": "身份升维卡",
+      "trigger": "京大学姐、论文、耶鲁实验室信息爆出，女主从十八线小演员升维成学霸。",
+      "reader_question": "霍霆看到真正的她会怎样崩溃？"
+    },
+    {
+      "position_chars": 12000,
+      "card_type": "黑料爆炸卡",
+      "trigger": "假千金海外视频、保姆证词、沈家偏心证据连环曝光。",
+      "reader_question": "沈家和假千金会付出什么代价？"
+    },
+    {
+      "position_chars": 15000,
+      "card_type": "追妻失败卡",
+      "trigger": "霍霆追到国外求复婚，女主携新男友明确拒绝。",
+      "reader_question": "霍霆的悔恨会不会变成更大的惩罚？"
+    }
+  ],
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.1,
+      "requirement": "每章末用未公开证据、下一轮反转或前夫追悔动作推动继续阅读。"
+    },
+    "payment_points": {
+      "target_score": 9.0,
+      "requirement": "至少5个付费级卡点，集中在离婚断联、舆论反击、学历曝光、假千金塌房、追妻被拒。"
+    },
+    "emotional_release": {
+      "target_score": 9.2,
+      "requirement": "女主不复婚、不原谅、不回原生家庭，以事业、新爱和高位冷漠完成释放。"
+    },
+    "ai_flavor": {
+      "target_score": 1.0,
+      "scoring_direction": "越低越好",
+      "requirement": "避免空泛抒情和模板化心碎，使用具体动作、证据、对话和身体反应承载情绪。"
+    },
+    "explosive_density": {
+      "target_score": 8.8,
+      "requirement": "前300字一个强爆点，之后每1000字至少一个微爆点，每3000字一个结构性反转。"
+    }
+  }
+}

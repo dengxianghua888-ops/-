@@ -1,0 +1,34 @@
+{
+  "story": "stories/prod_seq5_20260518_top_scorer_disown_revenge",
+  "overall_score": 9.62,
+  "dimensions": {
+    "length_alignment": {
+      "score": 9.66,
+      "evidence": "总字数 13554,章节方差 28.2"
+    },
+    "hook_density": {
+      "score": 10.0,
+      "evidence": "18/18 强钩,弱钩章: 无",
+      "weak_chapters": []
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 8/4"
+    },
+    "action_density": {
+      "score": 7.81,
+      "evidence": "动作密度 36.225/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 16.399,软违禁 0 次,硬违禁 0 次"
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 600,
+  "target_chars_max": 720,
+  "location": "江家老宅祠堂",
+  "time": "倒计时23小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "江父", "江母", "江栀", "贺景衡"],
+  "character_goal": "江沉逼父母说清海堤事故假死和六年前被赶下井的原因。",
+  "opposition_goal": "父母要逼江沉承认亏欠贺景衡，并签字放弃继承权。",
+  "conflict_action": "江父按着江沉跪祠堂，江母把放弃继承权和精神异常承诺书推到他面前。",
+  "information_gap": "江沉不知道父母已经配合贺景衡篡改继承档案。",
+  "emotional_debt_delta": "+父母假死后继续审判；+继承权被转移；+精神异常污名预埋",
+  "payoff_or_hook": "家庭背叛从钱和孩子推进到身份剥夺。",
+  "chapter_end_hook": "父亲把精神异常承诺书推到江沉面前，要他签字放弃继承权。",
+  "paywall_card": false,
+  "must_include": ["祠堂地砖冰冷", "父母活人牌位", "放弃继承权文件", "精神异常承诺书", "贺景衡站在祖宗牌位旁"],
+  "must_not_write_as_exposition": ["不要写父母回忆式解释", "不要给父母洗白", "不要让江沉轻易签字"]
+}

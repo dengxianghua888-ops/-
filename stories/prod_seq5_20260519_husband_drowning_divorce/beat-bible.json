@@ -1,0 +1,396 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 11000,
+    "max": 15000,
+    "target": 12800
+  },
+  "title": "火场里他抱走姐姐后，我签了离婚书",
+  "genre": "家庭伦理复仇 / 都市追妻火葬场 / 真假千金离婚逆袭",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "陆景辞把火场抛弃说成沈明姝怕黑、沈知晚熟悉场地；沈知晚只用离婚事实废掉他的解释和关系特权。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "婚内听觉康复和展厅调试形成正温；火场抱走姐姐归零；女主离开后陆景辞偏头痛复发、系统失序、反复看火场回放形成负温。"
+    },
+    {
+      "id": "M2",
+      "name": "身份反差爆发",
+      "execution": "沈知晚从被骂蹭资源的小音效师，分批曝光为高分学霸、论文作者、专利贡献人、海外实验室核心成员。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "离婚断联、替嫁证据、学历能力、火场原片、姐姐黑料、沈家偏心、前夫求复婚失败逐层升级。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "chapter-01",
+      "target_chars": 760,
+      "scene_range": ["scene-01"],
+      "chapter_end_hook": "陆景辞冷脸说她只是吃醋，沈知晚把签好字的离婚协议推到他面前。"
+    },
+    {
+      "chapter_id": "chapter-02",
+      "target_chars": 760,
+      "scene_range": ["scene-02"],
+      "chapter_end_hook": "民政局门口，沈知晚拿到离婚证，手机弹出沈明姝卖惨热搜。"
+    },
+    {
+      "chapter_id": "chapter-03",
+      "target_chars": 780,
+      "scene_range": ["scene-03"],
+      "chapter_end_hook": "陆景辞找不到止痛白噪音程序，才发现所有备份权限已经被沈知晚撤走。"
+    },
+    {
+      "chapter_id": "chapter-04",
+      "target_chars": 820,
+      "scene_range": ["scene-04"],
+      "chapter_end_hook": "全网骂她抢婚时，沈知晚点开发送键，第一批公证材料上线。"
+    },
+    {
+      "chapter_id": "chapter-05",
+      "target_chars": 780,
+      "scene_range": ["scene-05"],
+      "chapter_end_hook": "沈家父母找上门逼她撤声明，沈知晚当场拉黑沈家全家。"
+    },
+    {
+      "chapter_id": "chapter-06",
+      "target_chars": 780,
+      "scene_range": ["scene-06"],
+      "chapter_end_hook": "机场广播响起，陆景辞追到登机口，只看见沈知晚登机前的背影。"
+    },
+    {
+      "chapter_id": "chapter-07",
+      "target_chars": 780,
+      "scene_range": ["scene-07"],
+      "chapter_end_hook": "陆景辞打开火场直播原片，听见自己对沈知晚喊：你熟悉这里，自己找路。"
+    },
+    {
+      "chapter_id": "chapter-08",
+      "target_chars": 860,
+      "scene_range": ["scene-08"],
+      "chapter_end_hook": "消防时间轴公布，沈明姝站在最近出口旁装作被困的画面被定格。"
+    },
+    {
+      "chapter_id": "chapter-09",
+      "target_chars": 780,
+      "scene_range": ["scene-09"],
+      "chapter_end_hook": "京大学姐发出论文录用邮件截图，网友第一次看见沈知晚的真名署名。"
+    },
+    {
+      "chapter_id": "chapter-10",
+      "target_chars": 800,
+      "scene_range": ["scene-10"],
+      "chapter_end_hook": "周砚白拆开旧项目包，发现陆景辞一直依赖的康复系统也出自沈知晚。"
+    },
+    {
+      "chapter_id": "chapter-11",
+      "target_chars": 820,
+      "scene_range": ["scene-11"],
+      "chapter_end_hook": "沈明姝开直播哭诉，弹幕却刷出海外霸凌视频的第一帧。"
+    },
+    {
+      "chapter_id": "chapter-12",
+      "target_chars": 860,
+      "scene_range": ["scene-12"],
+      "chapter_end_hook": "保姆证词和沈家群聊同时曝光，替嫁不是误会，是沈家全员签字的交易。"
+    },
+    {
+      "chapter_id": "chapter-13",
+      "target_chars": 820,
+      "scene_range": ["scene-13"],
+      "chapter_end_hook": "沈氏合作方撤资，沈父跪在实验室门外求沈知晚回家。"
+    },
+    {
+      "chapter_id": "chapter-14",
+      "target_chars": 800,
+      "scene_range": ["scene-14"],
+      "chapter_end_hook": "国际发布会后台，陆景辞捧着复婚协议，听见沈知晚用英文介绍她的项目。"
+    },
+    {
+      "chapter_id": "chapter-15",
+      "target_chars": 860,
+      "scene_range": ["scene-15"],
+      "chapter_end_hook": "陆景辞问能不能重新开始，沈知晚说：不会复婚，也不会回头。"
+    },
+    {
+      "chapter_id": "chapter-16",
+      "target_chars": 840,
+      "scene_range": ["scene-16"],
+      "chapter_end_hook": "多年后陆景辞再次播放火场回放，屏幕里沈知晚的咳声成了他余生的判决。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "医院病房",
+      "character_goal": "沈知晚醒来后立刻完成离婚切割，不给陆景辞解释空间。",
+      "conflict_action": "沈知晚拔掉监护夹，把离婚协议推给陆景辞；陆景辞按住协议要求她收回。",
+      "information_gap": "读者只知道火场里陆景辞先抱走沈明姝，暂不知道替嫁和婚内付出。",
+      "emotion_debt_balance": {
+        "新增": ["生死抛弃债"],
+        "待偿": ["火场原片", "陆景辞误判", "沈明姝占位"]
+      },
+      "chapter_end_hook": "陆景辞冷脸说她只是吃醋，沈知晚把签好字的离婚协议推到他面前。",
+      "paywall_card": false,
+      "forbidden_summary": ["禁用AI套话", "不能长篇自怜", "不能给陆景辞合理救援理由"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars_min": 700,
+      "target_chars_max": 850,
+      "scene_location": "民政局与律师事务所",
+      "character_goal": "沈知晚把离婚从口头决定推进成法律事实。",
+      "conflict_action": "她签署财产分割公证，退还陆家副卡和婚戒；陆景辞抢走笔试图拖延。",
+      "information_gap": "读者知道沈知晚不要财产，但还不知道她被迫替嫁。",
+      "emotion_debt_balance": {
+        "偿还": ["止损爽点"],
+        "新增": ["舆论污名债"]
+      },
+      "chapter_end_hook": "民政局门口，沈知晚拿到离婚证，手机弹出沈明姝卖惨热搜。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能写女主求解释", "不能让离婚被拖过首段", "不能洗白偏心家人"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars_min": 720,
+      "target_chars_max": 880,
+      "scene_location": "陆家婚房与静音康复室",
+      "character_goal": "沈知晚搬走所有个人物品和技术备份，切断婚内照料。",
+      "conflict_action": "她拆下私人耳模样机、注销康复音频授权、把钥匙放在桌上；陆景辞打电话命令她回来。",
+      "information_gap": "读者首次看到陆景辞的听觉康复依赖，但不知道这些方案的学术价值。",
+      "emotion_debt_balance": {
+        "新增": ["婚内付出被无视债"],
+        "待偿": ["陆景辞生活失序"]
+      },
+      "chapter_end_hook": "陆景辞找不到止痛白噪音程序，才发现所有备份权限已经被沈知晚撤走。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把婚内付出写成空泛贤惠", "不能让陆景辞痛苦浪漫化", "不能用回忆替代动作"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars_min": 780,
+      "target_chars_max": 950,
+      "scene_location": "短视频平台与沈知晚租住公寓",
+      "character_goal": "沈知晚用第一批证据反击抢婚抢资源的舆论污名。",
+      "conflict_action": "沈明姝发哭诉视频，粉丝围攻沈知晚账号；沈知晚上传结婚证、离婚证、替嫁群聊公证件。",
+      "information_gap": "证据显示替嫁存在，但沈家为何牺牲亲生女儿仍未完全揭开。",
+      "emotion_debt_balance": {
+        "偿还": ["舆论污名债第一轮"],
+        "新增": ["真千金替嫁剥夺债"]
+      },
+      "chapter_end_hook": "全网骂她抢婚时，沈知晚点开发送键，第一批公证材料上线。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写网暴私刑", "不能让女主自证超过必要篇幅", "不能一次性爆完全部证据"]
+    },
+    {
+      "beat_id": "beat-05",
+      "target_chars_min": 720,
+      "target_chars_max": 880,
+      "scene_location": "公寓楼下与沈家车内",
+      "character_goal": "沈知晚断开沈家血缘勒索，不再做替代品。",
+      "conflict_action": "沈父沈母堵住她要求撤声明，她录下威胁话术并当面删除家庭群、拉黑号码。",
+      "information_gap": "读者知道沈家偏心，但还不知道沈明姝当年逃婚录音。",
+      "emotion_debt_balance": {
+        "偿还": ["亲情绑架切断"],
+        "待偿": ["沈家偏心证词", "逃婚录音"]
+      },
+      "chapter_end_hook": "沈家父母找上门逼她撤声明，沈知晚当场拉黑沈家全家。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让父母以亲情获得谅解", "不能写女主求父母爱她", "不能洗白沈明姝"]
+    },
+    {
+      "beat_id": "beat-06",
+      "target_chars_min": 720,
+      "target_chars_max": 880,
+      "scene_location": "机场与国际实验室邮件界面",
+      "character_goal": "沈知晚恢复被中断的学业和实验室资格。",
+      "conflict_action": "她提交休学复核材料和声场模型附件，买下机票；陆景辞赶到机场试图拦人。",
+      "information_gap": "实验室愿意重新评估她，但她真实能力还没公开给舆论。",
+      "emotion_debt_balance": {
+        "偿还": ["自我重启"],
+        "新增": ["价值低估债"]
+      },
+      "chapter_end_hook": "机场广播响起，陆景辞追到登机口，只看见沈知晚登机前的背影。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让新男主安排她的人生", "不能让陆景辞阻止成功", "不能写成逃避"]
+    },
+    {
+      "beat_id": "beat-07",
+      "target_chars_min": 720,
+      "target_chars_max": 900,
+      "scene_location": "陆氏集团总控室",
+      "character_goal": "陆景辞想证明火场选择不是错，反而被原片反噬。",
+      "conflict_action": "他命技术部调取直播原片，亲手拖动进度条，画面里自己越过沈知晚抱走沈明姝。",
+      "information_gap": "原片证明选择清醒，但沈明姝距离出口的真相还未公开。",
+      "emotion_debt_balance": {
+        "偿还": ["陆景辞误判破裂"],
+        "待偿": ["火场完整时间轴"]
+      },
+      "chapter_end_hook": "陆景辞打开火场直播原片，听见自己对沈知晚喊：你熟悉这里，自己找路。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能把火场洗成误会", "不能让陆景辞立刻获得原谅", "不能过度灾难猎奇"]
+    },
+    {
+      "beat_id": "beat-08",
+      "target_chars_min": 800,
+      "target_chars_max": 980,
+      "scene_location": "律师声明发布页与消防通道监控画面",
+      "character_goal": "沈知晚用权威时间轴坐实火场选择和沈明姝装困。",
+      "conflict_action": "她授权律师发布烟感报警时间轴、消防通道监控和直播原片关键帧。",
+      "information_gap": "沈明姝人设开始崩，但她更深层的冒名和霸凌黑料仍未爆出。",
+      "emotion_debt_balance": {
+        "偿还": ["生死抛弃债第一轮", "舆论污名债第二轮"],
+        "新增": ["沈明姝恶意占位债"]
+      },
+      "chapter_end_hook": "消防时间轴公布，沈明姝站在最近出口旁装作被困的画面被定格。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能鼓励网暴", "不能写无证据羞辱", "不能让证据发布变成摘要表"]
+    },
+    {
+      "beat_id": "beat-09",
+      "target_chars_min": 720,
+      "target_chars_max": 900,
+      "scene_location": "京大校友群与海外实验室会议室",
+      "character_goal": "沈知晚的能力开始从私人付出升级为公开价值。",
+      "conflict_action": "京大学姐转发论文录用邮件，导师补充她休学前的项目数据；沈知晚在远程会上修正声场模型。",
+      "information_gap": "网友看见她的学术能力，但专利和国际项目核心身份还未完全揭示。",
+      "emotion_debt_balance": {
+        "偿还": ["价值低估债第一轮"],
+        "待偿": ["专利署名", "实验室核心项目"]
+      },
+      "chapter_end_hook": "京大学姐发出论文录用邮件截图，网友第一次看见沈知晚的真名署名。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能靠豪门身份翻身", "不能让周砚白替她背书全部价值", "不能技术术语过重"]
+    },
+    {
+      "beat_id": "beat-10",
+      "target_chars_min": 740,
+      "target_chars_max": 920,
+      "scene_location": "海外建筑安全实验室",
+      "character_goal": "周砚白确认沈知晚的专业能力，并尊重她继续主导项目。",
+      "conflict_action": "周砚白拿出旧项目包核对模型参数，邀请她现场重跑演算；沈知晚用数据修正团队方案。",
+      "information_gap": "周砚白看见她婚内付出与专业价值重叠，但不替她处理私人复仇。",
+      "emotion_debt_balance": {
+        "偿还": ["被看见的情绪补偿"],
+        "新增": ["健康新关系伏笔"]
+      },
+      "chapter_end_hook": "周砚白拆开旧项目包，发现陆景辞一直依赖的康复系统也出自沈知晚。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能强吻壁咚", "不能让新男主喧宾夺主", "不能把女主写成被拯救"]
+    },
+    {
+      "beat_id": "beat-11",
+      "target_chars_min": 760,
+      "target_chars_max": 950,
+      "scene_location": "沈明姝直播间与海外爆料账号",
+      "character_goal": "沈明姝试图用柔弱人设翻盘，沈知晚逼她面对旧黑料。",
+      "conflict_action": "沈明姝开直播哭诉被妹妹逼死，海外同学发布霸凌视频和冒名邮件，律师同步转存证据。",
+      "information_gap": "霸凌和冒名坐实一半，商业代言数据造假还未引爆。",
+      "emotion_debt_balance": {
+        "偿还": ["沈明姝人设崩塌第一轮"],
+        "待偿": ["商业造假", "税务处罚线索"]
+      },
+      "chapter_end_hook": "沈明姝开直播哭诉，弹幕却刷出海外霸凌视频的第一帧。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能使用性羞辱", "不能写无证据黑料", "不能让沈明姝洗白"]
+    },
+    {
+      "beat_id": "beat-12",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "沈家老宅与公开视频证词",
+      "character_goal": "沈知晚让沈家的替嫁和偏心从家事变成可验证事实。",
+      "conflict_action": "老保姆录视频作证，旧员工交出沈家群聊和逃婚录音，沈知晚把材料交给律师。",
+      "information_gap": "沈家交易链公开，但现实惩罚才刚开始。",
+      "emotion_debt_balance": {
+        "偿还": ["真千金替嫁剥夺债", "原生家庭偏心债第一轮"],
+        "新增": ["沈家商业反噬"]
+      },
+      "chapter_end_hook": "保姆证词和沈家群聊同时曝光，替嫁不是误会，是沈家全员签字的交易。",
+      "paywall_card": true,
+      "forbidden_summary": ["不能让沈家求哭就被原谅", "不能写成血缘煽情", "不能把证词写成空泛旁白"]
+    },
+    {
+      "beat_id": "beat-13",
+      "target_chars_min": 760,
+      "target_chars_max": 950,
+      "scene_location": "沈氏集团门口与海外实验室入口",
+      "character_goal": "沈知晚拒绝沈家求和，让偏心父母承担现实后果。",
+      "conflict_action": "沈父沈母带着撤资通知堵在实验室外下跪，沈知晚把他们交给安保并拒接和解书。",
+      "information_gap": "沈家已败，陆景辞的追妻失败还没完成最终清算。",
+      "emotion_debt_balance": {
+        "偿还": ["原生家庭偏心债第二轮"],
+        "待偿": ["前夫不可追回"]
+      },
+      "chapter_end_hook": "沈氏合作方撤资，沈父跪在实验室门外求沈知晚回家。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能原谅父母", "不能回沈家", "不能用父母老了绑架女主"]
+    },
+    {
+      "beat_id": "beat-14",
+      "target_chars_min": 740,
+      "target_chars_max": 930,
+      "scene_location": "国际应急声场项目发布会后台",
+      "character_goal": "沈知晚在国际项目中证明自己的新人生已经站稳。",
+      "conflict_action": "她上台前检查模型演示，周砚白递来修正后的演示笔；陆景辞拿复婚协议闯入后台。",
+      "information_gap": "陆景辞看见她价值，但还幻想凭迟来深情挽回。",
+      "emotion_debt_balance": {
+        "偿还": ["价值低估债第二轮"],
+        "新增": ["前夫求复婚失败预备"]
+      },
+      "chapter_end_hook": "国际发布会后台，陆景辞捧着复婚协议，听见沈知晚用英文介绍她的项目。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让发布会变成炫富", "不能让周砚白替她发光", "不能让陆景辞破坏事业线"]
+    },
+    {
+      "beat_id": "beat-15",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "发布会后通道",
+      "character_goal": "沈知晚明确拒绝复婚，完成对陆景辞的最终情感切割。",
+      "conflict_action": "陆景辞追上来递复婚协议和旧耳模，沈知晚把协议退回，摘掉他的访客证交给安保。",
+      "information_gap": "陆景辞彻底失去资格，但他的长期悔恨还需落到余生惩罚。",
+      "emotion_debt_balance": {
+        "偿还": ["生死抛弃债第二轮", "前夫不可追回"],
+        "待偿": ["长期悔恨惩罚"]
+      },
+      "chapter_end_hook": "陆景辞问能不能重新开始，沈知晚说：不会复婚，也不会回头。",
+      "paywall_card": true,
+      "forbidden_summary": ["禁止复婚", "禁止女主承认还爱他", "禁止把陆景辞守候写成奖励"]
+    },
+    {
+      "beat_id": "beat-16",
+      "target_chars_min": 780,
+      "target_chars_max": 980,
+      "scene_location": "多年后的陆家书房与新项目现场",
+      "character_goal": "完成三条情绪债清算，让女主向前，前夫困在过去。",
+      "conflict_action": "陆景辞反复播放火场回放，偏头痛发作也不关掉；另一边沈知晚带队启动新项目。",
+      "information_gap": "无新谜团，收束为余生对照。",
+      "emotion_debt_balance": {
+        "清算完成": ["沈明姝塌房", "沈家破产", "陆景辞长期悔恨", "沈知晚自我实现"]
+      },
+      "chapter_end_hook": "多年后陆景辞再次播放火场回放，屏幕里沈知晚的咳声成了他余生的判决。",
+      "paywall_card": false,
+      "forbidden_summary": ["不能让前夫翻篇幸福", "不能让女主回头", "不能用抽象升华替代具体结局"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 12,
+    "min_paywall_cards": 4,
+    "chapter_end_hook_coverage": "100%",
+    "first_300_chars_requirement": "必须写火场浓烟、丈夫先抱走沈明姝、沈知晚濒死、醒来递离婚协议。",
+    "micro_hook_interval_chars": "800-1200",
+    "forbidden_global": ["女主不能复婚", "火场不能洗成误会", "姐姐不能洗白", "沈家不能和解", "女主成功不能靠男人资源"]
+  }
+}

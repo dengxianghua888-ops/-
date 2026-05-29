@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "裴家除夕家宴",
+  "time": "除夕夜",
+  "pov": "沈知微 第一人称",
+  "characters": [
+    "沈知微",
+    "裴砚衡",
+    "裴承屿",
+    "裴老爷子",
+    "裴母",
+    "家族成员"
+  ],
+  "character_goal": "在最公开、最家族化的场合完成称呼落定。",
+  "opposition_goal": "裴承屿想拖、想躲，至少不在满桌人前彻底低头。",
+  "conflict_action": "裴老爷子放下筷子点名让裴承屿敬茶改口，席间无人替他转圜；裴承屿端起茶盏，手稳不住。",
+  "information_gap": "满桌沉默里，只剩那杯茶在他手里发颤。",
+  "emotional_debt_delta": "民政局、家宴、婚礼、旧情所有总账汇到这一声称呼上。",
+  "payoff_or_hook": "所有人都知道这声‘大嫂’意味着彻底不可逆。",
+  "chapter_end_hook": "满桌沉默里，只剩那杯茶在他手里发颤。",
+  "paywall_card": false,
+  "must_include": [
+    "敬茶动作",
+    "长辈点名而非暗示",
+    "林妍缺席形成现实后果侧影",
+    "无人替裴承屿找台阶"
+  ],
+  "must_not_write_as_exposition": [
+    "不要描写年夜饭菜色",
+    "不要让全家人轮流说教"
+  ],
+  "rhythm_job": {
+    "shape": "家常低压起手，茶盏动作一点点把他逼到开口边缘",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  }
+}

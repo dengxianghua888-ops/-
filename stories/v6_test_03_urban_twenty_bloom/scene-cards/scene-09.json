@@ -1,0 +1,74 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 500,
+  "target_chars_max": 600,
+  "location": "县人民医院ICU走廊",
+  "time": "当天深夜",
+  "pov": "苏念",
+  "characters": ["苏念", "韩致远（电话）"],
+  "character_goal": "苏念孤立无援，最后的底牌——拨通韩致远教授的电话求助",
+  "opposition_goal": "无直接对手——这是苏念和命运的对峙",
+  "conflict_action": "苏念一个人站在ICU外，强忍颤抖拨通母亲旧信件里的邮箱对应电话",
+  "information_gap": "韩致远的身份（母亲初中时的恩师/省教育厅扶贫办特聘专家）是苏念在前世才知道的信息",
+  "emotional_debt_delta": "绝望谷底的最后一搏——如果这个电话没人接，一切就完了",
+  "payoff_or_hook": "韩致远接了电话：'你是秀兰的女儿？我知道你们的事。省教育厅已经收到举报了。'",
+  "chapter_end_hook": "苏念跪在ICU门口，手机里传来韩致远的声音：'孩子你等着，我已经联系了省教育厅'——全篇最坚强的女主跪下了",
+  "paywall_card": false,
+  "must_include": [
+    "苏念一个人在ICU外的孤独画面",
+    "强忍颤抖拨号的动作细节",
+    "电话接通时的极正式称呼",
+    "韩致远的回应（简短、有力）",
+    "苏念跪下的单句成段"
+  ],
+  "must_not_write_as_exposition": [
+    "韩致远的完整身份背景",
+    "苏念怎么找到这个号码的详细过程",
+    "省教育厅的运作方式"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.2,
+    "comma_period_ratio": 0.40,
+    "sentence_avg_len": 13.8,
+    "dominant_emotion": "绝望-反击",
+    "emotion_arc": "孤独等待 → 最后一搏 → 微光出现 → 跪下（释放）",
+    "emotion_intensity": 10,
+    "reader_feeling_target": "屏住呼吸等电话被接起的紧张感，韩致远回应时的如释重负",
+    "required_techniques": [
+      {
+        "technique": "绝望中的冷静反差",
+        "instruction": "双亲都在ICU，她浑身发抖但语气极其得体：'韩教授您好，我是林秀兰的女儿'——这个反差体现的是骨子里的教养和行动力"
+      },
+      {
+        "technique": "上辈子信息武器化",
+        "instruction": "只有重生者才知道这个号码存在——但不解释怎么知道的，直接拨打"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "极正式称呼+极简求助",
+        "example": "赵省长您好，我是林丛芳的女儿，有事想麻烦您帮忙。",
+        "instruction": "在最崩溃时用最得体的语气——骨子里的教养让权力人物愿意帮助她"
+      },
+      {
+        "structure": "反将一军式宣言",
+        "example": "还想拍什么，你们说，我演给你们看。",
+        "instruction": "跪下不是认输——是对命运说'我已经做了所有能做的，剩下的交给你'"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "我一个人站在抢救室外……强忍心痛和颤抖，拨通了一个陌生号码。「赵省长您好，我是林丛芳的女儿，有事想麻烦您帮忙。」我不知道自己还能做什么，跪了下去，祈求神明把爸妈还给我。"
+  }
+}

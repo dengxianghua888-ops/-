@@ -1,0 +1,75 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-10a",
+  "chapter_id": 10,
+  "is_chapter_end": false,
+  "target_chars_min": 420,
+  "target_chars_max": 580,
+  "location": "大漠王帐（新婚后）/旁叙靖安城陷落",
+  "time": "数月后",
+  "pov": "苏若棠（第一人称）",
+  "characters": ["苏若棠", "凌霄寒", "楚怀璟（旁叙）"],
+  "character_goal": "完成楚怀璟的命运终结——失城亡命的因果闭环",
+  "opposition_goal": "（无现场对抗，楚怀璟的结局通过旁叙呈现）",
+  "conflict_action": "旁叙楚怀璟失城被朝廷废为庶人，孤死陋巷；临终伸手想抓住什么但抓空",
+  "information_gap": "无——本场是结局，信息差清零",
+  "emotional_debt_delta": "最终清算——楚怀璟失国亡命，全部因果闭环合上",
+  "payoff_or_hook": "'伸手但抓不住'=帝王一生的总结",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "楚怀璟失城被废为庶人的简述",
+    "孤死陋巷的结局",
+    "'伸手想抓住但终究抓空'的意象",
+    "临终前让人送白玉匕首给苏若棠",
+    "因果闭环总结（弃她→失屏障→朝廷收权→身死）"
+  ],
+  "must_not_write_as_exposition": [
+    "政治细节（一笔带过）",
+    "楚怀璟的痛苦（用一个物理动作代替千字描写）"
+  ],
+  "rhythm_job": {
+    "shape": "快述收束",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 1.4,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "唏嘘-释然",
+    "emotion_arc": "旁叙悲剧 → 帝王之死 → 抓空意象",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "对楚怀璟的结局有一丝唏嘘，但更多是'报应到了'的满足",
+    "required_techniques": [
+      {
+        "technique": "帝王之死的抓不住意象",
+        "instruction": "'楚怀璟伸出手，想抓住什么。可无论他怎么努力，都终究抓不住。'——用一个物理动作浓缩毕生悔恨"
+      },
+      {
+        "technique": "遗物传递的伏笔",
+        "instruction": "临终前托人送白玉匕首给苏若棠——为下一场的'降格处理'埋伏笔"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "无论...都...+否定结果",
+        "example": "可无论他怎么努力，都终究抓不住。",
+        "instruction": "'抓不住'是楚怀璟命运的一句话总结——他什么都抓不住，因为他亲手放开了"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "对比式",
+    "source_excerpt": "傅临渊伸出手，想抓住这一瞬间。\n可无论他怎么努力，都终究抓不住。\n他的国，他的人，他的一切。\n都在那个转身之后，烟消云散。"
+  },
+  "character_voices": {
+    "苏若棠": {
+      "口癖": [],
+      "句式": "旁叙平静，不带感情色彩",
+      "单句上限": 18,
+      "禁止": "感慨、叹息、同情"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "candidates": [
+    {
+      "id": "A",
+      "premise": "源文核心是愚人节放纵、残疾妻子清醒离婚和旧事故翻案，本稿换成结婚纪念日羞辱与信托撤保，保留强钩子、渣男迟悔和白月光反噬，同时把结尾从情绪复仇推进到公益修复，避免追妻洗白。",
+      "freshness_score": 8.8,
+      "fidelity_score": 9.0,
+      "tomato_score": 8.8,
+      "logic_score": 8.8,
+      "risks": [
+        "反击线需要证据支撑"
+      ]
+    },
+    {
+      "id": "B",
+      "premise": "弱化证据链，强化纯情绪复仇",
+      "freshness_score": 7.8,
+      "fidelity_score": 8.6,
+      "tomato_score": 8.4,
+      "logic_score": 7.8,
+      "risks": [
+        "容易显得单薄"
+      ]
+    },
+    {
+      "id": "C",
+      "premise": "改成群像救赎线",
+      "freshness_score": 8.2,
+      "fidelity_score": 7.8,
+      "tomato_score": 7.8,
+      "logic_score": 8.1,
+      "risks": [
+        "偏离爆款爽点"
+      ]
+    }
+  ],
+  "selected_candidate": "A",
+  "replacement_map": {
+    "核心羞辱": "同等强度的新场景",
+    "反派压迫": "证据链清算",
+    "情绪偿还": "女主自我新生"
+  },
+  "mechanism_preservation": {
+    "开篇钩子": "保留",
+    "中段反转": "强化",
+    "结尾爽感": "保留并延展"
+  },
+  "sensitive_topic_policy": "受害者不自责，施害者不洗白，创伤描写点到为止。"
+}

@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "beat-02",
+  "chapter_id": 1,
+  "is_chapter_end": true,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "品牌晚宴外——酒店门廊/季霄的车旁",
+  "time": "紧接上一场，离开宴会后的几分钟",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄"],
+  "character_goal": "苏念需要确认自己离开的决定——通过一句冷静的确认完成与过去的切割",
+  "opposition_goal": "无直接对手，但过去六年的记忆是隐形压力",
+  "conflict_action": "苏念在离场的松弛中回忆六年被贬低的几个节点，用一句轻描淡写的暗示确认与季霄的关系",
+  "information_gap": "揭露苏念怀孕的事实——但孩子是谁的、季霄知不知道，全部悬置",
+  "emotional_debt_delta": "通过回忆闪回叠加情绪债：六年不给名分+当众叫助理+方颖三天官宣",
+  "payoff_or_hook": "章末炸弹：怀孕揭露",
+  "chapter_end_hook": "苏念用极短句揭露怀孕——'不是变化快，而是我怀孕了。'信息量巨大但不展开",
+  "paywall_card": false,
+  "must_include": [
+    "苏念对六年关系的极简回忆（不超过4句）",
+    "苏念确认与季霄关系的暧昧语句",
+    "怀孕信息的投放（极短句，不超过两句话）",
+    "章末必须截断在怀孕揭露后，不做任何展开"
+  ],
+  "must_not_write_as_exposition": [
+    "六年关系的详细经过",
+    "怀孕的来龙去脉",
+    "季霄对怀孕的反应"
+  ],
+  "rhythm_job": {
+    "shape": "匀速→突变收束",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 14.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 12.0,
+    "dominant_emotion": "冷静-暧昧",
+    "emotion_arc": "松弛离场 → 微回忆 → 暧昧确认 → 炸弹投放",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "被苏念的冷静震撼——她用评价日常的语气处理惊天信息",
+    "required_techniques": [
+      {
+        "technique": "冷静反差——情绪零度的叙述者",
+        "instruction": "苏念用最轻描淡写的口吻确认与季霄的关系，如同评价一顿饭——冷静到读者替陈奕慌"
+      },
+      {
+        "technique": "一句话时间压缩",
+        "instruction": "六年的回忆用不超过4个短句闪回完成，每句对应一个情绪债节点"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "肯定句+评价语气+单一形容词",
+        "example": "年轻人的滋味，确实不错。",
+        "instruction": "苏念用评价消费品的语气评价关系/身体体验，冷静到近乎挑衅"
+      }
+    ],
+    "peak_type": "revelation_half",
+    "bomb_technique": "否定+转折的极短句",
+    "source_excerpt": "顾呈阳说的也不全错。年轻人的滋味，确实不错。……不是变化快，而是我怀孕了。"
+  }
+}

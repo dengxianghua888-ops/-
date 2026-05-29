@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "证物恢复室",
+  "time": "凌晨后半夜",
+  "pov": "沈栀第一人称死后灵魂",
+  "characters": [
+    "沈栀",
+    "陆谨言",
+    "技术员",
+    "助理法医"
+  ],
+  "character_goal": "陆谨言要恢复钥匙扣内容，确认沈栀曾准备告诉他怀孕。",
+  "opposition_goal": "损坏的钥匙扣和陆谨言自己的迟到让真相变成惩罚。",
+  "conflict_action": "技术员接线恢复损坏钥匙扣，陆谨言听见胎心声和沈栀未发出的纪念日留言。",
+  "information_gap": "录音尾端有事故前杂音，可能藏着许知遥逼停前的声音。",
+  "emotional_debt_delta": "温柔证据反杀男主，孩子债继续加重。",
+  "payoff_or_hook": "付费卡在录音尾端异常声出现前。",
+  "chapter_end_hook": "钥匙扣里传出我没来得及发给他的胎心声。",
+  "paywall_card": true,
+  "must_include": [
+    "胎心声",
+    "沈栀未发送留言",
+    "陆谨言扶住桌沿",
+    "技术员说尾端还有噪声",
+    "短句：太晚了"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把胎心声写成甜宠桥段",
+    "不要让沈栀安慰陆谨言",
+    "不要让录音直接替代所有证据"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B7",
+  "target_chars_min": 800,
+  "target_chars_max": 900,
+  "location": "宴会厅→门外",
+  "time": "紧接上场",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "陆承衍",
+    "林知薇",
+    "舅妈"
+  ],
+  "character_goal": "冷静离场",
+  "opposition_goal": "陆承衍追出质问",
+  "conflict_action": "音频播完后全场死寂；舅妈铁青；陆承衍追出来被主角一句话堵回；主角说新婚快乐后离开",
+  "information_gap": "主角说了什么让他愣住",
+  "emotional_debt_delta": "-5（D2部分偿还）",
+  "payoff_or_hook": "音频播完，全场没人说话",
+  "chapter_end_hook": "音频播完，全场没人说话",
+  "paywall_card": false,
+  "must_include": [
+    "全场寂静的描写",
+    "舅妈的反应",
+    "主角冷静离场的动作",
+    "新婚快乐金句"
+  ],
+  "must_not_write_as_exposition": [
+    "不能写长段群众讨论"
+  ]
+}

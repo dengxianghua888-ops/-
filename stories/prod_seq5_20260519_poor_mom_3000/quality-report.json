@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260519_poor_mom_3000/final.md",
+    "target_length": {
+      "min": 11000,
+      "max": 13500,
+      "actual": 11559,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        796,
+        766,
+        832,
+        805,
+        784,
+        856,
+        803,
+        790,
+        877,
+        796,
+        855,
+        842,
+        760,
+        806
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 145,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 15,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11559,
+      "sentence_count": 573,
+      "avg_sentence_length": 19.173,
+      "dialogue_ratio": 0.0556,
+      "question_marks": 19,
+      "question_marks_per_k": 1.644,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "发麻": 1,
+        "青筋": 1,
+        "手心": 1,
+        "喉咙": 2,
+        "眼眶": 1,
+        "指甲": 1,
+        "掌心": 5
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 35.211
+    },
+    "semantic_repetition": {
+      "sentence_count": 524,
+      "unique_sentence_skeletons": 524,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0019
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.6,
+    "emotion": 8.8,
+    "style": 8.3,
+    "logic": 7.7
+  },
+  "evidence": [
+    {
+      "dimension": "platform_opening",
+      "location": "CH01",
+      "quote": "护士把欠费单压在床头牌上，说药费还差一百八",
+      "assessment": "开篇即给出急诊、欠费、生存压力。"
+    },
+    {
+      "dimension": "platform_opening",
+      "location": "CH01",
+      "quote": "我每月给你三千，你把钱花到哪儿了？",
+      "assessment": "母亲质问与余额三十二块六构成核心点击矛盾。"
+    },
+    {
+      "dimension": "paywall_card",
+      "location": "CH03",
+      "quote": "收费大厅里，母亲要我跪下承认私吞学费。",
+      "assessment": "公开罚跪形成第一处强付费卡点。"
+    },
+    {
+      "dimension": "paywall_card",
+      "location": "CH06",
+      "quote": "我只是把纸一张一张贴平，让所有月份排成一列",
+      "assessment": "羞辱现场反转为证据展示现场。"
+    },
+    {
+      "dimension": "paywall_card",
+      "location": "CH09",
+      "quote": "签收单弹出来，收货地址却不是总院库房，而是杨驰新开的高端口腔诊所。",
+      "assessment": "生活费黑洞升级为公司资产侵占。"
+    },
+    {
+      "dimension": "paywall_card",
+      "location": "CH12",
+      "quote": "接警窗口打印出回执，白纸黑字写着受理时间。",
+      "assessment": "法律清算落地，形成第四处付费卡。"
+    },
+    {
+      "dimension": "emotion_payoff",
+      "location": "CH13",
+      "quote": "我比他早知道两年。",
+      "assessment": "父亲二十八块处境回扣主角三十块生存压迫。"
+    },
+    {
+      "dimension": "emotion_boundary",
+      "location": "CH14",
+      "quote": "然后把钥匙推回母亲手边。",
+      "assessment": "收下赔偿但保留亲情边界，没有强行和解。"
+    },
+    {
+      "dimension": "logic_chain",
+      "location": "CH05-CH08",
+      "quote": "到账后三分钟就被协议划走了。",
+      "assessment": "流水、尾号、车款核验构成可追踪证据链。"
+    },
+    {
+      "dimension": "sensitive_handling",
+      "location": "CH12",
+      "quote": "律师提醒我，提交材料后就不能再当作普通家庭矛盾处理。",
+      "assessment": "经济侵占进入律师、内审、派出所流程，避免私刑化。"
+    }
+  ]
+}

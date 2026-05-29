@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 820,
+  "target_chars_max": 900,
+  "location": "B超室门外长椅",
+  "time": "紧接上一场",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "护士", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想让陆砚辞先看结果，不要继续乱想。",
+  "opposition_goal": "陆砚辞被误会击穿，情绪已经先于理智崩掉。",
+  "conflict_action": "陆砚辞抓着报告袋追问时突然吐血，温瓷把B超单塞到他手里，按着他手指让他看‘胎心可见’。",
+  "information_gap": "B超单是否埋双胎伏笔；陆砚辞到底瞒了多少与孩子、离婚有关的真相。",
+  "emotional_debt_delta": {
+    "孩子债": "-3",
+    "深情证据债": "-2",
+    "解释债": "+1"
+  },
+  "payoff_or_hook": "误会释放靠实物证据，不靠口头解释。",
+  "chapter_end_hook": "他盯着B超单发抖，像终于把自己从悬崖边拽回来。",
+  "paywall_card": false,
+  "must_include": [
+    "吐血或胃出血反应要短促具体",
+    "B超单上的‘胎心可见’",
+    "温瓷按住他手指让他看单据",
+    "至少2条弹幕，其中1条卡壳式"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用抒情长段代替现场",
+    "不要解释医学指标",
+    "不要让误会靠旁观者转述解除"
+  ],
+  "rhythm_job": {
+    "shape": "崩溃一瞬-证据落手-轻一句降温-后怕余震",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "动作5成，对白2成，弹幕2成，呼吸点1成"
+  }
+}

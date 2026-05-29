@@ -1,0 +1,183 @@
+{
+  "story_slug": "prod_batch_08_hotel_group",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    {
+      "id": "M1",
+      "name": "死环反杀",
+      "application": "周凯亲笔签退订单后，副票、接驳、保险、夜巡同步取消；后续求重新接待时被同一退订单、满位系统和消防容量表闭锁。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "application": "周凯用“680贵、480裸营位”压价，后续被黄牛车费、黑营地帐篷涨价、热水餐食另收费反向证明套票更划算。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "application": "反噬按补位研学团、接驳取消、黄牛车、黑营地涨价、夜间安全事故、公司追责、持械被处理逐层升级。"
+    }
+  ],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10415,
+  "quality_scores": {
+    "platform": 7.8,
+    "emotion": 8.1,
+    "style": 7.6,
+    "logic": 8.4
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": "第一章",
+      "hook": "周凯以裸营位480逼主角按团建套票680退差价，并当众威胁退订刷差评。",
+      "reuse_note": "第一屏用单价差额制造清晰商业矛盾，适合服务业反转题材。"
+    },
+    {
+      "chapter": "第二章",
+      "hook": "周凯动手后签退订确认单，游客中心外三辆研学大巴倒车声响起。",
+      "reuse_note": "退订刚生效即出现更大订单，形成即时补位爽点。"
+    },
+    {
+      "chapter": "第三章",
+      "hook": "周凯签字确认所有配套取消，却坐在大厅等主角求他回来。",
+      "reuse_note": "反派误判越笃定，下一章被替换越有张力。"
+    },
+    {
+      "chapter": "第四章",
+      "hook": "120人亲子研学团按同价刷定金，官方营位、车位、摆渡名额全部售罄。",
+      "reuse_note": "第三方客户公开认可价格合理，可替主角完成无辩解式洗白。"
+    },
+    {
+      "chapter": "第五章",
+      "hook": "周凯团队到接驳站才发现退订后团队接驳名额已释放，散客摆渡要排三小时。",
+      "reuse_note": "把合同取消后果落到具体等待成本，比口头后悔更有效。"
+    },
+    {
+      "chapter": "第六章",
+      "hook": "黑车司机一人120且不开票，员工开始追问谁承担费用。",
+      "reuse_note": "用报销、发票、垫付把商业反噬转成员工内部裂缝。"
+    },
+    {
+      "chapter": "第七章",
+      "hook": "黑露营地只含帐篷和地块，睡袋、防潮垫、热水、餐食全另算。",
+      "reuse_note": "逐项拆解原套票服务，能持续回扣开篇价格争议。"
+    },
+    {
+      "chapter": "第八章",
+      "hook": "黑营地老板关门链并宣布第二天帐篷涨价到800。",
+      "reuse_note": "让反派逃离规则后遭遇更坏规则，适合多层反转。"
+    },
+    {
+      "chapter": "第九章",
+      "hook": "员工拒绝继续垫钱，小林自拍视频质问周凯，内部信任崩塌。",
+      "reuse_note": "让受害员工主动发声，情绪债从个体羞辱扩展到集体反噬。"
+    },
+    {
+      "chapter": "第十章",
+      "hook": "小林夜间独自买药遭尾随并报警，黑露营地被查出消防和资质问题。",
+      "reuse_note": "安全事故必须由应急、报警、巡逻介入，避免写成私刑爽点。"
+    },
+    {
+      "chapter": "第十一章",
+      "hook": "小林把退订视频、黄牛付款截图、黑营地收据和报警记录发进公司大群。",
+      "reuse_note": "证据包集中发送是公司追责线的有效转折点。"
+    },
+    {
+      "chapter": "第十二章",
+      "hook": "周凯深夜求营位，主角用满位系统和消防容量表拒绝违规接待。",
+      "reuse_note": "主角拒绝兜底时必须同时提供合规替代路径，伦理边界更稳。"
+    },
+    {
+      "chapter": "第十三章",
+      "hook": "行政总监核查时，合同、监控、退订签字和满位截图逐项推翻周凯说辞。",
+      "reuse_note": "公司核查段适合用材料清单式推进，但需穿插对话避免像报告。"
+    },
+    {
+      "chapter": "第十四章",
+      "hook": "周凯被解除劳动关系后发威胁语音，并预告晚上来算账。",
+      "reuse_note": "法律风险升级前先铺保安、门岗、隔离栏和防暴叉，后续处置更可信。"
+    },
+    {
+      "chapter": "第十五章",
+      "hook": "周凯持折叠刀闯入游客中心，主角疏散游客、留证、报警，民警带离。",
+      "reuse_note": "高危场景应写控距、疏散、报警和无人员受伤，不能让主角肉身硬刚。"
+    },
+    {
+      "chapter": "第十六章",
+      "hook": "黑露营地被取缔，研学团好评上涨，姜老师递来暑期三期合作意向书。",
+      "reuse_note": "商业回报用新合同和具体服务清单落地，比空泛总结更有余味。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": "第二章",
+      "card": "周凯动手并签退订确认单，门外研学大巴到场。"
+    },
+    {
+      "chapter": "第四章",
+      "card": "120人研学团接走释放营位，官方名额售罄。"
+    },
+    {
+      "chapter": "第六章",
+      "card": "周凯团队被迫坐无票黑车，一人120。"
+    },
+    {
+      "chapter": "第八章",
+      "card": "黑营地夜间另收热水餐食，第二天宣布涨价。"
+    },
+    {
+      "chapter": "第九章",
+      "card": "员工拒绝垫钱，小林公开视频质问。"
+    },
+    {
+      "chapter": "第十章",
+      "card": "小林买药遇险报警，黑露营地被巡查。"
+    },
+    {
+      "chapter": "第十一章",
+      "card": "证据包发进公司群，周凯失去叙事权。"
+    },
+    {
+      "chapter": "第十二章",
+      "card": "周凯深夜求主角兜底，被消防容量和满位系统拒绝。"
+    },
+    {
+      "chapter": "第十四章",
+      "card": "周凯被公司解除劳动关系后发威胁语音。"
+    },
+    {
+      "chapter": "第十五章",
+      "card": "周凯持刀闯入游客中心，被保安控距、民警带离。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "service_business_dispute",
+    "camping_site",
+    "holiday_price_conflict",
+    "old_customer_backfire",
+    "contract_cancellation",
+    "evidence_chain",
+    "surveillance_footage",
+    "refund_penalty",
+    "replacement_large_group",
+    "study_tour_group",
+    "black_market_transport",
+    "unlicensed_campsite",
+    "employee_complaint",
+    "company_accountability",
+    "public_safety_response",
+    "police_record",
+    "commercial_reputation_recovery",
+    "M1",
+    "M3",
+    "M6"
+  ],
+  "manual_revision_delta": []
+}

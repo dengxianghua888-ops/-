@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "B06",
+  "target_chars_min": 780,
+  "target_chars_max": 820,
+  "location": "女儿学校对面公寓大堂",
+  "time": "次日下午",
+  "pov": "许清辞第一人称",
+  "characters": ["许清辞", "物业前台", "快递员"],
+  "character_goal": "验证陪读房门禁和沈泊舟出入记录。",
+  "opposition_goal": "物业前台不愿透露住户隐私，快递员只按取件码交付。",
+  "conflict_action": "许清辞用洗衣标签和取件码取到林栀包裹，借签收屏看见沈泊舟家属通行记录。",
+  "information_gap": "门禁密码与林栀预产期一致，沈泊舟是登记家属。",
+  "emotional_debt_delta": "身份债+1，第二个家即将实体化。",
+  "payoff_or_hook": "陪读房从地址变成可进入空间。",
+  "chapter_end_hook": "电梯门合上前，我看见门禁屏上亮着四个字：家属通行。",
+  "paywall_card": false,
+  "must_include": ["取件码", "门禁屏", "林栀预产期", "家属通行"],
+  "must_not_write_as_exposition": ["不要讲物业系统", "不要解释门禁漏洞", "不要提前进入房间写全貌"],
+  "rhythm_job": {
+    "shape": "取证潜入场，动作多于对白，电梯门作为节奏截断。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "dialogue_action_hook_ratio": "对白约25%，动作约55%，呼吸点约15%，章尾钩约5%。"
+  }
+}

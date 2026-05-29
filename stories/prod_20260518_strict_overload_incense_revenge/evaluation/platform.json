@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "item": "opening_click",
+      "quote": "平台报价六百，路线从城西仓到东桥社区诊所。",
+      "assessment": "开篇立刻给低价单、职业场景和生计压力。"
+    },
+    {
+      "item": "early_conflict",
+      "quote": "系统是四箱。女司机不懂医药冷链，客户急用，你照做就行。",
+      "assessment": "四箱/六箱矛盾和性别羞辱在前300字内完成。"
+    },
+    {
+      "item": "chapter_hooks",
+      "quote": "平台罚单刚弹出来，周骁的电话又打进来。",
+      "assessment": "章末钩直接推动下一章冲突。"
+    },
+    {
+      "item": "paywall_cards",
+      "quote": "药监的人问他：系统四箱，那另外两箱从哪来？",
+      "assessment": "核心付费反杀卡点成立。"
+    }
+  ],
+  "notes": [
+    "标题来自 beat-bible，正文内未单独呈现简介；属于包装层非阻断项。",
+    "16章章末钩均可定位。"
+  ]
+}

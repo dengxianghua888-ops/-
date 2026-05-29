@@ -1,0 +1,44 @@
+{
+  "story_slug": "batch_v5_02_family_ethics",
+  "title": "生日快乐",
+  "source_slug": "fools_day_indulgence",
+  "genre": "family_ethics",
+  "pipeline_version": "v5",
+  "generated_at": "2026-05-26",
+  "metrics": {
+    "nonspace_chars": 10015,
+    "target_range": [10000, 14000],
+    "nonspace_pass": true,
+    "rhythm_fit": {
+      "status": "pass",
+      "avg_line_chars": 19.033,
+      "short_line_rate": 0.4302,
+      "long_line_rate": 0.0363,
+      "quote_line_rate": 0.2658
+    },
+    "structure": {
+      "gate_status": "pass",
+      "impact_density": 5.99,
+      "impact_density_floor": 3.4,
+      "watermark_violations": 5,
+      "total_impacts": 60
+    },
+    "source_overlap_pct": 0,
+    "meta_leak": 0,
+    "ai_forbidden_words": 0
+  },
+  "chapter_stats": [
+    {"title": "第一章", "chars": 849, "impacts": 1},
+    {"title": "第二章", "chars": 965, "impacts": 8},
+    {"title": "第三章", "chars": 826, "impacts": 7},
+    {"title": "第四章", "chars": 1141, "impacts": 4},
+    {"title": "第五章", "chars": 1018, "impacts": 17},
+    {"title": "第六章", "chars": 938, "impacts": 11},
+    {"title": "第七章", "chars": 1073, "impacts": 2},
+    {"title": "第八章", "chars": 806, "impacts": 1},
+    {"title": "第九章", "chars": 837, "impacts": 4},
+    {"title": "第十章", "chars": 779, "impacts": 1},
+    {"title": "第十一章", "chars": 722, "impacts": 4}
+  ],
+  "overall_pass": true
+}

@@ -1,0 +1,126 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "chapter_policy": {
+    "chapter_chars": {
+      "min": 500,
+      "max": 1200,
+      "tomato_preferred": [500, 800]
+    },
+    "chapter_end_requirement": "每章末必须留下情绪钩子或信息钩子，禁止平收",
+    "preferred_chapter_count": [12, 22]
+  },
+  "hook_policy": {
+    "first_300_chars": "必须完成强Hook：误会/离婚/怀孕/身份错判至少命中2项",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "paywall_card_type": [
+      "关键真相只揭一半",
+      "男主误会女主失去孩子",
+      "白月光挑拨后反被男主当众切割",
+      "男主真实家族身份曝光前卡住",
+      "豪门老宅刁难即将升级"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "番茄女性向短篇读者",
+      "偏好甜宠、带球跑、豪门世家、误会解除、男主追妻但不虐女主过头的读者",
+      "喜欢弹幕吐槽、反射弧慢女主、深情忠犬型霸总男主的轻爽读者"
+    ],
+    "emotional_needs": [
+      "女主被低估但不自卑，靠天然迟钝化解羞辱",
+      "男主深情、克制、护短，误会解除后高强度补偿",
+      "白月光/外部阻碍被明确切割，读者获得安全感",
+      "怀孕、产检、误会、豪门身份揭露形成连续追读动力",
+      "结尾给足家庭圆满、身份兑现和甜宠释放"
+    ],
+    "forbidden_zones": [
+      "男主真实出轨或精神出轨",
+      "女主被长期羞辱后无反击",
+      "孩子流产、强制堕胎、产检恶意伤害",
+      "婆家长期虐待孕妇且无即时护短",
+      "白月光胜利感过强",
+      "用大段解释替代场景冲突",
+      "AI腔抒情、抽象命运感、空泛宠溺描写"
+    ]
+  },
+  "genre_positioning": {
+    "primary_genre": "urban_sweet_ceo",
+    "secondary_tags": [
+      "带球跑",
+      "先婚后爱",
+      "豪门真少爷",
+      "弹幕读心感",
+      "白月光误会",
+      "追妻甜宠"
+    ],
+    "reader_promise": "看微醺迟钝女主离婚后发现怀孕，误会中把深情男主重新捡回家，并在豪门世家身份揭开后获得高密度宠爱和公开偏袒。",
+    "core_selling_points": [
+      "开局离婚协议+怀孕未说出口",
+      "弹幕制造白月光误导",
+      "男主真破产/假落魄悬念",
+      "产检误会引爆情绪峰值",
+      "京城许家身份揭露带来阶层跃迁",
+      "白月光当场被切割",
+      "重新求婚与龙凤胎圆满收束"
+    ]
+  },
+  "title_strategy": {
+    "constraints": {
+      "max_chars": 30,
+      "must_signal": ["怀孕", "离婚/带球跑", "豪门/世家", "反转或男主悔急"]
+    },
+    "formula_candidates": [
+      {
+        "formula": "离婚当天+怀孕真相+男主反应",
+        "example": "离婚当天，我忘了告诉他我怀孕了"
+      },
+      {
+        "formula": "带球跑+身份反转+豪门兑现",
+        "example": "带球跑后，我嫁进了百年世家"
+      },
+      {
+        "formula": "白月光挑衅+女主迟钝反杀",
+        "example": "白月光回国后，我带球跑路了"
+      },
+      {
+        "formula": "男主落魄假象+真实身份爆发",
+        "example": "前夫破产搬砖后，京圈许家来接他"
+      },
+      {
+        "formula": "女主特质+婚恋反转+甜宠承诺",
+        "example": "天生微醺的我，把豪门前夫捡回家"
+      }
+    ]
+  },
+  "success_metrics": {
+    "scale": "0-10，AI味为越低越好",
+    "completion_desire": {
+      "target_score": 9.0,
+      "must_have": "每章至少一个误会推进、甜宠补偿或身份信息增量"
+    },
+    "paid_card_strength": {
+      "target_score": 8.8,
+      "must_have": "2500-3500字内出现一次足以促使继续阅读的重大卡点"
+    },
+    "emotional_release": {
+      "target_score": 9.0,
+      "must_have": "产检误会、身份揭露、白月光退场、重新求婚、圆满生子五段释放完整"
+    },
+    "ai_flavor": {
+      "target_score": 0.5,
+      "max_allowed_score": 1.0,
+      "must_avoid": ["然而", "不禁", "心中涌起", "深吸一口气", "命运的齿轮", "眼中闪过一丝"]
+    },
+    "explosive_point_density": {
+      "target_score": 8.7,
+      "density_requirement": "每800-1200字至少一个可概括为短视频标题的爆点"
+    }
+  }
+}

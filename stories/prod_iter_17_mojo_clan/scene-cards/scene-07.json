@@ -1,0 +1,37 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "target_chars_min": 668,
+  "target_chars_max": 668,
+  "location": "国公府密库",
+  "time": "递进时间线",
+  "pov": "第一人称女主",
+  "characters": [
+    "顾明昭",
+    "谢无涯",
+    "谢清宁",
+    "长公主",
+    "镇北王",
+    "楚曜",
+    "楚闻"
+  ],
+  "character_goal": "查实军粮贪墨",
+  "opposition_goal": "压低真相并迫使女主退让",
+  "conflict_action": "账册被摊开后，楚闻再也没办法把案子藏成后宅争风。  谢无涯查到的不是一笔亏空，而是三",
+  "information_gap": "证据尚未完全公开，反派误判主角仍会忍让",
+  "emotional_debt_delta": "军粮债",
+  "payoff_or_hook": "我望着密库被打开，知道这场账终于从孩子的血算到了天下的粮。",
+  "chapter_end_hook": "我望着密库被打开，知道这场账终于从孩子的血算到了天下的粮。",
+  "paywall_card": true,
+  "must_include": [
+    "查实军粮贪墨",
+    "军粮债",
+    "动作推进",
+    "证据或情绪偿还"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语"
+  ]
+}

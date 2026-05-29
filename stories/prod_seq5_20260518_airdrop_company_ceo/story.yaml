@@ -1,0 +1,112 @@
+pipeline_mode: production
+status: final
+title: 隐婚七年，丈夫直播官宣小三上位
+language: zh-CN
+genre:
+  - 现代言情
+  - 爽文
+  - 直播商战
+tags:
+  - 隐婚
+  - 小三上位
+  - 女主反击
+  - 合规审计
+  - 追妻火葬场
+source_audit:
+  provider: openai
+  model: gpt-5
+  source:
+    draft: story/draft.md
+    review: story/review.md
+    diff: story/diff.md
+    quality_report: story/quality-report.json
+runner_policy:
+  external_allowed: false
+  filesystem_write_performed: false
+required_outputs:
+  - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/ch01.md
+  - final-chapters/ch02.md
+  - final-chapters/ch03.md
+  - final-chapters/ch04.md
+  - final-chapters/ch05.md
+  - final-chapters/ch06.md
+  - final-chapters/ch07.md
+  - final-chapters/ch08.md
+  - final-chapters/ch09.md
+  - final-chapters/ch10.md
+  - final-chapters/ch11.md
+  - final-chapters/ch12.md
+  - final-chapters/ch13.md
+  - final-chapters/ch14.md
+  - final-chapters/ch15.md
+  - final-chapters/ch16.md
+quality_gate:
+  pass
+  score_scale: 0-10
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+  critic_scores:
+    platform: 8.8
+    emotion: 8.6
+    style: 8.1
+    logic: 8.4
+  machine_metrics:
+    target_length:
+      min: 10000
+      max: 18000
+      status: pass
+    chapters:
+      count: 16
+      hook_hits: 16
+      hook_coverage: 1.0
+      length_status: pass
+      status: pass
+    paywall_cards:
+      required: 4
+      actual: 10
+      status: pass
+    direct_submission:
+      status: pass
+      opening_guide:
+        status: pass
+      mobile_paragraphs:
+        status: pass
+      submission_paywall_map:
+        status: pass
+        required: 4
+        actual: 5
+      visible_paywall_labels:
+        status: pass
+        count: 0
+        hits: []
+packaging_notes:
+  final_structure: title_plus_opening_guide_plus_16_chapters
+  chapter_strategy: one_source_scene_per_chapter
+  body_internal_paywall_labels: none
+  phase6_gate_confirmed: true
+total_chars: 13283
+chapter_count: 16
+paywall_cards: 10
+critic_scores:
+  logic: 8.4
+  style: 8.1
+  emotion: 8.6
+  platform: 8.8
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260518_223408
+  runner: agent
+  provider: codex
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

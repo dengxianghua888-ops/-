@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "score": 9.1,
+  "evidence": [
+    {
+      "path": "story/draft-scenes/scene-02.md",
+      "quote": "我看见自己的身体趴在钢琴脚边，门外掌声正好响起。",
+      "assessment": "死亡前置和姐姐新生并置，情绪债成立。"
+    },
+    {
+      "path": "story/draft-scenes/scene-11.md",
+      "quote": "你们只在她死后想起她是女儿。",
+      "assessment": "外婆审判不替父母洗白。"
+    },
+    {
+      "path": "story/draft-scenes/scene-14.md",
+      "quote": "女孩敲完四小节，回头喊妈妈；这一次，门外有人立刻应她。",
+      "assessment": "最终补偿精准回收无人回应。"
+    }
+  ]
+}

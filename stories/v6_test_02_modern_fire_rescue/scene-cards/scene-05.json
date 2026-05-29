@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 2,
+  "is_chapter_end": true,
+  "is_climax_beat": false,
+  "target_chars_min": 500,
+  "target_chars_max": 620,
+  "location": "CCU病床上（电话）",
+  "time": "同日稍晚",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "沈知微（电话）", "方逸宁（背景音）", "律师周衡（电话）"],
+  "character_goal": "告知妻子真相，看她反应；做出离婚决定",
+  "opposition_goal": "妻子不信/不在乎——'你现在不是没死吗？'",
+  "conflict_action": "打电话告知妻子自己差点死了+可能不育，妻子背景音是庆功宴的笑闹声，她说'你现在连这种话都编得出来了？'；挂断后立即联系律师",
+  "information_gap": "主角从背景音判断她在聚会——但不知道对象是方逸宁的庆功宴",
+  "emotional_debt_delta": "+4：二次伤害（真实痛苦被定性为'编造'）→ 触发决断",
+  "payoff_or_hook": "从受害者到行动者的身份切换——'帮我准备离婚材料。越快越好。'",
+  "chapter_end_hook": "'你终于想清楚了？'我说：'越快越好。'",
+  "paywall_card": true,
+  "must_include": [
+    "妻子电话那边的背景音（杯盏碰撞、笑声、男性声音）",
+    "妻子的三句关键台词：'你现在不是没死吗？''你现在连这种话都编得出来了？'",
+    "主角挂断电话后的一个生理反应（不是情绪描述）",
+    "联系律师的极简对话——'越快越好'"
+  ],
+  "must_not_write_as_exposition": [
+    "不能解释主角为什么不崩溃——用行动代替心理分析",
+    "律师的身份背景不能此处交代"
+  ],
+  "rhythm_job": {
+    "shape": "先压后弹",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.5,
+    "comma_period_ratio": 0.48,
+    "sentence_avg_len": 17.0,
+    "dominant_emotion": "冷痛-决绝",
+    "emotion_arc": "电话被羞辱 → 冷静决断",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "为妻子的冷漠暴怒，同时被主角'越快越好'的冷静决绝震到+解气",
+    "required_techniques": [
+      {
+        "technique": "背景音对比",
+        "instruction": "他在CCU诊断不育，她那边杯盏碰撞笑声不断——空间对比放大不公。只写声音，不写画面"
+      },
+      {
+        "technique": "朋友圈证据",
+        "instruction": "挂断电话后刷到朋友圈——方逸宁的庆功宴照片，她在替他扶正帽子/举杯。配文暧昧。作为'公开背叛'的载体"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "祈使句+追加强调",
+        "example": "帮我准备离婚材料。越快越好。",
+        "instruction": "极简决断，无任何情绪修饰。像下达施工指令一样精确——冷静到极致就是最强的反击姿态"
+      }
+    ],
+    "peak_type": "power_reversal",
+    "bomb_technique": "转折式",
+    "source_excerpt": "那边很吵，杯盏碰撞，笑闹声不断。方逸宁的声音近得刺耳。她说：'你现在不是没死吗？别总拿这种事来道德绑架我。'我盯着天花板两秒。然后拨了周衡的号码。'帮我准备离婚材料。越快越好。'"
+  }
+}

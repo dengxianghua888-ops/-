@@ -1,0 +1,184 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260520_hotel_may_100_group/final.md",
+    "target_length": {
+      "min": 12000,
+      "max": 14500,
+      "actual": 12462,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        970,
+        848,
+        912,
+        856,
+        731,
+        979,
+        878,
+        878,
+        869,
+        895,
+        828,
+        878,
+        865,
+        887
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 153,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 8,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 28,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 12462,
+      "sentence_count": 615,
+      "avg_sentence_length": 19.263,
+      "dialogue_ratio": 0.0,
+      "question_marks": 32,
+      "question_marks_per_k": 2.568,
+      "physical_emotion_hits": {},
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 36.03
+    },
+    "semantic_repetition": {
+      "sentence_count": 543,
+      "unique_sentence_skeletons": 543,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0018
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.8,
+    "emotion": 8.6,
+    "style": 8.5,
+    "logic": 8.7
+  },
+  "evidence": [
+    {
+      "id": "E-PLATFORM-01",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "四百只含木屋房费，五百含住宿、早晚餐、码头接送、湿地门票、观鸟向导、保险和雨具。",
+      "supports": [
+        "platform",
+        "logic"
+      ]
+    },
+    {
+      "id": "E-PLATFORM-02",
+      "source": "draft-scenes/scene-03.md",
+      "quote": "周姨把报价单摊在柜台上，指着第一行。",
+      "supports": [
+        "platform",
+        "emotion"
+      ]
+    },
+    {
+      "id": "E-EMOTION-01",
+      "source": "draft-scenes/scene-04.md",
+      "quote": "方越身后的员工看着那叠单据，没人再说我是杀熟。",
+      "supports": [
+        "emotion",
+        "platform"
+      ]
+    },
+    {
+      "id": "E-EMOTION-02",
+      "source": "draft-scenes/scene-07.md",
+      "quote": "我们为什么要从五百全包退到八百裸房？",
+      "supports": [
+        "emotion",
+        "logic"
+      ]
+    },
+    {
+      "id": "E-STYLE-01",
+      "source": "draft-scenes/scene-06.md",
+      "quote": "墙角返潮，窗纱破着，楼梯口堆着旧床垫。",
+      "supports": [
+        "style"
+      ]
+    },
+    {
+      "id": "E-LOGIC-01",
+      "source": "draft-scenes/scene-10.md",
+      "quote": "客人已付款入住，我不会挪他们的房。",
+      "supports": [
+        "logic",
+        "emotion"
+      ]
+    },
+    {
+      "id": "E-LOGIC-02",
+      "source": "draft-scenes/scene-12.md",
+      "quote": "他没有进到客房区。",
+      "supports": [
+        "logic"
+      ]
+    },
+    {
+      "id": "E-LOGIC-03",
+      "source": "draft-scenes/scene-13.md",
+      "quote": "不撤案，不私了，按流程处理。",
+      "supports": [
+        "logic",
+        "emotion"
+      ]
+    }
+  ]
+}

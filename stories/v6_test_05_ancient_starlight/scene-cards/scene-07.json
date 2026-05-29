@@ -1,0 +1,71 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "beat-07",
+  "chapter_id": 4,
+  "is_chapter_end": false,
+  "target_chars_min": 850,
+  "target_chars_max": 1000,
+  "location": "行业派对——会所大厅/走道",
+  "time": "紧接上场，季霄出现后的几分钟",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄", "陈奕", "派对在场人士"],
+  "character_goal": "季霄要把苏念带走——顺便让陈奕知道一些事",
+  "opposition_goal": "陈奕试图维持'苏念是来找我的'的叙事，挽回面子",
+  "conflict_action": "季霄一句'把人让开'全场自动让路——用环境反应替代能力描述。然后揭示他早知道怀孕的事",
+  "information_gap": "在场所有人突然对季霄毕恭毕敬——但读者和陈奕都还不知道为什么",
+  "emotional_debt_delta": "开始兑付——第一波爽感，有人替苏念说话了",
+  "payoff_or_hook": "季霄的权力瞬间具象化：全场让路 + 信息掌控揭示",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "季霄说'把人让开'后全场反应的视觉描写",
+    "季霄用慵懒态度与紧张氛围形成反差",
+    "揭示他早已知道验孕报告的事实",
+    "陈奕的困惑反应——他不理解为什么所有人听这个'游戏宅'的"
+  ],
+  "must_not_write_as_exposition": [
+    "季霄的身份直接揭露",
+    "为什么全场人听他的解释",
+    "季霄对苏念的感情独白"
+  ],
+  "rhythm_job": {
+    "shape": "突变→碾压式推进",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 13.8,
+    "dominant_emotion": "反转-震撼",
+    "emotion_arc": "季霄控场 → 环境臣服 → 信息揭示 → 爽感第一波",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "终于等到这一刻——季霄每说一句话都让人爽",
+    "required_techniques": [
+      {
+        "technique": "一句话权力展示——环境反应替代能力描述",
+        "instruction": "不说'他很有权势'，写全场人的身体反应（让路、噤声、低头）来证明权力——视觉化>语言化"
+      },
+      {
+        "technique": "信息掌控的碾压感",
+        "instruction": "季霄用'从你出医院开始，报告就在我桌上了'一句话揭示他的信息网络——苏念以为的秘密对他透明"
+      },
+      {
+        "technique": "慵懒语气与紧张场面的反差",
+        "instruction": "所有人都紧张，只有季霄松弛——松弛=绝对自信=绝对实力"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "时间起点+信息掌控事实陈述",
+        "example": "从你出医院开始，你的检验报告就已经在我的桌上了。",
+        "instruction": "时间差揭示——她还在犹豫要不要告诉他，他已经知道了全部"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "傅宴抬抬下巴，\"把人放进来。\"乌泱泱的地方，突然腾出空地。\"知道。从你出医院开始，你的检验报告就已经在我的桌上了。\""
+  }
+}

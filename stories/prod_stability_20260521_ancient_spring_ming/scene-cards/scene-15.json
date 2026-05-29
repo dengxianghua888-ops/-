@@ -1,0 +1,47 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "守海祠与系缆许愿架",
+  "time": "尾声",
+  "pov": "沈惊棠（死后视角）",
+  "characters": [
+    "沈惊棠",
+    "裴砚潮",
+    "守海祠老人"
+  ],
+  "character_goal": "彻底离开裴砚潮，不让他的后悔变现。",
+  "opposition_goal": "裴砚潮想用捐股、守尸、跪祠和许愿把她留住哪怕一丝回应。",
+  "conflict_action": "他跪在守海祠前一遍遍挂愿牌、念她名字；守海祠老人引她看完最后一眼，她只留下判词后转身离开。",
+  "information_gap": "事实层面不再留谜，价值层面只保留冷空白。",
+  "emotional_debt_delta": {
+    "add": [],
+    "pay": [
+      "迟来悔悟被判无效",
+      "她终于离开他",
+      "终局不原谅不复合"
+    ]
+  },
+  "payoff_or_hook": "守海祠风铃响，她把爱情彻底判成恶心。",
+  "chapter_end_hook": "截断句：你现在这个样子，只让我觉得恶心。",
+  "paywall_card": false,
+  "must_include": [
+    "守海祠老人",
+    "系缆许愿架",
+    "裴砚潮无效祈愿",
+    "终极判词‘恶心’"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写男主赎罪流水账",
+    "不要解释宗祠民俗",
+    "不要给重逢或复合口子"
+  ],
+  "rhythm_job": {
+    "shape": "",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 0,
+    "max_question_marks": 0,
+    "max_pressure_terms": 0
+  }
+}

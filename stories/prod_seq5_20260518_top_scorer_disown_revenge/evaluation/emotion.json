@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {
+      "point": "高光日被夺债",
+      "source": "draft-scenes/scene-01.md",
+      "quote": "这些东西本来该给爸妈看。现在它们只能做我的押注。",
+      "assessment": "748分本应分享给家人，却被转化为报警担保，情绪债清晰。"
+    },
+    {
+      "point": "亲情背刺债",
+      "source": "draft-scenes/scene-05.md",
+      "quote": "如果这是真的，也只能证明我不是亲生。它不能证明我爸妈还活着。",
+      "assessment": "主角没有陷入血缘羞辱，而是把伤害导回灭门真相。"
+    },
+    {
+      "point": "公开污名债",
+      "source": "draft-scenes/scene-07.md",
+      "quote": "三行无异常排在一起，比任何嘲笑都刺眼。",
+      "assessment": "检测失败与弹幕嘲讽叠加，形成低谷。"
+    },
+    {
+      "point": "亲情真相偿还",
+      "source": "draft-scenes/scene-13.md",
+      "quote": "新风夹层被打开时，我妈的婚戒从灰白尘土里滚到了我脚边。",
+      "assessment": "用具体遗物偿还“家人抛弃她”的误伤。"
+    },
+    {
+      "point": "断亲书反转偿还",
+      "source": "draft-scenes/scene-14.md",
+      "quote": "纸背的压痕慢慢浮出来：棠棠，别回家。",
+      "assessment": "最大情绪伤口转为父母保护遗言，偿还充分。"
+    },
+    {
+      "point": "告别落点",
+      "source": "draft-scenes/scene-17.md",
+      "quote": "我只想他们有没有听见我考了748分。",
+      "assessment": "没有停在复仇快感，而是回到未能分享喜讯的原始痛点。"
+    }
+  ],
+  "risks": [
+    "陌生女孩的被控制暗示没有终局回收，会削弱部分读者的伦理情绪闭环。",
+    "scene-17 到 scene-18 的升格自然，但可再加一句家人遗物如何促成选择。"
+  ]
+}

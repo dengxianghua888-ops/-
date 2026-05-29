@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "顾家饭桌",
+  "time": "次日晚上",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "顾怀民", "顾砚", "顾家亲戚"],
+  "character_goal": "许知夏要让顾怀民把父权打压说出口，并把他的体面逻辑变成证据。",
+  "opposition_goal": "顾怀民要用离婚协议、家族体面和冷链圈资源逼她低头退出新港。",
+  "conflict_action": "顾怀民把离婚协议推到她面前，威胁封杀新港合作，许知夏打开录音，让他逐句确认自己授意老市场赶人。",
+  "information_gap": "顾怀民不知道许知夏手里已经有新港联合运营协议和招商授权。",
+  "emotional_debt_delta": "+2：女性事业被家族体面否定，幕后资本打压公开化。",
+  "payoff_or_hook": "顾砚没有替她答话，第一次当众拒绝父亲的安排。",
+  "chapter_end_hook": "顾怀民坐在主位上，第一句话就是：“一个卖菜档，配不上顾家。”",
+  "paywall_card": false,
+  "must_include": ["离婚协议", "顾怀民说家族体面", "录音确认", "顾砚当众拒绝父亲", "许知夏不辩解身份"],
+  "must_not_write_as_exposition": ["不要把顾怀民写成好心", "不要让女主哭诉婚姻委屈", "不要轻易和解"]
+}

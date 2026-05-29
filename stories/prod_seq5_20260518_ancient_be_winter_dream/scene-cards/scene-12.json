@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "星环继承人加冕发布会后台",
+  "time": "死亡后第三天傍晚",
+  "pov": "第一人称灵魂视角，纪寒舟",
+  "characters": [
+    "纪寒舟",
+    "沈澜星",
+    "裴砚",
+    "沈氏公关主管",
+    "全息直播技术员"
+  ],
+  "character_goal": "纪寒舟旁观清算从私下查证转向公开直播。",
+  "opposition_goal": "裴砚要完成继承人加冕，沈氏公关要维持体面。",
+  "conflict_action": "沈澜星撤掉公关稿，把胚囊记录、手术授权和伪神谕源码接入全息主控，并锁死直播流程。",
+  "information_gap": "裴砚以为后台仍在为他造势，不知道主控台已经换成罪证序列。",
+  "emotional_debt_delta": "私人亏欠升级为社会身份毁灭前奏。",
+  "payoff_or_hook": "付费卡点：发布会即将开场，所有罪证已挂上直播主控。",
+  "chapter_end_hook": "加冕发布会开始前，沈澜星把裴砚的继承人认证锁进了全息直播主控台。",
+  "paywall_card": true,
+  "must_include": [
+    "撤掉公关稿",
+    "罪证接入全息主控",
+    "裴砚仍在整理加冕礼服",
+    "直播流程被锁死"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把发布会写成说明会",
+    "不要让罪证只由旁白概括",
+    "不要让裴砚提前察觉逃跑"
+  ]
+}

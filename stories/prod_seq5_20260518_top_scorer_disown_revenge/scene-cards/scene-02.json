@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "云麓湾17号玄关、客厅、楼梯口、地下室门口",
+  "time": "报警后二十分钟",
+  "pov": "沈棠第一人称",
+  "characters": [
+    "沈棠",
+    "裴队",
+    "刑警",
+    "技术员",
+    "记者"
+  ],
+  "character_goal": "沈棠要让警方相信别墅不是普通空宅，而是被清空过的案发现场。",
+  "opposition_goal": "警方要在证据不足时排除虚假报警，记者镜头要捕捉她失态。",
+  "conflict_action": "裴队带队搜查各房间，沈棠跟着指出母亲拖鞋、父亲茶杯、哥哥奖杯和日常药盒全部消失。",
+  "information_gap": "一家人生活痕迹为何被整体抹掉，却没有任何血迹和打斗痕迹。",
+  "emotional_debt_delta": "警方质疑压上来，沈棠从亲情刺痛转入孤立无援。",
+  "payoff_or_hook": "空屋搜查形成第一轮反压。",
+  "chapter_end_hook": "裴队站在干净得发亮的客厅里问我：沈棠，尸体在哪里？",
+  "paywall_card": false,
+  "must_include": [
+    "警方依法封控",
+    "客厅过分干净",
+    "生活痕迹消失",
+    "裴队质疑",
+    "直播弹幕开始怀疑"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把警方写成恶意羞辱",
+    "不要提前说别墅被翻新",
+    "不要用全知视角解释真相"
+  ]
+}

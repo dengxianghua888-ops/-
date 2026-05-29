@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "score": 8.0,
+  "evidence": [
+    "source overlap、重复片段和场景一致性通过，未发现机器级硬伤。",
+    "source_rhythm_fit=pass"
+  ]
+}

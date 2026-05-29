@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 633,
+  "target_chars_max": 833,
+  "location": "厨房",
+  "time": "顺序推进",
+  "pov": "张倩第一人称",
+  "characters": [
+    "张倩",
+    "周峤",
+    "妈妈",
+    "婆婆",
+    "女儿"
+  ],
+  "character_goal": "保护家人并固定证据",
+  "opposition_goal": "周峤和婆家试图替换照护权、控制财产并掩盖行为",
+  "conflict_action": "当天晚上，我把旧滤芯、杯底沉淀和水机接水盘都封进干净袋子。",
+  "information_gap": "证据链下一环是什么",
+  "emotional_debt_delta": "推进背叛与保护情绪债",
+  "payoff_or_hook": "当天晚上，我把旧滤芯、杯底沉淀和水机接水盘都封进干净袋子。",
+  "chapter_end_hook": "当天晚上，我把旧滤芯、杯底沉淀和水机接水盘都封进干净袋子。",
+  "paywall_card": false,
+  "must_include": [
+    "具体证据",
+    "保护老人孩子",
+    "章末钩"
+  ],
+  "must_not_write_as_exposition": [
+    "药物教程",
+    "私刑报复",
+    "婆媳说教"
+  ]
+}

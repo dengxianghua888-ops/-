@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "机场候机区与实验室邮件界面",
+  "time": "离婚后第三天",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "陆景辞", "航空地勤", "海外实验室秘书"],
+  "character_goal": "沈知晚提交复学和项目资格材料，离开旧关系现场。",
+  "opposition_goal": "陆景辞想用当面拦截证明她只是赌气。",
+  "conflict_action": "沈知晚上传高考成绩、休学档案和声场模型附件，换登机牌；陆景辞追到安检口喊她回家谈。",
+  "information_gap": "海外实验室为什么愿意重新接收她还未完全说明。",
+  "emotional_debt_delta": "价值低估债开始反转；女主自我重启。",
+  "payoff_or_hook": "陆景辞第一次追不上她的行动速度。",
+  "chapter_end_hook": "机场广播响起，陆景辞追到登机口，只看见沈知晚登机前的背影。",
+  "paywall_card": false,
+  "must_include": [
+    "机票",
+    "休学档案",
+    "声场模型附件",
+    "陆景辞迟到",
+    "沈知晚不回头过安检"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让新男主替她申请",
+    "不要把出国写成逃跑",
+    "不要长篇解释专业背景"
+  ]
+}

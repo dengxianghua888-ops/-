@@ -1,0 +1,81 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "画坊后院·阿昭房间（紧接上章）",
+  "time": "深夜（紧接第3章）",
+  "pov": "阿昭",
+  "characters": ["阿昭", "裴若霜", "婆子们"],
+  "character_goal": "阿昭要在极端屈辱中保持清醒，利用裴若霜的虚荣心布局求救",
+  "opposition_goal": "裴若霜要永绝后患——灌绝育毒、展示战利品、确立主人地位",
+  "conflict_action": "婆子掰开嘴强灌'补身汤'（实为绝育毒）→裴若霜蹲下拍脸羞辱→有意展示昭阳玉印（她不知其价值）→告别时炫耀册封典礼→阿昭反制：设计让裴若霜带走一幅暗藏密码的画",
+  "information_gap": "裴若霜不知昭阳玉印的真正含义（以为只是普通私印），读者知道——形成讽刺张力",
+  "emotional_debt_delta": "+2：绝育（断绝未来）+信物被侮辱性使用",
+  "payoff_or_hook": "阿昭设计暗号画被裴若霜带走——复仇布局启动",
+  "chapter_end_hook": "阿昭叫住裴若霜，用一幅'吉祥画'换取她的虚荣心配合——暗号画即将流出，救兵即将知晓",
+  "paywall_card": true,
+  "must_include": [
+    "婆子掰嘴强灌的物理动作（写动作不写药理）",
+    "裴若霜蹲下拍脸+居高临下语气台词",
+    "昭阳玉印被裴若霜有意无意展示（挂在腰间/盖在画上）",
+    "裴若霜轻飘飘告别台词（刚灌完毒就说'失陪了'类语气）",
+    "阿昭在最弱势时反向利用——暗号画的布局"
+  ],
+  "must_not_write_as_exposition": [
+    "绝育毒的药理/配方不得出现",
+    "阿昭的反制计划不得用内心独白全盘交代",
+    "不得解释'暗号画为什么能传递消息'的机制"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 20.8,
+    "comma_period_ratio": 0.55,
+    "sentence_avg_len": 18.1,
+    "dominant_emotion": "屈辱-恨意生长",
+    "emotion_arc": "被踩在脚下 → 愤怒无力 → 冷恨萌芽",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "恨裴若霜恨到牙痒，同时开始期待报复",
+    "required_techniques": [
+      {
+        "technique": "俯视体位的物理羞辱",
+        "instruction": "裴若霜必须从上方俯视阿昭（蹲下拍脸/捏下巴），用物理姿态具象化权力关系——阿昭在地上，她在上面"
+      },
+      {
+        "technique": "有意无意的物件展示",
+        "instruction": "裴若霜不是直接炫耀玉印，而是'不经意'露出——比刻意炫耀更刺眼。用'起身时衣襟带出'或'随手放在桌上'的方式"
+      },
+      {
+        "technique": "讽刺式转身告别",
+        "instruction": "裴若霜刚做完最恶毒的事后，用最轻松日常的语气告别（如'我还得回去试礼服呢，失陪了'）——反差制造极致恶心"
+      },
+      {
+        "technique": "女主的冷静反制伏笔",
+        "instruction": "阿昭在最弱时开口设局——语气必须冷静，用'对你也没坏处'的利益诱导让裴若霜配合。读者看到这里要感觉：她没有垮"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "轻描淡写语气 + 永久性伤害内容",
+        "example": "免的日后再有子嗣，争来争去麻烦",
+        "instruction": "裴若霜用'麻烦/省事/免得'等日常词汇描述绝育——把极致残忍包装成小事处理的不耐烦语气"
+      },
+      {
+        "structure": "所有权宣示 + 规则制定 + 语气词软化（哦/呢）",
+        "example": "在我的宅子里住的，记得要守我的规矩哦",
+        "instruction": "裴若霜用'我的画坊/我的规矩'宣示所有权，末尾加'哦/呢'语气词——软化语气让羞辱更扎心"
+      }
+    ],
+    "peak_type": "public_humiliation",
+    "bomb_technique": "递进式",
+    "source_excerpt": "婆子掰开嘴强灌红花……林楚楚蹲下身子拍了拍我的脸，满是羞辱……免的日后再有子嗣，争来争去麻烦……她起身时，有意无意的露出腰间的玉佩。那是陆北辰的……还有两日我大婚，还得回去试我的凤冠呢，失陪了……在我的宅子里住的，记得要守我的规矩哦。"
+  }
+}

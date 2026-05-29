@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 540,
+  "target_chars_max": 640,
+  "location": "康复器材行业会展厅",
+  "time": "数日后上午",
+  "pov": "沈砚第一人称",
+  "characters": ["沈砚", "林泽宇", "客户代表", "医疗集团负责人", "参会者"],
+  "character_goal": "沈砚以项目负责人身份完成演示，收掉林泽宇偷方案的债。",
+  "opposition_goal": "林泽宇想用偷来的方案继续包装创业青年身份。",
+  "conflict_action": "客户代表播放方案比对，林泽宇抄袭翻车，沈砚接过遥控器演示原创模块。",
+  "information_gap": "总部调任通知只闪一下，收束到离城。",
+  "emotional_debt_delta": "小舅夺资源债-3；职业升维爽点+2。",
+  "payoff_or_hook": "第三方客户见证行业清算，证明沈砚不是靠嘴翻身。",
+  "chapter_end_hook": "行业会大屏弹出抄袭比对，林泽宇的脸色白了。",
+  "paywall_card": false,
+  "must_include": ["方案比对大屏", "林泽宇偷方案", "沈砚被称项目负责人", "参会者评论或弹幕式短评", "总部调任通知"],
+  "must_not_write_as_exposition": ["不要写技术白皮书", "不要让客户夸奖堆满段落", "不要只让林泽宇口头道歉"],
+  "rhythm_job": {
+    "shape": "大屏证据先行，评论短促承接，原创演示收住",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白2，动作4，评论2，呼吸点1，章尾钩1",
+    "low_pressure_carry": "遥控器交接、屏幕翻页、参会者低声吐槽"
+  }
+}

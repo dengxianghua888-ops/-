@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 850,
+  "target_chars_max": 950,
+  "location": "主角公寓门口",
+  "time": "某晚",
+  "pov": "林知予",
+  "characters": [
+    "林知予",
+    "陆承衍"
+  ],
+  "character_goal": "M3金句回旋落地",
+  "opposition_goal": "陆承衍求复合",
+  "conflict_action": "陆承衍烂醉上门求复合+骂表姐是疯女人让他窒息，主角冷静说出回旋金句",
+  "information_gap": "金句一出因果闭环完成",
+  "emotional_debt_delta": "-8（M3因果回旋完成）",
+  "payoff_or_hook": "他说她让我窒息——我说你该高兴",
+  "chapter_end_hook": "他说她让我窒息——我说你该高兴",
+  "paywall_card": false,
+  "must_include": [
+    "陆承衍的醉态描写（具体动作）",
+    "他骂表姐的原话",
+    "M3金句完整版",
+    "主角叫车让他走"
+  ],
+  "must_not_write_as_exposition": [
+    "金句不能变成旁白评论"
+  ]
+}

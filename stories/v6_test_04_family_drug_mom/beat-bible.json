@@ -1,0 +1,495 @@
+{
+  "pipeline_mode": "production_v6",
+  "target_length": {"min": 10000, "max": 18000},
+  "title": "老公偷换我妈的净水器后，我杀疯了",
+  "genre": "family_ethics",
+  "mechanisms": ["M3-因果回旋反讽", "M1-死环反杀", "M5-温度反转曲线"],
+  "rhythm_contract": {
+    "avg_visual_line_chars_range": [12, 18],
+    "short_line_rate_lte_16_min": 0.60,
+    "short_line_rate_lte_16_max": 0.80,
+    "direct_dialogue_line_rate_min": 0.30,
+    "direct_dialogue_line_rate_max": 0.50,
+    "barrage_line_rate_min": 0.03,
+    "barrage_line_rate_max": 0.12,
+    "question_mark_density_per_1000_chars_min": 3.0,
+    "question_mark_density_per_1000_chars_max": 6.0,
+    "explanatory_long_paragraph_cap_per_chapter": 1
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "source_chapter_id": 1,
+      "source_char_count": 580,
+      "target_char_count": [650, 780],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.8,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 1.7,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 16.2
+        },
+        "emotion": {
+          "dominant_emotion": "悬疑-不安",
+          "emotion_arc": "日常 → 好奇 → 恐惧暗生 → 警觉",
+          "emotion_intensity": 6,
+          "reader_feeling_target": "背脊发凉——'这条知乎回答不会就是她老公写的吧？'"
+        },
+        "highlights": {
+          "peak_moment": "知乎高赞回答'换掉净水器滤芯就行，选工业级含铅那种'与母亲重金属中毒住院的时间暗合",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["网帖嵌入式叙事", "双线暗合（巧合暗示因果）", "冷静旁观反差"],
+        "golden_lines": ["高赞第一条回答写【换掉她的净水器滤芯就行。选工业级的，含铅那种。喝几天生水又出不了什么事。】", "我放下手机，心想怎么有人坏成这样。"],
+        "rhythm_shape": "平缓铺垫-暗流涌动"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用日常关心包裹阴谋动机——'要不让我妈来照顾一阵？'",
+        "target_description": "陈北主动提议让婆婆来'帮忙'，在知情读者听来是加速计划的信号"
+      },
+      "scenes": ["scene-01"]
+    },
+    {
+      "chapter_id": 2,
+      "source_chapter_id": 2,
+      "source_char_count": 620,
+      "target_char_count": [680, 820],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.5,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 3.2,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.75,
+          "sentence_avg_len": 14.8
+        },
+        "emotion": {
+          "dominant_emotion": "确认-恐惧",
+          "emotion_arc": "怀疑 → 验证 → 确认 → 恶心感爆发",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "心跳加速——知乎编辑记录的时间戳和丈夫行为完美吻合"
+        },
+        "highlights": {
+          "peak_moment": "知乎回答在陈北进厨房查看净水器后一分钟更新，时间吻合到分钟级",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["时间戳锁定法", "肢体动作反讽", "评论区群声制造公愤"],
+        "golden_lines": ["编辑记录就在一分钟前。", "答主【喝几天生水又出不了什么事，用不着你们操心。】"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "用亲密动作收尾——揽肩的恶心感+紧迫感",
+        "target_description": "陈北揽住苏晴肩膀的亲密动作，在知情后变得极度恶心，读者想知道她还能忍多久"
+      },
+      "scenes": ["scene-02"]
+    },
+    {
+      "chapter_id": 3,
+      "source_chapter_id": 3,
+      "source_char_count": 580,
+      "target_char_count": [600, 720],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.2,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 2.8,
+          "direct_dialogue_rate": 0.32,
+          "short_line_rate_lte16": 0.70,
+          "sentence_avg_len": 15.8
+        },
+        "emotion": {
+          "dominant_emotion": "无力-绝望",
+          "emotion_arc": "偷听真相 → 一夜未眠 → 努力无效 → 绝望加深",
+          "emotion_intensity": 7,
+          "reader_feeling_target": "替女主着急——她换了水壶锅具但母亲还是在恶化，方向错了"
+        },
+        "highlights": {
+          "peak_moment": "半夜偷听陈北给婆婆视频'妈你再等等，过不了多久她就待不住了'",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["偷听场景的物理化构建", "无效努力制造绝望", "门铃催命比喻"],
+        "golden_lines": ["我跨出去的腿又收了回来。", "可我还是想的太天真了。"],
+        "rhythm_shape": "前慢后快"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "敌人到来的即视感——'催命'比喻+婆婆现身",
+        "target_description": "门铃催命似地响起，猫眼里是拎着大包小包的婆婆陈母"
+      },
+      "scenes": ["scene-03"]
+    },
+    {
+      "chapter_id": 4,
+      "source_chapter_id": 4,
+      "source_char_count": 720,
+      "target_char_count": [780, 920],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.8,
+          "comma_period_ratio": 0.42,
+          "question_mark_density_per_1k": 5.5,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.78,
+          "sentence_avg_len": 13.2
+        },
+        "emotion": {
+          "dominant_emotion": "屈辱-暴怒",
+          "emotion_arc": "被闯入 → 被辱骂 → 母亲被羞辱 → 暴怒反抗",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "替女主窒息——想冲进屏幕打婆婆"
+        },
+        "highlights": {
+          "peak_moment": "婆婆对生病的苏母说'赖在这儿三年，舔着脸吃喝都花我儿子的'",
+          "peak_type": "public_humiliation",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["入侵式物理描写", "回忆闪回建立情绪债务", "弱者被伤害的视觉冲击"],
+        "golden_lines": ["婆婆面目狰狞，冲过来一脚踹在我小腿上，'有人生没人养的东西。'", "我们家是高知家庭，她拿准了我不会当众翻脸，才肆无忌惮地欺负我。"],
+        "rhythm_shape": "匀速高压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "武器出现=暴力升级暗示",
+        "target_description": "苏晴冲进厨房拎起五升装纯净水桶对准婆婆——武器出场让读者想看'她砸了没'"
+      },
+      "scenes": ["scene-04"]
+    },
+    {
+      "chapter_id": 5,
+      "source_chapter_id": 5,
+      "source_char_count": 620,
+      "target_char_count": [650, 780],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.5,
+          "comma_period_ratio": 0.58,
+          "question_mark_density_per_1k": 3.8,
+          "direct_dialogue_rate": 0.38,
+          "short_line_rate_lte16": 0.65,
+          "sentence_avg_len": 16.5
+        },
+        "emotion": {
+          "dominant_emotion": "憋屈-孤立",
+          "emotion_arc": "被围观误解 → 被丈夫和稀泥 → 憋屈到极致",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "比女主还气——'这个男的到底什么时候完蛋'"
+        },
+        "highlights": {
+          "peak_moment": "邻居议论'这女的背地里心肠黑'+丈夫回来说'你跟她计较什么'",
+          "peak_type": "public_humiliation",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["群众演员反转立场", "软刀子式虚伪", "婆婆的表演型哭嚎"],
+        "golden_lines": ["陈北拍着我的背，给我顺气，'别生气，她就是个农村人，思想顽固，你跟她计较什么呀？'", "闻言，我妈咬着唇，气得眼眶通红。"],
+        "rhythm_shape": "持续高压无释放"
+      },
+      "chapter_end_hook": {
+        "hook_type": "silent_threat",
+        "hook_technique": "丈夫的'我来安排'=继续实施计划",
+        "target_description": "陈北说'你就在家好好照顾你妈和孩子，水的事我来安排'——在知情读者听来是继续投毒的宣言"
+      },
+      "scenes": ["scene-05"]
+    },
+    {
+      "chapter_id": 6,
+      "source_chapter_id": 6,
+      "source_char_count": 650,
+      "target_char_count": [680, 820],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.8,
+          "comma_period_ratio": 0.50,
+          "question_mark_density_per_1k": 4.6,
+          "direct_dialogue_rate": 0.35,
+          "short_line_rate_lte16": 0.62,
+          "sentence_avg_len": 16.8
+        },
+        "emotion": {
+          "dominant_emotion": "绝望-决断",
+          "emotion_arc": "焦头烂额 → 绝望加深 → 帖子再次确认 → 冷静决断",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "从绝望到'终于，她要动手了'的期待爆发"
+        },
+        "highlights": {
+          "peak_moment": "知乎回答更新'丈母娘身体快废了，她最近憔悴得跟鬼一样'——丈夫在幸灾乐祸",
+          "peak_type": "betrayal_stack",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["帖子评论区的群体情绪转化", "转折前的至暗时刻", "目标宣言式收尾"],
+        "golden_lines": ["他只要否认，单凭一个匿名回答，根本没有任何作用。", "现在最重要的，是找到他给我妈下毒的证据！"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "question_bomb",
+        "hook_technique": "行动宣言收尾——让读者迫切想知道'她怎么找到的'",
+        "target_description": "苏晴冷静宣告'现在最重要的，是找到他给我妈下毒的证据'——从被动转为主动"
+      },
+      "scenes": ["scene-06"]
+    },
+    {
+      "chapter_id": 7,
+      "source_chapter_id": 7,
+      "source_char_count": 480,
+      "target_char_count": [530, 650],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.2,
+          "comma_period_ratio": 0.40,
+          "question_mark_density_per_1k": 5.2,
+          "direct_dialogue_rate": 0.45,
+          "short_line_rate_lte16": 0.80,
+          "sentence_avg_len": 12.5
+        },
+        "emotion": {
+          "dominant_emotion": "母性暴怒",
+          "emotion_arc": "震惊 → 心碎 → 暴怒 → 冷决",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "想杀人——碰孩子是绝对红线"
+        },
+        "highlights": {
+          "peak_moment": "儿子小柏手臂被烫烟疤+婆婆辱骂'小崽子整天娇气，男孩子烫一下怎么了'",
+          "peak_type": "physical_violence",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["视觉冲击物象化", "语言暴力的降龄施加", "冷静若无其事的加害者形象"],
+        "golden_lines": ["找到小柏时，他抱着我哭到吐。小臂内侧，三个烟疤排成一排。", "小柏害怕地往我身后躲。"],
+        "rhythm_shape": "前平后炸"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "极致反差——孩子被虐后丈夫若无其事买早餐",
+        "target_description": "陈北晨跑回来递上豆浆油条'给你和小柏买的，趁热吃'——虚伪到令人窒息"
+      },
+      "scenes": ["scene-07"]
+    },
+    {
+      "chapter_id": 8,
+      "source_chapter_id": 8,
+      "source_char_count": 780,
+      "target_char_count": [850, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.2,
+          "comma_period_ratio": 0.55,
+          "question_mark_density_per_1k": 4.8,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.66,
+          "sentence_avg_len": 16.0
+        },
+        "emotion": {
+          "dominant_emotion": "冷静-布局",
+          "emotion_arc": "愤怒 → 冷静 → 发现真相 → 设局 → 紧张期待",
+          "emotion_intensity": 8,
+          "reader_feeling_target": "屏住呼吸——'计划开始了，太刺激了'"
+        },
+        "highlights": {
+          "peak_moment": "苏晴自己喝了净水器直出水后出现同样症状——真相确认",
+          "peak_type": "truth_reveal",
+          "bomb_technique": "递进式"
+        },
+        "techniques": ["生理反应确认法", "兴奋泄露的微表情", "请君入瓮的假装犹豫", "偷听收尾加压"],
+        "golden_lines": ["终于意识到，我妈的问题到底出在哪里。", "既然陈北这么想他妈过来，那就让他如愿以偿。", "我胸口剧烈起伏，攥紧了手中的水质检测报告。"],
+        "rhythm_shape": "蓄力-爆发"
+      },
+      "chapter_end_hook": {
+        "hook_type": "cliff_action",
+        "hook_technique": "武器在手——检测报告+攥紧姿态=即将动手的强烈暗示",
+        "target_description": "苏晴偷听到婆婆说'没有妈调教不好的人'，攥紧检测报告——好戏即将开始"
+      },
+      "scenes": ["scene-08"]
+    },
+    {
+      "chapter_id": 9,
+      "source_chapter_id": 9,
+      "source_char_count": 880,
+      "target_char_count": [900, 1000],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.5,
+          "comma_period_ratio": 0.48,
+          "question_mark_density_per_1k": 4.2,
+          "direct_dialogue_rate": 0.42,
+          "short_line_rate_lte16": 0.72,
+          "sentence_avg_len": 14.2
+        },
+        "emotion": {
+          "dominant_emotion": "隐忍-暗爽",
+          "emotion_arc": "被压迫 → 忍耐 → 心理战反击 → 小胜初尝",
+          "emotion_intensity": 8.5,
+          "reader_feeling_target": "又气又爽——'婆婆终于尝到怕的滋味了'"
+        },
+        "highlights": {
+          "peak_moment": "苏晴凌晨三点抱着五升桶纯净水站在婆婆床头，婆婆吓得尿失禁",
+          "peak_type": "cold_revenge",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["纯净水桶的心理战", "生理性羞辱的精确描写", "目光空洞的恐怖感", "递进式骚扰的日常化"],
+        "golden_lines": ["手一松，五升水哗啦全倒在地板上。婆婆声音戛然而止，吓得面容失色。", "接连一个星期，我半夜抱着水桶在婆婆房间晃荡。没几天，婆婆就病了。"],
+        "rhythm_shape": "波浪起伏"
+      },
+      "chapter_end_hook": {
+        "hook_type": "power_reversal",
+        "hook_technique": "用轻描淡写的语气报告战果——低调胜利比高调更爽",
+        "target_description": "婆婆被心理战逼病，读者想知道终极反击何时到来"
+      },
+      "scenes": ["scene-09"]
+    },
+    {
+      "chapter_id": 10,
+      "source_chapter_id": 10,
+      "source_char_count": 560,
+      "target_char_count": [580, 700],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 15.0,
+          "comma_period_ratio": 0.52,
+          "question_mark_density_per_1k": 5.8,
+          "direct_dialogue_rate": 0.40,
+          "short_line_rate_lte16": 0.68,
+          "sentence_avg_len": 15.5
+        },
+        "emotion": {
+          "dominant_emotion": "蔑视-厌烦",
+          "emotion_arc": "日常压迫 → 物品侵犯 → 蔑视反击 → 婆婆假摔",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "不耐烦——'什么时候搞大的？小打小闹够了'"
+        },
+        "highlights": {
+          "peak_moment": "婆婆扔掉苏晴所有护肤品换成大宝+当着小柏面说'你妈花男人钱不知羞'",
+          "peak_type": "public_humiliation",
+          "bomb_technique": "对比式"
+        },
+        "techniques": ["物象侵犯（护肤品=边界）", "童言反照恶行", "假摔碰瓷的戏剧呈现"],
+        "golden_lines": ["我冷笑了两声，带着小柏下楼散步去了。", "她的表演太浮夸。"],
+        "rhythm_shape": "匀速中压"
+      },
+      "chapter_end_hook": {
+        "hook_type": "contrast_shock",
+        "hook_technique": "丈夫的指责vs苏晴的无视=主动权已经转移",
+        "target_description": "陈北打电话指责苏晴'把我妈一个人丢家里'，苏晴直接挂断——她已经不在乎了"
+      },
+      "scenes": ["scene-10"]
+    },
+    {
+      "chapter_id": 11,
+      "source_chapter_id": 11,
+      "source_char_count": 1350,
+      "target_char_count": [1450, 1650],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 13.0,
+          "comma_period_ratio": 0.38,
+          "question_mark_density_per_1k": 6.5,
+          "direct_dialogue_rate": 0.52,
+          "short_line_rate_lte16": 0.82,
+          "sentence_avg_len": 12.2
+        },
+        "emotion": {
+          "dominant_emotion": "爆发-碾压",
+          "emotion_arc": "混乱 → 暴怒 → 灌粉 → 对质 → 逻辑碾压 → 活性炭反转 → 离婚宣言",
+          "emotion_intensity": 10,
+          "reader_feeling_target": "肾上腺素飙升——'太爽了太爽了太爽了'"
+        },
+        "highlights": {
+          "peak_moment": "苏晴说'你给我妈喝了什么水，我就给你妈喝了什么'——因果回旋正式执行",
+          "peak_type": "cold_revenge",
+          "bomb_technique": "反转式"
+        },
+        "techniques": ["灌入式物理反击", "金句回旋精确执行", "活性炭反转的双层爽", "证据链瞬间碾压", "底线宣言的力量"],
+        "golden_lines": ["你给我妈喝了什么，我就给你妈喝了什么，不是你说的吗？反正又出不了什么事。", "有什么好哭的，喝几天生水又出不了什么事。", "那你报警，看给人喝点活性炭粉，能给我判几年。", "我不是任你拿捏的软柿子，我妈更不是你可以随意糟践的人。", "陈北，我们离婚吧。"],
+        "rhythm_shape": "匀速高压→爆发→平静"
+      },
+      "chapter_end_hook": {
+        "hook_type": "death_declaration",
+        "hook_technique": "用最平静的语气宣布最终极的决定——反差力量",
+        "target_description": "苏晴平静地说出'陈北，我们离婚吧'——暴风后的寂静"
+      },
+      "scenes": ["scene-11", "scene-12"]
+    },
+    {
+      "chapter_id": 12,
+      "source_chapter_id": 12,
+      "source_char_count": 850,
+      "target_char_count": [880, 1020],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 14.0,
+          "comma_period_ratio": 0.45,
+          "question_mark_density_per_1k": 5.0,
+          "direct_dialogue_rate": 0.48,
+          "short_line_rate_lte16": 0.75,
+          "sentence_avg_len": 13.5
+        },
+        "emotion": {
+          "dominant_emotion": "崩塌-震撼",
+          "emotion_arc": "婆婆逼迫 → 母子互撕 → 丈夫撞车 → 震撼",
+          "emotion_intensity": 9,
+          "reader_feeling_target": "倒吸一口气——'他居然撞了？！活该但也震惊'"
+        },
+        "highlights": {
+          "peak_moment": "陈北慌乱驾车逃离冲入地下车库隔离桩，下肢瘫痪",
+          "peak_type": "physical_violence",
+          "bomb_technique": "突变式"
+        },
+        "techniques": ["母子互噬的连锁反应", "幼儿金句的杀伤力", "一脚踹膝的精确还债", "突然撞车的叙事节奏"],
+        "golden_lines": ["爸爸和奶奶欺负妈妈，坏。", "我说过你要再敢碰我儿子一下，我不会放过你……我说到做到。", "轮胎尖叫一声，车头直接撞上隔离桩。"],
+        "rhythm_shape": "匀速高压→突变"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "给出后果但不给出后续——读者想知道最终结局",
+        "target_description": "送医后命保住了但下肢永久瘫痪——读者想知道'离婚了吗？最后怎样？'"
+      },
+      "scenes": ["scene-13"]
+    },
+    {
+      "chapter_id": 13,
+      "source_chapter_id": 13,
+      "source_char_count": 650,
+      "target_char_count": [680, 800],
+      "soul_anchor": {
+        "metrics": {
+          "avg_line_chars": 16.5,
+          "comma_period_ratio": 0.60,
+          "question_mark_density_per_1k": 2.5,
+          "direct_dialogue_rate": 0.30,
+          "short_line_rate_lte16": 0.58,
+          "sentence_avg_len": 18.0
+        },
+        "emotion": {
+          "dominant_emotion": "释放-满足",
+          "emotion_arc": "婆婆跪求 → 离婚完成 → 因果循环 → 平静收束",
+          "emotion_intensity": 7.5,
+          "reader_feeling_target": "长舒一口气——'太解气了，活该，她值得好结局'"
+        },
+        "highlights": {
+          "peak_moment": "婆婆扑通跪下——权力关系彻底反转",
+          "peak_type": "power_shift",
+          "bomb_technique": "累积式"
+        },
+        "techniques": ["跪姿的镜像回收", "因果循环结局的冷静叙述", "情感距离的升华"],
+        "golden_lines": ["我却像是听了一个陌生人的故事。", "相爱多年的男人，终于以最狼狈的方式，退出了我的生活。", "爱从来不是算计的理由，只有真心的人才能被善待。"],
+        "rhythm_shape": "前紧后松"
+      },
+      "chapter_end_hook": {
+        "hook_type": "revelation_half",
+        "hook_technique": "金句收束——不是悬念而是情绪锚点",
+        "target_description": "全文因果闭环完成，结尾金句激发读者'分享欲'"
+      },
+      "scenes": ["scene-14"]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 13,
+    "min_paywall_cards": 3,
+    "chapter_hook_coverage": 1.0
+  }
+}

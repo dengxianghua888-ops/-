@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "病房与医院停车场",
+  "time": "傍晚",
+  "pov": "第一人称，温漾",
+  "characters": [
+    "温漾",
+    "裴时砚",
+    "裴家管家",
+    "弹幕"
+  ],
+  "character_goal": "温漾想判断裴时砚是否值得再信一次",
+  "opposition_goal": "裴时砚想坦白保护动机但仍担心裴家牵连她",
+  "conflict_action": "裴时砚拿出信托文件、工资转账和钟楼钥匙，承认假破产与离婚是隔离风险",
+  "information_gap": "他是裴家继承人，但三年前暗恋和白月光婚约真相还未说完",
+  "emotional_debt_delta": "-隐瞒保护债部分偿还，+身份震惊债",
+  "payoff_or_hook": "破产修表匠反转为百年钟表世家继承人",
+  "chapter_end_hook": "截断句：他把一把铜钥匙放进我手心：“跟我回家，听我说完。”",
+  "paywall_card": true,
+  "must_include": [
+    "修表铺工资记录",
+    "信托文件",
+    "钟楼钥匙",
+    "弹幕/评论震惊裴家身份"
+  ],
+  "must_not_write_as_exposition": [
+    "不要大段商业权谋",
+    "不要把离婚洗成无错",
+    "不要让女主立刻原谅"
+  ],
+  "rhythm_job": {
+    "shape": "证据动作串联坦白；对白约38%，动作约34%，弹幕/评论约16%，呼吸点约12%",
+    "breathing_lines_min": 4,
+    "barrage_lines_min": 5,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": "温漾把钥匙翻来翻去、慢吞吞问能不能先吃饭"
+  }
+}

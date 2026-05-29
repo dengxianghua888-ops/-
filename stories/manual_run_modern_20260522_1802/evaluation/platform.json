@@ -1,0 +1,12 @@
+{
+  "dimension": "platform",
+  "score": 8.0,
+  "status": "pass",
+  "evidence": [
+    "15 chapters with 100% end-hook coverage",
+    "5 paywall cards distributed at B5/B9/B11/B13/B15",
+    "chapter lengths range 580-870 nonspace chars, suitable for mobile scroll",
+    "no meta-leak or construction language detected"
+  ],
+  "notes": "章节节奏适合番茄平台手机端阅读，付费卡点分布于高张力节点"
+}

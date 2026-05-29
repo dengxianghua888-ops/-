@@ -1,0 +1,107 @@
+{
+  "story_slug": "prod_seq5_20260519_property_rent_exit",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M2", "M3", "M6"],
+  "target_length": {
+    "min": 12000,
+    "max": 15000
+  },
+  "final_length": 12074,
+  "quality_scores": {
+    "platform": 8.4,
+    "emotion": 8.7,
+    "style": 8.1,
+    "logic": 8.5
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "hook": "涨租40%后不求缓冲，直接宣布净菜档、母亲海鲜档、丈夫车队、弟弟团购仓一起撤走。",
+      "reusable_fact": "开篇先证明主角经营价值，再让反派用涨价和替换品牌羞辱，最后用全链条撤离制造断供期待。"
+    },
+    {
+      "chapter": 2,
+      "hook": "冷库断电时，主角先保货再留证，把温控报警、货损清单和客户群回应同步固化。",
+      "reusable_fact": "商业爽文里的危机现场要落在可量化损失和证据链上，能同时拉高情绪债和逻辑可信度。"
+    },
+    {
+      "chapter": 3,
+      "hook": "母亲当场摘灯牌并逐个通知老客户转去新港。",
+      "reusable_fact": "亲属支线不能只做助攻，应各自握有独立客户资产，撤离时才能显出市场失血。"
+    },
+    {
+      "chapter": 4,
+      "hook": "车队被卡出门单，顾砚把全部改线决定权交回许知夏。",
+      "reusable_fact": "付费卡点适合卡在关键资源是否站队，尤其是物流、账号、资金等可决定成败的硬资源。"
+    },
+    {
+      "chapter": 7,
+      "hook": "月台被锁后，主角按合同把整排冷柜停在白线内等待检查，反卡白蔓入仓。",
+      "reusable_fact": "反制不靠吵架，靠合同条款、场地边界、待检标签和录像，让规则本身变成主角武器。"
+    },
+    {
+      "chapter": 8,
+      "hook": "保证金窗口亮出手写账单、私收二维码和对公凭证追问。",
+      "reusable_fact": "死环反杀可用金流载体闭锁，关键是让反派每一种解释都会引向账目问题。"
+    },
+    {
+      "chapter": 10,
+      "hook": "白蔓旗舰仓三天日销只有280元，直播热闹和后厨冷清形成反差。",
+      "reusable_fact": "网红品牌打实体供应链时，反转证据应使用真实订单、日销、冷链车和采购群，而不是口头打脸。"
+    },
+    {
+      "chapter": 14,
+      "hook": "主角亮出三个月前的新港联合运营协议，从被驱赶摊主反转为规则制定者。",
+      "reusable_fact": "身份反差爆发需要提前铺垫评审、履约记录和运营方案，避免结尾股东身份像天降。"
+    },
+    {
+      "chapter": 15,
+      "hook": "结尾落在凌晨发车、封签复核和新进商户规则培训。",
+      "reusable_fact": "商业复仇收束应回到持续经营动作，用日常履约替代空泛胜利宣言。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 4,
+      "card_type": "resource_stand",
+      "card_text": "车队是否全线改线，决定主角能否真正带走供应链。"
+    },
+    {
+      "chapter": 7,
+      "card_type": "legal_counter",
+      "card_text": "冷柜合法停在白线内，反派的月台检修谎言即将被迫自撞。"
+    },
+    {
+      "chapter": 10,
+      "card_type": "market_truth",
+      "card_text": "白蔓旗舰仓直播热闹，但真实日销崩盘，老市场失血开始明牌。"
+    },
+    {
+      "chapter": 14,
+      "card_type": "identity_reveal",
+      "card_text": "主角不是被新港收留，而是早已凭订单和履约记录成为联合运营股东。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "modern_reversal",
+    "commercial_revenge",
+    "fresh_market",
+    "cold_chain",
+    "rent_hike",
+    "supply_chain_exit",
+    "evidence_chain",
+    "private_fee",
+    "paywall_ch4_resource_stand",
+    "paywall_ch7_legal_counter",
+    "paywall_ch10_market_data_reversal",
+    "paywall_ch14_identity_reveal",
+    "female_owner",
+    "family_business_assets",
+    "net_red_brand_failure",
+    "rule_maker_ending"
+  ],
+  "manual_revision_delta": []
+}

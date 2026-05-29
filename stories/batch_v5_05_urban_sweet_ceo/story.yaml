@@ -1,0 +1,38 @@
+title: 她把副驾留给了别人
+source_slug: hot_0949ad53a5
+genre: urban_sweet_ceo
+pipeline_version: v5
+status: final
+target_platform: tomato
+generated_at: "2026-05-26"
+
+adaptation:
+  source_setting: "七年青梅男友在女友反复偏袒男实习生后冷静分手，去上海开启新生活"
+  new_setting: "五年男友在女友反复偏袒男闺蜜后冷静分手，去深圳开启新生活"
+  character_map:
+    姜昀: 陆辰 (男主，五年男友，被长期轻慢后冷静抽离)
+    高珊珊: 林念 (前女友，仗着五年感情默认男主不会走)
+    苏逸宁: 周衍 (男闺蜜/第三者，持续越界)
+    贺舒怡: 沈知予 (新爱，十年暗恋，尊重边界)
+
+metrics:
+  nonspace_chars: 10072
+  rhythm_status: pass
+  structure_gate: pass
+  impact_density: 1.99
+  avg_line_chars: 20.815
+  quote_line_rate: 0.385
+
+quality_gate:
+  nonspace_in_range: true
+  rhythm_pass: true
+  structure_pass: true
+  source_overlap_lte_5pct: true
+  meta_leak_zero: true
+  ai_forbidden_zero: true
+
+required_artifacts:
+  - beat-bible.json
+  - final.md
+  - quality-report.json
+  - story.yaml

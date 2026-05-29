@@ -1,0 +1,376 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars": 12600
+  },
+  "title": "五一露营嫌我贵？可我有百人研学团",
+  "genre": "modern_reversal / service_business_revenge",
+  "mechanisms": [
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "周凯用“嫌贵就退、五一有的是营地求我们住、差评压死你”逼主角；离开后被黄牛、黑露营地、餐摊用同样话术回敬。"
+    },
+    {
+      "id": "M6",
+      "name": "多层递进反转",
+      "execution": "退订释放营位→120人研学团公开补位→接驳停车失控→黑露营地高价低质→安全事故和员工反噬→公司追责→持械报复法律清算。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "多年合作保留旧价，公开辱骂和动手后关系清零，深夜求助时主角合法拒绝并给官方应急建议。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "target_chars_min": 1200,
+      "target_chars_max": 1500,
+      "scene_range": "scene-01 to scene-02",
+      "chapter_end_hook": "周凯还没等到我求他，游客中心外已经响起了三辆研学大巴的倒车提示音。"
+    },
+    {
+      "chapter_id": 2,
+      "target_chars_min": 1100,
+      "target_chars_max": 1400,
+      "scene_range": "scene-03 to scene-04",
+      "chapter_end_hook": "周凯脸色刚变，接驳站广播又响了：今日官方营位、车位、摆渡名额全部售罄。"
+    },
+    {
+      "chapter_id": 3,
+      "target_chars_min": 1100,
+      "target_chars_max": 1400,
+      "scene_range": "scene-05 to scene-06",
+      "chapter_end_hook": "黄牛司机把二维码怼到周凯脸前：一位一百二，嫌贵就走山路。"
+    },
+    {
+      "chapter_id": 4,
+      "target_chars_min": 1100,
+      "target_chars_max": 1400,
+      "scene_range": "scene-07 to scene-08",
+      "chapter_end_hook": "黑露营地老板把铁门一关：明天八百一个帐篷，不住现在就滚。"
+    },
+    {
+      "chapter_id": 5,
+      "target_chars_min": 1200,
+      "target_chars_max": 1500,
+      "scene_range": "scene-09 to scene-10",
+      "chapter_end_hook": "女员工发来的定位停在服务区后巷，电话里只剩一句发抖的“周经理，救我”。"
+    },
+    {
+      "chapter_id": 6,
+      "target_chars_min": 1200,
+      "target_chars_max": 1500,
+      "scene_range": "scene-11 to scene-12",
+      "chapter_end_hook": "周凯站在游客中心门口，红着眼问我：你真要看着我完？"
+    },
+    {
+      "chapter_id": 7,
+      "target_chars_min": 1200,
+      "target_chars_max": 1500,
+      "scene_range": "scene-13 to scene-14",
+      "chapter_end_hook": "我刚送走姜老师，监控里出现了周凯攥着折叠刀冲进游客中心的身影。"
+    },
+    {
+      "chapter_id": 8,
+      "target_chars_min": 1200,
+      "target_chars_max": 1500,
+      "scene_range": "scene-15 to scene-16",
+      "chapter_end_hook": "派出所回执单压在新合同旁边，姜老师问我：暑期营地课程，还能给我们留档期吗？"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "景区音乐节营地游客中心前台",
+      "character_goal": "我想按合同让周凯团队顺利入住，并把680元套票内容讲清楚。",
+      "conflict_action": "周凯当众把报价单拍在前台，拿480元裸营位价逼我退差价。",
+      "information_gap": "读者先看到价格争执，再逐步知道680元含装备、餐食、副票、接驳、保险、夜巡和热水券。",
+      "emotion_debt_balance": "建立主角守约却被老客户反咬的憋屈债。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把价格解释写成说明书",
+        "不能让主角先发火",
+        "禁用AI套话"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "游客中心排队区",
+      "character_goal": "我想守住合同边界，不再被周凯压价。",
+      "conflict_action": "周凯辱骂我杀熟，推搡前台立牌并抬手打到我脸上，逼我退订。",
+      "information_gap": "周凯以为我不敢失去36人团建订单，不知道我早前因守约拒绝过120人研学团。",
+      "emotion_debt_balance": "公开羞辱和动手形成必须公开返还的情绪债。",
+      "chapter_end_hook": "周凯还没等到我求他，游客中心外已经响起了三辆研学大巴的倒车提示音。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止美化暴力",
+        "不能写主角继续求和",
+        "不能洗白周凯"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "游客中心财务窗口",
+      "character_goal": "我想按规则完成退订，把营位释放给真正需要的人。",
+      "conflict_action": "我打印退订单、扣除合同违约金、当面让周凯签字确认退36个营位。",
+      "information_gap": "周凯签字时还以为营位空着会砸我手里。",
+      "emotion_debt_balance": "主角第一次用规则切断旧情，轻微偿还被压价债。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角暗中坑害周凯",
+        "不能省略合同退订动作",
+        "禁用空泛心理独白"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "游客中心接驳入口",
+      "character_goal": "我想接待姜老师的120人亲子研学团，并证明680元套票值。",
+      "conflict_action": "姜老师带家长和孩子进场，当众刷定金，逐项确认帐篷、睡袋、早晚餐、副票和夜巡安排。",
+      "information_gap": "周凯才发现这单不是临时天降，而是我之前为了守他合同拒绝过的大单。",
+      "emotion_debt_balance": "公开打脸偿还部分羞辱债，读者第一次获得强解气。",
+      "chapter_end_hook": "周凯脸色刚变，接驳站广播又响了：今日官方营位、车位、摆渡名额全部售罄。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "百人团不能只在电话里成交",
+        "不能把姜老师写成工具人",
+        "不能让主角炫耀挑衅"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "景区接驳车站",
+      "character_goal": "周凯想证明离开我的营地也能省钱安顿团队。",
+      "conflict_action": "周凯带36名员工拖着行李冲到接驳站，发现官方摆渡车排队三小时且团队预约已随退订失效。",
+      "information_gap": "员工还不知道周凯为了省200元套票差价已经让他们失去接驳、保险和夜巡资格。",
+      "emotion_debt_balance": "市场开始反噬周凯，员工怨气种子埋下。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把接驳困难写成巧合",
+        "不能让主角插手制造麻烦",
+        "避免天灾式惩罚"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "临时黄牛摆渡点",
+      "character_goal": "周凯想低价找车把员工送到替代露营点。",
+      "conflict_action": "黄牛司机堵住团队行李，开价每人120元，不给发票，不等人，催周凯当场付款。",
+      "information_gap": "读者看到周凯刚骂680贵，马上被无保障高价接驳反砸。",
+      "emotion_debt_balance": "价格认知反转加深，省小钱亏大钱开始兑现。",
+      "chapter_end_hook": "黄牛司机把二维码怼到周凯脸前：一位一百二，嫌贵就走山路。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "黄牛不能与主角有联系",
+        "不能写周凯立即认错",
+        "不能弱化员工抱怨"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "无证黑露营地入口",
+      "character_goal": "周凯想用最少预算找地方过夜，压住员工不满。",
+      "conflict_action": "黑露营地老板按500元一个帐篷收费，只给薄帐篷和一块湿地，不含热水、餐食、电源和巡逻。",
+      "information_gap": "员工第一次对比出680元套票的价值，但还没完全反抗。",
+      "emotion_debt_balance": "680元从被骂黑心变成隐性良心价。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写黑露营地为主角安排",
+        "不能夸张到失真",
+        "不能把员工写成无脑恶人"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 550,
+      "target_chars_max": 700,
+      "scene_location": "黑露营地帐篷区",
+      "character_goal": "周凯想让员工先忍一晚，明天再找便宜方案。",
+      "conflict_action": "帐篷漏风，热水排队到凌晨，餐摊泡面20元一盒，周凯让员工先垫钱。",
+      "information_gap": "员工开始追问公司团建预算到底去哪了。",
+      "emotion_debt_balance": "员工从沉默跟随转为明确不满，人心反噬启动。",
+      "chapter_end_hook": "黑露营地老板把铁门一关：明天八百一个帐篷，不住现在就滚。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用总结概括员工惨状",
+        "必须写具体价格和排队",
+        "不能让周凯承担责任"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "黑露营地收费棚",
+      "character_goal": "周凯想压价续住并堵住员工投诉。",
+      "conflict_action": "黑露营地老板当众涨到800元一个帐篷，周凯争执失败后要求员工分摊差价。",
+      "information_gap": "周凯仍不肯承认退订错误，只把锅甩给五一市场和员工挑剔。",
+      "emotion_debt_balance": "周凯开局话术被完整回敬，规则回旋爽点兑现。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让涨价像主角操控",
+        "不能用旁白替代争执动作",
+        "禁用鸡汤式判断"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "黑露营地外服务区后巷",
+      "character_goal": "女员工小林想给发烧同事买药，周凯想继续压住安全事故。",
+      "conflict_action": "小林夜间独自去服务区买药，被陌生醉汉尾随，景区巡逻员接警赶到，黑露营地消防和资质问题被查。",
+      "information_gap": "安全危机来自周凯拒绝官方营地服务和夜巡，而不是猎奇事件。",
+      "emotion_debt_balance": "员工安全债爆发，周凯从抠门升级为失职。",
+      "chapter_end_hook": "女员工发来的定位停在服务区后巷，电话里只剩一句发抖的“周经理，救我”。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "禁止写侵犯细节",
+        "不能把女员工遇险当爽点",
+        "必须写报警或巡逻介入"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "景区派出所临时执勤点",
+      "character_goal": "员工想要安全安置和费用说明，周凯想把责任推给外部环境。",
+      "conflict_action": "员工当着民警和景区工作人员列出垫付款、接驳费、涨价帐篷和小林遇险经过，要求周凯向公司报备。",
+      "information_gap": "员工不再帮腔，第一次完整复盘周凯决策链。",
+      "emotion_debt_balance": "被拖累者觉醒，周凯权威开始崩塌。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让员工突然无理由倒戈",
+        "不能写民警替主角出气",
+        "不能弱化公司追责线"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "营地游客中心夜班前台",
+      "character_goal": "周凯想深夜求我重新接纳36名员工，我想守住安全容量和合同边界。",
+      "conflict_action": "周凯打电话又赶到游客中心求营位，我调出满位系统，拒绝超载接待，并给出官方应急点和报警电话。",
+      "information_gap": "周凯口头认错仍想让我违规兜底，读者看到主角不是冷血而是合法拒绝。",
+      "emotion_debt_balance": "主角边界感爽点兑现，不圣母但不作恶。",
+      "chapter_end_hook": "周凯站在游客中心门口，红着眼问我：你真要看着我完？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角重新接纳合作",
+        "不能写主角冷血放任危险",
+        "必须提供官方应急建议"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "周凯公司会议室与营地电话连线",
+      "character_goal": "公司想核查团建预算爆雷和安全投诉，我想提供合同与退订证据。",
+      "conflict_action": "公司行政总监电话询问，我发送报价单、退订签字、监控片段和周凯辱骂动手记录。",
+      "information_gap": "周凯一直以为差评能压我，不知道证据链会反向毁掉他的职业口碑。",
+      "emotion_debt_balance": "职业清算启动，差评威胁反噬。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让主角编造证据",
+        "不能大段说教公司制度",
+        "不能跳过合同材料"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "营地研学活动区",
+      "character_goal": "我想完成亲子研学团服务，周凯想把被开除归咎于我。",
+      "conflict_action": "姜老师带孩子做篝火安全课时，周凯发来被开除截图和威胁语音，说要来找我算账。",
+      "information_gap": "读者知道周凯没有真正反省，终局法律风险逼近。",
+      "emotion_debt_balance": "职业清算完成，法律清算预热。",
+      "chapter_end_hook": "我刚送走姜老师，监控里出现了周凯攥着折叠刀冲进游客中心的身影。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让反派悔过太早",
+        "不能美化威胁行为",
+        "不能拖慢终局节奏"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "营地游客中心大厅",
+      "character_goal": "我想保护游客和员工安全，依法处理周凯持械闯入。",
+      "conflict_action": "周凯持折叠刀冲进大厅，安保用防暴叉和隔离栏控制距离，我按流程疏散游客并报警。",
+      "information_gap": "清算来自法律程序，不是主角私刑报复。",
+      "emotion_debt_balance": "动手伤人债与持械威胁债进入法律偿还。",
+      "chapter_end_hook": "对方以为局面稳住时，新的证据或订单变动当场反噬。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "禁止美化持刀报复",
+        "禁止写私刑虐打",
+        "必须由安保控制并报警"
+      ]
+    },
+    {
+      "beat_id": "B16",
+      "target_chars_min": 600,
+      "target_chars_max": 750,
+      "scene_location": "营地办公室与新合作签约桌",
+      "character_goal": "我想收束订单口碑和长期合作，不再为恶客兜底。",
+      "conflict_action": "派出所出具回执，公司确认周凯被辞退，姜老师递来暑期研学长期合作意向书。",
+      "information_gap": "读者看到主角的收益来自守约、安全和口碑，不来自恶意报复。",
+      "emotion_debt_balance": "口碑回流和长期订单完成最终释放。",
+      "chapter_end_hook": "派出所回执单压在新合同旁边，姜老师问我：暑期营地课程，还能给我们留档期吗？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能圣母原谅周凯",
+        "不能鸡汤长尾",
+        "必须落在订单增长和法律清算"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapters": 8,
+    "min_paywall_cards": 5,
+    "chapter_end_hook_coverage": "100%",
+    "micro_hook_interval_chars": {
+      "min": 800,
+      "max": 1200
+    },
+    "style_floor": [
+      "第一人称",
+      "短句推进",
+      "对话驱动",
+      "现实价格和排队细节密集",
+      "禁止空泛总结"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "stories/strict_new5_20260521_1825_ancient_mojo_revenge",
+  "overall_score": 9.82,
+  "dimensions": {
+    "length_alignment": {
+      "score": 9.93,
+      "evidence": "总字数 10219,章节方差 20.2"
+    },
+    "hook_density": {
+      "score": 10.0,
+      "evidence": "14/14 强钩,弱钩章: 无",
+      "weak_chapters": []
+    },
+    "paywall_layout": {
+      "score": 10.0,
+      "evidence": "付费卡点 6/3"
+    },
+    "action_density": {
+      "score": 9.0,
+      "evidence": "动作密度 22.801/k"
+    },
+    "style_signature": {
+      "score": 10.0,
+      "evidence": "平均句长 16.961,软违禁 0 次,硬违禁 0 次"
+    },
+    "source_rhythm_fit": {
+      "score": 9.81,
+      "evidence": "源/稿均行长 19.993/18.496, 短行率 0.3975/0.3893, 对白行率 0.3269/0.3875",
+      "details": {
+        "status": "pass",
+        "applicable": true,
+        "source": {
+          "chars": 11316,
+          "line_count": 566,
+          "avg_line_chars": 19.993,
+          "median_line_chars": 19.0,
+          "short_line_rate": 0.3975,
+          "long_line_rate": 0.0406,
+          "quote_line_rate": 0.3269,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 1.502
+        },
+        "candidate": {
+          "chars": 10025,
+          "line_count": 542,
+          "avg_line_chars": 18.496,
+          "median_line_chars": 18.0,
+          "short_line_rate": 0.3893,
+          "long_line_rate": 0.0018,
+          "quote_line_rate": 0.3875,
+          "barrage_line_rate": 0.0,
+          "question_marks_per_k": 2.294
+        },
+        "failures": []
+      }
+    },
+    "mobile_readability": {
+      "score": 10.0,
+      "evidence": "全部段落单句"
+    }
+  },
+  "rework_targets": [],
+  "pass_threshold": 8.0,
+  "status": "pass"
+}

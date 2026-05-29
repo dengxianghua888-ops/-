@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 720,
+  "target_chars_max": 860,
+  "location": "法院外停车场与事故逃逸路口",
+  "time": "庭审当日午后",
+  "pov": "第一人称，许知意",
+  "characters": [
+    "许知意",
+    "程安橙",
+    "许家法务",
+    "警方",
+    "陆景珩"
+  ],
+  "character_goal": "许知意要保全程安橙手机里的公关群证据",
+  "opposition_goal": "程安橙要抢先销毁手机并逃避刑事追责",
+  "conflict_action": "许知意让法务申请证据保全，程安橙夺车逃跑，慌乱中撞上转运测试车，警方赶到查扣她手机",
+  "information_gap": "手机里的公关群记录将补齐妨害作证和诱导事故的链条",
+  "emotional_debt_delta": "小三因自己的逃避动作受伤并被控制，读者获得因果回旋但不走私刑",
+  "payoff_or_hook": "程安橙腿部受伤被送医，同时手机被装入证物袋",
+  "chapter_end_hook": "程安橙逃跑时撞上同型号测试车，血从她腿下漫开。",
+  "paywall_card": false,
+  "must_include": [
+    "证据保全申请",
+    "程安橙抢车逃跑",
+    "同型号测试车",
+    "警方查扣手机",
+    "陆景珩无法再护住她"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写女主直接报复施暴",
+    "不要猎奇描写断腿",
+    "不要让程安橙卖惨洗白"
+  ]
+}

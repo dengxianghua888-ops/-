@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "score": 8.6,
+  "evidence": [
+    {
+      "debt": "公开羞辱债",
+      "incurred_scene": "scene-01",
+      "paid_scene": "scene-08",
+      "quote": "没有人问我配不配。没有人让我解释过去七年。",
+      "assessment": "从被称为“只是经纪人”到谢家公开摆出婚书和资产，偿还路径清楚。"
+    },
+    {
+      "debt": "误判追责债",
+      "incurred_scene": "scene-05",
+      "paid_scene": "scene-10",
+      "quote": "谢砚当着直播镜头回敬：“冷战你赢了，陆影帝应该高兴。”",
+      "assessment": "陆沉舟持续把女主行动误判成逼婚，最终被原句反打。"
+    },
+    {
+      "debt": "七年错付债",
+      "incurred_scene": "scene-06",
+      "paid_scene": "scene-15",
+      "quote": "算我交过的学费。",
+      "assessment": "旧戒指、旧身份和旧情在婚礼门口完成切割，女主不回头。"
+    },
+    {
+      "debt": "婚礼破坏债",
+      "incurred_scene": "scene-12",
+      "paid_scene": "scene-14",
+      "quote": "合同已经启动，监管也已经受理。",
+      "assessment": "破坏不靠嘴炮解决，而由合同、公证、监管链清算。"
+    }
+  ],
+  "notes": "情绪债整体完整，偿还均在现场发生，不依赖事后总结。"
+}

@@ -1,0 +1,121 @@
+{
+  "story_slug": "strict_new5_20260521_1825_ceo_fishing_sweet",
+  "pipeline_mode": "production",
+  "genre": "urban_sweet_ceo",
+  "mechanisms": ["M2", "M3", "M5", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10613,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "type": "return_confrontation",
+      "hook": "机场重逢用前未婚夫带女伴拦路制造旧情羞辱，末尾转入女主是否回来抢回星阈的核心事业线。"
+    },
+    {
+      "chapter": 2,
+      "type": "identity_document_reveal",
+      "hook": "女主连续亮出继承权、董事席位、表决权委托书，完成董事会席位反杀，顾承渊以只认文件跟票收尾。"
+    },
+    {
+      "chapter": 5,
+      "type": "public_opinion_flip",
+      "hook": "慈善酒会抢麦对峙后，大屏被切入三年前逃婚真相视频，把私怨升级成全场围观的舆论爆点。"
+    },
+    {
+      "chapter": 6,
+      "type": "asset_recovery",
+      "hook": "女主带律师回收海湾老宅并冻结门禁，方雅琴听到二楼书房和保险柜后失控冲上楼，指向隐藏证据。"
+    },
+    {
+      "chapter": 8,
+      "type": "contract_interruption",
+      "hook": "北岚签约前突发实名举报，专利来源存疑迫使暂停签字，顾承渊选择共同追源，事业危机压住情感线。"
+    },
+    {
+      "chapter": 9,
+      "type": "old_evidence_unlock",
+      "hook": "顾家老宅钥匙打开保险柜，录音揭出逃婚前一晚的专利转移阴谋，但关键后半句损坏，形成即时修复目标。"
+    },
+    {
+      "chapter": 10,
+      "type": "legal_reversal",
+      "hook": "股东会用录音、补件、资金回函和保全申请完成证据闭环，警方带走沈国淮和沈奕川，沈奕川再抛顾承渊隐瞒点。"
+    },
+    {
+      "chapter": 12,
+      "type": "amnesia_emotion_reset",
+      "hook": "落海后女主醒来短期陌生，顾承渊从强势转为克制照料，末尾一句你是谁重置情感关系。"
+    },
+    {
+      "chapter": 14,
+      "type": "ceremony_status_lock",
+      "hook": "婚礼上女主先公开领证和星阈新章程，顾老太太戴镯认定，顾承渊用顾家半边和自己全部完成甜宠收束。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "card": "董事会连续文件反杀后，顾承渊突然入场表态只认文件。"
+    },
+    {
+      "chapter": 5,
+      "card": "酒会大屏被切入三年前逃婚真相，男声当众发问。"
+    },
+    {
+      "chapter": 8,
+      "card": "北岚签约临门一脚被实名举报打断，专利来源危机爆发。"
+    },
+    {
+      "chapter": 9,
+      "card": "保险柜录音揭出逃婚前夜阴谋，但最关键半句被杂音截断。"
+    },
+    {
+      "chapter": 10,
+      "card": "父子被警方带走后，沈奕川反咬顾承渊还有隐瞒。"
+    },
+    {
+      "chapter": 11,
+      "card": "联合公告前记录盒被动手脚，女主和顾承渊一起坠海。"
+    },
+    {
+      "chapter": 12,
+      "card": "女主醒来后对顾承渊陌生发问，关系被迫重建。"
+    },
+    {
+      "chapter": 13,
+      "card": "晚春手稿和商标续展揭出顾承渊三年守护，转入领证申请。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "urban_sweet_ceo",
+    "runaway_bride_return",
+    "ex_fiance_reunion",
+    "family_company_power_struggle",
+    "inheritance_documents",
+    "boardroom_reversal",
+    "patent_dispute",
+    "medical_robotics_project",
+    "public_screen_truth_reveal",
+    "old_house_safe_evidence",
+    "shareholder_meeting_exposure",
+    "contract_signing_interruption",
+    "near_death_amnesia",
+    "wedding_status_lock",
+    "grandmother_support",
+    "cold_banter_cp",
+    "evidence_chain_revenge",
+    "sweet_healing_after_misunderstanding"
+  ],
+  "manual_revision_delta": []
+}

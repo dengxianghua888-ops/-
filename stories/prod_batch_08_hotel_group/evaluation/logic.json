@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "score": 8.4,
+  "evidence": [
+    {
+      "type": "contract_causality",
+      "status": "pass",
+      "quote": "退款扣除违约金三千二百四十，剩余七千五百六十，原路退回。配套副票作废，接驳团队预约取消。",
+      "comment": "后续接驳失效、保险夜巡取消均由签字退订触发。"
+    },
+    {
+      "type": "no_protagonist_entrapment",
+      "status": "pass",
+      "quote": "“保存事实。”我说。",
+      "comment": "主角保存监控、按合同办事，没有主动制造后续灾难。"
+    },
+    {
+      "type": "capacity_boundary",
+      "status": "pass",
+      "quote": "“帐篷区核定容量已满。超载接待，出事我负责，游客也危险。”",
+      "comment": "深夜拒收基于安全容量限制。"
+    },
+    {
+      "type": "emergency_guidance",
+      "status": "pass",
+      "quote": "“景区官方应急点在北门服务楼，有基础床位。这里是景区服务台电话。这里是报警电话。”",
+      "comment": "拒绝违规接待的同时提供官方应急路径。"
+    },
+    {
+      "type": "emergency_motive_bridge",
+      "status": "pass",
+      "quote": "“别叫景区应急点。”周凯回得很快，“传出去公司问责，你快去快回。”",
+      "comment": "补强小林独自买药的失职因果。"
+    },
+    {
+      "type": "visitor_control",
+      "status": "pass",
+      "quote": "非住客入口暂停进入，住客走侧门核验，夜班两人一组。",
+      "comment": "管控方式已从一刀切封闭改为现实的入口核验。"
+    },
+    {
+      "type": "weapon_threat_handling",
+      "status": "pass",
+      "quote": "两个人一左一右，用隔离栏卡住通道，另一个拿防暴叉顶住距离，只控制，不贴身。",
+      "comment": "持械情节没有私刑化，处理方式偏现实。"
+    }
+  ]
+}

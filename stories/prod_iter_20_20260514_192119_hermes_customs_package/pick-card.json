@@ -1,0 +1,14 @@
+{
+  "slug": "prod_iter_20_20260514_192119_hermes_customs_package",
+  "corpus_slug": "hermes_customs_package",
+  "genre": "modern_reversal",
+  "mechanisms": [
+    "M1",
+    "M3"
+  ],
+  "hook_type": "H1",
+  "title_formula": "T1",
+  "tomato_fit_score": 9.0,
+  "picked_at": "2026-05-14T19:21:19",
+  "run_id": "20260514_192119"
+}

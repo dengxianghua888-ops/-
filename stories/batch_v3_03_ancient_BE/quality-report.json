@@ -1,0 +1,30 @@
+{
+  "story_slug": "batch_v3_03_ancient_BE",
+  "title": "长明灯",
+  "run_date": "2026-05-26",
+  "gate_status": "pass",
+  "machine_metrics": {
+    "nonspace_chars": 10001,
+    "chapter_count": 12,
+    "rhythm_fit": "pass",
+    "source_avg_line_chars": 24.937,
+    "candidate_avg_line_chars": 22.027,
+    "source_short_line_rate": 0.2632,
+    "candidate_short_line_rate": 0.2395,
+    "source_quote_line_rate": 0.4158,
+    "candidate_quote_line_rate": 0.3215,
+    "candidate_barrage_line_rate": 0.0,
+    "ai_forbidden_words": 0,
+    "narration_crutches": 1,
+    "source_overlap_4gram": 0.0173,
+    "meta_leak": 0
+  },
+  "quality_notes": {
+    "contradiction_moment": "女主被迫叩阶时想起他亲手雕木簪说'此生只你一人'——身体在痛，记忆在笑",
+    "opening_hook": "女主有孕报喜时，丈夫平静告知三日后将迎娶知府千金为正妻——信息不对称：读者不知女主真实身份",
+    "gold_sentences": [
+      "你亲手毁掉的，恰恰是你此生再也得不到的",
+      "没有了谁，长明灯依旧会亮"
+    ]
+  }
+}

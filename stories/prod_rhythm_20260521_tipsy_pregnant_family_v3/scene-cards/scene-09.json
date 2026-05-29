@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "target_chars_min": 720,
+  "target_chars_max": 800,
+  "location": "陆家老戏楼外厅",
+  "time": "当晚",
+  "pov": "第一人称，温瓷",
+  "characters": ["温瓷", "陆砚辞", "陆家管家", "陆家董事两名", "老戏班老人", "弹幕/评论浮屏"],
+  "character_goal": "温瓷想确认自己和孩子会不会被陆家排除在门外。",
+  "opposition_goal": "陆家要先把陆砚辞放回继承人位置，同时试探温瓷的分量。",
+  "conflict_action": "众人依礼迎人，话头却都只冲陆砚辞去；陆砚辞直接把温瓷牵进门，打断试探。",
+  "information_gap": "他当年为什么离开陆家；离婚是不是被联姻和继承逼出来的。",
+  "emotional_debt_delta": {
+    "阶层债": "+1",
+    "安全感债": "-1",
+    "解释债": "+1"
+  },
+  "payoff_or_hook": "不是催债上门，而是顶级梨园来接前夫回位。",
+  "chapter_end_hook": "所有人都在等陆砚辞落座，他却先把温瓷按进了主位旁边的椅子。",
+  "paywall_card": true,
+  "must_include": [
+    "老戏楼的权势感要靠礼数、称呼、位置体现",
+    "陆砚辞主动牵温瓷进门",
+    "至少1个旧人对他改口称少爷或少东家",
+    "2条以上弹幕吐槽/猜测"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成豪门参观说明",
+    "不要罗列所有人物来头",
+    "不要让温瓷被晾在门口太久"
+  ],
+  "rhythm_job": {
+    "shape": "入门观感-礼数试探-护短动作-座位卡点",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 2,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "dialogue_action_ratio": "动作4成，对白3成，弹幕2成，章尾钩1成"
+  }
+}

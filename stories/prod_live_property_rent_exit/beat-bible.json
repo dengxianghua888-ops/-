@@ -1,0 +1,80 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "title": "我被涨租赶走后，整座商场空了",
+  "genre": "modern_business_revenge",
+  "mechanisms": ["old_tenant_exit", "merchant_alliance_transfer", "contract_evidence_counterattack"],
+  "quality_floor": {
+    "chapter_hook_coverage": 1.0,
+    "paywall_card_every_chars": 3500,
+    "chapter_min_chars": 500,
+    "chapter_max_chars": 1200
+  },
+  "chapters": [
+    {"chapter": 1, "target_chars": 900, "hook": "我说明天搬，顺便带走全家业态。"},
+    {"chapter": 2, "target_chars": 900, "hook": "断水毁单后，我打出青杉里第一通电话。"},
+    {"chapter": 3, "target_chars": 900, "hook": "员工问我是不是早就留了后手。"},
+    {"chapter": 4, "target_chars": 900, "hook": "新品牌上门量尺，却不知道水表被动过。"},
+    {"chapter": 5, "target_chars": 900, "hook": "我拿到了消控室备份。"},
+    {"chapter": 6, "target_chars": 900, "hook": "老商场第一天客流腰斩。"},
+    {"chapter": 7, "target_chars": 900, "hook": "物业经理把我告上行业群。"},
+    {"chapter": 8, "target_chars": 900, "hook": "老商户把押金单拍在桌上。"},
+    {"chapter": 9, "target_chars": 900, "hook": "招商会当天，新品牌先退了。"},
+    {"chapter": 10, "target_chars": 900, "hook": "董事长问我愿不愿意回去。"},
+    {"chapter": 11, "target_chars": 900, "hook": "蒋坤当众向我道歉。"},
+    {"chapter": 12, "target_chars": 900, "hook": "我把商场的钥匙放回桌上。"}
+  ],
+  "beats": [
+    {
+      "beat_id": "beat-01",
+      "target_chars": 2800,
+      "scene_location": "云桥广场物业办公室与三楼烘焙店",
+      "character_goal": "守住续租底线并保护订单和员工",
+      "conflict_action": "蒋坤涨租、弹烟灰、断水毁掉生日订单",
+      "information_gap": "主角已经谈下对面旧厂区",
+      "emotion_debt_balance": "两年引流被羞辱为占位置",
+      "chapter_end_hook": "她打给青杉里的房东，要求今晚开门",
+      "paywall_card": true,
+      "forbidden_summary": ["不能写成单纯搬店流水账"]
+    },
+    {
+      "beat_id": "beat-02",
+      "target_chars": 3000,
+      "scene_location": "全家各业态门店与搬迁夜",
+      "character_goal": "完成全家业态和会员迁移",
+      "conflict_action": "新品牌上门羞辱，物业公开抹黑主角",
+      "information_gap": "消控室有断水记录备份",
+      "emotion_debt_balance": "员工被牵连、顾客订单被毁",
+      "chapter_end_hook": "主角拿到消控室备份",
+      "paywall_card": true,
+      "forbidden_summary": ["不能让家人无条件工具人化"]
+    },
+    {
+      "beat_id": "beat-03",
+      "target_chars": 3000,
+      "scene_location": "青杉里试营业与行业群",
+      "character_goal": "让真实客流完成投票",
+      "conflict_action": "蒋坤造谣她恶意撤场，老商户被逼站队",
+      "information_gap": "多家老商户押金和乱收费证据已汇总",
+      "emotion_debt_balance": "被行业群公开羞辱",
+      "chapter_end_hook": "老商户把押金单拍在桌上",
+      "paywall_card": true,
+      "forbidden_summary": ["不能靠主角独白证明胜利"]
+    },
+    {
+      "beat_id": "beat-04",
+      "target_chars": 3000,
+      "scene_location": "云桥广场招商会与青杉里夜市",
+      "character_goal": "公开证据，拒绝廉价回头",
+      "conflict_action": "招商会翻车，董事会追责，蒋坤求她回去",
+      "information_gap": "新品牌也被蒋坤用回扣合同坑了",
+      "emotion_debt_balance": "所有老租户要得到正式道歉",
+      "chapter_end_hook": "主角把旧钥匙放回桌上",
+      "paywall_card": true,
+      "forbidden_summary": ["不能用一句话草率原谅反派"]
+    }
+  ]
+}

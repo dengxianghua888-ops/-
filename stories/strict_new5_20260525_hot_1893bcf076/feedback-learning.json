@@ -1,0 +1,118 @@
+{
+  "story_slug": "guzhen-wedding-dead-for-years",
+  "pipeline_mode": "production",
+  "genre": "family_ethics",
+  "mechanisms": ["M1", "M2", "M3", "M6"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 10508,
+  "quality_scores": {
+    "platform": 8.0,
+    "emotion": 8.0,
+    "style": 8.0,
+    "logic": 8.0
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "ch1-guzhen-screen",
+      "fact": "开篇20%内用公共场域大屏+婚礼预热视频，先坐实“丈夫再婚”，再抛出“我明明活着”的核心矛盾。"
+    },
+    {
+      "chapter": 2,
+      "scene_id": "ch2-backstage-infiltration",
+      "fact": "女主伪装成花艺补件混入后台，不靠巧合直闯主会场，推进动作线并提前落“丧妻带娃”社会认知。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "ch3-gift-desk-overhear",
+      "fact": "礼账台偷录同时完成两件事：补强婆家轻贱旧妻的旧账；提前埋下“孩子也被写死”的二次爆点。"
+    },
+    {
+      "chapter": 5,
+      "scene_id": "ch5-fake-marriage-proof",
+      "fact": "把对方自信举出的“合法证明”反手变成证据，镜头近拍女方签名栏写着原配名字，反转效率高。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "ch6-birth-certificate-reveal",
+      "fact": "出生证明把“死人很多年”与“亲生儿子真实存在”硬闭锁，完成情绪峰值和逻辑闭环。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "ch8-live-evidence-preservation",
+      "fact": "直播回放、时间码、签收单、律师函同场落地，把撕扯升级为证据保全，显著抬高可信度。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "ch11-shen-yueran-turns",
+      "fact": "二婚新娘不是洗白，而是带着自保动机交出群聊和转账截图，能补证据而不稀释主角锋利度。"
+    },
+    {
+      "chapter": 14,
+      "scene_id": "ch14-new-home-wind-chime",
+      "fact": "结尾不用大团圆复婚或暴富，落在孩子一句“我们家这次不会再丢了吗”，把主题收束到安全感重建。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 2,
+      "card_type": "社会认知坐实",
+      "trigger": "伴郎轻飘飘说出“丧妻带娃总算翻篇”。"
+    },
+    {
+      "chapter": 3,
+      "card_type": "恶意升级",
+      "trigger": "婆婆脱口而出“连那个小杂种都没了”。"
+    },
+    {
+      "chapter": 5,
+      "card_type": "证据反杀",
+      "trigger": "二婚证明的女方签名栏写的是林晚晴。"
+    },
+    {
+      "chapter": 6,
+      "card_type": "生死闭锁",
+      "trigger": "女主举出孩子出生证明，追问“死人怎么给你生的儿子”。"
+    },
+    {
+      "chapter": 8,
+      "card_type": "法律压迫",
+      "trigger": "律师逼问周瑞阳：承认重婚，还是承认伪造证明。"
+    },
+    {
+      "chapter": 10,
+      "card_type": "名声反噬",
+      "trigger": "录音外放“白送的媳妇，不要白不要”，投资人收回名片。"
+    },
+    {
+      "chapter": 11,
+      "card_type": "同盟转供",
+      "trigger": "沈月然交出商户群截图，“证先做出来，给女方家安心”。"
+    },
+    {
+      "chapter": 12,
+      "card_type": "法庭定锤",
+      "trigger": "法官当庭追问：你要继续说你太太死了吗。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "古镇婚礼直播",
+    "原配婚礼抢话筒",
+    "被宣告死亡的活人",
+    "假结婚证明签原配名",
+    "出生证明反杀",
+    "婚内财产转给二婚对象",
+    "礼账台偷录",
+    "律师现场证据保全",
+    "婆家轻贱旧妻",
+    "孩子安全感重建",
+    "家庭伦理反杀",
+    "现代反转爽文"
+  ],
+  "manual_revision_delta": []
+}

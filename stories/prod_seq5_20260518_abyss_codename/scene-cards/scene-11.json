@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 900,
+  "location": "飞行安全课教室",
+  "time": "第四天下午",
+  "pov": "林雾第一人称冷静观察",
+  "characters": [
+    "林雾",
+    "纪闻",
+    "蒋晴",
+    "课堂学生"
+  ],
+  "character_goal": "当面观察纪闻的话术、控制欲和对失踪者的称呼。",
+  "opposition_goal": "纪闻想当众压迫林雾，试探她是否已经知道太多。",
+  "conflict_action": "纪闻点名林雾上台复盘失踪女生的错误，林雾拿起粉笔，把异常乘客四个字划掉，改成失踪者姓名。",
+  "information_gap": "纪闻是否识破黑匣身份，课堂点名是警告还是邀请未知。",
+  "emotional_debt_delta": "价值分界债建立，身份风险持续上升。",
+  "payoff_or_hook": "林雾公开拆穿纪闻把人客体化的话术。",
+  "chapter_end_hook": "纪闻微笑着说：那就请林雾同学复盘一下，她们为什么没能下机。",
+  "paywall_card": false,
+  "must_include": [
+    "飞行安全课",
+    "异常乘客话术",
+    "林雾改写成受害者姓名",
+    "纪闻点名施压"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成长篇课堂辩论",
+    "不要让纪闻话术显得高级迷人",
+    "不要让林雾失控吵架"
+  ]
+}

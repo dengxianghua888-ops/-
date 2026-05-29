@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "beat-03",
+  "target_chars_min": 700,
+  "target_chars_max": 780,
+  "location": "集训楼走廊",
+  "time": "次日午后",
+  "pov": "沈栀第一人称",
+  "characters": [
+    "沈栀",
+    "周叙川"
+  ],
+  "character_goal": "沈栀要试探周叙川是否也重生。",
+  "opposition_goal": "周叙川要套出她突然转向的原因，并重新占据主动。",
+  "conflict_action": "沈栀故意提起前世只有他们知道的细节，周叙川堵住去路，用‘做过同一个梦’半认半藏地反试探。",
+  "information_gap": "周叙川到底记得多少，他为什么重来后还想两头都留？",
+  "emotional_debt_delta": "信息战从单向先知升级成双向对局。",
+  "payoff_or_hook": "周叙川露出重生破绽，旧情不再是怀旧，而是危险。",
+  "chapter_end_hook": "周叙川说他也做过一个梦，可他梦里的新娘，分明是我和我姐两张脸。",
+  "paywall_card": false,
+  "must_include": [
+    "堵路动作",
+    "半句梦境试探",
+    "沈栀当场识别他不是普通纠缠"
+  ],
+  "must_not_write_as_exposition": [
+    "不要长篇讨论重生原理",
+    "不要把试探写成安静聊天",
+    "不要回顾完整前世时间线"
+  ],
+  "rhythm_job": {
+    "shape": "对白试探占主，末尾一句落锤反转",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": 4,
+  "target_chars_min": 550,
+  "target_chars_max": 700,
+  "location": "质检站大厅",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "宋明远内心转折，看穿套路",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "内心独白：识破马国栋卡金额精准、不验货、只要钱的敲诈模式",
+  "information_gap": "读者第一次感知主角不是真屈服",
+  "emotional_debt_delta": "情绪谷底→清醒转折",
+  "payoff_or_hook": "'好。'宋明远的声音沙哑，'我交。'——但他的眼睛里没有绝望",
+  "chapter_end_hook": "'好。'宋明远的声音沙哑，'我交。'——但他的眼睛里没有绝望",
+  "paywall_card": false,
+  "must_include": [
+    "内心独白：识破马国栋卡金额精准、不验货、只要钱的敲诈模式"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

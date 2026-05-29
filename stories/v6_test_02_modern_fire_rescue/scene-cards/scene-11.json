@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "chapter_id": 6,
+  "is_chapter_end": true,
+  "is_climax_beat": true,
+  "target_chars_min": 800,
+  "target_chars_max": 950,
+  "location": "律师事务所/主角住处",
+  "time": "调取证据后",
+  "pov": "顾承安（第一人称）",
+  "characters": ["顾承安", "律师周衡"],
+  "character_goal": "确认证据链完整，启动全面追责",
+  "opposition_goal": "无直接对手——证据本身是这场戏的'角色'",
+  "conflict_action": "律师展示调取到的三条急救调度群消息完整内容（20:07/20:08/20:11），逐条分析其法律致命性；主角确认发起全面追责——不只离婚，还要她的白大褂",
+  "information_gap": "读者第一次完整看到三条消息原文——从'提前布局'变成'铁证如山'",
+  "emotional_debt_delta": "-2：证据完整呈现的'终于实锤'快感",
+  "payoff_or_hook": "'那就让她自己看看，她到底配不配穿那身白大褂。'——宣战",
+  "chapter_end_hook": "那就让她自己看看，她到底配不配穿那身白大褂。",
+  "paywall_card": true,
+  "must_include": [
+    "三条消息完整原文（20:07/20:08/20:11各一条）",
+    "每条消息的时间戳必须精确",
+    "律师对死环逻辑的简要分析（承认=渎职，否认=伪造）",
+    "主角的宣战金句：'配不配穿那身白大褂'",
+    "回扣第一章120被拒的因果闭环"
+  ],
+  "must_not_write_as_exposition": [
+    "法律分析不能变成律师的长篇演讲——用最短的话点明致命性",
+    "M1死环的完整逻辑读者自己能推出，不需全部说透"
+  ],
+  "rhythm_job": {
+    "shape": "匀速高压",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.0,
+    "comma_period_ratio": 0.42,
+    "sentence_avg_len": 15.5,
+    "dominant_emotion": "证据-冷锋",
+    "emotion_arc": "证据逐条展示 → 死环确认 → 追责决断 → 宣战",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "看到三条消息时的'铁证如山'快感+'这下跑不了了'的兴奋+'配不配穿'预告的痛快期待",
+    "required_techniques": [
+      {
+        "technique": "时间戳证据锤",
+        "instruction": "三条消息逐条展示，每条带精确时间戳。时间的精确性让'蓄意'无可辩驳——数字比描述更有法律感。格式：20:07【消息内容】"
+      },
+      {
+        "technique": "原文引用式揭露",
+        "instruction": "直接引用调度群消息原文——让施害者'自己的话'成为铁证。不转述、不概括，原文比任何分析都更有冲击力"
+      },
+      {
+        "technique": "冷静宣战金句",
+        "instruction": "精准击中施害者最脆弱的软肋（白大褂=她的身份、地位、尊严）。先定位'她最在意什么'，再宣告'我就要毁掉它'"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "反问定位软肋+宣战句",
+        "example": "她最在意的，不就是那身制服吗？那就让她自己看看，她到底配不配穿。",
+        "instruction": "改为白大褂版本。先用反问命名她最在乎的东西，再用'让她看看配不配'宣战。读者在此处应该拍大腿"
+      },
+      {
+        "structure": "否定表面原因+揭示真实原因",
+        "example": "119第一次接警不是故意挂你电话，是看见这几条后犹豫了。",
+        "instruction": "为第一章的'为什么120不来'给出因果闭环——原来是因为这三条消息。信息差补全的满足感"
+      }
+    ],
+    "peak_type": "evidence_lockdown",
+    "bomb_technique": "递进揭露+因果闭环",
+    "source_excerpt": "周衡把三条消息截图放在桌上：20:07【今晚我丈夫可能会因身体不适拨打120，他近期确诊焦虑症，容易夸大症状，请先核实再按流程处理。】20:08【如果他说胸痛、呼吸困难，大概率是恐慌发作，不必按最高优先级出车。】20:11【已安排他服用安定类药物，如果来电请引导他深呼吸自我缓解即可。】"
+  }
+}

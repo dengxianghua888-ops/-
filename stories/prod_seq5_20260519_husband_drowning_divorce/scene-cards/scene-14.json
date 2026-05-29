@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 740,
+  "target_chars_max": 930,
+  "location": "国际应急声场项目发布会后台",
+  "time": "三个月后",
+  "pov": "沈知晚第一人称",
+  "characters": ["沈知晚", "周砚白", "陆景辞", "国际项目嘉宾"],
+  "character_goal": "沈知晚完成国际项目发布，站稳自己的事业位置。",
+  "opposition_goal": "陆景辞想在发布会后台递复婚协议，重新获得进入她人生的资格。",
+  "conflict_action": "沈知晚检查演示模型并准备上台，陆景辞拿着复婚协议闯入后台，被工作人员拦在通道外。",
+  "information_gap": "陆景辞还没听到最终拒绝。",
+  "emotional_debt_delta": "价值低估债第二轮清算；前夫追悔进入最终场。",
+  "payoff_or_hook": "他终于看见她的光，却已经失去站在身边的资格。",
+  "chapter_end_hook": "国际发布会后台，陆景辞捧着复婚协议，听见沈知晚用英文介绍她的项目。",
+  "paywall_card": false,
+  "must_include": [
+    "国际项目发布会",
+    "演示模型",
+    "周砚白递演示笔而非替她发言",
+    "陆景辞手里的复婚协议",
+    "沈知晚上台介绍项目"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把事业成功写成豪门炫富",
+    "不要让陆景辞打断发布会",
+    "不要让新男主成为刺激前夫的工具"
+  ]
+}

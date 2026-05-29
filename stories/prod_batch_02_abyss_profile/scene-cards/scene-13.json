@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "B13",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "校外病理影像工作室",
+  "time": "第六天下午",
+  "pov": "第一人称，林照",
+  "characters": ["林照", "江砚", "江砚助手", "刘队"],
+  "character_goal": "追踪病例遗照模板，找到江砚与寒灯档案馆论坛的连接。",
+  "opposition_goal": "江砚要观察林照本人，确认她是否值得被邀请成第八盏灯。",
+  "conflict_action": "林照伪装送片实习生进入工作室，趁助手搬设备时取走废片袋里的蜡封模板，暗房灯忽然亮起。",
+  "information_gap": "江砚只是影像模板提供者，还是馆长的代理人。",
+  "emotional_debt_delta": "组织层级债+1，身份暴露风险+1。",
+  "payoff_or_hook": "林照主动离开校园追击第二层凶手，江砚第一次正面叫出寒灯。",
+  "chapter_end_hook": "暗房灯亮，江砚站在投影后叫出她的代号：寒灯。",
+  "paywall_card": false,
+  "must_include": [
+    "送片实习生伪装",
+    "废片袋",
+    "蜡封模板",
+    "暗房灯亮",
+    "江砚叫出寒灯"
+  ],
+  "must_not_write_as_exposition": [
+    "不要用调查报告跳到江砚",
+    "不要把江砚写成浪漫艺术家",
+    "不要描写真实平台或真实案件影射"
+  ]
+}

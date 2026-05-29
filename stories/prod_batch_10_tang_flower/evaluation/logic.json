@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 7.4,
+  "evidence": [
+    {
+      "point": "legal_boundary",
+      "quote": "医疗隐私、探视名单和紧急联系人都会按保护令重新设定。",
+      "assessment": "核心机制改为本人授权与保护令。"
+    },
+    {
+      "point": "no_fake_death",
+      "quote": "车内人员失联，生还可能极低。",
+      "assessment": "陆家视角为事故失联误判，不是机构伪造死亡。"
+    },
+    {
+      "point": "police_collaboration",
+      "quote": "非授权查档和接触请求都会留痕，中心会同步警方。",
+      "assessment": "庇护中心有合规边界。"
+    },
+    {
+      "point": "criminal_consequence",
+      "quote": "林若宁已经被警方带回调查。",
+      "assessment": "纵火和劫持后果交由警方处理。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 800,
+  "target_chars_max": 950,
+  "location": "母亲老房楼道",
+  "time": "担保贷逾期前夜",
+  "pov": "第一人称，母亲",
+  "characters": [
+    "母亲",
+    "儿子霍建明",
+    "邻居",
+    "社区民警"
+  ],
+  "character_goal": "母亲拒绝儿子求钱并留下骚扰备案。",
+  "opposition_goal": "儿子用下跪、砸门和亲情牌逼母亲转账。",
+  "conflict_action": "儿子跪在楼道拍门喊妈，母亲隔门播放他当初说父亲拖着受罪的录音，并拨打社区民警电话备案。",
+  "information_gap": "母亲只说婚房不能卖，没有马上解释原因。",
+  "emotional_debt_delta": "第一次回旋儿子原话，母亲不再承担母亲兜底责任。",
+  "payoff_or_hook": "儿子从索取者变成求救者，但母亲没有心软。",
+  "chapter_end_hook": "我把婚房出资确认书放到律师桌上。",
+  "paywall_card": false,
+  "must_include": [
+    "楼道拍门",
+    "儿子下跪喊妈",
+    "当初八十万原话录音",
+    "社区民警备案",
+    "婚房出资确认书露面"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让母亲开门安慰",
+    "不要只写母亲内心变硬",
+    "不要让邻居劝和成功",
+    "不要把录音写成抽象证据"
+  ]
+}

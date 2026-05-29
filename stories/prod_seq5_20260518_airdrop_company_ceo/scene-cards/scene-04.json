@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 720,
+  "target_chars_max": 880,
+  "location": "品牌方数据看板前",
+  "time": "平台任命函曝光后",
+  "pov": "许闻溪第一人称",
+  "characters": ["许闻溪", "苏曼宁", "周砚礼", "品牌方代表", "平台招商员工"],
+  "character_goal": "许闻溪用履历质询拆穿苏曼宁不具备高管资格",
+  "opposition_goal": "苏曼宁要用周砚礼背书和包装履历稳住职位",
+  "conflict_action": "许闻溪点开苏曼宁简历，连续追问项目负责人、合同编号、实际复盘文件",
+  "information_gap": "苏曼宁提交的海外品牌项目截图无法核验",
+  "emotional_debt_delta": "-小三越位债第一笔 +履历造假债显形",
+  "payoff_or_hook": "苏曼宁答不上关键细节，品牌方开始翻自己的合作记录",
+  "chapter_end_hook": "许闻溪把鼠标停在第一份项目截图上：这个项目，负责人叫什么？",
+  "paywall_card": false,
+  "must_include": ["海外品牌操盘履历", "无法核验的项目截图", "三连追问", "品牌方代表核对记录", "苏曼宁求助周砚礼"],
+  "must_not_write_as_exposition": ["不要靠旁白宣布造假", "不要攻击外貌年龄", "不要让苏曼宁完全无辜"]
+}

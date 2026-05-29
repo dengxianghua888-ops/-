@@ -1,0 +1,53 @@
+{
+  "candidates": [
+    {
+      "id": "A",
+      "premise": "将现代战区弃救改为古代北境质馆归来，女主寒毒入骨、求救信被表妹截留，摄政王迟来追悔。",
+      "freshness_score": 9.0,
+      "fidelity_score": 9.1,
+      "tomato_score": 8.9,
+      "logic_score": 8.8,
+      "risks": [
+        "需避免露骨伤害",
+        "需限制男主洗白"
+      ]
+    },
+    {
+      "id": "B",
+      "premise": "改为仙门囚塔弃救，女主灵脉尽毁后不原谅师尊。",
+      "freshness_score": 8.7,
+      "fidelity_score": 8.6,
+      "tomato_score": 8.6,
+      "logic_score": 8.5,
+      "risks": [
+        "玄幻规则会分散情绪"
+      ]
+    },
+    {
+      "id": "C",
+      "premise": "改为民国救援错过，女主携病历与电报死后清算。",
+      "freshness_score": 8.4,
+      "fidelity_score": 8.5,
+      "tomato_score": 8.4,
+      "logic_score": 8.5,
+      "risks": [
+        "年代氛围成本高"
+      ]
+    }
+  ],
+  "selected_candidate": "A",
+  "replacement_map": {
+    "战区": "北境质馆",
+    "病历": "寒毒脉案",
+    "闺蜜": "表妹柳明鸢",
+    "热搜": "御史奏章与京城告示",
+    "大师": "春明寺命灯"
+  },
+  "mechanism_preservation": {
+    "M6": "弃救归来-病重误解-证据公开-拒绝复生-重生",
+    "M3": "装病争宠话术被脉案反噬",
+    "M2": "孤女回到父母尚在的将门嫡女",
+    "M1": "求救信和军医簿闭合"
+  },
+  "sensitive_topic_policy": "不写露骨伤害，不浪漫化施害者，不让女主原谅；反派清算走御史和刑律。"
+}

@@ -1,0 +1,43 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 760,
+  "target_chars_max": 900,
+  "location": "林家老宅客厅持续场",
+  "time": "紧接上一场",
+  "pov": "林见棠 第一人称",
+  "characters": [
+    "林见棠",
+    "林薇薇",
+    "苏曼",
+    "林振宏",
+    "律师"
+  ],
+  "character_goal": "一次性剥夺林薇薇和苏曼在家产与公司上的资格幻觉。",
+  "opposition_goal": "苏曼母女要继续用亲情和父亲偏心逼她让渡。",
+  "conflict_action": "林见棠摊开遗嘱、股权文件、产权证，逐项收回林薇薇碰过的项目权限和老宅使用权。",
+  "information_gap": "苏曼母女这才知道这些年碰到的资源都是“借来的”。",
+  "emotional_debt_delta": "家庭线大额回收，夺权债基本清零。",
+  "payoff_or_hook": "继妹和后妈不只是丢脸，要失去赖以嚣张的现实支撑。",
+  "chapter_end_hook": "林见棠说：我不是抢回来，我只是停掉借给你们的资格。",
+  "paywall_card": true,
+  "must_include": [
+    "遗嘱、产权证、股权文件至少两项实物出现",
+    "收回项目权限的具体动作",
+    "林薇薇从趾高气扬到失声",
+    "价值观总句的变体"
+  ],
+  "must_not_write_as_exposition": [
+    "不要朗读文件全文",
+    "不要写所有亲戚来评理",
+    "不要把清算写成说教课"
+  ],
+  "rhythm_job": {
+    "shape": "文件摊开1拍+逐项收权2拍+价值观总句1拍",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "ratio_note": ""
+  }
+}

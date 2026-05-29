@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/strict_new5_20260528_hot_f0b4405601/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 10959,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 14,
+      "hook_hits": 14,
+      "hook_coverage": 1.0,
+      "lengths": [
+        701,
+        668,
+        768,
+        774,
+        717,
+        786,
+        975,
+        1014,
+        1013,
+        1022,
+        640,
+        657,
+        548,
+        537
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 106,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 2,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 10,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 10959,
+      "sentence_count": 580,
+      "avg_sentence_length": 17.895,
+      "dialogue_ratio": 0.257,
+      "question_marks": 61,
+      "question_marks_per_k": 5.566,
+      "physical_emotion_hits": {
+        "指尖": 4,
+        "太阳穴": 1,
+        "青筋": 1,
+        "手心": 1,
+        "眼眶": 1,
+        "头皮": 1,
+        "指甲": 2,
+        "掌心": 7
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 26.28
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 10656,
+        "line_count": 480,
+        "avg_line_chars": 22.2,
+        "median_line_chars": 22.0,
+        "short_line_rate": 0.3333,
+        "long_line_rate": 0.0646,
+        "quote_line_rate": 0.3875,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 8.258,
+        "comma_period_ratio": 1.282,
+        "sentence_avg_len": 24.7
+      },
+      "candidate": {
+        "chars": 10759,
+        "line_count": 574,
+        "avg_line_chars": 18.744,
+        "median_line_chars": 19.0,
+        "short_line_rate": 0.2387,
+        "long_line_rate": 0.0,
+        "quote_line_rate": 0.3449,
+        "barrage_line_rate": 0.0105,
+        "question_marks_per_k": 5.67,
+        "comma_period_ratio": 1.076,
+        "sentence_avg_len": 17.9
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 561,
+      "unique_sentence_skeletons": 561,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0018
+    },
+    "production_meta_leak": {
+      "count": 0,
+      "examples": [],
+      "status": "pass"
+    },
+    "narration_crutches": {
+      "count": 0,
+      "status": "pass",
+      "examples": []
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.1,
+    "emotion": 8.4,
+    "style": 7.2,
+    "logic": 7.6
+  },
+  "evidence": [
+    {
+      "type": "opening_hook",
+      "location": "scene-01",
+      "text": "“沈砚，你能不能别碰我？”之后接“你有什么用啊？”“赘婿”“免费护工”，前 150 字内完成羞辱钩子和关系悬念。"
+    },
+    {
+      "type": "chapter_hooks",
+      "location": "scene-01 to scene-14",
+      "text": "14 个 scene 结尾均形成离婚、证据、身份、报警、断联类钩子。"
+    },
+    {
+      "type": "emotion_debt",
+      "location": "scene-04 and scene-10",
+      "text": "岳父掌掴债在派出所证据提交中回收，林知夏动手也被当场报警处理。"
+    },
+    {
+      "type": "ability_reveal",
+      "location": "scene-08 and scene-09",
+      "text": "旧图纸、U盘、测试日志、邮件存档先铺证据，再给三百万授权和沈工身份。"
+    },
+    {
+      "type": "boundary",
+      "location": "scene-12 and scene-14",
+      "text": "沈砚支付抚养费与医药费，但拒绝复合、拒绝同住、换号离城。"
+    }
+  ]
+}

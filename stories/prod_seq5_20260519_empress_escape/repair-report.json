@@ -1,0 +1,26 @@
+{
+  "phase": 7,
+  "mode": "production",
+  "status": "ok",
+  "blocking": [],
+  "results": [
+    {
+      "name": "mobile_paragraphs",
+      "status": "ok",
+      "fixed_files": [],
+      "manual_review": []
+    },
+    {
+      "name": "quality_report_sync",
+      "status": "ok",
+      "synced_sections": []
+    },
+    {
+      "name": "metadata",
+      "status": "ok",
+      "patched": {
+        "story.yaml": true
+      }
+    }
+  ]
+}

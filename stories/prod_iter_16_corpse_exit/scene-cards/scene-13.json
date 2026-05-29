@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 800,
+  "target_chars_max": 950,
+  "location": "港务封闭排洪井井口",
+  "time": "倒计时归零前后",
+  "pov": "第一人称，江沉；结尾转灵魂旁观",
+  "characters": ["江沉", "系统", "管网工友", "安全主管"],
+  "character_goal": "江沉上传全部安全帽录像和毒气报告，完成系统脱离。",
+  "opposition_goal": "现场调度要按江栀派工单催江沉下井，系统倒计时要完成不可逆脱离。",
+  "conflict_action": "江沉把存储卡插入应急终端，按下公开上传，在救援混乱和倒计时归零中脱离身体。",
+  "information_gap": "施害者仍以为江沉只是闹失踪，不知道他已死亡脱离。",
+  "emotional_debt_delta": "+死亡不可追回；-江沉退出审判体系；-证据进入公开倒计时",
+  "payoff_or_hook": "第三付费级卡点：系统归零，死亡/脱离临界完成。",
+  "chapter_end_hook": "倒计时归零后，江沉的灵魂飘在井口，看见救援绳空了。",
+  "paywall_card": true,
+  "must_include": ["应急终端", "全部录像上传", "毒气报告", "倒计时归零", "灵魂旁观第一秒", "救援绳空了"],
+  "must_not_write_as_exposition": ["不要写可模仿死亡步骤", "不要让江沉主动求死", "不要复活或托梦"]
+}

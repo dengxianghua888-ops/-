@@ -1,0 +1,21 @@
+phase: 5
+key: beat_bible_v2
+role: Beat Bible Architect V2
+title: 场景级写作圣经（跟随源文分章 + 千字切片）
+system_prompt: prompts/production/beat-bible-v2.md
+human_gate: none
+retryable: false
+required_inputs:
+  - story/market-brief.json
+  - story/story-brief.json
+  - story/adaptation-room.json
+  - story/adaptation.md
+  - story/analysis/style-dna.md
+  - story/analysis/soul-contract.md
+  - story/analysis/chapter-soul-map.json
+  - story/hook/opening-hook.md
+required_outputs:
+  - beat-bible.json
+  - scene-cards/*.json
+validators:
+  - validate-production-story:phase5

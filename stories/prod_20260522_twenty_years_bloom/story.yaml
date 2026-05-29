@@ -1,0 +1,10 @@
+slug: prod_20260522_twenty_years_bloom
+status: phase1
+current_phase: 1
+pipeline_mode: production
+corpus_source: hot_d66550fc74
+genre: family_ethics
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "production run 2026-05-22; verify before any external upload"

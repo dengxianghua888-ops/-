@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-03",
+  "beat_id": "B03",
+  "target_chars_min": 690,
+  "target_chars_max": 780,
+  "location": "学校家长开放日，亲子复健体验教室",
+  "time": "上午",
+  "pov": "沈砚第一人称",
+  "characters": [
+    "沈砚",
+    "林承安",
+    "林泽宇",
+    "老师",
+    "家长们"
+  ],
+  "character_goal": "沈砚按约参加亲子复健体验，维护父亲身份。",
+  "opposition_goal": "林承安要林泽宇当成功家长，林泽宇想借体验设备展示自己。",
+  "conflict_action": "林承安当众划掉沈砚名字，林泽宇调错体验设备参数还抢着上台。",
+  "information_gap": "沈砚为什么能看出参数错误，只用一个伸手断电动作埋伏笔。",
+  "emotional_debt_delta": "亲子公开羞辱债+2；专业能力伏笔+1。",
+  "payoff_or_hook": "老师当众念出家长协作名单，林承安把沈砚的名字划掉。",
+  "chapter_end_hook": "老师当众念出家长协作名单，林承安把沈砚的名字划掉。",
+  "paywall_card": false,
+  "must_include": [
+    "林承安划名字",
+    "体验设备参数报警",
+    "家长群评论或小声吐槽一两句",
+    "沈砚伸手断电保护孩子"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲完整设备原理",
+    "不要写家长反应清单",
+    "不要把学校活动写成温情篇"
+  ],
+  "rhythm_job": {
+    "shape": "现场动作推进，插入2行评论吐槽，章尾卡在名字被划掉",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 2,
+    "max_question_marks": 5,
+    "max_pressure_terms": 1,
+    "dialogue_action_breathing_ratio": "对白3，动作4，评论1，呼吸点1，章尾钩1",
+    "low_pressure_carry": "家长群弹出短评论、老师翻名单、设备提示灯闪"
+  }
+}

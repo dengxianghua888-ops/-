@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 1150,
+  "target_chars_max": 1210,
+  "location": "融资发布会主舞台",
+  "time": "发布会新品演示环节",
+  "pov": "顾砚舟第一人称",
+  "characters": [
+    "顾砚舟",
+    "沈知宁",
+    "陆承安",
+    "专利律师",
+    "投资人",
+    "媒体记者"
+  ],
+  "character_goal": "公开打掉肺康系统全部自研的谎言",
+  "opposition_goal": "沈知宁和陆承安要用人格担保压下质疑，完成融资",
+  "conflict_action": "顾砚舟让律师送达侵权告知，大屏同步切出专利底稿、提交时间和云端版本日志",
+  "information_gap": "同居转账、资产冻结还未释放，先锁专业线",
+  "emotional_debt_delta": "事业债+3：陪诊废物身份反转为原始研发人",
+  "payoff_or_hook": "付费级公开处刑第一击",
+  "chapter_end_hook": "截断句：大屏亮起的第一张图，是我五年前写下的雾化节律模型底稿。",
+  "paywall_card": true,
+  "must_include": [
+    "沈知宁亲口说全部自研、数据真实、无侵权",
+    "专利底稿与云端时间戳",
+    "直播弹幕/评论从夸赞转为质疑",
+    "顾砚舟只用短句回收没工作污名"
+  ],
+  "must_not_write_as_exposition": [
+    "不要讲解专业算法细节",
+    "不要把所有证据一次放完",
+    "不要让网友评论替代法律动作"
+  ],
+  "rhythm_job": {
+    "shape": "公开担保先落地，证据分三屏递进，弹幕承接误导反转",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 3,
+    "max_question_marks": 6,
+    "max_pressure_terms": 1,
+    "mix": "证据动作约35%，对白约35%，弹幕/评论约15%，现场反应约15%；强压词只用一次反问，后接律师送达的低压动作"
+  }
+}

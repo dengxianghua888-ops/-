@@ -1,0 +1,110 @@
+{
+  "pipeline_mode": "production",
+  "optimization": "v2_style_fidelity",
+  "target_length": {"min": 10000, "max": 14000, "target": 11500},
+  "title": "忠仆",
+  "genre": "ancient_sweet",
+  "mechanisms": ["M2_identity_explosion", "M3_causal_boomerang", "M5_temperature_reversal", "M6_multi_layer_escalation"],
+  "opening_structure": "conflict_first",
+  "climax_budget_note": "B9-B10-B11 are climax beats, get 35% of total chars",
+  "beats": [
+    {
+      "beat_id": "B1", "title": "母亲替罪",
+      "budget_role": "opening", "budget_pct": "6%",
+      "target_chars_min": 650, "target_chars_max": 850,
+      "is_climax_beat": false,
+      "must_include": ["女总裁程琬让母亲替背贪腐罪", "母亲入狱病死", "女主卫宁发誓复仇", "核心问句：忠仆就该死吗"]
+    },
+    {
+      "beat_id": "B2", "title": "改名潜入",
+      "budget_role": "buildup", "budget_pct": "5%",
+      "target_chars_min": 550, "target_chars_max": 700,
+      "is_climax_beat": false,
+      "must_include": ["女主改名入职集团底层前台", "借母亲旧恩获得靠近高层的岗位", "冷静隐忍学会不露痕迹"]
+    },
+    {
+      "beat_id": "B3", "title": "茶房设局",
+      "budget_role": "buildup", "budget_pct": "7%",
+      "target_chars_min": 750, "target_chars_max": 950,
+      "is_climax_beat": false,
+      "must_include": ["女主用一次业务危机展示能力", "救下同事获信任", "被总裁办主任记住名字"]
+    },
+    {
+      "beat_id": "B4", "title": "安神香",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 850, "target_chars_max": 1050,
+      "is_climax_beat": false,
+      "must_include": ["女总裁送'好意'实为暗害（合同陷阱/数据漏洞）", "女主借专业指出隐患", "总裁开始怀疑女总裁的好意", "女主被总裁记住"]
+    },
+    {
+      "beat_id": "B5", "title": "火中护折",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 950, "target_chars_max": 1150,
+      "is_climax_beat": false,
+      "must_include": ["关键危机中女主以身护住核心证据/文件", "展示忠诚和能力", "被正式提拔进核心团队", "女总裁轻视：'一个会讨巧的前台罢了'"]
+    },
+    {
+      "beat_id": "B6", "title": "构陷触底",
+      "budget_role": "buildup", "budget_pct": "12%",
+      "target_chars_min": 1250, "target_chars_max": 1500,
+      "is_climax_beat": false,
+      "must_include": ["女总裁设局陷害女主泄露商业机密", "证人指认证据齐全", "女主像母亲一样被推到悬崖边", "关键时刻盟友带证据出现"]
+    },
+    {
+      "beat_id": "B7", "title": "翻盘结盟",
+      "budget_role": "buildup", "budget_pct": "9%",
+      "target_chars_min": 950, "target_chars_max": 1150,
+      "is_climax_beat": false,
+      "must_include": ["女主早已预判构陷并留了后手", "证据翻盘女总裁首次失态", "女主晋升并拉拢盟友"]
+    },
+    {
+      "beat_id": "B8", "title": "账册引火",
+      "budget_role": "buildup", "budget_pct": "8%",
+      "target_chars_min": 850, "target_chars_max": 1050,
+      "is_climax_beat": false,
+      "must_include": ["女主接手财务发现程家供应链贪腐", "借外力弹劾程家", "总裁疑心大起"]
+    },
+    {
+      "beat_id": "B9", "title": "抓现行",
+      "budget_role": "climax", "budget_pct": "11%",
+      "target_chars_min": 1150, "target_chars_max": 1400,
+      "is_climax_beat": true,
+      "must_include": ["逼女总裁出手害人被当场抓住", "M3回旋金句：'这回又是哪位忠仆替您走这一遭'", "总裁从幕后走出"]
+    },
+    {
+      "beat_id": "B10", "title": "身份摊牌",
+      "budget_role": "climax", "budget_pct": "12%",
+      "target_chars_min": 1250, "target_chars_max": 1500,
+      "is_climax_beat": true,
+      "must_include": ["女主到女总裁面前揭示身份", "女总裁不记得母亲全名", "回旋反讽：'下属为公司牺牲是应该的吧'", "废黜/免职"]
+    },
+    {
+      "beat_id": "B11", "title": "母亲有名",
+      "budget_role": "climax", "budget_pct": "10%",
+      "target_chars_min": 1050, "target_chars_max": 1300,
+      "is_climax_beat": true,
+      "must_include": ["母亲平反", "总裁早知女主身份但尊重她亲手复仇", "女主为母亲正名", "情绪温暖补偿"]
+    },
+    {
+      "beat_id": "B12", "title": "雪尽",
+      "budget_role": "closure", "budget_pct": "3%",
+      "target_chars_min": 300, "target_chars_max": 500,
+      "is_climax_beat": false,
+      "must_include": ["女主去母亲坟前告知结果", "不再为奴不再隐忍", "余温收束"]
+    }
+  ],
+  "rhythm_contract": {
+    "source_measured": {
+      "avg_line_chars": 16.747,
+      "short_line_rate": 0.639,
+      "quote_line_rate": 0.274,
+      "barrage_rate": 0.003
+    },
+    "candidate_target": {
+      "avg_line_chars_range": [14, 19],
+      "short_line_rate_range": [0.50, 0.70],
+      "quote_line_rate_range": [0.20, 0.35],
+      "barrage_rate_max": 0.02
+    }
+  }
+}

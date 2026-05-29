@@ -1,0 +1,52 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "B04",
+  "target_chars_min": 720,
+  "target_chars_max": 820,
+  "location": "投资人会所小宴厅",
+  "time": "婚礼当晚",
+  "pov": "沈听澜第一人称",
+  "characters": [
+    "沈听澜",
+    "江砚舟",
+    "许知微",
+    "陆承川",
+    "投资人代表"
+  ],
+  "character_goal": "沈听澜要阻断江砚舟用公益门面稳资本的补救。",
+  "opposition_goal": "江砚舟要拉许知微上台证明项目仍有公益价值。",
+  "conflict_action": "江砚舟把许知微推到投资人面前，沈听澜现场撤回旧算法注释授权，陆承川只确认见证流程有效。",
+  "information_gap": "许知微没有拆沈听澜的台，却也没有立刻暴露自己立场。",
+  "emotional_debt_delta": {
+    "added": [
+      "两个女人被江砚舟同时消费的债"
+    ],
+    "paid": [
+      "公益包装第一次被拆"
+    ]
+  },
+  "payoff_or_hook": "第1个付费级卡点：旧男主误判，新男主入局，白月光态度不明。",
+  "chapter_end_hook": "截断句：陆承川递来名片，问我，需要我作证，还是需要我等。",
+  "paywall_card": true,
+  "must_include": [
+    "许知微盯着证物袋",
+    "江砚舟仍称沈听澜吃醋",
+    "陆承川只问选择，不替她出头",
+    "投资人撤杯或放下酒杯的动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不要复述会所人员名单",
+    "不要解释算法注释授权流程",
+    "不要把陆承川写成替女主压场"
+  ],
+  "rhythm_job": {
+    "shape": "社交场补救失败，三方入局，名片句卡点",
+    "dialogue_action_breathing_ratio": "对白约45%，动作约40%，呼吸点约15%",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 4,
+    "max_pressure_terms": 1,
+    "low_pressure_bridge": "用陆承川放低名片的证据动作承接会所冲突",
+    "chapter_tail_action": "名片停在沈听澜指尖"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": 10,
+  "target_chars_min": 600,
+  "target_chars_max": 750,
+  "location": "质检站大厅",
+  "time": "同日",
+  "pov": "宋明远(第一人称)",
+  "characters": [
+    "宋明远",
+    "马国栋"
+  ],
+  "character_goal": "马国栋崩溃+试图求饶",
+  "opposition_goal": "马国栋要收钱/自保",
+  "conflict_action": "马国栋从暴怒变惨白，开始求饶'退款''三倍赔'",
+  "information_gap": "读者知道晚了——但警方还没到",
+  "emotional_debt_delta": "偿还+3(求饶=傲慢崩塌)",
+  "payoff_or_hook": "远处传来警笛声，越来越近",
+  "chapter_end_hook": "远处传来警笛声，越来越近",
+  "paywall_card": true,
+  "must_include": [
+    "马国栋从暴怒变惨白，开始求饶'退款''三倍赔'"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用解释性旁白代替行动",
+    "不能连续超过120字无动作"
+  ]
+}

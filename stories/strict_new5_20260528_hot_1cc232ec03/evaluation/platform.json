@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "score": 8.1,
+  "evidence": [
+    {
+      "dimension": "opening_click",
+      "finding": "前150字内出现缴费欠费、离婚协议、一百万补偿，信息不对称嵌入场景。",
+      "quote": "我刚递卡，一只手把文件压上来。离婚协议。正好盖在缴费单上。"
+    },
+    {
+      "dimension": "chapter_hooks",
+      "finding": "14场均有章末钩或情绪落点，覆盖率约100%。",
+      "quote": "顾念安把签字笔推到我掌心，说一百万已经算她对我仁慈。"
+    },
+    {
+      "dimension": "paywall_cards",
+      "finding": "正文自然卡点不少于4处，scene-04、06、08、09、11均可作为付费节点。",
+      "quote": "我在垃圾桶边捡起被踩脏的康复记录，第一次拨通专利律师电话。"
+    },
+    {
+      "dimension": "platform_reversal",
+      "finding": "发布会公开担保后立刻被专利底稿反杀，适合番茄读者期待的公开处刑爽点。",
+      "quote": "大屏亮起的第一张图，是我五年前写下的雾化节律模型底稿。"
+    }
+  ]
+}

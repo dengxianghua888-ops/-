@@ -1,0 +1,34 @@
+slug: batch_v3_03_ancient_BE
+source_slug: ancient_forget_regret
+title: 长明灯
+genre: ancient_BE
+pipeline_mode: production
+status: drafting
+run_date: "2026-05-26"
+optimization: v3_style_fidelity
+mechanisms:
+  - M2_identity_reversal
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+hooks:
+  - H4_revelation_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 公主隐身份嫁世子+世子另娶+囚禁杀子+大婚揭身份反杀
+  new_setting: 将门嫡女隐身份入赘婿家为妾+赘婿攀附权贵休妻+毒害嫡子+女主亮出兵符调兵围府清算
+  identity_hide: 女主隐瞒将门嫡女身份，以孤女身份嫁入商户
+  betrayal_layers:
+    - 赘婿隐瞒已与知府千金定亲，骗女主为妾
+    - 赘婿在女主有孕时下药致小产
+    - 知府千金灌红花绝育，赘婿知情不阻
+    - 赘婿烧毁女主嫁妆（内含兵符信物）未遂
+  reversal_trigger: 女主升起三色烟火（与父帅约定的求援信号），边军入城
+  boomerang: "你不过是个无依无靠的孤女"——女主亮出虎符时赘婿跪地求饶
+  temperature_structure:
+    warm_memory: 成婚头两年男耕女织、他说"此生只你一人"、亲手为她雕木簪
+    cold_reality: 他在她有孕时与知府千金暗通、下药杀子、将她囚于柴房
+    freeze_point: 女主被迫一步一叩为知府千金求平安符时昏倒在山路上
+  core_rule: "你亲手毁掉的，恰恰是你此生再也得不到的。"

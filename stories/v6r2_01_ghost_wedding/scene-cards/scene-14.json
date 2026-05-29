@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "chapter_id": 7,
+  "is_chapter_end": true,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄宴会厅舞台上",
+  "time": "紧接上一场",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "张锐城", "许芷悦"],
+  "character_goal": "沈绮云完成对张锐城的人格定性——冷静宣判",
+  "opposition_goal": "许芷悦崩溃；张锐城沉默",
+  "conflict_action": "许芷悦哭着打人+质问→沈绮云冷静旁观→对比两人的痛苦→一句话定性'张锐城，你脏了'",
+  "information_gap": "两个受害者并置时，正妻的冷静反而是最大的力量——读者感知到她早已超越了情绪",
+  "emotional_debt_delta": "人格死刑宣判——不是恨，是嫌脏",
+  "payoff_or_hook": "付费级卡点：'你脏了'三字定性后，读者必须知道法律结果",
+  "chapter_end_hook": "沈绮云说出'至少他对你，比对我好太多了'——最大受害者最冷静的反差",
+  "paywall_card": true,
+  "must_include": [
+    "许芷悦的崩溃表现（哭喊+打人）",
+    "沈绮云与许芷悦的温度对比（一个崩溃一个冷静）",
+    "'张锐城，你脏了'——一句话定性",
+    "'至少他对你，比对我好太多了'——章末金句"
+  ],
+  "must_not_write_as_exposition": [
+    "两段婚姻的时间线对比",
+    "对新娘的同情评论"
+  ],
+  "rhythm_job": {
+    "shape": "快-骤停",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 1,
+    "max_question_marks": 2,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.8,
+    "comma_period_ratio": 0.4,
+    "sentence_avg_len": 14.5,
+    "dominant_emotion": "冰冷定性",
+    "emotion_arc": "新娘崩溃 → 女主冷静旁观 → 一句话定性 → 反差金句收束",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "为'你脏了'拍案——三个字比一千字控诉更有杀伤力",
+    "required_techniques": [
+      {
+        "technique": "情绪温度对比",
+        "instruction": "两个女人的痛苦并置——新娘哭喊'五年！我把你当完美丈夫！'vs正妻冷静'至少他对你比对我好'。温度差让正妻的克制更有力量"
+      },
+      {
+        "technique": "一句话定性",
+        "instruction": "不用长篇控诉，用一个极简的形容词完成终极评价——'你脏了'。不骂不哭不解释，三个字是判决而非情绪。全名称呼增加仪式感"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "全名称呼+极简定性（你+形容词）",
+        "example": "周瑞阳，你脏了。",
+        "instruction": "用新名字——'张锐城，你脏了。'不是骂人是定性。'脏'字不可逆，不是情绪而是判决。全名称呼制造法庭宣判的距离感"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "徐万芳哭着又打了周瑞阳一巴掌。'五年的感情你用钱打发了？'我心里像被人投了一把碎冰。'至少他对你，比对我好太多了。'我看着周瑞阳：'周瑞阳，你脏了。'"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": [],
+      "句式": "极简、每一句都像判决书",
+      "单句上限": 12,
+      "禁止": "长句、安慰新娘、情绪外露"
+    },
+    "许芷悦": {
+      "口癖": ["五年", "怎么办"],
+      "句式": "崩溃式短句+哭腔",
+      "单句上限": 15,
+      "禁止": "理性、冷静"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+title: 我在冷宫撸猫，皇帝疯了
+source_slug: empress_escape
+genre: ancient_sweet
+pipeline: v5_structure_fidelity
+batch: batch_v5_part2_20260527
+status: final
+nonspace_chars: 13986
+chapters: 10
+characters:
+  - name: 苏鱼
+    role: 女主
+    description: 废后之女，被赐婚到冷宫当摆设，医术高超的沙雕少女
+  - name: 谢珩
+    role: 摄政王
+    description: 表面冷漠实则暗恋女主多年，被女主治愈后彻底沦陷
+  - name: 沈妤
+    role: 假情敌/盟友
+    description: 摄政王府表妹，表面受宠实则与女主结盟
+  - name: 谢瑶
+    role: 摄政王之妹
+    description: 女主闺蜜，暗恋证据的传递者
+logline: 废后之女被荒诞赐婚摄政王，以为自己是工具人却意外被宠，发现真相后离去，最终被三年暗恋证据召回。

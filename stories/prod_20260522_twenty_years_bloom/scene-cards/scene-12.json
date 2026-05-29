@@ -1,0 +1,40 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 650,
+  "target_chars_max": 780,
+  "location": "教育局公示栏/新学校",
+  "time": "宣判后一周",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "林父",
+    "林母",
+    "同事"
+  ],
+  "character_goal": "人生回归正轨",
+  "opposition_goal": "无",
+  "conflict_action": "看到公示第一名→入职→父母笑着送行→第一天站上讲台",
+  "information_gap": "无",
+  "emotional_debt_delta": "-3(学业/事业回归)",
+  "payoff_or_hook": "全面翻盘确认",
+  "chapter_end_hook": "公示栏上，我的名字后面写着：第一名，拟录用。",
+  "paywall_card": false,
+  "must_include": [
+    "看到名字的瞬间",
+    "父母的笑容",
+    "站上讲台的仪式感"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写入职流程",
+    "不要写教学内容",
+    "不要长段感悟"
+  ],
+  "rhythm_job": {
+    "shape": "确认→温暖→新起点",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0
+  }
+}

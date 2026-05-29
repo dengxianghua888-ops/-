@@ -1,0 +1,488 @@
+{
+  "pipeline_mode": "production",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "planned_total_chars_min": 11250,
+    "planned_total_chars_max": 13900
+  },
+  "title": "姐姐摘掉监测器那晚，我死在琴房",
+  "genre": "family_ethics",
+  "mechanisms": [
+    {
+      "id": "M4",
+      "name": "灵魂线视角",
+      "execution": "前两场明确林晚萤已死在隔音琴房；后续只能看、听、靠近又穿过，不能推动现实。"
+    },
+    {
+      "id": "M5",
+      "name": "温度反转曲线",
+      "execution": "姐姐保留善良和担心，父母曾爱晚萤的旧物逐步反噬，悔悟只能偿债不能洗白。"
+    },
+    {
+      "id": "M3",
+      "name": "因果回旋反讽",
+      "execution": "保护姐姐的安静、绿灯计划、复演曲、智能门锁，全部回旋成害死妹妹的证据。"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_range": [
+        "scene-01"
+      ],
+      "chapter_end_hook": "林母转身离开琴房门口，门锁屏幕弹出一条被忽略的室内跌倒警报。"
+    },
+    {
+      "chapter_id": "CH02",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": [
+        "scene-02"
+      ],
+      "chapter_end_hook": "林晚萤看见自己的身体趴在钢琴脚边，门外掌声正好响起。"
+    },
+    {
+      "chapter_id": "CH03",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_range": [
+        "scene-03"
+      ],
+      "chapter_end_hook": "林知夏扶着门把手说要见妹妹，门锁刚亮，心率报警突然尖叫。"
+    },
+    {
+      "chapter_id": "CH04",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_range": [
+        "scene-04"
+      ],
+      "chapter_end_hook": "陆明砚把饭盒放在门外，说等明天再向她道歉，可门内已经没人能回答。"
+    },
+    {
+      "chapter_id": "CH05",
+      "target_chars_min": 800,
+      "target_chars_max": 1050,
+      "scene_range": [
+        "scene-05"
+      ],
+      "chapter_end_hook": "保洁阿姨闻到异味，刚要敲琴房门，林父拦住她说那是孩子闹脾气。"
+    },
+    {
+      "chapter_id": "CH06",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_range": [
+        "scene-06"
+      ],
+      "chapter_end_hook": "林知夏从旧录音里听见晚萤最后一句求救，录音时间停在宴会开场前。"
+    },
+    {
+      "chapter_id": "CH07",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_range": [
+        "scene-07"
+      ],
+      "chapter_end_hook": "物业拿来投诉记录，最后一页写着：琴房方向持续异味，请立刻开门。"
+    },
+    {
+      "chapter_id": "CH08",
+      "target_chars_min": 900,
+      "target_chars_max": 1150,
+      "scene_range": [
+        "scene-08"
+      ],
+      "chapter_end_hook": "备用钥匙插进锁孔，门板开出一道缝，林母终于看见了钢琴下的裙角。"
+    },
+    {
+      "chapter_id": "CH09",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_range": [
+        "scene-09"
+      ],
+      "chapter_end_hook": "警灯照进琴房，法医抬头问：出事后的前六小时，为什么没人开门？"
+    },
+    {
+      "chapter_id": "CH10",
+      "target_chars_min": 900,
+      "target_chars_max": 1150,
+      "scene_range": [
+        "scene-10"
+      ],
+      "chapter_end_hook": "尸检报告递到林母手里，第一行结论写着：早期送医有存活可能。"
+    },
+    {
+      "chapter_id": "CH11",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_range": [
+        "scene-11"
+      ],
+      "chapter_end_hook": "外婆抱起骨灰盒，只留下一句：你们不配送她回家。"
+    },
+    {
+      "chapter_id": "CH12",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_range": [
+        "scene-12"
+      ],
+      "chapter_end_hook": "头七夜，旧钢琴无人触碰，却自己落下了晚萤没弹完的第一个音。"
+    },
+    {
+      "chapter_id": "CH13",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_range": [
+        "scene-13"
+      ],
+      "chapter_end_hook": "两年后，一个耳后有小痣的女孩，把手放上外婆家的旧琴键。"
+    },
+    {
+      "chapter_id": "CH14",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_range": [
+        "scene-14"
+      ],
+      "chapter_end_hook": "女孩敲完四小节，回头喊妈妈；这一次，门外有人立刻应她。"
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "B01",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_location": "林家一楼隔音琴房门口与室内",
+      "character_goal": "林晚萤想阻止父母锁门，拿回手机，去告诉姐姐复演曲本该属于自己。",
+      "conflict_action": "父母根据绿灯计划风险提示没收手机，把晚萤推进琴房并锁上门；晚萤拍门、砸门、喊姐姐。",
+      "information_gap": "读者知道保护姐姐的规则正在牺牲晚萤，父母只认定她会刺激姐姐。",
+      "emotion_debt_balance": {
+        "seed": [
+          "死亡预言绑架债",
+          "亲情偏心债"
+        ],
+        "increase": 2,
+        "payoff": "暂不清偿"
+      },
+      "chapter_end_hook": "林母转身离开琴房门口，门锁屏幕弹出一条被忽略的室内跌倒警报。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成父母解释医学原理；必须用推门、夺手机、落锁、拍门完成冲突。"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "隔音琴房与宴会厅之间",
+      "character_goal": "晚萤受伤后想让门外任何人听见自己还活着。",
+      "conflict_action": "晚萤爬向门口，扯倒琴凳，敲击地板；门外调音师推走音箱，掩住她最后几下求救。",
+      "information_gap": "家人以为她在门内赌气，读者和晚萤看见身体已经失去反应。",
+      "emotion_debt_balance": {
+        "seed": [
+          "迟来发现债",
+          "可救未救债"
+        ],
+        "increase": 3,
+        "payoff": "死亡前置落地"
+      },
+      "chapter_end_hook": "林晚萤看见自己的身体趴在钢琴脚边，门外掌声正好响起。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能猎奇描写尸体；只写跌倒、求救、失声和灵魂离体事实。"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_location": "林家复演宴客厅与琴房走廊",
+      "character_goal": "灵魂状态的晚萤想让姐姐知道自己就在门后。",
+      "conflict_action": "林知夏摘掉监测器登台后坚持去琴房找妹妹；林母拉住她，林父重启监测器并让顾问宣布复演开始。",
+      "information_gap": "姐姐真心想见晚萤，父母把她的担心也当作风险。",
+      "emotion_debt_balance": {
+        "seed": [
+          "姐姐温情债",
+          "第一次门缝错过"
+        ],
+        "increase": 2,
+        "payoff": "姐姐无辜共谋成立"
+      },
+      "chapter_end_hook": "林知夏扶着门把手说要见妹妹，门锁刚亮，心率报警突然尖叫。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能把姐姐恶毒化；她必须主动靠近门，错过来自父母选择。"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "target_chars_min": 800,
+      "target_chars_max": 1000,
+      "scene_location": "琴房门外、宴会后厨房",
+      "character_goal": "晚萤想让未婚夫陆明砚开门或质问父母。",
+      "conflict_action": "陆明砚拿着备用权限卡走到门前，被林父一句别刺激知夏劝退；他把饭盒放下，发语音让晚萤明天别闹。",
+      "information_gap": "陆明砚以为明天能补偿，读者知道明天已经没有晚萤。",
+      "emotion_debt_balance": {
+        "seed": [
+          "迟来补偿债",
+          "亲情偏心债"
+        ],
+        "increase": 2,
+        "payoff": "陆明砚软弱债成形"
+      },
+      "chapter_end_hook": "陆明砚把饭盒放在门外，说等明天再向她道歉，可门内已经没人能回答。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让男友替主角复仇；他此处必须选择顺从大局。"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "target_chars_min": 800,
+      "target_chars_max": 1050,
+      "scene_location": "林家走廊、琴房门口、保洁间",
+      "character_goal": "晚萤想借外人靠近让真相暴露。",
+      "conflict_action": "保洁收餐盘时闻到异味，伸手敲门；林父夺过门外饭盒丢进垃圾桶，命令她不要多管家事。",
+      "information_gap": "外人最先察觉异常，父亲用家务话术压掉发现机会。",
+      "emotion_debt_balance": {
+        "seed": [
+          "迟来发现债",
+          "尸体发现债"
+        ],
+        "increase": 2,
+        "payoff": "第二次门前错过加重"
+      },
+      "chapter_end_hook": "保洁阿姨闻到异味，刚要敲琴房门，林父拦住她说那是孩子闹脾气。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写成气味铺垫摘要；必须有保洁伸手、父亲拦人、饭盒被丢的动作。"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_location": "林知夏卧室、琴房门外",
+      "character_goal": "林知夏想确认妹妹为何不回消息，晚萤想把旧录音推到她面前却做不到。",
+      "conflict_action": "林知夏翻出姐妹四手联弹旧录音，听见背景里晚萤被关门前的争执；她拖着康复支架下床去找父母。",
+      "information_gap": "姐姐开始接近真相，但还不知道门后已经死亡。",
+      "emotion_debt_balance": {
+        "seed": [
+          "温情反转债",
+          "可救未救债"
+        ],
+        "increase": 3,
+        "payoff": "旧录音成为追责证据"
+      },
+      "chapter_end_hook": "林知夏从旧录音里听见晚萤最后一句求救，录音时间停在宴会开场前。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能用回忆长段解释姐妹感情；用录音、曲谱、姐姐下床动作承载温情。"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_location": "林家玄关、物业值班室、琴房走廊",
+      "character_goal": "晚萤想让门禁日志和邻居投诉逼父母开门。",
+      "conflict_action": "物业带着投诉单上门，调出连续异常湿度和室内跌倒警报；林父试图关闭记录，林知夏抢走平板。",
+      "information_gap": "系统不是凶手，系统一直留下报警，父母一直忽略。",
+      "emotion_debt_balance": {
+        "seed": [
+          "因果回旋债",
+          "迟来发现债"
+        ],
+        "increase": 3,
+        "payoff": "证据链开始收束"
+      },
+      "chapter_end_hook": "物业拿来投诉记录，最后一页写着：琴房方向持续异味，请立刻开门。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能把绿灯计划写成神秘预言；只能作为被父母曲解和忽视的记录工具。"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "target_chars_min": 900,
+      "target_chars_max": 1150,
+      "scene_location": "隔音琴房门口与室内",
+      "character_goal": "林知夏要打开琴房门，父母想维持晚萤只是赌气的判断。",
+      "conflict_action": "林知夏逼父母交出备用钥匙，陆明砚输入权限码失败，林母用机械钥匙开锁，门缝露出倒翻的琴凳和裙角。",
+      "information_gap": "家人第一次看见现实证据，仍迟了一步。",
+      "emotion_debt_balance": {
+        "seed": [
+          "尸体发现债",
+          "亲情偏心债"
+        ],
+        "increase": 4,
+        "payoff": "迟来发现第一次爆破"
+      },
+      "chapter_end_hook": "备用钥匙插进锁孔，门板开出一道缝，林母终于看见了钢琴下的裙角。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能提前完整揭露尸体细节；章尾卡在门缝和裙角。"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_location": "琴房内、林家门外警戒线",
+      "character_goal": "林母想证明晚萤只是意外晕倒，林知夏想知道妹妹最后有没有被救的机会。",
+      "conflict_action": "警方封锁琴房，法医检查环境和门禁记录，追问最初六小时谁接近过门口；林母拿着饭盒照片站不住。",
+      "information_gap": "死亡不是唯一真相，本可救回的悬念被抛出。",
+      "emotion_debt_balance": {
+        "seed": [
+          "可救未救债",
+          "迟来发现债"
+        ],
+        "increase": 4,
+        "payoff": "尸检爆点前置"
+      },
+      "chapter_end_hook": "警灯照进琴房，法医抬头问：出事后的前六小时，为什么没人开门？",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能用血腥描写推动；必须用警戒线、记录、追问压迫家属。"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "target_chars_min": 900,
+      "target_chars_max": 1150,
+      "scene_location": "法医办公室、林家客厅",
+      "character_goal": "父母想抓住系统误判当借口，法医和姐姐要把责任落回人的选择。",
+      "conflict_action": "法医递出报告，指出撞伤后有救治窗口；林知夏把门禁日志摊在桌上，逐条念出父母靠近又离开的时间。",
+      "information_gap": "家人终于知道晚萤死于被错过，不是瞬间死亡。",
+      "emotion_debt_balance": {
+        "seed": [
+          "可救未救债",
+          "死亡预言绑架债"
+        ],
+        "increase": 5,
+        "payoff": "悔悟不可逆引爆"
+      },
+      "chapter_end_hook": "尸检报告递到林母手里，第一行结论写着：早期送医有存活可能。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能让父母用系统或顾问洗白；报告必须明确本可救回。"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "target_chars_min": 950,
+      "target_chars_max": 1200,
+      "scene_location": "林家灵堂、外婆老旧院门前",
+      "character_goal": "父母想以葬礼和遗照保留女儿身份，外婆要夺回晚萤的归属。",
+      "conflict_action": "外婆砸掉灵堂上临时打印的遗照，翻出晚萤小时候的奖状和旧曲谱，抱走骨灰盒，逐句质问父母锁门、错过、丢饭盒。",
+      "information_gap": "外婆掌握晚萤多年被挤出家庭位置的旧账，父母的悔恨被外部审判压住。",
+      "emotion_debt_balance": {
+        "seed": [
+          "真正的家债",
+          "亲情偏心债"
+        ],
+        "increase": 2,
+        "payoff": "伦理审判完成"
+      },
+      "chapter_end_hook": "外婆抱起骨灰盒，只留下一句：你们不配送她回家。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能让父母哭一场获得谅解；外婆必须明确切断原家庭占有。"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_location": "外婆老院子、海棠树下旧钢琴旁",
+      "character_goal": "晚萤想跟外婆、姐姐和过去的自己告别。",
+      "conflict_action": "外婆把骨灰埋在海棠树下，摆上旧曲谱；林知夏追来跪在院门外，外婆关门，只收下姐姐放下的八音盒。",
+      "information_gap": "姐姐可以悔痛，但不能替父母赎罪，也不能把晚萤带回林家。",
+      "emotion_debt_balance": {
+        "seed": [
+          "真正的家债",
+          "姐姐温情债"
+        ],
+        "increase": -3,
+        "payoff": "归属转移"
+      },
+      "chapter_end_hook": "头七夜，旧钢琴无人触碰，却自己落下了晚萤没弹完的第一个音。",
+      "paywall_card": true,
+      "forbidden_summary": [
+        "不能写主角原谅父母；只能写告别、归属、姐姐留在门外。"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "target_chars_min": 850,
+      "target_chars_max": 1050,
+      "scene_location": "两年后，外婆老院子与邻居家满月宴",
+      "character_goal": "转世线要给读者补偿，让晚萤拥有不会被锁门的新家。",
+      "conflict_action": "邻居抱来新生女孩避雨，女孩爬向旧钢琴，抓住琴键敲出晚萤未完成旋律的前三个音。",
+      "information_gap": "原家庭不知道这件事，读者通过小痣和旋律识别回甘。",
+      "emotion_debt_balance": {
+        "seed": [
+          "转世补偿债",
+          "真正的家债"
+        ],
+        "increase": -4,
+        "payoff": "转世暗示开启"
+      },
+      "chapter_end_hook": "两年后，一个耳后有小痣的女孩，把手放上外婆家的旧琴键。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能直说晚萤投胎回来了；只能用小痣、旋律、旧物暗示。"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "target_chars_min": 850,
+      "target_chars_max": 1100,
+      "scene_location": "外婆老院子、海棠树下",
+      "character_goal": "完成回甘，让晚萤从原家庭撤离，获得新父母即时回应。",
+      "conflict_action": "小女孩敲完四小节，院外新妈妈立刻推门来抱她；外婆看见耳后小痣，把晚萤旧曲谱放回琴盖下。",
+      "information_gap": "外婆似乎认出她，但没有把她交还给林家，读者获得含蓄确认。",
+      "emotion_debt_balance": {
+        "seed": [
+          "转世补偿债",
+          "真正的家债"
+        ],
+        "increase": -5,
+        "payoff": "最终补偿完成"
+      },
+      "chapter_end_hook": "女孩敲完四小节，回头喊妈妈；这一次，门外有人立刻应她。",
+      "paywall_card": false,
+      "forbidden_summary": [
+        "不能写原家庭认回转世孩子；不能写大团圆原谅。"
+      ]
+    }
+  ],
+  "quality_floor": {
+    "min_total_chars": 10000,
+    "min_chapter_count": 10,
+    "planned_chapter_count": 14,
+    "min_paywall_card_count": 4,
+    "planned_paywall_card_count": 5,
+    "chapter_end_hook_coverage": "100%",
+    "must_hit_first_300_chars": [
+      "绿灯计划提示姐姐首夜死亡风险",
+      "父母为救姐姐锁住晚萤",
+      "姐姐复演新生与晚萤死亡同日绑定"
+    ],
+    "micro_hook_interval_chars": "800-1200",
+    "forbidden_global": [
+      "主角复活",
+      "原家庭团圆原谅",
+      "姐姐恶毒化",
+      "系统替父母背责",
+      "尸体猎奇描写",
+      "大段设定说明"
+    ]
+  }
+}

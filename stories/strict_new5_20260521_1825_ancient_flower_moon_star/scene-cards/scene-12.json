@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "海外校园与诊疗中心门外",
+  "time": "半年后雨天",
+  "pov": "三人称近岑砚灯",
+  "characters": [
+    "岑砚灯",
+    "贺停山",
+    "闻砚舟"
+  ],
+  "character_goal": "维持新生活秩序，清楚拒绝旧控制回潮。",
+  "opposition_goal": "闻砚舟想用迟到的补偿和悔意重新定义她的人生。",
+  "conflict_action": "闻砚舟拦在雨里要带她回港，贺停山只递伞和药，由岑砚灯亲口说出拒绝。",
+  "information_gap": "闻砚舟站在雨里，而她跟着贺停山走进亮着灯的门。",
+  "emotional_debt_delta": "尊严线开始稳定回升，旧情被平静抽离式台词斩断。",
+  "payoff_or_hook": "她把那句‘你救过我一次，也杀了我一次’当面还给他。",
+  "chapter_end_hook": "闻砚舟站在雨里，而她跟着贺停山走进亮着灯的门。",
+  "paywall_card": false,
+  "must_include": [
+    "雨伞或感冒药的低攻击性承接",
+    "岑砚灯亲口拒绝",
+    "闻砚舟被留在门外"
+  ],
+  "must_not_write_as_exposition": [
+    "不要把新男主写成炫耀型护妻",
+    "不要长篇讲留学生活",
+    "不要让拒绝变成说理大会"
+  ],
+  "rhythm_job": {
+    "shape": "低压照料-旧人闯入-一句封账-亮门与雨幕对切",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

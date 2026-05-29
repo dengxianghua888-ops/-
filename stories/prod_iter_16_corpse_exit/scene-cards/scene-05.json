@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "target_chars_min": 680,
+  "target_chars_max": 820,
+  "location": "江栀办公室",
+  "time": "倒计时19小时",
+  "pov": "第一人称，江沉",
+  "characters": ["江沉", "江栀", "贺景衡", "秘书"],
+  "character_goal": "江沉逼江栀承认六年管网羞辱任务是不是她安排的。",
+  "opposition_goal": "江栀要把安排包装成磨炼，并把江沉最后的钱包装成贺景衡善款。",
+  "conflict_action": "江栀翻出派工名单逐页点名，把工资余额转入贺景衡慈善基金，秘书当场打印捐赠证明。",
+  "information_gap": "江栀不知道贺景衡在她筛选的项目里追加毒气陷害和殴打。",
+  "emotional_debt_delta": "+姐姐承认筛选羞辱任务；+工资被做成贺景衡功劳",
+  "payoff_or_hook": "第一付费级伤害反转：六年苦役不是命苦，是亲姐亲手安排。",
+  "chapter_end_hook": "贺景衡发来发布会请柬，落款是：继承人贺景衡、爱妻沈清禾、长子江童。",
+  "paywall_card": true,
+  "must_include": ["派工名单", "江栀亲口承认", "慈善基金转账", "捐赠证明", "发布会请柬"],
+  "must_not_write_as_exposition": ["不要替江栀说她只是为弟弟好", "不要把名单一笔带过", "不要让江沉用长篇控诉替代行动"]
+}

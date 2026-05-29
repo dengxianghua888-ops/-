@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "B11",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "旧面包车停车棚",
+  "time": "第五日上午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "修车师傅",
+    "邵明"
+  ],
+  "character_goal": "林素琴寻找许国成亲口承认离间母女的旧证据",
+  "opposition_goal": "旧车多年不用，记录仪可能损坏或被覆盖",
+  "conflict_action": "林素琴找修车师傅拆下旧面包车行车记录仪，取出存储卡后立刻交给邵明恢复",
+  "information_gap": "存储卡里是否留有许国成当年的恶意原话",
+  "emotional_debt_delta": {
+    "father_malice_debt": "+8",
+    "time_debt": "+4"
+  },
+  "payoff_or_hook": "从钱流证据转向动机证据，准备揭开深层恶意",
+  "chapter_end_hook": "旧车的行车记录仪里，传出许国成的声音。",
+  "paywall_card": false,
+  "must_include": [
+    "旧面包车",
+    "拆行车记录仪",
+    "存储卡",
+    "恢复音频第一声"
+  ],
+  "must_not_write_as_exposition": [
+    "不要凭回忆证明父亲恶意",
+    "不要让证据轻易出现得无代价",
+    "不要提前写出完整录音内容"
+  ]
+}

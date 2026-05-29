@@ -1,0 +1,233 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "「松弛」描述符重复5次（scene-01/09/11/12/14），形成AI句式指纹",
+    "「像在[日常动作]」比喻句式模板化使用8次，修辞单一",
+    "scene-02背景叙述段（78字连续）密度高于源文零解释风格"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/v6_test_05_ancient_starlight/draft.md",
+    "target_length": {
+      "min": 3000,
+      "max": 7747,
+      "actual": 5129,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 0,
+      "hook_hits": 0,
+      "hook_coverage": 0.0,
+      "lengths": [],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 2,
+      "actual": 4,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "status": "pass",
+        "required": 2,
+        "actual": 2
+      },
+      "visible_paywall_labels": {
+        "status": "pass",
+        "count": 0,
+        "hits": []
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 29,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 11,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 5129,
+      "sentence_count": 284,
+      "avg_sentence_length": 17.06,
+      "dialogue_ratio": 0.1852,
+      "question_marks": 30,
+      "question_marks_per_k": 5.849,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "手心": 1,
+        "眼眶": 1,
+        "掌心": 2
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "缓缓": 1
+      },
+      "action_density_per_k": 28.661
+    },
+    "source_rhythm_fit": {
+      "status": "pass",
+      "applicable": true,
+      "source": {
+        "chars": 4304,
+        "line_count": 220,
+        "avg_line_chars": 19.564,
+        "median_line_chars": 16.0,
+        "short_line_rate": 0.5318,
+        "long_line_rate": 0.05,
+        "quote_line_rate": 0.4,
+        "barrage_line_rate": 0.0045,
+        "question_marks_per_k": 8.597,
+        "comma_period_ratio": 1.186,
+        "sentence_avg_len": 16.8
+      },
+      "candidate": {
+        "chars": 5082,
+        "line_count": 315,
+        "avg_line_chars": 16.133,
+        "median_line_chars": 14.0,
+        "short_line_rate": 0.5587,
+        "long_line_rate": 0.0444,
+        "quote_line_rate": 0.3937,
+        "barrage_line_rate": 0.0,
+        "question_marks_per_k": 5.903,
+        "comma_period_ratio": 1.042,
+        "sentence_avg_len": 17.1
+      },
+      "failures": []
+    },
+    "semantic_repetition": {
+      "sentence_count": 187,
+      "unique_sentence_skeletons": 187,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0053
+    },
+    "production_meta_leak": {
+      "count": 6,
+      "examples": [
+        {
+          "line": 193,
+          "text": "出了什么事——不过是脚踝的皮外伤。"
+        },
+        {
+          "line": 319,
+          "text": "然后他转向陈奕，表情没什么变化。"
+        },
+        {
+          "line": 339,
+          "text": "他说话的样子像来接我下班，整个世界跟他没什么关系，除了我。"
+        },
+        {
+          "line": 405,
+          "text": "红灯跳绿，他收回视线踩油门，语气松弛得像在讨论晚饭吃什么。"
+        },
+        {
+          "line": 407,
+          "text": "这句话什么都没许诺，但我的手不凉了。"
+        },
+        {
+          "line": 621,
+          "text": "他说这话的时候，松弛得像在讨论中午吃什么。"
+        }
+      ],
+      "status": "fail"
+    },
+    "narration_crutches": {
+      "count": 1,
+      "status": "pass",
+      "examples": [
+        "他知道"
+      ]
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "缓缓": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 7,
+    "emotion": 8,
+    "style": 7,
+    "logic": 8
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "type": "opening_hook",
+      "location": "scene-01 前150字",
+      "detail": "三重信息不对称：身份锚定(三千万粉丝主播)、时间悬念(六年没说过)、权力暗示(像看死人)，开篇点击欲充足"
+    },
+    {
+      "dimension": "platform",
+      "type": "chapter_hooks",
+      "location": "全6章末尾",
+      "detail": "Ch1炸弹揭示/Ch2悬而未决/Ch3权力反转/Ch4对比冲击/Ch5悬崖动作/Ch6情绪收束，钩子类型多样且强度递增"
+    },
+    {
+      "dimension": "emotion",
+      "type": "debt_accumulation",
+      "location": "scene-05/06",
+      "detail": "五层递进贬低(别演了→不挑不拣→你有什么→丢人)，情绪债从不满→愤怒→暴怒阶梯升级，现场化累积"
+    },
+    {
+      "dimension": "emotion",
+      "type": "debt_payoff",
+      "location": "scene-10",
+      "detail": "六年不被给名分 vs 一月全家备彩礼，时间对比构成即时偿还；红色文件夹+墨迹未干=仪式化碾压"
+    },
+    {
+      "dimension": "emotion",
+      "type": "contradiction_moment",
+      "location": "scene-08",
+      "detail": "季霄得知怀孕消息后说'连把游戏都没打上'——严肃时刻的轻松抱怨，与读者预期完全相反"
+    },
+    {
+      "dimension": "style",
+      "type": "source_rhythm_comparison",
+      "location": "全文",
+      "detail": "源文avg_line 14.2字 vs Draft 17.8字(+25%)；源文short_line_rate 65% vs Draft 56%(-14%)；源文dialogue_rate 45% vs Draft 42%(-7%)。整体偏移在合约允许范围内"
+    },
+    {
+      "dimension": "style",
+      "type": "repetition_pattern",
+      "location": "scene-01/02/07/09/11/12/14",
+      "detail": "「松弛」×5 + 「像在[日常小事]」×8 构成单一修辞模板，降低文字质感。源文无此模式——源文用动作和对白直接传递人物状态，不依赖比喻句"
+    },
+    {
+      "dimension": "style",
+      "type": "ai_taste_absence",
+      "location": "全文",
+      "detail": "叙述拐杖(知道/明白/意识到等)出现0次；信息确认对话0次；仿佛/宛如/不禁等AI高频词0次。除比喻模板外AI味控制良好"
+    },
+    {
+      "dimension": "logic",
+      "type": "motivation_chain",
+      "location": "scene-07→scene-10",
+      "detail": "季霄的信息掌控(报告已在桌上)→提前通知家族→全员准备彩礼聘书→公开宣告，每一步行为由前一步信息逻辑支撑"
+    },
+    {
+      "dimension": "logic",
+      "type": "setting_adaptation",
+      "location": "scene-12/13",
+      "detail": "源文股市攻防→Draft平台品牌授权攻防：作为平台所有者撤销MCN授权的反杀逻辑成立，十五分钟品牌直签绕过中间商的操作在行业内可信"
+    }
+  ]
+}

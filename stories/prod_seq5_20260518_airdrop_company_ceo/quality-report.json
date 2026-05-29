@@ -1,0 +1,169 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "score_scale": "0-10",
+  "review_gate_required": true,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [],
+  "machine_metrics": {
+    "text_path": "stories/prod_seq5_20260518_airdrop_company_ceo/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 18000,
+      "actual": 13283,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 16,
+      "hook_hits": 16,
+      "hook_coverage": 1.0,
+      "lengths": [
+        823,
+        785,
+        764,
+        806,
+        765,
+        809,
+        848,
+        783,
+        867,
+        824,
+        839,
+        840,
+        806,
+        867,
+        810,
+        856
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 10,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 5,
+        "chars": 159,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 5,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 13283,
+      "sentence_count": 1173,
+      "avg_sentence_length": 10.325,
+      "dialogue_ratio": 0.2344,
+      "question_marks": 63,
+      "question_marks_per_k": 4.743,
+      "physical_emotion_hits": {
+        "指尖": 1,
+        "青筋": 1,
+        "眼眶": 1,
+        "掌心": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {},
+      "action_density_per_k": 29.888
+    },
+    "semantic_repetition": {
+      "sentence_count": 533,
+      "unique_sentence_skeletons": 533,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0019
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.8,
+    "emotion": 8.6,
+    "style": 8.1,
+    "logic": 8.4
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "scene": "scene-01",
+      "quote": "周砚礼伸出手，牵住了苏曼宁",
+      "finding": "开篇在发布会现场直接引爆背叛冲突。"
+    },
+    {
+      "dimension": "platform",
+      "scene": "scene-02",
+      "quote": "结婚证电子件弹出第一页",
+      "finding": "正妻身份作为首个强反转卡点。"
+    },
+    {
+      "dimension": "platform",
+      "scene": "scene-03",
+      "quote": "首席增长与合规官",
+      "finding": "女主从闹场妻子升级为现场权力方。"
+    },
+    {
+      "dimension": "emotion",
+      "scene": "scene-11",
+      "quote": "纸张压住那枚旧戒指",
+      "finding": "旧情道具被法务文件覆盖，迟来忏悔债得到现场偿还。"
+    },
+    {
+      "dimension": "logic",
+      "scene": "scene-05",
+      "quote": "投流日志镜像中",
+      "finding": "证据保全来源明确，未写成黑客式万能操作。"
+    },
+    {
+      "dimension": "logic",
+      "scene": "scene-14",
+      "quote": "今天处理的是证据，不是私刑",
+      "finding": "敏感处理有边界，避免围观羞辱和越权执法。"
+    },
+    {
+      "dimension": "style",
+      "scene": "scene-12",
+      "quote": "红灯一次比一次刺眼",
+      "finding": "用门禁失败完成权力坠落的物理化表达。"
+    },
+    {
+      "dimension": "emotion",
+      "scene": "scene-16",
+      "quote": "这一次，是我的惊喜专场",
+      "finding": "惊喜母题从婚姻期待回收到女主自我新生。"
+    }
+  ]
+}

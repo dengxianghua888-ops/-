@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "B12",
+  "target_chars_min": 820,
+  "target_chars_max": 1000,
+  "location": "调查组临时会议室与直播后续页面",
+  "time": "监控公开后两天",
+  "pov": "沈昭第一人称",
+  "characters": [
+    "沈昭",
+    "调查人员",
+    "许曼",
+    "赵慧",
+    "钱建国"
+  ],
+  "character_goal": "沈昭提交完整材料，让众筹、红包和物业账目进入调查流程。",
+  "opposition_goal": "许曼、赵慧、钱建国各自切割，试图只承担最轻责任。",
+  "conflict_action": "调查人员核对众筹流水、赵慧收款记录和公益冷柜采购账，三方当场互相指认。",
+  "information_gap": "处罚结果暂未落地，保留收束章兑现。",
+  "emotional_debt_delta": "名誉、金钱、关系、制度四类代价集中回收。",
+  "payoff_or_hook": "许曼诈捐、赵慧收红包站队、物业违规采购同场爆开。",
+  "chapter_end_hook": "第二份表格弹出来，众筹流水第一笔转账备注写着：赵姐辛苦费。",
+  "paywall_card": true,
+  "must_include": [
+    "众筹流水表",
+    "赵慧收款备注",
+    "钱建国看到公益冷柜账目时抢文件的动作"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写审计流程清单",
+    "不要长篇解释法规",
+    "不要让调查人员替沈昭骂人"
+  ],
+  "rhythm_job": {
+    "shape": "表格证据和现场互咬交替；动作三成，对白三成，证据细节两成，评论/后续舆论一成，呼吸一成。",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 3,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1,
+    "low_pressure_carry": ""
+  }
+}

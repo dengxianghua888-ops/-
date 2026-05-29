@@ -1,0 +1,112 @@
+{
+  "pipeline_mode": "production",
+  "source_slug": "hot_012a1f1f65",
+  "title": "玻璃房子",
+  "genre": "ancient_BE",
+  "optimization": "v5_structure_fidelity",
+  "target_length": {"min": 10000, "max": 14000},
+  "structure_contract": {
+    "target_draft_chars": 16100,
+    "impact_density_floor": 3.4,
+    "cliffhanger_coverage": 1.0
+  },
+  "quality_floor": {
+    "chapter_hook_coverage": 1.0,
+    "paywall_card_every_chars": 3500,
+    "chapter_min_chars": 600,
+    "chapter_max_chars": 1400
+  },
+  "rhythm_contract": {
+    "source_avg_line_chars": 20,
+    "allowed_avg_visual_line_chars": [16, 25],
+    "short_line_rate_lte_16_min": 0.30,
+    "short_line_rate_lte_16_max": 0.60,
+    "direct_dialogue_line_rate_min": 0.25,
+    "direct_dialogue_line_rate_max": 0.50
+  },
+  "adaptation": {
+    "source_setting": "伪穿越圈养三年，AI虐文女主觉醒倒计时，施害者被同一套规则反噬",
+    "new_setting": "伪失忆疗养院圈养两年，系统倒计时觉醒，施害者被同一套'治疗方案'反噬",
+    "character_map": {
+      "梁蝶→沈鹿": "女主，被伪造失忆关入私人疗养院两年",
+      "何宴舟→陆深": "丈夫，主导圈养计划",
+      "梁淮之→沈屿": "弟弟，配合伪造身份",
+      "江言澈→顾时年": "主治医生/青梅，参与伪造病历",
+      "梁文萱→姜晚宁": "白月光/假妹妹，真正受益者"
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B1", "title": "疗养院真相", "budget_role": "setup", "budget_pct": 8,
+      "target_chars_min": 800, "target_chars_max": 1100, "is_climax_beat": false,
+      "opening_hook": "女主在疗养院发现一部智能手机，发现所谓失忆是被人伪造的",
+      "cliffhanger_contract": {"type": "revelation_half", "rule": "发现真相但不知全貌时断章"},
+      "min_impacts": 2, "must_include": ["现代物品刺破伪设定", "发现失忆是假的", "系统倒计时出现"]
+    },
+    {
+      "beat_id": "B2", "title": "回到主宅", "budget_role": "escalation", "budget_pct": 8,
+      "target_chars_min": 800, "target_chars_max": 1100, "is_climax_beat": false,
+      "cliffhanger_contract": {"type": "threat_incoming", "rule": "白月光威胁后断章"},
+      "min_impacts": 2, "must_include": ["被带回现代庄园", "白月光以赢家姿态羞辱", "丈夫威胁送回去"]
+    },
+    {
+      "beat_id": "B3", "title": "创伤展示", "budget_role": "escalation", "budget_pct": 9,
+      "target_chars_min": 900, "target_chars_max": 1200, "is_climax_beat": false,
+      "cliffhanger_contract": {"type": "emotional_peak_cut", "rule": "创伤细节高峰时断章"},
+      "min_impacts": 3, "must_include": ["两年规训后遗症暴露", "流产/身体伤害揭示", "M5温度反转：曾经的爱变成伤害"]
+    },
+    {
+      "beat_id": "B4", "title": "倒计时与求死", "budget_role": "escalation", "budget_pct": 8,
+      "target_chars_min": 800, "target_chars_max": 1100, "is_climax_beat": false,
+      "cliffhanger_contract": {"type": "threat_incoming", "rule": "自残痕迹暴露时断章"},
+      "min_impacts": 3, "must_include": ["倒计时逼近", "女主求死欲", "自残痕迹被发现"]
+    },
+    {
+      "beat_id": "B5", "title": "虚假承诺", "budget_role": "escalation", "budget_pct": 8,
+      "target_chars_min": 800, "target_chars_max": 1100, "is_climax_beat": false,
+      "cliffhanger_contract": {"type": "false_safety", "rule": "承诺保护后暗示即将被打破"},
+      "min_impacts": 2, "must_include": ["丈夫承诺不再伤害", "女主内心否定", "白月光即将出手"]
+    },
+    {
+      "beat_id": "B6", "title": "陷害与旁观", "budget_role": "climax", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": true,
+      "cliffhanger_contract": {"type": "action_cliff", "rule": "被关回隔离室时断章"},
+      "min_impacts": 4, "must_include": ["白月光陷害", "三人再次旁观", "M3回旋：犯错就该受罚", "被关回隔离室"],
+      "reversal_layers": {"min_depth": 2, "pattern": "以为安全→再次被冤→承诺打破"}
+    },
+    {
+      "beat_id": "B7", "title": "倒计时清零", "budget_role": "climax", "budget_pct": 7,
+      "target_chars_min": 700, "target_chars_max": 900, "is_climax_beat": true,
+      "cliffhanger_contract": {"type": "emotional_peak_cut", "rule": "死亡瞬间断章"},
+      "min_impacts": 3, "must_include": ["倒计时归零", "女主死亡", "被发现"],
+      "gold_sentence_slot": {"position": "beat结尾", "rhetoric_pattern": "contrast_pair", "source_reference": "数字清零/再无心跳"}
+    },
+    {
+      "beat_id": "B8", "title": "尸体与崩溃", "budget_role": "climax", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": true,
+      "cliffhanger_contract": {"type": "revelation_half", "rule": "发现陷害证据时断章"},
+      "min_impacts": 4, "must_include": ["面对尸体崩溃", "抢救无效", "迟来追悔", "证据揭示陷害真相"]
+    },
+    {
+      "beat_id": "B9", "title": "镜像清算", "budget_role": "climax", "budget_pct": 12,
+      "target_chars_min": 1200, "target_chars_max": 1500, "is_climax_beat": true,
+      "cliffhanger_contract": {"type": "emotional_peak_cut", "rule": "反派被同一套规则惩罚时断章"},
+      "min_impacts": 4,
+      "reversal_layers": {"min_depth": 3, "pattern": "白月光以为赢了→被送入同款疗养院→用同一套治疗方案"},
+      "gold_sentence_slot": {"position": "beat结尾", "rhetoric_pattern": "boomerang_quote", "source_reference": "用施害者原话回敬"},
+      "must_include": ["白月光被送入同款设定", "同一套规则反噬", "M3回旋完成"]
+    },
+    {
+      "beat_id": "B10", "title": "施害者自毁", "budget_role": "resolution", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1300, "is_climax_beat": false,
+      "cliffhanger_contract": {"type": "revelation_half", "rule": "最后一人自毁时断章"},
+      "min_impacts": 3, "must_include": ["三位男性施害者各自崩塌", "不可逆的代价", "迟来追悔"]
+    },
+    {
+      "beat_id": "B11", "title": "元叙事补偿", "budget_role": "resolution", "budget_pct": 10,
+      "target_chars_min": 1000, "target_chars_max": 1200, "is_climax_beat": false,
+      "gold_sentence_slot": {"position": "全文结尾", "rhetoric_pattern": "contrast_pair", "source_reference": "活生生的人vs被创造的角色"},
+      "min_impacts": 2, "must_include": ["现实女主脱离虐文", "普通生活补偿", "生活化食物/日常收束"]
+    }
+  ]
+}

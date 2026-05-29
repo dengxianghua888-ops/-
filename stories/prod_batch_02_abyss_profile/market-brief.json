@@ -1,0 +1,116 @@
+{
+  "pipeline_mode": "production",
+  "target_platform": "tomato",
+  "target_length": {
+    "min": 10000,
+    "max": 18000,
+    "sweet_spot": [10000, 30000]
+  },
+  "market_positioning": {
+    "core_genre": "女频悬疑大女主 / 犯罪侧写 / 校园连环案",
+    "primary_selling_point": "伪装成普通转学生的年轻犯罪侧写专家，在校园连环杀人案中反向狩猎凶手",
+    "reader_promise": "前期看身份反差，中段看证据链推进，后段看专业能力压制变态凶手并抛出更大黑网"
+  },
+  "chapter_policy": {
+    "chapter_length_chars": {
+      "min": 500,
+      "max": 1200,
+      "preferred_tomato_range": [500, 800],
+      "median_target": 650
+    },
+    "chapter_end_rule": "每章末必须留下案件线索、身份暴露风险、凶手逼近、反转证据或新嫌疑人之一",
+    "paywall_hint": "每3000字至少设置一次付费级卡点，优先放在主角被凶手选为目标、共犯暴露、真凶升级、暗网组织浮出水面处"
+  },
+  "hook_policy": {
+    "first_300_chars": "必须同时完成身份反差和案件危机：所有人以为她是普通转学生，但她真实身份是公安系统内的犯罪侧写专家，入校只为查女大学生连环失踪案",
+    "micro_hook_interval_chars": [800, 1200],
+    "paywall_card_interval_chars": [2500, 3500],
+    "hook_types": [
+      "身份反差钩：乖巧转学生其实是代号深渊",
+      "死亡倒计时钩：第七天、下一个、遗像等标记递进",
+      "嫌疑误导钩：室友、围观男生、后勤工人多线并行",
+      "组织升级钩：个体凶手背后出现论坛和真正画师"
+    ]
+  },
+  "audience": {
+    "target_readers": [
+      "18-35岁偏女频读者",
+      "喜欢强女主、悬疑反转、专业破案、身份碾压的番茄短故事用户",
+      "接受轻惊悚但更看重爽点和主角控场感的读者"
+    ],
+    "emotional_needs": [
+      "被低估后的身份爆发",
+      "女性在危险环境中的冷静反杀",
+      "凶手自负被专业能力拆穿",
+      "连续线索推进带来的追更欲",
+      "结尾更大案件网带来的余韵"
+    ],
+    "forbidden_zones": [
+      "过度血腥器官描写",
+      "把连环杀手美化成浪漫对象",
+      "主角无意义冒险导致降智",
+      "刑侦流程完全脱离基本逻辑",
+      "大段解释犯罪心理学概念压低节奏",
+      "使用AI腔套话和空泛情绪词"
+    ]
+  },
+  "title_strategy": {
+    "platform_limit_chars": 30,
+    "formulas": [
+      {
+        "formula_id": "T1_identity_reversal",
+        "pattern": "所有人以为我是X，其实我是Y",
+        "candidates": [
+          "全校以为我是转学生，其实我代号深渊",
+          "她们叫我乖乖女，警方叫我深渊"
+        ]
+      },
+      {
+        "formula_id": "T2_case_countdown",
+        "pattern": "第N天/下一个/倒计时 + 主角入局",
+        "candidates": [
+          "转学第七天，凶手把刀伸向了我",
+          "凶手说我是下一个，我等他上门"
+        ]
+      },
+      {
+        "formula_id": "T3_professional_counterhunt",
+        "pattern": "凶手狩猎我，我反手抓凶手",
+        "candidates": [
+          "连环杀手盯上我后，我笑了",
+          "凶手给我画遗像，我给他戴手铐"
+        ]
+      },
+      {
+        "formula_id": "T4_codename_brand",
+        "pattern": "代号/组织名 + 强悬疑名词",
+        "candidates": [
+          "她代号深渊",
+          "深渊入校后，凶手藏不住了"
+        ]
+      }
+    ]
+  },
+  "success_metrics": {
+    "completion_desire": {
+      "target_score": 9.2,
+      "requirements": "每章有明确案件推进；每3章至少揭开一个关键身份、证据或新凶手层级"
+    },
+    "paywall_point": {
+      "target_score": 9.0,
+      "requirements": "付费级卡点必须落在主角生命威胁、共犯身份确认、真凶邀请入伙、真正画师未落网等强悬念处"
+    },
+    "emotional_release": {
+      "target_score": 8.8,
+      "requirements": "爽点集中在主角冷静控场、凶手自信崩塌、证据链闭环、身份牌揭开"
+    },
+    "ai_flavor_control": {
+      "target_score": 9.5,
+      "requirements": "硬性违禁词0个；减少空泛心理描写，用动作、证据、对话和现场细节承载情绪"
+    },
+    "explosive_point_density": {
+      "target_score": 9.0,
+      "requirements": "前300字1个强爆点；每800-1200字1个微爆点；每2500-3500字1个付费级爆点"
+    }
+  }
+}

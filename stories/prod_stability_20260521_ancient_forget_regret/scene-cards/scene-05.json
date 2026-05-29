@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 740,
+  "target_chars_max": 820,
+  "location": "漕仓药室与外廊",
+  "time": "次日午后",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "裴明珠",
+    "两名婆子"
+  ],
+  "character_goal": "留下最后一点生育希望，也要逼谢临舟在裴明珠面前认下这份血债。",
+  "opposition_goal": "裴明珠要彻底绝后患，谢临舟则要默认此事发生。",
+  "conflict_action": "裴明珠闯进药室命婆子灌断潮汤，沈蘅抓住谢临舟衣摆求他拦下，谢临舟抽开衣角，任婆子掰开她的嘴。",
+  "information_gap": "那碗断潮汤抵到她唇边时，谢临舟没有回头。",
+  "emotional_debt_delta": "+2：绝嗣债坐实，男主默认到底。",
+  "payoff_or_hook": "那碗断潮汤抵到她唇边时，谢临舟没有回头。",
+  "chapter_end_hook": "那碗断潮汤抵到她唇边时，谢临舟没有回头。",
+  "paywall_card": false,
+  "must_include": [
+    "抓衣摆求救的动作",
+    "“断潮汤”这个新载体名称",
+    "谢临舟抽开衣角或避开目光"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写裴明珠完整身世",
+    "不要罗列婆子辱骂台词太多",
+    "不要把这场灌药变成纯恶人秀"
+  ],
+  "rhythm_job": {
+    "shape": "裴明珠闯入 -> 1轮求救对白 -> 灌药动作压过去",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白5成，动作4成，留白1成",
+    "hook_line_required": true
+  }
+}

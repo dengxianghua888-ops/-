@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B13-B14",
+  "scene_label": "萧迟自曝·郡主踹门",
+  "location": "礼安王府偏院",
+  "time": "第三日夜",
+  "pov": "谢长卿(灵魂线)",
+  "characters": [
+    "萧迟",
+    "漱玉郡主"
+  ],
+  "character_goal": "(灵)见证伪卜骨的最终戳穿",
+  "opposition_goal": "萧迟向铜镜自白伪卜骨真相、漱玉郡主从外踹门撞破",
+  "conflict_action": "玉佩声机簧暴露、漱玉踹门、萧迟临场变脸装可怜",
+  "information_gap": "M8 终极信息差:漱玉与谢明姝倾家荡产维护的卜骨,根本不存在",
+  "emotional_debt_delta": "+反派对决开局:加害者之间互噬",
+  "payoff_or_hook": "'全靠这套伪作,我才阉了你,从你手里抢走了一切。'",
+  "chapter_end_hook": "漱玉郡主像从十八层地狱爬出的恶鬼,死死盯着铜镜前的萧迟",
+  "paywall_card": false,
+  "target_chars_min": 800,
+  "target_chars_max": 1080,
+  "must_include": [
+    "青玉佩内嵌声机簧",
+    "江南手艺人刻几句话进玉佩",
+    "鬼参致敏丸",
+    "踹飞实木门"
+  ],
+  "must_not_write_as_exposition": [
+    "禁现代电子/录音设备词汇(用'声机簧')",
+    "禁直白说'这是诈骗'"
+  ]
+}

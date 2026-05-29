@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "市中心医院急诊",
+  "time": "同一天傍晚",
+  "pov": "林知意",
+  "characters": [
+    "林知意",
+    "秦正清",
+    "医生",
+    "护士"
+  ],
+  "character_goal": "启动外援救父母",
+  "opposition_goal": "无直接对手(与时间赛跑)",
+  "conflict_action": "打电话→秦正清赶到→清退记者→安排手术→手术等待",
+  "information_gap": "秦正清身份是女主前世才知的秘密",
+  "emotional_debt_delta": "-2(外援到位=转折)",
+  "payoff_or_hook": "秦正清到场=后续力量保障",
+  "chapter_end_hook": "急诊室门推开，一个西装男人大步走进来：\"孩子，我来了。\"",
+  "paywall_card": false,
+  "must_include": [
+    "打电话时的冷静",
+    "秦正清到场的冲击力",
+    "等待手术的煎熬"
+  ],
+  "must_not_write_as_exposition": [
+    "不要解释秦正清完整身世",
+    "不要写医疗流程"
+  ],
+  "rhythm_job": {
+    "shape": "危机→求援→转折到来",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  }
+}

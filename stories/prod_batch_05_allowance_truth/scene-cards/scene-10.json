@@ -1,0 +1,38 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "小餐馆门口",
+  "time": "第四日晚高峰",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "许国成",
+    "餐馆员工",
+    "邵明"
+  ],
+  "character_goal": "林素琴正式推进离婚、追偿和刑事报案",
+  "opposition_goal": "许国成用许念不认母亲威胁她撤诉",
+  "conflict_action": "许国成堵门踢翻菜筐，林素琴当众拨给邵明确认立案材料，员工用手机拍下许国成威胁过程",
+  "information_gap": "许国成为什么笃定许念会永远站在他那边",
+  "emotional_debt_delta": {
+    "mother_negligence_debt": "+4",
+    "father_malice_debt": "+7",
+    "time_debt": "+4"
+  },
+  "payoff_or_hook": "父亲威胁暴露离间旧局，推动寻找录音证据",
+  "chapter_end_hook": "许国成砸门吼：你敢告我，我就让她一辈子不认你。",
+  "paywall_card": false,
+  "must_include": [
+    "许国成堵门",
+    "员工录像",
+    "邵明确认材料已递交",
+    "一辈子不认你的威胁"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写成普通家暴场面拖延",
+    "不要让林素琴撤退",
+    "不要给许国成忏悔空间"
+  ]
+}

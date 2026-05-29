@@ -1,0 +1,76 @@
+{
+  "scene_id": "scene-16",
+  "beat_id": "beat-11a",
+  "chapter_id": 10,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "穹顶内部·场馆主厅→地下室通道",
+  "time": "晚上8:32，进入穹顶后",
+  "pov": "沈听澜",
+  "characters": ["沈听澜", "方屹", "时间循环中的玩家/NPC"],
+  "character_goal": "沈听澜要找到地下室的量子共振器并关闭它",
+  "opposition_goal": "方屹在地下室守着共振器——他不会让人关掉它",
+  "conflict_action": "沈听澜穿过时间循环中的'提线木偶'们，在地下室遭遇方屹；特警狙击手击毙方屹",
+  "information_gap": "方屹=父亲的前研究员，叛逃后用共振器重建实验——最后的真相碎片",
+  "emotional_debt_delta": "M8因果回环封闭——她走的是父亲走过的路",
+  "payoff_or_hook": "过渡：方屹被击毙，共振器面前只剩她一个人",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": ["时间循环中的诡异场景（人重复动作）", "方屹的身份揭露", "特警一枪击毙（不拖泥带水）", "衔尾蛇视觉暗示"],
+  "must_not_write_as_exposition": ["方屹的完整动机", "量子共振器的技术参数"],
+  "rhythm_job": {
+    "shape": "前快（行动紧凑+一枪解决）",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 15.8,
+    "dominant_emotion": "英雄-释然",
+    "emotion_arc": "孤身行动 → 时间循环诡异 → 对峙 → 一枪毙命",
+    "emotion_intensity": 8.5,
+    "reader_feeling_target": "紧张到极点然后一枪解决——痛快！干脆利落！",
+    "required_techniques": [
+      {
+        "technique": "时间规则下的孤独行动",
+        "instruction": "时间循环中所有人是提线木偶重复同一动作——只有她是自由的，孤独感+超脱感并存"
+      },
+      {
+        "technique": "衔尾蛇符号暗示",
+        "instruction": "地下室墙上有衔尾蛇图案——暗示时间循环，给读者的智力彩蛋"
+      },
+      {
+        "technique": "解决问题时的专业分工",
+        "instruction": "不让主角亲手杀人——特警执行击杀，保持她的纯洁性"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "和X一样+只能A+只能B",
+        "example": "他们和当年研究基地里的人一样。只能做做过的事，说说过的话。",
+        "instruction": "平行句式描写被困在时间里的无力感——理解时间乱流的恐怖本质"
+      }
+    ],
+    "peak_type": "cold_revenge",
+    "bomb_technique": "突变式",
+    "source_excerpt": "没有人追我。监考老师对着空气依旧在劝我不要扰乱考场秩序。他们和当年研究基地里的人一样。只能做做过的事，说说过的话。校长办公室里挂着一幅醒目的画。衔尾蛇。警察一枪终结了校长的生命。\"同学，击杀罪犯这种事，还是让专业的人来做。\""
+  },
+  "character_voices": {
+    "沈听澜": {
+      "口癖": ["爸爸走过这条路"],
+      "句式": "极短行动句+偶尔内心独白",
+      "单句上限": 14,
+      "禁止": "和方屹对话超过一句"
+    },
+    "方屹": {
+      "口癖": ["沈教授的女儿"],
+      "句式": "冷静学术口吻（只有一两句机会说话就被击毙）",
+      "单句上限": 16,
+      "禁止": "长篇自白、求饶"
+    }
+  }
+}

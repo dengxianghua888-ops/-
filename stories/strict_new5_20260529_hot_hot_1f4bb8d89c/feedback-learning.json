@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "story_slug": "strict_new5_20260529_hot_hot_1f4bb8d89c",
+  "pipeline_mode": "production",
+  "genre": "modern_reversal",
+  "mechanisms": ["M1", "M3", "M6", "M5"],
+  "target_length": {
+    "min": 10000,
+    "max": 18000
+  },
+  "final_length": 11947,
+  "quality_scores": {
+    "platform": 8.2,
+    "emotion": 8.4,
+    "style": 7.6,
+    "logic": 7.8
+  },
+  "failure_types": [],
+  "successful_hooks": [
+    {
+      "chapter": 1,
+      "scene_id": "scene-01",
+      "hook": "婚礼前三分钟推进白色遗体冷柜，铭牌写女主姓名，开篇羞辱物证化。",
+      "reusable_fact": "现代反转开篇可用高冲击实物羞辱作为场景锚点，随后立刻用合同、函件、回执反杀。"
+    },
+    {
+      "chapter": 2,
+      "scene_id": "scene-02",
+      "hook": "戒指被放进冷柜托盘，交易所问询电话同步打断男主控制话术。",
+      "reusable_fact": "退婚爽点不靠哭闹，靠象征物切割加外部程序即时介入。"
+    },
+    {
+      "chapter": 3,
+      "scene_id": "scene-03",
+      "hook": "陌生短信连续提示“别信他”“别回头”，把白月光从敌人预期转为潜在证人。",
+      "reusable_fact": "女性对立预期可在前三章用匿名提醒反转，制造信息差和联盟期待。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "scene-06",
+      "hook": "许知微划掉“临床奇迹”，承认自己不是样本也不是奖杯。",
+      "reusable_fact": "被消费角色的觉醒要落在具体标签删除、合同划线、授权撤回等可见动作上。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "scene-08",
+      "hook": "临时董事会上女主撤回核心专利授权，许知微撤回公益肖像授权，男主说要起诉两人。",
+      "reusable_fact": "中段高潮适合双撤回函并排，形成事业线和情绪线同步反杀。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "scene-11",
+      "hook": "女主将表决权放进独立伦理信托，董事会冻结男主CEO权限。",
+      "reusable_fact": "现代商战反转要用独立信托、回避、停审、冻结权限等程序动作替代口头定罪。"
+    },
+    {
+      "chapter": 14,
+      "scene_id": "scene-14",
+      "hook": "冷柜铭牌被归入“婚礼冷柜事件，反面案例补充物证”，女主不再回头。",
+      "reusable_fact": "首章羞辱物件在结尾转为反面案例物证，可完成因果回旋和情绪债偿还。"
+    }
+  ],
+  "paywall_cards": [
+    {
+      "chapter": 4,
+      "scene_id": "scene-04",
+      "card": "陆承川递出名片，只问“需要我作证，还是需要我等”。",
+      "type": "新盟友入场",
+      "reuse_note": "第一付费点可放在权威见证人克制入场，不替女主做决定。"
+    },
+    {
+      "chapter": 6,
+      "scene_id": "scene-06",
+      "card": "许知微交出营销合约和病史授权附加条款，说“我死过一次”。",
+      "type": "敌对预期反转",
+      "reuse_note": "白月光不争宠，改为交证据，可拉高女性联盟期待。"
+    },
+    {
+      "chapter": 8,
+      "scene_id": "scene-08",
+      "card": "女主与许知微双撤回授权，江砚舟当众说要起诉两人。",
+      "type": "中段对抗升级",
+      "reuse_note": "双女主共同撤授权后，用男主威胁诉讼制造下一章调查期待。"
+    },
+    {
+      "chapter": 9,
+      "scene_id": "scene-09",
+      "card": "媒体区公开伦理投诉受理回执，调查组十五分钟后到场。",
+      "type": "外部程序压场",
+      "reuse_note": "媒体误读私怨时，用受理章和调查组把舆论导向程序线。"
+    },
+    {
+      "chapter": 11,
+      "scene_id": "scene-11",
+      "card": "CEO权限临时冻结，江砚舟名牌被翻下去。",
+      "type": "权力坍塌",
+      "reuse_note": "权力惩罚要有屏幕状态变化和名牌翻面等视觉确认。"
+    },
+    {
+      "chapter": 12,
+      "scene_id": "scene-12",
+      "card": "女主归档旧注释本，拒绝江砚舟，回答“我先选我自己”。",
+      "type": "情感切割",
+      "reuse_note": "复合请求段要把旧情物归档，避免新男主越界抢戏。"
+    }
+  ],
+  "new_forbidden_candidates": [],
+  "retrieval_tags": [
+    "现代反转",
+    "婚礼羞辱",
+    "遗体冷柜",
+    "专利撤回",
+    "伦理审查",
+    "交易所问询",
+    "董事会冻结权限",
+    "白月光反转盟友",
+    "女性联盟",
+    "病史授权撤回",
+    "公益样本反消费",
+    "物证归档",
+    "反面案例",
+    "冷静切割型女主",
+    "控制型未婚夫",
+    "克制见证型男配",
+    "M1死环反杀",
+    "M3因果回旋反讽",
+    "M6多层递进反转"
+  ],
+  "manual_revision_delta": []
+}

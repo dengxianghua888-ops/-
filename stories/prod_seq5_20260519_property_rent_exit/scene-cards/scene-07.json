@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B07",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "卸货月台、叉车通道和冷链车出口",
+  "time": "第二天下午，最后一批设备撤离时",
+  "pov": "许知夏第一人称",
+  "characters": ["许知夏", "马成", "保安", "搬运工", "白蔓助理"],
+  "character_goal": "许知夏要合法撤出冷柜、切配台和剩余设备。",
+  "opposition_goal": "马成要用月台检修和叉车钥匙扣押拖死撤仓进度。",
+  "conflict_action": "马成挂出月台检修牌并扣下叉车钥匙，许知夏让搬运工把整排冷柜停在通道白线内，再让员工全程录像。",
+  "information_gap": "马成不知道冷柜停在白线内既合法，又会堵住白蔓旗舰仓的入仓动线。",
+  "emotional_debt_delta": "+1后-1：锁月台加债，冷柜反向卡位开始反噬。",
+  "payoff_or_hook": "白蔓助理推货进不来，镜头拍到检修牌和被扣的钥匙。",
+  "chapter_end_hook": "月台被锁，我把整排冷柜停在通道口：“那就让它们在这里等检查。”",
+  "paywall_card": true,
+  "must_include": ["月台检修牌", "叉车钥匙被扣", "冷柜停在白线内", "员工录像", "白蔓货物进不来"],
+  "must_not_write_as_exposition": ["不要让女主破坏设施", "不要只写口头威胁", "不要弱化锁月台恶行"]
+}

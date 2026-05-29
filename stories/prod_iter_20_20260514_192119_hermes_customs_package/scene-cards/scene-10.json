@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-10",
+  "beat_id": "B10",
+  "target_chars_min": 800,
+  "target_chars_max": 1000,
+  "location": "鉴定大厅+警车现场",
+  "time": "同日下午五点二十",
+  "pov": "徐阳·第一人称",
+  "characters": ["徐阳", "市场监管打假专案组组长", "周明远", "财务专员"],
+  "character_goal": "把案件交给专案组",
+  "opposition_goal": "周明远甩锅'系统报错'",
+  "conflict_action": "警笛响→专案组进场→组长看完PDF对周明远开口'借科技鉴定的壳子搞敲诈勒索'→周明远脸瞬间惨白→财务专员尝试解释被打断",
+  "information_gap": "读者看到升维：单点冤情→系统性掠夺",
+  "emotional_debt_delta": "-1（累积至-5）",
+  "payoff_or_hook": "组长定性原话+周明远脸白瞬间",
+  "chapter_end_hook": "警笛响起，市场监管专案组进场，周明远的脸瞬间惨白",
+  "paywall_card": true,
+  "must_include": ["警笛进场环境音", "组长定性原话", "周明远脸色变化物理描写", "财务专员被打断动作"],
+  "must_not_write_as_exposition": ["警官长篇法律科普", "反派咆哮失态", "主角主动指挥警察", "煽情背景音乐式描写"]
+}

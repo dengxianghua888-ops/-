@@ -1,0 +1,80 @@
+{
+  "scene_id": "scene-12",
+  "beat_id": "beat-12",
+  "chapter_id": 9,
+  "is_chapter_end": false,
+  "target_chars_min": 550,
+  "target_chars_max": 650,
+  "location": "医院/陆衍租的公寓",
+  "time": "流产后数月",
+  "pov": "陆衍（第三人称）+ 方怡自白",
+  "characters": ["方怡", "陆衍"],
+  "character_goal": "方怡说出背叛动机——嫉妒驱动的终极坦白",
+  "opposition_goal": "陆衍想摆脱方怡去追苏念但已不可能",
+  "conflict_action": "方怡不孕确诊→方怡哭诉'凭什么她什么都比我强所以我抢走了你'→揭露'你跟我在一起叫的也是她的名字'→离婚",
+  "information_gap": "方怡的嫉妒动机第一次被明确说出——读者确认'从一开始就是存心的'",
+  "emotional_debt_delta": "方怡的闺蜜债全面清算（不孕+被弃+动机曝光）",
+  "payoff_or_hook": "方怡'凭什么'的自白=背叛动机终极确认",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "不孕确诊的医学事实",
+    "方怡的嫉妒自白（凭什么她什么都比我强）",
+    "'你闭着眼叫的也是她的名字'的致命揭露",
+    "离婚协议"
+  ],
+  "must_not_write_as_exposition": [
+    "方怡之后的人生走向",
+    "陆衍追苏念的具体计划"
+  ],
+  "rhythm_job": {
+    "shape": "缓慢下沉——持续的丧失和坦白",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.5,
+    "comma_period_ratio": 0.50,
+    "sentence_avg_len": 18.0,
+    "dominant_emotion": "追悔-嫉妒曝光-自毁",
+    "emotion_arc": "不孕确诊 → 嫉妒坦白 → 离婚",
+    "emotion_intensity": 7.5,
+    "reader_feeling_target": "对方怡的报应满足，对她的自白有一丝复杂但不原谅",
+    "required_techniques": [
+      {
+        "technique": "施害者自剖动机",
+        "instruction": "'凭什么她什么都比我强？所以我抢走了你！'——让施害者自己说出动机比旁人揭露更有说服力"
+      },
+      {
+        "technique": "平行命运对照",
+        "instruction": "方怡不孕被弃 ‖ 苏念已获新幸福——并排对比强化因果报应感"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "你[最亲密的时刻]+[最暴露的细节] = 致命一击",
+        "example": "你跟我在一起的时候，闭着眼叫的也是她的名字！",
+        "instruction": "最私密的时刻暴露最真实的心——方怡揭开自己的伤疤做武器"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "累积式——方怡的控诉一句接一句堆叠出完整动机",
+    "source_excerpt": "医生说：以后很难再怀了。\n方怡坐在病床上，指甲掐进掌心。\n'陆衍，你知道我为什么要抢苏念的东西吗？'\n'凭什么她什么都比我强？代码比我好，长得比我漂亮，连你看她的眼神都跟看我不一样。'\n'所以我抢走了你。'\n'可你跟我在一起的时候，闭着眼叫的也是她的名字！'\n陆衍没说话。\n离婚协议已经摆在床头柜上。"
+  },
+  "character_voices": {
+    "方怡": {
+      "口癖": ["凭什么"],
+      "句式": "哭诉式长句控诉→崩溃",
+      "单句上限": 15,
+      "禁止": "体面话"
+    },
+    "陆衍": {
+      "口癖": [],
+      "句式": "沉默、不辩解",
+      "单句上限": 10,
+      "禁止": "画饼承诺"
+    }
+  }
+}

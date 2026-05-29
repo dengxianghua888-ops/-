@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "I5 付费级卡点密度低于番茄推荐的每3000字1次，发布前建议在 ch05 或 ch06 追加一次情绪峰值卡点"
+  ],
+  "hard_checks": {
+    "required_artifacts": "pass",
+    "review_gate_block": "pass",
+    "title_length": {
+      "status": "pass",
+      "title": "专业课被压成28分，我让他们连夜调卷",
+      "chars": 18,
+      "limit": 30
+    },
+    "forbidden_words": {
+      "status": "pass",
+      "hits": {}
+    },
+    "soft_forbidden_words": {
+      "status": "pass",
+      "hits": {
+        "微微": 1,
+        "轻轻": 1
+      },
+      "limit_total": 2
+    }
+  },
+  "similarity": {
+    "status": "pass",
+    "max_continuous_overlap_chars": 4,
+    "paragraph_structure_similarity": "medium",
+    "golden_sentence_risk": "low",
+    "notes": [
+      "保留 M1/M3 的结构同构，但题材、身份、道具和场景已完整替换。"
+    ]
+  },
+  "style_metrics": {
+    "status": "pass",
+    "char_count": 10949,
+    "sentence_count": 479,
+    "avg_sentence_length": 21.856,
+    "dialogue_ratio": 0.33,
+    "question_marks": 53,
+    "question_marks_per_k": 4.841,
+    "physical_emotion_hits": {
+      "指尖": 2,
+      "发麻": 1,
+      "太阳穴": 1,
+      "青筋": 1,
+      "后背": 2,
+      "冷汗": 1,
+      "喉咙": 1,
+      "眼眶": 1
+    }
+  },
+  "mechanism_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "mechanism": "M1",
+        "check": "正式盖章凭证被反向使用",
+        "status": "pass",
+        "evidence": "成绩确认书加盖学院公章，成为举报答卷被调包的核心证据。"
+      },
+      {
+        "mechanism": "M1",
+        "check": "高潮处存在二选一死环",
+        "status": "pass",
+        "evidence": "承认答卷完整则28分无法成立；坚持28分则必须拿出28分答卷。"
+      },
+      {
+        "mechanism": "M3",
+        "check": "反派规则句被原结构回敬",
+        "status": "pass",
+        "evidence": "“系统怎么判，分数就怎么出”回旋为“系统怎么判，你就怎么蹲”。"
+      }
+    ]
+  },
+  "soul_fidelity": {
+    "status": "pass",
+    "items": [
+      {
+        "contract_item": "读者承诺",
+        "status": "pass",
+        "evidence": "前半用AI阅卷和诚信档案压迫，后半用同一系统、公章和原始答卷反杀。"
+      },
+      {
+        "contract_item": "情绪债",
+        "status": "pass",
+        "evidence": "荒谬、屈辱、生存、金钱、公平五类债务均在 Beat 7-11 偿还。"
+      },
+      {
+        "contract_item": "主角姿态",
+        "status": "pass",
+        "evidence": "主角始终隐忍取证、克制推进，没有靠撒泼或暴力取胜。"
+      },
+      {
+        "contract_item": "神髓禁改项",
+        "status": "pass",
+        "evidence": "M1 公章死环、M3 回旋金句、公开崩盘、价值回甘均保留。"
+      }
+    ]
+  },
+  "tomato_fit": {
+    "status": "warn",
+    "first_chapter_hook_score": 9,
+    "paywall_card_count": 2,
+    "paywall_card_every_words": 5380,
+    "chapter_hook_coverage": 0.86,
+    "notes": [
+      "付费级卡点低于每3000字1次的推荐密度，作为 important 风险记录。"
+    ]
+  }
+}

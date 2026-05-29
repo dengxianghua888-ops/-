@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "别庄内室",
+  "time": "白天",
+  "pov": "沈昭宁（第一人称）",
+  "characters": [
+    "沈昭宁",
+    "裴长渊",
+    "韩若"
+  ],
+  "character_goal": "韩若来羞辱并绝后",
+  "opposition_goal": "维持压迫/阻止真相",
+  "conflict_action": "韩若灌绝嗣汤，宣布宅子归她，炫耀玉佩",
+  "information_gap": "女主借天灯暗号引出韩若的虚荣心",
+  "emotional_debt_delta": "+25（绝育+夺宅）",
+  "payoff_or_hook": "婆子掰开她的嘴灌下整碗绝嗣汤",
+  "chapter_end_hook": "婆子掰开她的嘴灌下整碗绝嗣汤",
+  "paywall_card": true,
+  "must_include": [
+    "韩若灌绝嗣汤，宣布宅子归她，炫耀玉佩"
+  ],
+  "must_not_write_as_exposition": [
+    "不能用概述代替场景",
+    "必须有可见行动"
+  ]
+}

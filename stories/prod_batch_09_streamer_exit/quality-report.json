@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "pipeline_mode": "production",
+  "gate_status": "pass",
+  "critical_failures": [],
+  "important_failures": [
+    "platform.synopsis_pending_phase7: 平台简介将在 Final Packager 投稿包中产出。"
+  ],
+  "machine_metrics": {
+    "text_path": "stories/prod_batch_09_streamer_exit/final.md",
+    "target_length": {
+      "min": 10000,
+      "max": 12500,
+      "actual": 11559,
+      "status": "pass"
+    },
+    "chapters": {
+      "count": 15,
+      "hook_hits": 15,
+      "hook_coverage": 1.0,
+      "lengths": [
+        758,
+        786,
+        825,
+        746,
+        823,
+        687,
+        705,
+        819,
+        693,
+        742,
+        708,
+        851,
+        672,
+        838,
+        792
+      ],
+      "status": "pass"
+    },
+    "paywall_cards": {
+      "required": 4,
+      "actual": 8,
+      "status": "pass"
+    },
+    "direct_submission": {
+      "status": "pass",
+      "opening_guide": {
+        "present": true,
+        "paragraphs": 3,
+        "chars": 82,
+        "status": "pass"
+      },
+      "mobile_paragraphs": {
+        "offending_paragraphs": 0,
+        "max_sentence_endings": 1,
+        "examples": [],
+        "status": "pass"
+      },
+      "submission_paywall_map": {
+        "required": 4,
+        "actual": 4,
+        "present": true,
+        "status": "pass"
+      },
+      "visible_paywall_labels": {
+        "hits": [],
+        "count": 0,
+        "status": "pass"
+      }
+    },
+    "source_overlap": {
+      "max_continuous_overlap_chars": 9,
+      "status": "pass"
+    },
+    "repeated_ngram": {
+      "max_repeated_substring_chars": 13,
+      "status": "pass"
+    },
+    "style_metrics": {
+      "char_count": 11559,
+      "sentence_count": 629,
+      "avg_sentence_length": 17.377,
+      "dialogue_ratio": 0.2831,
+      "question_marks": 58,
+      "question_marks_per_k": 5.018,
+      "physical_emotion_hits": {
+        "指甲": 1
+      },
+      "forbidden_hits": {},
+      "soft_forbidden_hits": {
+        "微微": 1
+      },
+      "action_density_per_k": 24.743
+    },
+    "semantic_repetition": {
+      "sentence_count": 477,
+      "unique_sentence_skeletons": 477,
+      "max_sentence_repeats": 1,
+      "max_sentence_repeat_ratio": 0.0021
+    },
+    "forbidden_words": {
+      "hits": {},
+      "status": "pass"
+    },
+    "soft_forbidden_words": {
+      "hits": {
+        "微微": 1
+      },
+      "status": "pass"
+    },
+    "failures": []
+  },
+  "critic_scores": {
+    "platform": 8.2,
+    "emotion": 8.6,
+    "style": 7.8,
+    "logic": 8.4
+  },
+  "evidence": [
+    {
+      "dimension": "platform",
+      "excerpt": "项目群里最后一行字弹出：S+ 男主，换顾凛。",
+      "finding": "第一章钩子以资源撤换直接兑现反击承诺。"
+    },
+    {
+      "dimension": "platform",
+      "excerpt": "品牌官微准点更新。海报上站着的人不是陆呈。",
+      "finding": "官宣打脸具备截图传播感。"
+    },
+    {
+      "dimension": "emotion",
+      "excerpt": "当前可用买量余额，0元。",
+      "finding": "九百万扶持被否认的债转化为可量化资源损失。"
+    },
+    {
+      "dimension": "emotion",
+      "excerpt": "所以，你让我从我的房子里滚出去？",
+      "finding": "产权真相直接偿还继妹逐客羞辱。"
+    },
+    {
+      "dimension": "style",
+      "excerpt": "门口的司机敲了敲门：“许小姐，搬家公司到了。”",
+      "finding": "第10章章末已从倒置复述改为新动作钩子。"
+    },
+    {
+      "dimension": "style",
+      "excerpt": "法院门外的风很冷。陆呈的道歉置顶还亮着，我把手机锁屏，交给法务带回公司归档。",
+      "finding": "高潮后以画面和动作收束，削弱流程清单感。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "授权合同、直播录屏、样品签收单、营销号转账记录。",
+      "finding": "侵权追责具备证据链支撑。"
+    },
+    {
+      "dimension": "logic",
+      "excerpt": "陆呈账号商业合作权限已冻结，冻结原因：虚假商业宣传、合同风险、舆情高危。",
+      "finding": "平台风控结果与虚假宣传、合同风险和舆情风险相连。"
+    }
+  ]
+}

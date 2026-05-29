@@ -1,0 +1,67 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-09",
+  "chapter_id": 5,
+  "is_chapter_end": false,
+  "target_chars_min": 650,
+  "target_chars_max": 800,
+  "location": "季霄的车内/某处安静空间",
+  "time": "离开会所后不久",
+  "pov": "苏念（第一人称）",
+  "characters": ["苏念", "季霄"],
+  "character_goal": "苏念需要消化发生的一切——她还在犹豫是否接受季霄的安排",
+  "opposition_goal": "季霄用陈奕的'标准'打消苏念的犹豫——不是说服，是用逻辑碾压",
+  "conflict_action": "苏念说'太快了'，季霄用'认识方颖三天就官宣合伙人，我们一个月算早么？'反问——用对方标准打脸",
+  "information_gap": "季霄接下来要带苏念去哪里？他所说的'更顺理成章'是什么安排？",
+  "emotional_debt_delta": "转正——从债务叠加转为价值认可的开始",
+  "payoff_or_hook": "M3因果回旋的第一次显性应用——用陈奕的行为逻辑反证苏念的价值",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "苏念的短暂犹豫（用动作而非内心独白表达）",
+    "季霄用方颖三天官宣的事实打脸苏念的犹豫",
+    "从犹豫到被说服的转变——用一个动作完成（点头/握手/不说话）",
+    "暗示即将去某个地方"
+  ],
+  "must_not_write_as_exposition": [
+    "季霄的深情告白",
+    "苏念对爱情的定义",
+    "两人过去一个月是怎么在一起的"
+  ],
+  "rhythm_job": {
+    "shape": "松弛对话→一击→安静",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 0
+  },
+  "soul_anchor": {
+    "avg_line_chars": 16.8,
+    "comma_period_ratio": 0.60,
+    "sentence_avg_len": 15.2,
+    "dominant_emotion": "犹豫-被接住",
+    "emotion_arc": "犹豫 → 被逻辑说服 → 安心",
+    "emotion_intensity": 7,
+    "reader_feeling_target": "替苏念觉得'这个男人太对了'——不是用甜言蜜语而是用事实让人心安",
+    "required_techniques": [
+      {
+        "technique": "回旋打脸——用对方的标准反证对方的失败",
+        "instruction": "不是'我多爱你'，而是'你前任比我更离谱你还觉得我快？'——用陈奕自己的行为证明苏念的犹豫没道理"
+      },
+      {
+        "technique": "超预期清单的预告",
+        "instruction": "季霄提到已经'安排好了'但不展开——为下一场的仪式感爆击做铺垫"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "对方案例+时间数字+反问",
+        "example": "认识方颖不过三天，他就官宣合伙人。我们的一个月，还算早么？",
+        "instruction": "用精确数字的对比完成说服——数字本身就是论据"
+      }
+    ],
+    "peak_type": "emotion_buildup",
+    "bomb_technique": "对比式",
+    "source_excerpt": "\"认识江盈盈不过三天，他就求了婚，我们的一个月，还算早么？\""
+  }
+}

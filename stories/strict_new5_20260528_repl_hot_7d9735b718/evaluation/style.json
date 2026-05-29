@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "score": 7.5,
+  "evidence": [
+    {
+      "item": "source_rhythm_quant_1",
+      "evidence": "平均可视行长保守估算：source 约 15.8 字，draft 约 13.6 字。",
+      "assessment": "draft略短，但未明显低到机械碎行。"
+    },
+    {
+      "item": "source_rhythm_quant_2",
+      "evidence": "短行率保守估算：source 约 0.61，draft 约 0.69。",
+      "assessment": "draft偏高，标 warning；Phase 7 不应继续拆短句。"
+    },
+    {
+      "item": "source_rhythm_quant_3",
+      "evidence": "直接对白行率保守估算：source 约 0.34，draft 约 0.37。",
+      "assessment": "对白驱动程度接近源文。"
+    },
+    {
+      "item": "source_rhythm_quant_4",
+      "evidence": "问号密度保守估算：source 约 3.8/千字，draft 约 4.6/千字。",
+      "assessment": "draft摊牌段追问偏密，建议压缩 Scene 8-9。"
+    },
+    {
+      "item": "narrative_crutches",
+      "evidence": "指定叙述拐杖短语估算 0 次。",
+      "assessment": "未触发 warning 或 fail。"
+    },
+    {
+      "item": "golden_sentence",
+      "evidence": "“他把两个孩子放在同一所学校，却只记得给别人家的孩子拎书包。”",
+      "assessment": "具备可脱离上下文传播的金句。"
+    },
+    {
+      "item": "summary_sentence_check",
+      "evidence": "约 3 处边缘总结句，未超过 3 处 fail 线。",
+      "assessment": "pass，但 Scene 7、10、11 应删掉重复说明。"
+    }
+  ]
+}

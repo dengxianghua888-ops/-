@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene-07",
+  "beat_id": "B7",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "出差酒店房间",
+  "time": "工作一年半",
+  "pov": "苏念",
+  "characters": [
+    "苏念",
+    "林薇"
+  ],
+  "character_goal": "获取直接证据",
+  "opposition_goal": "林薇想隐瞒",
+  "conflict_action": "合住时林薇手机亮屏，备注名越哥+红心暴露",
+  "information_gap": "情感证据坐实",
+  "emotional_debt_delta": "+2",
+  "payoff_or_hook": "备注名=铁证",
+  "chapter_end_hook": "林薇的手机屏亮了一下——备注名是越哥，后面跟着一个红心。",
+  "paywall_card": false,
+  "must_include": [
+    "自然瞥见手机",
+    "备注名细节",
+    "女主不动声色"
+  ],
+  "must_not_write_as_exposition": [
+    "不能翻手机"
+  ]
+}

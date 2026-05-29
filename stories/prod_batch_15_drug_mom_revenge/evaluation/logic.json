@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "score": 8.0,
+  "summary": "样本封存、律师、警方和司法鉴定链条清楚。",
+  "evidence": [
+    {
+      "type": "opening",
+      "quote": "周峤说要让他妈来住时，我想起了那个匿名帖子。"
+    },
+    {
+      "type": "evidence",
+      "quote": "警察问我怀疑谁，我说：我的丈夫。"
+    }
+  ],
+  "failures": []
+}

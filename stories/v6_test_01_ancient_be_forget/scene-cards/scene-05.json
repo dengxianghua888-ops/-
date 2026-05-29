@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "beat-05",
+  "chapter_id": 5,
+  "is_chapter_end": true,
+  "target_chars_min": 740,
+  "target_chars_max": 940,
+  "location": "拾翠阁画室·跪在画毡上",
+  "time": "册封典礼前一日，连续画了两日两夜",
+  "pov": "阿昭",
+  "characters": ["阿昭", "监视婆子"],
+  "character_goal": "阿昭要撑过最后的折磨等到救兵信号",
+  "opposition_goal": "裴若霜（幕后指令）要阿昭画完9999幅寿字为情敌孩子祈福",
+  "conflict_action": "阿昭小产未愈被逼跪在画毡上日夜不停画寿字→手指磨穿血混入墨→意识模糊中看见窗外暗号画回信的信号（一盏特制灯笼）→最后对监视者冷静说出'希望明日你们不要后悔'",
+  "information_gap": "读者知道暗号画已送出、救兵将至；施害者不知——从纯压迫转为'等着看好戏'",
+  "emotional_debt_delta": "+2：肉体折磨（血为墨）+精神讽刺（为杀子凶手的孩子祈福）",
+  "payoff_or_hook": "'希望明日，你们不要后悔'——从被动受难者变为主动布局者",
+  "chapter_end_hook": "希望明日，你们不要后悔——一句话翻转全局势，读者知道明天册封典礼将天翻地覆",
+  "paywall_card": false,
+  "must_include": [
+    "九千九百九十九幅寿字的数字必须出现",
+    "手指磨穿、血混入墨的物理细节（不超过两句）",
+    "因果讽刺点明：她在为杀了自己孩子的人的孩子祈福",
+    "暗号信号的出现（灯笼/画作回信）作为希望转折",
+    "最后一句'希望明日不要后悔'必须是阿昭主动开口"
+  ],
+  "must_not_write_as_exposition": [
+    "9999幅寿字的折磨不得写成流水账过程",
+    "暗号画的具体密码机制不得解释",
+    "不得用长段内心独白描述她的计划"
+  ],
+  "rhythm_job": {
+    "shape": "前重后轻",
+    "breathing_lines_min": 2,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 24.3,
+    "comma_period_ratio": 0.68,
+    "sentence_avg_len": 21.5,
+    "dominant_emotion": "麻木-决绝",
+    "emotion_arc": "肉体折磨 → 麻木 → 最后的希望 → 决绝",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "心疼到无法呼吸，同时因暗号回信燃起期待",
+    "required_techniques": [
+      {
+        "technique": "肉体折磨数字化",
+        "instruction": "用具体数字（九千九百九十九幅）和重复结构（'画了醒，醒了画'或'跪着画，晕了跪'）让读者切身感受。不需要描写全过程，用数字+循环结构即可"
+      },
+      {
+        "technique": "因果讽刺并置",
+        "instruction": "在同一句或相邻两句中并置：'她杀了我的孩子'+'逼我为她的孩子祈福'——讽刺必须显式说出，不能靠读者自己推理"
+      },
+      {
+        "technique": "希望信号物象化",
+        "instruction": "在最黑暗时出现一个具体的视觉信号（灯笼/画作/彩色物件），用与全文灰暗色调对比的颜色。女主看到后'松了口气笑了'——用身体反应写希望"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "AB+BA回环结构",
+        "example": "路上晕了醒，醒了晕",
+        "instruction": "用回环结构写折磨的循环感。改为画坊语境：'画了晕，晕了画'或'跪着写，写着跪'，6-8字写尽无尽折磨"
+      },
+      {
+        "structure": "时间对比（三天前vs现在）+ 情绪翻转词（信→恶心）",
+        "example": "这话若在三天前说我也许会信，现在我只觉恶心",
+        "instruction": "当施害者说出伪善台词时，阿昭用精确时间锚定回应：'X天前我会信，现在只觉Y'——不泛泛否定，用具体时间让转变可信"
+      }
+    ],
+    "peak_type": "physical_violence",
+    "bomb_technique": "累积式",
+    "source_excerpt": "九千九百九十九阶天梯……两日未进米水……路上晕了醒，醒了晕……为了给杀死自己孩子的林楚楚腹中孩子求平安符……昏迷中，我恍恍惚惚看见了窗外那七色的天灯。我这才松了口气笑了。……希望明日，你们不要后悔。"
+  }
+}

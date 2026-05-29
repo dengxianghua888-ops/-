@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B14b-B15a",
+  "scene_label": "扼喉·允世纪大婚",
+  "location": "礼安王府偏院",
+  "time": "第三日夜深",
+  "pov": "谢长卿(灵魂线)",
+  "characters": [
+    "漱玉郡主",
+    "萧迟"
+  ],
+  "character_goal": "(灵)看漱玉以'大婚'之名引萧迟入瓮",
+  "opposition_goal": "漱玉扼喉再松手、抽十几耳光、答应世纪大婚",
+  "conflict_action": "扼喉、抽耳光、温柔擦血、私召黑市易容师与下哑药方士",
+  "information_gap": "萧迟以为死里逃生,实则被引向终极屈辱",
+  "emotional_debt_delta": "+羞辱债二阶:同等羞辱即将启动",
+  "payoff_or_hook": "漱玉绣鞋走出偏院,冷令'今夜必得到位'",
+  "chapter_end_hook": "漱玉郡主才满意地放下了手里的酒盏",
+  "paywall_card": false,
+  "target_chars_min": 740,
+  "target_chars_max": 1000,
+  "must_include": [
+    "漱玉扼住萧迟咽喉",
+    "十几个耳光打到脸变形",
+    "素绢手帕擦血'莫哭便不俊了'",
+    "黑市易容师与下哑药方士"
+  ],
+  "must_not_write_as_exposition": [
+    "禁直说'报复开始',让动作自承",
+    "禁现代场景"
+  ]
+}

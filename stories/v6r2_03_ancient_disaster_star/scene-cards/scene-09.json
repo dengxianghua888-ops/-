@@ -1,0 +1,85 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "beat-07a",
+  "chapter_id": 7,
+  "is_chapter_end": false,
+  "target_chars_min": 480,
+  "target_chars_max": 620,
+  "location": "靖安王府大堂（苏若棠已离开，视角切回王府）",
+  "time": "苏若棠被带走后当即",
+  "pov": "苏若棠（第一人称，通过后来得知/旁白补叙）",
+  "characters": ["楚怀璟", "柳如烟的奸夫", "柳如烟", "侍卫"],
+  "character_goal": "（本场苏若棠不在场）揭露柳如烟的全部罪行",
+  "opposition_goal": "柳如烟试图用'受害者话术'最后挣扎",
+  "conflict_action": "五花大绑的奸夫在求生本能驱动下供述：柳如烟的孩子是他的、柳如烟指使矿监加刑苏若棠、偷梁换柱诬陷",
+  "information_gap": "楚怀璟终于知道三年苛待是柳如烟操纵的——但为时已晚",
+  "emotional_debt_delta": "陆清沅（柳如烟）的情感债开始清算——谎言崩塌、真相大白",
+  "payoff_or_hook": "赤金腰牌作为物证一击必杀——楚怀璟也有同款='孩子不是我的'的铁证",
+  "chapter_end_hook": null,
+  "paywall_card": false,
+  "must_include": [
+    "奸夫求生式供述（她是我的老相好）",
+    "赤金腰牌/信物作为物证（楚怀璟也有同款）",
+    "柳如烟试图用受害者话术翻转",
+    "楚怀璟面色涨红/崩塌反应",
+    "揭露柳如烟指使矿监加刑的真相"
+  ],
+  "must_not_write_as_exposition": [
+    "柳如烟的阴谋全貌（通过奸夫供述逐条揭露）",
+    "楚怀璟的后悔（通过物理反应展示）"
+  ],
+  "rhythm_job": {
+    "shape": "波浪起伏",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 3,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 15.2,
+    "comma_period_ratio": 1.6,
+    "sentence_avg_len": 17.0,
+    "dominant_emotion": "真相大白-解气",
+    "emotion_arc": "揭露 → 柳如烟挣扎 → 证据碾压 → 真相完整",
+    "emotion_intensity": 9.0,
+    "reader_feeling_target": "看着柳如烟被揭穿的解气快感",
+    "required_techniques": [
+      {
+        "technique": "奸夫的求生式供述",
+        "instruction": "奸夫在死亡威胁下什么都说：'王爷她就是个贱妇！她是我老相好！孩子是我的！'——求生本能驱动的供述比审问更自然"
+      },
+      {
+        "technique": "物证一击必杀",
+        "instruction": "侍卫搜出定情信物（类似赤金腰牌），楚怀璟一看就知'我也有同款'=孩子不是我的"
+      },
+      {
+        "technique": "施暴者话术的180度翻转",
+        "instruction": "柳如烟试图'王爷你不仅掐我还要动手'的受害者话术——但已失效，证据面前伎俩瓦解"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "承诺+但字反转（给A不给B）",
+        "example": "朕说过放你一条生路，但没说过让你舒服活着！",
+        "instruction": "楚怀璟对奸夫：'本王说过留你一条命，但没说让你舒坦活着'——挑断手筋脚筋"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "累积式",
+    "source_excerpt": "「陛下，她就是个贱妇！您莫要被她骗了！她是我的老相好……」\n侍卫夺下玉佩……仅此一眼。傅临渊便气得满脸涨红。\n毕竟同样的玉佩，他也有一枚！\n陆清沅：「陛下你不仅掐我还要动手——」\n「朕说过放你一条生路，但没说过让你舒服活着！」"
+  },
+  "character_voices": {
+    "楚怀璟": {
+      "口癖": ["本王说过", "但没说"],
+      "句式": "冷酷审判式短句",
+      "单句上限": 20,
+      "禁止": "温柔、犹豫"
+    },
+    "柳如烟": {
+      "口癖": ["王爷你", "妾身冤枉"],
+      "句式": "受害者话术已失效，变为哭喊辩解",
+      "单句上限": 20,
+      "禁止": "冷静、有底气"
+    }
+  }
+}

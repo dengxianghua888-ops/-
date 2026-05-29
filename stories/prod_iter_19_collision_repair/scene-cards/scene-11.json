@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-11",
+  "beat_id": "beat-11",
+  "target_chars_min": 760,
+  "target_chars_max": 800,
+  "location": "派出所审讯走廊",
+  "time": "主线时间线 第11节",
+  "pov": "第一人称男主张磊",
+  "characters": [
+    "张磊",
+    "林桂芬",
+    "民警"
+  ],
+  "character_goal": "把恐吓案钉死",
+  "opposition_goal": "在询问中互相推诿翻供",
+  "conflict_action": "三个人被分别带进询问室，桂芬在门外把家里监控同步到平板上，民警一帧一帧记录，每个画面都对应一份口供。",
+  "information_gap": "反派以为口供能反咬，监控比口供先写完结局",
+  "emotional_debt_delta": "反杀债",
+  "payoff_or_hook": "民警合上笔录：行了，他们今晚住这。",
+  "chapter_end_hook": "民警合上笔录：行了，他们今晚住这。",
+  "paywall_card": true,
+  "must_include": [
+    "监控同步平板",
+    "笔录合上",
+    "询问室分案",
+    "动作推进",
+    "物理化情绪"
+  ],
+  "must_not_write_as_exposition": [
+    "长篇背景说明",
+    "重复模板句",
+    "内部产线术语",
+    "命运宿命类抒情"
+  ]
+}

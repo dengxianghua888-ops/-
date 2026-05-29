@@ -1,0 +1,41 @@
+{
+  "scene_id": "scene-15",
+  "beat_id": "B15",
+  "target_chars_min": 640,
+  "target_chars_max": 760,
+  "location": "墓园",
+  "time": "傍晚",
+  "pov": "林望第三人称限知",
+  "characters": [
+    "林望",
+    "林正年墓碑",
+    "沈岚旧助理"
+  ],
+  "character_goal": "林望把基金备案回执和第一笔救助单放到父亲墓前，完成不回头的告别。",
+  "opposition_goal": "沈岚旧助理想交给林望最后一段道歉录音。",
+  "conflict_action": "林望接过录音笔但没有播放，只把备案回执压在白花下。",
+  "information_gap": "道歉真假不再决定林望的人生，父亲的名字已经重新落地。",
+  "emotional_debt_delta": "最终偿还为价值延续，不转化为原谅。",
+  "payoff_or_hook": "不原谅结局完成。",
+  "chapter_end_hook": "林望说：爸，这次钱到账了。风停后，他没有回头。",
+  "paywall_card": false,
+  "must_include": [
+    "父亲墓碑",
+    "基金备案回执",
+    "第一笔救助单",
+    "未播放的道歉录音"
+  ],
+  "must_not_write_as_exposition": [
+    "不要播放长道歉",
+    "不要写血浓于水",
+    "不要让林望回头或叫妈"
+  ],
+  "rhythm_job": {
+    "shape": "低温结尾，动作多于对白，留白不少于三处，最后一句断关系",
+    "breathing_lines_min": 6,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "low_pressure_carry": "用压回执、收录音笔、离开墓道三个动作完成"
+  }
+}

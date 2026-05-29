@@ -1,0 +1,98 @@
+{
+  "draft": "stories/batch_v2_03_ancient_BE/final.md",
+  "chapter_dialogue_distribution": [
+    {
+      "chapter": 1,
+      "title": "",
+      "quote_line_rate": 0.0,
+      "is_climax": false
+    },
+    {
+      "chapter": 2,
+      "title": "第 1 章 坦白",
+      "quote_line_rate": 0.2105,
+      "is_climax": false
+    },
+    {
+      "chapter": 3,
+      "title": "第 2 章 旧恩",
+      "quote_line_rate": 0.1569,
+      "is_climax": false
+    },
+    {
+      "chapter": 4,
+      "title": "第 3 章 军功",
+      "quote_line_rate": 0.2195,
+      "is_climax": false
+    },
+    {
+      "chapter": 5,
+      "title": "第 4 章 病房",
+      "quote_line_rate": 0.2558,
+      "is_climax": false
+    },
+    {
+      "chapter": 6,
+      "title": "第 5 章 脏",
+      "quote_line_rate": 0.027,
+      "is_climax": false
+    },
+    {
+      "chapter": 7,
+      "title": "第 6 章 骨灰",
+      "quote_line_rate": 0.0351,
+      "is_climax": true
+    },
+    {
+      "chapter": 8,
+      "title": "第 7 章 厌",
+      "quote_line_rate": 0.3409,
+      "is_climax": true
+    },
+    {
+      "chapter": 9,
+      "title": "第 8 章 家书",
+      "quote_line_rate": 0.2545,
+      "is_climax": true
+    },
+    {
+      "chapter": 10,
+      "title": "第 9 章 债",
+      "quote_line_rate": 0.2195,
+      "is_climax": false
+    },
+    {
+      "chapter": 11,
+      "title": "第 10 章 死水",
+      "quote_line_rate": 0.0541,
+      "is_climax": false
+    },
+    {
+      "chapter": 12,
+      "title": "第 11 章 不渡",
+      "quote_line_rate": 0.3143,
+      "is_climax": false
+    },
+    {
+      "chapter": 13,
+      "title": "第 12 章 散",
+      "quote_line_rate": 0.0,
+      "is_climax": false
+    }
+  ],
+  "summary": {
+    "avg_climax_quote_rate": 0.2102,
+    "avg_non_climax_quote_rate": 0.1458,
+    "variance_ratio": 1.44,
+    "narration_crutches_count": 1,
+    "confirmation_dialogues_count": 0
+  },
+  "narration_crutches": [
+    {
+      "line": 389,
+      "match": "他这才知道"
+    }
+  ],
+  "confirmation_dialogues": [],
+  "advisory": []
+}

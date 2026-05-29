@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene-14",
+  "beat_id": "beat-14",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "演出散场台阶 / 夜风里",
+  "time": "终局夜晚",
+  "pov": "沈念歌",
+  "characters": [
+    "沈念歌",
+    "齐衍深"
+  ],
+  "character_goal": "沈念歌要完成最终判决，带着回收后的人生离开。",
+  "opposition_goal": "齐衍深想用迟来的温度和具体悔意换一次回头机会。",
+  "conflict_action": "齐衍深追到散场口，递温水和护指膏求她再给一次机会，沈念歌看完又平静放回他手里。",
+  "information_gap": "截断句：‘我原谅你，但我不会回来了。’",
+  "emotional_debt_delta": "终局清账完成：原谅成立，复合资格永久失效。",
+  "payoff_or_hook": "她不恨了，但他确实不配了。",
+  "chapter_end_hook": "截断句：‘我原谅你，但我不会回来了。’",
+  "paywall_card": false,
+  "must_include": [
+    "温水和护指膏两个温度物件",
+    "齐衍深的悔意要具体，不空喊",
+    "沈念歌把东西放回去的动作",
+    "结尾落在她离开，不落在他痛哭"
+  ],
+  "must_not_write_as_exposition": [
+    "不要总结人生大道理",
+    "不要把终局写得喊叫化"
+  ],
+  "rhythm_job": {
+    "shape": "迟来温度-冷静判决-转身离场",
+    "breathing_lines_min": 5,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 0,
+    "ratio_note": "对白短而准，动作与留白占上风，章尾用判决句直接封口。"
+  }
+}

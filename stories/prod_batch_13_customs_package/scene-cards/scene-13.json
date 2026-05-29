@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-13",
+  "beat_id": "beat-13",
+  "target_chars_min": 582,
+  "target_chars_max": 782,
+  "location": "监管仓大厅门口",
+  "time": "当晚十点",
+  "pov": "first_person_linzhao",
+  "characters": [
+    "林照",
+    "赵启明",
+    "警员",
+    "围观商户",
+    "平台总部风控负责人"
+  ],
+  "character_goal": "林照确认赵启明被依法带走，并完成前期压迫话术的回旋。",
+  "opposition_goal": "赵启明最后一次把责任推给系统，试图淡化自己签字盖章和收款分账。",
+  "conflict_action": "警员给赵启明戴上手铐，赵启明高喊自己只是按系统办事，林照把红章确认单和录音补交入卷。",
+  "information_gap": "平台会如何退赔整改，林照能不能保住茶厂。",
+  "emotional_debt_delta": "权力滥用债强偿还，前期压迫金句完成反噬。",
+  "payoff_or_hook": "林照回敬“系统怎么评，你就怎么判”。",
+  "chapter_end_hook": "赵启明被带走前还喊系统背锅，林照只回他一句：系统怎么评，你就怎么判。",
+  "paywall_card": false,
+  "must_include": [
+    "手铐",
+    "红章确认单入卷",
+    "录音补充",
+    "赵启明喊系统背锅",
+    "林照回旋金句"
+  ],
+  "must_not_write_as_exposition": [
+    "不要让林照发表长篇胜利宣言",
+    "不要让赵启明只被停职",
+    "不要让金句出现得轻飘"
+  ]
+}

@@ -1,0 +1,34 @@
+slug: auto_20260514_191552_ancient_be_winter_dream
+status: final
+current_phase: final
+pipeline_mode: production
+corpus_source: ancient_be_winter_dream
+genre: ancient_BE
+output_title: 漱玉九殇·骨肉成灰
+target_platform: tomato
+
+quality_gate:
+  gate_status: pass
+  critical_failures: []
+  important_failures: []
+
+mechanisms:
+  - M4
+  - M5
+  - M8
+
+word_count: 10763
+chapter_count: 11
+
+source_policy:
+  access: trusted_runners_allowed
+  notes: "source.md may be used by configured agent runners"
+
+automation:
+  last_run_id: 20260514_191625
+  runner: manual-prompt-pack
+  provider: manual-prompt-pack
+  current_phase: 8
+  retry_count: 0
+  human_gates:
+    phase2_blueprint_review: skipped

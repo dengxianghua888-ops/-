@@ -1,0 +1,44 @@
+{
+  "scene_id": "scene-09",
+  "beat_id": "B09",
+  "target_chars_min": 760,
+  "target_chars_max": 840,
+  "location": "漕督府跨水桥与喜宴前堂",
+  "time": "大婚正日午时",
+  "pov": "沈蘅",
+  "characters": [
+    "沈蘅",
+    "谢临舟",
+    "裴明珠",
+    "礼官",
+    "暗卫",
+    "宾客"
+  ],
+  "character_goal": "在最公开、最喜庆的门口完成第一下身份炸场。",
+  "opposition_goal": "谢家下人要拦她，谢临舟要把她压回后院，维持婚礼体面。",
+  "conflict_action": "沈蘅穿素衣踏上水桥被拦，下一刻水龙仪仗破水而来，暗卫当众奉金册和礼服，礼官高唱昭宁公主驾到。",
+  "information_gap": "水桥尽头，礼官高声唱名：\"昭宁公主驾到。\"",
+  "emotional_debt_delta": "-2：身份反差爆发，尊严开始公开回收。",
+  "payoff_or_hook": "水桥尽头，礼官高声唱名：\"昭宁公主驾到。\"",
+  "chapter_end_hook": "水桥尽头，礼官高声唱名：\"昭宁公主驾到。\"",
+  "paywall_card": true,
+  "must_include": [
+    "跨水桥的视觉场",
+    "金册或公主礼服当众奉上",
+    "谢家或宾客对素衣女子的第一下轻贱"
+  ],
+  "must_not_write_as_exposition": [
+    "不要拆开写长礼仪流程",
+    "不要用旁白解释所有人震惊",
+    "不要把高潮拖成慢镜头"
+  ],
+  "rhythm_job": {
+    "shape": "拦桥 -> 仪仗突入 -> 唱名落地三拍完成",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 1,
+    "max_pressure_terms": 1,
+    "dialogue_ratio_hint": "对白4成，动作3成，场面3成",
+    "hook_line_required": true
+  }
+}

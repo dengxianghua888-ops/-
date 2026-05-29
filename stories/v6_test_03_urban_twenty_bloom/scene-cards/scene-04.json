@@ -1,0 +1,77 @@
+{
+  "scene_id": "scene-04",
+  "beat_id": "beat-04",
+  "chapter_id": 4,
+  "is_chapter_end": true,
+  "target_chars_min": 900,
+  "target_chars_max": 1000,
+  "location": "苏念家中（简陋平房）→ 家门口",
+  "time": "志愿填报日傍晚",
+  "pov": "苏念",
+  "characters": ["苏念", "苏建国", "林秀兰", "叶东辰"],
+  "character_goal": "苏念要确保父母平安度过这个关键期，叮嘱父亲明天必须亲自去学校确认志愿",
+  "opposition_goal": "叶东辰追到家门口进行道德绑架，试图用顾瑶'割腕'逼苏念就范",
+  "conflict_action": "苏念在温暖中回忆上辈子父母双亡的惨剧，刚稳住情绪叶东辰就追上来用顾瑶割腕威胁",
+  "information_gap": "苏念知道上辈子父亲因焦虑酗酒脑溢血身亡、母亲心脏病发，所以每一个平静画面都让她内心恐惧",
+  "emotional_debt_delta": "通过回忆前世父母之死把情绪债拉到极致——读者知道惨剧可能重演，紧张感倍增",
+  "payoff_or_hook": "叶东辰的道德绑架被苏念冷拒：'她死不死跟我无关，你才是她男人'",
+  "chapter_end_hook": "叶东辰说顾瑶割腕了逼苏念去看——读者紧张苏念会不会被道德绑架动摇",
+  "paywall_card": true,
+  "must_include": [
+    "父母活着的具体细节（父亲的老茧手/母亲的咳嗽）",
+    "上辈子父亲脑溢血死亡的简短回忆（≤3句）",
+    "苏念叮嘱父亲明天必须亲自去学校",
+    "叶东辰追到门口的道德绑架台词",
+    "苏念的冷拒绝（≤2句）"
+  ],
+  "must_not_write_as_exposition": [
+    "上辈子的完整时间线（不要流水账回忆）",
+    "苏念对父母的感情（用动作传递不用内心独白解释）",
+    "叶东辰为什么来找她（他自己的台词说明）"
+  ],
+  "rhythm_job": {
+    "shape": "前慢后快",
+    "breathing_lines_min": 3,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 17.5,
+    "comma_period_ratio": 0.62,
+    "sentence_avg_len": 18.2,
+    "dominant_emotion": "恐惧-守护",
+    "emotion_arc": "温暖（父母在）→ 恐惧（回忆上辈子）→ 悲痛 → 坚定守护 → 冷拒威胁",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "心疼到窒息，同时强烈希望'这辈子一定要保住他们'",
+    "required_techniques": [
+      {
+        "technique": "时间线对比悲剧",
+        "instruction": "同一个动作在两个时空的天壤之别——'上辈子这个时候，爸已经开始喝酒了'，用最简短的对比传递最大的恐惧"
+      },
+      {
+        "technique": "细节种因果",
+        "instruction": "每个细节都是因果链的一环——母亲的咳嗽、父亲的愁眉、省下的药费，读者看到整个悲剧的可能性在当下发芽"
+      },
+      {
+        "technique": "道德绑架的冷拒",
+        "instruction": "叶东辰试图用'善良'绑架苏念但失败——因为苏念已经不在他的话语体系里了"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "亲人在极痛中说出最伤人的话",
+        "example": "你有什么脸哭？要不是你满脑子只想着情情爱爱，你爸怎么会死？",
+        "instruction": "回忆中母亲的话——不是当下发生，而是前世记忆中的一句，让苏念更坚定'这辈子我不会让你说出这句话'"
+      },
+      {
+        "structure": "时间词+极端损失的平静陈述",
+        "example": "一夕之间，我失去了两个最重要的家人。",
+        "instruction": "越平静越惨——不超过一句话交代前世最惨的结局"
+      }
+    ],
+    "peak_type": "emotional_bomb",
+    "bomb_technique": "对比式",
+    "source_excerpt": "一夕之间，我失去了两个最重要的家人。当时我感觉灵魂在身体里晃荡，比此刻的重生穿越更不真实。我爸犯愁上火，半夜睡不着自己出去喝酒。突发脑溢血倒在路边灌木丛里，天亮了才被保洁大叔发现。我烧到41度，还一边哭一边说胡话……'志愿表……''我要上A大……'钟然追上来，扒住车门。'颜颜……宁宁有抑郁症，不能受刺激。我怕她做傻事。'"
+  }
+}

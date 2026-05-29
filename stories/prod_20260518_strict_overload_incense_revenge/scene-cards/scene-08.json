@@ -1,0 +1,35 @@
+{
+  "scene_id": "scene-08",
+  "beat_id": "B08",
+  "target_chars_min": 700,
+  "target_chars_max": 800,
+  "location": "药监检测沟通室",
+  "time": "第二天下午",
+  "pov": "第一人称女性",
+  "characters": [
+    "我",
+    "检测人员",
+    "药监调查员",
+    "周骁"
+  ],
+  "character_goal": "确认封存货物的初检方向，并补交温控与装车证据。",
+  "opposition_goal": "周骁继续声称货物合规，要求主角承担冷链破坏责任。",
+  "conflict_action": "检测人员展示批号核验异常，调查员要求主角补交完整温控曲线和源视频。",
+  "information_gap": "两箱无合法批号已露出，但套用批号和供货链条还没查清。",
+  "emotional_debt_delta": "规则债强回收，黑货真相引爆。",
+  "payoff_or_hook": "付费卡点：多出的两箱不是普通货损，而是无合法批号针剂。",
+  "chapter_end_hook": "检测员合上报告，说那两箱东西没有合法批号。",
+  "paywall_card": true,
+  "must_include": [
+    "初步核验异常",
+    "无合法批号",
+    "封存样品编号",
+    "主角提交温控曲线",
+    "周骁隔着电话急骂"
+  ],
+  "must_not_write_as_exposition": [
+    "不要写针剂成分",
+    "不要写使用方法",
+    "不要写检测当天直接判刑"
+  ]
+}

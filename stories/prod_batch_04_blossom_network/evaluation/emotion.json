@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "score": 8.8,
+  "evidence": [
+    {
+      "path": "story/draft.md#05",
+      "debt": "全家福债",
+      "quote": "太婆和妈妈都脏。",
+      "assessment": "孩子伤害落点明确。"
+    },
+    {
+      "path": "story/draft.md#16",
+      "debt": "边界偿还",
+      "quote": "债不能抵。",
+      "assessment": "救命不复合。"
+    }
+  ]
+}

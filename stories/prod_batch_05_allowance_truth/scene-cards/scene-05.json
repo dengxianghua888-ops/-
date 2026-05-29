@@ -1,0 +1,36 @@
+{
+  "scene_id": "scene-05",
+  "beat_id": "B05",
+  "target_chars_min": 750,
+  "target_chars_max": 850,
+  "location": "银行外走廊与邵明律师事务所",
+  "time": "次日上午到中午",
+  "pov": "第一人称，林素琴",
+  "characters": [
+    "林素琴",
+    "邵明"
+  ],
+  "character_goal": "林素琴追踪3500转账的收款用途",
+  "opposition_goal": "收款账户信息不完整，必须通过备注和财务票据继续查",
+  "conflict_action": "林素琴把流水拍给邵明，邵明逐笔核对备注，要求她保全证据并联系名师画室财务",
+  "information_gap": "许砚是谁，为什么许念的钱会变成许砚名师班学费",
+  "emotional_debt_delta": {
+    "daughter_hunger_debt": "+3",
+    "mother_negligence_debt": "+3",
+    "father_malice_debt": "+4"
+  },
+  "payoff_or_hook": "钱流从模糊账户推进到许砚名师班",
+  "chapter_end_hook": "收款备注跳出来：许砚名师班学费。",
+  "paywall_card": false,
+  "must_include": [
+    "邵明放大转账备注",
+    "许砚名师班学费字样",
+    "邵明要求林素琴不要打草惊蛇",
+    "林素琴给许国成打电话无人接"
+  ],
+  "must_not_write_as_exposition": [
+    "不要公开许砚身世",
+    "不要让律师替主角完成全部行动",
+    "不要写成法律科普"
+  ]
+}

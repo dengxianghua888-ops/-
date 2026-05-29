@@ -1,0 +1,35 @@
+slug: batch_v2_05_apocalypse
+source_slug: hot_2421a56ed0
+title: 死水
+genre: apocalypse_heroine
+pipeline_mode: production
+status: final
+run_date: "2026-05-26"
+optimization: v2_style_fidelity
+mechanisms:
+  - M3_causal_boomerang
+  - M5_temperature_reversal
+  - M6_multi_layer_escalation
+  - M7_dimension_strike
+hooks:
+  - H1_conflict_first_opening
+target_length:
+  min: 10000
+  max: 14000
+adaptation:
+  source_setting: 末世犬化症+边牧预警+逃城+丈夫控制+病毒爆发+毒地真相+舆论反转
+  new_setting: 海洋污染+实验鱼预警+断水危机+丈夫是水务局官员+藻毒素爆发+水厂渎职真相+公开举证
+  identity_hide: 无（本genre不需要身份隐藏，核心是"被当疯子的清醒者"）
+  betrayal_layers:
+    - 丈夫是市水务局副局长，为政绩隐瞒水质数据
+    - 丈夫联合同事污名化女主为"偏执妄想"
+    - 婆婆以不孕和家庭稳定施压
+    - 单位领导以"造谣扰乱公共秩序"为由开除
+  reversal_trigger: 全城断水+藻毒素中毒者入院，证实女主三周前的预警完全正确
+  boomerang: "你是不是搞科研搞魔怔了"回旋——最终科学数据证明她比所有人都清醒
+  temperature_structure:
+    warm_memory: 丈夫当年支持她读研、半夜接她做实验、说"我最爱你认真的样子"
+    cold_reality: 丈夫为升迁压她闭嘴、发朋友圈说她精神不稳定、联系精神科医生
+    freeze_point: 水厂出事后丈夫跪地求她不要公开数据——"你要毁了我"
+  animal_analogue: 实验室斑马鱼（替代边牧）——鱼的异常死亡模式是水质恶化的早期预警
+  core_rule: "鱼死的方向，就是毒来的方向。"（替代"狗堵门看活路"）

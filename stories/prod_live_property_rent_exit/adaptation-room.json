@@ -1,0 +1,63 @@
+{
+  "selected_candidate": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "premise": "物业涨租断水逼我走，我带走全家业态和整栋楼的客流。",
+      "freshness_score": 8.7,
+      "fidelity_score": 8.9,
+      "tomato_score": 8.8,
+      "logic_score": 8.8,
+      "risks": [
+        "全家业态撤场容易工具人化，需要每个家人有独立经营动机。",
+        "招商会清算不能只靠董事长一句话解决。"
+      ]
+    },
+    {
+      "id": "B",
+      "premise": "建材供应商旺季背刺老客户，女主改接厂家直供线反向掐断对方渠道。",
+      "freshness_score": 8.6,
+      "fidelity_score": 8.6,
+      "tomato_score": 8.5,
+      "logic_score": 8.6,
+      "risks": [
+        "供应链专业信息过多会稀释爽点。",
+        "厂家资源需要提前埋伏笔。"
+      ]
+    },
+    {
+      "id": "C",
+      "premise": "培训机构坐地涨价抢生源，女主带老师和家长转入新校区并公开退费账本。",
+      "freshness_score": 8.5,
+      "fidelity_score": 8.6,
+      "tomato_score": 8.6,
+      "logic_score": 8.5,
+      "risks": [
+        "教育线敏感表达要收束在合同和退费规则上。",
+        "家长站队必须由切身损失触发。"
+      ]
+    }
+  ],
+  "replacement_map": {
+    "原文老商场": "云桥广场",
+    "原文对面新场地": "青杉里旧厂区",
+    "原文物业断电": "定向断水与补打检修单",
+    "原文家族业态": "面馆、花艺、体能馆、自习室",
+    "原文公开翻车场": "云桥广场招商会"
+  },
+  "mechanism_preservation": {
+    "old_tenant_exit": {
+      "carrier": "涨租合同和全家撤场通知",
+      "audit_point": "主角必须主动离开，而不是被动求饶。"
+    },
+    "traffic_dependency_reveal": {
+      "carrier": "亲子烘焙、面馆、花艺、体能馆、自习室共同迁移后的客流断层",
+      "audit_point": "旧商场空掉要通过顾客和老商户现场呈现。"
+    },
+    "contract_evidence_counterattack": {
+      "carrier": "断水记录、押金单、回扣合同、检修单时间戳",
+      "audit_point": "证据必须由对方规则反向闭锁。"
+    }
+  },
+  "sensitive_topic_policy": "只写商业合同、物业管理、证据公开和董事会问责，不写暴力私刑或现实机构背书。"
+}

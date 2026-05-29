@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene-02",
+  "beat_id": "B02",
+  "target_chars_min": 700,
+  "target_chars_max": 820,
+  "location": "电影节后台临时化妆间",
+  "time": "红毯开始前",
+  "pov": "林晚宜第一人称",
+  "characters": ["林晚宜", "陆沉舟", "苏明霜", "陆沉舟助理"],
+  "character_goal": "林晚宜要交还陆沉舟团队账号、商务合同和辞职信。",
+  "opposition_goal": "陆沉舟要撕掉辞职信，逼林晚宜承认她是在吃醋求名分。",
+  "conflict_action": "陆沉舟撕掉辞职信，反锁化妆间门，把苏明霜的红毯稿递给林晚宜让她继续善后。",
+  "information_gap": "林晚宜辞职不是冷战，而是彻底撤离陆沉舟事业盘。",
+  "emotional_debt_delta": "+误判追责债；+情感替身债",
+  "payoff_or_hook": "陆沉舟第一次说出“这场冷战你赢了”，形成后文回旋金句。",
+  "chapter_end_hook": "林晚宜把辞职信推过去，陆沉舟却笑了：“这场冷战你赢了。”",
+  "paywall_card": false,
+  "must_include": ["辞职信", "团队权限交接", "冷战你赢了原句", "林晚宜只用短句切割"],
+  "must_not_write_as_exposition": ["不要解释陆沉舟为什么爱苏明霜", "不要写成普通情侣吵架", "不要提前让林晚宜说出怀孕"]
+}

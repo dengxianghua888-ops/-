@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "score": 8.9,
+  "evidence": [
+    {"path": "draft-scenes/scene-01.md", "quote": "六年前姐姐亲手在这套电子签上把我登成唯一受益人", "note": "M1 凭证签发：姐姐亲签电子签 PDF"},
+    {"path": "draft-scenes/scene-10.md", "quote": "本人萧承时若放弃唯一受益人身份，则二十二亿信托收益自动划入已故继承人遗产专户", "note": "M1 反向兑现：放弃即触发强制划账"},
+    {"path": "draft-scenes/scene-10.md", "quote": "抄送：港城市场监管打假专案组。抄送：全球七台公证服务器", "note": "行政边界·五重抄送让 M1 不可撤销"},
+    {"path": "draft-scenes/scene-14.md", "quote": "电子签存证·全球七台公证服务器·二十二亿原数划入已故继承人遗产专户", "note": "衣冠冢碑面小字 M1 终结物理化"},
+    {"path": "adaptation.md", "quote": "代孕情节使用 I 期临床合规框架+性别中立语言虚化", "note": "敏感议题政策合规"}
+  ]
+}

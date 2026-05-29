@@ -1,0 +1,81 @@
+{
+  "scene_id": "scene-06",
+  "beat_id": "beat-06",
+  "chapter_id": 3,
+  "is_chapter_end": true,
+  "target_chars_min": 450,
+  "target_chars_max": 650,
+  "location": "酒庄后厨/化妆间",
+  "time": "婚礼当天，仪式前最后时刻",
+  "pov": "沈绮云",
+  "characters": ["沈绮云", "许芷悦", "伴娘"],
+  "character_goal": "沈绮云已接近信息饱和，最后一颗炸弹即将投下",
+  "opposition_goal": "许芷悦在闺蜜的追问下讲述张锐城的'悲惨过去'——前妻产后抑郁出走失联",
+  "conflict_action": "许芷悦严肃地告诉伴娘'他前妻产后抑郁走了，法院都判了宣告死亡'——沈绮云手机差点掉地上",
+  "information_gap": "不仅口头编造，而是动用法律程序从制度层面抹杀——读者此刻获得全部信息",
+  "emotional_debt_delta": "极致升级：从经济欺诈上升到法律层面的'社会性谋杀'",
+  "payoff_or_hook": "付费级卡点：宣告死亡判决的存在被确认——读者必须看到女主如何反击",
+  "chapter_end_hook": "许芷悦平静说出'法院都判了死亡'——全文最强信息炸弹，读者需要看女主的反应",
+  "paywall_card": true,
+  "must_include": [
+    "'产后抑郁出走失联'的谎言被许芷悦说出",
+    "'法院宣告死亡判决'的存在被确认",
+    "沈绮云的物理反应（手机差点掉/呼吸停滞）",
+    "独立短句封杀效果",
+    "章末：读者被钉在'她还能忍吗'的悬念上"
+  ],
+  "must_not_write_as_exposition": [
+    "宣告死亡的法律程序说明",
+    "产后抑郁的医学知识"
+  ],
+  "rhythm_job": {
+    "shape": "蓄力-爆发",
+    "breathing_lines_min": 1,
+    "barrage_lines_min": 0,
+    "max_question_marks": 2,
+    "max_pressure_terms": 1
+  },
+  "soul_anchor": {
+    "avg_line_chars": 18.5,
+    "comma_period_ratio": 0.44,
+    "sentence_avg_len": 16.8,
+    "dominant_emotion": "极致震怒",
+    "emotion_arc": "冰凉 → 极致震怒（编造产后抑郁+法院判决）→ 表面冷静内心已决定行动",
+    "emotion_intensity": 9,
+    "reader_feeling_target": "血液凝固般的愤怒——他连法律都利用了来'杀'她",
+    "required_techniques": [
+      {
+        "technique": "伴娘日常化揭露",
+        "instruction": "最痛的信息用最日常的语调说出——许芷悦用同情的语气讲述'前妻的悲惨'，越平静越刺痛。信息炸弹由不知情者以最温柔的方式投下"
+      },
+      {
+        "technique": "独立短句封杀",
+        "instruction": "在密集对话中突然插入一个独立短句描述女主的物理反应——'我手机差点掉地上。'形成视觉和节奏上的停顿一拍，让读者也'停'下来感受这一刻的重量"
+      }
+    ],
+    "golden_line_templates": [
+      {
+        "structure": "第三人视角陈述+省略号制造犹疑感",
+        "example": "他前妻和儿子……前两年出车祸，都走了。",
+        "instruction": "最痛的话由不知情的人用最平静的语气说出——许芷悦带着同情说'他前妻……产后抑郁走了，法院都判了'。省略号制造犹疑感，仿佛说话者也觉得沉重"
+      }
+    ],
+    "peak_type": "truth_reveal",
+    "bomb_technique": "突变式",
+    "source_excerpt": "徐万芳忽然表情变得严肃，'其实老周之前有过一段婚姻。他前妻和儿子……前两年出车祸，都走了。这件事对他打击特别大，到现在都受不了。'我手机差点儿掉地上。"
+  },
+  "character_voices": {
+    "沈绮云": {
+      "口癖": [],
+      "句式": "此刻几乎无语言输出，只有身体反应和极短内心独白",
+      "单句上限": 10,
+      "禁止": "任何长句、任何解释"
+    },
+    "许芷悦": {
+      "口癖": ["其实", "你别跟别人说"],
+      "句式": "严肃+同情的语气，带着保护性的压低声音",
+      "单句上限": 25,
+      "禁止": "轻浮语气"
+    }
+  }
+}
