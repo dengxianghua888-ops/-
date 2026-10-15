@@ -20,6 +20,8 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
+from storyforge_lib import phase_for_role
+
 from repairs import (
     repair_direct_submission,
     repair_forbidden_scan,
@@ -41,12 +43,16 @@ PHASE_REPAIRS: Dict[int, List[Any]] = {
 
 
 def run_repair_pass(story: Path, phase: int, mode: str = "production") -> Dict[str, Any]:
-    repairers = PHASE_REPAIRS.get(phase, [])
+    repairers = []
+    for role, legacy_phase in [("scene", 5), ("critic", 6), ("final", 7), ("feedback", 8)]:
+        if phase == phase_for_role(mode, role):
+            repairers = PHASE_REPAIRS[legacy_phase]
+            break
     results: List[Dict[str, Any]] = []
     blocking: List[str] = []
     for module in repairers:
         try:
-            outcome = module.run(story, mode)
+            outcome = module.run(story, mode, phase=phase) if module is repair_quality_report_sync else module.run(story, mode)
         except Exception as exc:  # never let a repairer take down the pipeline
             outcome = {"name": getattr(module, "__name__", "unknown"), "status": "fail", "reason": str(exc)}
         results.append(outcome)

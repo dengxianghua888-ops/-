@@ -19,13 +19,14 @@ if str(ROOT / "scripts") not in sys.path:
 from production_quality import machine_evaluate  # noqa: E402
 
 
-def run(story: Path, mode: str = "production") -> Dict[str, Any]:
+def run(story: Path, mode: str = "production", *, phase: int | None = None) -> Dict[str, Any]:
     report_path = story / "quality-report.json"
     if not report_path.exists():
         return {"name": "quality_report_sync", "status": "skipped", "reason": "no quality-report.json"}
     # Use phase=7 if final.md exists so machine_evaluate reads the canonical
     # post-packager output instead of the still-stale draft.md.
-    use_phase = 7 if (story / "final.md").exists() else 6
+    from storyforge_lib import phase_for_role
+    use_phase = phase if phase is not None else phase_for_role(mode, "final" if (story / "final.md").exists() else "critic")
     metrics = machine_evaluate(story, use_phase, mode)
     try:
         report = json.loads(report_path.read_text(encoding="utf-8"))
