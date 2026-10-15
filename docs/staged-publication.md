@@ -2,10 +2,11 @@
 
 ## Contracts
 
-- Blueprint approval patches only its human-gate value. Automation updates preserve the entire source policy. Even an allowed final-packager story.yaml cannot grant or replace source access. Quoted YAML denial is respected.
+- Blueprint approval patches only its human-gate value under the same stable writer lock. Metadata writes use same-directory temporary files and atomic replacement, retaining the prior denial on write errors. Automation updates preserve the entire source policy. Even an allowed final-packager story.yaml cannot grant or replace source access. Quoted YAML denial is respected.
 - `phase_for_role` is shared by preflight, validation, normalization, retries, repairs and rubric gates. V6 Critic is phase 7 and Final Packager is phase 8; phase 9 is feedback. Critic reads this attempt's draft even if a previous final exists. Both Critic and all later phases require a passing quality gate.
 - V6 phase 8 explicitly lists chapter files, map, craft notes and submission package, matching the existing final-packager prompt and validator. Unknown model outputs are rejected in every mode.
 - All model files, deterministic normalization/repair and validation/rubric checks run against an isolated sibling tree. Publication uses a single filesystem directory-exchange syscall. Partial candidate writes and failed checks do not change published artifacts. The standalone bundle-apply command stages and atomically applies its syntactic contract; semantic validation remains the pipeline's responsibility.
+- Failed candidate quality/review/diff/todo and validator/rubric diagnostics are supplied explicitly to retry prompts without publishing them. Feedback is retained through the scene rewrite and marked resolved only after the corresponding gate succeeds.
 - A wildcard output replaces its previous set. Old scenes/chapters are retained in the previous-tree backup, not mixed into the new candidate. Each attempt has its own UUID-like directory and backup location. Existing generated metadata cannot change source approval.
 
 ## Platform and operational boundaries

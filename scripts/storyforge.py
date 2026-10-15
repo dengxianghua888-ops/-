@@ -24,6 +24,7 @@ from storyforge_lib import (
     phase_for_role,
     StagedStory,
     story_write_lock,
+    retry_feedback_prompt,
     render_phase_prompt,
     repo_root,
     validate_bundle_schema,
@@ -245,7 +246,9 @@ def story_source_access(story: Path) -> str:
         return "trusted_runners_allowed"
     import yaml
     try:
-        data = yaml.safe_load(manifest.read_text(encoding="utf-8")) or {}
+        data = yaml.safe_load(manifest.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return "denied"
         if data.get("source_policy", {}).get("access") == "denied":
             return "denied"
     except (yaml.YAMLError, AttributeError):
@@ -294,6 +297,11 @@ def run_phase(args: argparse.Namespace, story: Path, run_dir: Path, summary: Pat
     prompt_path = run_dir / f"phase{phase}.prompt.md"
     prompt_manifest = run_dir / f"phase{phase}.prompt-manifest.json"
     prompt_text, manifest = render_phase_prompt(story, phase, ROOT, mode)
+    if retry:
+        feedback_text, feedback_manifest = retry_feedback_prompt(story, run_dir)
+        if feedback_text:
+            prompt_text += "\n\n" + feedback_text + "\n"
+            manifest["retry_feedback"] = feedback_manifest
     write_text(prompt_path, prompt_text)
     write_json(prompt_manifest, manifest)
 
@@ -597,6 +605,15 @@ def _run_pipeline(args: argparse.Namespace) -> int:
 
 
 def approve_gate(args: argparse.Namespace) -> int:
+    try:
+        with story_write_lock(Path(args.story)):
+            return _approve_gate(args)
+    except (OSError, ValueError, ImportError) as exc:
+        eprint(f"Unable to approve safely: {exc}")
+        return RUNNER_EXIT_VALIDATION_FAILED
+
+
+def _approve_gate(args: argparse.Namespace) -> int:
     story = Path(args.story)
     if args.gate != "phase2_blueprint_review":
         eprint(f"unknown gate: {args.gate}")

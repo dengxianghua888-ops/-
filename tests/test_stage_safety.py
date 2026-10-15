@@ -224,6 +224,7 @@ def test_concurrent_pipeline_writer_is_rejected(tmp_path):
     assert not (story / "final.md").exists()
 
 
+@pytest.mark.skipif(sys.platform != "linux", reason="Darwin dispatch mock uses Linux native exchange; native macOS is covered end-to-end")
 @pytest.mark.parametrize("fail", [False, True])
 def test_macos_exchange_argument_mapping_and_errno(tmp_path, monkeypatch, fail):
     # Exercise Darwin dispatch in Linux without claiming a macOS filesystem test.
@@ -286,3 +287,47 @@ with story_write_lock(story), StagedStory(story, story / "runs/r", 6) as stage:
         assert lib.story_fingerprint(retained) == record["original_fingerprint"]
     with lib.story_write_lock(story):
         pass  # Process death must not strand ownership.
+
+
+def test_failed_critic_feedback_reaches_next_scene_prompt(tmp_path):
+    fixtures = v6_fixtures(tmp_path)
+    files = lib.parse_artifact_bundle((fixtures / "phase7.bundle.txt").read_text())
+    report = json.loads(files["quality-report.json"])
+    report["gate_status"] = "fail"
+    report["evidence"] = ["RETRY_MARKER: clarify the ledger before the reversal"]
+    files["quality-report.json"] = json.dumps(report)
+    write_bundle(fixtures / "phase7.bundle.txt", files)
+    story = tmp_path / "story"
+    write(story / "source.md", "合成测试原文")
+    result = run_storyforge("run", "--story", story, "--runner", "mock", "--mode", "production_v6",
+                           "--run-id", "retry", "--max-retries", 1, "--no-human-gates",
+                           env={"STORYFORGE_MOCK_FIXTURE_DIR": str(fixtures)})
+    assert result.returncode == 23
+    prompt = (story / "runs/retry/phase6.prompt.md").read_text()
+    assert "Rejected attempt feedback" in prompt
+    assert "RETRY_MARKER" in prompt
+    assert "quality gate failed" in prompt
+    assert not (story / "quality-report.json").exists()
+
+
+def test_automation_write_failure_preserves_denied_yaml(tmp_path, monkeypatch):
+    story = tmp_path / "story"
+    original = "source_policy:\n  access: denied\nautomation:\n  runner: agent\n"
+    write(story / "story.yaml", original)
+    def fail_replace(*args):
+        raise OSError("injected metadata replacement failure")
+    monkeypatch.setattr(lib.os, "replace", fail_replace)
+    with pytest.raises(OSError, match="injected"):
+        storyforge.update_story_automation(story, {"phase2_blueprint_review": "approved"})
+    assert (story / "story.yaml").read_text() == original
+    assert storyforge.story_source_access(story) == "denied"
+
+
+def test_approval_does_not_race_pipeline_lock(tmp_path):
+    story = tmp_path / "story"
+    write(story / "story.yaml", "source_policy:\n  access: denied\n")
+    with lib.story_write_lock(story):
+        result = run_storyforge("approve-gate", "--story", story, "--gate", "phase2_blueprint_review")
+    assert result.returncode == 23
+    assert "active writer" in result.stderr
+    assert "automation" not in (story / "story.yaml").read_text()

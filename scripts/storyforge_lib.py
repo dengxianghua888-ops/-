@@ -88,7 +88,16 @@ def read_text(path: Path) -> str:
 
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=path.parent,
+                                         prefix=f".{path.name}.", delete=False) as handle:
+            temporary = Path(handle.name)
+            handle.write(text)
+        os.replace(temporary, path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def _parse_scalar(value: str) -> Any:
@@ -251,8 +260,51 @@ class StagedStory:
         # The former live tree remains at self.path, never overwriting an attempt.
 
     def __exit__(self, *exc):
-        # Keep failed candidates as well as successful attempt backups for audit.
+        # Retry reasoning reads rejected candidates explicitly, never as live artifacts.
+        feedback = self.run_dir / "retry-feedback.json"
+        try:
+            if not self.published and self.path.exists():
+                write_json(feedback, {"status": "failed", "phase": self.phase,
+                                      "candidate": str(self.path)})
+            elif self.published and feedback.exists():
+                previous = json.loads(feedback.read_text(encoding="utf-8"))
+                if self.phase >= previous.get("phase", self.phase):
+                    write_json(feedback, {**previous, "status": "resolved"})
+        except (OSError, ValueError):
+            # A failed audit write must not turn a completed exchange into failure.
+            pass
         return False
+
+
+def retry_feedback_prompt(story: Path, run_dir: Path) -> tuple[str, dict]:
+    path = run_dir / "retry-feedback.json"
+    if not path.exists():
+        return "", {}
+    feedback = json.loads(path.read_text(encoding="utf-8"))
+    if feedback.get("status") != "failed":
+        return "", {}
+    candidate = Path(feedback["candidate"]).resolve()
+    live = story.resolve()
+    if (candidate.name != live.name or candidate.parent.parent != live.parent
+            or not candidate.parent.name.startswith(f".{live.name}.attempt-")):
+        raise ValueError("Retry candidate is not a retained attempt for this story")
+    parts = ["## Rejected attempt feedback (not approved artifacts)",
+             "Use the following failed-attempt findings for targeted corrections. "
+             "Keep this phase's output whitelist and current source policy unchanged."]
+    included = []
+    for name in ["quality-report.json", "review.md", "diff.md", "scene-rewrite-todo.json",
+                 "source-rhythm-rewrite-todo.json", "scene-forbidden-scan.json", "repair-report.json"]:
+        source = candidate / name
+        if source.is_file() and source.resolve().is_relative_to(candidate):
+            parts.extend([f"### Failed attempt: {name}", source.read_text(encoding="utf-8")])
+            included.append(name)
+    phase = int(feedback["phase"])
+    for suffix in ["validator.log", "rubric.log", "parse-report.json", "normalizer.log"]:
+        source = run_dir / f"phase{phase}.{suffix}"
+        if source.is_file():
+            parts.extend([f"### Failure diagnostic: {source.name}", source.read_text(encoding="utf-8")])
+            included.append(source.name)
+    return "\n\n".join(parts), {**feedback, "included": included}
 
 
 def phase_count(mode: str | None = None) -> int:
