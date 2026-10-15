@@ -3,6 +3,13 @@
 
 from __future__ import annotations
 
+import contextlib
+import hashlib
+import ctypes
+import os
+import sys
+import tempfile
+import uuid
 import fnmatch
 import json
 import re
@@ -144,6 +151,108 @@ def normalize_pipeline_mode(mode: str | None) -> str:
 def phase_keys_for_mode(mode: str | None = None) -> Dict[int, str]:
     normalized = normalize_pipeline_mode(mode)
     return PHASE_KEYS_BY_MODE[normalized]
+
+
+def phase_for_role(mode: str | None, role: str) -> int:
+    """Canonical role coordinates shared by runners, validators and repairs."""
+    keys = {"critic": "critic_gauntlet", "final": "final_packager",
+            "scene": "scene_writer", "beat": "beat_bible", "feedback": "feedback_learning"}
+    if normalize_pipeline_mode(mode) == "v4":
+        return {"critic": 4, "final": 5, "scene": 3, "beat": 2}[role]
+    key = keys[role]
+    for phase, name in phase_keys_for_mode(mode).items():
+        if name == key or name == key + "_v2":
+            return phase
+    raise ValueError(f"No {role} phase for {mode}")
+
+
+@contextlib.contextmanager
+def story_write_lock(story: Path):
+    """A stable sibling lock survives directory exchanges and process crashes."""
+    import fcntl
+    story = story.resolve()
+    lock_path = story.parent / f".{story.name}.storyforge.lock"
+    with lock_path.open("a") as handle:
+        try:
+            fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as exc:
+            raise ValueError("Story already has an active writer") from exc
+        try:
+            yield
+        finally:
+            fcntl.flock(handle, fcntl.LOCK_UN)
+
+
+def story_fingerprint(story: Path):
+    result = {}
+    for path in story.rglob("*"):
+        if path.is_symlink():
+            raise ValueError("Staging refuses symlinked story content")
+        if path.is_file() and "runs" not in path.relative_to(story).parts:
+            result[str(path.relative_to(story))] = hashlib.sha256(path.read_bytes()).hexdigest()
+    return result
+
+
+
+class StagedStory:
+    """Validate an isolated tree, then atomically exchange it with the live story.
+
+    Old trees are retained as unique sibling attempt backups. No delete/rename
+    fallback is used: unsupported filesystems/platforms fail without publication.
+    A single writer must own a story during a run (including external editors).
+    """
+
+    def __init__(self, story: Path, run_dir: Path, phase: int):
+        self.story = story.resolve()
+        self.run_dir = run_dir.resolve()
+        self.phase = phase
+        self.parent = Path(tempfile.mkdtemp(prefix=f".{story.name}.attempt-", dir=self.story.parent))
+        self.path = self.parent / story.name
+        self.published = False
+        write_json(self.parent / "attempt.json", {"story": str(self.story), "phase": phase,
+                   "tree": str(self.path), "status": "staging"})
+
+    def __enter__(self):
+        if any(path.is_symlink() for path in self.story.rglob("*")):
+            raise ValueError("Staging refuses symlinked story content")
+        self.fingerprint = story_fingerprint(self.story)
+        shutil.copytree(self.story, self.path)
+        return self
+
+    def publish(self):
+        if story_fingerprint(self.story) != self.fingerprint:
+            raise OSError("Story changed during validation; candidate retained without publication")
+        # Logs were written to the live run while validators read the staging tree.
+        if self.run_dir.is_relative_to(self.story) and self.run_dir.exists():
+            destination = self.path / self.run_dir.relative_to(self.story)
+            shutil.copytree(self.run_dir, destination, dirs_exist_ok=True)
+        write_json(self.parent / "attempt.json", {"story": str(self.story), "phase": self.phase,
+                   "tree": str(self.path), "status": "exchange_pending",
+                   "original_fingerprint": self.fingerprint,
+                   "candidate_fingerprint": story_fingerprint(self.path),
+                   "note": "After a successful exchange this tree is the previous live story"})
+        libc = ctypes.CDLL(None, use_errno=True)
+        if sys.platform.startswith("linux") and hasattr(libc, "renameat2"):
+            exchange = libc.renameat2
+            exchange.argtypes = [ctypes.c_int, ctypes.c_char_p, ctypes.c_int, ctypes.c_char_p, ctypes.c_uint]
+            exchange.restype = ctypes.c_int
+            result = exchange(-100, os.fsencode(self.story), -100, os.fsencode(self.path), 2)
+        elif sys.platform == "darwin" and hasattr(libc, "renamex_np"):
+            exchange = libc.renamex_np
+            exchange.argtypes = [ctypes.c_char_p, ctypes.c_char_p, ctypes.c_uint]
+            exchange.restype = ctypes.c_int
+            result = exchange(os.fsencode(self.story), os.fsencode(self.path), 2)
+        else:
+            raise OSError("Atomic story exchange requires Linux renameat2 or macOS renamex_np")
+        if result != 0:
+            errno = ctypes.get_errno()
+            raise OSError(errno, os.strerror(errno))
+        self.published = True
+        # The former live tree remains at self.path, never overwriting an attempt.
+
+    def __exit__(self, *exc):
+        # Keep failed candidates as well as successful attempt backups for audit.
+        return False
 
 
 def phase_count(mode: str | None = None) -> int:
@@ -376,7 +485,18 @@ def write_json(path: Path, data: Dict[str, Any]) -> None:
     write_text(path, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
 
 
-def apply_artifact_bundle(
+def apply_artifact_bundle(story: Path, phase: int, bundle_text: str, run_dir: Path,
+                          root: Path | None = None, mode: str | None = None,
+                          *, staged: bool = False) -> Dict[str, Any]:
+    if staged:
+        return _apply_artifact_bundle(story, phase, bundle_text, run_dir, root, mode)
+    with story_write_lock(story), StagedStory(story, run_dir, phase) as candidate:
+        report = _apply_artifact_bundle(candidate.path, phase, bundle_text, run_dir, root, mode)
+        candidate.publish()
+        return report
+
+
+def _apply_artifact_bundle(
     story: Path,
     phase: int,
     bundle_text: str,
@@ -391,15 +511,30 @@ def apply_artifact_bundle(
     # Strip "story/" prefix if model added it (common LLM output quirk)
     parsed = {k.removeprefix("story/"): v for k, v in parsed.items()}
     unknown = sorted(path for path in set(parsed) if not _is_allowed_output(path, allowed))
-    if unknown and mode != "production_v6":
+    if unknown:
         raise ValueError("artifact bundle contains files not allowed for this phase: " + ", ".join(unknown))
     missing = _missing_output_patterns(set(parsed), allowed)
     if missing:
         raise ValueError("artifact bundle missing required outputs: " + ", ".join(missing))
 
-    backup_dir = run_dir / "backups" / f"phase{phase}"
+    backup_dir = run_dir / "backups" / f"phase{phase}" / uuid.uuid4().hex
+    # The supplied wildcard set replaces the previous set, rather than mixing runs.
+    stale = set()
+    for pattern in allowed:
+        if "*" in pattern:
+            stale.update(path for path in story.glob(pattern) if path.is_file()
+                         and str(path.relative_to(story)) not in parsed)
     written = []
     backed_up = []
+    for target in sorted(stale):
+        if not target.resolve().is_relative_to(story.resolve()):
+            raise ValueError("Stale artifact path escapes story directory")
+        rel = str(target.relative_to(story))
+        backup = backup_dir / rel
+        backup.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(target, backup)
+        backed_up.append(rel)
+        target.unlink()
     for rel, content in parsed.items():
         target = story / validate_safe_relpath(rel)
         if not target.resolve().is_relative_to(story.resolve()):
@@ -409,6 +544,18 @@ def apply_artifact_bundle(
             backup.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(target, backup)
             backed_up.append(rel)
+        if rel == "story.yaml":
+            # Generated metadata is never an independent source-access approval.
+            import yaml
+            previous = yaml.safe_load(target.read_text(encoding="utf-8")) if target.exists() else {}
+            replacement = yaml.safe_load(content)
+            if not isinstance(replacement, dict):
+                raise ValueError("story.yaml must contain an object")
+            if "source_policy" in (previous or {}):
+                replacement["source_policy"] = previous["source_policy"]
+            else:
+                replacement.pop("source_policy", None)
+            content = yaml.safe_dump(replacement, allow_unicode=True, sort_keys=False)
         # Auto-repair JSON files with unescaped quotes (common LLM generation issue)
         if rel.endswith(".json"):
             content = _repair_json_quotes(content)
@@ -419,6 +566,8 @@ def apply_artifact_bundle(
         "status": "success",
         "written": sorted(written),
         "backed_up": sorted(backed_up),
+        "backup_dir": str(backup_dir),
+        "removed_stale": sorted(str(path.relative_to(story)) for path in stale),
         "required_outputs": phase_bundle.required_outputs,
         "mode": normalize_pipeline_mode(mode),
         "generated_at": now_stamp(),

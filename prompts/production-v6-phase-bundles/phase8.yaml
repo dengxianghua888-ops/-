@@ -12,6 +12,10 @@ required_inputs:
   - story/hook/opening-hook.md
 required_outputs:
   - final.md
+  - craft-notes.md
+  - tomato-submission.md
+  - final-chapters/_chapters-map.md
+  - final-chapters/*.md
   - story.yaml
 validators:
   - validate-production-story:phase8

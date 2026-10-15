@@ -21,6 +21,8 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
+from storyforge_lib import phase_for_role
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -43,6 +45,8 @@ def _run_validator(story: Path, phase: int, mode: str) -> Dict[str, Any]:
         mode,
         "--json",
     ]
+    if phase >= phase_for_role(mode, "critic"):
+        args.append("--require-pass")
     proc = subprocess.run(args, capture_output=True, text=True)
     try:
         payload = json.loads(proc.stdout) if proc.stdout.strip() else {}
@@ -80,7 +84,7 @@ def run_gate(story: Path, phase: int, mode: str, rubric_threshold: float, run_ru
     validator = _run_validator(story, phase, mode)
 
     rubric: Dict[str, Any] = {"status": "skipped"}
-    if run_rubric and validator.get("status") == "pass" and phase >= 7:
+    if run_rubric and validator.get("status") == "pass" and phase >= phase_for_role(mode, "final"):
         rubric = _run_rubric(story, rubric_threshold)
 
     overall_status = "pass"

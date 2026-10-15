@@ -21,6 +21,9 @@ from storyforge_lib import (
     now_stamp,
     phase_count,
     phase_key,
+    phase_for_role,
+    StagedStory,
+    story_write_lock,
     render_phase_prompt,
     repo_root,
     validate_bundle_schema,
@@ -205,7 +208,6 @@ def strip_top_sections(text: str, section_names: set[str]) -> str:
     index = 0
     while index < len(lines):
         line = lines[index]
-        stripped = line.strip()
         if not line.startswith((" ", "\t")) and ":" in line:
             key = line.split(":", 1)[0].strip()
             if key in section_names:
@@ -223,38 +225,30 @@ def strip_top_sections(text: str, section_names: set[str]) -> str:
 
 def update_story_automation(story: Path, patch: Dict[str, Any]) -> None:
     path = story / "story.yaml"
-    base = ""
-    if path.exists():
-        base = strip_top_sections(path.read_text(encoding="utf-8"), {"automation", "source_policy"})
-    else:
-        base = f"slug: {story.name}\nstatus: phase1\ncurrent_phase: 1\n"
-    lines = [base.rstrip(), ""]
-    lines.extend(
-        [
-            "source_policy:",
-            "  access: trusted_runners_allowed",
-            '  notes: "source.md may be used by configured agent runners"',
-            "",
-            "automation:",
-            f"  last_run_id: {patch.get('last_run_id', '')}",
-            f"  runner: {patch.get('runner', '')}",
-            f"  provider: {patch.get('provider', '')}",
-            f"  current_phase: {patch.get('current_phase', 1)}",
-            f"  retry_count: {patch.get('retry_count', 0)}",
-            "  human_gates:",
-            f"    phase2_blueprint_review: {patch.get('phase2_blueprint_review', 'pending')}",
-            "",
-        ]
-    )
-    write_text(path, "\n".join(lines))
+    # Automation updates never grant source access or erase unrelated metadata.
+    import yaml
+
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
+    data = data or {"slug": story.name, "status": "phase1", "current_phase": 1}
+    automation = data.setdefault("automation", {})
+    for key, value in patch.items():
+        if key == "phase2_blueprint_review":
+            automation.setdefault("human_gates", {})[key] = value
+        else:
+            automation[key] = value
+    write_text(path, yaml.safe_dump(data, allow_unicode=True, sort_keys=False))
 
 
 def story_source_access(story: Path) -> str:
     manifest = story / "story.yaml"
     if not manifest.exists():
         return "trusted_runners_allowed"
-    text = manifest.read_text(encoding="utf-8")
-    if "source_policy:" in text and re_search_denied(text):
+    import yaml
+    try:
+        data = yaml.safe_load(manifest.read_text(encoding="utf-8")) or {}
+        if data.get("source_policy", {}).get("access") == "denied":
+            return "denied"
+    except (yaml.YAMLError, AttributeError):
         return "denied"
     return "trusted_runners_allowed"
 
@@ -307,17 +301,11 @@ def run_phase(args: argparse.Namespace, story: Path, run_dir: Path, summary: Pat
         append_summary(summary, phase, "planned", phase_started, int(time.time() - start), retry, args.runner, "-", "dry-run prompt rendered")
         return True
 
-    if mode == "v4" and phase == 5:
-        gate = validate_phase(story, 4, require_pass=True, mode=mode)
-        (run_dir / "phase5.preflight-quality-gate.log").write_text(gate.stdout + gate.stderr, encoding="utf-8")
+    if phase == phase_for_role(mode, "final"):
+        gate = validate_phase(story, phase_for_role(mode, "critic"), require_pass=True, mode=mode)
+        (run_dir / f"phase{phase}.preflight-quality-gate.log").write_text(gate.stdout + gate.stderr, encoding="utf-8")
         if gate.returncode != 0:
             append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, "-", "quality gate failed before finalizer")
-            return False
-    if mode in {"production", "production_v6", "ultra_short"} and phase == 7:
-        gate = validate_phase(story, 6, require_pass=True, mode=mode)
-        (run_dir / "phase7.preflight-quality-gate.log").write_text(gate.stdout + gate.stderr, encoding="utf-8")
-        if gate.returncode != 0:
-            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, "-", "production quality gate failed before final packager")
             return False
 
     runner_cmd = runner_args(args.runner, story, phase, prompt_path, run_dir, args.model, mode)
@@ -357,62 +345,82 @@ def run_phase(args: argparse.Namespace, story: Path, run_dir: Path, summary: Pat
         update_manifest(run_dir, {"last_failure": notes, "last_provider": provider, **phase_audit})
         return False
 
-    try:
-        parse_report = apply_artifact_bundle(story, phase, output_bundle.read_text(encoding="utf-8"), run_dir, ROOT, mode)
-    except (OSError, ValueError) as exc:
-        append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, f"artifact parse failed: {exc}")
-        write_json(run_dir / f"phase{phase}.parse-report.json", {"phase": phase, "status": "failed", "error": str(exc)})
-        update_manifest(run_dir, phase_audit)
-        return False
-
-    if mode in {"production", "production_v6", "ultra_short"}:
+    live_story = story
+    with StagedStory(story, run_dir, phase) as staged:
+        story = staged.path
+        update_manifest(run_dir, {f"phase_{phase}_attempt_tree": str(staged.path)})
         try:
-            normalization = normalize_story(story, phase, mode, runner=args.runner, provider=provider)
-        except Exception as exc:
-            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, f"normalizer failed: {exc}")
-            write_json(run_dir / f"phase{phase}.normalizer.log", {"phase": phase, "status": "failed", "error": str(exc)})
+            parse_report = apply_artifact_bundle(story, phase, output_bundle.read_text(encoding="utf-8"), run_dir, ROOT, mode, staged=True)
+        except (OSError, ValueError) as exc:
+            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, f"artifact parse failed: {exc}")
+            write_json(run_dir / f"phase{phase}.parse-report.json", {"phase": phase, "status": "failed", "error": str(exc)})
             update_manifest(run_dir, phase_audit)
             return False
-        write_json(run_dir / f"phase{phase}.normalizer.log", normalization)
 
-        try:
-            from auto_repair import run_repair_pass
-            repair_result = run_repair_pass(story, phase, mode)
-            write_json(run_dir / f"phase{phase}.repair-report.json", repair_result)
-        except Exception as exc:
-            write_json(run_dir / f"phase{phase}.repair-report.json", {"status": "fail", "error": str(exc)})
-
-    validation = validate_phase(story, phase, require_pass=(mode == "v4" and phase == 4) or (mode in {"production", "ultra_short"} and phase == 6), mode=mode)
-    (run_dir / f"phase{phase}.validator.log").write_text(validation.stdout + validation.stderr, encoding="utf-8")
-    if validation.returncode != 0 and not (mode == "production_v6" and phase == 6):
-        append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, "validator failed")
-        update_manifest(run_dir, {"last_failure": "validator failed", "last_provider": provider, **phase_audit})
-        return False
-
-    # Tomato rubric gate runs on phase 7 final-packager output. Failure marks
-    # the phase as failed so the retry loop can do targeted rework.
-    if mode in {"production", "production_v6", "ultra_short"} and phase == 7 and not args.dry_run and not args.skip_rubric and RUBRIC_CONFIG.get("enabled", True):
-        threshold = float(getattr(args, "rubric_threshold", None) or RUBRIC_CONFIG.get("pass_threshold", 8.0))
-        rubric_cmd = [
-            sys.executable,
-            str(ROOT / "scripts" / "tomato-rubric-score.py"),
-            "--story", str(story),
-            "--threshold", str(threshold),
-            "--write-report",
-            "--json",
-        ]
-        rubric_proc = run_command(rubric_cmd)
-        (run_dir / f"phase{phase}.rubric.log").write_text(rubric_proc.stdout + rubric_proc.stderr, encoding="utf-8")
-        if rubric_proc.returncode != 0:
+        if mode in {"production", "production_v6", "ultra_short"}:
             try:
-                rubric_payload = json.loads(rubric_proc.stdout) if rubric_proc.stdout.strip() else {}
-            except json.JSONDecodeError:
-                rubric_payload = {}
-            score = rubric_payload.get("overall_score", "?")
-            notes = f"tomato rubric below threshold (score={score} thr={threshold})"
-            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, notes)
-            update_manifest(run_dir, {"last_failure": notes, "last_provider": provider, **phase_audit})
+                normalization = normalize_story(story, phase, mode, runner=args.runner, provider=provider)
+            except Exception as exc:
+                append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, f"normalizer failed: {exc}")
+                write_json(run_dir / f"phase{phase}.normalizer.log", {"phase": phase, "status": "failed", "error": str(exc)})
+                update_manifest(run_dir, phase_audit)
+                return False
+            write_json(run_dir / f"phase{phase}.normalizer.log", normalization)
+
+            try:
+                from auto_repair import run_repair_pass
+                repair_result = run_repair_pass(story, phase, mode)
+                write_json(run_dir / f"phase{phase}.repair-report.json", repair_result)
+                if phase == phase_for_role(mode, "final"):
+                    normalize_story(story, phase, mode, runner=args.runner, provider=provider)
+            except Exception as exc:
+                write_json(run_dir / f"phase{phase}.repair-report.json", {"status": "fail", "error": str(exc)})
+
+        validation = validate_phase(story, phase, require_pass=phase >= phase_for_role(mode, "critic"), mode=mode)
+        (run_dir / f"phase{phase}.validator.log").write_text(validation.stdout + validation.stderr, encoding="utf-8")
+        if validation.returncode != 0:
+            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, "validator failed")
+            update_manifest(run_dir, {"last_failure": "validator failed", "last_provider": provider, **phase_audit})
             return False
+
+        # Tomato rubric gate runs on the current final-packager output. Failure marks
+        # the phase as failed so the retry loop can do targeted rework.
+        if mode in {"production", "production_v6", "ultra_short"} and phase == phase_for_role(mode, "final") and not args.dry_run and not args.skip_rubric and RUBRIC_CONFIG.get("enabled", True):
+            threshold = float(getattr(args, "rubric_threshold", None) or RUBRIC_CONFIG.get("pass_threshold", 8.0))
+            rubric_cmd = [
+                sys.executable,
+                str(ROOT / "scripts" / "tomato-rubric-score.py"),
+                "--story", str(story),
+                "--threshold", str(threshold),
+                "--write-report",
+                "--json",
+            ]
+            rubric_proc = run_command(rubric_cmd)
+            (run_dir / f"phase{phase}.rubric.log").write_text(rubric_proc.stdout + rubric_proc.stderr, encoding="utf-8")
+            if rubric_proc.returncode != 0:
+                try:
+                    rubric_payload = json.loads(rubric_proc.stdout) if rubric_proc.stdout.strip() else {}
+                except json.JSONDecodeError:
+                    rubric_payload = {}
+                score = rubric_payload.get("overall_score", "?")
+                notes = f"tomato rubric below threshold (score={score} thr={threshold})"
+                append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, notes)
+                update_manifest(run_dir, {"last_failure": notes, "last_provider": provider, **phase_audit})
+                return False
+        report_path = story / "quality-report.json"
+        if report_path.exists():
+            report_data = load_json(report_path)
+            metrics = report_data.get("machine_metrics", {})
+            if isinstance(metrics, dict) and isinstance(metrics.get("text_path"), str):
+                metrics["text_path"] = metrics["text_path"].replace(str(story), str(live_story.resolve()), 1)
+                write_json(report_path, report_data)
+        update_manifest(run_dir, {f"phase_{phase}_attempt_backup": str(staged.path)})
+        try:
+            staged.publish()
+        except OSError as exc:
+            append_summary(summary, phase, "failed", phase_started, int(time.time() - start), retry, args.runner, provider, f"publication failed: {exc}")
+            return False
+    story = live_story
 
     notes = f"{len(parse_report['written'])} artifacts ok"
     append_summary(summary, phase, "completed", phase_started, int(time.time() - start), retry, args.runner, provider, notes)
@@ -444,6 +452,15 @@ def run_phase(args: argparse.Namespace, story: Path, run_dir: Path, summary: Pat
 
 
 def run_pipeline(args: argparse.Namespace) -> int:
+    try:
+        with story_write_lock(Path(args.story)):
+            return _run_pipeline(args)
+    except (OSError, ValueError, ImportError) as exc:
+        eprint(f"Unable to run safely: {exc}")
+        return RUNNER_EXIT_VALIDATION_FAILED
+
+
+def _run_pipeline(args: argparse.Namespace) -> int:
     args.mode = normalize_pipeline_mode(args.mode)
     story = Path(args.story)
     if not story.exists():
@@ -490,10 +507,14 @@ def run_pipeline(args: argparse.Namespace) -> int:
     if args.to_phase and args.to_phase < args.from_phase:
         eprint(f"--to-phase ({args.to_phase}) must be >= --from-phase ({args.from_phase})")
         return 11
-    review_phase = 4 if args.mode == "v4" else (7 if args.mode == "production_v6" else 6)
-    rewrite_phase = 3 if args.mode == "v4" else (6 if args.mode == "production_v6" else 5)
+    review_phase = phase_for_role(args.mode, "critic")
+    rewrite_phase = phase_for_role(args.mode, "scene")
     while phase <= max_phase:
-        ok = run_phase(args, story, run_dir, summary, phase, retry)
+        try:
+            ok = run_phase(args, story, run_dir, summary, phase, retry)
+        except (OSError, ValueError) as exc:
+            eprint(f"phase {phase} failed safely: {exc}")
+            return RUNNER_EXIT_VALIDATION_FAILED
         if ok:
             phase += 1
             continue
@@ -544,7 +565,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
             )
             phase = rewrite_phase
             continue
-        if args.mode in {"production", "production_v6", "ultra_short"} and phase == 7 and retry < args.max_retries:
+        if args.mode in {"production", "production_v6", "ultra_short"} and phase == phase_for_role(args.mode, "final") and retry < args.max_retries:
             retry += 1
             if not args.dry_run:
                 final = story / "final.md"
@@ -561,7 +582,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
                     "phase2_blueprint_review": "skipped" if args.no_human_gates or args.runner == "mock" else "approved",
                 },
             )
-            phase = 7
+            phase = phase_for_role(args.mode, "final")
             continue
         if phase == 2 and not args.no_human_gates and args.runner != "mock":
             print(f"Human gate required. Approve with: python3 scripts/storyforge.py approve-gate --story {story} --gate phase2_blueprint_review")
@@ -583,11 +604,6 @@ def approve_gate(args: argparse.Namespace) -> int:
     update_story_automation(
         story,
         {
-            "last_run_id": args.run_id or "",
-            "runner": "",
-            "provider": "",
-            "current_phase": 2,
-            "retry_count": 0,
             "phase2_blueprint_review": "approved",
         },
     )
@@ -611,7 +627,7 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--heartbeat-seconds", type=float, default=float(os.environ.get("STORYFORGE_HEARTBEAT_SECONDS", "30")))
     run.add_argument("--dry-run", action="store_true")
     run.add_argument("--no-human-gates", action="store_true")
-    run.add_argument("--skip-rubric", action="store_true", help="skip tomato rubric gate after phase 7")
+    run.add_argument("--skip-rubric", action="store_true", help="skip tomato rubric gate after the final-packager phase")
     run.add_argument("--rubric-threshold", type=float, default=float(os.environ.get("STORYFORGE_RUBRIC_THRESHOLD", "0")) or None)
     run.set_defaults(func=run_pipeline)
 

@@ -3,12 +3,14 @@
 
 from __future__ import annotations
 
+from storyforge_lib import phase_for_role
+
 import json
 import math
 import re
 from collections import Counter
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 from v4_quality import (
     count_hits,
@@ -79,6 +81,10 @@ PRODUCTION_V6_ARTIFACTS = {
     ],
     8: [
         "final.md",
+        "craft-notes.md",
+        "tomato-submission.md",
+        "final-chapters/_chapters-map.md",
+        "final-chapters/*.md",
         "story.yaml",
     ],
     9: ["feedback-learning.json"],
@@ -643,8 +649,8 @@ def validate_market_brief_shape(story: Path, mode: str) -> List[str]:
         return []
     failures = []
     data = load_json(path)
-    if str(data.get("pipeline_mode", "")) not in {"production", "ultra_short"}:
-        failures.append("market-brief.json pipeline_mode must be production or ultra_short")
+    if str(data.get("pipeline_mode", "")) not in {"production", "production_v6", "ultra_short"}:
+        failures.append("market-brief.json pipeline_mode must be production, production_v6, or ultra_short")
     if data.get("target_platform") != "tomato":
         failures.append("market-brief.json target_platform must be tomato")
     target = data.get("target_length")
@@ -861,7 +867,7 @@ def validate_narration_crutches(text: str) -> Dict[str, Any]:
 
 
 def machine_evaluate(story: Path, phase: int, mode: str) -> Dict[str, Any]:
-    text_path = story / "final.md" if phase >= 7 and (story / "final.md").exists() else story / "draft.md"
+    text_path = story / "final.md" if phase >= phase_for_role(mode, "final") and (story / "final.md").exists() else story / "draft.md"
     text = text_path.read_text(encoding="utf-8") if text_path.exists() else ""
     chars = count_nonspace(text)
     target = target_range(story, mode)
@@ -884,14 +890,14 @@ def machine_evaluate(story: Path, phase: int, mode: str) -> Dict[str, Any]:
 
     paywall_actual = count_paywall_cards(story)
     paywall_required = max(1, math.ceil(max(chars, target["target_min"]) / 3500))
-    direct_submission = direct_submission_metrics(story, text, paywall_required) if phase >= 7 else {
+    direct_submission = direct_submission_metrics(story, text, paywall_required) if phase >= phase_for_role(mode, "final") else {
         "status": "pass",
         "opening_guide": {"status": "pass"},
         "mobile_paragraphs": {"status": "pass"},
         "submission_paywall_map": {"status": "pass", "required": paywall_required, "actual": paywall_required},
         "visible_paywall_labels": {"status": "pass", "count": 0, "hits": []},
     }
-    if phase >= 7:
+    if phase >= phase_for_role(mode, "final"):
         hook_hits, chapter_count, hook_coverage = chapter_hook_coverage(story)
         chapters = chapter_files(story)
         chapter_lengths = [count_nonspace(path.read_text(encoding="utf-8")) for path in chapters]
@@ -917,7 +923,7 @@ def machine_evaluate(story: Path, phase: int, mode: str) -> Dict[str, Any]:
         failures.append(f"target_length: actual {chars} exceeds max tolerance {int(target['target_max'] * 1.25)}")
     if phase >= 5 and paywall_actual < paywall_required and mode != "production_v6":
         failures.append(f"paywall_cards: actual {paywall_actual} below required {paywall_required}")
-    final_phase = 8 if mode == "production_v6" else 7
+    final_phase = phase_for_role(mode, "final")
     if phase >= final_phase:
         if direct_submission["opening_guide"]["status"] != "pass":
             failures.append(
@@ -979,7 +985,7 @@ def machine_evaluate(story: Path, phase: int, mode: str) -> Dict[str, Any]:
             "hook_hits": hook_hits,
             "hook_coverage": hook_coverage,
             "lengths": chapter_lengths,
-            "status": "pass" if phase < 7 or (chapter_count > 0 and hook_coverage >= 1.0) else "fail",
+            "status": "pass" if phase < phase_for_role(mode, "final") or (chapter_count > 0 and hook_coverage >= 1.0) else "fail",
         },
         "paywall_cards": {
             "required": paywall_required,
@@ -1023,7 +1029,7 @@ def _metric_value(section: Any, key: str) -> Any:
     return section.get(key) if isinstance(section, dict) else None
 
 
-def validate_quality_report_metric_sync(report: Dict[str, Any], metrics: Dict[str, Any], phase: int) -> List[str]:
+def validate_quality_report_metric_sync(report: Dict[str, Any], metrics: Dict[str, Any], phase: int, mode: str = "production") -> List[str]:
     failures = []
     machine = report.get("machine_metrics")
     if not isinstance(machine, dict):
@@ -1032,13 +1038,13 @@ def validate_quality_report_metric_sync(report: Dict[str, Any], metrics: Dict[st
     target = machine.get("target_length")
     actual = _metric_value(target, "actual")
     recomputed_actual = metrics.get("target_length", {}).get("actual")
-    if phase >= 7 and _is_number(actual) and _is_number(recomputed_actual) and int(actual) != int(recomputed_actual):
+    if phase >= phase_for_role(mode, "final") and _is_number(actual) and _is_number(recomputed_actual) and int(actual) != int(recomputed_actual):
         failures.append(
             f"quality-report.json machine_metrics.target_length.actual does not match machine recompute: {actual} != {recomputed_actual}"
         )
 
     paywall = machine.get("paywall_cards")
-    if phase >= 7:
+    if phase >= phase_for_role(mode, "final"):
         for key in ["required", "actual"]:
             reported = _metric_value(paywall, key)
             recomputed = metrics.get("paywall_cards", {}).get(key)
@@ -1047,7 +1053,7 @@ def validate_quality_report_metric_sync(report: Dict[str, Any], metrics: Dict[st
                     f"quality-report.json machine_metrics.paywall_cards.{key} does not match machine recompute: {reported} != {recomputed}"
                 )
 
-    if phase >= 7:
+    if phase >= phase_for_role(mode, "final"):
         chapters = machine.get("chapters")
         reported_count = _metric_value(chapters, "count")
         recomputed_count = metrics.get("chapters", {}).get("count")
@@ -1072,7 +1078,7 @@ def validate_quality_report_against_machine(story: Path, metrics: Dict[str, Any]
         return failures
     report = load_json(report_path)
     failures.extend(validate_quality_report_shape(report, metrics, phase, mode=mode))
-    failures.extend(validate_quality_report_metric_sync(report, metrics, phase))
+    failures.extend(validate_quality_report_metric_sync(report, metrics, phase, mode))
     gate = str(report.get("gate_status", "")).lower()
     if gate == "pass" and metrics["failures"] and mode != "production_v6":
         failures.append("quality-report.json self-reports pass but machine metrics fail: " + "; ".join(metrics["failures"]))
@@ -1234,11 +1240,11 @@ def validate_story(story: Path, phase: int, mode: str, require_pass: bool = Fals
         failures.extend(validate_story_brief_shape(story))
     if phase >= 3:
         failures.extend(validate_adaptation_room_shape(story))
-    beat_bible_phase = 5 if mode == "production_v6" else 4
-    scene_draft_phase = 6 if mode == "production_v6" else 5
-    machine_eval_phase = 6 if mode == "production_v6" else 5
-    quality_report_phase = 7 if mode == "production_v6" else 6
-    final_phase = 8 if mode == "production_v6" else 7
+    beat_bible_phase = phase_for_role(mode, "beat")
+    scene_draft_phase = phase_for_role(mode, "scene")
+    machine_eval_phase = scene_draft_phase
+    quality_report_phase = phase_for_role(mode, "critic")
+    final_phase = phase_for_role(mode, "final")
     if phase >= beat_bible_phase:
         failures.extend(validate_beat_bible_shape(story, mode=mode))
     if phase >= scene_draft_phase:
@@ -1267,7 +1273,7 @@ def validate_story(story: Path, phase: int, mode: str, require_pass: bool = Fals
             provider = str(automation.get("provider", ""))
             if (runner == "mock" or provider == "mock") and manifest.get("status") != "test_fixture":
                 failures.append("mock runner output cannot be marked as production final; use status: test_fixture")
-    if phase >= 8:
+    if phase >= phase_for_role(mode, "feedback"):
         failures.extend(validate_feedback_learning_shape(story))
 
     return {

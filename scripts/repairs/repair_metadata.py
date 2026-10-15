@@ -58,7 +58,7 @@ def run(story: Path, mode: str = "production") -> Dict[str, Any]:
     if yaml_path.exists():
         text = yaml_path.read_text(encoding="utf-8")
         original = text
-        if gate_status == "pass":
+        if gate_status == "pass" and not re.search(r"^status:\s*test_fixture\s*$", text, re.MULTILINE):
             text = _patch_yaml_field(text, "status", "final")
         if target.get("actual"):
             text = _patch_yaml_field(text, "total_chars", int(target["actual"]))
@@ -100,7 +100,8 @@ def run(story: Path, mode: str = "production") -> Dict[str, Any]:
 
 
 if __name__ == "__main__":
-    import argparse, sys
+    import argparse
+    import sys
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--story", required=True)

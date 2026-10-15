@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
+from storyforge_lib import phase_for_role
 from production_quality import count_nonspace, machine_evaluate, validate_story
 
 
@@ -232,7 +233,7 @@ def update_quality_report_metrics(story: Path, phase: int, mode: str) -> List[st
 
 
 def draft_scenes_are_valid(story: Path, mode: str) -> bool:
-    result = validate_story(story, 5, mode)
+    result = validate_story(story, phase_for_role(mode, "scene"), mode)
     return result.get("status") == "pass"
 
 
@@ -277,13 +278,17 @@ def repack_from_draft_scenes(story: Path, mode: str) -> List[str]:
     for path in final_chapter_paths(story):
         path.unlink()
 
-    final_parts: List[str] = []
+    existing_final = (story / "final.md").read_text(encoding="utf-8") if (story / "final.md").exists() else ""
+    # Preserve the model's title/guide when reflowing chapters; never invent one.
+    heading = re.search(r"^#{1,3}\s*第\s*\d+\s*章", existing_final, re.MULTILINE)
+    prefix = existing_final[:heading.start()].strip() if heading else ""
+    final_parts: List[str] = [prefix] if prefix else []
     map_lines = ["| 章 | 字数 | 本章悬念 |", "|---|---:|---|"]
     for index, scene in enumerate(scenes, start=1):
         text = scene.read_text(encoding="utf-8").strip()
         chapter_path = chapters_dir / f"ch{index:02d}.md"
         chapter_path.write_text(text + "\n", encoding="utf-8")
-        final_parts.append(text)
+        final_parts.append(f"## 第 {index} 章\n\n{text}")
         map_lines.append(f"| {index:02d} | {count_nonspace(text)} | {_chapter_hook(text, index)} |")
 
     (story / "final.md").write_text("\n\n".join(final_parts).strip() + "\n", encoding="utf-8")
@@ -325,8 +330,8 @@ def set_story_status(story: Path, status: str) -> bool:
 
 def normalize_phase7(story: Path, mode: str, runner: str = "", provider: str = "") -> List[str]:
     changes = repack_from_draft_scenes(story, mode)
-    changes.extend(update_quality_report_metrics(story, 7, mode))
-    metrics = refresh_machine_metrics(story, 7, mode)
+    changes.extend(update_quality_report_metrics(story, phase_for_role(mode, "final"), mode))
+    metrics = refresh_machine_metrics(story, phase_for_role(mode, "final"), mode)
     if not metrics.get("failures"):
         status = "test_fixture" if _runner_is_mock(story, runner, provider) else "final"
         if set_story_status(story, status):
@@ -341,11 +346,11 @@ def normalize_story(story: Path, phase: int, mode: str, runner: str = "", provid
     changes: List[str] = []
     if phase == 3:
         changes.extend(normalize_phase3(story))
-    elif phase == 4:
+    elif phase == phase_for_role(mode, "beat"):
         changes.extend(normalize_phase4(story))
-    elif phase == 6:
-        changes.extend(update_quality_report_metrics(story, 6, mode))
-    elif phase == 7:
+    elif phase == phase_for_role(mode, "critic"):
+        changes.extend(update_quality_report_metrics(story, phase, mode))
+    elif phase == phase_for_role(mode, "final"):
         changes.extend(normalize_phase7(story, mode, runner, provider))
     return {
         "story": str(story),
@@ -359,7 +364,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser()
     parser.add_argument("--story", required=True)
     parser.add_argument("--phase", required=True, type=int, choices=range(1, 9))
-    parser.add_argument("--mode", default="production", choices=["production", "ultra_short"])
+    parser.add_argument("--mode", default="production", choices=["production", "production_v6", "ultra_short"])
     parser.add_argument("--runner", default="")
     parser.add_argument("--provider", default="")
     return parser
