@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tests"))
 
-from test_production_quality import add_common_production_artifacts, count_nonspace, make_story_text, split_story_text, write_bundle
+from test_production_quality import direct_submission_final, add_common_production_artifacts, count_nonspace, make_story_text, split_story_text, write_bundle
 
 
 def run_storyforge(*args, env=None):
@@ -196,7 +196,8 @@ def test_render_phase_prompt_expands_story_glob_inputs(tmp_path):
     assert "### story/scene-cards/scene-01.json" in result.stdout
     assert "### story/scene-cards/scene-02.json" in result.stdout
     assert "遗嘱" in result.stdout
-    assert "[MISSING INPUT: " not in result.stdout
+    assert "[MISSING INPUT: " + str(story / "scene-cards") not in result.stdout
+    assert "scene-rewrite-todo.json" in result.stdout
 
 
 def test_storyforge_normalizes_phase3_and_phase4_fixture_drift(tmp_path):
@@ -309,7 +310,10 @@ def test_storyforge_phase6_normalizes_scores_but_preserves_fail_gate(tmp_path):
     assert "quality gate failed: gate_status=fail" in validator_log
     assert "score must be a number from 0 to 10" not in validator_log
     assert "missing machine-readable gate block" not in validator_log
-    assert json.loads((story / "quality-report.json").read_text(encoding="utf-8"))["critic_scores"]["logic"] == 6.4
+    # A rejected attempt must leave the previously published passing report untouched.
+    assert json.loads((story / "quality-report.json").read_text(encoding="utf-8"))["critic_scores"]["logic"] == 8
+    candidates = list(tmp_path.glob(".phase6_fail_story.attempt-*/phase6_fail_story/quality-report.json"))
+    assert any(json.loads(path.read_text())["critic_scores"]["logic"] == 6.4 for path in candidates)
 
 
 def test_storyforge_phase7_fallback_repacks_overlong_chapters_from_scenes(tmp_path):
@@ -320,7 +324,7 @@ def test_storyforge_phase7_fallback_repacks_overlong_chapters_from_scenes(tmp_pa
     fixtures = tmp_path / "fixtures"
     overlong = "\n".join(chunks[:2])
     phase7_files = {
-        "final.md": draft_text,
+        "final.md": direct_submission_final(chunks),
         "craft-notes.md": "# craft\n",
         "tomato-submission.md": "# submission\n",
         "story.yaml": "slug: phase7_fallback_story\npipeline_mode: production\nstatus: final\n",

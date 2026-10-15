@@ -144,6 +144,7 @@ def production_quality_report(final_text=None, chapter_count=0, hook_coverage=0,
                 "submission_paywall_map": {"required": paywall_required, "actual": max(paywall_required, 3), "present": True, "status": "pass"},
                 "visible_paywall_labels": {"hits": [], "count": 0, "status": "pass"},
             },
+            "source_rhythm_fit": {"status": "pass", "applicable": False},
             "source_overlap": {"max_continuous_overlap_chars": 0, "status": "pass"},
             "repeated_ngram": {"max_repeated_substring_chars": 0, "status": "pass"},
             "style_metrics": {"avg_sentence_length": 18, "dialogue_ratio": 0.35, "action_density_per_k": 12},
@@ -153,6 +154,15 @@ def production_quality_report(final_text=None, chapter_count=0, hook_coverage=0,
         "critic_scores": {"platform": 8, "emotion": 8, "style": 8, "logic": 8},
         "evidence": ["开篇用遗嘱和退让协议制造点击钩。", "中段用录音和签收单递进证据。", "结尾以审计报告完成规则回旋。"],
     }
+
+
+def rhythm_contract():
+    return {"avg_visual_line_chars_range": [10, 40],
+            "short_line_rate_lte_16_min": 0, "short_line_rate_lte_16_max": 1,
+            "direct_dialogue_line_rate_min": 0, "direct_dialogue_line_rate_max": 1,
+            "barrage_line_rate_min": 0, "barrage_line_rate_max": 1,
+            "question_mark_density_per_1000_chars_min": 0,
+            "question_mark_density_per_1000_chars_max": 30}
 
 
 def add_common_production_artifacts(story, final_text, hookless=False, source_text="合成测试原文"):
@@ -214,6 +224,7 @@ def add_common_production_artifacts(story, final_text, hookless=False, source_te
             {
                 "pipeline_mode": "production",
                 "target_length": {"min": 10000, "max": 18000},
+                "rhythm_contract": rhythm_contract(),
                 "beats": [
                     {
                         "beat_id": "beat-01",
@@ -280,6 +291,7 @@ def add_common_production_artifacts(story, final_text, hookless=False, source_te
                     "payoff_or_hook": "门后传来哥哥名字",
                     "chapter_end_hook": "门后是谁",
                     "paywall_card": index in {1, 5, 9},
+                    "rhythm_job": "生活动作与呼吸留白",
                     "must_include": ["遗嘱", "录音笔"],
                     "must_not_write_as_exposition": ["不能用旁白解释哥哥身份"],
                 },
@@ -300,7 +312,7 @@ def add_common_production_artifacts(story, final_text, hookless=False, source_te
         write(story / "evaluation" / f"{name}.json", json.dumps({"status": "pass", "score": 8, "evidence": [f"{name} 已用正文证据核验"]}, ensure_ascii=False))
     write(story / "final.md", final_direct)
     write(story / "craft-notes.md", "# craft\n")
-    write(story / "tomato-submission.md", submission_with_paywall_map())
+    write(story / "tomato-submission.md", submission_with_paywall_map(4))
     chapter_rows = ["| 章 | 字数 | 本章钩子 |", "|---|---:|---|"]
     for index, chunk in enumerate(chunks, start=1):
         write(story / "final-chapters" / f"ch{index:02d}.md", chunk)
@@ -356,7 +368,7 @@ def test_production_validator_rejects_multi_sentence_paragraphs(tmp_path):
     story = tmp_path / "story"
     add_common_production_artifacts(story, make_story_text(10500))
     final_text = (story / "final.md").read_text(encoding="utf-8")
-    final_text = final_text.replace("导语：闻夏被家人压在客厅里签退让协议时，门外忽然送来一份遗嘱。", "导语：闻夏被家人压在客厅里签退让协议时，门外忽然送来一份遗嘱。她没有哭。")
+    final_text = final_text.replace("导语：闻夏被家人压在客厅里签退让协议时，门外忽然送来一份遗嘱。", "导语：闻夏被家人压在客厅里签退让协议时，门外忽然送来一份遗嘱。" + "她没有哭，只是站在门边望着那些想要逼她签字的人。" * 6)
     write(story / "final.md", final_text)
     report = json.loads((story / "quality-report.json").read_text(encoding="utf-8"))
     report["machine_metrics"]["target_length"]["actual"] = count_nonspace(final_text)
@@ -539,6 +551,7 @@ def test_production_validator_rejects_summary_only_beat_bible(tmp_path):
             {
                 "pipeline_mode": "production",
                 "target_length": {"min": 10000, "max": 18000},
+                "rhythm_contract": rhythm_contract(),
                 "beats": [{"beat_id": "beat-01", "paywall_card": True}],
             },
             ensure_ascii=False,
@@ -663,7 +676,8 @@ def test_production_mock_runner_completes_8_phase_pipeline(tmp_path):
                 {
                     "pipeline_mode": "production",
                     "target_length": {"min": 10000, "max": 18000},
-                    "beats": [
+                    "rhythm_contract": rhythm_contract(),
+                "beats": [
                         {
                             "beat_id": "b1",
                             "target_chars": 3000,
@@ -723,6 +737,7 @@ def test_production_mock_runner_completes_8_phase_pipeline(tmp_path):
                         "payoff_or_hook": "门开了",
                         "chapter_end_hook": "门开了",
                         "paywall_card": index in {1, 5, 9},
+                        "rhythm_job": "生活动作与呼吸留白",
                         "must_include": ["遗嘱"],
                         "must_not_write_as_exposition": ["不能摘要化"],
                     },

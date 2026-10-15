@@ -53,3 +53,7 @@ scratch/
 # 本地 AI / IDE 工具状态
 .comate/
 .context/
+
+# Local transaction candidates/backups retain private story inputs.
+.*.attempt-*/
+.*.storyforge.lock
