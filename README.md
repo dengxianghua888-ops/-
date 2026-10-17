@@ -340,3 +340,11 @@ python3 scripts/corpus-health.py
 ## License / 原文版权
 
 `corpus/` 与 `stories/` 下的 source.md 为第三方爆款原文,仅作仿写学习 few-shot 参考,**不得分发**。`.gitignore` 已默认排除这些原文文件。
+
+### Optional scene continuity evidence
+
+The split scene writer can use a human-maintained, position-scoped fact ledger.
+Plans and candidates are kept separate from reviewed earlier facts; source
+revisions invalidate affected context. See [scope, format and limitations](docs/scene-continuity.md).
+This opt-in pilot is tested with synthetic counterexamples, not a claim of
+improved literary quality.

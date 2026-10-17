@@ -416,6 +416,8 @@ def render_phase_prompt(story: Path, phase: int, root: Path | None = None, mode:
     root = root or repo_root()
     normalized = normalize_pipeline_mode(mode)
     bundle = load_phase_bundle(phase, root, normalized)
+    if phase == phase_for_role(normalized, "scene") and (story / "continuity-ledger.json").exists():
+        raise ValueError("Continuity ledger requires position-isolated prompts; use generate_scene_batches.py")
     parts = [
         f"# StoryForge {normalized} Phase {phase}: {bundle.title}",
         "",
