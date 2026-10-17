@@ -220,3 +220,76 @@ def test_cross_story_batch_card_rejected(story, tmp_path_factory):
     write(other, {"scene_id": "scene-02"})
     with pytest.raises(ContextError, match="escapes"):
         prompt_for_batch(story, [other], 1, 1)
+
+
+def test_scoped_repair_preserves_reviewed_prose_cards_and_assembly(story):
+    from repairs import repair_fragmentation_and_soft_words as repair
+
+    original = '阿青轻轻拿着钥匙。\n“你会归还信件吗？”\n'
+    write(story / "draft-scenes/scene-01.md", original)
+    data = ledger(story)
+    data["entries"] = [data["entries"][0]]
+    data["entries"][0]["source"] = {**source_evidence(story, "scene-01"), "quote": "阿青轻轻拿着钥匙。"}
+    write(story / "continuity-ledger.json", data)
+    write(story / "draft.md", "existing assembly must survive scoped repair")
+    before = {str(p.relative_to(story)): p.read_bytes() for p in story.rglob("*") if p.is_file()}
+    write(story / "draft-scenes/scene-02.md", '“阿白轻轻拿着纸条，站在窗边问话吗？”\n' * 8)
+    report = repair.run(story, scene_ids=["scene-02"])
+    assert report["question_rewrites"] > 0
+    assert "轻轻" not in (story / "draft-scenes/scene-02.md").read_text()
+    allowed = {"draft-scenes/scene-02.md", "scene-cards/scene-02.json"}
+    for rel, content in before.items():
+        if rel not in allowed:
+            assert (story / rel).read_bytes() == content, rel
+    assert state(build_context(story, "scene-03"), "key", "holder") == "阿青"
+
+
+def test_generation_retry_repair_then_next_scene_keeps_accepted_history(story, monkeypatch):
+    import re
+    import subprocess
+
+    import generate_scene_batches as batches
+
+    original = '阿青轻轻拿着钥匙。\n“你会归还信件吗？”\n'
+    write(story / "draft-scenes/scene-01.md", original)
+    data = ledger(story)
+    data["entries"] = [data["entries"][0]]
+    data["entries"][0]["source"] = {**source_evidence(story, "scene-01"), "quote": "阿青轻轻拿着钥匙。"}
+    write(story / "continuity-ledger.json", data)
+    first_card = (story / "scene-cards/scene-01.json").read_bytes()
+    accepted_ledger = (story / "continuity-ledger.json").read_bytes()
+    prompts = []
+    attempts = {}
+
+    def fake_codex(prompt, output_path, model, effort, timeout):
+        prompts.append(prompt)
+        sid = re.search(r"- draft-scenes/(scene-\d+)\.md", prompt).group(1)
+        attempts[sid] = attempts.get(sid, 0) + 1
+        prose = "短" if sid == "scene-02" and attempts[sid] == 1 else '“阿白轻轻拿着纸条，站在窗边问话吗？”\n' * 8
+        output_path.write_text(f"<<<FILE: draft-scenes/{sid}.md>>>\n{prose}\n<<<END FILE>>>\n", encoding="utf-8")
+        return subprocess.CompletedProcess([], 0, "", "")
+
+    monkeypatch.setattr(batches, "run_codex", fake_codex)
+    monkeypatch.setattr(batches, "relative", str)
+    monkeypatch.setattr(sys, "argv", ["generate_scene_batches.py", "--story", str(story), "--start-at", "2", "--run-id", "scoped-integration", "--batch-size", "3"])
+    assert batches.main() == 0
+    assert attempts == {"scene-02": 2, "scene-03": 1, "scene-04": 1, "scene-05": 1, "scene-06": 1}
+    assert any("split scene repair" in prompt for prompt in prompts)
+    assert (story / "draft-scenes/scene-01.md").read_text() == original
+    assert (story / "scene-cards/scene-01.json").read_bytes() == first_card
+    assert (story / "continuity-ledger.json").read_bytes() == accepted_ledger
+    assert state(build_context(story, "scene-06"), "key", "holder") == "阿青"
+    manifest = json.loads((story / "runs/scoped-integration/split-scene-report.json").read_text())
+    assert manifest["effective_batch_size"] == 1 and manifest["status"] == "success"
+    assert (story / "draft.md").read_text().startswith(original.strip())
+
+
+@pytest.mark.parametrize("ids", [["../scene-01"], ["scene-02", "scene-02"], ["scene-999"], []])
+def test_scoped_repair_rejects_invalid_targets_before_writes(story, ids):
+    from repairs import repair_fragmentation_and_soft_words as repair
+
+    before = {str(p.relative_to(story)): p.read_bytes() for p in story.rglob("*") if p.is_file()}
+    with pytest.raises(ValueError):
+        repair.run(story, scene_ids=ids)
+    after = {str(p.relative_to(story)): p.read_bytes() for p in story.rglob("*") if p.is_file()}
+    assert before == after

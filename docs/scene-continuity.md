@@ -126,3 +126,14 @@ and promise fulfillment. It checks source/prefix revision, rejected candidates,
 budget clipping, numeric ordering, path confinement, generation/repair wiring,
 and unchanged legacy behavior. Real-author blind evaluation, model obedience,
 and improvements to literary quality are **NOT_RUN**.
+
+### Scoped repair boundary
+
+For ledger-enabled generation, automatic prose/card cleanup and question-pressure
+reduction are restricted to the current generated scene. Earlier accepted drafts,
+their cards, other scenes, and the ledger are not rewritten. Scoped repair does
+not assemble `draft.md`; the split runner assembles it only after all batches
+pass. Legacy whole-story repair remains unchanged when no scene IDs are supplied.
+An integration regression runs the actual split runner with offline model output,
+a forced retry, real repair/validation and subsequent scenes, and checks accepted
+history byte-for-byte. No paid model is invoked by these tests.

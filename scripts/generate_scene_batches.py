@@ -502,7 +502,10 @@ def main() -> int:
                 written = []
                 scene_failures = [f"artifact_parse: {exc}"]
             else:
-                repair_fragmentation_and_soft_words.run(story)
+                if (story / LEDGER).exists():
+                    repair_fragmentation_and_soft_words.run(story, scene_ids=[card["scene_id"] for card in cards])
+                else:
+                    repair_fragmentation_and_soft_words.run(story)
                 scene_failures = validate_scene_batch(story, batch, written)
             batch_report.setdefault("attempts", []).append(
                 {
