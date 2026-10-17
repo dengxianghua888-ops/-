@@ -448,7 +448,16 @@ def render_phase_prompt(story: Path, phase: int, root: Path | None = None, mode:
             parts.append(f"### {label}")
             parts.append("")
             if path.exists():
-                parts.append(read_text(path))
+                if path.name == "story.yaml":
+                    # Operational gate/run metadata is not model input.
+                    import yaml
+                    data = yaml.safe_load(read_text(path)) or {}
+                    if not isinstance(data, dict):
+                        raise ValueError("story.yaml must be a mapping")
+                    data.pop("automation", None)
+                    parts.append(yaml.safe_dump(data, allow_unicode=True, sort_keys=True))
+                else:
+                    parts.append(read_text(path))
             else:
                 parts.append(f"[MISSING INPUT: {path}]")
             parts.append("")

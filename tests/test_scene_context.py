@@ -271,7 +271,7 @@ def test_generation_retry_repair_then_next_scene_keeps_accepted_history(story, m
 
     monkeypatch.setattr(batches, "run_codex", fake_codex)
     monkeypatch.setattr(batches, "relative", str)
-    monkeypatch.setattr(sys, "argv", ["generate_scene_batches.py", "--story", str(story), "--start-at", "2", "--run-id", "scoped-integration", "--batch-size", "3"])
+    monkeypatch.setattr(sys, "argv", ["generate_scene_batches.py", "--story", str(story), "--start-at", "2", "--run-id", "scoped-integration", "--batch-size", "3", "--no-human-gates"])
     assert batches.main() == 0
     assert attempts == {"scene-02": 2, "scene-03": 1, "scene-04": 1, "scene-05": 1, "scene-06": 1}
     assert any("split scene repair" in prompt for prompt in prompts)

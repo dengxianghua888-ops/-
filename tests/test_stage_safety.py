@@ -27,15 +27,22 @@ def tree_bytes(story):
             if p.is_file() and "runs" not in p.relative_to(story).parts}
 
 
-def test_gate_approval_preserves_source_policy_and_automation(tmp_path):
+def test_gate_approval_preserves_source_policy_and_automation(tmp_path, monkeypatch):
     story = tmp_path / "story"
     write(story / "source.md", "private source")
     original = {"slug": "story", "source_policy": {"access": "denied", "notes": "owner only"},
                 "automation": {"runner": "agent", "current_phase": 3, "custom": "keep",
                                "human_gates": {"another_gate": "pending"}}}
     write(story / "story.yaml", yaml.safe_dump(original))
-    result = run_storyforge("approve-gate", "--story", story, "--gate", "phase2_blueprint_review")
-    assert result.returncode == 0
+    import argparse
+    import subprocess
+    from approval_snapshots import configuration
+    write(story / "blueprint.md", "reviewed blueprint")
+    write(story / "adaptation.md", "reviewed adaptation")
+    run_args = storyforge.build_parser().parse_args(["run", "--story", str(story)])
+    lib.write_json(story / "runs/r/blueprint-pending.json", {"configuration": configuration(run_args)})
+    monkeypatch.setattr(storyforge, "validate_phase", lambda *a, **kw: subprocess.CompletedProcess([], 0))
+    assert storyforge.approve_gate(argparse.Namespace(story=str(story), run_id="r", gate="phase2_blueprint_review")) == 0
     after = yaml.safe_load((story / "story.yaml").read_text())
     assert after["source_policy"] == original["source_policy"]
     assert after["automation"] == original["automation"] | {"human_gates": {

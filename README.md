@@ -348,3 +348,9 @@ Plans and candidates are kept separate from reviewed earlier facts; source
 revisions invalidate affected context. See [scope, format and limitations](docs/scene-continuity.md).
 This opt-in pilot is tested with synthetic counterexamples, not a claim of
 improved literary quality.
+
+### 审批快照与安全续跑
+
+蓝图审批现在绑定候选内容、上游输入、提示词、校验规则和模型配置；变更后需要明确重审。
+`--resume` 仅复用输入一致、产物指纹一致且重新校验通过的阶段，旧 `approved` 不会自动升级为历史审批。
+分场入口也支持 `--approval-run-id`。操作示例与兼容边界见 [审批快照说明](docs/approval-snapshots.md)。

@@ -410,10 +410,26 @@ def assemble_draft(story: Path, scene_cards: List[Path]) -> Dict[str, Any]:
     }
 
 
+def check_blueprint_approval(story, args):
+    """The split-scene entry point must honor the same reviewed blueprint."""
+    if args.no_human_gates:
+        return
+    from approval_snapshots import require_approval
+    if not args.approval_run_id or Path(args.approval_run_id).name != args.approval_run_id:
+        raise ValueError("Use --approval-run-id for the explicitly approved pipeline run")
+    approval_dir = story / "runs" / args.approval_run_id
+    pending = load_json(approval_dir / "blueprint-pending.json")
+    config = dict(pending["configuration"])
+    config.update(runner="codex", model=args.model, effort=args.effort)
+    require_approval(story, approval_dir, ROOT, argparse.Namespace(**config))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--story", required=True)
     parser.add_argument("--run-id", default="")
+    parser.add_argument("--approval-run-id", default="", help="pipeline run holding the reviewed blueprint snapshot")
+    parser.add_argument("--no-human-gates", action="store_true", help="explicitly bypass blueprint review")
     parser.add_argument("--batch-size", type=int, default=3)
     parser.add_argument("--model", default="gpt-5.4")
     parser.add_argument("--effort", default=os.environ.get("STORYFORGE_CODEX_REASONING_EFFORT", "medium"))
@@ -428,6 +444,7 @@ def main() -> int:
     if not story.is_absolute():
         story = ROOT / story
     story = story.resolve()
+    check_blueprint_approval(story, args)
     if not (story / "beat-bible.json").exists():
         raise SystemExit("missing beat-bible.json; run phase 4 first")
     all_scene_cards = [story / "scene-cards" / f"{sid}.json" for sid in scene_order(story)]
@@ -486,6 +503,7 @@ def main() -> int:
             attempt_out_path = run_dir / f"batch{index:02d}{suffix}.codex.out"
             attempt_log_path = run_dir / f"batch{index:02d}{suffix}.codex.log"
             write_text(attempt_prompt_path, current_prompt)
+            check_blueprint_approval(story, args)
             completed = run_codex(current_prompt, attempt_out_path, args.model, args.effort, args.timeout)
             attempt_log_path.write_text((completed.stdout or "") + (completed.stderr or ""), encoding="utf-8")
             bundle_text = attempt_out_path.read_text(encoding="utf-8") if attempt_out_path.exists() else completed.stdout
